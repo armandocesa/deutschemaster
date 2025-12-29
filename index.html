@@ -238,6 +238,36 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 /* Empty State */
 .empty-state { text-align: center; padding: 60px 20px; color: var(--text-secondary); }
 
+/* Favorites / Saved Words */
+.favorites-page { animation: fadeIn 0.3s ease; }
+.favorites-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.filter-btns { display: flex; gap: 8px; }
+.filter-btns button { padding: 8px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-card); color: var(--text-secondary); font-size: 13px; cursor: pointer; }
+.filter-btns button:hover { background: var(--bg-card-hover); }
+.filter-btns button.active { background: var(--accent); border-color: var(--accent); color: white; }
+.quiz-favorites-btn { display: flex; align-items: center; gap: 8px; padding: 10px 20px; background: var(--accent); border: none; border-radius: 8px; color: white; font-size: 14px; cursor: pointer; }
+.quiz-favorites-btn:hover { opacity: 0.9; }
+.quiz-favorites-btn svg { width: 18px; height: 18px; }
+.favorites-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.favorite-card { position: relative; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.favorite-card:hover { border-color: var(--accent); }
+.favorite-main { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+.favorite-translation { color: var(--text-secondary); font-size: 14px; margin-bottom: 10px; }
+.favorite-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; background: var(--accent)20; color: var(--accent); }
+.remove-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; color: var(--text-secondary); cursor: pointer; padding: 4px; }
+.remove-btn:hover { color: var(--error); }
+.remove-btn svg { width: 16px; height: 16px; }
+
+/* Save Button */
+.save-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; color: var(--text-secondary); cursor: pointer; padding: 4px; z-index: 10; }
+.save-btn:hover { color: #f59e0b; }
+.save-btn.saved { color: #f59e0b; }
+.save-btn svg { width: 18px; height: 18px; }
+.word-card { position: relative; }
+.verb-card { position: relative; }
+.verb-content { cursor: pointer; }
+.word-row .save-btn { position: static; }
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg-primary); }
@@ -270,8 +300,30 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       Check: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>,
       X: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>,
       Search: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>,
+      Star: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>,
+      StarFilled: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>,
       Volume: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>,
       ChevronRight: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>,
+    };
+
+    // ============ PAROLE DIFFICILI (localStorage) ============
+    const getDifficultWords = () => {
+      try { return JSON.parse(localStorage.getItem('difficultWords')) || []; } catch { return []; }
+    };
+    const saveDifficultWord = (word, type = 'word') => {
+      const words = getDifficultWords();
+      const id = type === 'verb' ? word.infinitiv : word.german;
+      if (!words.find(w => w.id === id)) {
+        words.push({ ...word, id, type, savedAt: Date.now() });
+        localStorage.setItem('difficultWords', JSON.stringify(words));
+      }
+    };
+    const removeDifficultWord = (id) => {
+      const words = getDifficultWords().filter(w => w.id !== id);
+      localStorage.setItem('difficultWords', JSON.stringify(words));
+    };
+    const isDifficultWord = (id) => {
+      return getDifficultWords().some(w => w.id === id);
     };
 
     const LEVEL_COLORS = {
@@ -320,6 +372,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             {currentPage === 'grammar' && <GrammarPage level={selectedLevel} topic={selectedTopic} onNavigate={navigate} />}
             {currentPage === 'verbs' && <VerbsPage selectedVerb={selectedModule} onNavigate={navigate} />}
             {currentPage === 'quiz' && <QuizPage level={selectedLevel} onNavigate={navigate} />}
+            {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
           </main>
           <Footer />
         </div>
@@ -344,6 +397,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               <button className={`nav-btn ${currentPage === 'grammar' ? 'active' : ''}`} onClick={() => onNavigate('grammar')}><Icons.Grammar /><span>Grammatica</span></button>
               <button className={`nav-btn ${currentPage === 'verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
               <button className={`nav-btn ${currentPage === 'quiz' ? 'active' : ''}`} onClick={() => onNavigate('quiz')}><Icons.Quiz /><span>Quiz</span></button>
+              <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
             </nav>
           </div>
         </header>
@@ -495,15 +549,23 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       );
     }
 
-    function WordCard({ word, viewMode }) {
+    function WordCard({ word, viewMode, onRemove }) {
       const [flipped, setFlipped] = useState(false);
+      const [saved, setSaved] = useState(isDifficultWord(word.german));
       const speak = (text) => { if ('speechSynthesis' in window) { const u = new SpeechSynthesisUtterance(text); u.lang = 'de-DE'; speechSynthesis.speak(u); }};
+      const toggleSave = (e) => {
+        e.stopPropagation();
+        if (saved) { removeDifficultWord(word.german); if (onRemove) onRemove(word.german); }
+        else { saveDifficultWord(word, 'word'); }
+        setSaved(!saved);
+      };
 
       if (viewMode === 'list') {
         return (
           <div className="word-row">
             <div className="word-german"><span className="article">{word.article}</span><span className="word">{word.german}</span>{word.plural && <span className="plural">({word.plural})</span>}</div>
             <div className="word-italian">{word.italian}</div>
+            <button className="save-btn" onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
             <button className="speak-btn" onClick={() => speak(word.german)}><Icons.Volume /></button>
           </div>
         );
@@ -513,6 +575,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         <div className={`word-card ${flipped ? 'flipped' : ''}`} onClick={() => setFlipped(!flipped)}>
           <div className="word-card-inner">
             <div className="word-card-front">
+              <button className={`save-btn ${saved ? 'saved' : ''}`} onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
               <div className="word-main">{word.article && <span className="word-article">{word.article}</span>}<span className="word-german">{word.german}</span></div>
               {word.plural && <div className="word-plural">Pl: {word.plural}</div>}
               <button className="speak-btn" onClick={(e) => { e.stopPropagation(); speak(word.german); }}><Icons.Volume /></button>
@@ -652,11 +715,14 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
           </div>
           <div className="verbs-grid">
             {filteredVerbs.map((verb) => (
-              <div key={verb.infinitiv} className="verb-card" onClick={() => onNavigate('verbs', {module: verb})}>
-                <div className="verb-infinitive">{verb.infinitiv}</div>
-                <div className="verb-translation">{verb.italiano}</div>
-                {verb.hilfsverb && <span className={`verb-aux ${verb.hilfsverb}`}>{verb.hilfsverb}</span>}
-                {verb.irregular && <span className="verb-irregular">irregolare</span>}
+              <div key={verb.infinitiv} className="verb-card">
+                <button className={`save-btn ${isDifficultWord(verb.infinitiv) ? 'saved' : ''}`} onClick={(e) => { e.stopPropagation(); if(isDifficultWord(verb.infinitiv)) { removeDifficultWord(verb.infinitiv); } else { saveDifficultWord(verb, 'verb'); } window.location.reload(); }}>{isDifficultWord(verb.infinitiv) ? <Icons.StarFilled /> : <Icons.Star />}</button>
+                <div className="verb-content" onClick={() => onNavigate('verbs', {module: verb})}>
+                  <div className="verb-infinitive">{verb.infinitiv}</div>
+                  <div className="verb-translation">{verb.italiano}</div>
+                  {verb.hilfsverb && <span className={`verb-aux ${verb.hilfsverb}`}>{verb.hilfsverb}</span>}
+                  {verb.irregular && <span className="verb-irregular">irregolare</span>}
+                </div>
               </div>
             ))}
           </div>
@@ -703,6 +769,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       const [quizState, setQuizState] = useState('setup');
       const [quizType, setQuizType] = useState('vocabulary');
       const [quizLevel, setQuizLevel] = useState('A1');
+      const [difficultOnly, setDifficultOnly] = useState(false);
       const [questions, setQuestions] = useState([]);
       const [currentQuestion, setCurrentQuestion] = useState(0);
       const [score, setScore] = useState(0);
@@ -752,16 +819,21 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         let usedIds = getUsedQuestions(type, level);
 
         if (type === 'vocabulary') {
-          const levelData = VOCABULARY_DATA.levels?.[level];
+          let allWords = [];
           const wordsByMod = {};
-          const allWords = [];
 
-          // Raggruppa per modulo (risposte dello stesso tema sono più difficili)
-          levelData?.modules?.forEach(m => {
-            const mod = m.name || m.category || 'x';
-            wordsByMod[mod] = m.words || [];
-            m.words?.forEach(w => allWords.push({ ...w, mod }));
-          });
+          if (difficultOnly) {
+            // Usa solo parole salvate
+            allWords = getDifficultWords().filter(w => w.type === 'word');
+          } else {
+            // Raggruppa per modulo (risposte dello stesso tema sono più difficili)
+            const levelData = VOCABULARY_DATA.levels?.[level];
+            levelData?.modules?.forEach(m => {
+              const mod = m.name || m.category || 'x';
+              wordsByMod[mod] = m.words || [];
+              m.words?.forEach(w => allWords.push({ ...w, mod }));
+            });
+          }
 
           // Filtra domande non ancora fatte - esplora tutto prima di ripetere
           let available = allWords.filter(w => !usedIds.includes(w.german));
@@ -906,6 +978,71 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             )}
             {showResult && <button className="next-btn" onClick={nextQuestion}>{currentQuestion < questions.length - 1 ? 'Prossima domanda' : 'Vedi risultati'}</button>}
           </div>
+        </div>
+      );
+    }
+
+    function FavoritesPage({ onNavigate }) {
+      const [words, setWords] = useState(getDifficultWords());
+      const [filter, setFilter] = useState('all');
+      
+      const filteredWords = filter === 'all' ? words : words.filter(w => w.type === filter);
+      const wordCount = words.filter(w => w.type === 'word').length;
+      const verbCount = words.filter(w => w.type === 'verb').length;
+
+      const handleRemove = (id) => {
+        removeDifficultWord(id);
+        setWords(getDifficultWords());
+      };
+
+      const startQuiz = () => {
+        if (words.length < 4) { alert('Salva almeno 4 parole per fare un quiz!'); return; }
+        onNavigate('quiz', { difficultOnly: true });
+      };
+
+      return (
+        <div className="favorites-page">
+          <h1 className="page-title">⭐ Parole Salvate</h1>
+          <p className="page-subtitle">{words.length} elementi salvati ({wordCount} parole, {verbCount} verbi)</p>
+          
+          {words.length > 0 && (
+            <div className="favorites-toolbar">
+              <div className="filter-btns">
+                <button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>Tutti ({words.length})</button>
+                <button className={filter === 'word' ? 'active' : ''} onClick={() => setFilter('word')}>Parole ({wordCount})</button>
+                <button className={filter === 'verb' ? 'active' : ''} onClick={() => setFilter('verb')}>Verbi ({verbCount})</button>
+              </div>
+              {words.length >= 4 && <button className="quiz-favorites-btn" onClick={startQuiz}><Icons.Quiz /> Quiz parole salvate</button>}
+            </div>
+          )}
+
+          {filteredWords.length === 0 ? (
+            <div className="empty-state">
+              <p>Nessuna parola salvata</p>
+              <p style={{fontSize: '14px', marginTop: '10px'}}>Clicca sulla ⭐ su qualsiasi parola o verbo per salvarla qui!</p>
+            </div>
+          ) : (
+            <div className="favorites-grid">
+              {filteredWords.map(item => (
+                <div key={item.id} className="favorite-card">
+                  <button className="remove-btn" onClick={() => handleRemove(item.id)}><Icons.X /></button>
+                  {item.type === 'verb' ? (
+                    <>
+                      <div className="favorite-main">{item.infinitiv}</div>
+                      <div className="favorite-translation">{item.italiano}</div>
+                      <span className="favorite-type">verbo</span>
+                    </>
+                  ) : (
+                    <>
+                      <div className="favorite-main">{item.article} {item.german}</div>
+                      <div className="favorite-translation">{item.italian}</div>
+                      <span className="favorite-type">parola</span>
+                    </>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       );
     }
