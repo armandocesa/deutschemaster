@@ -2182,8 +2182,8 @@ body::before {
             <div className="search-box"><Icons.Search /><input type="text" placeholder="Cerca verbo..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
           </div>
           <div className="verbs-grid">
-            {filteredVerbs.map((verb, idx) => (
-              <div key={idx} className="verb-card" onClick={() => onNavigate('verbs', {module: verb})}>
+            {filteredVerbs.map((verb) => (
+              <div key={verb.infinitiv} className="verb-card" onClick={() => onNavigate('verbs', {module: verb})}>
                 <div className="verb-infinitive">{verb.infinitiv}</div>
                 <div className="verb-translation">{verb.italiano}</div>
                 {verb.hilfsverb && <span className={`verb-aux ${verb.hilfsverb}`}>{verb.hilfsverb}</span>}
