@@ -2240,6 +2240,34 @@ body::before {
       const [selectedAnswer, setSelectedAnswer] = useState(null);
       const [showResult, setShowResult] = useState(false);
 
+      // Gestione domande già fatte (localStorage) - evita ripetizioni
+      const getUsedQuestions = (type, lvl) => {
+        try { return JSON.parse(localStorage.getItem(`quiz_${type}_${lvl}`)) || []; } catch { return []; }
+      };
+      const saveUsedQuestions = (type, lvl, used) => {
+        localStorage.setItem(`quiz_${type}_${lvl}`, JSON.stringify(used));
+      };
+
+      // Trova risposte SIMILI (non ovvie) basate su similarità linguistica
+      const findSimilarAnswers = (correct, allAnswers, count = 3) => {
+        const c = correct.toLowerCase();
+        return allAnswers
+          .filter(a => a.toLowerCase() !== c)
+          .map(a => {
+            const ans = a.toLowerCase();
+            let score = 0;
+            if (ans[0] === c[0]) score += 3; // stessa iniziale
+            if (Math.abs(ans.length - c.length) <= 3) score += 2; // lunghezza simile
+            if (ans.slice(-2) === c.slice(-2)) score += 2; // stessa desinenza
+            const common = [...c].filter(ch => ans.includes(ch)).length;
+            score += (common / c.length) * 2; // lettere in comune
+            return { answer: a, score };
+          })
+          .sort((a, b) => b.score - a.score)
+          .slice(0, count)
+          .map(s => s.answer);
+      };
+
       const startQuiz = () => {
         const q = generateQuestions(quizType, quizLevel, 10);
         setQuestions(q);
@@ -2252,25 +2280,61 @@ body::before {
 
       const generateQuestions = (type, level, count) => {
         const questions = [];
+        let usedIds = getUsedQuestions(type, level);
+
         if (type === 'vocabulary') {
           const levelData = VOCABULARY_DATA.levels?.[level];
+          const wordsByMod = {};
           const allWords = [];
-          levelData?.modules?.forEach(m => m.words?.forEach(w => allWords.push(w)));
-          const shuffled = allWords.sort(() => Math.random() - 0.5);
-          const selected = shuffled.slice(0, Math.min(count, shuffled.length));
-          selected.forEach(word => {
-            const wrongAnswers = shuffled.filter(w => w.italian !== word.italian).slice(0, 3).map(w => w.italian);
-            const options = [word.italian, ...wrongAnswers].sort(() => Math.random() - 0.5);
-            questions.push({ question: `Cosa significa "${word.german}"?`, correctAnswer: word.italian, options, type: 'vocabulary' });
+
+          // Raggruppa per modulo (risposte dello stesso tema sono più difficili)
+          levelData?.modules?.forEach(m => {
+            const mod = m.name || m.category || 'x';
+            wordsByMod[mod] = m.words || [];
+            m.words?.forEach(w => allWords.push({ ...w, mod }));
           });
+
+          // Filtra domande non ancora fatte - esplora tutto prima di ripetere
+          let available = allWords.filter(w => !usedIds.includes(w.german));
+          if (available.length < count) { usedIds = []; available = allWords; }
+
+          const selected = available.sort(() => Math.random() - 0.5).slice(0, count);
+          const allItalian = [...new Set(allWords.map(w => w.italian))];
+
+          selected.forEach(word => {
+            // Preferisci risposte dallo STESSO modulo (più difficili da distinguere)
+            const sameMod = (wordsByMod[word.mod] || []).filter(w => w.italian !== word.italian).map(w => w.italian);
+            const wrongAnswers = sameMod.length >= 3
+              ? findSimilarAnswers(word.italian, sameMod, 3)
+              : findSimilarAnswers(word.italian, allItalian, 3);
+
+            questions.push({
+              question: `Cosa significa "${word.german}"?`,
+              correctAnswer: word.italian,
+              options: [word.italian, ...wrongAnswers].sort(() => Math.random() - 0.5),
+              type: 'vocabulary'
+            });
+            usedIds.push(word.german);
+          });
+          saveUsedQuestions(type, level, usedIds);
+
         } else {
           const levelData = GRAMMAR_DATA.levels?.[level];
-          levelData?.topics?.forEach(topic => {
-            topic.exercises?.forEach(ex => {
-              questions.push({ question: ex.question, correctAnswer: ex.answer, explanation: ex.explanation, type: 'grammar', isOpen: true });
-            });
+          const allEx = [];
+          levelData?.topics?.forEach(t => {
+            t.exercises?.forEach((ex, i) => allEx.push({ ...ex, id: `${t.id}_${i}` }));
           });
-          return questions.sort(() => Math.random() - 0.5).slice(0, count);
+
+          // Esplora tutti gli esercizi prima di ripetere
+          let available = allEx.filter(ex => !usedIds.includes(ex.id));
+          if (available.length < count) { usedIds = []; available = allEx; }
+
+          const selected = available.sort(() => Math.random() - 0.5).slice(0, count);
+          selected.forEach(ex => {
+            questions.push({ question: ex.question, correctAnswer: ex.answer, explanation: ex.explanation, type: 'grammar', isOpen: true });
+            usedIds.push(ex.id);
+          });
+          saveUsedQuestions(type, level, usedIds);
         }
         return questions;
       };
