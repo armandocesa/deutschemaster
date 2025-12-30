@@ -328,6 +328,42 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: #444; }
 
+
+/* Practice Page */
+.practice-page { animation: fadeIn 0.3s ease; }
+.practice-toolbar { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+.practice-toolbar .search-box { flex: 1; min-width: 200px; }
+.mode-toggle { display: flex; gap: 4px; background: var(--bg-card); border-radius: var(--radius); padding: 4px; }
+.mode-toggle button { padding: 8px 16px; border: none; border-radius: 8px; background: transparent; color: var(--text-secondary); font-size: 14px; cursor: pointer; transition: all 0.2s; }
+.mode-toggle button.active { background: var(--accent); color: white; }
+.mode-toggle button:hover:not(.active) { background: var(--bg-card-hover); }
+.show-all-btn { display: flex; align-items: center; gap: 6px; padding: 10px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text-primary); font-size: 14px; cursor: pointer; }
+.show-all-btn:hover { background: var(--bg-card-hover); border-color: var(--accent); }
+.show-all-btn svg { width: 18px; height: 18px; }
+.practice-stats { color: var(--text-secondary); font-size: 14px; margin-bottom: 16px; display: flex; gap: 8px; }
+.practice-list { display: flex; flex-direction: column; gap: 8px; }
+.practice-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; cursor: pointer; display: flex; align-items: center; gap: 12px; transition: all 0.2s; position: relative; }
+.practice-card:hover { background: var(--bg-card-hover); border-color: var(--accent); }
+.practice-card.revealed { border-color: var(--success); }
+.practice-main { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
+.practice-word { font-size: 16px; font-weight: 600; }
+.practice-translation { font-size: 14px; color: var(--text-secondary); min-width: 150px; transition: all 0.2s; }
+.practice-translation.visible { color: var(--success); font-weight: 500; }
+.practice-level { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; color: white; }
+.speak-btn-small { background: transparent; border: none; cursor: pointer; color: var(--text-secondary); padding: 4px; border-radius: 4px; display: flex; align-items: center; }
+.speak-btn-small:hover { color: var(--accent); background: var(--bg-primary); }
+.speak-btn-small.after { margin-left: 8px; }
+.speak-btn-small svg { width: 16px; height: 16px; }
+@media (max-width: 600px) {
+  .practice-toolbar { flex-direction: column; }
+  .practice-toolbar .search-box { width: 100%; }
+  .mode-toggle { width: 100%; }
+  .mode-toggle button { flex: 1; }
+  .show-all-btn { width: 100%; justify-content: center; }
+  .practice-card { flex-wrap: wrap; padding-right: 50px; }
+  .practice-translation { width: 100%; min-width: unset; margin-top: 4px; }
+}
+
 </style>
 </head>
 <body>
@@ -358,6 +394,10 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       StarFilled: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>,
       Volume: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>,
       ChevronRight: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>,
+      Practice: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>,
+      Eye: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>,
+      EyeOff: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>,
+      Swap: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>,
     };
 
     // ============ PAROLE DIFFICILI (localStorage) ============
@@ -457,6 +497,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             {currentPage === 'grammar' && <GrammarPage level={selectedLevel} topic={selectedTopic} onNavigate={navigate} />}
             {currentPage === 'verbs' && <VerbsPage selectedVerb={selectedModule} onNavigate={navigate} />}
             {currentPage === 'quiz' && <QuizPage level={selectedLevel} onNavigate={navigate} />}
+            {currentPage === 'practice' && <PracticePage onNavigate={navigate} />}
             {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
           </main>
           <Footer />
@@ -482,6 +523,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               <button className={`nav-btn ${currentPage === 'grammar' ? 'active' : ''}`} onClick={() => onNavigate('grammar')}><Icons.Grammar /><span>Grammatica</span></button>
               <button className={`nav-btn ${currentPage === 'verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
               <button className={`nav-btn ${currentPage === 'quiz' ? 'active' : ''}`} onClick={() => onNavigate('quiz')}><Icons.Quiz /><span>Quiz</span></button>
+              <button className={`nav-btn ${currentPage === 'practice' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
               <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
             </nav>
           </div>
@@ -1116,6 +1158,155 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               </div>
             )}
             {showResult && <button className="next-btn" onClick={nextQuestion}>{currentQuestion < questions.length - 1 ? 'Prossima domanda' : 'Vedi risultati'}</button>}
+          </div>
+        </div>
+      );
+    }
+
+
+    // ============ PAGINA PRATICA ============
+    function PracticePage({ onNavigate }) {
+      const [mode, setMode] = useState('de-it'); // 'de-it' = tedesco->italiano, 'it-de' = italiano->tedesco
+      const [searchTerm, setSearchTerm] = useState('');
+      const [revealedWords, setRevealedWords] = useState({});
+      const [showAll, setShowAll] = useState(false);
+
+      // Raccoglie tutte le parole da tutti i livelli e moduli
+      const allWords = useMemo(() => {
+        const words = [];
+        if (VOCABULARY_DATA.levels) {
+          Object.entries(VOCABULARY_DATA.levels).forEach(([level, levelData]) => {
+            if (levelData.modules) {
+              levelData.modules.forEach(mod => {
+                if (mod.words) {
+                  mod.words.forEach(word => {
+                    words.push({ ...word, level, module: mod.name || mod.category });
+                  });
+                }
+              });
+            }
+          });
+        }
+        return words;
+      }, []);
+
+      // Filtra le parole in base alla ricerca
+      const filteredWords = useMemo(() => {
+        if (!searchTerm.trim()) return allWords;
+        const term = searchTerm.toLowerCase();
+        return allWords.filter(w =>
+          w.german?.toLowerCase().includes(term) ||
+          w.italian?.toLowerCase().includes(term)
+        );
+      }, [allWords, searchTerm]);
+
+      // Ordina le parole alfabeticamente
+      const sortedWords = useMemo(() => {
+        return [...filteredWords].sort((a, b) => {
+          const keyA = mode === 'de-it' ? a.german : a.italian;
+          const keyB = mode === 'de-it' ? b.german : b.italian;
+          return (keyA || '').localeCompare(keyB || '');
+        });
+      }, [filteredWords, mode]);
+
+      const toggleReveal = (index) => {
+        setRevealedWords(prev => ({ ...prev, [index]: !prev[index] }));
+      };
+
+      const toggleShowAll = () => {
+        if (showAll) {
+          setRevealedWords({});
+        } else {
+          const all = {};
+          sortedWords.forEach((_, i) => all[i] = true);
+          setRevealedWords(all);
+        }
+        setShowAll(!showAll);
+      };
+
+      const speak = (text, e) => {
+        e.stopPropagation();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'de-DE';
+        speechSynthesis.speak(utterance);
+      };
+
+      return (
+        <div className="practice-page">
+          <h1 className="page-title">Pratica Vocabolario</h1>
+          <p className="page-subtitle">Clicca su una parola per vedere la traduzione</p>
+
+          <div className="practice-toolbar">
+            <div className="search-box">
+              <Icons.Search />
+              <input
+                type="text"
+                placeholder="Cerca parola..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
+            </div>
+
+            <div className="mode-toggle">
+              <button
+                className={mode === 'de-it' ? 'active' : ''}
+                onClick={() => { setMode('de-it'); setRevealedWords({}); setShowAll(false); }}
+              >
+                🇩🇪 → 🇮🇹
+              </button>
+              <button
+                className={mode === 'it-de' ? 'active' : ''}
+                onClick={() => { setMode('it-de'); setRevealedWords({}); setShowAll(false); }}
+              >
+                🇮🇹 → 🇩🇪
+              </button>
+            </div>
+
+            <button className="show-all-btn" onClick={toggleShowAll}>
+              {showAll ? <><Icons.EyeOff /> Nascondi tutto</> : <><Icons.Eye /> Mostra tutto</>}
+            </button>
+          </div>
+
+          <div className="practice-stats">
+            <span>{sortedWords.length.toLocaleString()} parole</span>
+            <span>•</span>
+            <span>{Object.keys(revealedWords).filter(k => revealedWords[k]).length} rivelate</span>
+          </div>
+
+          <div className="practice-list">
+            {sortedWords.map((word, index) => {
+              const mainWord = mode === 'de-it' ? word.german : word.italian;
+              const translation = mode === 'de-it' ? word.italian : word.german;
+              const isRevealed = revealedWords[index];
+
+              return (
+                <div
+                  key={`${word.german}-${index}`}
+                  className={`practice-card ${isRevealed ? 'revealed' : ''}`}
+                  onClick={() => toggleReveal(index)}
+                >
+                  <div className="practice-main">
+                    <span className="practice-word">{mainWord}</span>
+                    {mode === 'de-it' && (
+                      <button className="speak-btn-small" onClick={(e) => speak(word.german, e)}>
+                        <Icons.Volume />
+                      </button>
+                    )}
+                  </div>
+                  <div className={`practice-translation ${isRevealed ? 'visible' : ''}`}>
+                    {isRevealed ? translation : '• • •'}
+                  </div>
+                  {isRevealed && mode === 'it-de' && (
+                    <button className="speak-btn-small after" onClick={(e) => speak(word.german, e)}>
+                      <Icons.Volume />
+                    </button>
+                  )}
+                  <span className="practice-level" style={{backgroundColor: LEVEL_COLORS[word.level]?.bg || '#666'}}>
+                    {word.level}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
       );
