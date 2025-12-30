@@ -376,6 +376,22 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
   .prefix-meta { width: 100%; justify-content: space-between; }
 }
 
+
+/* Nomen-Verb Expressions */
+.prefix-card.nomen-verb { }
+.prefix-name.category { font-size: 16px; background: transparent; padding: 0; }
+.category-icon { font-size: 24px; }
+.prefix-examples.nomen-verb { gap: 16px; }
+.nomen-verb-item { padding: 16px; background: var(--bg-primary); border-radius: 10px; border-left: 3px solid var(--accent); }
+.nomen-verb-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.nomen-verb-expression { font-size: 17px; font-weight: 700; color: var(--success); cursor: pointer; }
+.nomen-verb-expression:hover { text-decoration: underline; }
+.nomen-verb-meaning { font-size: 14px; color: var(--text-secondary); margin-bottom: 8px; }
+.nomen-verb-simple { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; padding: 6px 10px; background: var(--bg-card); border-radius: 6px; width: fit-content; }
+.simple-label { font-size: 12px; color: var(--text-secondary); }
+.simple-verb { font-size: 13px; color: var(--accent); font-weight: 500; }
+.nomen-verb-example { display: flex; flex-direction: column; gap: 2px; padding-top: 8px; border-top: 1px solid var(--border); }
+
 /* Practice Page */
 .practice-page { animation: fadeIn 0.3s ease; }
 .practice-toolbar { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
@@ -1613,6 +1629,66 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         );
       };
 
+      const renderNomenVerbExpressions = (data) => {
+        return (
+          <div className="special-verbs-content">
+            <p className="special-verbs-desc">{data.description}</p>
+            <div className="prefix-list">
+              {data.categories.map(({ category, icon, expressions }) => {
+                const filtered = expressions.filter(e => {
+                  if (!searchTerm.trim()) return true;
+                  const term = searchTerm.toLowerCase();
+                  return e.expression.toLowerCase().includes(term) ||
+                         e.meaning.toLowerCase().includes(term) ||
+                         e.simpleVerb.toLowerCase().includes(term);
+                });
+                if (searchTerm && filtered.length === 0) return null;
+                const isExpanded = expandedPrefixes[category];
+                return (
+                  <div key={category} className="prefix-card nomen-verb">
+                    <div className="prefix-header" onClick={() => togglePrefix(category)}>
+                      <div className="prefix-info">
+                        <span className="category-icon">{icon}</span>
+                        <span className="prefix-name category">{category}</span>
+                      </div>
+                      <div className="prefix-meta">
+                        <span className="prefix-count">{filtered.length} espressioni</span>
+                        <span className={`prefix-toggle ${isExpanded ? 'open' : ''}`}>▼</span>
+                      </div>
+                    </div>
+                    {isExpanded && (
+                      <div className="prefix-examples nomen-verb">
+                        {filtered.map((ex, idx) => (
+                          <div key={idx} className="nomen-verb-item">
+                            <div className="nomen-verb-header">
+                              <span className="nomen-verb-expression" onClick={() => speak(ex.expression)}>
+                                {ex.expression}
+                              </span>
+                              <button className="speak-btn-mini" onClick={() => speak(ex.expression)}>
+                                <Icons.Volume />
+                              </button>
+                            </div>
+                            <div className="nomen-verb-meaning">{ex.meaning}</div>
+                            <div className="nomen-verb-simple">
+                              <span className="simple-label">Verbo semplice:</span>
+                              <span className="simple-verb">{ex.simpleVerb}</span>
+                            </div>
+                            <div className="nomen-verb-example">
+                              <span className="example-de" onClick={() => speak(ex.example)}>{ex.example}</span>
+                              <span className="example-it">{ex.translation}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      };
+
       return (
         <div className="special-verbs-page">
           <h1 className="page-title">Verbi Speciali</h1>
@@ -1651,6 +1727,13 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             >
               <span className="tab-icon">📍</span>
               <span>Con Preposizioni</span>
+            </button>
+            <button
+              className={`special-tab ${activeTab === 'nomenVerb' ? 'active' : ''}`}
+              onClick={() => setActiveTab('nomenVerb')}
+            >
+              <span className="tab-icon">🔗</span>
+              <span>Frasi Fatte</span>
             </button>
           </div>
 
