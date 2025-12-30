@@ -126,26 +126,50 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 .words-list .word-german { margin: 0; }
 .words-list .word-italian { margin: 0; }
 
-/* Grammar */
-.topics-list { display: flex; flex-direction: column; gap: 12px; }
-.topic-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-.topic-header { padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
-.topic-header:hover { background: var(--bg-card-hover); }
-.topic-name { font-size: 16px; font-weight: 600; }
-.topic-toggle { color: var(--text-secondary); transition: transform 0.2s; }
-.topic-toggle.open { transform: rotate(180deg); }
-.topic-content { padding: 0 20px 20px; border-top: 1px solid var(--border); }
-.explanation { color: var(--text-secondary); margin: 16px 0; font-size: 14px; line-height: 1.6; }
-.content-section { margin: 16px 0; }
-.content-section h4 { font-size: 14px; font-weight: 600; margin-bottom: 10px; color: var(--accent); }
-.content-list { list-style: disc; padding-left: 20px; color: var(--text-secondary); font-size: 14px; }
-.content-list li { margin: 6px 0; }
-.exercises-toggle { display: flex; align-items: center; gap: 8px; padding: 10px 16px; background: var(--accent); border: none; border-radius: 8px; color: white; font-size: 14px; cursor: pointer; margin-top: 16px; }
-.exercises-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
-.exercise-card { background: var(--bg-primary); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
-.exercise-question { font-weight: 500; margin-bottom: 10px; }
-.exercise-answer { color: var(--success); font-size: 14px; }
-.exercise-explanation { color: var(--text-secondary); font-size: 13px; margin-top: 6px; }
+/* Grammar - Compatto */
+.topics-list { display: flex; flex-direction: column; gap: 8px; }
+.topic-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 16px; cursor: pointer; display: flex; align-items: center; gap: 12px; transition: all 0.2s; }
+.topic-card:hover { background: var(--bg-card-hover); border-color: var(--accent); }
+.topic-number { width: 28px; height: 28px; background: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; flex-shrink: 0; }
+.topic-content { flex: 1; }
+.topic-title { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+.topic-explanation { font-size: 12px; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 400px; }
+.topic-meta { display: flex; align-items: center; gap: 8px; }
+.exercise-count { font-size: 11px; color: var(--accent); background: var(--accent)15; padding: 2px 8px; border-radius: 10px; }
+.topic-meta svg { color: var(--text-secondary); width: 18px; }
+
+/* Grammar Detail - Compatto */
+.grammar-detail { max-width: 800px; margin: 0 auto; }
+.grammar-content { display: flex; flex-direction: column; gap: 8px; }
+.content-block { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.content-block-header { padding: 10px 14px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.content-block-header:hover { background: var(--bg-card-hover); }
+.content-key { font-size: 13px; font-weight: 600; color: var(--accent); margin: 0; text-transform: capitalize; }
+.content-block-toggle { color: var(--text-secondary); font-size: 18px; transition: transform 0.2s; }
+.content-block-toggle.open { transform: rotate(180deg); }
+.content-value { padding: 10px 14px; border-top: 1px solid var(--border); font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+.content-text { font-size: 13px; color: var(--text-secondary); margin: 0; }
+.content-list { list-style: disc; padding-left: 18px; color: var(--text-secondary); font-size: 13px; margin: 0; }
+.content-list li { margin: 3px 0; }
+.content-section { margin: 0; }
+.content-section h4 { font-size: 12px; font-weight: 600; margin-bottom: 6px; color: var(--accent); }
+.example-german { font-size: 13px; margin: 4px 0; }
+.example-italian { font-size: 12px; color: var(--text-secondary); margin: 4px 0; }
+.content-example { font-size: 12px; font-style: italic; color: var(--text-secondary); }
+
+/* Exercises - Compatto */
+.exercises-section { margin-top: 16px; }
+.exercises-toggle { display: flex; align-items: center; gap: 6px; padding: 8px 14px; background: var(--accent); border: none; border-radius: 6px; color: white; font-size: 13px; cursor: pointer; }
+.exercises-list { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+.exercise-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+.exercise-header { margin-bottom: 6px; }
+.exercise-number { font-size: 11px; color: var(--accent); font-weight: 600; }
+.exercise-question { font-size: 13px; font-weight: 500; margin-bottom: 8px; }
+.show-answer-btn { padding: 6px 12px; background: var(--bg-primary); border: 1px solid var(--border); border-radius: 6px; color: var(--text-secondary); font-size: 12px; cursor: pointer; }
+.show-answer-btn:hover { border-color: var(--accent); color: var(--accent); }
+.exercise-answer { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+.answer-text { color: var(--success); font-size: 13px; }
+.answer-explanation { color: var(--text-secondary); font-size: 12px; margin-top: 4px; }
 
 /* Verbs */
 .verbs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
@@ -642,26 +666,49 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 
     function GrammarTopicDetail({ topic, level, colors }) {
       const [showExercises, setShowExercises] = useState(false);
+      const [openSections, setOpenSections] = useState({});
 
-      const renderContent = (content, depth = 0) => {
-        if (!content) return null;
-        if (typeof content === 'string') return <p className="content-text">{content}</p>;
-        if (Array.isArray(content)) return <ul className="content-list">{content.map((item, i) => <li key={i}>{typeof item === 'object' ? renderContent(item, depth + 1) : item}</li>)}</ul>;
-        if (typeof content === 'object') {
+      const toggleSection = (key) => {
+        setOpenSections(prev => ({...prev, [key]: !prev[key]}));
+      };
+
+      const renderValue = (value) => {
+        if (!value) return null;
+        if (typeof value === 'string') return <span>{value}</span>;
+        if (Array.isArray(value)) {
+          return <ul className="content-list">{value.map((item, i) => (
+            <li key={i}>{typeof item === 'object' ? renderValue(item) : item}</li>
+          ))}</ul>;
+        }
+        if (typeof value === 'object') {
+          return Object.entries(value).map(([k, v]) => {
+            if (k.startsWith('_')) return null;
+            if (k === 'tedesco' || k === 'german') return <div key={k} className="example-german">🇩🇪 {v}</div>;
+            if (k === 'italiano' || k === 'italian') return <div key={k} className="example-italian">🇮🇹 {v}</div>;
+            if (k === 'esempio' || k === 'example') return <div key={k} className="content-example">{v}</div>;
+            const displayK = k.replace(/_/g, ' ');
+            return <div key={k} style={{marginTop: '4px'}}><strong style={{color: 'var(--accent)', fontSize: '12px'}}>{displayK}:</strong> {typeof v === 'object' ? renderValue(v) : <span style={{color: 'var(--text-secondary)'}}>{v}</span>}</div>;
+          });
+        }
+        return <span>{String(value)}</span>;
+      };
+
+      const renderContent = (content) => {
+        if (!content || typeof content !== 'object' || Array.isArray(content)) return null;
+        return Object.entries(content).map(([key, value]) => {
+          if (key.startsWith('_')) return null;
+          const displayKey = key.replace(/_/g, ' ').replace(/([A-Z])/g, ' $1').trim();
+          const isOpen = openSections[key];
           return (
-            <div className="content-section">
-              {Object.entries(content).map(([key, value]) => {
-                if (key.startsWith('_')) return null;
-                const displayKey = key.replace(/_/g, ' ').replace(/([A-Z])/g, ' $1').trim();
-                if (key === 'tedesco' || key === 'german') return <div key={key} className="example-german"><strong>🇩🇪</strong> {value}</div>;
-                if (key === 'italiano' || key === 'italian') return <div key={key} className="example-italian"><strong>🇮🇹</strong> {value}</div>;
-                if (key === 'esempio' || key === 'example') return <div key={key} className="content-example"><em>{value}</em></div>;
-                return <div key={key} className={`content-block depth-${depth}`}><h4 className="content-key">{displayKey}</h4><div className="content-value">{renderContent(value, depth + 1)}</div></div>;
-              })}
+            <div key={key} className="content-block">
+              <div className="content-block-header" onClick={() => toggleSection(key)}>
+                <h4 className="content-key">{displayKey}</h4>
+                <span className={`content-block-toggle ${isOpen ? 'open' : ''}`}>▼</span>
+              </div>
+              {isOpen && <div className="content-value">{renderValue(value)}</div>}
             </div>
           );
-        }
-        return <span>{String(content)}</span>;
+        });
       };
 
       return (
