@@ -787,6 +787,54 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       if (correct) stats.correctAnswers++;
       localStorage.setItem('quizStats', JSON.stringify(stats));
     };
+    // ============ TRACCIAMENTO PROGRESSI (localStorage) ============
+    const getProgress = () => {
+      try { return JSON.parse(localStorage.getItem('learningProgress')) || { words: {}, grammar: {}, verbs: {} }; }
+      catch { return { words: {}, grammar: {}, verbs: {} }; }
+    };
+    const saveProgress = (progress) => {
+      localStorage.setItem('learningProgress', JSON.stringify(progress));
+    };
+    const markWordStatus = (wordId, correct) => {
+      const progress = getProgress();
+      progress.words[wordId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() };
+      saveProgress(progress);
+    };
+    const markGrammarStatus = (topicId, correct) => {
+      const progress = getProgress();
+      progress.grammar[topicId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() };
+      saveProgress(progress);
+    };
+    const markVerbStatus = (verbId, correct) => {
+      const progress = getProgress();
+      progress.verbs[verbId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() };
+      saveProgress(progress);
+    };
+    const getWordStatus = (wordId) => {
+      const progress = getProgress();
+      return progress.words[wordId]?.status || 'unseen';
+    };
+    const getGrammarStatus = (topicId) => {
+      const progress = getProgress();
+      return progress.grammar[topicId]?.status || 'unseen';
+    };
+    const getVerbStatus = (verbId) => {
+      const progress = getProgress();
+      return progress.verbs[verbId]?.status || 'unseen';
+    };
+    const getProgressStats = () => {
+      const progress = getProgress();
+      const wordStats = Object.values(progress.words);
+      const grammarStats = Object.values(progress.grammar);
+      return {
+        wordsCorrect: wordStats.filter(w => w.status === 'correct').length,
+        wordsIncorrect: wordStats.filter(w => w.status === 'incorrect').length,
+        grammarCorrect: grammarStats.filter(g => g.status === 'correct').length,
+        grammarIncorrect: grammarStats.filter(g => g.status === 'incorrect').length
+      };
+    };
+
+
 
     const LEVEL_COLORS = {
       A1: { bg: '#10b981', light: '#d1fae5', text: '#065f46' },
@@ -990,16 +1038,23 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               <p className="page-subtitle">{getLevelName(level)} • {modules.length} moduli</p>
             </div>
             <div className="modules-grid">
-              {modules.map((mod, idx) => (
+              {modules.map((mod, idx) => {
+                const modWords = mod.words || [];
+                const correctCount = modWords.filter(w => getWordStatus(w.german) === 'correct').length;
+                const incorrectCount = modWords.filter(w => getWordStatus(w.german) === 'incorrect').length;
+                const totalWords = modWords.length;
+                return (
                 <div key={mod.id || idx} className="module-card" onClick={() => onNavigate('vocabulary', {level, module: mod})}>
                   <div className="module-icon">{mod.icon || '📖'}</div>
                   <h3 className="module-title">{mod.name || mod.category}</h3>
-                  <p className="module-count">{mod.words?.length || 0} parole</p>
-                  <div className="module-preview">
-                    {mod.words?.slice(0, 3).map((w, i) => <span key={i} className="preview-word">{w.german}</span>)}
+                  <p className="module-count">{totalWords} parole</p>
+                  <div className="module-progress">
+                    <span className="module-progress-item correct">{correctCount}</span>
+                    <span className="module-progress-item incorrect">{incorrectCount}</span>
+                    <span className="module-progress-item unseen">{totalWords - correctCount - incorrectCount}</span>
                   </div>
                 </div>
-              ))}
+              )})}
             </div>
           </div>
         );
@@ -1014,6 +1069,11 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
             <h1 className="page-title">{module.icon} {module.name}</h1>
             <p className="page-subtitle">{words.length} parole</p>
+          </div>
+          <div className="progress-summary">
+            <div className="progress-summary-item correct"><span className={`progress-dot correct`}></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'correct').length}</span> corrette</div>
+            <div className="progress-summary-item incorrect"><span className={`progress-dot incorrect`}></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'incorrect').length}</span> errate</div>
+            <div className="progress-summary-item unseen"><span className={`progress-dot unseen`}></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'unseen').length}</span> da fare</div>
           </div>
           <div className="vocab-toolbar">
             <div className="search-box"><Icons.Search /><input type="text" placeholder="Cerca parola..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
@@ -1033,6 +1093,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
     function WordCard({ word, viewMode, onRemove }) {
       const [flipped, setFlipped] = useState(false);
       const [saved, setSaved] = useState(isDifficultWord(word.german));
+      const wordStatus = getWordStatus(word.german);
       const speak = (text) => { if ('speechSynthesis' in window) { const u = new SpeechSynthesisUtterance(text); u.lang = 'de-DE'; speechSynthesis.speak(u); }};
       const toggleSave = (e) => {
         e.stopPropagation();
@@ -1043,7 +1104,8 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 
       if (viewMode === 'list') {
         return (
-          <div className="word-row">
+          <div className={`word-row status-${wordStatus}`}>
+            <span className={`progress-dot ${wordStatus}`} title={wordStatus === 'correct' ? 'Risposta corretta' : wordStatus === 'incorrect' ? 'Risposta errata' : 'Non ancora testata'}></span>
             <div className="word-german"><span className="article">{word.article}</span><span className="word">{word.german}</span>{word.plural && <span className="plural">({word.plural})</span>}</div>
             <div className="word-italian">{word.italian}</div>
             <button className="save-btn" onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
@@ -1053,7 +1115,8 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       }
 
       return (
-        <div className={`word-card ${flipped ? 'flipped' : ''}`} onClick={() => setFlipped(!flipped)}>
+        <div className={`word-card ${flipped ? 'flipped' : ''} status-${wordStatus}`} onClick={() => setFlipped(!flipped)}>
+          <span className={`progress-indicator ${wordStatus}`} title={wordStatus === 'correct' ? 'Risposta corretta' : wordStatus === 'incorrect' ? 'Risposta errata' : 'Non ancora testata'}></span>
           <div className="word-card-inner">
             <div className="word-card-front">
               <button className={`save-btn ${saved ? 'saved' : ''}`} onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
@@ -1105,14 +1168,23 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               <h1 className="page-title">Grammatica {level}</h1>
               <p className="page-subtitle">{levelData?.title || getLevelName(level)}</p>
             </div>
+            <div className="progress-bar-legend">
+              <span className="legend-item"><span className="progress-dot correct"></span> Completati</span>
+              <span className="legend-item"><span className="progress-dot incorrect"></span> Da rivedere</span>
+              <span className="legend-item"><span className="progress-dot unseen"></span> Non iniziati</span>
+            </div>
             <div className="topics-list">
-              {topics.map((t, idx) => (
-                <div key={t.id || idx} className="topic-card" onClick={() => onNavigate('grammar', {level, topic: t})}>
+              {topics.map((t, idx) => {
+                const topicId = t.id || `${level}_${idx}`;
+                const topicStatus = getGrammarStatus(topicId);
+                return (
+                <div key={t.id || idx} className={`topic-card status-${topicStatus}`} onClick={() => onNavigate('grammar', {level, topic: t})}>
+                  <span className={`progress-dot ${topicStatus}`}></span>
                   <div className="topic-number">{idx + 1}</div>
                   <div className="topic-content"><h3 className="topic-title">{t.name}</h3><p className="topic-explanation">{t.explanation}</p></div>
                   <div className="topic-meta">{t.exercises && <span className="exercise-count">{t.exercises.length} esercizi</span>}<Icons.ChevronRight /></div>
                 </div>
-              ))}
+              )})}
             </div>
           </div>
         );
@@ -1365,7 +1437,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
           const levelData = GRAMMAR_DATA.levels?.[level];
           const allEx = [];
           levelData?.topics?.forEach(t => {
-            t.exercises?.forEach((ex, i) => allEx.push({ ...ex, id: `${t.id}_${i}` }));
+            t.exercises?.forEach((ex, i) => allEx.push({ ...ex, id: `${t.id}_${i}`, topicId: t.id }));
           });
 
           // Esplora tutti gli esercizi prima di ripetere
@@ -1385,9 +1457,13 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       const handleAnswer = (answer) => {
         if (answers[currentQuestion] !== undefined) return; // già risposto
         setAnswers(prev => ({ ...prev, [currentQuestion]: answer }));
-        const isCorrect = answer === questions[currentQuestion].correctAnswer;
+        const q = questions[currentQuestion];
+        const isCorrect = answer === q.correctAnswer;
         if (isCorrect) setScore(score + 1);
         updateQuizStats(isCorrect);
+        // Traccia progresso per parola/grammatica
+        if (q.wordId) markWordStatus(q.wordId, isCorrect);
+        if (q.grammarId) markGrammarStatus(q.grammarId, isCorrect);
       };
 
       const prevQuestion = () => {
@@ -1852,6 +1928,11 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             <span>•</span>
             <span>{Object.keys(revealedWords).filter(k => revealedWords[k]).length} rivelate</span>
           </div>
+          <div className="progress-bar-legend">
+            <span className="legend-item"><span className="progress-dot correct"></span> Corrette</span>
+            <span className="legend-item"><span className="progress-dot incorrect"></span> Errate</span>
+            <span className="legend-item"><span className="progress-dot unseen"></span> Da fare</span>
+          </div>
 
           <div className="practice-list">
             {sortedWords.map((word, index) => {
@@ -1859,12 +1940,14 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               const translation = mode === 'de-it' ? word.italian : word.german;
               const isRevealed = revealedWords[index];
 
+              const status = getWordStatus(word.german);
               return (
                 <div
                   key={`${word.german}-${index}`}
-                  className={`practice-card ${isRevealed ? 'revealed' : ''}`}
+                  className={`practice-card ${isRevealed ? 'revealed' : ''} status-${status}`}
                   onClick={() => toggleReveal(index)}
                 >
+                  <span className={`progress-dot ${status}`} title={status === 'correct' ? 'Risposta corretta' : status === 'incorrect' ? 'Risposta errata' : 'Non ancora testata'}></span>
                   <div className="practice-main">
                     <span className="practice-word">{mainWord}</span>
                     {mode === 'de-it' && (
