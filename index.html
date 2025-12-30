@@ -332,6 +332,66 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 ::-webkit-scrollbar-thumb:hover { background: #444; }
 
 
+
+/* Special Verbs Page */
+.special-verbs-page { animation: fadeIn 0.3s ease; }
+.special-verbs-toolbar { margin-bottom: 20px; }
+.special-verbs-toolbar .search-box { max-width: 400px; }
+.special-tabs { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+.special-tab { display: flex; align-items: center; gap: 8px; padding: 12px 20px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text-secondary); font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.2s; }
+.special-tab:hover { border-color: var(--accent); color: var(--text-primary); }
+.special-tab.active { background: var(--accent); border-color: var(--accent); color: white; }
+.special-tab .tab-icon { font-size: 18px; }
+.special-verbs-content { }
+.special-verbs-desc { color: var(--text-secondary); margin-bottom: 20px; font-size: 14px; padding: 12px 16px; background: var(--bg-card); border-radius: var(--radius); border-left: 3px solid var(--accent); }
+.prefix-list { display: flex; flex-direction: column; gap: 12px; }
+.prefix-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.prefix-header { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px; cursor: pointer; transition: background 0.2s; }
+.prefix-header:hover { background: var(--bg-card-hover); }
+.prefix-info { display: flex; align-items: center; gap: 12px; }
+.prefix-name { font-size: 18px; font-weight: 700; color: var(--accent); background: var(--accent)15; padding: 4px 12px; border-radius: 6px; }
+.prefix-name.preposition { font-size: 15px; }
+.prefix-meaning { color: var(--text-secondary); font-size: 14px; }
+.prefix-meta { display: flex; align-items: center; gap: 12px; }
+.prefix-count { font-size: 13px; color: var(--text-secondary); }
+.prefix-toggle { color: var(--text-secondary); transition: transform 0.2s; }
+.prefix-toggle.open { transform: rotate(180deg); }
+.prefix-examples { border-top: 1px solid var(--border); padding: 12px; display: flex; flex-direction: column; gap: 12px; }
+.verb-example { padding: 12px; background: var(--bg-primary); border-radius: 8px; }
+.verb-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
+.verb-name { font-size: 16px; font-weight: 600; color: var(--success); cursor: pointer; }
+.verb-name:hover { text-decoration: underline; }
+.verb-meaning { color: var(--text-secondary); font-size: 14px; }
+.speak-btn-mini { background: transparent; border: none; cursor: pointer; color: var(--text-secondary); padding: 4px; }
+.speak-btn-mini:hover { color: var(--accent); }
+.speak-btn-mini svg { width: 16px; height: 16px; }
+.example-sentence { display: flex; flex-direction: column; gap: 2px; }
+.example-de { font-size: 14px; color: var(--text-primary); cursor: pointer; }
+.example-de:hover { color: var(--accent); }
+.example-it { font-size: 13px; color: var(--text-secondary); font-style: italic; }
+@media (max-width: 600px) {
+  .special-tabs { flex-direction: column; }
+  .special-tab { justify-content: center; }
+  .prefix-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .prefix-meta { width: 100%; justify-content: space-between; }
+}
+
+
+/* Nomen-Verb Expressions */
+.prefix-card.nomen-verb { }
+.prefix-name.category { font-size: 16px; background: transparent; padding: 0; }
+.category-icon { font-size: 24px; }
+.prefix-examples.nomen-verb { gap: 16px; }
+.nomen-verb-item { padding: 16px; background: var(--bg-primary); border-radius: 10px; border-left: 3px solid var(--accent); }
+.nomen-verb-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.nomen-verb-expression { font-size: 17px; font-weight: 700; color: var(--success); cursor: pointer; }
+.nomen-verb-expression:hover { text-decoration: underline; }
+.nomen-verb-meaning { font-size: 14px; color: var(--text-secondary); margin-bottom: 8px; }
+.nomen-verb-simple { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; padding: 6px 10px; background: var(--bg-card); border-radius: 6px; width: fit-content; }
+.simple-label { font-size: 12px; color: var(--text-secondary); }
+.simple-verb { font-size: 13px; color: var(--accent); font-weight: 500; }
+.nomen-verb-example { display: flex; flex-direction: column; gap: 2px; padding-top: 8px; border-top: 1px solid var(--border); }
+
 /* Practice Page */
 .practice-page { animation: fadeIn 0.3s ease; }
 .practice-toolbar { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
@@ -383,6 +443,280 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
     const { useState, useEffect, useMemo } = React;
 
     // Icons component
+
+    // ============ VERBI SPECIALI DATA ============
+    const SPECIAL_VERBS_DATA = {
+      separable: {
+        title: "Verbi Separabili (Trennbare Verben)",
+        description: "I prefissi si staccano dal verbo e vanno alla fine della frase",
+        prefixes: [
+          { prefix: "ab-", meaning: "via, giù", examples: [
+            { verb: "abfahren", meaning: "partire", example: "Der Zug fährt um 8 Uhr ab.", translation: "Il treno parte alle 8." },
+            { verb: "abholen", meaning: "andare a prendere", example: "Ich hole dich am Bahnhof ab.", translation: "Ti vengo a prendere alla stazione." },
+            { verb: "abnehmen", meaning: "dimagrire / togliere", example: "Er nimmt 5 Kilo ab.", translation: "Lui dimagrisce 5 chili." },
+            { verb: "abgeben", meaning: "consegnare", example: "Ich gebe die Hausaufgaben ab.", translation: "Consegno i compiti." },
+            { verb: "absagen", meaning: "disdire", example: "Sie sagt den Termin ab.", translation: "Lei disdice l'appuntamento." }
+          ]},
+          { prefix: "an-", meaning: "verso, acceso", examples: [
+            { verb: "anfangen", meaning: "iniziare", example: "Der Film fängt um 20 Uhr an.", translation: "Il film inizia alle 20." },
+            { verb: "ankommen", meaning: "arrivare", example: "Wann kommst du an?", translation: "Quando arrivi?" },
+            { verb: "anrufen", meaning: "telefonare", example: "Ich rufe dich morgen an.", translation: "Ti chiamo domani." },
+            { verb: "anziehen", meaning: "vestirsi / indossare", example: "Sie zieht einen Mantel an.", translation: "Lei indossa un cappotto." },
+            { verb: "anmachen", meaning: "accendere", example: "Mach bitte das Licht an!", translation: "Accendi la luce per favore!" }
+          ]},
+          { prefix: "auf-", meaning: "su, aperto", examples: [
+            { verb: "aufstehen", meaning: "alzarsi", example: "Ich stehe um 7 Uhr auf.", translation: "Mi alzo alle 7." },
+            { verb: "aufmachen", meaning: "aprire", example: "Mach bitte das Fenster auf!", translation: "Apri la finestra per favore!" },
+            { verb: "aufhören", meaning: "smettere", example: "Hör auf zu rauchen!", translation: "Smetti di fumare!" },
+            { verb: "aufräumen", meaning: "riordinare", example: "Räum dein Zimmer auf!", translation: "Riordina la tua stanza!" },
+            { verb: "aufpassen", meaning: "fare attenzione", example: "Pass auf das Kind auf!", translation: "Fai attenzione al bambino!" }
+          ]},
+          { prefix: "aus-", meaning: "fuori, spento", examples: [
+            { verb: "ausgehen", meaning: "uscire", example: "Wir gehen heute Abend aus.", translation: "Usciamo stasera." },
+            { verb: "ausmachen", meaning: "spegnere", example: "Mach den Fernseher aus!", translation: "Spegni la TV!" },
+            { verb: "aussteigen", meaning: "scendere (mezzo)", example: "Ich steige am Hauptbahnhof aus.", translation: "Scendo alla stazione centrale." },
+            { verb: "ausziehen", meaning: "spogliarsi / traslocare", example: "Er zieht nächste Woche aus.", translation: "Lui trasloca la prossima settimana." },
+            { verb: "ausfüllen", meaning: "compilare", example: "Füll das Formular aus!", translation: "Compila il modulo!" }
+          ]},
+          { prefix: "ein-", meaning: "dentro", examples: [
+            { verb: "einladen", meaning: "invitare", example: "Ich lade dich zum Essen ein.", translation: "Ti invito a cena." },
+            { verb: "einkaufen", meaning: "fare la spesa", example: "Sie kauft im Supermarkt ein.", translation: "Lei fa la spesa al supermercato." },
+            { verb: "einsteigen", meaning: "salire (mezzo)", example: "Steig schnell ein!", translation: "Sali veloce!" },
+            { verb: "einschlafen", meaning: "addormentarsi", example: "Das Kind schläft sofort ein.", translation: "Il bambino si addormenta subito." },
+            { verb: "einziehen", meaning: "trasferirsi", example: "Wir ziehen morgen ein.", translation: "Ci trasferiamo domani." }
+          ]},
+          { prefix: "mit-", meaning: "insieme", examples: [
+            { verb: "mitkommen", meaning: "venire insieme", example: "Kommst du mit?", translation: "Vieni anche tu?" },
+            { verb: "mitbringen", meaning: "portare con sé", example: "Bring etwas zu trinken mit!", translation: "Porta qualcosa da bere!" },
+            { verb: "mitmachen", meaning: "partecipare", example: "Machst du beim Spiel mit?", translation: "Partecipi al gioco?" },
+            { verb: "mitnehmen", meaning: "portare via", example: "Nimm einen Regenschirm mit!", translation: "Porta un ombrello!" }
+          ]},
+          { prefix: "nach-", meaning: "dopo, dietro", examples: [
+            { verb: "nachdenken", meaning: "riflettere", example: "Denk darüber nach!", translation: "Pensaci!" },
+            { verb: "nachmachen", meaning: "imitare", example: "Das Kind macht alles nach.", translation: "Il bambino imita tutto." },
+            { verb: "nachfragen", meaning: "chiedere informazioni", example: "Ich frage bei der Rezeption nach.", translation: "Chiedo alla reception." }
+          ]},
+          { prefix: "vor-", meaning: "davanti, prima", examples: [
+            { verb: "vorstellen", meaning: "presentare", example: "Darf ich mich vorstellen?", translation: "Posso presentarmi?" },
+            { verb: "vorbereiten", meaning: "preparare", example: "Ich bereite das Essen vor.", translation: "Preparo il cibo." },
+            { verb: "vorschlagen", meaning: "proporre", example: "Was schlägst du vor?", translation: "Cosa proponi?" },
+            { verb: "vorhaben", meaning: "avere intenzione", example: "Was hast du heute vor?", translation: "Cosa hai in programma oggi?" }
+          ]},
+          { prefix: "zu-", meaning: "chiuso, verso", examples: [
+            { verb: "zumachen", meaning: "chiudere", example: "Mach die Tür zu!", translation: "Chiudi la porta!" },
+            { verb: "zuhören", meaning: "ascoltare", example: "Hör mir bitte zu!", translation: "Ascoltami per favore!" },
+            { verb: "zunehmen", meaning: "ingrassare", example: "Im Winter nehme ich zu.", translation: "D'inverno ingrasso." },
+            { verb: "zuschauen", meaning: "guardare", example: "Die Kinder schauen zu.", translation: "I bambini guardano." }
+          ]},
+          { prefix: "zurück-", meaning: "indietro", examples: [
+            { verb: "zurückkommen", meaning: "tornare", example: "Wann kommst du zurück?", translation: "Quando torni?" },
+            { verb: "zurückgeben", meaning: "restituire", example: "Gib mir mein Buch zurück!", translation: "Restituiscimi il libro!" },
+            { verb: "zurückrufen", meaning: "richiamare", example: "Ich rufe dich zurück.", translation: "Ti richiamo." }
+          ]},
+          { prefix: "weg-", meaning: "via", examples: [
+            { verb: "weggehen", meaning: "andare via", example: "Geh weg!", translation: "Vai via!" },
+            { verb: "wegnehmen", meaning: "togliere", example: "Nimm die Hände weg!", translation: "Togli le mani!" },
+            { verb: "wegwerfen", meaning: "buttare via", example: "Wirf den Müll weg!", translation: "Butta la spazzatura!" }
+          ]},
+          { prefix: "fern-", meaning: "lontano", examples: [
+            { verb: "fernsehen", meaning: "guardare la TV", example: "Abends sehe ich fern.", translation: "La sera guardo la TV." }
+          ]}
+        ]
+      },
+      inseparable: {
+        title: "Verbi Non Separabili (Untrennbare Verben)",
+        description: "I prefissi restano sempre attaccati al verbo",
+        prefixes: [
+          { prefix: "be-", meaning: "transitivo / su", examples: [
+            { verb: "bekommen", meaning: "ricevere", example: "Ich bekomme einen Brief.", translation: "Ricevo una lettera." },
+            { verb: "besuchen", meaning: "visitare", example: "Wir besuchen die Großeltern.", translation: "Visitiamo i nonni." },
+            { verb: "bezahlen", meaning: "pagare", example: "Er bezahlt die Rechnung.", translation: "Lui paga il conto." },
+            { verb: "beginnen", meaning: "iniziare", example: "Der Kurs beginnt morgen.", translation: "Il corso inizia domani." },
+            { verb: "benutzen", meaning: "usare", example: "Ich benutze das Handy.", translation: "Uso il cellulare." },
+            { verb: "bestellen", meaning: "ordinare", example: "Wir bestellen Pizza.", translation: "Ordiniamo la pizza." },
+            { verb: "beschreiben", meaning: "descrivere", example: "Beschreib mir das Bild!", translation: "Descrivimi l'immagine!" }
+          ]},
+          { prefix: "emp-", meaning: "intensivo", examples: [
+            { verb: "empfehlen", meaning: "raccomandare", example: "Ich empfehle dieses Restaurant.", translation: "Raccomando questo ristorante." },
+            { verb: "empfangen", meaning: "ricevere / accogliere", example: "Der Chef empfängt die Gäste.", translation: "Il capo accoglie gli ospiti." },
+            { verb: "empfinden", meaning: "provare / sentire", example: "Was empfindest du dabei?", translation: "Cosa provi?" }
+          ]},
+          { prefix: "ent-", meaning: "via da, contro", examples: [
+            { verb: "entscheiden", meaning: "decidere", example: "Du musst dich entscheiden.", translation: "Devi decidere." },
+            { verb: "entschuldigen", meaning: "scusare", example: "Entschuldigen Sie bitte!", translation: "Mi scusi!" },
+            { verb: "entdecken", meaning: "scoprire", example: "Kolumbus entdeckte Amerika.", translation: "Colombo scoprì l'America." },
+            { verb: "entwickeln", meaning: "sviluppare", example: "Wir entwickeln neue Ideen.", translation: "Sviluppiamo nuove idee." },
+            { verb: "entspannen", meaning: "rilassarsi", example: "Am Wochenende entspanne ich.", translation: "Nel weekend mi rilasso." }
+          ]},
+          { prefix: "er-", meaning: "risultato / inizio", examples: [
+            { verb: "erzählen", meaning: "raccontare", example: "Erzähl mir eine Geschichte!", translation: "Raccontami una storia!" },
+            { verb: "erklären", meaning: "spiegare", example: "Kannst du das erklären?", translation: "Puoi spiegarlo?" },
+            { verb: "erreichen", meaning: "raggiungere", example: "Wir erreichen das Ziel.", translation: "Raggiungiamo l'obiettivo." },
+            { verb: "erfahren", meaning: "venire a sapere", example: "Ich habe es gestern erfahren.", translation: "L'ho saputo ieri." },
+            { verb: "erkennen", meaning: "riconoscere", example: "Ich erkenne dich nicht.", translation: "Non ti riconosco." },
+            { verb: "erlauben", meaning: "permettere", example: "Meine Eltern erlauben das nicht.", translation: "I miei genitori non lo permettono." },
+            { verb: "erwarten", meaning: "aspettarsi", example: "Was erwartest du?", translation: "Cosa ti aspetti?" }
+          ]},
+          { prefix: "ge-", meaning: "insieme", examples: [
+            { verb: "gefallen", meaning: "piacere", example: "Das Kleid gefällt mir.", translation: "Il vestito mi piace." },
+            { verb: "gehören", meaning: "appartenere", example: "Das Buch gehört mir.", translation: "Il libro è mio." },
+            { verb: "gelingen", meaning: "riuscire", example: "Das Experiment gelingt.", translation: "L'esperimento riesce." },
+            { verb: "genießen", meaning: "godere", example: "Ich genieße den Urlaub.", translation: "Mi godo le vacanze." }
+          ]},
+          { prefix: "miss-", meaning: "male, sbagliato", examples: [
+            { verb: "missverstehen", meaning: "fraintendere", example: "Du missverstehst mich.", translation: "Mi fraintendi." },
+            { verb: "missbrauchen", meaning: "abusare", example: "Er missbraucht das Vertrauen.", translation: "Lui abusa della fiducia." }
+          ]},
+          { prefix: "ver-", meaning: "via / errore / completamente", examples: [
+            { verb: "verstehen", meaning: "capire", example: "Ich verstehe nicht.", translation: "Non capisco." },
+            { verb: "vergessen", meaning: "dimenticare", example: "Vergiss mich nicht!", translation: "Non dimenticarmi!" },
+            { verb: "verlieren", meaning: "perdere", example: "Er verliert immer seine Schlüssel.", translation: "Lui perde sempre le chiavi." },
+            { verb: "verkaufen", meaning: "vendere", example: "Sie verkauft ihr Auto.", translation: "Lei vende la sua auto." },
+            { verb: "versuchen", meaning: "provare", example: "Versuch es noch einmal!", translation: "Prova ancora!" },
+            { verb: "verbringen", meaning: "trascorrere", example: "Wir verbringen Zeit zusammen.", translation: "Trascorriamo tempo insieme." },
+            { verb: "verbieten", meaning: "vietare", example: "Rauchen ist hier verboten.", translation: "È vietato fumare qui." },
+            { verb: "verbessern", meaning: "migliorare", example: "Ich muss mein Deutsch verbessern.", translation: "Devo migliorare il mio tedesco." }
+          ]},
+          { prefix: "zer-", meaning: "a pezzi", examples: [
+            { verb: "zerstören", meaning: "distruggere", example: "Der Sturm zerstört das Haus.", translation: "La tempesta distrugge la casa." },
+            { verb: "zerbrechen", meaning: "rompere in pezzi", example: "Das Glas zerbricht.", translation: "Il bicchiere si rompe." },
+            { verb: "zerreißen", meaning: "strappare", example: "Sie zerreißt den Brief.", translation: "Lei strappa la lettera." }
+          ]}
+        ]
+      },
+      withPrepositions: {
+        title: "Verbi con Preposizioni (Verben mit Präpositionen)",
+        description: "Verbi che richiedono una preposizione specifica",
+        categories: [
+          {
+            preposition: "an + Accusativo",
+            verbs: [
+              { verb: "denken an", meaning: "pensare a", example: "Ich denke an dich.", translation: "Penso a te." },
+              { verb: "sich erinnern an", meaning: "ricordarsi di", example: "Ich erinnere mich an den Tag.", translation: "Mi ricordo di quel giorno." },
+              { verb: "glauben an", meaning: "credere in", example: "Ich glaube an dich.", translation: "Credo in te." },
+              { verb: "sich gewöhnen an", meaning: "abituarsi a", example: "Ich gewöhne mich an das Klima.", translation: "Mi abituo al clima." },
+              { verb: "schreiben an", meaning: "scrivere a", example: "Ich schreibe an meine Mutter.", translation: "Scrivo a mia madre." }
+            ]
+          },
+          {
+            preposition: "an + Dativo",
+            verbs: [
+              { verb: "teilnehmen an", meaning: "partecipare a", example: "Ich nehme am Kurs teil.", translation: "Partecipo al corso." },
+              { verb: "arbeiten an", meaning: "lavorare a", example: "Er arbeitet an einem Projekt.", translation: "Lui lavora a un progetto." },
+              { verb: "leiden an", meaning: "soffrire di", example: "Sie leidet an Kopfschmerzen.", translation: "Lei soffre di mal di testa." },
+              { verb: "zweifeln an", meaning: "dubitare di", example: "Ich zweifle an seiner Ehrlichkeit.", translation: "Dubito della sua onestà." }
+            ]
+          },
+          {
+            preposition: "auf + Accusativo",
+            verbs: [
+              { verb: "warten auf", meaning: "aspettare", example: "Ich warte auf den Bus.", translation: "Aspetto l'autobus." },
+              { verb: "sich freuen auf", meaning: "non vedere l'ora di", example: "Ich freue mich auf die Ferien.", translation: "Non vedo l'ora delle vacanze." },
+              { verb: "hoffen auf", meaning: "sperare in", example: "Wir hoffen auf gutes Wetter.", translation: "Speriamo nel bel tempo." },
+              { verb: "achten auf", meaning: "fare attenzione a", example: "Achte auf den Verkehr!", translation: "Fai attenzione al traffico!" },
+              { verb: "sich konzentrieren auf", meaning: "concentrarsi su", example: "Konzentrier dich auf die Arbeit!", translation: "Concentrati sul lavoro!" },
+              { verb: "sich vorbereiten auf", meaning: "prepararsi per", example: "Ich bereite mich auf die Prüfung vor.", translation: "Mi preparo per l'esame." },
+              { verb: "verzichten auf", meaning: "rinunciare a", example: "Ich verzichte auf Süßigkeiten.", translation: "Rinuncio ai dolci." },
+              { verb: "antworten auf", meaning: "rispondere a", example: "Antworte auf meine Frage!", translation: "Rispondi alla mia domanda!" }
+            ]
+          },
+          {
+            preposition: "auf + Dativo",
+            verbs: [
+              { verb: "bestehen auf", meaning: "insistere su", example: "Er besteht auf seinem Recht.", translation: "Lui insiste sul suo diritto." },
+              { verb: "basieren auf", meaning: "basarsi su", example: "Der Film basiert auf einer wahren Geschichte.", translation: "Il film si basa su una storia vera." }
+            ]
+          },
+          {
+            preposition: "für + Accusativo",
+            verbs: [
+              { verb: "sich interessieren für", meaning: "interessarsi a", example: "Ich interessiere mich für Musik.", translation: "Mi interesso di musica." },
+              { verb: "sich entscheiden für", meaning: "decidere per", example: "Ich entscheide mich für das rote Kleid.", translation: "Scelgo il vestito rosso." },
+              { verb: "danken für", meaning: "ringraziare per", example: "Danke für die Hilfe!", translation: "Grazie per l'aiuto!" },
+              { verb: "sorgen für", meaning: "occuparsi di", example: "Sie sorgt für die Kinder.", translation: "Lei si occupa dei bambini." },
+              { verb: "sich entschuldigen für", meaning: "scusarsi per", example: "Ich entschuldige mich für die Verspätung.", translation: "Mi scuso per il ritardo." },
+              { verb: "kämpfen für", meaning: "lottare per", example: "Wir kämpfen für unsere Rechte.", translation: "Lottiamo per i nostri diritti." }
+            ]
+          },
+          {
+            preposition: "mit + Dativo",
+            verbs: [
+              { verb: "sprechen mit", meaning: "parlare con", example: "Ich spreche mit meinem Chef.", translation: "Parlo con il mio capo." },
+              { verb: "sich beschäftigen mit", meaning: "occuparsi di", example: "Er beschäftigt sich mit Kunst.", translation: "Lui si occupa di arte." },
+              { verb: "anfangen mit", meaning: "iniziare con", example: "Fangen wir mit der Arbeit an!", translation: "Iniziamo con il lavoro!" },
+              { verb: "aufhören mit", meaning: "smettere di", example: "Hör mit dem Lärm auf!", translation: "Smetti di fare rumore!" },
+              { verb: "sich treffen mit", meaning: "incontrarsi con", example: "Ich treffe mich mit Freunden.", translation: "Mi incontro con amici." },
+              { verb: "rechnen mit", meaning: "contare su / aspettarsi", example: "Ich rechne mit deiner Hilfe.", translation: "Conto sul tuo aiuto." },
+              { verb: "vergleichen mit", meaning: "confrontare con", example: "Vergleich mich nicht mit ihm!", translation: "Non confrontarmi con lui!" }
+            ]
+          },
+          {
+            preposition: "nach + Dativo",
+            verbs: [
+              { verb: "fragen nach", meaning: "chiedere di", example: "Ich frage nach dem Weg.", translation: "Chiedo la strada." },
+              { verb: "suchen nach", meaning: "cercare", example: "Ich suche nach meinen Schlüsseln.", translation: "Cerco le mie chiavi." },
+              { verb: "sich sehnen nach", meaning: "desiderare ardentemente", example: "Ich sehne mich nach dem Sommer.", translation: "Desidero ardentemente l'estate." },
+              { verb: "riechen nach", meaning: "odorare di", example: "Es riecht nach Kaffee.", translation: "Odora di caffè." },
+              { verb: "schmecken nach", meaning: "sapere di", example: "Es schmeckt nach Zimt.", translation: "Sa di cannella." }
+            ]
+          },
+          {
+            preposition: "über + Accusativo",
+            verbs: [
+              { verb: "sprechen über", meaning: "parlare di", example: "Wir sprechen über das Problem.", translation: "Parliamo del problema." },
+              { verb: "sich freuen über", meaning: "essere contento di", example: "Ich freue mich über das Geschenk.", translation: "Sono contento del regalo." },
+              { verb: "nachdenken über", meaning: "riflettere su", example: "Ich denke über das Angebot nach.", translation: "Rifletto sull'offerta." },
+              { verb: "sich ärgern über", meaning: "arrabbiarsi per", example: "Ich ärgere mich über den Fehler.", translation: "Mi arrabbio per l'errore." },
+              { verb: "sich beschweren über", meaning: "lamentarsi di", example: "Er beschwert sich über den Service.", translation: "Lui si lamenta del servizio." },
+              { verb: "sich wundern über", meaning: "meravigliarsi di", example: "Ich wundere mich über sein Verhalten.", translation: "Mi meraviglio del suo comportamento." },
+              { verb: "lachen über", meaning: "ridere di", example: "Wir lachen über den Witz.", translation: "Ridiamo della barzelletta." }
+            ]
+          },
+          {
+            preposition: "um + Accusativo",
+            verbs: [
+              { verb: "bitten um", meaning: "chiedere", example: "Ich bitte um Hilfe.", translation: "Chiedo aiuto." },
+              { verb: "sich kümmern um", meaning: "occuparsi di", example: "Sie kümmert sich um die Kinder.", translation: "Lei si occupa dei bambini." },
+              { verb: "sich handeln um", meaning: "trattarsi di", example: "Es handelt sich um ein Missverständnis.", translation: "Si tratta di un malinteso." },
+              { verb: "sich sorgen um", meaning: "preoccuparsi per", example: "Ich sorge mich um meine Gesundheit.", translation: "Mi preoccupo per la mia salute." },
+              { verb: "kämpfen um", meaning: "lottare per", example: "Er kämpft um sein Leben.", translation: "Lui lotta per la sua vita." },
+              { verb: "sich bewerben um", meaning: "candidarsi per", example: "Ich bewerbe mich um die Stelle.", translation: "Mi candido per il posto." }
+            ]
+          },
+          {
+            preposition: "von + Dativo",
+            verbs: [
+              { verb: "träumen von", meaning: "sognare di", example: "Ich träume von einer Reise.", translation: "Sogno un viaggio." },
+              { verb: "erzählen von", meaning: "raccontare di", example: "Er erzählt von seiner Kindheit.", translation: "Lui racconta della sua infanzia." },
+              { verb: "abhängen von", meaning: "dipendere da", example: "Das hängt vom Wetter ab.", translation: "Dipende dal tempo." },
+              { verb: "sich erholen von", meaning: "riprendersi da", example: "Ich erhole mich von der Krankheit.", translation: "Mi riprendo dalla malattia." },
+              { verb: "sich verabschieden von", meaning: "congedarsi da", example: "Ich verabschiede mich von dir.", translation: "Mi congedo da te." }
+            ]
+          },
+          {
+            preposition: "vor + Dativo",
+            verbs: [
+              { verb: "Angst haben vor", meaning: "aver paura di", example: "Ich habe Angst vor Spinnen.", translation: "Ho paura dei ragni." },
+              { verb: "sich fürchten vor", meaning: "temere", example: "Er fürchtet sich vor dem Gewitter.", translation: "Lui teme il temporale." },
+              { verb: "warnen vor", meaning: "mettere in guardia da", example: "Ich warne dich vor ihm.", translation: "Ti metto in guardia da lui." },
+              { verb: "sich schützen vor", meaning: "proteggersi da", example: "Schütz dich vor der Sonne!", translation: "Proteggiti dal sole!" },
+              { verb: "fliehen vor", meaning: "fuggire da", example: "Sie flieht vor der Gefahr.", translation: "Lei fugge dal pericolo." }
+            ]
+          },
+          {
+            preposition: "zu + Dativo",
+            verbs: [
+              { verb: "gehören zu", meaning: "appartenere a", example: "Das gehört zu meiner Arbeit.", translation: "Fa parte del mio lavoro." },
+              { verb: "gratulieren zu", meaning: "congratularsi per", example: "Ich gratuliere dir zum Geburtstag!", translation: "Ti faccio gli auguri per il compleanno!" },
+              { verb: "einladen zu", meaning: "invitare a", example: "Ich lade dich zur Party ein.", translation: "Ti invito alla festa." },
+              { verb: "führen zu", meaning: "portare a", example: "Das führt zu Problemen.", translation: "Questo porta a problemi." },
+              { verb: "passen zu", meaning: "abbinarsi a", example: "Die Schuhe passen zum Kleid.", translation: "Le scarpe si abbinano al vestito." }
+            ]
+          }
+        ]
+      }
+    };
+
     const Icons = {
       Book: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>,
       Grammar: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>,
@@ -453,6 +787,54 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       if (correct) stats.correctAnswers++;
       localStorage.setItem('quizStats', JSON.stringify(stats));
     };
+    // ============ TRACCIAMENTO PROGRESSI (localStorage) ============
+    const getProgress = () => {
+      try { return JSON.parse(localStorage.getItem('learningProgress')) || { words: {}, grammar: {}, verbs: {} }; }
+      catch { return { words: {}, grammar: {}, verbs: {} }; }
+    };
+    const saveProgress = (progress) => {
+      localStorage.setItem('learningProgress', JSON.stringify(progress));
+    };
+    const markWordStatus = (wordId, correct) => {
+      const progress = getProgress();
+      progress.words[wordId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() };
+      saveProgress(progress);
+    };
+    const markGrammarStatus = (topicId, correct) => {
+      const progress = getProgress();
+      progress.grammar[topicId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() };
+      saveProgress(progress);
+    };
+    const markVerbStatus = (verbId, correct) => {
+      const progress = getProgress();
+      progress.verbs[verbId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() };
+      saveProgress(progress);
+    };
+    const getWordStatus = (wordId) => {
+      const progress = getProgress();
+      return progress.words[wordId]?.status || 'unseen';
+    };
+    const getGrammarStatus = (topicId) => {
+      const progress = getProgress();
+      return progress.grammar[topicId]?.status || 'unseen';
+    };
+    const getVerbStatus = (verbId) => {
+      const progress = getProgress();
+      return progress.verbs[verbId]?.status || 'unseen';
+    };
+    const getProgressStats = () => {
+      const progress = getProgress();
+      const wordStats = Object.values(progress.words);
+      const grammarStats = Object.values(progress.grammar);
+      return {
+        wordsCorrect: wordStats.filter(w => w.status === 'correct').length,
+        wordsIncorrect: wordStats.filter(w => w.status === 'incorrect').length,
+        grammarCorrect: grammarStats.filter(g => g.status === 'correct').length,
+        grammarIncorrect: grammarStats.filter(g => g.status === 'incorrect').length
+      };
+    };
+
+
 
     const LEVEL_COLORS = {
       A1: { bg: '#10b981', light: '#d1fae5', text: '#065f46' },
@@ -501,6 +883,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             {currentPage === 'verbs' && <VerbsPage selectedVerb={selectedModule} onNavigate={navigate} />}
             {currentPage === 'quiz' && <QuizPage level={selectedLevel} onNavigate={navigate} />}
             {currentPage === 'practice' && <PracticePage onNavigate={navigate} />}
+            {currentPage === 'special-verbs' && <SpecialVerbsPage onNavigate={navigate} />}
             {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
           </main>
           <Footer />
@@ -527,6 +910,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               <button className={`nav-btn ${currentPage === 'verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
               <button className={`nav-btn ${currentPage === 'quiz' ? 'active' : ''}`} onClick={() => onNavigate('quiz')}><Icons.Quiz /><span>Quiz</span></button>
               <button className={`nav-btn ${currentPage === 'practice' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
+              <button className={`nav-btn ${currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('special-verbs')}><Icons.Verb /><span>Speciali</span></button>
               <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
             </nav>
           </div>
@@ -654,16 +1038,23 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               <p className="page-subtitle">{getLevelName(level)} • {modules.length} moduli</p>
             </div>
             <div className="modules-grid">
-              {modules.map((mod, idx) => (
+              {modules.map((mod, idx) => {
+                const modWords = mod.words || [];
+                const correctCount = modWords.filter(w => getWordStatus(w.german) === 'correct').length;
+                const incorrectCount = modWords.filter(w => getWordStatus(w.german) === 'incorrect').length;
+                const totalWords = modWords.length;
+                return (
                 <div key={mod.id || idx} className="module-card" onClick={() => onNavigate('vocabulary', {level, module: mod})}>
                   <div className="module-icon">{mod.icon || '📖'}</div>
                   <h3 className="module-title">{mod.name || mod.category}</h3>
-                  <p className="module-count">{mod.words?.length || 0} parole</p>
-                  <div className="module-preview">
-                    {mod.words?.slice(0, 3).map((w, i) => <span key={i} className="preview-word">{w.german}</span>)}
+                  <p className="module-count">{totalWords} parole</p>
+                  <div className="module-progress">
+                    <span className="module-progress-item correct">{correctCount}</span>
+                    <span className="module-progress-item incorrect">{incorrectCount}</span>
+                    <span className="module-progress-item unseen">{totalWords - correctCount - incorrectCount}</span>
                   </div>
                 </div>
-              ))}
+              )})}
             </div>
           </div>
         );
@@ -678,6 +1069,11 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
             <h1 className="page-title">{module.icon} {module.name}</h1>
             <p className="page-subtitle">{words.length} parole</p>
+          </div>
+          <div className="progress-summary">
+            <div className="progress-summary-item correct"><span className={`progress-dot correct`}></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'correct').length}</span> corrette</div>
+            <div className="progress-summary-item incorrect"><span className={`progress-dot incorrect`}></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'incorrect').length}</span> errate</div>
+            <div className="progress-summary-item unseen"><span className={`progress-dot unseen`}></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'unseen').length}</span> da fare</div>
           </div>
           <div className="vocab-toolbar">
             <div className="search-box"><Icons.Search /><input type="text" placeholder="Cerca parola..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
@@ -697,6 +1093,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
     function WordCard({ word, viewMode, onRemove }) {
       const [flipped, setFlipped] = useState(false);
       const [saved, setSaved] = useState(isDifficultWord(word.german));
+      const wordStatus = getWordStatus(word.german);
       const speak = (text) => { if ('speechSynthesis' in window) { const u = new SpeechSynthesisUtterance(text); u.lang = 'de-DE'; speechSynthesis.speak(u); }};
       const toggleSave = (e) => {
         e.stopPropagation();
@@ -707,7 +1104,8 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 
       if (viewMode === 'list') {
         return (
-          <div className="word-row">
+          <div className={`word-row status-${wordStatus}`}>
+            <span className={`progress-dot ${wordStatus}`} title={wordStatus === 'correct' ? 'Risposta corretta' : wordStatus === 'incorrect' ? 'Risposta errata' : 'Non ancora testata'}></span>
             <div className="word-german"><span className="article">{word.article}</span><span className="word">{word.german}</span>{word.plural && <span className="plural">({word.plural})</span>}</div>
             <div className="word-italian">{word.italian}</div>
             <button className="save-btn" onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
@@ -717,7 +1115,8 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       }
 
       return (
-        <div className={`word-card ${flipped ? 'flipped' : ''}`} onClick={() => setFlipped(!flipped)}>
+        <div className={`word-card ${flipped ? 'flipped' : ''} status-${wordStatus}`} onClick={() => setFlipped(!flipped)}>
+          <span className={`progress-indicator ${wordStatus}`} title={wordStatus === 'correct' ? 'Risposta corretta' : wordStatus === 'incorrect' ? 'Risposta errata' : 'Non ancora testata'}></span>
           <div className="word-card-inner">
             <div className="word-card-front">
               <button className={`save-btn ${saved ? 'saved' : ''}`} onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
@@ -769,14 +1168,23 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               <h1 className="page-title">Grammatica {level}</h1>
               <p className="page-subtitle">{levelData?.title || getLevelName(level)}</p>
             </div>
+            <div className="progress-bar-legend">
+              <span className="legend-item"><span className="progress-dot correct"></span> Completati</span>
+              <span className="legend-item"><span className="progress-dot incorrect"></span> Da rivedere</span>
+              <span className="legend-item"><span className="progress-dot unseen"></span> Non iniziati</span>
+            </div>
             <div className="topics-list">
-              {topics.map((t, idx) => (
-                <div key={t.id || idx} className="topic-card" onClick={() => onNavigate('grammar', {level, topic: t})}>
+              {topics.map((t, idx) => {
+                const topicId = t.id || `${level}_${idx}`;
+                const topicStatus = getGrammarStatus(topicId);
+                return (
+                <div key={t.id || idx} className={`topic-card status-${topicStatus}`} onClick={() => onNavigate('grammar', {level, topic: t})}>
+                  <span className={`progress-dot ${topicStatus}`}></span>
                   <div className="topic-number">{idx + 1}</div>
                   <div className="topic-content"><h3 className="topic-title">{t.name}</h3><p className="topic-explanation">{t.explanation}</p></div>
                   <div className="topic-meta">{t.exercises && <span className="exercise-count">{t.exercises.length} esercizi</span>}<Icons.ChevronRight /></div>
                 </div>
-              ))}
+              )})}
             </div>
           </div>
         );
@@ -1029,7 +1437,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
           const levelData = GRAMMAR_DATA.levels?.[level];
           const allEx = [];
           levelData?.topics?.forEach(t => {
-            t.exercises?.forEach((ex, i) => allEx.push({ ...ex, id: `${t.id}_${i}` }));
+            t.exercises?.forEach((ex, i) => allEx.push({ ...ex, id: `${t.id}_${i}`, topicId: t.id }));
           });
 
           // Esplora tutti gli esercizi prima di ripetere
@@ -1049,9 +1457,13 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       const handleAnswer = (answer) => {
         if (answers[currentQuestion] !== undefined) return; // già risposto
         setAnswers(prev => ({ ...prev, [currentQuestion]: answer }));
-        const isCorrect = answer === questions[currentQuestion].correctAnswer;
+        const q = questions[currentQuestion];
+        const isCorrect = answer === q.correctAnswer;
         if (isCorrect) setScore(score + 1);
         updateQuizStats(isCorrect);
+        // Traccia progresso per parola/grammatica
+        if (q.wordId) markWordStatus(q.wordId, isCorrect);
+        if (q.grammarId) markGrammarStatus(q.grammarId, isCorrect);
       };
 
       const prevQuestion = () => {
@@ -1176,6 +1588,238 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
     }
 
 
+
+    // ============ PAGINA VERBI SPECIALI ============
+    function SpecialVerbsPage({ onNavigate }) {
+      const [activeTab, setActiveTab] = useState('separable');
+      const [expandedPrefixes, setExpandedPrefixes] = useState({});
+      const [searchTerm, setSearchTerm] = useState('');
+
+      const togglePrefix = (prefix) => {
+        setExpandedPrefixes(prev => ({ ...prev, [prefix]: !prev[prefix] }));
+      };
+
+      const speak = (text) => {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'de-DE';
+        speechSynthesis.speak(utterance);
+      };
+
+      const filterExamples = (examples) => {
+        if (!searchTerm.trim()) return examples;
+        const term = searchTerm.toLowerCase();
+        return examples.filter(e =>
+          e.verb.toLowerCase().includes(term) ||
+          e.meaning.toLowerCase().includes(term)
+        );
+      };
+
+      const renderSeparableVerbs = (data) => {
+        return (
+          <div className="special-verbs-content">
+            <p className="special-verbs-desc">{data.description}</p>
+            <div className="prefix-list">
+              {data.prefixes.map(({ prefix, meaning, examples }) => {
+                const filtered = filterExamples(examples);
+                if (searchTerm && filtered.length === 0) return null;
+                const isExpanded = expandedPrefixes[prefix];
+                return (
+                  <div key={prefix} className="prefix-card">
+                    <div className="prefix-header" onClick={() => togglePrefix(prefix)}>
+                      <div className="prefix-info">
+                        <span className="prefix-name">{prefix}</span>
+                        <span className="prefix-meaning">{meaning}</span>
+                      </div>
+                      <div className="prefix-meta">
+                        <span className="prefix-count">{filtered.length} verbi</span>
+                        <span className={`prefix-toggle ${isExpanded ? 'open' : ''}`}>▼</span>
+                      </div>
+                    </div>
+                    {isExpanded && (
+                      <div className="prefix-examples">
+                        {filtered.map((ex, idx) => (
+                          <div key={idx} className="verb-example">
+                            <div className="verb-row">
+                              <span className="verb-name" onClick={() => speak(ex.verb)}>{ex.verb}</span>
+                              <span className="verb-meaning">{ex.meaning}</span>
+                              <button className="speak-btn-mini" onClick={() => speak(ex.verb)}><Icons.Volume /></button>
+                            </div>
+                            <div className="example-sentence">
+                              <span className="example-de" onClick={() => speak(ex.example)}>{ex.example}</span>
+                              <span className="example-it">{ex.translation}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      };
+
+      const renderPrepositionVerbs = (data) => {
+        return (
+          <div className="special-verbs-content">
+            <p className="special-verbs-desc">{data.description}</p>
+            <div className="prefix-list">
+              {data.categories.map(({ preposition, verbs }) => {
+                const filtered = filterExamples(verbs);
+                if (searchTerm && filtered.length === 0) return null;
+                const isExpanded = expandedPrefixes[preposition];
+                return (
+                  <div key={preposition} className="prefix-card preposition">
+                    <div className="prefix-header" onClick={() => togglePrefix(preposition)}>
+                      <div className="prefix-info">
+                        <span className="prefix-name preposition">{preposition}</span>
+                      </div>
+                      <div className="prefix-meta">
+                        <span className="prefix-count">{filtered.length} verbi</span>
+                        <span className={`prefix-toggle ${isExpanded ? 'open' : ''}`}>▼</span>
+                      </div>
+                    </div>
+                    {isExpanded && (
+                      <div className="prefix-examples">
+                        {filtered.map((ex, idx) => (
+                          <div key={idx} className="verb-example">
+                            <div className="verb-row">
+                              <span className="verb-name" onClick={() => speak(ex.verb)}>{ex.verb}</span>
+                              <span className="verb-meaning">{ex.meaning}</span>
+                              <button className="speak-btn-mini" onClick={() => speak(ex.verb)}><Icons.Volume /></button>
+                            </div>
+                            <div className="example-sentence">
+                              <span className="example-de" onClick={() => speak(ex.example)}>{ex.example}</span>
+                              <span className="example-it">{ex.translation}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      };
+
+      const renderNomenVerbExpressions = (data) => {
+        return (
+          <div className="special-verbs-content">
+            <p className="special-verbs-desc">{data.description}</p>
+            <div className="prefix-list">
+              {data.categories.map(({ category, icon, expressions }) => {
+                const filtered = expressions.filter(e => {
+                  if (!searchTerm.trim()) return true;
+                  const term = searchTerm.toLowerCase();
+                  return e.expression.toLowerCase().includes(term) ||
+                         e.meaning.toLowerCase().includes(term) ||
+                         e.simpleVerb.toLowerCase().includes(term);
+                });
+                if (searchTerm && filtered.length === 0) return null;
+                const isExpanded = expandedPrefixes[category];
+                return (
+                  <div key={category} className="prefix-card nomen-verb">
+                    <div className="prefix-header" onClick={() => togglePrefix(category)}>
+                      <div className="prefix-info">
+                        <span className="category-icon">{icon}</span>
+                        <span className="prefix-name category">{category}</span>
+                      </div>
+                      <div className="prefix-meta">
+                        <span className="prefix-count">{filtered.length} espressioni</span>
+                        <span className={`prefix-toggle ${isExpanded ? 'open' : ''}`}>▼</span>
+                      </div>
+                    </div>
+                    {isExpanded && (
+                      <div className="prefix-examples nomen-verb">
+                        {filtered.map((ex, idx) => (
+                          <div key={idx} className="nomen-verb-item">
+                            <div className="nomen-verb-header">
+                              <span className="nomen-verb-expression" onClick={() => speak(ex.expression)}>
+                                {ex.expression}
+                              </span>
+                              <button className="speak-btn-mini" onClick={() => speak(ex.expression)}>
+                                <Icons.Volume />
+                              </button>
+                            </div>
+                            <div className="nomen-verb-meaning">{ex.meaning}</div>
+                            <div className="nomen-verb-simple">
+                              <span className="simple-label">Verbo semplice:</span>
+                              <span className="simple-verb">{ex.simpleVerb}</span>
+                            </div>
+                            <div className="nomen-verb-example">
+                              <span className="example-de" onClick={() => speak(ex.example)}>{ex.example}</span>
+                              <span className="example-it">{ex.translation}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      };
+
+      return (
+        <div className="special-verbs-page">
+          <h1 className="page-title">Verbi Speciali</h1>
+          <p className="page-subtitle">Separabili, non separabili e con preposizioni</p>
+
+          <div className="special-verbs-toolbar">
+            <div className="search-box">
+              <Icons.Search />
+              <input
+                type="text"
+                placeholder="Cerca verbo..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
+            </div>
+          </div>
+
+          <div className="special-tabs">
+            <button
+              className={`special-tab ${activeTab === 'separable' ? 'active' : ''}`}
+              onClick={() => setActiveTab('separable')}
+            >
+              <span className="tab-icon">✂️</span>
+              <span>Separabili</span>
+            </button>
+            <button
+              className={`special-tab ${activeTab === 'inseparable' ? 'active' : ''}`}
+              onClick={() => setActiveTab('inseparable')}
+            >
+              <span className="tab-icon">🔗</span>
+              <span>Non Separabili</span>
+            </button>
+            <button
+              className={`special-tab ${activeTab === 'prepositions' ? 'active' : ''}`}
+              onClick={() => setActiveTab('prepositions')}
+            >
+              <span className="tab-icon">📍</span>
+              <span>Con Preposizioni</span>
+            </button>
+            <button
+              className={`special-tab ${activeTab === 'nomenVerb' ? 'active' : ''}`}
+              onClick={() => setActiveTab('nomenVerb')}
+            >
+              <span className="tab-icon">🔗</span>
+              <span>Frasi Fatte</span>
+            </button>
+          </div>
+
+          {activeTab === 'separable' && renderSeparableVerbs(SPECIAL_VERBS_DATA.separable)}
+          {activeTab === 'inseparable' && renderSeparableVerbs(SPECIAL_VERBS_DATA.inseparable)}
+          {activeTab === 'prepositions' && renderPrepositionVerbs(SPECIAL_VERBS_DATA.withPrepositions)}
+        </div>
+      );
+    }
+
     // ============ PAGINA PRATICA ============
     function PracticePage({ onNavigate }) {
       const [mode, setMode] = useState('de-it'); // 'de-it' = tedesco->italiano, 'it-de' = italiano->tedesco
@@ -1284,6 +1928,11 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             <span>•</span>
             <span>{Object.keys(revealedWords).filter(k => revealedWords[k]).length} rivelate</span>
           </div>
+          <div className="progress-bar-legend">
+            <span className="legend-item"><span className="progress-dot correct"></span> Corrette</span>
+            <span className="legend-item"><span className="progress-dot incorrect"></span> Errate</span>
+            <span className="legend-item"><span className="progress-dot unseen"></span> Da fare</span>
+          </div>
 
           <div className="practice-list">
             {sortedWords.map((word, index) => {
@@ -1291,12 +1940,14 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
               const translation = mode === 'de-it' ? word.italian : word.german;
               const isRevealed = revealedWords[index];
 
+              const status = getWordStatus(word.german);
               return (
                 <div
                   key={`${word.german}-${index}`}
-                  className={`practice-card ${isRevealed ? 'revealed' : ''}`}
+                  className={`practice-card ${isRevealed ? 'revealed' : ''} status-${status}`}
                   onClick={() => toggleReveal(index)}
                 >
+                  <span className={`progress-dot ${status}`} title={status === 'correct' ? 'Risposta corretta' : status === 'incorrect' ? 'Risposta errata' : 'Non ancora testata'}></span>
                   <div className="practice-main">
                     <span className="practice-word">{mainWord}</span>
                     {mode === 'de-it' && (
