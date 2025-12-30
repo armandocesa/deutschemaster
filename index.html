@@ -59,6 +59,15 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 .stat-label { font-size: 13px; color: var(--text-secondary); }
 .hero-decoration { display: none; }
 
+/* User Stats */
+.user-stats { margin-top: 40px; padding: 24px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); max-width: 500px; margin-left: auto; margin-right: auto; }
+.user-stats h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-secondary); margin-bottom: 16px; text-align: center; }
+.user-stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.user-stat { text-align: center; }
+.user-stat-number { display: block; font-size: 24px; font-weight: 700; color: var(--success); }
+.user-stat-label { font-size: 11px; color: var(--text-secondary); }
+@media (max-width: 500px) { .user-stats-grid { grid-template-columns: repeat(2, 1fr); } }
+
 /* Features */
 .section-title { font-size: 24px; font-weight: 600; margin-bottom: 24px; text-align: center; }
 .features { padding: 40px 0; }
@@ -232,10 +241,15 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 
 /* Quiz Playing */
 .quiz-container { max-width: 600px; margin: 0 auto; }
-.quiz-progress { display: flex; align-items: center; gap: 16px; margin-bottom: 30px; }
-.progress-bar { flex: 1; height: 8px; background: var(--bg-card); border-radius: 4px; overflow: hidden; }
-.progress-fill { height: 100%; background: var(--accent); transition: width 0.3s; }
-.progress-text { color: var(--text-secondary); font-size: 14px; white-space: nowrap; }
+.quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.question-number { font-size: 18px; font-weight: 700; color: var(--accent); }
+.save-question-btn { background: transparent; border: none; cursor: pointer; color: var(--text-secondary); padding: 8px; border-radius: 8px; transition: all 0.2s; }
+.save-question-btn:hover { background: var(--bg-card); color: var(--accent); }
+.save-question-btn.saved { color: #f59e0b; }
+.save-question-btn svg { width: 24px; height: 24px; }
+.quiz-progress { max-width: 600px; margin: 0 auto 20px; }
+.progress-bar { flex: 1; height: 6px; background: var(--bg-card); border-radius: 4px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent), #8b5cf6); transition: width 0.3s; }
 .quiz-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px; }
 .quiz-question { font-size: 20px; font-weight: 600; margin-bottom: 24px; text-align: center; }
 .quiz-options { display: flex; flex-direction: column; gap: 10px; }
@@ -366,6 +380,37 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       return getDifficultWords().some(w => w.id === id);
     };
 
+    // ============ DOMANDE DA RIVEDERE (localStorage) ============
+    const getReviewQuestions = () => {
+      try { return JSON.parse(localStorage.getItem('reviewQuestions')) || []; } catch { return []; }
+    };
+    const saveReviewQuestion = (question) => {
+      const questions = getReviewQuestions();
+      const id = question.question;
+      if (!questions.find(q => q.id === id)) {
+        questions.push({ ...question, id, savedAt: Date.now() });
+        localStorage.setItem('reviewQuestions', JSON.stringify(questions));
+      }
+    };
+    const removeReviewQuestion = (id) => {
+      const questions = getReviewQuestions().filter(q => q.id !== id);
+      localStorage.setItem('reviewQuestions', JSON.stringify(questions));
+    };
+    const isReviewQuestion = (id) => {
+      return getReviewQuestions().some(q => q.id === id);
+    };
+
+    // ============ STATISTICHE QUIZ (localStorage) ============
+    const getQuizStats = () => {
+      try { return JSON.parse(localStorage.getItem('quizStats')) || { totalAnswered: 0, correctAnswers: 0 }; } catch { return { totalAnswered: 0, correctAnswers: 0 }; }
+    };
+    const updateQuizStats = (correct) => {
+      const stats = getQuizStats();
+      stats.totalAnswered++;
+      if (correct) stats.correctAnswers++;
+      localStorage.setItem('quizStats', JSON.stringify(stats));
+    };
+
     const LEVEL_COLORS = {
       A1: { bg: '#10b981', light: '#d1fae5', text: '#065f46' },
       A2: { bg: '#06b6d4', light: '#cffafe', text: '#155e75' },
@@ -453,6 +498,10 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         verbs: VERBS_DATA.statistics?.totalVerbs || 78,
       }), []);
 
+      const quizStats = getQuizStats();
+      const reviewCount = getReviewQuestions().length;
+      const savedCount = getDifficultWords().length;
+
       return (
         <div className="home-page">
           <section className="hero">
@@ -465,6 +514,17 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
                 <div className="stat"><span className="stat-number">{stats.verbs}</span><span className="stat-label">Verbi coniugati</span></div>
                 <div className="stat"><span className="stat-number">{stats.exercises}</span><span className="stat-label">Esercizi</span></div>
               </div>
+              {quizStats.totalAnswered > 0 && (
+                <div className="user-stats">
+                  <h3>I tuoi progressi</h3>
+                  <div className="user-stats-grid">
+                    <div className="user-stat"><span className="user-stat-number">{quizStats.totalAnswered}</span><span className="user-stat-label">Domande fatte</span></div>
+                    <div className="user-stat"><span className="user-stat-number">{quizStats.totalAnswered > 0 ? Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100) : 0}%</span><span className="user-stat-label">Corrette</span></div>
+                    <div className="user-stat"><span className="user-stat-number">{savedCount}</span><span className="user-stat-label">Parole salvate</span></div>
+                    <div className="user-stat"><span className="user-stat-number">{reviewCount}</span><span className="user-stat-label">Da rivedere</span></div>
+                  </div>
+                </div>
+              )}
             </div>
             <div className="hero-decoration">
               <div className="floating-card card-1">📚</div>
@@ -946,7 +1006,18 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       const handleAnswer = (answer) => {
         setSelectedAnswer(answer);
         setShowResult(true);
-        if (answer === questions[currentQuestion].correctAnswer) setScore(score + 1);
+        const isCorrect = answer === questions[currentQuestion].correctAnswer;
+        if (isCorrect) setScore(score + 1);
+        updateQuizStats(isCorrect);
+      };
+
+      const toggleSaveQuestion = () => {
+        const q = questions[currentQuestion];
+        if (isReviewQuestion(q.question)) {
+          removeReviewQuestion(q.question);
+        } else {
+          saveReviewQuestion(q);
+        }
       };
 
       const nextQuestion = () => {
@@ -1010,9 +1081,14 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 
       return (
         <div className="quiz-page">
+          <div className="quiz-header">
+            <span className="question-number">Domanda {currentQuestion + 1} di {questions.length}</span>
+            <button className={`save-question-btn ${isReviewQuestion(current?.question) ? 'saved' : ''}`} onClick={toggleSaveQuestion} title="Salva per rivedere">
+              {isReviewQuestion(current?.question) ? <Icons.StarFilled /> : <Icons.Star />}
+            </button>
+          </div>
           <div className="quiz-progress">
             <div className="progress-bar"><div className="progress-fill" style={{width: `${((currentQuestion + 1) / questions.length) * 100}%`}} /></div>
-            <span className="progress-text">{currentQuestion + 1} / {questions.length}</span>
           </div>
           <div className="quiz-card">
             <p className="quiz-question">{current?.question}</p>
