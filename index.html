@@ -241,8 +241,11 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 
 /* Quiz Playing */
 .quiz-container { max-width: 600px; margin: 0 auto; }
-.quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; max-width: 600px; margin-left: auto; margin-right: auto; }
-.question-number { font-size: 18px; font-weight: 700; color: var(--accent); }
+.quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; max-width: 600px; margin-left: auto; margin-right: auto; gap: 12px; }
+.quiz-nav-btn { display: flex; align-items: center; gap: 4px; padding: 8px 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; color: var(--text-secondary); font-size: 13px; cursor: pointer; transition: all 0.2s; }
+.quiz-nav-btn:hover { background: var(--bg-card-hover); border-color: var(--accent); color: var(--text-primary); }
+.quiz-nav-btn svg { width: 16px; height: 16px; }
+.question-number { font-size: 18px; font-weight: 700; color: var(--accent); flex: 1; text-align: center; }
 .save-question-btn { background: transparent; border: none; cursor: pointer; color: var(--text-secondary); padding: 8px; border-radius: 8px; transition: all 0.2s; }
 .save-question-btn:hover { background: var(--bg-card); color: var(--accent); }
 .save-question-btn.saved { color: #f59e0b; }
@@ -938,8 +941,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       const [questions, setQuestions] = useState([]);
       const [currentQuestion, setCurrentQuestion] = useState(0);
       const [score, setScore] = useState(0);
-      const [selectedAnswer, setSelectedAnswer] = useState(null);
-      const [showResult, setShowResult] = useState(false);
+      const [answers, setAnswers] = useState({}); // {0: 'risposta1', 1: 'risposta2', ...}
 
       // Gestione domande già fatte (localStorage) - evita ripetizioni
       const getUsedQuestions = (type, lvl) => {
@@ -974,8 +976,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         setQuestions(q);
         setCurrentQuestion(0);
         setScore(0);
-        setSelectedAnswer(null);
-        setShowResult(false);
+        setAnswers({});
         setQuizState('playing');
       };
 
@@ -1046,11 +1047,17 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       };
 
       const handleAnswer = (answer) => {
-        setSelectedAnswer(answer);
-        setShowResult(true);
+        if (answers[currentQuestion] !== undefined) return; // già risposto
+        setAnswers(prev => ({ ...prev, [currentQuestion]: answer }));
         const isCorrect = answer === questions[currentQuestion].correctAnswer;
         if (isCorrect) setScore(score + 1);
         updateQuizStats(isCorrect);
+      };
+
+      const prevQuestion = () => {
+        if (currentQuestion > 0) {
+          setCurrentQuestion(currentQuestion - 1);
+        }
       };
 
       const toggleSaveQuestion = () => {
@@ -1065,8 +1072,6 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       const nextQuestion = () => {
         if (currentQuestion < questions.length - 1) {
           setCurrentQuestion(currentQuestion + 1);
-          setSelectedAnswer(null);
-          setShowResult(false);
         } else {
           setQuizState('finished');
         }
@@ -1119,11 +1124,18 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       }
 
       const current = questions[currentQuestion];
+      const selectedAnswer = answers[currentQuestion];
+      const hasAnswered = selectedAnswer !== undefined;
       const isCorrect = selectedAnswer === current?.correctAnswer;
 
       return (
         <div className="quiz-page">
           <div className="quiz-header">
+            {currentQuestion > 0 && (
+              <button className="quiz-nav-btn" onClick={prevQuestion} title="Domanda precedente">
+                <Icons.Back /> Indietro
+              </button>
+            )}
             <span className="question-number">Domanda {currentQuestion + 1} di {questions.length}</span>
             <button className={`save-question-btn ${isReviewQuestion(current?.question) ? 'saved' : ''}`} onClick={toggleSaveQuestion} title="Salva per rivedere">
               {isReviewQuestion(current?.question) ? <Icons.StarFilled /> : <Icons.Star />}
@@ -1136,7 +1148,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             <p className="quiz-question">{current?.question}</p>
             {current?.isOpen ? (
               <div className="open-answer">
-                {!showResult ? (
+                {!hasAnswered ? (
                   <>
                     <input type="text" placeholder="La tua risposta..." onKeyDown={(e) => { if (e.key === 'Enter' && e.target.value) handleAnswer(e.target.value); }} />
                     <button className="submit-answer-btn" onClick={() => { const input = document.querySelector('.open-answer input'); if (input.value) handleAnswer(input.value); }}>Verifica</button>
@@ -1153,11 +1165,11 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             ) : (
               <div className="quiz-options">
                 {current?.options?.map((option, idx) => (
-                  <button key={idx} className={`quiz-option ${showResult ? (option === current.correctAnswer ? 'correct' : option === selectedAnswer ? 'incorrect' : '') : selectedAnswer === option ? 'selected' : ''}`} onClick={() => !showResult && handleAnswer(option)} disabled={showResult}>{option}</button>
+                  <button key={idx} className={`quiz-option ${hasAnswered ? (option === current.correctAnswer ? 'correct' : option === selectedAnswer ? 'incorrect' : '') : ''}`} onClick={() => !hasAnswered && handleAnswer(option)} disabled={hasAnswered}>{option}</button>
                 ))}
               </div>
             )}
-            {showResult && <button className="next-btn" onClick={nextQuestion}>{currentQuestion < questions.length - 1 ? 'Prossima domanda' : 'Vedi risultati'}</button>}
+            {hasAnswered && <button className="next-btn" onClick={nextQuestion}>{currentQuestion < questions.length - 1 ? 'Prossima domanda' : 'Vedi risultati'}</button>}
           </div>
         </div>
       );
