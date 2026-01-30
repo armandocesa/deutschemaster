@@ -479,6 +479,96 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 .error-boundary { text-align: center; padding: 60px 20px; }
 .error-boundary h2 { color: var(--error); margin-bottom: 16px; }
 .error-boundary button { padding: 10px 20px; background: var(--accent); border: none; border-radius: 8px; color: white; cursor: pointer; margin-top: 16px; }
+
+/* ============ REDESIGN: Bottom Nav ============ */
+.bottom-nav { display: none; }
+@media (max-width: 768px) {
+  .nav.desktop-nav { display: none !important; }
+  .bottom-nav {
+    display: flex; position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--bg-primary); border-top: 1px solid var(--border);
+    z-index: 200; padding: 4px 0 max(env(safe-area-inset-bottom), 6px);
+  }
+  .bottom-nav-item {
+    flex: 1; display: flex; flex-direction: column; align-items: center;
+    gap: 2px; padding: 6px 0; background: none; border: none;
+    color: var(--text-secondary); font-size: 10px; cursor: pointer;
+    transition: color 0.15s;
+  }
+  .bottom-nav-item.active { color: var(--accent); }
+  .bottom-nav-item svg { width: 22px; height: 22px; }
+  .main-content { padding-bottom: 72px !important; }
+  .header-content { height: 50px; }
+  .logo-text { font-size: 17px; }
+}
+
+/* ============ REDESIGN: Breadcrumbs ============ */
+.breadcrumbs { display: flex; align-items: center; gap: 2px; overflow-x: auto; flex: 1; margin: 0 16px; }
+.breadcrumb-item { background: none; border: none; color: var(--text-secondary); font-size: 13px; cursor: pointer; padding: 4px 6px; border-radius: 4px; white-space: nowrap; }
+.breadcrumb-item:hover { color: var(--text-primary); background: var(--bg-card); }
+.breadcrumb-item:last-child { color: var(--text-primary); font-weight: 600; pointer-events: none; }
+.breadcrumb-sep { color: var(--border); font-size: 11px; }
+@media (max-width: 768px) { .breadcrumbs { margin: 0 8px; font-size: 12px; } }
+
+/* ============ REDESIGN: Quick Actions Home ============ */
+.home-compact { padding: 20px 0 8px; text-align: center; }
+.home-greeting { font-size: clamp(20px, 4vw, 28px); font-weight: 700; margin-bottom: 4px; }
+.home-greeting .highlight { color: var(--accent); }
+.home-subtitle { color: var(--text-secondary); font-size: 14px; margin-bottom: 20px; }
+.home-stats-bar { display: flex; justify-content: center; gap: 24px; margin-bottom: 24px; flex-wrap: wrap; }
+.home-stat { text-align: center; }
+.home-stat-num { font-size: 20px; font-weight: 700; color: var(--accent); display: block; }
+.home-stat-label { font-size: 11px; color: var(--text-secondary); }
+.quick-actions-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px; margin-bottom: 24px;
+}
+.quick-action-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px 14px; cursor: pointer; transition: all 0.2s;
+  display: flex; flex-direction: column; gap: 10px; text-align: left;
+}
+.quick-action-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+.quick-action-header { display: flex; align-items: center; gap: 10px; }
+.quick-action-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0; }
+.quick-action-title { font-size: 14px; font-weight: 600; }
+.quick-action-levels { display: flex; gap: 3px; flex-wrap: wrap; }
+.quick-action-level {
+  padding: 2px 7px; border-radius: 10px; font-size: 10px; font-weight: 700;
+  border: 1px solid var(--border); background: transparent; color: var(--text-secondary); cursor: pointer;
+  transition: all 0.15s;
+}
+.quick-action-level:hover { border-color: var(--accent); color: var(--text-primary); }
+.quick-action-level.selected { color: white; }
+
+/* ============ REDESIGN: Level Tabs ============ */
+.level-tabs { display: flex; gap: 6px; margin-bottom: 20px; flex-wrap: wrap; }
+.level-tab {
+  padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border);
+  background: var(--bg-card); color: var(--text-secondary); font-size: 13px;
+  font-weight: 700; cursor: pointer; transition: all 0.15s;
+}
+.level-tab:hover { border-color: var(--accent); color: var(--text-primary); }
+.level-tab.active { color: white; }
+
+/* ============ REDESIGN: Page transitions ============ */
+@keyframes slideIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.page-enter { animation: slideIn 0.2s ease-out; }
+.home-page, .vocabulary-page, .grammar-page, .verbs-page, .quiz-page, .reading-page, .favorites-page, .practice-page, .special-verbs-page { animation: slideIn 0.2s ease-out; }
+
+/* ============ REDESIGN: Continue Learning ============ */
+.continue-section { margin-bottom: 24px; }
+.continue-title { font-size: 14px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+.continue-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; }
+.continue-card { display: flex; align-items: center; gap: 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; cursor: pointer; transition: all 0.2s; }
+.continue-card:hover { border-color: var(--accent); background: var(--bg-card-hover); }
+.continue-card .card-badge { padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 700; color: white; }
+.continue-card .card-text { flex: 1; }
+.continue-card .card-text h4 { font-size: 14px; margin-bottom: 2px; }
+.continue-card .card-text p { font-size: 12px; color: var(--text-secondary); }
+
+/* ============ REDESIGN: Improved nav active state ============ */
+.nav-btn.active { color: var(--accent); background: rgba(99,102,241,0.1); }
   </style>
 </head>
 <body>
@@ -668,7 +758,6 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       const [selectedModule, setSelectedModule] = useState(null);
       const [selectedTopic, setSelectedTopic] = useState(null);
       const [selectedReading, setSelectedReading] = useState(null);
-      const [levelDashboard, setLevelDashboard] = useState(null);
 
       const navigate = (page, options = {}) => {
         setCurrentPage(page);
@@ -676,7 +765,6 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         setSelectedModule(options.module || null);
         setSelectedTopic(options.topic || null);
         setSelectedReading(options.reading || null);
-        setLevelDashboard(options.dashboard || null);
         window.scrollTo(0, 0);
       };
 
@@ -685,21 +773,39 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         if (selectedTopic) { setSelectedTopic(null); return; }
         if (selectedModule) { setSelectedModule(null); return; }
         if (selectedLevel && currentPage !== 'home') { setSelectedLevel(null); return; }
-        if (levelDashboard) { setLevelDashboard(null); setCurrentPage('home'); return; }
         setCurrentPage('home');
         setSelectedLevel(null);
-        setLevelDashboard(null);
         window.scrollTo(0, 0);
       };
 
-      const showBack = currentPage !== 'home' || levelDashboard;
+      const PAGE_NAMES = { home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura', quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica', favorites: 'Salvate' };
+
+      const breadcrumbs = useMemo(() => {
+        if (currentPage === 'home') return [];
+        const crumbs = [{ label: 'Home', onClick: () => navigate('home') }];
+        crumbs.push({ label: PAGE_NAMES[currentPage] || currentPage, onClick: () => navigate(currentPage) });
+        if (selectedLevel) {
+          crumbs.push({ label: selectedLevel, onClick: () => navigate(currentPage, { level: selectedLevel }) });
+        }
+        if (selectedModule && currentPage === 'vocabulary') {
+          crumbs.push({ label: selectedModule.name || 'Modulo', onClick: null });
+        }
+        if (selectedTopic) {
+          crumbs.push({ label: selectedTopic.name || 'Argomento', onClick: null });
+        }
+        if (selectedReading) {
+          crumbs.push({ label: selectedReading.title || 'Testo', onClick: null });
+        }
+        return crumbs;
+      }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading]);
+
+      const showBack = currentPage !== 'home';
 
       return (
         <div className="app">
-          <Header currentPage={currentPage} onNavigate={navigate} onBack={goBack} showBack={showBack} />
+          <Header currentPage={currentPage} onNavigate={navigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />
           <main className="main-content">
-            {currentPage === 'home' && !levelDashboard && <HomePage onNavigate={navigate} />}
-            {levelDashboard && currentPage === 'home' && <LevelDashboard level={levelDashboard} onNavigate={navigate} />}
+            {currentPage === 'home' && <HomePage onNavigate={navigate} />}
             {currentPage === 'vocabulary' && <VocabularyPage level={selectedLevel} module={selectedModule} onNavigate={navigate} />}
             {currentPage === 'grammar' && <GrammarPage level={selectedLevel} topic={selectedTopic} onNavigate={navigate} />}
             {currentPage === 'verbs' && <VerbsPage selectedVerb={selectedModule} onNavigate={navigate} />}
@@ -709,27 +815,37 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
             {currentPage === 'reading' && <ReadingPage level={selectedLevel} reading={selectedReading} onNavigate={navigate} />}
           </main>
+          <BottomNav currentPage={currentPage} onNavigate={navigate} />
           <Footer />
         </div>
       );
     }
 
-    function Header({ currentPage, onNavigate, onBack, showBack }) {
+    function Header({ currentPage, onNavigate, onBack, showBack, breadcrumbs }) {
       return (
         <header className="header">
           <div className="header-content">
             {showBack ? (
-              <button className="back-btn" onClick={onBack}><Icons.Back /><span>Indietro</span></button>
+              <button className="back-btn" onClick={onBack}><Icons.Back /></button>
             ) : (
               <div className="logo" onClick={() => onNavigate('home')}>
                 <span className="logo-icon">{'\u{1F1E9}\u{1F1EA}'}</span>
                 <span className="logo-text">DeutschMaster</span>
               </div>
             )}
-            <nav className="nav">
+            {breadcrumbs && breadcrumbs.length > 0 && (
+              <div className="breadcrumbs">
+                {breadcrumbs.map((b, i) => (
+                  <React.Fragment key={i}>
+                    {i > 0 && <span className="breadcrumb-sep">›</span>}
+                    <button className="breadcrumb-item" onClick={b.onClick}>{b.label}</button>
+                  </React.Fragment>
+                ))}
+              </div>
+            )}
+            <nav className="nav desktop-nav">
               <button className={`nav-btn ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>Home</span></button>
-              <button className={`nav-btn ${currentPage === 'verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
-              <button className={`nav-btn ${currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('special-verbs')}><Icons.Verb /><span>Speciali</span></button>
+              <button className={`nav-btn ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
               <button className={`nav-btn ${currentPage === 'practice' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
               <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
             </nav>
@@ -738,185 +854,158 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       );
     }
 
+    function BottomNav({ currentPage, onNavigate }) {
+      return (
+        <div className="bottom-nav">
+          <button className={`bottom-nav-item ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>Home</span></button>
+          <button className={`bottom-nav-item ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
+          <button className={`bottom-nav-item ${currentPage === 'practice' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
+          <button className={`bottom-nav-item ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
+        </div>
+      );
+    }
+
     // ============ HOME PAGE ============
+    function QuickActionCard({ icon, title, color, onClick, noLevel }) {
+      const [selectedLvl, setSelectedLvl] = useState(() => {
+        try { return localStorage.getItem('dm_last_level') || 'A1'; } catch(e) { return 'A1'; }
+      });
+      const handleLevelClick = (e, lvl) => {
+        e.stopPropagation();
+        setSelectedLvl(lvl);
+        try { localStorage.setItem('dm_last_level', lvl); } catch(e) {}
+        onClick(lvl);
+      };
+      return (
+        <div className="quick-action-card" onClick={() => noLevel ? onClick() : onClick(selectedLvl)}>
+          <div className="quick-action-header">
+            <div className="quick-action-icon" style={{backgroundColor: color}}>{icon}</div>
+            <span className="quick-action-title">{title}</span>
+          </div>
+          {!noLevel && (
+            <div className="quick-action-levels">
+              {Object.entries(LEVEL_COLORS).map(([lvl, c]) => (
+                <button key={lvl} className={`quick-action-level ${lvl === selectedLvl ? 'selected' : ''}`}
+                  style={lvl === selectedLvl ? {backgroundColor: c.bg, borderColor: c.bg} : {}}
+                  onClick={(e) => handleLevelClick(e, lvl)}>{lvl}</button>
+              ))}
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    function LevelTabs({ currentLevel, onLevelChange }) {
+      return (
+        <div className="level-tabs">
+          {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => (
+            <button key={lvl} className={`level-tab ${lvl === currentLevel ? 'active' : ''}`}
+              style={lvl === currentLevel ? {backgroundColor: colors.bg, borderColor: colors.bg} : {}}
+              onClick={() => onLevelChange(lvl)}>{lvl}</button>
+          ))}
+        </div>
+      );
+    }
+
     function HomePage({ onNavigate }) {
       const stats = useMemo(() => ({
         words: VOCABULARY_DATA.statistics?.totalWords || 7541,
-        modules: VOCABULARY_DATA.statistics?.totalModules || 42,
         grammarTopics: GRAMMAR_DATA.statistics?.totalTopics || 60,
-        exercises: GRAMMAR_DATA.statistics?.totalExercises || 261,
         verbs: VERBS_DATA.statistics?.totalVerbs || 78,
+        exercises: GRAMMAR_DATA.statistics?.totalExercises || 261,
       }), []);
 
       const quizStats = getQuizStats();
-      const reviewCount = getReviewQuestions().length;
       const savedCount = getDifficultWords().length;
-
-      const getLevelProgress = (level) => {
-        const progress = getProgress();
-        const levelData = VOCABULARY_DATA.levels?.[level];
-        let total = 0, done = 0;
-        levelData?.modules?.forEach(m => {
-          m.words?.forEach(w => {
-            total++;
-            if (progress.words[w.german]) done++;
-          });
-        });
-        return total > 0 ? Math.round((done / total) * 100) : 0;
-      };
 
       return (
         <div className="home-page">
-          <section className="hero">
-            <div className="hero-content">
-              <h1 className="hero-title">Impara il <span className="highlight">Tedesco</span></h1>
-              <p className="hero-subtitle">Preparati per il Goethe-Zertifikat da A1 a C2</p>
-              <div className="hero-stats">
-                <div className="stat"><span className="stat-number">{stats.words.toLocaleString()}</span><span className="stat-label">Parole</span></div>
-                <div className="stat"><span className="stat-number">{stats.grammarTopics}</span><span className="stat-label">Regole grammaticali</span></div>
-                <div className="stat"><span className="stat-number">{stats.verbs}</span><span className="stat-label">Verbi coniugati</span></div>
-                <div className="stat"><span className="stat-number">{stats.exercises}</span><span className="stat-label">Esercizi</span></div>
-              </div>
-              {quizStats.totalAnswered > 0 && (
-                <div className="user-stats">
-                  <h3>I tuoi progressi</h3>
-                  <div className="user-stats-grid">
-                    <div className="user-stat"><span className="user-stat-number">{quizStats.totalAnswered}</span><span className="user-stat-label">Domande fatte</span></div>
-                    <div className="user-stat"><span className="user-stat-number">{quizStats.totalAnswered > 0 ? Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100) : 0}%</span><span className="user-stat-label">Corrette</span></div>
-                    <div className="user-stat"><span className="user-stat-number">{savedCount}</span><span className="user-stat-label">Parole salvate</span></div>
-                    <div className="user-stat"><span className="user-stat-number">{reviewCount}</span><span className="user-stat-label">Da rivedere</span></div>
-                  </div>
+          <section className="home-compact">
+            <h1 className="home-greeting">Impara il <span className="highlight">Tedesco</span></h1>
+            <p className="home-subtitle">Goethe-Zertifikat A1 → C2</p>
+            <div className="home-stats-bar">
+              <div className="home-stat"><span className="home-stat-num">{stats.words.toLocaleString()}</span><span className="home-stat-label">Parole</span></div>
+              <div className="home-stat"><span className="home-stat-num">{stats.grammarTopics}</span><span className="home-stat-label">Grammatica</span></div>
+              <div className="home-stat"><span className="home-stat-num">{stats.verbs}</span><span className="home-stat-label">Verbi</span></div>
+              <div className="home-stat"><span className="home-stat-num">{stats.exercises}</span><span className="home-stat-label">Esercizi</span></div>
+            </div>
+          </section>
+
+          {quizStats.totalAnswered > 0 && (
+            <section className="continue-section">
+              <h3 className="continue-title">I tuoi progressi</h3>
+              <div className="continue-cards">
+                <div className="continue-card" onClick={() => onNavigate('quiz')}>
+                  <div className="card-badge" style={{backgroundColor: 'var(--accent)'}}>{quizStats.totalAnswered}</div>
+                  <div className="card-text"><h4>Domande fatte</h4><p>{Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100)}% corrette</p></div>
                 </div>
-              )}
-            </div>
-          </section>
-
-          <section className="levels-preview">
-            <h2 className="section-title">Scegli il tuo livello</h2>
-            <div className="levels-grid">
-              {Object.entries(LEVEL_COLORS).map(([level, colors]) => {
-                const pct = getLevelProgress(level);
-                return (
-                  <div key={level} className="level-card" style={{'--level-color': colors.bg}} onClick={() => onNavigate('home', { dashboard: level })}>
-                    <span className="level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
-                    <div className="level-info">
-                      <span className="level-name">{getLevelName(level)}</span>
-                      <span className="level-goethe">{GOETHE_NAMES[level]}</span>
-                      <div className="level-progress-bar">
-                        <div className="level-progress-fill" style={{width: pct + '%', backgroundColor: colors.bg}}></div>
-                      </div>
-                    </div>
-                    <Icons.ChevronRight />
+                {savedCount > 0 && (
+                  <div className="continue-card" onClick={() => onNavigate('favorites')}>
+                    <div className="card-badge" style={{backgroundColor: '#f59e0b'}}>{savedCount}</div>
+                    <div className="card-text"><h4>Parole salvate</h4><p>Da ripassare</p></div>
                   </div>
-                );
-              })}
+                )}
+              </div>
+            </section>
+          )}
+
+          <section>
+            <h3 className="continue-title">Cosa vuoi studiare?</h3>
+            <div className="quick-actions-grid">
+              <QuickActionCard icon={<Icons.Grammar />} title="Grammatica" color="#8b5cf6"
+                onClick={(lvl) => onNavigate('grammar', { level: lvl })} />
+              <QuickActionCard icon={<Icons.Book />} title="Vocabolario" color="#10b981"
+                onClick={(lvl) => onNavigate('vocabulary', { level: lvl })} />
+              <QuickActionCard icon={<Icons.Reading />} title="Lettura" color="#06b6d4"
+                onClick={(lvl) => onNavigate('reading', { level: lvl })} />
+              <QuickActionCard icon={<Icons.Quiz />} title="Quiz" color="#ef4444"
+                onClick={(lvl) => onNavigate('quiz', { level: lvl })} />
+              <QuickActionCard icon={<Icons.Verb />} title="Verbi" color="#f59e0b"
+                onClick={() => onNavigate('verbs')} noLevel />
+              <QuickActionCard icon={<Icons.Star />} title="Salvate" color="#ec4899"
+                onClick={() => onNavigate('favorites')} noLevel />
             </div>
           </section>
         </div>
       );
     }
 
-    // ============ LEVEL DASHBOARD ============
-    function LevelDashboard({ level, onNavigate }) {
-      const colors = LEVEL_COLORS[level];
-      const vocabData = VOCABULARY_DATA.levels?.[level];
-      const grammarData = GRAMMAR_DATA.levels?.[level];
-      const readingTexts = READING_DATA[level] || [];
-      const moduleCount = vocabData?.modules?.length || 0;
-      const topicCount = grammarData?.topics?.length || 0;
-
-      return (
-        <div className="level-dashboard">
-          <div className="level-dashboard-header">
-            <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
-            <h1 className="page-title">{getLevelName(level)}</h1>
-            <p className="page-subtitle">{GOETHE_NAMES[level]}</p>
-          </div>
-          <div className="level-dashboard-grid">
-            <div className="level-dashboard-card" onClick={() => onNavigate('grammar', { level })}>
-              <div className="card-icon" style={{backgroundColor: '#8b5cf6'}}><Icons.Grammar /></div>
-              <h3>Grammatica</h3>
-              <p>{topicCount} argomenti con esercizi</p>
-            </div>
-            <div className="level-dashboard-card" onClick={() => onNavigate('vocabulary', { level })}>
-              <div className="card-icon" style={{backgroundColor: '#10b981'}}><Icons.Book /></div>
-              <h3>Vocabolario</h3>
-              <p>{moduleCount} moduli tematici</p>
-            </div>
-            <div className="level-dashboard-card" onClick={() => onNavigate('reading', { level })}>
-              <div className="card-icon" style={{backgroundColor: '#06b6d4'}}><Icons.Reading /></div>
-              <h3>Lettura</h3>
-              <p>{readingTexts.length} testi con comprensione</p>
-            </div>
-            <div className="level-dashboard-card" onClick={() => onNavigate('quiz', { level })}>
-              <div className="card-icon" style={{backgroundColor: '#ef4444'}}><Icons.Quiz /></div>
-              <h3>Quiz</h3>
-              <p>Metti alla prova le tue conoscenze</p>
-            </div>
-          </div>
-        </div>
-      );
-    }
-
-    function FeatureCard({ icon, title, description, color, onClick }) {
-      return (
-        <div className="feature-card" onClick={onClick} style={{'--accent-color': color}}>
-          <div className="feature-icon" style={{backgroundColor: color}}>{icon}</div>
-          <h3 className="feature-title">{title}</h3>
-          <p className="feature-description">{description}</p>
-        </div>
-      );
-    }
+    // ============ (LevelDashboard removed - direct navigation) ============
 
     // ============ READING PAGE ============
     function ReadingPage({ level, reading, onNavigate }) {
-      if (!level) {
-        return (
-          <div className="reading-page">
+      const [internalLevel, setInternalLevel] = useState(level || (() => { try { return localStorage.getItem('dm_last_level') || 'A1'; } catch(e) { return 'A1'; } }));
+      const activeLevel = level || internalLevel;
+      const texts = READING_DATA.levels?.[activeLevel]?.texts || [];
+      const colors = LEVEL_COLORS[activeLevel];
+
+      const handleLevelChange = (lvl) => {
+        setInternalLevel(lvl);
+        try { localStorage.setItem('dm_last_level', lvl); } catch(e) {}
+        if (level) onNavigate('reading', { level: lvl });
+      };
+
+      if (reading) return <ReadingDetail reading={reading} level={activeLevel} colors={colors} />;
+
+      return (
+        <div className="reading-page">
+          <div className="page-header">
             <h1 className="page-title">Lettura</h1>
-            <p className="page-subtitle">Scegli un livello per iniziare</p>
-            <div className="level-selection">
-              {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
-                const texts = READING_DATA[lvl] || [];
-                return (
-                  <div key={lvl} className="level-select-card" style={{'--level-color': colors.bg}} onClick={() => onNavigate('reading', {level: lvl})}>
-                    <div className="level-select-badge" style={{backgroundColor: colors.bg}}>{lvl}</div>
-                    <div className="level-select-info"><h3>{getLevelName(lvl)}</h3><p>{texts.length} testi di lettura</p></div>
-                    <Icons.ChevronRight />
-                  </div>
-                );
-              })}
-            </div>
+            <p className="page-subtitle">{getLevelName(activeLevel)} - {texts.length} testi</p>
           </div>
-        );
-      }
-
-      const texts = READING_DATA[level] || [];
-      const colors = LEVEL_COLORS[level];
-
-      if (!reading) {
-        return (
-          <div className="reading-page">
-            <div className="page-header">
-              <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
-              <h1 className="page-title">Lettura {level}</h1>
-              <p className="page-subtitle">{getLevelName(level)} - {texts.length} testi</p>
-            </div>
-            <div className="reading-list">
-              {texts.map(t => (
-                <div key={t.id} className="reading-card" onClick={() => onNavigate('reading', { level, reading: t })}>
-                  <span className="theme-badge">{t.theme}</span>
-                  <h3>{t.title}</h3>
-                  <p>{t.text.substring(0, 100)}...</p>
-                </div>
-              ))}
-            </div>
-            {texts.length === 0 && <div className="empty-state"><p>Nessun testo disponibile per questo livello</p></div>}
+          <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} />
+          <div className="reading-list">
+            {texts.map(t => (
+              <div key={t.id} className="reading-card" onClick={() => onNavigate('reading', { level: activeLevel, reading: t })}>
+                <span className="theme-badge">{t.theme}</span>
+                <h3>{t.title}</h3>
+                <p>{t.text.substring(0, 100)}...</p>
+              </div>
+            ))}
           </div>
-        );
-      }
-
-      return <ReadingDetail reading={reading} level={level} colors={colors} />;
+          {texts.length === 0 && <div className="empty-state"><p>Nessun testo disponibile per questo livello</p></div>}
+        </div>
+      );
     }
 
     function ReadingDetail({ reading, level, colors }) {
@@ -1043,42 +1132,27 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
     function VocabularyPage({ level, module, onNavigate }) {
       const [searchTerm, setSearchTerm] = useState('');
       const [viewMode, setViewMode] = useState('grid');
+      const [internalLevel, setInternalLevel] = useState(level || (() => { try { return localStorage.getItem('dm_last_level') || 'A1'; } catch(e) { return 'A1'; } }));
+      const activeLevel = level || internalLevel;
 
-      if (!level) {
-        return (
-          <div className="vocabulary-page">
-            <h1 className="page-title">Vocabolario</h1>
-            <p className="page-subtitle">Scegli un livello per iniziare</p>
-            <div className="level-selection">
-              {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
-                const levelData = VOCABULARY_DATA.levels?.[lvl];
-                const moduleCount = levelData?.modules?.length || 0;
-                const wordCount = levelData?.modules?.reduce((sum, m) => sum + (m.words?.length || 0), 0) || 0;
-                return (
-                  <div key={lvl} className="level-select-card" style={{'--level-color': colors.bg}} onClick={() => onNavigate('vocabulary', {level: lvl})}>
-                    <div className="level-select-badge" style={{backgroundColor: colors.bg}}>{lvl}</div>
-                    <div className="level-select-info"><h3>{getLevelName(lvl)}</h3><p>{moduleCount} moduli - {wordCount.toLocaleString()} parole</p></div>
-                    <Icons.ChevronRight />
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        );
-      }
+      const handleLevelChange = (lvl) => {
+        setInternalLevel(lvl);
+        try { localStorage.setItem('dm_last_level', lvl); } catch(e) {}
+        if (level) onNavigate('vocabulary', { level: lvl });
+      };
 
-      const levelData = VOCABULARY_DATA.levels?.[level];
+      const levelData = VOCABULARY_DATA.levels?.[activeLevel];
       const modules = levelData?.modules || [];
-      const colors = LEVEL_COLORS[level];
+      const colors = LEVEL_COLORS[activeLevel];
 
       if (!module) {
         return (
           <div className="vocabulary-page">
             <div className="page-header" style={{'--level-color': colors.bg}}>
-              <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
-              <h1 className="page-title">Vocabolario {level}</h1>
-              <p className="page-subtitle">{getLevelName(level)} - {modules.length} moduli</p>
+              <h1 className="page-title">Vocabolario</h1>
+              <p className="page-subtitle">{getLevelName(activeLevel)} - {modules.length} moduli</p>
             </div>
+            <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} />
             <div className="modules-grid">
               {modules.map((mod, idx) => {
                 const modWords = mod.words || [];
@@ -1086,7 +1160,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
                 const incorrectCount = modWords.filter(w => getWordStatus(w.german) === 'incorrect').length;
                 const totalWords = modWords.length;
                 return (
-                <div key={mod.id || idx} className="module-card" onClick={() => onNavigate('vocabulary', {level, module: mod})}>
+                <div key={mod.id || idx} className="module-card" onClick={() => onNavigate('vocabulary', {level: activeLevel, module: mod})}>
                   <div className="module-icon">{mod.icon || '\u{1F4D6}'}</div>
                   <h3 className="module-title">{mod.name || mod.category}</h3>
                   <p className="module-count">{totalWords} parole</p>
@@ -1108,7 +1182,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
       return (
         <div className="vocabulary-page">
           <div className="page-header" style={{'--level-color': colors.bg}}>
-            <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
+            <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{activeLevel}</span>
             <h1 className="page-title">{module.icon} {module.name}</h1>
             <p className="page-subtitle">{words.length} parole</p>
           </div>
@@ -1176,40 +1250,27 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
 
     // ============ GRAMMAR PAGE ============
     function GrammarPage({ level, topic, onNavigate }) {
-      if (!level) {
-        return (
-          <div className="grammar-page">
-            <h1 className="page-title">Grammatica</h1>
-            <p className="page-subtitle">Regole grammaticali complete con esempi e esercizi</p>
-            <div className="level-selection">
-              {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
-                const levelData = GRAMMAR_DATA.levels?.[lvl];
-                const topicCount = levelData?.topics?.length || 0;
-                return (
-                  <div key={lvl} className="level-select-card" style={{'--level-color': colors.bg}} onClick={() => onNavigate('grammar', {level: lvl})}>
-                    <div className="level-select-badge" style={{backgroundColor: colors.bg}}>{lvl}</div>
-                    <div className="level-select-info"><h3>{getLevelName(lvl)}</h3><p>{topicCount} argomenti</p></div>
-                    <Icons.ChevronRight />
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        );
-      }
+      const [internalLevel, setInternalLevel] = useState(level || (() => { try { return localStorage.getItem('dm_last_level') || 'A1'; } catch(e) { return 'A1'; } }));
+      const activeLevel = level || internalLevel;
 
-      const levelData = GRAMMAR_DATA.levels?.[level];
+      const handleLevelChange = (lvl) => {
+        setInternalLevel(lvl);
+        try { localStorage.setItem('dm_last_level', lvl); } catch(e) {}
+        if (level) onNavigate('grammar', { level: lvl });
+      };
+
+      const levelData = GRAMMAR_DATA.levels?.[activeLevel];
       const topics = levelData?.topics || [];
-      const colors = LEVEL_COLORS[level];
+      const colors = LEVEL_COLORS[activeLevel];
 
       if (!topic) {
         return (
           <div className="grammar-page">
             <div className="page-header" style={{'--level-color': colors.bg}}>
-              <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
-              <h1 className="page-title">Grammatica {level}</h1>
-              <p className="page-subtitle">{levelData?.title || getLevelName(level)}</p>
+              <h1 className="page-title">Grammatica</h1>
+              <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel)} - {topics.length} argomenti</p>
             </div>
+            <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} />
             <div className="progress-bar-legend">
               <span className="legend-item"><span className="progress-dot correct"></span> Completati</span>
               <span className="legend-item"><span className="progress-dot incorrect"></span> Da rivedere</span>
@@ -1217,10 +1278,10 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
             </div>
             <div className="topics-list">
               {topics.map((t, idx) => {
-                const topicId = t.id || `${level}_${idx}`;
+                const topicId = t.id || `${activeLevel}_${idx}`;
                 const topicStatus = getGrammarStatus(topicId);
                 return (
-                <div key={t.id || idx} className={`topic-card status-${topicStatus}`} onClick={() => onNavigate('grammar', {level, topic: t})}>
+                <div key={t.id || idx} className={`topic-card status-${topicStatus}`} onClick={() => onNavigate('grammar', {level: activeLevel, topic: t})}>
                   <span className={`progress-dot ${topicStatus}`}></span>
                   <div className="topic-number">{idx + 1}</div>
                   <div className="topic-content"><h3 className="topic-title">{t.name}</h3><p className="topic-explanation">{t.explanation}</p></div>
@@ -1232,7 +1293,7 @@ body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg-p
         );
       }
 
-      return <GrammarTopicDetail topic={topic} level={level} colors={colors} />;
+      return <GrammarTopicDetail topic={topic} level={activeLevel} colors={colors} />;
     }
 
     function GrammarTopicDetail({ topic, level, colors }) {
