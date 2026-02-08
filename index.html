@@ -780,6 +780,121 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 .lesson-check { width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--border); display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: all 0.2s; }
 .lesson-check.done { background: var(--success); border-color: var(--success); }
 .lesson-check.done svg { color: white; }
+
+/* ============ GRAMMAR PATH - DUOLINGO STYLE ============ */
+.grammar-path-page { animation: slideIn 0.2s ease-out; max-width: 600px; margin: 0 auto; }
+.grammar-path-header { text-align: center; padding: 20px 0 28px; }
+.grammar-path-title { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+.grammar-path-subtitle { color: var(--text-secondary); font-size: 13px; margin-bottom: 16px; }
+
+/* XP and Streak Bar */
+.grammar-stats-bar { display: flex; justify-content: center; gap: 20px; margin-bottom: 24px; padding: 12px 20px; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border); }
+.stat-item { display: flex; align-items: center; gap: 6px; }
+.stat-icon { font-size: 18px; }
+.stat-value { font-size: 15px; font-weight: 700; color: var(--accent-light); }
+.stat-label { font-size: 11px; color: var(--text-secondary); }
+
+/* Unit Container */
+.grammar-unit { margin-bottom: 32px; position: relative; }
+.grammar-unit-header { display: flex; align-items: center; gap: 12px; padding: 14px 18px; background: linear-gradient(135deg, var(--unit-color), var(--unit-color-dark)); border-radius: var(--radius); margin-bottom: 20px; cursor: pointer; transition: all 0.2s; }
+.grammar-unit-header:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+.grammar-unit-number { width: 36px; height: 36px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 800; color: white; }
+.grammar-unit-info { flex: 1; color: white; }
+.grammar-unit-name { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+.grammar-unit-desc { font-size: 11px; opacity: 0.9; }
+.grammar-unit-progress { width: 60px; text-align: right; }
+.grammar-unit-progress-text { font-size: 12px; font-weight: 700; color: white; }
+
+/* Skill Tree Path */
+.skill-tree { display: flex; flex-direction: column; align-items: center; padding: 0 20px; }
+.skill-row { display: flex; justify-content: center; align-items: center; position: relative; width: 100%; margin-bottom: 8px; }
+
+/* Skill Node - Circle */
+.skill-node { position: relative; display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: all 0.3s ease; z-index: 2; }
+.skill-node:hover { transform: scale(1.08); }
+.skill-node.locked { opacity: 0.5; cursor: not-allowed; }
+.skill-node.locked:hover { transform: none; }
+
+.skill-circle { width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; position: relative; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 4px solid transparent; }
+
+/* Skill States */
+.skill-circle.locked { background: var(--bg-card); border-color: var(--border); color: var(--text-secondary); box-shadow: none; }
+.skill-circle.available { background: linear-gradient(135deg, var(--skill-color), var(--skill-color-dark)); border-color: var(--skill-color); color: white; animation: skillPulse 2s infinite; }
+.skill-circle.in-progress { background: linear-gradient(135deg, var(--skill-color), var(--skill-color-dark)); border-color: #fbbf24; color: white; }
+.skill-circle.completed { background: linear-gradient(135deg, #10b981, #059669); border-color: #10b981; color: white; }
+
+@keyframes skillPulse { 0%, 100% { box-shadow: 0 4px 12px rgba(0,0,0,0.15), 0 0 0 0 var(--skill-glow); } 50% { box-shadow: 0 4px 12px rgba(0,0,0,0.15), 0 0 0 10px transparent; } }
+
+/* Crown indicator */
+.skill-crown { position: absolute; top: -8px; right: -8px; width: 28px; height: 28px; background: linear-gradient(135deg, #fbbf24, #f59e0b); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; box-shadow: 0 2px 8px rgba(251,191,36,0.4); border: 2px solid white; }
+.skill-crown-count { font-size: 10px; font-weight: 800; color: white; }
+
+/* Progress ring */
+.skill-progress-ring { position: absolute; width: 78px; height: 78px; top: -4px; left: -4px; }
+.skill-progress-ring circle { fill: none; stroke-width: 3; }
+.skill-progress-ring .bg { stroke: rgba(255,255,255,0.2); }
+.skill-progress-ring .progress { stroke: #fbbf24; stroke-linecap: round; transform: rotate(-90deg); transform-origin: center; transition: stroke-dashoffset 0.5s ease; }
+
+/* Skill Label */
+.skill-label { margin-top: 8px; text-align: center; max-width: 90px; }
+.skill-name { font-size: 11px; font-weight: 600; color: var(--text-primary); line-height: 1.3; }
+.skill-exercises { font-size: 10px; color: var(--text-secondary); margin-top: 2px; }
+
+/* Connection Lines */
+.skill-connector { position: absolute; width: 3px; height: 40px; background: var(--border); left: 50%; transform: translateX(-50%); top: -44px; z-index: 1; }
+.skill-connector.completed { background: linear-gradient(180deg, #10b981, #10b981); }
+.skill-connector.active { background: linear-gradient(180deg, #10b981, var(--skill-color)); }
+
+/* Checkpoint/Test */
+.checkpoint-node { width: 100%; max-width: 280px; margin: 16px auto; }
+.checkpoint-card { display: flex; align-items: center; gap: 14px; padding: 16px 20px; background: var(--bg-card); border: 2px dashed var(--border); border-radius: var(--radius); cursor: pointer; transition: all 0.2s; }
+.checkpoint-card:hover { border-color: #f59e0b; background: rgba(245,158,11,0.05); }
+.checkpoint-card.completed { border-style: solid; border-color: #10b981; background: rgba(16,185,129,0.05); }
+.checkpoint-icon { width: 44px; height: 44px; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; color: white; }
+.checkpoint-card.completed .checkpoint-icon { background: linear-gradient(135deg, #10b981, #059669); }
+.checkpoint-info { flex: 1; }
+.checkpoint-title { font-size: 13px; font-weight: 700; margin-bottom: 2px; }
+.checkpoint-desc { font-size: 11px; color: var(--text-secondary); }
+
+/* Level Tabs for Grammar Path */
+.grammar-level-selector { display: flex; justify-content: center; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+.grammar-level-btn { padding: 10px 18px; border: 2px solid var(--border); border-radius: 20px; background: var(--bg-card); color: var(--text-secondary); font-size: 14px; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+.grammar-level-btn:hover { border-color: var(--level-color); color: var(--level-color); }
+.grammar-level-btn.active { background: var(--level-color); border-color: var(--level-color); color: white; }
+
+/* Skill Detail Modal */
+.skill-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 1000; animation: fadeIn 0.2s ease; padding: 20px; }
+.skill-modal { background: var(--bg-primary); border-radius: 16px; width: 100%; max-width: 420px; max-height: 85vh; overflow-y: auto; animation: slideUp 0.3s ease; }
+@keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.skill-modal-header { padding: 24px 24px 16px; text-align: center; border-bottom: 1px solid var(--border); }
+.skill-modal-icon { width: 64px; height: 64px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; margin: 0 auto 12px; background: linear-gradient(135deg, var(--skill-color), var(--skill-color-dark)); color: white; }
+.skill-modal-title { font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+.skill-modal-subtitle { font-size: 13px; color: var(--text-secondary); }
+.skill-modal-body { padding: 20px 24px; }
+.skill-modal-section { margin-bottom: 20px; }
+.skill-modal-section-title { font-size: 11px; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+.skill-modal-content { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+.skill-modal-examples { display: flex; flex-direction: column; gap: 8px; }
+.skill-example { padding: 12px; background: var(--bg-card); border-radius: var(--radius-sm); border-left: 3px solid var(--accent); }
+.skill-example-de { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.skill-example-it { font-size: 12px; color: var(--text-secondary); font-style: italic; }
+.skill-modal-footer { padding: 16px 24px 24px; display: flex; gap: 12px; }
+.skill-modal-btn { flex: 1; padding: 14px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+.skill-modal-btn.secondary { background: var(--bg-card); border: 1px solid var(--border); color: var(--text-primary); }
+.skill-modal-btn.secondary:hover { border-color: var(--accent); }
+.skill-modal-btn.primary { background: linear-gradient(135deg, var(--skill-color), var(--skill-color-dark)); border: none; color: white; }
+.skill-modal-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+.skill-modal-close { position: absolute; top: 16px; right: 16px; background: none; border: none; color: var(--text-secondary); cursor: pointer; padding: 8px; border-radius: 50%; transition: all 0.2s; }
+.skill-modal-close:hover { background: var(--bg-card); color: var(--text-primary); }
+
+/* XP Reward Animation */
+.xp-reward { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: linear-gradient(135deg, #fbbf24, #f59e0b); color: white; padding: 16px 32px; border-radius: 50px; font-size: 20px; font-weight: 800; animation: xpPop 1.5s ease forwards; z-index: 1100; }
+@keyframes xpPop { 0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); } 20% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); } 40% { transform: translate(-50%, -50%) scale(1); } 80% { opacity: 1; transform: translate(-50%, -60%) scale(1); } 100% { opacity: 0; transform: translate(-50%, -80%) scale(0.8); } }
+
+/* Empty State */
+.grammar-path-empty { text-align: center; padding: 48px 24px; color: var(--text-secondary); }
+.grammar-path-empty-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.5; }
+.grammar-path-empty-text { font-size: 14px; }
   </style>
 </head>
 <body>
@@ -1425,7 +1540,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
           <main className="main-content">
             {currentPage === 'home' && <HomePage onNavigate={navigate} />}
             {currentPage === 'vocabulary' && <VocabularyPage level={selectedLevel} module={selectedModule} onNavigate={navigate} />}
-            {currentPage === 'grammar' && <GrammarPage level={selectedLevel} topic={selectedTopic} onNavigate={navigate} />}
+            {currentPage === 'grammar' && <GrammarPathPage level={selectedLevel} topic={selectedTopic} onNavigate={navigate} />}
             {currentPage === 'verbs' && <VerbsPage selectedVerb={selectedModule} onNavigate={navigate} />}
             {currentPage === 'quiz' && <QuizPage level={selectedLevel} onNavigate={navigate} />}
             {currentPage === 'practice' && <PracticePage onNavigate={navigate} />}
@@ -2286,10 +2401,10 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         );
       }
 
-      return <GrammarTopicDetail topic={topic} level={activeLevel} colors={colors} />;
+      return <GrammarTopicDetail topic={topic} level={activeLevel} colors={colors} onBack={() => onNavigate('grammar', { level: activeLevel })} />;
     }
 
-    function GrammarTopicDetail({ topic, level, colors }) {
+    function GrammarTopicDetail({ topic, level, colors, onBack }) {
       const [showExercises, setShowExercises] = useState(false);
       const [openSections, setOpenSections] = useState(() => {
         const initial = {};
@@ -2342,6 +2457,11 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 
       return (
         <div className="grammar-detail">
+          {onBack && (
+            <button className="quiz-nav-btn" onClick={onBack} style={{marginBottom: '16px'}}>
+              <Icons.ChevronLeft /> Torna al percorso
+            </button>
+          )}
           <div className="page-header" style={{'--level-color': colors.bg}}>
             <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
             <h1 className="page-title">{topic.name}</h1>
@@ -2370,6 +2490,292 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
               <div className="answer-text"><strong>Risposta:</strong> {exercise.answer}</div>
               {exercise.explanation && <div className="answer-explanation"><strong>Spiegazione:</strong> {exercise.explanation}</div>}
             </div>
+          )}
+        </div>
+      );
+    }
+
+    // ============ GRAMMAR PATH PAGE (DUOLINGO STYLE) ============
+    const GRAMMAR_UNITS = {
+      A1: [
+        { id: 'basics', name: 'Fondamenti', icon: '🎯', color: '#10b981', colorDark: '#059669', topics: [0, 1, 2, 3] },
+        { id: 'articles', name: 'Articoli', icon: '📝', color: '#6366f1', colorDark: '#4f46e5', topics: [4, 5, 6] },
+        { id: 'verbs1', name: 'Verbi Base', icon: '🔄', color: '#f59e0b', colorDark: '#d97706', topics: [7, 8, 9, 10] },
+        { id: 'nouns', name: 'Sostantivi', icon: '📦', color: '#ec4899', colorDark: '#db2777', topics: [11, 12, 13] },
+        { id: 'sentences', name: 'Frasi', icon: '💬', color: '#14b8a6', colorDark: '#0d9488', topics: [14, 15, 16, 17] },
+      ],
+      A2: [
+        { id: 'cases', name: 'Sistema Casi', icon: '🎓', color: '#8b5cf6', colorDark: '#7c3aed', topics: [0, 1, 2, 3] },
+        { id: 'prepositions', name: 'Preposizioni', icon: '📍', color: '#06b6d4', colorDark: '#0891b2', topics: [4, 5, 6] },
+        { id: 'verbs2', name: 'Verbi Avanzati', icon: '⚡', color: '#f97316', colorDark: '#ea580c', topics: [7, 8, 9, 10] },
+        { id: 'pronouns', name: 'Pronomi', icon: '👤', color: '#84cc16', colorDark: '#65a30d', topics: [11, 12, 13] },
+        { id: 'adjectives', name: 'Aggettivi', icon: '🎨', color: '#a855f7', colorDark: '#9333ea', topics: [14, 15, 16, 17] },
+      ],
+      B1: [
+        { id: 'subordinate', name: 'Subordinate', icon: '🔗', color: '#3b82f6', colorDark: '#2563eb', topics: [0, 1, 2, 3] },
+        { id: 'konjunktiv', name: 'Konjunktiv', icon: '💭', color: '#ef4444', colorDark: '#dc2626', topics: [4, 5, 6] },
+        { id: 'passive', name: 'Passivo', icon: '🔀', color: '#22c55e', colorDark: '#16a34a', topics: [7, 8, 9] },
+        { id: 'relative', name: 'Relative', icon: '🔍', color: '#f59e0b', colorDark: '#d97706', topics: [10, 11, 12] },
+        { id: 'advanced', name: 'Avanzato', icon: '🚀', color: '#6366f1', colorDark: '#4f46e5', topics: [13, 14, 15, 16] },
+      ],
+      B2: [
+        { id: 'complex', name: 'Strutture', icon: '🏗️', color: '#8b5cf6', colorDark: '#7c3aed', topics: [0, 1, 2, 3] },
+        { id: 'modals', name: 'Modali', icon: '🎭', color: '#ec4899', colorDark: '#db2777', topics: [4, 5, 6] },
+        { id: 'participles', name: 'Participi', icon: '📐', color: '#14b8a6', colorDark: '#0d9488', topics: [7, 8, 9] },
+        { id: 'nominalization', name: 'Nominalizz.', icon: '📊', color: '#f97316', colorDark: '#ea580c', topics: [10, 11, 12] },
+      ],
+      C1: [
+        { id: 'style', name: 'Stile', icon: '✨', color: '#6366f1', colorDark: '#4f46e5', topics: [0, 1, 2, 3] },
+        { id: 'nuances', name: 'Sfumature', icon: '🎯', color: '#a855f7', colorDark: '#9333ea', topics: [4, 5, 6] },
+        { id: 'expressions', name: 'Espressioni', icon: '💎', color: '#06b6d4', colorDark: '#0891b2', topics: [7, 8, 9] },
+      ],
+      C2: [
+        { id: 'mastery', name: 'Padronanza', icon: '👑', color: '#f59e0b', colorDark: '#d97706', topics: [0, 1, 2, 3] },
+        { id: 'perfection', name: 'Perfezione', icon: '🏆', color: '#10b981', colorDark: '#059669', topics: [4, 5, 6] },
+      ]
+    };
+
+    function GrammarPathPage({ level, topic, onNavigate }) {
+      const [activeLevel, setActiveLevel] = useState(level || 'A1');
+      const [selectedSkill, setSelectedSkill] = useState(null);
+      const [showXpReward, setShowXpReward] = useState(false);
+      const [xpAmount, setXpAmount] = useState(0);
+
+      const levelData = GRAMMAR_DATA.levels?.[activeLevel];
+      const allTopics = levelData?.topics || [];
+      const units = GRAMMAR_UNITS[activeLevel] || [];
+
+      // Calculate XP and progress
+      const getXP = () => {
+        let xp = 0;
+        Object.keys(GRAMMAR_DATA.levels || {}).forEach(lvl => {
+          (GRAMMAR_DATA.levels[lvl]?.topics || []).forEach((t, idx) => {
+            const status = getGrammarStatus(t.id || `${lvl}_${idx}`);
+            if (status === 'correct') xp += 20;
+            else if (status === 'incorrect') xp += 5;
+          });
+        });
+        return xp;
+      };
+
+      const getStreak = () => {
+        try {
+          const lastDate = localStorage.getItem('dm_grammar_last_date');
+          const streak = parseInt(localStorage.getItem('dm_grammar_streak') || '0');
+          const today = new Date().toDateString();
+          if (lastDate === today) return streak;
+          const yesterday = new Date(Date.now() - 86400000).toDateString();
+          if (lastDate === yesterday) return streak;
+          return 0;
+        } catch { return 0; }
+      };
+
+      const getSkillStatus = (topicIndices) => {
+        let completed = 0;
+        let inProgress = 0;
+        topicIndices.forEach(idx => {
+          if (idx < allTopics.length) {
+            const t = allTopics[idx];
+            const status = getGrammarStatus(t.id || `${activeLevel}_${idx}`);
+            if (status === 'correct') completed++;
+            else if (status === 'incorrect') inProgress++;
+          }
+        });
+        const total = Math.min(topicIndices.length, topicIndices.filter(i => i < allTopics.length).length);
+        if (completed === total && total > 0) return 'completed';
+        if (completed > 0 || inProgress > 0) return 'in-progress';
+        return 'available';
+      };
+
+      const isUnitLocked = (unitIndex) => {
+        if (unitIndex === 0) return false;
+        const prevUnit = units[unitIndex - 1];
+        if (!prevUnit) return false;
+        const prevStatus = getSkillStatus(prevUnit.topics);
+        return prevStatus !== 'completed' && prevStatus !== 'in-progress';
+      };
+
+      const getCompletedCount = (topicIndices) => {
+        return topicIndices.filter(idx => {
+          if (idx >= allTopics.length) return false;
+          const t = allTopics[idx];
+          return getGrammarStatus(t.id || `${activeLevel}_${idx}`) === 'correct';
+        }).length;
+      };
+
+      const handleSkillClick = (unit, unitIndex) => {
+        if (isUnitLocked(unitIndex)) return;
+        setSelectedSkill({ unit, unitIndex });
+      };
+
+      const handleStartLesson = () => {
+        if (!selectedSkill) return;
+        const { unit } = selectedSkill;
+        const firstIncomplete = unit.topics.find(idx => {
+          if (idx >= allTopics.length) return false;
+          const t = allTopics[idx];
+          return getGrammarStatus(t.id || `${activeLevel}_${idx}`) !== 'correct';
+        });
+        const topicIdx = firstIncomplete !== undefined ? firstIncomplete : unit.topics[0];
+        if (topicIdx < allTopics.length) {
+          setSelectedSkill(null);
+          onNavigate('grammar', { level: activeLevel, topic: allTopics[topicIdx] });
+        }
+      };
+
+      const totalXP = getXP();
+      const streak = getStreak();
+
+      if (topic) {
+        return <GrammarTopicDetail topic={topic} level={activeLevel} colors={LEVEL_COLORS[activeLevel]} onBack={() => onNavigate('grammar', { level: activeLevel })} />;
+      }
+
+      return (
+        <div className="grammar-path-page">
+          <div className="grammar-path-header">
+            <h1 className="grammar-path-title">Percorso Grammatica</h1>
+            <p className="grammar-path-subtitle">Impara la grammatica tedesca passo dopo passo</p>
+          </div>
+
+          <div className="grammar-stats-bar">
+            <div className="stat-item">
+              <span className="stat-icon">⚡</span>
+              <span className="stat-value">{totalXP}</span>
+              <span className="stat-label">XP</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-icon">🔥</span>
+              <span className="stat-value">{streak}</span>
+              <span className="stat-label">giorni</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-icon">📚</span>
+              <span className="stat-value">{allTopics.length}</span>
+              <span className="stat-label">lezioni</span>
+            </div>
+          </div>
+
+          <div className="grammar-level-selector">
+            {Object.keys(LEVEL_COLORS).map(lvl => (
+              <button
+                key={lvl}
+                className={`grammar-level-btn ${activeLevel === lvl ? 'active' : ''}`}
+                style={{ '--level-color': LEVEL_COLORS[lvl].bg }}
+                onClick={() => setActiveLevel(lvl)}
+              >
+                {lvl}
+              </button>
+            ))}
+          </div>
+
+          <div className="skill-tree">
+            {units.map((unit, unitIndex) => {
+              const status = isUnitLocked(unitIndex) ? 'locked' : getSkillStatus(unit.topics);
+              const completedCount = getCompletedCount(unit.topics);
+              const totalInUnit = Math.min(unit.topics.length, unit.topics.filter(i => i < allTopics.length).length);
+              const progress = totalInUnit > 0 ? (completedCount / totalInUnit) * 100 : 0;
+
+              return (
+                <React.Fragment key={unit.id}>
+                  {unitIndex > 0 && (
+                    <div className="skill-row" style={{ height: '40px' }}>
+                      <div className={`skill-connector ${status === 'completed' ? 'completed' : status === 'in-progress' ? 'active' : ''}`} style={{ top: '0', height: '40px' }}></div>
+                    </div>
+                  )}
+                  <div className="skill-row">
+                    <div
+                      className={`skill-node ${status === 'locked' ? 'locked' : ''}`}
+                      onClick={() => handleSkillClick(unit, unitIndex)}
+                      style={{ '--skill-color': unit.color, '--skill-color-dark': unit.colorDark, '--skill-glow': `${unit.color}40` }}
+                    >
+                      <div className={`skill-circle ${status}`}>
+                        {status === 'completed' && <span>✓</span>}
+                        {status === 'locked' && <span>🔒</span>}
+                        {(status === 'available' || status === 'in-progress') && <span>{unit.icon}</span>}
+
+                        {status === 'in-progress' && progress > 0 && (
+                          <svg className="skill-progress-ring" viewBox="0 0 78 78">
+                            <circle className="bg" cx="39" cy="39" r="36" />
+                            <circle
+                              className="progress"
+                              cx="39" cy="39" r="36"
+                              strokeDasharray={`${2 * Math.PI * 36}`}
+                              strokeDashoffset={`${2 * Math.PI * 36 * (1 - progress / 100)}`}
+                            />
+                          </svg>
+                        )}
+
+                        {status === 'completed' && (
+                          <div className="skill-crown">
+                            <span className="skill-crown-count">👑</span>
+                          </div>
+                        )}
+                      </div>
+                      <div className="skill-label">
+                        <div className="skill-name">{unit.name}</div>
+                        <div className="skill-exercises">{completedCount}/{totalInUnit}</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Checkpoint after every 2 units */}
+                  {(unitIndex + 1) % 2 === 0 && unitIndex < units.length - 1 && (
+                    <div className="checkpoint-node">
+                      <div className={`checkpoint-card ${getSkillStatus(units.slice(0, unitIndex + 1).flatMap(u => u.topics)) === 'completed' ? 'completed' : ''}`}>
+                        <div className="checkpoint-icon">🏆</div>
+                        <div className="checkpoint-info">
+                          <div className="checkpoint-title">Checkpoint {Math.floor((unitIndex + 1) / 2)}</div>
+                          <div className="checkpoint-desc">Verifica le tue conoscenze</div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </React.Fragment>
+              );
+            })}
+          </div>
+
+          {/* Skill Detail Modal */}
+          {selectedSkill && (
+            <div className="skill-modal-overlay" onClick={() => setSelectedSkill(null)}>
+              <div className="skill-modal" onClick={e => e.stopPropagation()} style={{ '--skill-color': selectedSkill.unit.color, '--skill-color-dark': selectedSkill.unit.colorDark }}>
+                <div className="skill-modal-header">
+                  <div className="skill-modal-icon">{selectedSkill.unit.icon}</div>
+                  <h2 className="skill-modal-title">{selectedSkill.unit.name}</h2>
+                  <p className="skill-modal-subtitle">{getCompletedCount(selectedSkill.unit.topics)}/{Math.min(selectedSkill.unit.topics.length, selectedSkill.unit.topics.filter(i => i < allTopics.length).length)} completati</p>
+                </div>
+                <div className="skill-modal-body">
+                  <div className="skill-modal-section">
+                    <h4 className="skill-modal-section-title">Lezioni in questa unità</h4>
+                    <div className="skill-modal-examples">
+                      {selectedSkill.unit.topics.map(idx => {
+                        if (idx >= allTopics.length) return null;
+                        const t = allTopics[idx];
+                        const status = getGrammarStatus(t.id || `${activeLevel}_${idx}`);
+                        return (
+                          <div key={idx} className="skill-example" style={{ borderLeftColor: status === 'correct' ? '#10b981' : status === 'incorrect' ? '#f59e0b' : 'var(--border)' }}>
+                            <div className="skill-example-de">
+                              {status === 'correct' ? '✓ ' : status === 'incorrect' ? '◐ ' : '○ '}
+                              {t.name}
+                            </div>
+                            <div className="skill-example-it">{t.explanation}</div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+                <div className="skill-modal-footer">
+                  <button className="skill-modal-btn secondary" onClick={() => setSelectedSkill(null)}>Chiudi</button>
+                  <button className="skill-modal-btn primary" onClick={handleStartLesson}>Inizia Lezione</button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* XP Reward Animation */}
+          {showXpReward && (
+            <div className="xp-reward">+{xpAmount} XP!</div>
           )}
         </div>
       );
