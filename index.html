@@ -639,6 +639,100 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 .path-step-meta { display: flex; gap: 16px; font-size: 11px; color: var(--text-secondary); }
 .path-step-meta span { display: flex; align-items: center; gap: 4px; }
 
+/* Milestone Steps */
+.path-step.milestone::before { width: 3px; background: linear-gradient(180deg, var(--path-color), var(--border)); }
+.path-step.milestone .path-step-indicator { width: 38px; height: 38px; font-size: 16px; border-width: 3px; }
+.path-step.milestone.completed .path-step-indicator { box-shadow: 0 0 12px var(--success); }
+.path-step.milestone .path-step-card { border-width: 2px; }
+.milestone-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 700; color: #f59e0b; background: rgba(245,158,11,0.15); padding: 2px 8px; border-radius: 4px; margin-left: 8px; }
+.milestone-badge svg { width: 12px; height: 12px; }
+
+/* Category Badges */
+.path-category-badge { display: inline-block; font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 4px; margin-right: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.path-category-badge.cefr { background: rgba(139,92,246,0.15); color: #a78bfa; }
+.path-category-badge.thematic { background: rgba(14,165,233,0.15); color: #38bdf8; }
+.path-category-badge.method { background: rgba(59,130,246,0.15); color: #60a5fa; }
+.path-category-badge.skill { background: rgba(99,102,241,0.15); color: #818cf8; }
+
+/* Path Stats Card */
+.path-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0; max-width: 500px; margin-left: auto; margin-right: auto; }
+.path-stat-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px; text-align: center; transition: all 0.2s; }
+.path-stat-card:hover { border-color: var(--path-color); transform: translateY(-2px); }
+.path-stat-value { font-size: 24px; font-weight: 800; color: var(--path-color); }
+.path-stat-label { font-size: 11px; color: var(--text-secondary); margin-top: 4px; }
+
+/* Completed Badge */
+.path-completed-badge { display: flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, rgba(0,184,148,0.2), rgba(0,184,148,0.1)); border: 2px solid var(--success); border-radius: var(--radius); padding: 16px 24px; margin: 20px auto; max-width: 400px; animation: completedPulse 2s ease infinite; }
+.path-completed-badge-icon { font-size: 32px; }
+.path-completed-badge-text { font-size: 16px; font-weight: 700; color: var(--success); }
+@keyframes completedPulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(0,184,148,0.3); } 50% { box-shadow: 0 0 20px 4px rgba(0,184,148,0.2); } }
+
+/* Weekly Goals */
+.weekly-goals { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 24px; }
+.weekly-goals-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+.weekly-goals-title { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.weekly-goals-title svg { color: var(--accent); }
+.weekly-goals-streak { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #f59e0b; font-weight: 600; }
+.weekly-goals-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.weekly-day { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.weekly-day-label { font-size: 10px; color: var(--text-secondary); font-weight: 600; }
+.weekly-day-circle { width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 14px; transition: all 0.2s; }
+.weekly-day-circle.completed { background: var(--success); border-color: var(--success); color: white; }
+.weekly-day-circle.today { border-color: var(--accent); border-width: 3px; }
+.weekly-day-circle.today.completed { background: var(--accent); border-color: var(--accent); }
+
+/* Path Filters */
+.path-filters { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+.path-filter-btn { padding: 8px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; background: var(--bg-card); border: 1px solid var(--border); color: var(--text-secondary); cursor: pointer; transition: all 0.2s; }
+.path-filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+.path-filter-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+
+/* Path Card Animations */
+.path-card { animation: slideInUp 0.3s ease backwards; }
+.path-card:nth-child(1) { animation-delay: 0.05s; }
+.path-card:nth-child(2) { animation-delay: 0.1s; }
+.path-card:nth-child(3) { animation-delay: 0.15s; }
+.path-card:nth-child(4) { animation-delay: 0.2s; }
+.path-card:nth-child(5) { animation-delay: 0.25s; }
+.path-card:nth-child(6) { animation-delay: 0.3s; }
+.path-card:nth-child(7) { animation-delay: 0.35s; }
+.path-card:nth-child(8) { animation-delay: 0.4s; }
+.path-card:nth-child(9) { animation-delay: 0.45s; }
+.path-card:nth-child(10) { animation-delay: 0.5s; }
+.path-card:nth-child(11) { animation-delay: 0.55s; }
+.path-card:nth-child(12) { animation-delay: 0.6s; }
+@keyframes slideInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Step Animations */
+.path-step { animation: fadeSlideIn 0.4s ease backwards; }
+.path-step:nth-child(1) { animation-delay: 0.1s; }
+.path-step:nth-child(2) { animation-delay: 0.15s; }
+.path-step:nth-child(3) { animation-delay: 0.2s; }
+.path-step:nth-child(4) { animation-delay: 0.25s; }
+.path-step:nth-child(5) { animation-delay: 0.3s; }
+.path-step:nth-child(6) { animation-delay: 0.35s; }
+.path-step:nth-child(7) { animation-delay: 0.4s; }
+.path-step:nth-child(8) { animation-delay: 0.45s; }
+.path-step:nth-child(9) { animation-delay: 0.5s; }
+.path-step:nth-child(10) { animation-delay: 0.55s; }
+.path-step:nth-child(11) { animation-delay: 0.6s; }
+.path-step:nth-child(12) { animation-delay: 0.65s; }
+.path-step:nth-child(13) { animation-delay: 0.7s; }
+@keyframes fadeSlideIn { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+
+/* Milestone celebration animation */
+.path-step.milestone.completed .path-step-indicator { animation: celebrateMilestone 0.6s ease; }
+@keyframes celebrateMilestone { 0% { transform: scale(1); } 50% { transform: scale(1.2); } 100% { transform: scale(1); } }
+
+/* Weekly goals animation */
+.weekly-day-circle.completed { animation: checkIn 0.4s ease; }
+@keyframes checkIn { 0% { transform: scale(0.8); } 50% { transform: scale(1.15); } 100% { transform: scale(1); } }
+
+/* Stats card hover effect */
+.path-stat-card { position: relative; overflow: hidden; }
+.path-stat-card::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); transition: left 0.5s; }
+.path-stat-card:hover::after { left: 100%; }
+
 /* Recommended Path Banner */
 .recommended-path { background: linear-gradient(135deg, rgba(108,92,231,0.15), rgba(0,206,201,0.1)); border: 1px solid rgba(108,92,231,0.3); border-radius: var(--radius); padding: 16px 18px; margin-bottom: 24px; display: flex; align-items: center; gap: 14px; cursor: pointer; transition: all 0.2s; }
 .recommended-path:hover { border-color: var(--accent); transform: translateY(-2px); }
@@ -970,12 +1064,20 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         colorDark: '#059669',
         description: 'Impara le basi: saluti, presentazioni, numeri e frasi essenziali per comunicare.',
         duration: '4-6 settimane',
+        category: 'cefr',
         steps: [
-          { id: 'a1-vocab-1', type: 'vocabulary', title: 'Saluti e Presentazioni', desc: 'Impara a salutare e presentarti', target: { page: 'vocabulary', level: 'A1' }, moduleFilter: ['saluti', 'presentazioni', 'numeri'] },
-          { id: 'a1-grammar-1', type: 'grammar', title: 'Verbi essere e avere', desc: 'sein und haben - le basi della grammatica', target: { page: 'grammar', level: 'A1' } },
-          { id: 'a1-vocab-2', type: 'vocabulary', title: 'Famiglia e Persone', desc: 'Vocabolario della famiglia', target: { page: 'vocabulary', level: 'A1' }, moduleFilter: ['famiglia', 'persone'] },
-          { id: 'a1-quiz-1', type: 'quiz', title: 'Quiz A1 Base', desc: 'Verifica le tue conoscenze', target: { page: 'quiz', level: 'A1' } },
-          { id: 'a1-reading-1', type: 'reading', title: 'Prima Lettura', desc: 'Leggi un semplice testo in tedesco', target: { page: 'reading', level: 'A1' } },
+          { id: 'a1-vocab-1', type: 'vocabulary', title: 'Saluti e Presentazioni', desc: 'Impara a salutare e presentarti', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'a1-grammar-1', type: 'grammar', title: 'Pronomi Personali', desc: 'ich, du, er, sie, es...', target: { page: 'grammar', level: 'A1' }, milestone: false },
+          { id: 'a1-vocab-2', type: 'vocabulary', title: 'Numeri e Colori', desc: 'Conta e descrivi oggetti', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'a1-grammar-2', type: 'grammar', title: 'Verbi essere e avere', desc: 'sein und haben - le basi', target: { page: 'grammar', level: 'A1' }, milestone: true },
+          { id: 'a1-vocab-3', type: 'vocabulary', title: 'Famiglia e Persone', desc: 'Vocabolario della famiglia', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'a1-grammar-3', type: 'grammar', title: 'Articoli der/die/das', desc: 'Impara i generi tedeschi', target: { page: 'grammar', level: 'A1' }, milestone: false },
+          { id: 'a1-vocab-4', type: 'vocabulary', title: 'Cibo e Bevande', desc: 'Al ristorante e al supermercato', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'a1-quiz-1', type: 'quiz', title: 'Quiz Vocabolario Base', desc: 'Verifica le parole imparate', target: { page: 'quiz', level: 'A1' }, milestone: true },
+          { id: 'a1-grammar-4', type: 'grammar', title: 'Presente Indicativo', desc: 'Coniuga i verbi regolari', target: { page: 'grammar', level: 'A1' }, milestone: false },
+          { id: 'a1-reading-1', type: 'reading', title: 'Prima Lettura', desc: 'Leggi un semplice testo in tedesco', target: { page: 'reading', level: 'A1' }, milestone: false },
+          { id: 'a1-vocab-5', type: 'vocabulary', title: 'Tempo e Calendario', desc: 'Giorni, mesi, stagioni', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'a1-quiz-final', type: 'quiz', title: 'Quiz A1 Finale', desc: 'Certificazione livello A1', target: { page: 'quiz', level: 'A1' }, milestone: true },
         ]
       },
       {
@@ -988,13 +1090,20 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         colorDark: '#0891b2',
         description: 'Espandi il vocabolario per situazioni quotidiane: shopping, viaggi, ristorante.',
         duration: '6-8 settimane',
+        category: 'cefr',
         steps: [
-          { id: 'a2-vocab-1', type: 'vocabulary', title: 'Vita Quotidiana', desc: 'Casa, cibo, abbigliamento', target: { page: 'vocabulary', level: 'A2' } },
-          { id: 'a2-grammar-1', type: 'grammar', title: 'Tempi Passati', desc: 'Perfekt e Präteritum', target: { page: 'grammar', level: 'A2' } },
-          { id: 'a2-verbs-1', type: 'verbs', title: 'Verbi Modali', desc: 'können, müssen, wollen...', target: { page: 'verbs' } },
-          { id: 'a2-vocab-2', type: 'vocabulary', title: 'Viaggi e Trasporti', desc: 'Muoversi in Germania', target: { page: 'vocabulary', level: 'A2' } },
-          { id: 'a2-reading-1', type: 'reading', title: 'Testi Quotidiani', desc: 'Email, messaggi, annunci', target: { page: 'reading', level: 'A2' } },
-          { id: 'a2-quiz-1', type: 'quiz', title: 'Quiz A2', desc: 'Verifica i progressi', target: { page: 'quiz', level: 'A2' } },
+          { id: 'a2-vocab-1', type: 'vocabulary', title: 'Casa e Abitazione', desc: 'Stanze, mobili, oggetti', target: { page: 'vocabulary', level: 'A2' }, milestone: false },
+          { id: 'a2-grammar-1', type: 'grammar', title: 'Accusativo', desc: 'Caso diretto: den, einen', target: { page: 'grammar', level: 'A2' }, milestone: false },
+          { id: 'a2-vocab-2', type: 'vocabulary', title: 'Abbigliamento', desc: 'Vestiti e accessori', target: { page: 'vocabulary', level: 'A2' }, milestone: false },
+          { id: 'a2-grammar-2', type: 'grammar', title: 'Dativo', desc: 'Caso indiretto: dem, einem', target: { page: 'grammar', level: 'A2' }, milestone: true },
+          { id: 'a2-verbs-1', type: 'verbs', title: 'Verbi Modali', desc: 'können, müssen, wollen...', target: { page: 'verbs' }, milestone: false },
+          { id: 'a2-vocab-3', type: 'vocabulary', title: 'Viaggi e Trasporti', desc: 'Muoversi in Germania', target: { page: 'vocabulary', level: 'A2' }, milestone: false },
+          { id: 'a2-quiz-1', type: 'quiz', title: 'Quiz Casi', desc: 'Verifica accusativo e dativo', target: { page: 'quiz', level: 'A2' }, milestone: true },
+          { id: 'a2-grammar-3', type: 'grammar', title: 'Perfekt', desc: 'Tempo passato composto', target: { page: 'grammar', level: 'A2' }, milestone: false },
+          { id: 'a2-reading-1', type: 'reading', title: 'Email e Messaggi', desc: 'Leggi comunicazioni quotidiane', target: { page: 'reading', level: 'A2' }, milestone: false },
+          { id: 'a2-vocab-4', type: 'vocabulary', title: 'Salute e Corpo', desc: 'Dal dottore e in farmacia', target: { page: 'vocabulary', level: 'A2' }, milestone: false },
+          { id: 'a2-grammar-4', type: 'grammar', title: 'Preposizioni', desc: 'Mit, bei, nach, zu...', target: { page: 'grammar', level: 'A2' }, milestone: false },
+          { id: 'a2-quiz-final', type: 'quiz', title: 'Quiz A2 Finale', desc: 'Certificazione livello A2', target: { page: 'quiz', level: 'A2' }, milestone: true },
         ]
       },
       {
@@ -1007,13 +1116,21 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         colorDark: '#7c3aed',
         description: 'Raggiungi l\'indipendenza: esprimi opinioni, racconta storie, comprendi testi complessi.',
         duration: '8-12 settimane',
+        category: 'cefr',
         steps: [
-          { id: 'b1-grammar-1', type: 'grammar', title: 'Subordinate', desc: 'Costruzioni complesse con weil, dass, wenn', target: { page: 'grammar', level: 'B1' } },
-          { id: 'b1-vocab-1', type: 'vocabulary', title: 'Lavoro e Carriera', desc: 'Il mondo professionale', target: { page: 'vocabulary', level: 'B1' } },
-          { id: 'b1-special-verbs', type: 'special-verbs', title: 'Verbi Separabili', desc: 'aufstehen, ankommen, mitnehmen...', target: { page: 'special-verbs' } },
-          { id: 'b1-reading-1', type: 'reading', title: 'Articoli e Blog', desc: 'Leggi contenuti autentici', target: { page: 'reading', level: 'B1' } },
-          { id: 'b1-grammar-2', type: 'grammar', title: 'Konjunktiv II', desc: 'Esprimere desideri e ipotesi', target: { page: 'grammar', level: 'B1' } },
-          { id: 'b1-quiz-1', type: 'quiz', title: 'Quiz B1 Completo', desc: 'Preparazione certificazione', target: { page: 'quiz', level: 'B1' } },
+          { id: 'b1-grammar-1', type: 'grammar', title: 'Subordinate con weil', desc: 'Esprimere cause e motivi', target: { page: 'grammar', level: 'B1' }, milestone: false },
+          { id: 'b1-vocab-1', type: 'vocabulary', title: 'Lavoro e Professioni', desc: 'Il mondo lavorativo', target: { page: 'vocabulary', level: 'B1' }, milestone: false },
+          { id: 'b1-grammar-2', type: 'grammar', title: 'Subordinate con dass', desc: 'Introdurre frasi oggettive', target: { page: 'grammar', level: 'B1' }, milestone: false },
+          { id: 'b1-special-verbs', type: 'special-verbs', title: 'Verbi Separabili', desc: 'aufstehen, ankommen...', target: { page: 'special-verbs' }, milestone: true },
+          { id: 'b1-vocab-2', type: 'vocabulary', title: 'Istruzione e Studio', desc: 'Scuola e università', target: { page: 'vocabulary', level: 'B1' }, milestone: false },
+          { id: 'b1-grammar-3', type: 'grammar', title: 'Subordinate con wenn/als', desc: 'Esprimere tempo e condizioni', target: { page: 'grammar', level: 'B1' }, milestone: false },
+          { id: 'b1-reading-1', type: 'reading', title: 'Articoli di Giornale', desc: 'Leggi notizie semplici', target: { page: 'reading', level: 'B1' }, milestone: false },
+          { id: 'b1-quiz-1', type: 'quiz', title: 'Quiz Subordinate', desc: 'Verifica costruzioni complesse', target: { page: 'quiz', level: 'B1' }, milestone: true },
+          { id: 'b1-grammar-4', type: 'grammar', title: 'Konjunktiv II Base', desc: 'Esprimere desideri', target: { page: 'grammar', level: 'B1' }, milestone: false },
+          { id: 'b1-vocab-3', type: 'vocabulary', title: 'Sentimenti e Opinioni', desc: 'Esprimere emozioni', target: { page: 'vocabulary', level: 'B1' }, milestone: false },
+          { id: 'b1-grammar-5', type: 'grammar', title: 'Relativsätze', desc: 'Frasi relative con der/die/das', target: { page: 'grammar', level: 'B1' }, milestone: false },
+          { id: 'b1-reading-2', type: 'reading', title: 'Blog e Forum', desc: 'Leggi opinioni e discussioni', target: { page: 'reading', level: 'B1' }, milestone: false },
+          { id: 'b1-quiz-final', type: 'quiz', title: 'Quiz B1 Finale', desc: 'Preparazione certificazione B1', target: { page: 'quiz', level: 'B1' }, milestone: true },
         ]
       },
       {
@@ -1026,12 +1143,20 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         colorDark: '#d97706',
         description: 'Padroneggia sfumature, discussioni complesse e testi specialistici.',
         duration: '10-14 settimane',
+        category: 'cefr',
         steps: [
-          { id: 'b2-vocab-1', type: 'vocabulary', title: 'Vocabolario Avanzato', desc: 'Espressioni idiomatiche e collocazioni', target: { page: 'vocabulary', level: 'B2' } },
-          { id: 'b2-grammar-1', type: 'grammar', title: 'Passivo e Nominalizzazione', desc: 'Stile formale e accademico', target: { page: 'grammar', level: 'B2' } },
-          { id: 'b2-reading-1', type: 'reading', title: 'Testi Giornalistici', desc: 'Notizie e opinioni', target: { page: 'reading', level: 'B2' } },
-          { id: 'b2-verbs-1', type: 'verbs', title: 'Verbi Complessi', desc: 'Reggenze e costruzioni', target: { page: 'verbs' } },
-          { id: 'b2-quiz-1', type: 'quiz', title: 'Quiz B2', desc: 'Test avanzato', target: { page: 'quiz', level: 'B2' } },
+          { id: 'b2-vocab-1', type: 'vocabulary', title: 'Espressioni Idiomatiche', desc: 'Modi di dire tedeschi', target: { page: 'vocabulary', level: 'B2' }, milestone: false },
+          { id: 'b2-grammar-1', type: 'grammar', title: 'Passivo', desc: 'werden + Partizip II', target: { page: 'grammar', level: 'B2' }, milestone: false },
+          { id: 'b2-vocab-2', type: 'vocabulary', title: 'Media e Comunicazione', desc: 'Giornalismo e social media', target: { page: 'vocabulary', level: 'B2' }, milestone: false },
+          { id: 'b2-grammar-2', type: 'grammar', title: 'Nominalizzazione', desc: 'Stile formale e accademico', target: { page: 'grammar', level: 'B2' }, milestone: true },
+          { id: 'b2-reading-1', type: 'reading', title: 'Articoli Approfonditi', desc: 'Notizie e analisi', target: { page: 'reading', level: 'B2' }, milestone: false },
+          { id: 'b2-verbs-1', type: 'verbs', title: 'Reggenze Verbali', desc: 'Verbi con preposizioni', target: { page: 'verbs' }, milestone: false },
+          { id: 'b2-grammar-3', type: 'grammar', title: 'Konjunktiv I', desc: 'Discorso indiretto', target: { page: 'grammar', level: 'B2' }, milestone: false },
+          { id: 'b2-quiz-1', type: 'quiz', title: 'Quiz Grammatica B2', desc: 'Verifica strutture avanzate', target: { page: 'quiz', level: 'B2' }, milestone: true },
+          { id: 'b2-vocab-3', type: 'vocabulary', title: 'Economia e Finanza', desc: 'Linguaggio degli affari', target: { page: 'vocabulary', level: 'B2' }, milestone: false },
+          { id: 'b2-grammar-4', type: 'grammar', title: 'Partizipialkonstruktionen', desc: 'Costruzioni participiali', target: { page: 'grammar', level: 'B2' }, milestone: false },
+          { id: 'b2-reading-2', type: 'reading', title: 'Testi Argomentativi', desc: 'Saggi e editoriali', target: { page: 'reading', level: 'B2' }, milestone: false },
+          { id: 'b2-quiz-final', type: 'quiz', title: 'Quiz B2 Finale', desc: 'Certificazione livello B2', target: { page: 'quiz', level: 'B2' }, milestone: true },
         ]
       },
       {
@@ -1044,11 +1169,18 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         colorDark: '#dc2626',
         description: 'Raggiungi il livello richiesto per università e carriera professionale in Germania.',
         duration: '12-16 settimane',
+        category: 'cefr',
         steps: [
-          { id: 'c1-grammar-1', type: 'grammar', title: 'Grammatica Avanzata', desc: 'Partizipialkonstruktionen, Infinitivsätze', target: { page: 'grammar', level: 'C1' } },
-          { id: 'c1-vocab-1', type: 'vocabulary', title: 'Linguaggio Accademico', desc: 'Vocabolario specialistico', target: { page: 'vocabulary', level: 'C1' } },
-          { id: 'c1-reading-1', type: 'reading', title: 'Testi Accademici', desc: 'Saggi e articoli scientifici', target: { page: 'reading', level: 'C1' } },
-          { id: 'c1-quiz-1', type: 'quiz', title: 'Quiz C1', desc: 'Verifica livello avanzato', target: { page: 'quiz', level: 'C1' } },
+          { id: 'c1-grammar-1', type: 'grammar', title: 'Partizip I come Attributo', desc: 'Partizipialattribute avanzati', target: { page: 'grammar', level: 'C1' }, milestone: false },
+          { id: 'c1-vocab-1', type: 'vocabulary', title: 'Linguaggio Accademico', desc: 'Vocabolario universitario', target: { page: 'vocabulary', level: 'C1' }, milestone: false },
+          { id: 'c1-grammar-2', type: 'grammar', title: 'Infinitivsätze Avanzati', desc: 'um zu, ohne zu, anstatt zu', target: { page: 'grammar', level: 'C1' }, milestone: false },
+          { id: 'c1-reading-1', type: 'reading', title: 'Paper Accademici', desc: 'Articoli scientifici', target: { page: 'reading', level: 'C1' }, milestone: true },
+          { id: 'c1-vocab-2', type: 'vocabulary', title: 'Scienze e Tecnologia', desc: 'Terminologia tecnica', target: { page: 'vocabulary', level: 'C1' }, milestone: false },
+          { id: 'c1-grammar-3', type: 'grammar', title: 'Connettori Avanzati', desc: 'Nichtsdestotrotz, infolgedessen...', target: { page: 'grammar', level: 'C1' }, milestone: false },
+          { id: 'c1-quiz-1', type: 'quiz', title: 'Quiz Strutture C1', desc: 'Verifica competenza avanzata', target: { page: 'quiz', level: 'C1' }, milestone: true },
+          { id: 'c1-reading-2', type: 'reading', title: 'Saggi Filosofici', desc: 'Testi complessi e astratti', target: { page: 'reading', level: 'C1' }, milestone: false },
+          { id: 'c1-vocab-3', type: 'vocabulary', title: 'Diritto e Politica', desc: 'Linguaggio istituzionale', target: { page: 'vocabulary', level: 'C1' }, milestone: false },
+          { id: 'c1-quiz-final', type: 'quiz', title: 'Quiz C1 Finale', desc: 'Preparazione TestDaF/DSH', target: { page: 'quiz', level: 'C1' }, milestone: true },
         ]
       },
       {
@@ -1061,11 +1193,16 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         colorDark: '#db2777',
         description: 'Perfeziona ogni aspetto: letteratura, retorica, sfumature culturali.',
         duration: '16-20 settimane',
+        category: 'cefr',
         steps: [
-          { id: 'c2-vocab-1', type: 'vocabulary', title: 'Vocabolario Letterario', desc: 'Espressioni raffinate e letterarie', target: { page: 'vocabulary', level: 'C2' } },
-          { id: 'c2-grammar-1', type: 'grammar', title: 'Stile e Registro', desc: 'Padronanza stilistica completa', target: { page: 'grammar', level: 'C2' } },
-          { id: 'c2-reading-1', type: 'reading', title: 'Letteratura Tedesca', desc: 'Testi letterari e filosofici', target: { page: 'reading', level: 'C2' } },
-          { id: 'c2-quiz-1', type: 'quiz', title: 'Quiz C2 Finale', desc: 'Certificazione GDS', target: { page: 'quiz', level: 'C2' } },
+          { id: 'c2-vocab-1', type: 'vocabulary', title: 'Vocabolario Letterario', desc: 'Espressioni raffinate', target: { page: 'vocabulary', level: 'C2' }, milestone: false },
+          { id: 'c2-grammar-1', type: 'grammar', title: 'Stile Elevato', desc: 'Costruzioni retoriche', target: { page: 'grammar', level: 'C2' }, milestone: false },
+          { id: 'c2-reading-1', type: 'reading', title: 'Classici Tedeschi', desc: 'Goethe, Schiller, Kafka', target: { page: 'reading', level: 'C2' }, milestone: true },
+          { id: 'c2-vocab-2', type: 'vocabulary', title: 'Sfumature e Registri', desc: 'Linguaggio formale vs colloquiale', target: { page: 'vocabulary', level: 'C2' }, milestone: false },
+          { id: 'c2-grammar-2', type: 'grammar', title: 'Arcaismi e Neologismi', desc: 'Evoluzione della lingua', target: { page: 'grammar', level: 'C2' }, milestone: false },
+          { id: 'c2-reading-2', type: 'reading', title: 'Filosofia Tedesca', desc: 'Kant, Hegel, Nietzsche', target: { page: 'reading', level: 'C2' }, milestone: false },
+          { id: 'c2-vocab-3', type: 'vocabulary', title: 'Dialetti e Varianti', desc: 'Bavarese, svizzero, austriaco', target: { page: 'vocabulary', level: 'C2' }, milestone: false },
+          { id: 'c2-quiz-final', type: 'quiz', title: 'Quiz C2 Finale', desc: 'Certificazione GDS', target: { page: 'quiz', level: 'C2' }, milestone: true },
         ]
       },
       {
@@ -1078,9 +1215,103 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         colorDark: '#2563eb',
         description: 'Segui il famoso metodo Assimil: 100 lezioni dal livello base all\'autonomia.',
         duration: '6-12 mesi',
+        category: 'method',
         steps: [
-          { id: 'assimil-phase1', type: 'lessons', title: 'Fase Passiva (1-49)', desc: 'Ascolto e comprensione', target: { page: 'lessons' } },
-          { id: 'assimil-phase2', type: 'lessons', title: 'Fase Attiva (50-100)', desc: 'Produzione e consolidamento', target: { page: 'lessons' } },
+          { id: 'assimil-intro', type: 'lessons', title: 'Introduzione al Metodo', desc: 'Come funziona Assimil', target: { page: 'lessons' }, milestone: false },
+          { id: 'assimil-phase1-a', type: 'lessons', title: 'Lezioni 1-25', desc: 'Prime basi passive', target: { page: 'lessons' }, milestone: false },
+          { id: 'assimil-phase1-b', type: 'lessons', title: 'Lezioni 26-49', desc: 'Consolidamento passivo', target: { page: 'lessons' }, milestone: true },
+          { id: 'assimil-phase2-a', type: 'lessons', title: 'Lezioni 50-75', desc: 'Attivazione iniziale', target: { page: 'lessons' }, milestone: false },
+          { id: 'assimil-phase2-b', type: 'lessons', title: 'Lezioni 76-100', desc: 'Produzione attiva completa', target: { page: 'lessons' }, milestone: true },
+        ]
+      },
+      {
+        id: 'business-german',
+        level: 'B1+',
+        title: 'Tedesco Commerciale',
+        subtitle: 'Per il mondo del lavoro',
+        icon: '\u{1F4BC}',
+        color: '#0ea5e9',
+        colorDark: '#0284c7',
+        description: 'Impara il tedesco per email professionali, riunioni, presentazioni e negoziazioni.',
+        duration: '8-10 settimane',
+        category: 'thematic',
+        steps: [
+          { id: 'biz-vocab-1', type: 'vocabulary', title: 'Vocabolario Aziendale', desc: 'Termini del business', target: { page: 'vocabulary', level: 'B1' }, milestone: false },
+          { id: 'biz-grammar-1', type: 'grammar', title: 'Formule di Cortesia', desc: 'Sie, formale, titoli', target: { page: 'grammar', level: 'B1' }, milestone: false },
+          { id: 'biz-reading-1', type: 'reading', title: 'Email Professionali', desc: 'Scrivere email formali', target: { page: 'reading', level: 'B1' }, milestone: true },
+          { id: 'biz-vocab-2', type: 'vocabulary', title: 'Riunioni e Meeting', desc: 'Espressioni per riunioni', target: { page: 'vocabulary', level: 'B2' }, milestone: false },
+          { id: 'biz-grammar-2', type: 'grammar', title: 'Linguaggio Indiretto', desc: 'Proposte e richieste', target: { page: 'grammar', level: 'B2' }, milestone: false },
+          { id: 'biz-vocab-3', type: 'vocabulary', title: 'Presentazioni', desc: 'Strutturare una presentazione', target: { page: 'vocabulary', level: 'B2' }, milestone: false },
+          { id: 'biz-reading-2', type: 'reading', title: 'Contratti e Documenti', desc: 'Linguaggio legale base', target: { page: 'reading', level: 'B2' }, milestone: true },
+          { id: 'biz-quiz-final', type: 'quiz', title: 'Quiz Business German', desc: 'Verifica competenze business', target: { page: 'quiz', level: 'B2' }, milestone: true },
+        ]
+      },
+      {
+        id: 'travel-german',
+        level: 'A1-A2',
+        title: 'Tedesco per Viaggiare',
+        subtitle: 'Sopravvivi in Germania',
+        icon: '\u{2708}\u{FE0F}',
+        color: '#14b8a6',
+        colorDark: '#0d9488',
+        description: 'Frasi essenziali per aeroporto, hotel, ristorante, trasporti e emergenze.',
+        duration: '3-4 settimane',
+        category: 'thematic',
+        steps: [
+          { id: 'travel-vocab-1', type: 'vocabulary', title: 'In Aeroporto', desc: 'Check-in, gate, bagagli', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'travel-vocab-2', type: 'vocabulary', title: 'Hotel e Alloggio', desc: 'Prenotazioni e check-in', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'travel-grammar-1', type: 'grammar', title: 'Domande Base', desc: 'Wo? Wann? Wie viel?', target: { page: 'grammar', level: 'A1' }, milestone: true },
+          { id: 'travel-vocab-3', type: 'vocabulary', title: 'Al Ristorante', desc: 'Ordinare cibo e bevande', target: { page: 'vocabulary', level: 'A1' }, milestone: false },
+          { id: 'travel-vocab-4', type: 'vocabulary', title: 'Trasporti Pubblici', desc: 'Treni, bus, metro', target: { page: 'vocabulary', level: 'A2' }, milestone: false },
+          { id: 'travel-reading-1', type: 'reading', title: 'Cartelli e Segnali', desc: 'Leggi indicazioni', target: { page: 'reading', level: 'A1' }, milestone: false },
+          { id: 'travel-vocab-5', type: 'vocabulary', title: 'Emergenze', desc: 'Polizia, ospedale, aiuto', target: { page: 'vocabulary', level: 'A2' }, milestone: true },
+          { id: 'travel-quiz-final', type: 'quiz', title: 'Quiz Viaggio', desc: 'Sei pronto a partire?', target: { page: 'quiz', level: 'A2' }, milestone: true },
+        ]
+      },
+      {
+        id: 'culture-german',
+        level: 'B1-B2',
+        title: 'Cultura Tedesca',
+        subtitle: 'Storia, arte e tradizioni',
+        icon: '\u{1F3DB}\u{FE0F}',
+        color: '#a855f7',
+        colorDark: '#9333ea',
+        description: 'Esplora la cultura tedesca: letteratura, musica, storia, tradizioni e attualità.',
+        duration: '6-8 settimane',
+        category: 'thematic',
+        steps: [
+          { id: 'culture-reading-1', type: 'reading', title: 'Storia Tedesca', desc: 'Dalla Prussia a oggi', target: { page: 'reading', level: 'B1' }, milestone: false },
+          { id: 'culture-vocab-1', type: 'vocabulary', title: 'Arte e Musei', desc: 'Vocabolario artistico', target: { page: 'vocabulary', level: 'B1' }, milestone: false },
+          { id: 'culture-reading-2', type: 'reading', title: 'Letteratura Classica', desc: 'Introduzione ai grandi autori', target: { page: 'reading', level: 'B1' }, milestone: true },
+          { id: 'culture-vocab-2', type: 'vocabulary', title: 'Feste e Tradizioni', desc: 'Oktoberfest, Natale, Carnevale', target: { page: 'vocabulary', level: 'B1' }, milestone: false },
+          { id: 'culture-reading-3', type: 'reading', title: 'Musica Tedesca', desc: 'Da Bach ai Kraftwerk', target: { page: 'reading', level: 'B2' }, milestone: false },
+          { id: 'culture-vocab-3', type: 'vocabulary', title: 'Cucina Regionale', desc: 'Specialità gastronomiche', target: { page: 'vocabulary', level: 'B1' }, milestone: false },
+          { id: 'culture-reading-4', type: 'reading', title: 'Germania Moderna', desc: 'Società e attualità', target: { page: 'reading', level: 'B2' }, milestone: true },
+          { id: 'culture-quiz-final', type: 'quiz', title: 'Quiz Cultura', desc: 'Quanto conosci la Germania?', target: { page: 'quiz', level: 'B1' }, milestone: true },
+        ]
+      },
+      {
+        id: 'grammar-intensive',
+        level: 'ALL',
+        title: 'Grammatica Intensiva',
+        subtitle: 'Padroneggia le regole',
+        icon: '\u{1F4D0}',
+        color: '#6366f1',
+        colorDark: '#4f46e5',
+        description: 'Percorso focalizzato sulla grammatica: dai casi ai tempi verbali alle costruzioni complesse.',
+        duration: '8-12 settimane',
+        category: 'skill',
+        steps: [
+          { id: 'gram-int-1', type: 'grammar', title: 'Articoli e Generi', desc: 'der, die, das in profondità', target: { page: 'grammar', level: 'A1' }, milestone: false },
+          { id: 'gram-int-2', type: 'grammar', title: 'Sistema dei Casi', desc: 'Nominativo, accusativo, dativo, genitivo', target: { page: 'grammar', level: 'A2' }, milestone: true },
+          { id: 'gram-int-3', type: 'grammar', title: 'Verbi Regolari', desc: 'Coniugazione completa', target: { page: 'grammar', level: 'A1' }, milestone: false },
+          { id: 'gram-int-4', type: 'grammar', title: 'Verbi Irregolari', desc: 'Verbi forti e misti', target: { page: 'grammar', level: 'A2' }, milestone: false },
+          { id: 'gram-int-quiz-1', type: 'quiz', title: 'Quiz Fondamenti', desc: 'Verifica basi grammaticali', target: { page: 'quiz', level: 'A2' }, milestone: true },
+          { id: 'gram-int-5', type: 'grammar', title: 'Tempi Verbali', desc: 'Presente, passato, futuro', target: { page: 'grammar', level: 'B1' }, milestone: false },
+          { id: 'gram-int-6', type: 'grammar', title: 'Frasi Subordinate', desc: 'Tutte le congiunzioni', target: { page: 'grammar', level: 'B1' }, milestone: true },
+          { id: 'gram-int-7', type: 'grammar', title: 'Passivo', desc: 'Costruzione passiva completa', target: { page: 'grammar', level: 'B2' }, milestone: false },
+          { id: 'gram-int-8', type: 'grammar', title: 'Konjunktiv I e II', desc: 'Congiuntivo tedesco', target: { page: 'grammar', level: 'B2' }, milestone: false },
+          { id: 'gram-int-quiz-final', type: 'quiz', title: 'Quiz Grammatica Completo', desc: 'Test finale grammatica', target: { page: 'quiz', level: 'B2' }, milestone: true },
         ]
       }
     ];
@@ -1346,21 +1577,31 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
             {(() => {
               const recommended = getRecommendedPath();
               const recProgress = getPathProgress(recommended.id);
+              const milestones = recommended.steps.filter(s => s.milestone).length;
+              const nextStep = recommended.steps.find(s => {
+                const saved = localStorage.getItem('dm_path_step_' + s.id);
+                return saved !== 'completed';
+              });
               return (
                 <div className="recommended-path" onClick={() => onNavigate('paths', { path: recommended })}>
                   <div className="recommended-path-icon">{recommended.icon}</div>
                   <div className="recommended-path-content">
-                    <div className="recommended-path-label">Consigliato per te</div>
+                    <div className="recommended-path-label">{'\u2728'} Consigliato per te</div>
                     <div className="recommended-path-title">{recommended.level !== 'ALL' && <span style={{color: recommended.color}}>[{recommended.level}]</span>} {recommended.title}</div>
-                    <div className="recommended-path-desc">{recProgress.percentage > 0 ? `${recProgress.percentage}% completato` : 'Inizia il tuo percorso'}</div>
+                    <div className="recommended-path-desc">
+                      {recProgress.percentage > 0
+                        ? `${recProgress.percentage}% completato - ${nextStep ? 'Prossimo: ' + nextStep.title : 'Continua!'}`
+                        : `${recommended.steps.length} step | ${milestones} traguardi`}
+                    </div>
                   </div>
                   <Icons.ChevronRight />
                 </div>
               );
             })()}
             <div className="paths-grid">
-              {LEARNING_PATHS.slice(0, 3).map(path => {
+              {LEARNING_PATHS.filter(p => p.category === 'cefr').slice(0, 3).map(path => {
                 const progress = getPathProgress(path.id);
+                const milestones = path.steps.filter(s => s.milestone).length;
                 return (
                   <div key={path.id} className="path-card" style={{'--path-color': path.color, '--path-color-dark': path.colorDark}} onClick={() => onNavigate('paths', { path })}>
                     <div className="path-card-icon">{path.icon}</div>
@@ -1368,17 +1609,17 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
                       <div className="path-card-title">
                         {path.level !== 'ALL' && <span className="level-badge">{path.level}</span>}
                         {path.title}
+                        {progress.percentage === 100 && <span style={{marginLeft: '6px'}}>{'\u2705'}</span>}
                       </div>
                       <div className="path-card-desc">{path.description}</div>
                       <div className="path-card-meta">
                         <span className="path-card-stat"><Icons.Clock /> {path.duration}</span>
                         <span className="path-card-stat"><Icons.Target /> {path.steps.length} step</span>
+                        <span className="path-card-stat">{'\u{1F3C6}'} {milestones} traguardi</span>
                       </div>
-                      {progress.percentage > 0 && (
-                        <div className="path-progress">
-                          <div className="path-progress-fill" style={{width: progress.percentage + '%'}}></div>
-                        </div>
-                      )}
+                      <div className="path-progress">
+                        <div className="path-progress-fill" style={{width: progress.percentage + '%', background: path.color}}></div>
+                      </div>
                     </div>
                     <div className="path-card-arrow"><Icons.ChevronRight /></div>
                   </div>
@@ -1386,7 +1627,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
               })}
             </div>
             <button className="show-all-paths-btn" onClick={() => onNavigate('paths')}>
-              Vedi tutti i percorsi <Icons.ChevronRight />
+              Vedi tutti i {LEARNING_PATHS.length} percorsi <Icons.ChevronRight />
             </button>
           </section>
 
@@ -1418,6 +1659,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
     // ============ PATHS PAGE ============
     function PathsPage({ path, onNavigate }) {
       const [currentPath, setCurrentPath] = useState(path);
+      const [activeFilter, setActiveFilter] = useState('all');
       const [stepStatus, setStepStatus] = useState(() => {
         const status = {};
         LEARNING_PATHS.forEach(p => {
@@ -1429,12 +1671,41 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         return status;
       });
 
+      // Weekly goals tracking
+      const [weeklyProgress, setWeeklyProgress] = useState(() => {
+        try { return JSON.parse(localStorage.getItem('dm_weekly_progress') || '{}'); } catch(e) { return {}; }
+      });
+
+      const getDayKey = (date) => date.toISOString().split('T')[0];
+      const today = new Date();
+      const todayKey = getDayKey(today);
+
+      const getWeekDays = () => {
+        const days = [];
+        const dayNames = ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'];
+        for (let i = 6; i >= 0; i--) {
+          const d = new Date(today);
+          d.setDate(d.getDate() - i);
+          days.push({ date: d, key: getDayKey(d), label: dayNames[d.getDay()] });
+        }
+        return days;
+      };
+
+      const weekDays = getWeekDays();
+      const streak = weekDays.filter(d => weeklyProgress[d.key]).length;
+
       const completeStep = (stepId) => {
         setStepStatus(prev => {
           const next = { ...prev, [stepId]: 'completed' };
           localStorage.setItem('dm_path_step_' + stepId, 'completed');
           return next;
         });
+        // Mark today as active
+        if (!weeklyProgress[todayKey]) {
+          const newProgress = { ...weeklyProgress, [todayKey]: true };
+          setWeeklyProgress(newProgress);
+          localStorage.setItem('dm_weekly_progress', JSON.stringify(newProgress));
+        }
       };
 
       const handleStepClick = (step) => {
@@ -1443,29 +1714,76 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         onNavigate(page, level ? { level } : {});
       };
 
+      const getCategoryLabel = (cat) => {
+        switch(cat) {
+          case 'cefr': return 'Livello CEFR';
+          case 'thematic': return 'Tematico';
+          case 'method': return 'Metodo';
+          case 'skill': return 'Abilita';
+          default: return cat;
+        }
+      };
+
+      const filteredPaths = activeFilter === 'all'
+        ? LEARNING_PATHS
+        : LEARNING_PATHS.filter(p => p.category === activeFilter);
+
       // Lista di tutti i percorsi
       if (!currentPath) {
         return (
           <div className="path-page">
             <div className="page-header">
               <h1 className="page-title">{'\u{1F3C6}'} Percorsi di Apprendimento</h1>
-              <p className="page-subtitle">Scegli il percorso adatto al tuo livello</p>
+              <p className="page-subtitle">Scegli il percorso adatto al tuo livello e obiettivi</p>
             </div>
+
+            {/* Weekly Goals */}
+            <div className="weekly-goals">
+              <div className="weekly-goals-header">
+                <div className="weekly-goals-title"><Icons.Target /> Obiettivo Settimanale</div>
+                <div className="weekly-goals-streak">{'\u{1F525}'} {streak} giorni</div>
+              </div>
+              <div className="weekly-goals-grid">
+                {weekDays.map(day => (
+                  <div key={day.key} className="weekly-day">
+                    <span className="weekly-day-label">{day.label}</span>
+                    <div className={`weekly-day-circle ${weeklyProgress[day.key] ? 'completed' : ''} ${day.key === todayKey ? 'today' : ''}`}>
+                      {weeklyProgress[day.key] ? <Icons.Check /> : ''}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Filters */}
+            <div className="path-filters">
+              <button className={`path-filter-btn ${activeFilter === 'all' ? 'active' : ''}`} onClick={() => setActiveFilter('all')}>Tutti</button>
+              <button className={`path-filter-btn ${activeFilter === 'cefr' ? 'active' : ''}`} onClick={() => setActiveFilter('cefr')}>Livelli CEFR</button>
+              <button className={`path-filter-btn ${activeFilter === 'thematic' ? 'active' : ''}`} onClick={() => setActiveFilter('thematic')}>Tematici</button>
+              <button className={`path-filter-btn ${activeFilter === 'method' ? 'active' : ''}`} onClick={() => setActiveFilter('method')}>Metodi</button>
+              <button className={`path-filter-btn ${activeFilter === 'skill' ? 'active' : ''}`} onClick={() => setActiveFilter('skill')}>Abilita</button>
+            </div>
+
             <div className="paths-grid">
-              {LEARNING_PATHS.map(p => {
+              {filteredPaths.map(p => {
                 const progress = getPathProgress(p.id);
+                const milestones = p.steps.filter(s => s.milestone).length;
+                const completedMilestones = p.steps.filter(s => s.milestone && stepStatus[s.id] === 'completed').length;
                 return (
                   <div key={p.id} className="path-card" style={{'--path-color': p.color, '--path-color-dark': p.colorDark}} onClick={() => setCurrentPath(p)}>
                     <div className="path-card-icon">{p.icon}</div>
                     <div className="path-card-content">
                       <div className="path-card-title">
+                        <span className={`path-category-badge ${p.category}`}>{getCategoryLabel(p.category)}</span>
                         {p.level !== 'ALL' && <span className="level-badge">{p.level}</span>}
                         {p.title}
+                        {progress.percentage === 100 && <span style={{marginLeft: '8px'}}>{'\u2705'}</span>}
                       </div>
                       <div className="path-card-desc">{p.description}</div>
                       <div className="path-card-meta">
                         <span className="path-card-stat"><Icons.Clock /> {p.duration}</span>
                         <span className="path-card-stat"><Icons.Target /> {p.steps.length} step</span>
+                        {milestones > 0 && <span className="path-card-stat">{'\u{1F3C6}'} {completedMilestones}/{milestones} traguardi</span>}
                       </div>
                       <div className="path-progress">
                         <div className="path-progress-fill" style={{width: progress.percentage + '%', background: p.color}}></div>
@@ -1482,6 +1800,9 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 
       // Dettaglio singolo percorso
       const progress = getPathProgress(currentPath.id);
+      const milestones = currentPath.steps.filter(s => s.milestone);
+      const completedMilestones = milestones.filter(s => stepStatus[s.id] === 'completed').length;
+
       const getStepStatusClass = (step, idx) => {
         if (stepStatus[step.id] === 'completed') return 'completed';
         // Primo step non completato = current
@@ -1507,16 +1828,40 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         <div className="path-page" style={{'--path-color': currentPath.color, '--path-color-dark': currentPath.colorDark}}>
           <div className="path-header">
             <div className="path-header-icon">{currentPath.icon}</div>
+            <span className={`path-category-badge ${currentPath.category}`}>{getCategoryLabel(currentPath.category)}</span>
             <h1 className="path-header-title">
               {currentPath.level !== 'ALL' && <span style={{color: currentPath.color}}>[{currentPath.level}]</span>} {currentPath.title}
             </h1>
             <p className="path-header-desc">{currentPath.description}</p>
+
+            {/* Stats */}
+            <div className="path-stats">
+              <div className="path-stat-card">
+                <div className="path-stat-value">{progress.completed}/{progress.total}</div>
+                <div className="path-stat-label">Step completati</div>
+              </div>
+              <div className="path-stat-card">
+                <div className="path-stat-value">{completedMilestones}/{milestones.length}</div>
+                <div className="path-stat-label">Traguardi</div>
+              </div>
+              <div className="path-stat-card">
+                <div className="path-stat-value">{progress.percentage}%</div>
+                <div className="path-stat-label">Progresso</div>
+              </div>
+            </div>
+
             <div className="path-overall-progress">
               <div className="path-overall-progress-bar">
                 <div className="path-overall-progress-fill" style={{width: progress.percentage + '%', background: currentPath.color}}></div>
               </div>
-              <div className="path-overall-progress-text">{progress.completed}/{progress.total} step completati ({progress.percentage}%)</div>
             </div>
+
+            {progress.percentage === 100 && (
+              <div className="path-completed-badge">
+                <span className="path-completed-badge-icon">{'\u{1F3C6}'}</span>
+                <span className="path-completed-badge-text">Percorso Completato!</span>
+              </div>
+            )}
           </div>
 
           <div className="path-steps">
@@ -1524,14 +1869,17 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
               const statusClass = getStepStatusClass(step, idx);
               const stepInfo = getStepIcon(step.type);
               return (
-                <div key={step.id} className={`path-step ${statusClass}`}>
+                <div key={step.id} className={`path-step ${statusClass} ${step.milestone ? 'milestone' : ''}`}>
                   <div className="path-step-indicator">
-                    {statusClass === 'completed' ? <Icons.Check /> : idx + 1}
+                    {statusClass === 'completed' ? <Icons.Check /> : step.milestone ? '\u{1F3C6}' : idx + 1}
                   </div>
                   <div className="path-step-card" onClick={() => handleStepClick(step)}>
                     <div className="path-step-header">
                       <div className="path-step-icon" style={{background: stepInfo.color}}>{stepInfo.icon}</div>
-                      <span className="path-step-title">{step.title}</span>
+                      <span className="path-step-title">
+                        {step.title}
+                        {step.milestone && <span className="milestone-badge">{'\u2B50'} Traguardo</span>}
+                      </span>
                       <span className={`path-step-status ${statusClass}`}>
                         {statusClass === 'completed' ? 'Completato' : statusClass === 'current' ? 'In corso' : 'Da fare'}
                       </span>
