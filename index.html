@@ -583,6 +583,77 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 .continue-card .card-text h4 { font-size: 13px; font-weight: 700; margin-bottom: 2px; }
 .continue-card .card-text p { font-size: 11px; color: var(--text-secondary); }
 
+/* ============ LEARNING PATHS ============ */
+.paths-section { margin: 28px 0; }
+.paths-section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+.paths-section-title .title-icon { font-size: 22px; }
+.paths-grid { display: flex; flex-direction: column; gap: 8px; }
+.path-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; cursor: pointer; transition: all 0.25s ease; display: flex; align-items: center; gap: 16px; position: relative; overflow: hidden; }
+.path-card:hover { border-color: var(--path-color); transform: translateX(4px); box-shadow: var(--shadow-sm); }
+.path-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--path-color); }
+.path-card-icon { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px; flex-shrink: 0; background: linear-gradient(135deg, var(--path-color), var(--path-color-dark)); color: white; }
+.path-card-content { flex: 1; min-width: 0; }
+.path-card-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
+.path-card-title .level-badge { padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; color: white; background: var(--path-color); }
+.path-card-desc { font-size: 12px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 8px; }
+.path-card-meta { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.path-card-stat { display: flex; align-items: center; gap: 4px; font-size: 11px; color: var(--text-secondary); }
+.path-card-stat svg { width: 14px; height: 14px; }
+.path-progress { width: 100%; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; margin-top: 8px; }
+.path-progress-fill { height: 100%; background: var(--path-color); border-radius: 2px; transition: width 0.4s ease; }
+.path-card-arrow { color: var(--text-secondary); transition: transform 0.2s; flex-shrink: 0; }
+.path-card:hover .path-card-arrow { transform: translateX(4px); color: var(--path-color); }
+
+/* Path Detail Page */
+.path-page { animation: fadeIn 0.3s ease; }
+.path-header { text-align: center; padding: 24px 0 32px; position: relative; }
+.path-header-icon { width: 72px; height: 72px; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 36px; margin: 0 auto 16px; background: linear-gradient(135deg, var(--path-color), var(--path-color-dark)); color: white; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+.path-header-title { font-size: 24px; font-weight: 800; margin-bottom: 8px; }
+.path-header-desc { color: var(--text-secondary); font-size: 14px; max-width: 500px; margin: 0 auto 16px; }
+.path-overall-progress { max-width: 400px; margin: 0 auto; }
+.path-overall-progress-bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.path-overall-progress-fill { height: 100%; border-radius: 4px; transition: width 0.4s ease; }
+.path-overall-progress-text { font-size: 13px; color: var(--text-secondary); margin-top: 8px; text-align: center; }
+
+/* Path Steps */
+.path-steps { max-width: 700px; margin: 0 auto; }
+.path-step { position: relative; padding-left: 40px; padding-bottom: 24px; }
+.path-step:last-child { padding-bottom: 0; }
+.path-step::before { content: ''; position: absolute; left: 15px; top: 32px; bottom: 0; width: 2px; background: var(--border); }
+.path-step:last-child::before { display: none; }
+.path-step-indicator { position: absolute; left: 0; top: 0; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; background: var(--bg-card); border: 2px solid var(--border); color: var(--text-secondary); z-index: 1; }
+.path-step.completed .path-step-indicator { background: var(--success); border-color: var(--success); color: white; }
+.path-step.current .path-step-indicator { background: var(--path-color); border-color: var(--path-color); color: white; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(108,92,231,0.4); } 50% { box-shadow: 0 0 0 8px rgba(108,92,231,0); } }
+.path-step-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; cursor: pointer; transition: all 0.2s; }
+.path-step-card:hover { border-color: var(--path-color); background: var(--bg-card-hover); }
+.path-step.completed .path-step-card { border-color: var(--success); background: rgba(0,184,148,0.05); }
+.path-step-header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.path-step-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0; }
+.path-step-title { font-size: 14px; font-weight: 700; flex: 1; }
+.path-step-status { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 600; }
+.path-step-status.completed { background: rgba(0,184,148,0.15); color: var(--success); }
+.path-step-status.current { background: rgba(108,92,231,0.15); color: var(--accent); }
+.path-step-status.locked { background: var(--border); color: var(--text-secondary); }
+.path-step-desc { font-size: 12px; color: var(--text-secondary); line-height: 1.4; margin-bottom: 10px; }
+.path-step-meta { display: flex; gap: 16px; font-size: 11px; color: var(--text-secondary); }
+.path-step-meta span { display: flex; align-items: center; gap: 4px; }
+
+/* Recommended Path Banner */
+.recommended-path { background: linear-gradient(135deg, rgba(108,92,231,0.15), rgba(0,206,201,0.1)); border: 1px solid rgba(108,92,231,0.3); border-radius: var(--radius); padding: 16px 18px; margin-bottom: 24px; display: flex; align-items: center; gap: 14px; cursor: pointer; transition: all 0.2s; }
+.recommended-path:hover { border-color: var(--accent); transform: translateY(-2px); }
+.recommended-path-icon { width: 44px; height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center; background: var(--accent); color: white; font-size: 22px; flex-shrink: 0; }
+.recommended-path-content { flex: 1; }
+.recommended-path-label { font-size: 10px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2px; }
+.recommended-path-title { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+.recommended-path-desc { font-size: 12px; color: var(--text-secondary); }
+.recommended-path-arrow { color: var(--accent); }
+
+/* Show All Paths Button */
+.show-all-paths-btn { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 12px; margin-top: 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text-secondary); font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+.show-all-paths-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); }
+.show-all-paths-btn svg { width: 16px; height: 16px; }
+
 /* ============ REDESIGN: Improved nav active state ============ */
 .nav-btn.active { color: white; background: var(--accent); box-shadow: 0 2px 10px rgba(124,92,252,0.3); }
 
@@ -647,6 +718,10 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
       Swap: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>,
       Reading: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>,
       Lessons: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>,
+      Path: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="4.5" r="2.5"></circle><path d="m10.2 6.3-3.9 3.9"></path><circle cx="4.5" cy="12" r="2.5"></circle><path d="M7 12h10"></path><circle cx="19.5" cy="12" r="2.5"></circle><path d="m13.8 17.7 3.9-3.9"></path><circle cx="12" cy="19.5" r="2.5"></circle></svg>,
+      Trophy: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>,
+      Target: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>,
+      Clock: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>,
     };
 
     // ============ SHARED UTILITIES ============
@@ -883,6 +958,164 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
       {id:100,number:100,title:'Ende gut, alles gut',phase:'attiva',isReview:false,tag:'Conclusione'},
     ];
 
+    // ============ LEARNING PATHS DATA ============
+    const LEARNING_PATHS = [
+      {
+        id: 'a1-beginner',
+        level: 'A1',
+        title: 'Primi Passi',
+        subtitle: 'Inizia il tuo viaggio nel tedesco',
+        icon: '\u{1F331}',
+        color: '#10b981',
+        colorDark: '#059669',
+        description: 'Impara le basi: saluti, presentazioni, numeri e frasi essenziali per comunicare.',
+        duration: '4-6 settimane',
+        steps: [
+          { id: 'a1-vocab-1', type: 'vocabulary', title: 'Saluti e Presentazioni', desc: 'Impara a salutare e presentarti', target: { page: 'vocabulary', level: 'A1' }, moduleFilter: ['saluti', 'presentazioni', 'numeri'] },
+          { id: 'a1-grammar-1', type: 'grammar', title: 'Verbi essere e avere', desc: 'sein und haben - le basi della grammatica', target: { page: 'grammar', level: 'A1' } },
+          { id: 'a1-vocab-2', type: 'vocabulary', title: 'Famiglia e Persone', desc: 'Vocabolario della famiglia', target: { page: 'vocabulary', level: 'A1' }, moduleFilter: ['famiglia', 'persone'] },
+          { id: 'a1-quiz-1', type: 'quiz', title: 'Quiz A1 Base', desc: 'Verifica le tue conoscenze', target: { page: 'quiz', level: 'A1' } },
+          { id: 'a1-reading-1', type: 'reading', title: 'Prima Lettura', desc: 'Leggi un semplice testo in tedesco', target: { page: 'reading', level: 'A1' } },
+        ]
+      },
+      {
+        id: 'a2-elementary',
+        level: 'A2',
+        title: 'Conversazioni Quotidiane',
+        subtitle: 'Comunica nella vita di tutti i giorni',
+        icon: '\u{1F4AC}',
+        color: '#06b6d4',
+        colorDark: '#0891b2',
+        description: 'Espandi il vocabolario per situazioni quotidiane: shopping, viaggi, ristorante.',
+        duration: '6-8 settimane',
+        steps: [
+          { id: 'a2-vocab-1', type: 'vocabulary', title: 'Vita Quotidiana', desc: 'Casa, cibo, abbigliamento', target: { page: 'vocabulary', level: 'A2' } },
+          { id: 'a2-grammar-1', type: 'grammar', title: 'Tempi Passati', desc: 'Perfekt e Präteritum', target: { page: 'grammar', level: 'A2' } },
+          { id: 'a2-verbs-1', type: 'verbs', title: 'Verbi Modali', desc: 'können, müssen, wollen...', target: { page: 'verbs' } },
+          { id: 'a2-vocab-2', type: 'vocabulary', title: 'Viaggi e Trasporti', desc: 'Muoversi in Germania', target: { page: 'vocabulary', level: 'A2' } },
+          { id: 'a2-reading-1', type: 'reading', title: 'Testi Quotidiani', desc: 'Email, messaggi, annunci', target: { page: 'reading', level: 'A2' } },
+          { id: 'a2-quiz-1', type: 'quiz', title: 'Quiz A2', desc: 'Verifica i progressi', target: { page: 'quiz', level: 'A2' } },
+        ]
+      },
+      {
+        id: 'b1-intermediate',
+        level: 'B1',
+        title: 'Indipendenza Linguistica',
+        subtitle: 'Esprimi opinioni e racconta esperienze',
+        icon: '\u{1F680}',
+        color: '#8b5cf6',
+        colorDark: '#7c3aed',
+        description: 'Raggiungi l\'indipendenza: esprimi opinioni, racconta storie, comprendi testi complessi.',
+        duration: '8-12 settimane',
+        steps: [
+          { id: 'b1-grammar-1', type: 'grammar', title: 'Subordinate', desc: 'Costruzioni complesse con weil, dass, wenn', target: { page: 'grammar', level: 'B1' } },
+          { id: 'b1-vocab-1', type: 'vocabulary', title: 'Lavoro e Carriera', desc: 'Il mondo professionale', target: { page: 'vocabulary', level: 'B1' } },
+          { id: 'b1-special-verbs', type: 'special-verbs', title: 'Verbi Separabili', desc: 'aufstehen, ankommen, mitnehmen...', target: { page: 'special-verbs' } },
+          { id: 'b1-reading-1', type: 'reading', title: 'Articoli e Blog', desc: 'Leggi contenuti autentici', target: { page: 'reading', level: 'B1' } },
+          { id: 'b1-grammar-2', type: 'grammar', title: 'Konjunktiv II', desc: 'Esprimere desideri e ipotesi', target: { page: 'grammar', level: 'B1' } },
+          { id: 'b1-quiz-1', type: 'quiz', title: 'Quiz B1 Completo', desc: 'Preparazione certificazione', target: { page: 'quiz', level: 'B1' } },
+        ]
+      },
+      {
+        id: 'b2-upperint',
+        level: 'B2',
+        title: 'Fluenza Avanzata',
+        subtitle: 'Comunica con naturalezza',
+        icon: '\u{1F3AF}',
+        color: '#f59e0b',
+        colorDark: '#d97706',
+        description: 'Padroneggia sfumature, discussioni complesse e testi specialistici.',
+        duration: '10-14 settimane',
+        steps: [
+          { id: 'b2-vocab-1', type: 'vocabulary', title: 'Vocabolario Avanzato', desc: 'Espressioni idiomatiche e collocazioni', target: { page: 'vocabulary', level: 'B2' } },
+          { id: 'b2-grammar-1', type: 'grammar', title: 'Passivo e Nominalizzazione', desc: 'Stile formale e accademico', target: { page: 'grammar', level: 'B2' } },
+          { id: 'b2-reading-1', type: 'reading', title: 'Testi Giornalistici', desc: 'Notizie e opinioni', target: { page: 'reading', level: 'B2' } },
+          { id: 'b2-verbs-1', type: 'verbs', title: 'Verbi Complessi', desc: 'Reggenze e costruzioni', target: { page: 'verbs' } },
+          { id: 'b2-quiz-1', type: 'quiz', title: 'Quiz B2', desc: 'Test avanzato', target: { page: 'quiz', level: 'B2' } },
+        ]
+      },
+      {
+        id: 'c1-advanced',
+        level: 'C1',
+        title: 'Competenza Professionale',
+        subtitle: 'Tedesco per studio e lavoro',
+        icon: '\u{1F393}',
+        color: '#ef4444',
+        colorDark: '#dc2626',
+        description: 'Raggiungi il livello richiesto per università e carriera professionale in Germania.',
+        duration: '12-16 settimane',
+        steps: [
+          { id: 'c1-grammar-1', type: 'grammar', title: 'Grammatica Avanzata', desc: 'Partizipialkonstruktionen, Infinitivsätze', target: { page: 'grammar', level: 'C1' } },
+          { id: 'c1-vocab-1', type: 'vocabulary', title: 'Linguaggio Accademico', desc: 'Vocabolario specialistico', target: { page: 'vocabulary', level: 'C1' } },
+          { id: 'c1-reading-1', type: 'reading', title: 'Testi Accademici', desc: 'Saggi e articoli scientifici', target: { page: 'reading', level: 'C1' } },
+          { id: 'c1-quiz-1', type: 'quiz', title: 'Quiz C1', desc: 'Verifica livello avanzato', target: { page: 'quiz', level: 'C1' } },
+        ]
+      },
+      {
+        id: 'c2-mastery',
+        level: 'C2',
+        title: 'Padronanza Totale',
+        subtitle: 'Tedesco come madrelingua',
+        icon: '\u{1F451}',
+        color: '#ec4899',
+        colorDark: '#db2777',
+        description: 'Perfeziona ogni aspetto: letteratura, retorica, sfumature culturali.',
+        duration: '16-20 settimane',
+        steps: [
+          { id: 'c2-vocab-1', type: 'vocabulary', title: 'Vocabolario Letterario', desc: 'Espressioni raffinate e letterarie', target: { page: 'vocabulary', level: 'C2' } },
+          { id: 'c2-grammar-1', type: 'grammar', title: 'Stile e Registro', desc: 'Padronanza stilistica completa', target: { page: 'grammar', level: 'C2' } },
+          { id: 'c2-reading-1', type: 'reading', title: 'Letteratura Tedesca', desc: 'Testi letterari e filosofici', target: { page: 'reading', level: 'C2' } },
+          { id: 'c2-quiz-1', type: 'quiz', title: 'Quiz C2 Finale', desc: 'Certificazione GDS', target: { page: 'quiz', level: 'C2' } },
+        ]
+      },
+      {
+        id: 'assimil-method',
+        level: 'ALL',
+        title: 'Metodo Assimil',
+        subtitle: '100 lezioni progressive',
+        icon: '\u{1F4DA}',
+        color: '#3b82f6',
+        colorDark: '#2563eb',
+        description: 'Segui il famoso metodo Assimil: 100 lezioni dal livello base all\'autonomia.',
+        duration: '6-12 mesi',
+        steps: [
+          { id: 'assimil-phase1', type: 'lessons', title: 'Fase Passiva (1-49)', desc: 'Ascolto e comprensione', target: { page: 'lessons' } },
+          { id: 'assimil-phase2', type: 'lessons', title: 'Fase Attiva (50-100)', desc: 'Produzione e consolidamento', target: { page: 'lessons' } },
+        ]
+      }
+    ];
+
+    // Helper per calcolare progresso percorso
+    function getPathProgress(pathId) {
+      const progress = getLearningProgress();
+      const path = LEARNING_PATHS.find(p => p.id === pathId);
+      if (!path) return { completed: 0, total: 0, percentage: 0 };
+
+      let completed = 0;
+      const total = path.steps.length;
+
+      path.steps.forEach(step => {
+        const stepProgress = localStorage.getItem('dm_path_step_' + step.id);
+        if (stepProgress === 'completed') completed++;
+      });
+
+      return { completed, total, percentage: total > 0 ? Math.round((completed / total) * 100) : 0 };
+    }
+
+    function markPathStepComplete(stepId) {
+      localStorage.setItem('dm_path_step_' + stepId, 'completed');
+    }
+
+    function getRecommendedPath() {
+      const progress = getLearningProgress();
+      // Trova il primo percorso non completato
+      for (const path of LEARNING_PATHS) {
+        const pathProgress = getPathProgress(path.id);
+        if (pathProgress.percentage < 100) return path;
+      }
+      return LEARNING_PATHS[0];
+    }
+
     // ============ ERROR BOUNDARY ============
     class ErrorBoundary extends React.Component {
       constructor(props) { super(props); this.state = { hasError: false, error: null }; }
@@ -909,6 +1142,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
       const [selectedModule, setSelectedModule] = useState(null);
       const [selectedTopic, setSelectedTopic] = useState(null);
       const [selectedReading, setSelectedReading] = useState(null);
+      const [selectedPath, setSelectedPath] = useState(null);
 
       const navigate = (page, options = {}) => {
         setCurrentPage(page);
@@ -916,10 +1150,12 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         setSelectedModule(options.module || null);
         setSelectedTopic(options.topic || null);
         setSelectedReading(options.reading || null);
+        setSelectedPath(options.path || null);
         window.scrollTo(0, 0);
       };
 
       const goBack = () => {
+        if (selectedPath && currentPage === 'paths') { setSelectedPath(null); return; }
         if (selectedReading) { setSelectedReading(null); return; }
         if (selectedTopic) { setSelectedTopic(null); return; }
         if (selectedModule) { setSelectedModule(null); return; }
@@ -929,7 +1165,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         window.scrollTo(0, 0);
       };
 
-      const PAGE_NAMES = { home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura', quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica', favorites: 'Salvate', lessons: 'Lezioni' };
+      const PAGE_NAMES = { home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura', quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica', favorites: 'Salvate', lessons: 'Lezioni', paths: 'Percorsi' };
 
       const breadcrumbs = useMemo(() => {
         if (currentPage === 'home') return [];
@@ -966,6 +1202,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
             {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
             {currentPage === 'reading' && <ReadingPage level={selectedLevel} reading={selectedReading} onNavigate={navigate} />}
             {currentPage === 'lessons' && <LessonsPage onNavigate={navigate} />}
+            {currentPage === 'paths' && <PathsPage path={selectedPath} onNavigate={navigate} />}
           </main>
           <BottomNav currentPage={currentPage} onNavigate={navigate} />
           <Footer />
@@ -997,6 +1234,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
             )}
             <nav className="nav desktop-nav">
               <button className={`nav-btn ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>Home</span></button>
+              <button className={`nav-btn ${currentPage === 'paths' ? 'active' : ''}`} onClick={() => onNavigate('paths')}><Icons.Path /><span>Percorsi</span></button>
               <button className={`nav-btn ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
               <button className={`nav-btn ${currentPage === 'practice' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
               <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
@@ -1011,8 +1249,8 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
       return (
         <div className="bottom-nav">
           <button className={`bottom-nav-item ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>Home</span></button>
+          <button className={`bottom-nav-item ${currentPage === 'paths' ? 'active' : ''}`} onClick={() => onNavigate('paths')}><Icons.Path /><span>Percorsi</span></button>
           <button className={`bottom-nav-item ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
-          <button className={`bottom-nav-item ${currentPage === 'practice' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
           <button className={`bottom-nav-item ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
           <button className={`bottom-nav-item ${currentPage === 'lessons' ? 'active' : ''}`} onClick={() => onNavigate('lessons')}><Icons.Lessons /><span>Lezioni</span></button>
         </div>
@@ -1103,6 +1341,55 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
             </section>
           )}
 
+          <section className="paths-section">
+            <h2 className="paths-section-title"><span className="title-icon">{'\u{1F3C6}'}</span> Percorsi di Apprendimento</h2>
+            {(() => {
+              const recommended = getRecommendedPath();
+              const recProgress = getPathProgress(recommended.id);
+              return (
+                <div className="recommended-path" onClick={() => onNavigate('paths', { path: recommended })}>
+                  <div className="recommended-path-icon">{recommended.icon}</div>
+                  <div className="recommended-path-content">
+                    <div className="recommended-path-label">Consigliato per te</div>
+                    <div className="recommended-path-title">{recommended.level !== 'ALL' && <span style={{color: recommended.color}}>[{recommended.level}]</span>} {recommended.title}</div>
+                    <div className="recommended-path-desc">{recProgress.percentage > 0 ? `${recProgress.percentage}% completato` : 'Inizia il tuo percorso'}</div>
+                  </div>
+                  <Icons.ChevronRight />
+                </div>
+              );
+            })()}
+            <div className="paths-grid">
+              {LEARNING_PATHS.slice(0, 3).map(path => {
+                const progress = getPathProgress(path.id);
+                return (
+                  <div key={path.id} className="path-card" style={{'--path-color': path.color, '--path-color-dark': path.colorDark}} onClick={() => onNavigate('paths', { path })}>
+                    <div className="path-card-icon">{path.icon}</div>
+                    <div className="path-card-content">
+                      <div className="path-card-title">
+                        {path.level !== 'ALL' && <span className="level-badge">{path.level}</span>}
+                        {path.title}
+                      </div>
+                      <div className="path-card-desc">{path.description}</div>
+                      <div className="path-card-meta">
+                        <span className="path-card-stat"><Icons.Clock /> {path.duration}</span>
+                        <span className="path-card-stat"><Icons.Target /> {path.steps.length} step</span>
+                      </div>
+                      {progress.percentage > 0 && (
+                        <div className="path-progress">
+                          <div className="path-progress-fill" style={{width: progress.percentage + '%'}}></div>
+                        </div>
+                      )}
+                    </div>
+                    <div className="path-card-arrow"><Icons.ChevronRight /></div>
+                  </div>
+                );
+              })}
+            </div>
+            <button className="show-all-paths-btn" onClick={() => onNavigate('paths')}>
+              Vedi tutti i percorsi <Icons.ChevronRight />
+            </button>
+          </section>
+
           <section>
             <h3 className="continue-title">Cosa vuoi studiare?</h3>
             <div className="quick-actions-grid">
@@ -1127,6 +1414,146 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
     }
 
     // ============ (LevelDashboard removed - direct navigation) ============
+
+    // ============ PATHS PAGE ============
+    function PathsPage({ path, onNavigate }) {
+      const [currentPath, setCurrentPath] = useState(path);
+      const [stepStatus, setStepStatus] = useState(() => {
+        const status = {};
+        LEARNING_PATHS.forEach(p => {
+          p.steps.forEach(s => {
+            const saved = localStorage.getItem('dm_path_step_' + s.id);
+            status[s.id] = saved || 'pending';
+          });
+        });
+        return status;
+      });
+
+      const completeStep = (stepId) => {
+        setStepStatus(prev => {
+          const next = { ...prev, [stepId]: 'completed' };
+          localStorage.setItem('dm_path_step_' + stepId, 'completed');
+          return next;
+        });
+      };
+
+      const handleStepClick = (step) => {
+        const { page, level } = step.target;
+        completeStep(step.id);
+        onNavigate(page, level ? { level } : {});
+      };
+
+      // Lista di tutti i percorsi
+      if (!currentPath) {
+        return (
+          <div className="path-page">
+            <div className="page-header">
+              <h1 className="page-title">{'\u{1F3C6}'} Percorsi di Apprendimento</h1>
+              <p className="page-subtitle">Scegli il percorso adatto al tuo livello</p>
+            </div>
+            <div className="paths-grid">
+              {LEARNING_PATHS.map(p => {
+                const progress = getPathProgress(p.id);
+                return (
+                  <div key={p.id} className="path-card" style={{'--path-color': p.color, '--path-color-dark': p.colorDark}} onClick={() => setCurrentPath(p)}>
+                    <div className="path-card-icon">{p.icon}</div>
+                    <div className="path-card-content">
+                      <div className="path-card-title">
+                        {p.level !== 'ALL' && <span className="level-badge">{p.level}</span>}
+                        {p.title}
+                      </div>
+                      <div className="path-card-desc">{p.description}</div>
+                      <div className="path-card-meta">
+                        <span className="path-card-stat"><Icons.Clock /> {p.duration}</span>
+                        <span className="path-card-stat"><Icons.Target /> {p.steps.length} step</span>
+                      </div>
+                      <div className="path-progress">
+                        <div className="path-progress-fill" style={{width: progress.percentage + '%', background: p.color}}></div>
+                      </div>
+                    </div>
+                    <div className="path-card-arrow"><Icons.ChevronRight /></div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      }
+
+      // Dettaglio singolo percorso
+      const progress = getPathProgress(currentPath.id);
+      const getStepStatusClass = (step, idx) => {
+        if (stepStatus[step.id] === 'completed') return 'completed';
+        // Primo step non completato = current
+        const prevCompleted = currentPath.steps.slice(0, idx).every(s => stepStatus[s.id] === 'completed');
+        if (prevCompleted && stepStatus[step.id] !== 'completed') return 'current';
+        return 'pending';
+      };
+
+      const getStepIcon = (type) => {
+        switch(type) {
+          case 'vocabulary': return { icon: <Icons.Book />, color: '#10b981' };
+          case 'grammar': return { icon: <Icons.Grammar />, color: '#8b5cf6' };
+          case 'verbs': return { icon: <Icons.Verb />, color: '#f59e0b' };
+          case 'special-verbs': return { icon: <Icons.Verb />, color: '#f59e0b' };
+          case 'quiz': return { icon: <Icons.Quiz />, color: '#ef4444' };
+          case 'reading': return { icon: <Icons.Reading />, color: '#06b6d4' };
+          case 'lessons': return { icon: <Icons.Lessons />, color: '#3b82f6' };
+          default: return { icon: <Icons.Target />, color: '#666' };
+        }
+      };
+
+      return (
+        <div className="path-page" style={{'--path-color': currentPath.color, '--path-color-dark': currentPath.colorDark}}>
+          <div className="path-header">
+            <div className="path-header-icon">{currentPath.icon}</div>
+            <h1 className="path-header-title">
+              {currentPath.level !== 'ALL' && <span style={{color: currentPath.color}}>[{currentPath.level}]</span>} {currentPath.title}
+            </h1>
+            <p className="path-header-desc">{currentPath.description}</p>
+            <div className="path-overall-progress">
+              <div className="path-overall-progress-bar">
+                <div className="path-overall-progress-fill" style={{width: progress.percentage + '%', background: currentPath.color}}></div>
+              </div>
+              <div className="path-overall-progress-text">{progress.completed}/{progress.total} step completati ({progress.percentage}%)</div>
+            </div>
+          </div>
+
+          <div className="path-steps">
+            {currentPath.steps.map((step, idx) => {
+              const statusClass = getStepStatusClass(step, idx);
+              const stepInfo = getStepIcon(step.type);
+              return (
+                <div key={step.id} className={`path-step ${statusClass}`}>
+                  <div className="path-step-indicator">
+                    {statusClass === 'completed' ? <Icons.Check /> : idx + 1}
+                  </div>
+                  <div className="path-step-card" onClick={() => handleStepClick(step)}>
+                    <div className="path-step-header">
+                      <div className="path-step-icon" style={{background: stepInfo.color}}>{stepInfo.icon}</div>
+                      <span className="path-step-title">{step.title}</span>
+                      <span className={`path-step-status ${statusClass}`}>
+                        {statusClass === 'completed' ? 'Completato' : statusClass === 'current' ? 'In corso' : 'Da fare'}
+                      </span>
+                    </div>
+                    <p className="path-step-desc">{step.desc}</p>
+                    <div className="path-step-meta">
+                      <span>{step.type === 'vocabulary' ? 'Vocabolario' : step.type === 'grammar' ? 'Grammatica' : step.type === 'quiz' ? 'Quiz' : step.type === 'reading' ? 'Lettura' : step.type === 'verbs' || step.type === 'special-verbs' ? 'Verbi' : 'Lezioni'}</span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          <div style={{textAlign: 'center', marginTop: '24px'}}>
+            <button className="show-all-paths-btn" onClick={() => setCurrentPath(null)}>
+              <Icons.Back /> Torna ai percorsi
+            </button>
+          </div>
+        </div>
+      );
+    }
 
     // ============ LESSONS PAGE ============
     function LessonsPage({ onNavigate }) {
