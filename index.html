@@ -942,6 +942,341 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 
     const { useState, useEffect, useMemo, useCallback } = React;
 
+
+    // ============ SPECIAL VERBS DATA (Verbi con prefissi) ============
+    const SPECIAL_VERBS_DATA = {
+      separable: {
+        title: "Verbi Separabili (Trennbare Verben)",
+        description: "I prefissi separabili si staccano dal verbo nelle frasi principali al presente e Präteritum.",
+        prefixes: [
+          {prefix: "an-", meaning: "inizio, contatto, accensione", examples: [
+            {verb: "anfangen", meaning: "cominciare", example: "Wann fängt der Film an?", translation: "Quando comincia il film?"},
+            {verb: "ankommen", meaning: "arrivare", example: "Der Zug kommt um 10 Uhr an.", translation: "Il treno arriva alle 10."},
+            {verb: "anrufen", meaning: "telefonare", example: "Ich rufe dich morgen an.", translation: "Ti chiamo domani."},
+            {verb: "anmachen", meaning: "accendere", example: "Mach bitte das Licht an!", translation: "Accendi la luce!"},
+            {verb: "anziehen", meaning: "vestirsi", example: "Ich ziehe meinen Mantel an.", translation: "Indosso il cappotto."},
+            {verb: "ansehen", meaning: "guardare", example: "Wir sehen einen Film an.", translation: "Guardiamo un film."},
+            {verb: "anbieten", meaning: "offrire", example: "Er bietet mir Hilfe an.", translation: "Mi offre aiuto."},
+            {verb: "anhalten", meaning: "fermarsi", example: "Der Bus hält hier an.", translation: "L'autobus si ferma qui."}
+          ]},
+          {prefix: "auf-", meaning: "apertura, verso l'alto", examples: [
+            {verb: "aufstehen", meaning: "alzarsi", example: "Ich stehe um 7 Uhr auf.", translation: "Mi alzo alle 7."},
+            {verb: "aufmachen", meaning: "aprire", example: "Mach bitte die Tür auf!", translation: "Apri la porta!"},
+            {verb: "aufhören", meaning: "smettere", example: "Hör auf zu reden!", translation: "Smetti di parlare!"},
+            {verb: "aufräumen", meaning: "riordinare", example: "Ich räume mein Zimmer auf.", translation: "Riordino la mia stanza."},
+            {verb: "aufpassen", meaning: "fare attenzione", example: "Pass auf die Kinder auf!", translation: "Fai attenzione ai bambini!"},
+            {verb: "aufwachen", meaning: "svegliarsi", example: "Ich wache früh auf.", translation: "Mi sveglio presto."},
+            {verb: "aufschreiben", meaning: "annotare", example: "Schreib die Adresse auf!", translation: "Scrivi l'indirizzo!"}
+          ]},
+          {prefix: "aus-", meaning: "fuori, spegnimento", examples: [
+            {verb: "ausgehen", meaning: "uscire", example: "Wir gehen heute Abend aus.", translation: "Usciamo stasera."},
+            {verb: "ausmachen", meaning: "spegnere", example: "Mach das Licht aus!", translation: "Spegni la luce!"},
+            {verb: "aussteigen", meaning: "scendere", example: "Ich steige am Bahnhof aus.", translation: "Scendo alla stazione."},
+            {verb: "aussehen", meaning: "sembrare", example: "Du siehst müde aus.", translation: "Sembri stanco."},
+            {verb: "ausfüllen", meaning: "compilare", example: "Füllen Sie das Formular aus!", translation: "Compili il modulo!"},
+            {verb: "ausziehen", meaning: "togliersi", example: "Ich ziehe die Schuhe aus.", translation: "Mi tolgo le scarpe."}
+          ]},
+          {prefix: "ein-", meaning: "dentro, inizio", examples: [
+            {verb: "einladen", meaning: "invitare", example: "Ich lade dich zur Party ein.", translation: "Ti invito alla festa."},
+            {verb: "einkaufen", meaning: "fare la spesa", example: "Ich kaufe im Supermarkt ein.", translation: "Faccio la spesa."},
+            {verb: "einsteigen", meaning: "salire", example: "Steigen Sie bitte ein!", translation: "Salga, per favore!"},
+            {verb: "einschlafen", meaning: "addormentarsi", example: "Das Kind schläft schnell ein.", translation: "Il bambino si addormenta."},
+            {verb: "einziehen", meaning: "trasferirsi", example: "Wir ziehen nächste Woche ein.", translation: "Ci trasferiamo la prossima settimana."}
+          ]},
+          {prefix: "mit-", meaning: "insieme, partecipazione", examples: [
+            {verb: "mitkommen", meaning: "venire insieme", example: "Kommst du mit?", translation: "Vieni con noi?"},
+            {verb: "mitbringen", meaning: "portare con sé", example: "Bring etwas zu essen mit!", translation: "Porta qualcosa da mangiare!"},
+            {verb: "mitmachen", meaning: "partecipare", example: "Machst du beim Spiel mit?", translation: "Partecipi al gioco?"},
+            {verb: "mitnehmen", meaning: "portare via", example: "Nimm einen Regenschirm mit!", translation: "Porta un ombrello!"}
+          ]},
+          {prefix: "zu-", meaning: "chiusura, verso", examples: [
+            {verb: "zumachen", meaning: "chiudere", example: "Mach die Tür zu!", translation: "Chiudi la porta!"},
+            {verb: "zuhören", meaning: "ascoltare", example: "Hör mir bitte zu!", translation: "Ascoltami!"},
+            {verb: "zunehmen", meaning: "aumentare", example: "Ich habe zugenommen.", translation: "Sono ingrassato."},
+            {verb: "zustimmen", meaning: "essere d'accordo", example: "Ich stimme dir zu.", translation: "Sono d'accordo con te."},
+            {verb: "zurückkommen", meaning: "tornare", example: "Wann kommst du zurück?", translation: "Quando torni?"}
+          ]},
+          {prefix: "ab-", meaning: "via, separazione", examples: [
+            {verb: "abfahren", meaning: "partire", example: "Der Zug fährt um 8 ab.", translation: "Il treno parte alle 8."},
+            {verb: "abholen", meaning: "andare a prendere", example: "Ich hole dich ab.", translation: "Vengo a prenderti."},
+            {verb: "abgeben", meaning: "consegnare", example: "Gib die Hausaufgaben ab!", translation: "Consegna i compiti!"},
+            {verb: "abnehmen", meaning: "dimagrire", example: "Ich möchte abnehmen.", translation: "Voglio dimagrire."},
+            {verb: "absagen", meaning: "disdire", example: "Ich muss den Termin absagen.", translation: "Devo disdire l'appuntamento."}
+          ]},
+          {prefix: "vor-", meaning: "prima, davanti", examples: [
+            {verb: "vorstellen", meaning: "presentare", example: "Ich stelle mich vor.", translation: "Mi presento."},
+            {verb: "vorbereiten", meaning: "preparare", example: "Ich bereite das Essen vor.", translation: "Preparo il cibo."},
+            {verb: "vorschlagen", meaning: "proporre", example: "Ich schlage einen Plan vor.", translation: "Propongo un piano."},
+            {verb: "vorhaben", meaning: "avere in programma", example: "Was hast du heute vor?", translation: "Cosa hai in programma?"}
+          ]},
+          {prefix: "weg-", meaning: "via, lontano", examples: [
+            {verb: "weggehen", meaning: "andarsene", example: "Geh nicht weg!", translation: "Non andartene!"},
+            {verb: "wegnehmen", meaning: "togliere", example: "Nimm das weg!", translation: "Portalo via!"},
+            {verb: "wegwerfen", meaning: "buttare via", example: "Wirf den Müll weg!", translation: "Butta la spazzatura!"}
+          ]},
+          {prefix: "nach-", meaning: "dopo, verifica", examples: [
+            {verb: "nachdenken", meaning: "riflettere", example: "Denk darüber nach!", translation: "Pensaci!"},
+            {verb: "nachfragen", meaning: "chiedere", example: "Ich frage noch einmal nach.", translation: "Chiedo ancora."},
+            {verb: "nachsehen", meaning: "controllare", example: "Sieh im Wörterbuch nach!", translation: "Controlla nel dizionario!"}
+          ]},
+          {prefix: "um-", meaning: "cambiamento", examples: [
+            {verb: "umziehen", meaning: "traslocare", example: "Wir ziehen nach Berlin um.", translation: "Ci trasferiamo a Berlino."},
+            {verb: "umsteigen", meaning: "cambiare mezzo", example: "Steigen Sie in München um!", translation: "Cambi a Monaco!"},
+            {verb: "umtauschen", meaning: "cambiare", example: "Kann ich das umtauschen?", translation: "Posso cambiarlo?"}
+          ]},
+          {prefix: "fern-", meaning: "a distanza", examples: [
+            {verb: "fernsehen", meaning: "guardare la TV", example: "Ich sehe abends fern.", translation: "Guardo la TV la sera."}
+          ]}
+        ]
+      },
+      inseparable: {
+        title: "Verbi Inseparabili (Untrennbare Verben)",
+        description: "I prefissi be-, emp-, ent-, er-, ge-, miss-, ver-, zer- non si staccano mai.",
+        prefixes: [
+          {prefix: "be-", meaning: "transitivo, intensificazione", examples: [
+            {verb: "bekommen", meaning: "ricevere", example: "Ich bekomme einen Brief.", translation: "Ricevo una lettera."},
+            {verb: "besuchen", meaning: "visitare", example: "Ich besuche meine Großeltern.", translation: "Visito i miei nonni."},
+            {verb: "bezahlen", meaning: "pagare", example: "Ich bezahle die Rechnung.", translation: "Pago il conto."},
+            {verb: "bestellen", meaning: "ordinare", example: "Ich bestelle eine Pizza.", translation: "Ordino una pizza."},
+            {verb: "beginnen", meaning: "cominciare", example: "Der Kurs beginnt um 9.", translation: "Il corso inizia alle 9."},
+            {verb: "beschreiben", meaning: "descrivere", example: "Beschreib mir das Bild!", translation: "Descrivimi l'immagine!"},
+            {verb: "benutzen", meaning: "usare", example: "Benutze das Wörterbuch!", translation: "Usa il dizionario!"},
+            {verb: "bedeuten", meaning: "significare", example: "Was bedeutet das?", translation: "Cosa significa?"}
+          ]},
+          {prefix: "ver-", meaning: "cambiamento, errore", examples: [
+            {verb: "verstehen", meaning: "capire", example: "Ich verstehe das nicht.", translation: "Non capisco."},
+            {verb: "vergessen", meaning: "dimenticare", example: "Vergiss mich nicht!", translation: "Non dimenticarmi!"},
+            {verb: "verlieren", meaning: "perdere", example: "Ich habe mein Handy verloren.", translation: "Ho perso il cellulare."},
+            {verb: "verkaufen", meaning: "vendere", example: "Ich verkaufe mein Auto.", translation: "Vendo la mia macchina."},
+            {verb: "versuchen", meaning: "provare", example: "Versuch es noch einmal!", translation: "Prova ancora!"},
+            {verb: "verbringen", meaning: "trascorrere", example: "Ich verbringe Zeit mit dir.", translation: "Trascorro tempo con te."},
+            {verb: "versprechen", meaning: "promettere", example: "Ich verspreche dir das.", translation: "Te lo prometto."},
+            {verb: "verbieten", meaning: "vietare", example: "Rauchen ist verboten.", translation: "È vietato fumare."}
+          ]},
+          {prefix: "er-", meaning: "risultato, raggiungimento", examples: [
+            {verb: "erklären", meaning: "spiegare", example: "Erkläre mir das bitte!", translation: "Spiegamelo!"},
+            {verb: "erfahren", meaning: "venire a sapere", example: "Ich habe es erfahren.", translation: "L'ho saputo."},
+            {verb: "erreichen", meaning: "raggiungere", example: "Ich erreiche mein Ziel.", translation: "Raggiungo il mio obiettivo."},
+            {verb: "erkennen", meaning: "riconoscere", example: "Ich erkenne dich nicht.", translation: "Non ti riconosco."},
+            {verb: "erlauben", meaning: "permettere", example: "Erlauben Sie mir zu gehen?", translation: "Mi permette di andare?"},
+            {verb: "erwarten", meaning: "aspettarsi", example: "Was erwartest du?", translation: "Cosa ti aspetti?"},
+            {verb: "erzählen", meaning: "raccontare", example: "Erzähl mir eine Geschichte!", translation: "Raccontami una storia!"}
+          ]},
+          {prefix: "ent-", meaning: "rimozione, fuga", examples: [
+            {verb: "entscheiden", meaning: "decidere", example: "Entscheide dich!", translation: "Deciditi!"},
+            {verb: "entdecken", meaning: "scoprire", example: "Ich habe etwas entdeckt.", translation: "Ho scoperto qualcosa."},
+            {verb: "entschuldigen", meaning: "scusare", example: "Entschuldigen Sie bitte!", translation: "Mi scusi!"},
+            {verb: "entwickeln", meaning: "sviluppare", example: "Wir entwickeln eine App.", translation: "Sviluppiamo un'app."},
+            {verb: "entspannen", meaning: "rilassarsi", example: "Entspann dich!", translation: "Rilassati!"}
+          ]},
+          {prefix: "ge-", meaning: "compagnia, completamento", examples: [
+            {verb: "gefallen", meaning: "piacere", example: "Das gefällt mir.", translation: "Mi piace."},
+            {verb: "gehören", meaning: "appartenere", example: "Das gehört mir.", translation: "È mio."},
+            {verb: "gelingen", meaning: "riuscire", example: "Es ist mir gelungen.", translation: "Ci sono riuscito."},
+            {verb: "genießen", meaning: "godere", example: "Genieß das Leben!", translation: "Goditi la vita!"}
+          ]},
+          {prefix: "miss-", meaning: "errore, negatività", examples: [
+            {verb: "missverstehen", meaning: "fraintendere", example: "Du hast mich missverstanden.", translation: "Mi hai frainteso."},
+            {verb: "missbrauchen", meaning: "abusare", example: "Er missbraucht seine Macht.", translation: "Abusa del suo potere."}
+          ]},
+          {prefix: "zer-", meaning: "distruzione", examples: [
+            {verb: "zerstören", meaning: "distruggere", example: "Der Sturm zerstört alles.", translation: "La tempesta distrugge tutto."},
+            {verb: "zerbrechen", meaning: "rompere in pezzi", example: "Das Glas ist zerbrochen.", translation: "Il bicchiere si è rotto."}
+          ]},
+          {prefix: "emp-", meaning: "ricezione", examples: [
+            {verb: "empfehlen", meaning: "raccomandare", example: "Ich empfehle dieses Buch.", translation: "Raccomando questo libro."},
+            {verb: "empfinden", meaning: "provare", example: "Ich empfinde Freude.", translation: "Provo gioia."}
+          ]}
+        ]
+      },
+      withPrepositions: {
+        title: "Verbi con Preposizioni",
+        description: "Verbi che richiedono una preposizione specifica.",
+        categories: [
+          {preposition: "auf + Akk", verbs: [
+            {verb: "warten auf", meaning: "aspettare", example: "Ich warte auf den Bus.", translation: "Aspetto l'autobus."},
+            {verb: "sich freuen auf", meaning: "non vedere l'ora", example: "Ich freue mich auf die Ferien.", translation: "Non vedo l'ora delle vacanze."},
+            {verb: "achten auf", meaning: "fare attenzione a", example: "Achte auf die Kinder!", translation: "Fai attenzione ai bambini!"},
+            {verb: "hoffen auf", meaning: "sperare in", example: "Ich hoffe auf gutes Wetter.", translation: "Spero nel bel tempo."}
+          ]},
+          {preposition: "über + Akk", verbs: [
+            {verb: "sprechen über", meaning: "parlare di", example: "Wir sprechen über Politik.", translation: "Parliamo di politica."},
+            {verb: "nachdenken über", meaning: "riflettere su", example: "Ich denke über das Problem nach.", translation: "Rifletto sul problema."},
+            {verb: "sich freuen über", meaning: "essere contento di", example: "Ich freue mich über das Geschenk.", translation: "Sono contento del regalo."},
+            {verb: "sich ärgern über", meaning: "arrabbiarsi per", example: "Ich ärgere mich über den Lärm.", translation: "Mi arrabbio per il rumore."}
+          ]},
+          {preposition: "an + Akk", verbs: [
+            {verb: "denken an", meaning: "pensare a", example: "Ich denke an dich.", translation: "Penso a te."},
+            {verb: "sich erinnern an", meaning: "ricordarsi di", example: "Ich erinnere mich an den Tag.", translation: "Mi ricordo di quel giorno."},
+            {verb: "glauben an", meaning: "credere in", example: "Ich glaube an dich.", translation: "Credo in te."}
+          ]},
+          {preposition: "für + Akk", verbs: [
+            {verb: "sich interessieren für", meaning: "interessarsi di", example: "Ich interessiere mich für Kunst.", translation: "Mi interesso di arte."},
+            {verb: "danken für", meaning: "ringraziare per", example: "Ich danke dir für alles.", translation: "Ti ringrazio per tutto."},
+            {verb: "sorgen für", meaning: "prendersi cura di", example: "Sie sorgt für die Familie.", translation: "Si prende cura della famiglia."}
+          ]},
+          {preposition: "mit + Dat", verbs: [
+            {verb: "sprechen mit", meaning: "parlare con", example: "Ich spreche mit dir.", translation: "Parlo con te."},
+            {verb: "anfangen mit", meaning: "cominciare con", example: "Fang mit der Arbeit an!", translation: "Comincia il lavoro!"},
+            {verb: "aufhören mit", meaning: "smettere di", example: "Hör mit dem Rauchen auf!", translation: "Smetti di fumare!"},
+            {verb: "sich treffen mit", meaning: "incontrarsi con", example: "Ich treffe mich mit Freunden.", translation: "Mi incontro con amici."}
+          ]},
+          {preposition: "von + Dat", verbs: [
+            {verb: "träumen von", meaning: "sognare di", example: "Ich träume von einer Reise.", translation: "Sogno un viaggio."},
+            {verb: "erzählen von", meaning: "raccontare di", example: "Erzähl mir von dir!", translation: "Parlami di te!"},
+            {verb: "abhängen von", meaning: "dipendere da", example: "Das hängt vom Wetter ab.", translation: "Dipende dal tempo."}
+          ]},
+          {preposition: "nach + Dat", verbs: [
+            {verb: "fragen nach", meaning: "chiedere di", example: "Er fragt nach dem Weg.", translation: "Chiede la strada."},
+            {verb: "suchen nach", meaning: "cercare", example: "Ich suche nach meinem Schlüssel.", translation: "Cerco la mia chiave."},
+            {verb: "riechen nach", meaning: "odorare di", example: "Es riecht nach Kaffee.", translation: "Odora di caffè."}
+          ]},
+          {preposition: "um + Akk", verbs: [
+            {verb: "bitten um", meaning: "chiedere", example: "Ich bitte um Hilfe.", translation: "Chiedo aiuto."},
+            {verb: "sich kümmern um", meaning: "occuparsi di", example: "Ich kümmere mich um die Kinder.", translation: "Mi occupo dei bambini."},
+            {verb: "es geht um", meaning: "si tratta di", example: "Es geht um Geld.", translation: "Si tratta di soldi."}
+          ]}
+        ]
+      },
+      nomenVerb: {
+        title: "Espressioni Nominali",
+        description: "Combinazioni fisse di sostantivo + verbo.",
+        categories: [
+          {category: "Comunicazione", icon: "💬", expressions: [
+            {expression: "eine Frage stellen", meaning: "fare una domanda", simpleVerb: "fragen", example: "Darf ich eine Frage stellen?", translation: "Posso fare una domanda?"},
+            {expression: "eine Antwort geben", meaning: "dare una risposta", simpleVerb: "antworten", example: "Er gibt keine Antwort.", translation: "Non dà risposta."},
+            {expression: "Bescheid sagen", meaning: "informare", simpleVerb: "informieren", example: "Sag mir Bescheid!", translation: "Fammi sapere!"}
+          ]},
+          {category: "Decisioni", icon: "⚖️", expressions: [
+            {expression: "eine Entscheidung treffen", meaning: "prendere una decisione", simpleVerb: "entscheiden", example: "Wir müssen eine Entscheidung treffen.", translation: "Dobbiamo prendere una decisione."},
+            {expression: "zur Verfügung stehen", meaning: "essere a disposizione", simpleVerb: "verfügbar sein", example: "Ich stehe zur Verfügung.", translation: "Sono a disposizione."},
+            {expression: "in Frage kommen", meaning: "essere possibile", simpleVerb: "möglich sein", example: "Das kommt nicht in Frage!", translation: "Non se ne parla!"}
+          ]},
+          {category: "Azioni", icon: "⚡", expressions: [
+            {expression: "einen Versuch machen", meaning: "fare un tentativo", simpleVerb: "versuchen", example: "Mach noch einen Versuch!", translation: "Fai un altro tentativo!"},
+            {expression: "Hilfe leisten", meaning: "prestare aiuto", simpleVerb: "helfen", example: "Er leistet erste Hilfe.", translation: "Presta primo soccorso."},
+            {expression: "Fortschritte machen", meaning: "fare progressi", simpleVerb: "vorankommen", example: "Du machst große Fortschritte!", translation: "Fai grandi progressi!"}
+          ]}
+        ]
+      }
+    };
+
+    // ============ ESSENTIAL VOCABULARY (Parole essenziali per livello) ============
+    const ESSENTIAL_WORDS = {
+      A1: {title: "Parole Essenziali A1", description: "Base", categories: [
+        {name: "Saluti", words: [
+          {de: "Hallo", it: "Ciao", example: "Hallo, wie geht's?"},
+          {de: "Guten Tag", it: "Buongiorno", example: "Guten Tag!"},
+          {de: "Auf Wiedersehen", it: "Arrivederci", example: "Auf Wiedersehen!"},
+          {de: "bitte", it: "per favore", example: "Ein Kaffee, bitte."},
+          {de: "danke", it: "grazie", example: "Danke schön!"},
+          {de: "ja", it: "sì", example: "Ja, natürlich."},
+          {de: "nein", it: "no", example: "Nein, danke."}
+        ]},
+        {name: "Verbi Base", words: [
+          {de: "sein", it: "essere", example: "Ich bin Student."},
+          {de: "haben", it: "avere", example: "Ich habe Zeit."},
+          {de: "machen", it: "fare", example: "Was machst du?"},
+          {de: "gehen", it: "andare", example: "Ich gehe nach Hause."},
+          {de: "kommen", it: "venire", example: "Woher kommst du?"},
+          {de: "können", it: "potere", example: "Kannst du mir helfen?"},
+          {de: "müssen", it: "dovere", example: "Ich muss arbeiten."}
+        ]},
+        {name: "Famiglia", words: [
+          {de: "die Familie", it: "la famiglia", example: "Meine Familie ist groß."},
+          {de: "der Vater", it: "il padre", example: "Mein Vater arbeitet."},
+          {de: "die Mutter", it: "la madre", example: "Meine Mutter kocht."},
+          {de: "der Bruder", it: "il fratello", example: "Mein Bruder ist 20."},
+          {de: "die Schwester", it: "la sorella", example: "Meine Schwester studiert."}
+        ]},
+        {name: "Numeri", words: [
+          {de: "eins", it: "uno", example: "Ich habe eins."},
+          {de: "zwei", it: "due", example: "Zwei Kaffee, bitte."},
+          {de: "drei", it: "tre", example: "Drei Euro."},
+          {de: "zehn", it: "dieci", example: "Zehn Euro."},
+          {de: "hundert", it: "cento", example: "Hundert Prozent."}
+        ]}
+      ]},
+      A2: {title: "Parole Essenziali A2", description: "Elementare", categories: [
+        {name: "Vita Quotidiana", words: [
+          {de: "aufstehen", it: "alzarsi", example: "Ich stehe um 7 Uhr auf."},
+          {de: "arbeiten", it: "lavorare", example: "Ich arbeite im Büro."},
+          {de: "schlafen", it: "dormire", example: "Ich schlafe 8 Stunden."},
+          {de: "kochen", it: "cucinare", example: "Ich koche gern."},
+          {de: "einkaufen", it: "fare la spesa", example: "Ich kaufe im Supermarkt ein."}
+        ]},
+        {name: "Trasporti", words: [
+          {de: "das Auto", it: "la macchina", example: "Ich fahre mit dem Auto."},
+          {de: "der Bus", it: "l'autobus", example: "Der Bus kommt um 8."},
+          {de: "der Zug", it: "il treno", example: "Der Zug fährt nach Berlin."},
+          {de: "der Bahnhof", it: "la stazione", example: "Ich bin am Bahnhof."},
+          {de: "fahren", it: "andare/guidare", example: "Ich fahre nach Hause."}
+        ]},
+        {name: "Salute", words: [
+          {de: "der Arzt", it: "il medico", example: "Ich gehe zum Arzt."},
+          {de: "krank", it: "malato", example: "Ich bin krank."},
+          {de: "gesund", it: "sano", example: "Bleib gesund!"},
+          {de: "der Schmerz", it: "il dolore", example: "Ich habe Schmerzen."}
+        ]}
+      ]},
+      B1: {title: "Parole Essenziali B1", description: "Intermedio", categories: [
+        {name: "Opinioni", words: [
+          {de: "meinen", it: "pensare", example: "Was meinst du dazu?"},
+          {de: "glauben", it: "credere", example: "Ich glaube, dass..."},
+          {de: "hoffen", it: "sperare", example: "Ich hoffe auf besseres Wetter."},
+          {de: "sich freuen", it: "essere contento", example: "Ich freue mich auf dich."},
+          {de: "sich ärgern", it: "arrabbiarsi", example: "Ich ärgere mich darüber."}
+        ]},
+        {name: "Lavoro", words: [
+          {de: "die Bewerbung", it: "la candidatura", example: "Ich schreibe eine Bewerbung."},
+          {de: "das Vorstellungsgespräch", it: "il colloquio", example: "Ich habe morgen ein Vorstellungsgespräch."},
+          {de: "die Erfahrung", it: "l'esperienza", example: "Ich habe viel Erfahrung."},
+          {de: "das Gehalt", it: "lo stipendio", example: "Das Gehalt ist gut."}
+        ]},
+        {name: "Connettori", words: [
+          {de: "deshalb", it: "perciò", example: "Deshalb bin ich hier."},
+          {de: "trotzdem", it: "tuttavia", example: "Trotzdem mache ich weiter."},
+          {de: "außerdem", it: "inoltre", example: "Außerdem ist es billig."},
+          {de: "obwohl", it: "sebbene", example: "Obwohl es regnet, gehe ich."}
+        ]}
+      ]},
+      B2: {title: "Parole Essenziali B2", description: "Intermedio superiore", categories: [
+        {name: "Espressioni", words: [
+          {de: "auf jeden Fall", it: "in ogni caso", example: "Auf jeden Fall komme ich."},
+          {de: "im Grunde", it: "in fondo", example: "Im Grunde hast du recht."},
+          {de: "im Gegenteil", it: "al contrario", example: "Im Gegenteil, ich mag es."},
+          {de: "auf keinen Fall", it: "assolutamente no", example: "Auf keinen Fall!"}
+        ]},
+        {name: "Verbi di Pensiero", words: [
+          {de: "annehmen", it: "supporre", example: "Ich nehme an, dass..."},
+          {de: "behaupten", it: "affermare", example: "Er behauptet, dass..."},
+          {de: "bezweifeln", it: "dubitare", example: "Ich bezweifle das."},
+          {de: "feststellen", it: "constatare", example: "Ich stelle fest, dass..."}
+        ]}
+      ]},
+      C1: {title: "Parole Essenziali C1", description: "Avanzato", categories: [
+        {name: "Accademico", words: [
+          {de: "analysieren", it: "analizzare", example: "Wir analysieren die Daten."},
+          {de: "erörtern", it: "esaminare", example: "Wir erörtern das Problem."},
+          {de: "bewerten", it: "valutare", example: "Ich bewerte die Situation."},
+          {de: "hervorheben", it: "evidenziare", example: "Ich möchte hervorheben, dass..."}
+        ]},
+        {name: "Formale", words: [
+          {de: "gewährleisten", it: "garantire", example: "Wir gewährleisten die Qualität."},
+          {de: "berücksichtigen", it: "tenere conto di", example: "Berücksichtigen Sie bitte..."},
+          {de: "verfügen über", it: "disporre di", example: "Wir verfügen über die Mittel."}
+        ]}
+      ]},
+      C2: {title: "Parole Essenziali C2", description: "Padronanza", categories: [
+        {name: "Letterario", words: [
+          {de: "gleichwohl", it: "tuttavia", example: "Gleichwohl muss ich sagen..."},
+          {de: "mithin", it: "pertanto", example: "Mithin ergibt sich..."},
+          {de: "nichtsdestotrotz", it: "ciononostante", example: "Nichtsdestotrotz glaube ich..."},
+          {de: "mitnichten", it: "per niente affatto", example: "Mitnichten!"}
+        ]}
+      ]}
+    };
+
     // ============ ICONS ============
     const Icons = {
       Book: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>,
