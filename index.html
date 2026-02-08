@@ -781,6 +781,42 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 .lesson-check.done { background: var(--success); border-color: var(--success); }
 .lesson-check.done svg { color: white; }
 
+/* ============ LESSON DETAIL ============ */
+.lesson-detail { padding: 16px; max-width: 800px; margin: 0 auto; animation: slideIn 0.2s ease-out; }
+.lesson-detail-header { text-align: center; margin-bottom: 28px; padding: 20px; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border); }
+.lesson-detail-num { font-size: 12px; font-weight: 600; color: var(--accent-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.lesson-detail-title { font-size: 24px; font-weight: 800; margin-bottom: 12px; }
+.lesson-detail-meta { display: flex; justify-content: center; gap: 12px; }
+.lesson-no-content { padding: 32px; text-align: center; background: var(--bg-card); border-radius: var(--radius); border: 1px solid var(--border); color: var(--text-secondary); }
+.lesson-no-content p { margin-bottom: 8px; }
+.lesson-review-info { padding: 24px; background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); border-radius: var(--radius); margin-bottom: 24px; }
+.lesson-review-info h3 { color: #f59e0b; margin-bottom: 8px; font-size: 16px; }
+.lesson-review-info p { color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
+.lesson-section { margin-bottom: 24px; }
+.lesson-section-title { font-size: 16px; font-weight: 700; margin-bottom: 12px; color: var(--accent-light); display: flex; align-items: center; gap: 8px; }
+.lesson-dialogue { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.dialogue-line { padding: 14px 16px; border-bottom: 1px solid var(--border); }
+.dialogue-line:last-child { border-bottom: none; }
+.dialogue-de { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+.dialogue-it { font-size: 13px; color: var(--text-secondary); font-style: italic; }
+.lesson-vocab-list { display: flex; flex-direction: column; gap: 8px; }
+.lesson-vocab-item { padding: 14px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.vocab-word { font-size: 15px; font-weight: 700; color: var(--accent-light); margin-bottom: 2px; }
+.vocab-translation { font-size: 14px; color: var(--text); }
+.vocab-example { font-size: 12px; color: var(--text-secondary); margin-top: 6px; font-style: italic; }
+.lesson-grammar-box { padding: 16px; background: rgba(108,92,231,0.1); border: 1px solid rgba(108,92,231,0.3); border-radius: var(--radius); }
+.lesson-grammar-box p { font-size: 14px; line-height: 1.7; color: var(--text); }
+.lesson-exercises { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
+.lesson-exercise-card { padding: 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.exercise-question { font-size: 14px; margin-bottom: 12px; line-height: 1.5; }
+.exercise-num { display: inline-block; background: var(--accent); color: white; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-right: 8px; }
+.exercise-answer-box { margin-top: 12px; padding: 12px; background: rgba(16,185,129,0.1); border-radius: var(--radius-sm); font-size: 14px; border-left: 3px solid var(--success); }
+.lesson-complete-section { margin-top: 32px; text-align: center; padding-top: 24px; border-top: 1px solid var(--border); }
+.lesson-complete-btn { padding: 14px 32px; font-size: 15px; font-weight: 700; border-radius: var(--radius); background: var(--gradient-1); color: white; border: none; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px; }
+.lesson-complete-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(108,92,231,0.4); }
+.lesson-complete-btn.completed { background: var(--success); }
+.lesson-complete-btn.completed:hover { background: #059669; box-shadow: 0 4px 12px rgba(16,185,129,0.4); }
+
 /* ============ GRAMMAR PATH - DUOLINGO STYLE ============ */
 .grammar-path-page { animation: slideIn 0.2s ease-out; max-width: 600px; margin: 0 auto; }
 .grammar-path-header { text-align: center; padding: 20px 0 28px; }
@@ -1065,20 +1101,318 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
 
     // ============ LESSONS DATA (Assimil - Il tedesco senza sforzo) ============
     const LESSONS_DATA = [
-      {id:1,number:1,title:'Viel Glück!',phase:'passiva',isReview:false,tag:'Saluti'},
-      {id:2,number:2,title:'Im Hotel',phase:'passiva',isReview:false,tag:'Alloggio'},
-      {id:3,number:3,title:'Das Foto',phase:'passiva',isReview:false,tag:'Descrizione'},
-      {id:4,number:4,title:'Das Frühstück im Café',phase:'passiva',isReview:false,tag:'Cibo'},
-      {id:5,number:5,title:'Ein Telefongespräch',phase:'passiva',isReview:false,tag:'Telefono'},
-      {id:6,number:6,title:'Es ist noch nicht spät',phase:'passiva',isReview:false,tag:'Tempo'},
-      {id:7,number:7,title:'Wiederholung (ripasso)',phase:'passiva',isReview:true,tag:'Ripasso'},
-      {id:8,number:8,title:'Was trinken wir?',phase:'passiva',isReview:false,tag:'Bevande'},
-      {id:9,number:9,title:'Wer hat Geld?',phase:'passiva',isReview:false,tag:'Denaro'},
-      {id:10,number:10,title:'Das ist nicht dumm!',phase:'passiva',isReview:false,tag:'Opinioni'},
-      {id:11,number:11,title:'Eine Nachricht',phase:'passiva',isReview:false,tag:'Messaggi'},
-      {id:12,number:12,title:'Bist du\'s, Janina?',phase:'passiva',isReview:false,tag:'Incontri'},
-      {id:13,number:13,title:'Ferienende',phase:'passiva',isReview:false,tag:'Vacanze'},
-      {id:14,number:14,title:'Wiederholung (ripasso)',phase:'passiva',isReview:true,tag:'Ripasso'},
+      {id:1,number:1,title:'Viel Glück!',phase:'passiva',isReview:false,tag:'Saluti',
+        dialogue: [
+          {de: 'Guten Tag!', it: 'Buongiorno!'},
+          {de: 'Wie heißen Sie?', it: 'Come si chiama?'},
+          {de: 'Ich heiße Maria.', it: 'Mi chiamo Maria.'},
+          {de: 'Freut mich!', it: 'Piacere!'},
+          {de: 'Viel Glück!', it: 'Buona fortuna!'},
+          {de: 'Auf Wiedersehen!', it: 'Arrivederci!'}
+        ],
+        vocabulary: [
+          {de: 'der Tag', it: 'il giorno', example: 'Guten Tag!'},
+          {de: 'heißen', it: 'chiamarsi', example: 'Ich heiße...'},
+          {de: 'das Glück', it: 'la fortuna', example: 'Viel Glück!'},
+          {de: 'freuen', it: 'rallegrare', example: 'Es freut mich.'},
+          {de: 'wiedersehen', it: 'rivedersi', example: 'Auf Wiedersehen!'}
+        ],
+        grammar: 'In questa lezione impariamo i saluti base e il verbo "heißen" (chiamarsi). Nota: "Ich heiße" significa "mi chiamo".',
+        exercises: [
+          {q: 'Come si dice "Buongiorno" in tedesco?', a: 'Guten Tag'},
+          {q: 'Completa: Ich _____ Maria.', a: 'heiße'},
+          {q: 'Traduci: "Buona fortuna!"', a: 'Viel Glück!'}
+        ]
+      },
+      {id:2,number:2,title:'Im Hotel',phase:'passiva',isReview:false,tag:'Alloggio',
+        dialogue: [
+          {de: 'Guten Abend! Haben Sie ein Zimmer frei?', it: 'Buonasera! Avete una camera libera?'},
+          {de: 'Ja, wir haben noch Zimmer.', it: 'Sì, abbiamo ancora camere.'},
+          {de: 'Was kostet ein Einzelzimmer?', it: 'Quanto costa una camera singola?'},
+          {de: 'Achtzig Euro pro Nacht.', it: 'Ottanta euro a notte.'},
+          {de: 'Mit Frühstück?', it: 'Con colazione?'},
+          {de: 'Ja, das Frühstück ist inklusive.', it: 'Sì, la colazione è inclusa.'}
+        ],
+        vocabulary: [
+          {de: 'das Hotel', it: 'l\'hotel', example: 'Ich bin im Hotel.'},
+          {de: 'das Zimmer', it: 'la camera', example: 'Ein Zimmer, bitte.'},
+          {de: 'frei', it: 'libero', example: 'Haben Sie ein Zimmer frei?'},
+          {de: 'kosten', it: 'costare', example: 'Was kostet das?'},
+          {de: 'die Nacht', it: 'la notte', example: 'Pro Nacht.'},
+          {de: 'das Frühstück', it: 'la colazione', example: 'Mit Frühstück?'}
+        ],
+        grammar: 'Impariamo a chiedere informazioni in hotel. Il verbo "haben" (avere): ich habe, du hast, er/sie hat, wir haben.',
+        exercises: [
+          {q: 'Come si chiede "Avete una camera libera?"', a: 'Haben Sie ein Zimmer frei?'},
+          {q: 'Traduci: "Quanto costa?"', a: 'Was kostet das?'},
+          {q: 'Come si dice "la notte"?', a: 'die Nacht'}
+        ]
+      },
+      {id:3,number:3,title:'Das Foto',phase:'passiva',isReview:false,tag:'Descrizione',
+        dialogue: [
+          {de: 'Schau mal, das ist meine Familie.', it: 'Guarda, questa è la mia famiglia.'},
+          {de: 'Wer ist das?', it: 'Chi è questo?'},
+          {de: 'Das ist mein Vater. Er heißt Hans.', it: 'Questo è mio padre. Si chiama Hans.'},
+          {de: 'Und das ist meine Mutter?', it: 'E questa è tua madre?'},
+          {de: 'Ja, sie heißt Anna.', it: 'Sì, si chiama Anna.'},
+          {de: 'Eine schöne Familie!', it: 'Una bella famiglia!'}
+        ],
+        vocabulary: [
+          {de: 'das Foto', it: 'la foto', example: 'Das ist ein Foto.'},
+          {de: 'die Familie', it: 'la famiglia', example: 'Meine Familie.'},
+          {de: 'der Vater', it: 'il padre', example: 'Mein Vater.'},
+          {de: 'die Mutter', it: 'la madre', example: 'Meine Mutter.'},
+          {de: 'schön', it: 'bello', example: 'Eine schöne Familie.'},
+          {de: 'schauen', it: 'guardare', example: 'Schau mal!'}
+        ],
+        grammar: 'Gli aggettivi possessivi: mein/meine (mio/mia), dein/deine (tuo/tua). Mein per maschile/neutro, meine per femminile.',
+        exercises: [
+          {q: 'Come si dice "mio padre"?', a: 'mein Vater'},
+          {q: 'Come si dice "mia madre"?', a: 'meine Mutter'},
+          {q: 'Traduci: "Chi è questo?"', a: 'Wer ist das?'}
+        ]
+      },
+      {id:4,number:4,title:'Das Frühstück im Café',phase:'passiva',isReview:false,tag:'Cibo',
+        dialogue: [
+          {de: 'Was möchten Sie bestellen?', it: 'Cosa desidera ordinare?'},
+          {de: 'Ich möchte ein Croissant und einen Kaffee.', it: 'Vorrei un croissant e un caffè.'},
+          {de: 'Mit Milch und Zucker?', it: 'Con latte e zucchero?'},
+          {de: 'Nur mit Milch, bitte.', it: 'Solo con latte, per favore.'},
+          {de: 'Sonst noch etwas?', it: 'Desidera altro?'},
+          {de: 'Nein, danke. Das ist alles.', it: 'No, grazie. È tutto.'}
+        ],
+        vocabulary: [
+          {de: 'der Kaffee', it: 'il caffè', example: 'Ein Kaffee, bitte.'},
+          {de: 'die Milch', it: 'il latte', example: 'Mit Milch.'},
+          {de: 'der Zucker', it: 'lo zucchero', example: 'Mit Zucker?'},
+          {de: 'bestellen', it: 'ordinare', example: 'Ich möchte bestellen.'},
+          {de: 'möchten', it: 'desiderare/volere', example: 'Ich möchte...'},
+          {de: 'danke', it: 'grazie', example: 'Nein, danke.'}
+        ],
+        grammar: 'Il verbo modale "möchten" (vorrei): ich möchte, du möchtest, er/sie möchte. Usato per richieste gentili.',
+        exercises: [
+          {q: 'Come ordini un caffè?', a: 'Ich möchte einen Kaffee'},
+          {q: 'Come si dice "Desidera altro?"', a: 'Sonst noch etwas?'},
+          {q: 'Traduci: "È tutto."', a: 'Das ist alles.'}
+        ]
+      },
+      {id:5,number:5,title:'Ein Telefongespräch',phase:'passiva',isReview:false,tag:'Telefono',
+        dialogue: [
+          {de: 'Hallo? Wer ist da?', it: 'Pronto? Chi è?'},
+          {de: 'Hier ist Peter. Ist Maria da?', it: 'Sono Peter. C\'è Maria?'},
+          {de: 'Einen Moment, bitte.', it: 'Un momento, per favore.'},
+          {de: 'Hallo Maria! Wie geht es dir?', it: 'Ciao Maria! Come stai?'},
+          {de: 'Mir geht es gut, danke. Und dir?', it: 'Sto bene, grazie. E tu?'},
+          {de: 'Auch gut. Hast du heute Abend Zeit?', it: 'Anche bene. Hai tempo stasera?'}
+        ],
+        vocabulary: [
+          {de: 'das Telefon', it: 'il telefono', example: 'Am Telefon.'},
+          {de: 'anrufen', it: 'telefonare', example: 'Ich rufe dich an.'},
+          {de: 'der Moment', it: 'il momento', example: 'Einen Moment.'},
+          {de: 'die Zeit', it: 'il tempo', example: 'Hast du Zeit?'},
+          {de: 'heute', it: 'oggi', example: 'Heute Abend.'},
+          {de: 'der Abend', it: 'la sera', example: 'Guten Abend!'}
+        ],
+        grammar: 'Domande informali: "Wie geht es dir?" (Come stai? - informale) vs "Wie geht es Ihnen?" (Come sta? - formale).',
+        exercises: [
+          {q: 'Come rispondi al telefono?', a: 'Hallo?'},
+          {q: 'Come chiedi "Come stai?" (informale)', a: 'Wie geht es dir?'},
+          {q: 'Traduci: "Hai tempo?"', a: 'Hast du Zeit?'}
+        ]
+      },
+      {id:6,number:6,title:'Es ist noch nicht spät',phase:'passiva',isReview:false,tag:'Tempo',
+        dialogue: [
+          {de: 'Wie spät ist es?', it: 'Che ore sono?'},
+          {de: 'Es ist halb acht.', it: 'Sono le sette e mezza.'},
+          {de: 'Oh! Ich muss gehen!', it: 'Oh! Devo andare!'},
+          {de: 'Warum? Es ist noch nicht spät.', it: 'Perché? Non è ancora tardi.'},
+          {de: 'Ich habe um acht Uhr einen Termin.', it: 'Ho un appuntamento alle otto.'},
+          {de: 'Dann beeil dich!', it: 'Allora sbrigati!'}
+        ],
+        vocabulary: [
+          {de: 'die Uhr', it: 'l\'ora / l\'orologio', example: 'Um acht Uhr.'},
+          {de: 'spät', it: 'tardi', example: 'Es ist spät.'},
+          {de: 'halb', it: 'mezzo', example: 'Halb acht.'},
+          {de: 'müssen', it: 'dovere', example: 'Ich muss gehen.'},
+          {de: 'der Termin', it: 'l\'appuntamento', example: 'Ich habe einen Termin.'},
+          {de: 'sich beeilen', it: 'sbrigarsi', example: 'Beeil dich!'}
+        ],
+        grammar: 'L\'ora in tedesco: "halb acht" = 7:30 (mezza verso le otto). Il verbo modale "müssen" (dovere): ich muss, du musst.',
+        exercises: [
+          {q: 'Come chiedi l\'ora?', a: 'Wie spät ist es?'},
+          {q: 'Come si dice "devo andare"?', a: 'Ich muss gehen'},
+          {q: 'Cosa significa "halb neun"?', a: '8:30 (otto e mezza)'}
+        ]
+      },
+      {id:7,number:7,title:'Wiederholung (ripasso)',phase:'passiva',isReview:true,tag:'Ripasso',
+        dialogue: [],
+        vocabulary: [],
+        grammar: 'Questa è una lezione di ripasso. Rivedi le lezioni 1-6 e pratica i dialoghi e il vocabolario.',
+        exercises: [
+          {q: 'Come saluti qualcuno la mattina?', a: 'Guten Morgen / Guten Tag'},
+          {q: 'Come ti presenti?', a: 'Ich heiße... / Mein Name ist...'},
+          {q: 'Come ordini al bar?', a: 'Ich möchte...'},
+          {q: 'Come chiedi l\'ora?', a: 'Wie spät ist es?'},
+          {q: 'Come dici "devo andare"?', a: 'Ich muss gehen'}
+        ]
+      },
+      {id:8,number:8,title:'Was trinken wir?',phase:'passiva',isReview:false,tag:'Bevande',
+        dialogue: [
+          {de: 'Was möchtest du trinken?', it: 'Cosa vorresti bere?'},
+          {de: 'Ich trinke gern Bier.', it: 'Mi piace bere la birra.'},
+          {de: 'Und du? Magst du Wein?', it: 'E tu? Ti piace il vino?'},
+          {de: 'Ja, ich mag Rotwein.', it: 'Sì, mi piace il vino rosso.'},
+          {de: 'Prost!', it: 'Cin cin!'},
+          {de: 'Zum Wohl!', it: 'Alla salute!'}
+        ],
+        vocabulary: [
+          {de: 'trinken', it: 'bere', example: 'Was trinken wir?'},
+          {de: 'das Bier', it: 'la birra', example: 'Ein Bier, bitte.'},
+          {de: 'der Wein', it: 'il vino', example: 'Ein Glas Wein.'},
+          {de: 'der Rotwein', it: 'il vino rosso', example: 'Ich mag Rotwein.'},
+          {de: 'der Weißwein', it: 'il vino bianco', example: 'Möchtest du Weißwein?'},
+          {de: 'das Wasser', it: 'l\'acqua', example: 'Ein Glas Wasser.'}
+        ],
+        grammar: 'Il verbo "mögen" (piacere): ich mag, du magst, er/sie mag. "Gern" si usa per esprimere preferenza: Ich trinke gern = Mi piace bere.',
+        exercises: [
+          {q: 'Come dici "Mi piace bere birra"?', a: 'Ich trinke gern Bier'},
+          {q: 'Traduci: "Cin cin!"', a: 'Prost!'},
+          {q: 'Come chiedi "Cosa vorresti bere?"', a: 'Was möchtest du trinken?'}
+        ]
+      },
+      {id:9,number:9,title:'Wer hat Geld?',phase:'passiva',isReview:false,tag:'Denaro',
+        dialogue: [
+          {de: 'Hast du Geld dabei?', it: 'Hai soldi con te?'},
+          {de: 'Ja, ich habe zwanzig Euro.', it: 'Sì, ho venti euro.'},
+          {de: 'Kannst du mir zehn Euro leihen?', it: 'Puoi prestarmi dieci euro?'},
+          {de: 'Natürlich! Hier, bitte.', it: 'Certo! Ecco, prego.'},
+          {de: 'Danke! Ich gebe es dir morgen zurück.', it: 'Grazie! Te li restituisco domani.'},
+          {de: 'Kein Problem!', it: 'Nessun problema!'}
+        ],
+        vocabulary: [
+          {de: 'das Geld', it: 'il denaro', example: 'Ich habe kein Geld.'},
+          {de: 'der Euro', it: 'l\'euro', example: 'Zehn Euro.'},
+          {de: 'leihen', it: 'prestare', example: 'Kannst du mir Geld leihen?'},
+          {de: 'zurückgeben', it: 'restituire', example: 'Ich gebe es zurück.'},
+          {de: 'bezahlen', it: 'pagare', example: 'Ich möchte bezahlen.'},
+          {de: 'die Rechnung', it: 'il conto', example: 'Die Rechnung, bitte.'}
+        ],
+        grammar: 'I numeri: zehn (10), zwanzig (20), dreißig (30), vierzig (40), fünfzig (50). Il verbo "können" (potere): ich kann, du kannst, er/sie kann.',
+        exercises: [
+          {q: 'Come chiedi "Hai soldi con te?"', a: 'Hast du Geld dabei?'},
+          {q: 'Come si dice "venti euro"?', a: 'zwanzig Euro'},
+          {q: 'Traduci: "Nessun problema!"', a: 'Kein Problem!'}
+        ]
+      },
+      {id:10,number:10,title:'Das ist nicht dumm!',phase:'passiva',isReview:false,tag:'Opinioni',
+        dialogue: [
+          {de: 'Was denkst du darüber?', it: 'Cosa ne pensi?'},
+          {de: 'Ich finde das interessant.', it: 'Lo trovo interessante.'},
+          {de: 'Wirklich? Ich finde es langweilig.', it: 'Davvero? Lo trovo noioso.'},
+          {de: 'Das ist nicht dumm!', it: 'Non è stupido!'},
+          {de: 'Du hast recht.', it: 'Hai ragione.'},
+          {de: 'Das stimmt.', it: 'È vero.'}
+        ],
+        vocabulary: [
+          {de: 'denken', it: 'pensare', example: 'Was denkst du?'},
+          {de: 'finden', it: 'trovare/considerare', example: 'Ich finde das gut.'},
+          {de: 'interessant', it: 'interessante', example: 'Das ist interessant.'},
+          {de: 'langweilig', it: 'noioso', example: 'Das Buch ist langweilig.'},
+          {de: 'dumm', it: 'stupido', example: 'Das ist nicht dumm.'},
+          {de: 'stimmen', it: 'essere vero', example: 'Das stimmt.'}
+        ],
+        grammar: 'Esprimere opinioni: "Ich finde das..." (Lo trovo...), "Ich denke..." (Penso...). Aggettivi: gut (buono), schlecht (cattivo), interessant (interessante).',
+        exercises: [
+          {q: 'Come dici "Lo trovo interessante"?', a: 'Ich finde das interessant'},
+          {q: 'Traduci: "Hai ragione."', a: 'Du hast recht'},
+          {q: 'Come chiedi "Cosa ne pensi?"', a: 'Was denkst du darüber?'}
+        ]
+      },
+      {id:11,number:11,title:'Eine Nachricht',phase:'passiva',isReview:false,tag:'Messaggi',
+        dialogue: [
+          {de: 'Hast du meine Nachricht bekommen?', it: 'Hai ricevuto il mio messaggio?'},
+          {de: 'Ja, ich habe sie gelesen.', it: 'Sì, l\'ho letto.'},
+          {de: 'Und? Was sagst du?', it: 'E allora? Cosa dici?'},
+          {de: 'Ich schreibe dir später.', it: 'Ti scrivo dopo.'},
+          {de: 'Okay, ich warte auf deine Antwort.', it: 'Ok, aspetto la tua risposta.'},
+          {de: 'Bis bald!', it: 'A presto!'}
+        ],
+        vocabulary: [
+          {de: 'die Nachricht', it: 'il messaggio', example: 'Eine neue Nachricht.'},
+          {de: 'bekommen', it: 'ricevere', example: 'Ich habe es bekommen.'},
+          {de: 'lesen', it: 'leggere', example: 'Ich lese die Nachricht.'},
+          {de: 'schreiben', it: 'scrivere', example: 'Ich schreibe dir.'},
+          {de: 'warten', it: 'aspettare', example: 'Ich warte auf dich.'},
+          {de: 'die Antwort', it: 'la risposta', example: 'Deine Antwort.'}
+        ],
+        grammar: 'Il Perfekt (passato prossimo): "Ich habe gelesen" (Ho letto). Si forma con haben + participio passato. Participi regolari: ge- + radice + -t (gelesen è irregolare).',
+        exercises: [
+          {q: 'Come dici "Ho ricevuto il messaggio"?', a: 'Ich habe die Nachricht bekommen'},
+          {q: 'Traduci: "Ti scrivo dopo."', a: 'Ich schreibe dir später'},
+          {q: 'Come si dice "la risposta"?', a: 'die Antwort'}
+        ]
+      },
+      {id:12,number:12,title:'Bist du\'s, Janina?',phase:'passiva',isReview:false,tag:'Incontri',
+        dialogue: [
+          {de: 'Bist du\'s, Janina?', it: 'Sei tu, Janina?'},
+          {de: 'Ja, ich bin\'s! Lange nicht gesehen!', it: 'Sì, sono io! È tanto che non ci vediamo!'},
+          {de: 'Wie geht es dir?', it: 'Come stai?'},
+          {de: 'Gut! Und dir?', it: 'Bene! E tu?'},
+          {de: 'Auch gut. Was machst du hier?', it: 'Anche bene. Cosa fai qui?'},
+          {de: 'Ich warte auf einen Freund.', it: 'Aspetto un amico.'}
+        ],
+        vocabulary: [
+          {de: 'lange', it: 'a lungo', example: 'Lange nicht gesehen.'},
+          {de: 'gesehen', it: 'visto (participio)', example: 'Ich habe dich gesehen.'},
+          {de: 'der Freund', it: 'l\'amico', example: 'Mein Freund kommt.'},
+          {de: 'die Freundin', it: 'l\'amica', example: 'Meine Freundin ist hier.'},
+          {de: 'hier', it: 'qui', example: 'Ich bin hier.'},
+          {de: 'dort', it: 'là', example: 'Er ist dort.'}
+        ],
+        grammar: 'Espressioni idiomatiche: "Lange nicht gesehen!" (È tanto che non ci vediamo!). Pronomi personali accusativo: mich (me), dich (te), ihn (lui), sie (lei).',
+        exercises: [
+          {q: 'Come dici "È tanto che non ci vediamo!"?', a: 'Lange nicht gesehen!'},
+          {q: 'Traduci: "Cosa fai qui?"', a: 'Was machst du hier?'},
+          {q: 'Come si dice "l\'amico" (maschile)?', a: 'der Freund'}
+        ]
+      },
+      {id:13,number:13,title:'Ferienende',phase:'passiva',isReview:false,tag:'Vacanze',
+        dialogue: [
+          {de: 'Die Ferien sind leider vorbei.', it: 'Purtroppo le vacanze sono finite.'},
+          {de: 'Ja, morgen fängt die Arbeit wieder an.', it: 'Sì, domani ricomincia il lavoro.'},
+          {de: 'Wo warst du im Urlaub?', it: 'Dove sei stato in vacanza?'},
+          {de: 'Ich war in Spanien. Es war wunderbar!', it: 'Sono stato in Spagna. È stato meraviglioso!'},
+          {de: 'Ich möchte auch mal dorthin.', it: 'Vorrei andarci anch\'io.'},
+          {de: 'Du musst unbedingt hinfahren!', it: 'Devi assolutamente andarci!'}
+        ],
+        vocabulary: [
+          {de: 'die Ferien (pl.)', it: 'le vacanze', example: 'Die Ferien sind vorbei.'},
+          {de: 'der Urlaub', it: 'la vacanza', example: 'Im Urlaub.'},
+          {de: 'vorbei', it: 'finito', example: 'Es ist vorbei.'},
+          {de: 'die Arbeit', it: 'il lavoro', example: 'Die Arbeit beginnt.'},
+          {de: 'wunderbar', it: 'meraviglioso', example: 'Es war wunderbar!'},
+          {de: 'unbedingt', it: 'assolutamente', example: 'Du musst unbedingt!'}
+        ],
+        grammar: 'Il Präteritum di "sein": ich war, du warst, er/sie war, wir waren. Usato per raccontare al passato: "Ich war in Spanien" (Ero/Sono stato in Spagna).',
+        exercises: [
+          {q: 'Come dici "Le vacanze sono finite"?', a: 'Die Ferien sind vorbei'},
+          {q: 'Traduci: "Dove sei stato in vacanza?"', a: 'Wo warst du im Urlaub?'},
+          {q: 'Come si dice "meraviglioso"?', a: 'wunderbar'}
+        ]
+      },
+      {id:14,number:14,title:'Wiederholung (ripasso)',phase:'passiva',isReview:true,tag:'Ripasso',
+        dialogue: [],
+        vocabulary: [],
+        grammar: 'Questa è una lezione di ripasso. Rivedi le lezioni 8-13 e pratica: le bevande, i numeri, le opinioni, i messaggi, gli incontri casuali e le vacanze.',
+        exercises: [
+          {q: 'Come ordini una birra?', a: 'Ein Bier, bitte / Ich möchte ein Bier'},
+          {q: 'Come chiedi "Puoi prestarmi 10 euro?"', a: 'Kannst du mir zehn Euro leihen?'},
+          {q: 'Come esprimi un\'opinione positiva?', a: 'Ich finde das gut/interessant'},
+          {q: 'Come dici "Ho ricevuto il tuo messaggio"?', a: 'Ich habe deine Nachricht bekommen'},
+          {q: 'Come saluti qualcuno che non vedi da tempo?', a: 'Lange nicht gesehen!'},
+          {q: 'Come dici "Ero in Spagna"?', a: 'Ich war in Spanien'}
+        ]
+      },
       {id:15,number:15,title:'Entschuldigen Sie bitte, ich habe eine Frage...',phase:'passiva',isReview:false,tag:'Cortesia'},
       {id:16,number:16,title:'Warum vergeht die Zeit so schnell?',phase:'passiva',isReview:false,tag:'Tempo'},
       {id:17,number:17,title:'Zahlen machen müde',phase:'passiva',isReview:false,tag:'Numeri'},
@@ -1489,6 +1823,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
       const [selectedTopic, setSelectedTopic] = useState(null);
       const [selectedReading, setSelectedReading] = useState(null);
       const [selectedPath, setSelectedPath] = useState(null);
+      const [selectedLesson, setSelectedLesson] = useState(null);
 
       const navigate = (page, options = {}) => {
         setCurrentPage(page);
@@ -1497,10 +1832,12 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         setSelectedTopic(options.topic || null);
         setSelectedReading(options.reading || null);
         setSelectedPath(options.path || null);
+        setSelectedLesson(options.lesson || null);
         window.scrollTo(0, 0);
       };
 
       const goBack = () => {
+        if (selectedLesson && currentPage === 'lessons') { setSelectedLesson(null); return; }
         if (selectedPath && currentPage === 'paths') { setSelectedPath(null); return; }
         if (selectedReading) { setSelectedReading(null); return; }
         if (selectedTopic) { setSelectedTopic(null); return; }
@@ -1529,8 +1866,11 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
         if (selectedReading) {
           crumbs.push({ label: selectedReading.title || 'Testo', onClick: null });
         }
+        if (selectedLesson) {
+          crumbs.push({ label: `Lezione ${selectedLesson.number}`, onClick: null });
+        }
         return crumbs;
-      }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading]);
+      }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading, selectedLesson]);
 
       const showBack = currentPage !== 'home';
 
@@ -1547,7 +1887,7 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
             {currentPage === 'special-verbs' && <SpecialVerbsPage onNavigate={navigate} />}
             {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
             {currentPage === 'reading' && <ReadingPage level={selectedLevel} reading={selectedReading} onNavigate={navigate} />}
-            {currentPage === 'lessons' && <LessonsPage onNavigate={navigate} />}
+            {currentPage === 'lessons' && <LessonsPage lesson={selectedLesson} onNavigate={navigate} />}
             {currentPage === 'paths' && <PathsPage path={selectedPath} onNavigate={navigate} />}
           </main>
           <BottomNav currentPage={currentPage} onNavigate={navigate} />
@@ -2018,38 +2358,179 @@ body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: v
       );
     }
 
-    // ============ LESSONS PAGE ============
-    function LessonsPage({ onNavigate }) {
+    // ============ LESSON DETAIL COMPONENT ============
+    function LessonDetail({ lesson, onBack, onComplete }) {
+      const [showExercises, setShowExercises] = useState(false);
+      const [exerciseAnswers, setExerciseAnswers] = useState({});
+      const [showAnswers, setShowAnswers] = useState({});
       const [progress, setProgress] = useState(() => {
         try { return JSON.parse(localStorage.getItem('dm_lessons_progress') || '{}'); } catch(e) { return {}; }
       });
 
-      const toggleLesson = (id) => {
+      const isCompleted = progress[lesson.id];
+
+      const toggleComplete = () => {
         setProgress(prev => {
           const next = { ...prev };
-          if (next[id]) { delete next[id]; } else { next[id] = true; }
+          if (next[lesson.id]) { delete next[lesson.id]; } else { next[lesson.id] = true; }
           try { localStorage.setItem('dm_lessons_progress', JSON.stringify(next)); } catch(e) {}
           return next;
         });
       };
 
+      const hasContent = lesson.dialogue && lesson.dialogue.length > 0;
+
+      return (
+        <div className="lesson-detail">
+          <button className="quiz-nav-btn" onClick={onBack} style={{marginBottom: '16px'}}>
+            <Icons.ChevronLeft /> Torna alle lezioni
+          </button>
+
+          <div className="lesson-detail-header">
+            <div className="lesson-detail-num">Lezione {lesson.number}</div>
+            <h1 className="lesson-detail-title">{lesson.title}</h1>
+            <div className="lesson-detail-meta">
+              <span className={`lesson-phase-badge ${lesson.phase}`}>
+                {lesson.phase === 'passiva' ? 'Fase passiva' : 'Fase attiva'}
+              </span>
+              <span className="lesson-tag">{lesson.tag}</span>
+            </div>
+          </div>
+
+          {!hasContent && !lesson.isReview && (
+            <div className="lesson-no-content">
+              <p>Il contenuto di questa lezione sarà disponibile presto.</p>
+              <p>Nel frattempo, puoi segnare la lezione come completata se l'hai studiata dal libro.</p>
+            </div>
+          )}
+
+          {lesson.isReview && (
+            <div className="lesson-review-info">
+              <h3>Lezione di Ripasso</h3>
+              <p>{lesson.grammar || 'Rivedi le lezioni precedenti prima di continuare.'}</p>
+            </div>
+          )}
+
+          {hasContent && (
+            <>
+              <div className="lesson-section">
+                <h3 className="lesson-section-title">Dialogo</h3>
+                <div className="lesson-dialogue">
+                  {lesson.dialogue.map((line, idx) => (
+                    <div key={idx} className="dialogue-line">
+                      <div className="dialogue-de">{line.de}</div>
+                      <div className="dialogue-it">{line.it}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {lesson.vocabulary && lesson.vocabulary.length > 0 && (
+                <div className="lesson-section">
+                  <h3 className="lesson-section-title">Vocabolario</h3>
+                  <div className="lesson-vocab-list">
+                    {lesson.vocabulary.map((word, idx) => (
+                      <div key={idx} className="lesson-vocab-item">
+                        <div className="vocab-word">{word.de}</div>
+                        <div className="vocab-translation">{word.it}</div>
+                        {word.example && <div className="vocab-example">"{word.example}"</div>}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {lesson.grammar && (
+                <div className="lesson-section">
+                  <h3 className="lesson-section-title">Grammatica</h3>
+                  <div className="lesson-grammar-box">
+                    <p>{lesson.grammar}</p>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+          {lesson.exercises && lesson.exercises.length > 0 && (
+            <div className="lesson-section">
+              <button className="exercises-toggle" onClick={() => setShowExercises(!showExercises)}>
+                {showExercises ? 'Nascondi' : 'Mostra'} Esercizi ({lesson.exercises.length})
+              </button>
+              {showExercises && (
+                <div className="lesson-exercises">
+                  {lesson.exercises.map((ex, idx) => (
+                    <div key={idx} className="lesson-exercise-card">
+                      <div className="exercise-question">
+                        <span className="exercise-num">#{idx + 1}</span>
+                        {ex.q}
+                      </div>
+                      <button
+                        className="show-answer-btn"
+                        onClick={() => setShowAnswers(prev => ({...prev, [idx]: !prev[idx]}))}
+                      >
+                        {showAnswers[idx] ? 'Nascondi' : 'Mostra'} risposta
+                      </button>
+                      {showAnswers[idx] && (
+                        <div className="exercise-answer-box">
+                          <strong>Risposta:</strong> {ex.a}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          <div className="lesson-complete-section">
+            <button
+              className={`lesson-complete-btn ${isCompleted ? 'completed' : ''}`}
+              onClick={toggleComplete}
+            >
+              {isCompleted ? (
+                <><Icons.Check /> Lezione completata</>
+              ) : (
+                <>Segna come completata</>
+              )}
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    // ============ LESSONS PAGE ============
+    function LessonsPage({ lesson, onNavigate }) {
+      const [progress, setProgress] = useState(() => {
+        try { return JSON.parse(localStorage.getItem('dm_lessons_progress') || '{}'); } catch(e) { return {}; }
+      });
+
       const completedCount = Object.keys(progress).length;
       const passiva = LESSONS_DATA.filter(l => l.phase === 'passiva');
       const attiva = LESSONS_DATA.filter(l => l.phase === 'attiva');
 
-      const renderLesson = (lesson) => (
-        <div key={lesson.id} className={`lesson-card ${lesson.isReview ? 'review' : ''} ${progress[lesson.id] ? 'completed' : ''}`} onClick={() => toggleLesson(lesson.id)}>
-          <div className="lesson-num">{lesson.number}</div>
+      // If a lesson is selected, show the detail view
+      if (lesson) {
+        return <LessonDetail lesson={lesson} onBack={() => onNavigate('lessons')} />;
+      }
+
+      const renderLesson = (lessonItem) => (
+        <div
+          key={lessonItem.id}
+          className={`lesson-card ${lessonItem.isReview ? 'review' : ''} ${progress[lessonItem.id] ? 'completed' : ''}`}
+          onClick={() => onNavigate('lessons', { lesson: lessonItem })}
+        >
+          <div className="lesson-num">{lessonItem.number}</div>
           <div className="lesson-info">
-            <div className="lesson-title">{lesson.title}</div>
+            <div className="lesson-title">{lessonItem.title}</div>
             <div className="lesson-meta">
-              <span className={`lesson-phase-badge ${lesson.phase}`}>{lesson.phase === 'passiva' ? 'Fase passiva' : 'Fase attiva'}</span>
-              <span className="lesson-tag">{lesson.tag}</span>
+              <span className={`lesson-phase-badge ${lessonItem.phase}`}>{lessonItem.phase === 'passiva' ? 'Fase passiva' : 'Fase attiva'}</span>
+              <span className="lesson-tag">{lessonItem.tag}</span>
             </div>
           </div>
-          <div className={`lesson-check ${progress[lesson.id] ? 'done' : ''}`}>
-            {progress[lesson.id] && <Icons.Check />}
+          <div className={`lesson-check ${progress[lessonItem.id] ? 'done' : ''}`}>
+            {progress[lessonItem.id] && <Icons.Check />}
           </div>
+          <Icons.ChevronRight />
         </div>
       );
 
