@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   getStreak,
   getStreakCalendar,
@@ -10,13 +10,71 @@ import {
   getBadges,
 } from '../utils/gamification';
 import { getQuizStats, getProgressStats, getDifficultWords } from '../utils/storage';
+import {
+  requestPermission,
+  isEnabled as notificationsEnabled,
+  setEnabled as setNotificationsEnabled,
+  getReminderTime,
+  setReminderTime,
+  scheduleReminder,
+} from '../utils/notifications';
 import { useAuth } from '../contexts/AuthContext';
 
 const ProfilePage = ({ onNavigate }) => {
   const { user, isAuthenticated, logout, firebaseEnabled } = useAuth();
   const dailyGoalData = getDailyGoal();
   const [selectedGoal, setSelectedGoal] = useState(dailyGoalData.target || 50);
+  const [placementTestData, setPlacementTestData] = useState(null);
+  const [notificationsEnabled, setNotificationsEnabledLocal] = useState(() => notificationsEnabled());
+  const [reminderHour, setReminderHour] = useState(() => {
+    const time = getReminderTime();
+    return parseInt(time.split(':')[0]);
+  });
+  const [showNotificationPrompt, setShowNotificationPrompt] = useState(false);
   const goalOptions = [10, 30, 50, 100, 150];
+
+  // Load placement test data
+  useEffect(() => {
+    try {
+      const testData = localStorage.getItem('dm_placement_level');
+      if (testData) {
+        setPlacementTestData(JSON.parse(testData));
+      }
+    } catch (e) {
+      console.warn('Failed to load placement test data:', e);
+    }
+  }, []);
+
+  // Handle notification toggle
+  const handleNotificationToggle = async (enabled) => {
+    if (enabled) {
+      // Request permission if not already granted
+      const permission = await requestPermission();
+      if (permission) {
+        setNotificationsEnabled(true);
+        setNotificationsEnabledLocal(true);
+        // Reschedule with current time
+        const reminderTime = `${String(reminderHour).padStart(2, '0')}:00`;
+        scheduleReminder(reminderTime);
+      } else {
+        setShowNotificationPrompt(true);
+      }
+    } else {
+      setNotificationsEnabled(false);
+      setNotificationsEnabledLocal(false);
+    }
+  };
+
+  // Handle reminder time change
+  const handleReminderTimeChange = (hour) => {
+    setReminderHour(hour);
+    const time = `${String(hour).padStart(2, '0')}:00`;
+    setReminderTime(time);
+    // Reschedule with new time if enabled
+    if (notificationsEnabled) {
+      scheduleReminder(time);
+    }
+  };
 
   // Fetch all data
   const xpData = useMemo(() => getXP(), []);
@@ -277,6 +335,135 @@ const ProfilePage = ({ onNavigate }) => {
                   </button>
                 )}
               </>
+            )}
+          </div>
+
+          {/* Notification Settings Section */}
+          <div style={{
+            marginBottom: '24px',
+            padding: '16px',
+            backgroundColor: 'var(--bg-card, #22222d)',
+            borderRadius: '12px',
+            border: '1px solid var(--border, rgba(255,255,255,0.07))',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <span style={{ fontSize: '20px' }}>🔔</span>
+                <div>
+                  <div style={{ fontWeight: 700, fontSize: '15px' }}>Notifiche Giornaliere</div>
+                  <div style={{ fontSize: '12px', color: 'var(--text-secondary, #8888a0)' }}>
+                    Promemoria per mantenere il tuo streak
+                  </div>
+                </div>
+              </div>
+              <button
+                onClick={() => handleNotificationToggle(!notificationsEnabled)}
+                style={{
+                  padding: '8px 16px',
+                  borderRadius: '8px',
+                  border: 'none',
+                  background: notificationsEnabled ? 'var(--accent)' : 'rgba(108,92,231,0.2)',
+                  color: 'white',
+                  fontSize: '13px',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  transition: 'all 0.2s',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'scale(1.05)';
+                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(108,92,231,0.3)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'scale(1)';
+                  e.currentTarget.style.boxShadow = 'none';
+                }}
+              >
+                {notificationsEnabled ? 'Attivo' : 'Disattivo'}
+              </button>
+            </div>
+
+            {notificationsEnabled && (
+              <div style={{ paddingTop: '16px', borderTop: '1px solid var(--border, rgba(255,255,255,0.07))' }}>
+                <div style={{ marginBottom: '12px' }}>
+                  <label style={{
+                    fontSize: '13px',
+                    fontWeight: '600',
+                    color: 'var(--text-secondary)',
+                    display: 'block',
+                    marginBottom: '12px',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.5px',
+                  }}>
+                    Ora Promemoria
+                  </label>
+                  <div style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '12px',
+                    flexWrap: 'wrap',
+                  }}>
+                    <select
+                      value={reminderHour}
+                      onChange={(e) => handleReminderTimeChange(parseInt(e.target.value))}
+                      style={{
+                        padding: '10px 12px',
+                        borderRadius: '8px',
+                        border: '1px solid var(--border)',
+                        background: 'var(--bg)',
+                        color: 'var(--text-primary)',
+                        fontSize: '14px',
+                        fontWeight: '500',
+                        cursor: 'pointer',
+                        minWidth: '120px',
+                      }}
+                    >
+                      {Array.from({ length: 24 }, (_, i) => (
+                        <option key={i} value={i}>
+                          {String(i).padStart(2, '0')}:00
+                        </option>
+                      ))}
+                    </select>
+                    <div style={{
+                      fontSize: '12px',
+                      color: 'var(--text-secondary)',
+                      fontStyle: 'italic',
+                    }}>
+                      Riceverai un promemoria a questa ora se non hai ancora studiato
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {showNotificationPrompt && (
+              <div style={{
+                marginTop: '12px',
+                padding: '12px',
+                background: 'rgba(239,68,68,0.1)',
+                border: '1px solid rgba(239,68,68,0.3)',
+                borderRadius: '8px',
+                fontSize: '13px',
+                color: '#ef4444',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: '12px',
+              }}>
+                <span>Le notifiche sono bloccate nelle impostazioni del browser</span>
+                <button
+                  onClick={() => setShowNotificationPrompt(false)}
+                  style={{
+                    background: 'transparent',
+                    border: 'none',
+                    color: '#ef4444',
+                    cursor: 'pointer',
+                    fontSize: '18px',
+                    padding: '0',
+                  }}
+                >
+                  ✕
+                </button>
+              </div>
             )}
           </div>
 
@@ -627,6 +814,85 @@ const ProfilePage = ({ onNavigate }) => {
             </div>
           </div>
         </div>
+
+        {/* PLACEMENT TEST SECTION */}
+        {placementTestData && (
+          <div
+            style={{
+              background: 'var(--bg-card)',
+              border: '1px solid var(--border)',
+              borderRadius: 'var(--radius)',
+              padding: '28px',
+              marginBottom: '32px',
+            }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+              <h2 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--text-primary)', margin: 0 }}>
+                Test di Posizionamento
+              </h2>
+              <button
+                onClick={() => onNavigate('placement-test')}
+                style={{
+                  padding: '6px 12px',
+                  background: 'var(--accent)',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: 'var(--radius)',
+                  fontSize: '12px',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                }}
+              >
+                Ripeti
+              </button>
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'wrap' }}>
+              <div>
+                <div style={{ fontSize: '12px', color: 'var(--text-secondary)', fontWeight: '600', marginBottom: '8px', textTransform: 'uppercase' }}>
+                  Livello Rilevato
+                </div>
+                <div
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '100px',
+                    height: '100px',
+                    borderRadius: '50%',
+                    background: `linear-gradient(135deg, var(--accent), var(--accent-light))`,
+                    color: 'white',
+                    fontSize: '36px',
+                    fontWeight: '700',
+                    boxShadow: '0 8px 16px rgba(108,92,231,0.3)',
+                  }}
+                >
+                  {placementTestData.level}
+                </div>
+              </div>
+
+              <div style={{ flex: 1, minWidth: '200px' }}>
+                <div style={{ fontSize: '13px', fontWeight: '600', color: 'var(--text-primary)', marginBottom: '12px' }}>
+                  Risultati
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div style={{ background: 'rgba(108,92,231,0.1)', borderRadius: '8px', padding: '12px' }}>
+                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>Domande Corrette</div>
+                    <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--accent)' }}>
+                      {placementTestData.correctAnswers}/{placementTestData.totalQuestions}
+                    </div>
+                  </div>
+                  <div style={{ background: 'rgba(59,130,246,0.1)', borderRadius: '8px', padding: '12px' }}>
+                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>Data Test</div>
+                    <div style={{ fontSize: '20px', fontWeight: '700', color: '#3b82f6' }}>
+                      {new Date(placementTestData.completedAt).toLocaleDateString('it-IT')}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* STATISTICS SECTION */}
         <div

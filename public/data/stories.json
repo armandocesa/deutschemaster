@@ -1,0 +1,2378 @@
+{
+  "levels": {
+    "A1": {
+      "stories": [
+        {
+          "id": "a1_story_01",
+          "title": "Im Café",
+          "titleIt": "Al bar",
+          "emoji": "☕",
+          "characters": ["Anna", "Max"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Anna geht in ein Café.",
+              "translation": "Anna va in un bar."
+            },
+            {
+              "speaker": "Anna",
+              "text": "Einen Kaffee, bitte!",
+              "translation": "Un caffè, per favore!"
+            },
+            {
+              "speaker": "Barista",
+              "text": "Ein Kaffee. Sonst noch etwas?",
+              "translation": "Un caffè. Altro?"
+            },
+            {
+              "speaker": "Anna",
+              "text": "Nein, danke. Wie viel kostet der Kaffee?",
+              "translation": "No, grazie. Quanto costa il caffè?"
+            },
+            {
+              "speaker": "Barista",
+              "text": "Zwei Euro, bitte.",
+              "translation": "Due euro, per favore."
+            },
+            {
+              "type": "question",
+              "question": "Was bestellt Anna?",
+              "questionIt": "Cosa ordina Anna?",
+              "options": ["Einen Tee", "Einen Kaffee", "Ein Bier", "Einen Saft"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "narrator",
+              "text": "Max kommt ins Café.",
+              "translation": "Max entra nel bar."
+            },
+            {
+              "speaker": "Max",
+              "text": "Hallo Anna! Wie geht es dir?",
+              "translation": "Ciao Anna! Come stai?"
+            },
+            {
+              "speaker": "Anna",
+              "text": "Hallo Max! Es geht mir gut. Und dir?",
+              "translation": "Ciao Max! Sto bene. E a te?"
+            },
+            {
+              "speaker": "Max",
+              "text": "Mir geht es auch gut. Ich trinke einen Orangensaft.",
+              "translation": "Sto bene anch'io. Bevo un succo d'arancia."
+            },
+            {
+              "type": "question",
+              "question": "Was trinkt Max?",
+              "questionIt": "Cosa beve Max?",
+              "options": ["Einen Kaffee", "Ein Bier", "Einen Orangensaft", "Einen Tee"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Anna",
+              "text": "Das ist gut! Sollen wir zusammen essen?",
+              "translation": "Bene! Vogliamo mangiare insieme?"
+            },
+            {
+              "speaker": "Max",
+              "text": "Ja, gerne! Ich habe Hunger.",
+              "translation": "Sì, volentieri! Ho fame."
+            },
+            {
+              "type": "question",
+              "question": "Haben Max und Anna zusammen Zeit?",
+              "questionIt": "Max e Anna hanno tempo insieme?",
+              "options": ["Ja", "Nein", "Vielleicht", "Nicht sicher"],
+              "correctAnswer": 0
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie bestellen ein Mittagessen. Ein schöner Tag im Café!",
+              "translation": "Ordinano un pranzo. Una bella giornata al bar!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "bestellt", "translation": "ordina"},
+            {"word": "kostet", "translation": "costa"},
+            {"word": "Orangensaft", "translation": "succo d'arancia"},
+            {"word": "Hunger", "translation": "fame"}
+          ]
+        },
+        {
+          "id": "a1_story_02",
+          "title": "Im Supermarkt",
+          "titleIt": "Al supermercato",
+          "emoji": "🛒",
+          "characters": ["Maria", "David"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Maria geht in den Supermarkt.",
+              "translation": "Maria va al supermercato."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Ich brauche Obst und Gemüse.",
+              "translation": "Ho bisogno di frutta e verdura."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie sieht David in der Gemüseabteilung.",
+              "translation": "Vede David nel reparto verdure."
+            },
+            {
+              "speaker": "Maria",
+              "text": "Hallo David! Kaufst du hier?",
+              "translation": "Ciao David! Stai facendo spese qui?"
+            },
+            {
+              "speaker": "David",
+              "text": "Ja, ich kaufe Tomaten und Kartoffeln.",
+              "translation": "Sì, sto comprando pomodori e patate."
+            },
+            {
+              "type": "question",
+              "question": "Was kauft David?",
+              "questionIt": "Cosa compra David?",
+              "options": ["Obst", "Tomaten und Kartoffeln", "Brot", "Milch"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Maria",
+              "text": "Das ist gut! Ich nehme Äpfel und Bananen.",
+              "translation": "Bene! Prendo mele e banane."
+            },
+            {
+              "speaker": "David",
+              "text": "Die Äpfel sind frisch hier. Sehr gut!",
+              "translation": "Le mele sono fresche qui. Molto buone!"
+            },
+            {
+              "speaker": "Maria",
+              "text": "Ja, stimmt. Gehen wir zur Kasse?",
+              "translation": "Sì, vero. Andiamo alla cassa?"
+            },
+            {
+              "speaker": "David",
+              "text": "Ja, natürlich. Ich habe auch Brot gekauft.",
+              "translation": "Sì, certo. Ho comprato anche pane."
+            },
+            {
+              "type": "question",
+              "question": "Wo gehen sie hin?",
+              "questionIt": "Dove vanno?",
+              "options": ["Zur Gemüseabteilung", "Zur Kasse", "Zum Parkplatz", "Nach Hause"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie gehen zusammen zur Kasse und zahlen.",
+              "translation": "Vanno insieme alla cassa e pagano."
+            },
+            {
+              "speaker": "David",
+              "text": "Das war einfach! Auf Wiedersehen!",
+              "translation": "È stato facile! Arrivederci!"
+            },
+            {
+              "speaker": "Maria",
+              "text": "Auf Wiedersehen, David!",
+              "translation": "Arrivederci, David!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Gemüse", "translation": "verdura"},
+            {"word": "Kartoffeln", "translation": "patate"},
+            {"word": "frisch", "translation": "fresco"},
+            {"word": "Kasse", "translation": "cassa"}
+          ]
+        },
+        {
+          "id": "a1_story_03",
+          "title": "Meine Familie",
+          "titleIt": "La mia famiglia",
+          "emoji": "👨‍👩‍👧‍👦",
+          "characters": ["Klaus", "Sophie"],
+          "lines": [
+            {
+              "speaker": "Klaus",
+              "text": "Hallo Sophie! Erzähl mir von deiner Familie!",
+              "translation": "Ciao Sophie! Raccontami della tua famiglia!"
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Gerne! Ich habe einen Vater und eine Mutter.",
+              "translation": "Volentieri! Ho un padre e una madre."
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Mein Vater arbeitet als Arzt.",
+              "translation": "Mio padre lavora come medico."
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Interessant! Und deine Mutter?",
+              "translation": "Interessante! E tua madre?"
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Meine Mutter ist Lehrerin.",
+              "translation": "Mia madre è insegnante."
+            },
+            {
+              "type": "question",
+              "question": "Was ist Sophies Vater?",
+              "questionIt": "Qual è la professione del padre di Sophie?",
+              "options": ["Lehrer", "Arzt", "Ingenieur", "Polizist"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Ich habe auch einen Bruder. Er heißt Thomas.",
+              "translation": "Ho anche un fratello. Si chiama Thomas."
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Wie alt ist Thomas?",
+              "translation": "Quanti anni ha Thomas?"
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Thomas ist zwölf Jahre alt. Und eine Schwester, Emma. Sie ist zehn.",
+              "translation": "Thomas ha dodici anni. E una sorella, Emma. Ha dieci anni."
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Das ist eine schöne Familie!",
+              "translation": "È una bella famiglia!"
+            },
+            {
+              "type": "question",
+              "question": "Wie viele Geschwister hat Sophie?",
+              "questionIt": "Quanti fratelli ha Sophie?",
+              "options": ["Eins", "Zwei", "Drei", "Vier"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Ja, wir sind sehr glücklich zusammen.",
+              "translation": "Sì, siamo molto felici insieme."
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Das ist schön! Danke für die Geschichte!",
+              "translation": "È bello! Grazie per la storia!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Vater", "translation": "padre"},
+            {"word": "Mutter", "translation": "madre"},
+            {"word": "Arzt", "translation": "medico"},
+            {"word": "Lehrerin", "translation": "insegnante"},
+            {"word": "Geschwister", "translation": "fratelli"}
+          ]
+        },
+        {
+          "id": "a1_story_04",
+          "title": "Der Schulalltag",
+          "titleIt": "La giornata scolastica",
+          "emoji": "🏫",
+          "characters": ["Lisa", "Peter"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Lisa geht zur Schule.",
+              "translation": "Lisa va a scuola."
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Guten Morgen, Peter!",
+              "translation": "Buongiorno, Peter!"
+            },
+            {
+              "speaker": "Peter",
+              "text": "Guten Morgen, Lisa! Hast du die Hausaufgaben gemacht?",
+              "translation": "Buongiorno, Lisa! Hai fatto i compiti?"
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Ja, ich habe Mathematik und Deutsch gemacht.",
+              "translation": "Sì, ho fatto matematica e tedesco."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Die erste Stunde ist Mathematik.",
+              "translation": "La prima ora è matematica."
+            },
+            {
+              "speaker": "Lehrer",
+              "text": "Guten Morgen, Klasse! Öffnet eure Bücher auf Seite fünfzehn.",
+              "translation": "Buongiorno, ragazzi! Aprite i vostri libri a pagina quindici."
+            },
+            {
+              "type": "question",
+              "question": "Was ist die erste Stunde?",
+              "questionIt": "Qual è la prima ora?",
+              "options": ["Deutsch", "Mathematik", "Englisch", "Geschichte"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "narrator",
+              "text": "Nach der Mathematik haben sie Pausen.",
+              "translation": "Dopo la matematica hanno una pausa."
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Ich bin hungrig! Sollen wir essen?",
+              "translation": "Ho fame! Mangiamo?"
+            },
+            {
+              "speaker": "Peter",
+              "text": "Ja, gerne! Ich habe ein Sandwich und einen Apfel.",
+              "translation": "Sì, volentieri! Ho un panino e una mela."
+            },
+            {
+              "type": "question",
+              "question": "Was hat Peter?",
+              "questionIt": "Cosa ha Peter?",
+              "options": ["Ein Brötchen und Käse", "Ein Sandwich und einen Apfel", "Brot und Wurst", "Obst und Gemüse"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie essen zusammen in der Pause.",
+              "translation": "Mangiano insieme durante la pausa."
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Das schmeckt gut! Nach der Schule spielen wir Fußball?",
+              "translation": "È buono! Dopo scuola giochiamo a calcio?"
+            },
+            {
+              "speaker": "Peter",
+              "text": "Ja, toll! Bis später!",
+              "translation": "Sì, bello! A dopo!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Schulalltag", "translation": "giornata scolastica"},
+            {"word": "Hausaufgaben", "translation": "compiti"},
+            {"word": "Stunde", "translation": "ora"},
+            {"word": "Pause", "translation": "pausa"},
+            {"word": "Fußball", "translation": "calcio"}
+          ]
+        },
+        {
+          "id": "a1_story_05",
+          "title": "Im Park",
+          "titleIt": "Al parco",
+          "emoji": "🌳",
+          "characters": ["Tom", "Julia"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Tom und Julia gehen in den Park.",
+              "translation": "Tom e Julia vanno al parco."
+            },
+            {
+              "speaker": "Tom",
+              "text": "Das Wetter ist schön heute!",
+              "translation": "Il tempo è bello oggi!"
+            },
+            {
+              "speaker": "Julia",
+              "text": "Ja, sehr schön! Es ist warm und sonnig.",
+              "translation": "Sì, molto bello! È caldo e soleggiato."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie sehen einen Spielplatz.",
+              "translation": "Vedono un'area giochi."
+            },
+            {
+              "speaker": "Tom",
+              "text": "Schau! Dort ist eine Schaukel und ein Karussell!",
+              "translation": "Guarda! C'è un'altalena e una giostra!"
+            },
+            {
+              "speaker": "Julia",
+              "text": "Ja! Wollen wir spielen?",
+              "translation": "Sì! Vogliamo giocare?"
+            },
+            {
+              "type": "question",
+              "question": "Wie ist das Wetter?",
+              "questionIt": "Com'è il tempo?",
+              "options": ["Kalt und regnerisch", "Warm und sonnig", "Bewölkt", "Windig"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie spielen auf der Schaukel.",
+              "translation": "Giocano sull'altalena."
+            },
+            {
+              "speaker": "Tom",
+              "text": "Das ist Spaß! Sehr hoch!",
+              "translation": "È divertente! Molto alto!"
+            },
+            {
+              "speaker": "Julia",
+              "text": "Ja! Das ist fantastisch!",
+              "translation": "Sì! È fantastico!"
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie sehen auch Vögel und Blumen.",
+              "translation": "Vedono anche uccelli e fiori."
+            },
+            {
+              "type": "question",
+              "question": "Was sehen sie im Park?",
+              "questionIt": "Cosa vedono al parco?",
+              "options": ["Autos und Häuser", "Vögel und Blumen", "Nur Bäume", "Nur Menschen"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Julia",
+              "text": "Es ist ein wunderschöner Tag!",
+              "translation": "È una giornata bellissima!"
+            },
+            {
+              "speaker": "Tom",
+              "text": "Ja, komm! Lass uns noch mehr spielen!",
+              "translation": "Sì, dai! Giochiamo ancora!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Wetter", "translation": "tempo"},
+            {"word": "sonnig", "translation": "soleggiato"},
+            {"word": "Schaukel", "translation": "altalena"},
+            {"word": "Karussell", "translation": "giostra"},
+            {"word": "Vögel", "translation": "uccelli"}
+          ]
+        }
+      ]
+    },
+    "A2": {
+      "stories": [
+        {
+          "id": "a2_story_01",
+          "title": "Eine Reise nach Berlin",
+          "titleIt": "Un viaggio a Berlino",
+          "emoji": "✈️",
+          "characters": ["Sarah", "Michael"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Sarah und Michael planen eine Reise nach Berlin.",
+              "translation": "Sarah e Michael stanno pianificando un viaggio a Berlino."
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Wann fahren wir nach Berlin?",
+              "translation": "Quando andiamo a Berlino?"
+            },
+            {
+              "speaker": "Michael",
+              "text": "Nächsten Monat. Ich möchte das Brandenburger Tor sehen.",
+              "translation": "Il mese prossimo. Voglio vedere la Porta di Brandeburgo."
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Das ist eine gute Idee! Und das Schloss Charlottenburg?",
+              "translation": "È una buona idea! E il Palazzo di Charlottenburg?"
+            },
+            {
+              "speaker": "Michael",
+              "text": "Ja, natürlich. Das Schloss ist sehr berühmt.",
+              "translation": "Sì, certo. Il palazzo è molto famoso."
+            },
+            {
+              "type": "question",
+              "question": "Wann fahren sie nach Berlin?",
+              "questionIt": "Quando vanno a Berlino?",
+              "options": ["Diesen Monat", "Nächsten Monat", "Nächstes Jahr", "Nicht sicher"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Wie lange bleiben wir dort?",
+              "translation": "Quanto a lungo restiamo lì?"
+            },
+            {
+              "speaker": "Michael",
+              "text": "Drei oder vier Tage. Das ist genug Zeit.",
+              "translation": "Tre o quattro giorni. È abbastanza tempo."
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Was kostet das Hotel?",
+              "translation": "Quanto costa l'hotel?"
+            },
+            {
+              "speaker": "Michael",
+              "text": "Ungefähr hundert Euro pro Nacht.",
+              "translation": "Circa cento euro a notte."
+            },
+            {
+              "type": "question",
+              "question": "Wie lange bleiben sie in Berlin?",
+              "questionIt": "Quanto a lungo rimangono a Berlino?",
+              "options": ["Zwei Tage", "Drei oder vier Tage", "Eine Woche", "Zwei Wochen"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Das ist nicht teuer. Wir buchen das Hotel jetzt.",
+              "translation": "Non è caro. Prenoteremo l'hotel ora."
+            },
+            {
+              "speaker": "Michael",
+              "text": "Ja, gute Idee! Ich freue mich schon!",
+              "translation": "Sì, buona idea! Non vedo l'ora!"
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie buchen die Fahrkarten und das Hotel.",
+              "translation": "Prenotano i biglietti e l'hotel."
+            }
+          ],
+          "difficultWords": [
+            {"word": "planen", "translation": "pianificare"},
+            {"word": "berühmt", "translation": "famoso"},
+            {"word": "bleiben", "translation": "restare"},
+            {"word": "buchen", "translation": "prenotare"},
+            {"word": "freue", "translation": "non vedo l'ora"}
+          ]
+        },
+        {
+          "id": "a2_story_02",
+          "title": "Im Restaurant",
+          "titleIt": "Al ristorante",
+          "emoji": "🍽️",
+          "characters": ["Anna", "Robert"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Anna und Robert gehen in ein italienisches Restaurant.",
+              "translation": "Anna e Robert vanno in un ristorante italiano."
+            },
+            {
+              "speaker": "Kellner",
+              "text": "Guten Abend! Willkommen im Restaurant. Hier ist die Speisekarte.",
+              "translation": "Buonasera! Benvenuti nel ristorante. Ecco il menu."
+            },
+            {
+              "speaker": "Anna",
+              "text": "Danke! Ich möchte die Pasta sehen.",
+              "translation": "Grazie! Voglio vedere la pasta."
+            },
+            {
+              "speaker": "Robert",
+              "text": "Ich nehme das Schnitzel. Das sieht sehr gut aus!",
+              "translation": "Prendo la cotoletta. Sembra molto buona!"
+            },
+            {
+              "type": "question",
+              "question": "Was ist das Restaurant?",
+              "questionIt": "Che tipo di ristorante è?",
+              "options": ["Französisch", "Italienisch", "Deutsch", "Spanisch"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Anna",
+              "text": "Ich nehme Spaghetti mit Tomatensauce.",
+              "translation": "Prendo spaghetti al sugo di pomodoro."
+            },
+            {
+              "speaker": "Kellner",
+              "text": "Möchtet ihr etwas zu trinken?",
+              "translation": "Volete qualcosa da bere?"
+            },
+            {
+              "speaker": "Robert",
+              "text": "Ja, bitte. Ein Glas Wasser und ein Glas Rotwein.",
+              "translation": "Sì, per favore. Un bicchiere d'acqua e un bicchiere di vino rosso."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Das Essen kommt. Es sieht köstlich aus!",
+              "translation": "Arriva il cibo. Sembra delizioso!"
+            },
+            {
+              "speaker": "Anna",
+              "text": "Mmm, das schmeckt wunderbar!",
+              "translation": "Mmm, è meraviglioso!"
+            },
+            {
+              "type": "question",
+              "question": "Was trinkt Robert?",
+              "questionIt": "Cosa beve Robert?",
+              "options": ["Nur Wasser", "Nur Rotwein", "Wasser und Rotwein", "Bier"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Robert",
+              "text": "Ja, sehr lecker! Das Schnitzel ist perfekt!",
+              "translation": "Sì, molto gustoso! La cotoletta è perfetta!"
+            },
+            {
+              "speaker": "Kellner",
+              "text": "Möchtet ihr noch einen Nachtisch?",
+              "translation": "Volete un dolce?"
+            },
+            {
+              "speaker": "Anna",
+              "text": "Ja! Ich möchte das Tiramisu!",
+              "translation": "Sì! Voglio il tiramisu!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Speisekarte", "translation": "menu"},
+            {"word": "Schnitzel", "translation": "cotoletta"},
+            {"word": "Tomatensauce", "translation": "sugo di pomodoro"},
+            {"word": "köstlich", "translation": "delizioso"},
+            {"word": "Nachtisch", "translation": "dolce"}
+          ]
+        },
+        {
+          "id": "a2_story_03",
+          "title": "Beim Arzt",
+          "titleIt": "Dal medico",
+          "emoji": "⚕️",
+          "characters": ["Thomas", "Doktor"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Thomas geht zum Arzt. Ihm tut der Kopf weh.",
+              "translation": "Thomas va dal medico. Ha mal di testa."
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Guten Tag! Was tut dir weh?",
+              "translation": "Buongiorno! Cosa ti fa male?"
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Der Kopf tut mir sehr weh. Ich bin auch müde.",
+              "translation": "Mi fa molto male la testa. Sono anche stanco."
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Hast du Fieber?",
+              "translation": "Hai febbre?"
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Ich glaube ja. Ich fühle mich sehr schlecht.",
+              "translation": "Penso di sì. Mi sento molto male."
+            },
+            {
+              "type": "question",
+              "question": "Was tut Thomas weh?",
+              "questionIt": "Che cosa fa male a Thomas?",
+              "options": ["Der Bauch", "Der Kopf", "Der Hals", "Der Fuß"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Öffne den Mund und sag aaah.",
+              "translation": "Apri la bocca e dì aaa."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Der Arzt prüft die Temperatur.",
+              "translation": "Il medico controlla la temperatura."
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Du hast 39 Grad Fieber. Das ist eine Grippe.",
+              "translation": "Hai 39 gradi di febbre. È l'influenza."
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Ist das schlecht?",
+              "translation": "È grave?"
+            },
+            {
+              "type": "question",
+              "question": "Was hat Thomas?",
+              "questionIt": "Cosa ha Thomas?",
+              "options": ["Eine Erkältung", "Eine Grippe", "Eine Magenverstimmung", "Halsschmerzen"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Nein, das ist normal. Bleib zu Hause, trinke viel Wasser und ruh dich aus!",
+              "translation": "No, è normale. Stai a casa, bevi molta acqua e riposati!"
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Danke, Doktor! Auf Wiedersehen!",
+              "translation": "Grazie, Dottore! Arrivederci!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Kopf", "translation": "testa"},
+            {"word": "tut weh", "translation": "fa male"},
+            {"word": "Fieber", "translation": "febbre"},
+            {"word": "Grippe", "translation": "influenza"},
+            {"word": "ausruhen", "translation": "riposarsi"}
+          ]
+        },
+        {
+          "id": "a2_story_04",
+          "title": "Nachbarn",
+          "titleIt": "Vicini",
+          "emoji": "🏘️",
+          "characters": ["Petra", "Hans"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Petra zieht in ein neues Haus um.",
+              "translation": "Petra si trasferisce in una nuova casa."
+            },
+            {
+              "speaker": "Petra",
+              "text": "Hallo! Ich bin deine neue Nachbarin.",
+              "translation": "Ciao! Sono la tua nuova vicina."
+            },
+            {
+              "speaker": "Hans",
+              "text": "Willkommen! Ich bin Hans. Wie heißt du?",
+              "translation": "Benvenuta! Sono Hans. Come ti chiami?"
+            },
+            {
+              "speaker": "Petra",
+              "text": "Ich heiße Petra. Ich komme aus Österreich.",
+              "translation": "Mi chiamo Petra. Vengo dall'Austria."
+            },
+            {
+              "speaker": "Hans",
+              "text": "Das ist interessant! Wie lange bleibst du hier?",
+              "translation": "È interessante! Per quanto tempo rimani qui?"
+            },
+            {
+              "type": "question",
+              "question": "Woher kommt Petra?",
+              "questionIt": "Da dove viene Petra?",
+              "options": ["Aus Deutschland", "Aus Österreich", "Aus der Schweiz", "Aus Italien"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Petra",
+              "text": "Mindestens ein Jahr. Ich arbeite hier.",
+              "translation": "Almeno un anno. Lavoro qui."
+            },
+            {
+              "speaker": "Hans",
+              "text": "Das ist sehr gut. Meine Familie und ich wohnen hier seit zehn Jahren.",
+              "translation": "È molto bello. La mia famiglia e io abitiamo qui da dieci anni."
+            },
+            {
+              "speaker": "Petra",
+              "text": "Wie ist die Nachbarschaft?",
+              "translation": "Com'è il quartiere?"
+            },
+            {
+              "speaker": "Hans",
+              "text": "Sie ist sehr freundlich und ruhig. Alle sind nett.",
+              "translation": "È molto amichevole e tranquilla. Tutti sono simpatici."
+            },
+            {
+              "type": "question",
+              "question": "Wie lange wohnt Hans hier?",
+              "questionIt": "Da quanto tempo abita Hans qui?",
+              "options": ["Ein Jahr", "Fünf Jahre", "Zehn Jahre", "Fünfzehn Jahre"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Petra",
+              "text": "Das freut mich! Brauchst du Hilfe beim Umzug?",
+              "translation": "Sono felice! Hai bisogno di aiuto con il trasloco?"
+            },
+            {
+              "speaker": "Hans",
+              "text": "Das ist sehr nett von dir! Nein, danke. Ich habe Helfer.",
+              "translation": "È molto gentile da parte tua! No, grazie. Ho aiutanti."
+            }
+          ],
+          "difficultWords": [
+            {"word": "umziehen", "translation": "trasferirsi"},
+            {"word": "Nachbarin", "translation": "vicina"},
+            {"word": "Nachbarschaft", "translation": "quartiere"},
+            {"word": "freundlich", "translation": "amichevole"},
+            {"word": "Umzug", "translation": "trasloco"}
+          ]
+        },
+        {
+          "id": "a2_story_05",
+          "title": "Alles Gute zum Geburtstag",
+          "titleIt": "Buon compleanno",
+          "emoji": "🎂",
+          "characters": ["Julie", "Familie"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Heute ist Julies Geburtstag.",
+              "translation": "Oggi è il compleanno di Julie."
+            },
+            {
+              "speaker": "Mutter",
+              "text": "Guten Morgen, Julie! Alles Gute zum Geburtstag!",
+              "translation": "Buongiorno, Julie! Buon compleanno!"
+            },
+            {
+              "speaker": "Julie",
+              "text": "Danke, Mama! Wie alt werde ich heute?",
+              "translation": "Grazie, mamma! Quanti anni compio oggi?"
+            },
+            {
+              "speaker": "Mutter",
+              "text": "Du wirst achtzehn! Das ist großartig!",
+              "translation": "Compi diciotto anni! È straordinario!"
+            },
+            {
+              "speaker": "Vater",
+              "text": "Schau, hier ist ein Geschenk!",
+              "translation": "Guarda, ecco un regalo!"
+            },
+            {
+              "type": "question",
+              "question": "Wie alt wird Julie?",
+              "questionIt": "Quanti anni compie Julie?",
+              "options": ["Sechzehn", "Siebzehn", "Achtzehn", "Neunzehn"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Julie",
+              "text": "Oh, danke! Ein Buch! Das ist genau, was ich wollte!",
+              "translation": "Oh, grazie! Un libro! È esattamente quello che volevo!"
+            },
+            {
+              "speaker": "narrator",
+              "text": "Die Familie macht eine Geburtstagsparty.",
+              "translation": "La famiglia fa una festa di compleanno."
+            },
+            {
+              "speaker": "Oma",
+              "text": "Ich habe einen Kuchen für dich gemacht!",
+              "translation": "Ho fatto una torta per te!"
+            },
+            {
+              "speaker": "Julie",
+              "text": "Das sieht köstlich aus! Können wir alle zusammen essen?",
+              "translation": "Sembra delizioso! Possiamo mangiare tutti insieme?"
+            },
+            {
+              "type": "question",
+              "question": "Was macht die Oma?",
+              "questionIt": "Cosa fa la nonna?",
+              "options": ["Ein Geschenk", "Einen Kuchen", "Ein Kleid", "Blumen"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Bruder",
+              "text": "Ja! Und später können wir Spiele spielen!",
+              "translation": "Sì! E dopo possiamo giocare a giochi!"
+            },
+            {
+              "speaker": "Julie",
+              "text": "Das ist der beste Geburtstag ever!",
+              "translation": "È il miglior compleanno di sempre!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Geburtstag", "translation": "compleanno"},
+            {"word": "Geschenk", "translation": "regalo"},
+            {"word": "großartig", "translation": "straordinario"},
+            {"word": "Kuchen", "translation": "torta"},
+            {"word": "köstlich", "translation": "delizioso"}
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "stories": [
+        {
+          "id": "b1_story_01",
+          "title": "Das Vorstellungsgespräch",
+          "titleIt": "Il colloquio di lavoro",
+          "emoji": "💼",
+          "characters": ["Stefan", "Frau Müller"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Stefan hat ein Vorstellungsgespräch bei einer großen Firma.",
+              "translation": "Stefan ha un colloquio di lavoro in una grande azienda."
+            },
+            {
+              "speaker": "Stefan",
+              "text": "Guten Tag! Ich bin Stefan. Schön, Sie kennenzulernen.",
+              "translation": "Buongiorno! Sono Stefan. Piacere di conoscerla."
+            },
+            {
+              "speaker": "Frau Müller",
+              "text": "Guten Tag, Stefan! Willkommen. Ich bin Frau Müller, die Personalleitung.",
+              "translation": "Buongiorno, Stefan! Benvenuto. Sono la Sig.ra Müller, direttrice del personale."
+            },
+            {
+              "speaker": "Frau Müller",
+              "text": "Erzählen Sie mir von Ihrem Hintergrund.",
+              "translation": "Mi racconti del suo background."
+            },
+            {
+              "speaker": "Stefan",
+              "text": "Ich habe einen Abschluss in Informatik. Ich arbeite seit fünf Jahren als Programmierer.",
+              "translation": "Ho una laurea in informatica. Lavoro come programmatore da cinque anni."
+            },
+            {
+              "type": "question",
+              "question": "Welchen Abschluss hat Stefan?",
+              "questionIt": "Che titolo ha Stefan?",
+              "options": ["In Mathematik", "In Informatik", "In Ingenieurwesen", "In Wirtschaft"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Frau Müller",
+              "text": "Das ist beeindruckend! Welche Programmiersprachen beherrschen Sie?",
+              "translation": "È impressionante! Quali linguaggi di programmazione conosce?"
+            },
+            {
+              "speaker": "Stefan",
+              "text": "Ich kann Python, Java und C++ programmieren. Ich bin auch mit Datenbanken vertraut.",
+              "translation": "Posso programmare in Python, Java e C++. Sono anche familiare con i database."
+            },
+            {
+              "speaker": "Frau Müller",
+              "text": "Ausgezeichnet! Warum möchten Sie bei uns arbeiten?",
+              "translation": "Eccellente! Perché vuol lavorare con noi?"
+            },
+            {
+              "speaker": "Stefan",
+              "text": "Ihre Firma ist bekannt für ihre innovativen Projekte. Das interessiert mich sehr.",
+              "translation": "La vostra azienda è nota per i suoi progetti innovativi. Mi interessa molto."
+            },
+            {
+              "type": "question",
+              "question": "Wie viele Jahre arbeitet Stefan als Programmierer?",
+              "questionIt": "Da quanti anni lavora Stefan come programmatore?",
+              "options": ["Drei Jahre", "Vier Jahre", "Fünf Jahre", "Sechs Jahre"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Frau Müller",
+              "text": "Das freut mich zu hören. Die Position erfordert auch Teamfähigkeit.",
+              "translation": "Sono felice di sentirlo. La posizione richiede anche capacità di lavoro di squadra."
+            },
+            {
+              "speaker": "Stefan",
+              "text": "Ja, ich arbeite gerne im Team. Ich habe verschiedene Projekte mit internationalen Teams geleitet.",
+              "translation": "Sì, mi piace lavorare in squadra. Ho guidato vari progetti con team internazionali."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Vorstellungsgespräch", "translation": "colloquio di lavoro"},
+            {"word": "Abschluss", "translation": "titolo di studio"},
+            {"word": "Programmierer", "translation": "programmatore"},
+            {"word": "beherrschen", "translation": "padroneggiare"},
+            {"word": "innovativ", "translation": "innovativo"}
+          ]
+        },
+        {
+          "id": "b1_story_02",
+          "title": "Der Umzug",
+          "titleIt": "Il trasferimento",
+          "emoji": "🏠",
+          "characters": ["Emma", "Markus"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Emma und Markus ziehen in ein neues Apartment um.",
+              "translation": "Emma e Markus si trasferiscono in un nuovo appartamento."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Wow! Die Wohnung ist viel größer als die alte!",
+              "translation": "Wow! L'appartamento è molto più grande di quello vecchio!"
+            },
+            {
+              "speaker": "Markus",
+              "text": "Ja, und die Aussicht ist auch fantastisch! Wir können den Park sehen.",
+              "translation": "Sì, e la vista è fantastica! Possiamo vedere il parco."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie packen die Kartons aus.",
+              "translation": "Stanno sbagliando i cartoni."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Markus, wo stellt du das Sofa hin? Hier oder dort?",
+              "translation": "Markus, dove metti il divano? Qui o lì?"
+            },
+            {
+              "type": "question",
+              "question": "Wie ist die neue Wohnung?",
+              "questionIt": "Com'è il nuovo appartamento?",
+              "options": ["Kleiner als die alte", "Gleich wie die alte", "Größer als die alte", "Kaputt"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Markus",
+              "text": "Ich denke, es passt besser dort in der Ecke. Das macht den Raum offener.",
+              "translation": "Penso che si adatti meglio lì in angolo. Rende lo spazio più aperto."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Gute Idee! Und die Küche? Wir brauchen einen Tisch.",
+              "translation": "Buona idea! E la cucina? Abbiamo bisogno di un tavolo."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie arbeiten zusammen, um die Wohnung einzurichten.",
+              "translation": "Lavorano insieme per arredare l'appartamento."
+            },
+            {
+              "speaker": "Markus",
+              "text": "Das sieht großartig aus! Ich bin müde, aber glücklich.",
+              "translation": "Sembra straordinario! Sono stanco, ma felice."
+            },
+            {
+              "type": "question",
+              "question": "Was machen Emma und Markus?",
+              "questionIt": "Cosa fanno Emma e Markus?",
+              "options": ["Sie putzen", "Sie streichen", "Sie richten die Wohnung ein", "Sie kaufen einkaufen"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Emma",
+              "text": "Ja, und ich liebe diese neue Wohnung schon! Lass uns feiern!",
+              "translation": "Sì, e amo già questo nuovo appartamento! Festeggiamo!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Wohnung", "translation": "appartamento"},
+            {"word": "Aussicht", "translation": "vista"},
+            {"word": "Kartons", "translation": "cartoni"},
+            {"word": "Sofa", "translation": "divano"},
+            {"word": "einrichten", "translation": "arredare"}
+          ]
+        },
+        {
+          "id": "b1_story_03",
+          "title": "Ein Missverständnis",
+          "titleIt": "Un malinteso",
+          "emoji": "😕",
+          "characters": ["Lucas", "Anna"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Lucas und Anna sind Freunde, aber heute haben sie ein Problem.",
+              "translation": "Lucas e Anna sono amici, ma oggi hanno un problema."
+            },
+            {
+              "speaker": "Lucas",
+              "text": "Anna, du hast mir nicht gesagt, dass du die Party absagst!",
+              "translation": "Anna, non mi hai detto che annulli la festa!"
+            },
+            {
+              "speaker": "Anna",
+              "text": "Was? Ich habe dir eine SMS geschickt!",
+              "translation": "Cosa? Ti ho mandato un SMS!"
+            },
+            {
+              "speaker": "Lucas",
+              "text": "Ich habe keine SMS bekommen! Ich warte seit zwei Stunden!",
+              "translation": "Non ho ricevuto nessun SMS! Sto aspettando da due ore!"
+            },
+            {
+              "type": "question",
+              "question": "Welches Problem haben Lucas und Anna?",
+              "questionIt": "Quale problema hanno Lucas e Anna?",
+              "options": ["Sie streiten sich um Geld", "Es gibt ein Missverständnis", "Sie sind nicht mehr Freunde", "Die Party ist zu teuer"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Anna",
+              "text": "Entschuldigung! Es tut mir leid. Mein Telefon ist kaputt gegangen.",
+              "translation": "Scusa! Mi dispiace. Il mio telefono si è rotto."
+            },
+            {
+              "speaker": "Lucas",
+              "text": "Ah, verstehe. Das erklärt alles. Warum sagst du die Party ab?",
+              "translation": "Ah, capisco. Questo spiega tutto. Perché annulli la festa?"
+            },
+            {
+              "speaker": "Anna",
+              "text": "Meine Mutter ist krank. Ich muss mich um sie kümmern.",
+              "translation": "Mia madre è malata. Devo occuparmi di lei."
+            },
+            {
+              "speaker": "Lucas",
+              "text": "Oh nein! Das tut mir sehr leid. Ist sie ernstlich krank?",
+              "translation": "Oh no! Mi dispiace molto. È gravemente malata?"
+            },
+            {
+              "type": "question",
+              "question": "Warum kann Anna nicht zur Party kommen?",
+              "questionIt": "Perché Anna non può venire alla festa?",
+              "options": ["Ihr Telefon ist kaputt", "Sie ist müde", "Ihre Mutter ist krank", "Sie möchte nicht"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Anna",
+              "text": "Naja, hoffentlich nicht. Der Arzt sagt, sie braucht nur Ruhe.",
+              "translation": "Beh, sperabilmente no. Il medico dice che ha solo bisogno di riposo."
+            },
+            {
+              "speaker": "Lucas",
+              "text": "Das ist gut. Ich bin für dich da. Brauchst du Hilfe?",
+              "translation": "È bene. Sono qui per te. Hai bisogno di aiuto?"
+            },
+            {
+              "speaker": "Anna",
+              "text": "Das ist sehr nett von dir. Danke, Lucas!",
+              "translation": "È molto gentile da parte tua. Grazie, Lucas!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "absagen", "translation": "annullare"},
+            {"word": "SMS", "translation": "SMS"},
+            {"word": "kaputt", "translation": "rotto"},
+            {"word": "kümmern", "translation": "occuparsi"},
+            {"word": "ernstlich", "translation": "gravemente"}
+          ]
+        },
+        {
+          "id": "b1_story_04",
+          "title": "Das Abenteuer",
+          "titleIt": "L'avventura",
+          "emoji": "⛰️",
+          "characters": ["Tom", "Lisa"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Tom und Lisa machen eine Wanderung in den Bergen.",
+              "translation": "Tom e Lisa fanno un'escursione in montagna."
+            },
+            {
+              "speaker": "Tom",
+              "text": "Wow! Die Landschaft ist atemberaubend!",
+              "translation": "Wow! Il paesaggio è incredibile!"
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Ja, und die Luft ist so frisch! Wie lange sind wir noch unterwegs?",
+              "translation": "Sì, e l'aria è così fresca! Quanto a lungo siamo ancora in cammino?"
+            },
+            {
+              "speaker": "Tom",
+              "text": "Etwa zwei Stunden. Wir sind jetzt auf halbem Weg.",
+              "translation": "Circa due ore. Siamo ora a metà strada."
+            },
+            {
+              "type": "question",
+              "question": "Was machen Tom und Lisa?",
+              "questionIt": "Cosa fanno Tom e Lisa?",
+              "options": ["Sie fahren Auto", "Sie wandern in den Bergen", "Sie schwimmen", "Sie campen"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "narrator",
+              "text": "Plötzlich sehen sie ein Reh.",
+              "translation": "All'improvviso vedono un cervo."
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Oh, schau! Ein Reh! Warte, ich will ein Foto machen.",
+              "translation": "Oh, guarda! Un cervo! Aspetta, voglio fare una foto."
+            },
+            {
+              "speaker": "Tom",
+              "text": "Schnell! Es könnte weglaufen.",
+              "translation": "Veloce! Potrebbe scappare."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Das Reh läuft weg. Aber Lisa hat ein wunderschönes Foto bekommen.",
+              "translation": "Il cervo scappa. Ma Lisa ha preso una foto bellissima."
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Das war amazing! Hoffentlich werden die Fotos gut!",
+              "translation": "È stato fantastico! Sperabilmente le foto saranno buone!"
+            },
+            {
+              "type": "question",
+              "question": "Wen sehen Tom und Lisa?",
+              "questionIt": "Chi vedono Tom e Lisa?",
+              "options": ["Einen Adler", "Ein Reh", "Einen Wolf", "Einen Hirsch"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Tom",
+              "text": "Lass uns weitergehen. Ich möchte den Gipfel vor Sonnenuntergang erreichen.",
+              "translation": "Andiamo avanti. Voglio raggiungere la cima prima del tramonto."
+            },
+            {
+              "speaker": "Lisa",
+              "text": "OK! Das wird ein Tag, den wir nie vergessen werden!",
+              "translation": "Ok! Sarà una giornata che non dimenticheremo mai!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Wanderung", "translation": "escursione"},
+            {"word": "atemberaubend", "translation": "incredibile"},
+            {"word": "unterwegs", "translation": "in cammino"},
+            {"word": "Reh", "translation": "cervo"},
+            {"word": "Gipfel", "translation": "vetta"}
+          ]
+        },
+        {
+          "id": "b1_story_05",
+          "title": "Echte Freundschaft",
+          "titleIt": "Vera amicizia",
+          "emoji": "👫",
+          "characters": ["Sophia", "Jasmin"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Sophia und Jasmin sind beste Freunde seit zehn Jahren.",
+              "translation": "Sophia e Jasmin sono migliori amiche da dieci anni."
+            },
+            {
+              "speaker": "Sophia",
+              "text": "Jasmin, ich muss dir etwas Wichtiges sagen.",
+              "translation": "Jasmin, devo dirvi qualcosa di importante."
+            },
+            {
+              "speaker": "Jasmin",
+              "text": "Was ist los? Du siehst besorgt aus.",
+              "translation": "Cosa c'è? Sembra preoccupata."
+            },
+            {
+              "speaker": "Sophia",
+              "text": "Meine Familie zieht in eine andere Stadt um. Nächsten Monat.",
+              "translation": "La mia famiglia si trasferisce in un'altra città. Il prossimo mese."
+            },
+            {
+              "type": "question",
+              "question": "Was ist das Problem?",
+              "questionIt": "Qual è il problema?",
+              "options": ["Sophias Familie zieht um", "Jasmin möchte nicht mehr Freund sein", "Sophia möchte nicht arbeiten", "Jasmin ist krank"],
+              "correctAnswer": 0
+            },
+            {
+              "speaker": "Jasmin",
+              "text": "Oh nein! Das tut mir so leid! Wie weit weg ist die Stadt?",
+              "translation": "Oh no! Mi dispiace tanto! Quanto lontano è la città?"
+            },
+            {
+              "speaker": "Sophia",
+              "text": "Fünfhundert Kilometer. Das ist weit weg.",
+              "translation": "Cinquecento chilometri. È lontano."
+            },
+            {
+              "speaker": "Jasmin",
+              "text": "Das ist schrecklich! Aber wisst ihr was? Unsere Freundschaft wird nicht enden.",
+              "translation": "È terribile! Ma sai una cosa? La nostra amicizia non finirà."
+            },
+            {
+              "speaker": "Sophia",
+              "text": "Du hast recht! Wir können telefonieren und uns Videos schicken.",
+              "translation": "Hai ragione! Possiamo telefonare e inviarci video."
+            },
+            {
+              "type": "question",
+              "question": "Wie oft können Sophia und Jasmin sich besuchen?",
+              "questionIt": "Quanto spesso possono visitarsi Sophia e Jasmin?",
+              "options": ["Jeden Tag", "Jede Woche", "Nicht oft, die Entfernung ist groß", "Nie"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Jasmin",
+              "text": "Und ich werde dich in den Ferien besuchen!",
+              "translation": "E ti visiterò durante le vacanze!"
+            },
+            {
+              "speaker": "Sophia",
+              "text": "Danke, Jasmin. Du bist die beste Freundin, die ich je hatte.",
+              "translation": "Grazie, Jasmin. Sei la migliore amica che abbia mai avuto."
+            }
+          ],
+          "difficultWords": [
+            {"word": "beste Freunde", "translation": "migliori amici"},
+            {"word": "besorgt", "translation": "preoccupato"},
+            {"word": "schrecklich", "translation": "terribile"},
+            {"word": "Freundschaft", "translation": "amicizia"},
+            {"word": "Entfernung", "translation": "distanza"}
+          ]
+        }
+      ]
+    },
+    "B2": {
+      "stories": [
+        {
+          "id": "b2_story_01",
+          "title": "Das Dilemma",
+          "titleIt": "Il dilemma",
+          "emoji": "⚖️",
+          "characters": ["Martin", "Freund"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Martin steht vor einer schwierigen Entscheidung.",
+              "translation": "Martin si trova di fronte a una scelta difficile."
+            },
+            {
+              "speaker": "Martin",
+              "text": "Ich habe zwei Job-Angebote bekommen. Ich weiß nicht, welches ich annehmen soll.",
+              "translation": "Ho ricevuto due offerte di lavoro. Non so quale accettare."
+            },
+            {
+              "speaker": "Freund",
+              "text": "Das ist großartig! Aber gleichzeitig ein echtes Dilemma. Erzähl mir mehr!",
+              "translation": "È straordinario! Ma allo stesso tempo un vero dilemma. Dimmi di più!"
+            },
+            {
+              "speaker": "Martin",
+              "text": "Das erste Angebot ist von meiner jetzigen Firma. Sie möchten, dass ich Projektmanager werde. Das Gehalt ist gut, und die Arbeit ist sicher.",
+              "translation": "La prima offerta è dalla mia attuale azienda. Vogliono che diventi project manager. Lo stipendio è buono e il lavoro è sicuro."
+            },
+            {
+              "type": "question",
+              "question": "Was ist das erste Angebot?",
+              "questionIt": "Qual è la prima offerta?",
+              "options": ["Programmierer in einer neuen Firma", "Projektmanager in der jetzigen Firma", "Direktor in Berlin", "Lehrer an einer Universität"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Martin",
+              "text": "Das zweite Angebot ist von einem Startup in Berlin. Die Position ist spannender und innovativer, aber das Risiko ist größer.",
+              "translation": "La seconda offerta è da uno startup a Berlino. La posizione è più emozionante e innovativa, ma il rischio è maggiore."
+            },
+            {
+              "speaker": "Freund",
+              "text": "Verstehe. Was ist dein Herz? Was möchtest du wirklich machen?",
+              "translation": "Capisco. Cosa dice il tuo cuore? Cosa vuoi davvero fare?"
+            },
+            {
+              "speaker": "Martin",
+              "text": "Das ist genau das Problem! Mit meinem Kopf wähle ich die sichere Option. Mit meinem Herzen wähle ich das Startup.",
+              "translation": "Questo è esattamente il problema! Con la mia testa scelgo l'opzione sicura. Con il mio cuore scelgo lo startup."
+            },
+            {
+              "type": "question",
+              "question": "Wo befindet sich das Startup?",
+              "questionIt": "Dov'è lo startup?",
+              "options": ["In München", "In Hamburg", "In Berlin", "In Köln"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Freund",
+              "text": "Hast du dich mit den Firmenchefs unterhalten?",
+              "translation": "Hai parlato con i capi aziendali?"
+            },
+            {
+              "speaker": "Martin",
+              "text": "Ja, aber ich bin immer noch unsicher. Das Startup könnte erfolgreich sein oder scheitern.",
+              "translation": "Sì, ma sono ancora incerto. Lo startup potrebbe avere successo o fallire."
+            },
+            {
+              "speaker": "Freund",
+              "text": "Du musst die Entscheidung selbst treffen. Aber denke daran: Das Leben ist kurz. Manchmal lohnt sich das Risiko.",
+              "translation": "Devi prendere la decisione da solo. Ma ricorda: la vita è breve. A volte il rischio vale la pena."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Dilemma", "translation": "dilemma"},
+            {"word": "Angebot", "translation": "offerta"},
+            {"word": "Projektmanager", "translation": "project manager"},
+            {"word": "spannend", "translation": "emozionante"},
+            {"word": "Herz", "translation": "cuore"}
+          ]
+        },
+        {
+          "id": "b2_story_02",
+          "title": "Kulturschock",
+          "titleIt": "Shock culturale",
+          "emoji": "🌍",
+          "characters": ["Sarah", "Mutter"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Sarah ist nach Japan gezogen. Sie erlebt einen großen Kulturschock.",
+              "translation": "Sarah si è trasferita in Giappone. Sta vivendo uno shock culturale enorme."
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Mutter, ich bin so verwirrt hier! Alles ist so anders!",
+              "translation": "Mamma, sono così confusa qui! Tutto è così diverso!"
+            },
+            {
+              "speaker": "Mutter",
+              "text": "Was genau verwirrt dich? Die Sprache?",
+              "translation": "Cosa esattamente ti confonde? La lingua?"
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Es ist nicht nur die Sprache. Es ist die ganze Kultur. Zum Beispiel: Ich sollte meine Schuhe ausziehen, wenn ich ein Haus betrete.",
+              "translation": "Non è solo la lingua. È l'intera cultura. Ad esempio: devo togliermi le scarpe quando entro in una casa."
+            },
+            {
+              "type": "question",
+              "question": "Wohin ist Sarah gezogen?",
+              "questionIt": "Dove si è trasferita Sarah?",
+              "options": ["Nach China", "Nach Japan", "Nach Korea", "Nach Thailand"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Und die Essenskultur! Mit Stäbchen zu essen ist so schwierig. Und ich muss immer die richtige Etikette befolgen.",
+              "translation": "E la cultura del cibo! Mangiare con i bastoncini è così difficile. E devo sempre seguire l'etichetta giusta."
+            },
+            {
+              "speaker": "Mutter",
+              "text": "Das ist normal am Anfang. Mit der Zeit wirst du dich anpassen.",
+              "translation": "È normale all'inizio. Con il tempo ti adatterai."
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Ich hoffe das. Auch die Arbeit ist anders. Die Hierarchie ist sehr wichtig hier.",
+              "translation": "Lo spero. Anche il lavoro è diverso. La gerarchia è molto importante qui."
+            },
+            {
+              "type": "question",
+              "question": "Was ist über die Arbeit wahr?",
+              "questionIt": "Cosa è vero sul lavoro?",
+              "options": ["Die Arbeit ist leicht", "Die Hierarchie ist unwichtig", "Die Hierarchie ist sehr wichtig", "Alle sind unhöflich"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Mutter",
+              "text": "Versuche, die positive Seite zu sehen. Japan hat eine wunderbare Kultur.",
+              "translation": "Prova a vedere il lato positivo. Il Giappone ha una cultura meravigliosa."
+            },
+            {
+              "speaker": "Sarah",
+              "text": "Du hast recht. Es gibt viele gute Dinge hier: die Sicherheit, die Sauberkeit, die freundlichen Menschen.",
+              "translation": "Hai ragione. Ci sono molte cose buone qui: la sicurezza, la pulizia, la gente simpatica."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Kulturschock", "translation": "shock culturale"},
+            {"word": "verwirrt", "translation": "confuso"},
+            {"word": "Etikette", "translation": "etichetta"},
+            {"word": "anpassen", "translation": "adattarsi"},
+            {"word": "Hierarchie", "translation": "gerarchia"}
+          ]
+        },
+        {
+          "id": "b2_story_03",
+          "title": "Das Geheimnis",
+          "titleIt": "Il segreto",
+          "emoji": "🔍",
+          "characters": ["Michael", "David"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Michael findet etwas Mysteriöses in seinem Haus.",
+              "translation": "Michael scopre qualcosa di misterioso nella sua casa."
+            },
+            {
+              "speaker": "Michael",
+              "text": "David, ich muss dir etwas zeigen. Es ist sehr seltsam.",
+              "translation": "David, devo mostrarti qualcosa. È molto strano."
+            },
+            {
+              "speaker": "David",
+              "text": "Was ist es? Du siehst nervös aus.",
+              "translation": "Cosa è? Sembra nervoso."
+            },
+            {
+              "speaker": "Michael",
+              "text": "Schau hier. Ich habe diese alte Kiste auf dem Dachboden gefunden.",
+              "translation": "Guarda qui. Ho trovato questa vecchia scatola in soffitta."
+            },
+            {
+              "type": "question",
+              "question": "Wo findet Michael die Kiste?",
+              "questionIt": "Dove Michael trova la scatola?",
+              "options": ["Im Keller", "Auf dem Dachboden", "Im Garten", "In der Garage"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "David",
+              "text": "Wow! Das ist alt. Was ist drin?",
+              "translation": "Wow! È vecchia. Cosa c'è dentro?"
+            },
+            {
+              "speaker": "Michael",
+              "text": "Schau mal. Alte Briefe, Fotos und... ein Tagebuch.",
+              "translation": "Guarda. Vecchie lettere, foto e... un diario."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Michael öffnet das Tagebuch.",
+              "translation": "Michael apre il diario."
+            },
+            {
+              "speaker": "Michael",
+              "text": "Die Einträge sind von 1945. Mein Großvater hat das geschrieben!",
+              "translation": "I record risalgono al 1945. Mio nonno ha scritto questo!"
+            },
+            {
+              "type": "question",
+              "question": "Von wann sind die Einträge?",
+              "questionIt": "Di quando sono i record?",
+              "options": ["Von 1920", "Von 1935", "Von 1945", "Von 1955"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "David",
+              "text": "Das ist unglaublich! Was schreibt er?",
+              "translation": "È incredibile! Cosa scrive?"
+            },
+            {
+              "speaker": "Michael",
+              "text": "Er schreibt über seine Leben während des Krieges, seine Angst, seine Hoffnung auf Frieden.",
+              "translation": "Scrive della sua vita durante la guerra, della sua paura, della sua speranza di pace."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Geheimnis", "translation": "segreto"},
+            {"word": "seltsam", "translation": "strano"},
+            {"word": "Dachboden", "translation": "soffitta"},
+            {"word": "Tagebuch", "translation": "diario"},
+            {"word": "unglaublich", "translation": "incredibile"}
+          ]
+        },
+        {
+          "id": "b2_story_04",
+          "title": "Eine Reise durch die Zeit",
+          "titleIt": "Un viaggio nel tempo",
+          "emoji": "⏰",
+          "characters": ["Emma", "Professor"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Emma findet ein geheimnisvolles Artefakt in einem Museum.",
+              "translation": "Emma trova un manufatto misterioso in un museo."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Professor, was ist dieses Objekt? Es sieht sehr alt aus.",
+              "translation": "Professore, cos'è questo oggetto? Sembra molto vecchio."
+            },
+            {
+              "speaker": "Professor",
+              "text": "Das ist eine großartige Frage. Dieses Objekt stammt aus dem dritten Jahrhundert.",
+              "translation": "È una domanda meravigliosa. Questo oggetto risale al terzo secolo."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Das ist unglaublich! Aber warum ist es so wichtig?",
+              "translation": "È incredibile! Ma perché è così importante?"
+            },
+            {
+              "type": "question",
+              "question": "Aus welcher Zeit stammt das Objekt?",
+              "questionIt": "Da quale periodo proviene l'oggetto?",
+              "options": ["Aus dem ersten Jahrhundert", "Aus dem zweiten Jahrhundert", "Aus dem dritten Jahrhundert", "Aus dem vierten Jahrhundert"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Professor",
+              "text": "Es erzählt uns die Geschichte einer verlorenen Zivilisation. Eine Zivilisation, die wir fast vergessen hatten.",
+              "translation": "Ci racconta la storia di una civiltà perduta. Una civiltà che avevamo quasi dimenticato."
+            },
+            {
+              "speaker": "Emma",
+              "text": "Das ist faszinierend! Können wir mehr über diese Zivilisation herausfinden?",
+              "translation": "È affascinante! Possiamo scoprire di più su questa civiltà?"
+            },
+            {
+              "speaker": "Professor",
+              "text": "Ja, das hoffe ich. Dieses Objekt könnte der Schlüssel zu großen Entdeckungen sein.",
+              "translation": "Sì, lo spero. Questo oggetto potrebbe essere la chiave per grandi scoperte."
+            },
+            {
+              "type": "question",
+              "question": "Was könnte das Objekt sein?",
+              "questionIt": "Cosa potrebbe essere l'oggetto?",
+              "options": ["Ein Spielzeug", "Ein Schlüssel zu Entdeckungen", "Ein modernes Kunstwerk", "Ein nutzloses Ding"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Emma",
+              "text": "Das ist die aufregendste Sache, die ich je gelernt habe!",
+              "translation": "È la cosa più emozionante che abbia mai imparato!"
+            }
+          ],
+          "difficultWords": [
+            {"word": "Artefakt", "translation": "manufatto"},
+            {"word": "stammen", "translation": "provenire"},
+            {"word": "verlorene Zivilisation", "translation": "civiltà perduta"},
+            {"word": "faszinierend", "translation": "affascinante"},
+            {"word": "Schlüssel", "translation": "chiave"}
+          ]
+        },
+        {
+          "id": "b2_story_05",
+          "title": "Die große Entscheidung",
+          "titleIt": "La grande decisione",
+          "emoji": "🎓",
+          "characters": ["Thomas", "Eltern"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Thomas muss eine wichtige Entscheidung über seine Zukunft treffen.",
+              "translation": "Thomas deve prendere una decisione importante sul suo futuro."
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Eltern, ich habe lange nachgedacht. Ich möchte nicht Arzt werden.",
+              "translation": "Genitori, ho riflettuto a lungo. Non voglio diventare medico."
+            },
+            {
+              "speaker": "Vater",
+              "text": "Was? Aber das hast du dein ganzes Leben lang gesagt!",
+              "translation": "Cosa? Ma lo hai detto tutta la vita!"
+            },
+            {
+              "type": "question",
+              "question": "Was wollte Thomas früher werden?",
+              "questionIt": "Cosa voleva diventare Thomas prima?",
+              "options": ["Ein Anwalt", "Ein Arzt", "Ein Lehrer", "Ein Künstler"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Mutter",
+              "text": "Thomas, lass mich verstehen. Was möchtest du stattdessen machen?",
+              "translation": "Thomas, lasciami capire. Cosa vuoi fare invece?"
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Ich möchte Musiker werden. Ich liebe Musik mehr als alles andere.",
+              "translation": "Voglio diventare musicista. Amo la musica più di ogni altra cosa."
+            },
+            {
+              "speaker": "Vater",
+              "text": "Aber Musik ist nicht praktisch! Wie wirst du dein Geld verdienen?",
+              "translation": "Ma la musica non è pratica! Come guadagnerai denaro?"
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Ich kann als Musiker arbeiten, unterrichten, Konzerte geben. Es gibt viele Möglichkeiten.",
+              "translation": "Posso lavorare come musicista, insegnare, tenere concerti. Ci sono molte possibilità."
+            },
+            {
+              "type": "question",
+              "question": "Was möchte Thomas machen?",
+              "questionIt": "Cosa vuole fare Thomas?",
+              "options": ["Ein Arzt werden", "Ein Anwalt werden", "Musiker werden", "Ein Ingenieur werden"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Mutter",
+              "text": "Das ist wichtig für dich, nicht wahr?",
+              "translation": "Questo è importante per te, vero?"
+            },
+            {
+              "speaker": "Thomas",
+              "text": "Ja, Mama. Ich möchte glücklich sein. Und Musik macht mich glücklich.",
+              "translation": "Sì, mamma. Voglio essere felice. E la musica mi rende felice."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Zukunft", "translation": "futuro"},
+            {"word": "Arzt", "translation": "medico"},
+            {"word": "Musiker", "translation": "musicista"},
+            {"word": "praktisch", "translation": "pratico"},
+            {"word": "Möglichkeiten", "translation": "possibilità"}
+          ]
+        }
+      ]
+    },
+    "C1": {
+      "stories": [
+        {
+          "id": "c1_story_01",
+          "title": "Ein philosophisches Gespräch",
+          "titleIt": "Una conversazione filosofica",
+          "emoji": "🧠",
+          "characters": ["Friedrich", "Kollege"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Friedrich und sein Kollege führen ein tiefes philosophisches Gespräch.",
+              "translation": "Friedrich e il suo collega conducono una profonda conversazione filosofica."
+            },
+            {
+              "speaker": "Friedrich",
+              "text": "Kollege, was ist für dich das Wesen von Glück?",
+              "translation": "Collega, per te, qual è l'essenza della felicità?"
+            },
+            {
+              "speaker": "Kollege",
+              "text": "Das ist eine tiefe Frage. Ich denke, Glück ist nicht ein endgültiger Zustand, sondern ein Prozess.",
+              "translation": "È una domanda profonda. Penso che la felicità non sia uno stato definitivo, ma un processo."
+            },
+            {
+              "type": "question",
+              "question": "Was ist laut dem Kollegen Glück?",
+              "questionIt": "Secondo il collega, cos'è la felicità?",
+              "options": ["Ein endgültiger Zustand", "Ein Prozess", "Eine Illusion", "Nicht wichtig"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Friedrich",
+              "text": "Interessant. Aber ist dieser Prozess nicht manchmal schmerzhaft?",
+              "translation": "Interessante. Ma questo processo non è a volte doloroso?"
+            },
+            {
+              "speaker": "Kollege",
+              "text": "Absolut. Der Weg zu Glück ist oft gepflastert mit Leiden. Aber genau darin liegt seine Bedeutung.",
+              "translation": "Assolutamente. Il percorso verso la felicità è spesso lastricato di sofferenza. Ma in questo risiede il suo significato."
+            },
+            {
+              "speaker": "Friedrich",
+              "text": "Das ist eine paradoxe Idee. Wie können Leiden und Glück koexistieren?",
+              "translation": "È un'idea paradossale. Come possono coesistere la sofferenza e la felicità?"
+            },
+            {
+              "type": "question",
+              "question": "Worüber sprechen Friedrich und sein Kollege?",
+              "questionIt": "Di cosa stanno parlando Friedrich e il suo collega?",
+              "options": ["Über Geld", "Über Philosophie und Glück", "Über Politik", "Über Arbeit"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Kollege",
+              "text": "Sie können koexistieren, weil unser Leben mehrdimensional ist. Wir sind nicht nur rational, sondern auch emotional.",
+              "translation": "Possono coesistere perché la nostra vita è multidimensionale. Non siamo solo razionali, ma anche emotivi."
+            },
+            {
+              "speaker": "Friedrich",
+              "text": "Das ist tief. Es scheint, dass echtes Glück von unserer Fähigkeit abhängt, Komplexität zu akzeptieren.",
+              "translation": "È profondo. Sembra che la vera felicità dipenda dalla nostra capacità di accettare la complessità."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Wesen", "translation": "essenza"},
+            {"word": "endgültig", "translation": "definitivo"},
+            {"word": "schmerzhaft", "translation": "doloroso"},
+            {"word": "gepflastert", "translation": "lastricato"},
+            {"word": "Leiden", "translation": "sofferenza"}
+          ]
+        },
+        {
+          "id": "c1_story_02",
+          "title": "Eine politische Debatte",
+          "titleIt": "Un dibattito politico",
+          "emoji": "🗳️",
+          "characters": ["Minister", "Kritiker"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein Minister und ein Kritiker führen eine hitzige Debatte über Politik.",
+              "translation": "Un ministro e un critico conducono un acceso dibattito sulla politica."
+            },
+            {
+              "speaker": "Minister",
+              "text": "Unsere neue Klimapolitik ist der richtige Weg in die Zukunft.",
+              "translation": "La nostra nuova politica climatica è il percorso giusto verso il futuro."
+            },
+            {
+              "speaker": "Kritiker",
+              "text": "Mit aller Respekt, Minister, Ihre Strategie vernachlässigt die wirtschaftlichen Konsequenzen.",
+              "translation": "Con tutto il rispetto, Ministro, la vostra strategia trascura le conseguenze economiche."
+            },
+            {
+              "type": "question",
+              "question": "Worüber debattieren der Minister und der Kritiker?",
+              "questionIt": "Di cosa stanno dibattendo il ministro e il critico?",
+              "options": ["Über Bildung", "Über Klimapolitik", "Über Gesundheit", "Über Transport"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Minister",
+              "text": "Die Klimakrise ist existenziell. Wirtschaftliche Bedenken sind sekundär.",
+              "translation": "La crisi climatica è esistenziale. Le preoccupazioni economiche sono secondarie."
+            },
+            {
+              "speaker": "Kritiker",
+              "text": "Ist das nicht eine zu vereinfachte Sichtweise? Menschen brauchen sowohl Umwelt als auch wirtschaftliche Stabilität.",
+              "translation": "Non è una visione troppo semplificata? Le persone hanno bisogno sia dell'ambiente che della stabilità economica."
+            },
+            {
+              "speaker": "Minister",
+              "text": "Sie haben einen Punkt. Aber die Daten zeigen, dass die ökologischen Kosten des Wartens höher sind.",
+              "translation": "Lei ha un punto. Ma i dati mostrano che i costi ecologici dell'attesa sono più alti."
+            },
+            {
+              "type": "question",
+              "question": "Was sagt der Minister über die ökologischen Kosten?",
+              "questionIt": "Cosa dice il ministro sui costi ecologici?",
+              "options": ["Sie sind niedrig", "Sie sind höher als das Warten", "Sie sind unbedeutend", "Sie sind für andere Länder"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Kritiker",
+              "text": "Das ist ein fairer Punkt. Aber wir müssen eine Balance finden.",
+              "translation": "È un punto equo. Ma dobbiamo trovare un equilibrio."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Debatte", "translation": "dibattito"},
+            {"word": "vernachlässigen", "translation": "trascurare"},
+            {"word": "existenziell", "translation": "esistenziale"},
+            {"word": "vereinfachte Sichtweise", "translation": "visione semplificata"},
+            {"word": "ökologisch", "translation": "ecologico"}
+          ]
+        },
+        {
+          "id": "c1_story_03",
+          "title": "Eine wissenschaftliche Entdeckung",
+          "titleIt": "Una scoperta scientifica",
+          "emoji": "🔬",
+          "characters": ["Dr. Schmidt", "Assistent"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Dr. Schmidt und sein Assistent arbeiten an einer bahnbrechenden Entdeckung.",
+              "translation": "Il Dr. Schmidt e il suo assistente lavorano su una scoperta rivoluzionaria."
+            },
+            {
+              "speaker": "Dr. Schmidt",
+              "text": "Sieh dir das an! Die Ergebnisse sind... überraschend.",
+              "translation": "Guarda questo! I risultati sono... sorprendenti."
+            },
+            {
+              "speaker": "Assistent",
+              "text": "Das kann nicht sein! Das widerspricht alle bisherigen Theorien.",
+              "translation": "Questo non può essere! Contraddice tutte le teorie precedenti."
+            },
+            {
+              "type": "question",
+              "question": "Wie sind die Ergebnisse?",
+              "questionIt": "Come sono i risultati?",
+              "options": ["Erwartet", "Überraschend", "Langweilig", "Unmöglich"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Dr. Schmidt",
+              "text": "Genau. Das ist warum wir Wissenschaftler sind. Wir müssen unsere Hypothesen überprüfen.",
+              "translation": "Esatto. Questo è il motivo per cui siamo scienziati. Dobbiamo verificare le nostre ipotesi."
+            },
+            {
+              "speaker": "Assistent",
+              "text": "Aber wenn das richtig ist, dann müssen wir die ganze Theorie neu überdenken.",
+              "translation": "Ma se questo è corretto, allora dobbiamo riconsiderare l'intera teoria."
+            },
+            {
+              "speaker": "Dr. Schmidt",
+              "text": "Ja. Das ist ein Paradigmenwechsel. Das könnte die gesamte Wissenschaft revolutionieren.",
+              "translation": "Sì. È un cambio di paradigma. Potrebbe rivoluzionare l'intera scienza."
+            },
+            {
+              "type": "question",
+              "question": "Was könnte eine Konsequenz dieser Entdeckung sein?",
+              "questionIt": "Quale potrebbe essere una conseguenza di questa scoperta?",
+              "options": ["Mehr Forschung", "Ein Paradigmenwechsel", "Keine Veränderung", "Eine Ablehnung"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Assistent",
+              "text": "Das ist aufregend und gleichzeitig beängstigend.",
+              "translation": "È emozionante e allo stesso tempo inquietante."
+            }
+          ],
+          "difficultWords": [
+            {"word": "bahnbrechend", "translation": "rivoluzionario"},
+            {"word": "widersprechen", "translation": "contraddire"},
+            {"word": "überprüfen", "translation": "verificare"},
+            {"word": "Paradigmenwechsel", "translation": "cambio di paradigma"},
+            {"word": "beängstigend", "translation": "inquietante"}
+          ]
+        },
+        {
+          "id": "c1_story_04",
+          "title": "Ein moralisches Dilemma",
+          "titleIt": "Un dilemma morale",
+          "emoji": "⚖️",
+          "characters": ["Arzt", "Patient"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein Arzt steht vor einem schwierigen moralischen Dilemma.",
+              "translation": "Un medico si trova di fronte a un difficile dilemma morale."
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Das ist eine der schwierigsten Situationen in meiner Karriere.",
+              "translation": "Questa è una delle situazioni più difficili della mia carriera."
+            },
+            {
+              "speaker": "Patient",
+              "text": "Doktor, was ist los? Können Sie mir helfen?",
+              "translation": "Dottore, cos'è successo? Potete aiutarmi?"
+            },
+            {
+              "type": "question",
+              "question": "Wer hat ein moralisches Dilemma?",
+              "questionIt": "Chi ha un dilemma morale?",
+              "options": ["Der Patient", "Der Arzt", "Die Krankenschwester", "Die Familie"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Das ist kompliziert. Medizinisch könnte ich Ihnen helfen. Aber die Kosten sind exorbitant.",
+              "translation": "È complicato. Medicamente potrei aiutarvi. Ma i costi sono esorbitanti."
+            },
+            {
+              "speaker": "Patient",
+              "text": "Ich verstehe. Aber ist mein Leben nicht es wert?",
+              "translation": "Capisco. Ma la mia vita non ne vale la pena?"
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Natürlich ist es das. Aber das Gesundheitssystem hat Grenzen. Nicht jede Behandlung ist für alle verfügbar.",
+              "translation": "Certamente. Ma il sistema sanitario ha limiti. Non ogni trattamento è disponibile per tutti."
+            },
+            {
+              "type": "question",
+              "question": "Was ist das Problem?",
+              "questionIt": "Qual è il problema?",
+              "options": ["Der Patient ist faul", "Die Behandlung ist zu teuer", "Der Arzt ist inkompetent", "Es gibt keine Lösung"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Patient",
+              "text": "Das ist unfair. Das System diskriminiert die Armen.",
+              "translation": "È ingiusto. Il sistema discrimina i poveri."
+            },
+            {
+              "speaker": "Arzt",
+              "text": "Das ist ein moralisches Problem, das über meine Kontrolle hinausgeht. Es ist ein gesellschaftliches Problem.",
+              "translation": "È un problema morale che va oltre il mio controllo. È un problema sociale."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Dilemma", "translation": "dilemma"},
+            {"word": "exorbitant", "translation": "esorbitante"},
+            {"word": "verfügbar", "translation": "disponibile"},
+            {"word": "unfair", "translation": "ingiusto"},
+            {"word": "diskriminieren", "translation": "discriminare"}
+          ]
+        },
+        {
+          "id": "c1_story_05",
+          "title": "Eine Kunstkritik",
+          "titleIt": "Una critica d'arte",
+          "emoji": "🎨",
+          "characters": ["Kunstkritiker", "Künstler"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein Kunstkritiker führt ein Interview mit einem Künstler.",
+              "translation": "Un critico d'arte conduce un'intervista con un artista."
+            },
+            {
+              "speaker": "Kritiker",
+              "text": "Ihr neuestes Werk ist bemerkenswert. Aber was versuchen Sie auszusagen?",
+              "translation": "Il vostro ultimo lavoro è notevole. Ma cosa state cercando di dire?"
+            },
+            {
+              "speaker": "Künstler",
+              "text": "Das ist eine tiefe Frage. Ich versuche, die menschliche Existenz zu erforschen.",
+              "translation": "È una domanda profonda. Sto cercando di esplorare l'esistenza umana."
+            },
+            {
+              "type": "question",
+              "question": "Was erkundet der Künstler?",
+              "questionIt": "Cosa sta esplorando l'artista?",
+              "options": ["Die Natur", "Die menschliche Existenz", "Die Politik", "Die Geschichte"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Kritiker",
+              "text": "Das ist abstrakt. Können Sie konkretisieren?",
+              "translation": "È astratto. Potete essere più specifico?"
+            },
+            {
+              "speaker": "Künstler",
+              "text": "Ich möchte zeigen, wie wir von Technologie, Gesellschaft und unseren eigenen Vorurteilen gefangen sind.",
+              "translation": "Voglio mostrare come siamo intrappolati dalla tecnologia, dalla società e dai nostri stessi pregiudizi."
+            },
+            {
+              "speaker": "Kritiker",
+              "text": "Das ist ein tiefes Thema. Glauben Sie, Kunst kann diese Probleme lösen?",
+              "translation": "È un tema profondo. Credete che l'arte possa risolvere questi problemi?"
+            },
+            {
+              "type": "question",
+              "question": "Worüber spricht der Künstler?",
+              "questionIt": "Di cosa sta parlando l'artista?",
+              "options": ["Von Schönheit", "Von Gefangenschaft durch Technologie und Gesellschaft", "Von Farben", "Von Techniken"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Künstler",
+              "text": "Nein, aber sie kann Menschen zum Nachdenken anregen. Und das ist schon ein Anfang.",
+              "translation": "No, ma può stimolare le persone a riflettere. E questo è già un inizio."
+            }
+          ],
+          "difficultWords": [
+            {"word": "bemerkenswert", "translation": "notevole"},
+            {"word": "erforschen", "translation": "esplorare"},
+            {"word": "abstrakt", "translation": "astratto"},
+            {"word": "gefangen", "translation": "intrappolato"},
+            {"word": "Vorurteile", "translation": "pregiudizi"}
+          ]
+        }
+      ]
+    },
+    "C2": {
+      "stories": [
+        {
+          "id": "c2_story_01",
+          "title": "Eine existenzielle Krise",
+          "titleIt": "Una crisi esistenziale",
+          "emoji": "🌑",
+          "characters": ["Protagonist", "Vertrauter"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein Mann durchlebt eine tiefe existenzielle Krise.",
+              "translation": "Un uomo sta attraversando una profonda crisi esistenziale."
+            },
+            {
+              "speaker": "Protagonist",
+              "text": "Ich frage mich manchmal, ob mein Leben einen Sinn hat. All diese Jahre, all diese Anstrengungen...",
+              "translation": "A volte mi chiedo se la mia vita ha senso. Tutti questi anni, tutti questi sforzi..."
+            },
+            {
+              "speaker": "Vertrauter",
+              "text": "Das sind große Gedanken. Aber haben Sie jemals in Betracht gezogen, dass der Sinn nicht vorgegeben ist?",
+              "translation": "Sono pensieri grandi. Ma avete mai considerato che il significato non è predestinato?"
+            },
+            {
+              "type": "question",
+              "question": "Worum geht es in dieser Geschichte?",
+              "questionIt": "Di cosa tratta questa storia?",
+              "options": ["Um Erfolg", "Um eine existenzielle Krise", "Um Liebe", "Um Familie"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Protagonist",
+              "text": "Das ist eine verstörende Idee. Wenn der Sinn nicht gegeben ist, wie finde ich ihn dann?",
+              "translation": "È un'idea inquietante. Se il significato non è dato, come lo trovo?"
+            },
+            {
+              "speaker": "Vertrauter",
+              "text": "Vielleicht durch das, was Sie lieben. Durch Beziehungen, Kreativität, das Helfen anderer.",
+              "translation": "Forse attraverso ciò che ami. Attraverso relazioni, creatività, aiutare gli altri."
+            },
+            {
+              "speaker": "Protagonist",
+              "text": "Aber reicht das aus? Ich habe das alles getan, und ich fühle mich immer noch leer.",
+              "translation": "Ma basta? Ho fatto tutto questo e mi sento ancora vuoto."
+            },
+            {
+              "type": "question",
+              "question": "Wie fühlt sich der Protagonist?",
+              "questionIt": "Come si sente il protagonista?",
+              "options": ["Glücklich", "Gefüllt", "Leer", "Energisch"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Vertrauter",
+              "text": "Leere ist manchmal Teil des menschlichen Zustandes. Aber vielleicht bedeutet das, dass Sie noch nicht Ihren Weg gefunden haben.",
+              "translation": "La vuotezza è talvolta parte della condizione umana. Ma forse significa che non hai ancora trovato il tuo percorso."
+            }
+          ],
+          "difficultWords": [
+            {"word": "existenziell", "translation": "esistenziale"},
+            {"word": "Sinn", "translation": "significato"},
+            {"word": "vorgegeben", "translation": "predestinato"},
+            {"word": "verstörend", "translation": "inquietante"},
+            {"word": "leer", "translation": "vuoto"}
+          ]
+        },
+        {
+          "id": "c2_story_02",
+          "title": "Eine Utopie",
+          "titleIt": "Un'utopia",
+          "emoji": "🌍",
+          "characters": ["Visionar", "Skeptiker"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein Visionär träumt von einer besseren Welt.",
+              "translation": "Un visionario sogna un mondo migliore."
+            },
+            {
+              "speaker": "Visionar",
+              "text": "Stellen Sie sich eine Welt vor, in der es keine Kriege mehr gibt. Keine Armut, keine Ungerechtigkeit.",
+              "translation": "Immaginate un mondo senza più guerre. Senza povertà, senza ingiustizia."
+            },
+            {
+              "speaker": "Skeptiker",
+              "text": "Das ist eine schöne Illusion. Aber die menschliche Natur ist nicht dafür programmiert.",
+              "translation": "È una bella illusione. Ma la natura umana non è programmata per questo."
+            },
+            {
+              "type": "question",
+              "question": "Was träumt der Visionär?",
+              "questionIt": "Di cosa sogna il visionario?",
+              "options": ["Von Reichtum", "Von einer besseren Welt", "Von Macht", "Von Schönheit"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Visionar",
+              "text": "Aber was ist mit den Fortschritten in der Technologie? In der Bildung? Diese schaffen Möglichkeiten.",
+              "translation": "Ma che dire dei progressi nella tecnologia? Nell'istruzione? Questi creano possibilità."
+            },
+            {
+              "speaker": "Skeptiker",
+              "text": "Technologie und Bildung sind Werkzeuge. Aber ohne fundamentale Veränderung in der menschlichen Psyche...",
+              "translation": "La tecnologia e l'istruzione sono strumenti. Ma senza un cambiamento fondamentale nella psiche umana..."
+            },
+            {
+              "speaker": "Visionar",
+              "text": "Genau. Darum geht es mir. Eine fundamentale Veränderung. Eine Transformation des Bewusstseins.",
+              "translation": "Esatto. È di questo che si tratta. Un cambiamento fondamentale. Una trasformazione della coscienza."
+            },
+            {
+              "type": "question",
+              "question": "Was ist notwendig für eine bessere Welt?",
+              "questionIt": "Cosa è necessario per un mondo migliore?",
+              "options": ["Mehr Technologie", "Eine Transformation des Bewusstseins", "Weniger Menschen", "Mehr Kriege"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Skeptiker",
+              "text": "Das ist eine größere Vision, als ich mir vorgestellt habe.",
+              "translation": "È una visione più grande di quanto avessi immaginato."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Utopie", "translation": "utopia"},
+            {"word": "Visionär", "translation": "visionario"},
+            {"word": "Ungerechtigkeit", "translation": "ingiustizia"},
+            {"word": "Illusion", "translation": "illusione"},
+            {"word": "Bewusstsein", "translation": "coscienza"}
+          ]
+        },
+        {
+          "id": "c2_story_03",
+          "title": "Der letzte Brief",
+          "titleIt": "L'ultima lettera",
+          "emoji": "💌",
+          "characters": ["Schreiber", "Empfänger"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein alter Mann schreibt seinen letzten Brief an seinen Sohn.",
+              "translation": "Un uomo anziano scrive l'ultima lettera al suo figlio."
+            },
+            {
+              "speaker": "Schreiber",
+              "text": "Mein lieber Sohn, wenn du diesen Brief liest, bin ich wahrscheinlich nicht mehr am Leben.",
+              "translation": "Mio caro figlio, se stai leggendo questa lettera, probabilmente non sarò più vivo."
+            },
+            {
+              "speaker": "narrator",
+              "text": "Der Sohn öffnet den Brief mit zitternden Händen.",
+              "translation": "Il figlio apre la lettera con le mani che tremano."
+            },
+            {
+              "type": "question",
+              "question": "Wer schreibt den Brief?",
+              "questionIt": "Chi scrive la lettera?",
+              "options": ["Ein junger Mann", "Ein alter Mann", "Ein Freund", "Eine Frau"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Schreiber",
+              "text": "Ich möchte dir sagen, dass ich stolz auf dich bin. Du hast dein Leben gelebt, wie du es für richtig gehalten hast.",
+              "translation": "Voglio dirti che sono orgoglioso di te. Hai vissuto la tua vita come la ritenevi giusta."
+            },
+            {
+              "speaker": "Schreiber",
+              "text": "Das ist das Wichtigste. Nicht meine Erfolge, nicht mein Reichtum, sondern dass ich mein Leben nach meinen eigenen Werten gelebt habe.",
+              "translation": "Questo è il più importante. Non i miei successi, non la mia ricchezza, ma che ho vissuto la mia vita secondo i miei valori."
+            },
+            {
+              "speaker": "Schreiber",
+              "text": "Ich hoffe, du wirst auch den Mut haben, das zu tun. Vergiss die Erwartungen anderer.",
+              "translation": "Spero che avrai anche il coraggio di farlo. Dimentica le aspettative degli altri."
+            },
+            {
+              "type": "question",
+              "question": "Was ist das Wichtigste für den Vater?",
+              "questionIt": "Cosa è il più importante per il padre?",
+              "options": ["Reichtum", "Erfolg", "Nach seinen eigenen Werten zu leben", "Familie"],
+              "correctAnswer": 2
+            },
+            {
+              "speaker": "Schreiber",
+              "text": "Lebe authentisch. Das ist mein letzter Wunsch für dich.",
+              "translation": "Vivi autenticamente. Questo è il mio ultimo desiderio per te."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Brief", "translation": "lettera"},
+            {"word": "zitternd", "translation": "tremante"},
+            {"word": "stolz", "translation": "orgoglioso"},
+            {"word": "Werte", "translation": "valori"},
+            {"word": "authentisch", "translation": "autentico"}
+          ]
+        },
+        {
+          "id": "c2_story_04",
+          "title": "Ein Gedankenexperiment",
+          "titleIt": "Un esperimento mentale",
+          "emoji": "💭",
+          "characters": ["Philosoph", "Student"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein Philosoph führt einen Gedankenexperiment mit seinen Schülern durch.",
+              "translation": "Un filosofo conduce un esperimento mentale con i suoi studenti."
+            },
+            {
+              "speaker": "Philosoph",
+              "text": "Stellt euch vor, ihr könntet euer ganzes Leben zurückspulen. Würdet ihr etwas anders machen?",
+              "translation": "Immaginate di poter riavvolgere l'intera vostra vita. Fareste qualcosa di diverso?"
+            },
+            {
+              "speaker": "Student",
+              "text": "Das ist eine verstörende Frage. Ich würde viel anders machen.",
+              "translation": "È una domanda inquietante. Farei molte cose diversamente."
+            },
+            {
+              "type": "question",
+              "question": "Was macht der Philosoph?",
+              "questionIt": "Cosa fa il filosofo?",
+              "options": ["Ein Gedankenexperiment", "Eine Prüfung", "Eine Predigt", "Eine Klage"],
+              "correctAnswer": 0
+            },
+            {
+              "speaker": "Philosoph",
+              "text": "Aber wenn du dein Leben änderst, wirst du dann dieselbe Person sein, die du heute bist?",
+              "translation": "Ma se cambi la tua vita, sarai ancora la stessa persona che sei oggi?"
+            },
+            {
+              "speaker": "Student",
+              "text": "Das ist ein interessanter Punkt. Vielleicht bin ich nur das Produkt meiner Erfahrungen.",
+              "translation": "È un punto interessante. Forse sono solo il prodotto delle mie esperienze."
+            },
+            {
+              "speaker": "Philosoph",
+              "text": "Genau. Unsere Erfahrungen machen uns zu dem, wer wir sind. Fehler und alles.",
+              "translation": "Esatto. Le nostre esperienze ci fanno diventare chi siamo. Errori e tutto."
+            },
+            {
+              "type": "question",
+              "question": "Was macht uns zu dem, wer wir sind?",
+              "questionIt": "Cosa ci rende chi siamo?",
+              "options": ["Unsere Gene", "Unsere Erfahrungen", "Unsere Familie", "Unser Schicksal"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Student",
+              "text": "Das bedeutet, dass ich wirklich nichts bereuen sollte?",
+              "translation": "Significa che non dovrei davvero pentirmi di nulla?"
+            },
+            {
+              "speaker": "Philosoph",
+              "text": "Das bedeutet, dass Reue ein natürlicher Teil unserer Existenz ist. Aber sie sollte uns nicht lähmen.",
+              "translation": "Significa che il pentimento è una parte naturale della nostra esistenza. Ma non dovrebbe paralizzarci."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Gedankenexperiment", "translation": "esperimento mentale"},
+            {"word": "zurückspulen", "translation": "riavvolgere"},
+            {"word": "verstörend", "translation": "inquietante"},
+            {"word": "Reue", "translation": "pentimento"},
+            {"word": "lähmen", "translation": "paralizzare"}
+          ]
+        },
+        {
+          "id": "c2_story_05",
+          "title": "Metamorphose",
+          "titleIt": "Metamorfosi",
+          "emoji": "🦋",
+          "characters": ["Mensch", "Beobachter"],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Ein Mensch durchlebt eine tiefe persönliche Transformation.",
+              "translation": "Una persona sta attraversando una profonda trasformazione personale."
+            },
+            {
+              "speaker": "Mensch",
+              "text": "Ich erkenne mich selbst nicht mehr wieder. Es ist, als würde ich in einen neuen Menschen verwandelt.",
+              "translation": "Non mi riconosco più. È come se mi stessi trasformando in una nuova persona."
+            },
+            {
+              "speaker": "Beobachter",
+              "text": "Ist das eine Veränderung oder eine Befreiung?",
+              "translation": "È un cambiamento o una liberazione?"
+            },
+            {
+              "type": "question",
+              "question": "Was passiert mit dem Menschen?",
+              "questionIt": "Cosa sta accadendo alla persona?",
+              "options": ["Eine Krankheit", "Eine Transformation", "Ein Verlust", "Eine Reise"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Mensch",
+              "text": "Beides vielleicht. Ich verliere meine alte Identität, aber ich gewinne etwas Neues.",
+              "translation": "Forse entrambi. Sto perdendo la mia vecchia identità, ma sto guadagnando qualcosa di nuovo."
+            },
+            {
+              "speaker": "Beobachter",
+              "text": "Das ist wie eine Metamorphose. Die Raupe weiß nicht, dass sie zum Schmetterling wird.",
+              "translation": "È come una metamorfosi. Il bruco non sa che diventerà una farfalla."
+            },
+            {
+              "speaker": "Mensch",
+              "text": "Das ist eine schöne Metapher. Aber es ist auch verwirrend und beängstigend.",
+              "translation": "È una bella metafora. Ma è anche confuso e inquietante."
+            },
+            {
+              "type": "question",
+              "question": "Wie fühlt sich die Transformation an?",
+              "questionIt": "Come si sente la trasformazione?",
+              "options": ["Einfach", "Verwirrend und beängstigend", "Langweilig", "Perfekt"],
+              "correctAnswer": 1
+            },
+            {
+              "speaker": "Beobachter",
+              "text": "Aber wenn du hindurch gehst, wirst du stärker sein. Metamorphosen erfordern Kraft.",
+              "translation": "Ma se passi attraverso, sarai più forte. Le metamorfosi richiedono forza."
+            },
+            {
+              "speaker": "Mensch",
+              "text": "Ich hoffe, du hast recht. Ich hoffe, ich bin stark genug.",
+              "translation": "Spero che tu abbia ragione. Spero di essere abbastanza forte."
+            }
+          ],
+          "difficultWords": [
+            {"word": "Metamorphose", "translation": "metamorfosi"},
+            {"word": "verwandeln", "translation": "trasformare"},
+            {"word": "Befreiung", "translation": "liberazione"},
+            {"word": "Raupe", "translation": "bruco"},
+            {"word": "Schmetterling", "translation": "farfalla"}
+          ]
+        }
+      ]
+    }
+  }
+}

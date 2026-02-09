@@ -2,12 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { DataProvider } from './DataContext';
+import { scheduleReminder, getReminderTime } from './utils/notifications';
 import './styles/variables.css';
 import './styles/base.css';
 import './styles/layout.css';
 import './styles/components.css';
 import './styles/pages.css';
 import './styles/responsive.css';
+
+// Initialize notifications on app load
+if ('Notification' in window) {
+  const reminderTime = getReminderTime();
+  const cleanupReminder = scheduleReminder(reminderTime);
+
+  // Store cleanup function for potential later use
+  window.__notificationCleanup = cleanupReminder;
+}
 
 class ErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { hasError: false }; }

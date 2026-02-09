@@ -15,6 +15,7 @@ const SYNC_KEYS = [
   'dm_learningProgress',
   'dm_last_level',
   'dm_path_progress',
+  'dm_placement_level',
 ];
 
 function getLocalData(key) {

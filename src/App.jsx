@@ -14,6 +14,7 @@ const PracticePage = React.lazy(() => import('./pages/PracticePage'));
 const SpecialVerbsPage = React.lazy(() => import('./pages/SpecialVerbsPage'));
 const FavoritesPage = React.lazy(() => import('./pages/FavoritesPage'));
 const ReadingPage = React.lazy(() => import('./pages/ReadingPage'));
+const StoriesPage = React.lazy(() => import('./pages/StoriesPage'));
 const LessonsPage = React.lazy(() => import('./pages/LessonsPage'));
 const ProfilePage = React.lazy(() => import('./pages/ProfilePage'));
 const FlashcardsPage = React.lazy(() => import('./pages/FlashcardsPage'));
@@ -25,15 +26,16 @@ const VerbPrefixesPage = React.lazy(() => import('./pages/VerbPrefixesPage'));
 const WerdenPage = React.lazy(() => import('./pages/WerdenPage'));
 const LoginPage = React.lazy(() => import('./pages/LoginPage'));
 const DonaPage = React.lazy(() => import('./pages/DonaPage'));
+const PlacementTestPage = React.lazy(() => import('./pages/PlacementTestPage'));
 const NotFoundPage = React.lazy(() => import('./pages/NotFoundPage'));
 
 const PAGE_NAMES = {
   home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura',
-  quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica',
+  stories: 'Storie', quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica',
   favorites: 'Salvate', lessons: 'Lezioni', profile: 'Profilo', flashcards: 'Flashcards',
   writing: 'Scrittura', listening: 'Ascolto', paths: 'Percorsi',
   'essential-words': 'Parole Essenziali', 'verb-prefixes': 'Prefissi Verbali',
-  'werden': 'Il Verbo Werden', login: 'Login', dona: 'Supporta Deutsche Master'
+  'werden': 'Il Verbo Werden', 'placement-test': 'Test di Posizionamento', login: 'Login', dona: 'Supporta Deutsche Master'
 };
 
 // Loading fallback component for lazy-loaded pages
@@ -55,6 +57,7 @@ function AppContent() {
   const [selectedTopic, setSelectedTopic] = useState(null);
   const [selectedReading, setSelectedReading] = useState(null);
   const [selectedLesson, setSelectedLesson] = useState(null);
+  const [selectedStory, setSelectedStory] = useState(null);
 
   const navigate = useCallback((page, options = {}) => {
     setCurrentPage(page);
@@ -63,11 +66,13 @@ function AppContent() {
     setSelectedTopic(options.topic || null);
     setSelectedReading(options.reading || null);
     setSelectedLesson(options.lesson || null);
+    setSelectedStory(options.story || null);
     window.scrollTo(0, 0);
   }, []);
 
   const goBack = useCallback(() => {
     if (currentPage === 'login') { setCurrentPage('home'); return; }
+    if (selectedStory) { setSelectedStory(null); return; }
     if (selectedLesson) { setSelectedLesson(null); return; }
     if (selectedReading) { setSelectedReading(null); return; }
     if (selectedTopic) { setSelectedTopic(null); return; }
@@ -76,7 +81,7 @@ function AppContent() {
     setCurrentPage('home');
     setSelectedLevel(null);
     window.scrollTo(0, 0);
-  }, [selectedLesson, selectedReading, selectedTopic, selectedModule, selectedLevel, currentPage]);
+  }, [selectedStory, selectedLesson, selectedReading, selectedTopic, selectedModule, selectedLevel, currentPage]);
 
   const breadcrumbs = useMemo(() => {
     if (currentPage === 'home' || currentPage === 'login') return [];
@@ -87,6 +92,7 @@ function AppContent() {
     if (selectedTopic) crumbs.push({ label: selectedTopic.name || 'Argomento', onClick: null });
     if (selectedReading) crumbs.push({ label: selectedReading.title || 'Testo', onClick: null });
     if (selectedLesson) crumbs.push({ label: selectedLesson.title || 'Lezione', onClick: null });
+    if (selectedStory) crumbs.push({ label: selectedStory.title || 'Storia', onClick: null });
     return crumbs;
   }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading, selectedLesson]);
 
@@ -108,8 +114,8 @@ function AppContent() {
   // List of valid pages for route validation
   const validPages = [
     'home', 'login', 'vocabulary', 'grammar', 'verbs', 'quiz', 'practice',
-    'special-verbs', 'favorites', 'reading', 'lessons', 'profile', 'flashcards',
-    'writing', 'listening', 'paths', 'essential-words', 'verb-prefixes', 'werden', 'dona'
+    'special-verbs', 'favorites', 'reading', 'stories', 'lessons', 'profile', 'flashcards',
+    'writing', 'listening', 'paths', 'essential-words', 'verb-prefixes', 'werden', 'placement-test', 'dona'
   ];
 
   const isValidPage = validPages.includes(currentPage);
@@ -131,6 +137,7 @@ function AppContent() {
           {currentPage === 'special-verbs' && <SpecialVerbsPage onNavigate={navigate} />}
           {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
           {currentPage === 'reading' && <ReadingPage level={selectedLevel} reading={selectedReading} onNavigate={navigate} />}
+          {currentPage === 'stories' && <StoriesPage level={selectedLevel} story={selectedStory} onNavigate={navigate} />}
           {currentPage === 'lessons' && <LessonsPage selectedLesson={selectedLesson} onNavigate={navigate} />}
           {currentPage === 'profile' && <ProfilePage onNavigate={navigate} />}
           {currentPage === 'flashcards' && <FlashcardsPage onNavigate={navigate} />}
@@ -140,6 +147,7 @@ function AppContent() {
           {currentPage === 'essential-words' && <EssentialWordsPage level={selectedLevel} onNavigate={navigate} />}
           {currentPage === 'verb-prefixes' && <VerbPrefixesPage onNavigate={navigate} />}
           {currentPage === 'werden' && <WerdenPage onNavigate={navigate} />}
+          {currentPage === 'placement-test' && <PlacementTestPage onNavigate={navigate} />}
           {currentPage === 'dona' && <DonaPage onNavigate={navigate} />}
         </Suspense>
       </main>

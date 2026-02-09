@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Icons from '../components/Icons';
 import { LEVEL_COLORS } from '../utils/constants';
 import { useData } from '../DataContext';
@@ -38,9 +38,20 @@ function QuickActionCard({ icon, title, color, onClick, noLevel, badge }) {
 
 export default function HomePage({ onNavigate }) {
   const { VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA } = useData();
+  const [placementTestTaken, setPlacementTestTaken] = useState(false);
 
   // Record activity on homepage visit & check badges
   useMemo(() => { recordActivity(); checkBadges(); }, []);
+
+  // Check if placement test has been taken
+  useEffect(() => {
+    try {
+      const testData = localStorage.getItem('dm_placement_level');
+      setPlacementTestTaken(!!testData);
+    } catch {
+      setPlacementTestTaken(false);
+    }
+  }, []);
 
   const stats = useMemo(() => ({
     words: VOCABULARY_DATA.statistics?.totalWords || 14315,
@@ -119,6 +130,17 @@ export default function HomePage({ onNavigate }) {
         </div>
       </section>
 
+      {!placementTestTaken && (
+        <section style={{background: 'linear-gradient(135deg, rgba(108,92,231,0.15), rgba(162,155,254,0.1))', border: '1px solid rgba(108,92,231,0.3)', borderRadius: 'var(--radius)', padding: '20px', marginBottom: '32px', display: 'flex', alignItems: 'center', gap: '16px'}}>
+          <div style={{fontSize: '32px'}}>📍</div>
+          <div style={{flex: 1}}>
+            <div style={{fontWeight: 700, fontSize: '14px', marginBottom: '4px'}}>Scopri il Tuo Livello</div>
+            <div style={{fontSize: '12px', color: 'var(--text-secondary)'}}>Fai il Test di Posizionamento per determinare il tuo livello di tedesco e iniziare il percorso giusto</div>
+          </div>
+          <button onClick={() => onNavigate('placement-test')} style={{padding: '8px 16px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontWeight: 600, fontSize: '13px', cursor: 'pointer', whiteSpace: 'nowrap'}}>Inizia</button>
+        </section>
+      )}
+
       {/* Review reminder */}
       {reviewStats.dueToday > 0 && (
         <section className="review-reminder" onClick={() => onNavigate('flashcards')}>
@@ -154,12 +176,16 @@ export default function HomePage({ onNavigate }) {
       <section>
         <h3 className="continue-title">Cosa vuoi studiare?</h3>
         <div className="quick-actions-grid">
+          {!placementTestTaken && (
+            <QuickActionCard icon={<span style={{fontSize:'20px'}}>📍</span>} title="Test Posizionamento" color="#6c5ce7" onClick={() => onNavigate('placement-test')} noLevel badge="Nuovo" />
+          )}
           <QuickActionCard icon={<Icons.Target />} title="Percorsi" color="#6c5ce7" onClick={() => onNavigate('paths')} noLevel />
           <QuickActionCard icon={<Icons.Lessons />} title="Lezioni" color="#3b82f6" onClick={() => onNavigate('lessons')} noLevel />
           <QuickActionCard icon={<Icons.Grammar />} title="Grammatica" color="#8b5cf6" onClick={(lvl) => onNavigate('grammar', { level: lvl })} />
           <QuickActionCard icon={<Icons.Book />} title="Vocabolario" color="#10b981" onClick={(lvl) => onNavigate('vocabulary', { level: lvl })} />
           <QuickActionCard icon={<Icons.Book />} title="Parole Essenziali" color="#14b8a6" onClick={(lvl) => onNavigate('essential-words', { level: lvl })} />
           <QuickActionCard icon={<Icons.Reading />} title="Lettura" color="#06b6d4" onClick={(lvl) => onNavigate('reading', { level: lvl })} />
+          <QuickActionCard icon={<span style={{fontSize:'20px'}}>📖</span>} title="Storie" color="#a78bfa" onClick={(lvl) => onNavigate('stories', { level: lvl })} />
           <QuickActionCard icon={<Icons.Quiz />} title="Quiz" color="#ef4444" onClick={(lvl) => onNavigate('quiz', { level: lvl })} />
           <QuickActionCard icon={<Icons.Verb />} title="Verbi" color="#f59e0b" onClick={() => onNavigate('verbs')} noLevel />
           <QuickActionCard icon={<Icons.Verb />} title="Il Verbo Werden" color="#e17055" onClick={() => onNavigate('werden')} noLevel />
