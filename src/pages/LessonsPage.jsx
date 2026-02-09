@@ -146,8 +146,17 @@ export default function LessonsPage({ selectedLesson, onNavigate }) {
   const { LESSONS_DATA } = useData();
   const [progress, setProgress] = useState(() => { try { return JSON.parse(localStorage.getItem('dm_lessons_progress') || '{}'); } catch { return {}; } });
 
-  if (selectedLesson) {
-    return <LessonDetail lesson={selectedLesson} />;
+  // If selectedLesson is a number (from PathsPage), look up the actual lesson object
+  const resolvedLesson = (() => {
+    if (!selectedLesson) return null;
+    if (typeof selectedLesson === 'object') return selectedLesson;
+    // It's a lesson number — find it in LESSONS_DATA
+    const lessons = LESSONS_DATA || [];
+    return lessons.find(l => l.number === selectedLesson) || null;
+  })();
+
+  if (resolvedLesson) {
+    return <LessonDetail lesson={resolvedLesson} />;
   }
 
   const completedCount = Object.keys(progress).length;
