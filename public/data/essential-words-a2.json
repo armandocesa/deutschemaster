@@ -2652,6 +2652,468 @@
           "type": "n"
         }
       ]
+    },
+    {
+      "name": "Medien und Internet",
+      "nameIt": "Media e Internet",
+      "words": [
+        {
+          "de": "Computer",
+          "it": "Computer",
+          "example": "Der Computer ist schnell.",
+          "exampleIt": "Il computer è veloce.",
+          "article": "der",
+          "plural": "Computer",
+          "type": "noun"
+        },
+        {
+          "de": "Handy",
+          "it": "Cellulare",
+          "example": "Das Handy ist modern.",
+          "exampleIt": "Il cellulare è moderno.",
+          "article": "das",
+          "plural": "Handys",
+          "type": "noun"
+        },
+        {
+          "de": "Telefon",
+          "it": "Telefono",
+          "example": "Das Telefon klingelt.",
+          "exampleIt": "Il telefono suona.",
+          "article": "das",
+          "plural": "Telefone",
+          "type": "noun"
+        },
+        {
+          "de": "Internet",
+          "it": "Internet",
+          "example": "Das Internet ist nützlich.",
+          "exampleIt": "Internet è utile.",
+          "article": "das",
+          "plural": "Internet",
+          "type": "noun"
+        },
+        {
+          "de": "Website",
+          "it": "Sito web",
+          "example": "Die Website ist schön.",
+          "exampleIt": "Il sito web è bello.",
+          "article": "die",
+          "plural": "Websites",
+          "type": "noun"
+        },
+        {
+          "de": "Email",
+          "it": "Email",
+          "example": "Die Email ist wichtig.",
+          "exampleIt": "L'email è importante.",
+          "article": "die",
+          "plural": "Emails",
+          "type": "noun"
+        },
+        {
+          "de": "Nachricht",
+          "it": "Messaggio",
+          "example": "Die Nachricht ist kurz.",
+          "exampleIt": "Il messaggio è breve.",
+          "article": "die",
+          "plural": "Nachrichten",
+          "type": "noun"
+        },
+        {
+          "de": "Fernseh",
+          "it": "Televisione",
+          "example": "Der Fernseher ist groß.",
+          "exampleIt": "La televisione è grande.",
+          "article": "der",
+          "plural": "Fernseher",
+          "type": "noun"
+        },
+        {
+          "de": "Radio",
+          "it": "Radio",
+          "example": "Das Radio spielt Musik.",
+          "exampleIt": "La radio suona musica.",
+          "article": "das",
+          "plural": "Radios",
+          "type": "noun"
+        },
+        {
+          "de": "Zeitung",
+          "it": "Giornale",
+          "example": "Die Zeitung ist informativ.",
+          "exampleIt": "Il giornale è informativo.",
+          "article": "die",
+          "plural": "Zeitungen",
+          "type": "noun"
+        },
+        {
+          "de": "Zeitschrift",
+          "it": "Rivista",
+          "example": "Die Zeitschrift ist interessant.",
+          "exampleIt": "La rivista è interessante.",
+          "article": "die",
+          "plural": "Zeitschriften",
+          "type": "noun"
+        },
+        {
+          "de": "Film",
+          "it": "Film",
+          "example": "Der Film ist spannend.",
+          "exampleIt": "Il film è entusiasmante.",
+          "article": "der",
+          "plural": "Filme",
+          "type": "noun"
+        },
+        {
+          "de": "Video",
+          "it": "Video",
+          "example": "Das Video ist lang.",
+          "exampleIt": "Il video è lungo.",
+          "article": "das",
+          "plural": "Videos",
+          "type": "noun"
+        },
+        {
+          "de": "Foto",
+          "it": "Foto",
+          "example": "Das Foto ist scharf.",
+          "exampleIt": "La foto è nitida.",
+          "article": "das",
+          "plural": "Fotos",
+          "type": "noun"
+        },
+        {
+          "de": "Anwendung",
+          "it": "Applicazione",
+          "example": "Die Anwendung ist nützlich.",
+          "exampleIt": "L'applicazione è utile.",
+          "article": "die",
+          "plural": "Anwendungen",
+          "type": "noun"
+        },
+        {
+          "de": "Spiel",
+          "it": "Gioco",
+          "example": "Das Spiel ist spaßig.",
+          "exampleIt": "Il gioco è divertente.",
+          "article": "das",
+          "plural": "Spiele",
+          "type": "noun"
+        },
+        {
+          "de": "Bildschirm",
+          "it": "Schermo",
+          "example": "Der Bildschirm ist hell.",
+          "exampleIt": "Lo schermo è luminoso.",
+          "article": "der",
+          "plural": "Bildschirme",
+          "type": "noun"
+        },
+        {
+          "de": "Tastatur",
+          "it": "Tastiera",
+          "example": "Die Tastatur ist deutsch.",
+          "exampleIt": "La tastiera è tedesca.",
+          "article": "die",
+          "plural": "Tastaturen",
+          "type": "noun"
+        },
+        {
+          "de": "Maus",
+          "it": "Mouse",
+          "example": "Die Maus ist klein.",
+          "exampleIt": "Il mouse è piccolo.",
+          "article": "die",
+          "plural": "Mäuse",
+          "type": "noun"
+        },
+        {
+          "de": "Drucker",
+          "it": "Stampante",
+          "example": "Der Drucker ist schnell.",
+          "exampleIt": "La stampante è veloce.",
+          "article": "der",
+          "plural": "Drucker",
+          "type": "noun"
+        },
+        {
+          "de": "Datei",
+          "it": "File",
+          "example": "Die Datei ist groß.",
+          "exampleIt": "Il file è grande.",
+          "article": "die",
+          "plural": "Dateien",
+          "type": "noun"
+        },
+        {
+          "de": "Programm",
+          "it": "Programma",
+          "example": "Das Programm ist nützlich.",
+          "exampleIt": "Il programma è utile.",
+          "article": "das",
+          "plural": "Programme",
+          "type": "noun"
+        },
+        {
+          "de": "Passwort",
+          "it": "Password",
+          "example": "Das Passwort ist sicher.",
+          "exampleIt": "La password è sicura.",
+          "article": "das",
+          "plural": "Passwörter",
+          "type": "noun"
+        },
+        {
+          "de": "Benutzername",
+          "it": "Nome utente",
+          "example": "Der Benutzername ist eindeutig.",
+          "exampleIt": "Il nome utente è unico.",
+          "article": "der",
+          "plural": "Benutzernamen",
+          "type": "noun"
+        },
+        {
+          "de": "Browser",
+          "it": "Browser",
+          "example": "Der Browser ist schnell.",
+          "exampleIt": "Il browser è veloce.",
+          "article": "der",
+          "plural": "Browser",
+          "type": "noun"
+        }
+      ]
+    },
+    {
+      "name": "Gesundheit und Arzt",
+      "nameIt": "Salute e dottore",
+      "words": [
+        {
+          "de": "Arzt",
+          "it": "Dottore",
+          "example": "Der Arzt ist kompetent.",
+          "exampleIt": "Il dottore è competente.",
+          "article": "der",
+          "plural": "Ärzte",
+          "type": "noun"
+        },
+        {
+          "de": "Krankenhaus",
+          "it": "Ospedale",
+          "example": "Das Krankenhaus ist modern.",
+          "exampleIt": "L'ospedale è moderno.",
+          "article": "das",
+          "plural": "Krankenhäuser",
+          "type": "noun"
+        },
+        {
+          "de": "Apotheke",
+          "it": "Farmacia",
+          "example": "Die Apotheke ist nah.",
+          "exampleIt": "La farmacia è vicina.",
+          "article": "die",
+          "plural": "Apotheken",
+          "type": "noun"
+        },
+        {
+          "de": "Medikament",
+          "it": "Medicina",
+          "example": "Das Medikament hilft.",
+          "exampleIt": "La medicina aiuta.",
+          "article": "das",
+          "plural": "Medikamente",
+          "type": "noun"
+        },
+        {
+          "de": "Krankheit",
+          "it": "Malattia",
+          "example": "Die Krankheit ist ernst.",
+          "exampleIt": "La malattia è grave.",
+          "article": "die",
+          "plural": "Krankheiten",
+          "type": "noun"
+        },
+        {
+          "de": "Fieber",
+          "it": "Febbre",
+          "example": "Das Fieber ist hoch.",
+          "exampleIt": "La febbre è alta.",
+          "article": "das",
+          "plural": "Fieber",
+          "type": "noun"
+        },
+        {
+          "de": "Husten",
+          "it": "Tosse",
+          "example": "Der Husten ist lästig.",
+          "exampleIt": "La tosse è fastidiosa.",
+          "article": "der",
+          "plural": "Husten",
+          "type": "noun"
+        },
+        {
+          "de": "Schmerz",
+          "it": "Dolore",
+          "example": "Der Schmerz ist intensiv.",
+          "exampleIt": "Il dolore è intenso.",
+          "article": "der",
+          "plural": "Schmerzen",
+          "type": "noun"
+        },
+        {
+          "de": "Rezept",
+          "it": "Ricetta",
+          "example": "Das Rezept ist vom Arzt.",
+          "exampleIt": "La ricetta è dal dottore.",
+          "article": "das",
+          "plural": "Rezepte",
+          "type": "noun"
+        },
+        {
+          "de": "Behandlung",
+          "it": "Trattamento",
+          "example": "Die Behandlung ist effektiv.",
+          "exampleIt": "Il trattamento è efficace.",
+          "article": "die",
+          "plural": "Behandlungen",
+          "type": "noun"
+        },
+        {
+          "de": "Operation",
+          "it": "Operazione",
+          "example": "Die Operation ist notwendig.",
+          "exampleIt": "L'operazione è necessaria.",
+          "article": "die",
+          "plural": "Operationen",
+          "type": "noun"
+        },
+        {
+          "de": "Versicherung",
+          "it": "Assicurazione",
+          "example": "Die Versicherung bezahlt.",
+          "exampleIt": "L'assicurazione paga.",
+          "article": "die",
+          "plural": "Versicherungen",
+          "type": "noun"
+        },
+        {
+          "de": "Impfung",
+          "it": "Vaccinazione",
+          "example": "Die Impfung ist wichtig.",
+          "exampleIt": "La vaccinazione è importante.",
+          "article": "die",
+          "plural": "Impfungen",
+          "type": "noun"
+        },
+        {
+          "de": "Symptom",
+          "it": "Sintomo",
+          "example": "Das Symptom ist klar.",
+          "exampleIt": "Il sintomo è chiaro.",
+          "article": "das",
+          "plural": "Symptome",
+          "type": "noun"
+        },
+        {
+          "de": "Diagnose",
+          "it": "Diagnosi",
+          "example": "Die Diagnose ist wichtig.",
+          "exampleIt": "La diagnosi è importante.",
+          "article": "die",
+          "plural": "Diagnosen",
+          "type": "noun"
+        },
+        {
+          "de": "Rettung",
+          "it": "Ambulanza",
+          "example": "Die Rettung kommt schnell.",
+          "exampleIt": "L'ambulanza arriva velocemente.",
+          "article": "die",
+          "plural": "Rettungen",
+          "type": "noun"
+        },
+        {
+          "de": "Erste Hilfe",
+          "it": "Primo soccorso",
+          "example": "Erste Hilfe ist wichtig.",
+          "exampleIt": "Il primo soccorso è importante.",
+          "article": "die",
+          "plural": "Erste Hilfe",
+          "type": "noun"
+        },
+        {
+          "de": "Verletzung",
+          "it": "Ferita",
+          "example": "Die Verletzung ist leicht.",
+          "exampleIt": "La ferita è leggera.",
+          "article": "die",
+          "plural": "Verletzungen",
+          "type": "noun"
+        },
+        {
+          "de": "Knochenbruch",
+          "it": "Frattura",
+          "example": "Der Knochenbruch ist schlecht.",
+          "exampleIt": "La frattura è grave.",
+          "article": "der",
+          "plural": "Knochenbrüche",
+          "type": "noun"
+        },
+        {
+          "de": "Allergie",
+          "it": "Allergia",
+          "example": "Die Allergie ist unangenehm.",
+          "exampleIt": "L'allergia è spiacevole.",
+          "article": "die",
+          "plural": "Allergien",
+          "type": "noun"
+        },
+        {
+          "de": "Blutdruck",
+          "it": "Pressione arteriosa",
+          "example": "Der Blutdruck ist normal.",
+          "exampleIt": "La pressione arteriosa è normale.",
+          "article": "der",
+          "plural": "Blutdrücke",
+          "type": "noun"
+        },
+        {
+          "de": "Gewicht",
+          "it": "Peso",
+          "example": "Das Gewicht ist gesund.",
+          "exampleIt": "Il peso è sano.",
+          "article": "das",
+          "plural": "Gewichte",
+          "type": "noun"
+        },
+        {
+          "de": "Höhe",
+          "it": "Altezza",
+          "example": "Die Höhe ist gemessen.",
+          "exampleIt": "L'altezza è misurata.",
+          "article": "die",
+          "plural": "Höhen",
+          "type": "noun"
+        },
+        {
+          "de": "Untersuchung",
+          "it": "Visita",
+          "example": "Die Untersuchung ist gründlich.",
+          "exampleIt": "La visita è accurata.",
+          "article": "die",
+          "plural": "Untersuchungen",
+          "type": "noun"
+        },
+        {
+          "de": "Praxis",
+          "it": "Studio medico",
+          "example": "Die Praxis ist modern.",
+          "exampleIt": "Lo studio medico è moderno.",
+          "article": "die",
+          "plural": "Praxen",
+          "type": "noun"
+        }
+      ]
     }
   ],
   "title": "Goethe-Zertifikat A2",

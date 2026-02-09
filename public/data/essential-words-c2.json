@@ -1499,6 +1499,1122 @@
           "type": "n"
         }
       ]
+    },
+    {
+      "name": "Hermeneutik",
+      "nameIt": "Ermeneutica",
+      "words": [
+        {
+          "de": "Hermeneutik",
+          "it": "Ermeneutica",
+          "example": "Die Hermeneutik interpretiert Texte.",
+          "exampleIt": "L'ermeneutica interpreta i testi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Auslegung",
+          "it": "Interpretazione",
+          "example": "Die Auslegung ist vielfältig.",
+          "exampleIt": "L'interpretazione è varia.",
+          "article": "die",
+          "plural": "Auslegungen",
+          "type": "n"
+        },
+        {
+          "de": "Interpretation",
+          "it": "Interpretazione",
+          "example": "Die Interpretation ist subjektiv.",
+          "exampleIt": "L'interpretazione è soggettiva.",
+          "article": "die",
+          "plural": "Interpretationen",
+          "type": "n"
+        },
+        {
+          "de": "Verständnis",
+          "it": "Comprensione",
+          "example": "Das Verständnis ist tiefgreifend.",
+          "exampleIt": "La comprensione è profonda.",
+          "article": "das",
+          "plural": "Verständnisse",
+          "type": "n"
+        },
+        {
+          "de": "Bedeutung",
+          "it": "Significato",
+          "example": "Die Bedeutung ist mehrdeutig.",
+          "exampleIt": "Il significato è ambiguo.",
+          "article": "die",
+          "plural": "Bedeutungen",
+          "type": "n"
+        },
+        {
+          "de": "Kontext",
+          "it": "Contesto",
+          "example": "Der Kontext ist entscheidend.",
+          "exampleIt": "Il contesto è decisivo.",
+          "article": "der",
+          "plural": "Kontexte",
+          "type": "n"
+        },
+        {
+          "de": "Text",
+          "it": "Testo",
+          "example": "Der Text ist polysemantisch.",
+          "exampleIt": "Il testo è polisemico.",
+          "article": "der",
+          "plural": "Texte",
+          "type": "n"
+        },
+        {
+          "de": "Sinn",
+          "it": "Senso",
+          "example": "Der Sinn ist konstituativ.",
+          "exampleIt": "Il senso è costitutivo.",
+          "article": "der",
+          "plural": "Sinne",
+          "type": "n"
+        },
+        {
+          "de": "Zeichensystem",
+          "it": "Sistema di segni",
+          "example": "Das Zeichensystem ist kohärent.",
+          "exampleIt": "Il sistema di segni è coerente.",
+          "article": "das",
+          "plural": "Zeichensysteme",
+          "type": "n"
+        },
+        {
+          "de": "Horizont",
+          "it": "Orizzonte",
+          "example": "Der Horizont ist relativ.",
+          "exampleIt": "L'orizzonte è relativo.",
+          "article": "der",
+          "plural": "Horizonte",
+          "type": "n"
+        },
+        {
+          "de": "Zirkularität",
+          "it": "Circolarità",
+          "example": "Die Zirkularität ist unvermeidlich.",
+          "exampleIt": "La circolarità è inevitabile.",
+          "article": "die",
+          "plural": "Zirkularitäten",
+          "type": "n"
+        },
+        {
+          "de": "Fusion",
+          "it": "Fusione",
+          "example": "Die Fusion der Horizonte ist zentral.",
+          "exampleIt": "La fusione degli orizzonti è centrale.",
+          "article": "die",
+          "plural": "Fusionen",
+          "type": "n"
+        },
+        {
+          "de": "Vorurteil",
+          "it": "Pregiudizio",
+          "example": "Das Vorurteil ist unvermeidlich.",
+          "exampleIt": "Il pregiudizio è inevitabile.",
+          "article": "das",
+          "plural": "Vorurteile",
+          "type": "n"
+        },
+        {
+          "de": "Vorverständnis",
+          "it": "Precomprensione",
+          "example": "Das Vorverständnis färbt Interpretation.",
+          "exampleIt": "La precomprensione colora l'interpretazione.",
+          "article": "das",
+          "plural": "Vorverständnisse",
+          "type": "n"
+        },
+        {
+          "de": "Distanz",
+          "it": "Distanza",
+          "example": "Die historische Distanz ist relevant.",
+          "exampleIt": "La distanza storica è rilevante.",
+          "article": "die",
+          "plural": "Distanzen",
+          "type": "n"
+        },
+        {
+          "de": "Überlieferung",
+          "it": "Tradizione",
+          "example": "Die Überlieferung ist lebend.",
+          "exampleIt": "La tradizione è viva.",
+          "article": "die",
+          "plural": "Überlieferungen",
+          "type": "n"
+        },
+        {
+          "de": "Gadamer",
+          "it": "Gadamer",
+          "example": "Gadamer revolutioniert die Hermeneutik.",
+          "exampleIt": "Gadamer rivoluziona l'ermeneutica.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "interpretieren",
+          "it": "Interpretare",
+          "example": "Der Gelehrte interpretiert den Text.",
+          "exampleIt": "Lo studioso interpreta il testo.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "hermeneutisch",
+          "it": "Ermeneutico",
+          "example": "Das ist eine hermeneutische Zirkularität.",
+          "exampleIt": "Questa è una circolarità ermeneutica.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "verstehen",
+          "it": "Capire",
+          "example": "Wir müssen verstehen, nicht erklären.",
+          "exampleIt": "Dobbiamo capire, non spiegare.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        }
+      ]
+    },
+    {
+      "name": "Semiotik",
+      "nameIt": "Semiotica",
+      "words": [
+        {
+          "de": "Semiotik",
+          "it": "Semiotica",
+          "example": "Die Semiotik studiert Zeichen.",
+          "exampleIt": "La semiotica studia i segni.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Zeichen",
+          "it": "Segno",
+          "example": "Das Zeichen ist arbiträr.",
+          "exampleIt": "Il segno è arbitrario.",
+          "article": "das",
+          "plural": "Zeichen",
+          "type": "n"
+        },
+        {
+          "de": "Symbol",
+          "it": "Simbolo",
+          "example": "Das Symbol ist konventionell.",
+          "exampleIt": "Il simbolo è convenzionale.",
+          "article": "das",
+          "plural": "Symbole",
+          "type": "n"
+        },
+        {
+          "de": "Index",
+          "it": "Indice",
+          "example": "Der Index ist existenziell.",
+          "exampleIt": "L'indice è esistenziale.",
+          "article": "der",
+          "plural": "Indizes",
+          "type": "n"
+        },
+        {
+          "de": "Ikon",
+          "it": "Icona",
+          "example": "Die Ikon ist ikonisch.",
+          "exampleIt": "L'icona è iconica.",
+          "article": "die",
+          "plural": "Ikonen",
+          "type": "n"
+        },
+        {
+          "de": "Signifikant",
+          "it": "Significante",
+          "example": "Der Signifikant ist lautlich.",
+          "exampleIt": "Il significante è fonetico.",
+          "article": "der",
+          "plural": "Signifikanten",
+          "type": "n"
+        },
+        {
+          "de": "Signifikat",
+          "it": "Significato",
+          "example": "Das Signifikat ist konzeptuell.",
+          "exampleIt": "Il significato è concettuale.",
+          "article": "das",
+          "plural": "Signifikate",
+          "type": "n"
+        },
+        {
+          "de": "Referenz",
+          "it": "Riferimento",
+          "example": "Die Referenz ist extern.",
+          "exampleIt": "Il riferimento è esterno.",
+          "article": "die",
+          "plural": "Referenzen",
+          "type": "n"
+        },
+        {
+          "de": "Denotation",
+          "it": "Denotazione",
+          "example": "Die Denotation ist literal.",
+          "exampleIt": "La denotazione è letterale.",
+          "article": "die",
+          "plural": "Denotationen",
+          "type": "n"
+        },
+        {
+          "de": "Konnotation",
+          "it": "Connotazione",
+          "example": "Die Konnotation ist subjektiv.",
+          "exampleIt": "La connotazione è soggettiva.",
+          "article": "die",
+          "plural": "Konnotationen",
+          "type": "n"
+        },
+        {
+          "de": "Code",
+          "it": "Codice",
+          "example": "Der Code ist Menge von Regeln.",
+          "exampleIt": "Il codice è un insieme di regole.",
+          "article": "der",
+          "plural": "Codes",
+          "type": "n"
+        },
+        {
+          "de": "Kodierung",
+          "it": "Codificazione",
+          "example": "Die Kodierung ist prozessual.",
+          "exampleIt": "La codificazione è processuale.",
+          "article": "die",
+          "plural": "Kodierungen",
+          "type": "n"
+        },
+        {
+          "de": "Dekodierung",
+          "it": "Decodifica",
+          "example": "Die Dekodierung ist interpretativ.",
+          "exampleIt": "La decodifica è interpretativa.",
+          "article": "die",
+          "plural": "Dekodierungen",
+          "type": "n"
+        },
+        {
+          "de": "Nachricht",
+          "it": "Messaggio",
+          "example": "Die Nachricht ist kodifiziert.",
+          "exampleIt": "Il messaggio è codificato.",
+          "article": "die",
+          "plural": "Nachrichten",
+          "type": "n"
+        },
+        {
+          "de": "Kanal",
+          "it": "Canale",
+          "example": "Der Kanal vermittelt die Nachricht.",
+          "exampleIt": "Il canale trasmette il messaggio.",
+          "article": "der",
+          "plural": "Kanäle",
+          "type": "n"
+        },
+        {
+          "de": "Rauschen",
+          "it": "Rumore",
+          "example": "Das Rauschen stört die Kommunikation.",
+          "exampleIt": "Il rumore interferisce con la comunicazione.",
+          "article": "das",
+          "plural": "Rauschen",
+          "type": "n"
+        },
+        {
+          "de": "Peirce",
+          "it": "Peirce",
+          "example": "Peirce begründet Semiotik.",
+          "exampleIt": "Peirce fonda la semiotica.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "signifikativ",
+          "it": "Significativo",
+          "example": "Das ist ein signifikativer Unterschied.",
+          "exampleIt": "Questa è una differenza significativa.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "semiotic",
+          "it": "Semiotico",
+          "example": "Das ist eine semiotische Analyse.",
+          "exampleIt": "Questa è un'analisi semiotica.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "bedeutungsvoll",
+          "it": "Significativo",
+          "example": "Das ist bedeutungsvoll.",
+          "exampleIt": "È significativo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
+    },
+    {
+      "name": "Rechtsphilosophie",
+      "nameIt": "Filosofia del diritto",
+      "words": [
+        {
+          "de": "Rechtsphilosophie",
+          "it": "Filosofia del diritto",
+          "example": "Die Rechtsphilosophie fragt Gründe.",
+          "exampleIt": "La filosofia del diritto chiede i motivi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Gerechtigkeit",
+          "it": "Giustizia",
+          "example": "Die Gerechtigkeit ist kontingent.",
+          "exampleIt": "La giustizia è contingente.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Recht",
+          "it": "Diritto",
+          "example": "Das Recht ist institutionalisiert.",
+          "exampleIt": "Il diritto è istituzionalizzato.",
+          "article": "das",
+          "plural": "Rechte",
+          "type": "n"
+        },
+        {
+          "de": "Gesetz",
+          "it": "Legge",
+          "example": "Das Gesetz ist universal.",
+          "exampleIt": "La legge è universale.",
+          "article": "das",
+          "plural": "Gesetze",
+          "type": "n"
+        },
+        {
+          "de": "Normen",
+          "it": "Norme",
+          "example": "Normen sind präskriptiv.",
+          "exampleIt": "Le norme sono prescrittive.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Legalität",
+          "it": "Legalità",
+          "example": "Die Legalität ist formal.",
+          "exampleIt": "La legalità è formale.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Legitimität",
+          "it": "Legittimità",
+          "example": "Die Legitimität ist material.",
+          "exampleIt": "La legittimità è materiale.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Souveränität",
+          "it": "Sovranità",
+          "example": "Die Souveränität ist absolut.",
+          "exampleIt": "La sovranità è assoluta.",
+          "article": "die",
+          "plural": "Souveränitäten",
+          "type": "n"
+        },
+        {
+          "de": "Herrschaft",
+          "it": "Dominio",
+          "example": "Die Herrschaft ist legitim.",
+          "exampleIt": "Il dominio è legittimo.",
+          "article": "die",
+          "plural": "Herrschaften",
+          "type": "n"
+        },
+        {
+          "de": "Vertrag",
+          "it": "Contratto",
+          "example": "Der Vertrag ist fundierend.",
+          "exampleIt": "Il contratto è fondativo.",
+          "article": "der",
+          "plural": "Verträge",
+          "type": "n"
+        },
+        {
+          "de": "Konsens",
+          "it": "Consenso",
+          "example": "Der Konsens ist hypothetisch.",
+          "exampleIt": "Il consenso è ipotetico.",
+          "article": "der",
+          "plural": "Konsense",
+          "type": "n"
+        },
+        {
+          "de": "Obligation",
+          "it": "Obbligo",
+          "example": "Die Obligation ist bindend.",
+          "exampleIt": "L'obbligo è vincolante.",
+          "article": "die",
+          "plural": "Obligationen",
+          "type": "n"
+        },
+        {
+          "de": "Pflicht",
+          "it": "Dovere",
+          "example": "Die Pflicht ist deontologisch.",
+          "exampleIt": "Il dovere è deontologico.",
+          "article": "die",
+          "plural": "Pflichten",
+          "type": "n"
+        },
+        {
+          "de": "Rechtssubjekt",
+          "it": "Soggetto giuridico",
+          "example": "Das Rechtssubjekt ist Person.",
+          "exampleIt": "Il soggetto giuridico è persona.",
+          "article": "das",
+          "plural": "Rechtssubjekte",
+          "type": "n"
+        },
+        {
+          "de": "Rechtsobjekt",
+          "it": "Oggetto giuridico",
+          "example": "Das Rechtsobjekt ist Sache.",
+          "exampleIt": "L'oggetto giuridico è cosa.",
+          "article": "das",
+          "plural": "Rechtsobjekte",
+          "type": "n"
+        },
+        {
+          "de": "Sanktion",
+          "it": "Sanzione",
+          "example": "Die Sanktion ist zwangsweise.",
+          "exampleIt": "La sanzione è coercitiva.",
+          "article": "die",
+          "plural": "Sanktionen",
+          "type": "n"
+        },
+        {
+          "de": "Rawls",
+          "it": "Rawls",
+          "example": "Rawls entwickelt Theorie der Gerechtigkeit.",
+          "exampleIt": "Rawls sviluppa una teoria della giustizia.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "rechtlich",
+          "it": "Giuridico",
+          "example": "Das ist eine rechtliche Frage.",
+          "exampleIt": "Questa è una questione giuridica.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "normativ",
+          "it": "Normativo",
+          "example": "Das ist eine normative Position.",
+          "exampleIt": "Questa è una posizione normativa.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "fundamental",
+          "it": "Fondamentale",
+          "example": "Das ist fundamental gerecht.",
+          "exampleIt": "È fondamentalmente giusto.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
+    },
+    {
+      "name": "Kulturanthropologie",
+      "nameIt": "Antropologia culturale",
+      "words": [
+        {
+          "de": "Kulturanthropologie",
+          "it": "Antropologia culturale",
+          "example": "Die Kulturanthropologie studiert Kulturen.",
+          "exampleIt": "L'antropologia culturale studia le culture.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ethnographie",
+          "it": "Etnografia",
+          "example": "Die Ethnographie ist deskriptiv.",
+          "exampleIt": "L'etnografia è descrittiva.",
+          "article": "die",
+          "plural": "Ethnographien",
+          "type": "n"
+        },
+        {
+          "de": "Feldforschung",
+          "it": "Ricerca sul campo",
+          "example": "Die Feldforschung ist immersiv.",
+          "exampleIt": "La ricerca sul campo è immersiva.",
+          "article": "die",
+          "plural": "Feldforschungen",
+          "type": "n"
+        },
+        {
+          "de": "Kultur",
+          "it": "Cultura",
+          "example": "Die Kultur ist erlernt.",
+          "exampleIt": "La cultura è imparata.",
+          "article": "die",
+          "plural": "Kulturen",
+          "type": "n"
+        },
+        {
+          "de": "Subkultur",
+          "it": "Subcultura",
+          "example": "Die Subkultur ist distinktiv.",
+          "exampleIt": "La subcultura è distintiva.",
+          "article": "die",
+          "plural": "Subkulturen",
+          "type": "n"
+        },
+        {
+          "de": "Ritual",
+          "it": "Rituale",
+          "example": "Das Ritual ist symbolisch.",
+          "exampleIt": "Il rituale è simbolico.",
+          "article": "das",
+          "plural": "Rituale",
+          "type": "n"
+        },
+        {
+          "de": "Mythos",
+          "it": "Mito",
+          "example": "Der Mythos ist narrativ.",
+          "exampleIt": "Il mito è narrativo.",
+          "article": "der",
+          "plural": "Mythen",
+          "type": "n"
+        },
+        {
+          "de": "Wertesystem",
+          "it": "Sistema di valori",
+          "example": "Das Wertesystem ist kohärent.",
+          "exampleIt": "Il sistema di valori è coerente.",
+          "article": "das",
+          "plural": "Wertesysteme",
+          "type": "n"
+        },
+        {
+          "de": "Kin Group",
+          "it": "Gruppo di parentela",
+          "example": "Die Kin Group strukturiert Gesellschaft.",
+          "exampleIt": "Il gruppo di parentela struttura la società.",
+          "article": "die",
+          "plural": "Kin Groups",
+          "type": "n"
+        },
+        {
+          "de": "Verwandtschaft",
+          "it": "Parentela",
+          "example": "Die Verwandtschaft ist komplex.",
+          "exampleIt": "La parentela è complessa.",
+          "article": "die",
+          "plural": "Verwandtschaften",
+          "type": "n"
+        },
+        {
+          "de": "Heiratsregeln",
+          "it": "Norme matrimoniali",
+          "example": "Die Heiratsregeln sind streng.",
+          "exampleIt": "Le norme matrimoniali sono rigide.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Tabu",
+          "it": "Tabù",
+          "example": "Das Tabu ist heilig.",
+          "exampleIt": "Il tabù è sacro.",
+          "article": "das",
+          "plural": "Tabus",
+          "type": "n"
+        },
+        {
+          "de": "Totemismus",
+          "it": "Totemismo",
+          "example": "Der Totemismus ist klassisch.",
+          "exampleIt": "Il totemismo è classico.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Schamanismus",
+          "it": "Sciamanesimo",
+          "example": "Der Schamanismus ist religios.",
+          "exampleIt": "Lo sciamanesimo è religioso.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ethnologie",
+          "it": "Etnologia",
+          "example": "Die Ethnologie ist vergleichend.",
+          "exampleIt": "L'etnologia è comparativa.",
+          "article": "die",
+          "plural": "Ethnologien",
+          "type": "n"
+        },
+        {
+          "de": "Kulturrelativismus",
+          "it": "Relativismo culturale",
+          "example": "Der Kulturrelativismus ist kritisch.",
+          "exampleIt": "Il relativismo culturale è critico.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Akkulturation",
+          "it": "Acculturazione",
+          "example": "Die Akkulturation ist prozessual.",
+          "exampleIt": "L'acculturazione è processuale.",
+          "article": "die",
+          "plural": "Akkulturationen",
+          "type": "n"
+        },
+        {
+          "de": "anthropologisch",
+          "it": "Antropologico",
+          "example": "Das ist eine anthropologische Perspektive.",
+          "exampleIt": "Questa è una prospettiva antropologica.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "ethnisch",
+          "it": "Etnico",
+          "example": "Das ist eine ethnische Gruppe.",
+          "exampleIt": "Questo è un gruppo etnico.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "kulturell",
+          "it": "Culturale",
+          "example": "Das ist ein kultureller Kontext.",
+          "exampleIt": "Questo è un contesto culturale.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
+    },
+    {
+      "name": "Quantenphysik",
+      "nameIt": "Fisica quantistica",
+      "words": [
+        {
+          "de": "Quantenphysik",
+          "it": "Fisica quantistica",
+          "example": "Die Quantenphysik ist kontraintuitiv.",
+          "exampleIt": "La fisica quantistica è controintuitiva.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Quantenmechanik",
+          "it": "Meccanica quantistica",
+          "example": "Die Quantenmechanik regiert Atome.",
+          "exampleIt": "La meccanica quantistica governa gli atomi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Quant",
+          "it": "Quanto",
+          "example": "Das Quant ist diskret.",
+          "exampleIt": "Il quanto è discreto.",
+          "article": "das",
+          "plural": "Quanten",
+          "type": "n"
+        },
+        {
+          "de": "Photon",
+          "it": "Fotone",
+          "example": "Das Photon ist ein Lichtteilchen.",
+          "exampleIt": "Il fotone è una particella di luce.",
+          "article": "das",
+          "plural": "Photonen",
+          "type": "n"
+        },
+        {
+          "de": "Elektron",
+          "it": "Elettrone",
+          "example": "Das Elektron ist negativ geladen.",
+          "exampleIt": "L'elettrone è caricato negativamente.",
+          "article": "das",
+          "plural": "Elektronen",
+          "type": "n"
+        },
+        {
+          "de": "Welle-Teilchen-Dualismus",
+          "it": "Dualismo onda-particella",
+          "example": "Der Welle-Teilchen-Dualismus ist fundamental.",
+          "exampleIt": "Il dualismo onda-particella è fondamentale.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Superposition",
+          "it": "Sovrapposizione",
+          "example": "Die Superposition ist gleichzeitig.",
+          "exampleIt": "La sovrapposizione è simultanea.",
+          "article": "die",
+          "plural": "Superposition",
+          "type": "n"
+        },
+        {
+          "de": "Verschränkung",
+          "it": "Entanglement",
+          "example": "Die Verschränkung ist nicht-lokal.",
+          "exampleIt": "L'entanglement è non-locale.",
+          "article": "die",
+          "plural": "Verschränkungen",
+          "type": "n"
+        },
+        {
+          "de": "Unschärferelation",
+          "it": "Principio di indeterminazione",
+          "example": "Die Unschärferelation begrenzt Genauigkeit.",
+          "exampleIt": "Il principio di indeterminazione limita la precisione.",
+          "article": "die",
+          "plural": "Unschärferelationen",
+          "type": "n"
+        },
+        {
+          "de": "Observables",
+          "it": "Osservabili",
+          "example": "Die Observables sind messbar.",
+          "exampleIt": "Gli osservabili sono misurabili.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Wahrscheinlichkeit",
+          "it": "Probabilità",
+          "example": "Die Wahrscheinlichkeit ist probabilistisch.",
+          "exampleIt": "La probabilità è probabilistica.",
+          "article": "die",
+          "plural": "Wahrscheinlichkeiten",
+          "type": "n"
+        },
+        {
+          "de": "Kollaps",
+          "it": "Collasso",
+          "example": "Der Kollaps der Wellenfunktion ist mysteriös.",
+          "exampleIt": "Il collasso della funzione d'onda è misterioso.",
+          "article": "der",
+          "plural": "Kollapses",
+          "type": "n"
+        },
+        {
+          "de": "Wellenfunktion",
+          "it": "Funzione d'onda",
+          "example": "Die Wellenfunktion beschreibt Zustand.",
+          "exampleIt": "La funzione d'onda descrive lo stato.",
+          "article": "die",
+          "plural": "Wellenfunktionen",
+          "type": "n"
+        },
+        {
+          "de": "Hamiltonian",
+          "it": "Hamiltoniano",
+          "example": "Der Hamiltonian ist die Energie.",
+          "exampleIt": "L'hamiltoniano è l'energia.",
+          "article": "der",
+          "plural": "Hamiltonians",
+          "type": "n"
+        },
+        {
+          "de": "Spin",
+          "it": "Spin",
+          "example": "Der Spin ist intrinsisch.",
+          "exampleIt": "Lo spin è intrinseco.",
+          "article": "der",
+          "plural": "Spins",
+          "type": "n"
+        },
+        {
+          "de": "Orbital",
+          "it": "Orbitale",
+          "example": "Das Orbital ist probabilistisch.",
+          "exampleIt": "L'orbitale è probabilistica.",
+          "article": "das",
+          "plural": "Orbitale",
+          "type": "n"
+        },
+        {
+          "de": "Schrödinger",
+          "it": "Schrödinger",
+          "example": "Schrödinger begründet Wellenmechanik.",
+          "exampleIt": "Schrödinger fonda la meccanica ondulatoria.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Heisenberg",
+          "it": "Heisenberg",
+          "example": "Heisenberg entwickelt Matrizenmechanik.",
+          "exampleIt": "Heisenberg sviluppa la meccanica matriciale.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "quantentheoretisch",
+          "it": "Quantistico",
+          "example": "Das ist eine quantentheoretische Beschreibung.",
+          "exampleIt": "Questa è una descrizione quantistica.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "probabilistisch",
+          "it": "Probabilistico",
+          "example": "Das ist eine probabilistische Interpretation.",
+          "exampleIt": "Questa è un'interpretazione probabilistica.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
+    },
+    {
+      "name": "Ästhetik",
+      "nameIt": "Estetica",
+      "words": [
+        {
+          "de": "Ästhetik",
+          "it": "Estetica",
+          "example": "Die Ästhetik untersucht Schönheit.",
+          "exampleIt": "L'estetica indaga la bellezza.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Schönheit",
+          "it": "Bellezza",
+          "example": "Die Schönheit ist subjektiv.",
+          "exampleIt": "La bellezza è soggettiva.",
+          "article": "die",
+          "plural": "Schönheiten",
+          "type": "n"
+        },
+        {
+          "de": "Erhabenheit",
+          "it": "Sublimità",
+          "example": "Die Erhabenheit ist überwältigend.",
+          "exampleIt": "La sublimità è travolgente.",
+          "article": "die",
+          "plural": "Erhabenheiten",
+          "type": "n"
+        },
+        {
+          "de": "Hässlichkeit",
+          "it": "Bruttezza",
+          "example": "Die Hässlichkeit ist kontingent.",
+          "exampleIt": "La bruttezza è contingente.",
+          "article": "die",
+          "plural": "Hässlichkeiten",
+          "type": "n"
+        },
+        {
+          "de": "Kunstwerk",
+          "it": "Opera d'arte",
+          "example": "Das Kunstwerk ist bedeutend.",
+          "exampleIt": "L'opera d'arte è significativa.",
+          "article": "das",
+          "plural": "Kunstwerke",
+          "type": "n"
+        },
+        {
+          "de": "Geschmack",
+          "it": "Gusto",
+          "example": "Der Geschmack ist bildbar.",
+          "exampleIt": "Il gusto è educabile.",
+          "article": "der",
+          "plural": "Geschmäcker",
+          "type": "n"
+        },
+        {
+          "de": "Gefühl",
+          "it": "Sentimento",
+          "example": "Das Gefühl ist unvergesslich.",
+          "exampleIt": "Il sentimento è indimenticabile.",
+          "article": "das",
+          "plural": "Gefühle",
+          "type": "n"
+        },
+        {
+          "de": "Impression",
+          "it": "Impressione",
+          "example": "Die Impression ist unmittelbar.",
+          "exampleIt": "L'impressione è immediata.",
+          "article": "die",
+          "plural": "Impressionen",
+          "type": "n"
+        },
+        {
+          "de": "Reflexion",
+          "it": "Riflessione",
+          "example": "Die Reflexion ist reflektiv.",
+          "exampleIt": "La riflessione è riflessiva.",
+          "article": "die",
+          "plural": "Reflexionen",
+          "type": "n"
+        },
+        {
+          "de": "Darstellung",
+          "it": "Rappresentazione",
+          "example": "Die Darstellung ist visuell.",
+          "exampleIt": "La rappresentazione è visiva.",
+          "article": "die",
+          "plural": "Darstellungen",
+          "type": "n"
+        },
+        {
+          "de": "Mimesis",
+          "it": "Mimesi",
+          "example": "Die Mimesis ist Nachahmung.",
+          "exampleIt": "La mimesi è imitazione.",
+          "article": "die",
+          "plural": "Mimesen",
+          "type": "n"
+        },
+        {
+          "de": "Form",
+          "it": "Forma",
+          "example": "Die Form ist Struktur.",
+          "exampleIt": "La forma è struttura.",
+          "article": "die",
+          "plural": "Formen",
+          "type": "n"
+        },
+        {
+          "de": "Inhalt",
+          "it": "Contenuto",
+          "example": "Der Inhalt ist Bedeutung.",
+          "exampleIt": "Il contenuto è significato.",
+          "article": "der",
+          "plural": "Inhalte",
+          "type": "n"
+        },
+        {
+          "de": "Expression",
+          "it": "Espressione",
+          "example": "Die Expression ist Selbstoffenbarung.",
+          "exampleIt": "L'espressione è auto-rivelazione.",
+          "article": "die",
+          "plural": "Expressionen",
+          "type": "n"
+        },
+        {
+          "de": "Erlebnis",
+          "it": "Esperienza",
+          "example": "Das Erlebnis ist unmittelbar.",
+          "exampleIt": "L'esperienza è immediata.",
+          "article": "das",
+          "plural": "Erlebnisse",
+          "type": "n"
+        },
+        {
+          "de": "Kantian",
+          "it": "Kantiano",
+          "example": "Die kantische Ästhetik ist einflussreich.",
+          "exampleIt": "L'estetica kantiana è influente.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "schön",
+          "it": "Bello",
+          "example": "Das ist eine schöne Form.",
+          "exampleIt": "Questa è una bella forma.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "erhaben",
+          "it": "Sublime",
+          "example": "Das ist erhaben.",
+          "exampleIt": "È sublime.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "ästhetisch",
+          "it": "Estetico",
+          "example": "Das ist eine ästhetische Erfahrung.",
+          "exampleIt": "Questa è un'esperienza estetica.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "künstlerisch",
+          "it": "Artistico",
+          "example": "Das ist künstlerisch wertvoll.",
+          "exampleIt": "È artisticamente prezioso.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
     }
   ]
 }
