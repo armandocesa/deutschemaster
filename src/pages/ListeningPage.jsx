@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Icons from '../components/Icons';
 import { LEVEL_COLORS, fisherYatesShuffle } from '../utils/constants';
 import { useData } from '../DataContext';
@@ -32,7 +32,7 @@ export default function ListeningPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
   const { canAccessLevel } = useLevelAccess();
   const [mode, setMode] = useState('setup');
-  const [exerciseType, setExerciseType] = useState('word');
+  const [exerciseType, setExerciseType] = useState('diktat');
   const [selectedLevel, setSelectedLevel] = useState('A1');
   const [exerciseCount, setExerciseCount] = useState(10);
   const [questions, setQuestions] = useState([]);
@@ -44,58 +44,40 @@ export default function ListeningPage({ onNavigate }) {
   const [playCount, setPlayCount] = useState(0);
   const [totalXP, setTotalXP] = useState(0);
   const [lockedLevel, setLockedLevel] = useState(null);
+  const [listeningData, setListeningData] = useState(null);
+  const [playbackSpeed, setPlaybackSpeed] = useState(1);
+  const utteranceRef = useRef(null);
 
-  // Generate questions for word listening (Ascolta e scegli)
-  const generateWordQuestions = (level, count) => {
-    const allWords = [];
-    const levelData = VOCABULARY_DATA.levels?.[level];
-    levelData?.modules?.forEach(m => {
-      m.words?.forEach(w => allWords.push({ german: w.german, italian: w.italian }));
-    });
+  // Load listening data from JSON
+  useEffect(() => {
+    fetch('/data/listening.json')
+      .then(res => res.json())
+      .then(data => setListeningData(data))
+      .catch(err => console.error('Error loading listening data:', err));
+  }, []);
 
-    if (allWords.length === 0) return [];
-
-    const shuffled = fisherYatesShuffle(allWords);
-    const selected = shuffled.slice(0, count);
-    const allItalian = [...new Set(allWords.map(w => w.italian))];
-
-    return selected.map(word => {
-      const wrongAnswers = allItalian
-        .filter(i => i !== word.italian)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3);
-
-      return {
-        german: word.german,
-        correctAnswer: word.italian,
-        options: fisherYatesShuffle([word.italian, ...wrongAnswers]),
-        type: 'word'
-      };
-    });
+  // Get exercises for current level and type
+  const getExercises = (level, type) => {
+    if (!listeningData) return [];
+    const levelExercises = listeningData.levels?.[level]?.exercises || [];
+    return levelExercises.filter(ex => ex.type === type);
   };
 
-  // Generate questions for dictation mode
-  const generateDictationQuestions = (level, count) => {
-    const allWords = [];
-    const levelData = VOCABULARY_DATA.levels?.[level];
-    levelData?.modules?.forEach(m => {
-      m.words?.forEach(w => allWords.push({ german: w.german }));
-    });
+  // Generate questions from listening data
+  const generateQuestionsFromData = (level, type, count) => {
+    const exercises = getExercises(level, type);
+    if (exercises.length === 0) return [];
 
-    if (allWords.length === 0) return [];
-
-    const shuffled = fisherYatesShuffle(allWords);
-    return shuffled.slice(0, count).map(word => ({
-      german: word.german,
-      answer: word.german,
-      type: 'dictation'
-    }));
+    const shuffled = fisherYatesShuffle(exercises);
+    return shuffled.slice(0, Math.min(count, exercises.length));
   };
 
   const startExercise = () => {
-    const qs = exerciseType === 'word'
-      ? generateWordQuestions(selectedLevel, exerciseCount)
-      : generateDictationQuestions(selectedLevel, exerciseCount);
+    const qs = generateQuestionsFromData(selectedLevel, exerciseType, exerciseCount);
+    if (qs.length === 0) {
+      alert('Nessun esercizio disponibile per questo livello');
+      return;
+    }
 
     setQuestions(qs);
     setCurrentIndex(0);
@@ -105,6 +87,7 @@ export default function ListeningPage({ onNavigate }) {
     setResults([]);
     setPlayCount(0);
     setTotalXP(0);
+    setPlaybackSpeed(1);
     setMode('playing');
   };
 
@@ -112,64 +95,91 @@ export default function ListeningPage({ onNavigate }) {
   useEffect(() => {
     if (mode === 'playing' && questions.length > 0 && currentIndex < questions.length) {
       setPlayCount(1);
-      speak(questions[currentIndex].german);
+      playAudioWithSpeed(questions[currentIndex].text, playbackSpeed);
     }
   }, [currentIndex, mode, questions]);
+
+  const playAudioWithSpeed = (text, speed = 1) => {
+    if (!text) return;
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'de-DE';
+    utterance.rate = speed;
+    utterance.pitch = 1;
+    utterance.volume = 1;
+
+    const voices = window.speechSynthesis.getVoices();
+    const germanVoice = voices.find(v => v.lang.startsWith('de'));
+    if (germanVoice) utterance.voice = germanVoice;
+
+    utteranceRef.current = utterance;
+    window.speechSynthesis.speak(utterance);
+  };
 
   const playAudio = () => {
     if (questions.length > 0 && currentIndex < questions.length) {
       setPlayCount(p => p + 1);
-      speak(questions[currentIndex].german);
+      playAudioWithSpeed(questions[currentIndex].text, playbackSpeed);
     }
   };
 
-  const playSlowAudio = () => {
+  const handleSpeedChange = (newSpeed) => {
+    setPlaybackSpeed(newSpeed);
     if (questions.length > 0 && currentIndex < questions.length) {
       setPlayCount(p => p + 1);
-      const word = questions[currentIndex].german;
-      if (!word) return;
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(word);
-      utterance.lang = 'de-DE';
-      utterance.rate = 0.5;
-      utterance.pitch = 1;
-      const voices = window.speechSynthesis.getVoices();
-      const germanVoice = voices.find(v => v.lang.startsWith('de'));
-      if (germanVoice) utterance.voice = germanVoice;
-      window.speechSynthesis.speak(utterance);
+      playAudioWithSpeed(questions[currentIndex].text, newSpeed);
     }
   };
 
-  const handleWordAnswer = (option) => {
+  // Handle comprehension question answer
+  const handleComprensionAnswer = (questionIndex, optionIndex) => {
     if (showResult) return;
-    setSelectedOption(option);
-    setShowResult(true);
 
     const current = questions[currentIndex];
-    const isCorrect = option === current.correctAnswer;
-    const xpEarned = isCorrect ? 15 : 0;
+    const question = current.questions[questionIndex];
+    const isCorrect = optionIndex === question.correct;
+    const xpEarned = isCorrect ? 15 : 5;
 
-    setResults(prev => [...prev, {
-      question: current.german,
-      userAnswer: option,
-      correctAnswer: current.correctAnswer,
-      isCorrect,
-      xpEarned,
-      type: 'word'
-    }]);
+    if (!results[currentIndex]) {
+      const newResults = [...results];
+      newResults[currentIndex] = {
+        text: current.text,
+        answers: {},
+        xpEarned: 0,
+        type: 'comprensione'
+      };
+      setResults(newResults);
+    }
 
-    if (isCorrect) {
-      setTotalXP(p => p + xpEarned);
-      addXP(xpEarned, 'listening_correct');
+    const updatedResult = { ...results[currentIndex] };
+    updatedResult.answers[questionIndex] = {
+      selected: optionIndex,
+      correct: question.correct,
+      isCorrect
+    };
+    updatedResult.xpEarned += (isCorrect ? 15 : 5);
+
+    const newResults = [...results];
+    newResults[currentIndex] = updatedResult;
+    setResults(newResults);
+
+    // Check if all questions answered
+    const answered = Object.keys(updatedResult.answers).length;
+    if (answered === current.questions.length) {
+      setTotalXP(p => p + updatedResult.xpEarned);
+      addXP(updatedResult.xpEarned, 'listening_correct');
+      setShowResult(true);
     }
   };
 
-  const handleDictationVerify = () => {
+  // Handle dictation verify
+  const handleDikttatVerify = () => {
     if (showResult || !userAnswer.trim()) return;
     setShowResult(true);
 
     const current = questions[currentIndex];
-    const distance = levenshteinDistance(userAnswer, current.answer);
+    const distance = levenshteinDistance(userAnswer, current.text);
     const isExact = distance === 0;
     const isClose = distance <= 2;
 
@@ -185,15 +195,41 @@ export default function ListeningPage({ onNavigate }) {
     }
 
     setResults(prev => [...prev, {
-      question: current.german,
+      text: current.text,
       userAnswer,
-      correctAnswer: current.answer,
       distance,
       isExact,
       isClose,
       xpEarned,
       resultType,
-      type: 'dictation'
+      type: 'diktat'
+    }]);
+
+    if (xpEarned > 0) {
+      setTotalXP(p => p + xpEarned);
+      addXP(xpEarned, 'listening_correct');
+    }
+  };
+
+  // Handle gap fill verify
+  const handleLueckenTextVerify = () => {
+    if (showResult || !userAnswer.trim()) return;
+    setShowResult(true);
+
+    const current = questions[currentIndex];
+    const gap = current.gaps?.[0];
+    if (!gap) return;
+
+    const isCorrect = userAnswer.trim().toLowerCase() === gap.correct.toLowerCase();
+    const xpEarned = isCorrect ? 15 : 5;
+
+    setResults(prev => [...prev, {
+      text: current.text,
+      userAnswer,
+      correct: gap.correct,
+      isCorrect,
+      xpEarned,
+      type: 'lueckentext'
     }]);
 
     if (xpEarned > 0) {
@@ -243,16 +279,22 @@ export default function ListeningPage({ onNavigate }) {
               <h3>Tipo di esercizio</h3>
               <div className="setup-options">
                 <button
-                  className={`setup-option ${exerciseType === 'word' ? 'active' : ''}`}
-                  onClick={() => setExerciseType('word')}
-                >
-                  <Icons.Volume /> Ascolta e scegli
-                </button>
-                <button
-                  className={`setup-option ${exerciseType === 'dictation' ? 'active' : ''}`}
-                  onClick={() => setExerciseType('dictation')}
+                  className={`setup-option ${exerciseType === 'diktat' ? 'active' : ''}`}
+                  onClick={() => setExerciseType('diktat')}
                 >
                   <Icons.Pen /> Dettato
+                </button>
+                <button
+                  className={`setup-option ${exerciseType === 'comprensione' ? 'active' : ''}`}
+                  onClick={() => setExerciseType('comprensione')}
+                >
+                  <Icons.Brain /> Comprensione
+                </button>
+                <button
+                  className={`setup-option ${exerciseType === 'lueckentext' ? 'active' : ''}`}
+                  onClick={() => setExerciseType('lueckentext')}
+                >
+                  <Icons.Edit /> Completamento
                 </button>
               </div>
             </div>
@@ -281,7 +323,7 @@ export default function ListeningPage({ onNavigate }) {
             <div className="setup-section">
               <h3>Numero di esercizi</h3>
               <div className="setup-options">
-                {[10, 15, 20].map(count => (
+                {[5, 10, 15].map(count => (
                   <button
                     key={count}
                     className={`setup-option ${exerciseCount === count ? 'active' : ''}`}
@@ -310,9 +352,18 @@ export default function ListeningPage({ onNavigate }) {
   }
 
   if (mode === 'finished') {
-    const correctCount = results.filter(r => r.isCorrect || r.resultType === 'perfect').length;
+    const correctCount = results.reduce((acc, r) => {
+      if (r.type === 'diktat') return acc + (r.resultType === 'perfect' ? 1 : 0);
+      if (r.type === 'lueckentext') return acc + (r.isCorrect ? 1 : 0);
+      if (r.type === 'comprensione') {
+        const answersCount = Object.values(r.answers || {}).length;
+        const correctAnswers = Object.values(r.answers || {}).filter(a => a.isCorrect).length;
+        return acc + (correctAnswers === answersCount ? 1 : 0);
+      }
+      return acc;
+    }, 0);
+
     const percentage = Math.round((correctCount / results.length) * 100);
-    const mistakes = results.filter(r => !r.isCorrect && r.resultType !== 'perfect' && r.resultType !== 'close');
 
     return (
       <div className="listening-page">
@@ -321,20 +372,33 @@ export default function ListeningPage({ onNavigate }) {
             <span className="score-value">{percentage}%</span>
           </div>
           <h2>Esercizio completato!</h2>
-          <p className="score-text">{correctCount} risposte corrette su {results.length}</p>
+          <p className="score-text">{correctCount} esercizi corretti su {results.length}</p>
           <p className="xp-earned">+{totalXP} XP</p>
 
-          {mistakes.length > 0 && (
+          {results.length > 0 && (
             <div className="mistakes-section">
-              <h3>Errori</h3>
+              <h3>Risultati</h3>
               <div className="mistakes-list">
-                {mistakes.map((r, idx) => (
+                {results.map((r, idx) => (
                   <div key={idx} className="mistake-item">
                     <p className="mistake-question">
-                      <strong>Domanda {results.indexOf(r) + 1}:</strong> {r.question}
+                      <strong>Esercizio {idx + 1}:</strong> {r.text?.substring(0, 50)}...
                     </p>
-                    <p className="mistake-yours">La tua risposta: {r.userAnswer}</p>
-                    <p className="mistake-correct">Risposta corretta: {r.correctAnswer}</p>
+                    {r.type === 'diktat' && (
+                      <>
+                        <p className="mistake-yours">La tua risposta: {r.userAnswer}</p>
+                        <p className="mistake-correct">Risposta corretta: {r.text}</p>
+                      </>
+                    )}
+                    {r.type === 'lueckentext' && (
+                      <>
+                        <p className="mistake-yours">La tua risposta: {r.userAnswer}</p>
+                        <p className="mistake-correct">Risposta corretta: {r.correct}</p>
+                      </>
+                    )}
+                    {r.type === 'comprensione' && (
+                      <p className="mistake-correct">Risposte corrette: {Object.values(r.answers || {}).filter(a => a.isCorrect).length} su {Object.values(r.answers || {}).length}</p>
+                    )}
                   </div>
                 ))}
               </div>
@@ -359,10 +423,9 @@ export default function ListeningPage({ onNavigate }) {
     const current = questions[currentIndex];
     const progressPercent = ((currentIndex + 1) / questions.length) * 100;
 
-    // Word mode (Ascolta e scegli)
-    if (exerciseType === 'word') {
-      const isAnswered = selectedOption !== null;
-      const isAnswerCorrect = selectedOption === current.correctAnswer;
+    // Dictation mode (Dettato)
+    if (exerciseType === 'diktat') {
+      const resultItem = results[currentIndex];
 
       return (
         <div className="listening-page">
@@ -370,9 +433,11 @@ export default function ListeningPage({ onNavigate }) {
             <div className="progress-bar">
               <div className="progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }}></div>
             </div>
-            <p className="question-counter">Domanda {currentIndex + 1} di {questions.length}</p>
+            <p className="question-counter">Esercizio {currentIndex + 1} di {questions.length}</p>
 
             <div className="listening-content">
+              <h3>{current.title}</h3>
+
               <button
                 className="speaker-btn"
                 onClick={playAudio}
@@ -391,91 +456,20 @@ export default function ListeningPage({ onNavigate }) {
                 <p className="play-count">Ascolti: {playCount}</p>
               </div>
 
-              <button className="slow-btn" onClick={playSlowAudio}>
-                <Icons.Slow /> Lento
-              </button>
-
-              <div className="options-grid">
-                {current.options.map((option, idx) => {
-                  let buttonClass = 'option-btn';
-                  if (isAnswered) {
-                    if (option === current.correctAnswer) buttonClass += ' correct';
-                    if (option === selectedOption && !isAnswerCorrect) buttonClass += ' incorrect';
-                  }
-
-                  return (
+              <div className="speed-controls">
+                <label>Velocità:</label>
+                <div className="speed-buttons">
+                  {[0.75, 1, 1.25].map(speed => (
                     <button
-                      key={idx}
-                      className={buttonClass}
-                      onClick={() => handleWordAnswer(option)}
-                      disabled={isAnswered}
+                      key={speed}
+                      className={`speed-btn ${playbackSpeed === speed ? 'active' : ''}`}
+                      onClick={() => handleSpeedChange(speed)}
                     >
-                      {option}
+                      {speed}x
                     </button>
-                  );
-                })}
-              </div>
-
-              {isAnswered && (
-                <div className={`result-message ${isAnswerCorrect ? 'correct' : 'incorrect'}`}>
-                  {isAnswerCorrect ? (
-                    <div>
-                      <p>✓ Corretto! +15 XP</p>
-                      <p className="word-display">{current.german}</p>
-                    </div>
-                  ) : (
-                    <div>
-                      <p>✗ La parola era: <strong>{current.german}</strong></p>
-                    </div>
-                  )}
+                  ))}
                 </div>
-              )}
-
-              {isAnswered && (
-                <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
-                  Prossimo
-                </button>
-              )}
-            </div>
-          </div>
-        </div>
-      );
-    }
-
-    // Dictation mode
-    else {
-      const resultItem = results.find(r => results.indexOf(r) === currentIndex);
-
-      return (
-        <div className="listening-page">
-          <div className="playing-container">
-            <div className="progress-bar">
-              <div className="progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }}></div>
-            </div>
-            <p className="question-counter">Domanda {currentIndex + 1} di {questions.length}</p>
-
-            <div className="listening-content">
-              <button
-                className="speaker-btn"
-                onClick={playAudio}
-                style={{
-                  background: `linear-gradient(135deg, ${colors.bg}, ${colors.light})`,
-                  borderColor: colors.bg
-                }}
-              >
-                <Icons.Volume />
-              </button>
-
-              <div className="repeat-controls">
-                <button className="repeat-btn" onClick={playAudio}>
-                  <Icons.Repeat /> Ripeti
-                </button>
-                <p className="play-count">Ascolti: {playCount}</p>
               </div>
-
-              <button className="slow-btn" onClick={playSlowAudio}>
-                <Icons.Slow /> Lento
-              </button>
 
               <input
                 type="text"
@@ -486,15 +480,16 @@ export default function ListeningPage({ onNavigate }) {
                 disabled={showResult}
                 onKeyPress={(e) => {
                   if (e.key === 'Enter' && !showResult && userAnswer.trim()) {
-                    handleDictationVerify();
+                    handleDikttatVerify();
                   }
                 }}
+                autoFocus
               />
 
               {!showResult ? (
                 <button
                   className="verify-btn"
-                  onClick={handleDictationVerify}
+                  onClick={handleDikttatVerify}
                   disabled={!userAnswer.trim()}
                   style={{ backgroundColor: colors.bg }}
                 >
@@ -507,19 +502,229 @@ export default function ListeningPage({ onNavigate }) {
                       {resultItem.resultType === 'perfect' && (
                         <div>
                           <p>✓ Perfetto! +15 XP</p>
-                          <p className="word-display">{resultItem.correctAnswer}</p>
+                          <p className="word-display">{resultItem.text}</p>
                         </div>
                       )}
                       {resultItem.resultType === 'close' && (
                         <div>
                           <p>~ Quasi! +5 XP</p>
-                          <p className="word-display">{resultItem.correctAnswer}</p>
+                          <p className="word-display">{resultItem.text}</p>
                         </div>
                       )}
                       {resultItem.resultType === 'wrong' && (
                         <div>
                           <p>✗ La risposta corretta è:</p>
-                          <p className="word-display">{resultItem.correctAnswer}</p>
+                          <p className="word-display">{resultItem.text}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
+                    Prossimo
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // Comprehension mode (Comprensione)
+    if (exerciseType === 'comprensione') {
+      const resultItem = results[currentIndex];
+      const allAnswered = resultItem && Object.keys(resultItem.answers || {}).length === current.questions.length;
+
+      return (
+        <div className="listening-page">
+          <div className="playing-container">
+            <div className="progress-bar">
+              <div className="progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }}></div>
+            </div>
+            <p className="question-counter">Esercizio {currentIndex + 1} di {questions.length}</p>
+
+            <div className="listening-content">
+              <h3>{current.title}</h3>
+
+              <button
+                className="speaker-btn"
+                onClick={playAudio}
+                style={{
+                  background: `linear-gradient(135deg, ${colors.bg}, ${colors.light})`,
+                  borderColor: colors.bg
+                }}
+              >
+                <Icons.Volume />
+              </button>
+
+              <div className="repeat-controls">
+                <button className="repeat-btn" onClick={playAudio}>
+                  <Icons.Repeat /> Ripeti
+                </button>
+                <p className="play-count">Ascolti: {playCount}</p>
+              </div>
+
+              <div className="speed-controls">
+                <label>Velocità:</label>
+                <div className="speed-buttons">
+                  {[0.75, 1, 1.25].map(speed => (
+                    <button
+                      key={speed}
+                      className={`speed-btn ${playbackSpeed === speed ? 'active' : ''}`}
+                      onClick={() => handleSpeedChange(speed)}
+                    >
+                      {speed}x
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {showResult && (
+                <div className="transcript-section">
+                  <h4>Testo:</h4>
+                  <p className="transcript">{current.text}</p>
+                </div>
+              )}
+
+              <div className="questions-container">
+                {current.questions.map((q, qIdx) => (
+                  <div key={qIdx} className="question-block">
+                    <p className="question-text">{q.question}</p>
+                    <div className="options-grid">
+                      {q.options.map((option, oIdx) => {
+                        const isSelected = resultItem?.answers[qIdx]?.selected === oIdx;
+                        const isCorrectOption = oIdx === q.correct;
+                        let btnClass = 'option-btn';
+                        if (allAnswered) {
+                          if (isCorrectOption) btnClass += ' correct';
+                          if (isSelected && !isCorrectOption) btnClass += ' incorrect';
+                        }
+                        return (
+                          <button
+                            key={oIdx}
+                            className={btnClass}
+                            onClick={() => handleComprensionAnswer(qIdx, oIdx)}
+                            disabled={allAnswered}
+                          >
+                            {option}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {allAnswered && (
+                <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
+                  Prossimo
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // Gap-fill mode (Lückentext)
+    if (exerciseType === 'lueckentext') {
+      const resultItem = results[currentIndex];
+
+      return (
+        <div className="listening-page">
+          <div className="playing-container">
+            <div className="progress-bar">
+              <div className="progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }}></div>
+            </div>
+            <p className="question-counter">Esercizio {currentIndex + 1} di {questions.length}</p>
+
+            <div className="listening-content">
+              <h3>{current.title}</h3>
+
+              <button
+                className="speaker-btn"
+                onClick={playAudio}
+                style={{
+                  background: `linear-gradient(135deg, ${colors.bg}, ${colors.light})`,
+                  borderColor: colors.bg
+                }}
+              >
+                <Icons.Volume />
+              </button>
+
+              <div className="repeat-controls">
+                <button className="repeat-btn" onClick={playAudio}>
+                  <Icons.Repeat /> Ripeti
+                </button>
+                <p className="play-count">Ascolti: {playCount}</p>
+              </div>
+
+              <div className="speed-controls">
+                <label>Velocità:</label>
+                <div className="speed-buttons">
+                  {[0.75, 1, 1.25].map(speed => (
+                    <button
+                      key={speed}
+                      className={`speed-btn ${playbackSpeed === speed ? 'active' : ''}`}
+                      onClick={() => handleSpeedChange(speed)}
+                    >
+                      {speed}x
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {showResult && (
+                <div className="transcript-section">
+                  <h4>Testo completo:</h4>
+                  <p className="transcript">{current.text}</p>
+                </div>
+              )}
+
+              <div className="lueckentext-display">
+                <p className="lueckentext-text">
+                  Completa la parola mancante nel testo (ci sono {current.gaps?.length || 1} parola/e).
+                </p>
+              </div>
+
+              <input
+                type="text"
+                className="dictation-input"
+                placeholder="Scrivi la parola mancante..."
+                value={userAnswer}
+                onChange={(e) => setUserAnswer(e.target.value)}
+                disabled={showResult}
+                onKeyPress={(e) => {
+                  if (e.key === 'Enter' && !showResult && userAnswer.trim()) {
+                    handleLueckenTextVerify();
+                  }
+                }}
+                autoFocus
+              />
+
+              {!showResult ? (
+                <button
+                  className="verify-btn"
+                  onClick={handleLueckenTextVerify}
+                  disabled={!userAnswer.trim()}
+                  style={{ backgroundColor: colors.bg }}
+                >
+                  Verifica
+                </button>
+              ) : (
+                <div>
+                  {resultItem && (
+                    <div className={`result-message ${resultItem.isCorrect ? 'correct' : 'incorrect'}`}>
+                      {resultItem.isCorrect ? (
+                        <div>
+                          <p>✓ Corretto! +15 XP</p>
+                          <p className="word-display">{resultItem.correct}</p>
+                        </div>
+                      ) : (
+                        <div>
+                          <p>✗ La risposta corretta è:</p>
+                          <p className="word-display">{resultItem.correct}</p>
                         </div>
                       )}
                     </div>

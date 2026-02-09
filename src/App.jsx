@@ -24,6 +24,7 @@ const EssentialWordsPage = React.lazy(() => import('./pages/EssentialWordsPage')
 const VerbPrefixesPage = React.lazy(() => import('./pages/VerbPrefixesPage'));
 const WerdenPage = React.lazy(() => import('./pages/WerdenPage'));
 const LoginPage = React.lazy(() => import('./pages/LoginPage'));
+const DonaPage = React.lazy(() => import('./pages/DonaPage'));
 
 const PAGE_NAMES = {
   home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura',
@@ -31,7 +32,7 @@ const PAGE_NAMES = {
   favorites: 'Salvate', lessons: 'Lezioni', profile: 'Profilo', flashcards: 'Flashcards',
   writing: 'Scrittura', listening: 'Ascolto', paths: 'Percorsi',
   'essential-words': 'Parole Essenziali', 'verb-prefixes': 'Prefissi Verbali',
-  'werden': 'Il Verbo Werden', login: 'Login'
+  'werden': 'Il Verbo Werden', login: 'Login', dona: 'Supporta Deutsche Master'
 };
 
 // Loading fallback component for lazy-loaded pages
@@ -127,6 +128,7 @@ function AppContent() {
           {currentPage === 'essential-words' && <EssentialWordsPage level={selectedLevel} onNavigate={navigate} />}
           {currentPage === 'verb-prefixes' && <VerbPrefixesPage onNavigate={navigate} />}
           {currentPage === 'werden' && <WerdenPage onNavigate={navigate} />}
+          {currentPage === 'dona' && <DonaPage onNavigate={navigate} />}
         </Suspense>
       </main>
       {!isLoginPage && <BottomNav currentPage={currentPage} onNavigate={navigate} />}

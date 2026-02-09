@@ -42,75 +42,58 @@ export default function WritingPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
   const { canAccessLevel } = useLevelAccess();
   const [mode, setMode] = useState('setup');
-  const [exerciseType, setExerciseType] = useState('word');
+  const [exerciseType, setExerciseType] = useState('traduzione');
   const [selectedLevel, setSelectedLevel] = useState('A1');
   const [exerciseCount, setExerciseCount] = useState(10);
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userInput, setUserInput] = useState('');
+  const [selectedWords, setSelectedWords] = useState([]);
   const [showResult, setShowResult] = useState(false);
   const [results, setResults] = useState([]);
   const [lockedLevel, setLockedLevel] = useState(null);
+  const [writingData, setWritingData] = useState(null);
 
-  // Generate hint from German word (first letter + dashes)
-  const getHint = (word) => {
-    if (!word || word.length === 0) return '';
-    return word[0] + '_'.repeat(Math.max(0, word.length - 1));
-  };
+  // Load writing data on mount
+  useEffect(() => {
+    const loadWritingData = async () => {
+      try {
+        const response = await fetch('/data/writing.json');
+        const data = await response.json();
+        setWritingData(data);
+      } catch (error) {
+        console.error('Errore nel caricamento dei dati di scrittura:', error);
+      }
+    };
+    loadWritingData();
+  }, []);
 
   // Generate questions based on exercise type
   const generateQuestions = (type, level, count) => {
     const qs = [];
-    const levelData = VOCABULARY_DATA.levels?.[level];
-    if (!levelData?.modules) return qs;
 
-    let allWords = [];
-    levelData.modules.forEach(mod => {
-      if (mod.words) {
-        mod.words.forEach(word => allWords.push(word));
-      }
+    if (!writingData) return qs;
+
+    const levelData = writingData.levels?.[level];
+    if (!levelData?.exercises) return qs;
+
+    // Filter exercises by type
+    const typeExercises = levelData.exercises.filter(ex => ex.type === type);
+
+    // Shuffle and select
+    const selected = fisherYatesShuffle(typeExercises).slice(0, count);
+
+    selected.forEach(exercise => {
+      qs.push({
+        ...exercise,
+        id: exercise.id,
+        type: exercise.type,
+        prompt: exercise.prompt,
+        answer: exercise.answer,
+        hints: exercise.hints || [],
+        alternatives: exercise.alternatives || []
+      });
     });
-
-    if (type === 'word') {
-      // Word translation: Italian to German
-      const selected = fisherYatesShuffle(allWords).slice(0, count);
-      selected.forEach(word => {
-        qs.push({
-          prompt: word.italian,
-          answer: (word.german || '').split(' ')[0], // Remove article if present
-          fullGerman: word.german,
-          hint: getHint(word.german)
-        });
-      });
-    } else {
-      // Sentence translation: use example field if available
-      const wordsWithExamples = allWords.filter(w => w.example && w.example.trim());
-      const selected = fisherYatesShuffle(wordsWithExamples).slice(0, count);
-      selected.forEach(word => {
-        // Parse example - expected format: "German example - Italian example"
-        const exampleText = word.example || '';
-        const parts = exampleText.split(' - ');
-
-        if (parts.length === 2) {
-          const germanPart = parts[0].trim();
-          const italianPart = parts[1].trim();
-          qs.push({
-            prompt: italianPart,
-            answer: germanPart,
-            fullGerman: germanPart,
-            hint: ''
-          });
-        } else {
-          // Fallback: use the example as-is or create a simple sentence
-          qs.push({
-            prompt: exampleText,
-            answer: word.german,
-            fullGerman: word.german,
-            hint: ''
-          });
-        }
-      });
-    }
 
     return qs;
   };
@@ -139,38 +122,78 @@ export default function WritingPage({ onNavigate }) {
     setMode('playing');
   };
 
-  // Check answer
+  // Check answer based on exercise type
   const checkAnswer = () => {
-    if (!userInput.trim()) return;
+    if (!userInput.trim() && questions[currentIndex]?.type !== 'riordina') return;
 
     const currentQuestion = questions[currentIndex];
-    const userAnswer = userInput.trim();
-    const correctAnswer = currentQuestion.answer.toLowerCase().trim();
-    const userAnswerLower = userAnswer.toLowerCase();
-
-    let isCorrect = userAnswerLower === correctAnswer;
+    let isCorrect = false;
     let feedback = 'incorrect';
     let xpGain = 0;
+    let userAnswerToShow = userInput;
 
-    if (isCorrect) {
-      feedback = 'correct';
-      xpGain = 15;
+    if (currentQuestion.type === 'riordina') {
+      // For riordina, check word order
+      const userAnswer = selectedWords.join(' ').trim();
+      const correctAnswer = currentQuestion.answer.toLowerCase().trim();
+      const userAnswerLower = userAnswer.toLowerCase();
+
+      isCorrect = userAnswerLower === correctAnswer;
+      if (isCorrect) {
+        feedback = 'correct';
+        xpGain = 20;
+      } else {
+        feedback = 'incorrect';
+      }
+      userAnswerToShow = userAnswer;
+    } else if (currentQuestion.type === 'scrittura_libera') {
+      // For free writing, just check if something was written
+      if (userInput.trim()) {
+        feedback = 'submitted';
+        xpGain = 10;
+        isCorrect = true;
+      }
     } else {
-      // Check for "almost correct" using Levenshtein distance
-      const distance = levenshtein(userAnswer, correctAnswer);
-      if (distance <= 2 && correctAnswer.length > 3) {
-        feedback = 'almost';
-        xpGain = 5;
+      // For traduzione and completamento
+      const userAnswer = userInput.trim();
+      const correctAnswer = currentQuestion.answer.toLowerCase().trim();
+      const userAnswerLower = userAnswer.toLowerCase();
+
+      isCorrect = userAnswerLower === correctAnswer;
+
+      if (isCorrect) {
+        feedback = 'correct';
+        xpGain = 15;
+      } else {
+        // Check alternatives
+        const isAlternative = currentQuestion.alternatives.some(alt =>
+          alt.toLowerCase().trim() === userAnswerLower
+        );
+
+        if (isAlternative) {
+          feedback = 'correct';
+          xpGain = 15;
+          isCorrect = true;
+        } else {
+          // Check for "almost correct" using Levenshtein distance
+          const distance = levenshtein(userAnswer, correctAnswer);
+          if (distance <= 2 && correctAnswer.length > 3) {
+            feedback = 'almost';
+            xpGain = 5;
+          }
+        }
       }
     }
 
     const result = {
       question: currentQuestion.prompt,
-      userAnswer: userInput,
-      correctAnswer: currentQuestion.fullGerman,
+      userAnswer: userAnswerToShow,
+      correctAnswer: currentQuestion.answer,
+      alternatives: currentQuestion.alternatives || [],
       isCorrect,
       feedback,
-      xpGain
+      xpGain,
+      type: currentQuestion.type
     };
 
     setResults(prev => [...prev, result]);
@@ -188,6 +211,7 @@ export default function WritingPage({ onNavigate }) {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(currentIndex + 1);
       setUserInput('');
+      setSelectedWords([]);
       setShowResult(false);
     } else {
       setMode('finished');
@@ -198,6 +222,7 @@ export default function WritingPage({ onNavigate }) {
   const resetExercise = () => {
     setMode('setup');
     setUserInput('');
+    setSelectedWords([]);
     setShowResult(false);
     setCurrentIndex(0);
     setResults([]);
@@ -224,53 +249,50 @@ export default function WritingPage({ onNavigate }) {
 
   // SETUP SCREEN
   if (mode === 'setup') {
+    const exerciseTypeLabels = {
+      traduzione: 'Traduzione',
+      completamento: 'Completamento',
+      riordina: 'Riordina',
+      scrittura_libera: 'Scrittura Libera'
+    };
+
     return (
       <div className="writing-page">
         <h1 className="page-title">Esercizi di Scrittura</h1>
-        <p className="page-subtitle">Scrivi la traduzione tedesca</p>
+        <p className="page-subtitle">Scegli il tipo di esercizio e il livello</p>
 
         <div className="writing-setup" style={{ maxWidth: '600px', margin: '0 auto', padding: '24px' }}>
           {/* Exercise Type Selector */}
           <div className="setup-section" style={{ marginBottom: '32px' }}>
             <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>Tipo di esercizio</h3>
-            <div className="setup-options" style={{ display: 'flex', gap: '12px' }}>
-              <button
-                className={`setup-option ${exerciseType === 'word' ? 'active' : ''}`}
-                onClick={() => setExerciseType('word')}
-                style={{
-                  flex: 1,
-                  padding: '12px 16px',
-                  border: 'none',
-                  borderRadius: '8px',
-                  backgroundColor: exerciseType === 'word' ? 'var(--primary-color)' : 'var(--bg-secondary)',
-                  color: exerciseType === 'word' ? 'white' : 'var(--text-primary)',
-                  cursor: 'pointer',
-                  fontWeight: '600',
-                  fontSize: '14px',
-                  transition: 'all 0.2s'
-                }}
-              >
-                Parole
-              </button>
-              <button
-                className={`setup-option ${exerciseType === 'sentence' ? 'active' : ''}`}
-                onClick={() => setExerciseType('sentence')}
-                style={{
-                  flex: 1,
-                  padding: '12px 16px',
-                  border: 'none',
-                  borderRadius: '8px',
-                  backgroundColor: exerciseType === 'sentence' ? 'var(--primary-color)' : 'var(--bg-secondary)',
-                  color: exerciseType === 'sentence' ? 'white' : 'var(--text-primary)',
-                  cursor: 'pointer',
-                  fontWeight: '600',
-                  fontSize: '14px',
-                  transition: 'all 0.2s'
-                }}
-              >
-                Frasi
-              </button>
+            <div className="setup-options" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+              {['traduzione', 'completamento', 'riordina', 'scrittura_libera'].map(type => (
+                <button
+                  key={type}
+                  className={`setup-option ${exerciseType === type ? 'active' : ''}`}
+                  onClick={() => setExerciseType(type)}
+                  style={{
+                    padding: '12px 16px',
+                    border: exerciseType === type ? '2px solid var(--primary-color)' : '1px solid var(--border-color)',
+                    borderRadius: '8px',
+                    backgroundColor: exerciseType === type ? 'var(--primary-light)' : 'var(--bg-secondary)',
+                    color: 'var(--text-primary)',
+                    cursor: 'pointer',
+                    fontWeight: '600',
+                    fontSize: '13px',
+                    transition: 'all 0.2s'
+                  }}
+                >
+                  {exerciseTypeLabels[type]}
+                </button>
+              ))}
             </div>
+            <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '12px' }}>
+              {exerciseType === 'traduzione' && '🇮🇹 Traduce da italiano a tedesco'}
+              {exerciseType === 'completamento' && '✏️ Completa la frase tedesca'}
+              {exerciseType === 'riordina' && '🔀 Ordina le parole correttamente'}
+              {exerciseType === 'scrittura_libera' && '📝 Scrivi liberamente in tedesco'}
+            </p>
           </div>
 
           {/* Level Selector */}
@@ -336,20 +358,21 @@ export default function WritingPage({ onNavigate }) {
           {/* Start Button */}
           <button
             onClick={startExercise}
+            disabled={!writingData}
             style={{
               width: '100%',
               padding: '14px 24px',
               fontSize: '16px',
               fontWeight: '700',
-              backgroundColor: 'var(--primary-color)',
-              color: 'white',
+              backgroundColor: writingData ? 'var(--primary-color)' : 'var(--bg-secondary)',
+              color: writingData ? 'white' : 'var(--text-secondary)',
               border: 'none',
               borderRadius: '8px',
-              cursor: 'pointer',
+              cursor: writingData ? 'pointer' : 'not-allowed',
               transition: 'all 0.2s'
             }}
           >
-            Inizia
+            {writingData ? 'Inizia' : 'Caricamento...'}
           </button>
         </div>
 
@@ -367,6 +390,167 @@ export default function WritingPage({ onNavigate }) {
   if (mode === 'playing' && questions.length > 0) {
     const currentQuestion = questions[currentIndex];
     const isAnswered = showResult;
+
+    const renderExerciseContent = () => {
+      if (currentQuestion.type === 'traduzione') {
+        return (
+          <>
+            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+              Traduce in tedesco:
+            </p>
+            <p style={{ fontSize: '28px', fontWeight: '700', color: 'var(--text-primary)', fontStyle: 'italic' }}>
+              {currentQuestion.prompt}
+            </p>
+          </>
+        );
+      } else if (currentQuestion.type === 'completamento') {
+        return (
+          <>
+            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+              Completa la frase:
+            </p>
+            <p style={{ fontSize: '22px', fontWeight: '500', color: 'var(--text-primary)' }}>
+              {currentQuestion.prompt}
+            </p>
+          </>
+        );
+      } else if (currentQuestion.type === 'riordina') {
+        return (
+          <>
+            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+              Ordina le parole correttamente:
+            </p>
+            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '16px' }}>
+              Clicca sulle parole per ordinarle
+            </p>
+          </>
+        );
+      } else if (currentQuestion.type === 'scrittura_libera') {
+        return (
+          <>
+            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+              Scrivi liberamente in tedesco:
+            </p>
+            <p style={{ fontSize: '16px', color: 'var(--text-primary)', fontStyle: 'italic' }}>
+              {currentQuestion.prompt}
+            </p>
+          </>
+        );
+      }
+    };
+
+    const renderInput = () => {
+      if (currentQuestion.type === 'riordina') {
+        // Word chips for reordering
+        const words = currentQuestion.prompt;
+        const availableWords = words.filter((_, idx) => !selectedWords.includes(currentQuestion.prompt[idx]));
+
+        return (
+          <>
+            <div style={{
+              backgroundColor: 'var(--bg-primary)',
+              border: '2px solid var(--border-color)',
+              borderRadius: '8px',
+              padding: '16px',
+              marginBottom: '16px',
+              minHeight: '60px',
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '8px',
+              alignItems: 'flex-start'
+            }}>
+              {selectedWords.length === 0 ? (
+                <span style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Clicca le parole qui sotto...</span>
+              ) : (
+                selectedWords.map((word, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => setSelectedWords(selectedWords.filter((_, i) => i !== idx))}
+                    style={{
+                      padding: '8px 12px',
+                      backgroundColor: 'var(--primary-color)',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: '6px',
+                      cursor: 'pointer',
+                      fontSize: '14px',
+                      fontWeight: '600',
+                      transition: 'all 0.2s'
+                    }}
+                  >
+                    {word}
+                  </button>
+                ))
+              )}
+            </div>
+
+            <div style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '8px',
+              marginBottom: '16px'
+            }}>
+              {words.map((word, idx) => {
+                const isSelected = selectedWords.includes(word);
+                return (
+                  <button
+                    key={idx}
+                    onClick={() => !isSelected && setSelectedWords([...selectedWords, word])}
+                    disabled={isSelected}
+                    style={{
+                      padding: '10px 16px',
+                      backgroundColor: isSelected ? 'var(--bg-secondary)' : 'var(--bg-secondary)',
+                      color: isSelected ? 'var(--text-secondary)' : 'var(--text-primary)',
+                      border: `2px solid ${isSelected ? 'var(--bg-secondary)' : 'var(--border-color)'}`,
+                      borderRadius: '8px',
+                      cursor: isSelected ? 'not-allowed' : 'pointer',
+                      fontSize: '14px',
+                      fontWeight: '600',
+                      opacity: isSelected ? 0.5 : 1,
+                      transition: 'all 0.2s'
+                    }}
+                  >
+                    {word}
+                  </button>
+                );
+              })}
+            </div>
+          </>
+        );
+      } else {
+        // Text input for other types
+        return (
+          <input
+            type="text"
+            className="writing-input"
+            placeholder={currentQuestion.type === 'scrittura_libera' ? 'Scrivi la tua risposta...' : 'Scrivi in tedesco...'}
+            value={userInput}
+            onChange={(e) => setUserInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && userInput.trim()) {
+                checkAnswer();
+              }
+            }}
+            autoFocus
+            style={{
+              width: '100%',
+              padding: '16px',
+              fontSize: currentQuestion.type === 'scrittura_libera' ? '16px' : '18px',
+              border: '2px solid var(--border-color)',
+              borderRadius: '8px',
+              backgroundColor: 'var(--bg-primary)',
+              color: 'var(--text-primary)',
+              marginBottom: '16px',
+              fontWeight: '500',
+              boxSizing: 'border-box',
+              transition: 'border-color 0.2s',
+              minHeight: currentQuestion.type === 'scrittura_libera' ? '120px' : 'auto',
+              resize: currentQuestion.type === 'scrittura_libera' ? 'vertical' : 'none'
+            }}
+          />
+        );
+      }
+    };
 
     return (
       <div className="writing-page">
@@ -400,17 +584,10 @@ export default function WritingPage({ onNavigate }) {
           margin: '0 auto 32px auto'
         }}>
           <div style={{ marginBottom: '24px', textAlign: 'center' }}>
-            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
-              Traduci in tedesco:
-            </p>
-            <p style={{ fontSize: '28px', fontWeight: '700', color: 'var(--text-primary)' }}>
-              {currentQuestion.prompt}
-            </p>
-
-            {/* Show hint for word type */}
-            {exerciseType === 'word' && currentQuestion.hint && (
-              <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginTop: '12px', fontFamily: 'monospace' }}>
-                {currentQuestion.hint}
+            {renderExerciseContent()}
+            {currentQuestion.hints && currentQuestion.hints.length > 0 && (
+              <p style={{ fontSize: '12px', color: 'var(--primary-color)', marginTop: '12px' }}>
+                💡 {currentQuestion.hints[0]}
               </p>
             )}
           </div>
@@ -418,45 +595,29 @@ export default function WritingPage({ onNavigate }) {
           {/* Input and Button */}
           {!isAnswered ? (
             <>
-              <input
-                type="text"
-                className="writing-input"
-                placeholder="Scrivi in tedesco..."
-                value={userInput}
-                onChange={(e) => setUserInput(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' && userInput.trim()) {
-                    checkAnswer();
-                  }
-                }}
-                autoFocus
-                style={{
-                  width: '100%',
-                  padding: '16px',
-                  fontSize: '18px',
-                  border: '2px solid var(--border-color)',
-                  borderRadius: '8px',
-                  backgroundColor: 'var(--bg-primary)',
-                  color: 'var(--text-primary)',
-                  marginBottom: '16px',
-                  fontWeight: '500',
-                  boxSizing: 'border-box',
-                  transition: 'border-color 0.2s'
-                }}
-              />
+              {renderInput()}
               <button
                 onClick={checkAnswer}
-                disabled={!userInput.trim()}
+                disabled={currentQuestion.type === 'riordina' ? selectedWords.length === 0 : !userInput.trim()}
                 style={{
                   width: '100%',
                   padding: '14px 24px',
                   fontSize: '16px',
                   fontWeight: '700',
-                  backgroundColor: userInput.trim() ? 'var(--primary-color)' : 'var(--bg-secondary)',
-                  color: userInput.trim() ? 'white' : 'var(--text-secondary)',
+                  backgroundColor:
+                    currentQuestion.type === 'riordina'
+                      ? selectedWords.length > 0 ? 'var(--primary-color)' : 'var(--bg-secondary)'
+                      : userInput.trim() ? 'var(--primary-color)' : 'var(--bg-secondary)',
+                  color:
+                    currentQuestion.type === 'riordina'
+                      ? selectedWords.length > 0 ? 'white' : 'var(--text-secondary)'
+                      : userInput.trim() ? 'white' : 'var(--text-secondary)',
                   border: 'none',
                   borderRadius: '8px',
-                  cursor: userInput.trim() ? 'pointer' : 'not-allowed',
+                  cursor:
+                    currentQuestion.type === 'riordina'
+                      ? selectedWords.length > 0 ? 'pointer' : 'not-allowed'
+                      : userInput.trim() ? 'pointer' : 'not-allowed',
                   transition: 'all 0.2s'
                 }}
               >
@@ -471,32 +632,39 @@ export default function WritingPage({ onNavigate }) {
                 borderRadius: '8px',
                 marginBottom: '16px',
                 backgroundColor:
-                  showResult && results[currentIndex]?.feedback === 'correct' ? 'var(--success-light, #d1fae5)' :
-                  showResult && results[currentIndex]?.feedback === 'almost' ? 'var(--warning-light, #fef3c7)' :
+                  results[currentIndex]?.feedback === 'correct' ? 'var(--success-light, #d1fae5)' :
+                  results[currentIndex]?.feedback === 'almost' ? 'var(--warning-light, #fef3c7)' :
+                  results[currentIndex]?.feedback === 'submitted' ? 'var(--primary-light, rgba(124, 58, 248, 0.1))' :
                   'var(--error-light, #fee2e2)',
                 borderLeft: `4px solid ${
-                  showResult && results[currentIndex]?.feedback === 'correct' ? 'var(--success-color, #10b981)' :
-                  showResult && results[currentIndex]?.feedback === 'almost' ? 'var(--warning-color, #f59e0b)' :
+                  results[currentIndex]?.feedback === 'correct' ? 'var(--success-color, #10b981)' :
+                  results[currentIndex]?.feedback === 'almost' ? 'var(--warning-color, #f59e0b)' :
+                  results[currentIndex]?.feedback === 'submitted' ? 'var(--primary-color)' :
                   'var(--error-color, #ef4444)'
                 }`
               }}>
                 {results[currentIndex]?.feedback === 'correct' && (
                   <p style={{ color: '#065f46', fontWeight: '600', marginBottom: '8px' }}>
-                    <Icons.Check style={{ display: 'inline', marginRight: '8px' }} /> Corretto! +{results[currentIndex]?.xpGain} XP
+                    ✓ Corretto! +{results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'almost' && (
                   <p style={{ color: '#92400e', fontWeight: '600', marginBottom: '8px' }}>
-                    <Icons.Check style={{ display: 'inline', marginRight: '8px' }} /> Quasi! +{results[currentIndex]?.xpGain} XP
+                    ✓ Quasi! +{results[currentIndex]?.xpGain} XP
+                  </p>
+                )}
+                {results[currentIndex]?.feedback === 'submitted' && (
+                  <p style={{ color: 'var(--primary-color)', fontWeight: '600', marginBottom: '8px' }}>
+                    ✓ Inviato! +{results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'incorrect' && (
                   <p style={{ color: '#991b1b', fontWeight: '600', marginBottom: '8px' }}>
-                    <Icons.X style={{ display: 'inline', marginRight: '8px' }} /> Non corretto
+                    ✗ Non corretto
                   </p>
                 )}
 
-                {results[currentIndex]?.feedback !== 'correct' && (
+                {results[currentIndex]?.feedback !== 'correct' && results[currentIndex]?.feedback !== 'submitted' && (
                   <>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
                       La tua risposta: <strong>{results[currentIndex]?.userAnswer}</strong>
@@ -504,33 +672,31 @@ export default function WritingPage({ onNavigate }) {
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>
                       Risposta corretta: <strong>{results[currentIndex]?.correctAnswer}</strong>
                     </p>
+                    {results[currentIndex]?.alternatives && results[currentIndex]?.alternatives.length > 0 && (
+                      <p style={{ color: 'var(--text-secondary)', fontSize: '12px', marginTop: '8px' }}>
+                        Altre risposte accettate: {results[currentIndex]?.alternatives.join(', ')}
+                      </p>
+                    )}
+                  </>
+                )}
+
+                {results[currentIndex]?.feedback === 'submitted' && (
+                  <>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
+                      La tua risposta:
+                    </p>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '12px', fontStyle: 'italic' }}>
+                      "{results[currentIndex]?.userAnswer}"
+                    </p>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
+                      Risposta modello:
+                    </p>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', fontStyle: 'italic' }}>
+                      "{results[currentIndex]?.correctAnswer}"
+                    </p>
                   </>
                 )}
               </div>
-
-              {/* Pronunciation button */}
-              <button
-                onClick={() => speak(currentQuestion.fullGerman)}
-                style={{
-                  width: '100%',
-                  padding: '12px 24px',
-                  fontSize: '14px',
-                  fontWeight: '600',
-                  backgroundColor: 'var(--bg-secondary)',
-                  color: 'var(--text-primary)',
-                  border: '1px solid var(--border-color)',
-                  borderRadius: '8px',
-                  cursor: 'pointer',
-                  marginBottom: '16px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '8px',
-                  transition: 'all 0.2s'
-                }}
-              >
-                <Icons.Volume /> Ascolta la pronuncia
-              </button>
 
               {/* Next button */}
               <button
@@ -561,12 +727,14 @@ export default function WritingPage({ onNavigate }) {
   if (mode === 'finished') {
     const correct = results.filter(r => r.feedback === 'correct').length;
     const almost = results.filter(r => r.feedback === 'almost').length;
+    const submitted = results.filter(r => r.feedback === 'submitted').length;
     const incorrect = results.filter(r => r.feedback === 'incorrect').length;
-    const percentage = Math.round((correct / results.length) * 100);
+    const totalScored = correct + almost + submitted;
+    const percentage = results.length > 0 ? Math.round((totalScored / results.length) * 100) : 0;
     const totalXP = results.reduce((sum, r) => sum + (r.xpGain || 0), 0);
 
     // Determine color based on percentage
-    let scoreColor = '#10b981'; // Green for A1
+    let scoreColor = '#10b981'; // Green
     if (percentage < 50) scoreColor = '#ef4444'; // Red
     else if (percentage < 70) scoreColor = '#f59e0b'; // Orange
     else if (percentage < 85) scoreColor = '#3b82f6'; // Blue
@@ -608,12 +776,21 @@ export default function WritingPage({ onNavigate }) {
               <span style={{ display: 'block', color: '#10b981', fontWeight: '700', fontSize: '16px' }}>
                 {correct} Corretto{correct !== 1 ? 'i' : ''}
               </span>
-              <span style={{ display: 'block', color: '#f59e0b', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                {almost} Quasi{almost !== 1 ? ' corretti' : ' corretto'}
-              </span>
-              <span style={{ display: 'block', color: '#ef4444', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                {incorrect} Sbagliato{incorrect !== 1 ? 'i' : ''}
-              </span>
+              {almost > 0 && (
+                <span style={{ display: 'block', color: '#f59e0b', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
+                  {almost} Quasi{almost !== 1 ? ' corretti' : ' corretto'}
+                </span>
+              )}
+              {submitted > 0 && (
+                <span style={{ display: 'block', color: 'var(--primary-color)', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
+                  {submitted} Inviato{submitted !== 1 ? 'i' : ''}
+                </span>
+              )}
+              {incorrect > 0 && (
+                <span style={{ display: 'block', color: '#ef4444', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
+                  {incorrect} Sbagliato{incorrect !== 1 ? 'i' : ''}
+                </span>
+              )}
             </p>
             <p style={{ color: 'var(--text-secondary)', marginTop: '16px', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
               su <strong>{results.length}</strong> esercizi
@@ -634,29 +811,29 @@ export default function WritingPage({ onNavigate }) {
           </div>
 
           {/* Mistakes List */}
-          {incorrect > 0 && (
+          {(incorrect > 0 || almost > 0) && (
             <div style={{
               backgroundColor: 'var(--bg-secondary)',
               borderRadius: '12px',
               padding: '20px',
               marginBottom: '24px',
               textAlign: 'left',
-              maxHeight: '300px',
+              maxHeight: '350px',
               overflowY: 'auto'
             }}>
               <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '16px' }}>
-                Errori da rivedere
+                Risposte da rivedere
               </h3>
-              {results.filter(r => r.feedback === 'incorrect').map((result, idx) => (
+              {results.filter(r => r.feedback === 'incorrect' || r.feedback === 'almost').map((result, idx) => (
                 <div key={idx} style={{
                   borderBottom: '1px solid var(--border-color)',
                   paddingBottom: '12px',
                   marginBottom: '12px'
                 }}>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '13px', marginBottom: '4px' }}>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '13px', marginBottom: '4px', fontWeight: '600' }}>
                     {result.question}
                   </p>
-                  <p style={{ color: '#ef4444', fontSize: '13px', marginBottom: '4px' }}>
+                  <p style={{ color: result.feedback === 'almost' ? '#f59e0b' : '#ef4444', fontSize: '13px', marginBottom: '4px' }}>
                     La tua risposta: <strong>{result.userAnswer}</strong>
                   </p>
                   <p style={{ color: '#10b981', fontSize: '13px' }}>

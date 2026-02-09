@@ -156,6 +156,57 @@ const ProfilePage = ({ onNavigate }) => {
           margin: '0 auto',
         }}
       >
+        {/* DONATION BANNER */}
+        <div
+          style={{
+            background: 'linear-gradient(135deg, rgba(108,92,231,0.15), rgba(162,155,254,0.1))',
+            border: '1px solid rgba(108,92,231,0.3)',
+            borderRadius: 'var(--radius)',
+            padding: '16px 20px',
+            marginBottom: '32px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '16px',
+            flexWrap: 'wrap',
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <span style={{ fontSize: '20px' }}>❤️</span>
+            <div>
+              <div style={{ fontSize: '14px', fontWeight: '600', color: 'var(--text-primary)' }}>
+                Ti piace Deutsche Master?
+              </div>
+              <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '2px' }}>
+                Supportaci con una donazione
+              </div>
+            </div>
+          </div>
+          <button
+            onClick={() => onNavigate('dona')}
+            style={{
+              padding: '8px 16px',
+              borderRadius: 'var(--radius)',
+              border: 'none',
+              background: 'var(--accent)',
+              color: 'white',
+              fontSize: '12px',
+              fontWeight: '700',
+              cursor: 'pointer',
+              transition: 'all 0.2s',
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'scale(1.05)';
+              e.currentTarget.style.boxShadow = '0 4px 12px rgba(108,92,231,0.4)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'scale(1)';
+              e.currentTarget.style.boxShadow = 'none';
+            }}
+          >
+            Dona Ora
+          </button>
+        </div>
         {/* HEADER SECTION */}
         <div
           style={{
