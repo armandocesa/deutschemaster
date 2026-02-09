@@ -20,6 +20,8 @@ import {
 } from '../utils/notifications';
 import { useAuth } from '../contexts/AuthContext';
 
+const ADMIN_EMAILS = ['armandocesa@gmail.com'];
+
 const ProfilePage = ({ onNavigate }) => {
   const { user, isAuthenticated, logout, firebaseEnabled } = useAuth();
   const dailyGoalData = getDailyGoal();
@@ -312,13 +314,30 @@ const ProfilePage = ({ onNavigate }) => {
                     <div style={{ fontSize: '12px', color: 'var(--text-secondary, #8888a0)' }}>{user?.email}</div>
                   </div>
                 </div>
-                <button onClick={async () => { await logout(); onNavigate('home'); }} style={{
-                  padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(239,68,68,0.3)',
-                  backgroundColor: 'rgba(239,68,68,0.1)', color: '#ef4444', fontSize: '13px',
-                  fontWeight: 600, cursor: 'pointer',
-                }}>
-                  Esci
-                </button>
+                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+                  {ADMIN_EMAILS.includes(user?.email) && (
+                    <button onClick={() => onNavigate('admin')} style={{
+                      padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(59,130,246,0.3)',
+                      backgroundColor: 'rgba(59,130,246,0.1)', color: '#3b82f6', fontSize: '13px',
+                      fontWeight: 600, cursor: 'pointer', transition: 'all 0.2s',
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.backgroundColor = 'rgba(59,130,246,0.2)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.backgroundColor = 'rgba(59,130,246,0.1)';
+                    }}>
+                      ⚙️ Admin
+                    </button>
+                  )}
+                  <button onClick={async () => { await logout(); onNavigate('home'); }} style={{
+                    padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(239,68,68,0.3)',
+                    backgroundColor: 'rgba(239,68,68,0.1)', color: '#ef4444', fontSize: '13px',
+                    fontWeight: 600, cursor: 'pointer',
+                  }}>
+                    Esci
+                  </button>
+                </div>
               </>
             ) : (
               <>

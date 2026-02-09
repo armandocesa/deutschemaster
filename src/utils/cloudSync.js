@@ -1,5 +1,5 @@
 import { db, auth, hasConfig } from '../firebase';
-import { doc, setDoc, getDoc } from 'firebase/firestore';
+import { doc, setDoc, getDoc, writeBatch } from 'firebase/firestore';
 
 // All localStorage keys to sync
 const SYNC_KEYS = [
@@ -237,5 +237,22 @@ export function saveAndSync(key, jsonString) {
     syncKeyToCloud(auth.currentUser.uid, key).catch(() => {
       // Silent fail — localStorage is the source of truth
     });
+  }
+}
+
+/**
+ * Batch write utility for analytics and other batch operations
+ * More efficient than individual writes
+ * @param {Function} operations - Async function that receives the batch
+ */
+export async function batchWrite(operations) {
+  if (!hasConfig || !db) return;
+
+  try {
+    const batch = writeBatch(db);
+    await operations(batch);
+    await batch.commit();
+  } catch (e) {
+    console.warn('Batch write failed:', e);
   }
 }

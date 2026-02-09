@@ -1,8 +1,9 @@
-import React, { useState, useMemo, useCallback, Suspense } from 'react';
+import React, { useState, useMemo, useCallback, Suspense, useEffect } from 'react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Header from './components/Header';
 import BottomNav from './components/BottomNav';
 import Footer from './components/Footer';
+import { trackPageView } from './utils/analytics';
 
 // Lazy load all pages for code splitting
 const HomePage = React.lazy(() => import('./pages/HomePage'));
@@ -27,6 +28,7 @@ const WerdenPage = React.lazy(() => import('./pages/WerdenPage'));
 const LoginPage = React.lazy(() => import('./pages/LoginPage'));
 const DonaPage = React.lazy(() => import('./pages/DonaPage'));
 const PlacementTestPage = React.lazy(() => import('./pages/PlacementTestPage'));
+const AdminPage = React.lazy(() => import('./pages/AdminPage'));
 const NotFoundPage = React.lazy(() => import('./pages/NotFoundPage'));
 
 const PAGE_NAMES = {
@@ -35,7 +37,7 @@ const PAGE_NAMES = {
   favorites: 'Salvate', lessons: 'Lezioni', profile: 'Profilo', flashcards: 'Flashcards',
   writing: 'Scrittura', listening: 'Ascolto', paths: 'Percorsi',
   'essential-words': 'Parole Essenziali', 'verb-prefixes': 'Prefissi Verbali',
-  'werden': 'Il Verbo Werden', 'placement-test': 'Test di Posizionamento', login: 'Login', dona: 'Supporta Deutsche Master'
+  'werden': 'Il Verbo Werden', 'placement-test': 'Test di Posizionamento', login: 'Login', dona: 'Supporta Deutsche Master', admin: 'Amministrazione'
 };
 
 // Loading fallback component for lazy-loaded pages
@@ -68,6 +70,9 @@ function AppContent() {
     setSelectedLesson(options.lesson || null);
     setSelectedStory(options.story || null);
     window.scrollTo(0, 0);
+
+    // Track page view
+    trackPageView(page);
   }, []);
 
   const goBack = useCallback(() => {
@@ -115,7 +120,7 @@ function AppContent() {
   const validPages = [
     'home', 'login', 'vocabulary', 'grammar', 'verbs', 'quiz', 'practice',
     'special-verbs', 'favorites', 'reading', 'stories', 'lessons', 'profile', 'flashcards',
-    'writing', 'listening', 'paths', 'essential-words', 'verb-prefixes', 'werden', 'placement-test', 'dona'
+    'writing', 'listening', 'paths', 'essential-words', 'verb-prefixes', 'werden', 'placement-test', 'dona', 'admin'
   ];
 
   const isValidPage = validPages.includes(currentPage);
@@ -149,6 +154,7 @@ function AppContent() {
           {currentPage === 'werden' && <WerdenPage onNavigate={navigate} />}
           {currentPage === 'placement-test' && <PlacementTestPage onNavigate={navigate} />}
           {currentPage === 'dona' && <DonaPage onNavigate={navigate} />}
+          {currentPage === 'admin' && <AdminPage onNavigate={navigate} />}
         </Suspense>
       </main>
       {!isLoginPage && !shouldShow404 && <BottomNav currentPage={currentPage} onNavigate={navigate} />}

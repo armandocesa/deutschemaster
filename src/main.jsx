@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { DataProvider } from './DataContext';
 import { scheduleReminder, getReminderTime } from './utils/notifications';
+import { initSession, endSession, syncQueuedEvents } from './utils/analytics';
 import './styles/variables.css';
 import './styles/base.css';
 import './styles/layout.css';
 import './styles/components.css';
 import './styles/pages.css';
 import './styles/responsive.css';
+
+// Initialize analytics session on app load
+initSession();
 
 // Initialize notifications on app load
 if ('Notification' in window) {
@@ -18,6 +22,17 @@ if ('Notification' in window) {
   // Store cleanup function for potential later use
   window.__notificationCleanup = cleanupReminder;
 }
+
+// End session and sync on page unload
+window.addEventListener('beforeunload', () => {
+  endSession();
+  syncQueuedEvents();
+});
+
+// Periodically sync queued events (every 30 seconds)
+setInterval(() => {
+  syncQueuedEvents();
+}, 30000);
 
 class ErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { hasError: false }; }
