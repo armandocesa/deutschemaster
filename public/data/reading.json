@@ -4486,6 +4486,419 @@
               "explanation": "Im Text: Das Feuerwerk ist sehr laut und bunt."
             }
           ]
+        },
+        {
+          "id": "a1_text_54",
+          "title": "Das Wetter",
+          "theme": "Wetter",
+          "source": "Original A1 content",
+          "text": "Heute ist das Wetter sehr schön. Die Sonne scheint und es ist warm. Ich gehe spazieren im Park. Die Bäume sind grün und die Blumen sind farbig. Der Himmel ist blau. Im Winter ist das Wetter kalt und es schneit oft. Da trage ich einen Mantel und Handschuhe. Im Sommer ist es heiß. Dann trage ich ein T-Shirt und kurze Hosen. Im Herbst regnet es manchmal. Der Regen ist nicht schön, aber die Blätter sind rot und gelb. Im Frühling ist auch wunderschön. Die Blumen blühen und die Vögel singen.",
+          "difficultWords": [
+            {
+              "word": "Wetter",
+              "translation": "tempo",
+              "explanation": "condizioni atmosferiche"
+            },
+            {
+              "word": "scheinen",
+              "translation": "brillare",
+              "explanation": "il sole brilla"
+            },
+            {
+              "word": "Baum",
+              "translation": "albero",
+              "explanation": "pianta con tronco"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wie ist das Wetter heute?",
+              "options": [
+                "Kalt",
+                "Warm und sonnig",
+                "Neblig",
+                "Stürmisch"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Sehr schön"
+            },
+            {
+              "question": "Was trägt man im Winter?",
+              "options": [
+                "T-Shirt",
+                "Kurze Hosen",
+                "Mantel und Handschuhe",
+                "Jacke"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Mantel"
+            },
+            {
+              "question": "Wie sind die Blätter im Herbst?",
+              "options": [
+                "Grün",
+                "Weiß",
+                "Rot und gelb",
+                "Braun"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Rot und gelb"
+            }
+          ]
+        },
+        {
+          "id": "a1_text_55",
+          "title": "Meine Familie",
+          "theme": "Familie",
+          "source": "Original A1 content",
+          "text": "Meine Familie ist nicht sehr groß. Mein Vater heißt Klaus und meine Mutter heißt Maria. Ich habe einen Bruder. Sein Name ist Tom. Tom ist 25 Jahre alt und arbeitet als Ingenieur. Meine Mutter arbeitet im Krankenhaus als Krankenschwester. Mein Vater arbeitet in einer Fabrik. Ich habe auch eine Großmutter. Sie heißt Helga und ist 75 Jahre alt. Sie lebt mit uns. Meine Großmutter kocht sehr gut. Ich liebe ihre Kuchen. Mein Onkel heißt Peter und meine Tante heißt Barbara. Sie sind verheiratet. Sie haben zwei Kinder.",
+          "difficultWords": [
+            {
+              "word": "Vater",
+              "translation": "padre",
+              "explanation": "genitore maschio"
+            },
+            {
+              "word": "Bruder",
+              "translation": "fratello",
+              "explanation": "figlio maschio"
+            },
+            {
+              "word": "Krankenschwester",
+              "translation": "infermiera",
+              "explanation": "lavora in ospedale"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wie heißt die Mutter?",
+              "options": [
+                "Helga",
+                "Barbara",
+                "Maria",
+                "Lisa"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Maria"
+            },
+            {
+              "question": "Was arbeitet Toms Mutter?",
+              "options": [
+                "Lehrerin",
+                "Krankenschwester",
+                "Ingenieurin",
+                "Köchin"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Krankenschwester"
+            },
+            {
+              "question": "Wie alt ist die Großmutter?",
+              "options": [
+                "65",
+                "70",
+                "75",
+                "80"
+              ],
+              "correctAnswer": 2,
+              "explanation": "75"
+            }
+          ]
+        },
+        {
+          "id": "a1_text_56",
+          "title": "Hobbys",
+          "theme": "Freizeit",
+          "source": "Original A1 content",
+          "text": "Ich habe viele Hobbys. Ich mag Sport sehr gerne. Am liebsten spiele ich Fußball mit meinen Freunden. Wir spielen jeden Mittwoch im Park. Ich bin auch Mitglied in einem Tennisclub. Ich trainiere dort zwei Mal pro Woche. Neben dem Sport lese ich auch sehr gerne Bücher. Ich lese gerne Krimis und Abenteuerromane. Meine Lieblingsschriftstellerin ist Agatha Christie. Ich schaue auch gerne Filme. Am Wochenende gehe ich manchmal ins Kino. Ich male auch gerne. Ich zeichne und male mit Aquarellfarben. Mein Hobby ist sehr entspannend.",
+          "difficultWords": [
+            {
+              "word": "Hobby",
+              "translation": "hobby",
+              "explanation": "attività piacevole"
+            },
+            {
+              "word": "Fußball spielen",
+              "translation": "giocare a calcio",
+              "explanation": "sport con palla"
+            },
+            {
+              "word": "Tennisclub",
+              "translation": "circolo di tennis",
+              "explanation": "associazione per tennis"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wann spielen sie Fußball?",
+              "options": [
+                "Montag",
+                "Mittwoch",
+                "Freitag",
+                "Wochenende"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Mittwoch"
+            },
+            {
+              "question": "Wie oft trainiert er Tennis?",
+              "options": [
+                "Einmal",
+                "Zwei Mal",
+                "Drei Mal",
+                "Jeden Tag"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Zwei Mal"
+            },
+            {
+              "question": "Wer ist die Lieblingsschriftstellerin?",
+              "options": [
+                "Rowling",
+                "King",
+                "Christie",
+                "Orwell"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Christie"
+            }
+          ]
+        },
+        {
+          "id": "a1_text_57",
+          "title": "Essen und Trinken",
+          "theme": "Essen",
+          "source": "Original A1 content",
+          "text": "Ich liebe es zu essen! Mein Lieblingsessen ist Pizza. Ich esse Pizza sehr gerne mit Freunden. Zum Frühstück esse ich normalerweise Müsli mit Joghurt und Obst. Das ist gesund. Manchmal esse ich auch Toast mit Marmelade. Zum Mittagessen koche ich gerne. Mein Lieblingsgericht ist Spaghetti mit Tomatensauce. Ich koche das mindestens zwei Mal pro Woche. Zum Abendessen esse ich oft Salat und Brot. Ich trinke viel Wasser. Manchmal trinke ich Saft oder Tee. Ich mag Kaffee nicht so gerne. Meine Mutter macht sehr guten Kuchen. Besonders der Schokoladenkuchen schmeckt mir sehr gut.",
+          "difficultWords": [
+            {
+              "word": "Pizza",
+              "translation": "pizza",
+              "explanation": "piatto italiano"
+            },
+            {
+              "word": "Müsli",
+              "translation": "muesli",
+              "explanation": "cereali misti"
+            },
+            {
+              "word": "Marmelade",
+              "translation": "marmellata",
+              "explanation": "conserva di frutta"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist das Lieblingsessen?",
+              "options": [
+                "Salat",
+                "Pizza",
+                "Spaghetti",
+                "Toast"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Pizza"
+            },
+            {
+              "question": "Was kocht er zum Mittagessen?",
+              "options": [
+                "Pizza",
+                "Salat",
+                "Spaghetti",
+                "Brot"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Spaghetti"
+            },
+            {
+              "question": "Welchen Kuchen mag er besonders?",
+              "options": [
+                "Vanillekuchen",
+                "Apfelkuchen",
+                "Schokoladenkuchen",
+                "Käsekuchen"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Schokoladenkuchen"
+            }
+          ]
+        },
+        {
+          "id": "a1_text_58",
+          "title": "Meine Schule",
+          "theme": "Bildung",
+          "source": "Original A1 content",
+          "text": "Ich bin Student an der Universität Hamburg. Ich studiere Mathematik und Informatik. Meine Universität ist sehr groß und modern. Sie hat viele Gebäude und eine große Bibliothek. Die Bibliothek ist sehr schön. Es gibt viele Bücher und Computer dort. Ich gehe oft in die Bibliothek zum Studieren. Mein Lieblingsfach ist Mathematik. Der Professor ist sehr nett und die Vorlesungen sind interessant. Ich habe auch Vorlesungen in Informatik. Das ist manchmal schwierig, aber ich lerne viel. Ich habe viele Freunde an der Universität. Wir treffen uns oft in der Kantine zum Kaffee.",
+          "difficultWords": [
+            {
+              "word": "Universität",
+              "translation": "università",
+              "explanation": "istituzione di istruzione"
+            },
+            {
+              "word": "Bibliothek",
+              "translation": "biblioteca",
+              "explanation": "luogo con libri"
+            },
+            {
+              "word": "Vorlesung",
+              "translation": "lezione",
+              "explanation": "insegnamento all'università"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was studiert er?",
+              "options": [
+                "Biologie",
+                "Mathematik und Informatik",
+                "Chemie",
+                "Physik"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Mathematik"
+            },
+            {
+              "question": "Wo ist die Universität?",
+              "options": [
+                "Berlin",
+                "Hamburg",
+                "München",
+                "Köln"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Hamburg"
+            },
+            {
+              "question": "Welches ist das Lieblingsfach?",
+              "options": [
+                "Informatik",
+                "Mathematik",
+                "Physik",
+                "Chemie"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Mathematik"
+            }
+          ]
+        },
+        {
+          "id": "a1_text_59",
+          "title": "Reisen",
+          "theme": "Reisen",
+          "source": "Original A1 content",
+          "text": "Ich reise sehr gerne! Letztes Jahr bin ich nach Österreich gefahren. Ich habe Wien besucht. Wien ist sehr schön. Die Stadt hat alte Gebäude und interessante Museen. Der Stephansdom ist besonders schön. Ich bin auch nach Salzburg gefahren. Dort habe ich das Haus von Mozart besucht. Dieses Jahr möchte ich nach Italien fahren. Ich möchte Rom, Venedig und Florenz sehen. Rom ist die Hauptstadt von Italien. Es gibt sehr viele historische Gebäude dort. Ich möchte auch die Küche von Italien probieren. Das Essen in Italien ist sehr lecker!",
+          "difficultWords": [
+            {
+              "word": "reisen",
+              "translation": "viaggiare",
+              "explanation": "andare in viaggio"
+            },
+            {
+              "word": "besuchen",
+              "translation": "visitare",
+              "explanation": "andare a vedere"
+            },
+            {
+              "word": "Hauptstadt",
+              "translation": "capitale",
+              "explanation": "città principale"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wo ist er letztes Jahr gefahren?",
+              "options": [
+                "Italien",
+                "Österreich",
+                "Schweiz",
+                "Deutschland"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Österreich"
+            },
+            {
+              "question": "Welches Haus hat er besucht?",
+              "options": [
+                "Beethovens",
+                "Mozarts",
+                "Haydns",
+                "Schuberts"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Mozarts"
+            },
+            {
+              "question": "Wo möchte er fahren?",
+              "options": [
+                "Österreich",
+                "Frankreich",
+                "Italien",
+                "Spanien"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Italien"
+            }
+          ]
+        },
+        {
+          "id": "a1_text_60",
+          "title": "Meine Wohnung",
+          "theme": "Alltag",
+          "source": "Original A1 content",
+          "text": "Meine Wohnung ist nicht sehr groß, aber sehr gemütlich. Sie hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und ein Arbeitszimmer. Ich habe auch eine kleine Küche und ein modernes Badezimmer. Das Wohnzimmer ist mein Lieblingszimmer. Dort habe ich einen großen Fernseher und ein bequemes Sofa. Ich sitze dort gerne am Abend. Das Schlafzimmer ist klein, aber sehr ruhig. Das Arbeitszimmer hat einen großen Schreibtisch. Ich arbeite dort gerne. Die Küche ist klein, aber gut organisiert. Ich koche dort jeden Tag. Das Badezimmer hat eine Badewanne und eine Dusche.",
+          "difficultWords": [
+            {
+              "word": "gemütlich",
+              "translation": "accogliente",
+              "explanation": "confortevole"
+            },
+            {
+              "word": "Wohnzimmer",
+              "translation": "soggiorno",
+              "explanation": "stanza per vivere"
+            },
+            {
+              "word": "Badezimmer",
+              "translation": "bagno",
+              "explanation": "stanza con bagno"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wie viele Zimmer?",
+              "options": [
+                "Zwei",
+                "Drei",
+                "Vier",
+                "Fünf"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Tre"
+            },
+            {
+              "question": "Welches ist das Lieblingszimmer?",
+              "options": [
+                "Schlafzimmer",
+                "Küche",
+                "Wohnzimmer",
+                "Badezimmer"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Wohnzimmer"
+            },
+            {
+              "question": "Wie ist das Schlafzimmer?",
+              "options": [
+                "Groß und laut",
+                "Klein und laut",
+                "Groß und ruhig",
+                "Klein und ruhig"
+              ],
+              "correctAnswer": 3,
+              "explanation": "Klein und ruhig"
+            }
+          ]
         }
       ]
     },
@@ -21622,6 +22035,891 @@
               "explanation": "Im Text: Eine umfassende Übernahme der Kreislaufwirtschaft erfordert politische Maßnahmen und ein Umdenken der Verbraucher."
             }
           ]
+        },
+        {
+          "id": "b2_text_46",
+          "title": "Digitalisierung in Deutschland",
+          "theme": "Technologie",
+          "source": "Original B2 content",
+          "text": "Die Digitalisierung ist ein wichtiger Prozess in der modernen Gesellschaft. Deutschland hat sich zum Ziel gesetzt, bis 2025 führend in der digitalen Transformation zu sein. Viele Unternehmen investieren in neue Technologien wie künstliche Intelligenz und Cloud-Computing. Die Regierung unterstützt diese Entwicklung durch verschiedene Initiativen. Allerdings gibt es auch Herausforderungen. Der Fachkräftemangel ist ein großes Problem. Viele Schulen haben noch nicht genug Ressourcen, um Schüler digital auszubilden. Die Sicherheit von Daten ist ebenfalls besorgniserregend. Cyberkriminalität nimmt ständig zu. Trotz dieser Hürden bleibt die Digitalisierung eine Priorität für die Zukunft Deutschlands.",
+          "difficultWords": [
+            {
+              "word": "Digitalisierung",
+              "translation": "digitalizzazione",
+              "explanation": "processo di trasformazione digitale"
+            },
+            {
+              "word": "investieren",
+              "translation": "investire",
+              "explanation": "mettere soldi in qualcosa"
+            },
+            {
+              "word": "Herausforderung",
+              "translation": "sfida",
+              "explanation": "compito difficile"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Bis wann möchte Deutschland führend sein?",
+              "options": [
+                "2020",
+                "2025",
+                "2030",
+                "2035"
+              ],
+              "correctAnswer": 1,
+              "explanation": "bis 2025"
+            },
+            {
+              "question": "Welches Problem wird erwähnt?",
+              "options": [
+                "Zu wenig Geld",
+                "Fachkräftemangel",
+                "Zu wenig Schulen",
+                "Schlechte Technologie"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Fachkräftemangel"
+            },
+            {
+              "question": "Was nimmt ständig zu?",
+              "options": [
+                "Investitionen",
+                "Digitale Produkte",
+                "Cyberkriminalität",
+                "Schulen"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Cyberkriminalität"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_47",
+          "title": "Nachhaltigkeit im Alltag",
+          "theme": "Umwelt",
+          "source": "Original B2 content",
+          "text": "Nachhaltigkeit ist nicht nur ein Trend, sondern eine Notwendigkeit. Im alltäglichen Leben können wir alle einen Beitrag leisten. Viele Menschen kaufen nun Produkte aus biologischem Anbau und vermeiden Plastikverpackungen. Das Konzept der Kreislaufwirtschaft gewinnt an Bedeutung. Statt Dinge wegzuwerfen, werden sie repariert oder recycelt. Einige Unternehmen haben innovative Lösungen entwickelt. Sie stellen Kleidung aus recycelten Materialien her. Der Transport ist ein weiterer wichtiger Aspekt. Viele wechseln zum öffentlichen Nahverkehr oder zum Fahrrad. Die Reduktion von CO2-Emissionen ist das Ziel. Regierungen unterstützen dies durch Gesetze und Anreize. Jeder Einzelne kann einen Unterschied machen.",
+          "difficultWords": [
+            {
+              "word": "Nachhaltigkeit",
+              "translation": "sostenibilità",
+              "explanation": "responsabilità verso l'ambiente"
+            },
+            {
+              "word": "Kreislaufwirtschaft",
+              "translation": "economia circolare",
+              "explanation": "sistema di riciclo"
+            },
+            {
+              "word": "Anbau",
+              "translation": "coltivazione",
+              "explanation": "processo di crescita di piante"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist Nachhaltigkeit?",
+              "options": [
+                "Ein Trend",
+                "Eine Notwendigkeit",
+                "Unmöglich",
+                "Nur für Unternehmen"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Eine Notwendigkeit"
+            },
+            {
+              "question": "Was wird erwähnt über Kleidung?",
+              "options": [
+                "Sie wird teurer",
+                "Sie wird aus recycelten Materialien hergestellt",
+                "Sie ist schlechter",
+                "Sie wird verboten"
+              ],
+              "correctAnswer": 1,
+              "explanation": "aus recycelten Materialien"
+            },
+            {
+              "question": "Wie reduziert man CO2?",
+              "options": [
+                "Mit Auto fahren",
+                "Mit Flugzeug",
+                "Mit öffentlichem Nahverkehr",
+                "Mit Schiff"
+              ],
+              "correctAnswer": 2,
+              "explanation": "öffentlicher Nahverkehr"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_48",
+          "title": "Arbeitsmarkt der Zukunft",
+          "theme": "Arbeit",
+          "source": "Original B2 content",
+          "text": "Der Arbeitsmarkt verändert sich rapide. Künstliche Intelligenz und Automatisierung beeinflussen viele Branchen. Einige Jobs werden verschwinden, während neue entstehen. Die Fähigkeit zum lebenslangen Lernen wird immer wichtiger. Arbeitnehmer müssen sich ständig weiterbilden. Remote-Arbeit ist nun normal geworden. Viele Unternehmen bieten flexible Arbeitszeiten an. Die Work-Life-Balance wird höher bewertet als früher. Allerdings entstehen neue Probleme. Burnout und psychische Belastung nehmen zu. Unternehmen müssen Unterstützung anbieten. Die Zukunft erfordert ein Gleichgewicht zwischen Technologie und menschlichem Wohlbefinden.",
+          "difficultWords": [
+            {
+              "word": "rapide",
+              "translation": "rapido",
+              "explanation": "veloce e improvviso"
+            },
+            {
+              "word": "Automatisierung",
+              "translation": "automazione",
+              "explanation": "uso di macchine automatiche"
+            },
+            {
+              "word": "Weiterbildung",
+              "translation": "formazione continua",
+              "explanation": "istruzione ulteriore"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was verändert den Arbeitsmarkt?",
+              "options": [
+                "Nichts",
+                "Nur Geld",
+                "KI und Automatisierung",
+                "Nur Politik"
+              ],
+              "correctAnswer": 2,
+              "explanation": "KI und Automatisierung"
+            },
+            {
+              "question": "Was ist wichtig geworden?",
+              "options": [
+                "Nur Geld verdienen",
+                "Lebenslanges Lernen",
+                "Weniger arbeiten",
+                "Alte Fähigkeiten"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Lebenslanges Lernen"
+            },
+            {
+              "question": "Was ist ein Problem?",
+              "options": [
+                "Zu viel Geld",
+                "Zu wenig Jobs",
+                "Burnout und psychische Belastung",
+                "Zu lange Ferien"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Burnout"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_49",
+          "title": "Kulturelle Vielfalt in Städten",
+          "theme": "Kultur",
+          "source": "Original B2 content",
+          "text": "Große Städte sind Zentren kultureller Vielfalt. Menschen verschiedener Hintergründe leben zusammen und teilen ihre Kulturen. Dies führt zu neuen Kunstformen und kulinarischen Erfahrungen. Musik, Theater und Literatur profitieren von dieser Vermischung. Berlin zum Beispiel ist bekannt für seine internationale Kunstszene. Museen zeigen Werke aus aller Welt. Restaurants bieten Küche aus vielen Ländern. Diese kulturelle Vermischung bringt aber auch Herausforderungen. Sprachbarrieren und Missverständnisse können auftreten. Integration erfordert Zeit und Anstrengung von allen Seiten. Dennoch überwiegen die Vorteile. Städte werden reicher und dynamischer durch diese Vielfalt.",
+          "difficultWords": [
+            {
+              "word": "Vielfalt",
+              "translation": "diversità",
+              "explanation": "varietà e molteplicità"
+            },
+            {
+              "word": "Vermischung",
+              "translation": "fusione",
+              "explanation": "combinazione di culture"
+            },
+            {
+              "word": "Integration",
+              "translation": "integrazione",
+              "explanation": "incorporazione di persone in una società"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Worum geht es in diesem Text?",
+              "options": [
+                "Architektur",
+                "Kulturelle Vielfalt",
+                "Politik",
+                "Sport"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Kulturelle Vielfalt"
+            },
+            {
+              "question": "Welche Stadt wird erwähnt?",
+              "options": [
+                "München",
+                "Hamburg",
+                "Berlin",
+                "Köln"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Berlin"
+            },
+            {
+              "question": "Was ist eine Herausforderung?",
+              "options": [
+                "Zu viele Museen",
+                "Sprachbarrieren",
+                "Zu viele Restaurants",
+                "Schlechte Kunstszene"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Sprachbarrieren"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_50",
+          "title": "Gesundheit und Prävention",
+          "theme": "Gesundheit",
+          "source": "Original B2 content",
+          "text": "Eine gute Gesundheit ist das wertvollste Gut. Prävention ist wichtiger als Behandlung. Ein gesunder Lebensstil beginnt mit ausreichend Bewegung. Die WHO empfiehlt mindestens 150 Minuten moderates Training pro Woche. Ernährung spielt eine zentrale Rolle. Eine ausgewogene Diät reduziert das Risiko vieler Krankheiten. Stress ist auch ein großer Faktor. Meditation und Entspannung können helfen. Ausreichend Schlaf ist essentiell. Viele Menschen schlafen zu wenig und leiden unter den Folgen. Die psychische Gesundheit wird oft vergessen. Depressionen und Angststörungen sind verbreitete Probleme. Gesellschaft muss diese Themen ernster nehmen. Prävention und frühe Intervention können viel Leid verhindern.",
+          "difficultWords": [
+            {
+              "word": "Prävention",
+              "translation": "prevenzione",
+              "explanation": "misure per evitare malattie"
+            },
+            {
+              "word": "Bewegung",
+              "translation": "esercizio",
+              "explanation": "attività fisica"
+            },
+            {
+              "word": "Entspannung",
+              "translation": "rilassamento",
+              "explanation": "stato di calma"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was empfiehlt die WHO?",
+              "options": [
+                "100 Minuten",
+                "150 Minuten",
+                "200 Minuten",
+                "250 Minuten"
+              ],
+              "correctAnswer": 1,
+              "explanation": "150 Minuten"
+            },
+            {
+              "question": "Was spielt eine zentrale Rolle?",
+              "options": [
+                "Geld",
+                "Ernährung",
+                "Arbeit",
+                "Freizeit"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Ernährung"
+            },
+            {
+              "question": "Was ist oft vergessen?",
+              "options": [
+                "Sport",
+                "Essen",
+                "Psychische Gesundheit",
+                "Arbeit"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Psychische Gesundheit"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_51",
+          "title": "Migration und Integration",
+          "theme": "Gesellschaft",
+          "source": "Original B2 content",
+          "text": "Migration ist ein komplexes Phänomen. Menschen migrieren aus verschiedenen Gründen: Flucht vor Krieg, Armut oder Verfolgung, sowie für bessere Chancen. Deutschland hat eine lange Geschichte von Migration. Nach dem Zweiten Weltkrieg kamen Gastarbeiter. Später folgten Asylbewerber und Flüchtlinge. Integration ist nicht einfach. Sie erfordert Bemühungen von beiden Seiten. Migranten müssen die Sprache und Kultur lernen. Die Gesellschaft muss offen und unterstützend sein. Bildung ist schlüssel. Schulen und Universitäten spielen eine wichtige Rolle. Arbeitsmarktintegration ist auch kritisch. Viele Migranten sind überqualifiziert für ihre Jobs. Die Anerkennung von Abschlüssen muss verbessert werden. Langfristig profitiert die Gesellschaft von Vielfalt.",
+          "difficultWords": [
+            {
+              "word": "Migration",
+              "translation": "migrazione",
+              "explanation": "movimento di persone da un luogo all'altro"
+            },
+            {
+              "word": "Flucht",
+              "translation": "fuga",
+              "explanation": "allontanamento da un luogo pericoloso"
+            },
+            {
+              "word": "Gastarbeiter",
+              "translation": "lavoratore ospite",
+              "explanation": "lavoratore straniero"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Warum migrieren Menschen?",
+              "options": [
+                "Nur für Urlaub",
+                "Aus vielen Gründen",
+                "Nie",
+                "Nur aus Reichtum"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Aus verschiedenen Gründen"
+            },
+            {
+              "question": "Wann kamen Gastarbeiter?",
+              "options": [
+                "Vor WW2",
+                "Nach WW2",
+                "In den 1990ern",
+                "Kürzlich"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Nach dem Zweiten Weltkrieg"
+            },
+            {
+              "question": "Was ist der Schlüssel?",
+              "options": [
+                "Geld",
+                "Arbeit",
+                "Bildung",
+                "Politik"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Bildung"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_52",
+          "title": "Klimawandel und Energiewende",
+          "theme": "Umwelt",
+          "source": "Original B2 content",
+          "text": "Der Klimawandel ist die größte Herausforderung unserer Zeit. Die Temperaturen steigen weltweit. Dies führt zu extremen Wetterereignissen: Überschwemmungen, Dürren, Waldbrände. Deutschland hat die Energiewende gestartet. Ziel ist die Reduktion von fossilen Brennstoffen. Erneuerbare Energien wie Solarenergie und Windkraft werden ausgebaut. Deutschland produziert bereits ein Drittel seines Stroms aus erneuerbaren Quellen. Dennoch gibt es Probleme. Die Infrastruktur muss modernisiert werden. Batteriespeicher sind noch nicht ausreichend vorhanden. Elektromobilität wächst, aber langsam. Die Umstellung erfordert massive Investitionen. Die Gesellschaft muss bereit sein, ihre Gewohnheiten zu ändern. Jeder Mensch muss einen Beitrag leisten.",
+          "difficultWords": [
+            {
+              "word": "Klimawandel",
+              "translation": "cambiamento climatico",
+              "explanation": "alterazione del clima globale"
+            },
+            {
+              "word": "Energiewende",
+              "translation": "transizione energetica",
+              "explanation": "passaggio a energie rinnovabili"
+            },
+            {
+              "word": "Brennstoff",
+              "translation": "combustibile",
+              "explanation": "materiale per produrre energia"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Welche ist die größte Herausforderung?",
+              "options": [
+                "Wirtschaft",
+                "Klimawandel",
+                "Migration",
+                "Armut"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Klimawandel"
+            },
+            {
+              "question": "Wie viel Strom kommt aus erneuerbaren Quellen?",
+              "options": [
+                "Ein Drittel",
+                "Die Hälfte",
+                "Ein Viertel",
+                "Zwei Drittel"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Ein Drittel"
+            },
+            {
+              "question": "Was ist ein Problem?",
+              "options": [
+                "Zu viele Autos",
+                "Nicht genug Speicher",
+                "Zu viel Geld",
+                "Zu wenig Sonne"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Batteriespeicher"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_53",
+          "title": "Bildungssystem in Deutschland",
+          "theme": "Bildung",
+          "source": "Original B2 content",
+          "text": "Das deutsche Bildungssystem ist komplex und föderalistisch. Jedes Bundesland hat eigene Regeln. Dies führt zu unterschiedlichen Standards. Die Grundschule dauert vier Jahre. Danach folgt die Sekundarstufe mit verschiedenen Schultypen: Hauptschule, Realschule, Gymnasium. Dieses System wird kritisiert. Viele Experten fordern eine längere gemeinsame Lernzeit. Die Chancengleichheit ist nicht immer gegeben. Schüler aus wohlhabenden Familien haben Vorteile. Private Schulen sind teuer. Der Zugang zu Universitäten über Numerus Clausus ist umstritten. Die Qualität der Lehrerausbildung wird debattiert. Digitalisierung in Schulen bleibt hinter anderen Ländern zurück. Eine Reform des Bildungssystems ist längst überfällig.",
+          "difficultWords": [
+            {
+              "word": "föderalistisch",
+              "translation": "federale",
+              "explanation": "diviso in stati autonomi"
+            },
+            {
+              "word": "Grundschule",
+              "translation": "scuola primaria",
+              "explanation": "scuola per i più piccoli"
+            },
+            {
+              "word": "Chancengleichheit",
+              "translation": "uguaglianza di opportunità",
+              "explanation": "stesse possibilità per tutti"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wer legt die Schulregeln fest?",
+              "options": [
+                "Die Bundesregierung",
+                "Jedes Bundesland",
+                "Europa",
+                "Privatpersonen"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Jedes Bundesland"
+            },
+            {
+              "question": "Wie lange dauert die Grundschule?",
+              "options": [
+                "Zwei Jahre",
+                "Drei Jahre",
+                "Vier Jahre",
+                "Fünf Jahre"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Vier Jahre"
+            },
+            {
+              "question": "Was wird kritisiert?",
+              "options": [
+                "Zu viele Lehrer",
+                "Zu wenig Geld",
+                "Unterschiedliche Standards",
+                "Zu viele Schüler"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Unterschiedliche Standards"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_54",
+          "title": "Medienkompetenz im digitalen Zeitalter",
+          "theme": "Medien",
+          "source": "Original B2 content",
+          "text": "Medienkompetenz ist eine essenzielle Fähigkeit geworden. Wir sind täglich von Informationen überflutet. Nicht alle sind verlässlich oder wahr. Fake News sind ein großes Problem. Sie verbreiten sich schneller als korrekte Informationen. Social Media verstärkt diesen Effekt. Algorithmen zeigen uns Inhalte, die unsere Überzeugungen bestätigen. Dies führt zu Echokammern. Menschen sehen nur noch Meinungen, die sie teilen. Die Bildung in Medienkompetenz ist unzureichend. Schulen beginnen erst jetzt, dieses Thema zu unterrichten. Eltern sind oft selbst unsicher. Sie können ihre Kinder nicht angemessen führen. Kritisches Denken muss gefördert werden. Jeder muss lernen, Quellen zu überprüfen. Die Fähigkeit, zwischen Fakten und Meinungen zu unterscheiden, ist lebenswichtig.",
+          "difficultWords": [
+            {
+              "word": "Medienkompetenz",
+              "translation": "competenza mediatica",
+              "explanation": "capacità di comprendere e usare i media"
+            },
+            {
+              "word": "Fake News",
+              "translation": "notizie false",
+              "explanation": "informazioni false diffuse come vere"
+            },
+            {
+              "word": "Echokammer",
+              "translation": "camera dell'eco",
+              "explanation": "ambiente dove si sentono solo opinioni simili"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist ein großes Problem?",
+              "options": [
+                "Zu wenig Nachrichten",
+                "Fake News",
+                "Zu viel Fernsehen",
+                "Alte Medien"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Fake News"
+            },
+            {
+              "question": "Was verstärkt Fake News?",
+              "options": [
+                "Bücher",
+                "Schulen",
+                "Social Media",
+                "Kinos"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Social Media"
+            },
+            {
+              "question": "Was ist unzureichend?",
+              "options": [
+                "Technologie",
+                "Geld",
+                "Bildung in Medienkompetenz",
+                "Schulen"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Bildung in Medienkompetenz"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_55",
+          "title": "Urbanisierung und Megastädte",
+          "theme": "Geographie",
+          "source": "Original B2 content",
+          "text": "Weltweit zieht es immer mehr Menschen in die Städte. Urbanisierung ist ein globales Phänomen. Megastädte entstehen mit Millionen von Einwohnern. Dies bringt Herausforderungen. Wohnraum wird teuer und knapp. Der öffentliche Nahverkehr ist überlastet. Luftverschmutzung ist ein Problem. Trotzdem bieten Städte Chancen. Es gibt mehr Jobs und bessere Bildung. Kulturelle Aktivitäten sind vielfältig. Soziale Dienste sind besser erreichbar. Deutschland ist relativ dezentralisiert. Die größten Städte haben weniger Einwohner als in anderen Ländern. Dennoch wächst die Urbanisierung. Berlin, München und Hamburg ziehen immer mehr Bewohner an. Die Planung von Städten muss nachhaltig sein. Grünflächen und Biodiversität müssen erhalten bleiben.",
+          "difficultWords": [
+            {
+              "word": "Urbanisierung",
+              "translation": "urbanizzazione",
+              "explanation": "processo di concentrazione nelle città"
+            },
+            {
+              "word": "Megastadt",
+              "translation": "megalopoli",
+              "explanation": "città molto grande"
+            },
+            {
+              "word": "dezentralisiert",
+              "translation": "decentralizzato",
+              "explanation": "diviso in più centri"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wohin ziehen Menschen?",
+              "options": [
+                "Auf das Land",
+                "In die Berge",
+                "In die Städte",
+                "Ins Ausland"
+              ],
+              "correctAnswer": 2,
+              "explanation": "In die Städte"
+            },
+            {
+              "question": "Was ist ein Problem?",
+              "options": [
+                "Zu wenig Schulen",
+                "Knapper Wohnraum",
+                "Zu viele Bäume",
+                "Zu wenig Menschen"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Knapper Wohnraum"
+            },
+            {
+              "question": "Wie ist Deutschland?",
+              "options": [
+                "Sehr zentralisiert",
+                "Moderatisiert",
+                "Dezentralisiert",
+                "Rural"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Dezentralisiert"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_56",
+          "title": "Literatur und Identität",
+          "theme": "Kultur",
+          "source": "Original B2 content",
+          "text": "Literatur ist ein Fenster in andere Welten und Kulturen. Bücher ermöglichen es uns, verschiedene Perspektiven zu verstehen. Deutsche Literatur hat eine reiche Tradition. Goethe und Schiller sind weltbekannt. Im 20. Jahrhundert brachten Autoren wie Thomas Mann und Bertolt Brecht neue Ideen. Die Literatur reflektiert gesellschaftliche Veränderungen. Nachkriegsliteratur behandelt Schuld und Wiederaufbau. Moderne Autoren erforschen Identität und Zugehörigkeit. Migration und Mehrsprachigkeit sind häufige Themen. Literarische Werke helfen uns, uns selbst besser zu verstehen. Sie fördern Empathie. Das Lesen wird leider weniger. Streaming-Dienste konkurrieren mit Büchern. Dennoch gibt es ein Wiederaufwachen des Interesses an Literatur. Lesegruppen und Literaturclubs sind beliebter geworden.",
+          "difficultWords": [
+            {
+              "word": "Literatur",
+              "translation": "letteratura",
+              "explanation": "arte della scrittura"
+            },
+            {
+              "word": "Identität",
+              "translation": "identità",
+              "explanation": "insieme di caratteristiche che definiscono una persona"
+            },
+            {
+              "word": "Empathie",
+              "translation": "empatia",
+              "explanation": "capacità di capire i sentimenti altrui"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ermöglicht Literatur?",
+              "options": [
+                "Nur Unterhaltung",
+                "Verschiedene Perspektiven zu verstehen",
+                "Nur Information",
+                "Nur Technologie"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Verschiedene Perspektiven"
+            },
+            {
+              "question": "Welche Autoren werden erwähnt?",
+              "options": [
+                "Kafka und Hesse",
+                "Goethe und Schiller",
+                "Brecht allein",
+                "Nur moderne Autoren"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Goethe und Schiller"
+            },
+            {
+              "question": "Was ist ein häufiges Thema?",
+              "options": [
+                "Landwirtschaft",
+                "Migration",
+                "Sport",
+                "Politik"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Migration"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_57",
+          "title": "Finanzielle Stabilität und Schulden",
+          "theme": "Wirtschaft",
+          "source": "Original B2 content",
+          "text": "Finanzielle Stabilität ist für Individuen und Länder wichtig. Viele Menschen leben von Gehalt zu Gehalt. Schulden sind ein wachsendes Problem. Kreditkartenschulden und Studienkredite belasten viele. Die Zinssätze können schnell ansteigen. Finanzielle Bildung ist oft mangelhaft. Schulen unterrichten selten praktische Finanzkompetenzen. Menschen verstehen nicht, wie man budgetiert oder investiert. Auf staatlicher Ebene sind Schulden auch problematisch. Während der Pandemie stiegen die Staatsschulden. Die Rückzahlung wird Generationen belasten. Sparen und Investieren sind wichtig. Eine Notfallfonds zu haben schützt vor Krisen. Langfristige Investitionen in Bildung und Infrastruktur zahlen sich aus. Finanzielle Planung sollte früh beginnen.",
+          "difficultWords": [
+            {
+              "word": "Stabilität",
+              "translation": "stabilità",
+              "explanation": "stato di equilibrio"
+            },
+            {
+              "word": "Schulden",
+              "translation": "debiti",
+              "explanation": "denaro che si deve"
+            },
+            {
+              "word": "budgetieren",
+              "translation": "budgetare",
+              "explanation": "pianificare le spese"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Welches ist ein Problem?",
+              "options": [
+                "Zu viel Geld",
+                "Schulden",
+                "Zu viele Jobs",
+                "Zu wenig Arbeit"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Schulden"
+            },
+            {
+              "question": "Was wird oft nicht unterrichtet?",
+              "options": [
+                "Mathematik",
+                "Geschichte",
+                "Finanzkompetenzen",
+                "Sprachen"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Finanzkompetenzen"
+            },
+            {
+              "question": "Was ist wichtig zu haben?",
+              "options": [
+                "Viele Schulden",
+                "Eine Notfallfonds",
+                "Keine Ersparnisse",
+                "Nur Schulden"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Eine Notfallfonds"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_58",
+          "title": "Wissenschaftliche Innovation",
+          "theme": "Wissenschaft",
+          "source": "Original B2 content",
+          "text": "Wissenschaftliche Innovation treibt den Fortschritt voran. Deutschland ist führend in vielen Feldern. Die Forschung in Biotechnologie und Nanotechnologie ist weltklasse. Universitäten und Forschungsinstitute arbeiten zusammen. Dies fördert den Austausch von Ideen. Der private Sektor investiert auch massiv in Forschung. Viele Startups entstehen aus universitärer Forschung. Allerdings braucht Innovation Zeit und Geduld. Misserfolge sind Teil des Prozesses. Förderung von Grundlagenforschung ist wichtig. Sie führt nicht immer zu sofortigen praktischen Anwendungen. Dennoch liefert sie das Fundament für zukünftige Innovationen. Menschliche Neugier ist der Antrieb. Die Gesellschaft muss Wissenschaftler unterstützen. Bildung in Naturwissenschaften sollte gefördert werden.",
+          "difficultWords": [
+            {
+              "word": "Innovation",
+              "translation": "innovazione",
+              "explanation": "introduzione di novità"
+            },
+            {
+              "word": "Biotechnologie",
+              "translation": "biotecnologia",
+              "explanation": "tecnologia basata su processi biologici"
+            },
+            {
+              "word": "Grundlagenforschung",
+              "translation": "ricerca fondamentale",
+              "explanation": "ricerca su principi base, non applicata"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wer ist führend?",
+              "options": [
+                "USA",
+                "China",
+                "Deutschland",
+                "Russland"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Deutschland"
+            },
+            {
+              "question": "Was entsteht aus Universitätsforschung?",
+              "options": [
+                "Nur Theorie",
+                "Nur Lehre",
+                "Startups",
+                "Nichts"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Startups"
+            },
+            {
+              "question": "Was ist ein Teil des Prozesses?",
+              "options": [
+                "Nur Erfolg",
+                "Nur Geld",
+                "Misserfolge",
+                "Nur Theorie"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Misserfolge"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_59",
+          "title": "Generationenkonflikt in der Gesellschaft",
+          "theme": "Gesellschaft",
+          "source": "Original B2 content",
+          "text": "Unterschiedliche Generationen sehen die Welt verschiedenartig. Baby-Boomer haben eine andere Perspektive als Millennials oder Gen Z. Diese Unterschiede führen oft zu Konflikten. Junge Menschen kritisieren ältere für Umweltsünden. Ältere fühlen sich nicht verstanden. Technologie spaltet die Generationen. Digital Natives sind mit Smartphones aufgewachsen. Ältere Menschen struggle mit ständiger Konnektivität. Arbeitsethik unterscheidet sich auch. Junge Menschen legen Wert auf Work-Life-Balance. Ältere arbeiten traditionell mehr. Die Rente wird zum strittigen Thema. Junge zahlen in Systeme ein, die möglicherweise nicht nachhaltig sind. Dialog zwischen Generationen ist wichtig. Gegenseitiger Respekt kann Brücken bauen. Jede Generation hat Weisheit zu bieten. Ein intergenerationeller Austausch bereichert die Gesellschaft.",
+          "difficultWords": [
+            {
+              "word": "Generationenkonflikt",
+              "translation": "conflitto generazionale",
+              "explanation": "divergenza tra generazioni"
+            },
+            {
+              "word": "Baby-Boomer",
+              "translation": "baby boomer",
+              "explanation": "nati dopo WWII"
+            },
+            {
+              "word": "Digital Natives",
+              "translation": "nativi digitali",
+              "explanation": "nati con tecnologia"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wer sind Digital Natives?",
+              "options": [
+                "Menschen über 60",
+                "Mit Smartphones aufgewachsen",
+                "Ohne Internet",
+                "Nur in USA"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Mit Smartphones aufgewachsen"
+            },
+            {
+              "question": "Was ist wichtig?",
+              "options": [
+                "Konflikte",
+                "Ignoranz",
+                "Dialog zwischen Generationen",
+                "Trennung"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Dialog"
+            },
+            {
+              "question": "Welches Thema ist strittig?",
+              "options": [
+                "Sport",
+                "Essen",
+                "Rente",
+                "Musik"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Rente"
+            }
+          ]
+        },
+        {
+          "id": "b2_text_60",
+          "title": "Pandemie und gesellschaftliche Veränderungen",
+          "theme": "Gesundheit",
+          "source": "Original B2 content",
+          "text": "Die COVID-19 Pandemie hat die Gesellschaft fundamental verändert. Lockdowns zwangen uns zu Isolation. Remote-Arbeit wurde plötzlich normal. Schulen mussten digital unterrichten. Dies offenbarte digitale Ungleichheit. Nicht alle hatten Zugang zu guter Internetverbindung. Psychische Gesundheit litt unter Isolation. Depressionen und Angst stiegen. Das Gesundheitssystem wurde überfordert. Krankenhäuser waren überlastet. Impfungen wurden zentral. Manche Menschen lehnten sie ab. Dies führte zu gesellschaftlicher Polarisierung. Vertrauen in Institutionen sank. Die Pandemie zeigte auch Solidarität. Viele Freiwillige halfen. Community-Initiativen unterstützten Einsame. Die Lektionen der Pandemie sind wichtig. Wir müssen bessere Systeme für zukünftige Krisen aufbauen. Resilienz und Zusammenhalt sind essenziell.",
+          "difficultWords": [
+            {
+              "word": "Pandemie",
+              "translation": "pandemia",
+              "explanation": "malattia diffusa globalmente"
+            },
+            {
+              "word": "Lockdown",
+              "translation": "confinamento",
+              "explanation": "isolamento forzato"
+            },
+            {
+              "word": "Resilienz",
+              "translation": "resilienza",
+              "explanation": "capacità di riprendersi da difficoltà"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was zwangen Lockdowns?",
+              "options": [
+                "Zu arbeiten",
+                "Zu Isolation",
+                "Zu Schule",
+                "Zu Reisen"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Zu Isolation"
+            },
+            {
+              "question": "Was sank?",
+              "options": [
+                "Arbeitslosigkeit",
+                "Vertrauen in Institutionen",
+                "Geld",
+                "Bildung"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Vertrauen"
+            },
+            {
+              "question": "Was ist essenziell?",
+              "options": [
+                "Angst",
+                "Isolierung",
+                "Resilienz und Zusammenhalt",
+                "Arbeitslosigkeit"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Resilienz"
+            }
+          ]
         }
       ]
     },
@@ -27628,6 +28926,360 @@
               "explanation": "Der Text sagt explizit: 'nicht weniger, sondern mehr Resonanz braucht'."
             }
           ]
+        },
+        {
+          "id": "c1_text_55",
+          "title": "Philosophie der Gerechtigkeit",
+          "theme": "Philosophie",
+          "source": "Original C1 content",
+          "text": "Gerechtigkeit ist ein zentrales Konzept in der Philosophie. Verschiedene Philosophen haben unterschiedliche Antworten gegeben. Aristoteles sprach von distributiver Gerechtigkeit. Rawls prägte die Theorie der Gerechtigkeit als Fairness. Er argumentierte, dass eine gerechte Gesellschaft die schützen sollte, die am meisten leiden. Utilitaristen sagen, dass Gerechtigkeit das größtmögliche Glück für die größte Zahl schafft. Deontologen wie Kant sagen, dass Regeln unabhängig vom Ausgang eingehalten werden müssen. Diese Unterschiede sind nicht nur akademisch. Sie prägen unsere Justizsysteme. Eine Gesellschaft muss entscheiden, welche Konzeption von Gerechtigkeit sie verfolgt.",
+          "difficultWords": [
+            {
+              "word": "Gerechtigkeit",
+              "translation": "giustizia",
+              "explanation": "principio morale di equità"
+            },
+            {
+              "word": "distributiv",
+              "translation": "distributivo",
+              "explanation": "relativo alla distribuzione"
+            },
+            {
+              "word": "Utilitaristen",
+              "translation": "utilitaristi",
+              "explanation": "chi crede nel massimo benessere"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wer sprach von distributiver Gerechtigkeit?",
+              "options": [
+                "Kant",
+                "Aristoteles",
+                "Bentham",
+                "Rawls"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Aristoteles"
+            },
+            {
+              "question": "Was betont Kant?",
+              "options": [
+                "Glück",
+                "Regeln",
+                "Gefühle",
+                "Tradition"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Regeln"
+            },
+            {
+              "question": "Was ist Rawls Theorie?",
+              "options": [
+                "Utilitarismus",
+                "Gerechtigkeit als Fairness",
+                "Pflichtenethik",
+                "Relativismus"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Gerechtigkeit als Fairness"
+            }
+          ]
+        },
+        {
+          "id": "c1_text_56",
+          "title": "Künstliche Intelligenz und Ethik",
+          "theme": "Technologie",
+          "source": "Original C1 content",
+          "text": "Künstliche Intelligenz transformiert unsere Welt. Algorithmen entscheiden über Kredite und Anstellungen. Aber KI ist nicht neutral. Sie kann Vorurteile verstärken. Wenn Trainingsdaten rassistisch sind, lernt der Algorithmus Rassismus. Dies ist ethisch problematisch. Firmen tragen Verantwortung. Transparenz ist kritisch. Menschen sollten wissen, wenn sie von KI beurteilt werden. Regierungen entwickeln Regelwerke. Die DSGVO schützt Privatsphäre. Internationale Standards sind erforderlich. Die Entwicklung von KI muss ethisch geleitet werden.",
+          "difficultWords": [
+            {
+              "word": "Algorithmus",
+              "translation": "algoritmo",
+              "explanation": "procedura di calcolo"
+            },
+            {
+              "word": "Vorurteil",
+              "translation": "pregiudizio",
+              "explanation": "opinione preconcetta"
+            },
+            {
+              "word": "Diskriminierung",
+              "translation": "discriminazione",
+              "explanation": "trattamento ingiusto"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Ist KI neutral?",
+              "options": [
+                "Ja",
+                "Manchmal",
+                "Nein",
+                "Unbekannt"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Nein"
+            },
+            {
+              "question": "Was ist kritisch?",
+              "options": [
+                "Geschwindigkeit",
+                "Transparenz",
+                "Effizienz",
+                "Kosten"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Transparenz"
+            },
+            {
+              "question": "Was reguliert Privatsphäre?",
+              "options": [
+                "Firmen",
+                "DSGVO",
+                "Universität",
+                "Niemand"
+              ],
+              "correctAnswer": 1,
+              "explanation": "DSGVO"
+            }
+          ]
+        },
+        {
+          "id": "c1_text_57",
+          "title": "Postmoderne Literatur",
+          "theme": "Kultur",
+          "source": "Original C1 content",
+          "text": "Die postmoderne Literatur stellt traditionelle Konzepte in Frage. Bedeutung ist nicht fest. Sie wird durch Dekonstruktion offengelegt. Texte haben multiple Bedeutungen. Der Leser schafft Bedeutung durch sein Lesen. Postmoderne Werke sind oft fragmentiert. Sie hinterfragen ihre eigene Existenz. David Foster Wallace schrieb metafiktionale Werke. Sie brechen die vierte Wand. Der Leser wird Teil des kreativen Prozesses. Dies kann befreiend sein. Kritiker sagen, dass Postmodernismus elitär ist. Anhänger sagen, dass dies den Status quo hinterfragt.",
+          "difficultWords": [
+            {
+              "word": "Dekonstruktion",
+              "translation": "decostruzione",
+              "explanation": "analisi che smonta significati fissi"
+            },
+            {
+              "word": "Metafiktion",
+              "translation": "metafizione",
+              "explanation": "narrazione che parla di se stessa"
+            },
+            {
+              "word": "fragmentiert",
+              "translation": "frammentato",
+              "explanation": "diviso in parti"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Ist Bedeutung fest?",
+              "options": [
+                "Ja",
+                "Nein",
+                "Manchmal",
+                "Immer"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Nein"
+            },
+            {
+              "question": "Was macht der Leser?",
+              "options": [
+                "Nichts",
+                "Liest passiv",
+                "Schafft Bedeutung",
+                "Findet Fehler"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Schafft Bedeutung"
+            },
+            {
+              "question": "Was kritisieren Gegner?",
+              "options": [
+                "Kurz",
+                "Langweilig",
+                "Elitär",
+                "Dumm"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Elitär"
+            }
+          ]
+        },
+        {
+          "id": "c1_text_58",
+          "title": "Klimawandel und Ökosysteme",
+          "theme": "Umwelt",
+          "source": "Original C1 content",
+          "text": "Der Klimawandel hat tiefgreifende Auswirkungen auf Ökosysteme. Tierarten verschwinden schneller als je zuvor. Die Biodiversitätskrise ist beispiellos. Korallenriffe sind gefährdet. Ozeanversäuerung und Erwärmung töten sie ab. Dies hat Kaskadeneffekte. Wenn Korallenriffe sterben, sterben auch die Fische. Ganze Nahrungsketten zusammenbrechen. Waldbrände zerstören Lebensräume. Ein Teufelskreis entsteht. Weniger Wälder bedeuten mehr CO2. Mehr CO2 bedeutet mehr Erwärmung. Mehr Erwärmung bedeutet mehr Waldbrände.",
+          "difficultWords": [
+            {
+              "word": "Ökosystem",
+              "translation": "ecosistema",
+              "explanation": "sistema biologico interdipendente"
+            },
+            {
+              "word": "Biodiversität",
+              "translation": "biodiversità",
+              "explanation": "varietà di specie viventi"
+            },
+            {
+              "word": "Kaskadeneffekt",
+              "translation": "effetto cascata",
+              "explanation": "conseguenze a catena"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist beispiellos?",
+              "options": [
+                "Armut",
+                "Krieg",
+                "Biodiversitätskrise",
+                "Reichtum"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Biodiversitätskrise"
+            },
+            {
+              "question": "Was gefährdet Korallenriffe?",
+              "options": [
+                "Wind",
+                "Ozeanversäuerung",
+                "Fische",
+                "Salz"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Ozeanversäuerung"
+            },
+            {
+              "question": "Was ist der Teufelskreis?",
+              "options": [
+                "Armut",
+                "Weniger Wälder -> mehr CO2",
+                "Regen",
+                "Schnee"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Weniger Wälder -> mehr CO2"
+            }
+          ]
+        },
+        {
+          "id": "c1_text_59",
+          "title": "Sozialpsychologie und Massenbewegungen",
+          "theme": "Psychologie",
+          "source": "Original C1 content",
+          "text": "Massenbewegungen entstehen aus gemeinsamen Frustrationen. Die Psychologie von Gruppen unterscheidet sich von Individuen. Menschen verhalten sich anders in Gruppen. Dies nennt man Deindividuation. Sie verlieren ihr Selbstbewusstsein. Emotionale Ansteckung ist mächtig. Eine Person's Erregung infiziert andere. Dies ist sowohl positiv als auch negativ. Während positiver Proteste vereinigen sich Menschen. Während Unruhen können sie gewalttätig werden. Führerschaft ist wichtig. Ein charismatischer Führer mobilisiert Massen. Dies ist gefährlich. Demagogen nutzten dies historisch.",
+          "difficultWords": [
+            {
+              "word": "Deindividuation",
+              "translation": "deindividuazione",
+              "explanation": "perdita di identità individuale nel gruppo"
+            },
+            {
+              "word": "emotionale Ansteckung",
+              "translation": "contagio emotivo",
+              "explanation": "diffusione di emozioni tra persone"
+            },
+            {
+              "word": "In-group bias",
+              "translation": "favore del gruppo",
+              "explanation": "preferenza per il proprio gruppo"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist Deindividuation?",
+              "options": [
+                "Alleinsein",
+                "Verlust des Selbstbewusstseins",
+                "Glück",
+                "Trauer"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Verlust des Selbstbewusstseins"
+            },
+            {
+              "question": "Wer ist gefährlich?",
+              "options": [
+                "Lehrer",
+                "Demagogen",
+                "Ärzte",
+                "Polizisten"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Demagogen"
+            },
+            {
+              "question": "Was ist emotionale Ansteckung?",
+              "options": [
+                "Krankheit",
+                "Diffusion von Emotionen",
+                "Angst",
+                "Hass"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Diffusion von Emotionen"
+            }
+          ]
+        },
+        {
+          "id": "c1_text_60",
+          "title": "Transhumanismus und die Zukunft",
+          "theme": "Zukunft",
+          "source": "Original C1 content",
+          "text": "Transhumanismus befürwortet technologische Verbesserung des Menschen. Anhänger glauben, dass wir unsere biologischen Grenzen übersteigen können. Durch Genetik und Nanotechnologie könnten wir länger leben. Dies wirft ethische Fragen auf. Würde dies Ungleichheit verschärfen? Nur Reiche könnten sich Verbesserungen leisten. Die Identität der Menschheit würde sich ändern. Sind wir noch menschlich, wenn wir überwiegend technologisch sind? Kritiker sagen, dass Transhumanismus Hybris ist. Anhänger sagen, dass es unvermeidlich ist. Technologie wird uns verändern. Wir sollten es proaktiv gestalten.",
+          "difficultWords": [
+            {
+              "word": "Transhumanismus",
+              "translation": "transumanesimo",
+              "explanation": "movimento per miglioramento tecnologico"
+            },
+            {
+              "word": "Kybernetik",
+              "translation": "cibernetica",
+              "explanation": "scienza del controllo e della comunicazione"
+            },
+            {
+              "word": "Hybris",
+              "translation": "hybris",
+              "explanation": "superbia e arroganza eccessiva"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was befürwortet Transhumanismus?",
+              "options": [
+                "Rückfall",
+                "Einfachheit",
+                "Technologische Verbesserung",
+                "Armut"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Technologische Verbesserung"
+            },
+            {
+              "question": "Welche Bedenken gibt es?",
+              "options": [
+                "Zu teuer",
+                "Ungleichheit",
+                "Zu schnell",
+                "Langweilig"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Ungleichheit"
+            },
+            {
+              "question": "Was könnte sich ändern?",
+              "options": [
+                "Nichts",
+                "Nur Technologie",
+                "Die Identität der Menschheit",
+                "Die Sprache"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Die Identität der Menschheit"
+            }
+          ]
         }
       ]
     },
@@ -31995,6 +33647,1186 @@
               ],
               "correctAnswer": 1,
               "explanation": "Resonanz ist Gegenbegriff zur Beschleunigung, intensive Beziehung zu Dingen."
+            }
+          ]
+        },
+        {
+          "id": "c2_text_41",
+          "title": "Ontologie und das Sein",
+          "theme": "Philosophie",
+          "source": "Original C2 content",
+          "text": "Ontologie untersucht das Wesen des Seins. Heidegger unterschied zwischen Sein und Seiendem. Descartes: Ich denke, daher bin ich. Dies war revolutionary. Kant argumentierte, dass Raum und Zeit nicht objektiv sind. Sie sind Strukturen unseres Wahrnehmungsapparats.",
+          "difficultWords": [
+            {
+              "word": "Ontologie",
+              "translation": "ontologia",
+              "explanation": "studio dell'essere"
+            },
+            {
+              "word": "Seiendes",
+              "translation": "ente",
+              "explanation": "cosa che esiste"
+            },
+            {
+              "word": "Sein",
+              "translation": "essere",
+              "explanation": "essenza dell'esistenza"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was untersucht die Ontologie?",
+              "options": [
+                "Ethik",
+                "Das Wesen des Seins",
+                "Ästhetik",
+                "Logik"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Das Wesen des Seins"
+            },
+            {
+              "question": "Was unterschied Heidegger?",
+              "options": [
+                "Gut und Böse",
+                "Sein und Seiendes",
+                "Raum und Zeit",
+                "Denken"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Sein und Seiendes"
+            },
+            {
+              "question": "Was argumentierte Kant?",
+              "options": [
+                "Alles real",
+                "Raum und Zeit objektiv",
+                "Raum und Zeit sind Strukturen der Wahrnehmung",
+                "Nichts existiert"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Raum und Zeit Strukturen"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_42",
+          "title": "Linguistische Relativität",
+          "theme": "Linguistik",
+          "source": "Original C2 content",
+          "text": "Lengt Sprache unser Denken? Die Sapir-Whorf-Hypothese besagt, dass Sprache Gedanken bestimmt. Deutsch hat Genusmarkierungen. Dies könnte beeinflussen, wie Deutsche Möbel konzeptualisieren.",
+          "difficultWords": [
+            {
+              "word": "linguistische Relativität",
+              "translation": "relatività linguistica",
+              "explanation": "influenza del linguaggio sul pensiero"
+            },
+            {
+              "word": "Sapir-Whorf",
+              "translation": "Sapir-Whorf",
+              "explanation": "ipotesi sulla determinazione linguistica"
+            },
+            {
+              "word": "Genusmarkierungen",
+              "translation": "marche di genere",
+              "explanation": "indicatori del genere grammaticale"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was besagt Sapir-Whorf?",
+              "options": [
+                "Sprache reflektiert Denken",
+                "Sprache bestimmt Denken",
+                "Denken bestimmt Sprache",
+                "Sprache ist nebensächlich"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Sprache bestimmt Denken"
+            },
+            {
+              "question": "Was haben deutsche Wörter?",
+              "options": [
+                "Keine Struktur",
+                "Genusmarkierungen",
+                "Keine Bedeutung",
+                "Doppelte Bedeutung"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Genusmarkierungen"
+            },
+            {
+              "question": "Was zeigen Neurowissenschaften?",
+              "options": [
+                "Sprache bestimmt alles",
+                "Gehirn nimmt Farben wahr unabhängig von Sprache",
+                "Sprache ist unwichtig",
+                "Gedanken sind immun"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Gehirn nimmt Farben wahr"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_43",
+          "title": "Quantenmechanik und Realität",
+          "theme": "Wissenschaft",
+          "source": "Original C2 content",
+          "text": "Quantenmechanik beschreibt die Welt der Atome. Ein Elektron existiert in einer Überlagerung von Zuständen, bis es gemessen wird. Das Beobachten verändert das System. Dies ist nicht weil die Messung stört. Es ist weil Realität selbst probabilistisch ist. Einstein sagte 'Gott würfelt nicht'. Aber moderne Physik zeigt, dass Gott durchaus würfelt.",
+          "difficultWords": [
+            {
+              "word": "Quantenmechanik",
+              "translation": "meccanica quantistica",
+              "explanation": "teoria della fisica atomica"
+            },
+            {
+              "word": "Überlagerung",
+              "translation": "sovrapposizione",
+              "explanation": "esistenza simultanea di stati multipli"
+            },
+            {
+              "word": "probabilistisch",
+              "translation": "probabilistico",
+              "explanation": "basato su probabilità"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was beschreibt die Quantenmechanik?",
+              "options": [
+                "Große Objekte",
+                "Atome und subatomare Teilchen",
+                "Nur Energien",
+                "Nur Kräfte"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Atome und Teilchen"
+            },
+            {
+              "question": "Was gibt es vor der Messung?",
+              "options": [
+                "Definite Position",
+                "Überlagerung von Zuständen",
+                "Nichts",
+                "Klare Ergebnisse"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Überlagerung"
+            },
+            {
+              "question": "Was sagte Einstein?",
+              "options": [
+                "Gott würfelt",
+                "Gott würfelt nicht",
+                "Es gibt keinen Gott",
+                "Würfel sind wichtig"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Gott würfelt nicht"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_44",
+          "title": "Psychoanalyse und das Unbewusste",
+          "theme": "Psychologie",
+          "source": "Original C2 content",
+          "text": "Freuds Psychoanalyse hat die Psychologie fundamental verändert. Die Id ist unser primitiver Trieb. Das Ich versucht, die Id in der realen Welt auszudrücken. Das Überich ist unser Gewissen. Verdrängte Erinnerungen können psychische Probleme verursachen.",
+          "difficultWords": [
+            {
+              "word": "Psychoanalyse",
+              "translation": "psicoanalisi",
+              "explanation": "teoria psicologica di Freud"
+            },
+            {
+              "word": "unbewusst",
+              "translation": "inconscio",
+              "explanation": "non consapevole"
+            },
+            {
+              "word": "Triebe",
+              "translation": "pulsioni",
+              "explanation": "motivazioni istintive"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was argumentierte Freud?",
+              "options": [
+                "Alles ist bewusst",
+                "Viel Motivation ist unbewusst",
+                "Das Unbewusste existiert nicht",
+                "Menschen sind rational"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Viel ist unbewusst"
+            },
+            {
+              "question": "Was ist die Id?",
+              "options": [
+                "Das Gewissen",
+                "Der primitive Trieb",
+                "Die Realität",
+                "Das Ich"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Der primitive Trieb"
+            },
+            {
+              "question": "Was verursacht psychische Probleme?",
+              "options": [
+                "Rational Denken",
+                "Glück",
+                "Verdrängte Erinnerungen",
+                "Erfolg"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Verdrängte Erinnerungen"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_45",
+          "title": "Marxismus und Materialismus",
+          "theme": "Philosophie",
+          "source": "Original C2 content",
+          "text": "Karl Marx revolutionierte unser Verständnis von Geschichte. Die Wirtschaft ist die Grundlage aller Gesellschaft. Der Kapitalismus wird durch Widersprüche zerstört. Die Arbeiter werden ausgebeutet. Eine Revolution wird stattfinden. Der Kommunismus wird folgen.",
+          "difficultWords": [
+            {
+              "word": "historischer Materialismus",
+              "translation": "materialismo storico",
+              "explanation": "teoria che l'economia forma la storia"
+            },
+            {
+              "word": "Überbauten",
+              "translation": "sovrastrutture",
+              "explanation": "aspetti culturali e ideologici"
+            },
+            {
+              "word": "ausgebeutet",
+              "translation": "sfruttati",
+              "explanation": "usati per il profitto altrui"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist die Grundlage?",
+              "options": [
+                "Kultur",
+                "Religion",
+                "Die Wirtschaft",
+                "Das Recht"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Die Wirtschaft"
+            },
+            {
+              "question": "Was werden zerstört?",
+              "options": [
+                "Kultur",
+                "Religion",
+                "Der Kapitalismus",
+                "Die Natur"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Der Kapitalismus"
+            },
+            {
+              "question": "Was wird zerstören?",
+              "options": [
+                "Kultur",
+                "Arbeit",
+                "Industrie",
+                "Klassenkampf"
+              ],
+              "correctAnswer": 3,
+              "explanation": "Klassenkampf"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_46",
+          "title": "Semiotik und Zeichen",
+          "theme": "Linguistik",
+          "source": "Original C2 content",
+          "text": "Semiotik ist die Wissenschaft der Zeichen. Peirce definierte ein Zeichen als etwas, das für etwas anderes steht. Das Ikon ähnelt dem, was es darstellt. Der Index hat eine kausale Beziehung. Das Symbol ist konventionell.",
+          "difficultWords": [
+            {
+              "word": "Semiotik",
+              "translation": "semiotica",
+              "explanation": "scienza dei segni"
+            },
+            {
+              "word": "Ikon",
+              "translation": "icona",
+              "explanation": "segno che somiglia all'oggetto"
+            },
+            {
+              "word": "Signifikant",
+              "translation": "significante",
+              "explanation": "forma materiale del segno"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist ein Zeichen?",
+              "options": [
+                "Ein Symbol",
+                "Ein Konzept",
+                "Etwas, das für etwas anderes steht",
+                "Ein Bild"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Etwas, das steht"
+            },
+            {
+              "question": "Was ist ein Ikon?",
+              "options": [
+                "Ein Symbol",
+                "Ähnlich zu dem, was es darstellt",
+                "Ein Index",
+                "Ein Sound"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Ähnlich"
+            },
+            {
+              "question": "Wie entsteht ein Symbol?",
+              "options": [
+                "Durch Ähnlichkeit",
+                "Durch Ursache",
+                "Durch gesellschaftliche Übereinkunft",
+                "Durch Natur"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Durch Übereinkunft"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_47",
+          "title": "Existenzialismus und Freiheit",
+          "theme": "Philosophie",
+          "source": "Original C2 content",
+          "text": "Jean-Paul Sartre war führender Existentialist. 'Existenz geht der Essenz voraus'. Es gibt keine menschliche Natur. Wir sind radikal frei. Mit Freiheit kommt Verantwortung. Wir sind verurteilt, frei zu sein.",
+          "difficultWords": [
+            {
+              "word": "Existenzialismus",
+              "translation": "esistenzialismo",
+              "explanation": "filosofia dell'esistenza umana"
+            },
+            {
+              "word": "Faktizität",
+              "translation": "fattualità",
+              "explanation": "i fatti dati della nostra situazione"
+            },
+            {
+              "word": "Transzendenz",
+              "translation": "trascendenza",
+              "explanation": "capacità di andare oltre i limiti"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was geht voraus?",
+              "options": [
+                "Natur",
+                "Essenz",
+                "Existenz",
+                "Freiheit"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Existenz"
+            },
+            {
+              "question": "Gibt es menschliche Natur?",
+              "options": [
+                "Ja",
+                "Nein",
+                "Teilweise",
+                "Unklar"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Nein"
+            },
+            {
+              "question": "Was kommt mit Freiheit?",
+              "options": [
+                "Freude",
+                "Verantwortung",
+                "Geld",
+                "Glück"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Verantwortung"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_48",
+          "title": "Dekonstruktion und Poststrukturalismus",
+          "theme": "Philosophie",
+          "source": "Original C2 content",
+          "text": "Jacques Derrida prägte Dekonstruktion. Sie zeigt, dass Texte nicht stabil sind. Bedeutung wird durch Unterschied erzeugt. Das Wort 'Weiß' bedeutet nichts ohne 'Schwarz'.",
+          "difficultWords": [
+            {
+              "word": "Dekonstruktion",
+              "translation": "decostruzione",
+              "explanation": "analisi che smonta il significato stabile"
+            },
+            {
+              "word": "differential",
+              "translation": "differenziale",
+              "explanation": "definito per differenza"
+            },
+            {
+              "word": "Poststrukturalismus",
+              "translation": "post-strutturalismo",
+              "explanation": "movimento filosofico dopo lo strutturalismo"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist Dekonstruktion?",
+              "options": [
+                "Zerstörung",
+                "Analyse von Textinstabilität",
+                "Konstruktion",
+                "Vereinfachung"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Analyse"
+            },
+            {
+              "question": "Was erzeugt Bedeutung?",
+              "options": [
+                "Intention",
+                "Unterschied",
+                "Struktur",
+                "Sprache"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Unterschied"
+            },
+            {
+              "question": "Gibt es zentrale Bedeutungen?",
+              "options": [
+                "Ja",
+                "Nein",
+                "Manchmal",
+                "Unklar"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Nein"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_49",
+          "title": "Biopolitik und Macht",
+          "theme": "Soziologie",
+          "source": "Original C2 content",
+          "text": "Michel Foucault prägte Biopolitik. Dies bezieht sich auf die Regulierung der Bevölkerung. Moderne Staaten kontrollieren Gesundheit, Fortpflanzung, Sexualität. Dies ist durch Diskurse und Normalität.",
+          "difficultWords": [
+            {
+              "word": "Biopolitik",
+              "translation": "biopolitica",
+              "explanation": "regolazione della popolazione da parte dello stato"
+            },
+            {
+              "word": "Biomacht",
+              "translation": "biopoder",
+              "explanation": "potere sul corpo e la vita"
+            },
+            {
+              "word": "Panoptismus",
+              "translation": "panottismo",
+              "explanation": "sistema di sorveglianza invisibile"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist Biopolitik?",
+              "options": [
+                "Krieg",
+                "Regulierung der Bevölkerung",
+                "Biologie",
+                "Politik"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Regulierung"
+            },
+            {
+              "question": "Was ist Panoptismus?",
+              "options": [
+                "Gefängnis",
+                "Alle können alle sehen",
+                "Unbewusste Selbstüberwachung",
+                "Freiheit"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Selbstüberwachung"
+            },
+            {
+              "question": "Ist Macht nur repressiv?",
+              "options": [
+                "Ja",
+                "Nein, sie ist auch produktiv",
+                "Manchmal",
+                "Nicht wirklich"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Auch produktiv"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_50",
+          "title": "Ökonomie und Schulden",
+          "theme": "Wirtschaft",
+          "source": "Original C2 content",
+          "text": "David Graeber schrieb 'Schulden: Die ersten 5.000 Jahre'. Er zeigt, dass Schulden älter als Geld sind. Schulden sind nicht moralisch. Sie sind wirtschaftlich.",
+          "difficultWords": [
+            {
+              "word": "Schulden",
+              "translation": "debiti",
+              "explanation": "denaro dovuto"
+            },
+            {
+              "word": "Bartertausch",
+              "translation": "baratto",
+              "explanation": "scambio diretto di beni"
+            },
+            {
+              "word": "Schuldenerleichterung",
+              "translation": "cancellazione del debito",
+              "explanation": "riduzione o eliminazione di debiti"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Wer schrieb Schulden?",
+              "options": [
+                "Marx",
+                "Graeber",
+                "Smith",
+                "Keynes"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Graeber"
+            },
+            {
+              "question": "Was ist älter als Geld?",
+              "options": [
+                "Bartertausch",
+                "Schulden",
+                "Moderne Wirtschaft",
+                "Märkte"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Schulden"
+            },
+            {
+              "question": "Was sind Schulden?",
+              "options": [
+                "Moralisch",
+                "Wirtschaftlich",
+                "Ungerecht",
+                "Unvermeidlich"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Wirtschaftlich"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_51",
+          "title": "Feminismus und Geschlechterstheorie",
+          "theme": "Soziologie",
+          "source": "Original C2 content",
+          "text": "Judith Butler revolutionierte Geschlechtertheorie. Geschlecht ist performativ. Wir 'tun' unser Geschlecht durch wiederholte Handlungen. Männlichkeit und Weiblichkeit sind Rollen, die wir spielen.",
+          "difficultWords": [
+            {
+              "word": "performativ",
+              "translation": "performativo",
+              "explanation": "creato attraverso l'azione ripetuta"
+            },
+            {
+              "word": "Geschlechterstheorie",
+              "translation": "teoria del genere",
+              "explanation": "analisi di come il genere è costruito"
+            },
+            {
+              "word": "Queerness",
+              "translation": "queerità",
+              "explanation": "identità di genere non-binaria"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Ist Geschlecht biologisch?",
+              "options": [
+                "Ja",
+                "Nein, es ist performativ",
+                "Teilweise",
+                "Unklar"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Performativ"
+            },
+            {
+              "question": "Wie wird Geschlecht 'getan'?",
+              "options": [
+                "Genetisch",
+                "Durch Natur",
+                "Durch wiederholte Handlungen",
+                "Unbewusst"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Wiederholte Handlungen"
+            },
+            {
+              "question": "Was sind Männlichkeit und Weiblichkeit?",
+              "options": [
+                "Biologie",
+                "Essenz",
+                "Rollen",
+                "Instinkte"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Rollen"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_52",
+          "title": "Neurophänomenologie",
+          "theme": "Neurowissenschaft",
+          "source": "Original C2 content",
+          "text": "Francisco Varela kombinierte Neurowissenschaft mit Phänomenologie. Das Bewusstsein ist nicht nur ein neuraler Prozess. Es ist auch eine subjektive Erfahrung. Enaction ist seine Theorie. Der Verstand ist nicht separieren vom Körper.",
+          "difficultWords": [
+            {
+              "word": "Neurophänomenologie",
+              "translation": "neurofenomenologia",
+              "explanation": "combinazione di neuroscienze e fenomenologia"
+            },
+            {
+              "word": "hard problem",
+              "translation": "problema difficile",
+              "explanation": "il problema di spiegare la consapevolezza soggettiva"
+            },
+            {
+              "word": "Enaction",
+              "translation": "enazione",
+              "explanation": "teoria che la mente emerge dall'azione nel mondo"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was kombiniert Neurophänomenologie?",
+              "options": [
+                "Biologie und Chemie",
+                "Neurowissenschaft und Phänomenologie",
+                "Physik und Psychologie",
+                "Mathematik und Philosophie"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Neurowissenschaft und Phänomenologie"
+            },
+            {
+              "question": "Was ist das hard problem?",
+              "options": [
+                "Hirnaktivität messen",
+                "Wie sich etwas anfühlt erklären",
+                "Neuronen zählen",
+                "Verhalten vorhersagen"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Wie etwas anfühlt"
+            },
+            {
+              "question": "Was ist Enaction?",
+              "options": [
+                "Aktion",
+                "Verstand = Gehirn",
+                "Verstand durch Aktion",
+                "Bewusstsein"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Verstand durch Aktion"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_53",
+          "title": "Kritische Rationalität",
+          "theme": "Epistemologie",
+          "source": "Original C2 content",
+          "text": "Karl Popper revolutionierte Wissenschaftsphilosophie. Er kritisierte Induktion. Wissenschaft funktioniert durch Falsifizierbarkeit. Eine wissenschaftliche Theorie muss falsifizierbar sein. Astrologie ist nicht wissenschaftlich, weil sie nicht falsifizierbar ist.",
+          "difficultWords": [
+            {
+              "word": "Induktion",
+              "translation": "induzione",
+              "explanation": "inferenza da casi particolari a generalizzazioni"
+            },
+            {
+              "word": "Falsifizierbarkeit",
+              "translation": "falsificabilità",
+              "explanation": "capacità di provare che qualcosa è falso"
+            },
+            {
+              "word": "Kritischer Rationalismus",
+              "translation": "razionalismo critico",
+              "explanation": "epistemologia che enfatizza la critica"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was kritisierte Popper?",
+              "options": [
+                "Mathematik",
+                "Induktion",
+                "Logik",
+                "Sprache"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Induktion"
+            },
+            {
+              "question": "Was müssen wissenschaftliche Theorien sein?",
+              "options": [
+                "Wahr",
+                "Falsifizierbar",
+                "Beliebt",
+                "Einfach"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Falsifizierbar"
+            },
+            {
+              "question": "Ist Astrologie wissenschaftlich?",
+              "options": [
+                "Ja",
+                "Nein",
+                "Manchmal",
+                "Teilweise"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Nein"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_54",
+          "title": "Pragmatismus und Wahrheit",
+          "theme": "Philosophie",
+          "source": "Original C2 content",
+          "text": "Charles Sanders Peirce war Pragmatist. Wahrheit ist nicht absolut. Wahrheit ist das, was funktioniert. Eine Idee ist wahr, wenn sie uns erfolgreich navigieren lässt. Dies bedeutet, dass 'Wahrheit' nicht zeitlos ist.",
+          "difficultWords": [
+            {
+              "word": "Pragmatismus",
+              "translation": "pragmatismo",
+              "explanation": "filosofia che giudica le idee per utilità"
+            },
+            {
+              "word": "Wahrheit",
+              "translation": "verità",
+              "explanation": "quello che è vero"
+            },
+            {
+              "word": "zeitlos",
+              "translation": "senza tempo",
+              "explanation": "non cambia nel tempo"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ist Wahrheit für Peirce?",
+              "options": [
+                "Absolut",
+                "Das, was funktioniert",
+                "Statisch",
+                "Objektiv"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Das, was funktioniert"
+            },
+            {
+              "question": "Sind Theorien was?",
+              "options": [
+                "Absolut",
+                "Werkzeuge",
+                "Richtig",
+                "Final"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Werkzeuge"
+            },
+            {
+              "question": "Was ist kritisch?",
+              "options": [
+                "Pragmatismus ist schwach",
+                "Wahrheit wird aufgelöst",
+                "Ideen sind Werkzeuge",
+                "Nichts ist sicher"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Wahrheit wird aufgelöst"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_55",
+          "title": "Globalismus und Nationalismus",
+          "theme": "Geopolitik",
+          "source": "Original C2 content",
+          "text": "Die Welt ist globalisiert. Produkte reisen tausende Kilometer. Kapital bewegt sich über Grenzen. Information fließt sofort. Dies hat positive Effekte. Aber es gibt auch Probleme. Lokalkultur wird erodiert.",
+          "difficultWords": [
+            {
+              "word": "Globalismus",
+              "translation": "globalismo",
+              "explanation": "integrazione economica mondiale"
+            },
+            {
+              "word": "Nationalismus",
+              "translation": "nazionalismo",
+              "explanation": "priorità dell'identità nazionale"
+            },
+            {
+              "word": "erodiert",
+              "translation": "erosa",
+              "explanation": "gradualmente danneggiata"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was bewegt sich über Grenzen?",
+              "options": [
+                "Menschen",
+                "Kapital",
+                "Produkte",
+                "Alles"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Kapital"
+            },
+            {
+              "question": "Was führt zu Reaktionen?",
+              "options": [
+                "Freiheit",
+                "Offenheit",
+                "Bedrohung durch Globalisierung",
+                "Gutes Leben"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Bedrohung"
+            },
+            {
+              "question": "Was ist zentral?",
+              "options": [
+                "Ideologie",
+                "Religion",
+                "Spannung zwischen Globalismus und Nationalismus",
+                "Technologie"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Spannung"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_56",
+          "title": "Synthetische Biologie",
+          "theme": "Biologie",
+          "source": "Original C2 content",
+          "text": "Synthetische Biologie designt neue biologische Systeme. CRISPR-Cas9 ermöglicht Genbearbeitung. Wir können DNA wie Code programmieren. Dies ist revolutionär. Wir können Krankheiten heilen.",
+          "difficultWords": [
+            {
+              "word": "Synthetische Biologie",
+              "translation": "biologia sintetica",
+              "explanation": "design di sistemi biologici artificiali"
+            },
+            {
+              "word": "Genbearbeitung",
+              "translation": "editing genetico",
+              "explanation": "modifica del DNA"
+            },
+            {
+              "word": "Designer-Babys",
+              "translation": "bambini progettati",
+              "explanation": "bambini con caratteristiche scelte geneticamente"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was ermöglicht CRISPR?",
+              "options": [
+                "Krankheiten",
+                "Genbearbeitung",
+                "Evolution",
+                "Leben"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Genbearbeitung"
+            },
+            {
+              "question": "Was könnte zu Ungleichheit führen?",
+              "options": [
+                "Armut",
+                "Genetische Verbesserungen für Reiche",
+                "Bildung",
+                "Sprache"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Genetische Verbesserungen"
+            },
+            {
+              "question": "Was ist schneller als Regulierung?",
+              "options": [
+                "Politik",
+                "Moral",
+                "Wissenschaft",
+                "Gesellschaft"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Wissenschaft"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_57",
+          "title": "Metaphysik und Möglichkeit",
+          "theme": "Philosophie",
+          "source": "Original C2 content",
+          "text": "David Lewis entwickelte die 'Theorie der möglichen Welten'. Es gibt nicht nur eine Welt: die aktuale. Es gibt alle möglichen Welten. Diese sind real, nicht nur gedacht.",
+          "difficultWords": [
+            {
+              "word": "Metaphysik",
+              "translation": "metafisica",
+              "explanation": "studio della realtà e dell'essere"
+            },
+            {
+              "word": "mögliche Welten",
+              "translation": "mondi possibili",
+              "explanation": "universi ipotetici alternativi"
+            },
+            {
+              "word": "Mereologie",
+              "translation": "mereologia",
+              "explanation": "studio delle parti e del tutto"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was entwickelte Lewis?",
+              "options": [
+                "Logik",
+                "Theorie der möglichen Welten",
+                "Physik",
+                "Ethik"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Theorie"
+            },
+            {
+              "question": "Sind mögliche Welten real?",
+              "options": [
+                "Nein",
+                "Ja",
+                "Teilweise",
+                "Unklar"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Ja"
+            },
+            {
+              "question": "Was löst das Konzept?",
+              "options": [
+                "Wissenschaft",
+                "Probleme der Modalität",
+                "Physik",
+                "Logik"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Probleme der Modalität"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_58",
+          "title": "Kosmologie und Ursprung",
+          "theme": "Wissenschaft",
+          "source": "Original C2 content",
+          "text": "Der Big Bang ist die beste Theorie der Kosmologie. Das Universum begann vor etwa 13.8 Milliarden Jahren. Es war extrem heiß und dicht. Es expandierte und kühlte ab. Was war vor dem Big Bang? Dies ist möglicherweise eine unsinnige Frage.",
+          "difficultWords": [
+            {
+              "word": "Kosmologie",
+              "translation": "cosmologia",
+              "explanation": "studio dell'universo e della sua origine"
+            },
+            {
+              "word": "Big Bang",
+              "translation": "big bang",
+              "explanation": "teoria dell'inizio dell'universo"
+            },
+            {
+              "word": "expandierte",
+              "translation": "si è espanso",
+              "explanation": "è cresciuto in dimensioni"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Vor wie langer Zeit begann das Universum?",
+              "options": [
+                "10 Mrd",
+                "13.8 Mrd",
+                "20 Mrd",
+                "5 Mrd"
+              ],
+              "correctAnswer": 1,
+              "explanation": "13.8 Milliarden"
+            },
+            {
+              "question": "Was ist eine unsinnige Frage?",
+              "options": [
+                "Wann began es",
+                "Was ist Raum",
+                "Was war vor Big Bang",
+                "Wo ist es"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Was war vor"
+            },
+            {
+              "question": "Was könnte die Antwort halten?",
+              "options": [
+                "Philosophie",
+                "Intuition",
+                "Quantenmechanik",
+                "Beobachtung"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Quantenmechanik"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_59",
+          "title": "Ästhetik und das Erhabene",
+          "theme": "Ästhetik",
+          "source": "Original C2 content",
+          "text": "Kant unterschied zwischen Schönheit und dem Erhabenen. Schönes ist harmonisch. Das Erhabene ist überwältigend. Ein gewaltiger Berg ist erhaben, nicht schön. Das Erhabene bringt sowohl Bewunderung als auch Schrecken.",
+          "difficultWords": [
+            {
+              "word": "Erhabene",
+              "translation": "sublime",
+              "explanation": "qualità di ciò che è maestoso e travolgente"
+            },
+            {
+              "word": "harmonisch",
+              "translation": "armonioso",
+              "explanation": "piacevolmente proporzionato"
+            },
+            {
+              "word": "paradox",
+              "translation": "paradossale",
+              "explanation": "contraddittorio eppure vero"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Was unterschied Kant?",
+              "options": [
+                "Musik und Malerei",
+                "Schönheit und das Erhabene",
+                "Gut und Böse",
+                "Wahr und Falsch"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Schönheit und Erhabenes"
+            },
+            {
+              "question": "Was ist das Erhabene?",
+              "options": [
+                "Schön",
+                "Überwältigend",
+                "Klein",
+                "Alltäglich"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Überwältigend"
+            },
+            {
+              "question": "Was zeigt das Erhabene?",
+              "options": [
+                "Schönheit",
+                "Unsere Grenzen",
+                "Glück",
+                "Ordnung"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Unsere Grenzen"
+            }
+          ]
+        },
+        {
+          "id": "c2_text_60",
+          "title": "Hermeneutik und Interpretation",
+          "theme": "Hermeneutik",
+          "source": "Original C2 content",
+          "text": "Hermeneutik ist die Kunst der Interpretation. Hans-Georg Gadamer war Hermeneutiker. Er argumentierte, dass es keine objektive Interpretation gibt. Der Hermeneutische Kreis zeigt dies. Wir verstehen Teile durch das Ganze. Und das Ganze durch die Teile.",
+          "difficultWords": [
+            {
+              "word": "Hermeneutik",
+              "translation": "ermeneutica",
+              "explanation": "arte e scienza dell'interpretazione"
+            },
+            {
+              "word": "Hermeneutischer Kreis",
+              "translation": "circolo ermeneutico",
+              "explanation": "ciclo di parti e intero"
+            },
+            {
+              "word": "Fusion von Horizonten",
+              "translation": "fusione degli orizzonti",
+              "explanation": "unione di prospettive diverse"
+            }
+          ],
+          "questions": [
+            {
+              "question": "Gibt es objektive Interpretation?",
+              "options": [
+                "Ja",
+                "Nein",
+                "Manchmal",
+                "Teilweise"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Nein"
+            },
+            {
+              "question": "Was zeigt der hermeneutische Kreis?",
+              "options": [
+                "Zirkularität",
+                "Verständnis ist ein Prozess",
+                "Einfachheit",
+                "Klarheit"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Verständnis ist Prozess"
+            },
+            {
+              "question": "Was ist nicht passiv?",
+              "options": [
+                "Lesen",
+                "Hören",
+                "Verstehen",
+                "Schauen"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Verstehen"
             }
           ]
         }
