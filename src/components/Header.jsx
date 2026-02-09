@@ -6,7 +6,7 @@ import { getStreak, getXP } from '../utils/gamification';
 export default function Header({ currentPage, onNavigate, onBack, showBack, breadcrumbs }) {
   const streak = getStreak();
   const xp = getXP();
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
 
   return (
     <header className="header">
