@@ -72,6 +72,37 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
-    sourcemap: false
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: (id) => {
+          // React vendor chunk - keep small, loaded immediately
+          if (id.includes('node_modules/react')) {
+            return 'react-vendor';
+          }
+
+          // All Firebase modules go into single lazy-loaded chunk
+          // This will be loaded only when auth/firestore is needed
+          if (id.includes('node_modules/firebase') || id.includes('node_modules/@firebase')) {
+            return 'firebase-vendor';
+          }
+
+          // Separate context/auth logic - includes Firebase initialization
+          if (id.includes('src/contexts')) {
+            return 'auth-context';
+          }
+
+          // Utility chunks
+          if (id.includes('src/utils')) {
+            return 'utils';
+          }
+        },
+        // Optimize chunk names
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+      }
+    },
+    // Increase chunk size warnings
+    chunkSizeWarningLimit: 500
   }
 })
