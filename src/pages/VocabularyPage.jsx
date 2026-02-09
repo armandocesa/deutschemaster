@@ -51,7 +51,7 @@ function WordCard({ word, viewMode, onRemove }) {
 export default function VocabularyPage({ level, module, onNavigate }) {
   const { VOCABULARY_DATA } = useData();
   const [searchTerm, setSearchTerm] = useState('');
-  const [viewMode, setViewMode] = useState('grid');
+  const [viewMode, setViewMode] = useState('list');
   const [internalLevel, setInternalLevel] = useState(level || (() => { try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; } }));
   const activeLevel = level || internalLevel;
 

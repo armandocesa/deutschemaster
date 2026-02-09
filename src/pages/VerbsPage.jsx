@@ -52,16 +52,17 @@ export default function VerbsPage({ selectedVerb, onNavigate }) {
       <div className="vocab-toolbar">
         <div className="search-box"><Icons.Search /><input type="text" placeholder="Cerca verbo..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
       </div>
-      <div className="verbs-grid">
+      <div className="verbs-list">
         {filteredVerbs.map((verb) => (
-          <div key={verb.infinitiv} className="verb-card">
-            <button className={`save-btn ${isDifficultWord(verb.infinitiv) ? 'saved' : ''}`} onClick={(e) => { e.stopPropagation(); if(isDifficultWord(verb.infinitiv)){removeDifficultWord(verb.infinitiv)}else{saveDifficultWord(verb,'verb')} }}>{isDifficultWord(verb.infinitiv) ? <Icons.StarFilled /> : <Icons.Star />}</button>
-            <div className="verb-content" onClick={() => onNavigate('verbs', {module: verb})}>
-              <div className="verb-infinitive">{verb.infinitiv}</div>
-              <div className="verb-translation">{verb.italiano}</div>
+          <div key={verb.infinitiv} className="verb-row" onClick={() => onNavigate('verbs', {module: verb})}>
+            <span className="verb-infinitive">{verb.infinitiv}</span>
+            <span className="verb-translation">{verb.italiano}</span>
+            <span className="verb-badges">
               {verb.hilfsverb && <span className={`verb-aux ${verb.hilfsverb}`}>{verb.hilfsverb}</span>}
-              {verb.irregular && <span className="verb-irregular">irregolare</span>}
-            </div>
+              {verb.irregular && <span className="verb-irregular">irr.</span>}
+            </span>
+            <button className={`save-btn ${isDifficultWord(verb.infinitiv) ? 'saved' : ''}`} onClick={(e) => { e.stopPropagation(); if(isDifficultWord(verb.infinitiv)){removeDifficultWord(verb.infinitiv)}else{saveDifficultWord(verb,'verb')} }}>{isDifficultWord(verb.infinitiv) ? <Icons.StarFilled /> : <Icons.Star />}</button>
+            <button className="speak-btn" onClick={(e) => { e.stopPropagation(); speak(verb.infinitiv); }}><Icons.Volume /></button>
           </div>
         ))}
       </div>

@@ -98,11 +98,12 @@
 .answer-explanation { color: var(--text-secondary); font-size: 13px; margin-top: 6px; line-height: 1.5; }
 
 /* Verbs */
-.verbs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
-.verb-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; cursor: pointer; transition: all 0.25s ease; }
-.verb-card:hover { background: var(--bg-card-hover); border-color: var(--accent); box-shadow: var(--shadow-glow); transform: translateY(-2px); }
-.verb-infinitive { font-size: 16px; font-weight: 700; margin-bottom: 3px; }
-.verb-translation { color: var(--text-secondary); font-size: 13px; margin-bottom: 6px; }
+.verbs-list { display: flex; flex-direction: column; gap: 6px; }
+.verb-row { display: flex; align-items: center; gap: 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; cursor: pointer; transition: all 0.15s; }
+.verb-row:hover { border-color: var(--accent); background: var(--bg-card-hover); }
+.verb-infinitive { font-size: 15px; font-weight: 700; min-width: 140px; }
+.verb-translation { color: var(--text-secondary); font-size: 14px; flex: 1; }
+.verb-badges { display: flex; gap: 6px; align-items: center; }
 .verb-aux { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 6px; }
 .verb-aux.haben { background: rgba(59,130,246,0.12); color: #3b82f6; }
 .verb-aux.sein { background: rgba(34,197,94,0.12); color: #22c55e; }
