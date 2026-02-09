@@ -21,6 +21,7 @@ export default function App() {
   const [selectedModule, setSelectedModule] = useState(null);
   const [selectedTopic, setSelectedTopic] = useState(null);
   const [selectedReading, setSelectedReading] = useState(null);
+  const [selectedLesson, setSelectedLesson] = useState(null);
 
   const navigate = (page, options = {}) => {
     setCurrentPage(page);
@@ -28,10 +29,12 @@ export default function App() {
     setSelectedModule(options.module || null);
     setSelectedTopic(options.topic || null);
     setSelectedReading(options.reading || null);
+    setSelectedLesson(options.lesson || null);
     window.scrollTo(0, 0);
   };
 
   const goBack = () => {
+    if (selectedLesson) { setSelectedLesson(null); return; }
     if (selectedReading) { setSelectedReading(null); return; }
     if (selectedTopic) { setSelectedTopic(null); return; }
     if (selectedModule) { setSelectedModule(null); return; }
@@ -49,8 +52,9 @@ export default function App() {
     if (selectedModule && currentPage === 'vocabulary') crumbs.push({ label: selectedModule.name || 'Modulo', onClick: null });
     if (selectedTopic) crumbs.push({ label: selectedTopic.name || 'Argomento', onClick: null });
     if (selectedReading) crumbs.push({ label: selectedReading.title || 'Testo', onClick: null });
+    if (selectedLesson) crumbs.push({ label: selectedLesson.title || 'Lezione', onClick: null });
     return crumbs;
-  }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading]);
+  }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading, selectedLesson]);
 
   const showBack = currentPage !== 'home';
 
@@ -67,7 +71,7 @@ export default function App() {
         {currentPage === 'special-verbs' && <SpecialVerbsPage onNavigate={navigate} />}
         {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
         {currentPage === 'reading' && <ReadingPage level={selectedLevel} reading={selectedReading} onNavigate={navigate} />}
-        {currentPage === 'lessons' && <LessonsPage onNavigate={navigate} />}
+        {currentPage === 'lessons' && <LessonsPage selectedLesson={selectedLesson} onNavigate={navigate} />}
       </main>
       <BottomNav currentPage={currentPage} onNavigate={navigate} />
       <Footer />
