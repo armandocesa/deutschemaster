@@ -231,6 +231,51 @@
           "article": "der",
           "plural": "Löhne",
           "type": "n"
+        },
+        {
+          "de": "Bewerbungsgespräch",
+          "it": "colloquio di lavoro",
+          "example": "Das Bewerbungsgespräch ist nervös.",
+          "exampleIt": "Il colloquio di lavoro è nervoso.",
+          "article": "das",
+          "plural": "Bewerbungsgespräche",
+          "type": "n"
+        },
+        {
+          "de": "Praktikum",
+          "it": "stage",
+          "example": "Das Praktikum ist lehrreich.",
+          "exampleIt": "Lo stage è istruttivo.",
+          "article": "das",
+          "plural": "Praktika",
+          "type": "n"
+        },
+        {
+          "de": "Beförderung",
+          "it": "promozione",
+          "example": "Die Beförderung ist verdient.",
+          "exampleIt": "La promozione è meritata.",
+          "article": "die",
+          "plural": "Beförderungen",
+          "type": "n"
+        },
+        {
+          "de": "Kündigungsfrist",
+          "it": "termine di preavviso",
+          "example": "Die Kündigungsfrist ist lang.",
+          "exampleIt": "Il termine di preavviso è lungo.",
+          "article": "die",
+          "plural": "Kündigungsfristen",
+          "type": "n"
+        },
+        {
+          "de": "Urlaub",
+          "it": "vacanze",
+          "example": "Urlaub ist wichtig.",
+          "exampleIt": "Le vacanze sono importanti.",
+          "article": "der",
+          "plural": "Urlauben",
+          "type": "n"
         }
       ]
     },
@@ -462,6 +507,33 @@
           "article": null,
           "plural": null,
           "type": "v"
+        },
+        {
+          "de": "Kontakt",
+          "it": "contatto",
+          "example": "Der Kontakt ist wichtig.",
+          "exampleIt": "Il contatto è importante.",
+          "article": "der",
+          "plural": "Kontakte",
+          "type": "n"
+        },
+        {
+          "de": "Freundin",
+          "it": "amica",
+          "example": "Meine Freundin ist nett.",
+          "exampleIt": "La mia amica è carina.",
+          "article": "die",
+          "plural": "Freundinnen",
+          "type": "n"
+        },
+        {
+          "de": "Gruppe",
+          "it": "gruppo",
+          "example": "Die Gruppe ist groß.",
+          "exampleIt": "Il gruppo è grande.",
+          "article": "die",
+          "plural": "Gruppen",
+          "type": "n"
         }
       ]
     },
@@ -693,6 +765,33 @@
           "article": null,
           "plural": null,
           "type": "v"
+        },
+        {
+          "de": "Verschmutzung",
+          "it": "inquinamento",
+          "example": "Die Verschmutzung ist groß.",
+          "exampleIt": "L'inquinamento è grande.",
+          "article": "die",
+          "plural": "Verschmutzungen",
+          "type": "n"
+        },
+        {
+          "de": "Ökologie",
+          "it": "ecologia",
+          "example": "Die Ökologie ist wichtig.",
+          "exampleIt": "L'ecologia è importante.",
+          "article": "die",
+          "plural": "Ökologien",
+          "type": "n"
+        },
+        {
+          "de": "Ozonloch",
+          "it": "buco dell'ozono",
+          "example": "Das Ozonloch ist besorgniserregend.",
+          "exampleIt": "Il buco dell'ozono è preoccupante.",
+          "article": "das",
+          "plural": "Ozonlöcher",
+          "type": "n"
         }
       ]
     },
@@ -924,6 +1023,78 @@
           "article": null,
           "plural": null,
           "type": "v"
+        },
+        {
+          "de": "Apparat",
+          "it": "apparecchio",
+          "example": "Der Apparat funktioniert.",
+          "exampleIt": "L'apparecchio funziona.",
+          "article": "der",
+          "plural": "Apparate",
+          "type": "n"
+        },
+        {
+          "de": "Maschine",
+          "it": "macchina",
+          "example": "Die Maschine arbeitet.",
+          "exampleIt": "La macchina funziona.",
+          "article": "die",
+          "plural": "Maschinen",
+          "type": "n"
+        },
+        {
+          "de": "Roboter",
+          "it": "robot",
+          "example": "Der Roboter ist intelligent.",
+          "exampleIt": "Il robot è intelligente.",
+          "article": "der",
+          "plural": "Roboter",
+          "type": "n"
+        },
+        {
+          "de": "Elektronik",
+          "it": "elettronica",
+          "example": "Elektronik ist fortschrittlich.",
+          "exampleIt": "L'elettronica è avanzata.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Mikrochip",
+          "it": "microchip",
+          "example": "Der Mikrochip ist klein.",
+          "exampleIt": "Il microchip è piccolo.",
+          "article": "der",
+          "plural": "Mikrochips",
+          "type": "n"
+        },
+        {
+          "de": "Sensorik",
+          "it": "sensoristica",
+          "example": "Sensorik ist wichtig.",
+          "exampleIt": "La sensoristica è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "System",
+          "it": "sistema",
+          "example": "Das System ist komplex.",
+          "exampleIt": "Il sistema è complesso.",
+          "article": "das",
+          "plural": "Systeme",
+          "type": "n"
+        },
+        {
+          "de": "Prozess",
+          "it": "processo",
+          "example": "Der Prozess ist automatisiert.",
+          "exampleIt": "Il processo è automatizzato.",
+          "article": "der",
+          "plural": "Prozesse",
+          "type": "n"
         }
       ]
     },
@@ -1155,6 +1326,96 @@
           "article": null,
           "plural": null,
           "type": "v"
+        },
+        {
+          "de": "Theateraufführung",
+          "it": "spettacolo teatrale",
+          "example": "Die Theateraufführung ist wunderbar.",
+          "exampleIt": "Lo spettacolo teatrale è meraviglioso.",
+          "article": "die",
+          "plural": "Theateraufführungen",
+          "type": "n"
+        },
+        {
+          "de": "Kunstwerk",
+          "it": "opera d'arte",
+          "example": "Das Kunstwerk ist wertvoll.",
+          "exampleIt": "L'opera d'arte è preziosa.",
+          "article": "das",
+          "plural": "Kunstwerke",
+          "type": "n"
+        },
+        {
+          "de": "Kino",
+          "it": "cinema",
+          "example": "Das Kino spielt einen Film.",
+          "exampleIt": "Il cinema mostra un film.",
+          "article": "das",
+          "plural": "Kinos",
+          "type": "n"
+        },
+        {
+          "de": "Ausstellung",
+          "it": "mostra",
+          "example": "Die Ausstellung ist interessant.",
+          "exampleIt": "La mostra è interessante.",
+          "article": "die",
+          "plural": "Ausstellungen",
+          "type": "n"
+        },
+        {
+          "de": "Oper",
+          "it": "opera",
+          "example": "Die Oper ist lang.",
+          "exampleIt": "L'opera è lunga.",
+          "article": "die",
+          "plural": "Opern",
+          "type": "n"
+        },
+        {
+          "de": "Ballett",
+          "it": "balletto",
+          "example": "Das Ballett ist schön.",
+          "exampleIt": "Il balletto è bello.",
+          "article": "das",
+          "plural": "Ballette",
+          "type": "n"
+        },
+        {
+          "de": "Musikfestival",
+          "it": "festival musicale",
+          "example": "Das Musikfestival ist populär.",
+          "exampleIt": "Il festival musicale è popolare.",
+          "article": "das",
+          "plural": "Musikfestivals",
+          "type": "n"
+        },
+        {
+          "de": "Kunstausstellung",
+          "it": "mostra d'arte",
+          "example": "Die Kunstausstellung ist wertvoll.",
+          "exampleIt": "La mostra d'arte è preziosa.",
+          "article": "die",
+          "plural": "Kunstausstellungen",
+          "type": "n"
+        },
+        {
+          "de": "Gedicht",
+          "it": "poesia",
+          "example": "Das Gedicht ist schön.",
+          "exampleIt": "La poesia è bella.",
+          "article": "das",
+          "plural": "Gedichte",
+          "type": "n"
+        },
+        {
+          "de": "Literatur",
+          "it": "letteratura",
+          "example": "Die Literatur ist bedeutend.",
+          "exampleIt": "La letteratura è significativa.",
+          "article": "die",
+          "plural": "Literaturen",
+          "type": "n"
         }
       ]
     },
@@ -1385,6 +1646,105 @@
           "exampleIt": "Il corso è pratico.",
           "article": "der",
           "plural": "Kurse",
+          "type": "n"
+        },
+        {
+          "de": "Universität",
+          "it": "università",
+          "example": "Die Universität ist angesehen.",
+          "exampleIt": "L'università è rispettata.",
+          "article": "die",
+          "plural": "Universitäten",
+          "type": "n"
+        },
+        {
+          "de": "Diplom",
+          "it": "diploma",
+          "example": "Das Diplom ist wichtig.",
+          "exampleIt": "Il diploma è importante.",
+          "article": "das",
+          "plural": "Diplome",
+          "type": "n"
+        },
+        {
+          "de": "Forschung",
+          "it": "ricerca",
+          "example": "Die Forschung ist komplex.",
+          "exampleIt": "La ricerca è complessa.",
+          "article": "die",
+          "plural": "Forschungen",
+          "type": "n"
+        },
+        {
+          "de": "Schulform",
+          "it": "tipo di scuola",
+          "example": "Die Schulform ist unterschiedlich.",
+          "exampleIt": "Il tipo di scuola è diverso.",
+          "article": "die",
+          "plural": "Schulformen",
+          "type": "n"
+        },
+        {
+          "de": "Lernstoff",
+          "it": "materia di apprendimento",
+          "example": "Der Lernstoff ist viel.",
+          "exampleIt": "La materia di apprendimento è molta.",
+          "article": "der",
+          "plural": "Lernstoffe",
+          "type": "n"
+        },
+        {
+          "de": "Schulaufgabe",
+          "it": "compito scolastico",
+          "example": "Die Schulaufgabe ist schwer.",
+          "exampleIt": "Il compito scolastico è difficile.",
+          "article": "die",
+          "plural": "Schulaufgaben",
+          "type": "n"
+        },
+        {
+          "de": "Zeugnis",
+          "it": "pagella",
+          "example": "Das Zeugnis ist gut.",
+          "exampleIt": "La pagella è buona.",
+          "article": "das",
+          "plural": "Zeugnisse",
+          "type": "n"
+        },
+        {
+          "de": "Schulhof",
+          "it": "cortile scolastico",
+          "example": "Der Schulhof ist groß.",
+          "exampleIt": "Il cortile scolastico è grande.",
+          "article": "der",
+          "plural": "Schulhöfe",
+          "type": "n"
+        },
+        {
+          "de": "Bibliothek",
+          "it": "biblioteca",
+          "example": "Die Bibliothek ist offen.",
+          "exampleIt": "La biblioteca è aperta.",
+          "article": "die",
+          "plural": "Bibliotheken",
+          "type": "n"
+        },
+        {
+          "de": "Labors",
+          "it": "laboratorio",
+          "example": "Das Labor ist ausgestattet.",
+          "exampleIt": "Il laboratorio è attrezzato.",
+          "article": "das",
+          "plural": "Labore",
+          "type": "n"
+        },
+        {
+          "de": "Schulbus",
+          "it": "autobus scolastico",
+          "example": "Der Schulbus kommt.",
+          "exampleIt": "L'autobus scolastico arriva.",
+          "article": "der",
+          "plural": "Schulbusse",
           "type": "n"
         }
       ]
@@ -1617,6 +1977,33 @@
           "article": null,
           "plural": null,
           "type": "v"
+        },
+        {
+          "de": "Artikel",
+          "it": "articolo",
+          "example": "Der Artikel ist interessant.",
+          "exampleIt": "L'articolo è interessante.",
+          "article": "der",
+          "plural": "Artikel",
+          "type": "n"
+        },
+        {
+          "de": "Blog",
+          "it": "blog",
+          "example": "Der Blog ist aktuell.",
+          "exampleIt": "Il blog è attuale.",
+          "article": "der",
+          "plural": "Blogs",
+          "type": "n"
+        },
+        {
+          "de": "Podcast",
+          "it": "podcast",
+          "example": "Der Podcast ist lehrreich.",
+          "exampleIt": "Il podcast è istruttivo.",
+          "article": "der",
+          "plural": "Podcasts",
+          "type": "n"
         }
       ]
     },
@@ -1847,6 +2234,981 @@
           "exampleIt": "La vicinanza è bella.",
           "article": "die",
           "plural": "Nähen",
+          "type": "n"
+        },
+        {
+          "de": "Ehe",
+          "it": "matrimonio",
+          "example": "Die Ehe ist dauerhaft.",
+          "exampleIt": "Il matrimonio è duraturo.",
+          "article": "die",
+          "plural": "Ehen",
+          "type": "n"
+        },
+        {
+          "de": "Liebe",
+          "it": "amore",
+          "example": "Die Liebe ist stark.",
+          "exampleIt": "L'amore è forte.",
+          "article": "die",
+          "plural": "Lieben",
+          "type": "n"
+        },
+        {
+          "de": "Eifersucht",
+          "it": "gelosia",
+          "example": "Die Eifersucht ist schädlich.",
+          "exampleIt": "La gelosia è dannosa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Vertrauen",
+          "it": "fiducia",
+          "example": "Das Vertrauen ist essentiell.",
+          "exampleIt": "La fiducia è essenziale.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Loyalität",
+          "it": "lealtà",
+          "example": "Die Loyalität ist wichtig.",
+          "exampleIt": "La lealtà è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Politica",
+      "nameIt": "Politica",
+      "words": [
+        {
+          "de": "Staat",
+          "it": "stato",
+          "example": "Der Staat regiert.",
+          "exampleIt": "Lo stato governa.",
+          "article": "der",
+          "plural": "Staaten",
+          "type": "n"
+        },
+        {
+          "de": "Regierung",
+          "it": "governo",
+          "example": "Die Regierung entscheidet.",
+          "exampleIt": "Il governo decide.",
+          "article": "die",
+          "plural": "Regierungen",
+          "type": "n"
+        },
+        {
+          "de": "Parlament",
+          "it": "parlamento",
+          "example": "Das Parlament debattiert.",
+          "exampleIt": "Il parlamento dibatte.",
+          "article": "das",
+          "plural": "Parlamente",
+          "type": "n"
+        },
+        {
+          "de": "Abgeordnete",
+          "it": "deputato",
+          "example": "Die Abgeordnete spricht.",
+          "exampleIt": "Il deputato parla.",
+          "article": "die",
+          "plural": "Abgeordneten",
+          "type": "n"
+        },
+        {
+          "de": "Gesetz",
+          "it": "legge",
+          "example": "Das Gesetz ist gültig.",
+          "exampleIt": "La legge è valida.",
+          "article": "das",
+          "plural": "Gesetze",
+          "type": "n"
+        },
+        {
+          "de": "Wahl",
+          "it": "elezione",
+          "example": "Die Wahl ist wichtig.",
+          "exampleIt": "L'elezione è importante.",
+          "article": "die",
+          "plural": "Wahlen",
+          "type": "n"
+        },
+        {
+          "de": "Partei",
+          "it": "partito",
+          "example": "Die Partei ist stark.",
+          "exampleIt": "Il partito è forte.",
+          "article": "die",
+          "plural": "Parteien",
+          "type": "n"
+        },
+        {
+          "de": "Präsident",
+          "it": "presidente",
+          "example": "Der Präsident spricht.",
+          "exampleIt": "Il presidente parla.",
+          "article": "der",
+          "plural": "Präsidenten",
+          "type": "n"
+        },
+        {
+          "de": "Kanzler",
+          "it": "cancelliere",
+          "example": "Der Kanzler führt.",
+          "exampleIt": "Il cancelliere guida.",
+          "article": "der",
+          "plural": "Kanzler",
+          "type": "n"
+        },
+        {
+          "de": "Minister",
+          "it": "ministro",
+          "example": "Der Minister verwaltet.",
+          "exampleIt": "Il ministro amministra.",
+          "article": "der",
+          "plural": "Minister",
+          "type": "n"
+        },
+        {
+          "de": "Ministerium",
+          "it": "ministero",
+          "example": "Das Ministerium ist organisiert.",
+          "exampleIt": "Il ministero è organizzato.",
+          "article": "das",
+          "plural": "Ministerien",
+          "type": "n"
+        },
+        {
+          "de": "Demokratie",
+          "it": "democrazia",
+          "example": "Demokratie ist wichtig.",
+          "exampleIt": "La democrazia è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Diktatur",
+          "it": "dittatura",
+          "example": "Diktatur ist unterdrückerisch.",
+          "exampleIt": "La dittatura è oppressiva.",
+          "article": "die",
+          "plural": "Diktaturen",
+          "type": "n"
+        },
+        {
+          "de": "Politik",
+          "it": "politica",
+          "example": "Politik ist kompliziert.",
+          "exampleIt": "La politica è complicata.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verfassung",
+          "it": "costituzione",
+          "example": "Die Verfassung ist Grundgesetz.",
+          "exampleIt": "La costituzione è la legge fondamentale.",
+          "article": "die",
+          "plural": "Verfassungen",
+          "type": "n"
+        },
+        {
+          "de": "Abstimmung",
+          "it": "votazione",
+          "example": "Die Abstimmung ist geheim.",
+          "exampleIt": "La votazione è segreta.",
+          "article": "die",
+          "plural": "Abstimmungen",
+          "type": "n"
+        },
+        {
+          "de": "Opposition",
+          "it": "opposizione",
+          "example": "Die Opposition kritisiert.",
+          "exampleIt": "L'opposizione critica.",
+          "article": "die",
+          "plural": "Oppositionen",
+          "type": "n"
+        },
+        {
+          "de": "Mehrheit",
+          "it": "maggioranza",
+          "example": "Die Mehrheit entscheidet.",
+          "exampleIt": "La maggioranza decide.",
+          "article": "die",
+          "plural": "Mehrheiten",
+          "type": "n"
+        },
+        {
+          "de": "Minderheit",
+          "it": "minoranza",
+          "example": "Die Minderheit wird gehört.",
+          "exampleIt": "La minoranza viene ascoltata.",
+          "article": "die",
+          "plural": "Minderheiten",
+          "type": "n"
+        },
+        {
+          "de": "Strafe",
+          "it": "punizione",
+          "example": "Die Strafe ist gerecht.",
+          "exampleIt": "La punizione è giusta.",
+          "article": "die",
+          "plural": "Strafen",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Economia",
+      "nameIt": "Economia",
+      "words": [
+        {
+          "de": "Markt",
+          "it": "mercato",
+          "example": "Der Markt ist dynamisch.",
+          "exampleIt": "Il mercato è dinamico.",
+          "article": "der",
+          "plural": "Märkte",
+          "type": "n"
+        },
+        {
+          "de": "Preis",
+          "it": "prezzo",
+          "example": "Der Preis steigt.",
+          "exampleIt": "Il prezzo sale.",
+          "article": "der",
+          "plural": "Preise",
+          "type": "n"
+        },
+        {
+          "de": "Inflationen",
+          "it": "inflazione",
+          "example": "Die Inflation ist hoch.",
+          "exampleIt": "L'inflazione è alta.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Einkommen",
+          "it": "reddito",
+          "example": "Das Einkommen ist stabil.",
+          "exampleIt": "Il reddito è stabile.",
+          "article": "das",
+          "plural": "Einkommen",
+          "type": "n"
+        },
+        {
+          "de": "Ausgaben",
+          "it": "spese",
+          "example": "Die Ausgaben sind hoch.",
+          "exampleIt": "Le spese sono alte.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ersparnisse",
+          "it": "risparmi",
+          "example": "Die Ersparnisse sind wichtig.",
+          "exampleIt": "I risparmi sono importanti.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Schuld",
+          "it": "debito",
+          "example": "Die Schuld ist groß.",
+          "exampleIt": "Il debito è grande.",
+          "article": "die",
+          "plural": "Schulden",
+          "type": "n"
+        },
+        {
+          "de": "Kredit",
+          "it": "credito",
+          "example": "Der Kredit wird gewährt.",
+          "exampleIt": "Il credito viene concesso.",
+          "article": "der",
+          "plural": "Kredite",
+          "type": "n"
+        },
+        {
+          "de": "Zins",
+          "it": "interesse",
+          "example": "Der Zins ist niedrig.",
+          "exampleIt": "L'interesse è basso.",
+          "article": "der",
+          "plural": "Zinsen",
+          "type": "n"
+        },
+        {
+          "de": "Kapital",
+          "it": "capitale",
+          "example": "Das Kapital wächst.",
+          "exampleIt": "Il capitale cresce.",
+          "article": "das",
+          "plural": "Kapitalien",
+          "type": "n"
+        },
+        {
+          "de": "Investitionen",
+          "it": "investimenti",
+          "example": "Die Investitionen sind sinnvoll.",
+          "exampleIt": "Gli investimenti sono logici.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Produktion",
+          "it": "produzione",
+          "example": "Die Produktion ist effizient.",
+          "exampleIt": "La produzione è efficiente.",
+          "article": "die",
+          "plural": "Produktionen",
+          "type": "n"
+        },
+        {
+          "de": "Verbrauch",
+          "it": "consumo",
+          "example": "Der Verbrauch ist hoch.",
+          "exampleIt": "Il consumo è alto.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Angebot",
+          "it": "offerta",
+          "example": "Das Angebot ist begrenzt.",
+          "exampleIt": "L'offerta è limitata.",
+          "article": "das",
+          "plural": "Angebote",
+          "type": "n"
+        },
+        {
+          "de": "Nachfrage",
+          "it": "domanda",
+          "example": "Die Nachfrage ist hoch.",
+          "exampleIt": "La domanda è alta.",
+          "article": "die",
+          "plural": "Nachfragen",
+          "type": "n"
+        },
+        {
+          "de": "Konkurrenz",
+          "it": "concorrenza",
+          "example": "Die Konkurrenz ist groß.",
+          "exampleIt": "La concorrenza è grande.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Import",
+          "it": "importazione",
+          "example": "Der Import ist wichtig.",
+          "exampleIt": "L'importazione è importante.",
+          "article": "der",
+          "plural": "Importe",
+          "type": "n"
+        },
+        {
+          "de": "Export",
+          "it": "esportazione",
+          "example": "Der Export wächst.",
+          "exampleIt": "L'esportazione cresce.",
+          "article": "der",
+          "plural": "Exporte",
+          "type": "n"
+        },
+        {
+          "de": "Moneypolitik",
+          "it": "politica monetaria",
+          "example": "Die Geldpolitik ist restriktiv.",
+          "exampleIt": "La politica monetaria è restrittiva.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Steuern",
+          "it": "tasse",
+          "example": "Die Steuern sind hoch.",
+          "exampleIt": "Le tasse sono alte.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Ambiente",
+      "nameIt": "Ambiente",
+      "words": [
+        {
+          "de": "Umwelt",
+          "it": "ambiente",
+          "example": "Die Umwelt ist wichtig.",
+          "exampleIt": "L'ambiente è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Natur",
+          "it": "natura",
+          "example": "Die Natur ist schön.",
+          "exampleIt": "La natura è bella.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Wald",
+          "it": "foresta",
+          "example": "Der Wald ist groß.",
+          "exampleIt": "La foresta è grande.",
+          "article": "der",
+          "plural": "Wälder",
+          "type": "n"
+        },
+        {
+          "de": "Berg",
+          "it": "montagna",
+          "example": "Der Berg ist hoch.",
+          "exampleIt": "La montagna è alta.",
+          "article": "der",
+          "plural": "Berge",
+          "type": "n"
+        },
+        {
+          "de": "Fluss",
+          "it": "fiume",
+          "example": "Der Fluss fließt.",
+          "exampleIt": "Il fiume scorre.",
+          "article": "der",
+          "plural": "Flüsse",
+          "type": "n"
+        },
+        {
+          "de": "See",
+          "it": "lago",
+          "example": "Der See ist groß.",
+          "exampleIt": "Il lago è grande.",
+          "article": "der",
+          "plural": "Seen",
+          "type": "n"
+        },
+        {
+          "de": "Meer",
+          "it": "mare",
+          "example": "Das Meer ist tief.",
+          "exampleIt": "Il mare è profondo.",
+          "article": "das",
+          "plural": "Meere",
+          "type": "n"
+        },
+        {
+          "de": "Strand",
+          "it": "spiaggia",
+          "example": "Der Strand ist sandig.",
+          "exampleIt": "La spiaggia è sabbiosa.",
+          "article": "der",
+          "plural": "Strände",
+          "type": "n"
+        },
+        {
+          "de": "Pflanze",
+          "it": "pianta",
+          "example": "Die Pflanze wächst.",
+          "exampleIt": "La pianta cresce.",
+          "article": "die",
+          "plural": "Pflanzen",
+          "type": "n"
+        },
+        {
+          "de": "Tier",
+          "it": "animale",
+          "example": "Das Tier lebt.",
+          "exampleIt": "L'animale vive.",
+          "article": "das",
+          "plural": "Tiere",
+          "type": "n"
+        },
+        {
+          "de": "Vogel",
+          "it": "uccello",
+          "example": "Der Vogel singt.",
+          "exampleIt": "L'uccello canta.",
+          "article": "der",
+          "plural": "Vögel",
+          "type": "n"
+        },
+        {
+          "de": "Fisch",
+          "it": "pesce",
+          "example": "Der Fisch schwimmt.",
+          "exampleIt": "Il pesce nuota.",
+          "article": "der",
+          "plural": "Fische",
+          "type": "n"
+        },
+        {
+          "de": "Klimawandel",
+          "it": "cambiamento climatico",
+          "example": "Der Klimawandel ist real.",
+          "exampleIt": "Il cambiamento climatico è reale.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Energie",
+          "it": "energia",
+          "example": "Die Energie ist erneuerbar.",
+          "exampleIt": "L'energia è rinnovabile.",
+          "article": "die",
+          "plural": "Energien",
+          "type": "n"
+        },
+        {
+          "de": "Emissionen",
+          "it": "emissioni",
+          "example": "Die Emissionen sind hoch.",
+          "exampleIt": "Le emissioni sono alte.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verschmutzung",
+          "it": "inquinamento",
+          "example": "Die Verschmutzung ist schlecht.",
+          "exampleIt": "L'inquinamento è cattivo.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Müll",
+          "it": "rifiuti",
+          "example": "Der Müll ist zu viel.",
+          "exampleIt": "I rifiuti sono troppi.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Recycling",
+          "it": "riciclaggio",
+          "example": "Recycling ist wichtig.",
+          "exampleIt": "Il riciclaggio è importante.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Artenschutz",
+          "it": "protezione delle specie",
+          "example": "Der Artenschutz ist notwendig.",
+          "exampleIt": "La protezione delle specie è necessaria.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Nachhaltigkeit",
+          "it": "sostenibilità",
+          "example": "Nachhaltigkeit ist Zukunft.",
+          "exampleIt": "La sostenibilità è il futuro.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Psicologia",
+      "nameIt": "Psicologia",
+      "words": [
+        {
+          "de": "Geist",
+          "it": "mente",
+          "example": "Der Geist ist aktiv.",
+          "exampleIt": "La mente è attiva.",
+          "article": "der",
+          "plural": "Geister",
+          "type": "n"
+        },
+        {
+          "de": "Gedanke",
+          "it": "pensiero",
+          "example": "Der Gedanke ist tief.",
+          "exampleIt": "Il pensiero è profondo.",
+          "article": "der",
+          "plural": "Gedanken",
+          "type": "n"
+        },
+        {
+          "de": "Gefühl",
+          "it": "sentimento",
+          "example": "Das Gefühl ist stark.",
+          "exampleIt": "Il sentimento è forte.",
+          "article": "das",
+          "plural": "Gefühle",
+          "type": "n"
+        },
+        {
+          "de": "Empathie",
+          "it": "empatia",
+          "example": "Empathie ist wichtig.",
+          "exampleIt": "L'empatia è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Mitgefühl",
+          "it": "compassione",
+          "example": "Mitgefühl ist menschlich.",
+          "exampleIt": "La compassione è umana.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verhalten",
+          "it": "comportamento",
+          "example": "Das Verhalten ist bedeutsam.",
+          "exampleIt": "Il comportamento è significativo.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Motivationen",
+          "it": "motivazioni",
+          "example": "Die Motivation ist hoch.",
+          "exampleIt": "La motivazione è alta.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Angst",
+          "it": "paura",
+          "example": "Die Angst ist irreal.",
+          "exampleIt": "La paura è irreale.",
+          "article": "die",
+          "plural": "Ängste",
+          "type": "n"
+        },
+        {
+          "de": "Stress",
+          "it": "stress",
+          "example": "Der Stress ist hoch.",
+          "exampleIt": "Lo stress è alto.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Depression",
+          "it": "depressione",
+          "example": "Depression ist eine Krankheit.",
+          "exampleIt": "La depressione è una malattia.",
+          "article": "die",
+          "plural": "Depressionen",
+          "type": "n"
+        },
+        {
+          "de": "Angststörung",
+          "it": "disturbo d'ansia",
+          "example": "Die Angststörung ist behandelbar.",
+          "exampleIt": "Il disturbo d'ansia è trattabile.",
+          "article": "die",
+          "plural": "Angststörungen",
+          "type": "n"
+        },
+        {
+          "de": "Sucht",
+          "it": "dipendenza",
+          "example": "Die Sucht ist schädlich.",
+          "exampleIt": "La dipendenza è dannosa.",
+          "article": "die",
+          "plural": "Süchte",
+          "type": "n"
+        },
+        {
+          "de": "Bewusstsein",
+          "it": "consapevolezza",
+          "example": "Das Bewusstsein ist wichtig.",
+          "exampleIt": "La consapevolezza è importante.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Unbewusstsein",
+          "it": "inconscio",
+          "example": "Das Unbewusstsein ist tief.",
+          "exampleIt": "L'inconscio è profondo.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Traum",
+          "it": "sogno",
+          "example": "Der Traum ist symbolisch.",
+          "exampleIt": "Il sogno è simbolico.",
+          "article": "der",
+          "plural": "Träume",
+          "type": "n"
+        },
+        {
+          "de": "Kreativität",
+          "it": "creatività",
+          "example": "Kreativität ist wertvoll.",
+          "exampleIt": "La creatività è preziosa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Intelligenz",
+          "it": "intelligenza",
+          "example": "Intelligenz ist vielfältig.",
+          "exampleIt": "L'intelligenza è varia.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Persönlichkeit",
+          "it": "personalità",
+          "example": "Die Persönlichkeit ist einzigartig.",
+          "exampleIt": "La personalità è unica.",
+          "article": "die",
+          "plural": "Persönlichkeiten",
+          "type": "n"
+        },
+        {
+          "de": "Selbstbewusstsein",
+          "it": "autostima",
+          "example": "Das Selbstbewusstsein ist wichtig.",
+          "exampleIt": "L'autostima è importante.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Komplexe",
+          "it": "complessi",
+          "example": "Die Komplexe sind unbewusst.",
+          "exampleIt": "I complessi sono inconsci.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Comunicazione",
+      "nameIt": "Comunicazione",
+      "words": [
+        {
+          "de": "Nachricht",
+          "it": "messaggio",
+          "example": "Die Nachricht ist wichtig.",
+          "exampleIt": "Il messaggio è importante.",
+          "article": "die",
+          "plural": "Nachrichten",
+          "type": "n"
+        },
+        {
+          "de": "Mitteilung",
+          "it": "comunicazione",
+          "example": "Die Mitteilung ist formell.",
+          "exampleIt": "La comunicazione è formale.",
+          "article": "die",
+          "plural": "Mitteilungen",
+          "type": "n"
+        },
+        {
+          "de": "Gespräch",
+          "it": "conversazione",
+          "example": "Das Gespräch ist interessant.",
+          "exampleIt": "La conversazione è interessante.",
+          "article": "das",
+          "plural": "Gespräche",
+          "type": "n"
+        },
+        {
+          "de": "Diskussion",
+          "it": "discussione",
+          "example": "Die Diskussion ist lebhaft.",
+          "exampleIt": "La discussione è vivace.",
+          "article": "die",
+          "plural": "Diskussionen",
+          "type": "n"
+        },
+        {
+          "de": "Debatte",
+          "it": "dibattito",
+          "example": "Die Debatte ist konstruktiv.",
+          "exampleIt": "Il dibattito è costruttivo.",
+          "article": "die",
+          "plural": "Debatten",
+          "type": "n"
+        },
+        {
+          "de": "Sprache",
+          "it": "lingua",
+          "example": "Die Sprache ist vielfältig.",
+          "exampleIt": "La lingua è varia.",
+          "article": "die",
+          "plural": "Sprachen",
+          "type": "n"
+        },
+        {
+          "de": "Wort",
+          "it": "parola",
+          "example": "Das Wort ist mächtig.",
+          "exampleIt": "La parola è potente.",
+          "article": "das",
+          "plural": "Wörter",
+          "type": "n"
+        },
+        {
+          "de": "Satz",
+          "it": "frase",
+          "example": "Der Satz ist grammatikalisch.",
+          "exampleIt": "La frase è grammaticale.",
+          "article": "der",
+          "plural": "Sätze",
+          "type": "n"
+        },
+        {
+          "de": "Ausdruckweise",
+          "it": "modo di espressione",
+          "example": "Die Ausdruckweise ist klar.",
+          "exampleIt": "Il modo di espressione è chiaro.",
+          "article": "die",
+          "plural": "Ausdrucksweisen",
+          "type": "n"
+        },
+        {
+          "de": "Stil",
+          "it": "stile",
+          "example": "Der Stil ist einzigartig.",
+          "exampleIt": "Lo stile è unico.",
+          "article": "der",
+          "plural": "Stile",
+          "type": "n"
+        },
+        {
+          "de": "Ton",
+          "it": "tono",
+          "example": "Der Ton ist höflich.",
+          "exampleIt": "Il tono è cortese.",
+          "article": "der",
+          "plural": "Töne",
+          "type": "n"
+        },
+        {
+          "de": "Geste",
+          "it": "gesto",
+          "example": "Die Geste ist ausdrucksvoll.",
+          "exampleIt": "Il gesto è espressivo.",
+          "article": "die",
+          "plural": "Gesten",
+          "type": "n"
+        },
+        {
+          "de": "Blickkontakt",
+          "it": "contatto visivo",
+          "example": "Der Blickkontakt ist wichtig.",
+          "exampleIt": "Il contatto visivo è importante.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Körpersprache",
+          "it": "linguaggio del corpo",
+          "example": "Die Körpersprache ist beredt.",
+          "exampleIt": "Il linguaggio del corpo è eloquente.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Höflichkeit",
+          "it": "cortesia",
+          "example": "Die Höflichkeit ist wichtig.",
+          "exampleIt": "La cortesia è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Respekt",
+          "it": "rispetto",
+          "example": "Respekt ist gegenseitig.",
+          "exampleIt": "Il rispetto è reciproco.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verständnis",
+          "it": "comprensione",
+          "example": "Das Verständnis ist notwendig.",
+          "exampleIt": "La comprensione è necessaria.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Missverständnis",
+          "it": "malinteso",
+          "example": "Das Missverständnis ist bedauerlich.",
+          "exampleIt": "Il malinteso è spiacevole.",
+          "article": "das",
+          "plural": "Missverständnisse",
+          "type": "n"
+        },
+        {
+          "de": "Interpretation",
+          "it": "interpretazione",
+          "example": "Die Interpretation ist subjektiv.",
+          "exampleIt": "L'interpretazione è soggettiva.",
+          "article": "die",
+          "plural": "Interpretationen",
+          "type": "n"
+        },
+        {
+          "de": "Feedback",
+          "it": "feedback",
+          "example": "Das Feedback ist konstruktiv.",
+          "exampleIt": "Il feedback è costruttivo.",
+          "article": "das",
+          "plural": "Feedbacks",
           "type": "n"
         }
       ]

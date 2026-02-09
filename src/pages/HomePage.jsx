@@ -161,6 +161,7 @@ export default function HomePage({ onNavigate }) {
           <QuickActionCard icon={<Icons.Reading />} title="Lettura" color="#06b6d4" onClick={(lvl) => onNavigate('reading', { level: lvl })} />
           <QuickActionCard icon={<Icons.Quiz />} title="Quiz" color="#ef4444" onClick={(lvl) => onNavigate('quiz', { level: lvl })} />
           <QuickActionCard icon={<Icons.Verb />} title="Verbi" color="#f59e0b" onClick={() => onNavigate('verbs')} noLevel />
+          <QuickActionCard icon={<Icons.Verb />} title="Il Verbo Werden" color="#e17055" onClick={() => onNavigate('werden')} noLevel />
         </div>
       </section>
 

@@ -19,13 +19,15 @@ import ListeningPage from './pages/ListeningPage';
 import PathsPage from './pages/PathsPage';
 import EssentialWordsPage from './pages/EssentialWordsPage';
 import VerbPrefixesPage from './pages/VerbPrefixesPage';
+import WerdenPage from './pages/WerdenPage';
 
 const PAGE_NAMES = {
   home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura',
   quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica',
   favorites: 'Salvate', lessons: 'Lezioni', profile: 'Profilo', flashcards: 'Flashcards',
   writing: 'Scrittura', listening: 'Ascolto', paths: 'Percorsi',
-  'essential-words': 'Parole Essenziali', 'verb-prefixes': 'Prefissi Verbali'
+  'essential-words': 'Parole Essenziali', 'verb-prefixes': 'Prefissi Verbali',
+  'werden': 'Il Verbo Werden'
 };
 
 export default function App() {
@@ -92,6 +94,7 @@ export default function App() {
         {currentPage === 'paths' && <PathsPage onNavigate={navigate} />}
         {currentPage === 'essential-words' && <EssentialWordsPage level={selectedLevel} onNavigate={navigate} />}
         {currentPage === 'verb-prefixes' && <VerbPrefixesPage onNavigate={navigate} />}
+        {currentPage === 'werden' && <WerdenPage onNavigate={navigate} />}
       </main>
       <BottomNav currentPage={currentPage} onNavigate={navigate} />
       <Footer />

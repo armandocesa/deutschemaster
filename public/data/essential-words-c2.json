@@ -755,6 +755,750 @@
           "type": "n"
         }
       ]
+    },
+    {
+      "name": "Giurisprudenza",
+      "nameIt": "Giurisprudenza",
+      "words": [
+        {
+          "de": "Jurisprudenz",
+          "it": "giurisprudenza",
+          "example": "Jurisprudenz entwickelt Recht.",
+          "exampleIt": "La giurisprudenza sviluppa il diritto.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Präzedenzfall",
+          "it": "precedente legale",
+          "example": "Präzedenzfall bindet Gerichte.",
+          "exampleIt": "Il precedente legale vincola i tribunali.",
+          "article": "der",
+          "plural": "Präzedenzfälle",
+          "type": "n"
+        },
+        {
+          "de": "Rechtsdogmatik",
+          "it": "dogmatica giuridica",
+          "example": "Rechtsdogmatik systematisiert.",
+          "exampleIt": "La dogmatica giuridica sistematizza.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Hermeneutik des Rechts",
+          "it": "ermeneutica del diritto",
+          "example": "Hermeneutik interpretiert Gesetze.",
+          "exampleIt": "L'ermeneutica interpreta le leggi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Rechtstheorie",
+          "it": "teoria del diritto",
+          "example": "Rechtstheorie erforscht Grundlagen.",
+          "exampleIt": "La teoria del diritto ricerca i fondamenti.",
+          "article": "die",
+          "plural": "Rechtstheorien",
+          "type": "n"
+        },
+        {
+          "de": "Rechtsphilosophie",
+          "it": "filosofia del diritto",
+          "example": "Rechtsphilosophie fragt nach Gerechtigkeit.",
+          "exampleIt": "La filosofia del diritto chiede la giustizia.",
+          "article": "die",
+          "plural": "Rechtsphilosophien",
+          "type": "n"
+        },
+        {
+          "de": "Positivismus",
+          "it": "positivismo",
+          "example": "Positivismus reduziert auf Fakten.",
+          "exampleIt": "Il positivismo riduce ai fatti.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Naturalismus",
+          "it": "naturalismo",
+          "example": "Naturalismus ist nicht-positiv.",
+          "exampleIt": "Il naturalismo non è positivista.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Rechtsrealismus",
+          "it": "realismo giuridico",
+          "example": "Rechtsrealismus untersucht Praxis.",
+          "exampleIt": "Il realismo giuridico esamina la pratica.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Normativismus",
+          "it": "normativismo",
+          "example": "Normativismus betont Regeln.",
+          "exampleIt": "Il normativismo enfatizza le regole.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Komparatistik",
+          "it": "diritto comparato",
+          "example": "Komparatistik vergleicht Systeme.",
+          "exampleIt": "Il diritto comparato confronta i sistemi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Kodifikation",
+          "it": "codificazione",
+          "example": "Kodifikation systematisiert Recht.",
+          "exampleIt": "La codificazione sistematizza il diritto.",
+          "article": "die",
+          "plural": "Kodifikationen",
+          "type": "n"
+        },
+        {
+          "de": "Rezeption",
+          "it": "recezione",
+          "example": "Rezeption adaptiert fremdes Recht.",
+          "exampleIt": "La recezione adatta il diritto straniero.",
+          "article": "die",
+          "plural": "Rezeptionen",
+          "type": "n"
+        },
+        {
+          "de": "Handeln unter Unsicherheit",
+          "it": "agire in incertezza",
+          "example": "Handeln unter Unsicherheit ist schwierig.",
+          "exampleIt": "Agire in incertezza è difficile.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Risikoallokation",
+          "it": "allocazione del rischio",
+          "example": "Risikoallokation verteilt Risiken.",
+          "exampleIt": "L'allocazione del rischio distribuisce i rischi.",
+          "article": "die",
+          "plural": "Risikoallokationen",
+          "type": "n"
+        },
+        {
+          "de": "Haftungsausschluss",
+          "it": "esclusione di responsabilità",
+          "example": "Haftungsausschluss limitiert Haftung.",
+          "exampleIt": "L'esclusione di responsabilità limita la responsabilità.",
+          "article": "der",
+          "plural": "Haftungsausschlüsse",
+          "type": "n"
+        },
+        {
+          "de": "Schadensersatz",
+          "it": "risarcimento",
+          "example": "Schadensersatz kompensiert.",
+          "exampleIt": "Il risarcimento compensa.",
+          "article": "der",
+          "plural": "Schadensersätze",
+          "type": "n"
+        },
+        {
+          "de": "Äquivalenzprinzip",
+          "it": "principio di equivalenza",
+          "example": "Äquivalenzprinzip fordert Gleichheit.",
+          "exampleIt": "Il principio di equivalenza richiede l'uguaglianza.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Justiziabilität",
+          "it": "giudiziabilità",
+          "example": "Justiziabilität bestimmt Gerichtbarkeit.",
+          "exampleIt": "La giudiziabilità determina la giurisdizione.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Rechtsfähigkeit",
+          "it": "capacità giuridica",
+          "example": "Rechtsfähigkeit ist Voraussetzung.",
+          "exampleIt": "La capacità giuridica è un prerequisito.",
+          "article": "die",
+          "plural": "Rechtsfähigkeiten",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Epistemologia",
+      "nameIt": "Epistemologia",
+      "words": [
+        {
+          "de": "Erkenntnistheorie",
+          "it": "epistemologia",
+          "example": "Erkenntnistheorie fragt nach Wissen.",
+          "exampleIt": "L'epistemologia chiede della conoscenza.",
+          "article": "die",
+          "plural": "Erkenntnistheorien",
+          "type": "n"
+        },
+        {
+          "de": "Skeptizismus",
+          "it": "scetticismo",
+          "example": "Skeptizismus bezweifelt Gewissheit.",
+          "exampleIt": "Lo scetticismo dubita della certezza.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Rationalismus",
+          "it": "razionalismo",
+          "example": "Rationalismus vertraut Vernunft.",
+          "exampleIt": "Il razionalismo si fida della ragione.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Empirismus",
+          "it": "empirismo",
+          "example": "Empirismus vertraut Erfahrung.",
+          "exampleIt": "L'empirismo si fida dell'esperienza.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Apriori",
+          "it": "a priori",
+          "example": "Apriori ist vor Erfahrung.",
+          "exampleIt": "L'a priori è prima dell'esperienza.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Aposteriori",
+          "it": "a posteriori",
+          "example": "Aposteriori ist nach Erfahrung.",
+          "exampleIt": "L'a posteriori è dopo l'esperienza.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Analytisch",
+          "it": "analitico",
+          "example": "Analytisch ist konzeptuell.",
+          "exampleIt": "L'analitico è concettuale.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "Synthetisch",
+          "it": "sintetico",
+          "example": "Synthetisch ist informativ.",
+          "exampleIt": "Il sintetico è informativo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "Notwendigkeit",
+          "it": "necessità",
+          "example": "Notwendigkeit ist unvermeidlich.",
+          "exampleIt": "La necessità è inevitabile.",
+          "article": "die",
+          "plural": "Notwendigkeiten",
+          "type": "n"
+        },
+        {
+          "de": "Kontingenz",
+          "it": "contingenza",
+          "example": "Kontingenz ist möglich.",
+          "exampleIt": "La contingenza è possibile.",
+          "article": "die",
+          "plural": "Kontingenzen",
+          "type": "n"
+        },
+        {
+          "de": "Metaphysik",
+          "it": "metafisica",
+          "example": "Metaphysik geht über Physik.",
+          "exampleIt": "La metafisica va oltre la fisica.",
+          "article": "die",
+          "plural": "Metaphysiken",
+          "type": "n"
+        },
+        {
+          "de": "Ontologie",
+          "it": "ontologia",
+          "example": "Ontologie fragt nach Sein.",
+          "exampleIt": "L'ontologia chiede dell'essere.",
+          "article": "die",
+          "plural": "Ontologien",
+          "type": "n"
+        },
+        {
+          "de": "Epistemisch",
+          "it": "epistemico",
+          "example": "Epistemisch bezieht sich auf Wissen.",
+          "exampleIt": "L'epistemico si riferisce alla conoscenza.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "Gültigkeitsbedingungen",
+          "it": "condizioni di validità",
+          "example": "Gültigkeitsbedingungen bestimmen Wahrheit.",
+          "exampleIt": "Le condizioni di validità determinano la verità.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Kohärenztheorie",
+          "it": "teoria della coerenza",
+          "example": "Kohärenztheorie betont Konsistenz.",
+          "exampleIt": "La teoria della coerenza enfatizza la coerenza.",
+          "article": "die",
+          "plural": "Kohärenztheorien",
+          "type": "n"
+        },
+        {
+          "de": "Korrespondenztheorie",
+          "it": "teoria della corrispondenza",
+          "example": "Korrespondenztheorie betont Abbildung.",
+          "exampleIt": "La teoria della corrispondenza enfatizza la mappatura.",
+          "article": "die",
+          "plural": "Korrespondenztheorien",
+          "type": "n"
+        },
+        {
+          "de": "Pragmatische Theorie",
+          "it": "teoria pragmatica",
+          "example": "Pragmatische Theorie betont Nützlichkeit.",
+          "exampleIt": "La teoria pragmatica enfatizza l'utilità.",
+          "article": "die",
+          "plural": "Pragmatischen Theorien",
+          "type": "n"
+        },
+        {
+          "de": "Wahrheitsfunktion",
+          "it": "funzione di verità",
+          "example": "Wahrheitsfunktion ist logisch.",
+          "exampleIt": "La funzione di verità è logica.",
+          "article": "die",
+          "plural": "Wahrheitsfunktionen",
+          "type": "n"
+        },
+        {
+          "de": "Falsifizierbarkeit",
+          "it": "falsificabilità",
+          "example": "Falsifizierbarkeit ist Kriterium.",
+          "exampleIt": "La falsificabilità è un criterio.",
+          "article": "die",
+          "plural": "Falsifizierbarkeiten",
+          "type": "n"
+        },
+        {
+          "de": "Verifikation",
+          "it": "verifica",
+          "example": "Verifikation bestätigt.",
+          "exampleIt": "La verifica conferma.",
+          "article": "die",
+          "plural": "Verifikationen",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Critica letteraria",
+      "nameIt": "Critica letteraria",
+      "words": [
+        {
+          "de": "Literaturkritik",
+          "it": "critica letteraria",
+          "example": "Literaturkritik wertet Werke.",
+          "exampleIt": "La critica letteraria valuta le opere.",
+          "article": "die",
+          "plural": "Literaturkritiken",
+          "type": "n"
+        },
+        {
+          "de": "Textanalyse",
+          "it": "analisi del testo",
+          "example": "Textanalyse erforscht Bedeutung.",
+          "exampleIt": "L'analisi del testo ricerca il significato.",
+          "article": "die",
+          "plural": "Textanalysen",
+          "type": "n"
+        },
+        {
+          "de": "Interpretation",
+          "it": "interpretazione",
+          "example": "Interpretation ist subjektiv.",
+          "exampleIt": "L'interpretazione è soggettiva.",
+          "article": "die",
+          "plural": "Interpretationen",
+          "type": "n"
+        },
+        {
+          "de": "Semiotik",
+          "it": "semiotica",
+          "example": "Semiotik untersucht Zeichen.",
+          "exampleIt": "La semiotica esamina i segni.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Narratologie",
+          "it": "narratologia",
+          "example": "Narratologie untersucht Erzählung.",
+          "exampleIt": "La narratologia esamina la narrazione.",
+          "article": "die",
+          "plural": "Narratologien",
+          "type": "n"
+        },
+        {
+          "de": "Erzählperspektive",
+          "it": "prospettiva narrativa",
+          "example": "Erzählperspektive formt Leseweise.",
+          "exampleIt": "La prospettiva narrativa forma il modo di leggere.",
+          "article": "die",
+          "plural": "Erzählperspektiven",
+          "type": "n"
+        },
+        {
+          "de": "Fokalisierung",
+          "it": "focalizzazione",
+          "example": "Fokalisierung lenkt Aufmerksamkeit.",
+          "exampleIt": "La focalizzazione dirige l'attenzione.",
+          "article": "die",
+          "plural": "Fokalisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Unreliable Narrator",
+          "it": "narratore inaffidabile",
+          "example": "Unreliable Narrator täuscht.",
+          "exampleIt": "Il narratore inaffidabile inganna.",
+          "article": "der",
+          "plural": "Unreliable Narrators",
+          "type": "n"
+        },
+        {
+          "de": "Intertextualität",
+          "it": "intertestualità",
+          "example": "Intertextualität verbindet Texte.",
+          "exampleIt": "L'intertestualità collega i testi.",
+          "article": "die",
+          "plural": "Intertextualitäten",
+          "type": "n"
+        },
+        {
+          "de": "Metafiktion",
+          "it": "metafiction",
+          "example": "Metafiktion ist selbstbewusst.",
+          "exampleIt": "La metafiction è consapevole di sé.",
+          "article": "die",
+          "plural": "Metafiktionen",
+          "type": "n"
+        },
+        {
+          "de": "Dekonstruktion",
+          "it": "decostruzione",
+          "example": "Dekonstruktion hinterfragt.",
+          "exampleIt": "La decostruzione mette in questione.",
+          "article": "die",
+          "plural": "Dekonstruktionen",
+          "type": "n"
+        },
+        {
+          "de": "Mimesis",
+          "it": "mimesi",
+          "example": "Mimesis ist Nachahmung.",
+          "exampleIt": "La mimesi è imitazione.",
+          "article": "die",
+          "plural": "Mimesen",
+          "type": "n"
+        },
+        {
+          "de": "Diegesis",
+          "it": "diegesi",
+          "example": "Diegesis ist Erzählung.",
+          "exampleIt": "La diegesi è narrazione.",
+          "article": "die",
+          "plural": "Diegesen",
+          "type": "n"
+        },
+        {
+          "de": "Mimesis vs. Diegesis",
+          "it": "mimesi vs. diegesi",
+          "example": "Mimesis vs. Diegesis ist fundamental.",
+          "exampleIt": "Mimesi vs. diegesi è fondamentale.",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Trope",
+          "it": "tropo",
+          "example": "Trope ist Stilmittel.",
+          "exampleIt": "Il tropo è una figura retorica.",
+          "article": "die",
+          "plural": "Tropen",
+          "type": "n"
+        },
+        {
+          "de": "Figur",
+          "it": "figura",
+          "example": "Figur ist Charakter.",
+          "exampleIt": "La figura è un personaggio.",
+          "article": "die",
+          "plural": "Figuren",
+          "type": "n"
+        },
+        {
+          "de": "Handlung",
+          "it": "trama",
+          "example": "Handlung ist Ereignisfolge.",
+          "exampleIt": "La trama è una sequenza di eventi.",
+          "article": "die",
+          "plural": "Handlungen",
+          "type": "n"
+        },
+        {
+          "de": "Setting",
+          "it": "ambientazione",
+          "example": "Setting ist Kontext.",
+          "exampleIt": "L'ambientazione è il contesto.",
+          "article": "das",
+          "plural": "Settings",
+          "type": "n"
+        },
+        {
+          "de": "Ton",
+          "it": "tono",
+          "example": "Ton ist Stimme.",
+          "exampleIt": "Il tono è la voce.",
+          "article": "der",
+          "plural": "Töne",
+          "type": "n"
+        },
+        {
+          "de": "Stil",
+          "it": "stile",
+          "example": "Stil ist Ausdrucksweise.",
+          "exampleIt": "Lo stile è il modo di espressione.",
+          "article": "der",
+          "plural": "Stile",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Psicoanalisi",
+      "nameIt": "Psicoanalisi",
+      "words": [
+        {
+          "de": "Psychoanalyse",
+          "it": "psicoanalisi",
+          "example": "Psychoanalyse untersucht Unbewusstes.",
+          "exampleIt": "La psicoanalisi esamina l'inconscio.",
+          "article": "die",
+          "plural": "Psychoanalysen",
+          "type": "n"
+        },
+        {
+          "de": "Unbewusstes",
+          "it": "inconscio",
+          "example": "Unbewusstes ist verborgen.",
+          "exampleIt": "L'inconscio è nascosto.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Bewusstsein",
+          "it": "consapevolezza",
+          "example": "Bewusstsein ist präsent.",
+          "exampleIt": "La consapevolezza è presente.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Vorbewusstsein",
+          "it": "preconsapevolezza",
+          "example": "Vorbewusstsein ist zugänglich.",
+          "exampleIt": "La preconsapevolezza è accessibile.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Es",
+          "it": "es",
+          "example": "Es ist Trieb.",
+          "exampleIt": "L'es è l'impulso.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ich",
+          "it": "io",
+          "example": "Ich ist Realitätsprinzip.",
+          "exampleIt": "L'io è il principio di realtà.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Überich",
+          "it": "superio",
+          "example": "Überich ist Moral.",
+          "exampleIt": "Il superio è la morale.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Trieb",
+          "it": "pulsione",
+          "example": "Trieb ist Motivation.",
+          "exampleIt": "La pulsione è motivazione.",
+          "article": "der",
+          "plural": "Triebe",
+          "type": "n"
+        },
+        {
+          "de": "Libido",
+          "it": "libido",
+          "example": "Libido ist Energie.",
+          "exampleIt": "La libido è energia.",
+          "article": "die",
+          "plural": "Libidos",
+          "type": "n"
+        },
+        {
+          "de": "Verdrängung",
+          "it": "rimozione",
+          "example": "Verdrängung vergessen.",
+          "exampleIt": "La rimozione dimentica.",
+          "article": "die",
+          "plural": "Verdrängungen",
+          "type": "n"
+        },
+        {
+          "de": "Sublimation",
+          "it": "sublimazione",
+          "example": "Sublimation transformiert.",
+          "exampleIt": "La sublimazione trasforma.",
+          "article": "die",
+          "plural": "Sublimationen",
+          "type": "n"
+        },
+        {
+          "de": "Projektion",
+          "it": "proiezione",
+          "example": "Projektion ist Abwehr.",
+          "exampleIt": "La proiezione è una difesa.",
+          "article": "die",
+          "plural": "Projektionen",
+          "type": "n"
+        },
+        {
+          "de": "Verschiebung",
+          "it": "spostamento",
+          "example": "Verschiebung verlagert.",
+          "exampleIt": "Lo spostamento sposta.",
+          "article": "die",
+          "plural": "Verschiebungen",
+          "type": "n"
+        },
+        {
+          "de": "Verdichtung",
+          "it": "condensazione",
+          "example": "Verdichtung vereinigt.",
+          "exampleIt": "La condensazione unisce.",
+          "article": "die",
+          "plural": "Verdichtungen",
+          "type": "n"
+        },
+        {
+          "de": "Traum",
+          "it": "sogno",
+          "example": "Traum ist symbolisch.",
+          "exampleIt": "Il sogno è simbolico.",
+          "article": "der",
+          "plural": "Träume",
+          "type": "n"
+        },
+        {
+          "de": "Traumarbeit",
+          "it": "lavoro del sogno",
+          "example": "Traumarbeit transformiert.",
+          "exampleIt": "Il lavoro del sogno trasforma.",
+          "article": "die",
+          "plural": "Traumarbeiten",
+          "type": "n"
+        },
+        {
+          "de": "Übertragung",
+          "it": "transfert",
+          "example": "Übertragung ist therapeutisch.",
+          "exampleIt": "Il transfert è terapeutico.",
+          "article": "die",
+          "plural": "Übertragungen",
+          "type": "n"
+        },
+        {
+          "de": "Gegen-übertragung",
+          "it": "controtransfert",
+          "example": "Gegen-übertragung ist reziprok.",
+          "exampleIt": "Il controtransfert è reciproco.",
+          "article": "die",
+          "plural": "Gegen-übertragungen",
+          "type": "n"
+        },
+        {
+          "de": "Wiedersetz",
+          "it": "resistenza",
+          "example": "Wiedersetz ist unbewusst.",
+          "exampleIt": "La resistenza è inconscia.",
+          "article": "der",
+          "plural": "Widersätze",
+          "type": "n"
+        },
+        {
+          "de": "Katharsis",
+          "it": "catarsi",
+          "example": "Katharsis ist Befreiung.",
+          "exampleIt": "La catarsi è liberazione.",
+          "article": "die",
+          "plural": "Katharsen",
+          "type": "n"
+        }
+      ]
     }
   ]
 }

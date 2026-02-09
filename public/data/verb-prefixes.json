@@ -121,6 +121,77 @@
                   "it": "I candidati devono consegnare i loro compiti d'esame."
                 }
               ]
+            },
+            {
+              "verb": "abbauen",
+              "translation": "smantellare, rimuovere",
+              "conjugation": "baut ab, baute ab, hat abgebaut",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Sie bauen die Brücke ab.",
+                  "it": "Smantellano il ponte."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Lager wurde abgebaut.",
+                  "it": "Il campo fu smantellato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Spannungen sollten abgebaut werden.",
+                  "it": "Le tensioni dovrebbero essere ridotte."
+                }
+              ]
+            },
+            {
+              "verb": "abschaffen",
+              "translation": "abolire, eliminare",
+              "conjugation": "schafft ab, schaffte ab, hat abgeschafft",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Das Gesetz wird abgeschafft.",
+                  "it": "La legge viene abrogata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben die Sklaverei abgeschafft.",
+                  "it": "Hanno abolito la schiavitù."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir müssen diese alte Regel abschaffen.",
+                  "it": "Dobbiamo eliminare questa vecchia norma."
+                }
+              ]
+            },
+            {
+              "verb": "abmelden",
+              "translation": "deregistrare, comunicare l'uscita",
+              "conjugation": "meldet ab, meldete ab, hat abgemeldet",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich melde mich ab.",
+                  "it": "Mi deregistro."
+                },
+                {
+                  "level": "B1",
+                  "de": "Du musst dich bei der Schule abmelden.",
+                  "it": "Devi deregistrarti a scuola."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er hat sich von der Liste abgemeldet.",
+                  "it": "Si è deregistrato dalla lista."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Studentin hat sich abgemeldet.",
+                  "it": "La studentessa si è iscritta al corso."
+                }
+              ]
             }
           ]
         },
@@ -235,6 +306,136 @@
                   "level": "B1",
                   "de": "Man muss sich zur Prüfung anmelden.",
                   "it": "Bisogna registrarsi per l'esame."
+                }
+              ]
+            },
+            {
+              "verb": "anziehen",
+              "translation": "attirare, indossare",
+              "conjugation": "zieht an, zog an, hat angezogen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich ziehe eine Jacke an.",
+                  "it": "Indosso una giacca."
+                },
+                {
+                  "level": "A2",
+                  "de": "Das magnetische Feld zieht Metall an.",
+                  "it": "Il campo magnetico attira il metallo."
+                },
+                {
+                  "level": "B1",
+                  "de": "Diese Farben ziehen viele Besucher an.",
+                  "it": "Questi colori attirano molti visitatori."
+                }
+              ]
+            },
+            {
+              "verb": "ankommen",
+              "translation": "arrivare, giungere",
+              "conjugation": "kommt an, kam an, ist angekommen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Der Zug kommt um 8 Uhr an.",
+                  "it": "Il treno arriva alle 8."
+                },
+                {
+                  "level": "A2",
+                  "de": "Wir sind endlich angekommen.",
+                  "it": "Finalmente siamo arrivati."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Post kommt täglich um 9 Uhr an.",
+                  "it": "La posta arriva ogni giorno alle 9."
+                }
+              ]
+            },
+            {
+              "verb": "anmelden",
+              "translation": "registrare, iscrivere",
+              "conjugation": "meldet an, meldete an, hat angemeldet",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich melde mich für den Kurs an.",
+                  "it": "Mi iscrivo al corso."
+                },
+                {
+                  "level": "B1",
+                  "de": "Du musst dich anmelden.",
+                  "it": "Devi iscriverti."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben sich angemeldet.",
+                  "it": "Si sono iscritti."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Gast hat sich angemeldet.",
+                  "it": "L'ospite si è registrato."
+                }
+              ]
+            },
+            {
+              "verb": "ansprechen",
+              "translation": "affrontare, parlare a",
+              "conjugation": "spricht an, sprach an, hat angesprochen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Ich spreche ihn an.",
+                  "it": "Lo affronti."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie hat ihn direkt angesprochen.",
+                  "it": "L'ha affrontato direttamente."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Chef spricht das Thema an.",
+                  "it": "Il capo affronta l'argomento."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir sprechen die Probleme an.",
+                  "it": "Affrontiamo i problemi."
+                }
+              ]
+            },
+            {
+              "verb": "anfangen",
+              "translation": "iniziare, cominciare",
+              "conjugation": "fängt an, fing an, hat angefangen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich fange an.",
+                  "it": "Comincio."
+                },
+                {
+                  "level": "A2",
+                  "de": "Der Film fängt um 19 Uhr an.",
+                  "it": "Il film inizia alle 19."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben die Arbeit angefangen.",
+                  "it": "Hanno iniziato il lavoro."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wann fangst du an?",
+                  "it": "Quando inizi?"
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Programm fängt morgen an.",
+                  "it": "Il programma inizia domani."
                 }
               ]
             }
@@ -353,6 +554,185 @@
                   "it": "La polizia ha sgombrato il magazzino."
                 }
               ]
+            },
+            {
+              "verb": "aufgeben",
+              "translation": "rinunciare, abbandonare",
+              "conjugation": "gibt auf, gab auf, hat aufgegeben",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Er gibt die Hoffnung nicht auf.",
+                  "it": "Non rinuncia alla speranza."
+                },
+                {
+                  "level": "B1",
+                  "de": "Viele Raucher geben das Rauchen auf.",
+                  "it": "Molti fumatori rinunciano al fumo."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben ihre Karriere aufgegeben.",
+                  "it": "Hanno abbandonato la loro carriera."
+                }
+              ]
+            },
+            {
+              "verb": "aufpassen",
+              "translation": "fare attenzione, badare",
+              "conjugation": "passt auf, passte auf, hat aufgepasst",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Passt auf!",
+                  "it": "State attenti!"
+                },
+                {
+                  "level": "A2",
+                  "de": "Du musst im Unterricht aufpassen.",
+                  "it": "Devi fare attenzione a lezione."
+                },
+                {
+                  "level": "B1",
+                  "de": "Pass auf deine Taschen auf!",
+                  "it": "Bada alle tue borse!"
+                }
+              ]
+            },
+            {
+              "verb": "aufbauen",
+              "translation": "costruire, montare",
+              "conjugation": "baut auf, baute auf, hat aufgebaut",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Wir bauen ein Zelt auf.",
+                  "it": "Montiamo una tenda."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben ein neues System aufgebaut.",
+                  "it": "Hanno costruito un nuovo sistema."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Unternehmen baut sein Geschäft auf.",
+                  "it": "L'azienda sviluppa la sua attività."
+                },
+                {
+                  "level": "B1",
+                  "de": "Ein Haus wurde aufgebaut.",
+                  "it": "Una casa è stata costruita."
+                }
+              ]
+            },
+            {
+              "verb": "aufdecken",
+              "translation": "scoprire, rivelare",
+              "conjugation": "deckt auf, deckte auf, hat aufgedeckt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Der Tisch wird aufgedeckt.",
+                  "it": "La tavola viene apparecchiata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben den Skandal aufgedeckt.",
+                  "it": "Hanno scoperto lo scandalo."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Lüge wurde aufgedeckt.",
+                  "it": "La bugia è stata rivelata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Betrug wurde aufgedeckt.",
+                  "it": "La frode è stata scoperta."
+                }
+              ]
+            },
+            {
+              "verb": "aufheben",
+              "translation": "sollevare, abolire",
+              "conjugation": "hebt auf, hob auf, hat aufgehoben",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Hebe das auf!",
+                  "it": "Solleva!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie hat die Regel aufgehoben.",
+                  "it": "Ha abolito la regola."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Geld wurde aufgehoben.",
+                  "it": "Il denaro è stato sollevato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Vertrag wurde aufgehoben.",
+                  "it": "Il contratto è stato annullato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir heben die Verbot auf.",
+                  "it": "Revochiamo il divieto."
+                }
+              ]
+            },
+            {
+              "verb": "aufnehmen",
+              "translation": "registrare, accogliere",
+              "conjugation": "nimmt auf, nahm auf, hat aufgenommen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich nehme dich auf.",
+                  "it": "Ti accolgo."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben das Lied aufgenommen.",
+                  "it": "Hanno registrato la canzone."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Schule nimmt neue Schüler auf.",
+                  "it": "La scuola accoglie nuovi studenti."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Video wurde aufgenommen.",
+                  "it": "Il video è stato registrato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie nimmt den Hörer auf.",
+                  "it": "Solleva il ricevitore."
+                }
+              ]
+            },
+            {
+              "verb": "aufstehen",
+              "translation": "alzarsi, stare in piedi",
+              "conjugation": "steht auf, stand auf, ist aufgestanden",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich stehe auf.",
+                  "it": "Mi alzo."
+                },
+                {
+                  "level": "A2",
+                  "de": "Sie ist früh aufgestanden.",
+                  "it": "Si è alzata presto."
+                }
+              ]
             }
           ]
         },
@@ -467,6 +847,153 @@
                   "level": "B1",
                   "de": "Es hat nicht so aus, als ob er vorbeikommt.",
                   "it": "Non sembra che passerà."
+                }
+              ]
+            },
+            {
+              "verb": "ausbrechen",
+              "translation": "scoppiare, eruttare",
+              "conjugation": "bricht aus, brach aus, ist ausgebrochen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Der Krieg ist ausgebrochen.",
+                  "it": "La guerra è scoppiata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Ein Gefangener ist ausgebrochen.",
+                  "it": "Un prigioniero è fuggito."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Vulkan ist ausgebrochen.",
+                  "it": "Il vulcano è entrato in eruzione."
+                }
+              ]
+            },
+            {
+              "verb": "ausdenken",
+              "translation": "inventare, escogitare",
+              "conjugation": "denkt aus, dachte aus, hat ausgedacht",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Sie denken sich Geschichten aus.",
+                  "it": "Inventano storie."
+                },
+                {
+                  "level": "B1",
+                  "de": "Ein Kind hat das Spiel ausgedacht.",
+                  "it": "Un bambino ha inventato il gioco."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das habe ich mir nicht ausgedacht.",
+                  "it": "Non me lo sono inventato."
+                }
+              ]
+            },
+            {
+              "verb": "ausfahren",
+              "translation": "uscire in auto, estendersi",
+              "conjugation": "fährt aus, fuhr aus, ist ausgefahren",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Wir fahren am Wochenende aus.",
+                  "it": "Usciamo in auto il fine settimana."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Familie ist ausgefahren.",
+                  "it": "La famiglia è uscita."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Fahrrad ist ausgefahren.",
+                  "it": "La bicicletta si è estesa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Lager wird ausgefahren.",
+                  "it": "Il magazzino viene chiuso."
+                }
+              ]
+            },
+            {
+              "verb": "ausfallen",
+              "translation": "non avvenire, cadere, fallire",
+              "conjugation": "fällt aus, fiel aus, ist ausgefallen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Die Schule fällt aus.",
+                  "it": "La scuola è cancellata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Unterricht ist ausgefallen.",
+                  "it": "La lezione è stata annullata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Konzert fällt aus.",
+                  "it": "Il concerto non si tiene."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Strom ist ausgefallen.",
+                  "it": "L'energia è mancata."
+                }
+              ]
+            },
+            {
+              "verb": "ausbauen",
+              "translation": "espandere, sviluppare",
+              "conjugation": "baut aus, baute aus, hat ausgebaut",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Sie bauen die Fabrik aus.",
+                  "it": "Espandono la fabbrica."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das System wurde ausgebaut.",
+                  "it": "Il sistema è stato sviluppato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Stadt baut ihre Infrastruktur aus.",
+                  "it": "La città sviluppa le infrastrutture."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir haben die Straße ausgebaut.",
+                  "it": "Abbiamo ampliato la strada."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Kapazität wird ausgebaut.",
+                  "it": "La capacità viene ampliata."
+                }
+              ]
+            },
+            {
+              "verb": "ausschalten",
+              "translation": "spegnere, disattivare",
+              "conjugation": "schaltet aus, schaltete aus, hat ausgeschaltet",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Schalte den Fernseher aus!",
+                  "it": "Spegni la TV!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben das Licht ausgeschaltet.",
+                  "it": "Hanno spento la luce."
                 }
               ]
             }
@@ -585,6 +1112,77 @@
                   "it": "L'azienda mantiene la sua strategia."
                 }
               ]
+            },
+            {
+              "verb": "beistehen",
+              "translation": "stare accanto, aiutare",
+              "conjugation": "steht bei, stand bei, hat beigestanden",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Sie steht ihm in schwierigen Zeiten bei.",
+                  "it": "Gli sta accanto nei momenti difficili."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Familie hat ihm beigestanden.",
+                  "it": "La famiglia gli ha steso accanto."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wer wird uns beistehen?",
+                  "it": "Chi ci aiuterà?"
+                }
+              ]
+            },
+            {
+              "verb": "beilegen",
+              "translation": "allegare, risolvere",
+              "conjugation": "legt bei, legte bei, hat beigelegt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Eine Rechnung liegt dem Brief bei.",
+                  "it": "Una fattura è allegata alla lettera."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben den Streit beigelegt.",
+                  "it": "Hanno risolto la disputa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Ein Geschenk war beigelegt.",
+                  "it": "Un regalo era allegato."
+                }
+              ]
+            },
+            {
+              "verb": "beirren",
+              "translation": "confondere, disorientare",
+              "conjugation": "beirrt, beirrte, hat beirrt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Lass dich nicht beirren!",
+                  "it": "Non farti confondere!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie hat ihn nicht beirrt.",
+                  "it": "Non l'ha confuso."
+                },
+                {
+                  "level": "B1",
+                  "de": "Nichts beirrt ihn.",
+                  "it": "Niente lo confonde."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Fragen beirren den Kandidaten.",
+                  "it": "Le domande confondono il candidato."
+                }
+              ]
             }
           ]
         },
@@ -699,6 +1297,153 @@
                   "level": "B1",
                   "de": "Die Familie ist in das Haus am See eingezogen.",
                   "it": "La famiglia si è trasferita nella casa al lago."
+                }
+              ]
+            },
+            {
+              "verb": "einschlafen",
+              "translation": "addormentarsi, addormentare",
+              "conjugation": "schläft ein, schlief ein, ist eingeschlafen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Das Kind schläft ein.",
+                  "it": "Il bambino si addormenta."
+                },
+                {
+                  "level": "A2",
+                  "de": "Ich bin während des Films eingeschlafen.",
+                  "it": "Mi sono addormentato durante il film."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Medizin macht ihn einschlafen.",
+                  "it": "La medicina lo addormenta."
+                }
+              ]
+            },
+            {
+              "verb": "einsteigen",
+              "translation": "salire, entrare",
+              "conjugation": "steigt ein, stieg ein, ist eingestiegen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich steige in den Bus ein.",
+                  "it": "Salgo sull'autobus."
+                },
+                {
+                  "level": "A2",
+                  "de": "Bitte einsteigen!",
+                  "it": "Per favore, salite!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie sind am Bahnhof eingestiegen.",
+                  "it": "Sono saliti alla stazione."
+                }
+              ]
+            },
+            {
+              "verb": "einbrechen",
+              "translation": "sfondare, iniziare improvvisamente",
+              "conjugation": "bricht ein, brach ein, ist eingebrochen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Ein Dieb ist eingebrochen.",
+                  "it": "Un ladro ha forzato l'entrata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Dunkelheit bricht ein.",
+                  "it": "L'oscurità arriva improvvisamente."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Winter bricht ein.",
+                  "it": "L'inverno arriva."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Eis bricht ein.",
+                  "it": "Il ghiaccio crolla."
+                }
+              ]
+            },
+            {
+              "verb": "eindringen",
+              "translation": "penetrare, invadere",
+              "conjugation": "dringt ein, drang ein, ist eingedrungen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Der Feind ist eingedrungen.",
+                  "it": "Il nemico ha invaso."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wasser dringt in das Haus ein.",
+                  "it": "L'acqua entra in casa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie dringen in den Garten ein.",
+                  "it": "Invadono il giardino."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Licht dringt ein.",
+                  "it": "La luce penetra."
+                }
+              ]
+            },
+            {
+              "verb": "einladen",
+              "translation": "invitare, caricare",
+              "conjugation": "lädt ein, lud ein, hat eingeladen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich lade dich ein.",
+                  "it": "Ti invito."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben mich eingeladen.",
+                  "it": "Mi hanno invitato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Auto wird eingeladen.",
+                  "it": "L'auto viene caricata."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Chef lädt die Mitarbeiter ein.",
+                  "it": "Il capo invita i dipendenti."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir laden alles ein.",
+                  "it": "Carichiamo tutto."
+                }
+              ]
+            },
+            {
+              "verb": "einschalten",
+              "translation": "accendere, attivare",
+              "conjugation": "schaltet ein, schaltete ein, hat eingeschaltet",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Schalte die Lampe ein!",
+                  "it": "Accendi la lampada!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Er hat die Maschine eingeschaltet.",
+                  "it": "Ha acceso la macchina."
                 }
               ]
             }
@@ -1525,6 +2270,136 @@
                   "it": "Sono andati via per due settimane."
                 }
               ]
+            },
+            {
+              "verb": "weggehen",
+              "translation": "andare via, partire",
+              "conjugation": "geht weg, ging weg, ist weggegangen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich gehe weg.",
+                  "it": "Me ne vado."
+                },
+                {
+                  "level": "A2",
+                  "de": "Er ist weggegangen.",
+                  "it": "Se ne è andato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie gehen ohne Gruss weg.",
+                  "it": "Se ne vanno senza salutare."
+                }
+              ]
+            },
+            {
+              "verb": "wegbringen",
+              "translation": "portare via, togliere",
+              "conjugation": "bringt weg, brachte weg, hat weggebracht",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Wer bringt den Müll weg?",
+                  "it": "Chi porta via i rifiuti?"
+                },
+                {
+                  "level": "B1",
+                  "de": "Ich brachte die Taschen weg.",
+                  "it": "Ho portato via i bagagli."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Kind wurde weggebracht.",
+                  "it": "Il bambino è stato portato via."
+                }
+              ]
+            },
+            {
+              "verb": "weglaufen",
+              "translation": "scappare, fuggire",
+              "conjugation": "läuft weg, lief weg, ist weggelaufen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Das Kind läuft weg.",
+                  "it": "Il bambino scappa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Hund ist weggelaufen.",
+                  "it": "Il cane è scappato."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie laufen alle weg.",
+                  "it": "Scappano tutti."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Patient ist weggelaufen.",
+                  "it": "Il paziente è fuggito."
+                }
+              ]
+            },
+            {
+              "verb": "wegwerfen",
+              "translation": "buttare via, gettare",
+              "conjugation": "wirft weg, warf weg, hat weggeworfen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Wirf das weg!",
+                  "it": "Butta via!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie hat das Papier weggeworfen.",
+                  "it": "Ha buttato via la carta."
+                },
+                {
+                  "level": "B1",
+                  "de": "Nicht wegwerfen!",
+                  "it": "Non buttare via!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Er wirft Müll weg.",
+                  "it": "Butta via la spazzatura."
+                }
+              ]
+            },
+            {
+              "verb": "wegsehen",
+              "translation": "guardare altrove, fingere di non notare",
+              "conjugation": "sieht weg, sah weg, hat weggesen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Sie sieht weg.",
+                  "it": "Guarda altrove."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er hat weggesehen.",
+                  "it": "Ha guardato altrove."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Leute sehen weg.",
+                  "it": "Le persone guardano altrove."
+                },
+                {
+                  "level": "B1",
+                  "de": "Man darf nicht wegsehen.",
+                  "it": "Non si può guardare altrove."
+                },
+                {
+                  "level": "B1",
+                  "de": "Ich sehe nicht weg.",
+                  "it": "Non distolgo lo sguardo."
+                }
+              ]
             }
           ]
         },
@@ -1713,6 +2588,136 @@
                   "it": "Gli spettatori guardano la competizione."
                 }
               ]
+            },
+            {
+              "verb": "zuhören",
+              "translation": "ascoltare, prestare attenzione",
+              "conjugation": "hört zu, hörte zu, hat zugehört",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich höre zu.",
+                  "it": "Ascolto."
+                },
+                {
+                  "level": "A2",
+                  "de": "Bitte hören Sie zu!",
+                  "it": "Per favore, ascolti!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Schüler haben aufmerksam zugehört.",
+                  "it": "Gli studenti hanno ascoltato attentamente."
+                }
+              ]
+            },
+            {
+              "verb": "zumachen",
+              "translation": "chiudere, serrare",
+              "conjugation": "macht zu, machte zu, hat zugemacht",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Mach die Tür zu!",
+                  "it": "Chiudi la porta!"
+                },
+                {
+                  "level": "A2",
+                  "de": "Sie hat das Fenster zugemacht.",
+                  "it": "Ha chiuso la finestra."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Laden macht um 18 Uhr zu.",
+                  "it": "Il negozio chiude alle 18."
+                }
+              ]
+            },
+            {
+              "verb": "zuschliessen",
+              "translation": "chiudere a chiave, serrare",
+              "conjugation": "schliesst zu, schloss zu, hat zugeschlossen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Schliess die Tür zu!",
+                  "it": "Chiudi la porta a chiave!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie hat das Fenster zugeschlossen.",
+                  "it": "Ha chiuso la finestra."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Bank wird zugeschlossen.",
+                  "it": "La banca viene chiusa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er schließt die Kasse zu.",
+                  "it": "Chiude il registratore di cassa."
+                }
+              ]
+            },
+            {
+              "verb": "zuschauen",
+              "translation": "guardare, osservare",
+              "conjugation": "schaut zu, schaute zu, hat zugeschaut",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich schaue zu.",
+                  "it": "Guardo."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie schaut dem Spiel zu.",
+                  "it": "Guarda la partita."
+                },
+                {
+                  "level": "B1",
+                  "de": "Alle schauen zu.",
+                  "it": "Tutti guardano."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Schiedsrichter schaut zu.",
+                  "it": "L'arbitro osserva."
+                }
+              ]
+            },
+            {
+              "verb": "zufall",
+              "translation": "disattenzione, casualità",
+              "conjugation": "zufällt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Es zufällt uns.",
+                  "it": "Accade per caso."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das fällt mir zu.",
+                  "it": "Mi tocca."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Preis fällt ihm zu.",
+                  "it": "Il premio gli tocca."
+                },
+                {
+                  "level": "B1",
+                  "de": "Eine Rolle zufall ihr.",
+                  "it": "Un ruolo le tocca."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Aufgabe zufällt mir.",
+                  "it": "L'incarico mi tocca."
+                }
+              ]
             }
           ]
         },
@@ -1807,6 +2812,136 @@
                   "it": "L'ha richiamata."
                 }
               ]
+            },
+            {
+              "verb": "zurückgeben",
+              "translation": "restituire, rendere",
+              "conjugation": "gibt zurück, gab zurück, hat zurückgegeben",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Gib mir das Buch zurück!",
+                  "it": "Ridammi il libro!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie hat das Geld zurückgegeben.",
+                  "it": "Ha restituito i soldi."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Verlag gibt die Manuskripte zurück.",
+                  "it": "L'editore restituisce i manoscritti."
+                }
+              ]
+            },
+            {
+              "verb": "zurückkommen",
+              "translation": "tornare, ritornare",
+              "conjugation": "kommt zurück, kam zurück, ist zurückgekommen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich komme gleich zurück.",
+                  "it": "Torno subito."
+                },
+                {
+                  "level": "A2",
+                  "de": "Sie ist spät zurückgekommen.",
+                  "it": "È tornata tardi."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir kommen nächste Woche zurück.",
+                  "it": "Torniamo la prossima settimana."
+                }
+              ]
+            },
+            {
+              "verb": "zurückfahren",
+              "translation": "tornare indietro in auto, retrocedere",
+              "conjugation": "fährt zurück, fuhr zurück, ist zurückgefahren",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich fahre zurück nach Hause.",
+                  "it": "Torno a casa in auto."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Auto ist zurückgefahren.",
+                  "it": "L'auto è tornata indietro."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie fahren morgen zurück.",
+                  "it": "Tornano domani."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Lastwagen fährt zurück.",
+                  "it": "Il camion retrocede."
+                }
+              ]
+            },
+            {
+              "verb": "zurückhalten",
+              "translation": "trattenere, frenare",
+              "conjugation": "hält zurück, hielt zurück, hat zurückgehalten",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Ich halte dich zurück.",
+                  "it": "Ti fermo."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Polizei hält die Menge zurück.",
+                  "it": "La polizia trattiene la folla."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er hält sich zurück.",
+                  "it": "Si trattiene."
+                },
+                {
+                  "level": "B1",
+                  "de": "Nichts wird zurückgehalten.",
+                  "it": "Niente viene trattenuto."
+                }
+              ]
+            },
+            {
+              "verb": "zurücklehnen",
+              "translation": "appoggiarsi indietro, rilassarsi",
+              "conjugation": "lehnt zurück, lehnte zurück, hat zurückgelehnt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Ich lehne mich zurück.",
+                  "it": "Mi appoggio indietro."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er lehnt sich zurück.",
+                  "it": "Si appoggia indietro."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben sich zurückgelehnt.",
+                  "it": "Si sono appoggiati indietro."
+                },
+                {
+                  "level": "B1",
+                  "de": "Lehn dich zurück!",
+                  "it": "Appoggiati indietro!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Stuhl lehnt zurück.",
+                  "it": "La sedia si inclina all'indietro."
+                }
+              ]
             }
           ]
         },
@@ -1877,6 +3012,722 @@
                   "level": "B1",
                   "de": "Die Ereignisse hängen zusammen.",
                   "it": "Gli eventi sono correlati."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "dar-",
+          "meaning": "su (archaic/poetic)",
+          "verbs": [
+            {
+              "verb": "darauf",
+              "translation": "su, sopra",
+              "conjugation": "rarely used as verb",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Sie deuten darauf hin.",
+                  "it": "Lo indicano."
+                },
+                {
+                  "level": "B1",
+                  "de": "Es kommt darauf an.",
+                  "it": "Dipende."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir freuen uns darauf.",
+                  "it": "Non vediamo l'ora."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "empor-",
+          "meaning": "su, verso l'alto",
+          "verbs": [
+            {
+              "verb": "emporarbeiten",
+              "translation": "arrampicarsi faticosamente",
+              "conjugation": "arbeitet empor, arbeitete empor, hat emporgearbeitet",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Er arbeitete sich empor.",
+                  "it": "Si è arrampicato faticosamente."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Pflanze arbeitet sich empor.",
+                  "it": "La pianta si arrampica verso l'alto."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben sich emporgearbeitet.",
+                  "it": "Si sono arrampicati verso l'alto."
+                }
+              ]
+            },
+            {
+              "verb": "emporrichten",
+              "translation": "erigere, alzare",
+              "conjugation": "richtet empor, richtete empor, hat emporgerichtet",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Sie richten den Denkmal empor.",
+                  "it": "Erigono il monumento."
+                },
+                {
+                  "level": "B1",
+                  "de": "Ein neues Gebäude wurde emporgerichtet.",
+                  "it": "Un nuovo edificio è stato eretto."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Kirchturm ragt empor.",
+                  "it": "Il campanile si erge."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "herab-",
+          "meaning": "giù, verso il basso",
+          "verbs": [
+            {
+              "verb": "herabsteigen",
+              "translation": "scendere, dismontare",
+              "conjugation": "steigt herab, stieg herab, ist herabgestiegen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Der König steigt vom Thron herab.",
+                  "it": "Il re scende dal trono."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie sind vom Berg herabgestiegen.",
+                  "it": "Sono scesi dalla montagna."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Göttin steigt herab.",
+                  "it": "La dea scende."
+                }
+              ]
+            },
+            {
+              "verb": "herabfallen",
+              "translation": "cadere giù, precipitare",
+              "conjugation": "fällt herab, fiel herab, ist herabgefallen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Das Bild fällt herab.",
+                  "it": "Il quadro cade."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Stein ist herabgefallen.",
+                  "it": "La pietra è caduta."
+                },
+                {
+                  "level": "B1",
+                  "de": "Blätter fallen herab.",
+                  "it": "Le foglie cadono."
+                }
+              ]
+            },
+            {
+              "verb": "herabschauen",
+              "translation": "guardare giù, disdegnare",
+              "conjugation": "schaut herab, schaute herab, hat herabgeschaut",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Er schaut auf die Leute herab.",
+                  "it": "Guarda le persone dall'alto in basso."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie schaut disdegnfully herab.",
+                  "it": "Guarda con disprezzo."
+                },
+                {
+                  "level": "B1",
+                  "de": "Nicht auf andere herabschauen!",
+                  "it": "Non guardare gli altri dall'alto in basso!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "herauf-",
+          "meaning": "su (da qui)",
+          "verbs": [
+            {
+              "verb": "heraufsteigen",
+              "translation": "salire, ascendere",
+              "conjugation": "steigt herauf, stieg herauf, ist heraufgestiegen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Die Treppe steigt herauf.",
+                  "it": "Le scale salgono."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie sind die Berge heraufgestiegen.",
+                  "it": "Sono saliti sui monti."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Mond steigt herauf.",
+                  "it": "La luna sorge."
+                }
+              ]
+            },
+            {
+              "verb": "heraufbringen",
+              "translation": "portare su, far salire",
+              "conjugation": "bringt herauf, brachte herauf, hat heraufgebracht",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Bringe die Kisten herauf!",
+                  "it": "Porta su le casse!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir brachten die Waren herauf.",
+                  "it": "Abbiamo portato su la merce."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Aufzug bringt ihn herauf.",
+                  "it": "L'ascensore lo porta su."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "heraus-",
+          "meaning": "fuori, esterno",
+          "verbs": [
+            {
+              "verb": "heraustreten",
+              "translation": "uscire, emergere",
+              "conjugation": "tritt heraus, trat heraus, ist herausgetreten",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Der König tritt heraus.",
+                  "it": "Il re esce."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie sind aus dem Haus herausgetreten.",
+                  "it": "Sono usciti dalla casa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Ein neuer Mond tritt heraus.",
+                  "it": "Una nuova luna emerge."
+                }
+              ]
+            },
+            {
+              "verb": "herausfinden",
+              "translation": "scoprire, capire",
+              "conjugation": "findet heraus, fand heraus, hat herausgefunden",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich finde die Antwort heraus.",
+                  "it": "Scopro la risposta."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie haben die Wahrheit herausgefunden.",
+                  "it": "Hanno scoperto la verità."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir müssen herausfinden, was geschah.",
+                  "it": "Dobbiamo scoprire cosa è successo."
+                }
+              ]
+            },
+            {
+              "verb": "herauswachsen",
+              "translation": "crescere, superare",
+              "conjugation": "wächst heraus, wuchs heraus, ist herausgewachsen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Das Kind wächst aus den Kleidern heraus.",
+                  "it": "Il bambino cresce e i vestiti diventano troppo piccoli."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er ist aus seiner Schüchternheit herausgewachsen.",
+                  "it": "Ha superato la sua timidezza."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Pflanze wächst aus dem Topf heraus.",
+                  "it": "La pianta cresce fuori dal vaso."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "herein-",
+          "meaning": "dentro, interno",
+          "verbs": [
+            {
+              "verb": "hereinkommen",
+              "translation": "entrare, venire dentro",
+              "conjugation": "kommt herein, kam herein, ist hereingekommen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Herein!",
+                  "it": "Avanti!"
+                },
+                {
+                  "level": "A2",
+                  "de": "Sie kommt herein.",
+                  "it": "Entra."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Gast ist gerade hereingekommen.",
+                  "it": "L'ospite è appena entrato."
+                }
+              ]
+            },
+            {
+              "verb": "hereinfallen",
+              "translation": "cascare dentro, cadere nella trappola",
+              "conjugation": "fällt herein, fiel herein, ist hereingefallen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Er ist auf den Betrug hereingefallen.",
+                  "it": "È cascato nella trappola della frode."
+                },
+                {
+                  "level": "B1",
+                  "de": "Nicht auf die Lügen hereinfallen!",
+                  "it": "Non cadere nelle bugie!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie ist auf die List hereingefallen.",
+                  "it": "È cascata nell'inganno."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "herum-",
+          "meaning": "intorno, attorno",
+          "verbs": [
+            {
+              "verb": "herumgehen",
+              "translation": "girare intorno, passeggiare",
+              "conjugation": "geht herum, ging herum, ist herumgegangen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich gehe im Park herum.",
+                  "it": "Passeggio nel parco."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie gehen um das Haus herum.",
+                  "it": "Girano attorno alla casa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Katze geht herum.",
+                  "it": "Il gatto gira intorno."
+                }
+              ]
+            },
+            {
+              "verb": "herumtreiben",
+              "translation": "vagabondare, ozziare",
+              "conjugation": "treibt herum, trieb herum, hat herumgetrieben",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Der Junge treibt sich herum.",
+                  "it": "Il ragazzo girovaga."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie treiben sich in der Stadt herum.",
+                  "it": "Vagabondano per la città."
+                },
+                {
+                  "level": "B1",
+                  "de": "Nicht die ganze Zeit herumtreiben!",
+                  "it": "Non vagabondare tutto il tempo!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "herunter-",
+          "meaning": "giù, verso il basso",
+          "verbs": [
+            {
+              "verb": "heruntergehen",
+              "translation": "scendere, andare giù",
+              "conjugation": "geht herunter, ging herunter, ist heruntergegangen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich gehe herunter.",
+                  "it": "Scendo."
+                },
+                {
+                  "level": "A2",
+                  "de": "Er ist die Treppe heruntergegangen.",
+                  "it": "È sceso le scale."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie gehen langsam herunter.",
+                  "it": "Scendono lentamente."
+                }
+              ]
+            },
+            {
+              "verb": "herunterfallen",
+              "translation": "cadere giù, precipitare",
+              "conjugation": "fällt herunter, fiel herunter, ist heruntergefallen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Das Glas fällt herunter.",
+                  "it": "Il bicchiere cade."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Stein ist heruntergefallen.",
+                  "it": "La pietra è caduta."
+                },
+                {
+                  "level": "B1",
+                  "de": "Äpfel fallen vom Baum herunter.",
+                  "it": "Le mele cadono dall'albero."
+                }
+              ]
+            },
+            {
+              "verb": "herunterladen",
+              "translation": "scaricare (download)",
+              "conjugation": "lädt herunter, lud herunter, hat heruntergeladen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Ich lade die Datei herunter.",
+                  "it": "Scarico il file."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie hat das Video heruntergeladen.",
+                  "it": "Ha scaricato il video."
+                },
+                {
+                  "level": "B1",
+                  "de": "Das Programm wurde heruntergeladen.",
+                  "it": "Il programma è stato scaricato."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "hinab-",
+          "meaning": "giù, verso il basso (lontano)",
+          "verbs": [
+            {
+              "verb": "hinabsteigen",
+              "translation": "scendere, dismontare",
+              "conjugation": "steigt hinab, stieg hinab, ist hinabgestiegen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Sie steigen in die Höhle hinab.",
+                  "it": "Scendono nella grotta."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Bergsteiger ist hinabgestiegen.",
+                  "it": "L'alpinista è sceso."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir steigen hinab.",
+                  "it": "Scendiamo."
+                }
+              ]
+            },
+            {
+              "verb": "hinabblicken",
+              "translation": "guardare giù, guardare verso il basso",
+              "conjugation": "blickt hinab, blickte hinab, hat hinabgeblickt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Der Adler blickt hinab.",
+                  "it": "L'aquila guarda giù."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie blickt auf die Stadt hinab.",
+                  "it": "Guarda giù verso la città."
+                },
+                {
+                  "level": "B1",
+                  "de": "Von der Brücke blicke ich hinab.",
+                  "it": "Guardo giù dal ponte."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "hinauf-",
+          "meaning": "su, verso l'alto (lontano)",
+          "verbs": [
+            {
+              "verb": "hinaufsteigen",
+              "translation": "salire, ascendere",
+              "conjugation": "steigt hinauf, stieg hinauf, ist hinaufgestiegen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Sie steigen den Berg hinauf.",
+                  "it": "Salgono la montagna."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er ist die Leiter hinaufgestiegen.",
+                  "it": "È salito sulla scala."
+                },
+                {
+                  "level": "B1",
+                  "de": "Wir steigen hinauf zum Gipfel.",
+                  "it": "Saliamo verso la cima."
+                }
+              ]
+            },
+            {
+              "verb": "hinaufgehen",
+              "translation": "salire, andare su",
+              "conjugation": "geht hinauf, ging hinauf, ist hinaufgegangen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Gehen Sie hinauf!",
+                  "it": "Salga!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Die Preise gehen hinauf.",
+                  "it": "I prezzi salgono."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie sind die Treppe hinaufgegangen.",
+                  "it": "Sono saliti le scale."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "hinaus-",
+          "meaning": "fuori, esterno (lontano)",
+          "verbs": [
+            {
+              "verb": "hinausgehen",
+              "translation": "uscire, andare fuori",
+              "conjugation": "geht hinaus, ging hinaus, ist hinausgegangen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich gehe hinaus.",
+                  "it": "Esco."
+                },
+                {
+                  "level": "A2",
+                  "de": "Er ist in den Garten hinausgegangen.",
+                  "it": "È uscito nel giardino."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie gehen nach draußen hinaus.",
+                  "it": "Escono fuori."
+                }
+              ]
+            },
+            {
+              "verb": "hinauswerfen",
+              "translation": "buttare fuori, espellere",
+              "conjugation": "wirft hinaus, warf hinaus, hat hinausgeworfen",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Er wirft den Müll hinaus.",
+                  "it": "Butta la spazzatura fuori."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie wurde aus der Schule hinausgeworfen.",
+                  "it": "È stata espulsa dalla scuola."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Chef wirft ihn hinaus.",
+                  "it": "Il capo lo butta fuori."
+                }
+              ]
+            },
+            {
+              "verb": "hinauslehnen",
+              "translation": "sporgersi fuori",
+              "conjugation": "lehnt hinaus, lehnte hinaus, hat hinausgelehnt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Nicht aus dem Fenster hinauslehnen!",
+                  "it": "Non sporgersi dalla finestra!"
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie lehnt sich aus dem Auto hinaus.",
+                  "it": "Si sporge fuori dall'auto."
+                },
+                {
+                  "level": "B1",
+                  "de": "Der Junge hat sich hinausgelehnt.",
+                  "it": "Il ragazzo si è spor to fuori."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "hinein-",
+          "meaning": "dentro, interno (lontano)",
+          "verbs": [
+            {
+              "verb": "hineingehen",
+              "translation": "entrare, andare dentro",
+              "conjugation": "geht hinein, ging hinein, ist hineingegangen",
+              "examples": [
+                {
+                  "level": "A1",
+                  "de": "Ich gehe hinein.",
+                  "it": "Entro."
+                },
+                {
+                  "level": "A2",
+                  "de": "Sie gehen ins Haus hinein.",
+                  "it": "Entrano in casa."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er ist leise hineingegangen.",
+                  "it": "È entrato silenziosamente."
+                }
+              ]
+            },
+            {
+              "verb": "hineinblicken",
+              "translation": "guardare dentro, sbirciare",
+              "conjugation": "blickt hinein, blickte hinein, hat hineingeblickt",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Ich blicke in das Zimmer hinein.",
+                  "it": "Guardo dentro la stanza."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie blickt in die Zukunft hinein.",
+                  "it": "Guarda nel futuro."
+                },
+                {
+                  "level": "B1",
+                  "de": "Er hat hineingeblickt.",
+                  "it": "Ha sbirciat o dentro."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prefix": "hinüber-",
+          "meaning": "dall'altra parte, attraverso",
+          "verbs": [
+            {
+              "verb": "hinübergehen",
+              "translation": "andare dall'altra parte, attraversare",
+              "conjugation": "geht hinüber, ging hinüber, ist hinübergegangen",
+              "examples": [
+                {
+                  "level": "A2",
+                  "de": "Wir gehen über die Straße hinüber.",
+                  "it": "Attraversiamo la strada."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie sind zum anderen Ufer hinübergegangen.",
+                  "it": "Sono andati all'altra sponda."
+                },
+                {
+                  "level": "B1",
+                  "de": "Gehen Sie hinüber!",
+                  "it": "Vada dall'altra parte!"
+                }
+              ]
+            },
+            {
+              "verb": "hinüberretten",
+              "translation": "salvare dall'altra parte",
+              "conjugation": "rettet hinüber, rettete hinüber, hat hinübergerettet",
+              "examples": [
+                {
+                  "level": "B1",
+                  "de": "Die Helden retten ihn hinüber.",
+                  "it": "Gli eroi lo salvano."
+                },
+                {
+                  "level": "B1",
+                  "de": "Sie wurden hinübergerettet.",
+                  "it": "Sono stati salvati."
+                },
+                {
+                  "level": "B1",
+                  "de": "Man rettet die Kätzchen hinüber.",
+                  "it": "Si salvano i gattini."
                 }
               ]
             }

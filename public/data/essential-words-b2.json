@@ -231,6 +231,33 @@
           "article": "die",
           "plural": null,
           "type": "n"
+        },
+        {
+          "de": "Bankrott",
+          "it": "fallimento",
+          "example": "Der Bankrott ist katastrophal.",
+          "exampleIt": "Il fallimento è catastrofico.",
+          "article": "der",
+          "plural": "Bankrotte",
+          "type": "n"
+        },
+        {
+          "de": "Finanzmarkt",
+          "it": "mercato finanziario",
+          "example": "Der Finanzmarkt ist volatil.",
+          "exampleIt": "Il mercato finanziario è volatile.",
+          "article": "der",
+          "plural": "Finanzmärkte",
+          "type": "n"
+        },
+        {
+          "de": "Rendite",
+          "it": "rendimento",
+          "example": "Die Rendite ist positiv.",
+          "exampleIt": "Il rendimento è positivo.",
+          "article": "die",
+          "plural": "Renditen",
+          "type": "n"
         }
       ]
     },
@@ -462,6 +489,24 @@
           "article": "die",
           "plural": "Kompetenzen",
           "type": "n"
+        },
+        {
+          "de": "Referendum",
+          "it": "referendum",
+          "example": "Das Referendum ist demokratisch.",
+          "exampleIt": "Il referendum è democratico.",
+          "article": "das",
+          "plural": "Referenda",
+          "type": "n"
+        },
+        {
+          "de": "Koalition",
+          "it": "coalizione",
+          "example": "Die Koalition ist stabil.",
+          "exampleIt": "La coalizione è stabile.",
+          "article": "die",
+          "plural": "Koalitionen",
+          "type": "n"
         }
       ]
     },
@@ -692,6 +737,24 @@
           "exampleIt": "La simulazione è realistica.",
           "article": "die",
           "plural": "Simulationen",
+          "type": "n"
+        },
+        {
+          "de": "Laboratorium",
+          "it": "laboratorio",
+          "example": "Das Laboratorium ist ausgestattet.",
+          "exampleIt": "Il laboratorio è attrezzato.",
+          "article": "das",
+          "plural": "Laboratorien",
+          "type": "n"
+        },
+        {
+          "de": "Entdeckung",
+          "it": "scoperta",
+          "example": "Die Entdeckung ist bedeutend.",
+          "exampleIt": "La scoperta è significativa.",
+          "article": "die",
+          "plural": "Entdeckungen",
           "type": "n"
         }
       ]
@@ -1155,6 +1218,33 @@
           "article": "die",
           "plural": null,
           "type": "n"
+        },
+        {
+          "de": "Verhalten",
+          "it": "comportamento",
+          "example": "Das Verhalten ist vorhersehbar.",
+          "exampleIt": "Il comportamento è prevedibile.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Kognitiv",
+          "it": "cognitivo",
+          "example": "Kognitiv bezieht sich auf Denken.",
+          "exampleIt": "Cognitivo si riferisce al pensiero.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "Emotion",
+          "it": "emozione",
+          "example": "Die Emotion ist stark.",
+          "exampleIt": "L'emozione è forte.",
+          "article": "die",
+          "plural": "Emotionen",
+          "type": "n"
         }
       ]
     },
@@ -1386,6 +1476,51 @@
           "article": "die",
           "plural": "Antithesen",
           "type": "n"
+        },
+        {
+          "de": "Argumentation",
+          "it": "argomentazione",
+          "example": "Die Argumentation ist stark.",
+          "exampleIt": "L'argomentazione è forte.",
+          "article": "die",
+          "plural": "Argumentationen",
+          "type": "n"
+        },
+        {
+          "de": "Kontext",
+          "it": "contesto",
+          "example": "Der Kontext ist wichtig.",
+          "exampleIt": "Il contesto è importante.",
+          "article": "der",
+          "plural": "Kontexte",
+          "type": "n"
+        },
+        {
+          "de": "Perspektive",
+          "it": "prospettiva",
+          "example": "Die Perspektive ist unterschiedlich.",
+          "exampleIt": "La prospettiva è diversa.",
+          "article": "die",
+          "plural": "Perspektiven",
+          "type": "n"
+        },
+        {
+          "de": "Standpunkt",
+          "it": "punto di vista",
+          "example": "Der Standpunkt ist gültig.",
+          "exampleIt": "Il punto di vista è valido.",
+          "article": "der",
+          "plural": "Standpunkte",
+          "type": "n"
+        },
+        {
+          "de": "Kompromiss",
+          "it": "compromesso",
+          "example": "Der Kompromiss ist möglich.",
+          "exampleIt": "Il compromesso è possibile.",
+          "article": "der",
+          "plural": "Kompromisse",
+          "type": "n"
         }
       ]
     },
@@ -1616,6 +1751,1008 @@
           "exampleIt": "Il futuro è aperto.",
           "article": "die",
           "plural": "Zukünfte",
+          "type": "n"
+        },
+        {
+          "de": "Konzept",
+          "it": "concetto",
+          "example": "Das Konzept ist innovativ.",
+          "exampleIt": "Il concetto è innovativo.",
+          "article": "das",
+          "plural": "Konzepte",
+          "type": "n"
+        },
+        {
+          "de": "Theorie",
+          "it": "teoria",
+          "example": "Die Theorie ist stimmig.",
+          "exampleIt": "La teoria è coerente.",
+          "article": "die",
+          "plural": "Theorien",
+          "type": "n"
+        },
+        {
+          "de": "Prinzip",
+          "it": "principio",
+          "example": "Das Prinzip ist fundamental.",
+          "exampleIt": "Il principio è fondamentale.",
+          "article": "das",
+          "plural": "Prinzipien",
+          "type": "n"
+        },
+        {
+          "de": "Methode",
+          "it": "metodo",
+          "example": "Die Methode ist effizient.",
+          "exampleIt": "Il metodo è efficiente.",
+          "article": "die",
+          "plural": "Methoden",
+          "type": "n"
+        },
+        {
+          "de": "Ansatz",
+          "it": "approccio",
+          "example": "Der Ansatz ist pragmatisch.",
+          "exampleIt": "L'approccio è pragmatico.",
+          "article": "der",
+          "plural": "Ansätze",
+          "type": "n"
+        },
+        {
+          "de": "Struktur",
+          "it": "struttura",
+          "example": "Die Struktur ist logisch.",
+          "exampleIt": "La struttura è logica.",
+          "article": "die",
+          "plural": "Strukturen",
+          "type": "n"
+        },
+        {
+          "de": "Funktion",
+          "it": "funzione",
+          "example": "Die Funktion ist klar.",
+          "exampleIt": "La funzione è chiara.",
+          "article": "die",
+          "plural": "Funktionen",
+          "type": "n"
+        },
+        {
+          "de": "Relation",
+          "it": "relazione",
+          "example": "Die Relation ist wichtig.",
+          "exampleIt": "La relazione è importante.",
+          "article": "die",
+          "plural": "Relationen",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Diritto",
+      "nameIt": "Diritto",
+      "words": [
+        {
+          "de": "Recht",
+          "it": "diritto",
+          "example": "Das Recht ist bindend.",
+          "exampleIt": "Il diritto è vincolante.",
+          "article": "das",
+          "plural": "Rechte",
+          "type": "n"
+        },
+        {
+          "de": "Gesetz",
+          "it": "legge",
+          "example": "Das Gesetz ist gerecht.",
+          "exampleIt": "La legge è giusta.",
+          "article": "das",
+          "plural": "Gesetze",
+          "type": "n"
+        },
+        {
+          "de": "Verordnung",
+          "it": "regolamento",
+          "example": "Die Verordnung ist klar.",
+          "exampleIt": "Il regolamento è chiaro.",
+          "article": "die",
+          "plural": "Verordnungen",
+          "type": "n"
+        },
+        {
+          "de": "Gericht",
+          "it": "tribunale",
+          "example": "Das Gericht entscheidet.",
+          "exampleIt": "Il tribunale decide.",
+          "article": "das",
+          "plural": "Gerichte",
+          "type": "n"
+        },
+        {
+          "de": "Richter",
+          "it": "giudice",
+          "example": "Der Richter ist impartial.",
+          "exampleIt": "Il giudice è imparziale.",
+          "article": "der",
+          "plural": "Richter",
+          "type": "n"
+        },
+        {
+          "de": "Anwalt",
+          "it": "avvocato",
+          "example": "Der Anwalt verteidigt.",
+          "exampleIt": "L'avvocato difende.",
+          "article": "der",
+          "plural": "Anwälte",
+          "type": "n"
+        },
+        {
+          "de": "Klage",
+          "it": "causa",
+          "example": "Die Klage wird eingereicht.",
+          "exampleIt": "La causa viene presentata.",
+          "article": "die",
+          "plural": "Klagen",
+          "type": "n"
+        },
+        {
+          "de": "Prozess",
+          "it": "processo",
+          "example": "Der Prozess ist lange.",
+          "exampleIt": "Il processo è lungo.",
+          "article": "der",
+          "plural": "Prozesse",
+          "type": "n"
+        },
+        {
+          "de": "Urteil",
+          "it": "sentenza",
+          "example": "Das Urteil ist rechtskräftig.",
+          "exampleIt": "La sentenza è definitiva.",
+          "article": "das",
+          "plural": "Urteile",
+          "type": "n"
+        },
+        {
+          "de": "Vertrag",
+          "it": "contratto",
+          "example": "Der Vertrag ist bindend.",
+          "exampleIt": "Il contratto è vincolante.",
+          "article": "der",
+          "plural": "Verträge",
+          "type": "n"
+        },
+        {
+          "de": "Schuld",
+          "it": "colpa",
+          "example": "Die Schuld ist erwiesen.",
+          "exampleIt": "La colpa è provata.",
+          "article": "die",
+          "plural": "Schulden",
+          "type": "n"
+        },
+        {
+          "de": "Strafe",
+          "it": "punizione",
+          "example": "Die Strafe ist proportional.",
+          "exampleIt": "La punizione è proporzionata.",
+          "article": "die",
+          "plural": "Strafen",
+          "type": "n"
+        },
+        {
+          "de": "Beweis",
+          "it": "prova",
+          "example": "Der Beweis ist zwingend.",
+          "exampleIt": "La prova è incontrovertibile.",
+          "article": "der",
+          "plural": "Beweise",
+          "type": "n"
+        },
+        {
+          "de": "Aussage",
+          "it": "testimonianza",
+          "example": "Die Aussage ist relevant.",
+          "exampleIt": "La testimonianza è rilevante.",
+          "article": "die",
+          "plural": "Aussagen",
+          "type": "n"
+        },
+        {
+          "de": "Pflicht",
+          "it": "obbligo",
+          "example": "Die Pflicht ist erforderlich.",
+          "exampleIt": "L'obbligo è richiesto.",
+          "article": "die",
+          "plural": "Pflichten",
+          "type": "n"
+        },
+        {
+          "de": "Haftung",
+          "it": "responsabilità",
+          "example": "Die Haftung ist beschränkt.",
+          "exampleIt": "La responsabilità è limitata.",
+          "article": "die",
+          "plural": "Haftungen",
+          "type": "n"
+        },
+        {
+          "de": "Versicherung",
+          "it": "assicurazione",
+          "example": "Die Versicherung ist obligatorisch.",
+          "exampleIt": "L'assicurazione è obbligatoria.",
+          "article": "die",
+          "plural": "Versicherungen",
+          "type": "n"
+        },
+        {
+          "de": "Testament",
+          "it": "testamento",
+          "example": "Das Testament ist notariell beglaubigt.",
+          "exampleIt": "Il testamento è autenticato dal notaio.",
+          "article": "das",
+          "plural": "Testamente",
+          "type": "n"
+        },
+        {
+          "de": "Erbschaft",
+          "it": "eredità",
+          "example": "Die Erbschaft ist groß.",
+          "exampleIt": "L'eredità è grande.",
+          "article": "die",
+          "plural": "Erbschaften",
+          "type": "n"
+        },
+        {
+          "de": "Menschenrechte",
+          "it": "diritti umani",
+          "example": "Menschenrechte sind unverletzlich.",
+          "exampleIt": "I diritti umani sono inviolabili.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Scienza",
+      "nameIt": "Scienza",
+      "words": [
+        {
+          "de": "Wissenschaft",
+          "it": "scienza",
+          "example": "Wissenschaft erforscht.",
+          "exampleIt": "La scienza ricerca.",
+          "article": "die",
+          "plural": "Wissenschaften",
+          "type": "n"
+        },
+        {
+          "de": "Forschung",
+          "it": "ricerca",
+          "example": "Die Forschung ist grundlegend.",
+          "exampleIt": "La ricerca è fondamentale.",
+          "article": "die",
+          "plural": "Forschungen",
+          "type": "n"
+        },
+        {
+          "de": "Hypothese",
+          "it": "ipotesi",
+          "example": "Die Hypothese ist testbar.",
+          "exampleIt": "L'ipotesi è verificabile.",
+          "article": "die",
+          "plural": "Hypothesen",
+          "type": "n"
+        },
+        {
+          "de": "Experiment",
+          "it": "esperimento",
+          "example": "Das Experiment ist replizierbar.",
+          "exampleIt": "L'esperimento è replicabile.",
+          "article": "das",
+          "plural": "Experimente",
+          "type": "n"
+        },
+        {
+          "de": "Daten",
+          "it": "dati",
+          "example": "Die Daten sind genau.",
+          "exampleIt": "I dati sono accurati.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Analyse",
+          "it": "analisi",
+          "example": "Die Analyse ist gründlich.",
+          "exampleIt": "L'analisi è approfondita.",
+          "article": "die",
+          "plural": "Analysen",
+          "type": "n"
+        },
+        {
+          "de": "Modell",
+          "it": "modello",
+          "example": "Das Modell ist hilfreich.",
+          "exampleIt": "Il modello è utile.",
+          "article": "das",
+          "plural": "Modelle",
+          "type": "n"
+        },
+        {
+          "de": "Atome",
+          "it": "atomi",
+          "example": "Atome sind Bausteine.",
+          "exampleIt": "Gli atomi sono componenti.",
+          "article": "das",
+          "plural": "Atome",
+          "type": "n"
+        },
+        {
+          "de": "Moleküle",
+          "it": "molecole",
+          "example": "Moleküle sind zusammengesetzt.",
+          "exampleIt": "Le molecole sono composte.",
+          "article": "das",
+          "plural": "Moleküle",
+          "type": "n"
+        },
+        {
+          "de": "Energie",
+          "it": "energia",
+          "example": "Energie ist erhalten.",
+          "exampleIt": "L'energia è conservata.",
+          "article": "die",
+          "plural": "Energien",
+          "type": "n"
+        },
+        {
+          "de": "Kraft",
+          "it": "forza",
+          "example": "Die Kraft ist messbar.",
+          "exampleIt": "La forza è misurabile.",
+          "article": "die",
+          "plural": "Kräfte",
+          "type": "n"
+        },
+        {
+          "de": "Materie",
+          "it": "materia",
+          "example": "Materie hat Gewicht.",
+          "exampleIt": "La materia ha peso.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Licht",
+          "it": "luce",
+          "example": "Licht reist schnell.",
+          "exampleIt": "La luce viaggia velocemente.",
+          "article": "das",
+          "plural": "Lichter",
+          "type": "n"
+        },
+        {
+          "de": "Strahlung",
+          "it": "radiazione",
+          "example": "Strahlung ist energetisch.",
+          "exampleIt": "La radiazione è energetica.",
+          "article": "die",
+          "plural": "Strahlungen",
+          "type": "n"
+        },
+        {
+          "de": "Quelle",
+          "it": "fonte",
+          "example": "Die Quelle ist glaubwürdig.",
+          "exampleIt": "La fonte è affidabile.",
+          "article": "die",
+          "plural": "Quellen",
+          "type": "n"
+        },
+        {
+          "de": "Studium",
+          "it": "studio",
+          "example": "Das Studium ist umfassend.",
+          "exampleIt": "Lo studio è completo.",
+          "article": "das",
+          "plural": "Studien",
+          "type": "n"
+        },
+        {
+          "de": "Literatur",
+          "it": "letteratura",
+          "example": "Die Literatur ist reich.",
+          "exampleIt": "La letteratura è ricca.",
+          "article": "die",
+          "plural": "Literaturen",
+          "type": "n"
+        },
+        {
+          "de": "Methode",
+          "it": "metodo",
+          "example": "Die Methode ist wissenschaftlich.",
+          "exampleIt": "Il metodo è scientifico.",
+          "article": "die",
+          "plural": "Methoden",
+          "type": "n"
+        },
+        {
+          "de": "Ergebnis",
+          "it": "risultato",
+          "example": "Das Ergebnis ist signifikant.",
+          "exampleIt": "Il risultato è significativo.",
+          "article": "das",
+          "plural": "Ergebnisse",
+          "type": "n"
+        },
+        {
+          "de": "Schluß",
+          "it": "conclusione",
+          "example": "Der Schluß ist logisch.",
+          "exampleIt": "La conclusione è logica.",
+          "article": "der",
+          "plural": "Schlüsse",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Filosofia base",
+      "nameIt": "Filosofia base",
+      "words": [
+        {
+          "de": "Philosophie",
+          "it": "filosofia",
+          "example": "Philosophie fragt nach dem Sinn.",
+          "exampleIt": "La filosofia chiede il significato.",
+          "article": "die",
+          "plural": "Philosophien",
+          "type": "n"
+        },
+        {
+          "de": "Existenz",
+          "it": "esistenza",
+          "example": "Die Existenz ist mysteriös.",
+          "exampleIt": "L'esistenza è misteriosa.",
+          "article": "die",
+          "plural": "Existenzen",
+          "type": "n"
+        },
+        {
+          "de": "Sein",
+          "it": "essere",
+          "example": "Das Sein ist fundamental.",
+          "exampleIt": "L'essere è fondamentale.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Wesen",
+          "it": "essenza",
+          "example": "Das Wesen ist invariant.",
+          "exampleIt": "L'essenza è invariante.",
+          "article": "das",
+          "plural": "Wesen",
+          "type": "n"
+        },
+        {
+          "de": "Wahrheit",
+          "it": "verità",
+          "example": "Wahrheit ist relativ.",
+          "exampleIt": "La verità è relativa.",
+          "article": "die",
+          "plural": "Wahrheiten",
+          "type": "n"
+        },
+        {
+          "de": "Moral",
+          "it": "morale",
+          "example": "Moral ist subjektiv.",
+          "exampleIt": "La morale è soggettiva.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ethik",
+          "it": "etica",
+          "example": "Ethik ist handlungsleitend.",
+          "exampleIt": "L'etica è orientata all'azione.",
+          "article": "die",
+          "plural": "Ethiken",
+          "type": "n"
+        },
+        {
+          "de": "Gut",
+          "it": "bene",
+          "example": "Das Gut ist universal.",
+          "exampleIt": "Il bene è universale.",
+          "article": "das",
+          "plural": "Güter",
+          "type": "n"
+        },
+        {
+          "de": "Böse",
+          "it": "male",
+          "example": "Das Böse ist relativ.",
+          "exampleIt": "Il male è relativo.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Freiheit",
+          "it": "libertà",
+          "example": "Freiheit ist kostbar.",
+          "exampleIt": "La libertà è preziosa.",
+          "article": "die",
+          "plural": "Freiheiten",
+          "type": "n"
+        },
+        {
+          "de": "Gott",
+          "it": "dio",
+          "example": "Gott ist transzendent.",
+          "exampleIt": "Dio è trascendente.",
+          "article": "der",
+          "plural": "Götter",
+          "type": "n"
+        },
+        {
+          "de": "Glaube",
+          "it": "fede",
+          "example": "Glaube ist persönlich.",
+          "exampleIt": "La fede è personale.",
+          "article": "der",
+          "plural": "Glauben",
+          "type": "n"
+        },
+        {
+          "de": "Religion",
+          "it": "religione",
+          "example": "Religion ist kulturell.",
+          "exampleIt": "La religione è culturale.",
+          "article": "die",
+          "plural": "Religionen",
+          "type": "n"
+        },
+        {
+          "de": "Vernunft",
+          "it": "ragione",
+          "example": "Vernunft ist maßgeblich.",
+          "exampleIt": "La ragione è determinante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verstand",
+          "it": "intelletto",
+          "example": "Der Verstand ist limitiert.",
+          "exampleIt": "L'intelletto è limitato.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Intuition",
+          "it": "intuizione",
+          "example": "Intuition ist unmittelbar.",
+          "exampleIt": "L'intuizione è immediata.",
+          "article": "die",
+          "plural": "Intuitionen",
+          "type": "n"
+        },
+        {
+          "de": "Schönheit",
+          "it": "bellezza",
+          "example": "Schönheit ist subjektiv.",
+          "exampleIt": "La bellezza è soggettiva.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Kunst",
+          "it": "arte",
+          "example": "Kunst ist expresiv.",
+          "exampleIt": "L'arte è espressiva.",
+          "article": "die",
+          "plural": "Künste",
+          "type": "n"
+        },
+        {
+          "de": "Sinn",
+          "it": "significato",
+          "example": "Der Sinn ist kontextabhängig.",
+          "exampleIt": "Il significato è contestuale.",
+          "article": "der",
+          "plural": "Sinne",
+          "type": "n"
+        },
+        {
+          "de": "Zweck",
+          "it": "scopo",
+          "example": "Der Zweck ist gerechtfertigt.",
+          "exampleIt": "Lo scopo è giustificato.",
+          "article": "der",
+          "plural": "Zwecke",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Media",
+      "nameIt": "Media",
+      "words": [
+        {
+          "de": "Medien",
+          "it": "media",
+          "example": "Medien informieren.",
+          "exampleIt": "I media informano.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Zeitung",
+          "it": "giornale",
+          "example": "Die Zeitung erscheint täglich.",
+          "exampleIt": "Il giornale esce quotidianamente.",
+          "article": "die",
+          "plural": "Zeitungen",
+          "type": "n"
+        },
+        {
+          "de": "Zeitschrift",
+          "it": "rivista",
+          "example": "Die Zeitschrift ist monatlich.",
+          "exampleIt": "La rivista è mensile.",
+          "article": "die",
+          "plural": "Zeitschriften",
+          "type": "n"
+        },
+        {
+          "de": "Radio",
+          "it": "radio",
+          "example": "Das Radio transmittiert.",
+          "exampleIt": "La radio trasmette.",
+          "article": "das",
+          "plural": "Radios",
+          "type": "n"
+        },
+        {
+          "de": "Fernsehen",
+          "it": "televisione",
+          "example": "Das Fernsehen ist populär.",
+          "exampleIt": "La televisione è popolare.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Dokumentation",
+          "it": "documentario",
+          "example": "Die Dokumentation ist informativ.",
+          "exampleIt": "Il documentario è informativo.",
+          "article": "die",
+          "plural": "Dokumentationen",
+          "type": "n"
+        },
+        {
+          "de": "Nachricht",
+          "it": "notizia",
+          "example": "Die Nachricht ist aktuell.",
+          "exampleIt": "La notizia è attuale.",
+          "article": "die",
+          "plural": "Nachrichten",
+          "type": "n"
+        },
+        {
+          "de": "Bericht",
+          "it": "rapporto",
+          "example": "Der Bericht ist umfassend.",
+          "exampleIt": "Il rapporto è completo.",
+          "article": "der",
+          "plural": "Berichte",
+          "type": "n"
+        },
+        {
+          "de": "Sendung",
+          "it": "trasmissione",
+          "example": "Die Sendung ist unterhaltsam.",
+          "exampleIt": "La trasmissione è intrattenente.",
+          "article": "die",
+          "plural": "Sendungen",
+          "type": "n"
+        },
+        {
+          "de": "Interview",
+          "it": "intervista",
+          "example": "Das Interview ist prägnant.",
+          "exampleIt": "L'intervista è puntuale.",
+          "article": "das",
+          "plural": "Interviews",
+          "type": "n"
+        },
+        {
+          "de": "Netzwerk",
+          "it": "rete",
+          "example": "Das Netzwerk ist global.",
+          "exampleIt": "La rete è globale.",
+          "article": "das",
+          "plural": "Netzwerke",
+          "type": "n"
+        },
+        {
+          "de": "Plattform",
+          "it": "piattaforma",
+          "example": "Die Plattform ist digital.",
+          "exampleIt": "La piattaforma è digitale.",
+          "article": "die",
+          "plural": "Plattformen",
+          "type": "n"
+        },
+        {
+          "de": "Quelle",
+          "it": "fonte",
+          "example": "Die Quelle ist zuverlässig.",
+          "exampleIt": "La fonte è affidabile.",
+          "article": "die",
+          "plural": "Quellen",
+          "type": "n"
+        },
+        {
+          "de": "Bias",
+          "it": "pregiudizio",
+          "example": "Der Bias ist unbewusst.",
+          "exampleIt": "Il pregiudizio è inconscio.",
+          "article": "der",
+          "plural": "Biases",
+          "type": "n"
+        },
+        {
+          "de": "Propaganda",
+          "it": "propaganda",
+          "example": "Propaganda ist manipulativ.",
+          "exampleIt": "La propaganda è manipolativa.",
+          "article": "die",
+          "plural": "Propagandas",
+          "type": "n"
+        },
+        {
+          "de": "Zensur",
+          "it": "censura",
+          "example": "Zensur ist problematisch.",
+          "exampleIt": "La censura è problematica.",
+          "article": "die",
+          "plural": "Zensuren",
+          "type": "n"
+        },
+        {
+          "de": "Freiheit der Presse",
+          "it": "libertà di stampa",
+          "example": "Pressefreiheit ist essentiell.",
+          "exampleIt": "La libertà di stampa è essenziale.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Journalismus",
+          "it": "giornalismo",
+          "example": "Journalismus ist wichtig.",
+          "exampleIt": "Il giornalismo è importante.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Journalist",
+          "it": "giornalista",
+          "example": "Der Journalist recherchiert.",
+          "exampleIt": "Il giornalista ricerca.",
+          "article": "der",
+          "plural": "Journalisten",
+          "type": "n"
+        },
+        {
+          "de": "Herausgeber",
+          "it": "editore",
+          "example": "Der Herausgeber veröffentlicht.",
+          "exampleIt": "L'editore pubblica.",
+          "article": "der",
+          "plural": "Herausgeber",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Relazioni internazionali",
+      "nameIt": "Relazioni internazionali",
+      "words": [
+        {
+          "de": "Nation",
+          "it": "nazione",
+          "example": "Die Nation ist souverän.",
+          "exampleIt": "La nazione è sovrana.",
+          "article": "die",
+          "plural": "Nationen",
+          "type": "n"
+        },
+        {
+          "de": "Staat",
+          "it": "stato",
+          "example": "Der Staat ist organisiert.",
+          "exampleIt": "Lo stato è organizzato.",
+          "article": "der",
+          "plural": "Staaten",
+          "type": "n"
+        },
+        {
+          "de": "Diplomatie",
+          "it": "diplomazia",
+          "example": "Diplomatie ist subtil.",
+          "exampleIt": "La diplomazia è sottile.",
+          "article": "die",
+          "plural": "Diplomationen",
+          "type": "n"
+        },
+        {
+          "de": "Diplomat",
+          "it": "diplomatico",
+          "example": "Der Diplomat verhandelt.",
+          "exampleIt": "Il diplomatico negozia.",
+          "article": "der",
+          "plural": "Diplomaten",
+          "type": "n"
+        },
+        {
+          "de": "Allianz",
+          "it": "alleanza",
+          "example": "Die Allianz ist stark.",
+          "exampleIt": "L'alleanza è forte.",
+          "article": "die",
+          "plural": "Allianzen",
+          "type": "n"
+        },
+        {
+          "de": "Konflikt",
+          "it": "conflitto",
+          "example": "Der Konflikt ist eskalierend.",
+          "exampleIt": "Il conflitto è escalation.",
+          "article": "der",
+          "plural": "Konflikte",
+          "type": "n"
+        },
+        {
+          "de": "Krieg",
+          "it": "guerra",
+          "example": "Der Krieg ist destruktiv.",
+          "exampleIt": "La guerra è distruttiva.",
+          "article": "der",
+          "plural": "Kriege",
+          "type": "n"
+        },
+        {
+          "de": "Frieden",
+          "it": "pace",
+          "example": "Frieden ist wertvoll.",
+          "exampleIt": "La pace è preziosa.",
+          "article": "der",
+          "plural": "Frieden",
+          "type": "n"
+        },
+        {
+          "de": "Sicherheit",
+          "it": "sicurezza",
+          "example": "Sicherheit ist prioritär.",
+          "exampleIt": "La sicurezza è prioritaria.",
+          "article": "die",
+          "plural": "Sicherheiten",
+          "type": "n"
+        },
+        {
+          "de": "Verteidigung",
+          "it": "difesa",
+          "example": "Verteidigung ist berechtigt.",
+          "exampleIt": "La difesa è giustificata.",
+          "article": "die",
+          "plural": "Verteidigungen",
+          "type": "n"
+        },
+        {
+          "de": "Atommacht",
+          "it": "potenza nucleare",
+          "example": "Atommacht ist bedrohlich.",
+          "exampleIt": "La potenza nucleare è minacciosa.",
+          "article": "die",
+          "plural": "Atommächte",
+          "type": "n"
+        },
+        {
+          "de": "Embargo",
+          "it": "embargo",
+          "example": "Das Embargo ist wirtschaftlich.",
+          "exampleIt": "L'embargo è economico.",
+          "article": "das",
+          "plural": "Embargos",
+          "type": "n"
+        },
+        {
+          "de": "Sanktion",
+          "it": "sanzione",
+          "example": "Die Sanktion ist wirksam.",
+          "exampleIt": "La sanzione è efficace.",
+          "article": "die",
+          "plural": "Sanktionen",
+          "type": "n"
+        },
+        {
+          "de": "Vertrag",
+          "it": "trattato",
+          "example": "Der Vertrag ist verbindlich.",
+          "exampleIt": "Il trattato è vincolante.",
+          "article": "der",
+          "plural": "Verträge",
+          "type": "n"
+        },
+        {
+          "de": "Vereinte Nationen",
+          "it": "Nazioni Unite",
+          "example": "Die Vereinten Nationen mediieren.",
+          "exampleIt": "Le Nazioni Unite mediano.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Europäische Union",
+          "it": "Unione Europea",
+          "example": "Die Europäische Union integriert.",
+          "exampleIt": "L'Unione Europea integra.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Souveränität",
+          "it": "sovranità",
+          "example": "Souveränität ist unverhandelbar.",
+          "exampleIt": "La sovranità è non negoziabile.",
+          "article": "die",
+          "plural": "Souveränitäten",
+          "type": "n"
+        },
+        {
+          "de": "Grenzkonflikt",
+          "it": "conflitto di confine",
+          "example": "Der Grenzkonflikt ist alt.",
+          "exampleIt": "Il conflitto di confine è antico.",
+          "article": "der",
+          "plural": "Grenzkonflikte",
+          "type": "n"
+        },
+        {
+          "de": "Flüchtling",
+          "it": "rifugiato",
+          "example": "Der Flüchtling sucht Schutz.",
+          "exampleIt": "Il rifugiato cerca protezione.",
+          "article": "der",
+          "plural": "Flüchtlinge",
+          "type": "n"
+        },
+        {
+          "de": "Humanitäre Hilfe",
+          "it": "aiuto umanitario",
+          "example": "Humanitäre Hilfe ist notwendig.",
+          "exampleIt": "L'aiuto umanitario è necessario.",
+          "article": "die",
+          "plural": null,
           "type": "n"
         }
       ]

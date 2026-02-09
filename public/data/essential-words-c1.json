@@ -941,6 +941,936 @@
           "type": "adj"
         }
       ]
+    },
+    {
+      "name": "Economia avanzata",
+      "nameIt": "Economia avanzata",
+      "words": [
+        {
+          "de": "Makroökonomie",
+          "it": "macroeconomia",
+          "example": "Makroökonomie studiert Gesamtwirtschaft.",
+          "exampleIt": "La macroeconomia studia l'economia generale.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Mikroökonomie",
+          "it": "microeconomia",
+          "example": "Mikroökonomie analysiert Einzelmärkte.",
+          "exampleIt": "La microeconomia analizza i mercati individuali.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Konjunkturzyklus",
+          "it": "ciclo economico",
+          "example": "Der Konjunkturzyklus ist periodisch.",
+          "exampleIt": "Il ciclo economico è periodico.",
+          "article": "der",
+          "plural": "Konjunkturzyklen",
+          "type": "n"
+        },
+        {
+          "de": "Rezession",
+          "it": "recessione",
+          "example": "Die Rezession ist schmerzhaft.",
+          "exampleIt": "La recessione è dolorosa.",
+          "article": "die",
+          "plural": "Rezessionen",
+          "type": "n"
+        },
+        {
+          "de": "Stagnation",
+          "it": "stagnazione",
+          "example": "Die Stagnation ist persistent.",
+          "exampleIt": "La stagnazione è persistente.",
+          "article": "die",
+          "plural": "Stagnationen",
+          "type": "n"
+        },
+        {
+          "de": "Deflation",
+          "it": "deflazione",
+          "example": "Deflation ist selten.",
+          "exampleIt": "La deflazione è rara.",
+          "article": "die",
+          "plural": "Deflationen",
+          "type": "n"
+        },
+        {
+          "de": "Volatilität",
+          "it": "volatilità",
+          "example": "Volatilität ist riskant.",
+          "exampleIt": "La volatilità è rischiosa.",
+          "article": "die",
+          "plural": "Volatilitäten",
+          "type": "n"
+        },
+        {
+          "de": "Derivate",
+          "it": "derivati",
+          "example": "Derivate sind komplex.",
+          "exampleIt": "I derivati sono complessi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Hedging",
+          "it": "copertura",
+          "example": "Hedging reduziert Risiko.",
+          "exampleIt": "La copertura riduce il rischio.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Arbitrage",
+          "it": "arbitraggio",
+          "example": "Arbitrage nutzt Preisunterschiede.",
+          "exampleIt": "L'arbitraggio sfrutta le differenze di prezzo.",
+          "article": "die",
+          "plural": "Arbitragen",
+          "type": "n"
+        },
+        {
+          "de": "Portfolio",
+          "it": "portafoglio",
+          "example": "Das Portfolio ist diversifiziert.",
+          "exampleIt": "Il portafoglio è diversificato.",
+          "article": "das",
+          "plural": "Portfolios",
+          "type": "n"
+        },
+        {
+          "de": "Liquidität",
+          "it": "liquidità",
+          "example": "Liquidität ist essentiell.",
+          "exampleIt": "La liquidità è essenziale.",
+          "article": "die",
+          "plural": "Liquiditäten",
+          "type": "n"
+        },
+        {
+          "de": "Solvenz",
+          "it": "solvibilità",
+          "example": "Solvenz ist Zahlungsfähigkeit.",
+          "exampleIt": "La solvibilità è la capacità di pagare.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Bilanz",
+          "it": "bilancio",
+          "example": "Die Bilanz ist transparent.",
+          "exampleIt": "Il bilancio è trasparente.",
+          "article": "die",
+          "plural": "Bilanzen",
+          "type": "n"
+        },
+        {
+          "de": "Gewinn- und Verlustrechnung",
+          "it": "conto economico",
+          "example": "Die Gewinn- und Verlustrechnung zeigt Rentabilität.",
+          "exampleIt": "Il conto economico mostra la redditività.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Cashflow",
+          "it": "flusso di cassa",
+          "example": "Der Cashflow ist positiv.",
+          "exampleIt": "Il flusso di cassa è positivo.",
+          "article": "der",
+          "plural": "Cashflows",
+          "type": "n"
+        },
+        {
+          "de": "ROI",
+          "it": "ROI",
+          "example": "Der ROI ist wichtig.",
+          "exampleIt": "L'ROI è importante.",
+          "article": "der",
+          "plural": "ROIs",
+          "type": "n"
+        },
+        {
+          "de": "Verschuldungsquote",
+          "it": "rapporto di indebitamento",
+          "example": "Die Verschuldungsquote ist hoch.",
+          "exampleIt": "Il rapporto di indebitamento è alto.",
+          "article": "die",
+          "plural": "Verschuldungsquoten",
+          "type": "n"
+        },
+        {
+          "de": "Eigenkapitalquote",
+          "it": "rapporto di patrimonio",
+          "example": "Die Eigenkapitalquote ist niedrig.",
+          "exampleIt": "Il rapporto di patrimonio è basso.",
+          "article": "die",
+          "plural": "Eigenkapitalquoten",
+          "type": "n"
+        },
+        {
+          "de": "Konjunkturpolitik",
+          "it": "politica economica",
+          "example": "Konjunkturpolitik ist intervenzionistisch.",
+          "exampleIt": "La politica economica è interventista.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Ingegneria",
+      "nameIt": "Ingegneria",
+      "words": [
+        {
+          "de": "Ingenieur",
+          "it": "ingegnere",
+          "example": "Der Ingenieur konstruiert.",
+          "exampleIt": "L'ingegnere costruisce.",
+          "article": "der",
+          "plural": "Ingenieure",
+          "type": "n"
+        },
+        {
+          "de": "Konstruktion",
+          "it": "costruzione",
+          "example": "Die Konstruktion ist präzise.",
+          "exampleIt": "La costruzione è precisa.",
+          "article": "die",
+          "plural": "Konstruktionen",
+          "type": "n"
+        },
+        {
+          "de": "CAD",
+          "it": "CAD",
+          "example": "CAD erleichtert Design.",
+          "exampleIt": "Il CAD facilita il design.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Simulation",
+          "it": "simulazione",
+          "example": "Die Simulation ist akkurat.",
+          "exampleIt": "La simulazione è accurata.",
+          "article": "die",
+          "plural": "Simulationen",
+          "type": "n"
+        },
+        {
+          "de": "Toleranz",
+          "it": "tolleranza",
+          "example": "Toleranz ist Fehlerbereich.",
+          "exampleIt": "La tolleranza è il margine di errore.",
+          "article": "die",
+          "plural": "Toleranzen",
+          "type": "n"
+        },
+        {
+          "de": "Festigkeit",
+          "it": "resistenza",
+          "example": "Festigkeit ist material.",
+          "exampleIt": "La resistenza è materiale.",
+          "article": "die",
+          "plural": "Festigkeiten",
+          "type": "n"
+        },
+        {
+          "de": "Belastung",
+          "it": "carico",
+          "example": "Die Belastung ist berechenbar.",
+          "exampleIt": "Il carico è calcolabile.",
+          "article": "die",
+          "plural": "Belastungen",
+          "type": "n"
+        },
+        {
+          "de": "Verformung",
+          "it": "deformazione",
+          "example": "Verformung ist messbar.",
+          "exampleIt": "La deformazione è misurabile.",
+          "article": "die",
+          "plural": "Verformungen",
+          "type": "n"
+        },
+        {
+          "de": "Spannung",
+          "it": "tensione",
+          "example": "Die Spannung ist mechanisch.",
+          "exampleIt": "La tensione è meccanica.",
+          "article": "die",
+          "plural": "Spannungen",
+          "type": "n"
+        },
+        {
+          "de": "Schub",
+          "it": "taglio",
+          "example": "Schub ist eine Kraft.",
+          "exampleIt": "Il taglio è una forza.",
+          "article": "der",
+          "plural": "Schübe",
+          "type": "n"
+        },
+        {
+          "de": "Reibung",
+          "it": "attrito",
+          "example": "Reibung ist widerstehend.",
+          "exampleIt": "L'attrito è resistente.",
+          "article": "die",
+          "plural": "Reibungen",
+          "type": "n"
+        },
+        {
+          "de": "Vibration",
+          "it": "vibrazione",
+          "example": "Vibration ist oszillatorisch.",
+          "exampleIt": "La vibrazione è oscillatoria.",
+          "article": "die",
+          "plural": "Vibrationen",
+          "type": "n"
+        },
+        {
+          "de": "Thermodynamik",
+          "it": "termodinamica",
+          "example": "Thermodynamik studiert Wärme.",
+          "exampleIt": "La termodinamica studia il calore.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Fluid",
+          "it": "fluido",
+          "example": "Das Fluid ist strömend.",
+          "exampleIt": "Il fluido è scorrevole.",
+          "article": "das",
+          "plural": "Fluide",
+          "type": "n"
+        },
+        {
+          "de": "Strömung",
+          "it": "flusso",
+          "example": "Die Strömung ist turbulent.",
+          "exampleIt": "Il flusso è turbolento.",
+          "article": "die",
+          "plural": "Strömungen",
+          "type": "n"
+        },
+        {
+          "de": "Rohrleitung",
+          "it": "tubatura",
+          "example": "Die Rohrleitung transportiert.",
+          "exampleIt": "La tubatura trasporta.",
+          "article": "die",
+          "plural": "Rohrleitungen",
+          "type": "n"
+        },
+        {
+          "de": "Dichtung",
+          "it": "sigillo",
+          "example": "Die Dichtung ist wasserdicht.",
+          "exampleIt": "Il sigillo è impermeabile.",
+          "article": "die",
+          "plural": "Dichtungen",
+          "type": "n"
+        },
+        {
+          "de": "Lager",
+          "it": "cuscinetto",
+          "example": "Das Lager ist rotierend.",
+          "exampleIt": "Il cuscinetto è rotante.",
+          "article": "das",
+          "plural": "Lager",
+          "type": "n"
+        },
+        {
+          "de": "Getriebe",
+          "it": "cambio",
+          "example": "Das Getriebe überträgt Kraft.",
+          "exampleIt": "Il cambio trasmette la forza.",
+          "article": "das",
+          "plural": "Getriebe",
+          "type": "n"
+        },
+        {
+          "de": "Schaltung",
+          "it": "circuito",
+          "example": "Die Schaltung ist elektronisch.",
+          "exampleIt": "Il circuito è elettronico.",
+          "article": "die",
+          "plural": "Schaltungen",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Medicina",
+      "nameIt": "Medicina",
+      "words": [
+        {
+          "de": "Pathologie",
+          "it": "patologia",
+          "example": "Pathologie studiert Krankheiten.",
+          "exampleIt": "La patologia studia le malattie.",
+          "article": "die",
+          "plural": "Pathologien",
+          "type": "n"
+        },
+        {
+          "de": "Diagnose",
+          "it": "diagnosi",
+          "example": "Die Diagnose ist präzise.",
+          "exampleIt": "La diagnosi è precisa.",
+          "article": "die",
+          "plural": "Diagnosen",
+          "type": "n"
+        },
+        {
+          "de": "Therapie",
+          "it": "terapia",
+          "example": "Die Therapie ist wirksam.",
+          "exampleIt": "La terapia è efficace.",
+          "article": "die",
+          "plural": "Therapien",
+          "type": "n"
+        },
+        {
+          "de": "Symptom",
+          "it": "sintomo",
+          "example": "Das Symptom ist offensichtlich.",
+          "exampleIt": "Il sintomo è evidente.",
+          "article": "das",
+          "plural": "Symptome",
+          "type": "n"
+        },
+        {
+          "de": "Syndrom",
+          "it": "sindrome",
+          "example": "Das Syndrom ist komplex.",
+          "exampleIt": "La sindrome è complessa.",
+          "article": "das",
+          "plural": "Syndrome",
+          "type": "n"
+        },
+        {
+          "de": "Operation",
+          "it": "intervento chirurgico",
+          "example": "Die Operation ist invasiv.",
+          "exampleIt": "L'intervento chirurgico è invasivo.",
+          "article": "die",
+          "plural": "Operationen",
+          "type": "n"
+        },
+        {
+          "de": "Geschwür",
+          "it": "ulcera",
+          "example": "Das Geschwür ist schmerzhaft.",
+          "exampleIt": "L'ulcera è dolorosa.",
+          "article": "das",
+          "plural": "Geschwüre",
+          "type": "n"
+        },
+        {
+          "de": "Inflammation",
+          "it": "infiammazione",
+          "example": "Inflammation ist Reaktion.",
+          "exampleIt": "L'infiammazione è una reazione.",
+          "article": "die",
+          "plural": "Inflammationen",
+          "type": "n"
+        },
+        {
+          "de": "Allergie",
+          "it": "allergia",
+          "example": "Allergie ist Überreaktion.",
+          "exampleIt": "L'allergia è una iper-reazione.",
+          "article": "die",
+          "plural": "Allergien",
+          "type": "n"
+        },
+        {
+          "de": "Antigen",
+          "it": "antigene",
+          "example": "Das Antigen ist Fremdstoff.",
+          "exampleIt": "L'antigene è una sostanza estranea.",
+          "article": "das",
+          "plural": "Antigene",
+          "type": "n"
+        },
+        {
+          "de": "Antibody",
+          "it": "anticorpo",
+          "example": "Der Antikörper schützt.",
+          "exampleIt": "L'anticorpo protegge.",
+          "article": "der",
+          "plural": "Antikörper",
+          "type": "n"
+        },
+        {
+          "de": "Enzym",
+          "it": "enzima",
+          "example": "Das Enzym katalysiert.",
+          "exampleIt": "L'enzima catalizza.",
+          "article": "das",
+          "plural": "Enzyme",
+          "type": "n"
+        },
+        {
+          "de": "Hormon",
+          "it": "ormone",
+          "example": "Das Hormon reguliert.",
+          "exampleIt": "L'ormone regola.",
+          "article": "das",
+          "plural": "Hormone",
+          "type": "n"
+        },
+        {
+          "de": "Endoskopie",
+          "it": "endoscopia",
+          "example": "Endoskopie ist minimalinvasiv.",
+          "exampleIt": "L'endoscopia è minimamente invasiva.",
+          "article": "die",
+          "plural": "Endoskopien",
+          "type": "n"
+        },
+        {
+          "de": "Biopsie",
+          "it": "biopsia",
+          "example": "Die Biopsie ist diagnostisch.",
+          "exampleIt": "La biopsia è diagnostica.",
+          "article": "die",
+          "plural": "Biopsien",
+          "type": "n"
+        },
+        {
+          "de": "Chirurgie",
+          "it": "chirurgia",
+          "example": "Chirurgie ist invasiv.",
+          "exampleIt": "La chirurgia è invasiva.",
+          "article": "die",
+          "plural": "Chirurgien",
+          "type": "n"
+        },
+        {
+          "de": "Onkologie",
+          "it": "oncologia",
+          "example": "Onkologie behandelt Krebs.",
+          "exampleIt": "L'oncologia tratta il cancro.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Kardiologie",
+          "it": "cardiologia",
+          "example": "Kardiologie studiert Herz.",
+          "exampleIt": "La cardiologia studia il cuore.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Neurologie",
+          "it": "neurologia",
+          "example": "Neurologie untersucht Nerven.",
+          "exampleIt": "La neurologia esamina i nervi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Psychiatrie",
+          "it": "psichiatria",
+          "example": "Psychiatrie behandelt Geist.",
+          "exampleIt": "La psichiatria tratta la mente.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Sprachfähigkeit Fortgeschritten",
+      "nameIt": "Abilità linguistica avanzata",
+      "words": [
+        {
+          "de": "Morphologie",
+          "it": "morfologia",
+          "example": "Morphologie analysiert Wortstruktur.",
+          "exampleIt": "La morfologia analizza la struttura delle parole.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Syntax",
+          "it": "sintassi",
+          "example": "Syntax ordnet Sätze.",
+          "exampleIt": "La sintassi ordina le frasi.",
+          "article": "die",
+          "plural": "Syntaxen",
+          "type": "n"
+        },
+        {
+          "de": "Semiotik",
+          "it": "semiotica",
+          "example": "Semiotik untersucht Zeichen.",
+          "exampleIt": "La semiotica esamina i segni.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Linguistik",
+          "it": "linguistica",
+          "example": "Linguistik ist Sprachwissenschaft.",
+          "exampleIt": "La linguistica è la scienza del linguaggio.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Phonetik",
+          "it": "fonetica",
+          "example": "Phonetik untersucht Laute.",
+          "exampleIt": "La fonetica esamina i suoni.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Phonologie",
+          "it": "fonologia",
+          "example": "Phonologie ordnet Laute.",
+          "exampleIt": "La fonologia ordina i suoni.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Wortbildung",
+          "it": "formazione di parole",
+          "example": "Wortbildung schafft neue Wörter.",
+          "exampleIt": "La formazione di parole crea nuove parole.",
+          "article": "die",
+          "plural": "Wortbildungen",
+          "type": "n"
+        },
+        {
+          "de": "Etymologie",
+          "it": "etimologia",
+          "example": "Etymologie erforscht Wortherkunft.",
+          "exampleIt": "L'etimologia ricerca l'origine delle parole.",
+          "article": "die",
+          "plural": "Etymologien",
+          "type": "n"
+        },
+        {
+          "de": "Idiom",
+          "it": "idioma",
+          "example": "Idiom ist sprachenspezifisch.",
+          "exampleIt": "L'idioma è specifico della lingua.",
+          "article": "das",
+          "plural": "Idiome",
+          "type": "n"
+        },
+        {
+          "de": "Redewendung",
+          "it": "modo di dire",
+          "example": "Redewendung ist figurativ.",
+          "exampleIt": "Il modo di dire è figurativo.",
+          "article": "die",
+          "plural": "Redewendungen",
+          "type": "n"
+        },
+        {
+          "de": "Sprichwort",
+          "it": "proverbio",
+          "example": "Sprichwort ist Weisheit.",
+          "exampleIt": "Il proverbio è saggezza.",
+          "article": "das",
+          "plural": "Sprichwörter",
+          "type": "n"
+        },
+        {
+          "de": "Metapher",
+          "it": "metafora",
+          "example": "Metapher ist Vergleich.",
+          "exampleIt": "La metafora è un paragone.",
+          "article": "die",
+          "plural": "Metaphern",
+          "type": "n"
+        },
+        {
+          "de": "Metonymie",
+          "it": "metonimia",
+          "example": "Metonymie ist Wortersetzung.",
+          "exampleIt": "La metonimia è sostituzione di parole.",
+          "article": "die",
+          "plural": "Metonymien",
+          "type": "n"
+        },
+        {
+          "de": "Synekdoche",
+          "it": "sineddoche",
+          "example": "Synekdoche ist Teilersatz.",
+          "exampleIt": "La sineddoche è sostituzione di parti.",
+          "article": "die",
+          "plural": "Synekdochen",
+          "type": "n"
+        },
+        {
+          "de": "Litotes",
+          "it": "litote",
+          "example": "Litotes ist Untertreibung.",
+          "exampleIt": "La litote è attenuazione.",
+          "article": "die",
+          "plural": "Litotes",
+          "type": "n"
+        },
+        {
+          "de": "Hyperbel",
+          "it": "iperbole",
+          "example": "Hyperbel ist Übertreibung.",
+          "exampleIt": "L'iperbole è esagerazione.",
+          "article": "die",
+          "plural": "Hyperbeln",
+          "type": "n"
+        },
+        {
+          "de": "Oxymoron",
+          "it": "ossimoro",
+          "example": "Oxymoron ist Widerspruch.",
+          "exampleIt": "L'ossimoro è contraddizione.",
+          "article": "das",
+          "plural": "Oxymora",
+          "type": "n"
+        },
+        {
+          "de": "Asyndeton",
+          "it": "asindeto",
+          "example": "Asyndeton weglassen Konjunktionen.",
+          "exampleIt": "L'asindeto omette le congiunzioni.",
+          "article": "das",
+          "plural": "Asyndeta",
+          "type": "n"
+        },
+        {
+          "de": "Polysyndeton",
+          "it": "polisindeto",
+          "example": "Polysyndeton wiederholt Konjunktionen.",
+          "exampleIt": "Il polisindeto ripete le congiunzioni.",
+          "article": "das",
+          "plural": "Polysyndeta",
+          "type": "n"
+        },
+        {
+          "de": "Chiasmus",
+          "it": "chiasmo",
+          "example": "Chiasmus ist Antithese.",
+          "exampleIt": "Il chiasmo è antitesi.",
+          "article": "der",
+          "plural": "Chiasmi",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Gesellschaft und Kultur",
+      "nameIt": "Società e cultura",
+      "words": [
+        {
+          "de": "Ethnozentrismus",
+          "it": "etnocentrismo",
+          "example": "Ethnozentrismus ist Bias.",
+          "exampleIt": "L'etnocentrismo è pregiudizio.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Kulturrelativismus",
+          "it": "relativismo culturale",
+          "example": "Kulturrelativismus respektiert Unterschiede.",
+          "exampleIt": "Il relativismo culturale rispetta le differenze.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Akkulturation",
+          "it": "acculturazione",
+          "example": "Akkulturation ist Prozess.",
+          "exampleIt": "L'acculturazione è un processo.",
+          "article": "die",
+          "plural": "Akkulturationen",
+          "type": "n"
+        },
+        {
+          "de": "Assimilation",
+          "it": "assimilazione",
+          "example": "Assimilation ist Integration.",
+          "exampleIt": "L'assimilazione è integrazione.",
+          "article": "die",
+          "plural": "Assimilationen",
+          "type": "n"
+        },
+        {
+          "de": "Hegemonie",
+          "it": "egemonia",
+          "example": "Hegemonie ist Dominanz.",
+          "exampleIt": "L'egemonia è dominio.",
+          "article": "die",
+          "plural": "Hegemonien",
+          "type": "n"
+        },
+        {
+          "de": "Subalternität",
+          "it": "subalternità",
+          "example": "Subalternität ist Unterordnung.",
+          "exampleIt": "La subalternità è subordinazione.",
+          "article": "die",
+          "plural": "Subalternitäten",
+          "type": "n"
+        },
+        {
+          "de": "Performativität",
+          "it": "performatività",
+          "example": "Performativität konstituiert Identität.",
+          "exampleIt": "La performatività costituisce l'identità.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Intersektionalität",
+          "it": "intersezionalità",
+          "example": "Intersektionalität überlagert Identitäten.",
+          "exampleIt": "L'intersezionalità sovrappone le identità.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Hybridität",
+          "it": "ibridità",
+          "example": "Hybridität ist Vermischung.",
+          "exampleIt": "L'ibridità è mescolanza.",
+          "article": "die",
+          "plural": "Hybriditäten",
+          "type": "n"
+        },
+        {
+          "de": "Transnationalismus",
+          "it": "transnazionalismo",
+          "example": "Transnationalismus überschreitet Grenzen.",
+          "exampleIt": "Il transnazionalismo supera i confini.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Globalisierung",
+          "it": "globalizzazione",
+          "example": "Globalisierung verbindet.",
+          "exampleIt": "La globalizzazione collega.",
+          "article": "die",
+          "plural": "Globalisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Lokalisierung",
+          "it": "localizzazione",
+          "example": "Lokalisierung verankert.",
+          "exampleIt": "La localizzazione ancora.",
+          "article": "die",
+          "plural": "Lokalisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Glocalisierung",
+          "it": "glocalizzazione",
+          "example": "Glocalisierung verbindet Global und Lokal.",
+          "exampleIt": "La glocalizzazione combina globale e locale.",
+          "article": "die",
+          "plural": "Glocalisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Postkolonialismus",
+          "it": "postcolonialismo",
+          "example": "Postkolonialismus hinterfragt Colonialherrschaft.",
+          "exampleIt": "Il postcolonialismo mette in questione il colonialismo.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Kulturwechsel",
+          "it": "cambio culturale",
+          "example": "Kulturwechsel ist dynamisch.",
+          "exampleIt": "Il cambio culturale è dinamico.",
+          "article": "der",
+          "plural": "Kulturwechsel",
+          "type": "n"
+        },
+        {
+          "de": "Kulturkontakt",
+          "it": "contatto culturale",
+          "example": "Kulturkontakt führt zu Austausch.",
+          "exampleIt": "Il contatto culturale porta allo scambio.",
+          "article": "der",
+          "plural": "Kulturkontakte",
+          "type": "n"
+        },
+        {
+          "de": "Kulturkonflikt",
+          "it": "conflitto culturale",
+          "example": "Kulturkonflikt ist herausfordernd.",
+          "exampleIt": "Il conflitto culturale è impegnativo.",
+          "article": "der",
+          "plural": "Kulturkonflikte",
+          "type": "n"
+        },
+        {
+          "de": "Kulturerbe",
+          "it": "patrimonio culturale",
+          "example": "Kulturerbe ist wertvoll.",
+          "exampleIt": "Il patrimonio culturale è prezioso.",
+          "article": "das",
+          "plural": "Kulturerben",
+          "type": "n"
+        },
+        {
+          "de": "Ritualisierung",
+          "it": "ritualizzazione",
+          "example": "Ritualisierung festigt Praktiken.",
+          "exampleIt": "La ritualizzazione consolida le pratiche.",
+          "article": "die",
+          "plural": "Ritualisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Sakralisierung",
+          "it": "sacralizzazione",
+          "example": "Sakralisierung heiligt.",
+          "exampleIt": "La sacralizzazione santifica.",
+          "article": "die",
+          "plural": "Sakralisierungen",
+          "type": "n"
+        }
+      ]
     }
   ]
 }
