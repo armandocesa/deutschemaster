@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { DataProvider } from './DataContext';
+import { LanguageProvider } from './contexts/LanguageContext';
 import { scheduleReminder, getReminderTime } from './utils/notifications';
 import { initSession, endSession, syncQueuedEvents } from './utils/analytics';
 import './styles/variables.css';
@@ -54,8 +55,10 @@ class ErrorBoundary extends React.Component {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ErrorBoundary>
-    <DataProvider>
-      <App />
-    </DataProvider>
+    <LanguageProvider>
+      <DataProvider>
+        <App />
+      </DataProvider>
+    </LanguageProvider>
   </ErrorBoundary>
 );

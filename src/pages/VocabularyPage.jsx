@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
+import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
 import { speak } from '../utils/speech';
@@ -50,6 +51,7 @@ function WordCard({ word, viewMode, onRemove }) {
 }
 
 export default function VocabularyPage({ level, module, onNavigate }) {
+  const { t } = useLanguage();
   const { VOCABULARY_DATA } = useData();
   const [searchTerm, setSearchTerm] = useState('');
   const [viewMode, setViewMode] = useState('list');
@@ -70,8 +72,8 @@ export default function VocabularyPage({ level, module, onNavigate }) {
     return (
       <div className="vocabulary-page">
         <div className="page-header" style={{'--level-color': colors.bg}}>
-          <h1 className="page-title">Vocabolario</h1>
-          <p className="page-subtitle">{getLevelName(activeLevel)} - {modules.length} moduli</p>
+          <h1 className="page-title">{t('vocabulary.title')}</h1>
+          <p className="page-subtitle">{getLevelName(activeLevel)} - {modules.length} {t('vocabulary.modules')}</p>
         </div>
         <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
         <div className="modules-grid">
@@ -84,7 +86,7 @@ export default function VocabularyPage({ level, module, onNavigate }) {
               <div key={mod.id || idx} className="module-card" onClick={() => onNavigate('vocabulary', {level: activeLevel, module: mod})}>
                 <div className="module-icon">{mod.icon || '\u{1F4D6}'}</div>
                 <h3 className="module-title">{mod.name || mod.category}</h3>
-                <p className="module-count">{totalWords} parole</p>
+                <p className="module-count">{totalWords} {t('vocabulary.words')}</p>
                 <div className="module-progress">
                   <span className="module-progress-item correct">{correctCount}</span>
                   <span className="module-progress-item incorrect">{incorrectCount}</span>
@@ -106,24 +108,24 @@ export default function VocabularyPage({ level, module, onNavigate }) {
       <div className="page-header" style={{'--level-color': colors.bg}}>
         <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{activeLevel}</span>
         <h1 className="page-title">{module.icon} {module.name}</h1>
-        <p className="page-subtitle">{words.length} parole</p>
+        <p className="page-subtitle">{words.length} {t('vocabulary.words')}</p>
       </div>
       <div className="progress-summary">
-        <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'correct').length}</span> corrette</div>
-        <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'incorrect').length}</span> errate</div>
-        <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'unseen').length}</span> da fare</div>
+        <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'correct').length}</span> {t('vocabulary.correct')}</div>
+        <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'incorrect').length}</span> {t('vocabulary.incorrect')}</div>
+        <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'unseen').length}</span> {t('vocabulary.unseen')}</div>
       </div>
       <div className="vocab-toolbar">
-        <div className="search-box"><Icons.Search /><input type="text" placeholder="Cerca parola..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
+        <div className="search-box"><Icons.Search /><input type="text" placeholder={t('vocabulary.search')} value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
         <div className="view-toggle">
-          <button className={viewMode === 'grid' ? 'active' : ''} onClick={() => setViewMode('grid')}>Griglia</button>
-          <button className={viewMode === 'list' ? 'active' : ''} onClick={() => setViewMode('list')}>Lista</button>
+          <button className={viewMode === 'grid' ? 'active' : ''} onClick={() => setViewMode('grid')}>{t('vocabulary.grid')}</button>
+          <button className={viewMode === 'list' ? 'active' : ''} onClick={() => setViewMode('list')}>{t('vocabulary.list')}</button>
         </div>
       </div>
       <div className={`words-container ${viewMode}`}>
         {filteredWords.map((word, idx) => <WordCard key={idx} word={word} viewMode={viewMode} />)}
       </div>
-      {filteredWords.length === 0 && <div className="empty-state"><p>Nessuna parola trovata</p></div>}
+      {filteredWords.length === 0 && <div className="empty-state"><p>{t('vocabulary.noResults')}</p></div>}
     </div>
   );
 }

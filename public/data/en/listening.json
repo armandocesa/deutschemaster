@@ -1,0 +1,451 @@
+{
+  "levels": {
+    "A1": {
+      "exercises": [
+        {
+          "id": "a1_diktat_01",
+          "type": "diktat",
+          "title": "Greetings",
+          "text": "Guten Morgen! Wie geht es dir?",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_02",
+          "type": "diktat",
+          "title": "Basic Introduction",
+          "text": "Ich heiße Marco und ich bin 25 Jahre alt.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_03",
+          "type": "diktat",
+          "title": "Where are you from",
+          "text": "Ich komme aus Italien und wohne jetzt in Deutschland.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_04",
+          "type": "diktat",
+          "title": "Family",
+          "text": "Ich habe einen Bruder und eine Schwester.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_05",
+          "type": "diktat",
+          "title": "Daily routine",
+          "text": "Ich wache um sieben Uhr auf und frühstücke.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_comprensione_01",
+          "type": "comprensione",
+          "title": "Simple Introduction",
+          "text": "Mein Name ist Anna. Ich bin Lehrerin. Ich arbeite in einer Schule. Ich mag meine Arbeit sehr.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "What is the person's name?",
+              "options": [
+                "Anna",
+                "Andrea",
+                "Alice",
+                "Alessandra"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Quale è il lavoro di Anna?",
+              "options": [
+                "Infermiera",
+                "Lehrerin",
+                "Köchin",
+                "Ingeniera"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Dove lavora Anna?",
+              "options": [
+                "In un ospedale",
+                "In un negozio",
+                "In una scuola",
+                "In un ristorante"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_comprensione_02",
+          "type": "comprensione",
+          "title": "Family Description",
+          "text": "Ich habe einen großen Bruder. Er heißt Thomas. Thomas ist Arzt. Meine Schwester heißt Sabine. Sie studiert noch.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Che lavoro fa Thomas?",
+              "options": [
+                "Insegnante",
+                "Arzt",
+                "Meccanico",
+                "Cuoco"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Che cosa fa Sabine?",
+              "options": [
+                "Lavora come infermiera",
+                "Studia ancora",
+                "È pensionata",
+                "È disoccupata"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Quanti fratelli ha il narratore?",
+              "options": [
+                "Un fratello e una sorella",
+                "Due fratelli",
+                "Una sorella",
+                "Tre fratelli"
+              ],
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": "a1_lueckentext_01",
+          "type": "lueckentext",
+          "title": "Daily Routine",
+          "text": "Ich wache um 7 Uhr auf. Dann dusche ich und frühstücke. Ich trinke Kaffee und esse Brot.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "wache"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_02",
+          "type": "lueckentext",
+          "title": "Simple Statement",
+          "text": "Der Hund ist braun. Die Katze ist schwarz. Das Auto ist rot.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "braun"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_06",
+          "type": "diktat",
+          "title": "Occupation",
+          "text": "Mein Vater arbeitet als Ingenieur in einer großen Firma.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_07",
+          "type": "diktat",
+          "title": "Hobby",
+          "text": "In meiner Freizeit lese ich Bücher und spiele Gitarre.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_08",
+          "type": "diktat",
+          "title": "School",
+          "text": "Ich gehe zur Schule. Meine Lieblingsfächer sind Mathematik und Geschichte.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_09",
+          "type": "diktat",
+          "title": "Food",
+          "text": "Ich esse gerne Pizza und Pasta. Mein Lieblingsgetränk ist Orangensaft.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_10",
+          "type": "diktat",
+          "title": "Weekend",
+          "text": "Am Wochenende treffe ich meine Freunde. Wir gehen ins Kino oder spazieren.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_11",
+          "type": "diktat",
+          "title": "Numbers",
+          "text": "Ich bin zwanzig Jahre alt. Mein Bruder ist sechzehn.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_12",
+          "type": "diktat",
+          "title": "Time",
+          "text": "Es ist neun Uhr morgens. Der Unterricht beginnt um acht Uhr.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_13",
+          "type": "diktat",
+          "title": "Weather",
+          "text": "Das Wetter ist heute sehr schön. Die Sonne scheint.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_14",
+          "type": "diktat",
+          "title": "Shopping",
+          "text": "Ich gehe zum Supermarkt. Ich kaufe Brot, Milch und Käse.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_15",
+          "type": "diktat",
+          "title": "Animals",
+          "text": "Ich habe einen Hund. Sein Name ist Max. Der Hund ist sehr freundlich.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_16",
+          "type": "diktat",
+          "title": "Languages",
+          "text": "Ich spreche Deutsch und Englisch. Ich lerne auch Französisch.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_17",
+          "type": "diktat",
+          "title": "House",
+          "text": "Mein Haus hat vier Zimmer. Das Wohnzimmer ist sehr groß.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_comprensione_03",
+          "type": "comprensione",
+          "title": "Food Preferences",
+          "text": "Maria mag Äpfel und Bananen. Sie isst kein Fleisch. Ihr Lieblingsobst ist Erdbeeren.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Was mag Maria gerne?",
+              "options": [
+                "Fleisch",
+                "Äpfel und Bananen",
+                "Kartoffeln",
+                "Fisch"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Isst Maria Fleisch?",
+              "options": [
+                "Ja, sehr gerne",
+                "Nein, sie isst kein Fleisch",
+                "Manchmal",
+                "Nicht sicher"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist Marias Lieblingsobst?",
+              "options": [
+                "Äpfel",
+                "Bananen",
+                "Erdbeeren",
+                "Orangen"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_comprensione_04",
+          "type": "comprensione",
+          "title": "Daily Activities",
+          "text": "Peter wacht um sieben Uhr auf. Er frühstückt um sieben Uhr dreißig. Dann geht er zur Arbeit.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Wann wacht Peter auf?",
+              "options": [
+                "Um sechs Uhr",
+                "Um sieben Uhr",
+                "Um acht Uhr",
+                "Um neun Uhr"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wann frühstückt Peter?",
+              "options": [
+                "Um sieben Uhr",
+                "Um sieben Uhr dreißig",
+                "Um acht Uhr",
+                "Um neun Uhr"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wohin geht Peter nach dem Frühstück?",
+              "options": [
+                "Zur Schule",
+                "Zur Universität",
+                "Zur Arbeit",
+                "Zum Gym"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_comprensione_05",
+          "type": "comprensione",
+          "title": "Family Members",
+          "text": "Ich habe zwei Großeltern. Sie sind alt und nett. Sie wohnen auf dem Land.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Wie viele Großeltern hat die Person?",
+              "options": [
+                "Eins",
+                "Zwei",
+                "Drei",
+                "Vier"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie sind die Großeltern?",
+              "options": [
+                "Jung und böse",
+                "Alt und nett",
+                "Mittel und langweilig",
+                "Sehr jung"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wo wohnen die Großeltern?",
+              "options": [
+                "In der Stadt",
+                "Im Dorf",
+                "Auf dem Land",
+                "Im Wald"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_lueckentext_03",
+          "type": "lueckentext",
+          "title": "School Subjects",
+          "text": "Ich mag Mathematik und Deutsch. Geschichte ist auch interessant. Physik ist schwierig.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "mag"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_04",
+          "type": "lueckentext",
+          "title": "Colors",
+          "text": "Das Buch ist rot. Der Stift ist blau. Das Heft ist grün.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "rot"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_05",
+          "type": "lueckentext",
+          "title": "Sports",
+          "text": "Ich spiele Fußball. Mein Freund spielt Tennis. Wir spielen am Wochenende.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "spiele"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_06",
+          "type": "lueckentext",
+          "title": "Clothing",
+          "text": "Ich trage ein rotes Hemd. Ich trage auch schwarze Hosen. Meine Schuhe sind braun.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "trage"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_07",
+          "type": "lueckentext",
+          "title": "Drinks",
+          "text": "Ich trinke gerne Kaffee. Meine Mutter trinkt Tee. Mein Vater trinkt Bier.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "trinke"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_08",
+          "type": "lueckentext",
+          "title": "Places",
+          "text": "Das ist ein Supermarkt. Das ist ein Kino. Das ist ein Restaurant.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "Supermarkt"
+            }
+          ],
+          "questions": null
+        }
+      ]
+    }
+  }
+}

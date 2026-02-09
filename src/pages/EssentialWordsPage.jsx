@@ -5,6 +5,7 @@ import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { speak } from '../utils/speech';
 import { saveDifficultWord, isDifficultWord, removeDifficultWord } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
+import { useLanguage } from '../contexts/LanguageContext';
 
 function WordCard({ word, onToggleFavorite, saved }) {
   const [expandedExample, setExpandedExample] = useState(false);
@@ -94,7 +95,7 @@ function WordCard({ word, onToggleFavorite, saved }) {
             transition: 'all 0.2s'
           }}
         >
-          <Icons.Volume /> Ascolta
+          <Icons.Volume /> {t('essentialWords.listen')}
         </button>
         {word.example && (
           <button
@@ -112,7 +113,7 @@ function WordCard({ word, onToggleFavorite, saved }) {
               transition: 'all 0.2s'
             }}
           >
-            {expandedExample ? 'Nascondi' : 'Esempio'}
+            {expandedExample ? t('essentialWords.hide') : t('essentialWords.example')}
           </button>
         )}
       </div>
@@ -136,6 +137,7 @@ function WordCard({ word, onToggleFavorite, saved }) {
 }
 
 export default function EssentialWordsPage({ level, onNavigate }) {
+  const { t } = useLanguage();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [internalLevel, setInternalLevel] = useState(() => {
@@ -196,7 +198,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
         minHeight: '400px',
         color: 'var(--text-secondary)'
       }}>
-        <div>Caricamento...</div>
+        <div>{t('common.loading')}</div>
       </div>
     );
   }
@@ -242,7 +244,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
             color: 'var(--text-primary)',
             margin: 0
           }}>
-            Parole Essenziali
+            {t('essentialWords.title')}
           </h1>
         </div>
         <p style={{
@@ -250,7 +252,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
           color: 'var(--text-secondary)',
           margin: 0
         }}>
-          {getLevelName(activeLevel)} - {categories.length} categorie
+          {getLevelName(activeLevel)} - {categories.length} {t('essentialWords.categories')}
         </p>
       </div>
 
@@ -271,7 +273,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
           <Icons.Search />
           <input
             type="text"
-            placeholder="Cerca parola..."
+            placeholder={t('essentialWords.search')}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             style={{
@@ -293,7 +295,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
             padding: '40px 20px',
             color: 'var(--text-secondary)'
           }}>
-            <p>Nessuna parola trovata</p>
+            <p>{t('essentialWords.noResults')}</p>
           </div>
         ) : (
           filteredCategories.map((category, idx) => (

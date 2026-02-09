@@ -1,0 +1,731 @@
+{
+  "title": "Goethe-Zertifikat C1",
+  "topics": [
+    {
+      "id": "c1_01",
+      "name": "Complex Participial Attributes",
+      "explanation": "Extended and nested participial attributes.",
+      "content": {
+        "regola": "gli attributi participiali possono essere molto estesi, con più complementi tra articolo e sostantivo. Sono comuni nella prosa scientifica e giornalistica. Es: 'Die von der Regierung im letzten Jahr trotz starker Opposition beschlossenen Maßnahmen' (Le misure decise l'anno scorso dal governo nonostante forte opposizione).\n\nPossono contenere anche un altro Partizipialattribut nidificato. Si leggono dall'interno verso l'esterno o da destra a sinistra per capire la struttura.\n\nTrasformazione in relativa: 'Die Maßnahmen, die von der Regierung im letzten Jahr trotz starker Opposition beschlossen wurden.' Nella produzione scritta di livello C1, bisogna saper usare entrambe le forme.",
+        "schema": "Extended structure:",
+        "esempi": [
+          {
+            "tedesco": "Die seit langem erwartete Entscheidung wurde getroffen.",
+            "italiano": "The long-awaited decision was made."
+          },
+          {
+            "tedesco": "Der in der gestrigen Zeitung veröffentlichte Artikel hat Aufsehen erregt.",
+            "italiano": "The article published in yesterday's newspaper caused a stir."
+          },
+          {
+            "tedesco": "Die von vielen Experten als notwendig erachteten Reformen wurden verschoben.",
+            "italiano": "The reforms considered necessary by many experts have been postponed."
+          },
+          {
+            "tedesco": "Das für alle Mitarbeiter verbindliche Dokument liegt vor.",
+            "italiano": "The binding document for all employees is ready."
+          },
+          {
+            "tedesco": "Der im Ausland lebende und dort arbeitende Wissenschaftler kehrte zurück.",
+            "italiano": "The scientist who lives and works abroad has returned."
+          },
+          {
+            "tedesco": "Die durch den Klimawandel verursachten Probleme nehmen zu.",
+            "italiano": "The problems caused by climate change are increasing."
+          }
+        ],
+        "eccezioni": "In spoken language these constructions are very rare and relative clauses are preferred. In C1 exams you must both understand and produce them. Pay attention to the declension of the participle (as an attributive adjective).",
+        "uso": "Comprehension: academic, legal, journalistic texts. Production: formal written texts. Transforming between relative clause and participial attribute is a frequent C1 exercise. Read from right (noun) to left."
+      },
+      "exercises": [
+        {
+          "question": "Transform into a relative clause: 'der gestern angekommene Gast'",
+          "answer": "der Gast, der gestern angekommen ist",
+          "explanation": "Part. II intransitive → relative clause with sein."
+        },
+        {
+          "question": "Transform into participial attribute: 'der Zug, der um 8 Uhr abfährt'",
+          "answer": "der um 8 Uhr abfahrende Zug",
+          "explanation": "Action in progress → Part. I."
+        },
+        {
+          "question": "Transform into relative clause: 'die von der Firma angebotene Stelle'",
+          "answer": "die Stelle, die von der Firma angeboten wird",
+          "explanation": "Part. II transitive → passive relative clause."
+        },
+        {
+          "question": "Transform into participial attribute: 'the Probleme, die durch den Krieg verursacht wurden'",
+          "answer": "die durch den Krieg verursachten Probleme",
+          "explanation": "Passive relative clause → Part. II."
+        },
+        {
+          "question": "Participle I or II? 'die ___ Inflation' (steigend/gestiegen) - increasing",
+          "answer": "steigende",
+          "explanation": "Action in progress → Participle I."
+        },
+        {
+          "question": "Participle I or II? 'die ___ Reformen' (durchführen, already done)",
+          "answer": "durchgeführten",
+          "explanation": "Completed passive action → Participle II."
+        }
+      ]
+    },
+    {
+      "id": "c1_02",
+      "name": "Advanced Sentence Components",
+      "explanation": "Advanced analysis of German sentence structure.",
+      "content": {
+        "regola": "bisogna padroneggiare l'analisi dei Satzglieder (membri della frase). Ogni frase si compone di: Subjekt (soggetto), Prädikat (predicato, verbo), Objekte (complementi: Akkusativ-, Dativ-, Genitivobjekt, Präpositionalobjekt), Adverbiale (complementi circostanziali: temporal, kausal, modal, lokal).\n\nIl Vorfeld (prima del verbo) può contenere qualsiasi Satzglied per enfasi. Il Mittelfeld segue tendenzialmente TeKaMoLo. Il Nachfeld (dopo la cornice verbale) può contenere frasi subordinate, confronti, elementi pesanti.\n\nL'Ausklammerung (uscita dalla cornice) sposta elementi dopo il verbo finale per chiarezza: 'Ich habe gestern einen Mann getroffen, den ich lange nicht gesehen hatte.'",
+        "schema": "| Position  | Content              | Example                           |",
+        "esempi": [
+          {
+            "tedesco": "Gestern hat mein Bruder seinem Freund im Park ein Buch gegeben.",
+            "italiano": "Yesterday my brother gave a book to his friend in the park."
+          },
+          {
+            "tedesco": "Seinem Freund hat er das Buch gegeben, nicht mir.",
+            "italiano": "To his friend he gave the book, not to me."
+          },
+          {
+            "tedesco": "Ich habe ihm gestern das Buch gegeben, das du mir empfohlen hast.",
+            "italiano": "Yesterday I gave him the book you recommended."
+          },
+          {
+            "tedesco": "Interessant finde ich, dass er das gesagt hat.",
+            "italiano": "Interesting I find the fact that he said this."
+          },
+          {
+            "tedesco": "Er hat mehr gearbeitet, als ich erwartet hatte.",
+            "italiano": "He worked more than I expected."
+          },
+          {
+            "tedesco": "Gelesen habe ich das Buch, aber verstanden habe ich es nicht.",
+            "italiano": "Read I have, the book, but understood I have not."
+          }
+        ],
+        "eccezioni": "You can also place a Participle II or infinitive in the Vorfeld for strong emphasis: 'Gelesen habe ich es.' (I have read it.). In spoken language the Nachfeld is frequently used for subordinate clauses. In written language the Mittelfeld can be very long.",
+        "uso": "For C1 writing: vary the position of sentence components for emphasis and style. Topicalization: move the element you want to emphasize to the Vorfeld. Nachfeld: for heavy subordinate clauses or comparisons. Mastering these positions = advanced style."
+      },
+      "exercises": [
+        {
+          "question": "Which sentence component in the Vorfeld to emphasize 'yesterday'?",
+          "answer": "Gestern + inversione: Gestern habe ich...",
+          "explanation": "Temporal complement in Vorfeld."
+        },
+        {
+          "question": "What is Ausklammerung?",
+          "answer": "Spostamento di elementi dopo il V2 (fuori dalla cornice verbale)",
+          "explanation": "For clarity or with heavy elements."
+        },
+        {
+          "question": "What does the Nachfeld contain?",
+          "answer": "Subordinate, confronti, elementi pesanti",
+          "explanation": "After the final verb."
+        },
+        {
+          "question": "Order in the Mittelfeld?",
+          "answer": "TeKaMoLo: Temporal, Kausal, Modal, Lokal",
+          "explanation": "Tendency, not an absolute rule."
+        },
+        {
+          "question": "Emphasize the object: 'Ich habe das Buch gelesen.' →",
+          "answer": "Das Buch habe ich gelesen.",
+          "explanation": "Object in Vorfeld for emphasis."
+        },
+        {
+          "question": "What is the Satzklammer?",
+          "answer": "La cornice tra V1 (verbo finito) e V2 (Part./Inf.)",
+          "explanation": "Fundamental structure of the German sentence."
+        }
+      ]
+    },
+    {
+      "id": "c1_03",
+      "name": "Modal Particles",
+      "explanation": "Doch, mal, ja, eben, halt, wohl and their pragmatic use.",
+      "content": {
+        "regola": "Le Modalpartikeln (particelle modali) aggiungono sfumature emotive e pragmatiche alla frase senza cambiarne il significato grammaticale. Sono tipiche della lingua parlata e danno naturalezza al discorso.\n\n'Doch': contraddizione/insistenza ('Komm doch!'), risposta affermativa a domanda negativa ('Doch!'). 'Mal': attenuazione di richieste ('Schau mal!'). 'Ja': constatazione nota ('Das ist ja toll!'). 'Eben/halt': rassegnazione ('Das ist eben so.'). 'Wohl': supposizione ('Er ist wohl krank.'). 'Schon': consolazione/conferma ('Das wird schon klappen.').\n\nLe particelle stanno nel Mittelfeld, di solito dopo il soggetto e i pronomi.",
+        "schema": "| Particle | Function           | Example                     | Nuance               |",
+        "esempi": [
+          {
+            "tedesco": "Komm doch mal vorbei!",
+            "italiano": "Stop by a bit, come on!"
+          },
+          {
+            "tedesco": "Das ist ja unglaublich!",
+            "italiano": "But it's incredible!"
+          },
+          {
+            "tedesco": "Kannst du mir mal helfen?",
+            "italiano": "Can you give me a hand?"
+          },
+          {
+            "tedesco": "Das ist halt so im Leben.",
+            "italiano": "That's how life is, what can you do."
+          },
+          {
+            "tedesco": "Er wird wohl noch kommen.",
+            "italiano": "He'll probably come later."
+          },
+          {
+            "tedesco": "Das wird schon klappen!",
+            "italiano": "It will go well, you'll see!"
+          },
+          {
+            "tedesco": "Was machst du denn hier?",
+            "italiano": "But what are you doing here?"
+          },
+          {
+            "tedesco": "Das weiß ich doch!",
+            "italiano": "But I know!"
+          },
+          {
+            "tedesco": "Sag mal, weißt du das?",
+            "italiano": "Tell me, do you know?"
+          }
+        ],
+        "eccezioni": "Modal particles cannot be translated literally. Their meaning depends on context and intonation. They can be combined: 'doch mal' (Komm doch mal!), 'ja wohl' (Das ist ja wohl klar!). They are not used in formal written language.",
+        "uso": "Essential for sounding natural in spoken German. 'Doch' is the most versatile. 'Mal' softens requests. 'Ja' for surprise or observation. 'Eben/halt' for acceptance. 'Wohl' for suppositions. Learn through listening and practice."
+      },
+      "exercises": [
+        {
+          "question": "Soften: 'Hilf mir!' →",
+          "answer": "Hilf mir doch mal!",
+          "explanation": "Doch + mal soften the imperative."
+        },
+        {
+          "question": "Express surprise: 'Das ist toll!' →",
+          "answer": "Das ist ja toll!",
+          "explanation": "'Ja' for surprise/observation."
+        },
+        {
+          "question": "Express resignation: 'Das ist so.' →",
+          "answer": "Das ist eben/halt so.",
+          "explanation": "Eben/halt for resignation."
+        },
+        {
+          "question": "Express supposition: 'Er ist krank.' →",
+          "answer": "Er ist wohl krank.",
+          "explanation": "Wohl for supposition."
+        },
+        {
+          "question": "Consolation: 'Das wird klappen.' →",
+          "answer": "Das wird schon klappen.",
+          "explanation": "Schon for reassurance."
+        },
+        {
+          "question": "Curiosity: 'Was machst du?' →",
+          "answer": "Was machst du denn?",
+          "explanation": "Denn for curiosity in questions."
+        }
+      ]
+    },
+    {
+      "id": "c1_04",
+      "name": "Function Verb Constructions",
+      "explanation": "Constructions with function verb: in Betracht ziehen, zur Verfügung stehen, etc.",
+      "content": {
+        "regola": "I Funktionsverbgefüge (FVG) sono costruzioni in cui un verbo 'leggero' (stellen, nehmen, bringen, kommen, ziehen, stehen, halten, geraten) si combina con un sostantivo (spesso con preposizione) per esprimere un'azione. Il significato viene dal sostantivo, non dal verbo.\n\nEsempi: 'in Betracht ziehen' (prendere in considerazione), 'zur Verfügung stehen/stellen' (essere a disposizione/mettere a disposizione), 'in Frage kommen' (entrare in questione), 'Bescheid geben/wissen' (informare/sapere), 'in Anspruch nehmen' (usufruire di).\n\nI FVG appartengono al registro formale/burocratico e possono essere sostituiti da verbi semplici: 'in Betracht ziehen' = 'berücksichtigen' (considerare). 'Zur Verfügung stellen' = 'bereitstellen' (fornire).",
+        "schema": "| FVG                        | Simple Verb      | Meaning          |",
+        "esempi": [
+          {
+            "tedesco": "Wir müssen alle Optionen in Betracht ziehen.",
+            "italiano": "We must consider all options."
+          },
+          {
+            "tedesco": "Das Zimmer steht Ihnen zur Verfügung.",
+            "italiano": "The room is at your disposal."
+          },
+          {
+            "tedesco": "Das kommt leider nicht in Frage.",
+            "italiano": "Unfortunately it's not possible."
+          },
+          {
+            "tedesco": "Er hat das Angebot in Anspruch genommen.",
+            "italiano": "He made use of the offer."
+          },
+          {
+            "tedesco": "Sagen Sie mir bitte Bescheid.",
+            "italiano": "Please inform me."
+          },
+          {
+            "tedesco": "Das Gesetz tritt morgen in Kraft.",
+            "italiano": "The law comes into force tomorrow."
+          },
+          {
+            "tedesco": "Man muss Rücksicht auf andere nehmen.",
+            "italiano": "One must take account of others."
+          },
+          {
+            "tedesco": "Er brachte seine Meinung zum Ausdruck.",
+            "italiano": "He expressed his opinion."
+          }
+        ],
+        "eccezioni": "Some FVG have nuances that the simple verb doesn't have: 'in Anspruch nehmen' is more formal than 'nutzen'. Some FVG distinguish active/passive: 'zur Verfügung stellen' (active: to provide) vs 'zur Verfügung stehen' (passive: to be available). FVG should not be confused with idiomatic expressions.",
+        "uso": "Formal, bureaucratic, journalistic register. At C1 exam you must know them both passively (comprehension) and actively (production). In spoken language simple verbs are preferred. List of about 30-40 FVG essential for C1."
+      },
+      "exercises": [
+        {
+          "question": "Simple verb for 'in Betracht ziehen':",
+          "answer": "berücksichtigen (considerare)",
+          "explanation": "FVG → simple verb."
+        },
+        {
+          "question": "Complete: Das Zimmer ___ Ihnen zur ___.",
+          "answer": "steht...Verfügung",
+          "explanation": "Zur Verfügung stehen = to be available."
+        },
+        {
+          "question": "Complete: Das kommt nicht in ___.",
+          "answer": "Frage",
+          "explanation": "In Frage kommen = to be possible."
+        },
+        {
+          "question": "Complete: Bitte geben Sie mir ___.",
+          "answer": "Bescheid",
+          "explanation": "Bescheid geben = to inform."
+        },
+        {
+          "question": "Complete: Er nahm das Angebot in ___ ___.",
+          "answer": "Anspruch",
+          "explanation": "In Anspruch nehmen = to make use of."
+        },
+        {
+          "question": "Simple verb for 'zum Ausdruck bringen':",
+          "answer": "ausdrücken (esprimere)",
+          "explanation": "FVG → simple verb."
+        }
+      ]
+    },
+    {
+      "id": "c1_05",
+      "name": "Konjunktiv in tutti i contesti",
+      "explanation": "Riepilogo completo di Konjunktiv I e II in tutti i contesti d'uso.",
+      "content": {
+        "regola": "Il Konjunktiv ha numerosi usi: Konj. I: discorso indiretto formale (Er sagte, er sei...), istruzioni/ricette (Man nehme 200g Mehl), desideri formali (Es lebe der König!). Konj. II: ipotesi irreali (Wenn ich...wäre), cortesia (Könnten Sie...), desideri (Ich wünschte...), confronti irreali (als ob + Konj. II: als ob er krank wäre).\n\nCon 'als ob/als wenn' (come se): 'Er tut so, als ob er nichts wüsste.' Anche senza 'ob': 'Er tut so, als wüsste er nichts.' (inversione!). 'Beinahe/fast hätte ich...' (Per poco non avrei...) per azioni quasi accadute.\n\nKonj. II per attenuazione: 'Ich hätte da eine Frage.' (Avrei una domanda). 'Ich würde sagen...' (Direi...). 'Ich wäre Ihnen dankbar, wenn...' (Le sarei grato se...).",
+        "schema": "| Contesto              | Konjunktiv | Esempio                              |",
+        "esempi": [
+          {
+            "tedesco": "Er sagte, er komme morgen. (Konj. I, disc. indiretto)",
+            "italiano": "Ha detto che verrà domani."
+          },
+          {
+            "tedesco": "Wenn ich mehr Zeit hätte, würde ich reisen. (Konj. II)",
+            "italiano": "Se avessi più tempo, viaggerei."
+          },
+          {
+            "tedesco": "Er tut so, als ob er nichts wüsste. (confronto)",
+            "italiano": "Fa finta di non sapere niente."
+          },
+          {
+            "tedesco": "Fast hätte ich den Zug verpasst. (quasi accaduto)",
+            "italiano": "Per poco non perdevo il treno."
+          },
+          {
+            "tedesco": "Ich wäre Ihnen sehr dankbar. (attenuazione)",
+            "italiano": "Le sarei molto grato."
+          },
+          {
+            "tedesco": "Wenn ich doch in Deutschland wäre! (desiderio)",
+            "italiano": "Se solo fossi in Germania!"
+          },
+          {
+            "tedesco": "Man nehme 200g Mehl. (istruzione, Konj. I)",
+            "italiano": "Si prendano 200g di farina."
+          },
+          {
+            "tedesco": "Er sprach, als wäre er Experte. (senza ob)",
+            "italiano": "Parlava come se fosse un esperto."
+          }
+        ],
+        "eccezioni": "'Als ob' + Konj. II (verbo alla fine) = 'als' + Konj. II (inversione): 'als ob er käme' = 'als käme er'. 'Wenn doch...' / 'Wenn nur...' per desideri intensi. 'Beinahe/fast + Konj. II Plusqu.' per azioni quasi accadute ma non avvenute.",
+        "uso": "A livello C1 padroneggiare tutti gli usi del Konjunktiv. Konj. I: formale/scritto. Konj. II: parlato/scritto per irrealtà, cortesia, attenuazione. Variare tra le forme mostra competenza linguistica avanzata."
+      },
+      "exercises": [
+        {
+          "question": "Completa con als ob: 'Er tut so, ___ er alles ___ (wissen).'",
+          "answer": "als ob er alles wüsste",
+          "explanation": "Als ob + Konj. II, verbo alla fine."
+        },
+        {
+          "question": "Senza ob: 'Er tut so, als ___ er alles.' (wissen)",
+          "answer": "als wüsste er alles",
+          "explanation": "Senza ob: inversione."
+        },
+        {
+          "question": "Quasi accaduto: 'Per poco non dimenticavo.'",
+          "answer": "Fast hätte ich vergessen.",
+          "explanation": "Beinahe/fast + Konj. II Plusquamperfekt."
+        },
+        {
+          "question": "Attenuazione: 'Avrei una domanda.'",
+          "answer": "Ich hätte da eine Frage.",
+          "explanation": "Konj. II per cortesia/attenuazione."
+        },
+        {
+          "question": "Konj. I in ricette: 'Si prendano 3 uova.'",
+          "answer": "Man nehme drei Eier.",
+          "explanation": "Konj. I per istruzioni formali."
+        },
+        {
+          "question": "Desiderio: 'Se solo potessi!'",
+          "answer": "Wenn ich doch könnte!",
+          "explanation": "Wenn + doch + Konj. II."
+        }
+      ]
+    },
+    {
+      "id": "c1_06",
+      "name": "Indirekte Rede complessa",
+      "explanation": "Discorso indiretto con Konjunktiv I/II, tempi composti e discorso misto.",
+      "content": {
+        "regola": "Nel discorso indiretto complesso: presente → Konj. I presente (er komme/sei/habe). Passato → Konj. I Perfekt (er sei gekommen/habe gemacht). Futuro → Konj. I Futur (er werde kommen). Se Konj. I = indicativo → Konj. II.\n\nCambiamenti: pronomi (ich→er), possessivi (mein→sein), avverbi deittici (hier→dort, heute→an jenem Tag, morgen→am nächsten Tag). Imperativi → sollen + Infinitiv: 'Komm!' → 'Er sagte, ich solle kommen.'\n\nDiscorso indiretto esteso (senza ripetere 'er sagte'): si mantiene il Konj. I per tutto il passaggio: 'Der Minister erklärte, er sei zufrieden. Die Lage habe sich verbessert. Man werde weitere Maßnahmen ergreifen.'",
+        "schema": "| Diretto (originale)        | Indiretto (Konj. I)                   |",
+        "esempi": [
+          {
+            "tedesco": "Er sagte, er sei müde und wolle nach Hause gehen.",
+            "italiano": "Ha detto di essere stanco e di voler andare a casa."
+          },
+          {
+            "tedesco": "Sie behauptete, sie habe das Buch nicht gelesen.",
+            "italiano": "Affermava di non aver letto il libro."
+          },
+          {
+            "tedesco": "Der Sprecher erklärte, man werde die Situation verbessern.",
+            "italiano": "Il portavoce dichiarò che si sarebbe migliorata la situazione."
+          },
+          {
+            "tedesco": "Er sagte mir, ich solle pünktlich kommen.",
+            "italiano": "Mi disse di venire puntuale."
+          },
+          {
+            "tedesco": "Sie meinte, sie sei krank gewesen und habe deshalb nicht kommen können.",
+            "italiano": "Disse di essere stata malata e di non aver potuto venire."
+          },
+          {
+            "tedesco": "Die Zeitung berichtete, der Präsident habe seinen Rücktritt angekündigt.",
+            "italiano": "Il giornale riportò che il presidente aveva annunciato le sue dimissioni."
+          }
+        ],
+        "eccezioni": "In testi giornalistici lunghi il Konj. I si mantiene per paragrafi interi. Se il Konj. I è ambiguo e anche il Konj. II lo è, usare 'würde + Inf.' Nella lingua parlata il disc. indiretto con dass + indicativo è standard. Il Konj. I è raro nel parlato.",
+        "uso": "Essenziale per: giornalismo (riportare dichiarazioni), testi accademici (citare fonti), discorso formale. Il Konjunktiv segnala distanza/neutralità. Senza Konj., il parlante sembra concordare. A livello C1 bisogna padroneggiare tutte le trasformazioni."
+      },
+      "exercises": [
+        {
+          "question": "Trasforma: 'Ich habe das nicht gewusst.' → Er sagte,...",
+          "answer": "Er sagte, er habe das nicht gewusst.",
+          "explanation": "Perfekt diretto → Konj. I Perfekt."
+        },
+        {
+          "question": "Trasforma: 'Ich werde morgen kommen.' → Sie sagte,...",
+          "answer": "Sie sagte, sie werde am nächsten Tag kommen.",
+          "explanation": "Futuro + cambio deittici (morgen→am nächsten Tag)."
+        },
+        {
+          "question": "Trasforma imperativo: 'Warten Sie!' → Er sagte,...",
+          "answer": "Er sagte, ich solle warten.",
+          "explanation": "Imperativo → sollen + Infinitiv."
+        },
+        {
+          "question": "Trasforma: 'Ich war krank.' → Er sagte,...",
+          "answer": "Er sagte, er sei krank gewesen.",
+          "explanation": "Prät./Perfekt → Konj. I Perfekt."
+        },
+        {
+          "question": "Perché il Konj. I nel giornalismo?",
+          "answer": "Segnala distanza/neutralità: si riportano parole altrui senza confermarle.",
+          "explanation": "Neutralità giornalistica."
+        },
+        {
+          "question": "Trasforma: 'Wir können das nicht.' → Sie sagten,...",
+          "answer": "Sie sagten, sie könnten das nicht.",
+          "explanation": "Können Konj. I plur. = indicativo → Konj. II: könnten."
+        }
+      ]
+    },
+    {
+      "id": "c1_07",
+      "name": "Nominalisierung avanzata",
+      "explanation": "Nominalizzazione sistematica per il Nominalstil formale.",
+      "content": {
+        "regola": "la nominalizzazione diventa sistematica per trasformare frasi verbali in sintagmi nominali. Ogni tipo di frase subordinata ha un equivalente nominale: causale (weil→wegen/aufgrund), temporale (nachdem→nach, bevor→vor, während→während), concessiva (obwohl→trotz), finale (damit/um zu→zur/zwecks), condizionale (wenn→bei/im Falle).\n\nTrasformazione completa: Soggetto→Genitiv/Possessiv, Verbo→Sostantivo in -ung/-tion/Inf., Oggetto→Genitiv, Avverbio→Aggettivo. Es: 'Nachdem die Regierung die Reform beschlossen hatte' → 'Nach dem Beschluss der Reform durch die Regierung'.\n\nPatterns: verbo→-ung (Entscheidung), →-nis (Ergebnis), →-e (Bitte da bitten), →das+Inf. (das Lernen). Aggettivo→-heit/-keit/-ität.",
+        "schema": "| Frase verbale                    | Sintagma nominale                      |",
+        "esempi": [
+          {
+            "tedesco": "Wegen der Verschlechterung der Lage wurden Maßnahmen ergriffen.",
+            "italiano": "A causa del peggioramento della situazione sono state prese misure."
+          },
+          {
+            "tedesco": "Nach Abschluss des Studiums begann sie zu arbeiten.",
+            "italiano": "Dopo il completamento degli studi iniziò a lavorare."
+          },
+          {
+            "tedesco": "Trotz intensiver Bemühungen gelang es nicht.",
+            "italiano": "Nonostante intensi sforzi non è riuscito."
+          },
+          {
+            "tedesco": "Zur Verbesserung der Situation schlug er Reformen vor.",
+            "italiano": "Per il miglioramento della situazione propose riforme."
+          },
+          {
+            "tedesco": "Bei genauer Betrachtung zeigt sich ein anderes Bild.",
+            "italiano": "A un'osservazione attenta si mostra un quadro diverso."
+          },
+          {
+            "tedesco": "Aufgrund der steigenden Kosten wurden Einsparungen notwendig.",
+            "italiano": "A causa dei costi crescenti sono diventati necessari dei risparmi."
+          }
+        ],
+        "eccezioni": "Non tutte le nominalizzazioni sono eleganti. Troppa nominalizzazione rende il testo pesante (Nominalstil eccessivo). Un buon testo bilancia Nominalstil e Verbalstil. Alcune nominalizzazioni sono lessicalizzate e preferite alla forma verbale.",
+        "uso": "Essenziale per testi accademici e formali a livello C1. Saper trasformare da Verbalstil a Nominalstil e viceversa è competenza chiave. Per l'esame C1: trasformazione frase→sintagma e sintagma→frase."
+      },
+      "exercises": [
+        {
+          "question": "Nominalizza: 'weil die Kosten gestiegen sind'",
+          "answer": "wegen des Kostenanstiegs / aufgrund der gestiegenen Kosten",
+          "explanation": "Causale → wegen/aufgrund + Gen."
+        },
+        {
+          "question": "Nominalizza: 'nachdem er angekommen war'",
+          "answer": "nach seiner Ankunft",
+          "explanation": "Temporale → nach + Gen./Dat."
+        },
+        {
+          "question": "Nominalizza: 'obwohl man sich bemühte'",
+          "answer": "trotz der Bemühungen",
+          "explanation": "Concessiva → trotz + Gen."
+        },
+        {
+          "question": "Nominalizza: 'damit die Qualität verbessert wird'",
+          "answer": "zur Verbesserung der Qualität",
+          "explanation": "Finale → zur + Nominalisierung."
+        },
+        {
+          "question": "Verbalizza: 'Trotz des Regens gingen wir.'",
+          "answer": "Obwohl es regnete, gingen wir.",
+          "explanation": "Nominale → frase subordinata."
+        },
+        {
+          "question": "Verbalizza: 'Nach der Ankunft rief er an.'",
+          "answer": "Nachdem er angekommen war, rief er an.",
+          "explanation": "Nominale → subordinata temporale."
+        }
+      ]
+    },
+    {
+      "id": "c1_08",
+      "name": "Verbalisierung",
+      "explanation": "Trasformazione da stile nominale a stile verbale.",
+      "content": {
+        "regola": "La Verbalisierung è il processo inverso della Nominalisierung: si trasformano sintagmi nominali in frasi con verbi. Ogni preposizione nominale corrisponde a una congiunzione subordinante: wegen/aufgrund → weil/da, nach → nachdem, vor → bevor, trotz → obwohl, zur → um...zu/damit, bei → wenn/als, während → während, statt → anstatt...zu.\n\nIl sostantivo diventa verbo (Entscheidung→entscheiden), il genitivo diventa soggetto o oggetto, l'aggettivo attributivo diventa avverbio o predicato.\n\n'Aufgrund des schnellen Handelns der Feuerwehr' → 'Weil die Feuerwehr schnell handelte' / 'Da die Feuerwehr schnell gehandelt hat'.",
+        "schema": "| Nominale              | Congiunzione | Verbale                           |",
+        "esempi": [
+          {
+            "tedesco": "Wegen des Regens → Weil es regnet, bleiben wir zu Hause.",
+            "italiano": "A causa della pioggia → Poiché piove, restiamo a casa."
+          },
+          {
+            "tedesco": "Nach Abschluss → Nachdem er abgeschlossen hatte, feierte er.",
+            "italiano": "Dopo la conclusione → Dopo aver concluso, festeggiò."
+          },
+          {
+            "tedesco": "Trotz aller Bemühungen → Obwohl man sich bemüht hat,...",
+            "italiano": "Nonostante tutti gli sforzi → Sebbene ci si sia impegnati..."
+          },
+          {
+            "tedesco": "Zur Kostenreduzierung → Um die Kosten zu reduzieren,...",
+            "italiano": "Per la riduzione dei costi → Per ridurre i costi..."
+          },
+          {
+            "tedesco": "Bei genauer Betrachtung → Wenn man genau betrachtet,...",
+            "italiano": "A un'osservazione attenta → Se si osserva attentamente..."
+          },
+          {
+            "tedesco": "Aufgrund seiner Erkrankung → Da er erkrankt war,...",
+            "italiano": "A causa della sua malattia → Poiché si era ammalato..."
+          }
+        ],
+        "eccezioni": "Alcune espressioni nominali sono così lessicalizzate che la verbalizzazione risulta innaturale. In alcuni casi la trasformazione non è biunivoca: 'bei' può corrispondere a 'wenn' (condizione) o 'als' (passato). Il contesto determina la scelta.",
+        "uso": "Per rendere i testi più chiari e leggibili. Nella revisione: se un testo è troppo 'pesante' (Nominalstil eccessivo), verbalizzare alcune costruzioni. Per l'esame C1: saper trasformare in entrambe le direzioni."
+      },
+      "exercises": [
+        {
+          "question": "Verbalizza: 'Wegen seiner Krankheit fehlte er.'",
+          "answer": "Weil er krank war, fehlte er.",
+          "explanation": "Wegen + Gen. → weil + subordinata."
+        },
+        {
+          "question": "Verbalizza: 'Nach dem Essen ging er spazieren.'",
+          "answer": "Nachdem er gegessen hatte, ging er spazieren.",
+          "explanation": "Nach + Dat. → nachdem + Plusqu."
+        },
+        {
+          "question": "Verbalizza: 'Trotz des schlechten Wetters...'",
+          "answer": "Obwohl das Wetter schlecht war,...",
+          "explanation": "Trotz + Gen. → obwohl + subordinata."
+        },
+        {
+          "question": "Verbalizza: 'Zur Vermeidung von Fehlern...'",
+          "answer": "Um Fehler zu vermeiden,...",
+          "explanation": "Zur + Gen. → um...zu + Inf."
+        },
+        {
+          "question": "Verbalizza: 'Bei Bedarf rufen Sie uns an.'",
+          "answer": "Wenn Sie Bedarf haben, rufen Sie uns an.",
+          "explanation": "Bei + Dat. → wenn + subordinata."
+        },
+        {
+          "question": "Quando preferire il Verbalstil?",
+          "answer": "Per chiarezza, lingua parlata, testi divulgativi.",
+          "explanation": "Verbalstil = più chiaro e accessibile."
+        }
+      ]
+    },
+    {
+      "id": "c1_09",
+      "name": "Textstruktur e coerenza",
+      "explanation": "Come strutturare testi coerenti con connettori e riferimenti.",
+      "content": {
+        "regola": "La coerenza testuale si ottiene attraverso: 1) Connettori logici (deshalb, allerdings, folglich...), 2) Referenza (pronomi, sinonimi, iperonomi che si riferiscono a elementi precedenti), 3) Progressione tematica (tema dato → informazione nuova), 4) Isotopie (campi semantici coerenti).\n\nRiferimenti anaforici: pronomi (er/sie/es), pronomi dimostrativi (dieser/jener), sinonimi e parafrasi, da(r)+prep. (darüber, daran). Progressione: Tema costante (lo stesso soggetto in ogni frase), Tema lineare (il rema diventa tema della frase successiva).\n\nMeta-comunicazione: 'Wie bereits erwähnt' (Come già menzionato), 'Im Folgenden' (In seguito), 'Zusammenfassend' (Riassumendo), 'Darauf werde ich später eingehen' (Su questo tornerò più avanti).",
+        "schema": "Connettori per strutturare:",
+        "esempi": [
+          {
+            "tedesco": "Wie bereits erwähnt, spielt die Bildung eine wichtige Rolle.",
+            "italiano": "Come già menzionato, l'istruzione gioca un ruolo importante."
+          },
+          {
+            "tedesco": "Darauf werde ich im nächsten Abschnitt eingehen.",
+            "italiano": "Su questo mi soffermerò nel prossimo paragrafo."
+          },
+          {
+            "tedesco": "Das Problem wurde analysiert. Dabei zeigte sich, dass...",
+            "italiano": "Il problema è stato analizzato. In ciò si è mostrato che..."
+          },
+          {
+            "tedesco": "Zusammenfassend lässt sich festhalten, dass...",
+            "italiano": "Riassumendo si può constatare che..."
+          },
+          {
+            "tedesco": "Mit anderen Worten: Die Lage ist ernst.",
+            "italiano": "In altre parole: la situazione è seria."
+          },
+          {
+            "tedesco": "Im Folgenden werden die Ergebnisse dargestellt.",
+            "italiano": "In seguito vengono presentati i risultati."
+          }
+        ],
+        "eccezioni": "Un testo può essere grammaticalmente corretto ma incoerente. La coerenza dipende dalla logica delle connessioni, non solo dalla grammatica. Evitare ripetizioni eccessive: usare sinonimi, pronomi, parafrasi per variare.",
+        "uso": "Per l'esame C1 Schreiben: strutturare chiaramente introduzione, corpo, conclusione. Usare connettori variati. Mantenere referenza chiara (non ambigua). Mostrare meta-comunicazione (guidare il lettore). Progressione tematica coerente."
+      },
+      "exercises": [
+        {
+          "question": "Connettore per 'in altre parole':",
+          "answer": "mit anderen Worten / anders gesagt / das heißt",
+          "explanation": "Riformulazione."
+        },
+        {
+          "question": "Connettore per 'come già menzionato':",
+          "answer": "wie bereits erwähnt / wie schon gesagt",
+          "explanation": "Meta-comunicazione retroattiva."
+        },
+        {
+          "question": "Connettore per 'in seguito (nel testo)':",
+          "answer": "im Folgenden",
+          "explanation": "Meta-comunicazione proattiva."
+        },
+        {
+          "question": "Cos'è la progressione tematica?",
+          "answer": "Il modo in cui le informazioni si collegano tra frasi successive.",
+          "explanation": "Tema dato → informazione nuova."
+        },
+        {
+          "question": "Come evitare ripetizioni nel testo?",
+          "answer": "Usare sinonimi, pronomi, parafrasi, iperonomi.",
+          "explanation": "Variazione lessicale per coerenza."
+        },
+        {
+          "question": "Connettore per 'riassumendo':",
+          "answer": "zusammenfassend / abschließend lässt sich sagen",
+          "explanation": "Per la conclusione."
+        }
+      ]
+    },
+    {
+      "id": "c1_10",
+      "name": "Alternative al passivo",
+      "explanation": "Sich lassen, -bar, man, sein+zu come alternative al passivo.",
+      "content": {
+        "regola": "Il passivo con werden non è l'unico modo per esprimere un'azione senza soggetto agente. Alternative: 1) 'Sich lassen + Infinitiv' (possibilità): 'Das lässt sich machen.' = 'Das kann gemacht werden.' 2) Aggettivo in '-bar' (possibilità): 'Das ist machbar.' = 'Das kann gemacht werden.' 3) 'Man + attivo': 'Man kann das machen.' 4) 'Sein + zu + Infinitiv' (obbligo/possibilità): 'Das ist zu machen.' = 'Das muss/kann gemacht werden.'\n\n5) Reflexive con significato passivo: 'Die Tür öffnet sich.' (La porta si apre). 'Das Buch liest sich gut.' (Il libro si legge bene). 6) 'Bekommen/kriegen + Partizip II' (Rezipientenpassiv): 'Er bekommt das Buch geschenkt.' (Gli viene regalato il libro - il dativo diventa soggetto).\n\nOgni alternativa ha una sfumatura diversa: -bar (possibilità generale), sich lassen (possibilità concreta), sein+zu (obbligo o possibilità), man (generalizzazione).",
+        "schema": "| Passivo                    | Alternativa              | Sfumatura          |",
+        "esempi": [
+          {
+            "tedesco": "Das Problem lässt sich leicht lösen.",
+            "italiano": "Il problema si può risolvere facilmente."
+          },
+          {
+            "tedesco": "Diese Aufgabe ist lösbar.",
+            "italiano": "Questo compito è risolvibile."
+          },
+          {
+            "tedesco": "Die Arbeit ist bis morgen zu erledigen.",
+            "italiano": "Il lavoro è da sbrigare entro domani."
+          },
+          {
+            "tedesco": "Man sollte mehr Sport treiben.",
+            "italiano": "Si dovrebbe fare più sport."
+          },
+          {
+            "tedesco": "Das Buch liest sich sehr gut.",
+            "italiano": "Il libro si legge molto bene."
+          },
+          {
+            "tedesco": "Er bekam ein Auto geschenkt.",
+            "italiano": "Gli fu regalata un'auto."
+          },
+          {
+            "tedesco": "Die Tür lässt sich nicht öffnen.",
+            "italiano": "La porta non si può aprire."
+          },
+          {
+            "tedesco": "Das ist leicht nachvollziehbar.",
+            "italiano": "È facilmente comprensibile."
+          }
+        ],
+        "eccezioni": "'Sein + zu + Inf.' può indicare obbligo ('ist zu machen' = deve essere fatto) O possibilità ('ist nicht zu sehen' = non si può vedere) - il contesto chiarisce. La negazione spesso indica possibilità: 'Das ist nicht zu glauben!' (Non ci si può credere!). Bekommen-Passiv è colloquiale.",
+        "uso": "Variare le costruzioni passive mostra competenza linguistica avanzata. '-bar' per possibilità generali. 'Sich lassen' per possibilità specifiche. 'Sein+zu' in testi formali. 'Man' nella lingua quotidiana. Per l'esame C1: conoscere e usare almeno 3-4 alternative."
+      },
+      "exercises": [
+        {
+          "question": "Riformula: 'Das kann gemacht werden.' (con sich lassen)",
+          "answer": "Das lässt sich machen.",
+          "explanation": "Sich lassen + Infinitiv."
+        },
+        {
+          "question": "Riformula con -bar: 'Das kann getrunken werden.'",
+          "answer": "Das ist trinkbar.",
+          "explanation": "Suffisso -bar = possibilità."
+        },
+        {
+          "question": "Riformula: 'Die Arbeit muss erledigt werden.' (sein+zu)",
+          "answer": "Die Arbeit ist zu erledigen.",
+          "explanation": "Sein + zu + Infinitiv per obbligo."
+        },
+        {
+          "question": "Riformula con man: 'Hier wird nicht geraucht.'",
+          "answer": "Man raucht hier nicht.",
+          "explanation": "Man + attivo."
+        },
+        {
+          "question": "Cosa indica 'Das ist nicht zu glauben!'?",
+          "answer": "Possibilità negata: Non ci si può credere!",
+          "explanation": "Sein + zu + Inf. negato = impossibilità."
+        },
+        {
+          "question": "Cos'è il Rezipientenpassiv?",
+          "answer": "Bekommen/kriegen + Part. II: il dativo diventa soggetto.",
+          "explanation": "Er bekommt das Buch geschenkt."
+        }
+      ]
+    }
+  ]
+}

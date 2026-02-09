@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
+import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
 import { saveAndSync } from '../utils/cloudSync';
@@ -31,10 +32,10 @@ function ReadingDetail({ reading, level, colors }) {
     <div className="reading-page">
       <div className="reading-text-container">
         <div className="page-header"><span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span><h1 className="page-title">{reading.title}</h1><p className="page-subtitle">{reading.theme}</p></div>
-        <div className="reading-toolbar"><button className="read-aloud-btn" onClick={readAloud}><Icons.Volume /> Leggi ad alta voce</button></div>
+        <div className="reading-toolbar"><button className="read-aloud-btn" onClick={readAloud}><Icons.Volume /> {t('reading.readAloud')}</button></div>
         <div className="reading-text">{reading.text.split('\n').filter(p => p.trim()).map((p, i) => <p key={i}>{renderTextWithTooltips(p)}</p>)}</div>
         <div className="comprehension-section">
-          <h3>Comprensione del testo</h3>
+          <h3>{t('reading.comprehension')}</h3>
           {reading.questions.map((q, qIdx) => {
             const userAnswer = answers[qIdx]; const hasAnswered = userAnswer !== undefined; const isCorrect = userAnswer === q.correctAnswer;
             return (
@@ -55,6 +56,7 @@ function ReadingDetail({ reading, level, colors }) {
 }
 
 export default function ReadingPage({ level, reading, onNavigate }) {
+  const { t } = useLanguage();
   const { READING_DATA } = useData();
   const [internalLevel, setInternalLevel] = useState(level || (() => { try{return localStorage.getItem('dm_last_level')||'A1'}catch{return 'A1'} }));
   const activeLevel = level || internalLevel;
@@ -66,12 +68,12 @@ export default function ReadingPage({ level, reading, onNavigate }) {
 
   return (
     <div className="reading-page">
-      <div className="page-header"><h1 className="page-title">Lettura</h1><p className="page-subtitle">{getLevelName(activeLevel)} - {texts.length} testi</p></div>
+      <div className="page-header"><h1 className="page-title">{t('reading.title')}</h1><p className="page-subtitle">{getLevelName(activeLevel)} - {texts.length} {t('reading.texts')}</p></div>
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
       <div className="reading-list">
-        {texts.map(t => (<div key={t.id} className="reading-card" onClick={() => onNavigate('reading',{level:activeLevel,reading:t})}><span className="theme-badge">{t.theme}</span><h3>{t.title}</h3><p>{t.text.substring(0,100)}...</p></div>))}
+        {texts.map(text => (<div key={text.id} className="reading-card" onClick={() => onNavigate('reading',{level:activeLevel,reading:text})}><span className="theme-badge">{text.theme}</span><h3>{text.title}</h3><p>{text.text.substring(0,100)}...</p></div>))}
       </div>
-      {texts.length === 0 && <div className="empty-state"><p>Nessun testo disponibile per questo livello</p></div>}
+      {texts.length === 0 && <div className="empty-state"><p>{t('reading.noTexts')}</p></div>}
     </div>
   );
 }

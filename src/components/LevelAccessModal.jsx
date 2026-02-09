@@ -1,7 +1,9 @@
 import React from 'react';
 import Icons from './Icons';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function LevelAccessModal({ isOpen, level, onClose, onLoginClick }) {
+  const { t } = useLanguage();
   if (!isOpen) return null;
 
   return (
@@ -13,29 +15,29 @@ export default function LevelAccessModal({ isOpen, level, onClose, onLoginClick 
 
         <div className="modal-header">
           <div className="modal-icon">🔒</div>
-          <h2>Contenuto Protetto</h2>
+          <h2>{t('levelAccess.protected')}</h2>
         </div>
 
         <div className="modal-body">
           <p className="modal-text">
-            Il livello <strong>{level}</strong> è disponibile solo per gli utenti registrati.
+            {t('levelAccess.onlyRegistered')} <strong>{level}</strong> {t('levelAccess.isPrivate')}
           </p>
           <p className="modal-subtext">
-            Registrati gratuitamente per accedere a tutti i livelli e sincronizzare il tuo progresso nel cloud!
+            {t('levelAccess.signUpFree')}
           </p>
         </div>
 
         <div className="modal-actions">
           <button className="modal-btn-primary" onClick={onLoginClick}>
-            Accedi o Registrati
+            {t('levelAccess.signIn')}
           </button>
           <button className="modal-btn-secondary" onClick={onClose}>
-            Annulla
+            {t('levelAccess.cancel')}
           </button>
         </div>
 
         <p className="modal-footer-text">
-          Contenuto disponibile: A1 è sempre gratuito
+          {t('levelAccess.freeLevel')}
         </p>
       </div>
 

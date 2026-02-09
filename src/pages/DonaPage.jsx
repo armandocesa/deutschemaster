@@ -1,6 +1,8 @@
 import React from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const DonaPage = ({ onNavigate }) => {
+  const { t } = useLanguage();
   const paypalEmail = 'armandocesa@gmail.com';
   const donationAmounts = [3, 5, 10, 20];
 
@@ -43,7 +45,7 @@ const DonaPage = ({ onNavigate }) => {
               color: 'var(--text-primary)',
             }}
           >
-            Supporta Deutsche Master
+            {t('dona.title')}
           </h1>
 
           <p
@@ -54,7 +56,7 @@ const DonaPage = ({ onNavigate }) => {
               lineHeight: '1.6',
             }}
           >
-            Aiutaci a mantenere l'app gratuita per tutti
+            {t('dona.subtitle')}
           </p>
         </div>
 
@@ -76,10 +78,10 @@ const DonaPage = ({ onNavigate }) => {
             }}
           >
             <p>
-              Deutsche Master è un'app completamente gratuita creata per aiutare studenti come te a imparare il tedesco in modo efficace e divertente.
+              {t('dona.description')}
             </p>
             <p>
-              Se trovi Deutsche Master utile, considera di supportarci con una donazione. I tuoi contributi ci aiutano a:
+              {t('dona.descriptionSupport')}
             </p>
             <ul
               style={{
@@ -88,20 +90,20 @@ const DonaPage = ({ onNavigate }) => {
               }}
             >
               <li style={{ marginBottom: '8px' }}>
-                Aggiungere nuovi contenuti e lezioni
+                {t('dona.addContent')}
               </li>
               <li style={{ marginBottom: '8px' }}>
-                Migliorare la qualità dell'app
+                {t('dona.improveQuality')}
               </li>
               <li style={{ marginBottom: '8px' }}>
-                Mantenere i server attivi e veloci
+                {t('dona.keepServers')}
               </li>
               <li>
-                Rimanere completamente senza pubblicità
+                {t('dona.noAds')}
               </li>
             </ul>
             <p style={{ marginTop: '16px', color: 'var(--text-secondary)', fontSize: '14px' }}>
-              Ogni donazione, grande o piccola, fa una differenza. Grazie per il tuo supporto!
+              {t('dona.donationThank')}
             </p>
           </div>
         </div>
@@ -120,7 +122,7 @@ const DonaPage = ({ onNavigate }) => {
               color: 'var(--text-primary)',
             }}
           >
-            Scegli un Importo
+            {t('dona.chooseAmount')}
           </h2>
 
           <div
@@ -164,7 +166,7 @@ const DonaPage = ({ onNavigate }) => {
                 }}
               >
                 <span style={{ fontSize: '24px' }}>€{amount}</span>
-                <span style={{ fontSize: '12px', opacity: '0.8' }}>Dona ora</span>
+                <span style={{ fontSize: '12px', opacity: '0.8' }}>{t('dona.donateNow')}</span>
               </button>
             ))}
           </div>
@@ -194,7 +196,7 @@ const DonaPage = ({ onNavigate }) => {
               e.currentTarget.style.color = 'var(--text-primary)';
             }}
           >
-            Importo Personalizzato
+            {t('dona.customAmount')}
           </button>
         </div>
 
@@ -215,7 +217,7 @@ const DonaPage = ({ onNavigate }) => {
               color: 'var(--text-primary)',
             }}
           >
-            Perché Donare?
+            {t('dona.whyDonate')}
           </h2>
 
           <div
@@ -228,23 +230,23 @@ const DonaPage = ({ onNavigate }) => {
             {[
               {
                 icon: '🎓',
-                title: 'Contenuti Gratuiti',
-                description: 'Accesso illimitato a tutte le lezioni senza costi',
+                title: t('dona.freeContent'),
+                description: t('dona.freeDescription'),
               },
               {
                 icon: '📺',
-                title: 'Senza Pubblicità',
-                description: 'Un\'esperienza di apprendimento pulita e priva di distrazioni',
+                title: t('dona.noAdvertisements'),
+                description: t('dona.noAdsDescription'),
               },
               {
                 icon: '⚡',
-                title: 'Aggiornamenti Continui',
-                description: 'Nuovi contenuti, correzioni e miglioramenti regolari',
+                title: t('dona.continuousUpdates'),
+                description: t('dona.updatesDescription'),
               },
               {
                 icon: '🚀',
-                title: 'Pieno Potenziale',
-                description: 'Tutti gli esercizi e le funzionalità sempre disponibili',
+                title: t('dona.fullPotential'),
+                description: t('dona.potentialDescription'),
               },
             ].map((item, idx) => (
               <div
@@ -309,7 +311,7 @@ const DonaPage = ({ onNavigate }) => {
               lineHeight: '1.6',
             }}
           >
-            Le donazioni sono effettuate tramite PayPal in modo sicuro. Sei libero di scegliere qualsiasi importo o di non donare se non sei in grado.
+            {t('dona.paypalNote')}
           </p>
         </div>
       </div>

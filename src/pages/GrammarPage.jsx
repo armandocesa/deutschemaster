@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
+import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
 import { getGrammarStatus } from '../utils/storage';
@@ -236,12 +237,12 @@ function GrammarTopicDetail({ topic, level, colors }) {
                   className="show-answer-btn"
                   onClick={() => toggleAnswer(idx)}
                 >
-                  {answerVisibility[idx] ? 'Nascondi' : 'Mostra'} risposta
+                  {answerVisibility[idx] ? 'Hide' : 'Show'} answer
                 </button>
                 {answerVisibility[idx] && (
                   <div className="exercise-answer">
-                    <div className="answer-text"><strong>Risposta:</strong> {ex.answer}</div>
-                    {ex.explanation && <div className="answer-explanation"><strong>Spiegazione:</strong> {ex.explanation}</div>}
+                    <div className="answer-text"><strong>Answer:</strong> {ex.answer}</div>
+                    {ex.explanation && <div className="answer-explanation"><strong>Explanation:</strong> {ex.explanation}</div>}
                   </div>
                 )}
               </div>
@@ -254,6 +255,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
 }
 
 export default function GrammarPage({ level, topic, onNavigate }) {
+  const { t } = useLanguage();
   const { GRAMMAR_DATA } = useData();
   const [internalLevel, setInternalLevel] = useState(level || (() => { try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; } }));
   const activeLevel = level || internalLevel;
@@ -272,8 +274,8 @@ export default function GrammarPage({ level, topic, onNavigate }) {
     return (
       <div className="grammar-page">
         <div className="page-header" style={{'--level-color': colors.bg}}>
-          <h1 className="page-title">Grammatica</h1>
-          <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel)} - {topics.length} argomenti</p>
+          <h1 className="page-title">{t('grammar.title')}</h1>
+          <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel)} - {topics.length} {t('grammar.topics')}</p>
         </div>
         <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
         <div className="topics-list">
@@ -285,7 +287,7 @@ export default function GrammarPage({ level, topic, onNavigate }) {
                 <span className={`progress-dot ${topicStatus}`}></span>
                 <div className="topic-number">{idx + 1}</div>
                 <div className="topic-content"><h3 className="topic-title">{t.name}</h3><p className="topic-explanation">{t.explanation}</p></div>
-                <div className="topic-meta">{t.exercises && <span className="exercise-count">{t.exercises.length} esercizi</span>}<Icons.ChevronRight /></div>
+                <div className="topic-meta">{t.exercises && <span className="exercise-count">{t.exercises.length} {t('grammar.exercises')}</span>}<Icons.ChevronRight /></div>
               </div>
             );
           })}

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function WerdenPage({ onNavigate }) {
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState('overview');
   const [expandedExercise, setExpandedExercise] = useState(null);
   const [exerciseAnswers, setExerciseAnswers] = useState({});
@@ -1138,12 +1140,12 @@ export default function WerdenPage({ onNavigate }) {
           onClick={() => onNavigate('home')}
           className="text-blue-400 hover:text-blue-300 text-sm mb-4 transition"
         >
-          ← Torna indietro
+          ← {t('werden.back')}
         </button>
         <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-          Werden - Guida Completa
+          {t('werden.title')}
         </h1>
-        <p className="text-gray-400 mt-2">Tutte le forme e i usi del verbo "werden" in tedesco</p>
+        <p className="text-gray-400 mt-2">{t('werden.all')}</p>
       </div>
 
       {/* Tab Navigation */}
@@ -1152,13 +1154,13 @@ export default function WerdenPage({ onNavigate }) {
         style={{ backgroundColor: '#22222d', borderColor: '#444450' }}
       >
         {[
-          { id: 'overview', label: 'Panoramica' },
-          { id: 'werden', label: 'Werden (diventare)' },
-          { id: 'futuri', label: 'Futur I' },
-          { id: 'futurii', label: 'Futur II' },
-          { id: 'passiv', label: 'Passivo' },
-          { id: 'konjunktiv', label: 'Konjunktiv II' },
-          { id: 'expressions', label: 'Espressioni Fisse' },
+          { id: 'overview', label: t('werden.overview') },
+          { id: 'werden', label: t('werden.mainVerb') },
+          { id: 'futuri', label: t('werden.futurI') },
+          { id: 'futurii', label: t('werden.futurII') },
+          { id: 'passiv', label: t('werden.passive') },
+          { id: 'konjunktiv', label: t('werden.konjunktiv') },
+          { id: 'expressions', label: t('werden.fixedExpressions') },
         ].map((tab) => (
           <button
             key={tab.id}

@@ -1,0 +1,726 @@
+{
+  "levels": {
+    "A1": {
+      "stories": [
+        {
+          "id": "a1_story_01",
+          "title": "Im Café",
+          "titleIt": "Al bar",
+          "emoji": "☕",
+          "characters": [
+            "Anna",
+            "Max"
+          ],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Anna geht in ein Café.",
+              "translation": "Anna va in un bar.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Anna",
+              "text": "Einen Kaffee, bitte!",
+              "translation": "Un caffè, per favore!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Barista",
+              "text": "Ein Kaffee. Sonst noch etwas?",
+              "translation": "Un caffè. Altro?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Anna",
+              "text": "Nein, danke. Wie viel kostet der Kaffee?",
+              "translation": "No, grazie. Quanto costa il caffè?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Barista",
+              "text": "Zwei Euro, bitte.",
+              "translation": "Due euro, per favore.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Was bestellt Anna?",
+              "questionIt": "Cosa ordina Anna?",
+              "options": [
+                "Einen Tee",
+                "Einen Kaffee",
+                "Ein Bier",
+                "Einen Saft"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "narrator",
+              "text": "Max kommt ins Café.",
+              "translation": "Max entra nel bar.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Max",
+              "text": "Hallo Anna! Wie geht es dir?",
+              "translation": "Ciao Anna! Come stai?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Anna",
+              "text": "Hallo Max! Es geht mir gut. Und dir?",
+              "translation": "Ciao Max! Sto bene. E a te?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Max",
+              "text": "Mir geht es auch gut. Ich trinke einen Orangensaft.",
+              "translation": "Sto bene anch'io. Bevo un succo d'arancia.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Was trinkt Max?",
+              "questionIt": "Cosa beve Max?",
+              "options": [
+                "Einen Kaffee",
+                "Ein Bier",
+                "Einen Orangensaft",
+                "Einen Tee"
+              ],
+              "correctAnswer": 2,
+              "translation": ""
+            },
+            {
+              "speaker": "Anna",
+              "text": "Das ist gut! Sollen wir zusammen essen?",
+              "translation": "Bene! Vogliamo mangiare insieme?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Max",
+              "text": "Ja, gerne! Ich habe Hunger.",
+              "translation": "Sì, volentieri! Ho fame.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Haben Max und Anna zusammen Zeit?",
+              "questionIt": "Max e Anna hanno tempo insieme?",
+              "options": [
+                "Ja",
+                "Nein",
+                "Vielleicht",
+                "Nicht sicher"
+              ],
+              "correctAnswer": 0,
+              "translation": ""
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie bestellen ein Mittagessen. Ein schöner Tag im Café!",
+              "translation": "Ordinano un pranzo. Una bella giornata al bar!",
+              "questionIt": null,
+              "question": null
+            }
+          ],
+          "difficultWords": [
+            {
+              "word": "bestellt",
+              "translation": "ordina"
+            },
+            {
+              "word": "kostet",
+              "translation": "costa"
+            },
+            {
+              "word": "Orangensaft",
+              "translation": "succo d'arancia"
+            },
+            {
+              "word": "Hunger",
+              "translation": "fame"
+            }
+          ]
+        },
+        {
+          "id": "a1_story_02",
+          "title": "Im Supermarkt",
+          "titleIt": "Al supermercato",
+          "emoji": "🛒",
+          "characters": [
+            "Maria",
+            "David"
+          ],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Maria geht in den Supermarkt.",
+              "translation": "Maria va al supermercato.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Maria",
+              "text": "Ich brauche Obst und Gemüse.",
+              "translation": "Ho bisogno di frutta e verdura.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie sieht David in der Gemüseabteilung.",
+              "translation": "Vede David nel reparto verdure.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Maria",
+              "text": "Hallo David! Kaufst du hier?",
+              "translation": "Ciao David! Stai facendo spese qui?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "David",
+              "text": "Ja, ich kaufe Tomaten und Kartoffeln.",
+              "translation": "Sì, sto comprando pomodori e patate.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Was kauft David?",
+              "questionIt": "Cosa compra David?",
+              "options": [
+                "Obst",
+                "Tomaten und Kartoffeln",
+                "Brot",
+                "Milch"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "Maria",
+              "text": "Das ist gut! Ich nehme Äpfel und Bananen.",
+              "translation": "Bene! Prendo mele e banane.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "David",
+              "text": "Die Äpfel sind frisch hier. Sehr gut!",
+              "translation": "Le mele sono fresche qui. Molto buone!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Maria",
+              "text": "Ja, stimmt. Gehen wir zur Kasse?",
+              "translation": "Sì, vero. Andiamo alla cassa?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "David",
+              "text": "Ja, natürlich. Ich habe auch Brot gekauft.",
+              "translation": "Sì, certo. Ho comprato anche pane.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Wo gehen sie hin?",
+              "questionIt": "Dove vanno?",
+              "options": [
+                "Zur Gemüseabteilung",
+                "Zur Kasse",
+                "Zum Parkplatz",
+                "Nach Hause"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie gehen zusammen zur Kasse und zahlen.",
+              "translation": "Vanno insieme alla cassa e pagano.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "David",
+              "text": "Das war einfach! Auf Wiedersehen!",
+              "translation": "È stato facile! Arrivederci!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Maria",
+              "text": "Auf Wiedersehen, David!",
+              "translation": "Arrivederci, David!",
+              "questionIt": null,
+              "question": null
+            }
+          ],
+          "difficultWords": [
+            {
+              "word": "Gemüse",
+              "translation": "verdura"
+            },
+            {
+              "word": "Kartoffeln",
+              "translation": "patate"
+            },
+            {
+              "word": "frisch",
+              "translation": "fresco"
+            },
+            {
+              "word": "Kasse",
+              "translation": "cassa"
+            }
+          ]
+        },
+        {
+          "id": "a1_story_03",
+          "title": "Meine Familie",
+          "titleIt": "La mia famiglia",
+          "emoji": "👨‍👩‍👧‍👦",
+          "characters": [
+            "Klaus",
+            "Sophie"
+          ],
+          "lines": [
+            {
+              "speaker": "Klaus",
+              "text": "Hallo Sophie! Erzähl mir von deiner Familie!",
+              "translation": "Ciao Sophie! Raccontami della tua famiglia!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Gerne! Ich habe einen Vater und eine Mutter.",
+              "translation": "Volentieri! Ho un padre e una madre.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Mein Vater arbeitet als Arzt.",
+              "translation": "Mio padre lavora come medico.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Interessant! Und deine Mutter?",
+              "translation": "Interessante! E tua madre?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Meine Mutter ist Lehrerin.",
+              "translation": "Mia madre è insegnante.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Was ist Sophies Vater?",
+              "questionIt": "Qual è la professione del padre di Sophie?",
+              "options": [
+                "Lehrer",
+                "Arzt",
+                "Ingenieur",
+                "Polizist"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Ich habe auch einen Bruder. Er heißt Thomas.",
+              "translation": "Ho anche un fratello. Si chiama Thomas.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Wie alt ist Thomas?",
+              "translation": "Quanti anni ha Thomas?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Thomas ist zwölf Jahre alt. Und eine Schwester, Emma. Sie ist zehn.",
+              "translation": "Thomas ha dodici anni. E una sorella, Emma. Ha dieci anni.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Das ist eine schöne Familie!",
+              "translation": "È una bella famiglia!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Wie viele Geschwister hat Sophie?",
+              "questionIt": "Quanti fratelli ha Sophie?",
+              "options": [
+                "Eins",
+                "Zwei",
+                "Drei",
+                "Vier"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "Sophie",
+              "text": "Ja, wir sind sehr glücklich zusammen.",
+              "translation": "Sì, siamo molto felici insieme.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Klaus",
+              "text": "Das ist schön! Danke für die Geschichte!",
+              "translation": "È bello! Grazie per la storia!",
+              "questionIt": null,
+              "question": null
+            }
+          ],
+          "difficultWords": [
+            {
+              "word": "Vater",
+              "translation": "padre"
+            },
+            {
+              "word": "Mutter",
+              "translation": "madre"
+            },
+            {
+              "word": "Arzt",
+              "translation": "medico"
+            },
+            {
+              "word": "Lehrerin",
+              "translation": "insegnante"
+            },
+            {
+              "word": "Geschwister",
+              "translation": "fratelli"
+            }
+          ]
+        },
+        {
+          "id": "a1_story_04",
+          "title": "Der Schulalltag",
+          "titleIt": "La giornata scolastica",
+          "emoji": "🏫",
+          "characters": [
+            "Lisa",
+            "Peter"
+          ],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Lisa geht zur Schule.",
+              "translation": "Lisa va a scuola.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Guten Morgen, Peter!",
+              "translation": "Buongiorno, Peter!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Peter",
+              "text": "Guten Morgen, Lisa! Hast du die Hausaufgaben gemacht?",
+              "translation": "Buongiorno, Lisa! Hai fatto i compiti?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Ja, ich habe Mathematik und Deutsch gemacht.",
+              "translation": "Sì, ho fatto matematica e tedesco.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "narrator",
+              "text": "Die erste Stunde ist Mathematik.",
+              "translation": "La prima ora è matematica.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Lehrer",
+              "text": "Guten Morgen, Klasse! Öffnet eure Bücher auf Seite fünfzehn.",
+              "translation": "Buongiorno, ragazzi! Aprite i vostri libri a pagina quindici.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Was ist die erste Stunde?",
+              "questionIt": "Qual è la prima ora?",
+              "options": [
+                "Deutsch",
+                "Mathematik",
+                "Englisch",
+                "Geschichte"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "narrator",
+              "text": "Nach der Mathematik haben sie Pausen.",
+              "translation": "Dopo la matematica hanno una pausa.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Ich bin hungrig! Sollen wir essen?",
+              "translation": "Ho fame! Mangiamo?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Peter",
+              "text": "Ja, gerne! Ich habe ein Sandwich und einen Apfel.",
+              "translation": "Sì, volentieri! Ho un panino e una mela.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Was hat Peter?",
+              "questionIt": "Cosa ha Peter?",
+              "options": [
+                "Ein Brötchen und Käse",
+                "Ein Sandwich und einen Apfel",
+                "Brot und Wurst",
+                "Obst und Gemüse"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie essen zusammen in der Pause.",
+              "translation": "Mangiano insieme durante la pausa.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Lisa",
+              "text": "Das schmeckt gut! Nach der Schule spielen wir Fußball?",
+              "translation": "È buono! Dopo scuola giochiamo a calcio?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Peter",
+              "text": "Ja, toll! Bis später!",
+              "translation": "Sì, bello! A dopo!",
+              "questionIt": null,
+              "question": null
+            }
+          ],
+          "difficultWords": [
+            {
+              "word": "Schulalltag",
+              "translation": "giornata scolastica"
+            },
+            {
+              "word": "Hausaufgaben",
+              "translation": "compiti"
+            },
+            {
+              "word": "Stunde",
+              "translation": "ora"
+            },
+            {
+              "word": "Pause",
+              "translation": "pausa"
+            },
+            {
+              "word": "Fußball",
+              "translation": "calcio"
+            }
+          ]
+        },
+        {
+          "id": "a1_story_05",
+          "title": "Im Park",
+          "titleIt": "Al parco",
+          "emoji": "🌳",
+          "characters": [
+            "Tom",
+            "Julia"
+          ],
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text": "Tom und Julia gehen in den Park.",
+              "translation": "Tom e Julia vanno al parco.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Tom",
+              "text": "Das Wetter ist schön heute!",
+              "translation": "Il tempo è bello oggi!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Julia",
+              "text": "Ja, sehr schön! Es ist warm und sonnig.",
+              "translation": "Sì, molto bello! È caldo e soleggiato.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie sehen einen Spielplatz.",
+              "translation": "Vedono un'area giochi.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Tom",
+              "text": "Schau! Dort ist eine Schaukel und ein Karussell!",
+              "translation": "Guarda! C'è un'altalena e una giostra!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Julia",
+              "text": "Ja! Wollen wir spielen?",
+              "translation": "Sì! Vogliamo giocare?",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Wie ist das Wetter?",
+              "questionIt": "Com'è il tempo?",
+              "options": [
+                "Kalt und regnerisch",
+                "Warm und sonnig",
+                "Bewölkt",
+                "Windig"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie spielen auf der Schaukel.",
+              "translation": "Giocano sull'altalena.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Tom",
+              "text": "Das ist Spaß! Sehr hoch!",
+              "translation": "È divertente! Molto alto!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Julia",
+              "text": "Ja! Das ist fantastisch!",
+              "translation": "Sì! È fantastico!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "narrator",
+              "text": "Sie sehen auch Vögel und Blumen.",
+              "translation": "Vedono anche uccelli e fiori.",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "type": "question",
+              "question": "Was sehen sie im Park?",
+              "questionIt": "Cosa vedono al parco?",
+              "options": [
+                "Autos und Häuser",
+                "Vögel und Blumen",
+                "Nur Bäume",
+                "Nur Menschen"
+              ],
+              "correctAnswer": 1,
+              "translation": ""
+            },
+            {
+              "speaker": "Julia",
+              "text": "Es ist ein wunderschöner Tag!",
+              "translation": "È una giornata bellissima!",
+              "questionIt": null,
+              "question": null
+            },
+            {
+              "speaker": "Tom",
+              "text": "Ja, komm! Lass uns noch mehr spielen!",
+              "translation": "Sì, dai! Giochiamo ancora!",
+              "questionIt": null,
+              "question": null
+            }
+          ],
+          "difficultWords": [
+            {
+              "word": "Wetter",
+              "translation": "tempo"
+            },
+            {
+              "word": "sonnig",
+              "translation": "soleggiato"
+            },
+            {
+              "word": "Schaukel",
+              "translation": "altalena"
+            },
+            {
+              "word": "Karussell",
+              "translation": "giostra"
+            },
+            {
+              "word": "Vögel",
+              "translation": "uccelli"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

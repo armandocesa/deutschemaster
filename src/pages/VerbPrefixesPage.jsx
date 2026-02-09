@@ -3,6 +3,7 @@ import Icons from '../components/Icons';
 import { LEVEL_COLORS } from '../utils/constants';
 import { speak } from '../utils/speech';
 import { saveDifficultWord, isDifficultWord, removeDifficultWord } from '../utils/storage';
+import { useLanguage } from '../contexts/LanguageContext';
 
 function ExampleBadge({ level }) {
   const colors = LEVEL_COLORS[level] || LEVEL_COLORS.A1;
@@ -98,7 +99,7 @@ function VerbCard({ verb, prefix, onToggleFavorite, saved }) {
                 marginBottom: '4px',
                 textTransform: 'uppercase'
               }}>
-                Coniugazione
+                {t('verbPrefixes.conjugation')}
               </div>
               <div style={{
                 fontSize: '13px',
@@ -123,7 +124,7 @@ function VerbCard({ verb, prefix, onToggleFavorite, saved }) {
                 marginBottom: '8px',
                 textTransform: 'uppercase'
               }}>
-                Esempi
+                {t('verbPrefixes.examples')}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 {verb.examples.map((example, idx) => (
@@ -246,7 +247,7 @@ function PrefixCard({ prefix, onToggleFavorite, savedVerbs }) {
         }}>
           {verbs.length === 0 ? (
             <div style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>
-              Nessun verbo
+              {t('verbPrefixes.noVerbs')}
             </div>
           ) : (
             verbs.map((verb, idx) => (
@@ -266,6 +267,7 @@ function PrefixCard({ prefix, onToggleFavorite, savedVerbs }) {
 }
 
 export default function VerbPrefixesPage({ onNavigate }) {
+  const { t } = useLanguage();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('trennbar');
@@ -329,15 +331,15 @@ export default function VerbPrefixesPage({ onNavigate }) {
         minHeight: '400px',
         color: 'var(--text-secondary)'
       }}>
-        <div>Caricamento...</div>
+        <div>{t('common.loading')}</div>
       </div>
     );
   }
 
   const tabs = [
-    { id: 'trennbar', label: 'Separabili', count: data.trennbar?.length || 0 },
-    { id: 'untrennbar', label: 'Inseparabili', count: data.untrennbar?.length || 0 },
-    { id: 'variabel', label: 'Variabili', count: data.variabel?.length || 0 }
+    { id: 'trennbar', label: t('verbPrefixes.separable'), count: data.trennbar?.length || 0 },
+    { id: 'untrennbar', label: t('verbPrefixes.inseparable'), count: data.untrennbar?.length || 0 },
+    { id: 'variabel', label: t('verbPrefixes.variable'), count: data.variabel?.length || 0 }
   ];
 
   const currentData = data[activeTab] || [];
@@ -356,14 +358,14 @@ export default function VerbPrefixesPage({ onNavigate }) {
           color: 'var(--text-primary)',
           margin: '0 0 12px 0'
         }}>
-          Prefissi Verbali
+          {t('verbPrefixes.title')}
         </h1>
         <p style={{
           fontSize: '13px',
           color: 'var(--text-secondary)',
           margin: 0
         }}>
-          Impara i prefissi che modificano il significato dei verbi
+          {t('verbPrefixes.subtitle')}
         </p>
       </div>
 
@@ -403,7 +405,7 @@ export default function VerbPrefixesPage({ onNavigate }) {
             padding: '40px 20px',
             color: 'var(--text-secondary)'
           }}>
-            <p>Nessun prefisso trovato</p>
+            <p>{t('verbPrefixes.noPrefixes')}</p>
           </div>
         ) : (
           currentData.map((prefix, idx) => (

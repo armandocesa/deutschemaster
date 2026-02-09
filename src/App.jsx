@@ -3,6 +3,7 @@ import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Header from './components/Header';
 import BottomNav from './components/BottomNav';
 import Footer from './components/Footer';
+import { useLanguage } from './contexts/LanguageContext';
 import { trackPageView } from './utils/analytics';
 
 // Lazy load all pages for code splitting
@@ -41,18 +42,22 @@ const PAGE_NAMES = {
 };
 
 // Loading fallback component for lazy-loaded pages
-const PageLoadingFallback = () => (
-  <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f0f14', color: '#eeeef2' }}>
-    <div style={{ textAlign: 'center' }}>
-      <div style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: '#6c5ce7', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
-      <p style={{ fontSize: '14px', color: '#8888a0' }}>Caricamento della pagina...</p>
-      <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+const PageLoadingFallback = () => {
+  const { t } = useLanguage();
+  return (
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f0f14', color: '#eeeef2' }}>
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: '#6c5ce7', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
+        <p style={{ fontSize: '14px', color: '#8888a0' }}>{t('loadingPage')}</p>
+        <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 function AppContent() {
   const { loading } = useAuth();
+  const { t } = useLanguage();
   const [currentPage, setCurrentPage] = useState('home');
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [selectedModule, setSelectedModule] = useState(null);
@@ -90,7 +95,7 @@ function AppContent() {
 
   const breadcrumbs = useMemo(() => {
     if (currentPage === 'home' || currentPage === 'login') return [];
-    const crumbs = [{ label: 'Home', onClick: () => navigate('home') }];
+    const crumbs = [{ label: t('nav.home'), onClick: () => navigate('home') }];
     crumbs.push({ label: PAGE_NAMES[currentPage] || currentPage, onClick: () => navigate(currentPage) });
     if (selectedLevel) crumbs.push({ label: selectedLevel, onClick: () => navigate(currentPage, { level: selectedLevel }) });
     if (selectedModule && currentPage === 'vocabulary') crumbs.push({ label: selectedModule.name || 'Modulo', onClick: null });
@@ -99,14 +104,14 @@ function AppContent() {
     if (selectedLesson) crumbs.push({ label: selectedLesson.title || 'Lezione', onClick: null });
     if (selectedStory) crumbs.push({ label: selectedStory.title || 'Storia', onClick: null });
     return crumbs;
-  }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading, selectedLesson]);
+  }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading, selectedLesson, t]);
 
   if (loading) {
     return (
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f0f14', color: '#eeeef2' }}>
         <div style={{ textAlign: 'center' }}>
           <div style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: '#6c5ce7', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
-          <p style={{ fontSize: '14px', color: '#8888a0' }}>Caricamento...</p>
+          <p style={{ fontSize: '14px', color: '#8888a0' }}>{t('loading')}</p>
           <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
         </div>
       </div>

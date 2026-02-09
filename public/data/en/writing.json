@@ -1,0 +1,639 @@
+{
+  "levels": {
+    "A1": {
+      "exercises": [
+        {
+          "id": "a1_traduzione_01",
+          "type": "traduzione",
+          "prompt": "Ciao, come stai?",
+          "answer": "Hallo, wie geht es dir?",
+          "hints": [
+            "Formal greeting",
+            "Polite question"
+          ],
+          "alternatives": [
+            "Hallo, wie geht es Ihnen?"
+          ]
+        },
+        {
+          "id": "a1_traduzione_02",
+          "type": "traduzione",
+          "prompt": "Mi chiamo Marco",
+          "answer": "Ich heiße Marco",
+          "hints": [
+            "Personal introduction"
+          ],
+          "alternatives": [
+            "Mein Name ist Marco"
+          ]
+        },
+        {
+          "id": "a1_traduzione_03",
+          "type": "traduzione",
+          "prompt": "Ho 25 anni",
+          "answer": "Ich bin 25 Jahre alt",
+          "hints": [
+            "Age statement"
+          ],
+          "alternatives": [
+            "Ich bin fünfundzwanzig Jahre alt"
+          ]
+        },
+        {
+          "id": "a1_traduzione_04",
+          "type": "traduzione",
+          "prompt": "Dove abiti?",
+          "answer": "Wo wohnst du?",
+          "hints": [
+            "Location question"
+          ],
+          "alternatives": [
+            "Wo leben Sie?"
+          ]
+        },
+        {
+          "id": "a1_traduzione_05",
+          "type": "traduzione",
+          "prompt": "Io abito a Roma",
+          "answer": "Ich wohne in Rom",
+          "hints": [
+            "Affermazione di ubicazione"
+          ],
+          "alternatives": [
+            "Ich lebe in Rom"
+          ]
+        },
+        {
+          "id": "a1_traduzione_06",
+          "type": "traduzione",
+          "prompt": "Quanti anni hai?",
+          "answer": "Wie alt bist du?",
+          "hints": [
+            "Domanda di età"
+          ],
+          "alternatives": [
+            "Wie viele Jahre alt bist du?"
+          ]
+        },
+        {
+          "id": "a1_traduzione_07",
+          "type": "traduzione",
+          "prompt": "Qual è il tuo nome?",
+          "answer": "Wie heißt du?",
+          "hints": [
+            "Domanda di nome"
+          ],
+          "alternatives": [
+            "Was ist dein Name?"
+          ]
+        },
+        {
+          "id": "a1_traduzione_08",
+          "type": "traduzione",
+          "prompt": "Piacere di conoscerti",
+          "answer": "Freut mich, dich kennenzulernen",
+          "hints": [
+            "Saluto di cortesia"
+          ],
+          "alternatives": [
+            "Es freut mich, dich kennenzulernen"
+          ]
+        },
+        {
+          "id": "a1_traduzione_09",
+          "type": "traduzione",
+          "prompt": "Grazie mille",
+          "answer": "Vielen Dank",
+          "hints": [
+            "Ringraziamento sincero"
+          ],
+          "alternatives": [
+            "Danke vielmals",
+            "Vielen herzlichen Dank"
+          ]
+        },
+        {
+          "id": "a1_traduzione_10",
+          "type": "traduzione",
+          "prompt": "Di niente",
+          "answer": "Bitte schön",
+          "hints": [
+            "Risposta al ringraziamento"
+          ],
+          "alternatives": [
+            "Gerne",
+            "Bitte"
+          ]
+        },
+        {
+          "id": "a1_traduzione_11",
+          "type": "traduzione",
+          "prompt": "Buongiorno",
+          "answer": "Guten Morgen",
+          "hints": [
+            "Saluto mattutino"
+          ],
+          "alternatives": [
+            "Guten Tag"
+          ]
+        },
+        {
+          "id": "a1_traduzione_12",
+          "type": "traduzione",
+          "prompt": "Buonasera",
+          "answer": "Guten Abend",
+          "hints": [
+            "Saluto serale"
+          ],
+          "alternatives": [
+            "Guten Abend"
+          ]
+        },
+        {
+          "id": "a1_completamento_01",
+          "type": "completamento",
+          "prompt": "Ich ___ Anna",
+          "answer": "heiße",
+          "hints": [
+            "Verbo al presente",
+            "Prima persona singolare"
+          ],
+          "alternatives": [
+            "heisse"
+          ]
+        },
+        {
+          "id": "a1_completamento_02",
+          "type": "completamento",
+          "prompt": "Du ___ in Berlin",
+          "answer": "wohnst",
+          "hints": [
+            "Verbo al presente",
+            "Seconda persona singolare"
+          ],
+          "alternatives": [
+            "wohnst"
+          ]
+        },
+        {
+          "id": "a1_completamento_03",
+          "type": "completamento",
+          "prompt": "Er ___ Lehrer",
+          "answer": "ist",
+          "hints": [
+            "Verbo essere",
+            "Terza persona singolare"
+          ],
+          "alternatives": [
+            "ist"
+          ]
+        },
+        {
+          "id": "a1_completamento_04",
+          "type": "completamento",
+          "prompt": "Wie ___ dein Name?",
+          "answer": "heißt",
+          "hints": [
+            "Domanda diretta",
+            "Verbo al presente"
+          ],
+          "alternatives": [
+            "heisst"
+          ]
+        },
+        {
+          "id": "a1_completamento_05",
+          "type": "completamento",
+          "prompt": "Das ist ein ___",
+          "answer": "Buch",
+          "hints": [
+            "Sostantivo neutro",
+            "Oggetto scolastico"
+          ],
+          "alternatives": [
+            "buch"
+          ]
+        },
+        {
+          "id": "a1_completamento_06",
+          "type": "completamento",
+          "prompt": "Ich ___ Wasser trinken",
+          "answer": "möchte",
+          "hints": [
+            "Verbo modale",
+            "Desiderio"
+          ],
+          "alternatives": [
+            "will"
+          ]
+        },
+        {
+          "id": "a1_completamento_07",
+          "type": "completamento",
+          "prompt": "Sie ___ sehr schön",
+          "answer": "ist",
+          "hints": [
+            "Verbo essere",
+            "Descrizione"
+          ],
+          "alternatives": [
+            "ist"
+          ]
+        },
+        {
+          "id": "a1_completamento_08",
+          "type": "completamento",
+          "prompt": "Wir ___ Studenten",
+          "answer": "sind",
+          "hints": [
+            "Verbo essere",
+            "Prima persona plurale"
+          ],
+          "alternatives": [
+            "sind"
+          ]
+        },
+        {
+          "id": "a1_completamento_09",
+          "type": "completamento",
+          "prompt": "Das Kind ___ im Park",
+          "answer": "spielt",
+          "hints": [
+            "Verbo al presente",
+            "Azione"
+          ],
+          "alternatives": [
+            "spielt"
+          ]
+        },
+        {
+          "id": "a1_completamento_10",
+          "type": "completamento",
+          "prompt": "Ich ___ kein Auto",
+          "answer": "habe",
+          "hints": [
+            "Verbo avere",
+            "Prima persona singolare"
+          ],
+          "alternatives": [
+            "habe"
+          ]
+        },
+        {
+          "id": "a1_completamento_11",
+          "type": "completamento",
+          "prompt": "Die Katze ___ grau",
+          "answer": "ist",
+          "hints": [
+            "Verbo essere",
+            "Descrizione colore"
+          ],
+          "alternatives": [
+            "ist"
+          ]
+        },
+        {
+          "id": "a1_completamento_12",
+          "type": "completamento",
+          "prompt": "___? Mir geht es gut.",
+          "answer": "Wie geht es dir",
+          "hints": [
+            "Saluto",
+            "Polite question"
+          ],
+          "alternatives": [
+            "Wie geht es dir?"
+          ]
+        },
+        {
+          "id": "a1_riordina_01",
+          "type": "riordina",
+          "prompt": [
+            "heiße",
+            "Ich",
+            "Marco"
+          ],
+          "answer": "Ich heiße Marco",
+          "hints": [
+            "Ordine: soggetto, verbo, predicato"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_02",
+          "type": "riordina",
+          "prompt": [
+            "wohnst",
+            "du",
+            "Berlin",
+            "in"
+          ],
+          "answer": "Du wohnst in Berlin",
+          "hints": [
+            "Ordine SVO: soggetto, verbo, complemento"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_03",
+          "type": "riordina",
+          "prompt": [
+            "geht",
+            "Wie",
+            "es",
+            "dir"
+          ],
+          "answer": "Wie geht es dir",
+          "hints": [
+            "Domanda: W-verbo-soggetto"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_04",
+          "type": "riordina",
+          "prompt": [
+            "Lehrer",
+            "Ein",
+            "ist",
+            "er"
+          ],
+          "answer": "Ein Lehrer ist er",
+          "hints": [
+            "Predicato nominale"
+          ],
+          "alternatives": [
+            "Er ist ein Lehrer"
+          ]
+        },
+        {
+          "id": "a1_riordina_05",
+          "type": "riordina",
+          "prompt": [
+            "Berlin",
+            "Ich",
+            "in",
+            "wohne"
+          ],
+          "answer": "Ich wohne in Berlin",
+          "hints": [
+            "Ordine base: soggetto, verbo, posposizione"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_06",
+          "type": "riordina",
+          "prompt": [
+            "schön",
+            "ist",
+            "Das",
+            "Lied"
+          ],
+          "answer": "Das Lied ist schön",
+          "hints": [
+            "Articolo, nome, verbo, aggettivo"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_07",
+          "type": "riordina",
+          "prompt": [
+            "trinke",
+            "ich",
+            "Milch",
+            "gerne"
+          ],
+          "answer": "Ich trinke gerne Milch",
+          "hints": [
+            "Avverbio di modo dopo verbo"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_08",
+          "type": "riordina",
+          "prompt": [
+            "Jahre",
+            "alt",
+            "25",
+            "bin",
+            "Ich"
+          ],
+          "answer": "Ich bin 25 Jahre alt",
+          "hints": [
+            "Età: soggetto, verbo, numero, unità"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_09",
+          "type": "riordina",
+          "prompt": [
+            "spielen",
+            "Kinder",
+            "Die",
+            "Park",
+            "im"
+          ],
+          "answer": "Die Kinder spielen im Park",
+          "hints": [
+            "Articolo, nome, verbo, posposizione"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_10",
+          "type": "riordina",
+          "prompt": [
+            "Computer",
+            "habe",
+            "Ich",
+            "einen"
+          ],
+          "answer": "Ich habe einen Computer",
+          "hints": [
+            "Articolo indiretto accusativo maschile"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_11",
+          "type": "riordina",
+          "prompt": [
+            "braun",
+            "Katze",
+            "Die",
+            "ist"
+          ],
+          "answer": "Die Katze ist braun",
+          "hints": [
+            "Descrizione: articolo, nome, verbo, aggettivo"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_12",
+          "type": "riordina",
+          "prompt": [
+            "Mann",
+            "Ein",
+            "groß",
+            "ist",
+            "sehr"
+          ],
+          "answer": "Ein Mann ist sehr groß",
+          "hints": [
+            "Avverbio di intensità prima dell'aggettivo"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_01",
+          "type": "scrittura_libera",
+          "prompt": "Presentati in tedesco: di' chi sei e dove abiti",
+          "answer": "Ich heiße [Nome]. Ich bin [Età] Jahre alt. Ich wohne in [Città]. Ich bin [Nazionalità].",
+          "hints": [
+            "Usa: Ich heiße...",
+            "Ich bin ... Jahre alt",
+            "Ich wohne in ..."
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_02",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi il tuo aspetto fisico (colore dei capelli, occhi, altezza)",
+          "answer": "Ich habe braune Haare und blaue Augen. Ich bin groß/klein. Ich bin schlank/dick.",
+          "hints": [
+            "Io ho = Ich habe",
+            "capelli = Haare",
+            "occhi = Augen"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_03",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi 3 cose che ami fare",
+          "answer": "Ich liebe Musik hören. Ich mag Bücher lesen. Ich spiele gerne Fußball.",
+          "hints": [
+            "Ich liebe = amo",
+            "Ich mag = mi piace",
+            "gerne = volentieri"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_04",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una breve presentazione della tua famiglia",
+          "answer": "Ich habe einen Vater und eine Mutter. Ich habe zwei Brüder. Meine Familie ist sehr glücklich.",
+          "hints": [
+            "padre = Vater",
+            "madre = Mutter",
+            "fratello = Bruder"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_05",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi la tua casa",
+          "answer": "Mein Haus ist groß. Es hat drei Schlafzimmer und ein Wohnzimmer. Ich liebe mein Haus.",
+          "hints": [
+            "casa = Haus",
+            "grande = groß",
+            "camera = Schlafzimmer"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_06",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi cosa fai nel tuo tempo libero",
+          "answer": "In meiner Freizeit spiele ich Tennis. Ich lese gerne Bücher. Ich höre Musik.",
+          "hints": [
+            "tempo libero = Freizeit",
+            "gioco = spiele",
+            "ascolto = höre"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_07",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una giornata tipo dalla mattina alla sera",
+          "answer": "Ich wache um 7 Uhr auf. Ich frühstücke. Ich gehe zur Schule. Ich komme um 15 Uhr zurück.",
+          "hints": [
+            "mi sveglio = ich wache auf",
+            "colazione = Frühstück",
+            "vado a scuola = gehe zur Schule"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_08",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi il tuo cibo preferito",
+          "answer": "Mein Lieblingessen ist Spaghetti. Es ist sehr lecker. Ich esse es zweimal pro Woche.",
+          "hints": [
+            "cibo preferito = Lieblingessen",
+            "delizioso = lecker",
+            "mangio = esse"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_09",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi 5 oggetti che hai nella tua camera",
+          "answer": "Ich habe ein Bett, einen Schreibtisch, einen Stuhl, einen Schrank und ein Fenster.",
+          "hints": [
+            "letto = Bett",
+            "scrivania = Schreibtisch",
+            "armadio = Schrank"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_10",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi un messaggio di saluto a un amico tedesco",
+          "answer": "Hallo! Wie geht es dir? Mir geht es gut. Ich hoffe, es geht dir auch gut!",
+          "hints": [
+            "ciao = Hallo",
+            "come stai = wie geht es dir",
+            "spero = hoffe"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_11",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi il tuo animale domestico preferito e perché",
+          "answer": "Mein Lieblingstier ist der Hund. Der Hund ist treu und freundlich. Ich liebe Hunde.",
+          "hints": [
+            "animale preferito = Lieblingstier",
+            "fedele = treu",
+            "amichevole = freundlich"
+          ],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_12",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi come spendi il tuo weekend",
+          "answer": "Am Samstag spielen wir Fußball. Am Sonntag besuche ich meine Großmutter. Wir essen zusammen.",
+          "hints": [
+            "sabato = Samstag",
+            "domenica = Sonntag",
+            "visito = besuche"
+          ],
+          "alternatives": []
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,9 @@
 import React from 'react';
 import Icons from '../components/Icons';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function NotFoundPage({ onNavigate }) {
+  const { t } = useLanguage();
   return (
     <div style={{
       background: 'var(--bg-primary)',
@@ -35,7 +37,7 @@ export default function NotFoundPage({ onNavigate }) {
           color: 'var(--text-primary)',
           margin: '0 0 12px 0'
         }}>
-          Pagina non trovata
+          {t('notFound.title')}
         </h1>
 
         <p style={{
@@ -44,7 +46,7 @@ export default function NotFoundPage({ onNavigate }) {
           margin: '0 0 20px 0',
           lineHeight: 1.6
         }}>
-          Sfortunatamente, la pagina che stai cercando non esiste. Torna alla home per continuare il tuo viaggio con Deutsche Master.
+          {t('notFound.message')}
         </p>
 
         <button
@@ -73,7 +75,7 @@ export default function NotFoundPage({ onNavigate }) {
             e.currentTarget.style.transform = 'translateY(0)';
           }}
         >
-          <Icons.Home /> Torna alla Home
+          <Icons.Home /> {t('notFound.homeButton')}
         </button>
       </div>
     </div>

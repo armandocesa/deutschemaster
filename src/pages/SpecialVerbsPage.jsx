@@ -3,6 +3,7 @@ import Icons from '../components/Icons';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import { speak } from '../utils/speech';
 import { saveDifficultWord, isDifficultWord, removeDifficultWord } from '../utils/storage';
+import { useLanguage } from '../contexts/LanguageContext';
 
 // Modalverben data
 const MODALVERBEN = [
@@ -315,7 +316,7 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
               marginBottom: '8px',
               textTransform: 'uppercase'
             }}>
-              Präsens
+              {t('specialVerbs.present')}
             </div>
             <div style={{
               display: 'grid',
@@ -346,7 +347,7 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
               marginBottom: '8px',
               textTransform: 'uppercase'
             }}>
-              Präteritum
+              {t('specialVerbs.preterite')}
             </div>
             <div style={{
               display: 'grid',
@@ -378,7 +379,7 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
                 marginBottom: '8px',
                 textTransform: 'uppercase'
               }}>
-                Esempi
+                {t('specialVerbs.examples')}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 {modal.examples.map((example, idx) => (
@@ -546,7 +547,7 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
               marginBottom: '8px',
               textTransform: 'uppercase'
             }}>
-              Coniugazione Presente
+              {t('specialVerbs.present')}
             </div>
             <div style={{
               display: 'grid',
@@ -578,7 +579,7 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
                 marginBottom: '8px',
                 textTransform: 'uppercase'
               }}>
-                Esempi
+                {t('specialVerbs.examples')}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 {verb.examples.map((example, idx) => (
@@ -633,6 +634,7 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
 }
 
 export default function SpecialVerbsPage({ onNavigate }) {
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState('modalverben');
   const [savedVerbs, setSavedVerbs] = useState(new Set());
   const { canAccessLevel, requiresAuth } = useLevelAccess();
@@ -654,10 +656,10 @@ export default function SpecialVerbsPage({ onNavigate }) {
   };
 
   const tabs = [
-    { id: 'modalverben', label: 'Modalverben', count: MODALVERBEN.length },
-    { id: 'reflexive', label: 'Verbi Riflessivi', count: REFLEXIVE_VERBEN.length },
-    { id: 'prepositionen', label: 'Verbi con Preposizioni', count: VERBEN_MIT_PRÄPOSITIONEN.length },
-    { id: 'irregular', label: 'Verbi Irregolari', count: IRREGULAR_VERBEN.length }
+    { id: 'modalverben', label: t('specialVerbs.modalverbs'), count: MODALVERBEN.length },
+    { id: 'reflexive', label: t('specialVerbs.reflexive'), count: REFLEXIVE_VERBEN.length },
+    { id: 'prepositionen', label: t('specialVerbs.prepositions'), count: VERBEN_MIT_PRÄPOSITIONEN.length },
+    { id: 'irregular', label: t('specialVerbs.irregular'), count: IRREGULAR_VERBEN.length }
   ];
 
   return (
@@ -674,14 +676,14 @@ export default function SpecialVerbsPage({ onNavigate }) {
           color: 'var(--text-primary)',
           margin: '0 0 12px 0'
         }}>
-          Verbi Speciali
+          {t('specialVerbs.title')}
         </h1>
         <p style={{
           fontSize: '13px',
           color: 'var(--text-secondary)',
           margin: 0
         }}>
-          Modalverben, verbi riflessivi, verbi con preposizioni e verbi irregolari
+          {t('specialVerbs.subtitle')}
         </p>
       </div>
 

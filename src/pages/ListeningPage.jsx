@@ -6,6 +6,7 @@ import { addXP, recordActivity } from '../utils/gamification';
 import { speak } from '../utils/speech';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import LevelAccessModal from '../components/LevelAccessModal';
+import { useLanguage } from '../contexts/LanguageContext';
 
 // Levenshtein distance for dictation mode
 function levenshteinDistance(a, b) {
@@ -31,6 +32,7 @@ function levenshteinDistance(a, b) {
 export default function ListeningPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
   const { canAccessLevel } = useLevelAccess();
+  const { t } = useLanguage();
   const [mode, setMode] = useState('setup');
   const [exerciseType, setExerciseType] = useState('diktat');
   const [selectedLevel, setSelectedLevel] = useState('A1');
@@ -75,7 +77,7 @@ export default function ListeningPage({ onNavigate }) {
   const startExercise = () => {
     const qs = generateQuestionsFromData(selectedLevel, exerciseType, exerciseCount);
     if (qs.length === 0) {
-      alert('Nessun esercizio disponibile per questo livello');
+      alert(t('listening.noExercises'));
       return;
     }
 
@@ -271,36 +273,36 @@ export default function ListeningPage({ onNavigate }) {
     return (
       <div className="listening-page">
         <div className="setup-container">
-          <h1 className="page-title">Esercizi di Ascolto</h1>
+          <h1 className="page-title">{t('listening.title')} - {t('listening.title')}</h1>
           <p className="page-subtitle">Ascolta e rispondi</p>
 
           <div className="listening-setup">
             <div className="setup-section">
-              <h3>Tipo di esercizio</h3>
+              <h3>{t('listening.exerciseType')}</h3>
               <div className="setup-options">
                 <button
                   className={`setup-option ${exerciseType === 'diktat' ? 'active' : ''}`}
                   onClick={() => setExerciseType('diktat')}
                 >
-                  <Icons.Pen /> Dettato
+                  <Icons.Pen /> {t('listening.dictation')}
                 </button>
                 <button
                   className={`setup-option ${exerciseType === 'comprensione' ? 'active' : ''}`}
                   onClick={() => setExerciseType('comprensione')}
                 >
-                  <Icons.Brain /> Comprensione
+                  <Icons.Brain /> {t('listening.comprehension')}
                 </button>
                 <button
                   className={`setup-option ${exerciseType === 'lueckentext' ? 'active' : ''}`}
                   onClick={() => setExerciseType('lueckentext')}
                 >
-                  <Icons.Edit /> Completamento
+                  <Icons.Edit /> {t('listening.gapFill')}
                 </button>
               </div>
             </div>
 
             <div className="setup-section">
-              <h3>Livello</h3>
+              <h3>{t('common.level')}</h3>
               <div className="setup-options levels">
                 {Object.entries(LEVEL_COLORS).map(([lvl, col]) => {
                   const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
@@ -321,7 +323,7 @@ export default function ListeningPage({ onNavigate }) {
             </div>
 
             <div className="setup-section">
-              <h3>Numero di esercizi</h3>
+              <h3>{t('listening.exerciseCount')}</h3>
               <div className="setup-options">
                 {[5, 10, 15].map(count => (
                   <button
@@ -336,7 +338,7 @@ export default function ListeningPage({ onNavigate }) {
             </div>
 
             <button className="start-btn" onClick={startExercise} style={{ backgroundColor: colors.bg }}>
-              Inizia
+              {t('listening.start')}
             </button>
           </div>
         </div>
@@ -371,13 +373,13 @@ export default function ListeningPage({ onNavigate }) {
           <div className="score-circle" style={{ borderColor: colors.bg }}>
             <span className="score-value">{percentage}%</span>
           </div>
-          <h2>Esercizio completato!</h2>
-          <p className="score-text">{correctCount} esercizi corretti su {results.length}</p>
+          <h2>{t('listening.completed')}</h2>
+          <p className="score-text">{correctCount} {t('listening.correct')} {results.length}</p>
           <p className="xp-earned">+{totalXP} XP</p>
 
           {results.length > 0 && (
             <div className="mistakes-section">
-              <h3>Risultati</h3>
+              <h3>{t('listening.results')}</h3>
               <div className="mistakes-list">
                 {results.map((r, idx) => (
                   <div key={idx} className="mistake-item">
@@ -407,10 +409,10 @@ export default function ListeningPage({ onNavigate }) {
 
           <div className="finished-actions">
             <button className="retry-btn" onClick={startExercise}>
-              Riprova
+              {t('listening.retry')}
             </button>
             <button className="new-session-btn" onClick={() => setMode('setup')}>
-              Nuova Sessione
+              {t('listening.newSession')}
             </button>
           </div>
         </div>
@@ -433,7 +435,7 @@ export default function ListeningPage({ onNavigate }) {
             <div className="progress-bar">
               <div className="progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }}></div>
             </div>
-            <p className="question-counter">Esercizio {currentIndex + 1} di {questions.length}</p>
+            <p className="question-counter">{t('listening.exercise')} {currentIndex + 1} {t('listening.of')} {questions.length}</p>
 
             <div className="listening-content">
               <h3>{current.title}</h3>
@@ -451,13 +453,13 @@ export default function ListeningPage({ onNavigate }) {
 
               <div className="repeat-controls">
                 <button className="repeat-btn" onClick={playAudio}>
-                  <Icons.Repeat /> Ripeti
+                  <Icons.Repeat /> {t('listening.repeat')}
                 </button>
-                <p className="play-count">Ascolti: {playCount}</p>
+                <p className="play-count">{t('listening.listens')} {playCount}</p>
               </div>
 
               <div className="speed-controls">
-                <label>Velocità:</label>
+                <label>{t('listening.speed')}</label>
                 <div className="speed-buttons">
                   {[0.75, 1, 1.25].map(speed => (
                     <button
@@ -474,7 +476,7 @@ export default function ListeningPage({ onNavigate }) {
               <input
                 type="text"
                 className="dictation-input"
-                placeholder="Scrivi quello che senti..."
+                placeholder={t('listening.write')}
                 value={userAnswer}
                 onChange={(e) => setUserAnswer(e.target.value)}
                 disabled={showResult}
@@ -493,7 +495,7 @@ export default function ListeningPage({ onNavigate }) {
                   disabled={!userAnswer.trim()}
                   style={{ backgroundColor: colors.bg }}
                 >
-                  Verifica
+                  {t('listening.verify')}
                 </button>
               ) : (
                 <div>
@@ -521,7 +523,7 @@ export default function ListeningPage({ onNavigate }) {
                   )}
 
                   <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
-                    Prossimo
+                    {t('listening.next')}
                   </button>
                 </div>
               )}
@@ -542,7 +544,7 @@ export default function ListeningPage({ onNavigate }) {
             <div className="progress-bar">
               <div className="progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }}></div>
             </div>
-            <p className="question-counter">Esercizio {currentIndex + 1} di {questions.length}</p>
+            <p className="question-counter">{t('listening.exercise')} {currentIndex + 1} {t('listening.of')} {questions.length}</p>
 
             <div className="listening-content">
               <h3>{current.title}</h3>
@@ -560,13 +562,13 @@ export default function ListeningPage({ onNavigate }) {
 
               <div className="repeat-controls">
                 <button className="repeat-btn" onClick={playAudio}>
-                  <Icons.Repeat /> Ripeti
+                  <Icons.Repeat /> {t('listening.repeat')}
                 </button>
-                <p className="play-count">Ascolti: {playCount}</p>
+                <p className="play-count">{t('listening.listens')} {playCount}</p>
               </div>
 
               <div className="speed-controls">
-                <label>Velocità:</label>
+                <label>{t('listening.speed')}</label>
                 <div className="speed-buttons">
                   {[0.75, 1, 1.25].map(speed => (
                     <button
@@ -582,7 +584,7 @@ export default function ListeningPage({ onNavigate }) {
 
               {showResult && (
                 <div className="transcript-section">
-                  <h4>Testo:</h4>
+                  <h4>{t('listening.text')}</h4>
                   <p className="transcript">{current.text}</p>
                 </div>
               )}
@@ -637,7 +639,7 @@ export default function ListeningPage({ onNavigate }) {
             <div className="progress-bar">
               <div className="progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }}></div>
             </div>
-            <p className="question-counter">Esercizio {currentIndex + 1} di {questions.length}</p>
+            <p className="question-counter">{t('listening.exercise')} {currentIndex + 1} {t('listening.of')} {questions.length}</p>
 
             <div className="listening-content">
               <h3>{current.title}</h3>
@@ -655,13 +657,13 @@ export default function ListeningPage({ onNavigate }) {
 
               <div className="repeat-controls">
                 <button className="repeat-btn" onClick={playAudio}>
-                  <Icons.Repeat /> Ripeti
+                  <Icons.Repeat /> {t('listening.repeat')}
                 </button>
-                <p className="play-count">Ascolti: {playCount}</p>
+                <p className="play-count">{t('listening.listens')} {playCount}</p>
               </div>
 
               <div className="speed-controls">
-                <label>Velocità:</label>
+                <label>{t('listening.speed')}</label>
                 <div className="speed-buttons">
                   {[0.75, 1, 1.25].map(speed => (
                     <button
@@ -684,14 +686,14 @@ export default function ListeningPage({ onNavigate }) {
 
               <div className="lueckentext-display">
                 <p className="lueckentext-text">
-                  Completa la parola mancante nel testo (ci sono {current.gaps?.length || 1} parola/e).
+                  {t('listening.complete')} ({t('common.of')} {current.gaps?.length || 1}).
                 </p>
               </div>
 
               <input
                 type="text"
                 className="dictation-input"
-                placeholder="Scrivi la parola mancante..."
+                placeholder={t('listening.complete')}
                 value={userAnswer}
                 onChange={(e) => setUserAnswer(e.target.value)}
                 disabled={showResult}
@@ -731,7 +733,7 @@ export default function ListeningPage({ onNavigate }) {
                   )}
 
                   <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
-                    Prossimo
+                    {t('listening.next')}
                   </button>
                 </div>
               )}

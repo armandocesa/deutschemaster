@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function LoginPage({ onNavigate }) {
   const { signup, login, loginWithGoogle, firebaseEnabled } = useAuth();
+  const { t } = useLanguage();
   const [isSignup, setIsSignup] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -15,15 +17,15 @@ export default function LoginPage({ onNavigate }) {
       <div style={styles.container}>
         <div style={styles.card}>
           <div style={styles.logo}>DE</div>
-          <h1 style={styles.title}>Deutsche Master</h1>
+          <h1 style={styles.title}>{t('login.title')}</h1>
           <div style={{ padding: '20px', background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.3)', borderRadius: '12px', textAlign: 'center' }}>
-            <p style={{ margin: '0 0 8px', fontWeight: 600, color: '#f59e0b' }}>Firebase non configurato</p>
+            <p style={{ margin: '0 0 8px', fontWeight: 600, color: '#f59e0b' }}>{t('login.firebaseDisabled')}</p>
             <p style={{ margin: 0, fontSize: '13px', color: '#8888a0' }}>
-              Configura le variabili d'ambiente VITE_FIREBASE_* per abilitare gli account utente.
+              {t('login.firebaseDisabledMessage')}
             </p>
           </div>
           <button onClick={() => onNavigate('home')} style={{ ...styles.btn, ...styles.btnPrimary, marginTop: '20px' }}>
-            Continua senza account
+            {t('login.continueWithoutAccount')}
           </button>
         </div>
       </div>
@@ -44,13 +46,13 @@ export default function LoginPage({ onNavigate }) {
       onNavigate('home');
     } catch (err) {
       const messages = {
-        'auth/email-already-in-use': 'Email già registrata. Prova il login.',
-        'auth/invalid-email': 'Indirizzo email non valido.',
-        'auth/weak-password': 'La password deve avere almeno 6 caratteri.',
-        'auth/user-not-found': 'Utente non trovato. Registrati.',
-        'auth/wrong-password': 'Password errata.',
-        'auth/invalid-credential': 'Credenziali non valide.',
-        'auth/too-many-requests': 'Troppi tentativi. Riprova tra qualche minuto.',
+        'auth/email-already-in-use': t('login.emailAlreadyInUse'),
+        'auth/invalid-email': t('login.invalidEmail'),
+        'auth/weak-password': t('login.weakPassword'),
+        'auth/user-not-found': t('login.userNotFound'),
+        'auth/wrong-password': t('login.wrongPassword'),
+        'auth/invalid-credential': t('login.invalidCredential'),
+        'auth/too-many-requests': t('login.tooManyRequests'),
       };
       setError(messages[err.code] || err.message);
     }
@@ -65,7 +67,7 @@ export default function LoginPage({ onNavigate }) {
       onNavigate('home');
     } catch (err) {
       if (err.code !== 'auth/popup-closed-by-user') {
-        setError('Errore con Google. Riprova.');
+        setError(t('login.googleError'));
       }
     }
     setLoading(false);
@@ -75,9 +77,9 @@ export default function LoginPage({ onNavigate }) {
     <div style={styles.container}>
       <div style={styles.card}>
         <div style={styles.logo}>DE</div>
-        <h1 style={styles.title}>Deutsche Master</h1>
+        <h1 style={styles.title}>{t('login.title')}</h1>
         <p style={styles.subtitle}>
-          {isSignup ? 'Crea il tuo account' : 'Accedi al tuo account'}
+          {isSignup ? t('login.createAccount') : t('login.signIn')}
         </p>
 
         {error && (
@@ -87,36 +89,36 @@ export default function LoginPage({ onNavigate }) {
         <form onSubmit={handleSubmit} style={styles.form}>
           {isSignup && (
             <div style={styles.field}>
-              <label style={styles.label}>Nome</label>
+              <label style={styles.label}>{t('login.name')}</label>
               <input
                 type="text"
                 value={displayName}
                 onChange={(e) => setDisplayName(e.target.value)}
-                placeholder="Il tuo nome"
+                placeholder={t('login.yourName')}
                 style={styles.input}
               />
             </div>
           )}
 
           <div style={styles.field}>
-            <label style={styles.label}>Email</label>
+            <label style={styles.label}>{t('login.email')}</label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="la-tua@email.com"
+              placeholder={t('login.yourEmail')}
               required
               style={styles.input}
             />
           </div>
 
           <div style={styles.field}>
-            <label style={styles.label}>Password</label>
+            <label style={styles.label}>{t('login.password')}</label>
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder={isSignup ? 'Minimo 6 caratteri' : 'La tua password'}
+              placeholder={isSignup ? t('login.minPassword') : t('login.yourPassword')}
               required
               minLength={6}
               style={styles.input}
@@ -124,13 +126,13 @@ export default function LoginPage({ onNavigate }) {
           </div>
 
           <button type="submit" disabled={loading} style={{ ...styles.btn, ...styles.btnPrimary, opacity: loading ? 0.7 : 1 }}>
-            {loading ? 'Caricamento...' : isSignup ? 'Registrati' : 'Accedi'}
+            {loading ? t('login.loading') : isSignup ? t('login.signup') : t('login.signin')}
           </button>
         </form>
 
         <div style={styles.divider}>
           <span style={styles.dividerLine} />
-          <span style={styles.dividerText}>oppure</span>
+          <span style={styles.dividerText}>{t('login.or')}</span>
           <span style={styles.dividerLine} />
         </div>
 
@@ -141,18 +143,18 @@ export default function LoginPage({ onNavigate }) {
             <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
             <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
           </svg>
-          Continua con Google
+          {t('login.continueGoogle')}
         </button>
 
         <div style={styles.switchMode}>
-          {isSignup ? 'Hai già un account?' : 'Non hai un account?'}
+          {isSignup ? t('login.switchToSignin') : t('login.switchToSignup')}
           <button onClick={() => { setIsSignup(!isSignup); setError(''); }} style={styles.switchBtn}>
-            {isSignup ? 'Accedi' : 'Registrati'}
+            {isSignup ? t('login.signin') : t('login.signup')}
           </button>
         </div>
 
         <button onClick={() => onNavigate('home')} style={styles.skipBtn}>
-          Continua senza account
+          {t('login.continueWithoutAccount')}
         </button>
       </div>
     </div>

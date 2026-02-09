@@ -1,0 +1,5222 @@
+{
+  "level": "A1",
+  "categories": [
+    {
+      "name": "Begrüßung",
+      "nameIt": "Saluti e congedi",
+      "words": [
+        {
+          "de": "Hallo",
+          "it": "Hallo",
+          "example": "Hallo, wie geht es dir?",
+          "exampleIt": "Ciao, come stai?",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Guten Morgen",
+          "it": "Guten Morgen",
+          "example": "Guten Morgen, wie geht es Ihnen?",
+          "exampleIt": "Buongiorno, come sta?",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Guten Tag",
+          "it": "Guten Tag",
+          "example": "Guten Tag! Wie heißen Sie?",
+          "exampleIt": "Buongiorno! Come si chiama?",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Guten Abend",
+          "it": "Guten Abend",
+          "example": "Guten Abend, mein Name ist Hans.",
+          "exampleIt": "Buonasera, mi chiamo Hans.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Auf Wiedersehen",
+          "it": "Auf Wiedersehen",
+          "example": "Auf Wiedersehen! Bis bald!",
+          "exampleIt": "Arrivederci! A presto!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Tschüss",
+          "it": "Tschüss",
+          "example": "Tschüss! Bis morgen!",
+          "exampleIt": "Ciao! A domani!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Bitte",
+          "it": "Bitte",
+          "example": "Ein Kaffee, bitte.",
+          "exampleIt": "Un caffè, per favore.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Danke",
+          "it": "Danke",
+          "example": "Danke schön! Das ist sehr freundlich.",
+          "exampleIt": "Grazie mille! È molto gentile.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Ja",
+          "it": "Ja",
+          "example": "Ja, natürlich! Das stimmt.",
+          "exampleIt": "Sì, naturalmente! È vero.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Nein",
+          "it": "Nein",
+          "example": "Nein, danke. Ich möchte nichts.",
+          "exampleIt": "No, grazie. Non voglio niente.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Entschuldigung",
+          "it": "Entschuldigung",
+          "example": "Entschuldigung, können Sie mir helfen?",
+          "exampleIt": "Scusa, puoi aiutarmi?",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Entschuldigen Sie",
+          "it": "Entschuldigen Sie",
+          "example": "Entschuldigen Sie, wo ist die Toilette?",
+          "exampleIt": "Mi scusi, dov'è il bagno?",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Wie heißt du?",
+          "it": "Wie heißt du?",
+          "example": "Wie heißt du? Mein Name ist Maria.",
+          "exampleIt": "Come ti chiami? Mi chiamo Maria.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Wie heißen Sie?",
+          "it": "Wie heißen Sie?",
+          "example": "Wie heißen Sie, bitte?",
+          "exampleIt": "Come si chiama, per favore?",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Mein Name ist...",
+          "it": "Mein Name ist...",
+          "example": "Mein Name ist Peter.",
+          "exampleIt": "Mi chiamo Peter.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Freut mich",
+          "it": "Freut mich",
+          "example": "Freut mich, dich kennenzulernen!",
+          "exampleIt": "Piacere di conoscerti!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Wie geht es dir?",
+          "it": "Wie geht es dir?",
+          "example": "Wie geht es dir? Mir geht es gut.",
+          "exampleIt": "Come stai? Sto bene.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Wie geht es Ihnen?",
+          "it": "Wie geht es Ihnen?",
+          "example": "Wie geht es Ihnen heute?",
+          "exampleIt": "Come sta oggi?",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Gute Nacht",
+          "it": "Gute Nacht",
+          "example": "Gute Nacht! Schlaf gut!",
+          "exampleIt": "Buonanotte! Dormi bene!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Bis bald",
+          "it": "Bis bald",
+          "example": "Bis bald! Viel Spaß!",
+          "exampleIt": "A presto! Divertiti!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Viel Spaß",
+          "it": "Viel Spaß",
+          "example": "Viel Spaß im Kino!",
+          "exampleIt": "Divertiti al cinema!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Herzlich willkommen",
+          "it": "Herzlich willkommen",
+          "example": "Herzlich willkommen in Deutschland!",
+          "exampleIt": "Benvenuto in Germania!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Guten Appetit",
+          "it": "Guten Appetit",
+          "example": "Guten Appetit! Das Essen sieht lecker aus.",
+          "exampleIt": "Buon appetito! Il cibo sembra delizioso.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Viel Erfolg",
+          "it": "Viel Erfolg",
+          "example": "Viel Erfolg bei der Prüfung!",
+          "exampleIt": "Buona fortuna all'esame!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Bless",
+          "it": "Bless",
+          "example": "Bless! Wir sehen uns später.",
+          "exampleIt": "Ciao! Ci vediamo dopo.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        }
+      ]
+    },
+    {
+      "name": "Familie",
+      "nameIt": "Famiglia",
+      "words": [
+        {
+          "de": "Mutter",
+          "it": "Mutter",
+          "example": "Meine Mutter heißt Anna.",
+          "exampleIt": "Mia madre si chiama Anna.",
+          "article": "die",
+          "plural": "Mütter",
+          "type": "n"
+        },
+        {
+          "de": "Vater",
+          "it": "Vater",
+          "example": "Mein Vater ist Ingenieur.",
+          "exampleIt": "Mio padre è ingegnere.",
+          "article": "der",
+          "plural": "Väter",
+          "type": "n"
+        },
+        {
+          "de": "Bruder",
+          "it": "Bruder",
+          "example": "Mein Bruder ist 15 Jahre alt.",
+          "exampleIt": "Mio fratello ha 15 anni.",
+          "article": "der",
+          "plural": "Brüder",
+          "type": "n"
+        },
+        {
+          "de": "Schwester",
+          "it": "Schwester",
+          "example": "Meine Schwester studiert Medizin.",
+          "exampleIt": "Mia sorella studia medicina.",
+          "article": "die",
+          "plural": "Schwestern",
+          "type": "n"
+        },
+        {
+          "de": "Kind",
+          "it": "Kind",
+          "example": "Das Kind spielt im Garten.",
+          "exampleIt": "Il bambino gioca nel giardino.",
+          "article": "das",
+          "plural": "Kinder",
+          "type": "n"
+        },
+        {
+          "de": "Sohn",
+          "it": "Sohn",
+          "example": "Der Sohn ist drei Jahre alt.",
+          "exampleIt": "Il figlio ha tre anni.",
+          "article": "der",
+          "plural": "Söhne",
+          "type": "n"
+        },
+        {
+          "de": "Tochter",
+          "it": "Tochter",
+          "example": "Die Tochter geht zur Schule.",
+          "exampleIt": "La figlia va a scuola.",
+          "article": "die",
+          "plural": "Töchter",
+          "type": "n"
+        },
+        {
+          "de": "Frau",
+          "it": "Frau",
+          "example": "Die Frau heißt Petra.",
+          "exampleIt": "La donna si chiama Petra.",
+          "article": "die",
+          "plural": "Frauen",
+          "type": "n"
+        },
+        {
+          "de": "Mann",
+          "it": "Mann",
+          "example": "Der Mann ist Lehrer.",
+          "exampleIt": "L'uomo è insegnante.",
+          "article": "der",
+          "plural": "Männer",
+          "type": "n"
+        },
+        {
+          "de": "Eltern",
+          "it": "Eltern",
+          "example": "Meine Eltern leben in München.",
+          "exampleIt": "I miei genitori vivono a Monaco.",
+          "article": "die",
+          "plural": "Eltern",
+          "type": "n"
+        },
+        {
+          "de": "Großmutter",
+          "it": "Großmutter",
+          "example": "Meine Großmutter ist 80 Jahre alt.",
+          "exampleIt": "Mia nonna ha 80 anni.",
+          "article": "die",
+          "plural": "Großmütter",
+          "type": "n"
+        },
+        {
+          "de": "Großvater",
+          "it": "Großvater",
+          "example": "Der Großvater erzählt gerne Geschichten.",
+          "exampleIt": "Il nonno ama raccontare storie.",
+          "article": "der",
+          "plural": "Großväter",
+          "type": "n"
+        },
+        {
+          "de": "Oma",
+          "it": "Oma",
+          "example": "Ich besuche meine Oma am Wochenende.",
+          "exampleIt": "Visito mia nonna nel fine settimana.",
+          "article": "die",
+          "plural": "Omas",
+          "type": "n"
+        },
+        {
+          "de": "Opa",
+          "it": "Opa",
+          "example": "Der Opa spielt gerne Schach.",
+          "exampleIt": "Il nonno ama giocare a scacchi.",
+          "article": "der",
+          "plural": "Opas",
+          "type": "n"
+        },
+        {
+          "de": "Onkel",
+          "it": "Onkel",
+          "example": "Mein Onkel lebt in Berlin.",
+          "exampleIt": "Mio zio vive a Berlino.",
+          "article": "der",
+          "plural": "Onkel",
+          "type": "n"
+        },
+        {
+          "de": "Tante",
+          "it": "Tante",
+          "example": "Meine Tante ist Ärztin.",
+          "exampleIt": "Mia zia è medica.",
+          "article": "die",
+          "plural": "Tanten",
+          "type": "n"
+        },
+        {
+          "de": "Cousin",
+          "it": "Cousin",
+          "example": "Mein Cousin studiert Informatik.",
+          "exampleIt": "Mio cugino studia informatica.",
+          "article": "der",
+          "plural": "Cousins",
+          "type": "n"
+        },
+        {
+          "de": "Cousine",
+          "it": "Cousine",
+          "example": "Meine Cousine wohnt in Wien.",
+          "exampleIt": "Mia cugina vive a Vienna.",
+          "article": "die",
+          "plural": "Cousinen",
+          "type": "n"
+        },
+        {
+          "de": "Ehemann",
+          "it": "Ehemann",
+          "example": "Der Ehemann arbeitet als Arzt.",
+          "exampleIt": "Il marito lavora come medico.",
+          "article": "der",
+          "plural": "Ehemänner",
+          "type": "n"
+        },
+        {
+          "de": "Ehefrau",
+          "it": "Ehefrau",
+          "example": "Die Ehefrau ist Lehrerin.",
+          "exampleIt": "La moglie è insegnante.",
+          "article": "die",
+          "plural": "Ehefrauen",
+          "type": "n"
+        },
+        {
+          "de": "Ehepartner",
+          "it": "Ehepartner",
+          "example": "Der Ehepartner kommt aus Österreich.",
+          "exampleIt": "Il coniuge viene dall'Austria.",
+          "article": "der",
+          "plural": "Ehepartner",
+          "type": "n"
+        },
+        {
+          "de": "Freund",
+          "it": "Freund",
+          "example": "Mein Freund heißt Klaus.",
+          "exampleIt": "Il mio amico si chiama Klaus.",
+          "article": "der",
+          "plural": "Freunde",
+          "type": "n"
+        },
+        {
+          "de": "Freundin",
+          "it": "Freundin",
+          "example": "Meine Freundin arbeitet in Hamburg.",
+          "exampleIt": "La mia amica lavora ad Amburgo.",
+          "article": "die",
+          "plural": "Freundinnen",
+          "type": "n"
+        },
+        {
+          "de": "Baby",
+          "it": "Baby",
+          "example": "Das Baby schläft jetzt.",
+          "exampleIt": "Il bebè dorme adesso.",
+          "article": "das",
+          "plural": "Babys",
+          "type": "n"
+        },
+        {
+          "de": "Junge",
+          "it": "Junge",
+          "example": "Der Junge spielt Fußball.",
+          "exampleIt": "Il ragazzo gioca a calcio.",
+          "article": "der",
+          "plural": "Jungen",
+          "type": "n"
+        },
+        {
+          "de": "Mädchen",
+          "it": "Mädchen",
+          "example": "Das Mädchen ist zehn Jahre alt.",
+          "exampleIt": "La ragazza ha dieci anni.",
+          "article": "das",
+          "plural": "Mädchen",
+          "type": "n"
+        },
+        {
+          "de": "Cousin",
+          "it": "Cousin",
+          "example": "Mein Cousin heißt Max.",
+          "exampleIt": "Mio cugino si chiama Max.",
+          "article": "der",
+          "plural": "Cousins",
+          "type": "n"
+        },
+        {
+          "de": "Cousine",
+          "it": "Cousine",
+          "example": "Meine Cousine ist alt.",
+          "exampleIt": "Mia cugina è vecchia.",
+          "article": "die",
+          "plural": "Cousinen",
+          "type": "n"
+        },
+        {
+          "de": "Urgroßmutter",
+          "it": "Urgroßmutter",
+          "example": "Meine Urgroßmutter ist alt.",
+          "exampleIt": "Mia bisnonna è vecchia.",
+          "article": "die",
+          "plural": "Urgroßmütter",
+          "type": "n"
+        },
+        {
+          "de": "Urgroßvater",
+          "it": "Urgroßvater",
+          "example": "Mein Urgroßvater war weise.",
+          "exampleIt": "Mio bisnonno era saggio.",
+          "article": "der",
+          "plural": "Urgroßväter",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Essen und Trinken",
+      "nameIt": "Cibo e bevande",
+      "words": [
+        {
+          "de": "Brot",
+          "it": "Brot",
+          "example": "Das Brot schmeckt sehr gut.",
+          "exampleIt": "Il pane sa molto bene.",
+          "article": "das",
+          "plural": "Brote",
+          "type": "n"
+        },
+        {
+          "de": "Wasser",
+          "it": "Wasser",
+          "example": "Ich trinke gerne Wasser.",
+          "exampleIt": "Mi piace bere acqua.",
+          "article": "das",
+          "plural": "Wasser",
+          "type": "n"
+        },
+        {
+          "de": "Kaffee",
+          "it": "Kaffee",
+          "example": "Ein Kaffee, bitte.",
+          "exampleIt": "Un caffè, per favore.",
+          "article": "der",
+          "plural": "Kaffees",
+          "type": "n"
+        },
+        {
+          "de": "Tee",
+          "it": "Tee",
+          "example": "Ich trinke jeden Morgen Tee.",
+          "exampleIt": "Bevo il tè ogni mattina.",
+          "article": "der",
+          "plural": "Tees",
+          "type": "n"
+        },
+        {
+          "de": "Milch",
+          "it": "Milch",
+          "example": "Milch ist gesund für Kinder.",
+          "exampleIt": "Il latte è sano per i bambini.",
+          "article": "die",
+          "plural": "Milche",
+          "type": "n"
+        },
+        {
+          "de": "Zucker",
+          "it": "Zucker",
+          "example": "Der Kaffee hat zu viel Zucker.",
+          "exampleIt": "Il caffè ha troppo zucchero.",
+          "article": "der",
+          "plural": "Zucker",
+          "type": "n"
+        },
+        {
+          "de": "Butter",
+          "it": "Butter",
+          "example": "Ich esse Butter auf dem Brot.",
+          "exampleIt": "Mangio il burro sul pane.",
+          "article": "die",
+          "plural": "Butter",
+          "type": "n"
+        },
+        {
+          "de": "Käse",
+          "it": "Käse",
+          "example": "Der Käse ist sehr lecker.",
+          "exampleIt": "Il formaggio è molto delizioso.",
+          "article": "der",
+          "plural": "Käsesorten",
+          "type": "n"
+        },
+        {
+          "de": "Fleisch",
+          "it": "Fleisch",
+          "example": "Das Fleisch ist zu hart.",
+          "exampleIt": "La carne è troppo dura.",
+          "article": "das",
+          "plural": "Fleischsorten",
+          "type": "n"
+        },
+        {
+          "de": "Obst",
+          "it": "Obst",
+          "example": "Obst ist gesund und lecker.",
+          "exampleIt": "La frutta è sana e deliziosa.",
+          "article": "das",
+          "plural": "Obstsorten",
+          "type": "n"
+        },
+        {
+          "de": "Gemüse",
+          "it": "Gemüse",
+          "example": "Das Gemüse schmeckt sehr frisch.",
+          "exampleIt": "La verdura sa molto fresca.",
+          "article": "das",
+          "plural": "Gemüsesorten",
+          "type": "n"
+        },
+        {
+          "de": "Reis",
+          "it": "Reis",
+          "example": "Reis ist ein wichtiges Nahrungsmittel.",
+          "exampleIt": "Il riso è un alimento importante.",
+          "article": "der",
+          "plural": "Reissorten",
+          "type": "n"
+        },
+        {
+          "de": "Ei",
+          "it": "Ei",
+          "example": "Ein Ei zum Frühstück ist lecker.",
+          "exampleIt": "Un uovo a colazione è delizioso.",
+          "article": "das",
+          "plural": "Eier",
+          "type": "n"
+        },
+        {
+          "de": "Apfel",
+          "it": "Apfel",
+          "example": "Der Apfel ist rot und süß.",
+          "exampleIt": "La mela è rossa e dolce.",
+          "article": "der",
+          "plural": "Äpfel",
+          "type": "n"
+        },
+        {
+          "de": "Banane",
+          "it": "Banane",
+          "example": "Bananen sind reich an Kalium.",
+          "exampleIt": "Le banane sono ricche di potassio.",
+          "article": "die",
+          "plural": "Bananen",
+          "type": "n"
+        },
+        {
+          "de": "Orange",
+          "it": "Orange",
+          "example": "Die Orange schmeckt sauer und süß.",
+          "exampleIt": "L'arancia sa acida e dolce.",
+          "article": "die",
+          "plural": "Orangen",
+          "type": "n"
+        },
+        {
+          "de": "Kartoffel",
+          "it": "Kartoffel",
+          "example": "Kartoffeln sind lecker mit Butter.",
+          "exampleIt": "Le patate sono deliziose con il burro.",
+          "article": "die",
+          "plural": "Kartoffeln",
+          "type": "n"
+        },
+        {
+          "de": "Tomate",
+          "it": "Tomate",
+          "example": "Die Tomate ist rot und reif.",
+          "exampleIt": "Il pomodoro è rosso e maturo.",
+          "article": "die",
+          "plural": "Tomaten",
+          "type": "n"
+        },
+        {
+          "de": "Salat",
+          "it": "Salat",
+          "example": "Der Salat schmeckt frisch und knackig.",
+          "exampleIt": "L'insalata sa fresca e croccante.",
+          "article": "der",
+          "plural": "Salate",
+          "type": "n"
+        },
+        {
+          "de": "Suppe",
+          "it": "Suppe",
+          "example": "Die Suppe ist heiß und lecker.",
+          "exampleIt": "La zuppa è calda e deliziosa.",
+          "article": "die",
+          "plural": "Suppen",
+          "type": "n"
+        },
+        {
+          "de": "Fisch",
+          "it": "Fisch",
+          "example": "Der Fisch ist eine gute Proteinquelle.",
+          "exampleIt": "Il pesce è una buona fonte di proteine.",
+          "article": "der",
+          "plural": "Fische",
+          "type": "n"
+        },
+        {
+          "de": "Huhn",
+          "it": "Huhn",
+          "example": "Huhn ist gesünder als rotes Fleisch.",
+          "exampleIt": "Il pollo è più sano della carne rossa.",
+          "article": "das",
+          "plural": "Hühner",
+          "type": "n"
+        },
+        {
+          "de": "Essen",
+          "it": "Essen",
+          "example": "Das Essen schmeckt sehr gut.",
+          "exampleIt": "Il cibo sa molto bene.",
+          "article": "das",
+          "plural": "Essen",
+          "type": "n"
+        },
+        {
+          "de": "Getränk",
+          "it": "Getränk",
+          "example": "Das Getränk ist kalt und erfrischend.",
+          "exampleIt": "La bevanda è fredda e rinfrescante.",
+          "article": "das",
+          "plural": "Getränke",
+          "type": "n"
+        },
+        {
+          "de": "Salzstange",
+          "it": "Salzstange",
+          "example": "Die Salzstange ist knusprig.",
+          "exampleIt": "Il pretzel è croccante.",
+          "article": "die",
+          "plural": "Salzstangen",
+          "type": "n"
+        },
+        {
+          "de": "Zucker",
+          "it": "Zucker",
+          "example": "Das Kind lutscht gerne Zucker.",
+          "exampleIt": "Al bambino piace succhiare caramelle.",
+          "article": "der",
+          "plural": "Zucker",
+          "type": "n"
+        },
+        {
+          "de": "Gemüse",
+          "it": "Gemüse",
+          "example": "Ich mag Gemüse.",
+          "exampleIt": "Mi piace la verdura.",
+          "article": "das",
+          "plural": "Gemüsesorten",
+          "type": "n"
+        },
+        {
+          "de": "Obst",
+          "it": "Obst",
+          "example": "Apfel ist Obst.",
+          "exampleIt": "La mela è frutta.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Fleisch",
+          "it": "Fleisch",
+          "example": "Ich esse Fleisch.",
+          "exampleIt": "Mangio carne.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Fisch",
+          "it": "Fisch",
+          "example": "Ich mag Fisch.",
+          "exampleIt": "Mi piace il pesce.",
+          "article": "der",
+          "plural": "Fische",
+          "type": "n"
+        },
+        {
+          "de": "Käse",
+          "it": "Käse",
+          "example": "Der Käse ist hart.",
+          "exampleIt": "Il formaggio è duro.",
+          "article": "der",
+          "plural": "Käsesorten",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Zahlen und Zeit",
+      "nameIt": "Numeri e tempo",
+      "words": [
+        {
+          "de": "eins",
+          "it": "eins",
+          "example": "Eins plus eins ist zwei.",
+          "exampleIt": "Uno più uno è due.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "zwei",
+          "it": "zwei",
+          "example": "Zwei plus zwei ist vier.",
+          "exampleIt": "Due più due è quattro.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "drei",
+          "it": "drei",
+          "example": "Drei Äpfel im Korb.",
+          "exampleIt": "Tre mele nel cesto.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "vier",
+          "it": "vier",
+          "example": "Vier Jahreszeiten gibt es.",
+          "exampleIt": "Ci sono quattro stagioni.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "fünf",
+          "it": "fünf",
+          "example": "Fünf Finger an einer Hand.",
+          "exampleIt": "Cinque dita in una mano.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "sechs",
+          "it": "sechs",
+          "example": "Sechs Tage Arbeitszeit.",
+          "exampleIt": "Sei giorni di lavoro.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "sieben",
+          "it": "sieben",
+          "example": "Sieben Tage in einer Woche.",
+          "exampleIt": "Sette giorni in una settimana.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "acht",
+          "it": "acht",
+          "example": "Acht Stunden Schlaf sind wichtig.",
+          "exampleIt": "Otto ore di sonno sono importanti.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "neun",
+          "it": "neun",
+          "example": "Neun Planeten im Sonnensystem.",
+          "exampleIt": "Nove pianeti nel sistema solare.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "zehn",
+          "it": "zehn",
+          "example": "Zehn Euro für das Ticket.",
+          "exampleIt": "Dieci euro per il biglietto.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "elf",
+          "it": "elf",
+          "example": "Elf Spieler in einer Mannschaft.",
+          "exampleIt": "Undici giocatori in una squadra.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "zwölf",
+          "it": "zwölf",
+          "example": "Zwölf Monate im Jahr.",
+          "exampleIt": "Dodici mesi in un anno.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "zwanzig",
+          "it": "zwanzig",
+          "example": "Zwanzig Euro für das Buch.",
+          "exampleIt": "Venti euro per il libro.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "dreißig",
+          "it": "dreißig",
+          "example": "Dreißig Schüler in der Klasse.",
+          "exampleIt": "Trenta studenti in classe.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "vierzig",
+          "it": "vierzig",
+          "example": "Vierzig Jahre alt.",
+          "exampleIt": "Quaranta anni di età.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "fünfzig",
+          "it": "fünfzig",
+          "example": "Fünfzig Prozent Rabatt.",
+          "exampleIt": "Cinquanta per cento di sconto.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "hundert",
+          "it": "hundert",
+          "example": "Hundert Dollar für die Reise.",
+          "exampleIt": "Cento dollari per il viaggio.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "tausend",
+          "it": "tausend",
+          "example": "Tausend Menschen auf dem Platz.",
+          "exampleIt": "Mille persone in piazza.",
+          "article": null,
+          "plural": null,
+          "type": "num"
+        },
+        {
+          "de": "Uhr",
+          "it": "Uhr",
+          "example": "Meine Uhr zeigt drei Uhr.",
+          "exampleIt": "Il mio orologio mostra le tre.",
+          "article": "die",
+          "plural": "Uhren",
+          "type": "n"
+        },
+        {
+          "de": "Stunde",
+          "it": "Stunde",
+          "example": "Eine Stunde hat 60 Minuten.",
+          "exampleIt": "Un'ora ha 60 minuti.",
+          "article": "die",
+          "plural": "Stunden",
+          "type": "n"
+        },
+        {
+          "de": "Minute",
+          "it": "Minute",
+          "example": "Warte zehn Minuten, bitte.",
+          "exampleIt": "Aspetta dieci minuti, per favore.",
+          "article": "die",
+          "plural": "Minuten",
+          "type": "n"
+        },
+        {
+          "de": "Sekunde",
+          "it": "Sekunde",
+          "example": "Das dauert nur eine Sekunde.",
+          "exampleIt": "Questo impiega solo un secondo.",
+          "article": "die",
+          "plural": "Sekunden",
+          "type": "n"
+        },
+        {
+          "de": "Tag",
+          "it": "Tag",
+          "example": "Ein Tag hat 24 Stunden.",
+          "exampleIt": "Un giorno ha 24 ore.",
+          "article": "der",
+          "plural": "Tage",
+          "type": "n"
+        },
+        {
+          "de": "Woche",
+          "it": "Woche",
+          "example": "Eine Woche hat sieben Tage.",
+          "exampleIt": "Una settimana ha sette giorni.",
+          "article": "die",
+          "plural": "Wochen",
+          "type": "n"
+        },
+        {
+          "de": "Monat",
+          "it": "Monat",
+          "example": "Ein Monat hat etwa 30 Tage.",
+          "exampleIt": "Un mese ha circa 30 giorni.",
+          "article": "der",
+          "plural": "Monate",
+          "type": "n"
+        },
+        {
+          "de": "Jahr",
+          "it": "Jahr",
+          "example": "Ein Jahr hat zwölf Monate.",
+          "exampleIt": "Un anno ha dodici mesi.",
+          "article": "das",
+          "plural": "Jahre",
+          "type": "n"
+        },
+        {
+          "de": "heute",
+          "it": "heute",
+          "example": "Was machst du heute?",
+          "exampleIt": "Cosa fai oggi?",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "morgen",
+          "it": "morgen",
+          "example": "Wir gehen morgen ins Kino.",
+          "exampleIt": "Andiamo al cinema domani.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "gestern",
+          "it": "gestern",
+          "example": "Das war gestern sehr schön.",
+          "exampleIt": "Era molto bello ieri.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "jetzt",
+          "it": "jetzt",
+          "example": "Jetzt ist es Mittagszeit.",
+          "exampleIt": "Adesso è mezzogiorno.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "bald",
+          "it": "bald",
+          "example": "Die Ferien sind bald da.",
+          "exampleIt": "Le vacanze arrivano presto.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "zwei",
+          "it": "zwei",
+          "example": "Zwei ist eine gerade Zahl.",
+          "exampleIt": "Due è un numero pari.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "drei",
+          "it": "drei",
+          "example": "Drei ist ungerade.",
+          "exampleIt": "Tre è dispari.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "vier",
+          "it": "vier",
+          "example": "Vier ist gerade.",
+          "exampleIt": "Quattro è pari.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "fünf",
+          "it": "fünf",
+          "example": "Fünf ist eine Hand.",
+          "exampleIt": "Cinque è una mano.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "sechs",
+          "it": "sechs",
+          "example": "Sechs folgt Fünf.",
+          "exampleIt": "Sei segue cinque.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "sieben",
+          "it": "sieben",
+          "example": "Sieben ist mystisch.",
+          "exampleIt": "Sette è mistico.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "acht",
+          "it": "acht",
+          "example": "Acht ist doppel.",
+          "exampleIt": "Otto è doppio.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "neun",
+          "it": "neun",
+          "example": "Neun ist neunten.",
+          "exampleIt": "Nove è il nono.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Haus und Wohnung",
+      "nameIt": "Casa e abitazione",
+      "words": [
+        {
+          "de": "Haus",
+          "it": "Haus",
+          "example": "Das Haus ist groß und schön.",
+          "exampleIt": "La casa è grande e bella.",
+          "article": "das",
+          "plural": "Häuser",
+          "type": "n"
+        },
+        {
+          "de": "Wohnung",
+          "it": "Wohnung",
+          "example": "Die Wohnung hat drei Zimmer.",
+          "exampleIt": "L'appartamento ha tre stanze.",
+          "article": "die",
+          "plural": "Wohnungen",
+          "type": "n"
+        },
+        {
+          "de": "Zimmer",
+          "it": "Zimmer",
+          "example": "Das Zimmer ist hell und geräumig.",
+          "exampleIt": "La stanza è luminosa e spaziosa.",
+          "article": "das",
+          "plural": "Zimmer",
+          "type": "n"
+        },
+        {
+          "de": "Küche",
+          "it": "Küche",
+          "example": "In der Küche koche ich jeden Tag.",
+          "exampleIt": "In cucina cucino ogni giorno.",
+          "article": "die",
+          "plural": "Küchen",
+          "type": "n"
+        },
+        {
+          "de": "Bad",
+          "it": "Bad",
+          "example": "Das Bad ist klein aber sauber.",
+          "exampleIt": "Il bagno è piccolo ma pulito.",
+          "article": "das",
+          "plural": "Bäder",
+          "type": "n"
+        },
+        {
+          "de": "Badezimmer",
+          "it": "Badezimmer",
+          "example": "Das Badezimmer hat eine Dusche.",
+          "exampleIt": "Il bagno ha una doccia.",
+          "article": "das",
+          "plural": "Badezimmer",
+          "type": "n"
+        },
+        {
+          "de": "Schlafzimmer",
+          "it": "Schlafzimmer",
+          "example": "Das Schlafzimmer ist sehr ruhig.",
+          "exampleIt": "La camera da letto è molto silenziosa.",
+          "article": "das",
+          "plural": "Schlafzimmer",
+          "type": "n"
+        },
+        {
+          "de": "Wohnzimmer",
+          "it": "Wohnzimmer",
+          "example": "Im Wohnzimmer sehen wir fern.",
+          "exampleIt": "Nel soggiorno guardiamo la televisione.",
+          "article": "das",
+          "plural": "Wohnzimmer",
+          "type": "n"
+        },
+        {
+          "de": "Esszimmer",
+          "it": "Esszimmer",
+          "example": "Das Esszimmer ist neben der Küche.",
+          "exampleIt": "La sala da pranzo è accanto alla cucina.",
+          "article": "das",
+          "plural": "Esszimmer",
+          "type": "n"
+        },
+        {
+          "de": "Flur",
+          "it": "Flur",
+          "example": "Der Flur führt zu allen Zimmern.",
+          "exampleIt": "Il corridoio porta a tutte le stanze.",
+          "article": "der",
+          "plural": "Flure",
+          "type": "n"
+        },
+        {
+          "de": "Tür",
+          "it": "Tür",
+          "example": "Die Tür ist rot angestrichen.",
+          "exampleIt": "La porta è dipinta di rosso.",
+          "article": "die",
+          "plural": "Türen",
+          "type": "n"
+        },
+        {
+          "de": "Fenster",
+          "it": "Fenster",
+          "example": "Das Fenster geht zum Garten.",
+          "exampleIt": "La finestra dà sul giardino.",
+          "article": "das",
+          "plural": "Fenster",
+          "type": "n"
+        },
+        {
+          "de": "Wand",
+          "it": "Wand",
+          "example": "Die Wand ist weiß gestrichen.",
+          "exampleIt": "La parete è dipinta di bianco.",
+          "article": "die",
+          "plural": "Wände",
+          "type": "n"
+        },
+        {
+          "de": "Dach",
+          "it": "Dach",
+          "example": "Das Dach ist aus Ziegeln.",
+          "exampleIt": "Il tetto è fatto di mattoni.",
+          "article": "das",
+          "plural": "Dächer",
+          "type": "n"
+        },
+        {
+          "de": "Boden",
+          "it": "Boden",
+          "example": "Der Boden ist aus Holz.",
+          "exampleIt": "Il pavimento è di legno.",
+          "article": "der",
+          "plural": "Böden",
+          "type": "n"
+        },
+        {
+          "de": "Decke",
+          "it": "Decke",
+          "example": "Die Decke hat eine Lampe.",
+          "exampleIt": "Il soffitto ha una lampada.",
+          "article": "die",
+          "plural": "Decken",
+          "type": "n"
+        },
+        {
+          "de": "Tisch",
+          "it": "Tisch",
+          "example": "Der Tisch ist aus Eichenholz.",
+          "exampleIt": "Il tavolo è di quercia.",
+          "article": "der",
+          "plural": "Tische",
+          "type": "n"
+        },
+        {
+          "de": "Stuhl",
+          "it": "Stuhl",
+          "example": "Der Stuhl ist sehr bequem.",
+          "exampleIt": "La sedia è molto comoda.",
+          "article": "der",
+          "plural": "Stühle",
+          "type": "n"
+        },
+        {
+          "de": "Bett",
+          "it": "Bett",
+          "example": "Das Bett ist groß und komfortabel.",
+          "exampleIt": "Il letto è grande e confortevole.",
+          "article": "das",
+          "plural": "Betten",
+          "type": "n"
+        },
+        {
+          "de": "Sofa",
+          "it": "Sofa",
+          "example": "Das Sofa ist perfekt zum Entspannen.",
+          "exampleIt": "Il divano è perfetto per rilassarsi.",
+          "article": "das",
+          "plural": "Sofas",
+          "type": "n"
+        },
+        {
+          "de": "Lampe",
+          "it": "Lampe",
+          "example": "Die Lampe gibt warmes Licht.",
+          "exampleIt": "La lampada dà luce calda.",
+          "article": "die",
+          "plural": "Lampen",
+          "type": "n"
+        },
+        {
+          "de": "Regal",
+          "it": "Regal",
+          "example": "Das Regal steht an der Wand.",
+          "exampleIt": "Lo scaffale è contro il muro.",
+          "article": "das",
+          "plural": "Regale",
+          "type": "n"
+        },
+        {
+          "de": "Schrank",
+          "it": "Schrank",
+          "example": "Der Schrank ist voll mit Kleidung.",
+          "exampleIt": "L'armadio è pieno di vestiti.",
+          "article": "der",
+          "plural": "Schränke",
+          "type": "n"
+        },
+        {
+          "de": "Spiegel",
+          "it": "Spiegel",
+          "example": "Der Spiegel hängt im Bad.",
+          "exampleIt": "Lo specchio è appeso in bagno.",
+          "article": "der",
+          "plural": "Spiegel",
+          "type": "n"
+        },
+        {
+          "de": "Bild",
+          "it": "Bild",
+          "example": "Das Bild ist sehr schön.",
+          "exampleIt": "Il quadro è molto bello.",
+          "article": "das",
+          "plural": "Bilder",
+          "type": "n"
+        },
+        {
+          "de": "Teppich",
+          "it": "Teppich",
+          "example": "Der Teppich ist rot und weich.",
+          "exampleIt": "Il tappeto è rosso e morbido.",
+          "article": "der",
+          "plural": "Teppiche",
+          "type": "n"
+        },
+        {
+          "de": "Garten",
+          "it": "Garten",
+          "example": "Der Garten hat viele Blumen.",
+          "exampleIt": "Il giardino ha molti fiori.",
+          "article": "der",
+          "plural": "Gärten",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Körper und Gesundheit",
+      "nameIt": "Corpo e salute",
+      "words": [
+        {
+          "de": "Kopf",
+          "it": "Kopf",
+          "example": "Der Kopf tut mir weh.",
+          "exampleIt": "Mi fa male la testa.",
+          "article": "der",
+          "plural": "Köpfe",
+          "type": "n"
+        },
+        {
+          "de": "Auge",
+          "it": "Auge",
+          "example": "Meine Augen sind blau.",
+          "exampleIt": "I miei occhi sono blu.",
+          "article": "das",
+          "plural": "Augen",
+          "type": "n"
+        },
+        {
+          "de": "Nase",
+          "it": "Nase",
+          "example": "Die Nase ist zum Riechen.",
+          "exampleIt": "Il naso serve per odorare.",
+          "article": "die",
+          "plural": "Nasen",
+          "type": "n"
+        },
+        {
+          "de": "Mund",
+          "it": "Mund",
+          "example": "Mund zu beim Kauen.",
+          "exampleIt": "Bocca chiusa mentre si mastica.",
+          "article": "der",
+          "plural": "Münder",
+          "type": "n"
+        },
+        {
+          "de": "Ohr",
+          "it": "Ohr",
+          "example": "Mit den Ohren höre ich.",
+          "exampleIt": "Con le orecchie sento.",
+          "article": "das",
+          "plural": "Ohren",
+          "type": "n"
+        },
+        {
+          "de": "Zahn",
+          "it": "Zahn",
+          "example": "Der Zahn schmerzt mich.",
+          "exampleIt": "Mi fa male il dente.",
+          "article": "der",
+          "plural": "Zähne",
+          "type": "n"
+        },
+        {
+          "de": "Zunge",
+          "it": "Zunge",
+          "example": "Die Zunge schmeckt das Essen.",
+          "exampleIt": "La lingua assaggia il cibo.",
+          "article": "die",
+          "plural": "Zungen",
+          "type": "n"
+        },
+        {
+          "de": "Hand",
+          "it": "Hand",
+          "example": "Die Hand hat fünf Finger.",
+          "exampleIt": "La mano ha cinque dita.",
+          "article": "die",
+          "plural": "Hände",
+          "type": "n"
+        },
+        {
+          "de": "Fuß",
+          "it": "Fuß",
+          "example": "Der Fuß ist am Beinknochen.",
+          "exampleIt": "Il piede è all'osso della gamba.",
+          "article": "der",
+          "plural": "Füße",
+          "type": "n"
+        },
+        {
+          "de": "Arm",
+          "it": "Arm",
+          "example": "Der Arm ist lang und stark.",
+          "exampleIt": "Il braccio è lungo e forte.",
+          "article": "der",
+          "plural": "Arme",
+          "type": "n"
+        },
+        {
+          "de": "Bein",
+          "it": "Bein",
+          "example": "Das Bein ist verletzt.",
+          "exampleIt": "La gamba è ferita.",
+          "article": "das",
+          "plural": "Beine",
+          "type": "n"
+        },
+        {
+          "de": "Bauch",
+          "it": "Bauch",
+          "example": "Der Bauch ist voll nach dem Essen.",
+          "exampleIt": "La pancia è piena dopo il pasto.",
+          "article": "der",
+          "plural": "Bäuche",
+          "type": "n"
+        },
+        {
+          "de": "Rücken",
+          "it": "Rücken",
+          "example": "Der Rücken tut mir weh.",
+          "exampleIt": "Mi fa male la schiena.",
+          "article": "der",
+          "plural": "Rücken",
+          "type": "n"
+        },
+        {
+          "de": "Brust",
+          "it": "Brust",
+          "example": "Die Brust ist unter dem Hals.",
+          "exampleIt": "Il petto è sotto il collo.",
+          "article": "die",
+          "plural": "Brüste",
+          "type": "n"
+        },
+        {
+          "de": "Hals",
+          "it": "Hals",
+          "example": "Der Hals verbindet Kopf und Körper.",
+          "exampleIt": "Il collo collega la testa al corpo.",
+          "article": "der",
+          "plural": "Hälse",
+          "type": "n"
+        },
+        {
+          "de": "Herz",
+          "it": "Herz",
+          "example": "Das Herz pumpt Blut.",
+          "exampleIt": "Il cuore pompa il sangue.",
+          "article": "das",
+          "plural": "Herzen",
+          "type": "n"
+        },
+        {
+          "de": "Blut",
+          "it": "Blut",
+          "example": "Das Blut ist rot.",
+          "exampleIt": "Il sangue è rosso.",
+          "article": "das",
+          "plural": "Blut",
+          "type": "n"
+        },
+        {
+          "de": "Knochen",
+          "it": "Knochen",
+          "example": "Der Knochen ist hart.",
+          "exampleIt": "L'osso è duro.",
+          "article": "der",
+          "plural": "Knochen",
+          "type": "n"
+        },
+        {
+          "de": "Arzt",
+          "it": "Arzt",
+          "example": "Der Arzt untersucht mich.",
+          "exampleIt": "Il medico mi esamina.",
+          "article": "der",
+          "plural": "Ärzte",
+          "type": "n"
+        },
+        {
+          "de": "Ärztin",
+          "it": "Ärztin",
+          "example": "Die Ärztin gibt mir eine Spritze.",
+          "exampleIt": "La medica mi fa un'iniezione.",
+          "article": "die",
+          "plural": "Ärztinnen",
+          "type": "n"
+        },
+        {
+          "de": "krank",
+          "it": "krank",
+          "example": "Ich bin krank und bleibe zu Hause.",
+          "exampleIt": "Sono malato e rimango a casa.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "gesund",
+          "it": "gesund",
+          "example": "Ich bin gesund und fit.",
+          "exampleIt": "Sono sano e in forma.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "Fieber",
+          "it": "Fieber",
+          "example": "Ich habe Fieber und Husten.",
+          "exampleIt": "Ho febbre e tosse.",
+          "article": "das",
+          "plural": "Fieber",
+          "type": "n"
+        },
+        {
+          "de": "Schmerz",
+          "it": "Schmerz",
+          "example": "Der Schmerz ist stark.",
+          "exampleIt": "Il dolore è forte.",
+          "article": "der",
+          "plural": "Schmerzen",
+          "type": "n"
+        },
+        {
+          "de": "Medikament",
+          "it": "Medikament",
+          "example": "Das Medikament hilft gegen Schmerzen.",
+          "exampleIt": "La medicina aiuta contro il dolore.",
+          "article": "das",
+          "plural": "Medikamente",
+          "type": "n"
+        },
+        {
+          "de": "Apotheke",
+          "it": "Apotheke",
+          "example": "Die Apotheke ist neben dem Supermarkt.",
+          "exampleIt": "La farmacia è accanto al supermercato.",
+          "article": "die",
+          "plural": "Apotheken",
+          "type": "n"
+        },
+        {
+          "de": "Kopfschmerzen",
+          "it": "Kopfschmerzen",
+          "example": "Ich habe Kopfschmerzen.",
+          "exampleIt": "Ho mal di testa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Halsschmerzen",
+          "it": "Halsschmerzen",
+          "example": "Ich habe Halsschmerzen.",
+          "exampleIt": "Ho mal di gola.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Bauchschmerzen",
+          "it": "Bauchschmerzen",
+          "example": "Ich habe Bauchschmerzen.",
+          "exampleIt": "Ho mal di pancia.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Kleidung",
+      "nameIt": "Abbigliamento",
+      "words": [
+        {
+          "de": "Hose",
+          "it": "Hose",
+          "example": "Die Hose ist blau.",
+          "exampleIt": "I pantaloni sono blu.",
+          "article": "die",
+          "plural": "Hosen",
+          "type": "n"
+        },
+        {
+          "de": "Hemd",
+          "it": "Hemd",
+          "example": "Das Hemd ist weiß und sauber.",
+          "exampleIt": "La camicia è bianca e pulita.",
+          "article": "das",
+          "plural": "Hemden",
+          "type": "n"
+        },
+        {
+          "de": "Kleid",
+          "it": "Kleid",
+          "example": "Das Kleid ist rot und elegant.",
+          "exampleIt": "Il vestito è rosso ed elegante.",
+          "article": "das",
+          "plural": "Kleider",
+          "type": "n"
+        },
+        {
+          "de": "Jacke",
+          "it": "Jacke",
+          "example": "Die Jacke schützt vor Kälte.",
+          "exampleIt": "La giacca protegge dal freddo.",
+          "article": "die",
+          "plural": "Jacken",
+          "type": "n"
+        },
+        {
+          "de": "Schuh",
+          "it": "Schuh",
+          "example": "Der Schuh ist zu klein.",
+          "exampleIt": "La scarpa è troppo piccola.",
+          "article": "der",
+          "plural": "Schuhe",
+          "type": "n"
+        },
+        {
+          "de": "Mantel",
+          "it": "Mantel",
+          "example": "Der Mantel ist warm und dick.",
+          "exampleIt": "Il cappotto è caldo e spesso.",
+          "article": "der",
+          "plural": "Mäntel",
+          "type": "n"
+        },
+        {
+          "de": "T-Shirt",
+          "it": "T-Shirt",
+          "example": "Das T-Shirt ist bequem.",
+          "exampleIt": "La maglietta è comoda.",
+          "article": "das",
+          "plural": "T-Shirts",
+          "type": "n"
+        },
+        {
+          "de": "Rock",
+          "it": "Rock",
+          "example": "Der Rock ist kurz und modisch.",
+          "exampleIt": "La gonna è corta e alla moda.",
+          "article": "der",
+          "plural": "Röcke",
+          "type": "n"
+        },
+        {
+          "de": "Pullover",
+          "it": "Pullover",
+          "example": "Der Pullover ist warm und gemütlich.",
+          "exampleIt": "Il maglione è caldo e accogliente.",
+          "article": "der",
+          "plural": "Pullover",
+          "type": "n"
+        },
+        {
+          "de": "Mütze",
+          "it": "Mütze",
+          "example": "Die Mütze hält den Kopf warm.",
+          "exampleIt": "Il berretto mantiene la testa calda.",
+          "article": "die",
+          "plural": "Mützen",
+          "type": "n"
+        },
+        {
+          "de": "Hut",
+          "it": "Hut",
+          "example": "Der Hut schützt vor Sonne.",
+          "exampleIt": "Il cappello protegge dal sole.",
+          "article": "der",
+          "plural": "Hüte",
+          "type": "n"
+        },
+        {
+          "de": "Schal",
+          "it": "Schal",
+          "example": "Der Schal ist lang und warm.",
+          "exampleIt": "La sciarpa è lunga e calda.",
+          "article": "der",
+          "plural": "Schals",
+          "type": "n"
+        },
+        {
+          "de": "Handschuh",
+          "it": "Handschuh",
+          "example": "Der Handschuh schützt die Hand.",
+          "exampleIt": "Il guanto protegge la mano.",
+          "article": "der",
+          "plural": "Handschuhe",
+          "type": "n"
+        },
+        {
+          "de": "Socke",
+          "it": "Socke",
+          "example": "Die Socke ist aus Baumwolle.",
+          "exampleIt": "Il calzino è di cotone.",
+          "article": "die",
+          "plural": "Socken",
+          "type": "n"
+        },
+        {
+          "de": "Unterwäsche",
+          "it": "Unterwäsche",
+          "example": "Die Unterwäsche ist sauber.",
+          "exampleIt": "La biancheria intima è pulita.",
+          "article": "die",
+          "plural": "Unterwäsche",
+          "type": "n"
+        },
+        {
+          "de": "Badeanzug",
+          "it": "Badeanzug",
+          "example": "Der Badeanzug ist für den Strand.",
+          "exampleIt": "Il costume da bagno è per la spiaggia.",
+          "article": "der",
+          "plural": "Badeanzüge",
+          "type": "n"
+        },
+        {
+          "de": "Gürtel",
+          "it": "Gürtel",
+          "example": "Der Gürtel hält die Hose.",
+          "exampleIt": "La cintura tiene i pantaloni.",
+          "article": "der",
+          "plural": "Gürtel",
+          "type": "n"
+        },
+        {
+          "de": "Krawatte",
+          "it": "Krawatte",
+          "example": "Die Krawatte ist rot.",
+          "exampleIt": "La cravatta è rossa.",
+          "article": "die",
+          "plural": "Krawatten",
+          "type": "n"
+        },
+        {
+          "de": "Anzug",
+          "it": "Anzug",
+          "example": "Der Anzug ist formell.",
+          "exampleIt": "L'abito è formale.",
+          "article": "der",
+          "plural": "Anzüge",
+          "type": "n"
+        },
+        {
+          "de": "Handtasche",
+          "it": "Handtasche",
+          "example": "Die Handtasche ist groß.",
+          "exampleIt": "La borsa è grande.",
+          "article": "die",
+          "plural": "Handtaschen",
+          "type": "n"
+        },
+        {
+          "de": "Rucksack",
+          "it": "Rucksack",
+          "example": "Der Rucksack ist praktisch.",
+          "exampleIt": "Lo zaino è pratico.",
+          "article": "der",
+          "plural": "Rucksäcke",
+          "type": "n"
+        },
+        {
+          "de": "Brille",
+          "it": "Brille",
+          "example": "Die Brille hilft zum Sehen.",
+          "exampleIt": "Gli occhiali aiutano a vedere.",
+          "article": "die",
+          "plural": "Brillen",
+          "type": "n"
+        },
+        {
+          "de": "Schmuck",
+          "it": "Schmuck",
+          "example": "Der Schmuck ist elegant.",
+          "exampleIt": "Il gioiello è elegante.",
+          "article": "der",
+          "plural": "Schmuck",
+          "type": "n"
+        },
+        {
+          "de": "Ring",
+          "it": "Ring",
+          "example": "Der Ring ist golden.",
+          "exampleIt": "L'anello è d'oro.",
+          "article": "der",
+          "plural": "Ringe",
+          "type": "n"
+        },
+        {
+          "de": "Kette",
+          "it": "Kette",
+          "example": "Die Kette ist silbern.",
+          "exampleIt": "La collana è argentata.",
+          "article": "die",
+          "plural": "Ketten",
+          "type": "n"
+        },
+        {
+          "de": "Uhr",
+          "it": "Uhr",
+          "example": "Die Uhr zeigt die Zeit.",
+          "exampleIt": "L'orologio mostra l'ora.",
+          "article": "die",
+          "plural": "Uhren",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Alltag und Beruf",
+      "nameIt": "Vita quotidiana e lavoro",
+      "words": [
+        {
+          "de": "arbeiten",
+          "it": "arbeiten",
+          "example": "Ich arbeite von Montag bis Freitag.",
+          "exampleIt": "Lavoro da lunedì a venerdì.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "lernen",
+          "it": "lernen",
+          "example": "Der Student lernt Mathematik.",
+          "exampleIt": "Lo studente impara la matematica.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "schreiben",
+          "it": "schreiben",
+          "example": "Ich schreibe eine E-Mail.",
+          "exampleIt": "Scrivo un'e-mail.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "lesen",
+          "it": "lesen",
+          "example": "Ich lese ein interessantes Buch.",
+          "exampleIt": "Leggo un libro interessante.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "sprechen",
+          "it": "sprechen",
+          "example": "Wir sprechen Deutsch.",
+          "exampleIt": "Parliamo tedesco.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "hören",
+          "it": "hören",
+          "example": "Ich höre gerne Musik.",
+          "exampleIt": "Mi piace ascoltare la musica.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "gehen",
+          "it": "gehen",
+          "example": "Ich gehe zur Schule.",
+          "exampleIt": "Vado a scuola.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "kommen",
+          "it": "kommen",
+          "example": "Er kommt morgen an.",
+          "exampleIt": "Arriva domani.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "machen",
+          "it": "machen",
+          "example": "Was machst du heute?",
+          "exampleIt": "Cosa fai oggi?",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "haben",
+          "it": "haben",
+          "example": "Ich habe einen Hund.",
+          "exampleIt": "Ho un cane.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "sein",
+          "it": "sein",
+          "example": "Ich bin Lehrer.",
+          "exampleIt": "Sono insegnante.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "können",
+          "it": "können",
+          "example": "Ich kann schwimmen.",
+          "exampleIt": "So nuotare.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "wollen",
+          "it": "wollen",
+          "example": "Ich will Arzt werden.",
+          "exampleIt": "Voglio diventare medico.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "müssen",
+          "it": "müssen",
+          "example": "Ich muss zur Arbeit gehen.",
+          "exampleIt": "Devo andare al lavoro.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "sollen",
+          "it": "sollen",
+          "example": "Du sollst pünktlich sein.",
+          "exampleIt": "Dovresti essere puntuale.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "dürfen",
+          "it": "dürfen",
+          "example": "Darf ich fragen?",
+          "exampleIt": "Posso chiedere?",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "mögen",
+          "it": "mögen",
+          "example": "Ich mag Schokolade.",
+          "exampleIt": "Mi piace il cioccolato.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "möchten",
+          "it": "möchten",
+          "example": "Ich möchte einen Kaffee.",
+          "exampleIt": "Vorrei un caffè.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "essen",
+          "it": "essen",
+          "example": "Wir essen zu Mittag.",
+          "exampleIt": "Mangiamo a pranzo.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "trinken",
+          "it": "trinken",
+          "example": "Ich trinke Wasser.",
+          "exampleIt": "Bevo acqua.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "schlafen",
+          "it": "schlafen",
+          "example": "Ich schlafe acht Stunden.",
+          "exampleIt": "Dormo otto ore.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "wachen",
+          "it": "wachen",
+          "example": "Ich wache um sieben Uhr auf.",
+          "exampleIt": "Mi sveglio alle sette.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "spielen",
+          "it": "spielen",
+          "example": "Kinder spielen im Park.",
+          "exampleIt": "I bambini giocano nel parco.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "sitzen",
+          "it": "sitzen",
+          "example": "Ich sitze im Stuhl.",
+          "exampleIt": "Sono seduto sulla sedia.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "stehen",
+          "it": "stehen",
+          "example": "Ich stehe an der Tür.",
+          "exampleIt": "Sto in piedi alla porta.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "Arbeit",
+          "it": "Arbeit",
+          "example": "Die Arbeit ist interessant.",
+          "exampleIt": "Il lavoro è interessante.",
+          "article": "die",
+          "plural": "Arbeiten",
+          "type": "n"
+        },
+        {
+          "de": "Beruf",
+          "it": "Beruf",
+          "example": "Mein Beruf ist sehr wichtig.",
+          "exampleIt": "La mia professione è molto importante.",
+          "article": "der",
+          "plural": "Berufe",
+          "type": "n"
+        },
+        {
+          "de": "Lehrer",
+          "it": "Lehrer",
+          "example": "Der Lehrer unterrichtet Deutsch.",
+          "exampleIt": "L'insegnante insegna tedesco.",
+          "article": "der",
+          "plural": "Lehrer",
+          "type": "n"
+        },
+        {
+          "de": "Schüler",
+          "it": "Schüler",
+          "example": "Der Schüler ist fleißig.",
+          "exampleIt": "Lo studente è diligente.",
+          "article": "der",
+          "plural": "Schüler",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Stadt und Verkehr",
+      "nameIt": "Città e trasporti",
+      "words": [
+        {
+          "de": "Straße",
+          "it": "Straße",
+          "example": "Die Straße ist breit und sicher.",
+          "exampleIt": "La strada è larga e sicura.",
+          "article": "die",
+          "plural": "Straßen",
+          "type": "n"
+        },
+        {
+          "de": "Auto",
+          "it": "Auto",
+          "example": "Das Auto ist schnell und komfortabel.",
+          "exampleIt": "L'auto è veloce e confortevole.",
+          "article": "das",
+          "plural": "Autos",
+          "type": "n"
+        },
+        {
+          "de": "Bus",
+          "it": "Bus",
+          "example": "Der Bus fährt in die Stadt.",
+          "exampleIt": "L'autobus va in città.",
+          "article": "der",
+          "plural": "Busse",
+          "type": "n"
+        },
+        {
+          "de": "Zug",
+          "it": "Zug",
+          "example": "Der Zug kommt pünktlich an.",
+          "exampleIt": "Il treno arriva in orario.",
+          "article": "der",
+          "plural": "Züge",
+          "type": "n"
+        },
+        {
+          "de": "Fahrrad",
+          "it": "Fahrrad",
+          "example": "Das Fahrrad ist praktisch.",
+          "exampleIt": "La bicicletta è pratica.",
+          "article": "das",
+          "plural": "Fahrräder",
+          "type": "n"
+        },
+        {
+          "de": "Haltestelle",
+          "it": "Haltestelle",
+          "example": "Die Haltestelle ist nah.",
+          "exampleIt": "La fermata è vicina.",
+          "article": "die",
+          "plural": "Haltestellen",
+          "type": "n"
+        },
+        {
+          "de": "Bahnhof",
+          "it": "Bahnhof",
+          "example": "Der Bahnhof ist im Zentrum.",
+          "exampleIt": "La stazione è nel centro.",
+          "article": "der",
+          "plural": "Bahnhöfe",
+          "type": "n"
+        },
+        {
+          "de": "Flughafen",
+          "it": "Flughafen",
+          "example": "Der Flughafen ist groß.",
+          "exampleIt": "L'aeroporto è grande.",
+          "article": "der",
+          "plural": "Flughäfen",
+          "type": "n"
+        },
+        {
+          "de": "rechts",
+          "it": "rechts",
+          "example": "Der Laden ist rechts.",
+          "exampleIt": "Il negozio è a destra.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "links",
+          "it": "links",
+          "example": "Die Schule ist links.",
+          "exampleIt": "La scuola è a sinistra.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "geradeaus",
+          "it": "geradeaus",
+          "example": "Gehen Sie geradeaus!",
+          "exampleIt": "Vai dritto!",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "vorne",
+          "it": "vorne",
+          "example": "Das Auto ist vorne.",
+          "exampleIt": "L'auto è davanti.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "hinten",
+          "it": "hinten",
+          "example": "Der Park ist hinten.",
+          "exampleIt": "Il parco è dietro.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "Taxi",
+          "it": "Taxi",
+          "example": "Das Taxi ist gelb.",
+          "exampleIt": "Il taxi è giallo.",
+          "article": "das",
+          "plural": "Taxis",
+          "type": "n"
+        },
+        {
+          "de": "Motorrad",
+          "it": "Motorrad",
+          "example": "Das Motorrad ist schnell.",
+          "exampleIt": "La motocicletta è veloce.",
+          "article": "das",
+          "plural": "Motorräder",
+          "type": "n"
+        },
+        {
+          "de": "Roller",
+          "it": "Roller",
+          "example": "Der Roller ist einfach zu fahren.",
+          "exampleIt": "Lo scooter è facile da guidare.",
+          "article": "der",
+          "plural": "Roller",
+          "type": "n"
+        },
+        {
+          "de": "Schiff",
+          "it": "Schiff",
+          "example": "Das Schiff fährt über das Meer.",
+          "exampleIt": "La nave viaggia sul mare.",
+          "article": "das",
+          "plural": "Schiffe",
+          "type": "n"
+        },
+        {
+          "de": "Flugzeug",
+          "it": "Flugzeug",
+          "example": "Das Flugzeug fliegt hoch.",
+          "exampleIt": "L'aereo vola alto.",
+          "article": "das",
+          "plural": "Flugzeuge",
+          "type": "n"
+        },
+        {
+          "de": "Verkehr",
+          "it": "Verkehr",
+          "example": "Der Verkehr ist heute schwach.",
+          "exampleIt": "Il traffico è debole oggi.",
+          "article": "der",
+          "plural": "Verkehr",
+          "type": "n"
+        },
+        {
+          "de": "Ampel",
+          "it": "Ampel",
+          "example": "Die Ampel ist rot.",
+          "exampleIt": "Il semaforo è rosso.",
+          "article": "die",
+          "plural": "Ampeln",
+          "type": "n"
+        },
+        {
+          "de": "Parkplatz",
+          "it": "Parkplatz",
+          "example": "Der Parkplatz ist voll.",
+          "exampleIt": "Il parcheggio è pieno.",
+          "article": "der",
+          "plural": "Parkplätze",
+          "type": "n"
+        },
+        {
+          "de": "Weg",
+          "it": "Weg",
+          "example": "Der Weg ist lang.",
+          "exampleIt": "Il cammino è lungo.",
+          "article": "der",
+          "plural": "Wege",
+          "type": "n"
+        },
+        {
+          "de": "Brücke",
+          "it": "Brücke",
+          "example": "Die Brücke überquert den Fluss.",
+          "exampleIt": "Il ponte attraversa il fiume.",
+          "article": "die",
+          "plural": "Brücken",
+          "type": "n"
+        },
+        {
+          "de": "Platz",
+          "it": "Platz",
+          "example": "Der Platz ist groß und offen.",
+          "exampleIt": "La piazza è grande e aperta.",
+          "article": "der",
+          "plural": "Plätze",
+          "type": "n"
+        },
+        {
+          "de": "Markt",
+          "it": "Markt",
+          "example": "Der Markt hat frisches Obst.",
+          "exampleIt": "Il mercato ha frutta fresca.",
+          "article": "der",
+          "plural": "Märkte",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Farben und Adjektive",
+      "nameIt": "Colori e aggettivi",
+      "words": [
+        {
+          "de": "rot",
+          "it": "rot",
+          "example": "Die Rose ist rot.",
+          "exampleIt": "La rosa è rossa.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "blau",
+          "it": "blau",
+          "example": "Der Himmel ist blau.",
+          "exampleIt": "Il cielo è blu.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "grün",
+          "it": "grün",
+          "example": "Das Gras ist grün.",
+          "exampleIt": "L'erba è verde.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "gelb",
+          "it": "gelb",
+          "example": "Die Sonne ist gelb.",
+          "exampleIt": "Il sole è giallo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "schwarz",
+          "it": "schwarz",
+          "example": "Die Nacht ist schwarz.",
+          "exampleIt": "La notte è nera.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "weiß",
+          "it": "weiß",
+          "example": "Der Schnee ist weiß.",
+          "exampleIt": "La neve è bianca.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "grau",
+          "it": "grau",
+          "example": "Die Straße ist grau.",
+          "exampleIt": "La strada è grigia.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "braun",
+          "it": "braun",
+          "example": "Der Baum ist braun.",
+          "exampleIt": "L'albero è marrone.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "rosa",
+          "it": "rosa",
+          "example": "Das Kleid ist rosa.",
+          "exampleIt": "Il vestito è rosa.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "lila",
+          "it": "lila",
+          "example": "Die Blume ist lila.",
+          "exampleIt": "Il fiore è viola.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "orange",
+          "it": "orange",
+          "example": "Die Orange ist orange.",
+          "exampleIt": "L'arancia è arancione.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "groß",
+          "it": "groß",
+          "example": "Das Haus ist groß.",
+          "exampleIt": "La casa è grande.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "klein",
+          "it": "klein",
+          "example": "Die Maus ist klein.",
+          "exampleIt": "Il topo è piccolo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "gut",
+          "it": "gut",
+          "example": "Das Essen schmeckt gut.",
+          "exampleIt": "Il cibo sa bene.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "schlecht",
+          "it": "schlecht",
+          "example": "Das Wetter ist schlecht.",
+          "exampleIt": "Il tempo è cattivo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "schön",
+          "it": "schön",
+          "example": "Das Mädchen ist schön.",
+          "exampleIt": "La ragazza è bella.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "hässlich",
+          "it": "hässlich",
+          "example": "Das Kleid ist hässlich.",
+          "exampleIt": "Il vestito è brutto.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "alt",
+          "it": "alt",
+          "example": "Der Mann ist alt.",
+          "exampleIt": "L'uomo è vecchio.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "jung",
+          "it": "jung",
+          "example": "Das Mädchen ist jung.",
+          "exampleIt": "La ragazza è giovane.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "neu",
+          "it": "neu",
+          "example": "Das Auto ist neu.",
+          "exampleIt": "L'auto è nuova.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "schnell",
+          "it": "schnell",
+          "example": "Das Auto ist schnell.",
+          "exampleIt": "L'auto è veloce.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "langsam",
+          "it": "langsam",
+          "example": "Die Schildkröte ist langsam.",
+          "exampleIt": "La tartaruga è lenta.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "stark",
+          "it": "stark",
+          "example": "Der Mann ist stark.",
+          "exampleIt": "L'uomo è forte.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "schwach",
+          "it": "schwach",
+          "example": "Das Kind ist schwach.",
+          "exampleIt": "Il bambino è debole.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "hoch",
+          "it": "hoch",
+          "example": "Der Berg ist hoch.",
+          "exampleIt": "La montagna è alta.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "tief",
+          "it": "tief",
+          "example": "Der See ist tief.",
+          "exampleIt": "Il lago è profondo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "lang",
+          "it": "lang",
+          "example": "Der Film ist lang.",
+          "exampleIt": "Il film è lungo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "kurz",
+          "it": "kurz",
+          "example": "Die Zeit ist kurz.",
+          "exampleIt": "Il tempo è corto.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "warm",
+          "it": "warm",
+          "example": "Das Wasser ist warm.",
+          "exampleIt": "L'acqua è calda.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "kalt",
+          "it": "kalt",
+          "example": "Der Winter ist kalt.",
+          "exampleIt": "L'inverno è freddo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "heiß",
+          "it": "heiß",
+          "example": "Das Feuer ist heiß.",
+          "exampleIt": "Il fuoco è caldo.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "nass",
+          "it": "nass",
+          "example": "Der Hund ist nass.",
+          "exampleIt": "Il cane è bagnato.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "trocken",
+          "it": "trocken",
+          "example": "Das Tuch ist trocken.",
+          "exampleIt": "L'asciugamano è asciutto.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
+    },
+    {
+      "name": "Corpo umano",
+      "nameIt": "Corpo umano",
+      "words": [
+        {
+          "de": "Kopf",
+          "it": "Kopf",
+          "example": "Der Kopf tut mir weh.",
+          "exampleIt": "Mi fa male la testa.",
+          "article": "der",
+          "plural": "Köpfe",
+          "type": "n"
+        },
+        {
+          "de": "Auge",
+          "it": "Auge",
+          "example": "Ich habe zwei Augen.",
+          "exampleIt": "Ho due occhi.",
+          "article": "das",
+          "plural": "Augen",
+          "type": "n"
+        },
+        {
+          "de": "Nase",
+          "it": "Nase",
+          "example": "Die Nase ist groß.",
+          "exampleIt": "Il naso è grande.",
+          "article": "die",
+          "plural": "Nasen",
+          "type": "n"
+        },
+        {
+          "de": "Mund",
+          "it": "Mund",
+          "example": "Der Mund lacht.",
+          "exampleIt": "La bocca ride.",
+          "article": "der",
+          "plural": "Münder",
+          "type": "n"
+        },
+        {
+          "de": "Zahn",
+          "it": "Zahn",
+          "example": "Ich habe einen Zahn verloren.",
+          "exampleIt": "Ho perso un dente.",
+          "article": "der",
+          "plural": "Zähne",
+          "type": "n"
+        },
+        {
+          "de": "Ohr",
+          "it": "Ohr",
+          "example": "Das Ohr hört.",
+          "exampleIt": "L'orecchio sente.",
+          "article": "das",
+          "plural": "Ohren",
+          "type": "n"
+        },
+        {
+          "de": "Hals",
+          "it": "Hals",
+          "example": "Der Hals ist lang.",
+          "exampleIt": "La gola è lunga.",
+          "article": "der",
+          "plural": "Hälse",
+          "type": "n"
+        },
+        {
+          "de": "Arm",
+          "it": "Arm",
+          "example": "Der Arm ist stark.",
+          "exampleIt": "Il braccio è forte.",
+          "article": "der",
+          "plural": "Arme",
+          "type": "n"
+        },
+        {
+          "de": "Hand",
+          "it": "Hand",
+          "example": "Die Hand ist warm.",
+          "exampleIt": "La mano è calda.",
+          "article": "die",
+          "plural": "Hände",
+          "type": "n"
+        },
+        {
+          "de": "Finger",
+          "it": "Finger",
+          "example": "Der Finger bewegt sich.",
+          "exampleIt": "Il dito si muove.",
+          "article": "der",
+          "plural": "Finger",
+          "type": "n"
+        },
+        {
+          "de": "Brust",
+          "it": "Brust",
+          "example": "Die Brust hebt sich.",
+          "exampleIt": "Il petto si solleva.",
+          "article": "die",
+          "plural": "Brüste",
+          "type": "n"
+        },
+        {
+          "de": "Bauch",
+          "it": "Bauch",
+          "example": "Der Bauch ist voll.",
+          "exampleIt": "La pancia è piena.",
+          "article": "der",
+          "plural": "Bäuche",
+          "type": "n"
+        },
+        {
+          "de": "Rücken",
+          "it": "Rücken",
+          "example": "Der Rücken schmerzt.",
+          "exampleIt": "La schiena fa male.",
+          "article": "der",
+          "plural": "Rücken",
+          "type": "n"
+        },
+        {
+          "de": "Bein",
+          "it": "Bein",
+          "example": "Das Bein ist lang.",
+          "exampleIt": "La gamba è lunga.",
+          "article": "das",
+          "plural": "Beine",
+          "type": "n"
+        },
+        {
+          "de": "Fuß",
+          "it": "Fuß",
+          "example": "Der Fuß läuft.",
+          "exampleIt": "Il piede corre.",
+          "article": "der",
+          "plural": "Füße",
+          "type": "n"
+        },
+        {
+          "de": "Herz",
+          "it": "Herz",
+          "example": "Das Herz schlägt.",
+          "exampleIt": "Il cuore batte.",
+          "article": "das",
+          "plural": "Herzen",
+          "type": "n"
+        },
+        {
+          "de": "Haut",
+          "it": "Haut",
+          "example": "Die Haut ist zart.",
+          "exampleIt": "La pelle è delicata.",
+          "article": "die",
+          "plural": "Häute",
+          "type": "n"
+        },
+        {
+          "de": "Blut",
+          "it": "Blut",
+          "example": "Das Blut fließt.",
+          "exampleIt": "Il sangue scorre.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Knochen",
+          "it": "Knochen",
+          "example": "Der Knochen ist hart.",
+          "exampleIt": "L'osso è duro.",
+          "article": "der",
+          "plural": "Knochen",
+          "type": "n"
+        },
+        {
+          "de": "Muskel",
+          "it": "Muskel",
+          "example": "Der Muskel ist stark.",
+          "exampleIt": "Il muscolo è forte.",
+          "article": "der",
+          "plural": "Muskeln",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Vestiti",
+      "nameIt": "Abbigliamento",
+      "words": [
+        {
+          "de": "Hemd",
+          "it": "Hemd",
+          "example": "Das Hemd ist blau.",
+          "exampleIt": "La camicia è blu.",
+          "article": "das",
+          "plural": "Hemden",
+          "type": "n"
+        },
+        {
+          "de": "Hose",
+          "it": "Hose",
+          "example": "Die Hose ist lang.",
+          "exampleIt": "I pantaloni sono lunghi.",
+          "article": "die",
+          "plural": "Hosen",
+          "type": "n"
+        },
+        {
+          "de": "Rock",
+          "it": "Rock",
+          "example": "Der Rock ist kurz.",
+          "exampleIt": "La gonna è corta.",
+          "article": "der",
+          "plural": "Röcke",
+          "type": "n"
+        },
+        {
+          "de": "Kleid",
+          "it": "Kleid",
+          "example": "Das Kleid ist schön.",
+          "exampleIt": "Il vestito è bello.",
+          "article": "das",
+          "plural": "Kleider",
+          "type": "n"
+        },
+        {
+          "de": "Jacke",
+          "it": "Jacke",
+          "example": "Die Jacke ist warm.",
+          "exampleIt": "La giacca è calda.",
+          "article": "die",
+          "plural": "Jacken",
+          "type": "n"
+        },
+        {
+          "de": "Mantel",
+          "it": "Mantel",
+          "example": "Der Mantel ist lang.",
+          "exampleIt": "Il cappotto è lungo.",
+          "article": "der",
+          "plural": "Mäntel",
+          "type": "n"
+        },
+        {
+          "de": "Schuh",
+          "it": "Schuh",
+          "example": "Der Schuh passt.",
+          "exampleIt": "La scarpa calza.",
+          "article": "der",
+          "plural": "Schuhe",
+          "type": "n"
+        },
+        {
+          "de": "Socke",
+          "it": "Socke",
+          "example": "Die Socke ist weiß.",
+          "exampleIt": "Il calzino è bianco.",
+          "article": "die",
+          "plural": "Socken",
+          "type": "n"
+        },
+        {
+          "de": "Handschuh",
+          "it": "Handschuh",
+          "example": "Der Handschuh ist warm.",
+          "exampleIt": "Il guanto è caldo.",
+          "article": "der",
+          "plural": "Handschuhe",
+          "type": "n"
+        },
+        {
+          "de": "Mütze",
+          "it": "Mütze",
+          "example": "Die Mütze ist rot.",
+          "exampleIt": "Il berretto è rosso.",
+          "article": "die",
+          "plural": "Mützen",
+          "type": "n"
+        },
+        {
+          "de": "Hut",
+          "it": "Hut",
+          "example": "Der Hut ist elegant.",
+          "exampleIt": "Il cappello è elegante.",
+          "article": "der",
+          "plural": "Hüte",
+          "type": "n"
+        },
+        {
+          "de": "Schal",
+          "it": "Schal",
+          "example": "Der Schal ist weich.",
+          "exampleIt": "La sciarpa è morbida.",
+          "article": "der",
+          "plural": "Schals",
+          "type": "n"
+        },
+        {
+          "de": "Krawatte",
+          "it": "Krawatte",
+          "example": "Die Krawatte ist dunkel.",
+          "exampleIt": "La cravatta è scura.",
+          "article": "die",
+          "plural": "Krawatten",
+          "type": "n"
+        },
+        {
+          "de": "Gürtel",
+          "it": "Gürtel",
+          "example": "Der Gürtel hält die Hose.",
+          "exampleIt": "La cintura tiene i pantaloni.",
+          "article": "der",
+          "plural": "Gürtel",
+          "type": "n"
+        },
+        {
+          "de": "Tasche",
+          "it": "Tasche",
+          "example": "Die Tasche ist leer.",
+          "exampleIt": "La tasca è vuota.",
+          "article": "die",
+          "plural": "Taschen",
+          "type": "n"
+        },
+        {
+          "de": "Rucksack",
+          "it": "Rucksack",
+          "example": "Der Rucksack ist schwer.",
+          "exampleIt": "Lo zaino è pesante.",
+          "article": "der",
+          "plural": "Rucksäcke",
+          "type": "n"
+        },
+        {
+          "de": "Brille",
+          "it": "Brille",
+          "example": "Die Brille hilft mir.",
+          "exampleIt": "Gli occhiali mi aiutano.",
+          "article": "die",
+          "plural": "Brillen",
+          "type": "n"
+        },
+        {
+          "de": "Uhr",
+          "it": "Uhr",
+          "example": "Die Uhr zeigt Zeit.",
+          "exampleIt": "L'orologio mostra l'ora.",
+          "article": "die",
+          "plural": "Uhren",
+          "type": "n"
+        },
+        {
+          "de": "Ring",
+          "it": "Ring",
+          "example": "Der Ring ist golden.",
+          "exampleIt": "L'anello è dorato.",
+          "article": "der",
+          "plural": "Ringe",
+          "type": "n"
+        },
+        {
+          "de": "Halskette",
+          "it": "Halskette",
+          "example": "Die Halskette ist schön.",
+          "exampleIt": "La collana è bella.",
+          "article": "die",
+          "plural": "Halsketten",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Professionen",
+      "nameIt": "Professioni",
+      "words": [
+        {
+          "de": "Lehrer",
+          "it": "Lehrer",
+          "example": "Der Lehrer unterrichtet.",
+          "exampleIt": "L'insegnante insegna.",
+          "article": "der",
+          "plural": "Lehrer",
+          "type": "n"
+        },
+        {
+          "de": "Arzt",
+          "it": "Arzt",
+          "example": "Der Arzt hilft.",
+          "exampleIt": "Il medico aiuta.",
+          "article": "der",
+          "plural": "Ärzte",
+          "type": "n"
+        },
+        {
+          "de": "Krankenschwester",
+          "it": "Krankenschwester",
+          "example": "Die Krankenschwester pflegt.",
+          "exampleIt": "L'infermiere si prende cura.",
+          "article": "die",
+          "plural": "Krankenschwestern",
+          "type": "n"
+        },
+        {
+          "de": "Zahnarzt",
+          "it": "Zahnarzt",
+          "example": "Der Zahnarzt repariert Zähne.",
+          "exampleIt": "Il dentista ripara i denti.",
+          "article": "der",
+          "plural": "Zahnärzte",
+          "type": "n"
+        },
+        {
+          "de": "Polizist",
+          "it": "Polizist",
+          "example": "Der Polizist schützt.",
+          "exampleIt": "Il poliziotto protegge.",
+          "article": "der",
+          "plural": "Polizisten",
+          "type": "n"
+        },
+        {
+          "de": "Feuerwehrmann",
+          "it": "Feuerwehrmann",
+          "example": "Der Feuerwehrmann rettet.",
+          "exampleIt": "Il pompiere salva.",
+          "article": "der",
+          "plural": "Feuerwehrmänner",
+          "type": "n"
+        },
+        {
+          "de": "Koch",
+          "it": "Koch",
+          "example": "Der Koch kocht.",
+          "exampleIt": "Il cuoco cucina.",
+          "article": "der",
+          "plural": "Köche",
+          "type": "n"
+        },
+        {
+          "de": "Kellner",
+          "it": "Kellner",
+          "example": "Der Kellner serviert.",
+          "exampleIt": "Il cameriere serve.",
+          "article": "der",
+          "plural": "Kellner",
+          "type": "n"
+        },
+        {
+          "de": "Ingenieur",
+          "it": "Ingenieur",
+          "example": "Der Ingenieur konstruiert.",
+          "exampleIt": "L'ingegnere costruisce.",
+          "article": "der",
+          "plural": "Ingenieure",
+          "type": "n"
+        },
+        {
+          "de": "Architekt",
+          "it": "Architekt",
+          "example": "Der Architekt plant.",
+          "exampleIt": "L'architetto progetta.",
+          "article": "der",
+          "plural": "Architekten",
+          "type": "n"
+        },
+        {
+          "de": "Künstler",
+          "it": "Künstler",
+          "example": "Der Künstler malt.",
+          "exampleIt": "L'artista dipinge.",
+          "article": "der",
+          "plural": "Künstler",
+          "type": "n"
+        },
+        {
+          "de": "Musikerin",
+          "it": "Musikerin",
+          "example": "Die Musikerin spielt.",
+          "exampleIt": "La musicista suona.",
+          "article": "die",
+          "plural": "Musikerinnen",
+          "type": "n"
+        },
+        {
+          "de": "Wissenschaftler",
+          "it": "Wissenschaftler",
+          "example": "Der Wissenschaftler forscht.",
+          "exampleIt": "Lo scienziato ricerca.",
+          "article": "der",
+          "plural": "Wissenschaftler",
+          "type": "n"
+        },
+        {
+          "de": "Schriftsteller",
+          "it": "Schriftsteller",
+          "example": "Der Schriftsteller schreibt.",
+          "exampleIt": "Lo scrittore scrive.",
+          "article": "der",
+          "plural": "Schriftsteller",
+          "type": "n"
+        },
+        {
+          "de": "Schauspieler",
+          "it": "Schauspieler",
+          "example": "Der Schauspieler spielt.",
+          "exampleIt": "L'attore recita.",
+          "article": "der",
+          "plural": "Schauspieler",
+          "type": "n"
+        },
+        {
+          "de": "Pilot",
+          "it": "Pilot",
+          "example": "Der Pilot fliegt.",
+          "exampleIt": "Il pilota vola.",
+          "article": "der",
+          "plural": "Piloten",
+          "type": "n"
+        },
+        {
+          "de": "Farmer",
+          "it": "Farmer",
+          "example": "Der Farmer arbeitet.",
+          "exampleIt": "Il contadino lavora.",
+          "article": "der",
+          "plural": "Farmer",
+          "type": "n"
+        },
+        {
+          "de": "Anwalt",
+          "it": "Anwalt",
+          "example": "Der Anwalt verteidigt.",
+          "exampleIt": "L'avvocato difende.",
+          "article": "der",
+          "plural": "Anwälte",
+          "type": "n"
+        },
+        {
+          "de": "Richter",
+          "it": "Richter",
+          "example": "Der Richter urteilt.",
+          "exampleIt": "Il giudice giudica.",
+          "article": "der",
+          "plural": "Richter",
+          "type": "n"
+        },
+        {
+          "de": "Kaufmann",
+          "it": "Kaufmann",
+          "example": "Der Kaufmann verkauft.",
+          "exampleIt": "Il commerciante vende.",
+          "article": "der",
+          "plural": "Kaufmänner",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Numeri e tempo",
+      "nameIt": "Numeri e tempo",
+      "words": [
+        {
+          "de": "null",
+          "it": "null",
+          "example": "Null ist das Anfang.",
+          "exampleIt": "Zero è l'inizio.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "eins",
+          "it": "eins",
+          "example": "Eins ist die erste Zahl.",
+          "exampleIt": "Uno è il primo numero.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "zehn",
+          "it": "zehn",
+          "example": "Zehn Finger habe ich.",
+          "exampleIt": "Ho dieci dita.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "hundert",
+          "it": "hundert",
+          "example": "Hundert ist viel.",
+          "exampleIt": "Cento è tanto.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "tausend",
+          "it": "tausend",
+          "example": "Tausend Jahre sind lange.",
+          "exampleIt": "Mille anni sono lunghi.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Minute",
+          "it": "Minute",
+          "example": "Eine Minute hat sechzig Sekunden.",
+          "exampleIt": "Un minuto ha sessanta secondi.",
+          "article": "die",
+          "plural": "Minuten",
+          "type": "n"
+        },
+        {
+          "de": "Stunde",
+          "it": "Stunde",
+          "example": "Eine Stunde hat sechzig Minuten.",
+          "exampleIt": "Un'ora ha sessanta minuti.",
+          "article": "die",
+          "plural": "Stunden",
+          "type": "n"
+        },
+        {
+          "de": "Tag",
+          "it": "Tag",
+          "example": "Ein Tag hat vierundzwanzig Stunden.",
+          "exampleIt": "Un giorno ha ventiquattro ore.",
+          "article": "der",
+          "plural": "Tage",
+          "type": "n"
+        },
+        {
+          "de": "Woche",
+          "it": "Woche",
+          "example": "Eine Woche hat sieben Tage.",
+          "exampleIt": "Una settimana ha sette giorni.",
+          "article": "die",
+          "plural": "Wochen",
+          "type": "n"
+        },
+        {
+          "de": "Monat",
+          "it": "Monat",
+          "example": "Ein Monat hat dreißig Tage.",
+          "exampleIt": "Un mese ha trenta giorni.",
+          "article": "der",
+          "plural": "Monate",
+          "type": "n"
+        },
+        {
+          "de": "Jahr",
+          "it": "Jahr",
+          "example": "Ein Jahr hat zwölf Monate.",
+          "exampleIt": "Un anno ha dodici mesi.",
+          "article": "das",
+          "plural": "Jahre",
+          "type": "n"
+        },
+        {
+          "de": "Montag",
+          "it": "Montag",
+          "example": "Der Montag ist der erste Arbeitstag.",
+          "exampleIt": "Il lunedì è il primo giorno di lavoro.",
+          "article": "der",
+          "plural": "Montage",
+          "type": "n"
+        },
+        {
+          "de": "Dienstag",
+          "it": "Dienstag",
+          "example": "Dienstag ist der zweite Tag.",
+          "exampleIt": "Martedì è il secondo giorno.",
+          "article": "der",
+          "plural": "Dienstage",
+          "type": "n"
+        },
+        {
+          "de": "Mittwoch",
+          "it": "Mittwoch",
+          "example": "Mittwoch ist in der Mitte der Woche.",
+          "exampleIt": "Mercoledì è a metà della settimana.",
+          "article": "der",
+          "plural": "Mittwoche",
+          "type": "n"
+        },
+        {
+          "de": "Donnerstag",
+          "it": "Donnerstag",
+          "example": "Donnerstag ist der vierte Tag.",
+          "exampleIt": "Giovedì è il quarto giorno.",
+          "article": "der",
+          "plural": "Donnerstage",
+          "type": "n"
+        },
+        {
+          "de": "Freitag",
+          "it": "Freitag",
+          "example": "Freitag ist fast Wochenende.",
+          "exampleIt": "Venerdì è quasi weekend.",
+          "article": "der",
+          "plural": "Freitage",
+          "type": "n"
+        },
+        {
+          "de": "Samstag",
+          "it": "Samstag",
+          "example": "Samstag ist frei.",
+          "exampleIt": "Sabato è libero.",
+          "article": "der",
+          "plural": "Samstage",
+          "type": "n"
+        },
+        {
+          "de": "Sonntag",
+          "it": "Sonntag",
+          "example": "Sonntag ruhe ich.",
+          "exampleIt": "Domenica riposo.",
+          "article": "der",
+          "plural": "Sonntage",
+          "type": "n"
+        },
+        {
+          "de": "Uhrzeit",
+          "it": "Uhrzeit",
+          "example": "Die Uhrzeit ist wichtig.",
+          "exampleIt": "L'ora è importante.",
+          "article": "die",
+          "plural": "Uhrzeiten",
+          "type": "n"
+        },
+        {
+          "de": "Sekunde",
+          "it": "Sekunde",
+          "example": "Eine Sekunde ist kurz.",
+          "exampleIt": "Un secondo è breve.",
+          "article": "die",
+          "plural": "Sekunden",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Emozioni base",
+      "nameIt": "Emozioni base",
+      "words": [
+        {
+          "de": "Freude",
+          "it": "Freude",
+          "example": "Die Freude ist groß.",
+          "exampleIt": "La gioia è grande.",
+          "article": "die",
+          "plural": "Freuden",
+          "type": "n"
+        },
+        {
+          "de": "Trauer",
+          "it": "Trauer",
+          "example": "Die Trauer ist tief.",
+          "exampleIt": "La tristezza è profonda.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Angst",
+          "it": "Angst",
+          "example": "Die Angst ist stark.",
+          "exampleIt": "La paura è forte.",
+          "article": "die",
+          "plural": "Ängste",
+          "type": "n"
+        },
+        {
+          "de": "Liebe",
+          "it": "Liebe",
+          "example": "Die Liebe ist wunderbar.",
+          "exampleIt": "L'amore è meraviglioso.",
+          "article": "die",
+          "plural": "Lieben",
+          "type": "n"
+        },
+        {
+          "de": "Wut",
+          "it": "Wut",
+          "example": "Die Wut ist heftig.",
+          "exampleIt": "La rabbia è intensa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Überraschung",
+          "it": "Überraschung",
+          "example": "Die Überraschung ist angenehm.",
+          "exampleIt": "La sorpresa è piacevole.",
+          "article": "die",
+          "plural": "Überraschungen",
+          "type": "n"
+        },
+        {
+          "de": "Hoffnung",
+          "it": "Hoffnung",
+          "example": "Die Hoffnung ist lebendig.",
+          "exampleIt": "La speranza è viva.",
+          "article": "die",
+          "plural": "Hoffnungen",
+          "type": "n"
+        },
+        {
+          "de": "Verzweiflung",
+          "it": "Verzweiflung",
+          "example": "Die Verzweiflung ist groß.",
+          "exampleIt": "La disperazione è grande.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Stolz",
+          "it": "Stolz",
+          "example": "Der Stolz ist berechtigt.",
+          "exampleIt": "L'orgoglio è giustificato.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Scham",
+          "it": "Scham",
+          "example": "Die Scham ist unangenehm.",
+          "exampleIt": "La vergogna è spiacevole.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Neid",
+          "it": "Neid",
+          "example": "Der Neid ist destructiv.",
+          "exampleIt": "L'invidia è distruttiva.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Eifersucht",
+          "it": "Eifersucht",
+          "example": "Die Eifersucht ist schmerzhaft.",
+          "exampleIt": "La gelosia è dolorosa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Zufriedenheit",
+          "it": "Zufriedenheit",
+          "example": "Die Zufriedenheit ist wohltuend.",
+          "exampleIt": "La contentezza è gradevole.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Apathie",
+          "it": "Apathie",
+          "example": "Die Apathie ist betrüblich.",
+          "exampleIt": "L'apatia è deprimente.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verwirrung",
+          "it": "Verwirrung",
+          "example": "Die Verwirrung ist groß.",
+          "exampleIt": "La confusione è grande.",
+          "article": "die",
+          "plural": "Verwirrungen",
+          "type": "n"
+        },
+        {
+          "de": "Vertrauen",
+          "it": "Vertrauen",
+          "example": "Das Vertrauen ist wichtig.",
+          "exampleIt": "La fiducia è importante.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Misstrauen",
+          "it": "Misstrauen",
+          "example": "Das Misstrauen ist schädlich.",
+          "exampleIt": "La sfiducia è dannosa.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Mitleid",
+          "it": "Mitleid",
+          "example": "Das Mitleid ist natürlich.",
+          "exampleIt": "La compassione è naturale.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Empörung",
+          "it": "Empörung",
+          "example": "Die Empörung ist berechtigt.",
+          "exampleIt": "L'indignazione è giustificata.",
+          "article": "die",
+          "plural": "Empörungen",
+          "type": "n"
+        },
+        {
+          "de": "Vergnügen",
+          "it": "Vergnügen",
+          "example": "Das Vergnügen ist pur.",
+          "exampleIt": "Il piacere è puro.",
+          "article": "das",
+          "plural": "Vergnügungen",
+          "type": "n"
+        },
+        {
+          "de": "glücklich",
+          "it": "glücklich",
+          "example": "Ich bin glücklich.",
+          "exampleIt": "Sono felice.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "traurig",
+          "it": "traurig",
+          "example": "Ich bin traurig.",
+          "exampleIt": "Sono triste.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "wütend",
+          "it": "wütend",
+          "example": "Ich bin wütend.",
+          "exampleIt": "Sono arrabbiato.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "überrascht",
+          "it": "überrascht",
+          "example": "Ich bin überrascht.",
+          "exampleIt": "Sono sorpreso.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "müde",
+          "it": "müde",
+          "example": "Ich bin müde.",
+          "exampleIt": "Sono stanco.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "hungrig",
+          "it": "hungrig",
+          "example": "Ich bin hungrig.",
+          "exampleIt": "Ho fame.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
+    },
+    {
+      "name": "Obst und Gemüse",
+      "nameIt": "Frutta e verdura",
+      "words": [
+        {
+          "de": "Apfel",
+          "it": "Apfel",
+          "example": "Der Apfel ist rot.",
+          "exampleIt": "La mela è rossa.",
+          "article": "der",
+          "plural": "Äpfel",
+          "type": "noun"
+        },
+        {
+          "de": "Orange",
+          "it": "Orange",
+          "example": "Die Orange ist süß.",
+          "exampleIt": "L'arancia è dolce.",
+          "article": "die",
+          "plural": "Orangen",
+          "type": "noun"
+        },
+        {
+          "de": "Banane",
+          "it": "Banane",
+          "example": "Die Banane ist gelb.",
+          "exampleIt": "La banana è gialla.",
+          "article": "die",
+          "plural": "Bananen",
+          "type": "noun"
+        },
+        {
+          "de": "Tomate",
+          "it": "Tomate",
+          "example": "Die Tomate ist groß.",
+          "exampleIt": "Il pomodoro è grande.",
+          "article": "die",
+          "plural": "Tomaten",
+          "type": "noun"
+        },
+        {
+          "de": "Gurke",
+          "it": "Gurke",
+          "example": "Die Gurke ist grün.",
+          "exampleIt": "Il cetriolo è verde.",
+          "article": "die",
+          "plural": "Gurken",
+          "type": "noun"
+        },
+        {
+          "de": "Kartoffel",
+          "it": "Kartoffel",
+          "example": "Die Kartoffel ist weiß.",
+          "exampleIt": "La patata è bianca.",
+          "article": "die",
+          "plural": "Kartoffeln",
+          "type": "noun"
+        },
+        {
+          "de": "Zwiebel",
+          "it": "Zwiebel",
+          "example": "Die Zwiebel riecht.",
+          "exampleIt": "La cipolla odora.",
+          "article": "die",
+          "plural": "Zwiebeln",
+          "type": "noun"
+        },
+        {
+          "de": "Knoblauch",
+          "it": "Knoblauch",
+          "example": "Der Knoblauch ist scharf.",
+          "exampleIt": "L'aglio è pungente.",
+          "article": "der",
+          "plural": "Knoblauchzehen",
+          "type": "noun"
+        },
+        {
+          "de": "Salat",
+          "it": "Salat",
+          "example": "Der Salat ist frisch.",
+          "exampleIt": "L'insalata è fresca.",
+          "article": "der",
+          "plural": "Salate",
+          "type": "noun"
+        },
+        {
+          "de": "Karotte",
+          "it": "Karotte",
+          "example": "Die Karotte ist orange.",
+          "exampleIt": "La carota è arancione.",
+          "article": "die",
+          "plural": "Karotten",
+          "type": "noun"
+        },
+        {
+          "de": "Paprika",
+          "it": "Paprika",
+          "example": "Der Paprika ist rot.",
+          "exampleIt": "Il peperone è rosso.",
+          "article": "der",
+          "plural": "Paprikas",
+          "type": "noun"
+        },
+        {
+          "de": "Zitrone",
+          "it": "Zitrone",
+          "example": "Die Zitrone ist sauer.",
+          "exampleIt": "Il limone è acido.",
+          "article": "die",
+          "plural": "Zitronen",
+          "type": "noun"
+        },
+        {
+          "de": "Trauben",
+          "it": "Trauben",
+          "example": "Die Trauben sind süß.",
+          "exampleIt": "L'uva è dolce.",
+          "article": "die",
+          "plural": "Trauben",
+          "type": "noun"
+        },
+        {
+          "de": "Erdbeere",
+          "it": "Erdbeere",
+          "example": "Die Erdbeere ist rot.",
+          "exampleIt": "La fragola è rossa.",
+          "article": "die",
+          "plural": "Erdbeeren",
+          "type": "noun"
+        },
+        {
+          "de": "Broccoli",
+          "it": "Broccoli",
+          "example": "Der Broccoli ist grün.",
+          "exampleIt": "I broccoli sono verdi.",
+          "article": "der",
+          "plural": "Broccoli",
+          "type": "noun"
+        }
+      ]
+    },
+    {
+      "name": "Möbel und Haushalt",
+      "nameIt": "Mobili e casa",
+      "words": [
+        {
+          "de": "Stuhl",
+          "it": "Stuhl",
+          "example": "Der Stuhl ist braun.",
+          "exampleIt": "La sedia è marrone.",
+          "article": "der",
+          "plural": "Stühle",
+          "type": "noun"
+        },
+        {
+          "de": "Tisch",
+          "it": "Tisch",
+          "example": "Der Tisch ist groß.",
+          "exampleIt": "Il tavolo è grande.",
+          "article": "der",
+          "plural": "Tische",
+          "type": "noun"
+        },
+        {
+          "de": "Bett",
+          "it": "Bett",
+          "example": "Das Bett ist weich.",
+          "exampleIt": "Il letto è morbido.",
+          "article": "das",
+          "plural": "Betten",
+          "type": "noun"
+        },
+        {
+          "de": "Sofa",
+          "it": "Sofa",
+          "example": "Das Sofa ist rot.",
+          "exampleIt": "Il divano è rosso.",
+          "article": "das",
+          "plural": "Sofas",
+          "type": "noun"
+        },
+        {
+          "de": "Schrank",
+          "it": "Schrank",
+          "example": "Der Schrank ist groß.",
+          "exampleIt": "L'armadio è grande.",
+          "article": "der",
+          "plural": "Schränke",
+          "type": "noun"
+        },
+        {
+          "de": "Lampe",
+          "it": "Lampe",
+          "example": "Die Lampe ist hell.",
+          "exampleIt": "La lampada è luminosa.",
+          "article": "die",
+          "plural": "Lampen",
+          "type": "noun"
+        },
+        {
+          "de": "Spiegel",
+          "it": "Spiegel",
+          "example": "Der Spiegel ist groß.",
+          "exampleIt": "Lo specchio è grande.",
+          "article": "der",
+          "plural": "Spiegel",
+          "type": "noun"
+        },
+        {
+          "de": "Teppich",
+          "it": "Teppich",
+          "example": "Der Teppich ist weich.",
+          "exampleIt": "Il tappeto è morbido.",
+          "article": "der",
+          "plural": "Teppiche",
+          "type": "noun"
+        },
+        {
+          "de": "Vorhang",
+          "it": "Vorhang",
+          "example": "Der Vorhang ist blau.",
+          "exampleIt": "La tenda è blu.",
+          "article": "der",
+          "plural": "Vorhänge",
+          "type": "noun"
+        },
+        {
+          "de": "Fenster",
+          "it": "Fenster",
+          "example": "Das Fenster ist offen.",
+          "exampleIt": "La finestra è aperta.",
+          "article": "das",
+          "plural": "Fenster",
+          "type": "noun"
+        },
+        {
+          "de": "Tür",
+          "it": "Tür",
+          "example": "Die Tür ist geschlossen.",
+          "exampleIt": "La porta è chiusa.",
+          "article": "die",
+          "plural": "Türen",
+          "type": "noun"
+        },
+        {
+          "de": "Regal",
+          "it": "Regal",
+          "example": "Das Regal ist voll.",
+          "exampleIt": "Lo scaffale è pieno.",
+          "article": "das",
+          "plural": "Regale",
+          "type": "noun"
+        },
+        {
+          "de": "Bild",
+          "it": "Bild",
+          "example": "Das Bild ist schön.",
+          "exampleIt": "Il quadro è bello.",
+          "article": "das",
+          "plural": "Bilder",
+          "type": "noun"
+        },
+        {
+          "de": "Uhr",
+          "it": "Uhr",
+          "example": "Die Uhr zeigt die Zeit.",
+          "exampleIt": "L'orologio mostra l'ora.",
+          "article": "die",
+          "plural": "Uhren",
+          "type": "noun"
+        },
+        {
+          "de": "Kissen",
+          "it": "Kissen",
+          "example": "Das Kissen ist weich.",
+          "exampleIt": "Il cuscino è morbido.",
+          "article": "das",
+          "plural": "Kissen",
+          "type": "noun"
+        },
+        {
+          "de": "Decke",
+          "it": "Decke",
+          "example": "Die Decke ist warm.",
+          "exampleIt": "La coperta è calda.",
+          "article": "die",
+          "plural": "Decken",
+          "type": "noun"
+        },
+        {
+          "de": "Handtuch",
+          "it": "Handtuch",
+          "example": "Das Handtuch ist sauber.",
+          "exampleIt": "L'asciugamano è pulito.",
+          "article": "das",
+          "plural": "Handtücher",
+          "type": "noun"
+        },
+        {
+          "de": "Kühlschrank",
+          "it": "Kühlschrank",
+          "example": "Der Kühlschrank ist voll.",
+          "exampleIt": "Il frigorifero è pieno.",
+          "article": "der",
+          "plural": "Kühlschränke",
+          "type": "noun"
+        },
+        {
+          "de": "Herd",
+          "it": "Herd",
+          "example": "Der Herd ist modern.",
+          "exampleIt": "La cucina è moderna.",
+          "article": "der",
+          "plural": "Herde",
+          "type": "noun"
+        },
+        {
+          "de": "Ofen",
+          "it": "Ofen",
+          "example": "Der Ofen ist heiß.",
+          "exampleIt": "Il forno è caldo.",
+          "article": "der",
+          "plural": "Öfen",
+          "type": "noun"
+        },
+        {
+          "de": "Dusche",
+          "it": "Dusche",
+          "example": "Die Dusche ist heiß.",
+          "exampleIt": "La doccia è calda.",
+          "article": "die",
+          "plural": "Duschen",
+          "type": "noun"
+        },
+        {
+          "de": "Badewanne",
+          "it": "Badewanne",
+          "example": "Die Badewanne ist groß.",
+          "exampleIt": "La vasca da bagno è grande.",
+          "article": "die",
+          "plural": "Badewannen",
+          "type": "noun"
+        },
+        {
+          "de": "Toilette",
+          "it": "Toilette",
+          "example": "Die Toilette ist sauber.",
+          "exampleIt": "La toilette è pulita.",
+          "article": "die",
+          "plural": "Toiletten",
+          "type": "noun"
+        },
+        {
+          "de": "Waschmaschine",
+          "it": "Waschmaschine",
+          "example": "Die Waschmaschine läuft.",
+          "exampleIt": "La lavatrice funziona.",
+          "article": "die",
+          "plural": "Waschmaschinen",
+          "type": "noun"
+        },
+        {
+          "de": "Trockner",
+          "it": "Trockner",
+          "example": "Der Trockner trocknet.",
+          "exampleIt": "L'asciugatrice asciuga.",
+          "article": "der",
+          "plural": "Trockner",
+          "type": "noun"
+        }
+      ]
+    },
+    {
+      "name": "Wetter und Natur",
+      "nameIt": "Tempo e natura",
+      "words": [
+        {
+          "de": "Sonne",
+          "it": "Sonne",
+          "example": "Die Sonne scheint.",
+          "exampleIt": "Il sole splende.",
+          "article": "die",
+          "plural": "Sonnen",
+          "type": "noun"
+        },
+        {
+          "de": "Mond",
+          "it": "Mond",
+          "example": "Der Mond ist hell.",
+          "exampleIt": "La luna è luminosa.",
+          "article": "der",
+          "plural": "Monde",
+          "type": "noun"
+        },
+        {
+          "de": "Stern",
+          "it": "Stern",
+          "example": "Der Stern glänzt.",
+          "exampleIt": "La stella brilla.",
+          "article": "der",
+          "plural": "Sterne",
+          "type": "noun"
+        },
+        {
+          "de": "Regen",
+          "it": "Regen",
+          "example": "Der Regen fällt.",
+          "exampleIt": "La pioggia cade.",
+          "article": "der",
+          "plural": "Regen",
+          "type": "noun"
+        },
+        {
+          "de": "Schnee",
+          "it": "Schnee",
+          "example": "Der Schnee ist weiß.",
+          "exampleIt": "La neve è bianca.",
+          "article": "der",
+          "plural": "Schnee",
+          "type": "noun"
+        },
+        {
+          "de": "Wind",
+          "it": "Wind",
+          "example": "Der Wind weht.",
+          "exampleIt": "Il vento soffia.",
+          "article": "der",
+          "plural": "Winde",
+          "type": "noun"
+        },
+        {
+          "de": "Wolke",
+          "it": "Wolke",
+          "example": "Die Wolke ist grau.",
+          "exampleIt": "La nuvola è grigia.",
+          "article": "die",
+          "plural": "Wolken",
+          "type": "noun"
+        },
+        {
+          "de": "Blitz",
+          "it": "Blitz",
+          "example": "Der Blitz leuchtet.",
+          "exampleIt": "Il fulmine illumina.",
+          "article": "der",
+          "plural": "Blitze",
+          "type": "noun"
+        },
+        {
+          "de": "Donner",
+          "it": "Donner",
+          "example": "Der Donner ist laut.",
+          "exampleIt": "Il tuono è forte.",
+          "article": "der",
+          "plural": "Donner",
+          "type": "noun"
+        },
+        {
+          "de": "Baum",
+          "it": "Baum",
+          "example": "Der Baum ist groß.",
+          "exampleIt": "L'albero è grande.",
+          "article": "der",
+          "plural": "Bäume",
+          "type": "noun"
+        },
+        {
+          "de": "Blatt",
+          "it": "Blatt",
+          "example": "Das Blatt ist grün.",
+          "exampleIt": "La foglia è verde.",
+          "article": "das",
+          "plural": "Blätter",
+          "type": "noun"
+        },
+        {
+          "de": "Blume",
+          "it": "Blume",
+          "example": "Die Blume ist schön.",
+          "exampleIt": "Il fiore è bello.",
+          "article": "die",
+          "plural": "Blumen",
+          "type": "noun"
+        },
+        {
+          "de": "Pflanze",
+          "it": "Pflanze",
+          "example": "Die Pflanze braucht Wasser.",
+          "exampleIt": "La pianta ha bisogno di acqua.",
+          "article": "die",
+          "plural": "Pflanzen",
+          "type": "noun"
+        },
+        {
+          "de": "Gras",
+          "it": "Gras",
+          "example": "Das Gras ist grün.",
+          "exampleIt": "L'erba è verde.",
+          "article": "das",
+          "plural": "Gräser",
+          "type": "noun"
+        },
+        {
+          "de": "Wald",
+          "it": "Wald",
+          "example": "Der Wald ist schön.",
+          "exampleIt": "La foresta è bella.",
+          "article": "der",
+          "plural": "Wälder",
+          "type": "noun"
+        },
+        {
+          "de": "Berg",
+          "it": "Berg",
+          "example": "Der Berg ist hoch.",
+          "exampleIt": "La montagna è alta.",
+          "article": "der",
+          "plural": "Berge",
+          "type": "noun"
+        },
+        {
+          "de": "See",
+          "it": "See",
+          "example": "Der See ist groß.",
+          "exampleIt": "Il lago è grande.",
+          "article": "der",
+          "plural": "Seen",
+          "type": "noun"
+        },
+        {
+          "de": "Fluss",
+          "it": "Fluss",
+          "example": "Der Fluss fließt.",
+          "exampleIt": "Il fiume scorre.",
+          "article": "der",
+          "plural": "Flüsse",
+          "type": "noun"
+        },
+        {
+          "de": "Strand",
+          "it": "Strand",
+          "example": "Der Strand ist warm.",
+          "exampleIt": "La spiaggia è calda.",
+          "article": "der",
+          "plural": "Strände",
+          "type": "noun"
+        },
+        {
+          "de": "Meer",
+          "it": "Meer",
+          "example": "Das Meer ist blau.",
+          "exampleIt": "Il mare è blu.",
+          "article": "das",
+          "plural": "Meere",
+          "type": "noun"
+        },
+        {
+          "de": "Welle",
+          "it": "Welle",
+          "example": "Die Welle ist groß.",
+          "exampleIt": "L'onda è grande.",
+          "article": "die",
+          "plural": "Wellen",
+          "type": "noun"
+        },
+        {
+          "de": "Insel",
+          "it": "Insel",
+          "example": "Die Insel ist schön.",
+          "exampleIt": "L'isola è bella.",
+          "article": "die",
+          "plural": "Inseln",
+          "type": "noun"
+        },
+        {
+          "de": "Stein",
+          "it": "Stein",
+          "example": "Der Stein ist hart.",
+          "exampleIt": "La pietra è dura.",
+          "article": "der",
+          "plural": "Steine",
+          "type": "noun"
+        },
+        {
+          "de": "Sand",
+          "it": "Sand",
+          "example": "Der Sand ist weich.",
+          "exampleIt": "La sabbia è morbida.",
+          "article": "der",
+          "plural": "Sande",
+          "type": "noun"
+        },
+        {
+          "de": "Himmel",
+          "it": "Himmel",
+          "example": "Der Himmel ist blau.",
+          "exampleIt": "Il cielo è blu.",
+          "article": "der",
+          "plural": "Himmel",
+          "type": "noun"
+        }
+      ]
+    },
+    {
+      "name": "Im Restaurant",
+      "nameIt": "Al ristorante",
+      "words": [
+        {
+          "de": "Restaurant",
+          "it": "Restaurant",
+          "example": "Das Restaurant ist schön.",
+          "exampleIt": "Il ristorante è bello.",
+          "article": "das",
+          "plural": "Restaurants",
+          "type": "noun"
+        },
+        {
+          "de": "Serviette",
+          "it": "Serviette",
+          "example": "Die Serviette ist weiß.",
+          "exampleIt": "Il tovagliolo è bianco.",
+          "article": "die",
+          "plural": "Servietten",
+          "type": "noun"
+        },
+        {
+          "de": "Besteck",
+          "it": "Besteck",
+          "example": "Das Besteck ist sauber.",
+          "exampleIt": "Le posate sono pulite.",
+          "article": "das",
+          "plural": "Bestecke",
+          "type": "noun"
+        },
+        {
+          "de": "Messer",
+          "it": "Messer",
+          "example": "Das Messer ist scharf.",
+          "exampleIt": "Il coltello è affilato.",
+          "article": "das",
+          "plural": "Messer",
+          "type": "noun"
+        },
+        {
+          "de": "Gabel",
+          "it": "Gabel",
+          "example": "Die Gabel ist klein.",
+          "exampleIt": "La forchetta è piccola.",
+          "article": "die",
+          "plural": "Gabel",
+          "type": "noun"
+        },
+        {
+          "de": "Löffel",
+          "it": "Löffel",
+          "example": "Der Löffel ist silberfarben.",
+          "exampleIt": "Il cucchiaio è argentato.",
+          "article": "der",
+          "plural": "Löffel",
+          "type": "noun"
+        },
+        {
+          "de": "Teller",
+          "it": "Teller",
+          "example": "Der Teller ist voll.",
+          "exampleIt": "Il piatto è pieno.",
+          "article": "der",
+          "plural": "Teller",
+          "type": "noun"
+        },
+        {
+          "de": "Schüssel",
+          "it": "Schüssel",
+          "example": "Die Schüssel ist groß.",
+          "exampleIt": "La ciotola è grande.",
+          "article": "die",
+          "plural": "Schüsseln",
+          "type": "noun"
+        },
+        {
+          "de": "Glas",
+          "it": "Glas",
+          "example": "Das Glas ist voll.",
+          "exampleIt": "Il bicchiere è pieno.",
+          "article": "das",
+          "plural": "Gläser",
+          "type": "noun"
+        },
+        {
+          "de": "Tasse",
+          "it": "Tasse",
+          "example": "Die Tasse ist heiß.",
+          "exampleIt": "La tazza è calda.",
+          "article": "die",
+          "plural": "Tassen",
+          "type": "noun"
+        },
+        {
+          "de": "Getränk",
+          "it": "Getränk",
+          "example": "Das Getränk ist kalt.",
+          "exampleIt": "La bevanda è fredda.",
+          "article": "das",
+          "plural": "Getränke",
+          "type": "noun"
+        },
+        {
+          "de": "Wasser",
+          "it": "Wasser",
+          "example": "Das Wasser ist kalt.",
+          "exampleIt": "L'acqua è fredda.",
+          "article": "das",
+          "plural": "Wasser",
+          "type": "noun"
+        },
+        {
+          "de": "Brot",
+          "it": "Brot",
+          "example": "Das Brot ist frisch.",
+          "exampleIt": "Il pane è fresco.",
+          "article": "das",
+          "plural": "Brote",
+          "type": "noun"
+        },
+        {
+          "de": "Fleisch",
+          "it": "Fleisch",
+          "example": "Das Fleisch ist zart.",
+          "exampleIt": "La carne è tenera.",
+          "article": "das",
+          "plural": "Fleischarten",
+          "type": "noun"
+        },
+        {
+          "de": "Fisch",
+          "it": "Fisch",
+          "example": "Der Fisch ist frisch.",
+          "exampleIt": "Il pesce è fresco.",
+          "article": "der",
+          "plural": "Fische",
+          "type": "noun"
+        },
+        {
+          "de": "Suppe",
+          "it": "Suppe",
+          "example": "Die Suppe ist heiß.",
+          "exampleIt": "La minestra è calda.",
+          "article": "die",
+          "plural": "Suppen",
+          "type": "noun"
+        },
+        {
+          "de": "Nachtisch",
+          "it": "Nachtisch",
+          "example": "Der Nachtisch ist süß.",
+          "exampleIt": "Il dessert è dolce.",
+          "article": "der",
+          "plural": "Nachtische",
+          "type": "noun"
+        },
+        {
+          "de": "Rechnung",
+          "it": "Rechnung",
+          "example": "Die Rechnung ist hoch.",
+          "exampleIt": "Il conto è caro.",
+          "article": "die",
+          "plural": "Rechnungen",
+          "type": "noun"
+        },
+        {
+          "de": "Kellner",
+          "it": "Kellner",
+          "example": "Der Kellner ist freundlich.",
+          "exampleIt": "Il cameriere è gentile.",
+          "article": "der",
+          "plural": "Kellner",
+          "type": "noun"
+        },
+        {
+          "de": "Menü",
+          "it": "Menü",
+          "example": "Das Menü ist interessant.",
+          "exampleIt": "Il menu è interessante.",
+          "article": "das",
+          "plural": "Menüs",
+          "type": "noun"
+        },
+        {
+          "de": "Preis",
+          "it": "Preis",
+          "example": "Der Preis ist fair.",
+          "exampleIt": "Il prezzo è giusto.",
+          "article": "der",
+          "plural": "Preise",
+          "type": "noun"
+        },
+        {
+          "de": "Tipp",
+          "it": "Tipp",
+          "example": "Der Tipp ist großzügig.",
+          "exampleIt": "La mancia è generosa.",
+          "article": "der",
+          "plural": "Tipps",
+          "type": "noun"
+        },
+        {
+          "de": "Gast",
+          "it": "Gast",
+          "example": "Der Gast ist zufrieden.",
+          "exampleIt": "L'ospite è soddisfatto.",
+          "article": "der",
+          "plural": "Gäste",
+          "type": "noun"
+        },
+        {
+          "de": "Speise",
+          "it": "Speise",
+          "example": "Die Speise ist lecker.",
+          "exampleIt": "Il piatto è delizioso.",
+          "article": "die",
+          "plural": "Speisen",
+          "type": "noun"
+        },
+        {
+          "de": "Kaffee",
+          "it": "Kaffee",
+          "example": "Der Kaffee ist heiß.",
+          "exampleIt": "Il caffè è caldo.",
+          "article": "der",
+          "plural": "Kaffees",
+          "type": "noun"
+        }
+      ]
+    },
+    {
+      "name": "Hobbys",
+      "nameIt": "Hobby",
+      "words": [
+        {
+          "de": "Sport",
+          "it": "Sport",
+          "example": "Sport ist gesund.",
+          "exampleIt": "Lo sport è sano.",
+          "article": "der",
+          "plural": "Sportarten",
+          "type": "noun"
+        },
+        {
+          "de": "Fußball",
+          "it": "Fußball",
+          "example": "Fußball ist populär.",
+          "exampleIt": "Il calcio è popolare.",
+          "article": "der",
+          "plural": "Fußbälle",
+          "type": "noun"
+        },
+        {
+          "de": "Tennis",
+          "it": "Tennis",
+          "example": "Tennis ist schwer.",
+          "exampleIt": "Il tennis è difficile.",
+          "article": "das",
+          "plural": "Tennis",
+          "type": "noun"
+        },
+        {
+          "de": "Schwimmen",
+          "it": "Schwimmen",
+          "example": "Schwimmen macht Spaß.",
+          "exampleIt": "Il nuoto è divertente.",
+          "article": "das",
+          "plural": "Schwimmen",
+          "type": "noun"
+        },
+        {
+          "de": "Radfahren",
+          "it": "Radfahren",
+          "example": "Radfahren ist schön.",
+          "exampleIt": "Il ciclismo è bello.",
+          "article": "das",
+          "plural": "Radfahren",
+          "type": "noun"
+        },
+        {
+          "de": "Laufen",
+          "it": "Laufen",
+          "example": "Laufen ist anstrengend.",
+          "exampleIt": "La corsa è faticosa.",
+          "article": "das",
+          "plural": "Laufen",
+          "type": "noun"
+        },
+        {
+          "de": "Wandern",
+          "it": "Wandern",
+          "example": "Wandern ist erholsam.",
+          "exampleIt": "L'escursionismo è rilassante.",
+          "article": "das",
+          "plural": "Wandern",
+          "type": "noun"
+        },
+        {
+          "de": "Musik",
+          "it": "Musik",
+          "example": "Musik ist schön.",
+          "exampleIt": "La musica è bella.",
+          "article": "die",
+          "plural": "Musiken",
+          "type": "noun"
+        },
+        {
+          "de": "Gitarre",
+          "it": "Gitarre",
+          "example": "Die Gitarre ist groß.",
+          "exampleIt": "La chitarra è grande.",
+          "article": "die",
+          "plural": "Gitarren",
+          "type": "noun"
+        },
+        {
+          "de": "Klavier",
+          "it": "Klavier",
+          "example": "Das Klavier ist schwarz.",
+          "exampleIt": "Il pianoforte è nero.",
+          "article": "das",
+          "plural": "Klaviere",
+          "type": "noun"
+        },
+        {
+          "de": "Singen",
+          "it": "Singen",
+          "example": "Singen ist Freude.",
+          "exampleIt": "Il canto è gioia.",
+          "article": "das",
+          "plural": "Singen",
+          "type": "noun"
+        },
+        {
+          "de": "Lesen",
+          "it": "Lesen",
+          "example": "Lesen ist interessant.",
+          "exampleIt": "La lettura è interessante.",
+          "article": "das",
+          "plural": "Lesen",
+          "type": "noun"
+        },
+        {
+          "de": "Malen",
+          "it": "Malen",
+          "example": "Malen ist kreativ.",
+          "exampleIt": "La pittura è creativa.",
+          "article": "das",
+          "plural": "Malen",
+          "type": "noun"
+        },
+        {
+          "de": "Zeichnen",
+          "it": "Zeichnen",
+          "example": "Zeichnen macht Spaß.",
+          "exampleIt": "Il disegno è divertente.",
+          "article": "das",
+          "plural": "Zeichnen",
+          "type": "noun"
+        },
+        {
+          "de": "Tanz",
+          "it": "Tanz",
+          "example": "Der Tanz ist schön.",
+          "exampleIt": "La danza è bella.",
+          "article": "der",
+          "plural": "Tänze",
+          "type": "noun"
+        },
+        {
+          "de": "Film",
+          "it": "Film",
+          "example": "Der Film ist gut.",
+          "exampleIt": "Il film è buono.",
+          "article": "der",
+          "plural": "Filme",
+          "type": "noun"
+        },
+        {
+          "de": "Fernsehen",
+          "it": "Fernsehen",
+          "example": "Fernsehen ist entspannend.",
+          "exampleIt": "La televisione è rilassante.",
+          "article": "das",
+          "plural": "Fernsehen",
+          "type": "noun"
+        },
+        {
+          "de": "Spiel",
+          "it": "Spiel",
+          "example": "Das Spiel ist spaßig.",
+          "exampleIt": "Il gioco è divertente.",
+          "article": "das",
+          "plural": "Spiele",
+          "type": "noun"
+        },
+        {
+          "de": "Schach",
+          "it": "Schach",
+          "example": "Schach ist intelligent.",
+          "exampleIt": "Gli scacchi sono intelligenti.",
+          "article": "das",
+          "plural": "Schach",
+          "type": "noun"
+        },
+        {
+          "de": "Kochen",
+          "it": "Kochen",
+          "example": "Kochen macht Spaß.",
+          "exampleIt": "La cucina è divertente.",
+          "article": "das",
+          "plural": "Kochen",
+          "type": "noun"
+        },
+        {
+          "de": "Garten",
+          "it": "Garten",
+          "example": "Der Garten ist schön.",
+          "exampleIt": "Il giardinaggio è bello.",
+          "article": "der",
+          "plural": "Gärten",
+          "type": "noun"
+        },
+        {
+          "de": "Fotografieren",
+          "it": "Fotografieren",
+          "example": "Fotografieren ist interessant.",
+          "exampleIt": "La fotografia è interessante.",
+          "article": "das",
+          "plural": "Fotografieren",
+          "type": "noun"
+        },
+        {
+          "de": "Sammeln",
+          "it": "Sammeln",
+          "example": "Sammeln ist ein Hobby.",
+          "exampleIt": "La raccolta è un hobby.",
+          "article": "das",
+          "plural": "Sammeln",
+          "type": "noun"
+        },
+        {
+          "de": "Nähen",
+          "it": "Nähen",
+          "example": "Nähen ist handwerklich.",
+          "exampleIt": "Il cucito è manuale.",
+          "article": "das",
+          "plural": "Nähen",
+          "type": "noun"
+        },
+        {
+          "de": "Häkeln",
+          "it": "Häkeln",
+          "example": "Häkeln ist entspannend.",
+          "exampleIt": "L'uncinetto è rilassante.",
+          "article": "das",
+          "plural": "Häkeln",
+          "type": "noun"
+        }
+      ]
+    },
+    {
+      "name": "Fragen und Antworten",
+      "nameIt": "Domande e risposte",
+      "words": [
+        {
+          "de": "Was",
+          "it": "Was",
+          "example": "Was ist das?",
+          "exampleIt": "Cos'è questo?",
+          "article": null,
+          "plural": null,
+          "type": "pron"
+        },
+        {
+          "de": "Wer",
+          "it": "Wer",
+          "example": "Wer ist das?",
+          "exampleIt": "Chi è questo?",
+          "article": null,
+          "plural": null,
+          "type": "pron"
+        },
+        {
+          "de": "Wo",
+          "it": "Wo",
+          "example": "Wo bist du?",
+          "exampleIt": "Dove sei?",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "Wann",
+          "it": "Wann",
+          "example": "Wann kommst du?",
+          "exampleIt": "Quando vieni?",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "Warum",
+          "it": "Warum",
+          "example": "Warum fragst du?",
+          "exampleIt": "Perché chiedi?",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "Wie",
+          "it": "Wie",
+          "example": "Wie heißt du?",
+          "exampleIt": "Come ti chiami?",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "Welch",
+          "it": "Welch",
+          "example": "Welches Buch magst du?",
+          "exampleIt": "Quale libro ti piace?",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "Ja",
+          "it": "Ja",
+          "example": "Ja, ich bin einverstanden.",
+          "exampleIt": "Sì, sono d'accordo.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Nein",
+          "it": "Nein",
+          "example": "Nein, das ist nicht richtig.",
+          "exampleIt": "No, non è corretto.",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Vielleicht",
+          "it": "Vielleicht",
+          "example": "Vielleicht später.",
+          "exampleIt": "Forse dopo.",
+          "article": null,
+          "plural": null,
+          "type": "adv"
+        },
+        {
+          "de": "Danke",
+          "it": "Danke",
+          "example": "Danke dir!",
+          "exampleIt": "Grazie a te!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Bitte",
+          "it": "Bitte",
+          "example": "Bitte komm!",
+          "exampleIt": "Per favore vieni!",
+          "article": null,
+          "plural": null,
+          "type": "interj"
+        },
+        {
+          "de": "Entschuldigung",
+          "it": "Entschuldigung",
+          "example": "Entschuldigung, ich bin zu spät.",
+          "exampleIt": "Mi scusi, sono in ritardo.",
+          "article": "die",
+          "plural": "Entschuldigungen",
+          "type": "noun"
+        },
+        {
+          "de": "Keine Ursache",
+          "it": "Keine Ursache",
+          "example": "Danke! - Keine Ursache!",
+          "exampleIt": "Grazie! - Prego!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Viel Erfolg",
+          "it": "Viel Erfolg",
+          "example": "Viel Erfolg beim Test!",
+          "exampleIt": "Buona fortuna con il test!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Alles Gute",
+          "it": "Alles Gute",
+          "example": "Alles Gute zum Geburtstag!",
+          "exampleIt": "Auguri per il compleanno!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Viel Spaß",
+          "it": "Viel Spaß",
+          "example": "Viel Spaß im Urlaub!",
+          "exampleIt": "Divertiti in vacanza!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Gute Nacht",
+          "it": "Gute Nacht",
+          "example": "Gute Nacht, schlaf gut!",
+          "exampleIt": "Buonanotte, dormi bene!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Auf Wiedersehen",
+          "it": "Auf Wiedersehen",
+          "example": "Auf Wiedersehen bis morgen!",
+          "exampleIt": "Arrivederci a domani!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Bis bald",
+          "it": "Bis bald",
+          "example": "Bis bald mein Freund!",
+          "exampleIt": "A presto mio amico!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Gute Reise",
+          "it": "Gute Reise",
+          "example": "Gute Reise nach Italien!",
+          "exampleIt": "Buon viaggio in Italia!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Gute Besserung",
+          "it": "Gute Besserung",
+          "example": "Gute Besserung!",
+          "exampleIt": "Guaririsci presto!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Herzlich Willkommen",
+          "it": "Herzlich Willkommen",
+          "example": "Herzlich Willkommen zuhause!",
+          "exampleIt": "Benvenuto a casa!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Frohe Weihnachten",
+          "it": "Frohe Weihnachten",
+          "example": "Frohe Weihnachten!",
+          "exampleIt": "Buon Natale!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        },
+        {
+          "de": "Schlaf gut",
+          "it": "Schlaf gut",
+          "example": "Schlaf gut!",
+          "exampleIt": "Dormi bene!",
+          "article": null,
+          "plural": null,
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "name": "Obst und Gemüse",
+      "nameIt": "Frutta e verdura",
+      "words": [
+        {
+          "de": "Apfel",
+          "it": "Apfel",
+          "example": "Der Apfel ist rot.",
+          "exampleIt": "La mela è rossa.",
+          "article": "der",
+          "plural": "Äpfel",
+          "type": "noun"
+        },
+        {
+          "de": "Orange",
+          "it": "Orange",
+          "example": "Die Orange ist süß.",
+          "exampleIt": "L'arancia è dolce.",
+          "article": "die",
+          "plural": "Orangen",
+          "type": "noun"
+        },
+        {
+          "de": "Banane",
+          "it": "Banane",
+          "example": "Die Banane ist gelb.",
+          "exampleIt": "La banana è gialla.",
+          "article": "die",
+          "plural": "Bananen",
+          "type": "noun"
+        },
+        {
+          "de": "Tomate",
+          "it": "Tomate",
+          "example": "Die Tomate ist groß.",
+          "exampleIt": "Il pomodoro è grande.",
+          "article": "die",
+          "plural": "Tomaten",
+          "type": "noun"
+        },
+        {
+          "de": "Gurke",
+          "it": "Gurke",
+          "example": "Die Gurke ist grün.",
+          "exampleIt": "Il cetriolo è verde.",
+          "article": "die",
+          "plural": "Gurken",
+          "type": "noun"
+        },
+        {
+          "de": "Kartoffel",
+          "it": "Kartoffel",
+          "example": "Die Kartoffel ist weiß.",
+          "exampleIt": "La patata è bianca.",
+          "article": "die",
+          "plural": "Kartoffeln",
+          "type": "noun"
+        },
+        {
+          "de": "Zwiebel",
+          "it": "Zwiebel",
+          "example": "Die Zwiebel riecht.",
+          "exampleIt": "La cipolla odora.",
+          "article": "die",
+          "plural": "Zwiebeln",
+          "type": "noun"
+        },
+        {
+          "de": "Knoblauch",
+          "it": "Knoblauch",
+          "example": "Der Knoblauch ist scharf.",
+          "exampleIt": "L'aglio è pungente.",
+          "article": "der",
+          "plural": "Knoblauchzehen",
+          "type": "noun"
+        },
+        {
+          "de": "Salat",
+          "it": "Salat",
+          "example": "Der Salat ist frisch.",
+          "exampleIt": "L'insalata è fresca.",
+          "article": "der",
+          "plural": "Salate",
+          "type": "noun"
+        },
+        {
+          "de": "Karotte",
+          "it": "Karotte",
+          "example": "Die Karotte ist orange.",
+          "exampleIt": "La carota è arancione.",
+          "article": "die",
+          "plural": "Karotten",
+          "type": "noun"
+        },
+        {
+          "de": "Paprika",
+          "it": "Paprika",
+          "example": "Der Paprika ist rot.",
+          "exampleIt": "Il peperone è rosso.",
+          "article": "der",
+          "plural": "Paprikas",
+          "type": "noun"
+        },
+        {
+          "de": "Zitrone",
+          "it": "Zitrone",
+          "example": "Die Zitrone ist sauer.",
+          "exampleIt": "Il limone è acido.",
+          "article": "die",
+          "plural": "Zitronen",
+          "type": "noun"
+        },
+        {
+          "de": "Trauben",
+          "it": "Trauben",
+          "example": "Die Trauben sind süß.",
+          "exampleIt": "L'uva è dolce.",
+          "article": "die",
+          "plural": "Trauben",
+          "type": "noun"
+        },
+        {
+          "de": "Erdbeere",
+          "it": "Erdbeere",
+          "example": "Die Erdbeere ist rot.",
+          "exampleIt": "La fragola è rossa.",
+          "article": "die",
+          "plural": "Erdbeeren",
+          "type": "noun"
+        },
+        {
+          "de": "Broccoli",
+          "it": "Broccoli",
+          "example": "Der Broccoli ist grün.",
+          "exampleIt": "I broccoli sono verdi.",
+          "article": "der",
+          "plural": "Broccoli",
+          "type": "noun"
+        },
+        {
+          "de": "Spinat",
+          "it": "Spinat",
+          "example": "Der Spinat ist gesund.",
+          "exampleIt": "Gli spinaci sono sani.",
+          "article": "der",
+          "plural": "Spinat",
+          "type": "noun"
+        },
+        {
+          "de": "Bohne",
+          "it": "Bohne",
+          "example": "Die Bohne ist grün.",
+          "exampleIt": "Il fagiolo è verde.",
+          "article": "die",
+          "plural": "Bohnen",
+          "type": "noun"
+        },
+        {
+          "de": "Erbse",
+          "it": "Erbse",
+          "example": "Die Erbse ist klein.",
+          "exampleIt": "Il pisello è piccolo.",
+          "article": "die",
+          "plural": "Erbsen",
+          "type": "noun"
+        },
+        {
+          "de": "Kürbis",
+          "it": "Kürbis",
+          "example": "Der Kürbis ist groß.",
+          "exampleIt": "La zucca è grande.",
+          "article": "der",
+          "plural": "Kürbisse",
+          "type": "noun"
+        },
+        {
+          "de": "Pfirsich",
+          "it": "Pfirsich",
+          "example": "Der Pfirsich ist süß.",
+          "exampleIt": "La pesca è dolce.",
+          "article": "der",
+          "plural": "Pfirsiche",
+          "type": "noun"
+        },
+        {
+          "de": "Kiwi",
+          "it": "Kiwi",
+          "example": "Die Kiwi ist grün.",
+          "exampleIt": "Il kiwi è verde.",
+          "article": "die",
+          "plural": "Kiwis",
+          "type": "noun"
+        },
+        {
+          "de": "Mango",
+          "it": "Mango",
+          "example": "Die Mango ist gelb.",
+          "exampleIt": "Il mango è giallo.",
+          "article": "die",
+          "plural": "Mangos",
+          "type": "noun"
+        },
+        {
+          "de": "Ananas",
+          "it": "Ananas",
+          "example": "Die Ananas ist groß.",
+          "exampleIt": "L'ananas è grande.",
+          "article": "die",
+          "plural": "Ananas",
+          "type": "noun"
+        },
+        {
+          "de": "Kokosnuss",
+          "it": "Kokosnuss",
+          "example": "Die Kokosnuss ist braun.",
+          "exampleIt": "La noce di cocco è marrone.",
+          "article": "die",
+          "plural": "Kokosnüsse",
+          "type": "noun"
+        },
+        {
+          "de": "Blumenkohl",
+          "it": "Blumenkohl",
+          "example": "Der Blumenkahl ist weiß.",
+          "exampleIt": "Il cavolfiore è bianco.",
+          "article": "der",
+          "plural": "Blumenkohl",
+          "type": "noun"
+        }
+      ]
+    }
+  ]
+}

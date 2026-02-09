@@ -19,10 +19,12 @@ import {
   scheduleReminder,
 } from '../utils/notifications';
 import { useAuth } from '../contexts/AuthContext';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const ADMIN_EMAILS = ['armandocesa@gmail.com'];
 
 const ProfilePage = ({ onNavigate }) => {
+  const { t } = useLanguage();
   const { user, isAuthenticated, logout, firebaseEnabled } = useAuth();
   const dailyGoalData = getDailyGoal();
   const [selectedGoal, setSelectedGoal] = useState(dailyGoalData.target || 50);
