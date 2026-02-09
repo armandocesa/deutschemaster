@@ -25,6 +25,7 @@ const VerbPrefixesPage = React.lazy(() => import('./pages/VerbPrefixesPage'));
 const WerdenPage = React.lazy(() => import('./pages/WerdenPage'));
 const LoginPage = React.lazy(() => import('./pages/LoginPage'));
 const DonaPage = React.lazy(() => import('./pages/DonaPage'));
+const NotFoundPage = React.lazy(() => import('./pages/NotFoundPage'));
 
 const PAGE_NAMES = {
   home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura',
@@ -104,11 +105,22 @@ function AppContent() {
   const showBack = currentPage !== 'home';
   const isLoginPage = currentPage === 'login';
 
+  // List of valid pages for route validation
+  const validPages = [
+    'home', 'login', 'vocabulary', 'grammar', 'verbs', 'quiz', 'practice',
+    'special-verbs', 'favorites', 'reading', 'lessons', 'profile', 'flashcards',
+    'writing', 'listening', 'paths', 'essential-words', 'verb-prefixes', 'werden', 'dona'
+  ];
+
+  const isValidPage = validPages.includes(currentPage);
+  const shouldShow404 = currentPage && !isValidPage && currentPage !== 'home';
+
   return (
     <div className="app">
-      {!isLoginPage && <Header currentPage={currentPage} onNavigate={navigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />}
+      {!isLoginPage && !shouldShow404 && <Header currentPage={currentPage} onNavigate={navigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />}
       <main className="main-content">
         <Suspense fallback={<PageLoadingFallback />}>
+          {shouldShow404 && <NotFoundPage onNavigate={navigate} />}
           {currentPage === 'login' && <LoginPage onNavigate={navigate} />}
           {currentPage === 'home' && <HomePage onNavigate={navigate} />}
           {currentPage === 'vocabulary' && <VocabularyPage level={selectedLevel} module={selectedModule} onNavigate={navigate} />}
@@ -131,8 +143,8 @@ function AppContent() {
           {currentPage === 'dona' && <DonaPage onNavigate={navigate} />}
         </Suspense>
       </main>
-      {!isLoginPage && <BottomNav currentPage={currentPage} onNavigate={navigate} />}
-      {!isLoginPage && <Footer />}
+      {!isLoginPage && !shouldShow404 && <BottomNav currentPage={currentPage} onNavigate={navigate} />}
+      {!isLoginPage && !shouldShow404 && <Footer />}
     </div>
   );
 }
