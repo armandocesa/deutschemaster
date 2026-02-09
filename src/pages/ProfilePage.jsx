@@ -12,35 +12,22 @@ import {
 import { getQuizStats, getProgressStats, getDifficultWords } from '../utils/storage';
 
 const ProfilePage = ({ onNavigate }) => {
-  const [selectedGoal, setSelectedGoal] = useState(getDailyGoal());
+  const dailyGoalData = getDailyGoal();
+  const [selectedGoal, setSelectedGoal] = useState(dailyGoalData.target || 50);
   const goalOptions = [10, 30, 50, 100, 150];
 
   // Fetch all data
-  const currentXP = useMemo(() => getXP(), []);
-  const currentStreak = useMemo(() => getStreak(), []);
-  const streakCalendar = useMemo(() => getStreakCalendar(), []);
-  const xpHistory = useMemo(() => getXPHistory(), []);
+  const xpData = useMemo(() => getXP(), []);
+  const streakData = useMemo(() => getStreak(), []);
+  const today = new Date();
+  const streakCalendar = useMemo(() => getStreakCalendar(today.getFullYear(), today.getMonth() + 1), []);
+  const xpHistory = useMemo(() => getXPHistory(30), []);
   const quizStats = useMemo(() => getQuizStats(), []);
   const progressStats = useMemo(() => getProgressStats(), []);
   const difficultWords = useMemo(() => getDifficultWords(), []);
   const badges = useMemo(() => getBadges(), []);
 
-  // Compute level from XP
-  const computeLevel = (xp) => {
-    const baseXP = 100;
-    const multiplier = 1.5;
-    let level = 1;
-    let totalXPNeeded = baseXP;
-
-    while (xp >= totalXPNeeded) {
-      level += 1;
-      totalXPNeeded += baseXP * Math.pow(multiplier, level - 1);
-    }
-
-    return Math.max(1, level);
-  };
-
-  const level = useMemo(() => computeLevel(currentXP), [currentXP]);
+  const level = xpData.level || 1;
 
   // Get level name
   const getLevelName = (lvl) => {
@@ -52,7 +39,7 @@ const ProfilePage = ({ onNavigate }) => {
     return 'Maestro';
   };
 
-  const levelName = useMemo(() => getLevelName(level), [level]);
+  const levelName = getLevelName(level);
 
   // Handle goal change
   const handleGoalChange = (goal) => {
@@ -61,37 +48,14 @@ const ProfilePage = ({ onNavigate }) => {
   };
 
   // Get today's XP progress
-  const todayXP = useMemo(() => {
-    const xpHist = getXPHistory();
-    const today = new Date().toDateString();
-    return xpHist.find((entry) => new Date(entry.date).toDateString() === today)?.xp || 0;
-  }, []);
+  const todayXP = xpData.todayXP || 0;
 
   // Get today's date info for calendar
-  const today = new Date();
   const currentMonth = today.getMonth();
   const currentYear = today.getFullYear();
   const currentDay = today.getDate();
 
-  // Get longest streak
-  const longestStreak = useMemo(() => {
-    const calendar = getStreakCalendar();
-    if (!calendar || calendar.length === 0) return 0;
-
-    let maxStreak = 0;
-    let currentStreakLength = 0;
-
-    for (const day of calendar) {
-      if (day.active) {
-        currentStreakLength += 1;
-        maxStreak = Math.max(maxStreak, currentStreakLength);
-      } else {
-        currentStreakLength = 0;
-      }
-    }
-
-    return maxStreak;
-  }, []);
+  const longestStreak = streakData.longestStreak || 0;
 
   // Build calendar grid for current month
   const calendarDays = useMemo(() => {
@@ -99,11 +63,8 @@ const ProfilePage = ({ onNavigate }) => {
     const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
     const activeSet = new Set(
       (streakCalendar || [])
-        .filter((d) => {
-          const date = new Date(d.date);
-          return date.getMonth() === currentMonth && date.getFullYear() === currentYear;
-        })
-        .map((d) => new Date(d.date).getDate())
+        .filter((d) => d.active)
+        .map((d) => d.day)
     );
 
     const days = [];
@@ -162,22 +123,18 @@ const ProfilePage = ({ onNavigate }) => {
 
   // Get goal streak
   const goalStreak = useMemo(() => {
-    const xpHist = getXPHistory();
     let streak = 0;
-
     for (let i = 0; i < 365; i++) {
       const date = new Date();
       date.setDate(date.getDate() - i);
-      const dateStr = date.toDateString();
-      const entry = xpHist.find((e) => new Date(e.date).toDateString() === dateStr);
-
+      const dateStr = date.toISOString().split('T')[0];
+      const entry = xpHistory.find((e) => e.date === dateStr);
       if (entry && entry.xp >= selectedGoal) {
         streak += 1;
       } else {
         break;
       }
     }
-
     return streak;
   }, [xpHistory, selectedGoal]);
 
@@ -243,7 +200,7 @@ const ProfilePage = ({ onNavigate }) => {
                   color: 'var(--accent)',
                 }}
               >
-                {currentXP.toLocaleString()}
+                {(xpData.totalXP || 0).toLocaleString()}
               </div>
             </div>
 
@@ -304,7 +261,7 @@ const ProfilePage = ({ onNavigate }) => {
                   color: 'var(--text-primary)',
                 }}
               >
-                {currentStreak}
+                {streakData.currentStreak || 0}
               </div>
               <div
                 style={{
@@ -577,7 +534,7 @@ const ProfilePage = ({ onNavigate }) => {
             { label: 'Risposte Corrette', value: `${correctAnswersPercentage}%` },
             { label: 'Quiz Completati', value: quizzesCompleted },
             { label: 'Parole Salvate', value: savedWordsCount },
-            { label: 'XP Totali', value: currentXP.toLocaleString() },
+            { label: 'XP Totali', value: (xpData.totalXP || 0).toLocaleString() },
             { label: 'Livello', value: level },
           ].map((stat, idx) => (
             <div

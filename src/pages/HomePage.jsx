@@ -153,9 +153,11 @@ export default function HomePage({ onNavigate }) {
       <section>
         <h3 className="continue-title">Cosa vuoi studiare?</h3>
         <div className="quick-actions-grid">
+          <QuickActionCard icon={<Icons.Target />} title="Percorsi" color="#6c5ce7" onClick={() => onNavigate('paths')} noLevel />
           <QuickActionCard icon={<Icons.Lessons />} title="Lezioni" color="#3b82f6" onClick={() => onNavigate('lessons')} noLevel />
           <QuickActionCard icon={<Icons.Grammar />} title="Grammatica" color="#8b5cf6" onClick={(lvl) => onNavigate('grammar', { level: lvl })} />
           <QuickActionCard icon={<Icons.Book />} title="Vocabolario" color="#10b981" onClick={(lvl) => onNavigate('vocabulary', { level: lvl })} />
+          <QuickActionCard icon={<Icons.Book />} title="Parole Essenziali" color="#14b8a6" onClick={(lvl) => onNavigate('essential-words', { level: lvl })} />
           <QuickActionCard icon={<Icons.Reading />} title="Lettura" color="#06b6d4" onClick={(lvl) => onNavigate('reading', { level: lvl })} />
           <QuickActionCard icon={<Icons.Quiz />} title="Quiz" color="#ef4444" onClick={(lvl) => onNavigate('quiz', { level: lvl })} />
           <QuickActionCard icon={<Icons.Verb />} title="Verbi" color="#f59e0b" onClick={() => onNavigate('verbs')} noLevel />
@@ -169,6 +171,7 @@ export default function HomePage({ onNavigate }) {
           <QuickActionCard icon={<Icons.Writing />} title="Scrittura" color="#10b981" onClick={() => onNavigate('writing')} noLevel />
           <QuickActionCard icon={<Icons.Listening />} title="Ascolto" color="#06b6d4" onClick={() => onNavigate('listening')} noLevel />
           <QuickActionCard icon={<Icons.Practice />} title="Pratica Rapida" color="#f59e0b" onClick={() => onNavigate('practice')} noLevel />
+          <QuickActionCard icon={<Icons.Verb />} title="Prefissi Verbali" color="#f97316" onClick={() => onNavigate('verb-prefixes')} noLevel />
           <QuickActionCard icon={<Icons.Star />} title="Salvate" color="#ec4899" onClick={() => onNavigate('favorites')} noLevel />
         </div>
       </section>

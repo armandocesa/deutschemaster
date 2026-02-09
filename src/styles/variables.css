@@ -1,5 +1,6 @@
 :root {
   --bg-primary: #0f0f14;
+  --bg-secondary: #16161e;
   --bg-card: #191920;
   --bg-card-hover: #22222d;
   --bg-surface: #1c1c26;
@@ -15,6 +16,7 @@
   --error: #ff6b6b;
   --warning: #fdcb6e;
   --border: rgba(255,255,255,0.07);
+  --border-color: rgba(255,255,255,0.07);
   --border-hover: rgba(255,255,255,0.14);
   --radius: 12px;
   --radius-sm: 8px;

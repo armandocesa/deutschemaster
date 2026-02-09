@@ -1,0 +1,946 @@
+{
+  "level": "C1",
+  "title": "Goethe-Zertifikat C1",
+  "description": "Vocabolario avanzato",
+  "categories": [
+    {
+      "name": "Akademie",
+      "nameIt": "Accademia",
+      "words": [
+        {
+          "de": "Dissertation",
+          "it": "Dissertazione",
+          "example": "Die Dissertation ist komplex.",
+          "exampleIt": "La dissertazione è complessa.",
+          "article": "die",
+          "plural": "Dissertationen",
+          "type": "n"
+        },
+        {
+          "de": "Abhandlung",
+          "it": "Trattato",
+          "example": "Die Abhandlung ist gründlich.",
+          "exampleIt": "Il trattato è approfondito.",
+          "article": "die",
+          "plural": "Abhandlungen",
+          "type": "n"
+        },
+        {
+          "de": "These",
+          "it": "Tesi",
+          "example": "Die These wird verteidigt.",
+          "exampleIt": "La tesi viene difesa.",
+          "article": "die",
+          "plural": "Thesen",
+          "type": "n"
+        },
+        {
+          "de": "Theorie",
+          "it": "Teoria",
+          "example": "Die Theorie erklärt viel.",
+          "exampleIt": "La teoria spiega molto.",
+          "article": "die",
+          "plural": "Theorien",
+          "type": "n"
+        },
+        {
+          "de": "Paradigma",
+          "it": "Paradigma",
+          "example": "Das Paradigma wechselt.",
+          "exampleIt": "Il paradigma cambia.",
+          "article": "das",
+          "plural": "Paradigmen",
+          "type": "n"
+        },
+        {
+          "de": "Erkenntnis",
+          "it": "Conoscenza",
+          "example": "Die Erkenntnis ist tiefgreifend.",
+          "exampleIt": "La conoscenza è profonda.",
+          "article": "die",
+          "plural": "Erkenntnisse",
+          "type": "n"
+        },
+        {
+          "de": "Methodik",
+          "it": "Metodologia",
+          "example": "Die Methodik ist rigoros.",
+          "exampleIt": "La metodologia è rigorosa.",
+          "article": "die",
+          "plural": "Methodiken",
+          "type": "n"
+        },
+        {
+          "de": "Epistemologie",
+          "it": "Epistemologia",
+          "example": "Epistemologie ist komplex.",
+          "exampleIt": "L'epistemologia è complessa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ontologie",
+          "it": "Ontologia",
+          "example": "Ontologie fragt nach dem Sein.",
+          "exampleIt": "L'ontologia chiede dell'essere.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Axiom",
+          "it": "Assioma",
+          "example": "Das Axiom ist wahr.",
+          "exampleIt": "L'assioma è vero.",
+          "article": "das",
+          "plural": "Axiome",
+          "type": "n"
+        },
+        {
+          "de": "Premisse",
+          "it": "Premessa",
+          "example": "Die Premisse ist falsch.",
+          "exampleIt": "La premessa è sbagliata.",
+          "article": "die",
+          "plural": "Prämissen",
+          "type": "n"
+        },
+        {
+          "de": "Schlussfolgerung",
+          "it": "Conclusione",
+          "example": "Die Schlussfolgerung ist logisch.",
+          "exampleIt": "La conclusione è logica.",
+          "article": "die",
+          "plural": "Schlussfolgerungen",
+          "type": "n"
+        },
+        {
+          "de": "Synthese",
+          "it": "Sintesi",
+          "example": "Die Synthese ist gelungen.",
+          "exampleIt": "La sintesi è riuscita.",
+          "article": "die",
+          "plural": "Synthesen",
+          "type": "n"
+        },
+        {
+          "de": "Antithese",
+          "it": "Antitesi",
+          "example": "Die Antithese ist gegensätzlich.",
+          "exampleIt": "L'antitesi è opposta.",
+          "article": "die",
+          "plural": "Antithesen",
+          "type": "n"
+        },
+        {
+          "de": "Dialektik",
+          "it": "Dialettica",
+          "example": "Dialektik ist dynamisch.",
+          "exampleIt": "La dialettica è dinamica.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Hermeneutik",
+          "it": "Ermeneutica",
+          "example": "Hermeneutik interpretiert.",
+          "exampleIt": "L'ermeneutica interpreta.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Phänomenologie",
+          "it": "Fenomenologia",
+          "example": "Phänomenologie untersucht.",
+          "exampleIt": "La fenomenologia esamina.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Existenzialismus",
+          "it": "Esistenzialismo",
+          "example": "Existenzialismus betont Freiheit.",
+          "exampleIt": "L'esistenzialismo enfatizza la libertà.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Dekonstruktion",
+          "it": "Decostruzione",
+          "example": "Dekonstruktion hinterfragt.",
+          "exampleIt": "La decostruzione mette in questione.",
+          "article": "die",
+          "plural": "Dekonstruktionen",
+          "type": "n"
+        },
+        {
+          "de": "Semantik",
+          "it": "Semantica",
+          "example": "Semantik analysiert Bedeutung.",
+          "exampleIt": "La semantica analizza il significato.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Pragmatik",
+          "it": "Pragmatica",
+          "example": "Pragmatik untersucht Gebrauch.",
+          "exampleIt": "La pragmatica esamina l'uso.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Idiome",
+      "nameIt": "Espressioni idiomatiche",
+      "words": [
+        {
+          "de": "auf der Hand liegen",
+          "it": "essere evidente/ovvio",
+          "example": "Es liegt auf der Hand, dass wir handeln müssen.",
+          "exampleIt": "È evidente che dobbiamo agire.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "unter vier Augen",
+          "it": "in privato",
+          "example": "Wir sprachen unter vier Augen.",
+          "exampleIt": "Parlammo in privato.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "den Nagel auf den Kopf treffen",
+          "it": "cogliere nel segno",
+          "example": "Du triffst den Nagel auf den Kopf.",
+          "exampleIt": "Hai colto nel segno.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "über den Tellerrand schauen",
+          "it": "allargare gli orizzonti",
+          "example": "Man sollte über den Tellerrand schauen.",
+          "exampleIt": "Bisogna allargare gli orizzonti.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "ins kalte Wasser springen",
+          "it": "buttarsi a capofitto",
+          "example": "Ich springe ins kalte Wasser.",
+          "exampleIt": "Mi butto a capofitto.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "kein Blatt vor den Mund nehmen",
+          "it": "dire pane al pane",
+          "example": "Er nimmt kein Blatt vor den Mund.",
+          "exampleIt": "Dice pane al pane.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "auf dem Holzweg sein",
+          "it": "essere fuori strada",
+          "example": "Du bist auf dem Holzweg.",
+          "exampleIt": "Sei fuori strada.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "die Katze im Sack kaufen",
+          "it": "comprare gatto in sacco",
+          "example": "Das ist die Katze im Sack kaufen.",
+          "exampleIt": "È come comprare gatto in sacco.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "jemandem auf den Zahn fühlen",
+          "it": "mettere alla prova",
+          "example": "Ich fühl dir auf den Zahn.",
+          "exampleIt": "Ti metto alla prova.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "Öl ins Feuer gießen",
+          "it": "aggiungere benzina sul fuoco",
+          "example": "Das ist Öl ins Feuer gießen.",
+          "exampleIt": "È aggiungere benzina sul fuoco.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "den Faden verlieren",
+          "it": "perdere il filo",
+          "example": "Ich verliere den Faden.",
+          "exampleIt": "Perdo il filo.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "das Kind mit dem Bade ausschütten",
+          "it": "gettare il bambino con l'acqua",
+          "example": "Das ist das Kind mit dem Bade ausschütten.",
+          "exampleIt": "È gettare il bambino con l'acqua.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "auf Wolke sieben schweben",
+          "it": "stare sulle nuvole",
+          "example": "Sie schwebt auf Wolke sieben.",
+          "exampleIt": "Lei sta sulle nuvole.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "die Daumen drücken",
+          "it": "incrociare le dita",
+          "example": "Ich drücke dir die Daumen.",
+          "exampleIt": "Incrocio le dita per te.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "aus einer Mücke einen Elefanten machen",
+          "it": "fare una montagna di una talpa",
+          "example": "Du machst aus einer Mücke einen Elefanten.",
+          "exampleIt": "Fai una montagna di una talpa.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "auf den Busch klopfen",
+          "it": "girare attorno al tema",
+          "example": "Hör auf, auf den Busch zu klopfen.",
+          "exampleIt": "Smettila di girare attorno al tema.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "die Nadel im Heuhaufen suchen",
+          "it": "cercare l'ago nel pagliaio",
+          "example": "Das ist wie die Nadel im Heuhaufen suchen.",
+          "exampleIt": "È come cercare l'ago nel pagliaio.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "mit offenem Visier kämpfen",
+          "it": "combattere a viso aperto",
+          "example": "Er kämpft mit offenem Visier.",
+          "exampleIt": "Combatte a viso aperto.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "über seinen Schatten springen",
+          "it": "vincere se stesso",
+          "example": "Er springt über seinen Schatten.",
+          "exampleIt": "Vince se stesso.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        },
+        {
+          "de": "Farbe bekennen",
+          "it": "mostrare le proprie intenzioni",
+          "example": "Jetzt muss er Farbe bekennen.",
+          "exampleIt": "Ora deve mostrare le proprie intenzioni.",
+          "article": null,
+          "plural": null,
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "name": "Rhetorik",
+      "nameIt": "Retorica",
+      "words": [
+        {
+          "de": "Metapher",
+          "it": "metafora",
+          "example": "Die Metapher ist aussagekräftig.",
+          "exampleIt": "La metafora è eloquente.",
+          "article": "die",
+          "plural": "Metaphern",
+          "type": "n"
+        },
+        {
+          "de": "Ironie",
+          "it": "ironia",
+          "example": "Die Ironie ist subtil.",
+          "exampleIt": "L'ironia è sottile.",
+          "article": "die",
+          "plural": "Ironien",
+          "type": "n"
+        },
+        {
+          "de": "Anspielung",
+          "it": "allusione",
+          "example": "Die Anspielung ist versteckt.",
+          "exampleIt": "L'allusione è nascosta.",
+          "article": "die",
+          "plural": "Anspielungen",
+          "type": "n"
+        },
+        {
+          "de": "Euphemismus",
+          "it": "eufemismo",
+          "example": "Das ist ein Euphemismus.",
+          "exampleIt": "È un eufemismo.",
+          "article": "der",
+          "plural": "Euphemismen",
+          "type": "n"
+        },
+        {
+          "de": "betonen",
+          "it": "enfatizzare",
+          "example": "Ich betone das Wichtige.",
+          "exampleIt": "Enfatizzo l'importante.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "hervorheben",
+          "it": "evidenziare",
+          "example": "Das hebe ich hervor.",
+          "exampleIt": "Lo evidenzio.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "andeuten",
+          "it": "alludere",
+          "example": "Ich deute das an.",
+          "exampleIt": "Lo alludo.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "Rhetoriker",
+          "it": "oratore",
+          "example": "Der Rhetoriker ist überzeugend.",
+          "exampleIt": "L'oratore è convincente.",
+          "article": "der",
+          "plural": "Rhetoriker",
+          "type": "n"
+        },
+        {
+          "de": "Eloquenz",
+          "it": "eloquenza",
+          "example": "Die Eloquenz ist beeindruckend.",
+          "exampleIt": "L'eloquenza è impressionante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "überzeugen",
+          "it": "convincere",
+          "example": "Der Redner überzeugt.",
+          "exampleIt": "L'oratore convince.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "Stilmittel",
+          "it": "figura retorica",
+          "example": "Das Stilmittel ist effektiv.",
+          "exampleIt": "La figura retorica è efficace.",
+          "article": "das",
+          "plural": "Stilmittel",
+          "type": "n"
+        },
+        {
+          "de": "Vergleich",
+          "it": "paragone",
+          "example": "Der Vergleich ist passend.",
+          "exampleIt": "Il paragone è appropriato.",
+          "article": "der",
+          "plural": "Vergleiche",
+          "type": "n"
+        },
+        {
+          "de": "Übertreibung",
+          "it": "esagerazione",
+          "example": "Das ist eine Übertreibung.",
+          "exampleIt": "È un'esagerazione.",
+          "article": "die",
+          "plural": "Übertreibungen",
+          "type": "n"
+        },
+        {
+          "de": "Untertreibung",
+          "it": "attenuazione",
+          "example": "Das ist eine Untertreibung.",
+          "exampleIt": "È un'attenuazione.",
+          "article": "die",
+          "plural": "Untertreibungen",
+          "type": "n"
+        },
+        {
+          "de": "Kontrast",
+          "it": "contrasto",
+          "example": "Der Kontrast ist auffällig.",
+          "exampleIt": "Il contrasto è evidente.",
+          "article": "der",
+          "plural": "Kontraste",
+          "type": "n"
+        },
+        {
+          "de": "Wiederholung",
+          "it": "ripetizione",
+          "example": "Die Wiederholung wirkt.",
+          "exampleIt": "La ripetizione ha effetto.",
+          "article": "die",
+          "plural": "Wiederholungen",
+          "type": "n"
+        },
+        {
+          "de": "Frage (rhetorisch)",
+          "it": "domanda retorica",
+          "example": "Das ist eine rhetorische Frage.",
+          "exampleIt": "È una domanda retorica.",
+          "article": "die",
+          "plural": "Fragen",
+          "type": "n"
+        },
+        {
+          "de": "Paradox",
+          "it": "paradosso",
+          "example": "Das Paradox ist faszinierend.",
+          "exampleIt": "Il paradosso è affascinante.",
+          "article": "das",
+          "plural": "Paradoxe",
+          "type": "n"
+        },
+        {
+          "de": "Allegorie",
+          "it": "allegoria",
+          "example": "Die Allegorie ist komplex.",
+          "exampleIt": "L'allegoria è complessa.",
+          "article": "die",
+          "plural": "Allegorien",
+          "type": "n"
+        },
+        {
+          "de": "Satire",
+          "it": "satira",
+          "example": "Die Satire ist beißend.",
+          "exampleIt": "La satira è pungente.",
+          "article": "die",
+          "plural": "Satiren",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Gesellschaftskritik",
+      "nameIt": "Critica sociale",
+      "words": [
+        {
+          "de": "Ungleichheit",
+          "it": "disuguaglianza",
+          "example": "Die Ungleichheit ist groß.",
+          "exampleIt": "La disuguaglianza è grande.",
+          "article": "die",
+          "plural": "Ungleichheiten",
+          "type": "n"
+        },
+        {
+          "de": "Diskriminierung",
+          "it": "discriminazione",
+          "example": "Die Diskriminierung ist verboten.",
+          "exampleIt": "La discriminazione è vietata.",
+          "article": "die",
+          "plural": "Diskriminierungen",
+          "type": "n"
+        },
+        {
+          "de": "Vorurteil",
+          "it": "pregiudizio",
+          "example": "Das Vorurteil ist schädlich.",
+          "exampleIt": "Il pregiudizio è dannoso.",
+          "article": "das",
+          "plural": "Vorurteile",
+          "type": "n"
+        },
+        {
+          "de": "Integration",
+          "it": "integrazione",
+          "example": "Die Integration ist wichtig.",
+          "exampleIt": "L'integrazione è importante.",
+          "article": "die",
+          "plural": "Integrationen",
+          "type": "n"
+        },
+        {
+          "de": "Gerechtigkeit",
+          "it": "giustizia",
+          "example": "Die Gerechtigkeit ist essentiell.",
+          "exampleIt": "La giustizia è essenziale.",
+          "article": "die",
+          "plural": "Gerechtigkeiten",
+          "type": "n"
+        },
+        {
+          "de": "Gleichberechtigung",
+          "it": "parità di diritti",
+          "example": "Die Gleichberechtigung ist möglich.",
+          "exampleIt": "La parità di diritti è possibile.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Inklusion",
+          "it": "inclusione",
+          "example": "Die Inklusion ist wichtig.",
+          "exampleIt": "L'inclusione è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Vielfalt",
+          "it": "diversità",
+          "example": "Die Vielfalt ist bereichernd.",
+          "exampleIt": "La diversità è arricchente.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Toleranz",
+          "it": "tolleranza",
+          "example": "Die Toleranz ist wichtig.",
+          "exampleIt": "La tolleranza è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Rassismus",
+          "it": "razzismo",
+          "example": "Der Rassismus ist abscheulich.",
+          "exampleIt": "Il razzismo è abominevole.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Sexismus",
+          "it": "sessismo",
+          "example": "Der Sexismus ist schädlich.",
+          "exampleIt": "Il sessismo è dannoso.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Chancengleichheit",
+          "it": "uguaglianza di opportunità",
+          "example": "Chancengleichheit ist wichtig.",
+          "exampleIt": "L'uguaglianza di opportunità è importante.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Benachteiligung",
+          "it": "svantaggio",
+          "example": "Die Benachteiligung ist unfair.",
+          "exampleIt": "Lo svantaggio è ingiusto.",
+          "article": "die",
+          "plural": "Benachteiligungen",
+          "type": "n"
+        },
+        {
+          "de": "Privilegien",
+          "it": "privilegi",
+          "example": "Die Privilegien sind ungerecht.",
+          "exampleIt": "I privilegi sono ingiusti.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "marginalisiert",
+          "it": "emarginato",
+          "example": "Gruppen sind marginalisiert.",
+          "exampleIt": "I gruppi sono emarginati.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "systemisch",
+          "it": "sistemico",
+          "example": "Das Problem ist systemisch.",
+          "exampleIt": "Il problema è sistemico.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "strukturell",
+          "it": "strutturale",
+          "example": "Das Problem ist strukturell.",
+          "exampleIt": "Il problema è strutturale.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        },
+        {
+          "de": "unterdrücken",
+          "it": "opprimere",
+          "example": "Man unterdrückt nicht.",
+          "exampleIt": "Non si opprime.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "ausgrenzen",
+          "it": "escludere",
+          "example": "Niemand wird ausgegrenzt.",
+          "exampleIt": "Nessuno viene escluso.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "Minderheit",
+          "it": "minoranza",
+          "example": "Die Minderheit hat Rechte.",
+          "exampleIt": "La minoranza ha diritti.",
+          "article": "die",
+          "plural": "Minderheiten",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Fachsprache",
+      "nameIt": "Linguaggio tecnico",
+      "words": [
+        {
+          "de": "Fachbegriff",
+          "it": "termine tecnico",
+          "example": "Der Fachbegriff ist präzise.",
+          "exampleIt": "Il termine tecnico è preciso.",
+          "article": "der",
+          "plural": "Fachbegriffe",
+          "type": "n"
+        },
+        {
+          "de": "Terminologie",
+          "it": "terminologia",
+          "example": "Die Terminologie ist komplex.",
+          "exampleIt": "La terminologia è complessa.",
+          "article": "die",
+          "plural": "Terminologien",
+          "type": "n"
+        },
+        {
+          "de": "Definition",
+          "it": "definizione",
+          "example": "Die Definition ist klar.",
+          "exampleIt": "La definizione è chiara.",
+          "article": "die",
+          "plural": "Definitionen",
+          "type": "n"
+        },
+        {
+          "de": "Kontext",
+          "it": "contesto",
+          "example": "Der Kontext ist wichtig.",
+          "exampleIt": "Il contesto è importante.",
+          "article": "der",
+          "plural": "Kontexte",
+          "type": "n"
+        },
+        {
+          "de": "Differenzierung",
+          "it": "differenziazione",
+          "example": "Die Differenzierung ist notwendig.",
+          "exampleIt": "La differenziazione è necessaria.",
+          "article": "die",
+          "plural": "Differenzierungen",
+          "type": "n"
+        },
+        {
+          "de": "Spezifizierung",
+          "it": "specificazione",
+          "example": "Die Spezifizierung ist wichtig.",
+          "exampleIt": "La specificazione è importante.",
+          "article": "die",
+          "plural": "Spezifizierungen",
+          "type": "n"
+        },
+        {
+          "de": "Abstraktion",
+          "it": "astrazione",
+          "example": "Die Abstraktion ist hoch.",
+          "exampleIt": "L'astrazione è alta.",
+          "article": "die",
+          "plural": "Abstraktionen",
+          "type": "n"
+        },
+        {
+          "de": "Kategorisierung",
+          "it": "categorizzazione",
+          "example": "Die Kategorisierung ist nützlich.",
+          "exampleIt": "La categorizzazione è utile.",
+          "article": "die",
+          "plural": "Kategorisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Systematisierung",
+          "it": "sistematizzazione",
+          "example": "Die Systematisierung ist wichtig.",
+          "exampleIt": "La sistematizzazione è importante.",
+          "article": "die",
+          "plural": "Systematisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Klassifizierung",
+          "it": "classificazione",
+          "example": "Die Klassifizierung ist genau.",
+          "exampleIt": "La classificazione è accurata.",
+          "article": "die",
+          "plural": "Klassifizierungen",
+          "type": "n"
+        },
+        {
+          "de": "Implikation",
+          "it": "implicazione",
+          "example": "Die Implikation ist tiefgreifend.",
+          "exampleIt": "L'implicazione è profonda.",
+          "article": "die",
+          "plural": "Implikationen",
+          "type": "n"
+        },
+        {
+          "de": "Konnotation",
+          "it": "connotazione",
+          "example": "Die Konnotation ist negativ.",
+          "exampleIt": "La connotazione è negativa.",
+          "article": "die",
+          "plural": "Konnotationen",
+          "type": "n"
+        },
+        {
+          "de": "Denotation",
+          "it": "denotazione",
+          "example": "Die Denotation ist klar.",
+          "exampleIt": "La denotazione è chiara.",
+          "article": "die",
+          "plural": "Denotationen",
+          "type": "n"
+        },
+        {
+          "de": "Semantik",
+          "it": "semantica",
+          "example": "Die Semantik ist komplex.",
+          "exampleIt": "La semantica è complessa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Pragmatik",
+          "it": "pragmatica",
+          "example": "Die Pragmatik ist praktisch.",
+          "exampleIt": "La pragmatica è pratica.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Diskurs",
+          "it": "discorso",
+          "example": "Der Diskurs ist relevant.",
+          "exampleIt": "Il discorso è rilevante.",
+          "article": "der",
+          "plural": "Diskurse",
+          "type": "n"
+        },
+        {
+          "de": "Elaboration",
+          "it": "elaborazione",
+          "example": "Die Elaboration ist wichtig.",
+          "exampleIt": "L'elaborazione è importante.",
+          "article": "die",
+          "plural": "Elaborationen",
+          "type": "n"
+        },
+        {
+          "de": "Operationalisierung",
+          "it": "operazionalizzazione",
+          "example": "Die Operationalisierung ist schwierig.",
+          "exampleIt": "L'operazionalizzazione è difficile.",
+          "article": "die",
+          "plural": "Operationalisierungen",
+          "type": "n"
+        },
+        {
+          "de": "Determinante",
+          "it": "determinante",
+          "example": "Der Determinante ist wichtig.",
+          "exampleIt": "Il determinante è importante.",
+          "article": "der",
+          "plural": "Determinanten",
+          "type": "n"
+        },
+        {
+          "de": "interdisziplinär",
+          "it": "interdisciplinare",
+          "example": "Der Ansatz ist interdisziplinär.",
+          "exampleIt": "L'approccio è interdisciplinare.",
+          "article": null,
+          "plural": null,
+          "type": "adj"
+        }
+      ]
+    }
+  ]
+}

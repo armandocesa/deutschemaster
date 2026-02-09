@@ -44,6 +44,7 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
         </div>
         <nav className="nav desktop-nav">
           <button className={`nav-btn ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>Home</span></button>
+          <button className={`nav-btn ${currentPage === 'paths' ? 'active' : ''}`} onClick={() => onNavigate('paths')}><Icons.Target /><span>Percorsi</span></button>
           <button className={`nav-btn ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
           <button className={`nav-btn ${currentPage === 'practice' || currentPage === 'flashcards' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
           <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>

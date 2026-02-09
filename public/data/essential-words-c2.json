@@ -1,0 +1,760 @@
+{
+  "level": "C2",
+  "title": "Goethe-Zertifikat C2",
+  "description": "Vocabolario padroneggiato",
+  "categories": [
+    {
+      "name": "Gehobene Sprache",
+      "nameIt": "Registro elevato",
+      "words": [
+        {
+          "de": "sich befleißigen",
+          "it": "Dedicarsi",
+          "example": "Er befleißigt sich der Aufmerksamkeit.",
+          "exampleIt": "Si dedica all'attenzione.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "obwalten",
+          "it": "Prevalere",
+          "example": "Es obwalten schwierige Bedingungen.",
+          "exampleIt": "Prevalgono condizioni difficili.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "erörtern",
+          "it": "Discutere",
+          "example": "Wir erörtern die Frage.",
+          "exampleIt": "Discutiamo la questione.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "gewahren",
+          "it": "Accorgersi",
+          "example": "Er gewahrt die Bewegung.",
+          "exampleIt": "Si accorge del movimento.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "anberaumen",
+          "it": "Fissare",
+          "example": "Der Termin wird anberaumt.",
+          "exampleIt": "La data viene fissata.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "zeitigen",
+          "it": "Produrre",
+          "example": "Die Maßnahme zeitigt Erfolg.",
+          "exampleIt": "La misura produce successo.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "darlegen",
+          "it": "Esporre",
+          "example": "Er legt dar, was er denkt.",
+          "exampleIt": "Espone quello che pensa.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "vorbringen",
+          "it": "Sottoporre",
+          "example": "Ein Vorschlag wird vorgebracht.",
+          "exampleIt": "Una proposta viene sottoposta.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "erachten",
+          "it": "Ritenere",
+          "example": "Ich erachte das für wichtig.",
+          "exampleIt": "Ritengo questo importante.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "vermögen",
+          "it": "Potere",
+          "example": "Er vermag nicht viel.",
+          "exampleIt": "Non può molto.",
+          "article": null,
+          "plural": null,
+          "type": "v"
+        },
+        {
+          "de": "Wohlwollen",
+          "it": "Benevolenza",
+          "example": "Sein Wohlwollen ist evident.",
+          "exampleIt": "La sua benevolenza è evidente.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verwegenheit",
+          "it": "Audacia",
+          "example": "Seine Verwegenheit ist bewunderungswürdig.",
+          "exampleIt": "La sua audacia è ammirevole.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Inbrunst",
+          "it": "Ardore",
+          "example": "Mit großer Inbrunst spricht er.",
+          "exampleIt": "Parla con grande ardore.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Innigkeit",
+          "it": "Tenerezza",
+          "example": "Die Innigkeit ist berührend.",
+          "exampleIt": "La tenerezza è commovente.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ungnade",
+          "it": "Disgrazia",
+          "example": "Die Ungnade ist schwer zu tragen.",
+          "exampleIt": "La disgrazia è difficile da sopportare.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Huld",
+          "it": "Favore",
+          "example": "Seine Huld ist ein großes Geschenk.",
+          "exampleIt": "Il suo favore è un grande dono.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Sühne",
+          "it": "Espiazione",
+          "example": "Die Sühne ist erforderlich.",
+          "exampleIt": "L'espiazione è richiesta.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Anmut",
+          "it": "Grazia",
+          "example": "Die Anmut ihrer Bewegungen.",
+          "exampleIt": "La grazia dei suoi movimenti.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Wehmut",
+          "it": "Malinconia",
+          "example": "Eine Wehmut überkam ihn.",
+          "exampleIt": "Una malinconia lo invase.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Schadenfreude",
+          "it": "Gioia del male altrui",
+          "example": "Schadenfreude ist unschön.",
+          "exampleIt": "La gioia del male altrui è brutta.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Weltschmerz",
+          "it": "Dolore del mondo",
+          "example": "Ein Weltschmerz durchdringt das Werk.",
+          "exampleIt": "Un dolore del mondo permea l'opera.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Literarisch",
+      "nameIt": "Letterario",
+      "words": [
+        {
+          "de": "Sehnsucht",
+          "it": "nostalgia",
+          "example": "Die Sehnsucht ist tiefgreifend.",
+          "exampleIt": "La nostalgia è profonda.",
+          "article": "die",
+          "plural": "Sehnsüchte",
+          "type": "n"
+        },
+        {
+          "de": "Weltanschauung",
+          "it": "visione del mondo",
+          "example": "Die Weltanschauung ist wichtig.",
+          "exampleIt": "La visione del mondo è importante.",
+          "article": "die",
+          "plural": "Weltanschauungen",
+          "type": "n"
+        },
+        {
+          "de": "Zeitgeist",
+          "it": "spirito del tempo",
+          "example": "Der Zeitgeist ändert sich.",
+          "exampleIt": "Lo spirito del tempo cambia.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Gemütlichkeit",
+          "it": "calore",
+          "example": "Die Gemütlichkeit ist wohltuend.",
+          "exampleIt": "Il calore è gradevole.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Wanderlust",
+          "it": "sete di viaggi",
+          "example": "Wanderlust ist sein Streben.",
+          "exampleIt": "La sete di viaggi è il suo obiettivo.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Schadenfreude",
+          "it": "gioia del male altrui",
+          "example": "Schadenfreude ist unethisch.",
+          "exampleIt": "La gioia del male altrui è immorale.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Fernweh",
+          "it": "nostalgia del lontano",
+          "example": "Fernweh treibt ihn fort.",
+          "exampleIt": "La nostalgia del lontano lo spinge via.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Heimat",
+          "it": "patria",
+          "example": "Die Heimat ist kostbar.",
+          "exampleIt": "La patria è preziosa.",
+          "article": "die",
+          "plural": "Heimaten",
+          "type": "n"
+        },
+        {
+          "de": "Angst",
+          "it": "paura",
+          "example": "Angst ist menschlich.",
+          "exampleIt": "La paura è umana.",
+          "article": "die",
+          "plural": "Ängste",
+          "type": "n"
+        },
+        {
+          "de": "Kitsch",
+          "it": "kitsch",
+          "example": "Das ist Kitsch.",
+          "exampleIt": "È kitsch.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Leitmotiv",
+          "it": "leitmotiv",
+          "example": "Das Leitmotiv wiederholt sich.",
+          "exampleIt": "Il leitmotiv si ripete.",
+          "article": "das",
+          "plural": "Leitmotive",
+          "type": "n"
+        },
+        {
+          "de": "Doppelgänger",
+          "it": "doppio",
+          "example": "Der Doppelgänger ist mysteriös.",
+          "exampleIt": "Il doppio è misterioso.",
+          "article": "der",
+          "plural": "Doppelgänger",
+          "type": "n"
+        },
+        {
+          "de": "Bildungsroman",
+          "it": "romanzo di formazione",
+          "example": "Das ist ein Bildungsroman.",
+          "exampleIt": "È un romanzo di formazione.",
+          "article": "der",
+          "plural": "Bildungsromane",
+          "type": "n"
+        },
+        {
+          "de": "Kindergarten",
+          "it": "asilo",
+          "example": "Das ist ein deutsches Wort.",
+          "exampleIt": "È una parola tedesca.",
+          "article": "der",
+          "plural": "Kindergärten",
+          "type": "n"
+        },
+        {
+          "de": "Sturm und Drang",
+          "it": "tempesta e passione",
+          "example": "Das ist Sturm und Drang.",
+          "exampleIt": "È tempesta e passione.",
+          "article": null,
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Wunderkind",
+          "it": "bambino prodigio",
+          "example": "Das Kind ist ein Wunderkind.",
+          "exampleIt": "Il bambino è un prodigio.",
+          "article": "das",
+          "plural": "Wunderkinder",
+          "type": "n"
+        },
+        {
+          "de": "Fingerspitzengefühl",
+          "it": "tatto",
+          "example": "Das erfordert Fingerspitzengefühl.",
+          "exampleIt": "Richiede tatto.",
+          "article": "das",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Torschlusspanik",
+          "it": "panico della porta che si chiude",
+          "example": "Das ist Torschlusspanik.",
+          "exampleIt": "È il panico della porta che si chiude.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Verschlimmbesserung",
+          "it": "peggioramento",
+          "example": "Das ist eine Verschlimmbesserung.",
+          "exampleIt": "È un peggioramento.",
+          "article": "die",
+          "plural": "Verschlimmbesserungen",
+          "type": "n"
+        },
+        {
+          "de": "Handschuhschneeballwerfer",
+          "it": "lanciatore di palle di neve con guanti",
+          "example": "Das ist ein dichterisches Wort.",
+          "exampleIt": "È una parola poetica.",
+          "article": "der",
+          "plural": "Handschuhschneeballwerfer",
+          "type": "n"
+        }
+      ]
+    },
+    {
+      "name": "Sfumature",
+      "nameIt": "Nuances",
+      "words": [
+        {
+          "de": "allerdings / jedoch",
+          "it": "tuttavia / però (allerdings è più colloquiale, jedoch più formale)",
+          "example": "Er ist klug, allerdings fehlt ihm Erfahrung. / Er ist klug, jedoch fehlt ihm Erfahrung.",
+          "exampleIt": "È intelligente, tuttavia gli manca esperienza.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "obgleich / obwohl",
+          "it": "sebbene / benché (varianti sinonime)",
+          "example": "Obgleich müde, arbeitet er weiter. / Obwohl müde, arbeitet er weiter.",
+          "exampleIt": "Sebbene stanco, continua a lavorare.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "infolgedessen / demzufolge",
+          "it": "di conseguenza / quindi (infolgedessen più formale)",
+          "example": "Der Plan ist klar, infolgedessen handeln wir. / Der Plan ist klar, demzufolge handeln wir.",
+          "exampleIt": "Il piano è chiaro, di conseguenza agiamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "nichtsdestotrotz",
+          "it": "ciononostante",
+          "example": "Der Preis ist hoch, nichtsdestotrotz kaufen wir.",
+          "exampleIt": "Il prezzo è alto, ciononostante compriamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "gleichwohl",
+          "it": "tuttavia",
+          "example": "Das ist schwierig, gleichwohl versuchen wir.",
+          "exampleIt": "È difficile, tuttavia proviamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "indessen",
+          "it": "intanto / nel frattempo",
+          "example": "Das Konzert beginnt, indessen warten wir.",
+          "exampleIt": "Il concerto inizia, intanto aspettiamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "mithin",
+          "it": "dunque / quindi",
+          "example": "Das Problem ist ernst, mithin müssen wir handeln.",
+          "exampleIt": "Il problema è grave, dunque dobbiamo agire.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "insofern",
+          "it": "nella misura in cui",
+          "example": "Insofern das stimmt, akzeptieren wir.",
+          "exampleIt": "Nella misura in cui è vero, accettiamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "demnach",
+          "it": "quindi / di conseguenza",
+          "example": "Das Gesetz ist verabschiedet, demnach gelten neue Regeln.",
+          "exampleIt": "La legge è approvata, quindi valgono nuove regole.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "folglich",
+          "it": "di conseguenza",
+          "example": "Das ist die Ursache, folglich die Wirkung.",
+          "exampleIt": "Questa è la causa, di conseguenza l'effetto.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "überdies",
+          "it": "inoltre",
+          "example": "Das ist richtig, überdies ist es gerecht.",
+          "exampleIt": "È giusto, inoltre è equo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "ferner",
+          "it": "inoltre",
+          "example": "Das erste Punkt ist relevant, ferner der zweite.",
+          "exampleIt": "Il primo punto è rilevante, inoltre il secondo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "zumal",
+          "it": "specialmente / tanto più che",
+          "example": "Das ist wichtig, zumal jetzt.",
+          "exampleIt": "È importante, specialmente adesso.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "wenngleich",
+          "it": "sebbene / benché",
+          "example": "Wenngleich umstritten, akzeptieren wir.",
+          "exampleIt": "Sebbene controverso, accettiamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "wiewohl",
+          "it": "sebbene / benché",
+          "example": "Wiewohl schwierig, schaffen wir das.",
+          "exampleIt": "Sebbene difficile, ce la facciamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "freilich",
+          "it": "certo / certamente",
+          "example": "Das ist richtig, freilich mit Vorbehalt.",
+          "exampleIt": "È giusto, certo con riserva.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "indes",
+          "it": "invece / d'altronde",
+          "example": "Das ist eine Aussage, indes eine andere.",
+          "exampleIt": "Questa è un'affermazione, invece un'altra.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "derweil",
+          "it": "mentre / intanto",
+          "example": "Er arbeitet, derweil schlafen wir.",
+          "exampleIt": "Lui lavora, mentre dormiamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "alldieweil",
+          "it": "mentre / poiché",
+          "example": "Alldieweil das stimmt, akzeptieren wir.",
+          "exampleIt": "Mentre questo è vero, accettiamo.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        },
+        {
+          "de": "dessenungeachtet",
+          "it": "malgrado ciò",
+          "example": "Er wollte nicht, dessenungeachtet ging er.",
+          "exampleIt": "Non voleva, malgrado ciò andò.",
+          "article": null,
+          "plural": null,
+          "type": "conj"
+        }
+      ]
+    },
+    {
+      "name": "Wissenschaftlich",
+      "nameIt": "Scientifico",
+      "words": [
+        {
+          "de": "Paradigmenwechsel",
+          "it": "cambio di paradigma",
+          "example": "Der Paradigmenwechsel ist revolutionär.",
+          "exampleIt": "Il cambio di paradigma è rivoluzionario.",
+          "article": "der",
+          "plural": "Paradigmenwechsel",
+          "type": "n"
+        },
+        {
+          "de": "Kausalität",
+          "it": "causalità",
+          "example": "Die Kausalität ist komplex.",
+          "exampleIt": "La causalità è complessa.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Korrelation",
+          "it": "correlazione",
+          "example": "Die Korrelation ist stark.",
+          "exampleIt": "La correlazione è forte.",
+          "article": "die",
+          "plural": "Korrelationen",
+          "type": "n"
+        },
+        {
+          "de": "Signifikanz",
+          "it": "significatività",
+          "example": "Die Signifikanz ist hoch.",
+          "exampleIt": "La significatività è elevata.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Implikation",
+          "it": "implicazione",
+          "example": "Die Implikation ist tiefgreifend.",
+          "exampleIt": "L'implicazione è profonda.",
+          "article": "die",
+          "plural": "Implikationen",
+          "type": "n"
+        },
+        {
+          "de": "Falsifizierung",
+          "it": "falsificazione",
+          "example": "Die Falsifizierung ist möglich.",
+          "exampleIt": "La falsificazione è possibile.",
+          "article": "die",
+          "plural": "Falsifizierungen",
+          "type": "n"
+        },
+        {
+          "de": "Verifizierung",
+          "it": "verifica",
+          "example": "Die Verifizierung ist erforderlich.",
+          "exampleIt": "La verifica è richiesta.",
+          "article": "die",
+          "plural": "Verifizierungen",
+          "type": "n"
+        },
+        {
+          "de": "Axiom",
+          "it": "assioma",
+          "example": "Das Axiom ist unumstößlich.",
+          "exampleIt": "L'assioma è incontestabile.",
+          "article": "das",
+          "plural": "Axiome",
+          "type": "n"
+        },
+        {
+          "de": "Postulat",
+          "it": "postulato",
+          "example": "Das Postulat ist grundlegend.",
+          "exampleIt": "Il postulato è fondamentale.",
+          "article": "das",
+          "plural": "Postulate",
+          "type": "n"
+        },
+        {
+          "de": "Prämisse",
+          "it": "premessa",
+          "example": "Die Prämisse ist falsch.",
+          "exampleIt": "La premessa è sbagliata.",
+          "article": "die",
+          "plural": "Prämissen",
+          "type": "n"
+        },
+        {
+          "de": "Syllogismus",
+          "it": "sillogismo",
+          "example": "Der Syllogismus ist logisch.",
+          "exampleIt": "Il sillogismo è logico.",
+          "article": "der",
+          "plural": "Syllogismen",
+          "type": "n"
+        },
+        {
+          "de": "Deduktion",
+          "it": "deduzione",
+          "example": "Die Deduktion ist streng.",
+          "exampleIt": "La deduzione è rigorosa.",
+          "article": "die",
+          "plural": "Deduktionen",
+          "type": "n"
+        },
+        {
+          "de": "Induktion",
+          "it": "induzione",
+          "example": "Die Induktion ist generalisierend.",
+          "exampleIt": "L'induzione è generalizzante.",
+          "article": "die",
+          "plural": "Induktionen",
+          "type": "n"
+        },
+        {
+          "de": "Empirie",
+          "it": "empiria",
+          "example": "Die Empirie ist entscheidend.",
+          "exampleIt": "L'empiria è decisiva.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Heuristik",
+          "it": "euristica",
+          "example": "Die Heuristik ist nützlich.",
+          "exampleIt": "L'euristica è utile.",
+          "article": "die",
+          "plural": "Heuristiken",
+          "type": "n"
+        },
+        {
+          "de": "Epistemologie",
+          "it": "epistemologia",
+          "example": "Epistemologie ist philosophisch.",
+          "exampleIt": "L'epistemologia è filosofica.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Ontologie",
+          "it": "ontologia",
+          "example": "Ontologie fragt nach dem Sein.",
+          "exampleIt": "L'ontologia chiede dell'essere.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Hermeneutik",
+          "it": "ermeneutica",
+          "example": "Hermeneutik interpretiert Texte.",
+          "exampleIt": "L'ermeneutica interpreta i testi.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Phänomenologie",
+          "it": "fenomenologia",
+          "example": "Phänomenologie untersucht Erlebnisse.",
+          "exampleIt": "La fenomenologia esamina le esperienze.",
+          "article": "die",
+          "plural": null,
+          "type": "n"
+        },
+        {
+          "de": "Determinismus",
+          "it": "determinismo",
+          "example": "Der Determinismus ist umstritten.",
+          "exampleIt": "Il determinismo è controverso.",
+          "article": "der",
+          "plural": null,
+          "type": "n"
+        }
+      ]
+    }
+  ]
+}

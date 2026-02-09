@@ -5,10 +5,10 @@ export default function BottomNav({ currentPage, onNavigate }) {
   return (
     <div className="bottom-nav">
       <button className={`bottom-nav-item ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>Home</span></button>
+      <button className={`bottom-nav-item ${currentPage === 'paths' ? 'active' : ''}`} onClick={() => onNavigate('paths')}><Icons.Target /><span>Percorsi</span></button>
       <button className={`bottom-nav-item ${currentPage === 'lessons' ? 'active' : ''}`} onClick={() => onNavigate('lessons')}><Icons.Lessons /><span>Lezioni</span></button>
       <button className={`bottom-nav-item ${currentPage === 'practice' || currentPage === 'flashcards' || currentPage === 'writing' || currentPage === 'listening' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
       <button className={`bottom-nav-item ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
-      <button className={`bottom-nav-item ${currentPage === 'profile' ? 'active' : ''}`} onClick={() => onNavigate('profile')}><Icons.Profile /><span>Profilo</span></button>
     </div>
   );
 }

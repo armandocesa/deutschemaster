@@ -267,7 +267,7 @@ export const getXPHistory = (days) => {
     history: []
   });
 
-  const startDate = getDaysAgo(days);
+  const startDate = getDaysAgo(days || 30);
   const history = {};
 
   data.history.forEach(entry => {

@@ -8,6 +8,7 @@ import {
   getProgress,
   markWordStatus
 } from '../utils/storage';
+import { addXP, recordActivity } from '../utils/gamification';
 
 // Helper to get review words - words marked as incorrect in practice
 function getReviewWords() {
@@ -34,15 +35,6 @@ function addToReview(wordId, german, italian) {
     progress.wordsToReview.push({ id: wordId, german, italian, addedAt: Date.now() });
     localStorage.setItem('dm_learningProgress', JSON.stringify(progress));
   }
-}
-
-// Helper to add XP (placeholder - integrate with actual gamification)
-function addXP(points) {
-  try {
-    const userStats = JSON.parse(localStorage.getItem('dm_userStats')) || { xp: 0, level: 1 };
-    userStats.xp += points;
-    localStorage.setItem('dm_userStats', JSON.stringify(userStats));
-  } catch {}
 }
 
 export default function FlashcardsPage({ onNavigate }) {
@@ -127,7 +119,8 @@ export default function FlashcardsPage({ onNavigate }) {
       ...prev,
       correct: prev.correct + 1
     }));
-    addXP(5);
+    addXP(5, 'flashcard_review');
+    recordActivity();
 
     if (source === 'review') {
       recordReview(card.id, true);

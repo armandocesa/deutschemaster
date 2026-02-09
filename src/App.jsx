@@ -16,12 +16,16 @@ import ProfilePage from './pages/ProfilePage';
 import FlashcardsPage from './pages/FlashcardsPage';
 import WritingPage from './pages/WritingPage';
 import ListeningPage from './pages/ListeningPage';
+import PathsPage from './pages/PathsPage';
+import EssentialWordsPage from './pages/EssentialWordsPage';
+import VerbPrefixesPage from './pages/VerbPrefixesPage';
 
 const PAGE_NAMES = {
   home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura',
   quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica',
   favorites: 'Salvate', lessons: 'Lezioni', profile: 'Profilo', flashcards: 'Flashcards',
-  writing: 'Scrittura', listening: 'Ascolto'
+  writing: 'Scrittura', listening: 'Ascolto', paths: 'Percorsi',
+  'essential-words': 'Parole Essenziali', 'verb-prefixes': 'Prefissi Verbali'
 };
 
 export default function App() {
@@ -85,6 +89,9 @@ export default function App() {
         {currentPage === 'flashcards' && <FlashcardsPage onNavigate={navigate} />}
         {currentPage === 'writing' && <WritingPage onNavigate={navigate} />}
         {currentPage === 'listening' && <ListeningPage onNavigate={navigate} />}
+        {currentPage === 'paths' && <PathsPage onNavigate={navigate} />}
+        {currentPage === 'essential-words' && <EssentialWordsPage level={selectedLevel} onNavigate={navigate} />}
+        {currentPage === 'verb-prefixes' && <VerbPrefixesPage onNavigate={navigate} />}
       </main>
       <BottomNav currentPage={currentPage} onNavigate={navigate} />
       <Footer />
