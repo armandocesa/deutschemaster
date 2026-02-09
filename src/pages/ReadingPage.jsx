@@ -67,7 +67,7 @@ export default function ReadingPage({ level, reading, onNavigate }) {
   return (
     <div className="reading-page">
       <div className="page-header"><h1 className="page-title">Lettura</h1><p className="page-subtitle">{getLevelName(activeLevel)} - {texts.length} testi</p></div>
-      <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} />
+      <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
       <div className="reading-list">
         {texts.map(t => (<div key={t.id} className="reading-card" onClick={() => onNavigate('reading',{level:activeLevel,reading:t})}><span className="theme-badge">{t.theme}</span><h3>{t.title}</h3><p>{t.text.substring(0,100)}...</p></div>))}
       </div>

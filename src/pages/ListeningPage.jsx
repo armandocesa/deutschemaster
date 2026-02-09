@@ -4,6 +4,8 @@ import { LEVEL_COLORS, fisherYatesShuffle } from '../utils/constants';
 import { useData } from '../DataContext';
 import { addXP, recordActivity } from '../utils/gamification';
 import { speak } from '../utils/speech';
+import { useLevelAccess } from '../hooks/useLevelAccess';
+import LevelAccessModal from '../components/LevelAccessModal';
 
 // Levenshtein distance for dictation mode
 function levenshteinDistance(a, b) {
@@ -28,6 +30,7 @@ function levenshteinDistance(a, b) {
 
 export default function ListeningPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
+  const { canAccessLevel } = useLevelAccess();
   const [mode, setMode] = useState('setup');
   const [exerciseType, setExerciseType] = useState('word');
   const [selectedLevel, setSelectedLevel] = useState('A1');
@@ -40,6 +43,7 @@ export default function ListeningPage({ onNavigate }) {
   const [results, setResults] = useState([]);
   const [playCount, setPlayCount] = useState(0);
   const [totalXP, setTotalXP] = useState(0);
+  const [lockedLevel, setLockedLevel] = useState(null);
 
   // Generate questions for word listening (Ascolta e scegli)
   const generateWordQuestions = (level, count) => {
@@ -213,6 +217,19 @@ export default function ListeningPage({ onNavigate }) {
 
   const colors = LEVEL_COLORS[selectedLevel];
 
+  const handleLevelChange = (lvl) => {
+    if (!canAccessLevel(lvl)) {
+      setLockedLevel(lvl);
+      return;
+    }
+    setSelectedLevel(lvl);
+  };
+
+  const handleLoginClick = () => {
+    setLockedLevel(null);
+    onNavigate('login');
+  };
+
   // Setup Screen
   if (mode === 'setup') {
     return (
@@ -243,16 +260,21 @@ export default function ListeningPage({ onNavigate }) {
             <div className="setup-section">
               <h3>Livello</h3>
               <div className="setup-options levels">
-                {Object.entries(LEVEL_COLORS).map(([lvl, col]) => (
-                  <button
-                    key={lvl}
-                    className={`setup-option level ${selectedLevel === lvl ? 'active' : ''}`}
-                    style={{ '--level-color': col.bg }}
-                    onClick={() => setSelectedLevel(lvl)}
-                  >
-                    {lvl}
-                  </button>
-                ))}
+                {Object.entries(LEVEL_COLORS).map(([lvl, col]) => {
+                  const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
+                  return (
+                    <button
+                      key={lvl}
+                      className={`setup-option level ${selectedLevel === lvl ? 'active' : ''} ${isLocked ? 'locked' : ''}`}
+                      style={{ '--level-color': col.bg }}
+                      onClick={() => handleLevelChange(lvl)}
+                      disabled={isLocked}
+                    >
+                      {lvl}
+                      {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
@@ -276,6 +298,13 @@ export default function ListeningPage({ onNavigate }) {
             </button>
           </div>
         </div>
+
+        <LevelAccessModal
+          isOpen={lockedLevel !== null}
+          level={lockedLevel}
+          onClose={() => setLockedLevel(null)}
+          onLoginClick={handleLoginClick}
+        />
       </div>
     );
   }

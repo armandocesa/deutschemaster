@@ -73,7 +73,7 @@ export default function VocabularyPage({ level, module, onNavigate }) {
           <h1 className="page-title">Vocabolario</h1>
           <p className="page-subtitle">{getLevelName(activeLevel)} - {modules.length} moduli</p>
         </div>
-        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} />
+        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
         <div className="modules-grid">
           {modules.map((mod, idx) => {
             const modWords = mod.words || [];

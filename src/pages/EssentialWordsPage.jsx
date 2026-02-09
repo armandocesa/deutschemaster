@@ -255,7 +255,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
       </div>
 
       <div style={{ padding: '0 20px' }}>
-        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} />
+        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
       </div>
 
       <div style={{ padding: '16px 20px' }}>

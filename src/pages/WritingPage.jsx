@@ -4,6 +4,8 @@ import { LEVEL_COLORS, fisherYatesShuffle } from '../utils/constants';
 import { useData } from '../DataContext';
 import { addXP, recordActivity } from '../utils/gamification';
 import { speak } from '../utils/speech';
+import { useLevelAccess } from '../hooks/useLevelAccess';
+import LevelAccessModal from '../components/LevelAccessModal';
 
 // Levenshtein distance function for checking "almost correct" answers
 function levenshtein(a, b) {
@@ -38,6 +40,7 @@ function levenshtein(a, b) {
 
 export default function WritingPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
+  const { canAccessLevel } = useLevelAccess();
   const [mode, setMode] = useState('setup');
   const [exerciseType, setExerciseType] = useState('word');
   const [selectedLevel, setSelectedLevel] = useState('A1');
@@ -47,6 +50,7 @@ export default function WritingPage({ onNavigate }) {
   const [userInput, setUserInput] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [results, setResults] = useState([]);
+  const [lockedLevel, setLockedLevel] = useState(null);
 
   // Generate hint from German word (first letter + dashes)
   const getHint = (word) => {
@@ -109,6 +113,19 @@ export default function WritingPage({ onNavigate }) {
     }
 
     return qs;
+  };
+
+  const handleLevelChange = (lvl) => {
+    if (!canAccessLevel(lvl)) {
+      setLockedLevel(lvl);
+      return;
+    }
+    setSelectedLevel(lvl);
+  };
+
+  const handleLoginClick = () => {
+    setLockedLevel(null);
+    onNavigate('login');
   };
 
   // Start the exercise
@@ -260,27 +277,33 @@ export default function WritingPage({ onNavigate }) {
           <div className="setup-section" style={{ marginBottom: '32px' }}>
             <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>Livello</h3>
             <div className="setup-options levels" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
-              {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => (
-                <button
-                  key={lvl}
-                  className={`setup-option level ${selectedLevel === lvl ? 'active' : ''}`}
-                  onClick={() => setSelectedLevel(lvl)}
-                  style={{
-                    padding: '12px 16px',
-                    border: selectedLevel === lvl ? '2px solid' : '1px solid transparent',
-                    borderColor: selectedLevel === lvl ? colors.bg : 'var(--border-color)',
-                    borderRadius: '8px',
-                    backgroundColor: selectedLevel === lvl ? colors.light : 'var(--bg-secondary)',
-                    color: colors.text,
-                    cursor: 'pointer',
-                    fontWeight: '600',
-                    fontSize: '14px',
-                    transition: 'all 0.2s'
-                  }}
-                >
-                  {lvl}
-                </button>
-              ))}
+              {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
+                const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
+                return (
+                  <button
+                    key={lvl}
+                    className={`setup-option level ${selectedLevel === lvl ? 'active' : ''} ${isLocked ? 'locked' : ''}`}
+                    onClick={() => handleLevelChange(lvl)}
+                    disabled={isLocked}
+                    style={{
+                      padding: '12px 16px',
+                      border: selectedLevel === lvl ? '2px solid' : '1px solid transparent',
+                      borderColor: selectedLevel === lvl ? colors.bg : 'var(--border-color)',
+                      borderRadius: '8px',
+                      backgroundColor: selectedLevel === lvl ? colors.light : isLocked ? 'var(--bg-secondary)' : 'var(--bg-secondary)',
+                      color: isLocked ? 'var(--text-secondary)' : colors.text,
+                      cursor: isLocked ? 'not-allowed' : 'pointer',
+                      fontWeight: '600',
+                      fontSize: '14px',
+                      transition: 'all 0.2s',
+                      opacity: isLocked ? 0.5 : 1
+                    }}
+                  >
+                    {lvl}
+                    {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
+                  </button>
+                );
+              })}
             </div>
           </div>
 
@@ -329,6 +352,13 @@ export default function WritingPage({ onNavigate }) {
             Inizia
           </button>
         </div>
+
+        <LevelAccessModal
+          isOpen={lockedLevel !== null}
+          level={lockedLevel}
+          onClose={() => setLockedLevel(null)}
+          onLoginClick={handleLoginClick}
+        />
       </div>
     );
   }

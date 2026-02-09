@@ -5,9 +5,12 @@ import { useData } from '../DataContext';
 import { getDifficultWords, updateQuizStats, markWordStatus, markGrammarStatus, isReviewQuestion, saveReviewQuestion, removeReviewQuestion } from '../utils/storage';
 import { addXP, recordActivity, addToReview } from '../utils/gamification';
 import { saveAndSync } from '../utils/cloudSync';
+import { useLevelAccess } from '../hooks/useLevelAccess';
+import LevelAccessModal from '../components/LevelAccessModal';
 
 export default function QuizPage({ level, onNavigate }) {
   const { VOCABULARY_DATA, GRAMMAR_DATA } = useData();
+  const { canAccessLevel } = useLevelAccess();
   const [quizState, setQuizState] = useState('setup');
   const [quizType, setQuizType] = useState('vocabulary');
   const [quizLevel, setQuizLevel] = useState(level || 'A1');
@@ -16,8 +19,22 @@ export default function QuizPage({ level, onNavigate }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState({});
+  const [lockedLevel, setLockedLevel] = useState(null);
 
   useEffect(() => { if (level) setQuizLevel(level); }, [level]);
+
+  const handleLevelChange = (lvl) => {
+    if (!canAccessLevel(lvl)) {
+      setLockedLevel(lvl);
+      return;
+    }
+    setQuizLevel(lvl);
+  };
+
+  const handleLoginClick = () => {
+    setLockedLevel(null);
+    onNavigate('login');
+  };
 
   const getUsedQuestions = (type, lvl) => { try { return JSON.parse(localStorage.getItem(`dm_quiz_${type}_${lvl}`)) || []; } catch { return []; } };
   const saveUsedQuestions = (type, lvl, used) => { saveAndSync(`dm_quiz_${type}_${lvl}`, JSON.stringify(used)); };
@@ -111,13 +128,32 @@ export default function QuizPage({ level, onNavigate }) {
           </div>
           <div className="setup-section"><h3>Livello</h3>
             <div className="setup-options levels">
-              {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => (
-                <button key={lvl} className={`setup-option level ${quizLevel===lvl?'active':''}`} style={{'--level-color': colors.bg}} onClick={() => setQuizLevel(lvl)}>{lvl}</button>
-              ))}
+              {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
+                const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
+                return (
+                  <button
+                    key={lvl}
+                    className={`setup-option level ${quizLevel===lvl?'active':''} ${isLocked ? 'locked' : ''}`}
+                    style={{'--level-color': colors.bg}}
+                    onClick={() => handleLevelChange(lvl)}
+                    disabled={isLocked}
+                  >
+                    {lvl}
+                    {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
+                  </button>
+                );
+              })}
             </div>
           </div>
           <button className="start-quiz-btn" onClick={startQuiz}>Inizia Quiz</button>
         </div>
+
+        <LevelAccessModal
+          isOpen={lockedLevel !== null}
+          level={lockedLevel}
+          onClose={() => setLockedLevel(null)}
+          onLoginClick={handleLoginClick}
+        />
       </div>
     );
   }

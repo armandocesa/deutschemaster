@@ -275,7 +275,7 @@ export default function GrammarPage({ level, topic, onNavigate }) {
           <h1 className="page-title">Grammatica</h1>
           <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel)} - {topics.length} argomenti</p>
         </div>
-        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} />
+        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
         <div className="topics-list">
           {topics.map((t, idx) => {
             const topicId = t.id || `${activeLevel}_${idx}`;

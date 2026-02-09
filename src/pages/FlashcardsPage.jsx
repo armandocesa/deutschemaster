@@ -9,6 +9,8 @@ import {
   markWordStatus
 } from '../utils/storage';
 import { addXP, recordActivity } from '../utils/gamification';
+import { useLevelAccess } from '../hooks/useLevelAccess';
+import LevelAccessModal from '../components/LevelAccessModal';
 
 // Helper to get review words - words marked as incorrect in practice
 function getReviewWords() {
@@ -39,6 +41,7 @@ function addToReview(wordId, german, italian) {
 
 export default function FlashcardsPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
+  const { canAccessLevel } = useLevelAccess();
 
   // States
   const [mode, setMode] = useState('setup'); // 'setup' | 'playing' | 'finished'
@@ -52,6 +55,7 @@ export default function FlashcardsPage({ onNavigate }) {
   const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0, total: 0 });
   const [reviewWordsCount, setReviewWordsCount] = useState(0);
   const [difficultWordsCount, setDifficultWordsCount] = useState(0);
+  const [lockedLevel, setLockedLevel] = useState(null);
 
   // Initialize counts when component mounts
   useEffect(() => {
@@ -96,6 +100,19 @@ export default function FlashcardsPage({ onNavigate }) {
     // Shuffle and take requested amount
     const shuffled = fisherYatesShuffle(allWords);
     return shuffled.slice(0, Math.min(count, shuffled.length));
+  };
+
+  const handleLevelChange = (level) => {
+    if (!canAccessLevel(level)) {
+      setLockedLevel(level);
+      return;
+    }
+    setSelectedLevel(level);
+  };
+
+  const handleLoginClick = () => {
+    setLockedLevel(null);
+    onNavigate('login');
   };
 
   // Start the flashcard session
@@ -261,22 +278,26 @@ export default function FlashcardsPage({ onNavigate }) {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px' }}>
               {['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(level => {
                 const colors = LEVEL_COLORS[level];
+                const isLocked = level !== 'A1' && !canAccessLevel(level);
                 return (
                   <button
                     key={level}
-                    onClick={() => setSelectedLevel(level)}
+                    onClick={() => handleLevelChange(level)}
+                    disabled={isLocked}
                     style={{
                       padding: '12px',
                       borderRadius: '8px',
                       border: selectedLevel === level ? `2px solid ${colors.bg}` : '2px solid transparent',
-                      background: selectedLevel === level ? colors.light : 'var(--bg-secondary)',
-                      color: selectedLevel === level ? colors.text : 'var(--text-primary)',
+                      background: selectedLevel === level && !isLocked ? colors.light : isLocked ? 'var(--bg-secondary)' : 'var(--bg-secondary)',
+                      color: selectedLevel === level && !isLocked ? colors.text : isLocked ? 'var(--text-secondary)' : 'var(--text-primary)',
                       fontWeight: 600,
-                      cursor: 'pointer',
+                      cursor: isLocked ? 'not-allowed' : 'pointer',
                       transition: 'all 0.2s',
+                      opacity: isLocked ? 0.5 : 1,
                     }}
                   >
                     {level}
+                    {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
                   </button>
                 );
               })}
@@ -331,6 +352,13 @@ export default function FlashcardsPage({ onNavigate }) {
             Inizia
           </button>
         </div>
+
+        <LevelAccessModal
+          isOpen={lockedLevel !== null}
+          level={lockedLevel}
+          onClose={() => setLockedLevel(null)}
+          onLoginClick={handleLoginClick}
+        />
       </div>
     );
   }
