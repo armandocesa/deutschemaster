@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useData } from '../DataContext';
 import { LEVEL_COLORS } from '../utils/constants';
+import { saveAndSync } from '../utils/cloudSync';
 
 // Complete path data with all 6 CEFR levels
 const PATHS_DATA = [
@@ -399,7 +400,7 @@ const PathsPage = ({ onNavigate }) => {
     const key = `${stageId}_${activity.id}`;
     const updated = { ...pathProgress, [key]: true };
     setPathProgress(updated);
-    localStorage.setItem('dm_path_progress', JSON.stringify(updated));
+    saveAndSync('dm_path_progress', JSON.stringify(updated));
 
     if (activity.target.lesson !== undefined) {
       onNavigate(activity.target.page, { lesson: activity.target.lesson });

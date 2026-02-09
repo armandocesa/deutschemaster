@@ -4,6 +4,7 @@ import LevelTabs from '../components/LevelTabs';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
 import { getGrammarStatus } from '../utils/storage';
+import { saveAndSync } from '../utils/cloudSync';
 
 function GrammarTopicDetail({ topic, level, colors }) {
   const [answerVisibility, setAnswerVisibility] = useState({});
@@ -259,7 +260,7 @@ export default function GrammarPage({ level, topic, onNavigate }) {
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
-    try { localStorage.setItem('dm_last_level', lvl); } catch {}
+    try { saveAndSync('dm_last_level', lvl); } catch {}
     if (level) onNavigate('grammar', { level: lvl });
   };
 

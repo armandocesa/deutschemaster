@@ -1,4 +1,6 @@
-// ============ NAMESPACED LOCALSTORAGE ============
+// ============ NAMESPACED LOCALSTORAGE WITH CLOUD SYNC ============
+import { saveAndSync } from './cloudSync';
+
 export const getDifficultWords = () => {
   try { return JSON.parse(localStorage.getItem('dm_difficultWords')) || []; } catch { return []; }
 };
@@ -8,13 +10,13 @@ export const saveDifficultWord = (word, type = 'word') => {
   const id = type === 'verb' ? word.infinitiv : word.german;
   if (!words.find(w => w.id === id)) {
     words.push({ ...word, id, type, savedAt: Date.now() });
-    localStorage.setItem('dm_difficultWords', JSON.stringify(words));
+    saveAndSync('dm_difficultWords', JSON.stringify(words));
   }
 };
 
 export const removeDifficultWord = (id) => {
   const words = getDifficultWords().filter(w => w.id !== id);
-  localStorage.setItem('dm_difficultWords', JSON.stringify(words));
+  saveAndSync('dm_difficultWords', JSON.stringify(words));
 };
 
 export const isDifficultWord = (id) => getDifficultWords().some(w => w.id === id);
@@ -28,13 +30,13 @@ export const saveReviewQuestion = (question) => {
   const id = question.question;
   if (!questions.find(q => q.id === id)) {
     questions.push({ ...question, id, savedAt: Date.now() });
-    localStorage.setItem('dm_reviewQuestions', JSON.stringify(questions));
+    saveAndSync('dm_reviewQuestions', JSON.stringify(questions));
   }
 };
 
 export const removeReviewQuestion = (id) => {
   const questions = getReviewQuestions().filter(q => q.id !== id);
-  localStorage.setItem('dm_reviewQuestions', JSON.stringify(questions));
+  saveAndSync('dm_reviewQuestions', JSON.stringify(questions));
 };
 
 export const isReviewQuestion = (id) => getReviewQuestions().some(q => q.id === id);
@@ -47,7 +49,7 @@ export const updateQuizStats = (correct) => {
   const stats = getQuizStats();
   stats.totalAnswered++;
   if (correct) stats.correctAnswers++;
-  localStorage.setItem('dm_quizStats', JSON.stringify(stats));
+  saveAndSync('dm_quizStats', JSON.stringify(stats));
 };
 
 export const getProgress = () => {
@@ -55,7 +57,7 @@ export const getProgress = () => {
   catch { return { words: {}, grammar: {}, verbs: {} }; }
 };
 
-export const saveProgress = (progress) => { localStorage.setItem('dm_learningProgress', JSON.stringify(progress)); };
+export const saveProgress = (progress) => { saveAndSync('dm_learningProgress', JSON.stringify(progress)); };
 
 export const markWordStatus = (wordId, correct) => { const p = getProgress(); p.words[wordId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() }; saveProgress(p); };
 export const markGrammarStatus = (topicId, correct) => { const p = getProgress(); p.grammar[topicId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() }; saveProgress(p); };

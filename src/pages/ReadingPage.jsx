@@ -3,6 +3,7 @@ import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
+import { saveAndSync } from '../utils/cloudSync';
 
 function ReadingDetail({ reading, level, colors }) {
   const [answers, setAnswers] = useState({});
@@ -59,7 +60,7 @@ export default function ReadingPage({ level, reading, onNavigate }) {
   const activeLevel = level || internalLevel;
   const texts = READING_DATA.levels?.[activeLevel]?.texts || [];
   const colors = LEVEL_COLORS[activeLevel];
-  const handleLevelChange = (lvl) => { setInternalLevel(lvl); try{localStorage.setItem('dm_last_level',lvl)}catch{} if(level) onNavigate('reading',{level:lvl}); };
+  const handleLevelChange = (lvl) => { setInternalLevel(lvl); try{saveAndSync('dm_last_level',lvl)}catch{} if(level) onNavigate('reading',{level:lvl}); };
 
   if (reading) return <ReadingDetail reading={reading} level={activeLevel} colors={colors} />;
 

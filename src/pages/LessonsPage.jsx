@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Icons from '../components/Icons';
 import { useData } from '../DataContext';
 import { speak } from '../utils/speech';
+import { saveAndSync } from '../utils/cloudSync';
 
 function LessonDetail({ lesson }) {
   const [progress, setProgress] = useState(() => { try { return JSON.parse(localStorage.getItem('dm_lessons_progress') || '{}'); } catch { return {}; } });
@@ -13,7 +14,7 @@ function LessonDetail({ lesson }) {
     setProgress(prev => {
       const next = { ...prev };
       if (next[lesson.id]) delete next[lesson.id]; else next[lesson.id] = true;
-      try { localStorage.setItem('dm_lessons_progress', JSON.stringify(next)); } catch {}
+      try { saveAndSync('dm_lessons_progress', JSON.stringify(next)); } catch {}
       return next;
     });
   };

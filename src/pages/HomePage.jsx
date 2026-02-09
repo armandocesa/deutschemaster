@@ -4,6 +4,7 @@ import { LEVEL_COLORS } from '../utils/constants';
 import { useData } from '../DataContext';
 import { getQuizStats, getDifficultWords } from '../utils/storage';
 import { getStreak, getXP, checkDailyGoal, recordActivity, getReviewStats, checkBadges } from '../utils/gamification';
+import { saveAndSync } from '../utils/cloudSync';
 
 function QuickActionCard({ icon, title, color, onClick, noLevel, badge }) {
   const [selectedLvl, setSelectedLvl] = useState(() => {
@@ -12,7 +13,7 @@ function QuickActionCard({ icon, title, color, onClick, noLevel, badge }) {
   const handleLevelClick = (e, lvl) => {
     e.stopPropagation();
     setSelectedLvl(lvl);
-    try { localStorage.setItem('dm_last_level', lvl); } catch {}
+    try { saveAndSync('dm_last_level', lvl); } catch {}
     onClick(lvl);
   };
   return (

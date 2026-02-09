@@ -10,8 +10,10 @@ import {
   getBadges,
 } from '../utils/gamification';
 import { getQuizStats, getProgressStats, getDifficultWords } from '../utils/storage';
+import { useAuth } from '../contexts/AuthContext';
 
 const ProfilePage = ({ onNavigate }) => {
+  const { user, isAuthenticated, logout, firebaseEnabled } = useAuth();
   const dailyGoalData = getDailyGoal();
   const [selectedGoal, setSelectedGoal] = useState(dailyGoalData.target || 50);
   const goalOptions = [10, 30, 50, 100, 150];
@@ -171,6 +173,61 @@ const ProfilePage = ({ onNavigate }) => {
           >
             Il tuo Profilo
           </h1>
+
+          {/* Account Section */}
+          <div style={{
+            marginBottom: '24px',
+            padding: '16px',
+            backgroundColor: 'var(--bg-card, #22222d)',
+            borderRadius: '12px',
+            border: '1px solid var(--border, rgba(255,255,255,0.07))',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '12px',
+          }}>
+            {isAuthenticated ? (
+              <>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <div style={{
+                    width: '42px', height: '42px', borderRadius: '50%',
+                    background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    fontSize: '18px', fontWeight: 800, color: 'white',
+                  }}>
+                    {(user?.displayName || user?.email || '?')[0].toUpperCase()}
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: '15px' }}>{user?.displayName || 'Utente'}</div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-secondary, #8888a0)' }}>{user?.email}</div>
+                  </div>
+                </div>
+                <button onClick={async () => { await logout(); onNavigate('home'); }} style={{
+                  padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(239,68,68,0.3)',
+                  backgroundColor: 'rgba(239,68,68,0.1)', color: '#ef4444', fontSize: '13px',
+                  fontWeight: 600, cursor: 'pointer',
+                }}>
+                  Esci
+                </button>
+              </>
+            ) : (
+              <>
+                <div style={{ fontSize: '14px', color: 'var(--text-secondary, #8888a0)' }}>
+                  {firebaseEnabled ? 'Accedi per salvare i progressi su cloud' : 'I progressi sono salvati localmente'}
+                </div>
+                {firebaseEnabled && (
+                  <button onClick={() => onNavigate('login')} style={{
+                    padding: '8px 16px', borderRadius: '8px', border: 'none',
+                    background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', color: 'white',
+                    fontSize: '13px', fontWeight: 600, cursor: 'pointer',
+                  }}>
+                    Accedi / Registrati
+                  </button>
+                )}
+              </>
+            )}
+          </div>
 
           <div
             style={{

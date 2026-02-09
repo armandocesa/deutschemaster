@@ -4,6 +4,7 @@ import { LEVEL_COLORS, fisherYatesShuffle } from '../utils/constants';
 import { useData } from '../DataContext';
 import { getDifficultWords, updateQuizStats, markWordStatus, markGrammarStatus, isReviewQuestion, saveReviewQuestion, removeReviewQuestion } from '../utils/storage';
 import { addXP, recordActivity, addToReview } from '../utils/gamification';
+import { saveAndSync } from '../utils/cloudSync';
 
 export default function QuizPage({ level, onNavigate }) {
   const { VOCABULARY_DATA, GRAMMAR_DATA } = useData();
@@ -19,7 +20,7 @@ export default function QuizPage({ level, onNavigate }) {
   useEffect(() => { if (level) setQuizLevel(level); }, [level]);
 
   const getUsedQuestions = (type, lvl) => { try { return JSON.parse(localStorage.getItem(`dm_quiz_${type}_${lvl}`)) || []; } catch { return []; } };
-  const saveUsedQuestions = (type, lvl, used) => { localStorage.setItem(`dm_quiz_${type}_${lvl}`, JSON.stringify(used)); };
+  const saveUsedQuestions = (type, lvl, used) => { saveAndSync(`dm_quiz_${type}_${lvl}`, JSON.stringify(used)); };
 
   const findSimilarAnswers = (correct, allAnswers, count = 3) => {
     const c = correct.toLowerCase().trim();

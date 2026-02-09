@@ -1,7 +1,10 @@
 // ============================================================================
 // DEUTSCHE MASTER GAMIFICATION ENGINE
 // Complete gamification system with localStorage persistence (dm_ prefix)
+// Cloud sync: all writes use saveAndSync for real-time Firestore sync
 // ============================================================================
+
+import { saveAndSync } from './cloudSync';
 
 // ============================================================================
 // UTILITY FUNCTIONS
@@ -40,14 +43,14 @@ const daysBetween = (date1, date2) => {
 const initStorage = (key, defaultValue) => {
   const existing = localStorage.getItem(`dm_${key}`);
   if (!existing) {
-    localStorage.setItem(`dm_${key}`, JSON.stringify(defaultValue));
+    saveAndSync(`dm_${key}`, JSON.stringify(defaultValue));
     return defaultValue;
   }
   try {
     return JSON.parse(existing);
   } catch (e) {
     console.warn(`Failed to parse dm_${key}, resetting to default`);
-    localStorage.setItem(`dm_${key}`, JSON.stringify(defaultValue));
+    saveAndSync(`dm_${key}`, JSON.stringify(defaultValue));
     return defaultValue;
   }
 };
@@ -104,7 +107,7 @@ export const recordActivity = () => {
   }
 
   data.lastActiveDate = today;
-  localStorage.setItem('dm_streak', JSON.stringify(data));
+  saveAndSync('dm_streak', JSON.stringify(data));
   return data;
 };
 
@@ -211,7 +214,7 @@ export const addXP = (amount, source, streakMultiplier = 1) => {
     timestamp
   });
 
-  localStorage.setItem('dm_xp', JSON.stringify(data));
+  saveAndSync('dm_xp', JSON.stringify(data));
 
   // Check for level-up
   const levelInfo = getLevel(data.totalXP);
@@ -304,7 +307,7 @@ export const getDailyGoal = () => {
   const today = getToday();
   if (!data.completedDates.includes(today) && completed) {
     data.completedDates.push(today);
-    localStorage.setItem('dm_daily_goal', JSON.stringify(data));
+    saveAndSync('dm_daily_goal', JSON.stringify(data));
   }
 
   // Calculate streak of completed daily goals
@@ -644,7 +647,7 @@ export const checkBadges = () => {
     }
   }
 
-  localStorage.setItem('dm_badges', JSON.stringify(unlockedData));
+  saveAndSync('dm_badges', JSON.stringify(unlockedData));
   return newlyUnlocked;
 };
 
@@ -717,7 +720,7 @@ export const recordReview = (wordId, correct) => {
   word.nextReview = nextReviewDate.toISOString().split('T')[0];
   word.lastReview = today;
 
-  localStorage.setItem('dm_spaced_repetition', JSON.stringify(data));
+  saveAndSync('dm_spaced_repetition', JSON.stringify(data));
   return true;
 };
 
@@ -742,7 +745,7 @@ export const addToReview = (wordId, german, italian) => {
     dateAdded: today
   };
 
-  localStorage.setItem('dm_spaced_repetition', JSON.stringify(data));
+  saveAndSync('dm_spaced_repetition', JSON.stringify(data));
   return true;
 };
 
