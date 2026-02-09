@@ -1,0 +1,912 @@
+[
+  {
+    "id": "arte",
+    "name": "arte",
+    "category": "arte",
+    "icon": "🎭",
+    "wordCount": 3
+  },
+  {
+    "id": "congiunzioni_sub",
+    "name": "congiunzioni_sub",
+    "category": "congiunzioni_sub",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "preposizioni",
+    "name": "preposizioni",
+    "category": "preposizioni",
+    "icon": "📍",
+    "wordCount": 3
+  },
+  {
+    "id": "verbi_c1",
+    "name": "verbi_c1",
+    "category": "verbi_c1",
+    "icon": "🔄",
+    "wordCount": 95
+  },
+  {
+    "id": "accademico",
+    "name": "accademico",
+    "category": "accademico",
+    "icon": "📖",
+    "wordCount": 79
+  },
+  {
+    "id": "aggettivi_c1",
+    "name": "aggettivi_c1",
+    "category": "aggettivi_c1",
+    "icon": "✨",
+    "wordCount": 70
+  },
+  {
+    "id": "connettivi_c1",
+    "name": "connettivi_c1",
+    "category": "connettivi_c1",
+    "icon": "📖",
+    "wordCount": 51
+  },
+  {
+    "id": "astratti_c1",
+    "name": "astratti_c1",
+    "category": "astratti_c1",
+    "icon": "📖",
+    "wordCount": 62
+  },
+  {
+    "id": "pensiero_c1",
+    "name": "pensiero_c1",
+    "category": "pensiero_c1",
+    "icon": "📖",
+    "wordCount": 58
+  },
+  {
+    "id": "giuridico",
+    "name": "giuridico",
+    "category": "giuridico",
+    "icon": "📖",
+    "wordCount": 66
+  },
+  {
+    "id": "letterario",
+    "name": "letterario",
+    "category": "letterario",
+    "icon": "📖",
+    "wordCount": 45
+  },
+  {
+    "id": "psicologico",
+    "name": "psicologico",
+    "category": "psicologico",
+    "icon": "📖",
+    "wordCount": 56
+  },
+  {
+    "id": "filosofico",
+    "name": "filosofico",
+    "category": "filosofico",
+    "icon": "📖",
+    "wordCount": 61
+  },
+  {
+    "id": "idiomatico",
+    "name": "idiomatico",
+    "category": "idiomatico",
+    "icon": "📖",
+    "wordCount": 46
+  },
+  {
+    "id": "avverbi_tempo",
+    "name": "avverbi_tempo",
+    "category": "avverbi_tempo",
+    "icon": "⏰",
+    "wordCount": 1
+  },
+  {
+    "id": "finanza_avz",
+    "name": "finanza_avz",
+    "category": "finanza_avz",
+    "icon": "💶",
+    "wordCount": 13
+  },
+  {
+    "id": "business",
+    "name": "business",
+    "category": "business",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "c1",
+    "name": "c1",
+    "category": "c1",
+    "icon": "📖",
+    "wordCount": 8
+  },
+  {
+    "id": "avverbi_avz",
+    "name": "avverbi_avz",
+    "category": "avverbi_avz",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "trattamenti",
+    "name": "trattamenti",
+    "category": "trattamenti",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "diagnosi",
+    "name": "diagnosi",
+    "category": "diagnosi",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "strutture",
+    "name": "strutture",
+    "category": "strutture",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "salute_mentale",
+    "name": "salute_mentale",
+    "category": "salute_mentale",
+    "icon": "🏥",
+    "wordCount": 3
+  },
+  {
+    "id": "moda",
+    "name": "moda",
+    "category": "moda",
+    "icon": "👗",
+    "wordCount": 1
+  },
+  {
+    "id": "professioni_leg",
+    "name": "professioni_leg",
+    "category": "professioni_leg",
+    "icon": "👔",
+    "wordCount": 6
+  },
+  {
+    "id": "chimica",
+    "name": "chimica",
+    "category": "chimica",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "geologia",
+    "name": "geologia",
+    "category": "geologia",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "emozioni_pos",
+    "name": "emozioni_pos",
+    "category": "emozioni_pos",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "emozioni_neg",
+    "name": "emozioni_neg",
+    "category": "emozioni_neg",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "stati_mentali",
+    "name": "stati_mentali",
+    "category": "stati_mentali",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "atteggiamenti",
+    "name": "atteggiamenti",
+    "category": "atteggiamenti",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "verbi_perc",
+    "name": "verbi_perc",
+    "category": "verbi_perc",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "akademische_sprache",
+    "name": "Linguaggio accademico",
+    "category": "Linguaggio accademico",
+    "icon": "📝",
+    "wordCount": 16
+  },
+  {
+    "id": "linguistik",
+    "name": "Linguistica",
+    "category": "Linguistica",
+    "icon": "🗣️",
+    "wordCount": 19
+  },
+  {
+    "id": "wirtschaftspolitik",
+    "name": "Politica economica",
+    "category": "Politica economica",
+    "icon": "📊",
+    "wordCount": 18
+  },
+  {
+    "id": "neurowissenschaft",
+    "name": "Neuroscienze",
+    "category": "Neuroscienze",
+    "icon": "🧬",
+    "wordCount": 18
+  },
+  {
+    "id": "biotechnologie",
+    "name": "Biotecnologia",
+    "category": "Biotecnologia",
+    "icon": "🧪",
+    "wordCount": 18
+  },
+  {
+    "id": "klimaforschung",
+    "name": "Climatologia",
+    "category": "Climatologia",
+    "icon": "🌡️",
+    "wordCount": 18
+  },
+  {
+    "id": "philosophie_vertieft",
+    "name": "Filosofia approfondita",
+    "category": "Filosofia approfondita",
+    "icon": "🤔",
+    "wordCount": 18
+  },
+  {
+    "id": "kulturwissenschaft",
+    "name": "Studi culturali",
+    "category": "Studi culturali",
+    "icon": "🌐",
+    "wordCount": 18
+  },
+  {
+    "id": "literaturwissenschaft",
+    "name": "Scienza della letteratura",
+    "category": "Scienza della letteratura",
+    "icon": "📖",
+    "wordCount": 20
+  },
+  {
+    "id": "informatik",
+    "name": "Informatica",
+    "category": "Informatica",
+    "icon": "💻",
+    "wordCount": 18
+  },
+  {
+    "id": "astronomie",
+    "name": "Astronomia e fisica",
+    "category": "Astronomia e fisica",
+    "icon": "🔭",
+    "wordCount": 18
+  },
+  {
+    "id": "archaeologie",
+    "name": "Archeologia",
+    "category": "Archeologia",
+    "icon": "🏺",
+    "wordCount": 18
+  },
+  {
+    "id": "musikwissenschaft",
+    "name": "Musicologia",
+    "category": "Musicologia",
+    "icon": "🎼",
+    "wordCount": 18
+  },
+  {
+    "id": "religionswissenschaft",
+    "name": "Studi religiosi",
+    "category": "Studi religiosi",
+    "icon": "🕊️",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9404",
+    "name": "Corpus Linguistik",
+    "category": "Corpus Linguistik",
+    "icon": "📊",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9405",
+    "name": "Sprachphilosophie",
+    "category": "Sprachphilosophie",
+    "icon": "💭",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9406",
+    "name": "Kognitionswissenschaft",
+    "category": "Kognitionswissenschaft",
+    "icon": "🧠",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9407",
+    "name": "Wissenschaftstheorie",
+    "category": "Wissenschaftstheorie",
+    "icon": "🔬",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9408",
+    "name": "Empirische Forschung",
+    "category": "Empirische Forschung",
+    "icon": "📏",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9409",
+    "name": "Qualitative Forschung",
+    "category": "Qualitative Forschung",
+    "icon": "📝",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9410",
+    "name": "Quantitative Forschung",
+    "category": "Quantitative Forschung",
+    "icon": "📈",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9411",
+    "name": "Politische Philosophie",
+    "category": "Politische Philosophie",
+    "icon": "🏛️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9412",
+    "name": "Medientheorie",
+    "category": "Medientheorie",
+    "icon": "📡",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9413",
+    "name": "Wirtschaftsethik",
+    "category": "Wirtschaftsethik",
+    "icon": "⚖️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9414",
+    "name": "Umweltethik",
+    "category": "Umweltethik",
+    "icon": "🌿",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9415",
+    "name": "Internationale Politik",
+    "category": "Internationale Politik",
+    "icon": "🌍",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9416",
+    "name": "Energiewende",
+    "category": "Energiewende",
+    "icon": "⚡",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9417",
+    "name": "Digitale Transformation",
+    "category": "Digitale Transformation",
+    "icon": "💻",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9418",
+    "name": "Künstliche Intelligenz erweitert",
+    "category": "Künstliche Intelligenz erweitert",
+    "icon": "🤖",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9419",
+    "name": "Datenschutzrecht",
+    "category": "Datenschutzrecht",
+    "icon": "🔐",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9420",
+    "name": "Verfassungsrecht",
+    "category": "Verfassungsrecht",
+    "icon": "📜",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9421",
+    "name": "Wettbewerbsrecht",
+    "category": "Wettbewerbsrecht",
+    "icon": "⚖️",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9422",
+    "name": "Europarecht",
+    "category": "Europarecht",
+    "icon": "🇪🇺",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9423",
+    "name": "Wirtschaftswissenschaft",
+    "category": "Wirtschaftswissenschaft",
+    "icon": "📈",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9424",
+    "name": "Soziologie vertieft",
+    "category": "Soziologie vertieft",
+    "icon": "👥",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9425",
+    "name": "Politikwissenschaft",
+    "category": "Politikwissenschaft",
+    "icon": "🏛️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9426",
+    "name": "Rechtswissenschaft vertieft",
+    "category": "Rechtswissenschaft vertieft",
+    "icon": "⚖️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9427",
+    "name": "Neurowissenschaften",
+    "category": "Neurowissenschaften",
+    "icon": "🧬",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9428",
+    "name": "Umweltwissenschaft",
+    "category": "Umweltwissenschaft",
+    "icon": "🌱",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9429",
+    "name": "Informatik und KI",
+    "category": "Informatik und KI",
+    "icon": "🤖",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9430",
+    "name": "Medizinethik",
+    "category": "Medizinethik",
+    "icon": "⚕️",
+    "wordCount": 8
+  },
+  {
+    "id": "extra_9431",
+    "name": "Sprachphilosophie vertieft",
+    "category": "Sprachphilosophie vertieft",
+    "icon": "💬",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9432",
+    "name": "Forschungsmethodik",
+    "category": "Forschungsmethodik",
+    "icon": "📐",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9433",
+    "name": "Energietechnik",
+    "category": "Energietechnik",
+    "icon": "⚡",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9434",
+    "name": "Bioethik vertieft",
+    "category": "Bioethik vertieft",
+    "icon": "🧪",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9435",
+    "name": "Mathematische Grundlagen",
+    "category": "Mathematische Grundlagen",
+    "icon": "🔢",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9436",
+    "name": "Medienkommunikation",
+    "category": "Medienkommunikation",
+    "icon": "📢",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9437",
+    "name": "Philosophie des Geistes",
+    "category": "Philosophie des Geistes",
+    "icon": "🧠",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9438",
+    "name": "Literaturwissenschaft",
+    "category": "Literaturwissenschaft",
+    "icon": "📖",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9439",
+    "name": "Internationale Wirtschaft",
+    "category": "Internationale Wirtschaft",
+    "icon": "🌐",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9440",
+    "name": "Verwaltungswissenschaft",
+    "category": "Verwaltungswissenschaft",
+    "icon": "🏛️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9441",
+    "name": "Materialkunde",
+    "category": "Materialkunde",
+    "icon": "⚙️",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9442",
+    "name": "Spracherwerbsforschung",
+    "category": "Spracherwerbsforschung",
+    "icon": "👶",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9443",
+    "name": "Städtebau",
+    "category": "Städtebau",
+    "icon": "🏗️",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9444",
+    "name": "Ethik und Recht",
+    "category": "Ethik und Recht",
+    "icon": "⚖️",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9445",
+    "name": "Datenwissenschaft",
+    "category": "Datenwissenschaft",
+    "icon": "📊",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9446",
+    "name": "Governance und Regulation",
+    "category": "Governance und Regulation",
+    "icon": "📜",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9447",
+    "name": "Wissenschaftskommunikation",
+    "category": "Wissenschaftskommunikation",
+    "icon": "📢",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9448",
+    "name": "Kulturanthropologie",
+    "category": "Kulturanthropologie",
+    "icon": "🌍",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9449",
+    "name": "Systembiologie",
+    "category": "Systembiologie",
+    "icon": "🧫",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9450",
+    "name": "Raumfahrttechnik",
+    "category": "Raumfahrttechnik",
+    "icon": "🚀",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9451",
+    "name": "Sozialpsychologie",
+    "category": "Sozialpsychologie",
+    "icon": "👥",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9452",
+    "name": "Gesundheitsökonomie",
+    "category": "Gesundheitsökonomie",
+    "icon": "💊",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9453",
+    "name": "Medienrecht",
+    "category": "Medienrecht",
+    "icon": "📺",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9454",
+    "name": "Öffentliches Recht",
+    "category": "Öffentliches Recht",
+    "icon": "⚖️",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9455",
+    "name": "Klimawissenschaft",
+    "category": "Klimawissenschaft",
+    "icon": "🌍",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9456",
+    "name": "Linguistische Pragmatik",
+    "category": "Linguistische Pragmatik",
+    "icon": "💬",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9457",
+    "name": "Kartografie",
+    "category": "Kartografie",
+    "icon": "🗺️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9458",
+    "name": "Museumskunde",
+    "category": "Museumskunde",
+    "icon": "🏛️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9459",
+    "name": "Bibliothekswissenschaft",
+    "category": "Bibliothekswissenschaft",
+    "icon": "📚",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9460",
+    "name": "Veterinärmedizin",
+    "category": "Veterinärmedizin",
+    "icon": "🐾",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9461",
+    "name": "Kriminologie",
+    "category": "Kriminologie",
+    "icon": "🔎",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9462",
+    "name": "Denkmalpflege",
+    "category": "Denkmalpflege",
+    "icon": "🏰",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9463",
+    "name": "Ernährungswissenschaft",
+    "category": "Ernährungswissenschaft",
+    "icon": "🥗",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9464",
+    "name": "Toxikologie",
+    "category": "Toxikologie",
+    "icon": "☠️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9465",
+    "name": "Siedlungswasserwirtschaft",
+    "category": "Siedlungswasserwirtschaft",
+    "icon": "🚰",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9466",
+    "name": "Optik und Photonik",
+    "category": "Optik und Photonik",
+    "icon": "🔦",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9467",
+    "name": "Papierherstellung",
+    "category": "Papierherstellung",
+    "icon": "📄",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9468",
+    "name": "Sportmedizin",
+    "category": "Sportmedizin",
+    "icon": "🏃",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9469",
+    "name": "Schädlingsbekämpfung",
+    "category": "Schädlingsbekämpfung",
+    "icon": "🐛",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9470",
+    "name": "Archivwesen",
+    "category": "Archivwesen",
+    "icon": "🗄️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9471",
+    "name": "Agrartechnik",
+    "category": "Agrartechnik",
+    "icon": "🚜",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9472",
+    "name": "Geotechnik",
+    "category": "Geotechnik",
+    "icon": "🏔️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9473",
+    "name": "Lebensmittelrecht",
+    "category": "Lebensmittelrecht",
+    "icon": "📜",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9474",
+    "name": "Hydraulik und Pneumatik",
+    "category": "Hydraulik und Pneumatik",
+    "icon": "🔩",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9475",
+    "name": "Korrosionsschutz",
+    "category": "Korrosionsschutz",
+    "icon": "🛡️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9476",
+    "name": "Textilchemie",
+    "category": "Textilchemie",
+    "icon": "🧪",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9477",
+    "name": "Wasser- und Abwassertechnik",
+    "category": "Wasser- und Abwassertechnik",
+    "icon": "🚿",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9478",
+    "name": "Werkstoffprüfung",
+    "category": "Werkstoffprüfung",
+    "icon": "🔬",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9479",
+    "name": "Lacktechnik",
+    "category": "Lacktechnik",
+    "icon": "🎨",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9480",
+    "name": "Schweißtechnik",
+    "category": "Schweißtechnik",
+    "icon": "🔥",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9481",
+    "name": "Abwasseranalytik",
+    "category": "Abwasseranalytik",
+    "icon": "🧫",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9482",
+    "name": "Heizungstechnik",
+    "category": "Heizungstechnik",
+    "icon": "🔧",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9483",
+    "name": "Lichttechnik",
+    "category": "Lichttechnik",
+    "icon": "💡",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9484",
+    "name": "Aufzugstechnik",
+    "category": "Aufzugstechnik",
+    "icon": "🛗",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9485",
+    "name": "Elektromobilität",
+    "category": "Elektromobilität",
+    "icon": "🔋",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9486",
+    "name": "Sicherheitstechnik",
+    "category": "Sicherheitstechnik",
+    "icon": "🔐",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9487",
+    "name": "Oberflächentechnik",
+    "category": "Oberflächentechnik",
+    "icon": "🔬",
+    "wordCount": 16
+  }
+]

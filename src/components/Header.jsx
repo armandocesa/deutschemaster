@@ -1,0 +1,36 @@
+import React from 'react';
+import Icons from './Icons';
+
+export default function Header({ currentPage, onNavigate, onBack, showBack, breadcrumbs }) {
+  return (
+    <header className="header">
+      <div className="header-content">
+        {showBack ? (
+          <button className="back-btn" onClick={onBack}><Icons.Back /></button>
+        ) : (
+          <div className="logo" onClick={() => onNavigate('home')}>
+            <span className="logo-icon">{'\u{1F1E9}\u{1F1EA}'}</span>
+            <span className="logo-text">DeutschMaster</span>
+          </div>
+        )}
+        {breadcrumbs && breadcrumbs.length > 0 && (
+          <div className="breadcrumbs">
+            {breadcrumbs.map((b, i) => (
+              <React.Fragment key={i}>
+                {i > 0 && <span className="breadcrumb-sep">&rsaquo;</span>}
+                <button className="breadcrumb-item" onClick={b.onClick}>{b.label}</button>
+              </React.Fragment>
+            ))}
+          </div>
+        )}
+        <nav className="nav desktop-nav">
+          <button className={`nav-btn ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>Home</span></button>
+          <button className={`nav-btn ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>Verbi</span></button>
+          <button className={`nav-btn ${currentPage === 'practice' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>Pratica</span></button>
+          <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>Salvate</span></button>
+          <button className={`nav-btn ${currentPage === 'lessons' ? 'active' : ''}`} onClick={() => onNavigate('lessons')}><Icons.Lessons /><span>Lezioni</span></button>
+        </nav>
+      </div>
+    </header>
+  );
+}

@@ -1,0 +1,802 @@
+[
+ {
+  "id": 1,
+  "number": 1,
+  "title": "Viel Glück!",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Saluti"
+ },
+ {
+  "id": 2,
+  "number": 2,
+  "title": "Im Hotel",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Alloggio"
+ },
+ {
+  "id": 3,
+  "number": 3,
+  "title": "Das Foto",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Descrizione"
+ },
+ {
+  "id": 4,
+  "number": 4,
+  "title": "Das Frühstück im Café",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Cibo"
+ },
+ {
+  "id": 5,
+  "number": 5,
+  "title": "Ein Telefongespräch",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Telefono"
+ },
+ {
+  "id": 6,
+  "number": 6,
+  "title": "Es ist noch nicht spät",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Tempo"
+ },
+ {
+  "id": 7,
+  "number": 7,
+  "title": "Wiederholung (ripasso)",
+  "phase": "passiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 8,
+  "number": 8,
+  "title": "Was trinken wir?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Bevande"
+ },
+ {
+  "id": 9,
+  "number": 9,
+  "title": "Wer hat Geld?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Denaro"
+ },
+ {
+  "id": 10,
+  "number": 10,
+  "title": "Das ist nicht dumm!",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Opinioni"
+ },
+ {
+  "id": 11,
+  "number": 11,
+  "title": "Eine Nachricht",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Messaggi"
+ },
+ {
+  "id": 12,
+  "number": 12,
+  "title": "Bist du's, Janina?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Incontri"
+ },
+ {
+  "id": 13,
+  "number": 13,
+  "title": "Ferienende",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Vacanze"
+ },
+ {
+  "id": 14,
+  "number": 14,
+  "title": "Wiederholung (ripasso)",
+  "phase": "passiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 15,
+  "number": 15,
+  "title": "Entschuldigen Sie bitte, ich habe eine Frage...",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Cortesia"
+ },
+ {
+  "id": 16,
+  "number": 16,
+  "title": "Warum vergeht die Zeit so schnell?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Tempo"
+ },
+ {
+  "id": 17,
+  "number": 17,
+  "title": "Zahlen machen müde",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Numeri"
+ },
+ {
+  "id": 18,
+  "number": 18,
+  "title": "Eine Postkarte aus München",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Corrispondenza"
+ },
+ {
+  "id": 19,
+  "number": 19,
+  "title": "Essen? Ja gern! Aber was?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Cibo"
+ },
+ {
+  "id": 20,
+  "number": 20,
+  "title": "Am Bahnhof",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Trasporti"
+ },
+ {
+  "id": 21,
+  "number": 21,
+  "title": "Wiederholung (ripasso)",
+  "phase": "passiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 22,
+  "number": 22,
+  "title": "Das Geburtstagsfest",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Feste"
+ },
+ {
+  "id": 23,
+  "number": 23,
+  "title": "Eine gute Organisation",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Organizzazione"
+ },
+ {
+  "id": 24,
+  "number": 24,
+  "title": "Komm, wir gehen einkaufen!",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Shopping"
+ },
+ {
+  "id": 25,
+  "number": 25,
+  "title": "Ist Ihr Terminkalender auch zu voll?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Agenda"
+ },
+ {
+  "id": 26,
+  "number": 26,
+  "title": "Was machen wir heute Abend, Liebling?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Tempo libero"
+ },
+ {
+  "id": 27,
+  "number": 27,
+  "title": "Na, schmeckt's?",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Cibo"
+ },
+ {
+  "id": 28,
+  "number": 28,
+  "title": "Wiederholung (ripasso)",
+  "phase": "passiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 29,
+  "number": 29,
+  "title": "Man kann nicht immer Glück haben",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 30,
+  "number": 30,
+  "title": "Dienst ist Dienst und Schnaps ist Schnaps",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Lavoro"
+ },
+ {
+  "id": 31,
+  "number": 31,
+  "title": "Guter Rat ist teuer",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Consigli"
+ },
+ {
+  "id": 32,
+  "number": 32,
+  "title": "Ein gefährliches Missverständnis",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Malintesi"
+ },
+ {
+  "id": 33,
+  "number": 33,
+  "title": "Die Stadtbesichtigung",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Turismo"
+ },
+ {
+  "id": 34,
+  "number": 34,
+  "title": "Was man darf und was man nicht darf",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Regole"
+ },
+ {
+  "id": 35,
+  "number": 35,
+  "title": "Wiederholung (ripasso)",
+  "phase": "passiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 36,
+  "number": 36,
+  "title": "Eine gute Partie (1)",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Relazioni"
+ },
+ {
+  "id": 37,
+  "number": 37,
+  "title": "Eine gute Partie (2)",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Relazioni"
+ },
+ {
+  "id": 38,
+  "number": 38,
+  "title": "Alles zu seiner Zeit",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 39,
+  "number": 39,
+  "title": "Die Zeiten ändern sich",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Cambiamento"
+ },
+ {
+  "id": 40,
+  "number": 40,
+  "title": "Der Autokauf",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Acquisti"
+ },
+ {
+  "id": 41,
+  "number": 41,
+  "title": "Die Stadt Dresden ist eine Reise wert",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Viaggi"
+ },
+ {
+  "id": 42,
+  "number": 42,
+  "title": "Wiederholung (ripasso)",
+  "phase": "passiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 43,
+  "number": 43,
+  "title": "Die Mücke",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Natura"
+ },
+ {
+  "id": 44,
+  "number": 44,
+  "title": "Der 31. Dezember",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Feste"
+ },
+ {
+  "id": 45,
+  "number": 45,
+  "title": "In der letzten Minute",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Suspense"
+ },
+ {
+  "id": 46,
+  "number": 46,
+  "title": "\"Der Mensch denkt und Gott lenkt\"",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 47,
+  "number": 47,
+  "title": "Im Vorzimmer des Chefs",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Lavoro"
+ },
+ {
+  "id": 48,
+  "number": 48,
+  "title": "Ein schwieriger Samstagmorgen",
+  "phase": "passiva",
+  "isReview": false,
+  "tag": "Quotidianità"
+ },
+ {
+  "id": 49,
+  "number": 49,
+  "title": "Wiederholung (ripasso)",
+  "phase": "passiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 50,
+  "number": 50,
+  "title": "Anzeigen für Ferienwohnungen",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Alloggio"
+ },
+ {
+  "id": 51,
+  "number": 51,
+  "title": "Eine Radiosendung",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Media"
+ },
+ {
+  "id": 52,
+  "number": 52,
+  "title": "Pünktlichkeit ist die Höflichkeit der Könige",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 53,
+  "number": 53,
+  "title": "Er ist nicht auf den Mund gefallen",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Espressioni"
+ },
+ {
+  "id": 54,
+  "number": 54,
+  "title": "Kopf hoch!",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Incoraggiamento"
+ },
+ {
+  "id": 55,
+  "number": 55,
+  "title": "\"Der Apfel fällt nicht weit vom Stamm\"",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 56,
+  "number": 56,
+  "title": "Wiederholung (ripasso)",
+  "phase": "attiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 57,
+  "number": 57,
+  "title": "Wer wird das alles essen?",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Cibo"
+ },
+ {
+  "id": 58,
+  "number": 58,
+  "title": "Der Hase und der Igel (1)",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Fiaba"
+ },
+ {
+  "id": 59,
+  "number": 59,
+  "title": "Der Hase und der Igel (2)",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Fiaba"
+ },
+ {
+  "id": 60,
+  "number": 60,
+  "title": "Der Hase und der Igel (3)",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Fiaba"
+ },
+ {
+  "id": 61,
+  "number": 61,
+  "title": "Ein überzeugendes Argument",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Discussione"
+ },
+ {
+  "id": 62,
+  "number": 62,
+  "title": "Eine schlaue Verkäuferin im Reisebüro",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Viaggi"
+ },
+ {
+  "id": 63,
+  "number": 63,
+  "title": "Wiederholung (ripasso)",
+  "phase": "attiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 64,
+  "number": 64,
+  "title": "Berlin, die Hauptstadt der Bundesrepublik Deutschland",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Cultura"
+ },
+ {
+  "id": 65,
+  "number": 65,
+  "title": "Wie wird man reich?",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Denaro"
+ },
+ {
+  "id": 66,
+  "number": 66,
+  "title": "Ein perfekter Ehemann",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Relazioni"
+ },
+ {
+  "id": 67,
+  "number": 67,
+  "title": "Und was ist für Sie das Paradies?",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Filosofia"
+ },
+ {
+  "id": 68,
+  "number": 68,
+  "title": "Zehn Fragen zu Ihrer Allgemeinbildung",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Cultura generale"
+ },
+ {
+  "id": 69,
+  "number": 69,
+  "title": "Man nimmt sich niemals genug in Acht",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 70,
+  "number": 70,
+  "title": "Wiederholung (ripasso)",
+  "phase": "attiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 71,
+  "number": 71,
+  "title": "\"Vater werden ist nicht schwer, Vater sein dagegen sehr\"",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Famiglia"
+ },
+ {
+  "id": 72,
+  "number": 72,
+  "title": "Dreimal dürfen Sie raten",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Giochi"
+ },
+ {
+  "id": 73,
+  "number": 73,
+  "title": "Ein Tierfreund",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Animali"
+ },
+ {
+  "id": 74,
+  "number": 74,
+  "title": "\"Ich bin von Kopf bis Fuß auf Liebe eingestellt\"",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Musica"
+ },
+ {
+  "id": 75,
+  "number": 75,
+  "title": "\"Was der Bauer nicht kennt, isst er nicht.\"",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 76,
+  "number": 76,
+  "title": "Im Dunkeln geschehen komische Dinge",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Umorismo"
+ },
+ {
+  "id": 77,
+  "number": 77,
+  "title": "Wiederholung (ripasso)",
+  "phase": "attiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 78,
+  "number": 78,
+  "title": "Der Vorteil flexibler Arbeitszeiten",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Lavoro"
+ },
+ {
+  "id": 79,
+  "number": 79,
+  "title": "Auf der Autobahn",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Trasporti"
+ },
+ {
+  "id": 80,
+  "number": 80,
+  "title": "Eine positive oder negative Antwort?",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Comunicazione"
+ },
+ {
+  "id": 81,
+  "number": 81,
+  "title": "Ein nicht ganz alltägliches Vorstellungsgespräch (1)",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Lavoro"
+ },
+ {
+  "id": 82,
+  "number": 82,
+  "title": "Ein nicht ganz alltägliches Vorstellungsgespräch (2)",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Lavoro"
+ },
+ {
+  "id": 83,
+  "number": 83,
+  "title": "Genial oder verrückt?",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Opinioni"
+ },
+ {
+  "id": 84,
+  "number": 84,
+  "title": "Wiederholung (ripasso)",
+  "phase": "attiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 85,
+  "number": 85,
+  "title": "Wie wird das Frühstücksei gegessen? (1)",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Quotidianità"
+ },
+ {
+  "id": 86,
+  "number": 86,
+  "title": "Wie wird das Frühstücksei gegessen? (2)",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Quotidianità"
+ },
+ {
+  "id": 87,
+  "number": 87,
+  "title": "Willkommen auf der Wies'n!",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Cultura"
+ },
+ {
+  "id": 88,
+  "number": 88,
+  "title": "Unsere Vorfahren, die Affen",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Scienza"
+ },
+ {
+  "id": 89,
+  "number": 89,
+  "title": "Ein Interview im Radio mit Herrn \"Stöffche\", dem Apfelwein-König",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Media"
+ },
+ {
+  "id": 90,
+  "number": 90,
+  "title": "Ein perfekter Plan",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Umorismo"
+ },
+ {
+  "id": 91,
+  "number": 91,
+  "title": "Wiederholung (ripasso)",
+  "phase": "attiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 92,
+  "number": 92,
+  "title": "Der verständnisvolle Blumenhändler",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Commercio"
+ },
+ {
+  "id": 93,
+  "number": 93,
+  "title": "Bewahren Sie die Ruhe, wenn möglich!",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Consigli"
+ },
+ {
+  "id": 94,
+  "number": 94,
+  "title": "Noch einmal Glück gehabt!",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Fortuna"
+ },
+ {
+  "id": 95,
+  "number": 95,
+  "title": "Wenn sie das gewusst hätte...",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Konjunktiv"
+ },
+ {
+  "id": 96,
+  "number": 96,
+  "title": "Auf Regen folgt Sonnenschein",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 97,
+  "number": 97,
+  "title": "Wenn es doch nur schneien würde!",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Meteo"
+ },
+ {
+  "id": 98,
+  "number": 98,
+  "title": "Wiederholung (ripasso)",
+  "phase": "attiva",
+  "isReview": true,
+  "tag": "Ripasso"
+ },
+ {
+  "id": 99,
+  "number": 99,
+  "title": "Ohne Fleiß kein Preis",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Proverbi"
+ },
+ {
+  "id": 100,
+  "number": 100,
+  "title": "Ende gut, alles gut",
+  "phase": "attiva",
+  "isReview": false,
+  "tag": "Conclusione"
+ }
+]

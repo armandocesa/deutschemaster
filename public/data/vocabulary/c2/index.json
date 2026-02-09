@@ -1,0 +1,646 @@
+[
+  {
+    "id": "verbi_c1",
+    "name": "verbi_c1",
+    "category": "verbi_c1",
+    "icon": "🔄",
+    "wordCount": 11
+  },
+  {
+    "id": "accademico",
+    "name": "accademico",
+    "category": "accademico",
+    "icon": "📖",
+    "wordCount": 9
+  },
+  {
+    "id": "aggettivi_c1",
+    "name": "aggettivi_c1",
+    "category": "aggettivi_c1",
+    "icon": "✨",
+    "wordCount": 10
+  },
+  {
+    "id": "connettivi_c1",
+    "name": "connettivi_c1",
+    "category": "connettivi_c1",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "pensiero_c1",
+    "name": "pensiero_c1",
+    "category": "pensiero_c1",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "giuridico",
+    "name": "giuridico",
+    "category": "giuridico",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "letterario",
+    "name": "letterario",
+    "category": "letterario",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "psicologico",
+    "name": "psicologico",
+    "category": "psicologico",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "filosofico",
+    "name": "filosofico",
+    "category": "filosofico",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "idiomatico",
+    "name": "idiomatico",
+    "category": "idiomatico",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "redewendungen_1",
+    "name": "Espressioni idiomatiche 1",
+    "category": "Espressioni idiomatiche 1",
+    "icon": "🗨️",
+    "wordCount": 8
+  },
+  {
+    "id": "redewendungen_2",
+    "name": "Espressioni idiomatiche 2",
+    "category": "Espressioni idiomatiche 2",
+    "icon": "💬",
+    "wordCount": 10
+  },
+  {
+    "id": "sprichwoerter",
+    "name": "Proverbi tedeschi",
+    "category": "Proverbi tedeschi",
+    "icon": "📜",
+    "wordCount": 15
+  },
+  {
+    "id": "fachsprache_jura",
+    "name": "Linguaggio giuridico",
+    "category": "Linguaggio giuridico",
+    "icon": "⚖️",
+    "wordCount": 16
+  },
+  {
+    "id": "fachsprache_medizin",
+    "name": "Linguaggio medico",
+    "category": "Linguaggio medico",
+    "icon": "🏥",
+    "wordCount": 18
+  },
+  {
+    "id": "fachsprache_wirtschaft",
+    "name": "Linguaggio economico",
+    "category": "Linguaggio economico",
+    "icon": "💼",
+    "wordCount": 18
+  },
+  {
+    "id": "archaismen",
+    "name": "Arcaismi e lingua elevata",
+    "category": "Arcaismi e lingua elevata",
+    "icon": "📕",
+    "wordCount": 8
+  },
+  {
+    "id": "umgangssprache",
+    "name": "Lingua colloquiale e slang",
+    "category": "Lingua colloquiale e slang",
+    "icon": "😎",
+    "wordCount": 18
+  },
+  {
+    "id": "konnektoren_partikel",
+    "name": "Connettori e particelle modali",
+    "category": "Connettori e particelle modali",
+    "icon": "🔗",
+    "wordCount": 9
+  },
+  {
+    "id": "nominalisierungen",
+    "name": "Nominalizzazioni",
+    "category": "Nominalizzazioni",
+    "icon": "📝",
+    "wordCount": 17
+  },
+  {
+    "id": "zusammengesetzte_woerter",
+    "name": "Parole composte",
+    "category": "Parole composte",
+    "icon": "🔤",
+    "wordCount": 15
+  },
+  {
+    "id": "verwaltungssprache",
+    "name": "Linguaggio burocratico",
+    "category": "Linguaggio burocratico",
+    "icon": "🏛️",
+    "wordCount": 15
+  },
+  {
+    "id": "diplomatische_sprache",
+    "name": "Linguaggio diplomatico",
+    "category": "Linguaggio diplomatico",
+    "icon": "🤝",
+    "wordCount": 16
+  },
+  {
+    "id": "metaphern",
+    "name": "Metafore e lingua figurata",
+    "category": "Metafore e lingua figurata",
+    "icon": "🎨",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9488",
+    "name": "Stilistik",
+    "category": "Stilistik",
+    "icon": "✒️",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9489",
+    "name": "Textlinguistik",
+    "category": "Textlinguistik",
+    "icon": "📄",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9490",
+    "name": "Diskursanalyse",
+    "category": "Diskursanalyse",
+    "icon": "💬",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9491",
+    "name": "Semiotik",
+    "category": "Semiotik",
+    "icon": "🔣",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9492",
+    "name": "Narratologie",
+    "category": "Narratologie",
+    "icon": "📚",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9493",
+    "name": "Komparatistik",
+    "category": "Komparatistik",
+    "icon": "📖",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9494",
+    "name": "Übersetzungswissenschaft",
+    "category": "Übersetzungswissenschaft",
+    "icon": "🌐",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9495",
+    "name": "Poetik",
+    "category": "Poetik",
+    "icon": "📜",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9496",
+    "name": "Dramentheorie",
+    "category": "Dramentheorie",
+    "icon": "🎭",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9497",
+    "name": "Filmtheorie",
+    "category": "Filmtheorie",
+    "icon": "🎬",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9498",
+    "name": "Kulturkritik",
+    "category": "Kulturkritik",
+    "icon": "🎨",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9499",
+    "name": "Ideengeschichte",
+    "category": "Ideengeschichte",
+    "icon": "💡",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9500",
+    "name": "Technikphilosophie",
+    "category": "Technikphilosophie",
+    "icon": "⚙️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9501",
+    "name": "Medizinethik",
+    "category": "Medizinethik",
+    "icon": "⚕️",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9502",
+    "name": "Gesellschaftskritik",
+    "category": "Gesellschaftskritik",
+    "icon": "🔍",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9503",
+    "name": "Wissenschaftsgeschichte",
+    "category": "Wissenschaftsgeschichte",
+    "icon": "📚",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9504",
+    "name": "Medienästhetik",
+    "category": "Medienästhetik",
+    "icon": "🎥",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9505",
+    "name": "Wissenschaftsphilosophie",
+    "category": "Wissenschaftsphilosophie",
+    "icon": "🔬",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9506",
+    "name": "Kritische Theorie",
+    "category": "Kritische Theorie",
+    "icon": "📕",
+    "wordCount": 7
+  },
+  {
+    "id": "extra_9507",
+    "name": "Sprachtheorie",
+    "category": "Sprachtheorie",
+    "icon": "🗣️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9508",
+    "name": "Ästhetik und Kunsttheorie",
+    "category": "Ästhetik und Kunsttheorie",
+    "icon": "🎨",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9509",
+    "name": "Politische Theorie vertieft",
+    "category": "Politische Theorie vertieft",
+    "icon": "🏛️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9510",
+    "name": "Hermeneutik und Interpretation",
+    "category": "Hermeneutik und Interpretation",
+    "icon": "📜",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9511",
+    "name": "Rechtstheorie",
+    "category": "Rechtstheorie",
+    "icon": "⚖️",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9512",
+    "name": "Kognitionswissenschaft vertieft",
+    "category": "Kognitionswissenschaft vertieft",
+    "icon": "🧠",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9513",
+    "name": "Translationswissenschaft",
+    "category": "Translationswissenschaft",
+    "icon": "🌐",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9514",
+    "name": "Medienphilosophie",
+    "category": "Medienphilosophie",
+    "icon": "📡",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9515",
+    "name": "Geschlechterforschung",
+    "category": "Geschlechterforschung",
+    "icon": "⚧",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9516",
+    "name": "Wirtschaftsethik vertieft",
+    "category": "Wirtschaftsethik vertieft",
+    "icon": "💹",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9517",
+    "name": "Sozialphilosophie",
+    "category": "Sozialphilosophie",
+    "icon": "🏛️",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9518",
+    "name": "Postkoloniale Studien",
+    "category": "Postkoloniale Studien",
+    "icon": "🌍",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9519",
+    "name": "Diskursanalyse vertieft",
+    "category": "Diskursanalyse vertieft",
+    "icon": "📋",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9520",
+    "name": "Wissenschaftssoziologie",
+    "category": "Wissenschaftssoziologie",
+    "icon": "🔬",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9521",
+    "name": "Semiotik vertieft",
+    "category": "Semiotik vertieft",
+    "icon": "🔣",
+    "wordCount": 7
+  },
+  {
+    "id": "extra_9522",
+    "name": "Technikphilosophie vertieft",
+    "category": "Technikphilosophie vertieft",
+    "icon": "⚙️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9523",
+    "name": "Phänomenologie",
+    "category": "Phänomenologie",
+    "icon": "💭",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9524",
+    "name": "Kulturökonomie",
+    "category": "Kulturökonomie",
+    "icon": "💰",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9525",
+    "name": "Medienarchäologie",
+    "category": "Medienarchäologie",
+    "icon": "📼",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9526",
+    "name": "Evolutionsbiologie",
+    "category": "Evolutionsbiologie",
+    "icon": "🦠",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9527",
+    "name": "Systemphilosophie",
+    "category": "Systemphilosophie",
+    "icon": "🔄",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9528",
+    "name": "Dekonstruktivismus",
+    "category": "Dekonstruktivismus",
+    "icon": "🏗️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9529",
+    "name": "Politische Ökonomie",
+    "category": "Politische Ökonomie",
+    "icon": "💰",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9530",
+    "name": "Psychoanalyse",
+    "category": "Psychoanalyse",
+    "icon": "🛋️",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9531",
+    "name": "Wissenschaftsethik",
+    "category": "Wissenschaftsethik",
+    "icon": "🔬",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9532",
+    "name": "Epistemische Logik",
+    "category": "Epistemische Logik",
+    "icon": "🧠",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9533",
+    "name": "Institutionenökonomik",
+    "category": "Institutionenökonomik",
+    "icon": "🏦",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9534",
+    "name": "Quantenphilosophie",
+    "category": "Quantenphilosophie",
+    "icon": "⚛️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9535",
+    "name": "Handlungstheorie",
+    "category": "Handlungstheorie",
+    "icon": "🎯",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9536",
+    "name": "Neuropsychologie",
+    "category": "Neuropsychologie",
+    "icon": "🧬",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9537",
+    "name": "Rechtssoziologie",
+    "category": "Rechtssoziologie",
+    "icon": "⚖️",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9538",
+    "name": "Wissenschaftsgeschichte",
+    "category": "Wissenschaftsgeschichte",
+    "icon": "📜",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9539",
+    "name": "Bioethik vertieft",
+    "category": "Bioethik vertieft",
+    "icon": "🧫",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9540",
+    "name": "Komplexitätstheorie",
+    "category": "Komplexitätstheorie",
+    "icon": "🌐",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9541",
+    "name": "Sprachökologie",
+    "category": "Sprachökologie",
+    "icon": "🌿",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9542",
+    "name": "Umweltphilosophie",
+    "category": "Umweltphilosophie",
+    "icon": "🌳",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9543",
+    "name": "Kognitive Linguistik",
+    "category": "Kognitive Linguistik",
+    "icon": "🧠",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9544",
+    "name": "Soziotechnische Systeme",
+    "category": "Soziotechnische Systeme",
+    "icon": "⚙️",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9545",
+    "name": "Ästhetische Theorie vertieft",
+    "category": "Ästhetische Theorie vertieft",
+    "icon": "🎭",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9546",
+    "name": "Demokratietheorie",
+    "category": "Demokratietheorie",
+    "icon": "🗳️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9547",
+    "name": "Kulturphilosophie",
+    "category": "Kulturphilosophie",
+    "icon": "🎨",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9548",
+    "name": "Philosophische Anthropologie",
+    "category": "Philosophische Anthropologie",
+    "icon": "🧍",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9549",
+    "name": "Systemtheorie vertieft",
+    "category": "Systemtheorie vertieft",
+    "icon": "🔄",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9550",
+    "name": "Pragmatismus",
+    "category": "Pragmatismus",
+    "icon": "🔧",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9551",
+    "name": "Medientheorie vertieft",
+    "category": "Medientheorie vertieft",
+    "icon": "📡",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9552",
+    "name": "Gerechtigkeitsphilosophie",
+    "category": "Gerechtigkeitsphilosophie",
+    "icon": "⚖️",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9553",
+    "name": "Philosophie der Zeit",
+    "category": "Philosophie der Zeit",
+    "icon": "⏰",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9554",
+    "name": "Philosophie des Geistes vertieft",
+    "category": "Philosophie des Geistes vertieft",
+    "icon": "🧠",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9555",
+    "name": "Soziale Erkenntnistheorie",
+    "category": "Soziale Erkenntnistheorie",
+    "icon": "👥",
+    "wordCount": 16
+  }
+]
