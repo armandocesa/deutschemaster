@@ -32,13 +32,15 @@ const PlacementTestPage = React.lazy(() => import('./pages/PlacementTestPage'));
 const AdminPage = React.lazy(() => import('./pages/AdminPage'));
 const NotFoundPage = React.lazy(() => import('./pages/NotFoundPage'));
 
-const PAGE_NAMES = {
-  home: 'Home', vocabulary: 'Vocabolario', grammar: 'Grammatica', reading: 'Lettura',
-  stories: 'Storie', quiz: 'Quiz', verbs: 'Verbi', 'special-verbs': 'Verbi Speciali', practice: 'Pratica',
-  favorites: 'Salvate', lessons: 'Lezioni', profile: 'Profilo', flashcards: 'Flashcards',
-  writing: 'Scrittura', listening: 'Ascolto', paths: 'Percorsi',
-  'essential-words': 'Parole Essenziali', 'verb-prefixes': 'Prefissi Verbali',
-  'werden': 'Il Verbo Werden', 'placement-test': 'Test di Posizionamento', login: 'Login', dona: 'Supporta Deutsche Master', admin: 'Amministrazione'
+// Page name translation keys mapping
+const PAGE_NAME_KEYS = {
+  home: 'nav.home', vocabulary: 'vocabulary', grammar: 'grammar', reading: 'reading',
+  stories: 'stories', quiz: 'quiz', verbs: 'verbs', 'special-verbs': 'specialVerbs.title',
+  practice: 'practice.title', favorites: 'favorites.title', lessons: 'lessons.title', profile: 'profile',
+  flashcards: 'flashcards', writing: 'writing', listening: 'listening', paths: 'paths',
+  'essential-words': 'essentialWords.title', 'verb-prefixes': 'verbPrefixes.title',
+  'werden': 'werden.title', 'placement-test': 'placement.title', login: 'login.signin',
+  dona: 'profile.donateNow', admin: 'admin.title'
 };
 
 // Loading fallback component for lazy-loaded pages
@@ -96,7 +98,7 @@ function AppContent() {
   const breadcrumbs = useMemo(() => {
     if (currentPage === 'home' || currentPage === 'login') return [];
     const crumbs = [{ label: t('nav.home'), onClick: () => navigate('home') }];
-    crumbs.push({ label: PAGE_NAMES[currentPage] || currentPage, onClick: () => navigate(currentPage) });
+    crumbs.push({ label: PAGE_NAME_KEYS[currentPage] ? t(PAGE_NAME_KEYS[currentPage]) : currentPage, onClick: () => navigate(currentPage) });
     if (selectedLevel) crumbs.push({ label: selectedLevel, onClick: () => navigate(currentPage, { level: selectedLevel }) });
     if (selectedModule && currentPage === 'vocabulary') crumbs.push({ label: selectedModule.name || 'Modulo', onClick: null });
     if (selectedTopic) crumbs.push({ label: selectedTopic.name || 'Argomento', onClick: null });

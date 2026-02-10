@@ -25,6 +25,7 @@ function ExampleBadge({ level }) {
 
 function VerbCard({ verb, prefix, onToggleFavorite, saved }) {
   const [expanded, setExpanded] = useState(false);
+  const { t } = useLanguage();
 
   return (
     <div style={{
@@ -168,7 +169,7 @@ function VerbCard({ verb, prefix, onToggleFavorite, saved }) {
                         gap: '4px'
                       }}
                     >
-                      <Icons.Volume /> Ascolta
+                      <Icons.Volume /> {t('verbPrefixes.listen')}
                     </button>
                   </div>
                 ))}

@@ -6,6 +6,18 @@ import { addXP, recordActivity } from '../utils/gamification';
 import { speak } from '../utils/speech';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import LevelAccessModal from '../components/LevelAccessModal';
+import { useLanguage } from '../contexts/LanguageContext';
+
+const fetchLangJSON = async (path, language) => {
+  if (language === 'en') {
+    try {
+      const res = await fetch(`/data/en/${path}`);
+      if (res.ok) return await res.json();
+    } catch {}
+  }
+  const res = await fetch(`/data/${path}`);
+  return res.ok ? await res.json() : null;
+};
 
 // Levenshtein distance function for checking "almost correct" answers
 function levenshtein(a, b) {
@@ -41,6 +53,7 @@ function levenshtein(a, b) {
 export default function WritingPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
   const { canAccessLevel } = useLevelAccess();
+  const { t, language } = useLanguage();
   const [mode, setMode] = useState('setup');
   const [exerciseType, setExerciseType] = useState('traduzione');
   const [selectedLevel, setSelectedLevel] = useState('A1');
@@ -54,19 +67,18 @@ export default function WritingPage({ onNavigate }) {
   const [lockedLevel, setLockedLevel] = useState(null);
   const [writingData, setWritingData] = useState(null);
 
-  // Load writing data on mount
+  // Load writing data on mount or language change
   useEffect(() => {
     const loadWritingData = async () => {
       try {
-        const response = await fetch('/data/writing.json');
-        const data = await response.json();
+        const data = await fetchLangJSON('writing.json', language);
         setWritingData(data);
       } catch (error) {
-        console.error('Errore nel caricamento dei dati di scrittura:', error);
+        console.error('Error loading writing data:', error);
       }
     };
     loadWritingData();
-  }, []);
+  }, [language]);
 
   // Generate questions based on exercise type
   const generateQuestions = (type, level, count) => {
@@ -250,21 +262,21 @@ export default function WritingPage({ onNavigate }) {
   // SETUP SCREEN
   if (mode === 'setup') {
     const exerciseTypeLabels = {
-      traduzione: 'Traduzione',
-      completamento: 'Completamento',
-      riordina: 'Riordina',
-      scrittura_libera: 'Scrittura Libera'
+      traduzione: t('writing.translate'),
+      completamento: t('writing.completion'),
+      riordina: t('writing.reorder'),
+      scrittura_libera: t('writing.freeWriting')
     };
 
     return (
       <div className="writing-page">
-        <h1 className="page-title">Esercizi di Scrittura</h1>
-        <p className="page-subtitle">Scegli il tipo di esercizio e il livello</p>
+        <h1 className="page-title">{t('writing.title')}</h1>
+        <p className="page-subtitle">{t('writing.setupSubtitle')}</p>
 
         <div className="writing-setup" style={{ maxWidth: '600px', margin: '0 auto', padding: '24px' }}>
           {/* Exercise Type Selector */}
           <div className="setup-section" style={{ marginBottom: '32px' }}>
-            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>Tipo di esercizio</h3>
+            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>{t('writing.exerciseType')}</h3>
             <div className="setup-options" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
               {['traduzione', 'completamento', 'riordina', 'scrittura_libera'].map(type => (
                 <button
@@ -288,16 +300,16 @@ export default function WritingPage({ onNavigate }) {
               ))}
             </div>
             <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '12px' }}>
-              {exerciseType === 'traduzione' && '🇮🇹 Traduce da italiano a tedesco'}
-              {exerciseType === 'completamento' && '✏️ Completa la frase tedesca'}
-              {exerciseType === 'riordina' && '🔀 Ordina le parole correttamente'}
-              {exerciseType === 'scrittura_libera' && '📝 Scrivi liberamente in tedesco'}
+              {exerciseType === 'traduzione' && `🇮🇹 ${t('writing.translateTo')}`}
+              {exerciseType === 'completamento' && `✏️ ${t('writing.complete')}`}
+              {exerciseType === 'riordina' && `🔀 ${t('writing.order')}`}
+              {exerciseType === 'scrittura_libera' && `📝 ${t('writing.write')}`}
             </p>
           </div>
 
           {/* Level Selector */}
           <div className="setup-section" style={{ marginBottom: '32px' }}>
-            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>Livello</h3>
+            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>{t('writing.level')}</h3>
             <div className="setup-options levels" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
               {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
                 const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
@@ -331,7 +343,7 @@ export default function WritingPage({ onNavigate }) {
 
           {/* Exercise Count Selector */}
           <div className="setup-section" style={{ marginBottom: '32px' }}>
-            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>Numero di esercizi</h3>
+            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>{t('writing.exerciseCount')}</h3>
             <div className="setup-options" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
               {[10, 15, 20].map(count => (
                 <button
@@ -372,7 +384,7 @@ export default function WritingPage({ onNavigate }) {
               transition: 'all 0.2s'
             }}
           >
-            {writingData ? 'Inizia' : 'Caricamento...'}
+            {writingData ? t('writing.start') : t('writing.loading')}
           </button>
         </div>
 
@@ -396,7 +408,7 @@ export default function WritingPage({ onNavigate }) {
         return (
           <>
             <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
-              Traduce in tedesco:
+              {t('writing.translateTo')}
             </p>
             <p style={{ fontSize: '28px', fontWeight: '700', color: 'var(--text-primary)', fontStyle: 'italic' }}>
               {currentQuestion.prompt}
@@ -407,7 +419,7 @@ export default function WritingPage({ onNavigate }) {
         return (
           <>
             <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
-              Completa la frase:
+              {t('writing.complete')}
             </p>
             <p style={{ fontSize: '22px', fontWeight: '500', color: 'var(--text-primary)' }}>
               {currentQuestion.prompt}
@@ -418,10 +430,10 @@ export default function WritingPage({ onNavigate }) {
         return (
           <>
             <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
-              Ordina le parole correttamente:
+              {t('writing.order')}
             </p>
             <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '16px' }}>
-              Clicca sulle parole per ordinarle
+              {t('writing.clickWords')}
             </p>
           </>
         );
@@ -429,7 +441,7 @@ export default function WritingPage({ onNavigate }) {
         return (
           <>
             <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
-              Scrivi liberamente in tedesco:
+              {t('writing.write')}
             </p>
             <p style={{ fontSize: '16px', color: 'var(--text-primary)', fontStyle: 'italic' }}>
               {currentQuestion.prompt}
@@ -460,7 +472,7 @@ export default function WritingPage({ onNavigate }) {
               alignItems: 'flex-start'
             }}>
               {selectedWords.length === 0 ? (
-                <span style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Clicca le parole qui sotto...</span>
+                <span style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>{t('writing.clickWords')}</span>
               ) : (
                 selectedWords.map((word, idx) => (
                   <button
@@ -523,7 +535,7 @@ export default function WritingPage({ onNavigate }) {
           <input
             type="text"
             className="writing-input"
-            placeholder={currentQuestion.type === 'scrittura_libera' ? 'Scrivi la tua risposta...' : 'Scrivi in tedesco...'}
+            placeholder={currentQuestion.type === 'scrittura_libera' ? t('writing.writeYourAnswer') : t('writing.writeAnswer')}
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
             onKeyDown={(e) => {
@@ -571,7 +583,7 @@ export default function WritingPage({ onNavigate }) {
 
         {/* Counter */}
         <div style={{ textAlign: 'center', marginBottom: '24px', color: 'var(--text-secondary)', fontSize: '14px', fontWeight: '600' }}>
-          Esercizio {currentIndex + 1} di {questions.length}
+          {t('writing.exercise')} {currentIndex + 1} {t('writing.of')} {questions.length}
         </div>
 
         {/* Question Card */}
@@ -621,7 +633,7 @@ export default function WritingPage({ onNavigate }) {
                   transition: 'all 0.2s'
                 }}
               >
-                Verifica
+                {t('writing.verify')}
               </button>
             </>
           ) : (
@@ -645,36 +657,36 @@ export default function WritingPage({ onNavigate }) {
               }}>
                 {results[currentIndex]?.feedback === 'correct' && (
                   <p style={{ color: '#065f46', fontWeight: '600', marginBottom: '8px' }}>
-                    ✓ Corretto! +{results[currentIndex]?.xpGain} XP
+                    {t('writing.correct')}{results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'almost' && (
                   <p style={{ color: '#92400e', fontWeight: '600', marginBottom: '8px' }}>
-                    ✓ Quasi! +{results[currentIndex]?.xpGain} XP
+                    {t('writing.almost')}{results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'submitted' && (
                   <p style={{ color: 'var(--primary-color)', fontWeight: '600', marginBottom: '8px' }}>
-                    ✓ Inviato! +{results[currentIndex]?.xpGain} XP
+                    {t('writing.submitted')}{results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'incorrect' && (
                   <p style={{ color: '#991b1b', fontWeight: '600', marginBottom: '8px' }}>
-                    ✗ Non corretto
+                    {t('writing.incorrect')}
                   </p>
                 )}
 
                 {results[currentIndex]?.feedback !== 'correct' && results[currentIndex]?.feedback !== 'submitted' && (
                   <>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
-                      La tua risposta: <strong>{results[currentIndex]?.userAnswer}</strong>
+                      {t('writing.yourAnswer')} <strong>{results[currentIndex]?.userAnswer}</strong>
                     </p>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>
-                      Risposta corretta: <strong>{results[currentIndex]?.correctAnswer}</strong>
+                      {t('writing.correctAnswerIs')} <strong>{results[currentIndex]?.correctAnswer}</strong>
                     </p>
                     {results[currentIndex]?.alternatives && results[currentIndex]?.alternatives.length > 0 && (
                       <p style={{ color: 'var(--text-secondary)', fontSize: '12px', marginTop: '8px' }}>
-                        Altre risposte accettate: {results[currentIndex]?.alternatives.join(', ')}
+                        {t('writing.alternativeAnswers')} {results[currentIndex]?.alternatives.join(', ')}
                       </p>
                     )}
                   </>
@@ -683,13 +695,13 @@ export default function WritingPage({ onNavigate }) {
                 {results[currentIndex]?.feedback === 'submitted' && (
                   <>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
-                      La tua risposta:
+                      {t('writing.yourAnswer')}
                     </p>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '12px', fontStyle: 'italic' }}>
                       "{results[currentIndex]?.userAnswer}"
                     </p>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
-                      Risposta modello:
+                      {t('writing.modelAnswer')}
                     </p>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '14px', fontStyle: 'italic' }}>
                       "{results[currentIndex]?.correctAnswer}"
@@ -714,7 +726,7 @@ export default function WritingPage({ onNavigate }) {
                   transition: 'all 0.2s'
                 }}
               >
-                {currentIndex < questions.length - 1 ? 'Prossimo' : 'Vedi risultati'}
+                {currentIndex < questions.length - 1 ? t('writing.next') : t('writing.seeResults')}
               </button>
             </>
           )}
@@ -761,7 +773,7 @@ export default function WritingPage({ onNavigate }) {
           </div>
 
           <h2 style={{ fontSize: '28px', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '8px' }}>
-            Esercizi completati!
+            {t('writing.completed')}
           </h2>
 
           {/* Results Summary */}
@@ -774,26 +786,26 @@ export default function WritingPage({ onNavigate }) {
           }}>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '12px', fontSize: '14px' }}>
               <span style={{ display: 'block', color: '#10b981', fontWeight: '700', fontSize: '16px' }}>
-                {correct} Corretto{correct !== 1 ? 'i' : ''}
+                {correct} {t('writing.correct_count')}
               </span>
               {almost > 0 && (
                 <span style={{ display: 'block', color: '#f59e0b', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                  {almost} Quasi{almost !== 1 ? ' corretti' : ' corretto'}
+                  {almost} {t('writing.almost_count')}
                 </span>
               )}
               {submitted > 0 && (
                 <span style={{ display: 'block', color: 'var(--primary-color)', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                  {submitted} Inviato{submitted !== 1 ? 'i' : ''}
+                  {submitted} {t('writing.submitted_count')}
                 </span>
               )}
               {incorrect > 0 && (
                 <span style={{ display: 'block', color: '#ef4444', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                  {incorrect} Sbagliato{incorrect !== 1 ? 'i' : ''}
+                  {incorrect} {t('writing.wrong_count')}
                 </span>
               )}
             </p>
             <p style={{ color: 'var(--text-secondary)', marginTop: '16px', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
-              su <strong>{results.length}</strong> esercizi
+              {t('writing.of')} <strong>{results.length}</strong> {t('writing.exercises')}
             </p>
           </div>
 
@@ -804,7 +816,7 @@ export default function WritingPage({ onNavigate }) {
             padding: '16px',
             marginBottom: '24px'
           }}>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '4px' }}>Punti esperienza guadagnati</p>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '4px' }}>{t('writing.xpEarned')}</p>
             <p style={{ fontSize: '28px', fontWeight: '700', color: 'var(--primary-color)' }}>
               +{totalXP} XP
             </p>
@@ -822,7 +834,7 @@ export default function WritingPage({ onNavigate }) {
               overflowY: 'auto'
             }}>
               <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '16px' }}>
-                Risposte da rivedere
+                {t('writing.reviewAnswers')}
               </h3>
               {results.filter(r => r.feedback === 'incorrect' || r.feedback === 'almost').map((result, idx) => (
                 <div key={idx} style={{
@@ -834,10 +846,10 @@ export default function WritingPage({ onNavigate }) {
                     {result.question}
                   </p>
                   <p style={{ color: result.feedback === 'almost' ? '#f59e0b' : '#ef4444', fontSize: '13px', marginBottom: '4px' }}>
-                    La tua risposta: <strong>{result.userAnswer}</strong>
+                    {t('writing.yourAnswer')} <strong>{result.userAnswer}</strong>
                   </p>
                   <p style={{ color: '#10b981', fontSize: '13px' }}>
-                    Risposta corretta: <strong>{result.correctAnswer}</strong>
+                    {t('writing.correctAnswerIs')} <strong>{result.correctAnswer}</strong>
                   </p>
                 </div>
               ))}
@@ -860,7 +872,7 @@ export default function WritingPage({ onNavigate }) {
                 transition: 'all 0.2s'
               }}
             >
-              Riprova
+              {t('writing.retry')}
             </button>
             <button
               onClick={resetExercise}
@@ -876,7 +888,7 @@ export default function WritingPage({ onNavigate }) {
                 transition: 'all 0.2s'
               }}
             >
-              Nuova sessione
+              {t('writing.newSession')}
             </button>
           </div>
         </div>

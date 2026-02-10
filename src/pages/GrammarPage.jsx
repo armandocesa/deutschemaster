@@ -8,6 +8,7 @@ import { getGrammarStatus } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
 
 function GrammarTopicDetail({ topic, level, colors }) {
+  const { t } = useLanguage();
   const [answerVisibility, setAnswerVisibility] = useState({});
 
   const toggleAnswer = (index) => {
@@ -237,12 +238,12 @@ function GrammarTopicDetail({ topic, level, colors }) {
                   className="show-answer-btn"
                   onClick={() => toggleAnswer(idx)}
                 >
-                  {answerVisibility[idx] ? 'Hide' : 'Show'} answer
+                  {answerVisibility[idx] ? t('hide') : t('show')} {t('answer')}
                 </button>
                 {answerVisibility[idx] && (
                   <div className="exercise-answer">
-                    <div className="answer-text"><strong>Answer:</strong> {ex.answer}</div>
-                    {ex.explanation && <div className="answer-explanation"><strong>Explanation:</strong> {ex.explanation}</div>}
+                    <div className="answer-text"><strong>{t('grammar.answer')}</strong> {ex.answer}</div>
+                    {ex.explanation && <div className="answer-explanation"><strong>{t('grammar.explanation')}</strong> {ex.explanation}</div>}
                   </div>
                 )}
               </div>

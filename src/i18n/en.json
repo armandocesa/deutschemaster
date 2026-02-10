@@ -283,7 +283,20 @@
     "xpEarned": "Experience points earned",
     "reviewAnswers": "Answers to review",
     "retry": "Retry",
-    "newSession": "New session"
+    "newSession": "New session",
+    "setupTitle": "Writing Exercises",
+    "setupSubtitle": "Choose exercise type and level",
+    "exerciseTypeLabel": "Exercise Type",
+    "levelLabel": "Level",
+    "exerciseCountLabel": "Number of Exercises",
+    "translation": "Translation",
+    "translationDesc": "Translate to German",
+    "completionDesc": "Complete the German sentence",
+    "reorderDesc": "Order the words correctly",
+    "freeWritingDesc": "Write freely in German",
+    "exercise": "Exercise",
+    "nextQuestion": "Next",
+    "loading": "Loading..."
   },
   "quiz": {
     "title": "Quiz",
@@ -591,7 +604,8 @@
     "conjugation": "Conjugation",
     "examples": "Examples",
     "noVerbs": "No verbs",
-    "noPrefixes": "No prefixes found"
+    "noPrefixes": "No prefixes found",
+    "listen": "Listen"
   },
   "practice": {
     "title": "Vocabulary Practice",

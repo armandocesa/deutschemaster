@@ -32,7 +32,7 @@ function levenshteinDistance(a, b) {
 export default function ListeningPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
   const { canAccessLevel } = useLevelAccess();
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [mode, setMode] = useState('setup');
   const [exerciseType, setExerciseType] = useState('diktat');
   const [selectedLevel, setSelectedLevel] = useState('A1');
@@ -50,13 +50,22 @@ export default function ListeningPage({ onNavigate }) {
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
   const utteranceRef = useRef(null);
 
-  // Load listening data from JSON
+  // Load listening data from JSON (language-aware)
   useEffect(() => {
-    fetch('/data/listening.json')
-      .then(res => res.json())
-      .then(data => setListeningData(data))
-      .catch(err => console.error('Error loading listening data:', err));
-  }, []);
+    const loadData = async () => {
+      try {
+        if (language === 'en') {
+          try {
+            const res = await fetch('/data/en/listening.json');
+            if (res.ok) { setListeningData(await res.json()); return; }
+          } catch {}
+        }
+        const res = await fetch('/data/listening.json');
+        if (res.ok) setListeningData(await res.json());
+      } catch (err) { console.error('Error loading listening data:', err); }
+    };
+    loadData();
+  }, [language]);
 
   // Get exercises for current level and type
   const getExercises = (level, type) => {
