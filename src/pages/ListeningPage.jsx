@@ -273,8 +273,8 @@ export default function ListeningPage({ onNavigate }) {
     return (
       <div className="listening-page">
         <div className="setup-container">
-          <h1 className="page-title">{t('listening.title')} - {t('listening.title')}</h1>
-          <p className="page-subtitle">Ascolta e rispondi</p>
+          <h1 className="page-title">{t('listening.title')}</h1>
+          <p className="page-subtitle">{t('listening.subtitle')}</p>
 
           <div className="listening-setup">
             <div className="setup-section">
@@ -384,22 +384,22 @@ export default function ListeningPage({ onNavigate }) {
                 {results.map((r, idx) => (
                   <div key={idx} className="mistake-item">
                     <p className="mistake-question">
-                      <strong>Esercizio {idx + 1}:</strong> {r.text?.substring(0, 50)}...
+                      <strong>{t('listening.exercise')} {idx + 1}:</strong> {r.text?.substring(0, 50)}...
                     </p>
                     {r.type === 'diktat' && (
                       <>
-                        <p className="mistake-yours">La tua risposta: {r.userAnswer}</p>
-                        <p className="mistake-correct">Risposta corretta: {r.text}</p>
+                        <p className="mistake-yours">{t('listening.yourAnswer')} {r.userAnswer}</p>
+                        <p className="mistake-correct">{t('listening.correctAnswer')} {r.text}</p>
                       </>
                     )}
                     {r.type === 'lueckentext' && (
                       <>
-                        <p className="mistake-yours">La tua risposta: {r.userAnswer}</p>
-                        <p className="mistake-correct">Risposta corretta: {r.correct}</p>
+                        <p className="mistake-yours">{t('listening.yourAnswer')} {r.userAnswer}</p>
+                        <p className="mistake-correct">{t('listening.correctAnswer')} {r.correct}</p>
                       </>
                     )}
                     {r.type === 'comprensione' && (
-                      <p className="mistake-correct">Risposte corrette: {Object.values(r.answers || {}).filter(a => a.isCorrect).length} su {Object.values(r.answers || {}).length}</p>
+                      <p className="mistake-correct">{t('listening.correct')} {Object.values(r.answers || {}).filter(a => a.isCorrect).length}/{Object.values(r.answers || {}).length}</p>
                     )}
                   </div>
                 ))}
@@ -503,19 +503,19 @@ export default function ListeningPage({ onNavigate }) {
                     <div className={`result-message ${resultItem.resultType === 'perfect' ? 'perfect' : resultItem.resultType === 'close' ? 'close' : 'wrong'}`}>
                       {resultItem.resultType === 'perfect' && (
                         <div>
-                          <p>✓ Perfetto! +15 XP</p>
+                          <p>{t('listening.perfect')}</p>
                           <p className="word-display">{resultItem.text}</p>
                         </div>
                       )}
                       {resultItem.resultType === 'close' && (
                         <div>
-                          <p>~ Quasi! +5 XP</p>
+                          <p>{t('listening.almost')}</p>
                           <p className="word-display">{resultItem.text}</p>
                         </div>
                       )}
                       {resultItem.resultType === 'wrong' && (
                         <div>
-                          <p>✗ La risposta corretta è:</p>
+                          <p>{t('listening.wrong')}</p>
                           <p className="word-display">{resultItem.text}</p>
                         </div>
                       )}
@@ -620,7 +620,7 @@ export default function ListeningPage({ onNavigate }) {
 
               {allAnswered && (
                 <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
-                  Prossimo
+                  {t('listening.next')}
                 </button>
               )}
             </div>
@@ -679,7 +679,7 @@ export default function ListeningPage({ onNavigate }) {
 
               {showResult && (
                 <div className="transcript-section">
-                  <h4>Testo completo:</h4>
+                  <h4>{t('listening.text')}</h4>
                   <p className="transcript">{current.text}</p>
                 </div>
               )}
@@ -712,7 +712,7 @@ export default function ListeningPage({ onNavigate }) {
                   disabled={!userAnswer.trim()}
                   style={{ backgroundColor: colors.bg }}
                 >
-                  Verifica
+                  {t('listening.verify')}
                 </button>
               ) : (
                 <div>
@@ -720,12 +720,12 @@ export default function ListeningPage({ onNavigate }) {
                     <div className={`result-message ${resultItem.isCorrect ? 'correct' : 'incorrect'}`}>
                       {resultItem.isCorrect ? (
                         <div>
-                          <p>✓ Corretto! +15 XP</p>
+                          <p>{t('listening.perfect')}</p>
                           <p className="word-display">{resultItem.correct}</p>
                         </div>
                       ) : (
                         <div>
-                          <p>✗ La risposta corretta è:</p>
+                          <p>{t('listening.wrong')}</p>
                           <p className="word-display">{resultItem.correct}</p>
                         </div>
                       )}

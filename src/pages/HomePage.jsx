@@ -69,17 +69,13 @@ export default function HomePage({ onNavigate }) {
   const dailyGoal = checkDailyGoal();
   const reviewStats = getReviewStats();
 
-  const levelNames = ['', 'Principiante', 'Principiante', 'Principiante', 'Principiante', 'Principiante',
-    'Studente', 'Studente', 'Studente', 'Studente', 'Studente',
-    'Intermedio', 'Intermedio', 'Intermedio', 'Intermedio', 'Intermedio',
-    'Intermedio', 'Intermedio', 'Intermedio', 'Intermedio', 'Intermedio'];
   const getLevelName = (lvl) => {
-    if (lvl <= 5) return 'Principiante';
-    if (lvl <= 10) return 'Studente';
-    if (lvl <= 20) return 'Intermedio';
-    if (lvl <= 35) return 'Avanzato';
-    if (lvl <= 50) return 'Esperto';
-    return 'Maestro';
+    if (lvl <= 5) return t('home.levels.beginner');
+    if (lvl <= 10) return t('home.levels.student');
+    if (lvl <= 20) return t('home.levels.intermediate');
+    if (lvl <= 35) return t('home.levels.advanced');
+    if (lvl <= 50) return t('home.levels.expert');
+    return t('home.levels.master');
   };
 
   return (
@@ -197,7 +193,7 @@ export default function HomePage({ onNavigate }) {
       <section>
         <h3 className="continue-title">{t('home.practice')}</h3>
         <div className="quick-actions-grid">
-          <QuickActionCard icon={<Icons.Flashcard />} title={t('home.flashcardsTitle')} color="#8b5cf6" onClick={() => onNavigate('flashcards')} noLevel badge={reviewStats.dueToday > 0 ? `${reviewStats.dueToday} da fare` : null} />
+          <QuickActionCard icon={<Icons.Flashcard />} title={t('home.flashcardsTitle')} color="#8b5cf6" onClick={() => onNavigate('flashcards')} noLevel badge={reviewStats.dueToday > 0 ? `${reviewStats.dueToday} ${t('home.toDo')}` : null} />
           <QuickActionCard icon={<Icons.Writing />} title={t('home.writingTitle')} color="#10b981" onClick={() => onNavigate('writing')} noLevel />
           <QuickActionCard icon={<Icons.Listening />} title={t('home.listeningTitle')} color="#06b6d4" onClick={() => onNavigate('listening')} noLevel />
           <QuickActionCard icon={<Icons.Practice />} title={t('home.quickPractice')} color="#f59e0b" onClick={() => onNavigate('practice')} noLevel />

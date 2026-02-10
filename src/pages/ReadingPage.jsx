@@ -7,6 +7,7 @@ import { useData } from '../DataContext';
 import { saveAndSync } from '../utils/cloudSync';
 
 function ReadingDetail({ reading, level, colors }) {
+  const { t } = useLanguage();
   const [answers, setAnswers] = useState({});
   const [showScore, setShowScore] = useState(false);
   const handleAnswer = (qIdx, answer) => { if(answers[qIdx]!==undefined) return; setAnswers(prev => ({...prev,[qIdx]:answer})); if(Object.keys({...answers,[qIdx]:answer}).length===reading.questions.length) setShowScore(true); };
@@ -48,7 +49,7 @@ function ReadingDetail({ reading, level, colors }) {
               </div>
             );
           })}
-          {showScore && <div className="reading-score"><h3>Punteggio: {score}/{reading.questions.length}</h3><p>{score===reading.questions.length?'Perfetto!':score>=reading.questions.length/2?'Buon lavoro!':'Riprova dopo aver riletto.'}</p></div>}
+          {showScore && <div className="reading-score"><h3>{t('reading.score')} {score}/{reading.questions.length}</h3><p>{score===reading.questions.length?t('reading.perfect'):score>=reading.questions.length/2?t('reading.goodJob'):t('reading.tryAgain')}</p></div>}
         </div>
       </div>
     </div>

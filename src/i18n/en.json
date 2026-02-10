@@ -54,7 +54,16 @@
     "listeningTitle": "Listening",
     "quickPractice": "Quick Practice",
     "verbPrefixes": "Verb Prefixes",
-    "new": "New"
+    "new": "New",
+    "toDo": "to do",
+    "levels": {
+      "beginner": "Beginner",
+      "student": "Student",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert",
+      "master": "Master"
+    }
   },
   "loading": "Loading...",
   "loadingPage": "Loading page...",
@@ -206,6 +215,7 @@
   },
   "listening": {
     "title": "Listening",
+    "subtitle": "Listen and answer",
     "exerciseType": "Exercise Type",
     "dictation": "Dictation",
     "comprehension": "Comprehension",
@@ -465,9 +475,6 @@
   },
   "admin": {
     "title": "Administration"
-  },
-  "notFound": {
-    "title": "Page Not Found"
   },
   "levelAccess": {
     "protected": "Protected Content",

@@ -3,11 +3,13 @@ import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { saveAndSync } from '../utils/cloudSync';
 import { recordActivity } from '../utils/gamification';
 import Icons from '../components/Icons';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const QUESTIONS_PER_LEVEL = 5;
 
 export default function PlacementTestPage({ onNavigate }) {
+  const { t } = useLanguage();
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -154,22 +156,22 @@ export default function PlacementTestPage({ onNavigate }) {
         <div style={{ maxWidth: '600px', width: '100%', textAlign: 'center' }}>
           <div style={{ fontSize: '64px', marginBottom: '24px' }}>📍</div>
           <h1 style={{ fontSize: '32px', fontWeight: 700, marginBottom: '16px', color: 'var(--text-primary)' }}>
-            Test di Posizionamento
+            {t('placement.title')}
           </h1>
           <p style={{ fontSize: '16px', color: 'var(--text-secondary)', marginBottom: '32px', lineHeight: '1.6' }}>
-            Scopri il tuo livello di tedesco con questo test adattivo di 30 domande. Abbiamo domande da A1 a C2, e il test si adatterà alla tua performance.
+            {t('placement.discover')}
           </p>
 
           <div style={{ background: 'rgba(108,92,231,0.1)', border: '1px solid rgba(108,92,231,0.3)', borderRadius: 'var(--radius)', padding: '20px', marginBottom: '32px', textAlign: 'left' }}>
             <div style={{ fontSize: '14px', fontWeight: 600, marginBottom: '12px', color: 'var(--text-primary)' }}>
-              Come funziona:
+              {t('placement.how')}
             </div>
             <ul style={{ fontSize: '13px', color: 'var(--text-secondary)', lineHeight: '1.8', margin: 0, paddingLeft: '20px' }}>
-              <li>5 domande per ogni livello (A1 → C2)</li>
-              <li>Le domande diventano progressivamente più difficili</li>
-              <li>Se rispondi correttamente a meno di 2 domande in un livello, il test si fermerà</li>
-              <li>Alla fine, riceverai il tuo livello rilevato</li>
-              <li>Il risultato verrà salvato nel tuo profilo</li>
+              <li>{t('placement.questions')}</li>
+              <li>{t('placement.progressive')}</li>
+              <li>{t('placement.stop')}</li>
+              <li>{t('placement.result')}</li>
+              <li>{t('placement.saved')}</li>
             </ul>
           </div>
 
@@ -196,7 +198,7 @@ export default function PlacementTestPage({ onNavigate }) {
                 e.currentTarget.style.boxShadow = 'none';
               }}
             >
-              Inizia il Test
+              {t('placement.start')}
             </button>
             <button
               onClick={() => onNavigate('home')}
@@ -212,7 +214,7 @@ export default function PlacementTestPage({ onNavigate }) {
                 transition: 'all 0.2s',
               }}
             >
-              Torna alla Home
+              {t('placement.back')}
             </button>
           </div>
         </div>
@@ -251,7 +253,7 @@ export default function PlacementTestPage({ onNavigate }) {
           <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: 'var(--radius)', padding: '40px 32px', textAlign: 'center', marginBottom: '32px' }}>
             <div style={{ fontSize: '60px', marginBottom: '24px' }}>🎉</div>
             <h1 style={{ fontSize: '28px', fontWeight: 700, marginBottom: '24px', color: 'var(--text-primary)' }}>
-              Test Completato!
+              {t('placement.completed')}
             </h1>
 
             {/* Level Badge */}
@@ -288,19 +290,19 @@ export default function PlacementTestPage({ onNavigate }) {
                 <div style={{ fontSize: '24px', fontWeight: 700, color: 'var(--accent)', marginBottom: '4px' }}>
                   {accuracy}%
                 </div>
-                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Precisione</div>
+                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('placement.accuracy')}</div>
               </div>
               <div style={{ background: 'rgba(16,185,129,0.1)', borderRadius: '8px', padding: '16px' }}>
                 <div style={{ fontSize: '24px', fontWeight: 700, color: '#10b981', marginBottom: '4px' }}>
                   {correctAnswers}/{currentQuestionIndex + 1}
                 </div>
-                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Corrette</div>
+                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('placement.correct')}</div>
               </div>
               <div style={{ background: 'rgba(59,130,246,0.1)', borderRadius: '8px', padding: '16px' }}>
                 <div style={{ fontSize: '24px', fontWeight: 700, color: '#3b82f6', marginBottom: '4px' }}>
                   {minutes}:{String(seconds).padStart(2, '0')}
                 </div>
-                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Tempo</div>
+                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('placement.time')}</div>
               </div>
             </div>
 
@@ -314,7 +316,7 @@ export default function PlacementTestPage({ onNavigate }) {
             {earlyStop && (
               <div style={{ background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.3)', borderRadius: 'var(--radius)', padding: '12px', marginBottom: '24px' }}>
                 <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
-                  ⚠️ Il test si è fermato perché hai risposto correttamente a meno di 2 domande in questo livello.
+                  ⚠️ {t('placement.earlyStop')}
                 </div>
               </div>
             )}
@@ -344,7 +346,7 @@ export default function PlacementTestPage({ onNavigate }) {
                 e.currentTarget.style.boxShadow = 'none';
               }}
             >
-              Torna alla Home
+              {t('placement.goHome')}
             </button>
             <button
               onClick={() => onNavigate('profile')}
@@ -360,7 +362,7 @@ export default function PlacementTestPage({ onNavigate }) {
                 transition: 'all 0.2s',
               }}
             >
-              Vai al Profilo
+              {t('placement.goProfile')}
             </button>
             <button
               onClick={handleRetakeLevelOptions}
@@ -376,7 +378,7 @@ export default function PlacementTestPage({ onNavigate }) {
                 transition: 'all 0.2s',
               }}
             >
-              Ripeti il Test
+              {t('placement.retakeTest')}
             </button>
           </div>
         </div>
@@ -390,7 +392,7 @@ export default function PlacementTestPage({ onNavigate }) {
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg)', color: 'var(--text-primary)' }}>
         <div style={{ textAlign: 'center' }}>
           <div style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: '#6c5ce7', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
-          <p>Caricamento delle domande...</p>
+          <p>{t('placement.loading')}</p>
           <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
         </div>
       </div>
@@ -410,7 +412,7 @@ export default function PlacementTestPage({ onNavigate }) {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '32px' }}>
           <div>
             <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '8px' }}>
-              Livello {levelIndex + 1}/{LEVELS.length}
+              {t('placement.level')} {levelIndex + 1}/{LEVELS.length}
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
               <div
@@ -431,10 +433,10 @@ export default function PlacementTestPage({ onNavigate }) {
               </div>
               <div>
                 <div style={{ fontSize: '14px', fontWeight: 600, color: 'var(--text-primary)' }}>
-                  Domanda {questionInLevel} di {questionsInLevel}
+                  {t('quiz.question')} {questionInLevel} {t('quiz.of')} {questionsInLevel}
                 </div>
                 <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
-                  Complessivo: {currentQuestionIndex + 1}/{questions.length}
+                  {t('placement.overall')} {currentQuestionIndex + 1}/{questions.length}
                 </div>
               </div>
             </div>
@@ -443,7 +445,7 @@ export default function PlacementTestPage({ onNavigate }) {
             <div style={{ fontSize: '28px', fontWeight: 700, color: 'var(--accent)', marginBottom: '4px' }}>
               {minutes}:{String(seconds).padStart(2, '0')}
             </div>
-            <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Tempo</div>
+            <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('placement.time')}</div>
           </div>
         </div>
 
@@ -489,10 +491,10 @@ export default function PlacementTestPage({ onNavigate }) {
                 textTransform: 'uppercase',
               }}
             >
-              {currentQuestion.type === 'grammar' && 'Grammatica'}
-              {currentQuestion.type === 'vocabulary' && 'Vocabolario'}
-              {currentQuestion.type === 'completion' && 'Completamento'}
-              {currentQuestion.type === 'comprehension' && 'Comprensione'}
+              {currentQuestion.type === 'grammar' && t('placement.grammar')}
+              {currentQuestion.type === 'vocabulary' && t('vocabulary.title')}
+              {currentQuestion.type === 'completion' && t('placement.completion')}
+              {currentQuestion.type === 'comprehension' && t('placement.comprehension')}
             </span>
           </div>
 
@@ -574,12 +576,12 @@ export default function PlacementTestPage({ onNavigate }) {
                 {selectedOption === currentQuestion.correctAnswer ? (
                   <>
                     <span style={{ fontSize: '16px' }}>✓</span>
-                    Risposta Corretta
+                    {t('placement.correct_answer')}
                   </>
                 ) : (
                   <>
                     <span style={{ fontSize: '16px' }}>✗</span>
-                    Risposta Sbagliata
+                    {t('placement.wrong_answer')}
                   </>
                 )}
               </div>
@@ -620,7 +622,7 @@ export default function PlacementTestPage({ onNavigate }) {
                 }
               }}
             >
-              Invia Risposta
+              {t('placement.submit')}
             </button>
           ) : (
             <button
@@ -646,7 +648,7 @@ export default function PlacementTestPage({ onNavigate }) {
                 e.currentTarget.style.boxShadow = 'none';
               }}
             >
-              {currentQuestionIndex === questions.length - 1 ? 'Completa Test' : 'Domanda Successiva'}
+              {currentQuestionIndex === questions.length - 1 ? t('placement.completeTest') : t('placement.nextQuestion')}
             </button>
           )}
         </div>

@@ -54,7 +54,16 @@
     "listeningTitle": "Ascolto",
     "quickPractice": "Pratica Rapida",
     "verbPrefixes": "Prefissi Verbali",
-    "new": "Nuovo"
+    "new": "Nuovo",
+    "toDo": "da fare",
+    "levels": {
+      "beginner": "Principiante",
+      "student": "Studente",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzato",
+      "expert": "Esperto",
+      "master": "Maestro"
+    }
   },
   "loading": "Caricamento...",
   "loadingPage": "Caricamento della pagina...",
@@ -206,6 +215,7 @@
   },
   "listening": {
     "title": "Ascolto",
+    "subtitle": "Ascolta e rispondi",
     "exerciseType": "Tipo di esercizio",
     "dictation": "Dettato",
     "comprehension": "Comprensione",
