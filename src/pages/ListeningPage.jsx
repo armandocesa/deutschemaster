@@ -311,7 +311,7 @@ export default function ListeningPage({ onNavigate }) {
             </div>
 
             <div className="setup-section">
-              <h3>{t('common.level')}</h3>
+              <h3>{t('listening.level')}</h3>
               <div className="setup-options levels">
                 {Object.entries(LEVEL_COLORS).map(([lvl, col]) => {
                   const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
@@ -695,7 +695,7 @@ export default function ListeningPage({ onNavigate }) {
 
               <div className="lueckentext-display">
                 <p className="lueckentext-text">
-                  {t('listening.complete')} ({t('common.of')} {current.gaps?.length || 1}).
+                  {t('listening.complete')} ({t('listening.of')} {current.gaps?.length || 1}).
                 </p>
               </div>
 
