@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "extra_9037",
+    "name": "Musik und Instrumente",
+    "category": "Musik und Instrumente",
+    "icon": "🎵",
+    "words": [
+      {
+        "german": "die Noten",
+        "italian": "le note musicali",
+        "article": "die",
+        "plural": "",
+        "example": "Ich lese Noten."
+      }
+    ]
+  },
+  {
+    "id": "extra_9038",
+    "name": "Haushalt und Putzen",
+    "category": "Haushalt und Putzen",
+    "icon": "🧹",
+    "words": [
+      {
+        "german": "kehren",
+        "italian": "spazzare",
+        "article": "",
+        "plural": "",
+        "example": "Ich kehre den Boden."
+      },
+      {
+        "german": "der Lappen",
+        "italian": "lo straccio",
+        "article": "der",
+        "plural": "Lappen",
+        "example": "Wisch mit dem Lappen."
+      },
+      {
+        "german": "das Reinigungsmittel",
+        "italian": "il detergente",
+        "article": "das",
+        "plural": "Reinigungsmittel",
+        "example": "Nimm das Reinigungsmittel."
+      },
+      {
+        "german": "der Müllbeutel",
+        "italian": "il sacchetto della spazzatura",
+        "article": "der",
+        "plural": "Müllbeutel",
+        "example": "Der Müllbeutel ist voll."
+      },
+      {
+        "german": "die Wäscheleine",
+        "italian": "il filo per stendere",
+        "article": "die",
+        "plural": "Wäscheleinen",
+        "example": "Häng die Wäsche auf."
+      },
+      {
+        "german": "die Müllabfuhr",
+        "italian": "la raccolta rifiuti",
+        "article": "die",
+        "plural": "",
+        "example": "Die Müllabfuhr kommt morgen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9039",
+    "name": "Verben des Alltags",
+    "category": "Verben des Alltags",
+    "icon": "🔄",
+    "words": []
+  },
+  {
+    "id": "extra_9040",
+    "name": "Adjektive Grundlagen",
+    "category": "Adjektive Grundlagen",
+    "icon": "📝",
+    "words": []
+  },
+  {
+    "id": "extra_9041",
+    "name": "Länder und Nationalitäten",
+    "category": "Länder und Nationalitäten",
+    "icon": "🌍",
+    "words": [
+      {
+        "german": "Deutschland",
+        "italian": "la Germania",
+        "article": "",
+        "plural": "",
+        "example": "Ich wohne in Deutschland."
+      },
+      {
+        "german": "Österreich",
+        "italian": "l'Austria",
+        "article": "",
+        "plural": "",
+        "example": "Österreich ist schön."
+      },
+      {
+        "german": "die Schweiz",
+        "italian": "la Svizzera",
+        "article": "die",
+        "plural": "",
+        "example": "Die Schweiz hat Berge."
+      },
+      {
+        "german": "Frankreich",
+        "italian": "la Francia",
+        "article": "",
+        "plural": "",
+        "example": "Frankreich ist nah."
+      },
+      {
+        "german": "Spanien",
+        "italian": "la Spagna",
+        "article": "",
+        "plural": "",
+        "example": "Spanien ist warm."
+      },
+      {
+        "german": "Italien",
+        "italian": "l'Italia",
+        "article": "",
+        "plural": "",
+        "example": "Italien hat gutes Essen."
+      },
+      {
+        "german": "England",
+        "italian": "l'Inghilterra",
+        "article": "",
+        "plural": "",
+        "example": "England hat viel Regen."
+      },
+      {
+        "german": "die Türkei",
+        "italian": "la Turchia",
+        "article": "die",
+        "plural": "",
+        "example": "Die Türkei ist interessant."
+      },
+      {
+        "german": "Russland",
+        "italian": "la Russia",
+        "article": "",
+        "plural": "",
+        "example": "Russland ist groß."
+      },
+      {
+        "german": "China",
+        "italian": "la Cina",
+        "article": "",
+        "plural": "",
+        "example": "China hat viele Menschen."
+      },
+      {
+        "german": "Japan",
+        "italian": "il Giappone",
+        "article": "",
+        "plural": "",
+        "example": "Japan ist modern."
+      },
+      {
+        "german": "Brasilien",
+        "italian": "il Brasile",
+        "article": "",
+        "plural": "",
+        "example": "Brasilien ist bunt."
+      },
+      {
+        "german": "die USA",
+        "italian": "gli USA",
+        "article": "die",
+        "plural": "",
+        "example": "Die USA sind groß."
+      },
+      {
+        "german": "Griechenland",
+        "italian": "la Grecia",
+        "article": "",
+        "plural": "",
+        "example": "Griechenland hat Inseln."
+      },
+      {
+        "german": "Polen",
+        "italian": "la Polonia",
+        "article": "",
+        "plural": "",
+        "example": "Polen ist der Nachbar."
+      },
+      {
+        "german": "die Niederlande",
+        "italian": "i Paesi Bassi",
+        "article": "die",
+        "plural": "",
+        "example": "Die Niederlande sind flach."
+      },
+      {
+        "german": "Schweden",
+        "italian": "la Svezia",
+        "article": "",
+        "plural": "",
+        "example": "Schweden ist kalt."
+      },
+      {
+        "german": "Ägypten",
+        "italian": "l'Egitto",
+        "article": "",
+        "plural": "",
+        "example": "Ägypten hat Pyramiden."
+      }
+    ]
+  },
+  {
+    "id": "extra_9042",
+    "name": "Insekten und Spinnen",
+    "category": "Insekten und Spinnen",
+    "icon": "🐛",
+    "words": [
+      {
+        "german": "der Grille",
+        "italian": "il grillo",
+        "article": "die",
+        "plural": "Grillen",
+        "example": "Die Grille zirpt."
+      },
+      {
+        "german": "die Motte",
+        "italian": "la falena",
+        "article": "die",
+        "plural": "Motten",
+        "example": "Die Motte fliegt zum Licht."
+      },
+      {
+        "german": "der Tausendfüßler",
+        "italian": "il millepiedi",
+        "article": "der",
+        "plural": "Tausendfüßler",
+        "example": "Der Tausendfüßler hat viele Beine."
+      },
+      {
+        "german": "das Spinnennetz",
+        "italian": "la ragnatela",
+        "article": "das",
+        "plural": "Spinnennetze",
+        "example": "Das Spinnennetz glänzt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9043",
+    "name": "Im Garten spielen",
+    "category": "Im Garten spielen",
+    "icon": "🌳",
+    "words": [
+      {
+        "german": "das Trampolin",
+        "italian": "il trampolino",
+        "article": "das",
+        "plural": "Trampoline",
+        "example": "Die Kinder springen auf dem Trampolin."
+      },
+      {
+        "german": "der Sandkasten",
+        "italian": "la sabbionaia",
+        "article": "der",
+        "plural": "Sandkästen",
+        "example": "Der Sandkasten ist groß."
+      },
+      {
+        "german": "die Wippe",
+        "italian": "l'altalena a bilico",
+        "article": "die",
+        "plural": "Wippen",
+        "example": "Die Wippe geht hoch und runter."
+      },
+      {
+        "german": "das Planschbecken",
+        "italian": "la piscinetta",
+        "article": "das",
+        "plural": "Planschbecken",
+        "example": "Das Planschbecken ist voll Wasser."
+      },
+      {
+        "german": "der Gartenschlauch",
+        "italian": "il tubo da giardino",
+        "article": "der",
+        "plural": "Gartenschläuche",
+        "example": "Der Gartenschlauch spritzt Wasser."
+      },
+      {
+        "german": "der Rasensprenger",
+        "italian": "l'irrigatore",
+        "article": "der",
+        "plural": "Rasensprenger",
+        "example": "Der Rasensprenger macht nass."
+      },
+      {
+        "german": "die Hängematte",
+        "italian": "l'amaca",
+        "article": "die",
+        "plural": "Hängematten",
+        "example": "Ich liege in der Hängematte."
+      },
+      {
+        "german": "das Gartenhaus",
+        "italian": "la casetta da giardino",
+        "article": "das",
+        "plural": "Gartenhäuser",
+        "example": "Das Gartenhaus ist klein."
+      },
+      {
+        "german": "die Gartenmöbel",
+        "italian": "i mobili da giardino",
+        "article": "die",
+        "plural": "",
+        "example": "Die Gartenmöbel sind neu."
+      },
+      {
+        "german": "die Grillzange",
+        "italian": "le pinze per grigliare",
+        "article": "die",
+        "plural": "Grillzangen",
+        "example": "Nimm die Grillzange."
+      },
+      {
+        "german": "der Liegestuhl",
+        "italian": "la sedia a sdraio",
+        "article": "der",
+        "plural": "Liegestühle",
+        "example": "Ich sitze im Liegestuhl."
+      },
+      {
+        "german": "die Gartenlaube",
+        "italian": "il pergolato",
+        "article": "die",
+        "plural": "Gartenlauben",
+        "example": "Die Gartenlaube ist gemütlich."
+      },
+      {
+        "german": "das Vogelhäuschen",
+        "italian": "la casetta per uccelli",
+        "article": "das",
+        "plural": "Vogelhäuschen",
+        "example": "Das Vogelhäuschen hängt im Baum."
+      }
+    ]
+  },
+  {
+    "id": "extra_9044",
+    "name": "Süßigkeiten und Snacks",
+    "category": "Süßigkeiten und Snacks",
+    "icon": "🍬",
+    "words": [
+      {
+        "german": "der Kaugummi",
+        "italian": "il chewing gum",
+        "article": "der",
+        "plural": "Kaugummis",
+        "example": "Ich kaue Kaugummi."
+      },
+      {
+        "german": "das Gummibärchen",
+        "italian": "l'orsetto gommoso",
+        "article": "das",
+        "plural": "Gummibärchen",
+        "example": "Gummibärchen sind lecker."
+      },
+      {
+        "german": "die Chips",
+        "italian": "le patatine",
+        "article": "die",
+        "plural": "",
+        "example": "Ich esse Chips."
+      },
+      {
+        "german": "das Popcorn",
+        "italian": "il popcorn",
+        "article": "das",
+        "plural": "",
+        "example": "Im Kino esse ich Popcorn."
+      },
+      {
+        "german": "die Salzstange",
+        "italian": "il grissino salato",
+        "article": "die",
+        "plural": "Salzstangen",
+        "example": "Salzstangen sind knusprig."
+      },
+      {
+        "german": "das Eis am Stiel",
+        "italian": "il gelato su stecco",
+        "article": "das",
+        "plural": "",
+        "example": "Ich esse Eis am Stiel."
+      },
+      {
+        "german": "die Lakritze",
+        "italian": "la liquirizia",
+        "article": "die",
+        "plural": "",
+        "example": "Lakritze ist schwarz."
+      },
+      {
+        "german": "der Donut",
+        "italian": "il ciambella",
+        "article": "der",
+        "plural": "Donuts",
+        "example": "Der Donut hat Zucker."
+      },
+      {
+        "german": "der Lutscher",
+        "italian": "il lecca lecca",
+        "article": "der",
+        "plural": "Lutscher",
+        "example": "Der Lutscher ist rund."
+      },
+      {
+        "german": "die Brezel",
+        "italian": "il pretzel",
+        "article": "die",
+        "plural": "Brezeln",
+        "example": "Die Brezel ist salzig."
+      },
+      {
+        "german": "die Nüsse",
+        "italian": "le noci",
+        "article": "die",
+        "plural": "",
+        "example": "Ich knabbere Nüsse."
+      },
+      {
+        "german": "der Cracker",
+        "italian": "il cracker",
+        "article": "der",
+        "plural": "Cracker",
+        "example": "Der Cracker ist knusprig."
+      },
+      {
+        "german": "das Studentenfutter",
+        "italian": "il mix di frutta secca",
+        "article": "das",
+        "plural": "",
+        "example": "Studentenfutter ist gesund."
+      }
+    ]
+  },
+  {
+    "id": "extra_9045",
+    "name": "Märchen und Fantasie",
+    "category": "Märchen und Fantasie",
+    "icon": "🧚",
+    "words": [
+      {
+        "german": "die Fee",
+        "italian": "la fata",
+        "article": "die",
+        "plural": "Feen",
+        "example": "Die Fee hat einen Zauberstab."
+      },
+      {
+        "german": "der Zauberer",
+        "italian": "il mago",
+        "article": "der",
+        "plural": "Zauberer",
+        "example": "Der Zauberer zaubert."
+      },
+      {
+        "german": "die Hexe",
+        "italian": "la strega",
+        "article": "die",
+        "plural": "Hexen",
+        "example": "Die Hexe fliegt auf einem Besen."
+      },
+      {
+        "german": "der Zwerg",
+        "italian": "il nano",
+        "article": "der",
+        "plural": "Zwerge",
+        "example": "Der Zwerg ist klein."
+      },
+      {
+        "german": "der Riese",
+        "italian": "il gigante",
+        "article": "der",
+        "plural": "Riesen",
+        "example": "Der Riese ist groß."
+      },
+      {
+        "german": "der Prinz",
+        "italian": "il principe",
+        "article": "der",
+        "plural": "Prinzen",
+        "example": "Der Prinz rettet die Prinzessin."
+      },
+      {
+        "german": "die Prinzessin",
+        "italian": "la principessa",
+        "article": "die",
+        "plural": "Prinzessinnen",
+        "example": "Die Prinzessin lebt im Schloss."
+      },
+      {
+        "german": "der Ritter",
+        "italian": "il cavaliere",
+        "article": "der",
+        "plural": "Ritter",
+        "example": "Der Ritter kämpft."
+      },
+      {
+        "german": "das Einhorn",
+        "italian": "l'unicorno",
+        "article": "das",
+        "plural": "Einhörner",
+        "example": "Das Einhorn ist magisch."
+      },
+      {
+        "german": "der Schatz",
+        "italian": "il tesoro",
+        "article": "der",
+        "plural": "Schätze",
+        "example": "Der Schatz ist versteckt."
+      },
+      {
+        "german": "der Zauberstab",
+        "italian": "la bacchetta magica",
+        "article": "der",
+        "plural": "Zauberstäbe",
+        "example": "Der Zauberstab leuchtet."
+      },
+      {
+        "german": "die Krone",
+        "italian": "la corona",
+        "article": "die",
+        "plural": "Kronen",
+        "example": "Die Krone ist golden."
+      },
+      {
+        "german": "das Schwert",
+        "italian": "la spada",
+        "article": "das",
+        "plural": "Schwerter",
+        "example": "Das Schwert ist scharf."
+      },
+      {
+        "german": "die Schatztruhe",
+        "italian": "lo scrigno del tesoro",
+        "article": "die",
+        "plural": "Schatztruhen",
+        "example": "Die Schatztruhe ist voll Gold."
+      }
+    ]
+  },
+  {
+    "id": "extra_9046",
+    "name": "Gegensätze",
+    "category": "Gegensätze",
+    "icon": "↔️",
+    "words": [
+      {
+        "german": "alt - jung",
+        "italian": "vecchio - giovane",
+        "article": "",
+        "plural": "",
+        "example": "Der Opa ist alt, das Kind ist jung."
+      },
+      {
+        "german": "voll - leer",
+        "italian": "pieno - vuoto",
+        "article": "",
+        "plural": "",
+        "example": "Die Flasche ist voll, das Glas ist leer."
+      },
+      {
+        "german": "richtig - falsch",
+        "italian": "giusto - sbagliato",
+        "article": "",
+        "plural": "",
+        "example": "Die Antwort ist richtig."
+      },
+      {
+        "german": "offen - geschlossen",
+        "italian": "aperto - chiuso",
+        "article": "",
+        "plural": "",
+        "example": "Das Fenster ist offen."
+      },
+      {
+        "german": "nah - fern",
+        "italian": "vicino - lontano",
+        "article": "",
+        "plural": "",
+        "example": "Das Kino ist nah, der Flughafen ist fern."
+      },
+      {
+        "german": "stark - schwach",
+        "italian": "forte - debole",
+        "article": "",
+        "plural": "",
+        "example": "Der Löwe ist stark."
+      },
+      {
+        "german": "reich - arm",
+        "italian": "ricco - povero",
+        "article": "",
+        "plural": "",
+        "example": "Er ist reich, sie ist arm."
+      },
+      {
+        "german": "gesund - krank",
+        "italian": "sano - malato",
+        "article": "",
+        "plural": "",
+        "example": "Ich bin gesund."
+      },
+      {
+        "german": "weich - hart",
+        "italian": "morbido - duro",
+        "article": "",
+        "plural": "",
+        "example": "Das Kissen ist weich, der Stein ist hart."
+      },
+      {
+        "german": "nass - trocken",
+        "italian": "bagnato - asciutto",
+        "article": "",
+        "plural": "",
+        "example": "Die Wäsche ist nass."
+      },
+      {
+        "german": "süß - bitter",
+        "italian": "dolce - amaro",
+        "article": "",
+        "plural": "",
+        "example": "Die Schokolade ist süß."
+      },
+      {
+        "german": "leer - voll",
+        "italian": "vuoto - pieno",
+        "article": "",
+        "plural": "",
+        "example": "Der Tank ist leer."
+      },
+      {
+        "german": "lebendig - tot",
+        "italian": "vivo - morto",
+        "article": "",
+        "plural": "",
+        "example": "Der Fisch ist lebendig."
+      },
+      {
+        "german": "möglich - unmöglich",
+        "italian": "possibile - impossibile",
+        "article": "",
+        "plural": "",
+        "example": "Alles ist möglich."
+      },
+      {
+        "german": "einfach - schwierig",
+        "italian": "facile - difficile",
+        "article": "",
+        "plural": "",
+        "example": "Die Aufgabe ist einfach."
+      },
+      {
+        "german": "zusammen - getrennt",
+        "italian": "insieme - separato",
+        "article": "",
+        "plural": "",
+        "example": "Wir sind zusammen."
+      },
+      {
+        "german": "ähnlich - verschieden",
+        "italian": "simile - diverso",
+        "article": "",
+        "plural": "",
+        "example": "Die Zwillinge sind ähnlich."
+      },
+      {
+        "german": "freiwillig - gezwungen",
+        "italian": "volontario - forzato",
+        "article": "",
+        "plural": "",
+        "example": "Das ist freiwillig."
+      }
+    ]
+  },
+  {
+    "id": "extra_9047",
+    "name": "Geräusche und Sinne",
+    "category": "Geräusche und Sinne",
+    "icon": "👂",
+    "words": [
+      {
+        "german": "der Geruch",
+        "italian": "l'odore",
+        "article": "der",
+        "plural": "Gerüche",
+        "example": "Der Geruch ist angenehm."
+      },
+      {
+        "german": "der Geschmack",
+        "italian": "il gusto",
+        "article": "der",
+        "plural": "",
+        "example": "Der Geschmack ist gut."
+      },
+      {
+        "german": "das Geräusch",
+        "italian": "il rumore",
+        "article": "das",
+        "plural": "Geräusche",
+        "example": "Ich höre ein Geräusch."
+      },
+      {
+        "german": "der Lärm",
+        "italian": "il rumore forte",
+        "article": "der",
+        "plural": "",
+        "example": "Der Lärm stört."
+      },
+      {
+        "german": "die Stille",
+        "italian": "il silenzio",
+        "article": "die",
+        "plural": "",
+        "example": "Die Stille ist schön."
+      },
+      {
+        "german": "der Klang",
+        "italian": "il suono",
+        "article": "der",
+        "plural": "Klänge",
+        "example": "Der Klang ist schön."
+      },
+      {
+        "german": "das Echo",
+        "italian": "l'eco",
+        "article": "das",
+        "plural": "Echos",
+        "example": "Ich höre ein Echo."
+      },
+      {
+        "german": "der Krach",
+        "italian": "il fracasso",
+        "article": "der",
+        "plural": "",
+        "example": "Der Krach war laut."
+      },
+      {
+        "german": "piepen",
+        "italian": "fare bip",
+        "article": "",
+        "plural": "",
+        "example": "Der Wecker piept."
+      },
+      {
+        "german": "brummen",
+        "italian": "ronzare",
+        "article": "",
+        "plural": "",
+        "example": "Die Biene brummt."
+      },
+      {
+        "german": "knistern",
+        "italian": "scoppiettare",
+        "article": "",
+        "plural": "",
+        "example": "Das Feuer knistert."
+      },
+      {
+        "german": "plätschern",
+        "italian": "gorgogliare",
+        "article": "",
+        "plural": "",
+        "example": "Der Bach plätschert."
+      }
+    ]
+  },
+  {
+    "id": "extra_9048",
+    "name": "Wetter und Natur erweitert",
+    "category": "Wetter und Natur erweitert",
+    "icon": "🌈",
+    "words": [
+      {
+        "german": "die Pfütze",
+        "italian": "la pozzanghera",
+        "article": "die",
+        "plural": "Pfützen",
+        "example": "Das Kind springt in die Pfütze."
+      },
+      {
+        "german": "der Eiszapfen",
+        "italian": "la stalattite di ghiaccio",
+        "article": "der",
+        "plural": "Eiszapfen",
+        "example": "Der Eiszapfen hängt am Dach."
+      },
+      {
+        "german": "das Gewächs",
+        "italian": "the plant",
+        "article": "das",
+        "plural": "Gewächse",
+        "example": "Das Gewächs wächst schnell."
+      },
+      {
+        "german": "die Knospe",
+        "italian": "il bocciolo",
+        "article": "die",
+        "plural": "Knospen",
+        "example": "Die Knospe öffnet sich."
+      }
+    ]
+  },
+  {
+    "id": "extra_9049",
+    "name": "Körperpflege und Hygiene",
+    "category": "Körperpflege und Hygiene",
+    "icon": "🧼",
+    "words": [
+      {
+        "german": "sich die Hände waschen",
+        "italian": "lavarsi le mani",
+        "article": "",
+        "plural": "",
+        "example": "Wasch dir die Hände."
+      },
+      {
+        "german": "sich die Zähne putzen",
+        "italian": "lavarsi i denti",
+        "article": "",
+        "plural": "",
+        "example": "Putz dir die Zähne."
+      },
+      {
+        "german": "sich die Haare waschen",
+        "italian": "lavarsi i capelli",
+        "article": "",
+        "plural": "",
+        "example": "Ich wasche mir die Haare."
+      },
+      {
+        "german": "sich die Nase putzen",
+        "italian": "soffiarsi il naso",
+        "article": "",
+        "plural": "",
+        "example": "Er putzt sich die Nase."
+      },
+      {
+        "german": "sich eincremen",
+        "italian": "spalmarsi la crema",
+        "article": "",
+        "plural": "",
+        "example": "Creme dich ein."
+      },
+      {
+        "german": "sich abtrocknen",
+        "italian": "asciugarsi",
+        "article": "",
+        "plural": "",
+        "example": "Trockne dich ab."
+      },
+      {
+        "german": "das Deodorant",
+        "italian": "il deodorante",
+        "article": "das",
+        "plural": "",
+        "example": "Benutze Deodorant."
+      },
+      {
+        "german": "die Mundspülung",
+        "italian": "il collutorio",
+        "article": "die",
+        "plural": "Mundspülungen",
+        "example": "Benutze Mundspülung."
+      },
+      {
+        "german": "das Duftöl",
+        "italian": "l'olio profumato",
+        "article": "das",
+        "plural": "Duftöle",
+        "example": "Das Duftöl riecht gut."
+      },
+      {
+        "german": "die Nagelschere",
+        "italian": "le forbicine per unghie",
+        "article": "die",
+        "plural": "Nagelscheren",
+        "example": "Schneide die Nägel mit der Nagelschere."
+      },
+      {
+        "german": "die Nagelfeile",
+        "italian": "la limetta per unghie",
+        "article": "die",
+        "plural": "Nagelfeilen",
+        "example": "Feile die Nägel."
+      },
+      {
+        "german": "das Badesalz",
+        "italian": "il sale da bagno",
+        "article": "das",
+        "plural": "",
+        "example": "Ich benutze Badesalz."
+      },
+      {
+        "german": "das Wattestäbchen",
+        "italian": "il bastoncino di cotone",
+        "article": "das",
+        "plural": "",
+        "example": "Benutze ein Wattestäbchen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9050",
+    "name": "Mathematik Grundbegriffe",
+    "category": "Mathematik Grundbegriffe",
+    "icon": "🔢",
+    "words": [
+      {
+        "german": "die Addition",
+        "italian": "l'addizione",
+        "article": "die",
+        "plural": "",
+        "example": "Addition ist plus rechnen."
+      },
+      {
+        "german": "die Subtraktion",
+        "italian": "la sottrazione",
+        "article": "die",
+        "plural": "",
+        "example": "Subtraktion ist minus rechnen."
+      },
+      {
+        "german": "die Multiplikation",
+        "italian": "la moltiplicazione",
+        "article": "die",
+        "plural": "",
+        "example": "Multiplikation ist mal rechnen."
+      },
+      {
+        "german": "die Division",
+        "italian": "la divisione",
+        "article": "die",
+        "plural": "",
+        "example": "Division ist geteilt rechnen."
+      },
+      {
+        "german": "das Gleiche",
+        "italian": "lo stesso",
+        "article": "das",
+        "plural": "",
+        "example": "Das ist das Gleiche."
+      },
+      {
+        "german": "mindestens",
+        "italian": "almeno",
+        "article": "",
+        "plural": "",
+        "example": "Mindestens fünf."
+      },
+      {
+        "german": "höchstens",
+        "italian": "al massimo",
+        "article": "",
+        "plural": "",
+        "example": "Höchstens zehn."
+      },
+      {
+        "german": "das Doppelte",
+        "italian": "il doppio",
+        "article": "das",
+        "plural": "",
+        "example": "Das Doppelte von fünf ist zehn."
+      },
+      {
+        "german": "gerade (Zahl)",
+        "italian": "pari",
+        "article": "",
+        "plural": "",
+        "example": "Vier ist eine gerade Zahl."
+      }
+    ]
+  },
+  {
+    "id": "extra_9051",
+    "name": "Höfliche Ausdrücke",
+    "category": "Höfliche Ausdrücke",
+    "icon": "🤝",
+    "words": [
+      {
+        "german": "Verzeihung",
+        "italian": "mi perdoni",
+        "article": "",
+        "plural": "",
+        "example": "Verzeihung, das war mein Fehler."
+      },
+      {
+        "german": "Gern geschehen",
+        "italian": "prego",
+        "article": "",
+        "plural": "",
+        "example": "Gern geschehen!"
+      },
+      {
+        "german": "Keine Ursache",
+        "italian": "di niente",
+        "article": "",
+        "plural": "",
+        "example": "Keine Ursache!"
+      },
+      {
+        "german": "gute Besserung",
+        "italian": "buona guarigione",
+        "article": "",
+        "plural": "",
+        "example": "Gute Besserung!"
+      },
+      {
+        "german": "viel Erfolg",
+        "italian": "in bocca al lupo",
+        "article": "",
+        "plural": "",
+        "example": "Viel Erfolg bei der Prüfung!"
+      },
+      {
+        "german": "schade",
+        "italian": "peccato",
+        "article": "",
+        "plural": "",
+        "example": "Schade, dass du nicht kommen kannst."
+      },
+      {
+        "german": "na klar",
+        "italian": "ma certo",
+        "article": "",
+        "plural": "",
+        "example": "Na klar, ich helfe dir."
+      },
+      {
+        "german": "Einverstanden",
+        "italian": "d'accordo",
+        "article": "",
+        "plural": "",
+        "example": "Einverstanden, wir machen das so."
+      },
+      {
+        "german": "meinetwegen",
+        "italian": "per quanto mi riguarda",
+        "article": "",
+        "plural": "",
+        "example": "Meinetwegen können wir gehen."
+      },
+      {
+        "german": "Mahlzeit",
+        "italian": "buon appetito",
+        "article": "",
+        "plural": "",
+        "example": "Mahlzeit!"
+      }
+    ]
+  },
+  {
+    "id": "extra_9052",
+    "name": "Bewegungen und Aktionen",
+    "category": "Bewegungen und Aktionen",
+    "icon": "🤸",
+    "words": [
+      {
+        "german": "winken",
+        "italian": "fare un cenno",
+        "article": "",
+        "plural": "",
+        "example": "Ich winke zum Abschied."
+      },
+      {
+        "german": "nicken",
+        "italian": "annuire",
+        "article": "",
+        "plural": "",
+        "example": "Er nickt mit dem Kopf."
+      },
+      {
+        "german": "zeigen",
+        "italian": "indicare",
+        "article": "",
+        "plural": "",
+        "example": "Er zeigt auf das Bild."
+      }
+    ]
+  },
+  {
+    "id": "extra_9053",
+    "name": "Gefühle und Reaktionen",
+    "category": "Gefühle und Reaktionen",
+    "icon": "😃",
+    "words": [
+      {
+        "german": "lachen",
+        "italian": "to laugh",
+        "article": "",
+        "plural": "",
+        "example": "Das Kind lacht."
+      },
+      {
+        "german": "lächeln",
+        "italian": "to smile",
+        "article": "",
+        "plural": "",
+        "example": "Sie lächelt."
+      },
+      {
+        "german": "gähnen",
+        "italian": "sbadigliare",
+        "article": "",
+        "plural": "",
+        "example": "Er gähnt."
+      },
+      {
+        "german": "schnarchen",
+        "italian": "russare",
+        "article": "",
+        "plural": "",
+        "example": "Er schnarcht."
+      },
+      {
+        "german": "schwitzen",
+        "italian": "sudare",
+        "article": "",
+        "plural": "",
+        "example": "Ich schwitze."
+      }
+    ]
+  },
+  {
+    "id": "extra_9054",
+    "name": "Elektrogeräte",
+    "category": "Elektrogeräte",
+    "icon": "🔌",
+    "words": [
+      {
+        "german": "die Spielkonsole",
+        "italian": "la console per videogiochi",
+        "article": "die",
+        "plural": "Spielkonsolen",
+        "example": "Die Spielkonsole ist neu."
+      },
+      {
+        "german": "das Verlängerungskabel",
+        "italian": "la prolunga",
+        "article": "das",
+        "plural": "Verlängerungskabel",
+        "example": "Ich brauche ein Verlängerungskabel."
+      },
+      {
+        "german": "die Glühbirne",
+        "italian": "la lampadina",
+        "article": "die",
+        "plural": "Glühbirnen",
+        "example": "Die Glühbirne ist kaputt."
+      },
+      {
+        "german": "die LED-Lampe",
+        "italian": "la lampada LED",
+        "article": "die",
+        "plural": "LED-Lampen",
+        "example": "LED-Lampen sparen Strom."
+      },
+      {
+        "german": "der Adapter",
+        "italian": "l'adattatore",
+        "article": "der",
+        "plural": "Adapter",
+        "example": "Ich brauche einen Adapter."
+      }
+    ]
+  },
+  {
+    "id": "extra_9055",
+    "name": "Verben mit Präpositionen",
+    "category": "Verben mit Präpositionen",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "sich bedanken bei",
+        "italian": "to thank",
+        "article": "",
+        "plural": "",
+        "example": "Ich bedanke mich bei dir."
+      },
+      {
+        "german": "sich unterhalten über",
+        "italian": "parlare di",
+        "article": "",
+        "plural": "",
+        "example": "Wir unterhalten uns über Politik."
+      }
+    ]
+  },
+  {
+    "id": "extra_9056",
+    "name": "Raumfahrt für Kinder",
+    "category": "Raumfahrt für Kinder",
+    "icon": "🚀",
+    "words": [
+      {
+        "german": "die Rakete",
+        "italian": "il razzo",
+        "article": "die",
+        "plural": "Raketen",
+        "example": "Die Rakete fliegt ins All."
+      },
+      {
+        "german": "der Astronaut",
+        "italian": "l'astronauta",
+        "article": "der",
+        "plural": "Astronauten",
+        "example": "Der Astronaut schwebt."
+      },
+      {
+        "german": "die Sternschnuppe",
+        "italian": "la stella cadente",
+        "article": "die",
+        "plural": "Sternschnuppen",
+        "example": "Ich sehe eine Sternschnuppe."
+      },
+      {
+        "german": "der Satellit",
+        "italian": "il satellite",
+        "article": "der",
+        "plural": "Satelliten",
+        "example": "Der Satellit kreist."
+      },
+      {
+        "german": "die Schwerkraft",
+        "italian": "la gravità",
+        "article": "die",
+        "plural": "",
+        "example": "Die Schwerkraft zieht uns an."
+      },
+      {
+        "german": "der Sternenhimmel",
+        "italian": "il cielo stellato",
+        "article": "der",
+        "plural": "",
+        "example": "Der Sternenhimmel ist schön."
+      },
+      {
+        "german": "das Sternbild",
+        "italian": "la costellazione",
+        "article": "das",
+        "plural": "Sternbilder",
+        "example": "Der Große Bär ist ein Sternbild."
+      },
+      {
+        "german": "die Mondfinsternis",
+        "italian": "l'eclissi lunare",
+        "article": "die",
+        "plural": "",
+        "example": "Die Mondfinsternis war toll."
+      },
+      {
+        "german": "die Sonnenfinsternis",
+        "italian": "l'eclissi solare",
+        "article": "die",
+        "plural": "",
+        "example": "Die Sonnenfinsternis ist selten."
+      },
+      {
+        "german": "der Weltraumanzug",
+        "italian": "la tuta spaziale",
+        "article": "der",
+        "plural": "Weltraumanzüge",
+        "example": "Der Weltraumanzug schützt."
+      }
+    ]
+  }
+]

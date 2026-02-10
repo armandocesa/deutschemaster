@@ -1,0 +1,657 @@
+[
+  {
+    "id": "verbi_ein",
+    "name": "verbs with 'ein'",
+    "category": "verbs with 'ein'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "einladen",
+        "italian": "to invite",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einkaufen",
+        "italian": "fare la spesa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einsteigen",
+        "italian": "to climb, go up",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_mit",
+    "name": "verbs with 'mit'",
+    "category": "verbs with 'mit'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "mitkommen",
+        "italian": "venire con",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mitbringen",
+        "italian": "portare con sé",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mitnehmen",
+        "italian": "portare via",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_zu",
+    "name": "verbs with 'zu'",
+    "category": "verbs with 'zu'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "zuhören",
+        "italian": "to listen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zumachen",
+        "italian": "to close",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zurückkommen",
+        "italian": "tornare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_ab",
+    "name": "verbs with 'ab'",
+    "category": "verbs with 'ab'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "abholen",
+        "italian": "andare a prendere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_vor",
+    "name": "verbs with 'vor'",
+    "category": "verbs with 'vor'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "vorstellen",
+        "italian": "presentare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_weg",
+    "name": "verbs with 'weg'",
+    "category": "verbs with 'weg'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "weggehen",
+        "italian": "andare via",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_modali",
+    "name": "modal verbs",
+    "category": "modal verbs",
+    "icon": "👗",
+    "words": [
+      {
+        "german": "können",
+        "italian": "can, to be able",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "müssen",
+        "italian": "must, should",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wollen",
+        "italian": "to want",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sollen",
+        "italian": "must, should",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dürfen",
+        "italian": "potere (permesso)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "möchten",
+        "italian": "vorrei",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_mov",
+    "name": "movement verbs",
+    "category": "movement verbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "gehen",
+        "italian": "to go",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kommen",
+        "italian": "to come",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fallen",
+        "italian": "to fall",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fliegen",
+        "italian": "volare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "reisen",
+        "italian": "viaggiare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bringen",
+        "italian": "to carry, bring",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "holen",
+        "italian": "prendere/andare a prendere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "legen",
+        "italian": "mettere (sdraiato)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "stellen",
+        "italian": "mettere (in piedi)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "setzen",
+        "italian": "mettere (seduto)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_pos",
+    "name": "position verbs",
+    "category": "position verbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "stehen",
+        "italian": "to stand",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sitzen",
+        "italian": "essere seduto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "liegen",
+        "italian": "essere sdraiato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bleiben",
+        "italian": "to stay, remain",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "warten",
+        "italian": "aspettare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_com",
+    "name": "communication verbs",
+    "category": "communication verbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "sagen",
+        "italian": "to say, to tell",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fragen",
+        "italian": "to ask",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "entschuldigen",
+        "italian": "scusare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "danken",
+        "italian": "to thank",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "begrüßen",
+        "italian": "to greet",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_cog",
+    "name": "cognition verbs",
+    "category": "cognition verbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "kennen",
+        "italian": "to know",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_perc",
+    "name": "perception verbs",
+    "category": "perception verbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "sehen",
+        "italian": "to see",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schauen",
+        "italian": "to look at",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gucken",
+        "italian": "to look at",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hören",
+        "italian": "to feel, hear",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_quot",
+    "name": "everyday verbs",
+    "category": "everyday verbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "essen",
+        "italian": "to eat",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "trinken",
+        "italian": "to drink",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schlafen",
+        "italian": "to sleep",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "duschen",
+        "italian": "fare la doccia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "baden",
+        "italian": "fare il bagno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "putzen",
+        "italian": "to clean",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sauber machen",
+        "italian": "to clean",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kaufen",
+        "italian": "comprare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bezahlen",
+        "italian": "pagare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_sep",
+    "name": "separable verbs",
+    "category": "separable verbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "spazierengehen",
+        "italian": "passeggiare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_quot2",
+    "name": "everyday verbs 2",
+    "category": "everyday verbs 2",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "versuchen",
+        "italian": "tentare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "funktionieren",
+        "italian": "funzionare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gefallen",
+        "italian": "to like, to please",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "attivita_tur",
+    "name": "tourist activities",
+    "category": "tourist activities",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Geschenk",
+        "italian": "il regalo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Fahrrad fahren",
+        "italian": "andare in bicicletta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "zahlen_1_20",
+    "name": "Zahlen 1-20",
+    "category": "Zahlen 1-20",
+    "icon": "🔢",
+    "words": []
+  },
+  {
+    "id": "zahlen_21_100",
+    "name": "Zahlen 21-100",
+    "category": "Zahlen 21-100",
+    "icon": "🔢",
+    "words": [
+      {
+        "german": "einunddreißig",
+        "italian": "trentuno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ein Paar",
+        "italian": "un paio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ein Dutzend",
+        "italian": "una dozzina",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "ordinalzahlen",
+    "name": "Numeri ordinali",
+    "category": "Numeri ordinali",
+    "icon": "🏅",
+    "words": []
+  },
+  {
+    "id": "wochentage",
+    "name": "Giorni della settimana",
+    "category": "Giorni della settimana",
+    "icon": "📅",
+    "words": [
+      {
+        "german": "Montag",
+        "italian": "Monday",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Dienstag",
+        "italian": "Tuesday",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Mittwoch",
+        "italian": "Wednesday",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Donnerstag",
+        "italian": "Thursday",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Freitag",
+        "italian": "Friday",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Samstag",
+        "italian": "Saturday",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Sonntag",
+        "italian": "Sunday",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Wochenende",
+        "italian": "fine settimana",
+        "article": "das",
+        "plural": "-n",
+        "example": ""
+      },
+      {
+        "german": "Wochentag",
+        "italian": "giorno feriale",
+        "article": "der",
+        "plural": "-e",
+        "example": ""
+      },
+      {
+        "german": "Feiertag",
+        "italian": "giorno festivo",
+        "article": "der",
+        "plural": "-e",
+        "example": ""
+      }
+    ]
+  }
+]

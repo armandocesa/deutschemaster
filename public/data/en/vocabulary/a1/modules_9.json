@@ -1,0 +1,479 @@
+[
+  {
+    "id": "extra_9017",
+    "name": "Richtungen",
+    "category": "Richtungen",
+    "icon": "🧭",
+    "words": [
+      {
+        "german": "der Bürgersteig",
+        "italian": "il marciapiede",
+        "article": "der",
+        "plural": "Bürgersteige",
+        "example": "Geh auf dem Bürgersteig."
+      },
+      {
+        "german": "die Abzweigung",
+        "italian": "la biforcazione",
+        "article": "die",
+        "plural": "Abzweigungen",
+        "example": "An der Abzweigung links."
+      }
+    ]
+  },
+  {
+    "id": "extra_9018",
+    "name": "Zeitausdrücke",
+    "category": "Zeitausdrücke",
+    "icon": "⏰",
+    "words": [
+      {
+        "german": "nachher",
+        "italian": "dopo",
+        "article": "",
+        "plural": "",
+        "example": "Nachher gehen wir essen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9019",
+    "name": "Am Telefon",
+    "category": "Am Telefon",
+    "icon": "📞",
+    "words": [
+      {
+        "german": "auflegen",
+        "italian": "riagganciare",
+        "article": "",
+        "plural": "",
+        "example": "Bitte nicht auflegen."
+      },
+      {
+        "german": "die Mailbox",
+        "italian": "la segreteria",
+        "article": "die",
+        "plural": "",
+        "example": "Sprechen Sie auf die Mailbox."
+      },
+      {
+        "german": "die Vorwahl",
+        "italian": "il prefisso",
+        "article": "die",
+        "plural": "Vorwahlen",
+        "example": "Wie ist die Vorwahl?"
+      },
+      {
+        "german": "die Rufnummer",
+        "italian": "il numero di telefono",
+        "article": "die",
+        "plural": "Rufnummern",
+        "example": "Wie ist Ihre Rufnummer?"
+      },
+      {
+        "german": "der Anrufbeantworter",
+        "italian": "la segreteria telefonica",
+        "article": "der",
+        "plural": "Anrufbeantworter",
+        "example": "Der Anrufbeantworter ist an."
+      },
+      {
+        "german": "klingeln",
+        "italian": "squillare",
+        "article": "",
+        "plural": "",
+        "example": "Das Telefon klingelt."
+      },
+      {
+        "german": "das Festnetz",
+        "italian": "la rete fissa",
+        "article": "das",
+        "plural": "",
+        "example": "Ruf mich auf dem Festnetz an."
+      },
+      {
+        "german": "die Durchwahl",
+        "italian": "l'interno",
+        "article": "die",
+        "plural": "Durchwahlen",
+        "example": "Wie ist Ihre Durchwahl?"
+      },
+      {
+        "german": "die Telefonzelle",
+        "italian": "la cabina telefonica",
+        "article": "die",
+        "plural": "Telefonzellen",
+        "example": "Die Telefonzelle ist alt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9020",
+    "name": "Wochentage und Monate erweitert",
+    "category": "Wochentage und Monate erweitert",
+    "icon": "📅",
+    "words": [
+      {
+        "german": "der Werktag",
+        "italian": "il giorno feriale",
+        "article": "der",
+        "plural": "Werktage",
+        "example": "Montag ist ein Werktag."
+      },
+      {
+        "german": "das Datum",
+        "italian": "la data",
+        "article": "das",
+        "plural": "Daten",
+        "example": "Welches Datum ist heute?"
+      },
+      {
+        "german": "die Mitternacht",
+        "italian": "la mezzanotte",
+        "article": "die",
+        "plural": "",
+        "example": "Um Mitternacht schlafe ich."
+      },
+      {
+        "german": "die Dämmerung",
+        "italian": "il crepuscolo",
+        "article": "die",
+        "plural": "",
+        "example": "In der Dämmerung wird es dunkel."
+      },
+      {
+        "german": "die Morgendämmerung",
+        "italian": "l'alba",
+        "article": "die",
+        "plural": "",
+        "example": "Die Morgendämmerung ist schön."
+      }
+    ]
+  },
+  {
+    "id": "extra_9021",
+    "name": "Körperteile erweitert",
+    "category": "Körperteile erweitert",
+    "icon": "🦶",
+    "words": []
+  },
+  {
+    "id": "extra_9022",
+    "name": "Tiere erweitert",
+    "category": "Tiere erweitert",
+    "icon": "🦁",
+    "words": []
+  },
+  {
+    "id": "extra_9023",
+    "name": "Kleidung erweitert",
+    "category": "Kleidung erweitert",
+    "icon": "👗",
+    "words": [
+      {
+        "german": "der Anorak",
+        "italian": "il giubbotto",
+        "article": "der",
+        "plural": "Anoraks",
+        "example": "Bei Regen trage ich einen Anorak."
+      },
+      {
+        "german": "der Schlafanzug",
+        "italian": "il pigiama",
+        "article": "der",
+        "plural": "Schlafanzüge",
+        "example": "Ich ziehe den Schlafanzug an."
+      },
+      {
+        "german": "der Regenmantel",
+        "italian": "l'impermeabile",
+        "article": "der",
+        "plural": "Regenmäntel",
+        "example": "Nimm den Regenmantel mit."
+      },
+      {
+        "german": "der Pantoffel",
+        "italian": "la pantofola",
+        "article": "der",
+        "plural": "Pantoffeln",
+        "example": "Zu Hause trage ich Pantoffeln."
+      },
+      {
+        "german": "der Hosenträger",
+        "italian": "le bretelle",
+        "article": "der",
+        "plural": "",
+        "example": "Er trägt Hosenträger."
+      },
+      {
+        "german": "die Schürze",
+        "italian": "il grembiule",
+        "article": "die",
+        "plural": "Schürzen",
+        "example": "Beim Kochen trage ich eine Schürze."
+      }
+    ]
+  },
+  {
+    "id": "extra_9024",
+    "name": "Obst und Gemüse erweitert",
+    "category": "Obst und Gemüse erweitert",
+    "icon": "🍎",
+    "words": []
+  },
+  {
+    "id": "extra_9025",
+    "name": "Transport erweitert",
+    "category": "Transport erweitert",
+    "icon": "🚌",
+    "words": [
+      {
+        "german": "der Fahrkartenautomat",
+        "italian": "la biglietteria automatica",
+        "article": "der",
+        "plural": "Fahrkartenautomaten",
+        "example": "Kaufe die Fahrkarte am Automaten."
+      }
+    ]
+  },
+  {
+    "id": "extra_9026",
+    "name": "Wetter Grundlagen",
+    "category": "Wetter Grundlagen",
+    "icon": "☀️",
+    "words": [
+      {
+        "german": "die Hitze",
+        "italian": "il caldo",
+        "article": "die",
+        "plural": "",
+        "example": "Die Hitze ist stark."
+      }
+    ]
+  },
+  {
+    "id": "extra_9027",
+    "name": "Haus und Wohnung",
+    "category": "Haus und Wohnung",
+    "icon": "🏠",
+    "words": [
+      {
+        "german": "die Einfahrt",
+        "italian": "l'ingresso carraio",
+        "article": "die",
+        "plural": "Einfahrten",
+        "example": "Das Auto steht in der Einfahrt."
+      },
+      {
+        "german": "die Fußmatte",
+        "italian": "lo zerbino",
+        "article": "die",
+        "plural": "Fußmatten",
+        "example": "Wisch die Schuhe auf der Fußmatte ab."
+      }
+    ]
+  },
+  {
+    "id": "extra_9028",
+    "name": "Berufe erweitert",
+    "category": "Berufe erweitert",
+    "icon": "👩‍⚕️",
+    "words": [
+      {
+        "german": "die Polizistin",
+        "italian": "la poliziotta",
+        "article": "die",
+        "plural": "Polizistinnen",
+        "example": "Die Polizistin fragt."
+      },
+      {
+        "german": "die Bäckerin",
+        "italian": "la panettiera",
+        "article": "die",
+        "plural": "Bäckerinnen",
+        "example": "Die Bäckerin backt Kuchen."
+      },
+      {
+        "german": "die Zahnärztin",
+        "italian": "la dentista",
+        "article": "die",
+        "plural": "Zahnärztinnen",
+        "example": "Die Zahnärztin ist nett."
+      },
+      {
+        "german": "der Briefträger",
+        "italian": "il postino",
+        "article": "der",
+        "plural": "Briefträger",
+        "example": "Der Briefträger bringt Post."
+      }
+    ]
+  },
+  {
+    "id": "extra_9029",
+    "name": "Haushaltsgeräte",
+    "category": "Haushaltsgeräte",
+    "icon": "🏡",
+    "words": [
+      {
+        "german": "der Ventilator",
+        "italian": "il ventilatore",
+        "article": "der",
+        "plural": "Ventilatoren",
+        "example": "Der Ventilator kühlt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9030",
+    "name": "Emotionen und Zustände",
+    "category": "Emotionen und Zustände",
+    "icon": "💭",
+    "words": [
+      {
+        "german": "satt",
+        "italian": "sazio",
+        "article": "",
+        "plural": "",
+        "example": "Ich bin satt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9031",
+    "name": "Einkaufen erweitert",
+    "category": "Einkaufen erweitert",
+    "icon": "🛒",
+    "words": [
+      {
+        "german": "die Kasse",
+        "italian": "la cassa",
+        "article": "die",
+        "plural": "Kassen",
+        "example": "Zahlen Sie an der Kasse."
+      },
+      {
+        "german": "der Einkaufswagen",
+        "italian": "il carrello",
+        "article": "der",
+        "plural": "Einkaufswagen",
+        "example": "Nimm einen Einkaufswagen."
+      },
+      {
+        "german": "der Einkaufskorb",
+        "italian": "il cestino della spesa",
+        "article": "der",
+        "plural": "Einkaufskörbe",
+        "example": "Ich nehme einen Einkaufskorb."
+      },
+      {
+        "german": "das Wechselgeld",
+        "italian": "il resto",
+        "article": "das",
+        "plural": "",
+        "example": "Hier ist das Wechselgeld."
+      },
+      {
+        "german": "die Einkaufsliste",
+        "italian": "la lista della spesa",
+        "article": "die",
+        "plural": "Einkaufslisten",
+        "example": "Ich schreibe eine Einkaufsliste."
+      },
+      {
+        "german": "bargeldlos",
+        "italian": "senza contanti",
+        "article": "",
+        "plural": "",
+        "example": "Kann ich bargeldlos zahlen?"
+      }
+    ]
+  },
+  {
+    "id": "extra_9032",
+    "name": "Schule und Lernen",
+    "category": "Schule und Lernen",
+    "icon": "🎓",
+    "words": []
+  },
+  {
+    "id": "extra_9033",
+    "name": "Möbel und Einrichtung",
+    "category": "Möbel und Einrichtung",
+    "icon": "🪑",
+    "words": [
+      {
+        "german": "das Kopfkissen",
+        "italian": "il cuscino",
+        "article": "das",
+        "plural": "Kopfkissen",
+        "example": "Das Kissen ist weich."
+      },
+      {
+        "german": "die Bettdecke",
+        "italian": "la coperta",
+        "article": "die",
+        "plural": "Bettdecken",
+        "example": "Die Bettdecke ist warm."
+      },
+      {
+        "german": "der Bilderrahmen",
+        "italian": "la cornice",
+        "article": "der",
+        "plural": "Bilderrahmen",
+        "example": "Der Bilderrahmen ist golden."
+      },
+      {
+        "german": "die Garderobe",
+        "italian": "l'appendiabiti",
+        "article": "die",
+        "plural": "Garderoben",
+        "example": "Häng die Jacke an die Garderobe."
+      }
+    ]
+  },
+  {
+    "id": "extra_9034",
+    "name": "Sport Grundlagen",
+    "category": "Sport Grundlagen",
+    "icon": "⚽",
+    "words": [
+      {
+        "german": "der Mannschaft",
+        "italian": "the team",
+        "article": "die",
+        "plural": "Mannschaften",
+        "example": "Unsere Mannschaft hat gewonnen."
+      },
+      {
+        "german": "die Spielerin",
+        "italian": "la giocatrice",
+        "article": "die",
+        "plural": "Spielerinnen",
+        "example": "Die Spielerin ist schnell."
+      }
+    ]
+  },
+  {
+    "id": "extra_9035",
+    "name": "Kochen und Küche",
+    "category": "Kochen und Küche",
+    "icon": "🍳",
+    "words": [
+      {
+        "german": "die Rezeptur",
+        "italian": "la ricetta",
+        "article": "die",
+        "plural": "Rezepturen",
+        "example": "Hast du eine Rezeptur?"
+      }
+    ]
+  },
+  {
+    "id": "extra_9036",
+    "name": "Natur und Landschaft",
+    "category": "Natur und Landschaft",
+    "icon": "🏔️",
+    "words": []
+  }
+]

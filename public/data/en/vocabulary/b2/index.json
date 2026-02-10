@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "negative qualities",
+    "name": "negative qualities",
+    "category": "negative qualities",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "character",
+    "name": "character",
+    "category": "character",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "emotions",
+    "name": "emotions",
+    "category": "emotions",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "weather",
+    "name": "weather",
+    "category": "weather",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "environment",
+    "name": "environment",
+    "category": "environment",
+    "icon": "🌍",
+    "wordCount": 16
+  },
+  {
+    "id": "energia",
+    "name": "energia",
+    "category": "energia",
+    "icon": "📖",
+    "wordCount": 15
+  },
+  {
+    "id": "fauna and flora",
+    "name": "fauna and flora",
+    "category": "fauna and flora",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "agricoltura",
+    "name": "agricoltura",
+    "category": "agricoltura",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "music",
+    "name": "music",
+    "category": "music",
+    "icon": "🎵",
+    "wordCount": 12
+  },
+  {
+    "id": "art",
+    "name": "art",
+    "category": "art",
+    "icon": "🎭",
+    "wordCount": 13
+  },
+  {
+    "id": "theater",
+    "name": "theater",
+    "category": "theater",
+    "icon": "📖",
+    "wordCount": 9
+  },
+  {
+    "id": "literature",
+    "name": "literature",
+    "category": "literature",
+    "icon": "📖",
+    "wordCount": 8
+  },
+  {
+    "id": "expressions",
+    "name": "expressions",
+    "category": "expressions",
+    "icon": "💬",
+    "wordCount": 2
+  },
+  {
+    "id": "time adverbs",
+    "name": "time adverbs",
+    "category": "time adverbs",
+    "icon": "⏰",
+    "wordCount": 1
+  },
+  {
+    "id": "place adverbs",
+    "name": "place adverbs",
+    "category": "place adverbs",
+    "icon": "🔄",
+    "wordCount": 2
+  },
+  {
+    "id": "manner adverbs",
+    "name": "manner adverbs",
+    "category": "manner adverbs",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "conjunctions",
+    "name": "conjunctions",
+    "category": "conjunctions",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "subordinating conjunctions",
+    "name": "subordinating conjunctions",
+    "category": "subordinating conjunctions",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "prepositions",
+    "name": "prepositions",
+    "category": "prepositions",
+    "icon": "📍",
+    "wordCount": 15
+  },
+  {
+    "id": "verbi_c1",
+    "name": "verbi_c1",
+    "category": "verbi_c1",
+    "icon": "🔄",
+    "wordCount": 29
+  },
+  {
+    "id": "accademico",
+    "name": "accademico",
+    "category": "accademico",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "aggettivi_c1",
+    "name": "aggettivi_c1",
+    "category": "aggettivi_c1",
+    "icon": "✨",
+    "wordCount": 17
+  },
+  {
+    "id": "connettivi_c1",
+    "name": "connettivi_c1",
+    "category": "connettivi_c1",
+    "icon": "📖",
+    "wordCount": 21
+  },
+  {
+    "id": "astratti_c1",
+    "name": "astratti_c1",
+    "category": "astratti_c1",
+    "icon": "📖",
+    "wordCount": 28
+  },
+  {
+    "id": "pensiero_c1",
+    "name": "pensiero_c1",
+    "category": "pensiero_c1",
+    "icon": "📖",
+    "wordCount": 22
+  },
+  {
+    "id": "giuridico",
+    "name": "giuridico",
+    "category": "giuridico",
+    "icon": "📖",
+    "wordCount": 18
+  },
+  {
+    "id": "letterario",
+    "name": "letterario",
+    "category": "letterario",
+    "icon": "📖",
+    "wordCount": 27
+  },
+  {
+    "id": "psicologico",
+    "name": "psicologico",
+    "category": "psicologico",
+    "icon": "📖",
+    "wordCount": 14
+  },
+  {
+    "id": "filosofico",
+    "name": "filosofico",
+    "category": "filosofico",
+    "icon": "📖",
+    "wordCount": 8
+  },
+  {
+    "id": "idiomatico",
+    "name": "idiomatico",
+    "category": "idiomatico",
+    "icon": "📖",
+    "wordCount": 31
+  },
+  {
+    "id": "house",
+    "name": "house",
+    "category": "house",
+    "icon": "🏠",
+    "wordCount": 1
+  },
+  {
+    "id": "house parts",
+    "name": "house parts",
+    "category": "house parts",
+    "icon": "🏠",
+    "wordCount": 1
+  },
+  {
+    "id": "furniture",
+    "name": "furniture",
+    "category": "furniture",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "ingredients",
+    "name": "ingredients",
+    "category": "ingredients",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "fruits and vegetables",
+    "name": "fruits and vegetables",
+    "category": "fruits and vegetables",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "spices",
+    "name": "spices",
+    "category": "spices",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "cooking",
+    "name": "cooking",
+    "category": "cooking",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "media",
+    "name": "media",
+    "category": "media",
+    "icon": "📺",
+    "wordCount": 8
+  },
+  {
+    "id": "digital",
+    "name": "digital",
+    "category": "digital",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "communication",
+    "name": "communication",
+    "category": "communication",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "pubblicita",
+    "name": "pubblicita",
+    "category": "pubblicita",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "fakenews",
+    "name": "fakenews",
+    "category": "fakenews",
+    "icon": "📖",
+    "wordCount": 10
+  },
+  {
+    "id": "body",
+    "name": "body",
+    "category": "body",
+    "icon": "💪",
+    "wordCount": 16
+  },
+  {
+    "id": "health",
+    "name": "health",
+    "category": "health",
+    "icon": "🏥",
+    "wordCount": 3
+  },
+  {
+    "id": "finanza_avz",
+    "name": "finanza_avz",
+    "category": "finanza_avz",
+    "icon": "💶",
+    "wordCount": 39
+  },
+  {
+    "id": "business",
+    "name": "business",
+    "category": "business",
+    "icon": "📖",
+    "wordCount": 41
+  },
+  {
+    "id": "marketing",
+    "name": "marketing",
+    "category": "marketing",
+    "icon": "📖",
+    "wordCount": 38
+  },
+  {
+    "id": "hr",
+    "name": "hr",
+    "category": "hr",
+    "icon": "📖",
+    "wordCount": 28
+  },
+  {
+    "id": "verbi_extra",
+    "name": "verbi_extra",
+    "category": "verbi_extra",
+    "icon": "🔄",
+    "wordCount": 3
+  },
+  {
+    "id": "c1",
+    "name": "c1",
+    "category": "c1",
+    "icon": "📖",
+    "wordCount": 26
+  },
+  {
+    "id": "avverbi_avz",
+    "name": "avverbi_avz",
+    "category": "avverbi_avz",
+    "icon": "🔄",
+    "wordCount": 11
+  },
+  {
+    "id": "medicine",
+    "name": "medicine",
+    "category": "medicine",
+    "icon": "💊",
+    "wordCount": 3
+  },
+  {
+    "id": "mentale",
+    "name": "mentale",
+    "category": "mentale",
+    "icon": "📖",
+    "wordCount": 13
+  },
+  {
+    "id": "intensificatori",
+    "name": "intensificatori",
+    "category": "intensificatori",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "assicurazione",
+    "name": "assicurazione",
+    "category": "assicurazione",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "professioni",
+    "name": "professioni",
+    "category": "professioni",
+    "icon": "👔",
+    "wordCount": 1
+  },
+  {
+    "id": "legge",
+    "name": "legge",
+    "category": "legge",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "sintomi",
+    "name": "sintomi",
+    "category": "sintomi",
+    "icon": "📖",
+    "wordCount": 13
+  },
+  {
+    "id": "trattamenti",
+    "name": "trattamenti",
+    "category": "trattamenti",
+    "icon": "📖",
+    "wordCount": 20
+  },
+  {
+    "id": "diagnosi",
+    "name": "diagnosi",
+    "category": "diagnosi",
+    "icon": "📖",
+    "wordCount": 21
+  },
+  {
+    "id": "strutture",
+    "name": "strutture",
+    "category": "strutture",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "salute_mentale",
+    "name": "salute_mentale",
+    "category": "salute_mentale",
+    "icon": "🏥",
+    "wordCount": 24
+  },
+  {
+    "id": "moda",
+    "name": "moda",
+    "category": "moda",
+    "icon": "👗",
+    "wordCount": 9
+  },
+  {
+    "id": "tessuti",
+    "name": "tessuti",
+    "category": "tessuti",
+    "icon": "📖",
+    "wordCount": 12
+  },
+  {
+    "id": "accessori",
+    "name": "accessori",
+    "category": "accessori",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "cura",
+    "name": "cura",
+    "category": "cura",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "animals",
+    "name": "animals",
+    "category": "animals",
+    "icon": "🐾",
+    "wordCount": 2
+  },
+  {
+    "id": "plants",
+    "name": "plants",
+    "category": "plants",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "nature",
+    "name": "nature",
+    "category": "nature",
+    "icon": "🌿",
+    "wordCount": 1
+  },
+  {
+    "id": "politica",
+    "name": "politica",
+    "category": "politica",
+    "icon": "🏛️",
+    "wordCount": 9
+  },
+  {
+    "id": "elezioni",
+    "name": "elezioni",
+    "category": "elezioni",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "diritti",
+    "name": "diritti",
+    "category": "diritti",
+    "icon": "📖",
+    "wordCount": 9
+  },
+  {
+    "id": "societa",
+    "name": "societa",
+    "category": "societa",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "internazionale",
+    "name": "internazionale",
+    "category": "internazionale",
+    "icon": "📖",
+    "wordCount": 14
+  },
+  {
+    "id": "professioni_med",
+    "name": "professioni_med",
+    "category": "professioni_med",
+    "icon": "👔",
+    "wordCount": 23
+  },
+  {
+    "id": "professioni_leg",
+    "name": "professioni_leg",
+    "category": "professioni_leg",
+    "icon": "👔",
+    "wordCount": 16
+  },
+  {
+    "id": "professioni_tec",
+    "name": "professioni_tec",
+    "category": "professioni_tec",
+    "icon": "👔",
+    "wordCount": 12
+  },
+  {
+    "id": "professioni_cre",
+    "name": "professioni_cre",
+    "category": "professioni_cre",
+    "icon": "👔",
+    "wordCount": 4
+  },
+  {
+    "id": "professioni_ser",
+    "name": "professioni_ser",
+    "category": "professioni_ser",
+    "icon": "👔",
+    "wordCount": 2
+  },
+  {
+    "id": "professioni_acc",
+    "name": "professioni_acc",
+    "category": "professioni_acc",
+    "icon": "👔",
+    "wordCount": 12
+  },
+  {
+    "id": "fisica",
+    "name": "fisica",
+    "category": "fisica",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "chimica",
+    "name": "chimica",
+    "category": "chimica",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "biologia",
+    "name": "biologia",
+    "category": "biologia",
+    "icon": "📖",
+    "wordCount": 16
+  },
+  {
+    "id": "matematica",
+    "name": "matematica",
+    "category": "matematica",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "astronomy",
+    "name": "astronomy",
+    "category": "astronomy",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "geology",
+    "name": "geology",
+    "category": "geology",
+    "icon": "📖",
+    "wordCount": 8
+  },
+  {
+    "id": "informatica",
+    "name": "informatica",
+    "category": "informatica",
+    "icon": "📖",
+    "wordCount": 18
+  },
+  {
+    "id": "emozioni_pos",
+    "name": "emozioni_pos",
+    "category": "emozioni_pos",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "emozioni_neg",
+    "name": "emozioni_neg",
+    "category": "emozioni_neg",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "stati_mentali",
+    "name": "stati_mentali",
+    "category": "stati_mentali",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "atteggiamenti",
+    "name": "atteggiamenti",
+    "category": "atteggiamenti",
+    "icon": "📖",
+    "wordCount": 13
+  },
+  {
+    "id": "events",
+    "name": "events",
+    "category": "events",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "aggettivi_comuni",
+    "name": "aggettivi_comuni",
+    "category": "aggettivi_comuni",
+    "icon": "✨",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'an'",
+    "name": "verbs with 'an'",
+    "category": "verbs with 'an'",
+    "icon": "🔄",
+    "wordCount": 4
+  },
+  {
+    "id": "verbs with 'auf'",
+    "name": "verbs with 'auf'",
+    "category": "verbs with 'auf'",
+    "icon": "🔄",
+    "wordCount": 2
+  },
+  {
+    "id": "verbs with 'aus'",
+    "name": "verbs with 'aus'",
+    "category": "verbs with 'aus'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'ein'",
+    "name": "verbs with 'ein'",
+    "category": "verbs with 'ein'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'mit'",
+    "name": "verbs with 'mit'",
+    "category": "verbs with 'mit'",
+    "icon": "🔄",
+    "wordCount": 2
+  },
+  {
+    "id": "verbs with 'zu'",
+    "name": "verbs with 'zu'",
+    "category": "verbs with 'zu'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'ab'",
+    "name": "verbs with 'ab'",
+    "category": "verbs with 'ab'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'vor'",
+    "name": "verbs with 'vor'",
+    "category": "verbs with 'vor'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'weg'",
+    "name": "verbs with 'weg'",
+    "category": "verbs with 'weg'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "movement verbs",
+    "name": "movement verbs",
+    "category": "movement verbs",
+    "icon": "🔄",
+    "wordCount": 2
+  },
+  {
+    "id": "communication verbs",
+    "name": "communication verbs",
+    "category": "communication verbs",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "perception verbs",
+    "name": "perception verbs",
+    "category": "perception verbs",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "separable verbs",
+    "name": "separable verbs",
+    "category": "separable verbs",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbi_quot2",
+    "name": "everyday verbs 2",
+    "category": "everyday verbs 2",
+    "icon": "🔄",
+    "wordCount": 3
+  },
+  {
+    "id": "travels",
+    "name": "travels",
+    "category": "travels",
+    "icon": "✈️",
+    "wordCount": 1
+  },
+  {
+    "id": "alloggio",
+    "name": "alloggio",
+    "category": "alloggio",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "destinazioni",
+    "name": "destinazioni",
+    "category": "destinazioni",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "tourist activities",
+    "name": "tourist activities",
+    "category": "tourist activities",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "wirtschaft_finanzen",
+    "name": "Economia e finanza",
+    "category": "Economia e finanza",
+    "icon": "💰",
+    "wordCount": 20
+  },
+  {
+    "id": "politik_demokratie",
+    "name": "Politica e democrazia",
+    "category": "Politica e democrazia",
+    "icon": "🗳️",
+    "wordCount": 19
+  },
+  {
+    "id": "medien_journalismus",
+    "name": "Media e giornalismo",
+    "category": "Media e giornalismo",
+    "icon": "📰",
+    "wordCount": 20
+  },
+  {
+    "id": "wissenschaft_forschung",
+    "name": "Scienza e ricerca",
+    "category": "Scienza e ricerca",
+    "icon": "🔭",
+    "wordCount": 18
+  },
+  {
+    "id": "technologie",
+    "name": "Tecnologia e innovazione",
+    "category": "Tecnologia e innovazione",
+    "icon": "🤖",
+    "wordCount": 20
+  },
+  {
+    "id": "umwelt_nachhaltigkeit",
+    "name": "Ambiente e sostenibilità",
+    "category": "Ambiente e sostenibilità",
+    "icon": "♻️",
+    "wordCount": 20
+  },
+  {
+    "id": "kunst_kultur",
+    "name": "Arte e cultura",
+    "category": "Arte e cultura",
+    "icon": "🎭",
+    "wordCount": 20
+  },
+  {
+    "id": "recht_justiz",
+    "name": "Diritto e giustizia",
+    "category": "Diritto e giustizia",
+    "icon": "⚖️",
+    "wordCount": 20
+  },
+  {
+    "id": "philosophie_ethik",
+    "name": "Filosofia ed etica",
+    "category": "Filosofia ed etica",
+    "icon": "💭",
+    "wordCount": 17
+  },
+  {
+    "id": "medizin_gesundheit",
+    "name": "Medicina e salute",
+    "category": "Medicina e salute",
+    "icon": "🩻",
+    "wordCount": 18
+  },
+  {
+    "id": "bildung_uni",
+    "name": "Università e accademia",
+    "category": "Università e accademia",
+    "icon": "🏛️",
+    "wordCount": 20
+  },
+  {
+    "id": "architektur",
+    "name": "Architettura e urbanistica",
+    "category": "Architettura e urbanistica",
+    "icon": "🏗️",
+    "wordCount": 17
+  },
+  {
+    "id": "soziologie",
+    "name": "Sociologia",
+    "category": "Sociologia",
+    "icon": "👥",
+    "wordCount": 18
+  },
+  {
+    "id": "internationale_beziehungen",
+    "name": "Relazioni internazionali",
+    "category": "Relazioni internazionali",
+    "icon": "🌍",
+    "wordCount": 17
+  },
+  {
+    "id": "gastronomie",
+    "name": "Gastronomia",
+    "category": "Gastronomia",
+    "icon": "🍷",
+    "wordCount": 17
+  },
+  {
+    "id": "mode_design",
+    "name": "Moda e design",
+    "category": "Moda e design",
+    "icon": "👗",
+    "wordCount": 19
+  },
+  {
+    "id": "immobilien",
+    "name": "Immobiliare",
+    "category": "Immobiliare",
+    "icon": "🏘️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9307",
+    "name": "Arbeitsmarkt",
+    "category": "Arbeitsmarkt",
+    "icon": "📈",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9308",
+    "name": "Globaler Handel",
+    "category": "Globaler Handel",
+    "icon": "🌐",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9309",
+    "name": "Energiepolitik",
+    "category": "Energiepolitik",
+    "icon": "⚡",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9310",
+    "name": "Migration und Integration",
+    "category": "Migration und Integration",
+    "icon": "🌍",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9311",
+    "name": "Demographischer Wandel",
+    "category": "Demographischer Wandel",
+    "icon": "📊",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9312",
+    "name": "Gentechnologie",
+    "category": "Gentechnologie",
+    "icon": "🧬",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9313",
+    "name": "Raumfahrt",
+    "category": "Raumfahrt",
+    "icon": "🚀",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9314",
+    "name": "Deutsche Geschichte",
+    "category": "Deutsche Geschichte",
+    "icon": "🏰",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9315",
+    "name": "Europäische Union",
+    "category": "Europäische Union",
+    "icon": "🇪🇺",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9316",
+    "name": "Wahlsysteme",
+    "category": "Wahlsysteme",
+    "icon": "🗳️",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9317",
+    "name": "Medienkritik",
+    "category": "Medienkritik",
+    "icon": "📺",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9318",
+    "name": "Bildungspolitik",
+    "category": "Bildungspolitik",
+    "icon": "📚",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9319",
+    "name": "Gesundheitspolitik",
+    "category": "Gesundheitspolitik",
+    "icon": "🏥",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9320",
+    "name": "Stadtentwicklung",
+    "category": "Stadtentwicklung",
+    "icon": "🏙️",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9321",
+    "name": "Literaturgeschichte",
+    "category": "Literaturgeschichte",
+    "icon": "📖",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9322",
+    "name": "Kunstgeschichte",
+    "category": "Kunstgeschichte",
+    "icon": "🎨",
+    "wordCount": 8
+  },
+  {
+    "id": "extra_9323",
+    "name": "Wirtschaftsgeschichte",
+    "category": "Wirtschaftsgeschichte",
+    "icon": "💰",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9324",
+    "name": "Bioethik",
+    "category": "Bioethik",
+    "icon": "🧪",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9325",
+    "name": "Datenwissenschaft",
+    "category": "Datenwissenschaft",
+    "icon": "📊",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9326",
+    "name": "Robotik",
+    "category": "Robotik",
+    "icon": "🤖",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9327",
+    "name": "Psychotherapie",
+    "category": "Psychotherapie",
+    "icon": "🧠",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9328",
+    "name": "Kriminologie",
+    "category": "Kriminologie",
+    "icon": "🔍",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9329",
+    "name": "Sportmedizin",
+    "category": "Sportmedizin",
+    "icon": "⚕️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9330",
+    "name": "Philosophiegeschichte",
+    "category": "Philosophiegeschichte",
+    "icon": "🏛️",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9331",
+    "name": "Soziale Ungleichheit",
+    "category": "Soziale Ungleichheit",
+    "icon": "⚖️",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9332",
+    "name": "Forensik",
+    "category": "Forensik",
+    "icon": "🔬",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9333",
+    "name": "Nanotechnologie",
+    "category": "Nanotechnologie",
+    "icon": "🔬",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9334",
+    "name": "Wirtschaft und Finanzen",
+    "category": "Wirtschaft und Finanzen",
+    "icon": "📊",
+    "wordCount": 5
+  },
+  {
+    "id": "extra_9335",
+    "name": "Umweltpolitik",
+    "category": "Umweltpolitik",
+    "icon": "🌿",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9336",
+    "name": "Medizin und Forschung",
+    "category": "Medizin und Forschung",
+    "icon": "🔬",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9337",
+    "name": "Soziologie",
+    "category": "Soziologie",
+    "icon": "🏘️",
+    "wordCount": 8
+  },
+  {
+    "id": "extra_9338",
+    "name": "Internationale Beziehungen",
+    "category": "Internationale Beziehungen",
+    "icon": "🌐",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9339",
+    "name": "Philosophie und Ethik",
+    "category": "Philosophie und Ethik",
+    "icon": "🤔",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9340",
+    "name": "Linguistik",
+    "category": "Linguistik",
+    "icon": "🗣️",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9341",
+    "name": "Technologie und Innovation",
+    "category": "Technologie und Innovation",
+    "icon": "🚀",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9342",
+    "name": "Bildungswissenschaft",
+    "category": "Bildungswissenschaft",
+    "icon": "🎓",
+    "wordCount": 8
+  },
+  {
+    "id": "extra_9343",
+    "name": "Architektur und Stadtplanung",
+    "category": "Architektur und Stadtplanung",
+    "icon": "🏗️",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9344",
+    "name": "Psychologie vertieft",
+    "category": "Psychologie vertieft",
+    "icon": "🧠",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9345",
+    "name": "Literatur und Kultur",
+    "category": "Literatur und Kultur",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "extra_9346",
+    "name": "Geschichte vertieft",
+    "category": "Geschichte vertieft",
+    "icon": "🏛️",
+    "wordCount": 7
+  },
+  {
+    "id": "extra_9347",
+    "name": "Rechtswissenschaft",
+    "category": "Rechtswissenschaft",
+    "icon": "📜",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9348",
+    "name": "Kulturwissenschaft",
+    "category": "Kulturwissenschaft",
+    "icon": "🎨",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9349",
+    "name": "Naturwissenschaften",
+    "category": "Naturwissenschaften",
+    "icon": "⚗️",
+    "wordCount": 17
+  },
+  {
+    "id": "extra_9350",
+    "name": "Wirtschaftsrecht",
+    "category": "Wirtschaftsrecht",
+    "icon": "💼",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9351",
+    "name": "Medienwissenschaft",
+    "category": "Medienwissenschaft",
+    "icon": "📡",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9352",
+    "name": "Geopolitik",
+    "category": "Geopolitik",
+    "icon": "🌏",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9353",
+    "name": "Wirtschaftstheorie",
+    "category": "Wirtschaftstheorie",
+    "icon": "📉",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9354",
+    "name": "Sozialpolitik",
+    "category": "Sozialpolitik",
+    "icon": "🏥",
+    "wordCount": 8
+  },
+  {
+    "id": "extra_9355",
+    "name": "Kulturmanagement",
+    "category": "Kulturmanagement",
+    "icon": "🎭",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9356",
+    "name": "Bioökonomie",
+    "category": "Bioökonomie",
+    "icon": "🧬",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9357",
+    "name": "Digitale Gesellschaft",
+    "category": "Digitale Gesellschaft",
+    "icon": "💻",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9358",
+    "name": "Europäische Union",
+    "category": "Europäische Union",
+    "icon": "🇪🇺",
+    "wordCount": 7
+  },
+  {
+    "id": "extra_9359",
+    "name": "Psychotherapie",
+    "category": "Psychotherapie",
+    "icon": "🧠",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9360",
+    "name": "Neurotechnologie",
+    "category": "Neurotechnologie",
+    "icon": "🧬",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9361",
+    "name": "Klimaanpassung",
+    "category": "Klimaanpassung",
+    "icon": "🌡️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9362",
+    "name": "Unternehmensführung",
+    "category": "Unternehmensführung",
+    "icon": "🏢",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9363",
+    "name": "Urbanismus",
+    "category": "Urbanismus",
+    "icon": "🏙️",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9364",
+    "name": "Agrarpolitik",
+    "category": "Agrarpolitik",
+    "icon": "🌾",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9365",
+    "name": "Energiemarkt",
+    "category": "Energiemarkt",
+    "icon": "⚡",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9366",
+    "name": "Rechtsmedizin",
+    "category": "Rechtsmedizin",
+    "icon": "🔍",
+    "wordCount": 8
+  },
+  {
+    "id": "extra_9367",
+    "name": "Robotik und Automation",
+    "category": "Robotik und Automation",
+    "icon": "🤖",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9368",
+    "name": "Energiepolitik vertieft",
+    "category": "Energiepolitik vertieft",
+    "icon": "⚡",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9369",
+    "name": "Medizin vertieft",
+    "category": "Medizin vertieft",
+    "icon": "🏥",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9370",
+    "name": "Materialwissenschaft",
+    "category": "Materialwissenschaft",
+    "icon": "🔬",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9371",
+    "name": "Soziale Arbeit",
+    "category": "Soziale Arbeit",
+    "icon": "🤲",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9372",
+    "name": "Verkehrstechnik",
+    "category": "Verkehrstechnik",
+    "icon": "🚦",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9373",
+    "name": "Forstwirtschaft",
+    "category": "Forstwirtschaft",
+    "icon": "🌲",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9374",
+    "name": "Lebensmitteltechnologie",
+    "category": "Lebensmitteltechnologie",
+    "icon": "🧪",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9375",
+    "name": "Bergbau",
+    "category": "Bergbau",
+    "icon": "⛏️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9376",
+    "name": "Textiltechnik",
+    "category": "Textiltechnik",
+    "icon": "🧵",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9377",
+    "name": "Hydrologie",
+    "category": "Hydrologie",
+    "icon": "💧",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9378",
+    "name": "Drucktechnik",
+    "category": "Drucktechnik",
+    "icon": "🖨️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9379",
+    "name": "Keramik und Glas",
+    "category": "Keramik und Glas",
+    "icon": "🏺",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9380",
+    "name": "Schifffahrt",
+    "category": "Schifffahrt",
+    "icon": "🚢",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9381",
+    "name": "Versicherungswesen",
+    "category": "Versicherungswesen",
+    "icon": "📋",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9382",
+    "name": "Zahnmedizin",
+    "category": "Zahnmedizin",
+    "icon": "🦷",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9383",
+    "name": "Abfallwirtschaft",
+    "category": "Abfallwirtschaft",
+    "icon": "♻️",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9384",
+    "name": "Akustik und Tontechnik",
+    "category": "Akustik und Tontechnik",
+    "icon": "🎧",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9385",
+    "name": "Brauwesen",
+    "category": "Brauwesen",
+    "icon": "🍺",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9386",
+    "name": "Bauwesen vertieft",
+    "category": "Bauwesen vertieft",
+    "icon": "🏗️",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9387",
+    "name": "Elektrotechnik",
+    "category": "Elektrotechnik",
+    "icon": "⚡",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9388",
+    "name": "Weinbau",
+    "category": "Weinbau",
+    "icon": "🍇",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9389",
+    "name": "Pharmazie",
+    "category": "Pharmazie",
+    "icon": "💊",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9390",
+    "name": "Aquakultur",
+    "category": "Aquakultur",
+    "icon": "🐟",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9391",
+    "name": "Luft- und Raumfahrt",
+    "category": "Luft- und Raumfahrt",
+    "icon": "✈️",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9392",
+    "name": "Gießereitechnik",
+    "category": "Gießereitechnik",
+    "icon": "🔥",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9393",
+    "name": "Kältetechnik",
+    "category": "Kältetechnik",
+    "icon": "❄️",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9394",
+    "name": "Vermessungstechnik",
+    "category": "Vermessungstechnik",
+    "icon": "📐",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9395",
+    "name": "Logistik vertieft",
+    "category": "Logistik vertieft",
+    "icon": "📦",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9396",
+    "name": "Uhrmacherei",
+    "category": "Uhrmacherei",
+    "icon": "⌚",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9397",
+    "name": "Optometrie",
+    "category": "Optometrie",
+    "icon": "👓",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9398",
+    "name": "Pelztierhaltung und Tierschutz",
+    "category": "Pelztierhaltung und Tierschutz",
+    "icon": "🐄",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9399",
+    "name": "Holztechnik",
+    "category": "Holztechnik",
+    "icon": "🪵",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9400",
+    "name": "Glasherstellung",
+    "category": "Glasherstellung",
+    "icon": "🔮",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9401",
+    "name": "Lederherstellung",
+    "category": "Lederherstellung",
+    "icon": "👞",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9402",
+    "name": "Metallurgie",
+    "category": "Metallurgie",
+    "icon": "🔩",
+    "wordCount": 16
+  },
+  {
+    "id": "extra_9403",
+    "name": "Papierverarbeitung",
+    "category": "Papierverarbeitung",
+    "icon": "📃",
+    "wordCount": 15
+  }
+]

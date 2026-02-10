@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "geologia",
+    "name": "geology",
+    "category": "geology",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Stein",
+        "italian": "la pietra",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Sand",
+        "italian": "la sabbia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "persone",
+    "name": "people",
+    "category": "people",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Mensch",
+        "italian": "l'essere umano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Person",
+        "italian": "the person",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Herr",
+        "italian": "il signore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Dame",
+        "italian": "la signora",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Mädchen",
+        "italian": "the girl, young woman",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Junge",
+        "italian": "the boy, young man",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Gast",
+        "italian": "l'ospite",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "eventi",
+    "name": "events",
+    "category": "events",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Fest",
+        "italian": "la festa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Party",
+        "italian": "la festa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Geburtstag",
+        "italian": "il compleanno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Weihnachten",
+        "italian": "il Natale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Ostern",
+        "italian": "la Pasqua",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Reise",
+        "italian": "the trip",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Spiel",
+        "italian": "the match, game",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "sport",
+    "name": "sports",
+    "category": "sports",
+    "icon": "⚽",
+    "words": [
+      {
+        "german": "das Team",
+        "italian": "the team",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Spieler",
+        "italian": "the player",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gewinnen",
+        "italian": "to win",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verlieren",
+        "italian": "to lose",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Fan",
+        "italian": "il tifoso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Fußball",
+        "italian": "soccer, football",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Basketball",
+        "italian": "la pallacanestro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Volleyball",
+        "italian": "la pallavolo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Tennis",
+        "italian": "tennis",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Schwimmen",
+        "italian": "swimming",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schwimmen",
+        "italian": "nuotare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Schwimmbad",
+        "italian": "the swimming pool",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Laufen",
+        "italian": "the run, running",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "laufen",
+        "italian": "to run",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Radfahren",
+        "italian": "cycling",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Skifahren",
+        "italian": "skiing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Ski fahren",
+        "italian": "sciare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "hobby",
+    "name": "hobbies",
+    "category": "hobbies",
+    "icon": "🎮",
+    "words": [
+      {
+        "german": "das Hobby",
+        "italian": "l'hobby",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Freizeit",
+        "italian": "il tempo libero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Lesen",
+        "italian": "the reading",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "tanzen",
+        "italian": "ballare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Tanz",
+        "italian": "the dance",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Musik hören",
+        "italian": "ascoltare musica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Musik machen",
+        "italian": "fare musica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Videospiel",
+        "italian": "il videogioco",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Computerspiel",
+        "italian": "il gioco per computer",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fernsehen",
+        "italian": "guardare la TV",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ins Kino gehen",
+        "italian": "andare al cinema",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ausgehen",
+        "italian": "to exit",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "feiern",
+        "italian": "to celebrate",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "spazieren gehen",
+        "italian": "passeggiare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "computer",
+    "name": "computer",
+    "category": "computer",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der PC",
+        "italian": "il PC",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Tablet",
+        "italian": "il tablet",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Monitor",
+        "italian": "il monitor",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Taste",
+        "italian": "il tasto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kopfhörer",
+        "italian": "le cuffie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der USB-Stick",
+        "italian": "la chiavetta USB",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kabel",
+        "italian": "il cavo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "software",
+    "name": "software",
+    "category": "software",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Programm",
+        "italian": "il programma",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Datei",
+        "italian": "il file",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Text",
+        "italian": "il testo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Video",
+        "italian": "il video",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einfügen",
+        "italian": "incollare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "starten",
+        "italian": "avviare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einschalten",
+        "italian": "accendere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ausschalten",
+        "italian": "spegnere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "internet",
+    "name": "internet",
+    "category": "internet",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Netz",
+        "italian": "la rete",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das WLAN",
+        "italian": "il WiFi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "googeln",
+        "italian": "cercare su Google",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "surfen",
+        "italian": "navigare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Mail",
+        "italian": "l'email",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "antworten",
+        "italian": "to answer",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "smartphone",
+    "name": "smartphone",
+    "category": "smartphone",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Smartphone",
+        "italian": "lo smartphone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Handy",
+        "italian": "il cellulare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Foto",
+        "italian": "la foto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Selfie",
+        "italian": "il selfie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "anrufen",
+        "italian": "chiamare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Anruf",
+        "italian": "la chiamata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die SMS",
+        "italian": "l'SMS",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wecker",
+        "italian": "la sveglia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "sicurezza",
+    "name": "security",
+    "category": "security",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Fehler",
+        "italian": "l'errore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "veicoli",
+    "name": "vehicles",
+    "category": "vehicles",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Auto",
+        "italian": "l'auto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wagen",
+        "italian": "the car",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bus",
+        "italian": "the bus",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Motorrad",
+        "italian": "the motorcycle",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Fahrrad",
+        "italian": "the bicycle",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Rad",
+        "italian": "la bici",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Zug",
+        "italian": "the train",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Bahn",
+        "italian": "the train",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die U-Bahn",
+        "italian": "la metropolitana",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Taxi",
+        "italian": "il taxi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Flugzeug",
+        "italian": "the airplane",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Schiff",
+        "italian": "the ship",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Boot",
+        "italian": "la barca",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "traffico",
+    "name": "traffic",
+    "category": "traffic",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "fahren",
+        "italian": "guidare/andare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ampel",
+        "italian": "il semaforo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "stazione",
+    "name": "station",
+    "category": "station",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Bahnhof",
+        "italian": "the station",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Haltestelle",
+        "italian": "la fermata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fahrkarte",
+        "italian": "the ticket",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "aeroporto",
+    "name": "airport",
+    "category": "airport",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Flughafen",
+        "italian": "the airport",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gepäck",
+        "italian": "il bagaglio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Flug",
+        "italian": "il volo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "viaggi",
+    "name": "travels",
+    "category": "travels",
+    "icon": "✈️",
+    "words": [
+      {
+        "german": "der Tourist",
+        "italian": "il turista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Hotel",
+        "italian": "l'hotel",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Berge",
+        "italian": "le montagne",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Zoo",
+        "italian": "lo zoo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Pass",
+        "italian": "the passport",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Touristin",
+        "italian": "la turista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "città",
+    "name": "cities",
+    "category": "cities",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Stadt",
+        "italian": "the city",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Dorf",
+        "italian": "il villaggio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Hauptstadt",
+        "italian": "la capitale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_prep",
+    "name": "verbs with prepositions",
+    "category": "verbs with prepositions",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "sprechen mit",
+        "italian": "parlare con",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kommen aus",
+        "italian": "venire da",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "reden mit",
+        "italian": "parlare con",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "telefonieren mit",
+        "italian": "telefonare con",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "reden über",
+        "italian": "parlare di",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_an",
+    "name": "verbs with 'an'",
+    "category": "verbs with 'an'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "anziehen",
+        "italian": "to dress",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_auf",
+    "name": "verbs with 'auf'",
+    "category": "verbs with 'auf'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "aufstehen",
+        "italian": "alzarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aufmachen",
+        "italian": "to open",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aufwachen",
+        "italian": "svegliarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_aus",
+    "name": "verbs with 'aus'",
+    "category": "verbs with 'aus'",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "ausmachen",
+        "italian": "spegnere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ausziehen",
+        "italian": "svestirsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aussehen",
+        "italian": "sembrare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aussteigen",
+        "italian": "to go down",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "haben",
+        "italian": "to have",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "werden",
+        "italian": "diventare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  }
+]

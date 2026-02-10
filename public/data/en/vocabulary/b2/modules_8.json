@@ -1,0 +1,1933 @@
+[
+  {
+    "id": "extra_9319",
+    "name": "Gesundheitspolitik",
+    "category": "Gesundheitspolitik",
+    "icon": "🏥",
+    "words": [
+      {
+        "german": "das Gesundheitssystem",
+        "italian": "il sistema sanitario",
+        "article": "das",
+        "plural": "",
+        "example": "Das Gesundheitssystem ist gut."
+      },
+      {
+        "german": "die gesetzliche Krankenversicherung",
+        "italian": "l'assicurazione sanitaria pubblica",
+        "article": "die",
+        "plural": "",
+        "example": "Die GKV versichert die meisten."
+      },
+      {
+        "german": "die private Krankenversicherung",
+        "italian": "l'assicurazione sanitaria privata",
+        "article": "die",
+        "plural": "",
+        "example": "Die PKV ist freiwillig."
+      },
+      {
+        "german": "die Krankenhausreform",
+        "italian": "la riforma ospedaliera",
+        "article": "die",
+        "plural": "",
+        "example": "Die Krankenhausreform ist nötig."
+      },
+      {
+        "german": "die Pflegereform",
+        "italian": "la riforma dell'assistenza",
+        "article": "die",
+        "plural": "",
+        "example": "Die Pflegereform wird diskutiert."
+      },
+      {
+        "german": "der Krankenhausplan",
+        "italian": "il piano ospedaliero",
+        "article": "der",
+        "plural": "",
+        "example": "Der Krankenhausplan regelt Betten."
+      },
+      {
+        "german": "die Krankenkassenbeitrag",
+        "italian": "il contributo assicurativo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Beitrag steigt."
+      },
+      {
+        "german": "die Zwei-Klassen-Medizin",
+        "italian": "la medicina a due velocità",
+        "article": "die",
+        "plural": "",
+        "example": "Zwei-Klassen-Medizin ist ungerecht."
+      },
+      {
+        "german": "die Telemedizin",
+        "italian": "la telemedicina",
+        "article": "die",
+        "plural": "",
+        "example": "Telemedizin ermöglicht Fernbehandlung."
+      },
+      {
+        "german": "der Organspende",
+        "italian": "la donazione di organi",
+        "article": "die",
+        "plural": "",
+        "example": "Organspende rettet Leben."
+      },
+      {
+        "german": "die Patientenverfügung",
+        "italian": "il testamento biologico",
+        "article": "die",
+        "plural": "",
+        "example": "Die Patientenverfügung regelt den Willen."
+      },
+      {
+        "german": "die Sterbehilfe",
+        "italian": "l'eutanasia",
+        "article": "die",
+        "plural": "",
+        "example": "Sterbehilfe ist ethisch umstritten."
+      },
+      {
+        "german": "die Pandemievorsorge",
+        "italian": "la preparazione alla pandemia",
+        "article": "die",
+        "plural": "",
+        "example": "Pandemievorsorge ist wichtig."
+      },
+      {
+        "german": "die Impfpflicht",
+        "italian": "l'obbligo vaccinale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Impfpflicht wird diskutiert."
+      },
+      {
+        "german": "das E-Rezept",
+        "italian": "la ricetta elettronica",
+        "article": "das",
+        "plural": "",
+        "example": "Das E-Rezept ist digital."
+      },
+      {
+        "german": "die Gesundheitsakte",
+        "italian": "la cartella clinica",
+        "article": "die",
+        "plural": "Gesundheitsakten",
+        "example": "Die elektronische Gesundheitsakte kommt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9320",
+    "name": "Stadtentwicklung",
+    "category": "Stadtentwicklung",
+    "icon": "🏙️",
+    "words": [
+      {
+        "german": "die Stadtplanung",
+        "italian": "la pianificazione urbana",
+        "article": "die",
+        "plural": "",
+        "example": "Stadtplanung gestaltet Städte."
+      },
+      {
+        "german": "die Raumordnung",
+        "italian": "l'ordinamento territoriale",
+        "article": "die",
+        "plural": "",
+        "example": "Raumordnung plant Regionen."
+      },
+      {
+        "german": "der Bebauungsplan",
+        "italian": "il piano regolatore",
+        "article": "der",
+        "plural": "Bebauungspläne",
+        "example": "Der Bebauungsplan regelt die Nutzung."
+      },
+      {
+        "german": "die Flächennutzung",
+        "italian": "l'uso del suolo",
+        "article": "die",
+        "plural": "",
+        "example": "Die Flächennutzung muss geplant werden."
+      },
+      {
+        "german": "die Stadtentwicklung",
+        "italian": "lo sviluppo urbano",
+        "article": "die",
+        "plural": "",
+        "example": "Nachhaltige Stadtentwicklung ist wichtig."
+      },
+      {
+        "german": "die Baulücke",
+        "italian": "il lotto vuoto",
+        "article": "die",
+        "plural": "Baulücken",
+        "example": "Baulücken werden geschlossen."
+      },
+      {
+        "german": "die Brachfläche",
+        "italian": "l'area dismessa",
+        "article": "die",
+        "plural": "Brachflächen",
+        "example": "Brachflächen werden umgenutzt."
+      },
+      {
+        "german": "die Konversion",
+        "italian": "la riconversione",
+        "article": "die",
+        "plural": "",
+        "example": "Konversion von Militärflächen."
+      },
+      {
+        "german": "die Smart City",
+        "italian": "la smart city",
+        "article": "die",
+        "plural": "",
+        "example": "Smart Cities nutzen Technologie."
+      },
+      {
+        "german": "die grüne Infrastruktur",
+        "italian": "l'infrastruttura verde",
+        "article": "die",
+        "plural": "",
+        "example": "Grüne Infrastruktur verbessert das Klima."
+      },
+      {
+        "german": "die soziale Mischung",
+        "italian": "la mescolanza sociale",
+        "article": "die",
+        "plural": "",
+        "example": "Soziale Mischung ist erwünscht."
+      },
+      {
+        "german": "der Wohnungsbau",
+        "italian": "l'edilizia residenziale",
+        "article": "der",
+        "plural": "",
+        "example": "Wohnungsbau muss gefördert werden."
+      },
+      {
+        "german": "der sozialer Wohnungsbau",
+        "italian": "l'edilizia popolare",
+        "article": "der",
+        "plural": "",
+        "example": "Sozialer Wohnungsbau fehlt."
+      },
+      {
+        "german": "die Quartiersentwicklung",
+        "italian": "lo sviluppo del quartiere",
+        "article": "die",
+        "plural": "",
+        "example": "Quartiersentwicklung stärkt Viertel."
+      },
+      {
+        "german": "die Bürgerbeteiligung",
+        "italian": "la partecipazione cittadina",
+        "article": "die",
+        "plural": "",
+        "example": "Bürgerbeteiligung ist demokratisch."
+      },
+      {
+        "german": "der Flächenverbrauch",
+        "italian": "il consumo di suolo",
+        "article": "der",
+        "plural": "",
+        "example": "Flächenverbrauch muss reduziert werden."
+      },
+      {
+        "german": "die Nachverdichtung",
+        "italian": "l'intensificazione edilizia",
+        "article": "die",
+        "plural": "",
+        "example": "Nachverdichtung schafft Wohnraum."
+      },
+      {
+        "german": "die autofreie Zone",
+        "italian": "la zona senza auto",
+        "article": "die",
+        "plural": "",
+        "example": "Autofreie Zonen sind lebenswert."
+      }
+    ]
+  },
+  {
+    "id": "extra_9321",
+    "name": "Literaturgeschichte",
+    "category": "Literaturgeschichte",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Literaturepoche",
+        "italian": "l'epoca letteraria",
+        "article": "die",
+        "plural": "Literaturepochen",
+        "example": "Es gibt viele Literaturepochen."
+      },
+      {
+        "german": "die Romantik",
+        "italian": "il Romanticismo",
+        "article": "die",
+        "plural": "",
+        "example": "Die Romantik betonte Gefühle."
+      },
+      {
+        "german": "der Realismus",
+        "italian": "il Realismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Realismus bildet Wirklichkeit ab."
+      },
+      {
+        "german": "der Naturalismus",
+        "italian": "il Naturalismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Naturalismus zeigt soziale Probleme."
+      },
+      {
+        "german": "der Sturm und Drang",
+        "italian": "lo Sturm und Drang",
+        "article": "der",
+        "plural": "",
+        "example": "Sturm und Drang war emotional."
+      },
+      {
+        "german": "die Trümmerliteratur",
+        "italian": "la letteratura delle macerie",
+        "article": "die",
+        "plural": "",
+        "example": "Trümmerliteratur verarbeitete den Krieg."
+      },
+      {
+        "german": "die Nachkriegsliteratur",
+        "italian": "la letteratura del dopoguerra",
+        "article": "die",
+        "plural": "",
+        "example": "Nachkriegsliteratur war reflektierend."
+      },
+      {
+        "german": "der Nobelpreis für Literatur",
+        "italian": "il premio Nobel per la letteratura",
+        "article": "der",
+        "plural": "",
+        "example": "Er erhielt den Nobelpreis."
+      },
+      {
+        "german": "das literarische Werk",
+        "italian": "l'opera letteraria",
+        "article": "das",
+        "plural": "",
+        "example": "Das literarische Werk ist bedeutend."
+      }
+    ]
+  },
+  {
+    "id": "extra_9322",
+    "name": "Kunstgeschichte",
+    "category": "Kunstgeschichte",
+    "icon": "🎨",
+    "words": [
+      {
+        "german": "der Kubismus",
+        "italian": "il Cubismo",
+        "article": "der",
+        "plural": "",
+        "example": "Picasso prägte den Kubismus."
+      },
+      {
+        "german": "der Surrealismus",
+        "italian": "il Surrealismo",
+        "article": "der",
+        "plural": "",
+        "example": "Dalí war Surrealist."
+      },
+      {
+        "german": "die Pop-Art",
+        "italian": "la Pop Art",
+        "article": "die",
+        "plural": "",
+        "example": "Warhol revolutionierte die Pop-Art."
+      },
+      {
+        "german": "die Installation",
+        "italian": "l'installazione",
+        "article": "die",
+        "plural": "Installationen",
+        "example": "Die Installation ist beeindruckend."
+      },
+      {
+        "german": "die Performance",
+        "italian": "la performance",
+        "article": "die",
+        "plural": "Performances",
+        "example": "Die Performance war provokant."
+      },
+      {
+        "german": "die Aquarellmalerei",
+        "italian": "l'acquerello",
+        "article": "die",
+        "plural": "",
+        "example": "Aquarellmalerei ist zart."
+      },
+      {
+        "german": "die zeitgenössische Kunst",
+        "italian": "l'arte contemporanea",
+        "article": "die",
+        "plural": "",
+        "example": "Zeitgenössische Kunst provoziert."
+      },
+      {
+        "german": "der Kunstmarkt",
+        "italian": "il mercato dell'arte",
+        "article": "der",
+        "plural": "",
+        "example": "Der Kunstmarkt boomt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9323",
+    "name": "Wirtschaftsgeschichte",
+    "category": "Wirtschaftsgeschichte",
+    "icon": "💰",
+    "words": [
+      {
+        "german": "der Merkantilismus",
+        "italian": "il mercantilismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Merkantilismus betonte Export."
+      },
+      {
+        "german": "der Kapitalismus",
+        "italian": "il capitalismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Kapitalismus prägt die Wirtschaft."
+      },
+      {
+        "german": "der Sozialismus",
+        "italian": "il socialismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Sozialismus betonte Gleichheit."
+      },
+      {
+        "german": "der Kommunismus",
+        "italian": "il comunismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Kommunismus scheiterte."
+      },
+      {
+        "german": "die Weltwirtschaftskrise",
+        "italian": "la crisi economica mondiale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Weltwirtschaftskrise war 1929."
+      },
+      {
+        "german": "die Ölkrise",
+        "italian": "la crisi petrolifera",
+        "article": "die",
+        "plural": "",
+        "example": "Die Ölkrise war in den 70ern."
+      },
+      {
+        "german": "die Eurokrise",
+        "italian": "la crisi dell'euro",
+        "article": "die",
+        "plural": "",
+        "example": "Die Eurokrise betraf Südeuropa."
+      },
+      {
+        "german": "der Goldstandard",
+        "italian": "il gold standard",
+        "article": "der",
+        "plural": "",
+        "example": "Der Goldstandard wurde aufgegeben."
+      },
+      {
+        "german": "das Bretton-Woods-System",
+        "italian": "il sistema di Bretton Woods",
+        "article": "das",
+        "plural": "",
+        "example": "Bretton Woods regelte Währungen."
+      },
+      {
+        "german": "die Hyperinflation",
+        "italian": "l'iperinflazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Hyperinflation war 1923."
+      },
+      {
+        "german": "die Währungsreform",
+        "italian": "la riforma monetaria",
+        "article": "die",
+        "plural": "",
+        "example": "Die Währungsreform kam 1948."
+      },
+      {
+        "german": "der Marshallplan",
+        "italian": "il Piano Marshall",
+        "article": "der",
+        "plural": "",
+        "example": "Der Marshallplan half Europa."
+      }
+    ]
+  },
+  {
+    "id": "extra_9324",
+    "name": "Bioethik",
+    "category": "Bioethik",
+    "icon": "🧪",
+    "words": [
+      {
+        "german": "die Patientenautonomie",
+        "italian": "l'autonomia del paziente",
+        "article": "die",
+        "plural": "",
+        "example": "Patientenautonomie ist wichtig."
+      },
+      {
+        "german": "die Organtransplantation",
+        "italian": "il trapianto di organi",
+        "article": "die",
+        "plural": "",
+        "example": "Organtransplantation rettet Leben."
+      },
+      {
+        "german": "die Hirntoddiagnostik",
+        "italian": "la diagnosi di morte cerebrale",
+        "article": "die",
+        "plural": "",
+        "example": "Hirntoddiagnostik ist Voraussetzung."
+      },
+      {
+        "german": "die Reproduktionsmedizin",
+        "italian": "la medicina riproduttiva",
+        "article": "die",
+        "plural": "",
+        "example": "Reproduktionsmedizin hilft Paaren."
+      },
+      {
+        "german": "die Leihmutterschaft",
+        "italian": "la maternità surrogata",
+        "article": "die",
+        "plural": "",
+        "example": "Leihmutterschaft ist in Deutschland verboten."
+      },
+      {
+        "german": "die Embryonenforschung",
+        "italian": "la ricerca sugli embrioni",
+        "article": "die",
+        "plural": "",
+        "example": "Embryonenforschung ist reguliert."
+      },
+      {
+        "german": "die Stammzellenforschung",
+        "italian": "la ricerca sulle cellule staminali",
+        "article": "die",
+        "plural": "",
+        "example": "Stammzellenforschung hat Potenzial."
+      },
+      {
+        "german": "die Tierversuche",
+        "italian": "la sperimentazione animale",
+        "article": "die",
+        "plural": "",
+        "example": "Tierversuche sind umstritten."
+      },
+      {
+        "german": "die Selbstbestimmung",
+        "italian": "l'autodeterminazione",
+        "article": "die",
+        "plural": "",
+        "example": "Selbstbestimmung am Lebensende."
+      },
+      {
+        "german": "die palliative Versorgung",
+        "italian": "le cure palliative",
+        "article": "die",
+        "plural": "",
+        "example": "Palliative Versorgung lindert Schmerzen."
+      },
+      {
+        "german": "die informierte Einwilligung",
+        "italian": "il consenso informato",
+        "article": "die",
+        "plural": "",
+        "example": "Informierte Einwilligung ist Pflicht."
+      },
+      {
+        "german": "das Lebensrecht",
+        "italian": "il diritto alla vita",
+        "article": "das",
+        "plural": "",
+        "example": "Das Lebensrecht ist fundamental."
+      },
+      {
+        "german": "die Forschungsethik",
+        "italian": "l'etica della ricerca",
+        "article": "die",
+        "plural": "",
+        "example": "Forschungsethik setzt Grenzen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9325",
+    "name": "Datenwissenschaft",
+    "category": "Datenwissenschaft",
+    "icon": "📊",
+    "words": [
+      {
+        "german": "die Datenwissenschaft",
+        "italian": "la scienza dei dati",
+        "article": "die",
+        "plural": "",
+        "example": "Datenwissenschaft analysiert große Mengen."
+      },
+      {
+        "german": "der Datensatz",
+        "italian": "il dataset",
+        "article": "der",
+        "plural": "Datensätze",
+        "example": "Der Datensatz ist groß."
+      },
+      {
+        "german": "die Datenanalyse",
+        "italian": "l'analisi dei dati",
+        "article": "die",
+        "plural": "",
+        "example": "Datenanalyse liefert Erkenntnisse."
+      },
+      {
+        "german": "die Datenvisualisierung",
+        "italian": "la visualizzazione dei dati",
+        "article": "die",
+        "plural": "",
+        "example": "Datenvisualisierung macht Daten verständlich."
+      },
+      {
+        "german": "das maschinelle Lernen",
+        "italian": "l'apprendimento automatico",
+        "article": "das",
+        "plural": "",
+        "example": "Maschinelles Lernen verbessert sich."
+      },
+      {
+        "german": "das neuronale Netz",
+        "italian": "la rete neurale",
+        "article": "das",
+        "plural": "neuronale Netze",
+        "example": "Neuronale Netze imitieren das Gehirn."
+      },
+      {
+        "german": "die Mustererkennung",
+        "italian": "il riconoscimento di pattern",
+        "article": "die",
+        "plural": "",
+        "example": "Mustererkennung identifiziert Trends."
+      },
+      {
+        "german": "die Vorhersagemodelle",
+        "italian": "i modelli predittivi",
+        "article": "die",
+        "plural": "",
+        "example": "Vorhersagemodelle prognostizieren."
+      },
+      {
+        "german": "die Big Data",
+        "italian": "i big data",
+        "article": "die",
+        "plural": "",
+        "example": "Big Data bietet Chancen."
+      },
+      {
+        "german": "die Regression",
+        "italian": "la regressione",
+        "article": "die",
+        "plural": "",
+        "example": "Regression modelliert Zusammenhänge."
+      },
+      {
+        "german": "das Deep Learning",
+        "italian": "il deep learning",
+        "article": "das",
+        "plural": "",
+        "example": "Deep Learning ist komplex."
+      },
+      {
+        "german": "die Datenethik",
+        "italian": "l'etica dei dati",
+        "article": "die",
+        "plural": "",
+        "example": "Datenethik ist wichtig."
+      }
+    ]
+  },
+  {
+    "id": "extra_9326",
+    "name": "Robotik",
+    "category": "Robotik",
+    "icon": "🤖",
+    "words": [
+      {
+        "german": "die Robotik",
+        "italian": "la robotica",
+        "article": "die",
+        "plural": "",
+        "example": "Robotik verändert die Industrie."
+      },
+      {
+        "german": "der Industrieroboter",
+        "italian": "il robot industriale",
+        "article": "der",
+        "plural": "Industrieroboter",
+        "example": "Industrieroboter produzieren."
+      },
+      {
+        "german": "der Serviceroboter",
+        "italian": "il robot di servizio",
+        "article": "der",
+        "plural": "Serviceroboter",
+        "example": "Serviceroboter helfen im Alltag."
+      },
+      {
+        "german": "der humanoide Roboter",
+        "italian": "il robot umanoide",
+        "article": "der",
+        "plural": "",
+        "example": "Humanoide Roboter ähneln Menschen."
+      },
+      {
+        "german": "die Automatisierung",
+        "italian": "l'automazione",
+        "article": "die",
+        "plural": "",
+        "example": "Automatisierung ersetzt Arbeit."
+      },
+      {
+        "german": "die Mensch-Maschine-Interaktion",
+        "italian": "l'interazione uomo-macchina",
+        "article": "die",
+        "plural": "",
+        "example": "MMI wird natürlicher."
+      },
+      {
+        "german": "der Sensor",
+        "italian": "il sensore",
+        "article": "der",
+        "plural": "Sensoren",
+        "example": "Sensoren erfassen Daten."
+      },
+      {
+        "german": "der Aktor",
+        "italian": "l'attuatore",
+        "article": "der",
+        "plural": "Aktoren",
+        "example": "Aktoren bewegen den Roboter."
+      },
+      {
+        "german": "die Programmierung",
+        "italian": "la programmazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Programmierung ist komplex."
+      },
+      {
+        "german": "der Greifer",
+        "italian": "la pinza robotica",
+        "article": "der",
+        "plural": "Greifer",
+        "example": "Der Greifer greift Teile."
+      },
+      {
+        "german": "das autonome Fahren",
+        "italian": "la guida autonoma",
+        "article": "das",
+        "plural": "",
+        "example": "Autonomes Fahren kommt."
+      },
+      {
+        "german": "die Cobotik",
+        "italian": "la cobottica",
+        "article": "die",
+        "plural": "",
+        "example": "Cobots arbeiten mit Menschen."
+      },
+      {
+        "german": "die Sensorik",
+        "italian": "la sensoristica",
+        "article": "die",
+        "plural": "",
+        "example": "Sensorik erfasst die Umgebung."
+      },
+      {
+        "german": "die Aktorik",
+        "italian": "l'attuazione",
+        "article": "die",
+        "plural": "",
+        "example": "Aktorik setzt Befehle um."
+      },
+      {
+        "german": "die Regelungstechnik",
+        "italian": "la tecnica di regolazione",
+        "article": "die",
+        "plural": "",
+        "example": "Regelungstechnik steuert Prozesse."
+      }
+    ]
+  },
+  {
+    "id": "extra_9327",
+    "name": "Psychotherapie",
+    "category": "Psychotherapie",
+    "icon": "🧠",
+    "words": [
+      {
+        "german": "der Psychotherapeut",
+        "italian": "lo psicoterapeuta",
+        "article": "der",
+        "plural": "Psychotherapeuten",
+        "example": "Der Psychotherapeut behandelt."
+      },
+      {
+        "german": "die kognitive Verhaltenstherapie",
+        "italian": "la terapia cognitivo-comportamentale",
+        "article": "die",
+        "plural": "",
+        "example": "KVT ist wirksam."
+      },
+      {
+        "german": "die Tiefenpsychologie",
+        "italian": "la psicologia del profondo",
+        "article": "die",
+        "plural": "",
+        "example": "Tiefenpsychologie erforscht das Unbewusste."
+      },
+      {
+        "german": "die Psychoanalyse",
+        "italian": "la psicoanalisi",
+        "article": "die",
+        "plural": "",
+        "example": "Freud begründete die Psychoanalyse."
+      },
+      {
+        "german": "die Gesprächstherapie",
+        "italian": "la terapia centrata sul cliente",
+        "article": "die",
+        "plural": "",
+        "example": "Gesprächstherapie schafft Vertrauen."
+      },
+      {
+        "german": "die systemische Therapie",
+        "italian": "la terapia sistemica",
+        "article": "die",
+        "plural": "",
+        "example": "Systemische Therapie betrachtet Beziehungen."
+      },
+      {
+        "german": "die Gruppentherapie",
+        "italian": "la terapia di gruppo",
+        "article": "die",
+        "plural": "",
+        "example": "Gruppentherapie hilft vielen."
+      },
+      {
+        "german": "die EMDR-Therapie",
+        "italian": "la terapia EMDR",
+        "article": "die",
+        "plural": "",
+        "example": "EMDR hilft bei Traumata."
+      },
+      {
+        "german": "die Schematherapie",
+        "italian": "la Schema Therapy",
+        "article": "die",
+        "plural": "",
+        "example": "Schematherapie behandelt Persönlichkeitsstörungen."
+      },
+      {
+        "german": "die Expositionstherapie",
+        "italian": "la terapia espositiva",
+        "article": "die",
+        "plural": "",
+        "example": "Expositionstherapie behandelt Phobien."
+      },
+      {
+        "german": "die Achtsamkeitsbasierte Therapie",
+        "italian": "la terapia basata sulla mindfulness",
+        "article": "die",
+        "plural": "",
+        "example": "Achtsamkeitsbasierte Therapie reduziert Stress."
+      },
+      {
+        "german": "die therapeutische Beziehung",
+        "italian": "la relazione terapeutica",
+        "article": "die",
+        "plural": "",
+        "example": "Die therapeutische Beziehung ist zentral."
+      },
+      {
+        "german": "der Therapieansatz",
+        "italian": "l'approccio terapeutico",
+        "article": "der",
+        "plural": "Therapieansätze",
+        "example": "Verschiedene Therapieansätze existieren."
+      },
+      {
+        "german": "die Supervision",
+        "italian": "la supervisione",
+        "article": "die",
+        "plural": "",
+        "example": "Supervision unterstützt Therapeuten."
+      },
+      {
+        "german": "die Krisenintervention",
+        "italian": "l'intervento di crisi",
+        "article": "die",
+        "plural": "",
+        "example": "Krisenintervention hilft sofort."
+      },
+      {
+        "german": "die ambulante Behandlung",
+        "italian": "il trattamento ambulatoriale",
+        "article": "die",
+        "plural": "",
+        "example": "Ambulante Behandlung ist flexibel."
+      },
+      {
+        "german": "die stationäre Behandlung",
+        "italian": "il trattamento ospedaliero",
+        "article": "die",
+        "plural": "",
+        "example": "Stationäre Behandlung ist intensiv."
+      }
+    ]
+  },
+  {
+    "id": "extra_9328",
+    "name": "Kriminologie",
+    "category": "Kriminologie",
+    "icon": "🔍",
+    "words": [
+      {
+        "german": "die Kriminologie",
+        "italian": "la criminologia",
+        "article": "die",
+        "plural": "",
+        "example": "Kriminologie erforscht Verbrechen."
+      },
+      {
+        "german": "die Kriminalstatistik",
+        "italian": "la statistica criminale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Kriminalstatistik wird veröffentlicht."
+      },
+      {
+        "german": "die Resozialisierung",
+        "italian": "la risocializzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Resozialisierung ist das Ziel."
+      },
+      {
+        "german": "der Strafvollzug",
+        "italian": "l'esecuzione penale",
+        "article": "der",
+        "plural": "",
+        "example": "Der Strafvollzug muss reformiert werden."
+      },
+      {
+        "german": "die Rückfälligkeit",
+        "italian": "la recidiva",
+        "article": "die",
+        "plural": "",
+        "example": "Rückfälligkeit muss verhindert werden."
+      },
+      {
+        "german": "die Jugendkriminalität",
+        "italian": "la criminalità minorile",
+        "article": "die",
+        "plural": "",
+        "example": "Jugendkriminalität ist ein Problem."
+      },
+      {
+        "german": "die Wirtschaftskriminalität",
+        "italian": "la criminalità economica",
+        "article": "die",
+        "plural": "",
+        "example": "Wirtschaftskriminalität verursacht Schäden."
+      },
+      {
+        "german": "die organisierte Kriminalität",
+        "italian": "la criminalità organizzata",
+        "article": "die",
+        "plural": "",
+        "example": "Organisierte Kriminalität ist gefährlich."
+      },
+      {
+        "german": "die Viktimologie",
+        "italian": "la vittimologia",
+        "article": "die",
+        "plural": "",
+        "example": "Viktimologie erforscht Opfer."
+      },
+      {
+        "german": "der Tatort",
+        "italian": "la scena del crimine",
+        "article": "der",
+        "plural": "Tatorte",
+        "example": "Der Tatort wurde gesichert."
+      },
+      {
+        "german": "die Ermittlung",
+        "italian": "l'indagine",
+        "article": "die",
+        "plural": "Ermittlungen",
+        "example": "Die Ermittlungen laufen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9329",
+    "name": "Sportmedizin",
+    "category": "Sportmedizin",
+    "icon": "⚕️",
+    "words": [
+      {
+        "german": "die Sportmedizin",
+        "italian": "la medicina sportiva",
+        "article": "die",
+        "plural": "",
+        "example": "Sportmedizin behandelt Sportler."
+      },
+      {
+        "german": "die Sportverletzung",
+        "italian": "l'infortunio sportivo",
+        "article": "die",
+        "plural": "Sportverletzungen",
+        "example": "Sportverletzungen sind häufig."
+      },
+      {
+        "german": "der Kreuzbandriss",
+        "italian": "la rottura del crociato",
+        "article": "der",
+        "plural": "",
+        "example": "Er hat einen Kreuzbandriss."
+      },
+      {
+        "german": "die Zerrung",
+        "italian": "lo stiramento",
+        "article": "die",
+        "plural": "Zerrungen",
+        "example": "Er hat eine Zerrung."
+      },
+      {
+        "german": "der Muskelfaserriss",
+        "italian": "lo strappo muscolare",
+        "article": "der",
+        "plural": "",
+        "example": "Der Muskelfaserriss heilt langsam."
+      },
+      {
+        "german": "der Bandscheibenvorfall",
+        "italian": "l'ernia del disco",
+        "article": "der",
+        "plural": "Bandscheibenvorfälle",
+        "example": "Der Bandscheibenvorfall schmerzt."
+      },
+      {
+        "german": "die Sehnenentzündung",
+        "italian": "la tendinite",
+        "article": "die",
+        "plural": "",
+        "example": "Die Sehnenentzündung braucht Ruhe."
+      },
+      {
+        "german": "der Meniskusriss",
+        "italian": "la lesione del menisco",
+        "article": "der",
+        "plural": "",
+        "example": "Der Meniskus ist gerissen."
+      },
+      {
+        "german": "die Leistungsdiagnostik",
+        "italian": "la diagnostica delle prestazioni",
+        "article": "die",
+        "plural": "",
+        "example": "Leistungsdiagnostik optimiert Training."
+      },
+      {
+        "german": "der Laktattest",
+        "italian": "il test del lattato",
+        "article": "der",
+        "plural": "",
+        "example": "Der Laktattest misst die Ausdauer."
+      },
+      {
+        "german": "die Sportphysiotherapie",
+        "italian": "la fisioterapia sportiva",
+        "article": "die",
+        "plural": "",
+        "example": "Sportphysiotherapie hilft bei Verletzungen."
+      },
+      {
+        "german": "die Doping-Kontrolle",
+        "italian": "il controllo antidoping",
+        "article": "die",
+        "plural": "",
+        "example": "Doping-Kontrollen sind streng."
+      },
+      {
+        "german": "das Doping",
+        "italian": "il doping",
+        "article": "das",
+        "plural": "",
+        "example": "Doping ist verboten."
+      },
+      {
+        "german": "die Überbelastung",
+        "italian": "il sovraccarico",
+        "article": "die",
+        "plural": "",
+        "example": "Überbelastung führt zu Verletzungen."
+      },
+      {
+        "german": "die Trainingssteuerung",
+        "italian": "la gestione dell'allenamento",
+        "article": "die",
+        "plural": "",
+        "example": "Trainingssteuerung verhindert Verletzungen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9330",
+    "name": "Philosophiegeschichte",
+    "category": "Philosophiegeschichte",
+    "icon": "🏛️",
+    "words": [
+      {
+        "german": "der Rationalismus",
+        "italian": "il razionalismo",
+        "article": "der",
+        "plural": "",
+        "example": "Descartes vertrat den Rationalismus."
+      },
+      {
+        "german": "der Empirismus",
+        "italian": "l'empirismo",
+        "article": "der",
+        "plural": "",
+        "example": "Hume vertrat den Empirismus."
+      },
+      {
+        "german": "der Idealismus",
+        "italian": "l'idealismo",
+        "article": "der",
+        "plural": "",
+        "example": "Hegel vertrat den Idealismus."
+      },
+      {
+        "german": "der Materialismus",
+        "italian": "il materialismo",
+        "article": "der",
+        "plural": "",
+        "example": "Marx vertrat den Materialismus."
+      },
+      {
+        "german": "der Existentialismus",
+        "italian": "l'esistenzialismo",
+        "article": "der",
+        "plural": "",
+        "example": "Sartre prägte den Existentialismus."
+      },
+      {
+        "german": "der Pragmatismus",
+        "italian": "il pragmatismo",
+        "article": "der",
+        "plural": "",
+        "example": "Dewey vertrat den Pragmatismus."
+      },
+      {
+        "german": "die Logik",
+        "italian": "la logica",
+        "article": "die",
+        "plural": "",
+        "example": "Logik strukturiert das Denken."
+      },
+      {
+        "german": "die Metaphysik",
+        "italian": "la metafisica",
+        "article": "die",
+        "plural": "",
+        "example": "Metaphysik fragt nach dem Grundlegenden."
+      },
+      {
+        "german": "die Ästhetik",
+        "italian": "l'estetica",
+        "article": "die",
+        "plural": "",
+        "example": "Ästhetik erforscht das Schöne."
+      },
+      {
+        "german": "der Utilitarismus",
+        "italian": "l'utilitarismo",
+        "article": "der",
+        "plural": "",
+        "example": "Mill vertrat den Utilitarismus."
+      },
+      {
+        "german": "der kategorische Imperativ",
+        "italian": "l'imperativo categorico",
+        "article": "der",
+        "plural": "",
+        "example": "Kant formulierte den kategorischen Imperativ."
+      },
+      {
+        "german": "der Nihilismus",
+        "italian": "il nichilismo",
+        "article": "der",
+        "plural": "",
+        "example": "Nietzsche analysierte den Nihilismus."
+      }
+    ]
+  },
+  {
+    "id": "extra_9331",
+    "name": "Soziale Ungleichheit",
+    "category": "Soziale Ungleichheit",
+    "icon": "⚖️",
+    "words": [
+      {
+        "german": "die soziale Ungleichheit",
+        "italian": "la disuguaglianza sociale",
+        "article": "die",
+        "plural": "",
+        "example": "Soziale Ungleichheit wächst."
+      },
+      {
+        "german": "das Existenzminimum",
+        "italian": "il minimo vitale",
+        "article": "das",
+        "plural": "",
+        "example": "Das Existenzminimum muss gesichert sein."
+      },
+      {
+        "german": "die Grundsicherung",
+        "italian": "il reddito minimo",
+        "article": "die",
+        "plural": "",
+        "example": "Grundsicherung hilft Bedürftigen."
+      },
+      {
+        "german": "die Einkommensschere",
+        "italian": "la forbice dei redditi",
+        "article": "die",
+        "plural": "",
+        "example": "Die Einkommensschere öffnet sich."
+      },
+      {
+        "german": "die Vermögensverteilung",
+        "italian": "la distribuzione della ricchezza",
+        "article": "die",
+        "plural": "",
+        "example": "Die Vermögensverteilung ist ungleich."
+      },
+      {
+        "german": "die soziale Mobilität",
+        "italian": "la mobilità sociale",
+        "article": "die",
+        "plural": "",
+        "example": "Soziale Mobilität stagniert."
+      },
+      {
+        "german": "der Sozialstaat",
+        "italian": "lo stato sociale",
+        "article": "der",
+        "plural": "",
+        "example": "Der Sozialstaat sichert ab."
+      },
+      {
+        "german": "die Umverteilung",
+        "italian": "la redistribuzione",
+        "article": "die",
+        "plural": "",
+        "example": "Umverteilung reduziert Ungleichheit."
+      },
+      {
+        "german": "die Mittelschicht",
+        "italian": "la classe media",
+        "article": "die",
+        "plural": "",
+        "example": "Die Mittelschicht schrumpft."
+      },
+      {
+        "german": "die Unterschicht",
+        "italian": "la classe inferiore",
+        "article": "die",
+        "plural": "",
+        "example": "Die Unterschicht wächst."
+      },
+      {
+        "german": "die Oberschicht",
+        "italian": "la classe superiore",
+        "article": "die",
+        "plural": "",
+        "example": "Die Oberschicht profitiert."
+      }
+    ]
+  },
+  {
+    "id": "extra_9332",
+    "name": "Forensik",
+    "category": "Forensik",
+    "icon": "🔬",
+    "words": [
+      {
+        "german": "die Forensik",
+        "italian": "la medicina legale",
+        "article": "die",
+        "plural": "",
+        "example": "Forensik löst Verbrechen."
+      },
+      {
+        "german": "die DNA-Analyse",
+        "italian": "l'analisi del DNA",
+        "article": "die",
+        "plural": "",
+        "example": "Die DNA-Analyse identifiziert Täter."
+      },
+      {
+        "german": "der Fingerabdruck",
+        "italian": "l'impronta digitale",
+        "article": "der",
+        "plural": "Fingerabdrücke",
+        "example": "Der Fingerabdruck wurde gesichert."
+      },
+      {
+        "german": "die Spurensicherung",
+        "italian": "la raccolta delle prove",
+        "article": "die",
+        "plural": "",
+        "example": "Die Spurensicherung arbeitet."
+      },
+      {
+        "german": "die Ballistik",
+        "italian": "la balistica",
+        "article": "die",
+        "plural": "",
+        "example": "Ballistik untersucht Geschosse."
+      },
+      {
+        "german": "die Toxikologie",
+        "italian": "la tossicologia",
+        "article": "die",
+        "plural": "",
+        "example": "Toxikologie untersucht Gifte."
+      },
+      {
+        "german": "die Rechtsmedizin",
+        "italian": "la medicina legale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Rechtsmedizin untersucht Leichen."
+      },
+      {
+        "german": "die Obduktion",
+        "italian": "l'autopsia",
+        "article": "die",
+        "plural": "Obduktionen",
+        "example": "Die Obduktion klärt die Todesursache."
+      },
+      {
+        "german": "die Beweissicherung",
+        "italian": "la conservazione delle prove",
+        "article": "die",
+        "plural": "",
+        "example": "Beweissicherung ist kritisch."
+      },
+      {
+        "german": "der Sachverständige",
+        "italian": "il perito",
+        "article": "der",
+        "plural": "Sachverständigen",
+        "example": "Der Sachverständige gutachtet."
+      },
+      {
+        "german": "die Tatortanalyse",
+        "italian": "l'analisi della scena del crimine",
+        "article": "die",
+        "plural": "",
+        "example": "Die Tatortanalyse ist wichtig."
+      },
+      {
+        "german": "das Profiling",
+        "italian": "il profiling",
+        "article": "das",
+        "plural": "",
+        "example": "Profiling erstellt Täterprofile."
+      },
+      {
+        "german": "die digitale Forensik",
+        "italian": "la forensica digitale",
+        "article": "die",
+        "plural": "",
+        "example": "Digitale Forensik untersucht Computer."
+      },
+      {
+        "german": "die Gerichtsmedizin",
+        "italian": "la medicina forense",
+        "article": "die",
+        "plural": "",
+        "example": "Gerichtsmedizin klärt Todesfälle."
+      },
+      {
+        "german": "die Identifizierung",
+        "italian": "l'identificazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Identifizierung war erfolgreich."
+      },
+      {
+        "german": "die Blutspurenanalyse",
+        "italian": "l'analisi delle tracce di sangue",
+        "article": "die",
+        "plural": "",
+        "example": "Blutspurenanalyse rekonstruiert Taten."
+      }
+    ]
+  },
+  {
+    "id": "extra_9333",
+    "name": "Nanotechnologie",
+    "category": "Nanotechnologie",
+    "icon": "🔬",
+    "words": [
+      {
+        "german": "die Nanotechnologie",
+        "italian": "la nanotecnologia",
+        "article": "die",
+        "plural": "",
+        "example": "Nanotechnologie arbeitet im Kleinen."
+      },
+      {
+        "german": "das Nanomaterial",
+        "italian": "il nanomateriale",
+        "article": "das",
+        "plural": "Nanomaterialien",
+        "example": "Nanomaterialien haben besondere Eigenschaften."
+      },
+      {
+        "german": "der Nanopartikel",
+        "italian": "la nanoparticella",
+        "article": "der",
+        "plural": "Nanopartikel",
+        "example": "Nanopartikel sind winzig."
+      },
+      {
+        "german": "die Nanomedizin",
+        "italian": "la nanomedicina",
+        "article": "die",
+        "plural": "",
+        "example": "Nanomedizin ermöglicht gezielte Therapie."
+      },
+      {
+        "german": "die Nanoelektronik",
+        "italian": "la nanoelettronica",
+        "article": "die",
+        "plural": "",
+        "example": "Nanoelektronik macht Chips kleiner."
+      },
+      {
+        "german": "das Nanorohr",
+        "italian": "il nanotubo",
+        "article": "das",
+        "plural": "Nanorohre",
+        "example": "Kohlenstoff-Nanorohre sind stabil."
+      },
+      {
+        "german": "die Oberfläche",
+        "italian": "la superficie",
+        "article": "die",
+        "plural": "Oberflächen",
+        "example": "Nanooberflächen sind speziell."
+      },
+      {
+        "german": "die Beschichtung",
+        "italian": "il rivestimento",
+        "article": "die",
+        "plural": "Beschichtungen",
+        "example": "Nanobeschichtungen schützen."
+      },
+      {
+        "german": "der Nanometer",
+        "italian": "il nanometro",
+        "article": "der",
+        "plural": "",
+        "example": "Ein Nanometer ist sehr klein."
+      },
+      {
+        "german": "die Quantenpunkte",
+        "italian": "i punti quantici",
+        "article": "die",
+        "plural": "",
+        "example": "Quantenpunkte leuchten in Farben."
+      },
+      {
+        "german": "die Bionanotechnologie",
+        "italian": "la bionanotecnologia",
+        "article": "die",
+        "plural": "",
+        "example": "Bionanotechnologie vereint Bio und Nano."
+      },
+      {
+        "german": "die Selbstorganisation",
+        "italian": "l'autoorganizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Nanostrukturen bilden sich selbst."
+      },
+      {
+        "german": "die Nanostruktur",
+        "italian": "la nanostruttura",
+        "article": "die",
+        "plural": "Nanostrukturen",
+        "example": "Nanostrukturen haben neue Eigenschaften."
+      },
+      {
+        "german": "die Nanofaser",
+        "italian": "la nanofibra",
+        "article": "die",
+        "plural": "Nanofasern",
+        "example": "Nanofasern sind extrem dünn."
+      },
+      {
+        "german": "die Miniaturisierung",
+        "italian": "la miniaturizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Miniaturisierung schreitet voran."
+      },
+      {
+        "german": "das Rastertunnelmikroskop",
+        "italian": "il microscopio a scansione tunnel",
+        "article": "das",
+        "plural": "",
+        "example": "Das STM macht Atome sichtbar."
+      },
+      {
+        "german": "die Nanoskala",
+        "italian": "la nanoscala",
+        "article": "die",
+        "plural": "",
+        "example": "Auf der Nanoskala gelten andere Gesetze."
+      },
+      {
+        "german": "die Nanofabrikation",
+        "italian": "la nanofabbricazione",
+        "article": "die",
+        "plural": "",
+        "example": "Nanofabrikation baut im Nanometerbereich."
+      }
+    ]
+  },
+  {
+    "id": "extra_9334",
+    "name": "Wirtschaft und Finanzen",
+    "category": "Wirtschaft und Finanzen",
+    "icon": "📊",
+    "words": [
+      {
+        "german": "die Zahlungsbilanz",
+        "italian": "la bilancia dei pagamenti",
+        "article": "die",
+        "plural": "die Zahlungsbilanzen",
+        "example": "Die Zahlungsbilanz ist positiv."
+      },
+      {
+        "german": "die Kapitalflucht",
+        "italian": "la fuga di capitali",
+        "article": "die",
+        "plural": "",
+        "example": "Kapitalflucht verhindern."
+      },
+      {
+        "german": "die Geldentwertung",
+        "italian": "la svalutazione",
+        "article": "die",
+        "plural": "die Geldentwertungen",
+        "example": "Geldentwertung durch Inflation."
+      },
+      {
+        "german": "die Börsennotierung",
+        "italian": "la quotazione in borsa",
+        "article": "die",
+        "plural": "die Börsennotierungen",
+        "example": "Die Börsennotierung steigt."
+      },
+      {
+        "german": "der Aktienindex",
+        "italian": "l'indice azionario",
+        "article": "der",
+        "plural": "die Aktienindizes",
+        "example": "Der Aktienindex fällt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9335",
+    "name": "Umweltpolitik",
+    "category": "Umweltpolitik",
+    "icon": "🌿",
+    "words": [
+      {
+        "german": "das Emissionshandelssystem",
+        "italian": "il sistema di scambio emissioni",
+        "article": "das",
+        "plural": "",
+        "example": "Das Emissionshandelssystem funktioniert."
+      },
+      {
+        "german": "die Klimaneutralität",
+        "italian": "la neutralità climatica",
+        "article": "die",
+        "plural": "",
+        "example": "Klimaneutralität bis 2050."
+      },
+      {
+        "german": "der Treibhausgasausstoß",
+        "italian": "le emissioni di gas serra",
+        "article": "der",
+        "plural": "",
+        "example": "Den Treibhausgasausstoß senken."
+      },
+      {
+        "german": "die Umweltverträglichkeitsprüfung",
+        "italian": "la valutazione d'impatto ambientale",
+        "article": "die",
+        "plural": "die Umweltverträglichkeitsprüfungen",
+        "example": "Die Umweltverträglichkeitsprüfung durchführen."
+      },
+      {
+        "german": "das Artenschutzabkommen",
+        "italian": "l'accordo per la protezione delle specie",
+        "article": "das",
+        "plural": "die Artenschutzabkommen",
+        "example": "Das Artenschutzabkommen unterzeichnen."
+      },
+      {
+        "german": "die Bodenerosion",
+        "italian": "l'erosione del suolo",
+        "article": "die",
+        "plural": "",
+        "example": "Bodenerosion verhindern."
+      },
+      {
+        "german": "die Grundwasserverschmutzung",
+        "italian": "l'inquinamento delle falde",
+        "article": "die",
+        "plural": "",
+        "example": "Grundwasserverschmutzung bekämpfen."
+      },
+      {
+        "german": "die Feinstaubbelastung",
+        "italian": "l'inquinamento da polveri sottili",
+        "article": "die",
+        "plural": "",
+        "example": "Feinstaubbelastung messen."
+      },
+      {
+        "german": "die Schadstoffemission",
+        "italian": "l'emissione di sostanze nocive",
+        "article": "die",
+        "plural": "die Schadstoffemissionen",
+        "example": "Schadstoffemissionen reduzieren."
+      },
+      {
+        "german": "die Renaturierung",
+        "italian": "la rinaturalizzazione",
+        "article": "die",
+        "plural": "die Renaturierungen",
+        "example": "Renaturierung von Flüssen."
+      },
+      {
+        "german": "die Biodiversitätsstrategie",
+        "italian": "la strategia per la biodiversità",
+        "article": "die",
+        "plural": "die Biodiversitätsstrategien",
+        "example": "Die Biodiversitätsstrategie umsetzen."
+      },
+      {
+        "german": "der Umweltgipfel",
+        "italian": "il vertice ambientale",
+        "article": "der",
+        "plural": "die Umweltgipfel",
+        "example": "Der Umweltgipfel beginnt."
+      },
+      {
+        "german": "das Pariser Abkommen",
+        "italian": "l'accordo di Parigi",
+        "article": "das",
+        "plural": "",
+        "example": "Das Pariser Abkommen einhalten."
+      },
+      {
+        "german": "die Dekarbonisierung",
+        "italian": "la decarbonizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Dekarbonisierung der Industrie."
+      },
+      {
+        "german": "die Ressourcenschonung",
+        "italian": "la tutela delle risorse",
+        "article": "die",
+        "plural": "",
+        "example": "Ressourcenschonung praktizieren."
+      }
+    ]
+  },
+  {
+    "id": "extra_9336",
+    "name": "Medizin und Forschung",
+    "category": "Medizin und Forschung",
+    "icon": "🔬",
+    "words": [
+      {
+        "german": "die klinische Studie",
+        "italian": "lo studio clinico",
+        "article": "die",
+        "plural": "die klinischen Studien",
+        "example": "Eine klinische Studie durchführen."
+      },
+      {
+        "german": "die Zulassungsbehörde",
+        "italian": "l'autorità di regolamentazione",
+        "article": "die",
+        "plural": "die Zulassungsbehörden",
+        "example": "Die Zulassungsbehörde prüft."
+      },
+      {
+        "german": "der Wirkstoff",
+        "italian": "il principio attivo",
+        "article": "der",
+        "plural": "die Wirkstoffe",
+        "example": "Der Wirkstoff ist wirksam."
+      },
+      {
+        "german": "die Immuntherapie",
+        "italian": "l'immunoterapia",
+        "article": "die",
+        "plural": "die Immuntherapien",
+        "example": "Immuntherapie gegen Krebs."
+      },
+      {
+        "german": "die Prothese",
+        "italian": "la protesi",
+        "article": "die",
+        "plural": "die Prothesen",
+        "example": "Eine Prothese einsetzen."
+      },
+      {
+        "german": "der Placeboeffekt",
+        "italian": "l'effetto placebo",
+        "article": "der",
+        "plural": "die Placeboeffekte",
+        "example": "Den Placeboeffekt untersuchen."
+      },
+      {
+        "german": "die Doppelblindstudie",
+        "italian": "lo studio in doppio cieco",
+        "article": "die",
+        "plural": "die Doppelblindstudien",
+        "example": "Eine Doppelblindstudie durchführen."
+      },
+      {
+        "german": "die Kontrollgruppe",
+        "italian": "il gruppo di controllo",
+        "article": "die",
+        "plural": "die Kontrollgruppen",
+        "example": "Die Kontrollgruppe vergleichen."
+      },
+      {
+        "german": "die Sterblichkeitsrate",
+        "italian": "il tasso di mortalità",
+        "article": "die",
+        "plural": "die Sterblichkeitsraten",
+        "example": "Die Sterblichkeitsrate sinkt."
+      },
+      {
+        "german": "die Epidemiologie",
+        "italian": "l'epidemiologia",
+        "article": "die",
+        "plural": "",
+        "example": "Epidemiologie studieren."
+      },
+      {
+        "german": "die Palliativmedizin",
+        "italian": "le cure palliative",
+        "article": "die",
+        "plural": "",
+        "example": "Palliativmedizin ausbauen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9337",
+    "name": "Soziologie",
+    "category": "Soziologie",
+    "icon": "🏘️",
+    "words": [
+      {
+        "german": "die Urbanisierung",
+        "italian": "l'urbanizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Urbanisierung schreitet voran."
+      },
+      {
+        "german": "die Suburbanisierung",
+        "italian": "la suburbanizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Suburbanisierung als Trend."
+      },
+      {
+        "german": "die Schichtung",
+        "italian": "la stratificazione",
+        "article": "die",
+        "plural": "die Schichtungen",
+        "example": "Soziale Schichtung untersuchen."
+      },
+      {
+        "german": "die Prekarisierung",
+        "italian": "la precarizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Prekarisierung der Arbeit."
+      },
+      {
+        "german": "die Marginalisierung",
+        "italian": "la marginalizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Marginalisierung verhindern."
+      },
+      {
+        "german": "die Stigmatisierung",
+        "italian": "la stigmatizzazione",
+        "article": "die",
+        "plural": "die Stigmatisierungen",
+        "example": "Stigmatisierung überwinden."
+      },
+      {
+        "german": "die Segregation",
+        "italian": "la segregazione",
+        "article": "die",
+        "plural": "die Segregationen",
+        "example": "Segregation überwinden."
+      },
+      {
+        "german": "die Milieuforschung",
+        "italian": "la ricerca sugli ambienti sociali",
+        "article": "die",
+        "plural": "",
+        "example": "Milieuforschung betreiben."
+      }
+    ]
+  },
+  {
+    "id": "extra_9338",
+    "name": "Internationale Beziehungen",
+    "category": "Internationale Beziehungen",
+    "icon": "🌐",
+    "words": [
+      {
+        "german": "das Völkerrecht",
+        "italian": "il diritto internazionale",
+        "article": "das",
+        "plural": "",
+        "example": "Völkerrecht einhalten."
+      },
+      {
+        "german": "das Handelsembargo",
+        "italian": "l'embargo commerciale",
+        "article": "das",
+        "plural": "die Handelsembargos",
+        "example": "Ein Handelsembargo verhängen."
+      },
+      {
+        "german": "die Abrüstung",
+        "italian": "il disarmo",
+        "article": "die",
+        "plural": "",
+        "example": "Abrüstung vorantreiben."
+      },
+      {
+        "german": "die Aufrüstung",
+        "italian": "il riarmo",
+        "article": "die",
+        "plural": "",
+        "example": "Aufrüstung vermeiden."
+      },
+      {
+        "german": "die Friedenstruppe",
+        "italian": "la forza di pace",
+        "article": "die",
+        "plural": "die Friedenstruppen",
+        "example": "Friedenstruppen entsenden."
+      },
+      {
+        "german": "die Nichtregierungsorganisation",
+        "italian": "l'organizzazione non governativa",
+        "article": "die",
+        "plural": "die Nichtregierungsorganisationen",
+        "example": "NGOs unterstützen."
+      },
+      {
+        "german": "der Multilateralismus",
+        "italian": "il multilateralismo",
+        "article": "der",
+        "plural": "",
+        "example": "Multilateralismus stärken."
+      },
+      {
+        "german": "der Unilateralismus",
+        "italian": "l'unilateralismo",
+        "article": "der",
+        "plural": "",
+        "example": "Unilateralismus vermeiden."
+      },
+      {
+        "german": "die Allianz",
+        "italian": "l'alleanza",
+        "article": "die",
+        "plural": "die Allianzen",
+        "example": "Eine Allianz bilden."
+      },
+      {
+        "german": "die Vermittlung",
+        "italian": "la mediazione",
+        "article": "die",
+        "plural": "die Vermittlungen",
+        "example": "Vermittlung anbieten."
+      },
+      {
+        "german": "das Mandat",
+        "italian": "il mandato",
+        "article": "das",
+        "plural": "die Mandate",
+        "example": "Ein UN-Mandat erteilen."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1324 @@
+[
+  {
+    "id": "extra_9228",
+    "name": "Verbraucherschutz",
+    "category": "Verbraucherschutz",
+    "icon": "🛡️",
+    "words": [
+      {
+        "german": "der Verbraucherschutz",
+        "italian": "la tutela del consumatore",
+        "article": "der",
+        "plural": "",
+        "example": "Verbraucherschutz ist wichtig."
+      },
+      {
+        "german": "das Widerrufsrecht",
+        "italian": "il diritto di recesso",
+        "article": "das",
+        "plural": "",
+        "example": "Das Widerrufsrecht gilt 14 Tage."
+      },
+      {
+        "german": "der Mangel",
+        "italian": "il difetto",
+        "article": "der",
+        "plural": "Mängel",
+        "example": "Das Produkt hat einen Mangel."
+      },
+      {
+        "german": "die Verbraucherberatung",
+        "italian": "la consulenza al consumatore",
+        "article": "die",
+        "plural": "",
+        "example": "Die Verbraucherberatung hilft."
+      },
+      {
+        "german": "die Verbraucherzentrale",
+        "italian": "il centro per la tutela dei consumatori",
+        "article": "die",
+        "plural": "",
+        "example": "Fragen Sie die Verbraucherzentrale."
+      },
+      {
+        "german": "das Kleingedruckte",
+        "italian": "le clausole scritte in piccolo",
+        "article": "das",
+        "plural": "",
+        "example": "Lies das Kleingedruckte."
+      },
+      {
+        "german": "die AGBs",
+        "italian": "le condizioni generali",
+        "article": "die",
+        "plural": "",
+        "example": "Lies die AGBs."
+      },
+      {
+        "german": "der Produktrückruf",
+        "italian": "il richiamo del prodotto",
+        "article": "der",
+        "plural": "",
+        "example": "Es gibt einen Produktrückruf."
+      },
+      {
+        "german": "die Produkthaftung",
+        "italian": "la responsabilità del prodotto",
+        "article": "die",
+        "plural": "",
+        "example": "Produkthaftung schützt den Käufer."
+      },
+      {
+        "german": "die Irreführung",
+        "italian": "l'inganno",
+        "article": "die",
+        "plural": "",
+        "example": "Irreführende Werbung ist verboten."
+      },
+      {
+        "german": "der Preisvergleich",
+        "italian": "il confronto dei prezzi",
+        "article": "der",
+        "plural": "",
+        "example": "Mach einen Preisvergleich."
+      },
+      {
+        "german": "die Schlichtungsstelle",
+        "italian": "l'organo di conciliazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Schlichtungsstelle vermittelt."
+      },
+      {
+        "german": "der Widerruf",
+        "italian": "la revoca",
+        "article": "der",
+        "plural": "",
+        "example": "Der Widerruf muss schriftlich sein."
+      },
+      {
+        "german": "die Online-Bewertung",
+        "italian": "la recensione online",
+        "article": "die",
+        "plural": "",
+        "example": "Lies die Online-Bewertungen."
+      },
+      {
+        "german": "die Mogelpackung",
+        "italian": "la confezione ingannevole",
+        "article": "die",
+        "plural": "",
+        "example": "Das ist eine Mogelpackung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9229",
+    "name": "Gleichberechtigung",
+    "category": "Gleichberechtigung",
+    "icon": "⚖️",
+    "words": [
+      {
+        "german": "die Frauenquote",
+        "italian": "la quota rosa",
+        "article": "die",
+        "plural": "",
+        "example": "Die Frauenquote ist umstritten."
+      },
+      {
+        "german": "der Gender-Pay-Gap",
+        "italian": "il divario salariale di genere",
+        "article": "der",
+        "plural": "",
+        "example": "Der Gender-Pay-Gap existiert."
+      },
+      {
+        "german": "die Benachteiligung",
+        "italian": "lo svantaggio",
+        "article": "die",
+        "plural": "Benachteiligungen",
+        "example": "Benachteiligung ist unrecht."
+      },
+      {
+        "german": "die Vielfalt",
+        "italian": "la diversità",
+        "article": "die",
+        "plural": "",
+        "example": "Vielfalt bereichert."
+      },
+      {
+        "german": "das Vorurteil",
+        "italian": "il pregiudizio",
+        "article": "das",
+        "plural": "Vorurteile",
+        "example": "Vorurteile abbauen."
+      },
+      {
+        "german": "die Stereotype",
+        "italian": "lo stereotipo",
+        "article": "die",
+        "plural": "Stereotype",
+        "example": "Stereotype sind vereinfachend."
+      },
+      {
+        "german": "die Emanzipation",
+        "italian": "l'emancipazione",
+        "article": "die",
+        "plural": "",
+        "example": "Emanzipation ist ein Prozess."
+      },
+      {
+        "german": "das Antidiskriminierungsgesetz",
+        "italian": "la legge antidiscriminazione",
+        "article": "das",
+        "plural": "",
+        "example": "Das Antidiskriminierungsgesetz schützt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9230",
+    "name": "Stadtleben vs Landleben",
+    "category": "Stadtleben vs Landleben",
+    "icon": "🌆",
+    "words": [
+      {
+        "german": "das Stadtleben",
+        "italian": "la vita in città",
+        "article": "das",
+        "plural": "",
+        "example": "Das Stadtleben ist hektisch."
+      },
+      {
+        "german": "das Landleben",
+        "italian": "la vita in campagna",
+        "article": "das",
+        "plural": "",
+        "example": "Das Landleben ist ruhig."
+      },
+      {
+        "german": "die Infrastruktur",
+        "italian": "le infrastrutture",
+        "article": "die",
+        "plural": "",
+        "example": "Die Infrastruktur fehlt auf dem Land."
+      },
+      {
+        "german": "die Abwanderung",
+        "italian": "l'esodo rurale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Abwanderung ist ein Problem."
+      },
+      {
+        "german": "die Landflucht",
+        "italian": "l'esodo verso le città",
+        "article": "die",
+        "plural": "",
+        "example": "Die Landflucht nimmt zu."
+      },
+      {
+        "german": "die Pendler",
+        "italian": "i pendolari",
+        "article": "die",
+        "plural": "",
+        "example": "Viele Pendler fahren in die Stadt."
+      },
+      {
+        "german": "die Lebensqualität",
+        "italian": "la qualità della vita",
+        "article": "die",
+        "plural": "",
+        "example": "Die Lebensqualität ist auf dem Land höher."
+      },
+      {
+        "german": "die Anonymität",
+        "italian": "l'anonimità",
+        "article": "die",
+        "plural": "",
+        "example": "Die Anonymität der Großstadt."
+      },
+      {
+        "german": "die Nachbarschaft",
+        "italian": "il vicinato",
+        "article": "die",
+        "plural": "",
+        "example": "Die Nachbarschaft auf dem Land ist enger."
+      },
+      {
+        "german": "die Anbindung",
+        "italian": "il collegamento",
+        "article": "die",
+        "plural": "",
+        "example": "Die Anbindung ist schlecht."
+      },
+      {
+        "german": "der Nahversorger",
+        "italian": "il negozio di prossimità",
+        "article": "der",
+        "plural": "",
+        "example": "Der Nahversorger fehlt."
+      },
+      {
+        "german": "die Zersiedelung",
+        "italian": "lo sprawl urbano",
+        "article": "die",
+        "plural": "",
+        "example": "Zersiedelung ist ein Problem."
+      },
+      {
+        "german": "die Gentrifizierung",
+        "italian": "la gentrificazione",
+        "article": "die",
+        "plural": "",
+        "example": "Gentrifizierung vertreibt Bewohner."
+      },
+      {
+        "german": "das Ballungsgebiet",
+        "italian": "l'area metropolitana",
+        "article": "das",
+        "plural": "",
+        "example": "Im Ballungsgebiet wohnen viele."
+      },
+      {
+        "german": "die Vorstadt",
+        "italian": "la periferia",
+        "article": "die",
+        "plural": "Vorstädte",
+        "example": "Die Vorstadt ist ruhig."
+      }
+    ]
+  },
+  {
+    "id": "extra_9231",
+    "name": "Verkehrswende",
+    "category": "Verkehrswende",
+    "icon": "🚲",
+    "words": [
+      {
+        "german": "die Verkehrswende",
+        "italian": "la svolta nei trasporti",
+        "article": "die",
+        "plural": "",
+        "example": "Die Verkehrswende ist nötig."
+      },
+      {
+        "german": "der öffentliche Nahverkehr",
+        "italian": "il trasporto pubblico locale",
+        "article": "der",
+        "plural": "",
+        "example": "Der ÖPNV muss besser werden."
+      },
+      {
+        "german": "das Carsharing",
+        "italian": "il car sharing",
+        "article": "das",
+        "plural": "",
+        "example": "Carsharing reduziert Autos."
+      },
+      {
+        "german": "die Fahrradstadt",
+        "italian": "la città ciclabile",
+        "article": "die",
+        "plural": "",
+        "example": "Amsterdam ist eine Fahrradstadt."
+      },
+      {
+        "german": "die Verkehrsberuhigung",
+        "italian": "la moderazione del traffico",
+        "article": "die",
+        "plural": "",
+        "example": "Verkehrsberuhigung schützt Kinder."
+      },
+      {
+        "german": "die Tempo-30-Zone",
+        "italian": "la zona 30",
+        "article": "die",
+        "plural": "",
+        "example": "In der Tempo-30-Zone langsam fahren."
+      },
+      {
+        "german": "der E-Scooter",
+        "italian": "il monopattino elettrico",
+        "article": "der",
+        "plural": "E-Scooter",
+        "example": "E-Scooter stehen überall."
+      },
+      {
+        "german": "die Fahrgemeinschaft",
+        "italian": "il car pooling",
+        "article": "die",
+        "plural": "Fahrgemeinschaften",
+        "example": "Wir bilden eine Fahrgemeinschaft."
+      },
+      {
+        "german": "der Wasserstoffantrieb",
+        "italian": "la propulsione a idrogeno",
+        "article": "der",
+        "plural": "",
+        "example": "Wasserstoffantrieb ist zukunftsfähig."
+      },
+      {
+        "german": "die Mobilitätswende",
+        "italian": "la rivoluzione della mobilità",
+        "article": "die",
+        "plural": "",
+        "example": "Die Mobilitätswende braucht Investitionen."
+      },
+      {
+        "german": "der Hybridantrieb",
+        "italian": "la propulsione ibrida",
+        "article": "der",
+        "plural": "",
+        "example": "Hybridantrieb kombiniert Motoren."
+      },
+      {
+        "german": "die Parkraumbewirtschaftung",
+        "italian": "la gestione dei parcheggi",
+        "article": "die",
+        "plural": "",
+        "example": "Parkraumbewirtschaftung reduziert Verkehr."
+      },
+      {
+        "german": "die Maut",
+        "italian": "il pedaggio",
+        "article": "die",
+        "plural": "",
+        "example": "Die Maut wird diskutiert."
+      }
+    ]
+  },
+  {
+    "id": "extra_9232",
+    "name": "Generationenkonflikt",
+    "category": "Generationenkonflikt",
+    "icon": "👴",
+    "words": [
+      {
+        "german": "die Generation",
+        "italian": "la generazione",
+        "article": "die",
+        "plural": "Generationen",
+        "example": "Die Generationen denken verschieden."
+      },
+      {
+        "german": "die Babyboomer",
+        "italian": "i baby boomer",
+        "article": "die",
+        "plural": "",
+        "example": "Die Babyboomer gehen in Rente."
+      },
+      {
+        "german": "die Generation X",
+        "italian": "la generazione X",
+        "article": "die",
+        "plural": "",
+        "example": "Die Generation X ist pragmatisch."
+      },
+      {
+        "german": "die Millennials",
+        "italian": "i millennials",
+        "article": "die",
+        "plural": "",
+        "example": "Millennials sind digital."
+      },
+      {
+        "german": "die Generation Z",
+        "italian": "la generazione Z",
+        "article": "die",
+        "plural": "",
+        "example": "Die Generation Z nutzt TikTok."
+      },
+      {
+        "german": "der Generationenvertrag",
+        "italian": "il contratto generazionale",
+        "article": "der",
+        "plural": "",
+        "example": "Der Generationenvertrag steht unter Druck."
+      },
+      {
+        "german": "die Altersvorsorge",
+        "italian": "la previdenza per la vecchiaia",
+        "article": "die",
+        "plural": "",
+        "example": "Die Altersvorsorge ist wichtig."
+      },
+      {
+        "german": "das Rentensystem",
+        "italian": "il sistema pensionistico",
+        "article": "das",
+        "plural": "",
+        "example": "Das Rentensystem muss reformiert werden."
+      },
+      {
+        "german": "der demografische Wandel",
+        "italian": "il cambiamento demografico",
+        "article": "der",
+        "plural": "",
+        "example": "Der demografische Wandel ist eine Herausforderung."
+      },
+      {
+        "german": "die Überalterung",
+        "italian": "l'invecchiamento",
+        "article": "die",
+        "plural": "",
+        "example": "Die Überalterung nimmt zu."
+      },
+      {
+        "german": "die Geburtenrate",
+        "italian": "il tasso di natalità",
+        "article": "die",
+        "plural": "",
+        "example": "Die Geburtenrate sinkt."
+      },
+      {
+        "german": "die Lebenserwartung",
+        "italian": "l'aspettativa di vita",
+        "article": "die",
+        "plural": "",
+        "example": "Die Lebenserwartung steigt."
+      },
+      {
+        "german": "die Jugendarbeitslosigkeit",
+        "italian": "la disoccupazione giovanile",
+        "article": "die",
+        "plural": "",
+        "example": "Die Jugendarbeitslosigkeit ist hoch."
+      },
+      {
+        "german": "der Fachkräftemangel",
+        "italian": "la carenza di manodopera specializzata",
+        "article": "der",
+        "plural": "",
+        "example": "Der Fachkräftemangel ist ein Problem."
+      },
+      {
+        "german": "die Wertvorstellung",
+        "italian": "il valore",
+        "article": "die",
+        "plural": "Wertvorstellungen",
+        "example": "Die Wertvorstellungen ändern sich."
+      },
+      {
+        "german": "die Modernisierung",
+        "italian": "la modernizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Modernisierung schreitet voran."
+      }
+    ]
+  },
+  {
+    "id": "extra_9233",
+    "name": "Religion und Toleranz",
+    "category": "Religion und Toleranz",
+    "icon": "🕊️",
+    "words": [
+      {
+        "german": "das Christentum",
+        "italian": "il cristianesimo",
+        "article": "das",
+        "plural": "",
+        "example": "Das Christentum ist verbreitet."
+      },
+      {
+        "german": "der Islam",
+        "italian": "l'Islam",
+        "article": "der",
+        "plural": "",
+        "example": "Der Islam ist die zweitgrößte Religion."
+      },
+      {
+        "german": "das Judentum",
+        "italian": "l'ebraismo",
+        "article": "das",
+        "plural": "",
+        "example": "Das Judentum ist alt."
+      },
+      {
+        "german": "der Buddhismus",
+        "italian": "il buddismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Buddhismus lehrt Gelassenheit."
+      },
+      {
+        "german": "der Hinduismus",
+        "italian": "l'induismo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Hinduismus ist vielfältig."
+      },
+      {
+        "german": "der Atheismus",
+        "italian": "l'ateismo",
+        "article": "der",
+        "plural": "",
+        "example": "Atheismus verbreitet sich."
+      },
+      {
+        "german": "die Konfession",
+        "italian": "la confessione",
+        "article": "die",
+        "plural": "Konfessionen",
+        "example": "Welche Konfession haben Sie?"
+      },
+      {
+        "german": "der Fundamentalismus",
+        "italian": "il fondamentalismo",
+        "article": "der",
+        "plural": "",
+        "example": "Fundamentalismus ist gefährlich."
+      },
+      {
+        "german": "die Säkularisierung",
+        "italian": "la secolarizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Säkularisierung schreitet voran."
+      },
+      {
+        "german": "die Koexistenz",
+        "italian": "la coesistenza",
+        "article": "die",
+        "plural": "",
+        "example": "Friedliche Koexistenz ist möglich."
+      }
+    ]
+  },
+  {
+    "id": "extra_9234",
+    "name": "Menschenrechte",
+    "category": "Menschenrechte",
+    "icon": "✊",
+    "words": [
+      {
+        "german": "die Menschenwürde",
+        "italian": "la dignità umana",
+        "article": "die",
+        "plural": "",
+        "example": "Die Menschenwürde ist unantastbar."
+      },
+      {
+        "german": "das Asylrecht",
+        "italian": "il diritto di asilo",
+        "article": "das",
+        "plural": "",
+        "example": "Das Asylrecht ist wichtig."
+      },
+      {
+        "german": "die Folter",
+        "italian": "la tortura",
+        "article": "die",
+        "plural": "",
+        "example": "Folter ist verboten."
+      },
+      {
+        "german": "die Todesstrafe",
+        "italian": "la pena di morte",
+        "article": "die",
+        "plural": "",
+        "example": "Die Todesstrafe ist abgeschafft."
+      },
+      {
+        "german": "die Sklaverei",
+        "italian": "la schiavitù",
+        "article": "die",
+        "plural": "",
+        "example": "Sklaverei ist verboten."
+      },
+      {
+        "german": "die Kinderrechte",
+        "italian": "i diritti dei bambini",
+        "article": "die",
+        "plural": "",
+        "example": "Kinderrechte müssen geschützt werden."
+      },
+      {
+        "german": "die Genfer Konvention",
+        "italian": "la Convenzione di Ginevra",
+        "article": "die",
+        "plural": "",
+        "example": "Die Genfer Konvention schützt."
+      },
+      {
+        "german": "die UN-Charta",
+        "italian": "la Carta dell'ONU",
+        "article": "die",
+        "plural": "",
+        "example": "Die UN-Charta garantiert Rechte."
+      },
+      {
+        "german": "das Flüchtlingslager",
+        "italian": "il campo profughi",
+        "article": "das",
+        "plural": "Flüchtlingslager",
+        "example": "Das Flüchtlingslager ist überfüllt."
+      },
+      {
+        "german": "die Abschiebung",
+        "italian": "l'espulsione",
+        "article": "die",
+        "plural": "Abschiebungen",
+        "example": "Die Abschiebung ist umstritten."
+      },
+      {
+        "german": "die Einbürgerung",
+        "italian": "la naturalizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Einbürgerung dauert Jahre."
+      },
+      {
+        "german": "die Duldung",
+        "italian": "la tolleranza (soggiorno)",
+        "article": "die",
+        "plural": "",
+        "example": "Er hat eine Duldung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9235",
+    "name": "Alternative Medizin",
+    "category": "Alternative Medizin",
+    "icon": "🌿",
+    "words": [
+      {
+        "german": "die Osteopathie",
+        "italian": "l'osteopatia",
+        "article": "die",
+        "plural": "",
+        "example": "Osteopathie hilft bei Rückenschmerzen."
+      },
+      {
+        "german": "die Chiropraktik",
+        "italian": "la chiropratica",
+        "article": "die",
+        "plural": "",
+        "example": "Chiropraktik behandelt die Wirbelsäule."
+      },
+      {
+        "german": "die Aromatherapie",
+        "italian": "l'aromaterapia",
+        "article": "die",
+        "plural": "",
+        "example": "Aromatherapie nutzt ätherische Öle."
+      },
+      {
+        "german": "die Heilpflanze",
+        "italian": "la pianta medicinale",
+        "article": "die",
+        "plural": "Heilpflanzen",
+        "example": "Heilpflanzen helfen natürlich."
+      },
+      {
+        "german": "der Heilpraktiker",
+        "italian": "il naturopata",
+        "article": "der",
+        "plural": "Heilpraktiker",
+        "example": "Der Heilpraktiker behandelt alternativ."
+      },
+      {
+        "german": "die Traditionelle Chinesische Medizin",
+        "italian": "la medicina tradizionale cinese",
+        "article": "die",
+        "plural": "",
+        "example": "TCM ist alt."
+      },
+      {
+        "german": "die Ayurveda-Medizin",
+        "italian": "la medicina ayurvedica",
+        "article": "die",
+        "plural": "",
+        "example": "Ayurveda kommt aus Indien."
+      },
+      {
+        "german": "das Fasten",
+        "italian": "il digiuno",
+        "article": "das",
+        "plural": "",
+        "example": "Fasten reinigt den Körper."
+      },
+      {
+        "german": "die Kneipp-Kur",
+        "italian": "la cura Kneipp",
+        "article": "die",
+        "plural": "",
+        "example": "Die Kneipp-Kur nutzt Wasser."
+      },
+      {
+        "german": "die Phytotherapie",
+        "italian": "la fitoterapia",
+        "article": "die",
+        "plural": "",
+        "example": "Phytotherapie nutzt Pflanzenextrakte."
+      },
+      {
+        "german": "die Reflexzonenmassage",
+        "italian": "il massaggio delle zone riflesse",
+        "article": "die",
+        "plural": "",
+        "example": "Reflexzonenmassage stimuliert."
+      },
+      {
+        "german": "die Bachblütentherapie",
+        "italian": "la terapia con i fiori di Bach",
+        "article": "die",
+        "plural": "",
+        "example": "Bachblüten wirken sanft."
+      },
+      {
+        "german": "die evidenzbasierte Medizin",
+        "italian": "la medicina basata sull'evidenza",
+        "article": "die",
+        "plural": "",
+        "example": "Evidenzbasierte Medizin ist Standard."
+      }
+    ]
+  },
+  {
+    "id": "extra_9236",
+    "name": "Vereine und Verbände",
+    "category": "Vereine und Verbände",
+    "icon": "🏅",
+    "words": [
+      {
+        "german": "der Verein",
+        "italian": "l'associazione",
+        "article": "der",
+        "plural": "Vereine",
+        "example": "Ich bin im Verein."
+      },
+      {
+        "german": "der Sportverein",
+        "italian": "l'associazione sportiva",
+        "article": "der",
+        "plural": "Sportvereine",
+        "example": "Er ist im Sportverein."
+      },
+      {
+        "german": "der Kulturverein",
+        "italian": "l'associazione culturale",
+        "article": "der",
+        "plural": "Kulturvereine",
+        "example": "Der Kulturverein organisiert Events."
+      },
+      {
+        "german": "die Mitgliedschaft",
+        "italian": "l'iscrizione",
+        "article": "die",
+        "plural": "Mitgliedschaften",
+        "example": "Die Mitgliedschaft kostet 50 Euro."
+      },
+      {
+        "german": "der Mitgliedsbeitrag",
+        "italian": "la quota associativa",
+        "article": "der",
+        "plural": "Mitgliedsbeiträge",
+        "example": "Der Mitgliedsbeitrag ist jährlich."
+      },
+      {
+        "german": "das Vereinshaus",
+        "italian": "la sede dell'associazione",
+        "article": "das",
+        "plural": "Vereinshäuser",
+        "example": "Wir treffen uns im Vereinshaus."
+      },
+      {
+        "german": "die Jugendabteilung",
+        "italian": "la sezione giovanile",
+        "article": "die",
+        "plural": "Jugendabteilungen",
+        "example": "Die Jugendabteilung trainiert."
+      },
+      {
+        "german": "die Trainerin",
+        "italian": "l'allenatrice",
+        "article": "die",
+        "plural": "Trainerinnen",
+        "example": "Die Trainerin ist streng."
+      }
+    ]
+  },
+  {
+    "id": "extra_9237",
+    "name": "Architektur Grundlagen",
+    "category": "Architektur Grundlagen",
+    "icon": "🏗️",
+    "words": [
+      {
+        "german": "die Fassade",
+        "italian": "la facciata",
+        "article": "die",
+        "plural": "Fassaden",
+        "example": "Die Fassade ist renoviert."
+      },
+      {
+        "german": "der Bauplan",
+        "italian": "il progetto edilizio",
+        "article": "der",
+        "plural": "Baupläne",
+        "example": "Der Bauplan ist fertig."
+      },
+      {
+        "german": "die Baugenehmigung",
+        "italian": "il permesso di costruire",
+        "article": "die",
+        "plural": "",
+        "example": "Die Baugenehmigung ist erteilt."
+      },
+      {
+        "german": "der Rohbau",
+        "italian": "la struttura grezza",
+        "article": "der",
+        "plural": "Rohbauten",
+        "example": "Der Rohbau steht."
+      },
+      {
+        "german": "der Innenausbau",
+        "italian": "l'allestimento interno",
+        "article": "der",
+        "plural": "",
+        "example": "Der Innenausbau beginnt."
+      },
+      {
+        "german": "der Baustil",
+        "italian": "lo stile architettonico",
+        "article": "der",
+        "plural": "Baustile",
+        "example": "Der Baustil ist gotisch."
+      },
+      {
+        "german": "die Gotik",
+        "italian": "il gotico",
+        "article": "die",
+        "plural": "",
+        "example": "Die Gotik hat Spitzbögen."
+      },
+      {
+        "german": "der Jugendstil",
+        "italian": "l'Art Nouveau",
+        "article": "der",
+        "plural": "",
+        "example": "Jugendstil ist elegant."
+      },
+      {
+        "german": "das Bauhaus",
+        "italian": "il Bauhaus",
+        "article": "das",
+        "plural": "",
+        "example": "Das Bauhaus revolutionierte das Design."
+      },
+      {
+        "german": "die Bausubstanz",
+        "italian": "la sostanza edilizia",
+        "article": "die",
+        "plural": "",
+        "example": "Die Bausubstanz ist gut."
+      },
+      {
+        "german": "der Denkmalschutz",
+        "italian": "la tutela dei monumenti",
+        "article": "der",
+        "plural": "",
+        "example": "Das Gebäude steht unter Denkmalschutz."
+      }
+    ]
+  },
+  {
+    "id": "extra_9238",
+    "name": "Umweltschutz",
+    "category": "Umweltschutz",
+    "icon": "🌱",
+    "words": [
+      {
+        "german": "die Lärmbelästigung",
+        "italian": "l'inquinamento acustico",
+        "article": "die",
+        "plural": "",
+        "example": "Lärmbelästigung stresst."
+      },
+      {
+        "german": "der Mikroplastik",
+        "italian": "la microplastica",
+        "article": "der",
+        "plural": "",
+        "example": "Mikroplastik ist überall."
+      },
+      {
+        "german": "die Kreislaufwirtschaft",
+        "italian": "l'economia circolare",
+        "article": "die",
+        "plural": "",
+        "example": "Kreislaufwirtschaft reduziert Müll."
+      },
+      {
+        "german": "die Umweltbelastung",
+        "italian": "l'impatto ambientale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Umweltbelastung steigt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9239",
+    "name": "Politik Grundlagen",
+    "category": "Politik Grundlagen",
+    "icon": "🏛️",
+    "words": [
+      {
+        "german": "das Grundrecht",
+        "italian": "il diritto fondamentale",
+        "article": "das",
+        "plural": "Grundrechte",
+        "example": "Grundrechte sind garantiert."
+      },
+      {
+        "german": "das Wahlprogramm",
+        "italian": "il programma elettorale",
+        "article": "das",
+        "plural": "Wahlprogramme",
+        "example": "Das Wahlprogramm ist umfangreich."
+      },
+      {
+        "german": "die Legislaturperiode",
+        "italian": "la legislatura",
+        "article": "die",
+        "plural": "Legislaturperioden",
+        "example": "Die Legislaturperiode dauert vier Jahre."
+      }
+    ]
+  },
+  {
+    "id": "extra_9240",
+    "name": "Psychologie Grundlagen",
+    "category": "Psychologie Grundlagen",
+    "icon": "🧠",
+    "words": [
+      {
+        "german": "die Psychologie",
+        "italian": "la psicologia",
+        "article": "die",
+        "plural": "",
+        "example": "Psychologie erforscht das Verhalten."
+      },
+      {
+        "german": "das Selbstwertgefühl",
+        "italian": "l'autostima",
+        "article": "das",
+        "plural": "",
+        "example": "Das Selbstwertgefühl stärken."
+      },
+      {
+        "german": "die Resilienz",
+        "italian": "la resilienza",
+        "article": "die",
+        "plural": "",
+        "example": "Resilienz hilft in Krisen."
+      },
+      {
+        "german": "die Verhaltenstherapie",
+        "italian": "la terapia comportamentale",
+        "article": "die",
+        "plural": "",
+        "example": "Verhaltenstherapie verändert Muster."
+      },
+      {
+        "german": "die Selbsthilfegruppe",
+        "italian": "il gruppo di auto-aiuto",
+        "article": "die",
+        "plural": "Selbsthilfegruppen",
+        "example": "Die Selbsthilfegruppe trifft sich."
+      },
+      {
+        "german": "die Work-Life-Balance",
+        "italian": "l'equilibrio vita-lavoro",
+        "article": "die",
+        "plural": "",
+        "example": "Work-Life-Balance ist wichtig."
+      }
+    ]
+  },
+  {
+    "id": "extra_9241",
+    "name": "Bildungssystem",
+    "category": "Bildungssystem",
+    "icon": "🎓",
+    "words": [
+      {
+        "german": "das Bildungssystem",
+        "italian": "il sistema educativo",
+        "article": "das",
+        "plural": "",
+        "example": "Das Bildungssystem ist föderalistisch."
+      },
+      {
+        "german": "die Kita",
+        "italian": "l'asilo nido",
+        "article": "die",
+        "plural": "Kitas",
+        "example": "Die Kita ist morgens geöffnet."
+      },
+      {
+        "german": "der Kindergarten",
+        "italian": "la scuola materna",
+        "article": "der",
+        "plural": "Kindergärten",
+        "example": "Der Kindergarten ist toll."
+      },
+      {
+        "german": "der Auszubildende",
+        "italian": "l'apprendista",
+        "article": "der",
+        "plural": "Auszubildenden",
+        "example": "Der Auszubildende lernt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9242",
+    "name": "Berufswelt",
+    "category": "Berufswelt",
+    "icon": "💼",
+    "words": [
+      {
+        "german": "die Teilzeitarbeit",
+        "italian": "il lavoro part-time",
+        "article": "die",
+        "plural": "",
+        "example": "Ich arbeite in Teilzeit."
+      },
+      {
+        "german": "die Vollzeitarbeit",
+        "italian": "il lavoro a tempo pieno",
+        "article": "die",
+        "plural": "",
+        "example": "Vollzeitarbeit ist anstrengend."
+      },
+      {
+        "german": "die Selbstständigkeit",
+        "italian": "l'attività autonoma",
+        "article": "die",
+        "plural": "",
+        "example": "Die Selbstständigkeit reizt mich."
+      }
+    ]
+  },
+  {
+    "id": "extra_9243",
+    "name": "Gesundheitswesen",
+    "category": "Gesundheitswesen",
+    "icon": "🏥",
+    "words": [
+      {
+        "german": "die Zuzahlung",
+        "italian": "il ticket sanitario",
+        "article": "die",
+        "plural": "die Zuzahlungen",
+        "example": "Zuzahlung beim Arzt."
+      },
+      {
+        "german": "die Röntgenaufnahme",
+        "italian": "la radiografia",
+        "article": "die",
+        "plural": "die Röntgenaufnahmen",
+        "example": "Eine Röntgenaufnahme machen."
+      },
+      {
+        "german": "die Organspende",
+        "italian": "la donazione di organi",
+        "article": "die",
+        "plural": "die Organspenden",
+        "example": "Organspende ist wichtig."
+      },
+      {
+        "german": "die Pflegeversicherung",
+        "italian": "l'assicurazione per la cura",
+        "article": "die",
+        "plural": "die Pflegeversicherungen",
+        "example": "Die Pflegeversicherung zahlt."
+      },
+      {
+        "german": "die Pflegestufe",
+        "italian": "il grado di assistenza",
+        "article": "die",
+        "plural": "die Pflegestufen",
+        "example": "Pflegestufe beantragen."
+      },
+      {
+        "german": "die Zahnbehandlung",
+        "italian": "il trattamento dentale",
+        "article": "die",
+        "plural": "die Zahnbehandlungen",
+        "example": "Die Zahnbehandlung war teuer."
+      },
+      {
+        "german": "der Zahnersatz",
+        "italian": "la protesi dentale",
+        "article": "der",
+        "plural": "",
+        "example": "Zahnersatz ist teuer."
+      }
+    ]
+  },
+  {
+    "id": "extra_9244",
+    "name": "Wohnen und Haushalt",
+    "category": "Wohnen und Haushalt",
+    "icon": "🏡",
+    "words": [
+      {
+        "german": "die Eigentümerversammlung",
+        "italian": "l'assemblea condominiale",
+        "article": "die",
+        "plural": "die Eigentümerversammlungen",
+        "example": "Die Eigentümerversammlung findet statt."
+      },
+      {
+        "german": "die Gemeinschaftsfläche",
+        "italian": "l'area comune",
+        "article": "die",
+        "plural": "die Gemeinschaftsflächen",
+        "example": "Gemeinschaftsfläche sauber halten."
+      },
+      {
+        "german": "die Renovierung",
+        "italian": "la ristrutturazione",
+        "article": "die",
+        "plural": "die Renovierungen",
+        "example": "Die Renovierung dauert."
+      },
+      {
+        "german": "die Möbelspedition",
+        "italian": "il trasloco mobili",
+        "article": "die",
+        "plural": "die Möbelspeditionen",
+        "example": "Die Möbelspedition kommt morgen."
+      },
+      {
+        "german": "der Nachmieter",
+        "italian": "il prossimo inquilino",
+        "article": "der",
+        "plural": "die Nachmieter",
+        "example": "Einen Nachmieter suchen."
+      },
+      {
+        "german": "die Wohngemeinschaft",
+        "italian": "la convivenza",
+        "article": "die",
+        "plural": "die Wohngemeinschaften",
+        "example": "Ich wohne in einer WG."
+      },
+      {
+        "german": "die Zwischenmiete",
+        "italian": "il subaffitto temporaneo",
+        "article": "die",
+        "plural": "die Zwischenmieten",
+        "example": "Wohnung zur Zwischenmiete."
+      },
+      {
+        "german": "der Energieausweis",
+        "italian": "il certificato energetico",
+        "article": "der",
+        "plural": "die Energieausweise",
+        "example": "Der Energieausweis fehlt."
+      },
+      {
+        "german": "die Schimmelbildung",
+        "italian": "la formazione di muffa",
+        "article": "die",
+        "plural": "",
+        "example": "Schimmelbildung in der Wohnung."
+      },
+      {
+        "german": "die Dämmung",
+        "italian": "l'isolamento",
+        "article": "die",
+        "plural": "die Dämmungen",
+        "example": "Bessere Dämmung spart Energie."
+      }
+    ]
+  },
+  {
+    "id": "extra_9245",
+    "name": "Finanzen und Steuern",
+    "category": "Finanzen und Steuern",
+    "icon": "💰",
+    "words": [
+      {
+        "german": "die Versicherungsprämie",
+        "italian": "il premio assicurativo",
+        "article": "die",
+        "plural": "die Versicherungsprämien",
+        "example": "Die Prämie ist hoch."
+      },
+      {
+        "german": "die Riester-Rente",
+        "italian": "la pensione Riester",
+        "article": "die",
+        "plural": "die Riester-Renten",
+        "example": "Riester-Rente abschließen."
+      },
+      {
+        "german": "der Fonds",
+        "italian": "il fondo",
+        "article": "der",
+        "plural": "die Fonds",
+        "example": "In Fonds investieren."
+      }
+    ]
+  },
+  {
+    "id": "extra_9246",
+    "name": "Politik und Gesellschaft",
+    "category": "Politik und Gesellschaft",
+    "icon": "🏛️",
+    "words": [
+      {
+        "german": "die Bundesregierung",
+        "italian": "il governo federale",
+        "article": "die",
+        "plural": "die Bundesregierungen",
+        "example": "Die Bundesregierung beschließt."
+      }
+    ]
+  },
+  {
+    "id": "extra_9247",
+    "name": "Recht und Justiz",
+    "category": "Recht und Justiz",
+    "icon": "⚖️",
+    "words": [
+      {
+        "german": "die Berufung",
+        "italian": "l'appello",
+        "article": "die",
+        "plural": "die Berufungen",
+        "example": "In Berufung gehen."
+      },
+      {
+        "german": "das Strafrecht",
+        "italian": "il diritto penale",
+        "article": "das",
+        "plural": "",
+        "example": "Strafrecht studieren."
+      },
+      {
+        "german": "das Zivilrecht",
+        "italian": "il diritto civile",
+        "article": "das",
+        "plural": "",
+        "example": "Zivilrecht anwenden."
+      },
+      {
+        "german": "die Rechtsschutzversicherung",
+        "italian": "l'assicurazione legale",
+        "article": "die",
+        "plural": "die Rechtsschutzversicherungen",
+        "example": "Rechtsschutzversicherung haben."
+      }
+    ]
+  }
+]

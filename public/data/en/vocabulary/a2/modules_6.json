@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "professioni_ser",
+    "name": "professioni_ser",
+    "category": "professioni_ser",
+    "icon": "👔",
+    "words": [
+      {
+        "german": "die Taxifahrerin",
+        "italian": "la tassista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Busfahrerin",
+        "italian": "l'autista di autobus",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pilotin",
+        "italian": "la pilota",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gärtnerin",
+        "italian": "la giardiniera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "professioni_acc",
+    "name": "professioni_acc",
+    "category": "professioni_acc",
+    "icon": "👔",
+    "words": [
+      {
+        "german": "die Übersetzerin",
+        "italian": "la traduttrice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "relazioni",
+    "name": "relationships",
+    "category": "relationships",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Freundschaft",
+        "italian": "l'amicizia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der beste Freund",
+        "italian": "il migliore amico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bekannte",
+        "italian": "il conoscente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Paar",
+        "italian": "la coppia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Verlobte",
+        "italian": "il fidanzato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verlobte",
+        "italian": "la fidanzata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ehe",
+        "italian": "il matrimonio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich trennen",
+        "italian": "separarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Trennung",
+        "italian": "la separazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der/die Ex",
+        "italian": "l'ex",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "alleinstehend",
+        "italian": "single",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verliebt sein",
+        "italian": "essere innamorato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hassen",
+        "italian": "to hate",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Hass",
+        "italian": "l'odio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vertrauen",
+        "italian": "fidarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Vertrauen",
+        "italian": "la fiducia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "streiten",
+        "italian": "litigare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Streit",
+        "italian": "il litigio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vergeben",
+        "italian": "perdonare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "unterstützen",
+        "italian": "sostenere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "getrennt",
+        "italian": "separato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "sentimenti",
+    "name": "feelings",
+    "category": "feelings",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Gefühl",
+        "italian": "il sentimento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Emotion",
+        "italian": "l'emozione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Freude",
+        "italian": "la gioia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Glück",
+        "italian": "la felicità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Träne",
+        "italian": "la lacrima",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wut",
+        "italian": "la rabbia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ärgerlich",
+        "italian": "irritato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ärger",
+        "italian": "la rabbia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich ärgern",
+        "italian": "arrabbiarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Schreck",
+        "italian": "lo spavento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sorge",
+        "italian": "la preoccupazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich Sorgen machen",
+        "italian": "preoccuparsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Überraschung",
+        "italian": "la sorpresa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Langeweile",
+        "italian": "la noia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich langweilen",
+        "italian": "annoiarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ruhe",
+        "italian": "la calma",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich beruhigen",
+        "italian": "calmarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich entspannen",
+        "italian": "rilassarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Hoffnung",
+        "italian": "la speranza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "mente",
+    "name": "mind",
+    "category": "mind",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Gedanke",
+        "italian": "il pensiero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nachdenken",
+        "italian": "riflettere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "überlegen",
+        "italian": "to consider",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Meinung",
+        "italian": "l'opinione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "meinen",
+        "italian": "pensare/credere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "erfahren",
+        "italian": "apprendere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "erinnern",
+        "italian": "to remember",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Erinnerung",
+        "italian": "il ricordo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "erkennen",
+        "italian": "riconoscere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "entscheiden",
+        "italian": "decidere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Entscheidung",
+        "italian": "la decisione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "träumen",
+        "italian": "to dream",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fantasie",
+        "italian": "la fantasia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aufmerksam",
+        "italian": "attento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "fisica",
+    "name": "fisica",
+    "category": "fisica",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Wärme",
+        "italian": "il calore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kälte",
+        "italian": "il freddo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "chimica",
+    "name": "chimica",
+    "category": "chimica",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Eisen",
+        "italian": "il ferro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gas",
+        "italian": "il gas",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "biologia",
+    "name": "biologia",
+    "category": "biologia",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "atmen",
+        "italian": "respirare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Vitamin",
+        "italian": "la vitamina",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "matematica",
+    "name": "matematica",
+    "category": "matematica",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Ziffer",
+        "italian": "la cifra",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "addieren",
+        "italian": "addizionare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "multiplizieren",
+        "italian": "to multiply",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dividieren",
+        "italian": "to divide",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Summe",
+        "italian": "la somma",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Prozent",
+        "italian": "la percentuale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Linie",
+        "italian": "la linea",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Winkel",
+        "italian": "l'angolo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kreis",
+        "italian": "il cerchio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Dreieck",
+        "italian": "il triangolo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Quadrat",
+        "italian": "il quadrato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Rechteck",
+        "italian": "il rettangolo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Durchschnitt",
+        "italian": "la media",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "astronomia",
+    "name": "astronomy",
+    "category": "astronomy",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Planet",
+        "italian": "the planet",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "geologia",
+    "name": "geology",
+    "category": "geology",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Felsen",
+        "italian": "la roccia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "informatica",
+    "name": "informatica",
+    "category": "informatica",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Festplatte",
+        "italian": "il disco rigido",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Browser",
+        "italian": "il browser",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Netzwerk",
+        "italian": "la rete",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Virus",
+        "italian": "il virus",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Backup",
+        "italian": "il backup",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Cloud",
+        "italian": "il cloud",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "installieren",
+        "italian": "installare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aktualisieren",
+        "italian": "aggiornare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Update",
+        "italian": "l'aggiornamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "emozioni_pos",
+    "name": "emozioni_pos",
+    "category": "emozioni_pos",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "freudig",
+        "italian": "gioioso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "liebevoll",
+        "italian": "amorevole",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "emozioni_neg",
+    "name": "emozioni_neg",
+    "category": "emozioni_neg",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Panik",
+        "italian": "il panico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "erschrecken",
+        "italian": "spaventare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich sorgen",
+        "italian": "preoccuparsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "enttäuschen",
+        "italian": "deludere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "stati_mentali",
+    "name": "stati_mentali",
+    "category": "stati_mentali",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "konzentriert",
+        "italian": "concentrato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wach",
+        "italian": "sveglio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "interessiert",
+        "italian": "interessato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Interesse",
+        "italian": "l'interesse",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich interessieren",
+        "italian": "interessarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "überraschen",
+        "italian": "sorprendere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Eindruck",
+        "italian": "l'impressione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "atteggiamenti",
+    "name": "atteggiamenti",
+    "category": "atteggiamenti",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Geduld",
+        "italian": "la pazienza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Freundlichkeit",
+        "italian": "la gentilezza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "unfreundlich",
+        "italian": "scortese",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Höflichkeit",
+        "italian": "la cortesia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "persone",
+    "name": "people",
+    "category": "people",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Teenager",
+        "italian": "l'adolescente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Senior",
+        "italian": "the elderly person",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rentnerin",
+        "italian": "la pensionata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Typ",
+        "italian": "il tipo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kerl",
+        "italian": "il tipo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Experte",
+        "italian": "l'esperto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Expertin",
+        "italian": "l'esperta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Anfänger",
+        "italian": "il principiante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Profi",
+        "italian": "il professionista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Teilnehmer",
+        "italian": "il partecipante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Besucher",
+        "italian": "il visitatore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mitglied",
+        "italian": "il membro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Führer",
+        "italian": "la guida",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Gegner",
+        "italian": "l'avversario",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Fremde",
+        "italian": "lo sconosciuto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "edifici",
+    "name": "edifici",
+    "category": "edifici",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Gebäude",
+        "italian": "l'edificio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bau",
+        "italian": "la costruzione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Turm",
+        "italian": "la torre",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fabrik",
+        "italian": "la fabbrica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Lager",
+        "italian": "il magazzino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Halle",
+        "italian": "il capannone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Tunnel",
+        "italian": "the tunnel",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Zaun",
+        "italian": "the fence",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Tor",
+        "italian": "the gate",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Notausgang",
+        "italian": "l'uscita d'emergenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rolltreppe",
+        "italian": "la scala mobile",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rezeption",
+        "italian": "la reception",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "oggetti",
+    "name": "oggetti",
+    "category": "oggetti",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Gegenstand",
+        "italian": "l'oggetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gerät",
+        "italian": "l'apparecchio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Maschine",
+        "italian": "the car",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Holz",
+        "italian": "il legno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Metall",
+        "italian": "il metallo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kunststoff",
+        "italian": "la plastica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Karton",
+        "italian": "il cartone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gummi",
+        "italian": "the eraser",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Brett",
+        "italian": "l'asse",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schachtel",
+        "italian": "la scatola",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Dose",
+        "italian": "la lattina",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Haken",
+        "italian": "il gancio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Seil",
+        "italian": "the rope, cord",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Band",
+        "italian": "il nastro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Zettel",
+        "italian": "the ticket",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tüte",
+        "italian": "il sacchetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Beutel",
+        "italian": "the bag, purse",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Sack",
+        "italian": "il sacco",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kasten",
+        "italian": "la cassa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kiste",
+        "italian": "la cassa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kerze",
+        "italian": "la candela",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Streichholz",
+        "italian": "il fiammifero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Feuerzeug",
+        "italian": "l'accendino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "eventi",
+    "name": "events",
+    "category": "events",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Ereignis",
+        "italian": "l'evento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Veranstaltung",
+        "italian": "l'evento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Feier",
+        "italian": "la festa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Jahrestag",
+        "italian": "l'anniversario",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Silvester",
+        "italian": "il Capodanno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Neujahr",
+        "italian": "l'anno nuovo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Karneval",
+        "italian": "il carnevale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Feiertag",
+        "italian": "la festa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ausflug",
+        "italian": "la gita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wanderung",
+        "italian": "l'escursione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tour",
+        "italian": "il tour",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Besichtigung",
+        "italian": "la visita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Treffen",
+        "italian": "l'incontro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Workshop",
+        "italian": "il workshop",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Messe",
+        "italian": "la fiera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Festival",
+        "italian": "il festival",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Match",
+        "italian": "l'incontro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ball",
+        "italian": "the dance",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Disco",
+        "italian": "la discoteca",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Klub",
+        "italian": "il club",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  }
+]

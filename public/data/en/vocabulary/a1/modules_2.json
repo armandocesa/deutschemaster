@@ -1,0 +1,2290 @@
+[
+  {
+    "id": "congiunzioni",
+    "name": "conjunctions",
+    "category": "conjunctions",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "und",
+        "italian": "e",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "oder",
+        "italian": "o",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aber",
+        "italian": "ma",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "denn",
+        "italian": "why",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "also",
+        "italian": "quindi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "congiunzioni_sub",
+    "name": "subordinating conjunctions",
+    "category": "subordinating conjunctions",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "dass",
+        "italian": "che",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ob",
+        "italian": "se",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wenn",
+        "italian": "se/quando",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "weil",
+        "italian": "why",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "preposizioni",
+    "name": "prepositions",
+    "category": "prepositions",
+    "icon": "📍",
+    "words": [
+      {
+        "german": "in",
+        "italian": "in",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "an",
+        "italian": "a/presso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "auf",
+        "italian": "su",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "über",
+        "italian": "above, upstairs",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "unter",
+        "italian": "below, downstairs",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vor",
+        "italian": "in front",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hinter",
+        "italian": "behind",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "neben",
+        "italian": "accanto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zwischen",
+        "italian": "tra",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bei",
+        "italian": "presso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mit",
+        "italian": "con",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ohne",
+        "italian": "senza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "für",
+        "italian": "per",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gegen",
+        "italian": "contro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "um",
+        "italian": "intorno a",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "durch",
+        "italian": "attraverso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aus",
+        "italian": "since",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "von",
+        "italian": "da/di",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zu",
+        "italian": "a/verso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nach",
+        "italian": "dopo/verso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ab",
+        "italian": "da (inizio)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "saluti",
+    "name": "greetings",
+    "category": "greetings",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "hallo",
+        "italian": "ciao",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "guten Morgen",
+        "italian": "buongiorno (mattina)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "guten Tag",
+        "italian": "buongiorno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "guten Abend",
+        "italian": "buonasera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gute Nacht",
+        "italian": "buonanotte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "auf Wiedersehen",
+        "italian": "arrivederci",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "tschüss",
+        "italian": "ciao (informale)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bis bald",
+        "italian": "a presto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bis später",
+        "italian": "a dopo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bis morgen",
+        "italian": "a domani",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "willkommen",
+        "italian": "benvenuto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "danke",
+        "italian": "grazie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "danke schön",
+        "italian": "grazie mille",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vielen Dank",
+        "italian": "molte grazie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bitte",
+        "italian": "prego/per favore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bitte schön",
+        "italian": "prego",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "entschuldigung",
+        "italian": "scusa/mi scusi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ja",
+        "italian": "sì",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nein",
+        "italian": "no",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vielleicht",
+        "italian": "forse",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie geht es Ihnen?",
+        "italian": "come sta? (formale)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie geht es dir?",
+        "italian": "come stai?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mir geht es gut",
+        "italian": "sto bene",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nicht so gut",
+        "italian": "non tanto bene",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie heißen Sie?",
+        "italian": "come si chiama?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie heißt du?",
+        "italian": "come ti chiami?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich heiße",
+        "italian": "mi chiamo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "freut mich",
+        "italian": "to like, to please",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gleichfalls",
+        "italian": "altrettanto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "woher kommen Sie?",
+        "italian": "da dove viene?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich komme aus",
+        "italian": "vengo da",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wo wohnen Sie?",
+        "italian": "dove abita?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich wohne in",
+        "italian": "abito a",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie alt sind Sie?",
+        "italian": "quanti anni ha?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich bin ... Jahre alt",
+        "italian": "ho ... anni",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "was machen Sie beruflich?",
+        "italian": "che lavoro fa?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich bin Student",
+        "italian": "sono studente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich arbeite als",
+        "italian": "lavoro come",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "herzlich willkommen",
+        "italian": "benvenuto di cuore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "alles Gute",
+        "italian": "tanti auguri",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "viel Glück",
+        "italian": "buona fortuna",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "viel Spaß",
+        "italian": "buon divertimento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gute Reise",
+        "italian": "buon viaggio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "guten Appetit",
+        "italian": "buon appetito",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Gesundheit",
+        "italian": "health",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Prost",
+        "italian": "cin cin",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "herzlichen Glückwunsch",
+        "italian": "congratulazioni",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "frohe Weihnachten",
+        "italian": "buon Natale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "frohes neues Jahr",
+        "italian": "buon anno nuovo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "numeri",
+    "name": "numbers",
+    "category": "numbers",
+    "icon": "🔢",
+    "words": [
+      {
+        "german": "null",
+        "italian": "zero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "eins",
+        "italian": "one",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zwei",
+        "italian": "two",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "drei",
+        "italian": "three",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vier",
+        "italian": "four",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fünf",
+        "italian": "five",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sechs",
+        "italian": "six",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sieben",
+        "italian": "seven",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "acht",
+        "italian": "eight",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "neun",
+        "italian": "nine",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zehn",
+        "italian": "ten",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "elf",
+        "italian": "eleven",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zwölf",
+        "italian": "twelve",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dreizehn",
+        "italian": "thirteen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vierzehn",
+        "italian": "fourteen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fünfzehn",
+        "italian": "fifteen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sechzehn",
+        "italian": "sixteen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "siebzehn",
+        "italian": "seventeen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "achtzehn",
+        "italian": "eighteen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "neunzehn",
+        "italian": "nineteen",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zwanzig",
+        "italian": "twenty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einundzwanzig",
+        "italian": "ventuno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zweiundzwanzig",
+        "italian": "ventidue",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dreißig",
+        "italian": "thirty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vierzig",
+        "italian": "forty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fünfzig",
+        "italian": "fifty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sechzig",
+        "italian": "sixty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "siebzig",
+        "italian": "seventy",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "achtzig",
+        "italian": "eighty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "neunzig",
+        "italian": "ninety",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hundert",
+        "italian": "hundred",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zweihundert",
+        "italian": "duecento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "tausend",
+        "italian": "thousand",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zehntausend",
+        "italian": "diecimila",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hunderttausend",
+        "italian": "centomila",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "eine Million",
+        "italian": "un milione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der erste",
+        "italian": "il primo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der zweite",
+        "italian": "the second",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der dritte",
+        "italian": "il terzo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der vierte",
+        "italian": "il quarto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der fünfte",
+        "italian": "il quinto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der sechste",
+        "italian": "il sesto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der siebte",
+        "italian": "il settimo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der achte",
+        "italian": "l'ottavo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der neunte",
+        "italian": "il nono",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der zehnte",
+        "italian": "il decimo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der letzte",
+        "italian": "l'ultimo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ein Viertel",
+        "italian": "un quarto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einmal",
+        "italian": "una volta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zweimal",
+        "italian": "due volte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dreimal",
+        "italian": "tre volte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "tempo",
+    "name": "time",
+    "category": "time",
+    "icon": "⏰",
+    "words": [
+      {
+        "german": "der Montag",
+        "italian": "il lunedì",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Dienstag",
+        "italian": "il martedì",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mittwoch",
+        "italian": "il mercoledì",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Donnerstag",
+        "italian": "il giovedì",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Freitag",
+        "italian": "il venerdì",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Samstag",
+        "italian": "il sabato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Sonntag",
+        "italian": "la domenica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Januar",
+        "italian": "January",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Februar",
+        "italian": "February",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der März",
+        "italian": "March",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der April",
+        "italian": "April",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mai",
+        "italian": "May",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Juni",
+        "italian": "June",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Juli",
+        "italian": "July",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der August",
+        "italian": "August",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der September",
+        "italian": "September",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Oktober",
+        "italian": "October",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der November",
+        "italian": "November",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Dezember",
+        "italian": "December",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Frühling",
+        "italian": "the spring",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Sommer",
+        "italian": "the summer",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Herbst",
+        "italian": "the autumn, fall",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Winter",
+        "italian": "the winter",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "heute",
+        "italian": "oggi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "morgen",
+        "italian": "domani",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gestern",
+        "italian": "ieri",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "übermorgen",
+        "italian": "dopodomani",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vorgestern",
+        "italian": "l'altro ieri",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Wochenende",
+        "italian": "il fine settimana",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "famiglia",
+    "name": "family",
+    "category": "family",
+    "icon": "👨‍👩‍👧",
+    "words": [
+      {
+        "german": "die Familie",
+        "italian": "the family",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Eltern",
+        "italian": "i genitori",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Vater",
+        "italian": "the father",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Mutter",
+        "italian": "the mother",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Sohn",
+        "italian": "the son",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tochter",
+        "italian": "the daughter",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kind",
+        "italian": "the boy, child",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kinder",
+        "italian": "i bambini",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bruder",
+        "italian": "the brother",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schwester",
+        "italian": "the sister",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Geschwister",
+        "italian": "i fratelli/sorelle",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Großvater",
+        "italian": "the grandfather",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Großmutter",
+        "italian": "the grandmother",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Großeltern",
+        "italian": "i nonni",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Onkel",
+        "italian": "the uncle",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tante",
+        "italian": "the aunt",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Cousin",
+        "italian": "the cousin (male)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Cousine",
+        "italian": "the cousin (female)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Neffe",
+        "italian": "il nipote (di zio)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Nichte",
+        "italian": "la nipote (di zio)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Enkel",
+        "italian": "il nipote (di nonno)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Enkelin",
+        "italian": "la nipote (di nonno)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ehemann",
+        "italian": "the husband",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ehefrau",
+        "italian": "the wife",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mann",
+        "italian": "l'uomo/il marito",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Frau",
+        "italian": "la donna/la moglie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Freund",
+        "italian": "l'amico/il ragazzo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Freundin",
+        "italian": "l'amica/la ragazza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verheiratet",
+        "italian": "sposato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Baby",
+        "italian": "il bebè",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Hochzeit",
+        "italian": "il matrimonio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "casa",
+    "name": "house",
+    "category": "house",
+    "icon": "🏠",
+    "words": [
+      {
+        "german": "das Haus",
+        "italian": "the house, home",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wohnung",
+        "italian": "l'appartamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Apartment",
+        "italian": "l'appartamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "stanze",
+    "name": "rooms",
+    "category": "rooms",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Zimmer",
+        "italian": "the room",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Wohnzimmer",
+        "italian": "the living room",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Schlafzimmer",
+        "italian": "the bedroom",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kinderzimmer",
+        "italian": "la cameretta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Küche",
+        "italian": "the cooking",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Bad",
+        "italian": "the bathroom",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Badezimmer",
+        "italian": "the bathroom",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Toilette",
+        "italian": "il gabinetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das WC",
+        "italian": "il WC",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Eingang",
+        "italian": "l'ingresso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ausgang",
+        "italian": "l'uscita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Balkon",
+        "italian": "il balcone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Garten",
+        "italian": "the garden",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Garage",
+        "italian": "il garage",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "casa_parti",
+    "name": "house parts",
+    "category": "house parts",
+    "icon": "🏠",
+    "words": [
+      {
+        "german": "die Wand",
+        "italian": "la parete",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Boden",
+        "italian": "the floor",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tür",
+        "italian": "the door",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Fenster",
+        "italian": "the window",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Treppe",
+        "italian": "the stairs",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "mobili",
+    "name": "furniture",
+    "category": "furniture",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Möbel",
+        "italian": "il mobile",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Möbel",
+        "italian": "i mobili",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Tisch",
+        "italian": "the table",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Schreibtisch",
+        "italian": "the desk",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Stuhl",
+        "italian": "the chair",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Sofa",
+        "italian": "the sofa, couch",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Couch",
+        "italian": "the sofa, couch",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Bett",
+        "italian": "the bed",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Schrank",
+        "italian": "the wardrobe, closet",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Spiegel",
+        "italian": "lo specchio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Lampe",
+        "italian": "the lamp",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Uhr",
+        "italian": "l'orologio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "cucina",
+    "name": "kitchen",
+    "category": "kitchen",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Kühlschrank",
+        "italian": "the refrigerator",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Herd",
+        "italian": "i fornelli",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Backofen",
+        "italian": "the oven",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Waschmaschine",
+        "italian": "la lavatrice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "utensili",
+    "name": "utensils",
+    "category": "utensils",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Topf",
+        "italian": "the pot, pan",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pfanne",
+        "italian": "the frying pan",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Messer",
+        "italian": "the knife",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gabel",
+        "italian": "the fork",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Löffel",
+        "italian": "the spoon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Teller",
+        "italian": "the plate",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tasse",
+        "italian": "the cup",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Glas",
+        "italian": "the glass",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Flasche",
+        "italian": "la bottiglia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "bagno",
+    "name": "bathroom",
+    "category": "bathroom",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Dusche",
+        "italian": "the shower",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Handtuch",
+        "italian": "l'asciugamano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Seife",
+        "italian": "il sapone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Shampoo",
+        "italian": "lo shampoo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zahnbürste",
+        "italian": "lo spazzolino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zahnpasta",
+        "italian": "il dentifricio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "ingredienti",
+    "name": "ingredients",
+    "category": "ingredients",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Zucker",
+        "italian": "the sugar",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Salz",
+        "italian": "the salt",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Öl",
+        "italian": "the oil",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Butter",
+        "italian": "the butter",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Ei",
+        "italian": "the egg",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Eier",
+        "italian": "le uova",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Milch",
+        "italian": "the milk",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Joghurt",
+        "italian": "lo yogurt",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Käse",
+        "italian": "the cheese",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Fleisch",
+        "italian": "the meat",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Hähnchen",
+        "italian": "il pollo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Hühnchen",
+        "italian": "il pollo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wurst",
+        "italian": "la salsiccia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Fisch",
+        "italian": "the fish",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Reis",
+        "italian": "the rice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Nudeln",
+        "italian": "the pasta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Spaghetti",
+        "italian": "gli spaghetti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kartoffel",
+        "italian": "the potato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ketchup",
+        "italian": "il ketchup",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Brot",
+        "italian": "the bread",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Brötchen",
+        "italian": "il panino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Toast",
+        "italian": "il toast",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "frutta_verdura",
+    "name": "fruits and vegetables",
+    "category": "fruits and vegetables",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Obst",
+        "italian": "la frutta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gemüse",
+        "italian": "la verdura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Apfel",
+        "italian": "the apple",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Birne",
+        "italian": "la pera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Orange",
+        "italian": "the orange",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zitrone",
+        "italian": "il limone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Banane",
+        "italian": "the banana",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Erdbeere",
+        "italian": "the strawberry",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Traube",
+        "italian": "l'uva",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tomate",
+        "italian": "the tomato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gurke",
+        "italian": "il cetriolo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zwiebel",
+        "italian": "la cipolla",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Karotte",
+        "italian": "la carota",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Möhre",
+        "italian": "la carota",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Salat",
+        "italian": "the salad",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "spezie",
+    "name": "spices",
+    "category": "spices",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "süß",
+        "italian": "dolce",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "lecker",
+        "italian": "delizioso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "cottura",
+    "name": "cooking",
+    "category": "cooking",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "kochen",
+        "italian": "to cook",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gramm",
+        "italian": "il grammo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kilogramm",
+        "italian": "il chilogrammo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Liter",
+        "italian": "il litro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "pasti",
+    "name": "meals",
+    "category": "meals",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Frühstück",
+        "italian": "la colazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "frühstücken",
+        "italian": "fare colazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Mittagessen",
+        "italian": "il pranzo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Abendessen",
+        "italian": "la cena",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Suppe",
+        "italian": "the soup",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pizza",
+        "italian": "la pizza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Hamburger",
+        "italian": "l'hamburger",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Sandwich",
+        "italian": "il panino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kuchen",
+        "italian": "la torta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kekse",
+        "italian": "i biscotti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schokolade",
+        "italian": "il cioccolato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "media",
+    "name": "media",
+    "category": "media",
+    "icon": "📺",
+    "words": [
+      {
+        "german": "die Zeitung",
+        "italian": "il giornale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Nachricht",
+        "italian": "la notizia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Nachrichten",
+        "italian": "le notizie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Radio",
+        "italian": "la radio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Fernsehen",
+        "italian": "la televisione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Fernseher",
+        "italian": "il televisore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Serie",
+        "italian": "la serie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  }
+]

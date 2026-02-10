@@ -1,0 +1,1146 @@
+[
+  {
+    "id": "extra_9478",
+    "name": "Werkstoffprüfung",
+    "category": "Werkstoffprüfung",
+    "icon": "🔬",
+    "words": [
+      {
+        "german": "die Zugprüfung",
+        "italian": "la prova di trazione",
+        "article": "die",
+        "plural": "die Zugprüfungen",
+        "example": "Zugversuch durchführen."
+      },
+      {
+        "german": "die Druckprüfung",
+        "italian": "la prova di compressione",
+        "article": "die",
+        "plural": "die Druckprüfungen",
+        "example": "Druckversuch durchführen."
+      },
+      {
+        "german": "die Biegeprüfung",
+        "italian": "la prova di flessione",
+        "article": "die",
+        "plural": "die Biegeprüfungen",
+        "example": "Biegeversuch durchführen."
+      },
+      {
+        "german": "die Kerbschlagbiegeprüfung",
+        "italian": "la prova di resilienza",
+        "article": "die",
+        "plural": "",
+        "example": "Kerbschlagversuch durchführen."
+      },
+      {
+        "german": "die Härteprüfung",
+        "italian": "la prova di durezza",
+        "article": "die",
+        "plural": "die Härteprüfungen",
+        "example": "Härte messen."
+      },
+      {
+        "german": "die Ermüdungsprüfung",
+        "italian": "la prova di fatica",
+        "article": "die",
+        "plural": "die Ermüdungsprüfungen",
+        "example": "Ermüdung prüfen."
+      },
+      {
+        "german": "die Kriechprüfung",
+        "italian": "la prova di scorrimento",
+        "article": "die",
+        "plural": "die Kriechprüfungen",
+        "example": "Kriechverhalten prüfen."
+      },
+      {
+        "german": "die Metallografie",
+        "italian": "la metallografia",
+        "article": "die",
+        "plural": "",
+        "example": "Metallografie betreiben."
+      },
+      {
+        "german": "die Gefügeanalyse",
+        "italian": "l'analisi microstrutturale",
+        "article": "die",
+        "plural": "",
+        "example": "Gefüge analysieren."
+      },
+      {
+        "german": "die Wirbelstromprüfung",
+        "italian": "il controllo con correnti parassite",
+        "article": "die",
+        "plural": "",
+        "example": "Wirbelstrom prüfen."
+      },
+      {
+        "german": "die Magnetpulverprüfung",
+        "italian": "il controllo magnetoscopico",
+        "article": "die",
+        "plural": "",
+        "example": "Magnetpulver prüfen."
+      },
+      {
+        "german": "die Eindringprüfung",
+        "italian": "il controllo con liquidi penetranti",
+        "article": "die",
+        "plural": "",
+        "example": "Eindringprüfung durchführen."
+      },
+      {
+        "german": "die Schallemissionsprüfung",
+        "italian": "il controllo con emissione acustica",
+        "article": "die",
+        "plural": "",
+        "example": "Schallemission prüfen."
+      },
+      {
+        "german": "die Thermografie",
+        "italian": "la termografia",
+        "article": "die",
+        "plural": "",
+        "example": "Thermografie anwenden."
+      }
+    ]
+  },
+  {
+    "id": "extra_9479",
+    "name": "Lacktechnik",
+    "category": "Lacktechnik",
+    "icon": "🎨",
+    "words": [
+      {
+        "german": "die Grundierung",
+        "italian": "il primer",
+        "article": "die",
+        "plural": "die Grundierungen",
+        "example": "Grundierung auftragen."
+      },
+      {
+        "german": "die Füllerschicht",
+        "italian": "lo strato di fondo",
+        "article": "die",
+        "plural": "die Füllerschichten",
+        "example": "Füller auftragen."
+      },
+      {
+        "german": "die Decklackierung",
+        "italian": "la verniciatura di finitura",
+        "article": "die",
+        "plural": "",
+        "example": "Decklack auftragen."
+      },
+      {
+        "german": "die Klarlackierung",
+        "italian": "la verniciatura trasparente",
+        "article": "die",
+        "plural": "",
+        "example": "Klarlack auftragen."
+      },
+      {
+        "german": "die Elektrotauchlackierung",
+        "italian": "la verniciatura per elettrodeposizione",
+        "article": "die",
+        "plural": "",
+        "example": "Elektrotauchlack aufbringen."
+      },
+      {
+        "german": "die Spritzlackierung",
+        "italian": "la verniciatura a spruzzo",
+        "article": "die",
+        "plural": "",
+        "example": "Spritzlackierung durchführen."
+      },
+      {
+        "german": "die Tauchlackierung",
+        "italian": "la verniciatura ad immersione",
+        "article": "die",
+        "plural": "",
+        "example": "Tauchlack anwenden."
+      },
+      {
+        "german": "die Walzlackierung",
+        "italian": "la verniciatura a rullo",
+        "article": "die",
+        "plural": "",
+        "example": "Walzlack auftragen."
+      },
+      {
+        "german": "die Lackhaftung",
+        "italian": "l'adesione della vernice",
+        "article": "die",
+        "plural": "",
+        "example": "Lackhaftung prüfen."
+      },
+      {
+        "german": "die Gitterschnittprüfung",
+        "italian": "la prova di quadrettatura",
+        "article": "die",
+        "plural": "",
+        "example": "Gitterschnitt prüfen."
+      },
+      {
+        "german": "die Lackhärtung",
+        "italian": "l'indurimento della vernice",
+        "article": "die",
+        "plural": "",
+        "example": "Lack härten."
+      },
+      {
+        "german": "die UV-Härtung",
+        "italian": "l'indurimento UV",
+        "article": "die",
+        "plural": "",
+        "example": "UV-härten anwenden."
+      },
+      {
+        "german": "die Schichtdickenmessung",
+        "italian": "la misurazione dello spessore del film",
+        "article": "die",
+        "plural": "",
+        "example": "Schichtdicke messen."
+      },
+      {
+        "german": "die Glanzgradmessung",
+        "italian": "la misurazione del grado di brillantezza",
+        "article": "die",
+        "plural": "",
+        "example": "Glanzgrad messen."
+      },
+      {
+        "german": "die Farbtonabstimmung",
+        "italian": "la corrispondenza del colore",
+        "article": "die",
+        "plural": "",
+        "example": "Farbton abstimmen."
+      },
+      {
+        "german": "die Verlaufseigenschaft",
+        "italian": "la proprietà di distensione",
+        "article": "die",
+        "plural": "die Verlaufseigenschaften",
+        "example": "Verlauf optimieren."
+      }
+    ]
+  },
+  {
+    "id": "extra_9480",
+    "name": "Schweißtechnik",
+    "category": "Schweißtechnik",
+    "icon": "🔥",
+    "words": [
+      {
+        "german": "die Lichtbogenschweißung",
+        "italian": "la saldatura ad arco",
+        "article": "die",
+        "plural": "",
+        "example": "Lichtbogen schweißen."
+      },
+      {
+        "german": "die WIG-Schweißung",
+        "italian": "la saldatura TIG",
+        "article": "die",
+        "plural": "",
+        "example": "WIG-Schweißen anwenden."
+      },
+      {
+        "german": "die MIG-MAG-Schweißung",
+        "italian": "la saldatura MIG-MAG",
+        "article": "die",
+        "plural": "",
+        "example": "MIG-MAG schweißen."
+      },
+      {
+        "german": "die Widerstandsschweißung",
+        "italian": "la saldatura a resistenza",
+        "article": "die",
+        "plural": "",
+        "example": "Widerstandsschweißen anwenden."
+      },
+      {
+        "german": "die Laserschweißung",
+        "italian": "la saldatura laser",
+        "article": "die",
+        "plural": "",
+        "example": "Laser schweißen."
+      },
+      {
+        "german": "die Elektronenstrahlschweißung",
+        "italian": "la saldatura a fascio di elettroni",
+        "article": "die",
+        "plural": "",
+        "example": "Elektronenstrahl schweißen."
+      },
+      {
+        "german": "die Reibschweißung",
+        "italian": "la saldatura per attrito",
+        "article": "die",
+        "plural": "",
+        "example": "Reibschweißen einsetzen."
+      },
+      {
+        "german": "die Punktschweißung",
+        "italian": "la saldatura a punti",
+        "article": "die",
+        "plural": "",
+        "example": "Punktschweißen durchführen."
+      },
+      {
+        "german": "die Schweißnahtvorbereitung",
+        "italian": "la preparazione del giunto",
+        "article": "die",
+        "plural": "",
+        "example": "Schweißnaht vorbereiten."
+      },
+      {
+        "german": "die Schweißnahtprüfung",
+        "italian": "il controllo del giunto saldato",
+        "article": "die",
+        "plural": "",
+        "example": "Schweißnaht prüfen."
+      },
+      {
+        "german": "die Schweißverzug",
+        "italian": "la distorsione da saldatura",
+        "article": "der",
+        "plural": "",
+        "example": "Verzug minimieren."
+      },
+      {
+        "german": "die Schweißeigenspannung",
+        "italian": "la tensione residua da saldatura",
+        "article": "die",
+        "plural": "",
+        "example": "Eigenspannung reduzieren."
+      },
+      {
+        "german": "die Schweißzusatzwerkstoff",
+        "italian": "il materiale d'apporto",
+        "article": "der",
+        "plural": "die Schweißzusatzwerkstoffe",
+        "example": "Zusatzwerkstoff wählen."
+      },
+      {
+        "german": "die Schutzgasschweißung",
+        "italian": "la saldatura in atmosfera protettiva",
+        "article": "die",
+        "plural": "",
+        "example": "Schutzgas verwenden."
+      },
+      {
+        "german": "die Hartlötung",
+        "italian": "la brasatura forte",
+        "article": "die",
+        "plural": "",
+        "example": "Hart löten."
+      },
+      {
+        "german": "die Weichlötung",
+        "italian": "la brasatura dolce",
+        "article": "die",
+        "plural": "",
+        "example": "Weich löten."
+      }
+    ]
+  },
+  {
+    "id": "extra_9481",
+    "name": "Abwasseranalytik",
+    "category": "Abwasseranalytik",
+    "icon": "🧫",
+    "words": [
+      {
+        "german": "die BSB-Bestimmung",
+        "italian": "la determinazione del BOD",
+        "article": "die",
+        "plural": "",
+        "example": "BSB messen."
+      },
+      {
+        "german": "die CSB-Bestimmung",
+        "italian": "la determinazione del COD",
+        "article": "die",
+        "plural": "",
+        "example": "CSB analysieren."
+      },
+      {
+        "german": "die Ammoniumbestimmung",
+        "italian": "la determinazione dell'ammonio",
+        "article": "die",
+        "plural": "",
+        "example": "Ammonium bestimmen."
+      },
+      {
+        "german": "die Nitratbestimmung",
+        "italian": "la determinazione dei nitrati",
+        "article": "die",
+        "plural": "",
+        "example": "Nitrat messen."
+      },
+      {
+        "german": "die Phosphatbestimmung",
+        "italian": "la determinazione dei fosfati",
+        "article": "die",
+        "plural": "",
+        "example": "Phosphat analysieren."
+      },
+      {
+        "german": "die Schwermetallanalyse",
+        "italian": "l'analisi dei metalli pesanti",
+        "article": "die",
+        "plural": "",
+        "example": "Schwermetalle analysieren."
+      },
+      {
+        "german": "die Trübungsmessung",
+        "italian": "la misurazione della torbidità",
+        "article": "die",
+        "plural": "",
+        "example": "Trübung messen."
+      },
+      {
+        "german": "die Leitfähigkeitsmessung",
+        "italian": "la misurazione della conducibilità",
+        "article": "die",
+        "plural": "",
+        "example": "Leitfähigkeit messen."
+      },
+      {
+        "german": "die pH-Wert-Messung",
+        "italian": "la misurazione del pH",
+        "article": "die",
+        "plural": "",
+        "example": "pH-Wert bestimmen."
+      },
+      {
+        "german": "die Sauerstoffgehaltmessung",
+        "italian": "la misurazione del contenuto di ossigeno",
+        "article": "die",
+        "plural": "",
+        "example": "Sauerstoff messen."
+      },
+      {
+        "german": "die Schlammvolumenindex",
+        "italian": "l'indice del volume dei fanghi",
+        "article": "der",
+        "plural": "",
+        "example": "Schlammvolumen messen."
+      },
+      {
+        "german": "die Trockensubstanzbestimmung",
+        "italian": "la determinazione della sostanza secca",
+        "article": "die",
+        "plural": "",
+        "example": "Trockensubstanz bestimmen."
+      },
+      {
+        "german": "die Glühverlustbestimmung",
+        "italian": "la determinazione della perdita al fuoco",
+        "article": "die",
+        "plural": "",
+        "example": "Glühverlust bestimmen."
+      },
+      {
+        "german": "die AOX-Bestimmung",
+        "italian": "la determinazione degli AOX",
+        "article": "die",
+        "plural": "",
+        "example": "AOX analysieren."
+      },
+      {
+        "german": "die Mikrobiologische Untersuchung",
+        "italian": "l'analisi microbiologica",
+        "article": "die",
+        "plural": "",
+        "example": "Mikrobiologisch untersuchen."
+      },
+      {
+        "german": "die Probenahme",
+        "italian": "il campionamento",
+        "article": "die",
+        "plural": "die Probenahmen",
+        "example": "Probe nehmen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9482",
+    "name": "Heizungstechnik",
+    "category": "Heizungstechnik",
+    "icon": "🔧",
+    "words": [
+      {
+        "german": "die Wandheizung",
+        "italian": "il riscaldamento a parete",
+        "article": "die",
+        "plural": "die Wandheizungen",
+        "example": "Wandheizung installieren."
+      },
+      {
+        "german": "die Fernwärme",
+        "italian": "il teleriscaldamento",
+        "article": "die",
+        "plural": "",
+        "example": "Fernwärme nutzen."
+      },
+      {
+        "german": "die Nahwärme",
+        "italian": "il riscaldamento di quartiere",
+        "article": "die",
+        "plural": "",
+        "example": "Nahwärme anschließen."
+      },
+      {
+        "german": "die Pelletheizung",
+        "italian": "il riscaldamento a pellet",
+        "article": "die",
+        "plural": "die Pelletheizungen",
+        "example": "Pelletheizung betreiben."
+      },
+      {
+        "german": "die Hackschnitzelheizung",
+        "italian": "il riscaldamento a cippato",
+        "article": "die",
+        "plural": "",
+        "example": "Hackschnitzel verfeuern."
+      },
+      {
+        "german": "die Solarthermie",
+        "italian": "il solare termico",
+        "article": "die",
+        "plural": "",
+        "example": "Solarthermie nutzen."
+      },
+      {
+        "german": "die Brennwerttechnik",
+        "italian": "la tecnica a condensazione",
+        "article": "die",
+        "plural": "",
+        "example": "Brennwertkessel installieren."
+      },
+      {
+        "german": "die Heizlastberechnung",
+        "italian": "il calcolo del fabbisogno termico",
+        "article": "die",
+        "plural": "",
+        "example": "Heizlast berechnen."
+      },
+      {
+        "german": "die Heizkurveneinstellung",
+        "italian": "la regolazione della curva climatica",
+        "article": "die",
+        "plural": "",
+        "example": "Heizkurve einstellen."
+      },
+      {
+        "german": "die Heizungsregelung",
+        "italian": "la regolazione del riscaldamento",
+        "article": "die",
+        "plural": "",
+        "example": "Heizung regeln."
+      },
+      {
+        "german": "die Warmwasserbereitung",
+        "italian": "la produzione di acqua calda",
+        "article": "die",
+        "plural": "",
+        "example": "Warmwasser bereiten."
+      },
+      {
+        "german": "die Zirkulationsleitung",
+        "italian": "la condotta di ricircolo",
+        "article": "die",
+        "plural": "die Zirkulationsleitungen",
+        "example": "Zirkulation betreiben."
+      },
+      {
+        "german": "die Ausdehnungsgefäß",
+        "italian": "il vaso di espansione",
+        "article": "das",
+        "plural": "die Ausdehnungsgefäße",
+        "example": "Ausdehnungsgefäß prüfen."
+      },
+      {
+        "german": "die Umwälzpumpe",
+        "italian": "la pompa di circolazione",
+        "article": "die",
+        "plural": "die Umwälzpumpen",
+        "example": "Umwälzpumpe warten."
+      },
+      {
+        "german": "die Schornsteinsanierung",
+        "italian": "il risanamento della canna fumaria",
+        "article": "die",
+        "plural": "",
+        "example": "Schornstein sanieren."
+      }
+    ]
+  },
+  {
+    "id": "extra_9483",
+    "name": "Lichttechnik",
+    "category": "Lichttechnik",
+    "icon": "💡",
+    "words": [
+      {
+        "german": "die Beleuchtungsstärke",
+        "italian": "l'illuminamento",
+        "article": "die",
+        "plural": "",
+        "example": "Beleuchtungsstärke messen."
+      },
+      {
+        "german": "die Leuchtdichte",
+        "italian": "la luminanza",
+        "article": "die",
+        "plural": "",
+        "example": "Leuchtdichte bestimmen."
+      },
+      {
+        "german": "die Farbtemperatur",
+        "italian": "la temperatura di colore",
+        "article": "die",
+        "plural": "",
+        "example": "Farbtemperatur wählen."
+      },
+      {
+        "german": "die Farbwiedergabe",
+        "italian": "la resa cromatica",
+        "article": "die",
+        "plural": "",
+        "example": "Farbwiedergabe prüfen."
+      },
+      {
+        "german": "die Blendungsbewertung",
+        "italian": "la valutazione dell'abbagliamento",
+        "article": "die",
+        "plural": "",
+        "example": "Blendung bewerten."
+      },
+      {
+        "german": "die Straßenbeleuchtung",
+        "italian": "l'illuminazione stradale",
+        "article": "die",
+        "plural": "",
+        "example": "Straßenbeleuchtung planen."
+      },
+      {
+        "german": "die Bürobeleuchtung",
+        "italian": "l'illuminazione per uffici",
+        "article": "die",
+        "plural": "",
+        "example": "Büro beleuchten."
+      },
+      {
+        "german": "die Industriebeleuchtung",
+        "italian": "l'illuminazione industriale",
+        "article": "die",
+        "plural": "",
+        "example": "Halle beleuchten."
+      },
+      {
+        "german": "die Sportplatzbeleuchtung",
+        "italian": "l'illuminazione sportiva",
+        "article": "die",
+        "plural": "",
+        "example": "Sportplatz beleuchten."
+      },
+      {
+        "german": "die Notbeleuchtung",
+        "italian": "l'illuminazione d'emergenza",
+        "article": "die",
+        "plural": "",
+        "example": "Notbeleuchtung installieren."
+      },
+      {
+        "german": "die Lichtplanung",
+        "italian": "la progettazione illuminotecnica",
+        "article": "die",
+        "plural": "",
+        "example": "Licht planen."
+      },
+      {
+        "german": "die Tageslichtlenkung",
+        "italian": "la guida della luce diurna",
+        "article": "die",
+        "plural": "",
+        "example": "Tageslicht lenken."
+      },
+      {
+        "german": "die LED-Technologie",
+        "italian": "la tecnologia LED",
+        "article": "die",
+        "plural": "",
+        "example": "LED einsetzen."
+      },
+      {
+        "german": "die OLED-Technologie",
+        "italian": "la tecnologia OLED",
+        "article": "die",
+        "plural": "",
+        "example": "OLED entwickeln."
+      },
+      {
+        "german": "die Lichtsteuerung",
+        "italian": "il controllo dell'illuminazione",
+        "article": "die",
+        "plural": "",
+        "example": "Licht steuern."
+      },
+      {
+        "german": "die Human Centric Lighting",
+        "italian": "l'illuminazione incentrata sull'uomo",
+        "article": "die",
+        "plural": "",
+        "example": "HCL implementieren."
+      }
+    ]
+  },
+  {
+    "id": "extra_9484",
+    "name": "Aufzugstechnik",
+    "category": "Aufzugstechnik",
+    "icon": "🛗",
+    "words": [
+      {
+        "german": "die Seilaufzugsanlage",
+        "italian": "l'impianto ascensore a fune",
+        "article": "die",
+        "plural": "",
+        "example": "Seilaufzug installieren."
+      },
+      {
+        "german": "die Hydraulikaufzugsanlage",
+        "italian": "l'impianto ascensore idraulico",
+        "article": "die",
+        "plural": "",
+        "example": "Hydraulikaufzug betreiben."
+      },
+      {
+        "german": "die Aufzugskabine",
+        "italian": "la cabina dell'ascensore",
+        "article": "die",
+        "plural": "die Aufzugskabinen",
+        "example": "Kabine gestalten."
+      },
+      {
+        "german": "die Aufzugssteuerung",
+        "italian": "il comando dell'ascensore",
+        "article": "die",
+        "plural": "",
+        "example": "Steuerung programmieren."
+      },
+      {
+        "german": "die Fangvorrichtung",
+        "italian": "il paracadute dell'ascensore",
+        "article": "die",
+        "plural": "die Fangvorrichtungen",
+        "example": "Fangvorrichtung prüfen."
+      },
+      {
+        "german": "die Geschwindigkeitsbegrenzer",
+        "italian": "il limitatore di velocità",
+        "article": "der",
+        "plural": "die Geschwindigkeitsbegrenzer",
+        "example": "Geschwindigkeit begrenzen."
+      },
+      {
+        "german": "die Türantrieb",
+        "italian": "l'azionamento delle porte",
+        "article": "der",
+        "plural": "",
+        "example": "Türantrieb warten."
+      },
+      {
+        "german": "die Lastmessung",
+        "italian": "la misurazione del carico",
+        "article": "die",
+        "plural": "",
+        "example": "Last messen."
+      },
+      {
+        "german": "die Fahrkorbanzeige",
+        "italian": "l'indicatore di posizione della cabina",
+        "article": "die",
+        "plural": "",
+        "example": "Position anzeigen."
+      },
+      {
+        "german": "die Notrufeinrichtung",
+        "italian": "il sistema di chiamata d'emergenza",
+        "article": "die",
+        "plural": "",
+        "example": "Notruf einrichten."
+      },
+      {
+        "german": "die Aufzugsprüfung",
+        "italian": "il collaudo dell'ascensore",
+        "article": "die",
+        "plural": "die Aufzugsprüfungen",
+        "example": "Aufzug prüfen."
+      },
+      {
+        "german": "die Fahrtreppe",
+        "italian": "la scala mobile",
+        "article": "die",
+        "plural": "die Fahrtreppen",
+        "example": "Fahrtreppe warten."
+      },
+      {
+        "german": "die Fahrsteig",
+        "italian": "il marciapiede mobile",
+        "article": "der",
+        "plural": "die Fahrsteige",
+        "example": "Fahrsteig betreiben."
+      },
+      {
+        "german": "die Aufzugsschacht",
+        "italian": "il vano ascensore",
+        "article": "der",
+        "plural": "die Aufzugsschächte",
+        "example": "Schacht inspizieren."
+      },
+      {
+        "german": "die Personenbeförderung",
+        "italian": "il trasporto di persone",
+        "article": "die",
+        "plural": "",
+        "example": "Personen befördern."
+      }
+    ]
+  },
+  {
+    "id": "extra_9485",
+    "name": "Elektromobilität",
+    "category": "Elektromobilität",
+    "icon": "🔋",
+    "words": [
+      {
+        "german": "die Batteriemanagementsystem",
+        "italian": "il sistema di gestione della batteria",
+        "article": "das",
+        "plural": "",
+        "example": "BMS programmieren."
+      },
+      {
+        "german": "die Traktionsbatterie",
+        "italian": "la batteria di trazione",
+        "article": "die",
+        "plural": "die Traktionsbatterien",
+        "example": "Batterie laden."
+      },
+      {
+        "german": "die Ladeleistung",
+        "italian": "la potenza di ricarica",
+        "article": "die",
+        "plural": "",
+        "example": "Ladeleistung maximieren."
+      },
+      {
+        "german": "die Schnellladesäule",
+        "italian": "la colonnina di ricarica rapida",
+        "article": "die",
+        "plural": "die Schnellladesäulen",
+        "example": "Schnellladesäule installieren."
+      },
+      {
+        "german": "die Wallbox",
+        "italian": "la wallbox",
+        "article": "die",
+        "plural": "die Wallboxen",
+        "example": "Wallbox installieren."
+      },
+      {
+        "german": "die Rekuperation",
+        "italian": "la frenata rigenerativa",
+        "article": "die",
+        "plural": "",
+        "example": "Rekuperation nutzen."
+      },
+      {
+        "german": "die Zellfertigung",
+        "italian": "la produzione delle celle",
+        "article": "die",
+        "plural": "",
+        "example": "Zellen fertigen."
+      },
+      {
+        "german": "die Lithium-Ionen-Zelle",
+        "italian": "la cella agli ioni di litio",
+        "article": "die",
+        "plural": "die Lithium-Ionen-Zellen",
+        "example": "Li-Ion-Zelle produzieren."
+      },
+      {
+        "german": "die Batterierecycling",
+        "italian": "il riciclo delle batterie",
+        "article": "das",
+        "plural": "",
+        "example": "Batterien recyceln."
+      },
+      {
+        "german": "die Brennstoffzellenfahrzeug",
+        "italian": "il veicolo a celle a combustibile",
+        "article": "das",
+        "plural": "die Brennstoffzellenfahrzeuge",
+        "example": "Brennstoffzelle nutzen."
+      },
+      {
+        "german": "die Bidirektionales Laden",
+        "italian": "la ricarica bidirezionale",
+        "article": "das",
+        "plural": "",
+        "example": "Bidirektional laden."
+      },
+      {
+        "german": "die Induktives Laden",
+        "italian": "la ricarica a induzione",
+        "article": "das",
+        "plural": "",
+        "example": "Induktiv laden."
+      }
+    ]
+  },
+  {
+    "id": "extra_9486",
+    "name": "Sicherheitstechnik",
+    "category": "Sicherheitstechnik",
+    "icon": "🔐",
+    "words": [
+      {
+        "german": "die Zutrittskontrolle",
+        "italian": "il controllo degli accessi",
+        "article": "die",
+        "plural": "die Zutrittskontrollen",
+        "example": "Zutritt kontrollieren."
+      },
+      {
+        "german": "die Videoüberwachung",
+        "italian": "la videosorveglianza",
+        "article": "die",
+        "plural": "",
+        "example": "Videoüberwachung installieren."
+      },
+      {
+        "german": "die Einbruchmeldeanlage",
+        "italian": "il sistema antintrusione",
+        "article": "die",
+        "plural": "die Einbruchmeldeanlagen",
+        "example": "Einbruchmelder installieren."
+      },
+      {
+        "german": "die Brandmeldeanlage",
+        "italian": "il sistema di rilevamento incendi",
+        "article": "die",
+        "plural": "die Brandmeldeanlagen",
+        "example": "Brandmelder installieren."
+      },
+      {
+        "german": "die Rauchansaugsystem",
+        "italian": "il sistema di rilevamento fumi ad aspirazione",
+        "article": "das",
+        "plural": "",
+        "example": "VESDA installieren."
+      },
+      {
+        "german": "die Entrauchungsanlage",
+        "italian": "il sistema di evacuazione dei fumi",
+        "article": "die",
+        "plural": "die Entrauchungsanlagen",
+        "example": "Entrauchung planen."
+      },
+      {
+        "german": "die Löschwasserversorgung",
+        "italian": "l'approvvigionamento idrico antincendio",
+        "article": "die",
+        "plural": "",
+        "example": "Löschwasser bereitstellen."
+      },
+      {
+        "german": "die Brandschutztür",
+        "italian": "la porta tagliafuoco",
+        "article": "die",
+        "plural": "die Brandschutztüren",
+        "example": "Brandschutztür einbauen."
+      },
+      {
+        "german": "die Feuerwiderstandsklasse",
+        "italian": "la classe di resistenza al fuoco",
+        "article": "die",
+        "plural": "die Feuerwiderstandsklassen",
+        "example": "Feuerwiderstand prüfen."
+      },
+      {
+        "german": "die Fluchtwegsicherung",
+        "italian": "la messa in sicurezza delle vie di fuga",
+        "article": "die",
+        "plural": "",
+        "example": "Fluchtweg sichern."
+      },
+      {
+        "german": "die Gaslöschanlage",
+        "italian": "il sistema di spegnimento a gas",
+        "article": "die",
+        "plural": "die Gaslöschanlagen",
+        "example": "Gaslöschanlage installieren."
+      },
+      {
+        "german": "die Sprühflutanlage",
+        "italian": "il sistema di spegnimento a diluvio",
+        "article": "die",
+        "plural": "die Sprühflutanlagen",
+        "example": "Sprühflut installieren."
+      },
+      {
+        "german": "die Rauchwarnmelder",
+        "italian": "il rilevatore di fumo",
+        "article": "der",
+        "plural": "die Rauchwarnmelder",
+        "example": "Rauchwarnmelder installieren."
+      },
+      {
+        "german": "die Kohlenmonoxidmelder",
+        "italian": "il rilevatore di monossido di carbonio",
+        "article": "der",
+        "plural": "die Kohlenmonoxidmelder",
+        "example": "CO-Melder installieren."
+      },
+      {
+        "german": "die Personen-Notsignal-Anlage",
+        "italian": "il sistema di segnalazione di emergenza personale",
+        "article": "die",
+        "plural": "",
+        "example": "PNA einsetzen."
+      },
+      {
+        "german": "die Perimeterschutz",
+        "italian": "la protezione perimetrale",
+        "article": "der",
+        "plural": "",
+        "example": "Perimeter schützen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9487",
+    "name": "Oberflächentechnik",
+    "category": "Oberflächentechnik",
+    "icon": "🔬",
+    "words": [
+      {
+        "german": "die Plasmabeschichtung",
+        "italian": "il rivestimento al plasma",
+        "article": "die",
+        "plural": "",
+        "example": "Plasma beschichten."
+      },
+      {
+        "german": "die Vakuumbeschichtung",
+        "italian": "il rivestimento sotto vuoto",
+        "article": "die",
+        "plural": "",
+        "example": "Vakuumbeschichtung auftragen."
+      },
+      {
+        "german": "die PVD-Beschichtung",
+        "italian": "il rivestimento PVD",
+        "article": "die",
+        "plural": "",
+        "example": "PVD anwenden."
+      },
+      {
+        "german": "die CVD-Beschichtung",
+        "italian": "il rivestimento CVD",
+        "article": "die",
+        "plural": "",
+        "example": "CVD durchführen."
+      },
+      {
+        "german": "die thermische Spritzung",
+        "italian": "la spruzzatura termica",
+        "article": "die",
+        "plural": "",
+        "example": "Thermisch spritzen."
+      },
+      {
+        "german": "die Hartstoffbeschichtung",
+        "italian": "il rivestimento in materiale duro",
+        "article": "die",
+        "plural": "",
+        "example": "Hartstoff beschichten."
+      },
+      {
+        "german": "die Plasmanitridierung",
+        "italian": "la nitrurazione al plasma",
+        "article": "die",
+        "plural": "",
+        "example": "Plasma nitrieren."
+      },
+      {
+        "german": "die Laserstrukturierung",
+        "italian": "la strutturazione laser",
+        "article": "die",
+        "plural": "",
+        "example": "Laser strukturieren."
+      },
+      {
+        "german": "die Entgratung",
+        "italian": "la sbavatura",
+        "article": "die",
+        "plural": "",
+        "example": "Entgraten durchführen."
+      },
+      {
+        "german": "die Gleitschleifen",
+        "italian": "la finitura vibrante",
+        "article": "das",
+        "plural": "",
+        "example": "Gleitschleifen anwenden."
+      },
+      {
+        "german": "die Elektropolieren",
+        "italian": "l'elettrolucidatura",
+        "article": "das",
+        "plural": "",
+        "example": "Elektropolieren durchführen."
+      },
+      {
+        "german": "die Kugelstrahlen",
+        "italian": "la pallinatura",
+        "article": "das",
+        "plural": "",
+        "example": "Kugelstrahlen anwenden."
+      },
+      {
+        "german": "die Laserpolieren",
+        "italian": "la lucidatura laser",
+        "article": "das",
+        "plural": "",
+        "example": "Laser polieren."
+      },
+      {
+        "german": "die Rauheitsmessung",
+        "italian": "la misurazione della rugosità",
+        "article": "die",
+        "plural": "",
+        "example": "Rauheit messen."
+      },
+      {
+        "german": "die Benetzungsprüfung",
+        "italian": "la prova di bagnabilità",
+        "article": "die",
+        "plural": "",
+        "example": "Benetzung prüfen."
+      },
+      {
+        "german": "die Schichtanalytik",
+        "italian": "l'analisi dei rivestimenti",
+        "article": "die",
+        "plural": "",
+        "example": "Schichten analysieren."
+      }
+    ]
+  }
+]
