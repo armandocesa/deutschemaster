@@ -4,336 +4,192 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS } from '../utils/constants';
 import { saveAndSync } from '../utils/cloudSync';
 
-// Complete path data with all 6 CEFR levels
+// Complete path data with all 6 CEFR levels - uses translation keys for i18n
 const PATHS_DATA = [
   {
-    id: 'a1',
-    level: 'A1',
-    name: 'Grundstufe I',
-    subtitle: 'Principiante',
-    color: '#10b981',
+    id: 'a1', level: 'A1', name: 'Grundstufe I', subtitleKey: 'paths.a1_subtitle', color: '#10b981',
     stages: [
-      {
-        id: 'a1_1',
-        name: 'Primi Passi',
-        icon: '👋',
-        activities: [
-          { type: 'lesson', id: 'lesson_1', label: 'Lezione 1: Sich vorstellen', target: { page: 'lessons', lesson: 1 } },
-          { type: 'lesson', id: 'lesson_2', label: 'Lezione 2: Grüße', target: { page: 'lessons', lesson: 2 } },
-          { type: 'vocab', id: 'vocab_a1_1', label: 'Vocabolario: Saluti', target: { page: 'vocabulary', level: 'A1' } },
-          { type: 'grammar', id: 'grammar_a1_1', label: 'Grammatica: Artikel', target: { page: 'grammar', level: 'A1' } },
-          { type: 'quiz', id: 'quiz_a1_1', label: 'Mini Quiz A1', target: { page: 'quiz', level: 'A1' } },
-        ]
-      },
-      {
-        id: 'a1_2',
-        name: 'Vita Quotidiana',
-        icon: '🏠',
-        activities: [
-          { type: 'lesson', id: 'lesson_3', label: 'Lezione 3-5', target: { page: 'lessons', lesson: 3 } },
-          { type: 'vocab', id: 'vocab_a1_2', label: 'Vocabolario: Casa e Famiglia', target: { page: 'vocabulary', level: 'A1' } },
-          { type: 'grammar', id: 'grammar_a1_2', label: 'Grammatica: Verbi regolari', target: { page: 'grammar', level: 'A1' } },
-          { type: 'writing', id: 'write_a1_1', label: 'Esercizio di Scrittura', target: { page: 'writing' } },
-          { type: 'quiz', id: 'quiz_a1_2', label: 'Quiz: Vita Quotidiana', target: { page: 'quiz', level: 'A1' } },
-        ]
-      },
-      {
-        id: 'a1_3',
-        name: 'Al Ristorante',
-        icon: '🍽️',
-        activities: [
-          { type: 'lesson', id: 'lesson_6', label: 'Lezioni 6-8', target: { page: 'lessons', lesson: 6 } },
-          { type: 'vocab', id: 'vocab_a1_3', label: 'Vocabolario: Cibo e Bevande', target: { page: 'vocabulary', level: 'A1' } },
-          { type: 'listening', id: 'listen_a1_1', label: 'Esercizio di Ascolto', target: { page: 'listening' } },
-          { type: 'flashcard', id: 'flash_a1_1', label: 'Flashcards A1', target: { page: 'flashcards' } },
-          { type: 'reading', id: 'read_a1_1', label: 'Lettura A1', target: { page: 'reading', level: 'A1' } },
-        ]
-      },
-      {
-        id: 'a1_4',
-        name: 'Checkpoint A1',
-        icon: '🏆',
-        activities: [
-          { type: 'lesson', id: 'lesson_9', label: 'Lezioni 9-14', target: { page: 'lessons', lesson: 9 } },
-          { type: 'quiz', id: 'quiz_a1_final', label: 'Test Finale A1', target: { page: 'quiz', level: 'A1' } },
-          { type: 'reading', id: 'read_a1_2', label: 'Comprensione A1', target: { page: 'reading', level: 'A1' } },
-        ]
-      },
+      { id: 'a1_1', nameKey: 'paths.a1_stage1', icon: '👋', activities: [
+          { type: 'lesson', id: 'lesson_1', labelKey: 'paths.a1_s1_a1', target: { page: 'lessons', lesson: 1 } },
+          { type: 'lesson', id: 'lesson_2', labelKey: 'paths.a1_s1_a2', target: { page: 'lessons', lesson: 2 } },
+          { type: 'vocab', id: 'vocab_a1_1', labelKey: 'paths.a1_s1_a3', target: { page: 'vocabulary', level: 'A1' } },
+          { type: 'grammar', id: 'grammar_a1_1', labelKey: 'paths.a1_s1_a4', target: { page: 'grammar', level: 'A1' } },
+          { type: 'quiz', id: 'quiz_a1_1', labelKey: 'paths.a1_s1_a5', target: { page: 'quiz', level: 'A1' } },
+        ] },
+      { id: 'a1_2', nameKey: 'paths.a1_stage2', icon: '🏠', activities: [
+          { type: 'lesson', id: 'lesson_3', labelKey: 'paths.a1_s2_a1', target: { page: 'lessons', lesson: 3 } },
+          { type: 'vocab', id: 'vocab_a1_2', labelKey: 'paths.a1_s2_a2', target: { page: 'vocabulary', level: 'A1' } },
+          { type: 'grammar', id: 'grammar_a1_2', labelKey: 'paths.a1_s2_a3', target: { page: 'grammar', level: 'A1' } },
+          { type: 'writing', id: 'write_a1_1', labelKey: 'paths.a1_s2_a4', target: { page: 'writing' } },
+          { type: 'quiz', id: 'quiz_a1_2', labelKey: 'paths.a1_s2_a5', target: { page: 'quiz', level: 'A1' } },
+        ] },
+      { id: 'a1_3', nameKey: 'paths.a1_stage3', icon: '🍽️', activities: [
+          { type: 'lesson', id: 'lesson_6', labelKey: 'paths.a1_s3_a1', target: { page: 'lessons', lesson: 6 } },
+          { type: 'vocab', id: 'vocab_a1_3', labelKey: 'paths.a1_s3_a2', target: { page: 'vocabulary', level: 'A1' } },
+          { type: 'listening', id: 'listen_a1_1', labelKey: 'paths.a1_s3_a3', target: { page: 'listening' } },
+          { type: 'flashcard', id: 'flash_a1_1', labelKey: 'paths.a1_s3_a4', target: { page: 'flashcards' } },
+          { type: 'reading', id: 'read_a1_1', labelKey: 'paths.a1_s3_a5', target: { page: 'reading', level: 'A1' } },
+        ] },
+      { id: 'a1_4', nameKey: 'paths.a1_stage4', icon: '🏆', activities: [
+          { type: 'lesson', id: 'lesson_9', labelKey: 'paths.a1_s4_a1', target: { page: 'lessons', lesson: 9 } },
+          { type: 'quiz', id: 'quiz_a1_final', labelKey: 'paths.a1_s4_a2', target: { page: 'quiz', level: 'A1' } },
+          { type: 'reading', id: 'read_a1_2', labelKey: 'paths.a1_s4_a3', target: { page: 'reading', level: 'A1' } },
+        ] },
     ]
   },
   {
-    id: 'a2',
-    level: 'A2',
-    name: 'Grundstufe II',
-    subtitle: 'Elementare',
-    color: '#06b6d4',
+    id: 'a2', level: 'A2', name: 'Grundstufe II', subtitleKey: 'paths.a2_subtitle', color: '#06b6d4',
     stages: [
-      {
-        id: 'a2_1',
-        name: 'In Viaggio',
-        icon: '✈️',
-        activities: [
-          { type: 'lesson', id: 'lesson_a2_1', label: 'Lezione 1: Trasporti', target: { page: 'lessons', lesson: 15 } },
-          { type: 'lesson', id: 'lesson_a2_2', label: 'Lezione 2: Albergo', target: { page: 'lessons', lesson: 16 } },
-          { type: 'vocab', id: 'vocab_a2_1', label: 'Vocabolario: Viaggio', target: { page: 'vocabulary', level: 'A2' } },
-          { type: 'grammar', id: 'grammar_a2_1', label: 'Grammatica: Präteritum', target: { page: 'grammar', level: 'A2' } },
-          { type: 'listening', id: 'listen_a2_1', label: 'Dialoghi di Viaggio', target: { page: 'listening' } },
-        ]
-      },
-      {
-        id: 'a2_2',
-        name: 'Shopping',
-        icon: '🛍️',
-        activities: [
-          { type: 'lesson', id: 'lesson_a2_3', label: 'Lezione 3-4: Negozi', target: { page: 'lessons', lesson: 17 } },
-          { type: 'vocab', id: 'vocab_a2_2', label: 'Vocabolario: Abbigliamento', target: { page: 'vocabulary', level: 'A2' } },
-          { type: 'grammar', id: 'grammar_a2_2', label: 'Grammatica: Comparativi', target: { page: 'grammar', level: 'A2' } },
-          { type: 'writing', id: 'write_a2_1', label: 'Esercizio: Descrizioni', target: { page: 'writing' } },
-          { type: 'flashcard', id: 'flash_a2_1', label: 'Flashcards A2', target: { page: 'flashcards' } },
-        ]
-      },
-      {
-        id: 'a2_3',
-        name: 'Al Lavoro',
-        icon: '💼',
-        activities: [
-          { type: 'lesson', id: 'lesson_a2_5', label: 'Lezione 5-6: Lavoro', target: { page: 'lessons', lesson: 18 } },
-          { type: 'vocab', id: 'vocab_a2_3', label: 'Vocabolario: Professioni', target: { page: 'vocabulary', level: 'A2' } },
-          { type: 'grammar', id: 'grammar_a2_3', label: 'Grammatica: Passivo', target: { page: 'grammar', level: 'A2' } },
-          { type: 'reading', id: 'read_a2_1', label: 'Testi A2', target: { page: 'reading', level: 'A2' } },
-          { type: 'quiz', id: 'quiz_a2_1', label: 'Quiz A2', target: { page: 'quiz', level: 'A2' } },
-        ]
-      },
-      {
-        id: 'a2_4',
-        name: 'Checkpoint A2',
-        icon: '🏆',
-        activities: [
-          { type: 'lesson', id: 'lesson_a2_final', label: 'Lezioni 7-12', target: { page: 'lessons', lesson: 19 } },
-          { type: 'quiz', id: 'quiz_a2_final', label: 'Test Finale A2', target: { page: 'quiz', level: 'A2' } },
-          { type: 'reading', id: 'read_a2_2', label: 'Comprensione A2', target: { page: 'reading', level: 'A2' } },
-        ]
-      },
+      { id: 'a2_1', nameKey: 'paths.a2_stage1', icon: '✈️', activities: [
+          { type: 'lesson', id: 'lesson_a2_1', labelKey: 'paths.a2_s1_a1', target: { page: 'lessons', lesson: 15 } },
+          { type: 'lesson', id: 'lesson_a2_2', labelKey: 'paths.a2_s1_a2', target: { page: 'lessons', lesson: 16 } },
+          { type: 'vocab', id: 'vocab_a2_1', labelKey: 'paths.a2_s1_a3', target: { page: 'vocabulary', level: 'A2' } },
+          { type: 'grammar', id: 'grammar_a2_1', labelKey: 'paths.a2_s1_a4', target: { page: 'grammar', level: 'A2' } },
+          { type: 'listening', id: 'listen_a2_1', labelKey: 'paths.a2_s1_a5', target: { page: 'listening' } },
+        ] },
+      { id: 'a2_2', nameKey: 'paths.a2_stage2', icon: '🛍️', activities: [
+          { type: 'lesson', id: 'lesson_a2_3', labelKey: 'paths.a2_s2_a1', target: { page: 'lessons', lesson: 17 } },
+          { type: 'vocab', id: 'vocab_a2_2', labelKey: 'paths.a2_s2_a2', target: { page: 'vocabulary', level: 'A2' } },
+          { type: 'grammar', id: 'grammar_a2_2', labelKey: 'paths.a2_s2_a3', target: { page: 'grammar', level: 'A2' } },
+          { type: 'writing', id: 'write_a2_1', labelKey: 'paths.a2_s2_a4', target: { page: 'writing' } },
+          { type: 'flashcard', id: 'flash_a2_1', labelKey: 'paths.a2_s2_a5', target: { page: 'flashcards' } },
+        ] },
+      { id: 'a2_3', nameKey: 'paths.a2_stage3', icon: '💼', activities: [
+          { type: 'lesson', id: 'lesson_a2_5', labelKey: 'paths.a2_s3_a1', target: { page: 'lessons', lesson: 18 } },
+          { type: 'vocab', id: 'vocab_a2_3', labelKey: 'paths.a2_s3_a2', target: { page: 'vocabulary', level: 'A2' } },
+          { type: 'grammar', id: 'grammar_a2_3', labelKey: 'paths.a2_s3_a3', target: { page: 'grammar', level: 'A2' } },
+          { type: 'reading', id: 'read_a2_1', labelKey: 'paths.a2_s3_a4', target: { page: 'reading', level: 'A2' } },
+          { type: 'quiz', id: 'quiz_a2_1', labelKey: 'paths.a2_s3_a5', target: { page: 'quiz', level: 'A2' } },
+        ] },
+      { id: 'a2_4', nameKey: 'paths.a2_stage4', icon: '🏆', activities: [
+          { type: 'lesson', id: 'lesson_a2_final', labelKey: 'paths.a2_s4_a1', target: { page: 'lessons', lesson: 19 } },
+          { type: 'quiz', id: 'quiz_a2_final', labelKey: 'paths.a2_s4_a2', target: { page: 'quiz', level: 'A2' } },
+          { type: 'reading', id: 'read_a2_2', labelKey: 'paths.a2_s4_a3', target: { page: 'reading', level: 'A2' } },
+        ] },
     ]
   },
   {
-    id: 'b1',
-    level: 'B1',
-    name: 'Mittelstufe I',
-    subtitle: 'Intermedio',
-    color: '#8b5cf6',
+    id: 'b1', level: 'B1', name: 'Mittelstufe I', subtitleKey: 'paths.b1_subtitle', color: '#8b5cf6',
     stages: [
-      {
-        id: 'b1_1',
-        name: 'Media e Cultura',
-        icon: '📺',
-        activities: [
-          { type: 'lesson', id: 'lesson_b1_1', label: 'Lezione 1: Cinema', target: { page: 'lessons', lesson: 25 } },
-          { type: 'lesson', id: 'lesson_b1_2', label: 'Lezione 2: Letteratura', target: { page: 'lessons', lesson: 26 } },
-          { type: 'vocab', id: 'vocab_b1_1', label: 'Vocabolario: Cultura', target: { page: 'vocabulary', level: 'B1' } },
-          { type: 'grammar', id: 'grammar_b1_1', label: 'Grammatica: Konjunktiv', target: { page: 'grammar', level: 'B1' } },
-          { type: 'listening', id: 'listen_b1_1', label: 'Ascolto: Interviste', target: { page: 'listening' } },
-        ]
-      },
-      {
-        id: 'b1_2',
-        name: 'Salute',
-        icon: '🏥',
-        activities: [
-          { type: 'lesson', id: 'lesson_b1_3', label: 'Lezione 3-4: Medicina', target: { page: 'lessons', lesson: 27 } },
-          { type: 'vocab', id: 'vocab_b1_2', label: 'Vocabolario: Salute', target: { page: 'vocabulary', level: 'B1' } },
-          { type: 'grammar', id: 'grammar_b1_2', label: 'Grammatica: Infinitiv mit zu', target: { page: 'grammar', level: 'B1' } },
-          { type: 'writing', id: 'write_b1_1', label: 'Esercizio: Discussioni', target: { page: 'writing' } },
-          { type: 'reading', id: 'read_b1_1', label: 'Articoli B1', target: { page: 'reading', level: 'B1' } },
-        ]
-      },
-      {
-        id: 'b1_3',
-        name: 'Mondo del Lavoro',
-        icon: '🌍',
-        activities: [
-          { type: 'lesson', id: 'lesson_b1_5', label: 'Lezione 5-6: Carriera', target: { page: 'lessons', lesson: 28 } },
-          { type: 'vocab', id: 'vocab_b1_3', label: 'Vocabolario: Economia', target: { page: 'vocabulary', level: 'B1' } },
-          { type: 'grammar', id: 'grammar_b1_3', label: 'Grammatica: Subjunktiv', target: { page: 'grammar', level: 'B1' } },
-          { type: 'flashcard', id: 'flash_b1_1', label: 'Flashcards B1', target: { page: 'flashcards' } },
-          { type: 'quiz', id: 'quiz_b1_1', label: 'Quiz B1', target: { page: 'quiz', level: 'B1' } },
-        ]
-      },
-      {
-        id: 'b1_4',
-        name: 'Checkpoint B1',
-        icon: '🏆',
-        activities: [
-          { type: 'lesson', id: 'lesson_b1_final', label: 'Lezioni 7-14', target: { page: 'lessons', lesson: 29 } },
-          { type: 'quiz', id: 'quiz_b1_final', label: 'Test Finale B1', target: { page: 'quiz', level: 'B1' } },
-          { type: 'reading', id: 'read_b1_2', label: 'Comprensione B1', target: { page: 'reading', level: 'B1' } },
-        ]
-      },
+      { id: 'b1_1', nameKey: 'paths.b1_stage1', icon: '📺', activities: [
+          { type: 'lesson', id: 'lesson_b1_1', labelKey: 'paths.b1_s1_a1', target: { page: 'lessons', lesson: 25 } },
+          { type: 'lesson', id: 'lesson_b1_2', labelKey: 'paths.b1_s1_a2', target: { page: 'lessons', lesson: 26 } },
+          { type: 'vocab', id: 'vocab_b1_1', labelKey: 'paths.b1_s1_a3', target: { page: 'vocabulary', level: 'B1' } },
+          { type: 'grammar', id: 'grammar_b1_1', labelKey: 'paths.b1_s1_a4', target: { page: 'grammar', level: 'B1' } },
+          { type: 'listening', id: 'listen_b1_1', labelKey: 'paths.b1_s1_a5', target: { page: 'listening' } },
+        ] },
+      { id: 'b1_2', nameKey: 'paths.b1_stage2', icon: '🏥', activities: [
+          { type: 'lesson', id: 'lesson_b1_3', labelKey: 'paths.b1_s2_a1', target: { page: 'lessons', lesson: 27 } },
+          { type: 'vocab', id: 'vocab_b1_2', labelKey: 'paths.b1_s2_a2', target: { page: 'vocabulary', level: 'B1' } },
+          { type: 'grammar', id: 'grammar_b1_2', labelKey: 'paths.b1_s2_a3', target: { page: 'grammar', level: 'B1' } },
+          { type: 'writing', id: 'write_b1_1', labelKey: 'paths.b1_s2_a4', target: { page: 'writing' } },
+          { type: 'reading', id: 'read_b1_1', labelKey: 'paths.b1_s2_a5', target: { page: 'reading', level: 'B1' } },
+        ] },
+      { id: 'b1_3', nameKey: 'paths.b1_stage3', icon: '🌍', activities: [
+          { type: 'lesson', id: 'lesson_b1_5', labelKey: 'paths.b1_s3_a1', target: { page: 'lessons', lesson: 28 } },
+          { type: 'vocab', id: 'vocab_b1_3', labelKey: 'paths.b1_s3_a2', target: { page: 'vocabulary', level: 'B1' } },
+          { type: 'grammar', id: 'grammar_b1_3', labelKey: 'paths.b1_s3_a3', target: { page: 'grammar', level: 'B1' } },
+          { type: 'flashcard', id: 'flash_b1_1', labelKey: 'paths.b1_s3_a4', target: { page: 'flashcards' } },
+          { type: 'quiz', id: 'quiz_b1_1', labelKey: 'paths.b1_s3_a5', target: { page: 'quiz', level: 'B1' } },
+        ] },
+      { id: 'b1_4', nameKey: 'paths.b1_stage4', icon: '🏆', activities: [
+          { type: 'lesson', id: 'lesson_b1_final', labelKey: 'paths.b1_s4_a1', target: { page: 'lessons', lesson: 29 } },
+          { type: 'quiz', id: 'quiz_b1_final', labelKey: 'paths.b1_s4_a2', target: { page: 'quiz', level: 'B1' } },
+          { type: 'reading', id: 'read_b1_2', labelKey: 'paths.b1_s4_a3', target: { page: 'reading', level: 'B1' } },
+        ] },
     ]
   },
   {
-    id: 'b2',
-    level: 'B2',
-    name: 'Mittelstufe II',
-    subtitle: 'Intermedio Superiore',
-    color: '#f59e0b',
+    id: 'b2', level: 'B2', name: 'Mittelstufe II', subtitleKey: 'paths.b2_subtitle', color: '#f59e0b',
     stages: [
-      {
-        id: 'b2_1',
-        name: 'Politica e Società',
-        icon: '🏛️',
-        activities: [
-          { type: 'lesson', id: 'lesson_b2_1', label: 'Lezione 1: Politica', target: { page: 'lessons', lesson: 35 } },
-          { type: 'lesson', id: 'lesson_b2_2', label: 'Lezione 2: Diritti', target: { page: 'lessons', lesson: 36 } },
-          { type: 'vocab', id: 'vocab_b2_1', label: 'Vocabolario: Politica', target: { page: 'vocabulary', level: 'B2' } },
-          { type: 'grammar', id: 'grammar_b2_1', label: 'Grammatica: Passiv Präteritum', target: { page: 'grammar', level: 'B2' } },
-          { type: 'listening', id: 'listen_b2_1', label: 'Discussioni Politiche', target: { page: 'listening' } },
-        ]
-      },
-      {
-        id: 'b2_2',
-        name: 'Ambiente',
-        icon: '🌱',
-        activities: [
-          { type: 'lesson', id: 'lesson_b2_3', label: 'Lezione 3-4: Ecologia', target: { page: 'lessons', lesson: 37 } },
-          { type: 'vocab', id: 'vocab_b2_2', label: 'Vocabolario: Ambiente', target: { page: 'vocabulary', level: 'B2' } },
-          { type: 'grammar', id: 'grammar_b2_2', label: 'Grammatica: Konditional', target: { page: 'grammar', level: 'B2' } },
-          { type: 'writing', id: 'write_b2_1', label: 'Saggio: Ambiente', target: { page: 'writing' } },
-          { type: 'reading', id: 'read_b2_1', label: 'Testi Complessi', target: { page: 'reading', level: 'B2' } },
-        ]
-      },
-      {
-        id: 'b2_3',
-        name: 'Economia',
-        icon: '📈',
-        activities: [
-          { type: 'lesson', id: 'lesson_b2_5', label: 'Lezione 5-6: Finanza', target: { page: 'lessons', lesson: 38 } },
-          { type: 'vocab', id: 'vocab_b2_3', label: 'Vocabolario: Economia', target: { page: 'vocabulary', level: 'B2' } },
-          { type: 'grammar', id: 'grammar_b2_3', label: 'Grammatica: Partizipien', target: { page: 'grammar', level: 'B2' } },
-          { type: 'flashcard', id: 'flash_b2_1', label: 'Flashcards B2', target: { page: 'flashcards' } },
-          { type: 'quiz', id: 'quiz_b2_1', label: 'Quiz B2', target: { page: 'quiz', level: 'B2' } },
-        ]
-      },
-      {
-        id: 'b2_4',
-        name: 'Checkpoint B2',
-        icon: '🏆',
-        activities: [
-          { type: 'lesson', id: 'lesson_b2_final', label: 'Lezioni 7-14', target: { page: 'lessons', lesson: 39 } },
-          { type: 'quiz', id: 'quiz_b2_final', label: 'Test Finale B2', target: { page: 'quiz', level: 'B2' } },
-          { type: 'reading', id: 'read_b2_2', label: 'Comprensione B2', target: { page: 'reading', level: 'B2' } },
-        ]
-      },
+      { id: 'b2_1', nameKey: 'paths.b2_stage1', icon: '🏛️', activities: [
+          { type: 'lesson', id: 'lesson_b2_1', labelKey: 'paths.b2_s1_a1', target: { page: 'lessons', lesson: 35 } },
+          { type: 'lesson', id: 'lesson_b2_2', labelKey: 'paths.b2_s1_a2', target: { page: 'lessons', lesson: 36 } },
+          { type: 'vocab', id: 'vocab_b2_1', labelKey: 'paths.b2_s1_a3', target: { page: 'vocabulary', level: 'B2' } },
+          { type: 'grammar', id: 'grammar_b2_1', labelKey: 'paths.b2_s1_a4', target: { page: 'grammar', level: 'B2' } },
+          { type: 'listening', id: 'listen_b2_1', labelKey: 'paths.b2_s1_a5', target: { page: 'listening' } },
+        ] },
+      { id: 'b2_2', nameKey: 'paths.b2_stage2', icon: '🌱', activities: [
+          { type: 'lesson', id: 'lesson_b2_3', labelKey: 'paths.b2_s2_a1', target: { page: 'lessons', lesson: 37 } },
+          { type: 'vocab', id: 'vocab_b2_2', labelKey: 'paths.b2_s2_a2', target: { page: 'vocabulary', level: 'B2' } },
+          { type: 'grammar', id: 'grammar_b2_2', labelKey: 'paths.b2_s2_a3', target: { page: 'grammar', level: 'B2' } },
+          { type: 'writing', id: 'write_b2_1', labelKey: 'paths.b2_s2_a4', target: { page: 'writing' } },
+          { type: 'reading', id: 'read_b2_1', labelKey: 'paths.b2_s2_a5', target: { page: 'reading', level: 'B2' } },
+        ] },
+      { id: 'b2_3', nameKey: 'paths.b2_stage3', icon: '📈', activities: [
+          { type: 'lesson', id: 'lesson_b2_5', labelKey: 'paths.b2_s3_a1', target: { page: 'lessons', lesson: 38 } },
+          { type: 'vocab', id: 'vocab_b2_3', labelKey: 'paths.b2_s3_a2', target: { page: 'vocabulary', level: 'B2' } },
+          { type: 'grammar', id: 'grammar_b2_3', labelKey: 'paths.b2_s3_a3', target: { page: 'grammar', level: 'B2' } },
+          { type: 'flashcard', id: 'flash_b2_1', labelKey: 'paths.b2_s3_a4', target: { page: 'flashcards' } },
+          { type: 'quiz', id: 'quiz_b2_1', labelKey: 'paths.b2_s3_a5', target: { page: 'quiz', level: 'B2' } },
+        ] },
+      { id: 'b2_4', nameKey: 'paths.b2_stage4', icon: '🏆', activities: [
+          { type: 'lesson', id: 'lesson_b2_final', labelKey: 'paths.b2_s4_a1', target: { page: 'lessons', lesson: 39 } },
+          { type: 'quiz', id: 'quiz_b2_final', labelKey: 'paths.b2_s4_a2', target: { page: 'quiz', level: 'B2' } },
+          { type: 'reading', id: 'read_b2_2', labelKey: 'paths.b2_s4_a3', target: { page: 'reading', level: 'B2' } },
+        ] },
     ]
   },
   {
-    id: 'c1',
-    level: 'C1',
-    name: 'Oberstufe I',
-    subtitle: 'Avanzato',
-    color: '#ef4444',
+    id: 'c1', level: 'C1', name: 'Oberstufe I', subtitleKey: 'paths.c1_subtitle', color: '#ef4444',
     stages: [
-      {
-        id: 'c1_1',
-        name: 'Letteratura',
-        icon: '📚',
-        activities: [
-          { type: 'lesson', id: 'lesson_c1_1', label: 'Lezione 1: Goethe', target: { page: 'lessons', lesson: 45 } },
-          { type: 'lesson', id: 'lesson_c1_2', label: 'Lezione 2: Schiller', target: { page: 'lessons', lesson: 46 } },
-          { type: 'vocab', id: 'vocab_c1_1', label: 'Vocabolario: Letterario', target: { page: 'vocabulary', level: 'C1' } },
-          { type: 'grammar', id: 'grammar_c1_1', label: 'Grammatica: Stil Avanzato', target: { page: 'grammar', level: 'C1' } },
-          { type: 'reading', id: 'read_c1_1', label: 'Analisi Testuale', target: { page: 'reading', level: 'C1' } },
-        ]
-      },
-      {
-        id: 'c1_2',
-        name: 'Scienza',
-        icon: '🔬',
-        activities: [
-          { type: 'lesson', id: 'lesson_c1_3', label: 'Lezione 3-4: Ricerca', target: { page: 'lessons', lesson: 47 } },
-          { type: 'vocab', id: 'vocab_c1_2', label: 'Vocabolario: Scientifico', target: { page: 'vocabulary', level: 'C1' } },
-          { type: 'grammar', id: 'grammar_c1_2', label: 'Grammatica: Discorso Accademico', target: { page: 'grammar', level: 'C1' } },
-          { type: 'writing', id: 'write_c1_1', label: 'Articolo Accademico', target: { page: 'writing' } },
-          { type: 'listening', id: 'listen_c1_1', label: 'Conferenze Scientifiche', target: { page: 'listening' } },
-        ]
-      },
-      {
-        id: 'c1_3',
-        name: 'Filosofia',
-        icon: '🧠',
-        activities: [
-          { type: 'lesson', id: 'lesson_c1_5', label: 'Lezione 5-6: Kant', target: { page: 'lessons', lesson: 48 } },
-          { type: 'vocab', id: 'vocab_c1_3', label: 'Vocabolario: Filosofico', target: { page: 'vocabulary', level: 'C1' } },
-          { type: 'grammar', id: 'grammar_c1_3', label: 'Grammatica: Argomentazione', target: { page: 'grammar', level: 'C1' } },
-          { type: 'flashcard', id: 'flash_c1_1', label: 'Flashcards C1', target: { page: 'flashcards' } },
-          { type: 'quiz', id: 'quiz_c1_1', label: 'Quiz C1', target: { page: 'quiz', level: 'C1' } },
-        ]
-      },
-      {
-        id: 'c1_4',
-        name: 'Checkpoint C1',
-        icon: '🏆',
-        activities: [
-          { type: 'lesson', id: 'lesson_c1_final', label: 'Lezioni 7-14', target: { page: 'lessons', lesson: 49 } },
-          { type: 'quiz', id: 'quiz_c1_final', label: 'Test Finale C1', target: { page: 'quiz', level: 'C1' } },
-          { type: 'reading', id: 'read_c1_2', label: 'Comprensione C1', target: { page: 'reading', level: 'C1' } },
-        ]
-      },
+      { id: 'c1_1', nameKey: 'paths.c1_stage1', icon: '📚', activities: [
+          { type: 'lesson', id: 'lesson_c1_1', labelKey: 'paths.c1_s1_a1', target: { page: 'lessons', lesson: 45 } },
+          { type: 'lesson', id: 'lesson_c1_2', labelKey: 'paths.c1_s1_a2', target: { page: 'lessons', lesson: 46 } },
+          { type: 'vocab', id: 'vocab_c1_1', labelKey: 'paths.c1_s1_a3', target: { page: 'vocabulary', level: 'C1' } },
+          { type: 'grammar', id: 'grammar_c1_1', labelKey: 'paths.c1_s1_a4', target: { page: 'grammar', level: 'C1' } },
+          { type: 'reading', id: 'read_c1_1', labelKey: 'paths.c1_s1_a5', target: { page: 'reading', level: 'C1' } },
+        ] },
+      { id: 'c1_2', nameKey: 'paths.c1_stage2', icon: '🔬', activities: [
+          { type: 'lesson', id: 'lesson_c1_3', labelKey: 'paths.c1_s2_a1', target: { page: 'lessons', lesson: 47 } },
+          { type: 'vocab', id: 'vocab_c1_2', labelKey: 'paths.c1_s2_a2', target: { page: 'vocabulary', level: 'C1' } },
+          { type: 'grammar', id: 'grammar_c1_2', labelKey: 'paths.c1_s2_a3', target: { page: 'grammar', level: 'C1' } },
+          { type: 'writing', id: 'write_c1_1', labelKey: 'paths.c1_s2_a4', target: { page: 'writing' } },
+          { type: 'listening', id: 'listen_c1_1', labelKey: 'paths.c1_s2_a5', target: { page: 'listening' } },
+        ] },
+      { id: 'c1_3', nameKey: 'paths.c1_stage3', icon: '🧠', activities: [
+          { type: 'lesson', id: 'lesson_c1_5', labelKey: 'paths.c1_s3_a1', target: { page: 'lessons', lesson: 48 } },
+          { type: 'vocab', id: 'vocab_c1_3', labelKey: 'paths.c1_s3_a2', target: { page: 'vocabulary', level: 'C1' } },
+          { type: 'grammar', id: 'grammar_c1_3', labelKey: 'paths.c1_s3_a3', target: { page: 'grammar', level: 'C1' } },
+          { type: 'flashcard', id: 'flash_c1_1', labelKey: 'paths.c1_s3_a4', target: { page: 'flashcards' } },
+          { type: 'quiz', id: 'quiz_c1_1', labelKey: 'paths.c1_s3_a5', target: { page: 'quiz', level: 'C1' } },
+        ] },
+      { id: 'c1_4', nameKey: 'paths.c1_stage4', icon: '🏆', activities: [
+          { type: 'lesson', id: 'lesson_c1_final', labelKey: 'paths.c1_s4_a1', target: { page: 'lessons', lesson: 49 } },
+          { type: 'quiz', id: 'quiz_c1_final', labelKey: 'paths.c1_s4_a2', target: { page: 'quiz', level: 'C1' } },
+          { type: 'reading', id: 'read_c1_2', labelKey: 'paths.c1_s4_a3', target: { page: 'reading', level: 'C1' } },
+        ] },
     ]
   },
   {
-    id: 'c2',
-    level: 'C2',
-    name: 'Oberstufe II',
-    subtitle: 'Padronanza',
-    color: '#ec4899',
+    id: 'c2', level: 'C2', name: 'Oberstufe II', subtitleKey: 'paths.c2_subtitle', color: '#ec4899',
     stages: [
-      {
-        id: 'c2_1',
-        name: 'Linguistica',
-        icon: '🗣️',
-        activities: [
-          { type: 'lesson', id: 'lesson_c2_1', label: 'Lezione 1: Semantica', target: { page: 'lessons', lesson: 55 } },
-          { type: 'lesson', id: 'lesson_c2_2', label: 'Lezione 2: Pragmatica', target: { page: 'lessons', lesson: 56 } },
-          { type: 'vocab', id: 'vocab_c2_1', label: 'Vocabolario: Linguistica', target: { page: 'vocabulary', level: 'C2' } },
-          { type: 'grammar', id: 'grammar_c2_1', label: 'Grammatica: Uso Idiomatico', target: { page: 'grammar', level: 'C2' } },
-          { type: 'reading', id: 'read_c2_1', label: 'Testi Specialistici', target: { page: 'reading', level: 'C2' } },
-        ]
-      },
-      {
-        id: 'c2_2',
-        name: 'Cultura Avanzata',
-        icon: '🎭',
-        activities: [
-          { type: 'lesson', id: 'lesson_c2_3', label: 'Lezione 3-4: Arte', target: { page: 'lessons', lesson: 57 } },
-          { type: 'vocab', id: 'vocab_c2_2', label: 'Vocabolario: Culturale', target: { page: 'vocabulary', level: 'C2' } },
-          { type: 'grammar', id: 'grammar_c2_2', label: 'Grammatica: Varianti Stilistiche', target: { page: 'grammar', level: 'C2' } },
-          { type: 'writing', id: 'write_c2_1', label: 'Critica Letteraria', target: { page: 'writing' } },
-          { type: 'listening', id: 'listen_c2_1', label: 'Seminari Universitari', target: { page: 'listening' } },
-        ]
-      },
-      {
-        id: 'c2_3',
-        name: 'Maestria',
-        icon: '👑',
-        activities: [
-          { type: 'lesson', id: 'lesson_c2_5', label: 'Lezione 5-6: Mastery', target: { page: 'lessons', lesson: 58 } },
-          { type: 'vocab', id: 'vocab_c2_3', label: 'Vocabolario: Specialistico', target: { page: 'vocabulary', level: 'C2' } },
-          { type: 'grammar', id: 'grammar_c2_3', label: 'Grammatica: Eccellenza', target: { page: 'grammar', level: 'C2' } },
-          { type: 'flashcard', id: 'flash_c2_1', label: 'Flashcards C2', target: { page: 'flashcards' } },
-          { type: 'quiz', id: 'quiz_c2_1', label: 'Quiz C2', target: { page: 'quiz', level: 'C2' } },
-        ]
-      },
-      {
-        id: 'c2_4',
-        name: 'Checkpoint C2',
-        icon: '👑',
-        activities: [
-          { type: 'lesson', id: 'lesson_c2_final', label: 'Lezioni 7-14', target: { page: 'lessons', lesson: 59 } },
-          { type: 'quiz', id: 'quiz_c2_final', label: 'Test Finale C2', target: { page: 'quiz', level: 'C2' } },
-          { type: 'reading', id: 'read_c2_2', label: 'Comprensione C2', target: { page: 'reading', level: 'C2' } },
-        ]
-      },
+      { id: 'c2_1', nameKey: 'paths.c2_stage1', icon: '🗣️', activities: [
+          { type: 'lesson', id: 'lesson_c2_1', labelKey: 'paths.c2_s1_a1', target: { page: 'lessons', lesson: 55 } },
+          { type: 'lesson', id: 'lesson_c2_2', labelKey: 'paths.c2_s1_a2', target: { page: 'lessons', lesson: 56 } },
+          { type: 'vocab', id: 'vocab_c2_1', labelKey: 'paths.c2_s1_a3', target: { page: 'vocabulary', level: 'C2' } },
+          { type: 'grammar', id: 'grammar_c2_1', labelKey: 'paths.c2_s1_a4', target: { page: 'grammar', level: 'C2' } },
+          { type: 'reading', id: 'read_c2_1', labelKey: 'paths.c2_s1_a5', target: { page: 'reading', level: 'C2' } },
+        ] },
+      { id: 'c2_2', nameKey: 'paths.c2_stage2', icon: '🎭', activities: [
+          { type: 'lesson', id: 'lesson_c2_3', labelKey: 'paths.c2_s2_a1', target: { page: 'lessons', lesson: 57 } },
+          { type: 'vocab', id: 'vocab_c2_2', labelKey: 'paths.c2_s2_a2', target: { page: 'vocabulary', level: 'C2' } },
+          { type: 'grammar', id: 'grammar_c2_2', labelKey: 'paths.c2_s2_a3', target: { page: 'grammar', level: 'C2' } },
+          { type: 'writing', id: 'write_c2_1', labelKey: 'paths.c2_s2_a4', target: { page: 'writing' } },
+          { type: 'listening', id: 'listen_c2_1', labelKey: 'paths.c2_s2_a5', target: { page: 'listening' } },
+        ] },
+      { id: 'c2_3', nameKey: 'paths.c2_stage3', icon: '👑', activities: [
+          { type: 'lesson', id: 'lesson_c2_5', labelKey: 'paths.c2_s3_a1', target: { page: 'lessons', lesson: 58 } },
+          { type: 'vocab', id: 'vocab_c2_3', labelKey: 'paths.c2_s3_a2', target: { page: 'vocabulary', level: 'C2' } },
+          { type: 'grammar', id: 'grammar_c2_3', labelKey: 'paths.c2_s3_a3', target: { page: 'grammar', level: 'C2' } },
+          { type: 'flashcard', id: 'flash_c2_1', labelKey: 'paths.c2_s3_a4', target: { page: 'flashcards' } },
+          { type: 'quiz', id: 'quiz_c2_1', labelKey: 'paths.c2_s3_a5', target: { page: 'quiz', level: 'C2' } },
+        ] },
+      { id: 'c2_4', nameKey: 'paths.c2_stage4', icon: '👑', activities: [
+          { type: 'lesson', id: 'lesson_c2_final', labelKey: 'paths.c2_s4_a1', target: { page: 'lessons', lesson: 59 } },
+          { type: 'quiz', id: 'quiz_c2_final', labelKey: 'paths.c2_s4_a2', target: { page: 'quiz', level: 'C2' } },
+          { type: 'reading', id: 'read_c2_2', labelKey: 'paths.c2_s4_a3', target: { page: 'reading', level: 'C2' } },
+        ] },
     ]
   },
 ];
@@ -514,7 +370,7 @@ const PathsPage = ({ onNavigate }) => {
                 color: '#8888a0',
                 fontSize: '14px',
               }}>
-                {currentPathData.subtitle}
+                {t(currentPathData.subtitleKey)}
               </p>
 
               {/* Progress Bar */}
@@ -621,7 +477,7 @@ const PathsPage = ({ onNavigate }) => {
                             fontSize: '16px',
                             fontWeight: '600',
                           }}>
-                            {stage.name}
+                            {t(stage.nameKey)}
                           </h3>
                           <span style={{
                             fontSize: '12px',
@@ -711,7 +567,7 @@ const PathsPage = ({ onNavigate }) => {
                                 textDecoration: isCompleted ? 'line-through' : 'none',
                                 opacity: isCompleted ? 0.6 : 1,
                               }}>
-                                {activity.label}
+                                {t(activity.labelKey)}
                               </span>
 
                               {/* Completion Check */}

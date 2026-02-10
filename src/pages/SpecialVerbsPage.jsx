@@ -226,6 +226,7 @@ const IRREGULAR_VERBEN = [
 
 // Modal Card Component
 function ModalCard({ modal, onToggleFavorite, saved }) {
+  const { t } = useLanguage();
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -420,7 +421,7 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
                         gap: '4px'
                       }}
                     >
-                      <Icons.Volume /> Ascolta
+                      <Icons.Volume /> {t('specialVerbs.listen')}
                     </button>
                   </div>
                 ))}
@@ -435,6 +436,7 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
 
 // Reflexive Verb Card Component
 function ReflexiveCard({ verb, onToggleFavorite, saved }) {
+  const { t } = useLanguage();
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -525,7 +527,7 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
               marginBottom: '8px',
               textTransform: 'uppercase'
             }}>
-              Tipo: {verb.type}
+              {t('specialVerbs.type')}: {verb.type}
             </div>
             <div style={{
               fontSize: '12px',
@@ -535,7 +537,7 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
               borderRadius: '4px',
               border: '1px solid var(--border)'
             }}>
-              Pronomi riflessivi: mi, dich, sich, uns, euch, sich
+              {t('specialVerbs.reflexivePronouns')}: mich, dich, sich, uns, euch, sich
             </div>
           </div>
 
@@ -620,7 +622,7 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
                         gap: '4px'
                       }}
                     >
-                      <Icons.Volume /> Ascolta
+                      <Icons.Volume /> {t('specialVerbs.listen')}
                     </button>
                   </div>
                 ))}
@@ -801,7 +803,7 @@ export default function SpecialVerbsPage({ onNavigate }) {
                     justifyContent: 'center'
                   }}
                 >
-                  <Icons.Volume /> Ascolta
+                  <Icons.Volume /> {t('specialVerbs.listen')}
                 </button>
               </div>
             ))}
@@ -829,7 +831,7 @@ export default function SpecialVerbsPage({ onNavigate }) {
                       color: 'var(--accent)',
                       fontWeight: 700,
                       background: 'rgba(99, 102, 241, 0.05)'
-                    }}>Infinitivo</th>
+                    }}>{t('specialVerbs.infinitive')}</th>
                     <th style={{
                       padding: '12px',
                       textAlign: 'left',
@@ -850,7 +852,7 @@ export default function SpecialVerbsPage({ onNavigate }) {
                       color: 'var(--accent)',
                       fontWeight: 700,
                       background: 'rgba(99, 102, 241, 0.05)'
-                    }}>Italiano</th>
+                    }}>{t('specialVerbs.translationCol')}</th>
                   </tr>
                 </thead>
                 <tbody>
