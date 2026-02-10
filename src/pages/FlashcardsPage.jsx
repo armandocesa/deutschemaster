@@ -11,6 +11,7 @@ import {
 import { addXP, recordActivity } from '../utils/gamification';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import LevelAccessModal from '../components/LevelAccessModal';
+import { useLanguage } from '../contexts/LanguageContext';
 
 // Helper to get review words - words marked as incorrect in practice
 function getReviewWords() {
@@ -42,6 +43,7 @@ function addToReview(wordId, german, italian) {
 export default function FlashcardsPage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
   const { canAccessLevel } = useLevelAccess();
+  const { t } = useLanguage();
 
   // States
   const [mode, setMode] = useState('setup'); // 'setup' | 'playing' | 'finished'
@@ -205,13 +207,13 @@ export default function FlashcardsPage({ onNavigate }) {
     return (
       <div style={{ minHeight: '100vh', background: 'var(--bg-primary)', paddingBottom: '100px' }}>
         <div style={{ padding: '20px', marginBottom: '20px' }}>
-          <h1 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-primary)', margin: '20px 0 5px 0' }}>Flashcards</h1>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '14px', margin: '0' }}>Ripassa il vocabolario con le carte</p>
+          <h1 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-primary)', margin: '20px 0 5px 0' }}>{t('flashcards.title')}</h1>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '14px', margin: '0' }}>{t('flashcards.subtitle')}</p>
         </div>
 
         {/* Source Selection */}
         <div style={{ padding: '0 20px', marginBottom: '30px' }}>
-          <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>Scegli la fonte</p>
+          <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>{t('flashcards.chooseSource')}</p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             {/* Per Livello */}
@@ -227,8 +229,8 @@ export default function FlashcardsPage({ onNavigate }) {
                 color: source === 'level' ? 'white' : 'var(--text-primary)',
               }}
             >
-              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>Per Livello</p>
-              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>Scegli un livello A1-C2</p>
+              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>{t('flashcards.byLevel')}</p>
+              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{t('flashcards.byLevelDescription')}</p>
             </div>
 
             {/* Ripasso Programmato */}
@@ -246,8 +248,8 @@ export default function FlashcardsPage({ onNavigate }) {
                 pointerEvents: reviewWordsCount === 0 ? 'none' : 'auto',
               }}
             >
-              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>Ripasso Programmato</p>
-              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{reviewWordsCount} parole in attesa</p>
+              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>{t('flashcards.scheduledReview')}</p>
+              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{reviewWordsCount} {t('flashcards.reviewWaiting')}</p>
             </div>
 
             {/* Parole Difficili */}
@@ -265,8 +267,8 @@ export default function FlashcardsPage({ onNavigate }) {
                 pointerEvents: difficultWordsCount === 0 ? 'none' : 'auto',
               }}
             >
-              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>Parole Difficili</p>
-              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{difficultWordsCount} parole salvate</p>
+              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>{t('flashcards.difficultWords')}</p>
+              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{difficultWordsCount} {t('flashcards.wordsSaved')}</p>
             </div>
           </div>
         </div>
@@ -274,7 +276,7 @@ export default function FlashcardsPage({ onNavigate }) {
         {/* Level Selector (if 'Per Livello' is selected) */}
         {source === 'level' && (
           <div style={{ padding: '0 20px', marginBottom: '30px' }}>
-            <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>Livello</p>
+            <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>{t('flashcards.level')}</p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px' }}>
               {['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(level => {
                 const colors = LEVEL_COLORS[level];
@@ -307,7 +309,7 @@ export default function FlashcardsPage({ onNavigate }) {
 
         {/* Cards Per Session */}
         <div style={{ padding: '0 20px', marginBottom: '30px' }}>
-          <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>Numero di carte</p>
+          <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>{t('flashcards.cardCount')}</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '8px' }}>
             {[10, 20, 30, 50].map(num => (
               <button
@@ -349,7 +351,7 @@ export default function FlashcardsPage({ onNavigate }) {
             onMouseDown={(e) => e.target.style.transform = 'scale(0.98)'}
             onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
           >
-            Inizia
+            {t('flashcards.start')}
           </button>
         </div>
 
@@ -398,7 +400,7 @@ export default function FlashcardsPage({ onNavigate }) {
               }} />
             </div>
             <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '0', textAlign: 'right' }}>
-              Carta {currentIndex + 1} di {cards.length}
+              {t('flashcards.card')} {currentIndex + 1} {t('flashcards.of')} {cards.length}
             </p>
           </div>
         </div>
@@ -513,7 +515,7 @@ export default function FlashcardsPage({ onNavigate }) {
                   textAlign: 'center',
                   opacity: 0.7,
                 }}>
-                  Tocca per girare
+                  {t('flashcards.tap')}
                 </p>
               </div>
 
@@ -569,7 +571,7 @@ export default function FlashcardsPage({ onNavigate }) {
                   paddingTop: '20px',
                   textAlign: 'center',
                 }}>
-                  Tocca per girare
+                  {t('flashcards.tap')}
                 </p>
               </div>
             </div>
@@ -601,7 +603,7 @@ export default function FlashcardsPage({ onNavigate }) {
               onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
             >
               <Icons.X />
-              Non lo so
+              {t('flashcards.iDontKnow')}
             </button>
 
             <button
@@ -626,7 +628,7 @@ export default function FlashcardsPage({ onNavigate }) {
               onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
             >
               <Icons.Check />
-              Lo so
+              {t('flashcards.iKnow')}
             </button>
           </div>
         )}
@@ -647,7 +649,7 @@ export default function FlashcardsPage({ onNavigate }) {
       <div style={{ minHeight: '100vh', background: 'var(--bg-primary)', padding: '20px', paddingBottom: '100px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
         {/* Score Section */}
         <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <h1 style={{ fontSize: '28px', fontWeight: 800, color: 'var(--text-primary)', margin: '0 0 20px 0' }}>Sessione Completata!</h1>
+          <h1 style={{ fontSize: '28px', fontWeight: 800, color: 'var(--text-primary)', margin: '0 0 20px 0' }}>{t('flashcards.sessionCompleted')}</h1>
 
           {/* Percentage Circle */}
           <div style={{
@@ -680,14 +682,14 @@ export default function FlashcardsPage({ onNavigate }) {
             borderRadius: '12px',
             marginBottom: '20px',
           }}>
-            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', margin: '0 0 12px 0' }}>Risultati</p>
+            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', margin: '0 0 12px 0' }}>{t('flashcards.results')}</p>
             <div style={{ display: 'flex', gap: '20px', justifyContent: 'center' }}>
               <div>
                 <p style={{ fontSize: '24px', fontWeight: 800, color: '#10b981', margin: '0' }}>
                   {sessionStats.correct}
                 </p>
                 <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>
-                  Corrette
+                  {t('flashcards.correct')}
                 </p>
               </div>
               <div style={{ width: '1px', background: 'var(--bg-primary)' }} />
@@ -696,7 +698,7 @@ export default function FlashcardsPage({ onNavigate }) {
                   {sessionStats.incorrect}
                 </p>
                 <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>
-                  Scorrette
+                  {t('flashcards.incorrect')}
                 </p>
               </div>
               <div style={{ width: '1px', background: 'var(--bg-primary)' }} />
@@ -705,7 +707,7 @@ export default function FlashcardsPage({ onNavigate }) {
                   {sessionStats.total}
                 </p>
                 <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>
-                  Totale
+                  {t('flashcards.total')}
                 </p>
               </div>
             </div>
@@ -719,7 +721,7 @@ export default function FlashcardsPage({ onNavigate }) {
             borderRadius: '12px',
             marginBottom: '30px',
           }}>
-            <p style={{ fontSize: '12px', opacity: 0.9, margin: '0 0 4px 0' }}>XP Guadagnati</p>
+            <p style={{ fontSize: '12px', opacity: 0.9, margin: '0 0 4px 0' }}>{t('flashcards.xpEarned')}</p>
             <p style={{ fontSize: '32px', fontWeight: 800, margin: '0' }}>+{xpEarned}</p>
           </div>
         </div>
@@ -742,7 +744,7 @@ export default function FlashcardsPage({ onNavigate }) {
             onMouseDown={(e) => e.target.style.transform = 'scale(0.96)'}
             onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
           >
-            Riprova
+            {t('flashcards.retry')}
           </button>
 
           <button
@@ -761,7 +763,7 @@ export default function FlashcardsPage({ onNavigate }) {
             onMouseDown={(e) => e.target.style.transform = 'scale(0.96)'}
             onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
           >
-            Nuova Sessione
+            {t('flashcards.newSession')}
           </button>
         </div>
       </div>

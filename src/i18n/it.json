@@ -337,7 +337,8 @@
     "exercises": "ESERCIZI",
     "showAnswer": "Mostra",
     "hideAnswer": "Nascondi",
-    "answer": "risposta"
+    "answer": "risposta",
+    "review": "Revisione"
   },
   "stories": {
     "title": "Storie Interattive",
@@ -569,6 +570,24 @@
     "examples": "Esempi",
     "noVerbs": "Nessun verbo",
     "noPrefixes": "Nessun prefisso trovato"
+  },
+  "practice": {
+    "title": "Pratica Vocabolario",
+    "subtitle": "Clicca su una parola per vedere la traduzione",
+    "search": "Cerca parola...",
+    "hideAll": "Nascondi tutto",
+    "showAll": "Mostra tutto",
+    "words": "parole",
+    "revealed": "rivelate"
+  },
+  "verbs": {
+    "title": "Coniugazioni Verbali",
+    "subtitle": "verbi con tutte le coniugazioni",
+    "search": "Cerca verbo...",
+    "noResults": "Nessun verbo trovato",
+    "listen": "Ascolta",
+    "auxiliary": "Ausiliare",
+    "irregular": "Verbo irregolare"
   },
   "common": {
     "loading": "Caricamento...",

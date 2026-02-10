@@ -2,11 +2,13 @@ import React, { useState, useMemo } from 'react';
 import Icons from '../components/Icons';
 import { LEVEL_COLORS } from '../utils/constants';
 import { useData } from '../DataContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import { speak } from '../utils/speech';
 import { getWordStatus } from '../utils/storage';
 
 export default function PracticePage({ onNavigate }) {
   const { VOCABULARY_DATA } = useData();
+  const { t } = useLanguage();
   const [mode, setMode] = useState('de-it');
   const [searchTerm, setSearchTerm] = useState('');
   const [revealedWords, setRevealedWords] = useState({});
@@ -51,17 +53,17 @@ export default function PracticePage({ onNavigate }) {
 
   return (
     <div className="practice-page">
-      <h1 className="page-title">Pratica Vocabolario</h1>
-      <p className="page-subtitle">Clicca su una parola per vedere la traduzione</p>
+      <h1 className="page-title">{t('practice.title')}</h1>
+      <p className="page-subtitle">{t('practice.subtitle')}</p>
       <div className="practice-toolbar">
-        <div className="search-box"><Icons.Search /><input type="text" placeholder="Cerca parola..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
+        <div className="search-box"><Icons.Search /><input type="text" placeholder={t('practice.search')} value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
         <div className="mode-toggle">
           <button className={mode==='de-it'?'active':''} onClick={() => {setMode('de-it');setRevealedWords({});setShowAll(false);}}>{'\u{1F1E9}\u{1F1EA}'} {'\u2192'} {'\u{1F1EE}\u{1F1F9}'}</button>
           <button className={mode==='it-de'?'active':''} onClick={() => {setMode('it-de');setRevealedWords({});setShowAll(false);}}>{'\u{1F1EE}\u{1F1F9}'} {'\u2192'} {'\u{1F1E9}\u{1F1EA}'}</button>
         </div>
-        <button className="show-all-btn" onClick={toggleShowAll}>{showAll ? <><Icons.EyeOff /> Nascondi tutto</> : <><Icons.Eye /> Mostra tutto</>}</button>
+        <button className="show-all-btn" onClick={toggleShowAll}>{showAll ? <><Icons.EyeOff /> {t('practice.hideAll')}</> : <><Icons.Eye /> {t('practice.showAll')}</>}</button>
       </div>
-      <div className="practice-stats"><span>{sortedWords.length.toLocaleString()} parole</span><span>{'\u2022'}</span><span>{Object.keys(revealedWords).filter(k => revealedWords[k]).length} rivelate</span></div>
+      <div className="practice-stats"><span>{sortedWords.length.toLocaleString()} {t('practice.words')}</span><span>{'\u2022'}</span><span>{Object.keys(revealedWords).filter(k => revealedWords[k]).length} {t('practice.revealed')}</span></div>
       <div className="practice-list">
         {sortedWords.map((word, index) => {
           const mainWord = mode === 'de-it' ? word.german : word.italian;

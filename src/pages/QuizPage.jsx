@@ -7,10 +7,12 @@ import { addXP, recordActivity, addToReview } from '../utils/gamification';
 import { saveAndSync } from '../utils/cloudSync';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import LevelAccessModal from '../components/LevelAccessModal';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function QuizPage({ level, onNavigate }) {
   const { VOCABULARY_DATA, GRAMMAR_DATA } = useData();
   const { canAccessLevel } = useLevelAccess();
+  const { t } = useLanguage();
   const [quizState, setQuizState] = useState('setup');
   const [quizType, setQuizType] = useState('vocabulary');
   const [quizLevel, setQuizLevel] = useState(level || 'A1');
@@ -71,7 +73,7 @@ export default function QuizPage({ level, onNavigate }) {
     } else {
       const levelData = GRAMMAR_DATA.levels?.[lvl];
       const allEx = [];
-      levelData?.topics?.forEach(t => { t.exercises?.forEach((ex, i) => allEx.push({...ex, id: `${t.id}_${i}`, topicId: t.id})); });
+      levelData?.topics?.forEach(topic => { topic.exercises?.forEach((ex, i) => allEx.push({...ex, id: `${topic.id}_${i}`, topicId: topic.id})); });
       let available = allEx.filter(ex => !usedIds.includes(ex.id));
       if (available.length < count) { usedIds = []; available = allEx; }
       const selected = fisherYatesShuffle(available).slice(0, count);
@@ -117,16 +119,16 @@ export default function QuizPage({ level, onNavigate }) {
   if (quizState === 'setup') {
     return (
       <div className="quiz-page">
-        <h1 className="page-title">Quiz</h1>
-        <p className="page-subtitle">Metti alla prova le tue conoscenze</p>
+        <h1 className="page-title">{t('quiz.title')}</h1>
+        <p className="page-subtitle">{t('quiz.subtitle')}</p>
         <div className="quiz-setup">
-          <div className="setup-section"><h3>Tipo di quiz</h3>
+          <div className="setup-section"><h3>{t('quiz.quizType')}</h3>
             <div className="setup-options">
-              <button className={`setup-option ${quizType==='vocabulary'?'active':''}`} onClick={() => setQuizType('vocabulary')}><Icons.Book />Vocabolario</button>
-              <button className={`setup-option ${quizType==='grammar'?'active':''}`} onClick={() => setQuizType('grammar')}><Icons.Grammar />Grammatica</button>
+              <button className={`setup-option ${quizType==='vocabulary'?'active':''}`} onClick={() => setQuizType('vocabulary')}><Icons.Book />{t('quiz.vocabulary')}</button>
+              <button className={`setup-option ${quizType==='grammar'?'active':''}`} onClick={() => setQuizType('grammar')}><Icons.Grammar />{t('quiz.grammar')}</button>
             </div>
           </div>
-          <div className="setup-section"><h3>Livello</h3>
+          <div className="setup-section"><h3>{t('quiz.level')}</h3>
             <div className="setup-options levels">
               {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
                 const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
@@ -145,7 +147,7 @@ export default function QuizPage({ level, onNavigate }) {
               })}
             </div>
           </div>
-          <button className="start-quiz-btn" onClick={startQuiz}>Inizia Quiz</button>
+          <button className="start-quiz-btn" onClick={startQuiz}>{t('quiz.start')}</button>
         </div>
 
         <LevelAccessModal
@@ -165,12 +167,12 @@ export default function QuizPage({ level, onNavigate }) {
       <div className="quiz-page">
         <div className="quiz-finished">
           <div className="score-circle"><span className="score-value">{percentage}%</span></div>
-          <h2>Quiz completato!</h2>
-          <p className="score-text">{score} risposte corrette su {questions.length}</p>
+          <h2>{t('quiz.completed')}</h2>
+          <p className="score-text">{score} {t('quiz.correct')} {questions.length}</p>
           <p style={{color:'var(--accent)',fontWeight:700,fontSize:'16px',margin:'8px 0'}}>+{quizXP} XP</p>
           <div className="quiz-actions">
-            <button className="retry-btn" onClick={startQuiz}>Riprova</button>
-            <button className="back-btn" onClick={() => setQuizState('setup')}>Nuovo quiz</button>
+            <button className="retry-btn" onClick={startQuiz}>{t('quiz.retry')}</button>
+            <button className="back-btn" onClick={() => setQuizState('setup')}>{t('quiz.newQuiz')}</button>
           </div>
         </div>
       </div>
@@ -185,8 +187,8 @@ export default function QuizPage({ level, onNavigate }) {
   return (
     <div className="quiz-page">
       <div className="quiz-header">
-        {currentQuestion > 0 && <button className="quiz-nav-btn" onClick={prevQuestion}><Icons.Back /> Indietro</button>}
-        <span className="question-number">Domanda {currentQuestion + 1} di {questions.length}</span>
+        {currentQuestion > 0 && <button className="quiz-nav-btn" onClick={prevQuestion}><Icons.Back /> {t('quiz.back')}</button>}
+        <span className="question-number">{t('quiz.question')} {currentQuestion + 1} {t('quiz.of')} {questions.length}</span>
         <button className={`save-question-btn ${isReviewQuestion(current?.question)?'saved':''}`} onClick={toggleSaveQuestion}>{isReviewQuestion(current?.question) ? <Icons.StarFilled /> : <Icons.Star />}</button>
       </div>
       <div className="quiz-progress"><div className="progress-bar"><div className="progress-fill" style={{width: `${((currentQuestion+1)/questions.length)*100}%`}} /></div></div>
@@ -196,14 +198,14 @@ export default function QuizPage({ level, onNavigate }) {
           <div className="open-answer">
             {!hasAnswered ? (
               <>
-                <input type="text" className="quiz-input" placeholder="La tua risposta..." onKeyDown={(e) => { if(e.key==='Enter'&&e.target.value)handleAnswer(e.target.value); }} />
-                <button className="submit-answer-btn" onClick={() => { const input=document.querySelector('.open-answer .quiz-input'); if(input&&input.value)handleAnswer(input.value); }}>Verifica</button>
+                <input type="text" className="quiz-input" placeholder={t('quiz.yourAnswer')} onKeyDown={(e) => { if(e.key==='Enter'&&e.target.value)handleAnswer(e.target.value); }} />
+                <button className="submit-answer-btn" onClick={() => { const input=document.querySelector('.open-answer .quiz-input'); if(input&&input.value)handleAnswer(input.value); }}>{t('quiz.verify')}</button>
               </>
             ) : (
               <div className={`quiz-feedback ${isCorrect?'correct':'incorrect'}`}>
                 <div className="result-icon">{isCorrect ? <Icons.Check /> : <Icons.X />}</div>
-                <p className="your-answer">La tua risposta: {selectedAnswer}</p>
-                <p className="correct-answer">Risposta corretta: {current.correctAnswer}</p>
+                <p className="your-answer">{t('quiz.yourAnswer')}: {selectedAnswer}</p>
+                <p className="correct-answer">{t('quiz.correctAnswer')}: {current.correctAnswer}</p>
                 {current.explanation && <p className="explanation">{current.explanation}</p>}
               </div>
             )}
@@ -217,7 +219,7 @@ export default function QuizPage({ level, onNavigate }) {
             ))}
           </div>
         )}
-        {hasAnswered && <button className="next-btn" onClick={nextQuestion}>{currentQuestion < questions.length-1 ? 'Prossima domanda' : 'Vedi risultati'}</button>}
+        {hasAnswered && <button className="next-btn" onClick={nextQuestion}>{currentQuestion < questions.length-1 ? t('quiz.nextQuestion') : t('quiz.seeResults')}</button>}
       </div>
     </div>
   );

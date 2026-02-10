@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useData } from '../DataContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS } from '../utils/constants';
 import { saveAndSync } from '../utils/cloudSync';
 
@@ -351,6 +352,7 @@ const ACTIVITY_ICONS = {
 
 const PathsPage = ({ onNavigate }) => {
   const { user } = useData();
+  const { t } = useLanguage();
   const [selectedPath, setSelectedPath] = useState('a1');
   const [expandedStage, setExpandedStage] = useState(null);
   const [pathProgress, setPathProgress] = useState({});
@@ -432,10 +434,10 @@ const PathsPage = ({ onNavigate }) => {
       }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <h1 style={{ margin: '0 0 20px 0', fontSize: '28px', fontWeight: '700' }}>
-            Percorsi di Apprendimento
+            {t('paths.title')}
           </h1>
           <p style={{ margin: '0', color: '#8888a0', fontSize: '14px' }}>
-            Segui i tuoi progressi attraverso i livelli Goethe-Zertifikat
+            {t('paths.subtitle')}
           </p>
         </div>
       </div>
@@ -756,7 +758,7 @@ const PathsPage = ({ onNavigate }) => {
                         color: '#8888a0',
                         fontSize: '13px',
                       }}>
-                        🔒 Completa il percorso precedente per continuare (minimo 60%)
+                        {t('paths.lock')}
                       </div>
                     )}
                   </div>
@@ -785,13 +787,13 @@ const PathsPage = ({ onNavigate }) => {
                   fontWeight: '600',
                   marginBottom: '4px',
                 }}>
-                  Percorso Completato!
+                  {t('paths.pathCompleted')}
                 </div>
                 <div style={{
                   color: '#8888a0',
                   fontSize: '14px',
                 }}>
-                  Congratulazioni! Hai completato tutti gli esercizi di {currentPathData.name}.
+                  {t('paths.congratulations')} {currentPathData.name}.
                 </div>
               </div>
             )}

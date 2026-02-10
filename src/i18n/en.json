@@ -323,7 +323,8 @@
     "exercises": "EXERCISES",
     "showAnswer": "Show",
     "hideAnswer": "Hide",
-    "answer": "answer"
+    "answer": "answer",
+    "review": "Review"
   },
   "stories": {
     "title": "Interactive Stories",
@@ -558,6 +559,24 @@
     "examples": "Examples",
     "noVerbs": "No verbs",
     "noPrefixes": "No prefixes found"
+  },
+  "practice": {
+    "title": "Vocabulary Practice",
+    "subtitle": "Click a word to see its translation",
+    "search": "Search word...",
+    "hideAll": "Hide all",
+    "showAll": "Show all",
+    "words": "words",
+    "revealed": "revealed"
+  },
+  "verbs": {
+    "title": "Verb Conjugations",
+    "subtitle": "verbs with all conjugations",
+    "search": "Search verb...",
+    "noResults": "No verbs found",
+    "listen": "Listen",
+    "auxiliary": "Auxiliary",
+    "irregular": "Irregular verb"
   },
   "common": {
     "loading": "Loading...",

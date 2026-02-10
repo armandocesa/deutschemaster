@@ -5,6 +5,7 @@ import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import { saveAndSync } from '../utils/cloudSync';
 import { addXP } from '../utils/gamification';
+import { useLanguage } from '../contexts/LanguageContext';
 
 function StoryReader({ story, level, colors, onBack }) {
   const [currentLineIndex, setCurrentLineIndex] = useState(0);
@@ -12,6 +13,7 @@ function StoryReader({ story, level, colors, onBack }) {
   const [answers, setAnswers] = useState({});
   const [showScore, setShowScore] = useState(false);
   const [tooltipWord, setTooltipWord] = useState(null);
+  const { t } = useLanguage();
 
   const currentLine = story.lines[currentLineIndex];
   const questions = story.lines.filter(l => l.type === 'question');
@@ -85,28 +87,28 @@ function StoryReader({ story, level, colors, onBack }) {
           <div className="page-header">
             <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
             <h1 className="page-title">{story.title}</h1>
-            <p className="page-subtitle">Storie - {story.titleIt}</p>
+            <p className="page-subtitle">{t('stories.title')} - {story.titleIt}</p>
           </div>
           <div className="reading-score">
-            <h3>Complimenti! 🎉</h3>
-            <p>Hai completato la storia: <strong>{story.title}</strong></p>
+            <h3>{t('stories.completed')}</h3>
+            <p>{t('stories.completedText')} <strong>{story.title}</strong></p>
             <div style={{marginTop: '20px', padding: '16px', background: 'rgba(108,92,231,0.1)', borderRadius: 'var(--radius)', textAlign: 'center'}}>
               <div style={{fontSize: '32px', fontWeight: '800', color: 'var(--accent)'}}>+20 XP</div>
-              <p style={{color: 'var(--text-secondary)', marginTop: '8px'}}>Hai guadagnato 20 XP!</p>
+              <p style={{color: 'var(--text-secondary)', marginTop: '8px'}}>{t('stories.xpEarned')}</p>
             </div>
             {questions.length > 0 && (
               <div style={{marginTop: '20px', padding: '16px', background: 'rgba(108,92,231,0.05)', borderRadius: 'var(--radius)'}}>
-                <h4>Risultati della comprensione:</h4>
+                <h4>{t('stories.comprehension')}</h4>
                 <p style={{fontSize: '18px', fontWeight: '700', marginTop: '8px'}}>
-                  {correctCount}/{questions.length} domande corrette
+                  {correctCount}/{questions.length} {t('stories.questions')}
                 </p>
                 <p style={{color: 'var(--text-secondary)', marginTop: '8px'}}>
-                  {correctCount === questions.length ? 'Perfetto! Hai capito tutto!' : correctCount >= questions.length / 2 ? 'Buon lavoro!' : 'Prova a rileggere la storia per migliorare!'}
+                  {correctCount === questions.length ? t('stories.perfect') : correctCount >= questions.length / 2 ? t('stories.goodJob') : t('stories.retry')}
                 </p>
               </div>
             )}
             <button onClick={onBack} style={{marginTop: '24px', padding: '12px 24px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
-              Torna alle storie
+              {t('stories.backToStories')}
             </button>
           </div>
         </div>
@@ -128,11 +130,11 @@ function StoryReader({ story, level, colors, onBack }) {
 
         <div style={{display: 'flex', gap: '12px', marginBottom: '20px', fontSize: '12px'}}>
           <div style={{padding: '6px 12px', background: 'rgba(108,92,231,0.1)', borderRadius: 'var(--radius)', color: 'var(--accent)'}}>
-            Riga {currentLineIndex + 1} di {story.lines.length}
+            {t('stories.line')} {currentLineIndex + 1} {t('stories.of')} {story.lines.length}
           </div>
           {questions.length > 0 && (
             <div style={{padding: '6px 12px', background: 'rgba(108,92,231,0.1)', borderRadius: 'var(--radius)', color: 'var(--accent)'}}>
-              Domande: {completedQuestions}/{questions.length}
+              {t('stories.questionsAnswered')} {completedQuestions}/{questions.length}
             </div>
           )}
         </div>
@@ -141,19 +143,19 @@ function StoryReader({ story, level, colors, onBack }) {
           <>
             <div className="reading-toolbar">
               <button className="read-aloud-btn" onClick={readAloud}>
-                <Icons.Volume /> Leggi ad alta voce
+                <Icons.Volume /> {t('stories.readAloud')}
               </button>
             </div>
             <div style={{background: 'rgba(108,92,231,0.05)', padding: '24px', borderRadius: 'var(--radius)', marginBottom: '24px'}}>
               <div style={{fontSize: '14px', lineHeight: '1.8', color: 'var(--text-primary)'}}>
                 <span style={{fontWeight: '600', color: 'var(--accent)', marginRight: '12px'}}>
-                  {currentLine.speaker === 'narrator' ? '📖 Narratore' : `${currentLine.speaker}:`}
+                  {currentLine.speaker === 'narrator' ? t('stories.narrator') : `${currentLine.speaker}:`}
                 </span>
                 <span>{renderTextWithTooltips(currentLine.text)}</span>
               </div>
               {currentLine.translation && (
                 <div style={{fontSize: '12px', color: 'var(--text-secondary)', marginTop: '12px', paddingTop: '12px', borderTop: '1px solid rgba(108,92,231,0.2)'}}>
-                  <strong>Italiano:</strong> {currentLine.translation}
+                  <strong>{t('stories.italian')}:</strong> {currentLine.translation}
                 </div>
               )}
             </div>
@@ -200,14 +202,14 @@ function StoryReader({ story, level, colors, onBack }) {
 
         <div style={{display: 'flex', gap: '12px', justifyContent: 'space-between', marginTop: '24px'}}>
           <button onClick={onBack} style={{padding: '12px 24px', background: 'rgba(108,92,231,0.1)', color: 'var(--accent)', border: '1px solid rgba(108,92,231,0.2)', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
-            Indietro
+            {t('stories.back')}
           </button>
           <button
             onClick={handleNext}
             disabled={isQuestion && answers[currentLineIndex] === undefined}
             style={{padding: '12px 24px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: isQuestion && answers[currentLineIndex] === undefined ? 'not-allowed' : 'pointer', opacity: isQuestion && answers[currentLineIndex] === undefined ? 0.5 : 1}}
           >
-            {currentLineIndex === story.lines.length - 1 ? 'Completa' : 'Avanti'}
+            {currentLineIndex === story.lines.length - 1 ? t('stories.completeStory') : t('stories.nextLine')}
           </button>
         </div>
       </div>
@@ -217,6 +219,7 @@ function StoryReader({ story, level, colors, onBack }) {
 
 export default function StoriesPage({ level, reading, onNavigate }) {
   const { canAccessLevel, requiresAuth } = useLevelAccess();
+  const { t, language } = useLanguage();
   const [internalLevel, setInternalLevel] = useState(level || (() => {
     try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; }
   }));
@@ -232,7 +235,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   useEffect(() => {
     const fetchStories = async () => {
       try {
-        const res = await fetch('/data/stories.json');
+        const res = await fetch(language === 'en' ? '/data/en/stories.json' : '/data/stories.json');
         const data = await res.json();
         setStories(data.levels || {});
         const completed = JSON.parse(localStorage.getItem('dm_completed_stories') || '[]');
@@ -244,7 +247,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
       }
     };
     fetchStories();
-  }, []);
+  }, [language]);
 
   const currentStories = useMemo(() => {
     return stories[activeLevel]?.stories || [];
@@ -260,7 +263,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
     return (
       <div className="reading-page">
         <div className="reading-text-container">
-          <p style={{textAlign: 'center', padding: '40px', color: 'var(--text-secondary)'}}>Caricamento storie...</p>
+          <p style={{textAlign: 'center', padding: '40px', color: 'var(--text-secondary)'}}>{t('stories.loading')}</p>
         </div>
       </div>
     );
@@ -275,14 +278,14 @@ export default function StoriesPage({ level, reading, onNavigate }) {
       <div className="reading-page">
         <div className="reading-text-container">
           <div className="page-header">
-            <h1 className="page-title">Storie</h1>
+            <h1 className="page-title">{t('stories.title')}</h1>
           </div>
           <div style={{textAlign: 'center', padding: '40px', background: 'rgba(239,68,68,0.1)', borderRadius: 'var(--radius)', border: '1px solid rgba(239,68,68,0.3)'}}>
             <span style={{fontSize: '48px', display: 'block', marginBottom: '16px'}}>🔒</span>
-            <h3 style={{marginBottom: '8px'}}>Accesso limitato</h3>
-            <p style={{color: 'var(--text-secondary)', marginBottom: '16px'}}>Il livello {activeLevel} richiede l'autenticazione. Accedi o fai l'upgrade al tuo piano!</p>
+            <h3 style={{marginBottom: '8px'}}>{t('stories.limitedAccess')}</h3>
+            <p style={{color: 'var(--text-secondary)', marginBottom: '16px'}}>{t('stories.limitedMessage')} {activeLevel} {t('stories.requiresAuth')}</p>
             <button onClick={() => onNavigate('login')} style={{padding: '10px 20px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
-              Accedi Ora
+              {t('stories.signIn')}
             </button>
           </div>
         </div>
@@ -293,8 +296,8 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   return (
     <div className="reading-page">
       <div className="page-header">
-        <h1 className="page-title">Storie Interattive</h1>
-        <p className="page-subtitle">{getLevelName(activeLevel)} - {currentStories.length} storie</p>
+        <h1 className="page-title">{t('stories.interactive')}</h1>
+        <p className="page-subtitle">{getLevelName(activeLevel)} - {currentStories.length} {t('stories.stories')}</p>
       </div>
 
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
@@ -326,7 +329,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
               </div>
               {isCompleted && (
                 <div style={{marginTop: '12px', padding: '8px 12px', background: 'rgba(16,185,129,0.1)', color: '#10b981', borderRadius: 'var(--radius)', fontSize: '11px', fontWeight: '600'}}>
-                  Completata! +20 XP
+                  {t('lessons.completed_label')}! +20 XP
                 </div>
               )}
             </div>
@@ -336,7 +339,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
 
       {currentStories.length === 0 && (
         <div className="empty-state">
-          <p>Nessuna storia disponibile per questo livello. Torna dopo!</p>
+          <p>{t('stories.noStories')}</p>
         </div>
       )}
     </div>
