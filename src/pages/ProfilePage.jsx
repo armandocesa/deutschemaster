@@ -24,7 +24,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 const ADMIN_EMAILS = ['armandocesa@gmail.com'];
 
 const ProfilePage = ({ onNavigate }) => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { user, isAuthenticated, logout, firebaseEnabled } = useAuth();
   const dailyGoalData = getDailyGoal();
   const [selectedGoal, setSelectedGoal] = useState(dailyGoalData.target || 50);
@@ -95,12 +95,12 @@ const ProfilePage = ({ onNavigate }) => {
 
   // Get level name
   const getLevelName = (lvl) => {
-    if (lvl <= 5) return 'Principiante';
-    if (lvl <= 10) return 'Studente';
-    if (lvl <= 20) return 'Intermedio';
-    if (lvl <= 35) return 'Avanzato';
-    if (lvl <= 50) return 'Esperto';
-    return 'Maestro';
+    if (lvl <= 5) return t('home.levels.beginner');
+    if (lvl <= 10) return t('home.levels.student');
+    if (lvl <= 20) return t('home.levels.intermediate');
+    if (lvl <= 35) return t('home.levels.advanced');
+    if (lvl <= 50) return t('home.levels.expert');
+    return t('home.levels.master');
   };
 
   const levelName = getLevelName(level);
@@ -155,7 +155,7 @@ const ProfilePage = ({ onNavigate }) => {
       const dateStr = date.toDateString();
       const xp = xpHistory.find((entry) => new Date(entry.date).toDateString() === dateStr)?.xp || 0;
       data.push({
-        day: ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'][date.getDay()],
+        day: (language === 'en' ? ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] : ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'])[date.getDay()],
         xp,
         isToday: i === 0,
       });
@@ -237,10 +237,10 @@ const ProfilePage = ({ onNavigate }) => {
             <span style={{ fontSize: '20px' }}>❤️</span>
             <div>
               <div style={{ fontSize: '14px', fontWeight: '600', color: 'var(--text-primary)' }}>
-                Ti piace Deutsche Master?
+                {t('profile.donation')}
               </div>
               <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '2px' }}>
-                Supportaci con una donazione
+                {t('profile.supportUs')}
               </div>
             </div>
           </div>
@@ -266,7 +266,7 @@ const ProfilePage = ({ onNavigate }) => {
               e.currentTarget.style.boxShadow = 'none';
             }}
           >
-            Dona Ora
+            {t('profile.donateNow')}
           </button>
         </div>
         {/* HEADER SECTION */}
@@ -284,7 +284,7 @@ const ProfilePage = ({ onNavigate }) => {
               color: 'var(--text-primary)',
             }}
           >
-            Il tuo Profilo
+            {t('profile.title')}
           </h1>
 
           {/* Account Section */}
@@ -337,14 +337,14 @@ const ProfilePage = ({ onNavigate }) => {
                     backgroundColor: 'rgba(239,68,68,0.1)', color: '#ef4444', fontSize: '13px',
                     fontWeight: 600, cursor: 'pointer',
                   }}>
-                    Esci
+                    {t('profile.signOut')}
                   </button>
                 </div>
               </>
             ) : (
               <>
                 <div style={{ fontSize: '14px', color: 'var(--text-secondary, #8888a0)' }}>
-                  {firebaseEnabled ? 'Accedi per salvare i progressi su cloud' : 'I progressi sono salvati localmente'}
+                  {firebaseEnabled ? t('profile.signedIn') : t('profile.offline')}
                 </div>
                 {firebaseEnabled && (
                   <button onClick={() => onNavigate('login')} style={{
@@ -352,7 +352,7 @@ const ProfilePage = ({ onNavigate }) => {
                     background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', color: 'white',
                     fontSize: '13px', fontWeight: 600, cursor: 'pointer',
                   }}>
-                    Accedi / Registrati
+                    {t('profile.signInButton')}
                   </button>
                 )}
               </>
@@ -371,9 +371,9 @@ const ProfilePage = ({ onNavigate }) => {
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                 <span style={{ fontSize: '20px' }}>🔔</span>
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: '15px' }}>Notifiche Giornaliere</div>
+                  <div style={{ fontWeight: 700, fontSize: '15px' }}>{t('profile.notifications.title')}</div>
                   <div style={{ fontSize: '12px', color: 'var(--text-secondary, #8888a0)' }}>
-                    Promemoria per mantenere il tuo streak
+                    {t('profile.notifications.subtitle')}
                   </div>
                 </div>
               </div>
@@ -399,7 +399,7 @@ const ProfilePage = ({ onNavigate }) => {
                   e.currentTarget.style.boxShadow = 'none';
                 }}
               >
-                {notificationsEnabled ? 'Attivo' : 'Disattivo'}
+                {notificationsEnabled ? t('profile.notifications.enabled') : t('profile.notifications.disabled')}
               </button>
             </div>
 
@@ -415,7 +415,7 @@ const ProfilePage = ({ onNavigate }) => {
                     textTransform: 'uppercase',
                     letterSpacing: '0.5px',
                   }}>
-                    Ora Promemoria
+                    {t('profile.notifications.reminderTime')}
                   </label>
                   <div style={{
                     display: 'flex',
@@ -449,7 +449,7 @@ const ProfilePage = ({ onNavigate }) => {
                       color: 'var(--text-secondary)',
                       fontStyle: 'italic',
                     }}>
-                      Riceverai un promemoria a questa ora se non hai ancora studiato
+                      {t('profile.notifications.reminderHint')}
                     </div>
                   </div>
                 </div>
@@ -470,7 +470,7 @@ const ProfilePage = ({ onNavigate }) => {
                 justifyContent: 'space-between',
                 gap: '12px',
               }}>
-                <span>Le notifiche sono bloccate nelle impostazioni del browser</span>
+                <span>{t('profile.notifications.blocked')}</span>
                 <button
                   onClick={() => setShowNotificationPrompt(false)}
                   style={{
@@ -507,7 +507,7 @@ const ProfilePage = ({ onNavigate }) => {
                   fontWeight: '500',
                 }}
               >
-                PUNTI ESPERIENZA
+                {t('profile.stats.xp')}
               </div>
               <div
                 style={{
@@ -586,7 +586,7 @@ const ProfilePage = ({ onNavigate }) => {
                   marginTop: '4px',
                 }}
               >
-                Longest streak: {longestStreak} giorni
+                {t('profile.stats.streak')} {longestStreak} {t('days')}
               </div>
             </div>
           </div>
@@ -603,7 +603,7 @@ const ProfilePage = ({ onNavigate }) => {
                 letterSpacing: '0.5px',
               }}
             >
-              {new Date(currentYear, currentMonth).toLocaleString('it-IT', {
+              {new Date(currentYear, currentMonth).toLocaleString(language === 'en' ? 'en-US' : 'it-IT', {
                 month: 'long',
                 year: 'numeric',
               })}
@@ -616,7 +616,7 @@ const ProfilePage = ({ onNavigate }) => {
                 gap: '8px',
               }}
             >
-              {['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'].map((dayName) => (
+              {(language === 'en' ? ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] : ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab']).map((dayName) => (
                 <div
                   key={dayName}
                   style={{
@@ -678,7 +678,7 @@ const ProfilePage = ({ onNavigate }) => {
               color: 'var(--text-primary)',
             }}
           >
-            Obiettivo Giornaliero
+            {t('profile.dailyGoal.title')}
           </h2>
 
           <div
@@ -774,7 +774,7 @@ const ProfilePage = ({ onNavigate }) => {
                   letterSpacing: '0.5px',
                 }}
               >
-                Scegli Obiettivo
+                {t('profile.dailyGoal.choose')}
               </div>
 
               <div
@@ -829,8 +829,8 @@ const ProfilePage = ({ onNavigate }) => {
                   color: 'var(--text-secondary)',
                 }}
               >
-                Streak: <span style={{ fontWeight: '700', color: 'var(--accent)' }}>{goalStreak}</span>{' '}
-                giorni
+                {t('profile.dailyGoal.streak')} <span style={{ fontWeight: '700', color: 'var(--accent)' }}>{goalStreak}</span>{' '}
+                {t('days')}
               </div>
             </div>
           </div>
@@ -849,7 +849,7 @@ const ProfilePage = ({ onNavigate }) => {
           >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
               <h2 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--text-primary)', margin: 0 }}>
-                Test di Posizionamento
+                {t('profile.placementTest.title')}
               </h2>
               <button
                 onClick={() => onNavigate('placement-test')}
@@ -864,14 +864,14 @@ const ProfilePage = ({ onNavigate }) => {
                   cursor: 'pointer',
                 }}
               >
-                Ripeti
+                {t('profile.placementTest.retry')}
               </button>
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'wrap' }}>
               <div>
                 <div style={{ fontSize: '12px', color: 'var(--text-secondary)', fontWeight: '600', marginBottom: '8px', textTransform: 'uppercase' }}>
-                  Livello Rilevato
+                  {t('profile.placementTest.detectedLevel')}
                 </div>
                 <div
                   style={{
@@ -894,19 +894,19 @@ const ProfilePage = ({ onNavigate }) => {
 
               <div style={{ flex: 1, minWidth: '200px' }}>
                 <div style={{ fontSize: '13px', fontWeight: '600', color: 'var(--text-primary)', marginBottom: '12px' }}>
-                  Risultati
+                  {t('profile.placementTest.results')}
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                   <div style={{ background: 'rgba(108,92,231,0.1)', borderRadius: '8px', padding: '12px' }}>
-                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>Domande Corrette</div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>{t('profile.placementTest.correctAnswers')}</div>
                     <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--accent)' }}>
                       {placementTestData.correctAnswers}/{placementTestData.totalQuestions}
                     </div>
                   </div>
                   <div style={{ background: 'rgba(59,130,246,0.1)', borderRadius: '8px', padding: '12px' }}>
-                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>Data Test</div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>{t('profile.placementTest.testDate')}</div>
                     <div style={{ fontSize: '20px', fontWeight: '700', color: '#3b82f6' }}>
-                      {new Date(placementTestData.completedAt).toLocaleDateString('it-IT')}
+                      {new Date(placementTestData.completedAt).toLocaleDateString(language === 'en' ? 'en-US' : 'it-IT')}
                     </div>
                   </div>
                 </div>
@@ -925,12 +925,12 @@ const ProfilePage = ({ onNavigate }) => {
           }}
         >
           {[
-            { label: 'Parole Studiate', value: totalWordsStudied },
-            { label: 'Risposte Corrette', value: `${correctAnswersPercentage}%` },
-            { label: 'Quiz Completati', value: quizzesCompleted },
-            { label: 'Parole Salvate', value: savedWordsCount },
-            { label: 'XP Totali', value: (xpData.totalXP || 0).toLocaleString() },
-            { label: 'Livello', value: level },
+            { label: t('profile.stats.wordsStudied'), value: totalWordsStudied },
+            { label: t('profile.stats.correctAnswers'), value: `${correctAnswersPercentage}%` },
+            { label: t('profile.stats.quizzesCompleted'), value: quizzesCompleted },
+            { label: t('profile.stats.savedWords'), value: savedWordsCount },
+            { label: t('profile.stats.totalXP'), value: (xpData.totalXP || 0).toLocaleString() },
+            { label: t('profile.stats.level'), value: level },
           ].map((stat, idx) => (
             <div
               key={idx}
@@ -985,7 +985,7 @@ const ProfilePage = ({ onNavigate }) => {
               color: 'var(--text-primary)',
             }}
           >
-            XP Questa Settimana
+            {t('profile.xpChart.title')}
           </h2>
 
           <div
@@ -1067,7 +1067,7 @@ const ProfilePage = ({ onNavigate }) => {
                 color: 'var(--text-primary)',
               }}
             >
-              Distintivi
+              {t('profile.badges.title')}
             </h2>
             <span
               style={{
@@ -1076,7 +1076,7 @@ const ProfilePage = ({ onNavigate }) => {
                 fontWeight: '600',
               }}
             >
-              {badges.filter((b) => b.unlocked).length} di {badges.length} sbloccati
+              {badges.filter((b) => b.unlocked).length} / {badges.length} {t('profile.badges.unlocked')}
             </span>
           </div>
 

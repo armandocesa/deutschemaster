@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useAuth } from '../contexts/AuthContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import {
   getAnalyticsSummary,
   getMostVisitedPages,
@@ -11,6 +12,7 @@ const ADMIN_EMAILS = ['armandocesa@gmail.com'];
 
 const AdminPage = ({ onNavigate }) => {
   const { user, isAuthenticated } = useAuth();
+  const { t, language } = useLanguage();
   const [loading, setLoading] = useState(true);
   const [summary, setSummary] = useState(null);
   const [mostVisited, setMostVisited] = useState([]);
@@ -49,7 +51,7 @@ const AdminPage = ({ onNavigate }) => {
         setActiveSessions(sessions);
       } catch (e) {
         console.error('Failed to fetch analytics:', e);
-        setError('Errore nel caricamento dei dati analitici');
+        setError(t('admin.error'));
       } finally {
         setLoading(false);
       }
@@ -76,9 +78,9 @@ const AdminPage = ({ onNavigate }) => {
         }}
       >
         <div style={{ textAlign: 'center', maxWidth: '400px' }}>
-          <h1 style={{ fontSize: '24px', marginBottom: '16px' }}>Accesso Richiesto</h1>
+          <h1 style={{ fontSize: '24px', marginBottom: '16px' }}>{t('admin.accessRequired')}</h1>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '24px' }}>
-            Devi essere autenticato per accedere al pannello amministrativo.
+            {t('admin.authRequired')}
           </p>
           <button
             onClick={() => onNavigate('login')}
@@ -102,7 +104,7 @@ const AdminPage = ({ onNavigate }) => {
               e.target.style.boxShadow = 'none';
             }}
           >
-            Accedi
+            {t('login.signin')}
           </button>
         </div>
       </div>
@@ -123,9 +125,9 @@ const AdminPage = ({ onNavigate }) => {
         }}
       >
         <div style={{ textAlign: 'center', maxWidth: '400px' }}>
-          <h1 style={{ fontSize: '24px', marginBottom: '16px' }}>Accesso Negato</h1>
+          <h1 style={{ fontSize: '24px', marginBottom: '16px' }}>{t('admin.accessDenied')}</h1>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '24px' }}>
-            Non hai i permessi per accedere a questa pagina. Contatta l'amministratore.
+            {t('admin.noPermission')}
           </p>
           <p style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
             Email: {user?.email}
@@ -159,7 +161,7 @@ const AdminPage = ({ onNavigate }) => {
               margin: '0 auto 16px',
             }}
           />
-          <p style={{ color: 'var(--text-secondary)' }}>Caricamento dati analitici...</p>
+          <p style={{ color: 'var(--text-secondary)' }}>{t('admin.loading')}</p>
           <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
         </div>
       </div>
@@ -190,16 +192,16 @@ const AdminPage = ({ onNavigate }) => {
         >
           <div>
             <h1 style={{ fontSize: '32px', fontWeight: '700', marginBottom: '8px' }}>
-              Pannello Amministrativo
+              {t('admin.title')}
             </h1>
             <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>
-              Analitiche Deutsche Master
+              {t('admin.subtitle')}
             </p>
           </div>
 
           <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
             <label style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
-              Aggiorna ogni:
+              {t('admin.refreshEvery')}
               <select
                 value={refreshInterval}
                 onChange={(e) => setRefreshInterval(parseInt(e.target.value))}
@@ -214,10 +216,10 @@ const AdminPage = ({ onNavigate }) => {
                   cursor: 'pointer',
                 }}
               >
-                <option value={15}>15 secondi</option>
-                <option value={30}>30 secondi</option>
-                <option value={60}>1 minuto</option>
-                <option value={300}>5 minuti</option>
+                <option value={15}>15 {t('admin.seconds')}</option>
+                <option value={30}>30 {t('admin.seconds')}</option>
+                <option value={60}>1 {t('admin.minute')}</option>
+                <option value={300}>5 {t('admin.minutes')}</option>
               </select>
             </label>
 
@@ -234,7 +236,7 @@ const AdminPage = ({ onNavigate }) => {
                 cursor: 'pointer',
               }}
             >
-              Torna al Profilo
+              {t('admin.backToProfile')}
             </button>
           </div>
         </div>
@@ -265,31 +267,31 @@ const AdminPage = ({ onNavigate }) => {
         >
           {/* Today's Stats */}
           <MetricCard
-            label="Sessioni Oggi"
+            label={t('admin.sessionsToday')}
             value={summary?.today?.sessions || 0}
             icon="📊"
-            subtext={`${summary?.today?.uniqueUsers || 0} utenti unici`}
+            subtext={`${summary?.today?.uniqueUsers || 0} ${t('admin.uniqueUsers')}`}
           />
 
           <MetricCard
-            label="Sessioni Questa Settimana"
+            label={t('admin.sessionsWeek')}
             value={summary?.week?.sessions || 0}
             icon="📈"
-            subtext={`${summary?.week?.uniqueUsers || 0} utenti unici`}
+            subtext={`${summary?.week?.uniqueUsers || 0} ${t('admin.uniqueUsers')}`}
           />
 
           <MetricCard
-            label="Sessioni Questo Mese"
+            label={t('admin.sessionsMonth')}
             value={summary?.month?.sessions || 0}
             icon="📅"
-            subtext={`${summary?.month?.newRegistrations || 0} nuovi registri`}
+            subtext={`${summary?.month?.newRegistrations || 0} ${t('admin.newRegistrations')}`}
           />
 
           <MetricCard
-            label="Durata Media Sessione"
+            label={t('admin.avgDuration')}
             value={formatDuration(summary?.today?.avgSessionDuration || 0)}
             icon="⏱️"
-            subtext="Oggi"
+            subtext={t('admin.today')}
           />
         </div>
 
@@ -321,7 +323,7 @@ const AdminPage = ({ onNavigate }) => {
                 gap: '8px',
               }}
             >
-              <span>📄</span> Pagine Più Visitate
+              <span>📄</span> {t('admin.mostVisited')}
             </h2>
 
             {mostVisited.length > 0 ? (
@@ -340,7 +342,7 @@ const AdminPage = ({ onNavigate }) => {
                     }}
                   >
                     <span style={{ fontSize: '14px', fontWeight: '500' }}>
-                      {formatPageName(item.page)}
+                      {formatPageName(item.page, language)}
                     </span>
                     <div
                       style={{
@@ -384,7 +386,7 @@ const AdminPage = ({ onNavigate }) => {
               </div>
             ) : (
               <p style={{ color: 'var(--text-secondary)', textAlign: 'center', padding: '32px 0' }}>
-                Nessun dato disponibile
+                {t('admin.noData')}
               </p>
             )}
           </div>
@@ -408,7 +410,7 @@ const AdminPage = ({ onNavigate }) => {
                 gap: '8px',
               }}
             >
-              <span>✅</span> Esercizi Completati
+              <span>✅</span> {t('admin.exercisesCompleted')}
             </h2>
 
             {Object.keys(completionRates).length > 0 ? (
@@ -427,7 +429,7 @@ const AdminPage = ({ onNavigate }) => {
                     }}
                   >
                     <span style={{ fontSize: '14px', fontWeight: '500' }}>
-                      {formatEventName(event)}
+                      {formatEventName(event, language)}
                     </span>
                     <span
                       style={{
@@ -443,7 +445,7 @@ const AdminPage = ({ onNavigate }) => {
               </div>
             ) : (
               <p style={{ color: 'var(--text-secondary)', textAlign: 'center', padding: '32px 0' }}>
-                Nessun dato disponibile
+                {t('admin.noData')}
               </p>
             )}
           </div>
@@ -470,7 +472,7 @@ const AdminPage = ({ onNavigate }) => {
                 gap: '8px',
               }}
             >
-              <span>🔍</span> Dettagli Pagine (Oggi)
+              <span>🔍</span> {t('admin.pageDetailsToday')}
             </h2>
 
             <div
@@ -494,13 +496,13 @@ const AdminPage = ({ onNavigate }) => {
                     }}
                   >
                     <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
-                      {formatPageName(page)}
+                      {formatPageName(page, language)}
                     </div>
                     <div style={{ fontSize: '28px', fontWeight: '700', color: 'var(--accent)' }}>
                       {count}
                     </div>
                     <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '8px' }}>
-                      visualizzazioni
+                      {t('admin.views')}
                     </div>
                   </div>
                 ))}
@@ -528,7 +530,7 @@ const AdminPage = ({ onNavigate }) => {
                 gap: '8px',
               }}
             >
-              <span>📊</span> Pagine Questa Settimana
+              <span>📊</span> {t('admin.pagesThisWeek')}
             </h2>
 
             <div
@@ -552,13 +554,13 @@ const AdminPage = ({ onNavigate }) => {
                     }}
                   >
                     <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
-                      {formatPageName(page)}
+                      {formatPageName(page, language)}
                     </div>
                     <div style={{ fontSize: '28px', fontWeight: '700', color: '#3b82f6' }}>
                       {count}
                     </div>
                     <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '8px' }}>
-                      visualizzazioni
+                      {t('admin.views')}
                     </div>
                   </div>
                 ))}
@@ -616,8 +618,8 @@ function MetricCard({ label, value, icon, subtext }) {
 /**
  * Helper function to format page names
  */
-function formatPageName(page) {
-  const names = {
+function formatPageName(page, language = 'it') {
+  const namesIt = {
     home: 'Home',
     vocabulary: 'Vocabolario',
     grammar: 'Grammatica',
@@ -639,18 +641,47 @@ function formatPageName(page) {
     werden: 'Il Verbo Werden',
     'placement-test': 'Test di Posizionamento',
   };
+  const namesEn = {
+    home: 'Home',
+    vocabulary: 'Vocabulary',
+    grammar: 'Grammar',
+    reading: 'Reading',
+    stories: 'Stories',
+    quiz: 'Quiz',
+    verbs: 'Verbs',
+    'special-verbs': 'Special Verbs',
+    practice: 'Practice',
+    favorites: 'Saved',
+    lessons: 'Lessons',
+    profile: 'Profile',
+    flashcards: 'Flashcards',
+    writing: 'Writing',
+    listening: 'Listening',
+    paths: 'Paths',
+    'essential-words': 'Essential Words',
+    'verb-prefixes': 'Verb Prefixes',
+    werden: 'The Werden Verb',
+    'placement-test': 'Placement Test',
+  };
+  const names = language === 'en' ? namesEn : namesIt;
   return names[page] || page;
 }
 
 /**
  * Helper function to format event names
  */
-function formatEventName(event) {
-  const names = {
+function formatEventName(event, language = 'it') {
+  const namesIt = {
     quiz_completed: 'Quiz Completati',
     exercise_completed: 'Esercizi Completati',
     story_completed: 'Storie Completate',
   };
+  const namesEn = {
+    quiz_completed: 'Quizzes Completed',
+    exercise_completed: 'Exercises Completed',
+    story_completed: 'Stories Completed',
+  };
+  const names = language === 'en' ? namesEn : namesIt;
   return names[event] || event;
 }
 
