@@ -1,0 +1,2822 @@
+[
+  {
+    "id": "lavoro_verbi",
+    "name": "lavoro_verbi",
+    "category": "lavoro_verbi",
+    "icon": "💼",
+    "words": [
+      {
+        "german": "entlassen",
+        "italian": "licenziare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "leiten",
+        "italian": "dirigere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verhandeln",
+        "italian": "negoziare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "faxen",
+        "italian": "inviare fax",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "lavoro",
+    "name": "lavoro",
+    "category": "lavoro",
+    "icon": "💼",
+    "words": [
+      {
+        "german": "das Einkommen",
+        "italian": "il reddito",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sitzung",
+        "italian": "the meeting",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wettbewerber",
+        "italian": "il concorrente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Stellenanzeige",
+        "italian": "l'annuncio di lavoro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Qualifikation",
+        "italian": "la qualifica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ruhestand",
+        "italian": "la pensione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pension",
+        "italian": "la pensione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "legge",
+    "name": "legge",
+    "category": "legge",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Verfassung",
+        "italian": "la costituzione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Grundgesetz",
+        "italian": "la legge fondamentale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Paragraph",
+        "italian": "il paragrafo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rechtmäßig",
+        "italian": "legittimo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rechtswidrig",
+        "italian": "illegittimo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Amtsgericht",
+        "italian": "il tribunale di primo grado",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Landgericht",
+        "italian": "il tribunale regionale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Bundesgericht",
+        "italian": "il tribunale federale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Verfassungsgericht",
+        "italian": "la corte costituzionale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Staatsanwalt",
+        "italian": "il pubblico ministero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Angeklagte",
+        "italian": "l'imputato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kläger",
+        "italian": "il querelante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Beklagte",
+        "italian": "il convenuto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Täter",
+        "italian": "il colpevole",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Straftat",
+        "italian": "il reato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Raub",
+        "italian": "la rapina",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Betrug",
+        "italian": "la frode",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mord",
+        "italian": "l'omicidio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Körperverletzung",
+        "italian": "le lesioni",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Beleidigung",
+        "italian": "l'ingiuria",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Klage",
+        "italian": "la querela",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "klagen",
+        "italian": "fare causa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verklagen",
+        "italian": "citare in giudizio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verhandlung",
+        "italian": "l'udienza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Urteil",
+        "italian": "la sentenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "urteilen",
+        "italian": "giudicare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "freisprechen",
+        "italian": "assolvere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Freiheitsstrafe",
+        "italian": "la pena detentiva",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Haft",
+        "italian": "la detenzione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "festnehmen",
+        "italian": "arrestare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Testament",
+        "italian": "il testamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "erben",
+        "italian": "ereditare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Erbe",
+        "italian": "l'eredità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Erbe",
+        "italian": "l'erede",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "politica",
+    "name": "politica",
+    "category": "politica",
+    "icon": "🏛️",
+    "words": [
+      {
+        "german": "regieren",
+        "italian": "governare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "staatlich",
+        "italian": "statale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Monarchie",
+        "italian": "la monarchia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Diktatur",
+        "italian": "la dittatura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kaiser",
+        "italian": "l'imperatore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bundespräsident",
+        "italian": "il presidente federale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bundeskanzler",
+        "italian": "il cancelliere federale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Ministerium",
+        "italian": "il ministero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Abgeordnete",
+        "italian": "il deputato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bundestag",
+        "italian": "il parlamento federale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bundesrat",
+        "italian": "il consiglio federale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Landtag",
+        "italian": "il parlamento regionale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Koalition",
+        "italian": "la coalizione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Opposition",
+        "italian": "l'opposizione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "konservativ",
+        "italian": "conservatore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "liberal",
+        "italian": "liberale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wähler",
+        "italian": "l'elettore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Wahlrecht",
+        "italian": "il diritto di voto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "abstimmen",
+        "italian": "votare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abstimmung",
+        "italian": "la votazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Referendum",
+        "italian": "il referendum",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kaiserin",
+        "italian": "l'imperatrice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Diktator",
+        "italian": "il dittatore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abgeordnete",
+        "italian": "la deputata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Senator",
+        "italian": "il senatore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Senatorin",
+        "italian": "la senatrice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Bundeskanzlerin",
+        "italian": "la cancelliera federale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Bundespräsidentin",
+        "italian": "la presidente federale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Außenminister",
+        "italian": "il ministro degli esteri",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Innenminister",
+        "italian": "il ministro dell'interno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Finanzminister",
+        "italian": "il ministro delle finanze",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "societa",
+    "name": "societa",
+    "category": "societa",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "gesellschaftlich",
+        "italian": "sociale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Staatsbürgerschaft",
+        "italian": "la cittadinanza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Einwanderer",
+        "italian": "l'immigrato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Migrant",
+        "italian": "il migrante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Flüchtling",
+        "italian": "il rifugiato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Asyl",
+        "italian": "l'asilo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gleichberechtigung",
+        "italian": "la parità di diritti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gleichstellung",
+        "italian": "l'uguaglianza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Diskriminierung",
+        "italian": "la discriminazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Rassismus",
+        "italian": "il razzismo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Religionsfreiheit",
+        "italian": "la libertà religiosa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Menschenrecht",
+        "italian": "il diritto umano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Würde",
+        "italian": "la dignità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gerechtigkeit",
+        "italian": "la giustizia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Armut",
+        "italian": "la povertà",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Reichtum",
+        "italian": "la ricchezza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Obdachlosigkeit",
+        "italian": "il senzatetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sozialleistung",
+        "italian": "l'assistenza sociale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sozialhilfe",
+        "italian": "l'aiuto sociale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Arbeitslosengeld",
+        "italian": "l'indennità di disoccupazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kindergeld",
+        "italian": "l'assegno familiare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Demonstration",
+        "italian": "la manifestazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "demonstrieren",
+        "italian": "manifestare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sozialarbeit",
+        "italian": "l'assistenza sociale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Sozialarbeiter",
+        "italian": "l'assistente sociale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sozialarbeiterin",
+        "italian": "l'assistente sociale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ungleichheit",
+        "italian": "la disuguaglianza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "obdachlos",
+        "italian": "senzatetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Obdachlose",
+        "italian": "il senzatetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Obdachlose",
+        "italian": "la senzatetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kriminalität",
+        "italian": "la criminalità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kriminell",
+        "italian": "criminale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kriminelle",
+        "italian": "il criminale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kriminelle",
+        "italian": "la criminale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verbrecherin",
+        "italian": "la criminale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "betrügen",
+        "italian": "truffare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Betrüger",
+        "italian": "il truffatore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Betrügerin",
+        "italian": "la truffatrice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Korruption",
+        "italian": "la corruzione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "korrupt",
+        "italian": "corrotto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Drogensucht",
+        "italian": "la tossicodipendenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "drogensüchtig",
+        "italian": "tossicodipendente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Terrorismus",
+        "italian": "il terrorismo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Terrorist",
+        "italian": "il terrorista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Terroristin",
+        "italian": "la terrorista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "terroristisch",
+        "italian": "terroristico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Anschlag",
+        "italian": "l'attentato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Migration",
+        "italian": "la migrazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Migrantin",
+        "italian": "la migrante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "sintomi",
+    "name": "sintomi",
+    "category": "sintomi",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Symptom",
+        "italian": "il sintomo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schmerzhaft",
+        "italian": "doloroso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fiebrig",
+        "italian": "febbricitante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "übel",
+        "italian": "nauseato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich übergeben",
+        "italian": "vomitare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "erbrechen",
+        "italian": "vomitare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schwindelig",
+        "italian": "con le vertigini",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ohnmächtig",
+        "italian": "svenuto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ohnmacht",
+        "italian": "lo svenimento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "entzündet",
+        "italian": "infiammato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "infiziert",
+        "italian": "infettato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ansteckend",
+        "italian": "contagioso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ansteckung",
+        "italian": "il contagio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Juckreiz",
+        "italian": "il prurito",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "jucken",
+        "italian": "prudere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schwellung",
+        "italian": "il gonfiore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "geschwollen",
+        "italian": "gonfio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schwellen",
+        "italian": "gonfiarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verwundet",
+        "italian": "ferito",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gebrochen",
+        "italian": "fratturato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verbrennung",
+        "italian": "l'ustione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verbrannt",
+        "italian": "ustionato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Tumor",
+        "italian": "il tumore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Diabetes",
+        "italian": "il diabete",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Asthma",
+        "italian": "l'asma",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Migräne",
+        "italian": "l'emicrania",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "chronisch",
+        "italian": "cronico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "akut",
+        "italian": "acuto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "trattamenti",
+    "name": "trattamenti",
+    "category": "trattamenti",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "heilbar",
+        "italian": "curabile",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "unheilbar",
+        "italian": "incurabile",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "medizinisch",
+        "italian": "medico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Arzneimittel",
+        "italian": "il farmaco",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kapsel",
+        "italian": "la capsula",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Injektion",
+        "italian": "l'iniezione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Impfstoff",
+        "italian": "il vaccino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rezeptpflichtig",
+        "italian": "con ricetta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rezeptfrei",
+        "italian": "senza ricetta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Physiotherapie",
+        "italian": "la fisioterapia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Psychotherapie",
+        "italian": "la psicoterapia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pflege",
+        "italian": "la cura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Pfleger",
+        "italian": "l'infermiere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pflegerin",
+        "italian": "l'infermiera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "diagnosi",
+    "name": "diagnosi",
+    "category": "diagnosi",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Blutuntersuchung",
+        "italian": "l'analisi del sangue",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bluttest",
+        "italian": "l'esame del sangue",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Urinprobe",
+        "italian": "l'esame delle urine",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Röntgen",
+        "italian": "la radiografia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ultraschalluntersuchung",
+        "italian": "l'ecografia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Befund",
+        "italian": "il referto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Messung",
+        "italian": "la misurazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Herzschlag",
+        "italian": "il battito cardiaco",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Körpertemperatur",
+        "italian": "la temperatura corporea",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Blutgruppe",
+        "italian": "il gruppo sanguigno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Labor",
+        "italian": "il laboratorio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "strutture",
+    "name": "strutture",
+    "category": "strutture",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Zahnarztpraxis",
+        "italian": "lo studio dentistico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Notarzt",
+        "italian": "il medico di emergenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Notärztin",
+        "italian": "la medica di emergenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ambulanz",
+        "italian": "l'ambulanza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Rettungsdienst",
+        "italian": "il servizio di emergenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Intensivstation",
+        "italian": "la terapia intensiva",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Station",
+        "italian": "il reparto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Operationssaal",
+        "italian": "la sala operatoria",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der OP",
+        "italian": "la sala operatoria",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Behandlungszimmer",
+        "italian": "l'ambulatorio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Krankenzimmer",
+        "italian": "la camera di degenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Krankenbett",
+        "italian": "il letto d'ospedale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "versichert",
+        "italian": "assicurato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Krankenkasse",
+        "italian": "la cassa malattia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Versichertenkarte",
+        "italian": "la tessera sanitaria",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aufnehmen",
+        "italian": "ricoverare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Aufnahme",
+        "italian": "il ricovero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sprechstunde",
+        "italian": "l'orario di visita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Pflegeheim",
+        "italian": "la casa di cura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Reha",
+        "italian": "la riabilitazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kur",
+        "italian": "la cura termale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Vorsorge",
+        "italian": "la prevenzione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vorbeugen",
+        "italian": "prevenire",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "salute_mentale",
+    "name": "salute_mentale",
+    "category": "salute_mentale",
+    "icon": "🏥",
+    "words": [
+      {
+        "german": "psychisch",
+        "italian": "psichico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "seelisch",
+        "italian": "mentale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sucht",
+        "italian": "la dipendenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "süchtig",
+        "italian": "dipendente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "abhängig",
+        "italian": "dipendente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abhängigkeit",
+        "italian": "la dipendenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Trauma",
+        "italian": "il trauma",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Belastung",
+        "italian": "lo stress",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "stressig",
+        "italian": "stressante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Erschöpfung",
+        "italian": "l'esaurimento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "beruhigen",
+        "italian": "calmare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Meditation",
+        "italian": "la meditazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "abbigliamento",
+    "name": "clothing",
+    "category": "clothing",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Rollkragenpullover",
+        "italian": "il dolcevita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Strickjacke",
+        "italian": "il cardigan",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Daunenjacke",
+        "italian": "il piumino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Sakko",
+        "italian": "la giacca elegante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Abendkleid",
+        "italian": "l'abito da sera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Brautkleid",
+        "italian": "l'abito da sposa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Nachthemd",
+        "italian": "la camicia da notte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bademantel",
+        "italian": "l'accappatoio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Absatz",
+        "italian": "il tacco",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Schnürsenkel",
+        "italian": "il laccio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Halstuch",
+        "italian": "il foulard",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fliege",
+        "italian": "il papillon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ehering",
+        "italian": "la fede",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Perle",
+        "italian": "la perla",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kragen",
+        "italian": "il colletto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Seide",
+        "italian": "la seta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Leinen",
+        "italian": "il lino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Polyester",
+        "italian": "il poliestere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gepunktet",
+        "italian": "a pois",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gemustert",
+        "italian": "fantasia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einfarbig",
+        "italian": "tinta unita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "altmodisch",
+        "italian": "fuori moda",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "moda",
+    "name": "moda",
+    "category": "moda",
+    "icon": "👗",
+    "words": [
+      {
+        "german": "trendy",
+        "italian": "trendy",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Eleganz",
+        "italian": "l'eleganza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "stilvoll",
+        "italian": "stiloso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "lässig",
+        "italian": "casual",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zeitlos",
+        "italian": "senza tempo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Label",
+        "italian": "il marchio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Luxusmarke",
+        "italian": "il marchio di lusso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kollektion",
+        "italian": "la collezione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Modenschau",
+        "italian": "la sfilata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Laufsteg",
+        "italian": "la passerella",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schneiderei",
+        "italian": "la sartoria",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Anprobe",
+        "italian": "la prova",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Umkleidekabine",
+        "italian": "il camerino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Passform",
+        "italian": "la vestibilità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "locker",
+        "italian": "morbido",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "knielang",
+        "italian": "al ginocchio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ärmellos",
+        "italian": "senza maniche",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kurzärmelig",
+        "italian": "a maniche corte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "langärmelig",
+        "italian": "a maniche lunghe",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ausschnitt",
+        "italian": "la scollatura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der V-Ausschnitt",
+        "italian": "lo scollo a V",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "tessuti",
+    "name": "tessuti",
+    "category": "tessuti",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Gewebe",
+        "italian": "il tessuto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Faser",
+        "italian": "la fibra",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "seidig",
+        "italian": "setoso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kaschmir",
+        "italian": "il cashmere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kunstleder",
+        "italian": "la pelle sintetica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Fell",
+        "italian": "la pelliccia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Pelz",
+        "italian": "la pelliccia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Samt",
+        "italian": "il velluto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Denim",
+        "italian": "il denim",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Jeansstoff",
+        "italian": "il tessuto jeans",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Spitze",
+        "italian": "il pizzo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Satin",
+        "italian": "il raso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Polyester",
+        "italian": "il poliestere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Nylon",
+        "italian": "il nylon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dehnbar",
+        "italian": "elastico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "elastisch",
+        "italian": "elastico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wasserdicht",
+        "italian": "impermeabile",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wärmend",
+        "italian": "warm, hot",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rau",
+        "italian": "ruvido",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "transparent",
+        "italian": "trasparente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "accessori",
+    "name": "accessori",
+    "category": "accessori",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Accessoire",
+        "italian": "l'accessorio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Verlobungsring",
+        "italian": "l'anello di fidanzamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Anhänger",
+        "italian": "il ciondolo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ohrstecker",
+        "italian": "gli orecchini a bottone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Brosche",
+        "italian": "la spilla",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Diamant",
+        "italian": "il diamante",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Edelstein",
+        "italian": "la pietra preziosa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Aktentasche",
+        "italian": "la valigetta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Lesebrille",
+        "italian": "gli occhiali da lettura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Baseballkappe",
+        "italian": "il cappellino da baseball",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Stirnband",
+        "italian": "la fascia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Haarspange",
+        "italian": "la molletta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Haargummi",
+        "italian": "l'elastico per capelli",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "cura",
+    "name": "cura",
+    "category": "cura",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Waschprogramm",
+        "italian": "il programma di lavaggio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schleudern",
+        "italian": "centrifugare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zusammenlegen",
+        "italian": "piegare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kleiderbügel",
+        "italian": "la gruccia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wäschekorb",
+        "italian": "il cesto della biancheria",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Weichspüler",
+        "italian": "l'ammorbidente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fleckig",
+        "italian": "macchiato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "chemisch reinigen",
+        "italian": "lavare a secco",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die chemische Reinigung",
+        "italian": "la lavanderia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Nähmaschine",
+        "italian": "la macchina da cucire",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "annähen",
+        "italian": "to sew",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Reparatur",
+        "italian": "la riparazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kürzen",
+        "italian": "accorciare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "enger machen",
+        "italian": "stringere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "weiter machen",
+        "italian": "to enlarge",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "animali",
+    "name": "animals",
+    "category": "animals",
+    "icon": "🐾",
+    "words": [
+      {
+        "german": "der Wellensittich",
+        "italian": "il parrocchetto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kanarienvogel",
+        "italian": "il canarino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Truthahn",
+        "italian": "il tacchino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Nilpferd",
+        "italian": "l'ippopotamo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Nashorn",
+        "italian": "il rinoceronte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Gorilla",
+        "italian": "il gorilla",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Schimpanse",
+        "italian": "lo scimpanzé",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Hirsch",
+        "italian": "il cervo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Reh",
+        "italian": "il capriolo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Wildschwein",
+        "italian": "il cinghiale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fledermaus",
+        "italian": "il pipistrello",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Eidechse",
+        "italian": "la lucertola",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kröte",
+        "italian": "il rospo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Robbe",
+        "italian": "la foca",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Spatz",
+        "italian": "il passero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schwalbe",
+        "italian": "la rondine",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Storch",
+        "italian": "la cicogna",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Möwe",
+        "italian": "il gabbiano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Pelikan",
+        "italian": "il pellicano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Flamingo",
+        "italian": "il fenicottero",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Pfau",
+        "italian": "il pavone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Lama",
+        "italian": "il lama",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "insetti",
+    "name": "insetti",
+    "category": "insetti",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Hummel",
+        "italian": "il bombo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Raupe",
+        "italian": "il bruco",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Marienkäfer",
+        "italian": "la coccinella",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Regenwurm",
+        "italian": "il lombrico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Libelle",
+        "italian": "la libellula",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Heuschrecke",
+        "italian": "la cavalletta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Grille",
+        "italian": "il grillo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Floh",
+        "italian": "la pulce",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Laus",
+        "italian": "il pidocchio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zecke",
+        "italian": "la zecca",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kakerlake",
+        "italian": "lo scarafaggio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Skorpion",
+        "italian": "lo scorpione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "piante",
+    "name": "plants",
+    "category": "plants",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Strauch",
+        "italian": "l'arbusto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Lilie",
+        "italian": "il giglio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Orchidee",
+        "italian": "l'orchidea",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Veilchen",
+        "italian": "la viola",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gänseblümchen",
+        "italian": "la margherita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Löwenzahn",
+        "italian": "il dente di leone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Stängel",
+        "italian": "lo stelo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Zweig",
+        "italian": "il ramoscello",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rinde",
+        "italian": "la corteccia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Eiche",
+        "italian": "la quercia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Buche",
+        "italian": "il faggio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Birke",
+        "italian": "la betulla",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tanne",
+        "italian": "l'abete",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kiefer",
+        "italian": "il pino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kirschbaum",
+        "italian": "il ciliegio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Olivenbaum",
+        "italian": "l'ulivo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "natura",
+    "name": "nature",
+    "category": "nature",
+    "icon": "🌿",
+    "words": [
+      {
+        "german": "das Gebirge",
+        "italian": "la catena montuosa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Gipfel",
+        "italian": "la cima",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Höhle",
+        "italian": "the cave",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Vulkan",
+        "italian": "the volcano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ebene",
+        "italian": "la pianura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Oase",
+        "italian": "l'oasi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Dschungel",
+        "italian": "la giungla",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Teich",
+        "italian": "lo stagno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wasserfall",
+        "italian": "la cascata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Klippe",
+        "italian": "la scogliera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Bucht",
+        "italian": "la baia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Halbinsel",
+        "italian": "la penisola",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Gletscher",
+        "italian": "il ghiacciaio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Eisberg",
+        "italian": "l'iceberg",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Nordpol",
+        "italian": "il polo nord",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Südpol",
+        "italian": "il polo sud",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Äquator",
+        "italian": "l'equatore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "elezioni",
+    "name": "elezioni",
+    "category": "elezioni",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Parteimitglied",
+        "italian": "il membro del partito",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wählerin",
+        "italian": "l'elettrice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Bundestagswahl",
+        "italian": "le elezioni federali",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Europawahl",
+        "italian": "le elezioni europee",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wahlkampf",
+        "italian": "la campagna elettorale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kandidieren",
+        "italian": "candidarsi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Wahlergebnis",
+        "italian": "il risultato elettorale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Wahllokal",
+        "italian": "il seggio elettorale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Stimmzettel",
+        "italian": "la scheda elettorale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  }
+]

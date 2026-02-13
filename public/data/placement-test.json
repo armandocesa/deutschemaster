@@ -1,0 +1,274 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "level": "A1",
+      "type": "grammar",
+      "question": "Wie ___ du?",
+      "options": ["heißt", "heißen", "heiße", "heißes"],
+      "correctAnswer": 0,
+      "explanation": "Con il pronome 'du' (tu), il verbo 'heißen' coniugato è 'heißt'. Risposta corretta: heißt"
+    },
+    {
+      "id": 2,
+      "level": "A1",
+      "type": "vocabulary",
+      "question": "Che cosa è un 'Buch'?",
+      "options": ["Una penna", "Un libro", "Un tavolo", "Una finestra"],
+      "correctAnswer": 1,
+      "explanation": "'Buch' significa 'libro' in italiano. È uno dei vocaboli base del tedesco."
+    },
+    {
+      "id": 3,
+      "level": "A1",
+      "type": "completion",
+      "question": "Ich ___ aus Deutschland.",
+      "options": ["bin", "habe", "wird", "ist"],
+      "correctAnswer": 0,
+      "explanation": "Con il pronome 'ich' (io), il verbo 'sein' si coniuga come 'bin'. Risposta: bin"
+    },
+    {
+      "id": 4,
+      "level": "A1",
+      "type": "grammar",
+      "question": "Das ist ___ Kugelschreiber.",
+      "options": ["eine", "ein", "einen", "einem"],
+      "correctAnswer": 1,
+      "explanation": "'Kugelschreiber' è maschile (der), quindi l'articolo indefinito nominativo è 'ein'."
+    },
+    {
+      "id": 5,
+      "level": "A1",
+      "type": "vocabulary",
+      "question": "Quante persone sono in una 'Familie'?",
+      "options": ["Una", "Due", "Tre o più", "Nessuna"],
+      "correctAnswer": 2,
+      "explanation": "'Familie' significa 'famiglia' - di solito consiste di tre o più persone."
+    },
+    {
+      "id": 6,
+      "level": "A2",
+      "type": "grammar",
+      "question": "Gestern ___ ich ins Kino gegangen.",
+      "options": ["bin", "habe", "war", "wurde"],
+      "correctAnswer": 0,
+      "explanation": "Con 'gehen', il passato prossimo (Perfekt) si forma con 'sein'. Risposta: bin... gegangen"
+    },
+    {
+      "id": 7,
+      "level": "A2",
+      "type": "completion",
+      "question": "Er hat ___ Buch gelesen.",
+      "options": ["ein", "einen", "einem", "eines"],
+      "correctAnswer": 1,
+      "explanation": "Nel Perfekt con oggetto diretto accusativo, 'Buch' (maschile) richiede 'einen'. Risposta: einen"
+    },
+    {
+      "id": 8,
+      "level": "A2",
+      "type": "vocabulary",
+      "question": "Che cosa significa 'Wetter'?",
+      "options": ["Pioggia", "Tempo meteorologico", "Vento", "Neve"],
+      "correctAnswer": 1,
+      "explanation": "'Wetter' significa 'tempo meteorologico'. È il termine generale per le condizioni atmosferiche."
+    },
+    {
+      "id": 9,
+      "level": "A2",
+      "type": "comprehension",
+      "question": "Lese: 'Mein Name ist Anna. Ich bin 25 Jahre alt. Ich arbeite als Lehrer in München.' Anna lavora come...",
+      "options": ["Infermiera", "Insegnante", "Cuoca", "Dottore"],
+      "correctAnswer": 1,
+      "explanation": "Nel testo dice 'Ich arbeite als Lehrer' - Lehrer significa insegnante."
+    },
+    {
+      "id": 10,
+      "level": "A2",
+      "type": "grammar",
+      "question": "Ich möchte ___ Auto kaufen.",
+      "options": ["ein", "einen", "eines", "einem"],
+      "correctAnswer": 1,
+      "explanation": "Con il verbo modale 'möchte' e oggetto diretto accusativo, 'Auto' (femminile) richiede 'einen'."
+    },
+    {
+      "id": 11,
+      "level": "B1",
+      "type": "grammar",
+      "question": "Obwohl er krank ist, ___ er zur Arbeit gehen.",
+      "options": ["will", "wollen", "wills", "wollte"],
+      "correctAnswer": 0,
+      "explanation": "Con il pronome 'er' (lui), il verbo 'wollen' si coniuga come 'will'. È un verbo modale."
+    },
+    {
+      "id": 12,
+      "level": "B1",
+      "type": "completion",
+      "question": "Wenn ich Zeit hätte, ___ ich dir helfen.",
+      "options": ["würde", "werde", "werdet", "würden"],
+      "correctAnswer": 0,
+      "explanation": "Nel periodo ipotetico Konjunktiv II, con 'ich' si usa 'würde'. Risposta: würde"
+    },
+    {
+      "id": 13,
+      "level": "B1",
+      "type": "vocabulary",
+      "question": "Che cosa significa 'Berufsausbildung'?",
+      "options": ["Vacanza", "Formazione professionale", "Pensionamento", "Promozione"],
+      "correctAnswer": 1,
+      "explanation": "'Berufsausbildung' = Berufs (professionale) + ausbildung (formazione) = formazione professionale"
+    },
+    {
+      "id": 14,
+      "level": "B1",
+      "type": "comprehension",
+      "question": "Lese: 'Die Universität bietet verschiedene Kurse an. Studenten können Naturwissenschaften, Sprachen oder Wirtschaft studieren. Die Kurse dauern vier Jahre.' Quale affermazione è corretta?",
+      "options": ["I corsi durano 3 anni", "I corsi durano 4 anni", "Solo Lingue è disponibile", "Economia non è offerta"],
+      "correctAnswer": 1,
+      "explanation": "Nel testo dice 'Die Kurse dauern vier Jahre' - i corsi durano 4 anni."
+    },
+    {
+      "id": 15,
+      "level": "B1",
+      "type": "grammar",
+      "question": "___ die Schule zu Ende geht, feiern wir ein Fest.",
+      "options": ["Nachdem", "Obwohl", "Weil", "Damit"],
+      "correctAnswer": 0,
+      "explanation": "'Nachdem' significa 'dopo che' e introduce una subordinata temporale. È la scelta corretta qui."
+    },
+    {
+      "id": 16,
+      "level": "B2",
+      "type": "grammar",
+      "question": "Das Buch, das ich dir empfohlen habe, ist wirklich interessant.",
+      "options": ["Nominativo", "Accusativo", "Dativo", "Genitivo"],
+      "correctAnswer": 1,
+      "explanation": "Nella frase relativa, 'das' è pronome relativo in accusativo perché è oggetto di 'empfohlen haben'."
+    },
+    {
+      "id": 17,
+      "level": "B2",
+      "type": "completion",
+      "question": "Es ist von großer Wichtigkeit, ___ die Studenten gut vorbereitet sind.",
+      "options": ["daß", "dass", "dasss", "das"],
+      "correctAnswer": 1,
+      "explanation": "'Dass' (che) è la subordinata corretta. Dopo 'Wichtigkeit' si usa 'dass' con congiuntivo."
+    },
+    {
+      "id": 18,
+      "level": "B2",
+      "type": "vocabulary",
+      "question": "Che cosa significa 'Beharrlichkeit'?",
+      "options": ["Fretta", "Persistenza/Tenacia", "Dubbio", "Confusione"],
+      "correctAnswer": 1,
+      "explanation": "'Beharrlichkeit' = perseveranza, tenacia, la qualità di essere persistente."
+    },
+    {
+      "id": 19,
+      "level": "B2",
+      "type": "comprehension",
+      "question": "Lese: 'Die Globalisierung hat zu einer verstärkten Vernetzung von Märkten geführt, was sowohl Chancen als auch Herausforderungen mit sich bringt. Während einige Länder profitieren, erleben andere wirtschaftliche Schwierigkeiten.' Cosa porta la globalizzazione?",
+      "options": ["Solo benefici", "Opportunità e sfide", "Solo problemi", "Nessun cambiamento"],
+      "correctAnswer": 1,
+      "explanation": "Il testo dice 'Chancen als auch Herausforderungen' = opportunità e sfide."
+    },
+    {
+      "id": 20,
+      "level": "B2",
+      "type": "grammar",
+      "question": "Der Mann, dessen Sohn Arzt ist, arbeitet in Berlin.",
+      "options": ["Genitivo", "Nominativo", "Accusativo", "Dativo"],
+      "correctAnswer": 0,
+      "explanation": "'Dessen' è pronome relativo in genitivo, mostrando possesso ('il cui figlio')."
+    },
+    {
+      "id": 21,
+      "level": "C1",
+      "type": "grammar",
+      "question": "Die ___ Situation erfordert eine sofortige Lösung.",
+      "options": ["verwickelnd", "verwickelte", "verwickelt", "verwickele"],
+      "correctAnswer": 1,
+      "explanation": "Aggettivo attributivo: 'verwickelte' (genitivo/accusativo plurale o nominativo femminile). Forma giusta: verwickelte"
+    },
+    {
+      "id": 22,
+      "level": "C1",
+      "type": "vocabulary",
+      "question": "Che cosa significa 'Stellungnahme'?",
+      "options": ["Posizione fisica", "Presa di posizione/Dichiarazione", "Lavoro", "Riunione"],
+      "correctAnswer": 1,
+      "explanation": "'Stellungnahme' = presa di posizione, dichiarazione di opinione. Termine molto usato nel tedesco formale."
+    },
+    {
+      "id": 23,
+      "level": "C1",
+      "type": "completion",
+      "question": "Der Punkt, auf ___ die Regierung besonderes Gewicht legt, ist die Infrastruktur.",
+      "options": ["den", "dem", "der", "das"],
+      "correctAnswer": 1,
+      "explanation": "'Auf dem' richiede dativo. 'Auf welchem Punkt?' - dativo maschile 'dem'."
+    },
+    {
+      "id": 24,
+      "level": "C1",
+      "type": "comprehension",
+      "question": "Lese: 'Die Nominalisierung von Verben ist ein charakteristisches Merkmal der deutschen Sprache. Durch die Umwandlung von Verben in Substantive entstehen neue Möglichkeiten der Ausdrucksweise, die Texte prägnanter und formaler wirken lassen.' Quale è un effetto della nominalizzazione?",
+      "options": ["Rende il testo meno formale", "Rende il testo più conciso e formale", "Elimina i verbi dalla lingua", "Non ha alcun effetto"],
+      "correctAnswer": 1,
+      "explanation": "Il testo dice la nominalizzazione rende i testi 'prägnanter und formaler' = più concisi e formali."
+    },
+    {
+      "id": 25,
+      "level": "C1",
+      "type": "grammar",
+      "question": "Die ___ Werke des Autors zeigen seine künstlerische Entwicklung.",
+      "options": ["gesammelnd", "sammelnde", "gesammelten", "sammelnden"],
+      "correctAnswer": 2,
+      "explanation": "Participio passato attributivo: 'gesammelten' (plurale accusativo). Forma: gesammelten"
+    },
+    {
+      "id": 26,
+      "level": "C2",
+      "type": "vocabulary",
+      "question": "Che cosa significa 'Ambivalenz'?",
+      "options": ["Incertezza semplice", "Coesistenza di sentimenti contrapposti", "Mancanza di opinione", "Superficialità"],
+      "correctAnswer": 1,
+      "explanation": "'Ambivalenz' = ambiguità, il carattere di ciò che è equivoco. Sentimenti o significati contrastanti che coesistono."
+    },
+    {
+      "id": 27,
+      "level": "C2",
+      "type": "completion",
+      "question": "Die Semiose, jenes komplexe Phänomen, ___ durch das Zusammenspiel von Zeichen, Interpretant und Objekt charakterisiert ist, bildet die Grundlage der Semiotik.",
+      "options": ["das", "welches", "dem", "dessen"],
+      "correctAnswer": 1,
+      "explanation": "'Welches' è il pronome relativo corretto per riferirsi a 'Phänomen' (nominativo neutro). Forma: welches"
+    },
+    {
+      "id": 28,
+      "level": "C2",
+      "type": "comprehension",
+      "question": "Lese: 'Die postmoderne Literaturtheorie stellt die essentialistische Auffassung literarischer Bedeutung in Frage. Sie argumentiert, dass Sinnkonstitution nicht durch textinterne Faktoren allein erfolgt, sondern durch das Zusammenwirken von Autor, Text und Leser konfiguriert wird.' Quale affermazione è vera?",
+      "options": ["La teoria postmoderna esclude il ruolo dell'autore", "Il significato dipende solo dal testo", "Il significato è costituito dall'interazione tra autore, testo e lettore", "La teoria moderna favorisce l'essenzialismo"],
+      "correctAnswer": 2,
+      "explanation": "Il testo dice che il significato è 'durch das Zusammenwirken von Autor, Text und Leser konfiguriert wird' = attraverso l'interazione di autore, testo e lettore."
+    },
+    {
+      "id": 29,
+      "level": "C2",
+      "type": "grammar",
+      "question": "Das Sich-Entziehen der Bedeutung vor dem Zugriff einer determinierenden Interpretation ist ___ zu betrachten.",
+      "options": ["als konstitutiv", "zu konstitutiv", "konstitutiv", "konstitutivem"],
+      "correctAnswer": 0,
+      "explanation": "Forma corretta: 'als konstitutiv' (come costitutivo). Si usa 'als' con aggettivo predicativo dopo il verbo 'betrachten'."
+    },
+    {
+      "id": 30,
+      "level": "C2",
+      "type": "vocabulary",
+      "question": "Quale è il significato di 'Apotheose'?",
+      "options": ["Malattia", "Trasformazione in divinità/Apoteosi", "Negazione", "Inizio"],
+      "correctAnswer": 1,
+      "explanation": "'Apotheose' (Apotheose) = elevazione a dignità divina, culmine, apice massimo di gloria o successo."
+    }
+  ]
+}

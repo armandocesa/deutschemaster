@@ -1,0 +1,1160 @@
+{
+  "title": "Goethe-Zertifikat C2 - Großes Deutsches Sprachdiplom",
+  "topics": [
+    {
+      "id": "c2_01",
+      "name": "Gehobener Stil",
+      "explanation": "Caratteristiche of the style elevato in the lingua tedesca written.",
+      "content": {
+        "regola": "the style elevato (gehobener Stil) si caratterizza for: use of the Subjunctive the e II, passivo frequent, Nominalstil, Partizipialattribute estesi, congiunzioni formali (zumal, wenngleich, gleichwohl, nichtsdestotrotz), lessico ricercato, periodi complessi e ben strutturati.\n\nTratti specifici: evitare 'man' (preferire passivo o 'ex. lässt sich'), evitare ripetizioni (to use sinonimi e parafrasi), to use costruzioni with Genitive rather che 'von+Dativ', preferire forme intere (anstelle → anstatt, aufgrund → wegen, hinsichtlich, bezüglich).\n\nFrasi esemplari: 'ex. sei darauf hingewiesen, dass...' (Si fa Present tense che...), 'Dem ist hinzuzufügen, dass...' (to/at ciò va aggiunto che...), 'ex. bleibt festzuhalten, dass...' (Resta from/by constatare che...).",
+        "schema": "| style normale              | style elevato                              |",
+        "esempi": [
+          {
+            "tedesco": "Es sei darauf hingewiesen, dass diese Maßnahmen unerlässlich sind.",
+            "italiano": "Si fa presente che queste misure sono indispensabili.",
+            "english": "Si fa Present tense che queste misure are indispensabili."
+          },
+          {
+            "tedesco": "Wenngleich die Situation schwierig ist, lässt sich eine Lösung finden.",
+            "italiano": "Sebbene la situazione sia difficile, si può trovare una soluzione.",
+            "english": "Sebbene the situazione sia difficile, si può trovare una soluzione."
+          },
+          {
+            "tedesco": "Dem ist hinzuzufügen, dass weitere Untersuchungen notwendig sind.",
+            "italiano": "A ciò va aggiunto che ulteriori indagini sono necessarie.",
+            "english": "to/at ciò va aggiunto che ulteriori indagini are necessarie."
+          },
+          {
+            "tedesco": "Hinsichtlich der Ergebnisse lässt sich Folgendes festhalten.",
+            "italiano": "Riguardo ai risultati si può constatare quanto segue.",
+            "english": "Riguardo to the risultati si può constatare quanto segue."
+          },
+          {
+            "tedesco": "Ungeachtet der Schwierigkeiten wurde das Projekt fortgeführt.",
+            "italiano": "Nonostante le difficoltà il progetto è stato portato avanti.",
+            "english": "Nonostante the difficoltà the progetto is stato portato avanti."
+          },
+          {
+            "tedesco": "Es bleibt abzuwarten, ob die Reformen greifen.",
+            "italiano": "Resta da vedere se le riforme avranno effetto.",
+            "english": "Resta from/by vedere se the riforme avranno effetto."
+          }
+        ],
+        "eccezioni": "the style elevato non significa complessità inutile. Un buon style elevato is chiaro nonostante the complessità. L'eccesso of Nominalstil rende the testo incomprensibile. Anche in the style elevato the chiarezza resta prioritaria.",
+        "uso": "academic texts, giuridici, diplomatici, journalism of qualità. for the C2: saper produrre e comprendere testi in style elevato. Alternare with style più semplice for effetto retorico."
+      },
+      "exercises": [
+        {
+          "question": "Riformula in stile elevato: 'Ich denke, dass...'",
+          "answer": "Meines Erachtens... / Ich vertrete die Auffassung, dass...",
+          "explanation": "Formulazione più formal."
+        },
+        {
+          "question": "Riformula: 'Man muss bedenken, dass...'",
+          "answer": "Es gilt zu bedenken, dass... / In Betracht zu ziehen ist...",
+          "explanation": "Evitare 'man' in the style elevato."
+        },
+        {
+          "question": "Congiunzione elevata per 'obwohl':",
+          "answer": "wenngleich / obschon / ungeachtet der Tatsache, dass",
+          "explanation": "Sinonimi formali."
+        },
+        {
+          "question": "Congiunzione elevata per 'trotzdem':",
+          "answer": "gleichwohl / nichtsdestotrotz / dessen ungeachtet",
+          "explanation": "Connettori formali."
+        },
+        {
+          "question": "Riformula: 'Wir müssen noch warten.'",
+          "answer": "Es bleibt abzuwarten. / Es gilt noch abzuwarten.",
+          "explanation": "Costruzione impersonale formal."
+        },
+        {
+          "question": "Completa: '_____ der Ergebnisse lässt sich Folgendes sagen.'",
+          "answer": "Hinsichtlich / Bezüglich",
+          "explanation": "Preposizioni formali + Gen."
+        }
+      ]
+    },
+    {
+      "id": "c2_02",
+      "name": "Veraltende Formen",
+      "explanation": "Forme grammaticali arcaiche e letterarie of the tedesco.",
+      "content": {
+        "regola": "the tedesco conserva forme grammaticali che are antiquate o letterarie but si incontrano ancora in testi giuridici, religiosi, letterari e in espressioni fisse. the Genitive with verbi (ich bin des Todes = are spacciato), the Subjunctive the in the istruzioni (man nehme = si prenda), forme of cortesia arcaiche.\n\nForme verbali: Präteritum letterario of verbi oggi used solo to the Perfekt (er ward = divenne, er hub an = cominciò). Forme of the Subjunctive Präteritum poco used: hülfe (invece of hälfe), stürbe (for stärbe), würbe (for wärbe).\n\nCostruzioni arcaiche: 'so' come Conjunction Conditional ('So Gott will' = Se Dio vuole), inversione without Conjunction ('Hätte ich das gewusst...' = Se avessi saputo...), Genitive assoluto ('des Morgens' = of mattina).",
+        "schema": "| form moderna          | form arcaica/letteraria        | example                          |",
+        "esempi": [
+          {
+            "tedesco": "Es ward Licht. (Bibbia)",
+            "italiano": "Fu luce. (arcaico per 'wurde')",
+            "english": "Fu luce. (arcaico for 'wurde')"
+          },
+          {
+            "tedesco": "Man nehme drei Eier und 200 Gramm Mehl.",
+            "italiano": "Si prendano tre uova e 200 grammi di farina.",
+            "english": "Si prendano tre uova e 200 grammi of farina."
+          },
+          {
+            "tedesco": "Des Abends ging er spazieren.",
+            "italiano": "Di sera andava a passeggiare. (gen. temporale)",
+            "english": "of sera andava to/at passeggiare. (gen. temporale)"
+          },
+          {
+            "tedesco": "So Gott will, werden wir uns wiedersehen.",
+            "italiano": "Se Dio vuole, ci rivedremo.",
+            "english": "Se Dio vuole, ci rivedremo."
+          },
+          {
+            "tedesco": "Ich bin des Wartens müde.",
+            "italiano": "Sono stanco di aspettare. (gen. con aggettivo)",
+            "english": "are stanco of aspettare. (gen. with Adjective)"
+          },
+          {
+            "tedesco": "Er hub an zu sprechen.",
+            "italiano": "Cominciò a parlare. (arcaico per 'fing an')",
+            "english": "Cominciò to/at parlare. (arcaico for 'fing an')"
+          }
+        ],
+        "eccezioni": "Queste forme non vanno used in the produzione attiva (sembrerebbero innaturali) but bisogna saperle riconoscere in the lettura. Alcune sopravvivono in espressioni fisse: 'Gott sei Dank!' (Grazie to/at Dio), 'Komme, was wolle' (Succeda quel che succeda).",
+        "uso": "for the comprensione of testi letterari classici (Goethe, Schiller), testi religiosi (Bibbia of Lutero), documenti storici, espressioni fisse. to the C2: riconoscere the forme, capire the contesto storico, non usarle in the produzione attiva (except espressioni fisse)."
+      },
+      "exercises": [
+        {
+          "question": "Qual è la forma moderna di 'es ward'?",
+          "answer": "es wurde",
+          "explanation": "Ward = form arcaica of wurde."
+        },
+        {
+          "question": "Cosa significa 'Man nehme 3 Eier'?",
+          "answer": "Si prendano 3 uova. (Konj. I in ricette)",
+          "explanation": "Istruzione with Subjunctive the."
+        },
+        {
+          "question": "Cosa significa 'des Morgens'?",
+          "answer": "di mattina (genitivo temporale arcaico)",
+          "explanation": "form moderna: morgens."
+        },
+        {
+          "question": "Cosa significa 'So Gott will'?",
+          "answer": "Se Dio vuole",
+          "explanation": "'So' arcaico = se (Conditional)."
+        },
+        {
+          "question": "'Gott sei Dank!' - quale forma verbale?",
+          "answer": "Konjunktiv I (congiuntivo esortativo)",
+          "explanation": "Espressione fissa with Konj. the."
+        },
+        {
+          "question": "Quando si incontrano queste forme?",
+          "answer": "In testi letterari classici, religiosi, giuridici, espressioni fisse.",
+          "explanation": "Comprensione passiva, non produzione attiva."
+        }
+      ]
+    },
+    {
+      "id": "c2_03",
+      "name": "Regionale Varianten",
+      "explanation": "Differenze grammaticali e lessicali between/among tedesco standard, austriaco e svizzero.",
+      "content": {
+        "regola": "the tedesco has tre varietà standard principali: Bundesdeutsch (Germania), Österreichisches Deutsch (Austria), Schweizer Hochdeutsch (Svizzera). the differenze riguardano lessico, pronuncia e alcune strutture grammaticali.\n\nLessico: der Junge (D) / der Bub (to/at/CH), die Kartoffel (D) / der Erdapfel (to/at), die Tomate (D) / der Paradeiser (to/at), das Fahrrad (D) / das Velo (CH), der Schrank (D) / der Kasten (to/at), das Abitur (D) / die Matura (to/at/CH).\n\nGrammatica: Perfekt vs Präteritum (in to/at/CH the Präteritum is quasi assente in the parlato, anche for sein/haben: 'Ich bin gewesen' invece of 'Ich war'). Gender: das E-Mail (to/at/CH) vs die E-Mail (D), der Joghurt (D) vs das Joghurt (to/at). Past tense: 'Ich bin gesessen/gestanden/gelegen' (to/at/CH with sein) vs 'Ich habe gesessen' (D with haben).",
+        "schema": "| Deutsch (D)    | Österreichisch (to/at) | Schweizerdeutsch (CH) | Italiano         |",
+        "esempi": [
+          {
+            "tedesco": "Ich bin gesessen. (A/CH) vs Ich habe gesessen. (D)",
+            "italiano": "Sono stato seduto / Ero seduto.",
+            "english": "are stato seduto / Ero seduto."
+          },
+          {
+            "tedesco": "Heuer fahren wir nach Italien. (A = dieses Jahr)",
+            "italiano": "Quest'anno andiamo in Italia.",
+            "english": "Quest'anno andiamo in Italia."
+          },
+          {
+            "tedesco": "Grüß Gott! (A/Süddeutschland) vs Guten Tag! (Norddeutschland)",
+            "italiano": "Buongiorno! (saluto)",
+            "english": "Buongiorno! (saluto)"
+          },
+          {
+            "tedesco": "Der Jänner ist der kälteste Monat. (A)",
+            "italiano": "Gennaio è il mese più freddo.",
+            "english": "Gennaio is the mese più freddo."
+          },
+          {
+            "tedesco": "Ich habe das Velo genommen. (CH)",
+            "italiano": "Ho preso la bicicletta.",
+            "english": "Ho preso the bicicletta."
+          },
+          {
+            "tedesco": "Das ist leiwand! (A, colloquiale = toll/super)",
+            "italiano": "È fantastico!",
+            "english": "is fantastico!"
+          }
+        ],
+        "eccezioni": "the differenze non impediscono the comprensione reciproca. the tedesco standard (Hochdeutsch) is capito ovunque. the dialetti (Bairisch, Schwyzerdütsch, Plattdeutsch) possono to be incomprensibili for parlanti of altre regioni. the Schweizerdeutsch parlato is molto different from the written.",
+        "uso": "to the C2: conoscere the principali differenze, riconoscere austriacismi e elvetismi, adattarsi to the contesto. Non correggere forme regionali come 'errori'. in the test Goethe: the tedesco standard is the norma, but the varianti are accettate."
+      },
+      "exercises": [
+        {
+          "question": "'Erdapfel' in tedesco standard?",
+          "answer": "die Kartoffel (patata)",
+          "explanation": "Austriacismo for Kartoffel."
+        },
+        {
+          "question": "'Das Velo' in tedesco standard?",
+          "answer": "das Fahrrad (bicicletta)",
+          "explanation": "Elvetismo for Fahrrad."
+        },
+        {
+          "question": "In Austria: 'Ich ___ gesessen.' (haben o sein?)",
+          "answer": "bin (in Austria sitzen usa sein)",
+          "explanation": "Austria/Svizzera: sein for sitzen/stehen/liegen."
+        },
+        {
+          "question": "'Jänner' in tedesco standard?",
+          "answer": "Januar (gennaio)",
+          "explanation": "Austriacismo for Januar."
+        },
+        {
+          "question": "Come si saluta in Austria?",
+          "answer": "Grüß Gott! / Servus!",
+          "explanation": "Saluti regionali austriaci."
+        },
+        {
+          "question": "Quali sono le tre varietà standard del tedesco?",
+          "answer": "Bundesdeutsch (D), Österreichisches Deutsch (A), Schweizer Hochdeutsch (CH)",
+          "explanation": "Tre norme standard ufficiali."
+        }
+      ]
+    },
+    {
+      "id": "c2_04",
+      "name": "Wissenschaftlicher Stil",
+      "explanation": "the style scientifico/academic tedesco.",
+      "content": {
+        "regola": "the style scientifico tedesco (Wissenschaftssprache) has caratteristiche specifiche: oggettività (evitare 'ich', to use passivo o 'man'), precisione terminologica, Nominalstil, costruzioni impersonali, use of hedging (attenuazione: 'ex. scheint, dass...', 'ex. lässt sich vermuten, dass...'), riferimenti bibliografici.\n\nStrutture tipiche: 'ex. wurde nachgewiesen, dass...' (is stato dimostrato che), 'Daraus lässt sich schließen, dass...' (from/by ciò si può concludere che), 'Im Folgenden wird dargestellt...' (of seguito viene presentato), 'Die vorliegende Arbeit befasst sich mit...' (the Present tense lavoro si occupa of).\n\nHedging (attenuazione): 'möglicherweise' (possibilmente), 'vermutlich' (presumibilmente), 'tendenziell' (tendenzialmente), 'ex. deutet darauf hin, dass...' (ciò suggerisce che), Konj. II: 'Man könnte argumentieren, dass...'",
+        "schema": "| Funzione           | Espressione                                    |",
+        "esempi": [
+          {
+            "tedesco": "Die vorliegende Studie untersucht den Einfluss von...",
+            "italiano": "Il presente studio esamina l'influenza di...",
+            "english": "the Present tense studio esamina l'influenza of..."
+          },
+          {
+            "tedesco": "Es wurde nachgewiesen, dass der Zusammenhang signifikant ist.",
+            "italiano": "È stato dimostrato che la correlazione è significativa.",
+            "english": "is stato dimostrato che the correlazione is significativa."
+          },
+          {
+            "tedesco": "Daraus lässt sich schließen, dass weitere Forschung notwendig ist.",
+            "italiano": "Da ciò si può concludere che ulteriore ricerca è necessaria.",
+            "english": "from/by ciò si può concludere che ulteriore ricerca is necessaria."
+          },
+          {
+            "tedesco": "Möglicherweise lässt sich dieser Effekt durch... erklären.",
+            "italiano": "Possibilmente questo effetto si può spiegare con...",
+            "english": "Possibilmente questo effetto si può spiegare with..."
+          },
+          {
+            "tedesco": "Wie in Abbildung 3 ersichtlich ist,...",
+            "italiano": "Come si evince dalla figura 3...",
+            "english": "Come si evince from the figura 3..."
+          },
+          {
+            "tedesco": "Im Folgenden werden die Ergebnisse dargestellt und diskutiert.",
+            "italiano": "Di seguito vengono presentati e discussi i risultati.",
+            "english": "of seguito vengono presentati e discussi the risultati."
+          }
+        ],
+        "eccezioni": "in alcune discipline (filosofia, letteratura) the style is più soggettivo. the scienze naturali tendono to/at uno style più impersonale of the scienze umane. the style academic tedesco is tradizionalmente più formal e pesante of quello anglosassone.",
+        "uso": "for tesi, articoli scientifici, relazioni accademiche. to the C2: saper produrre testi in Wissenschaftssprache. Struttura: Einleitung (introduzione), Forschungsstand (stato dell'arte), Methode (metodo), Ergebnisse (risultati), Diskussion (discussione), Fazit (conclusione)."
+      },
+      "exercises": [
+        {
+          "question": "Come si apre un lavoro accademico?",
+          "answer": "Die vorliegende Arbeit befasst sich mit... / untersucht...",
+          "explanation": "Formula of apertura standard."
+        },
+        {
+          "question": "Come si esprime una conclusione?",
+          "answer": "Daraus lässt sich schließen/folgern, dass...",
+          "explanation": "Costruzione impersonale for conclusioni."
+        },
+        {
+          "question": "Come si attenua un'affermazione?",
+          "answer": "möglicherweise / Es scheint, dass / Man könnte argumentieren",
+          "explanation": "Hedging academic."
+        },
+        {
+          "question": "Come si presenta un risultato?",
+          "answer": "Es wurde/konnte nachgewiesen werden, dass...",
+          "explanation": "Passivo for risultati."
+        },
+        {
+          "question": "Perché si evita 'ich' nello stile scientifico?",
+          "answer": "Per oggettività: si usano passivo, man, costruzioni impersonali.",
+          "explanation": "Norma of the style academic tedesco."
+        },
+        {
+          "question": "Come fare riferimento a una fonte?",
+          "answer": "Wie XY (2023) gezeigt/dargestellt hat,...",
+          "explanation": "Citazione accademica."
+        }
+      ]
+    },
+    {
+      "id": "c2_05",
+      "name": "Journalistischer Stil",
+      "explanation": "the style journalistic tedesco with the sue peculiarità.",
+      "content": {
+        "regola": "the style journalistic tedesco has caratteristiche proprie: Subjunctive the for the indirect speech (Er sagte, er sei...), titoli nominali without Article ('Kanzler besucht Rom'), lead informativo (chi, cosa, quando, dove, perché in the prime righe), alternanza Aktiv/Passiv.\n\nStrutture tipiche: 'Wie die Zeitung berichtet,...' (Come riporta the giornale), 'Den Angaben zufolge...' (second the indicazioni), 'Einem Bericht zufolge...' (second un rapporto), 'Wie aus Kreisen des Ministeriums verlautete...' (Come trapelato from/by ambienti of the ministero).\n\nthe titoli giornalistici tedeschi spesso: omettono articoli e ausiliari, usano the Present tense anche for eventi passati, usano sostantivi composti nuovi (Flüchtlingskrise, Klimaschutzdebatte).",
+        "schema": "| Elemento           | example                                        |",
+        "esempi": [
+          {
+            "tedesco": "Bundeskanzler besucht Rom - Neue Zusammenarbeit geplant",
+            "italiano": "Il cancelliere visita Roma - Nuova collaborazione pianificata",
+            "english": "the cancelliere visita Roma - Nuova collaborazione pianificata"
+          },
+          {
+            "tedesco": "Wie die Nachrichtenagentur berichtet, sei es zu einem Unfall gekommen.",
+            "italiano": "Come riporta l'agenzia stampa, si sarebbe verificato un incidente.",
+            "english": "Come riporta l'agenzia stampa, si sarebbe verificato un incidente."
+          },
+          {
+            "tedesco": "Den Angaben zufolge seien drei Personen verletzt worden.",
+            "italiano": "Secondo le indicazioni tre persone sarebbero rimaste ferite.",
+            "english": "second the indicazioni tre people sarebbero rimaste ferite."
+          },
+          {
+            "tedesco": "Der Präsident erklärte, er werde sich für Reformen einsetzen.",
+            "italiano": "Il presidente dichiarò che si sarebbe impegnato per le riforme.",
+            "english": "the presidente dichiarò che si sarebbe impegnato for the riforme."
+          },
+          {
+            "tedesco": "Laut Polizeibericht wurde der Verdächtige festgenommen.",
+            "italiano": "Secondo il rapporto della polizia il sospettato è stato arrestato.",
+            "english": "second the rapporto of the polizia the sospettato is stato arrestato."
+          },
+          {
+            "tedesco": "Es bleibt abzuwarten, ob die Maßnahmen Wirkung zeigen.",
+            "italiano": "Resta da vedere se le misure avranno effetto.",
+            "english": "Resta from/by vedere se the misure avranno effetto."
+          }
+        ],
+        "eccezioni": "in the journalism online the style is spesso più informale. the tabloid (Bild) usano uno style molto different from/by quello of the giornali of qualità (FAZ, SZ). the Subjunctive the is meno rigoroso in the media digitali. the titoli possono to use giochi of parole.",
+        "uso": "for comprensione of testi giornalistici of qualità. for produzione: saper scrivere commenti, relazioni in style journalistic. the Subjunctive the is the tratto più caratteristico. to the C2: padroneggiare the lettura of FAZ, SZ, NZZ e the produzione of testi giornalistici."
+      },
+      "exercises": [
+        {
+          "question": "Quale forma verbale caratterizza il giornalismo tedesco?",
+          "answer": "Konjunktiv I per il discorso indiretto",
+          "explanation": "Er sagte, er sei..."
+        },
+        {
+          "question": "Come si introduce una fonte?",
+          "answer": "Laut / Den Angaben zufolge / Wie...berichtet",
+          "explanation": "Attribuzione giornalistica."
+        },
+        {
+          "question": "Caratteristica dei titoli giornalistici:",
+          "answer": "Omissione di articoli e ausiliari, presente storico",
+          "explanation": "Titoli nominali concisi."
+        },
+        {
+          "question": "Riformula: 'Er hat gesagt: Ich bin zufrieden.'",
+          "answer": "Er sagte, er sei zufrieden.",
+          "explanation": "indirect speech with Konj. the."
+        },
+        {
+          "question": "Cosa significa 'Den Angaben zufolge'?",
+          "answer": "Secondo le indicazioni/informazioni",
+          "explanation": "Formula of attribuzione."
+        },
+        {
+          "question": "Completa: Es ___ abzuwarten, ob die Reform Wirkung zeigt.",
+          "answer": "bleibt",
+          "explanation": "ex. bleibt abzuwarten = resta from/by vedere."
+        }
+      ]
+    },
+    {
+      "id": "c2_06",
+      "name": "Juristischer Stil",
+      "explanation": "the style giuridico-burocratico tedesco.",
+      "content": {
+        "regola": "the style giuridico tedesco (Rechtssprache) is caratterizzato from/by: frasi molto lunghe e complesse, Nominalstil estremo, passivo frequent, terminologia specializzata, riferimenti to/at paragrafi of legge, costruzioni with 'sein + zu + Infinitiv' for obblighi.\n\nStrutture tipiche: 'Gemäß § 12 des BGB...' (to the sensi of the § 12 of the Codice civile), 'Unbeschadet der Regelung in...' (Fatta salva the disposizione of), 'Im Sinne dieses Gesetzes...' (to the sensi of the Present tense legge), 'Der Antragsteller hat Anspruch auf...' (the richiedente has diritto to/at).\n\nTerminologia: Anspruch (diritto/pretesa), Antragsteller (richiedente), Beklagter (imputato), Kläger (querelante), Verordnung (regolamento), Vorschrift (disposizione), Ermessen (discrezionalità).",
+        "schema": "| Struttura giuridica                 | Significato                         |",
+        "esempi": [
+          {
+            "tedesco": "Gemäß § 823 BGB ist zum Schadensersatz verpflichtet, wer...",
+            "italiano": "Ai sensi del § 823 BGB è obbligato al risarcimento chi...",
+            "english": "to the sensi of the § 823 BGB is obbligato to the risarcimento chi..."
+          },
+          {
+            "tedesco": "Der Antrag ist innerhalb von drei Monaten zu stellen.",
+            "italiano": "La domanda deve essere presentata entro tre mesi.",
+            "english": "the domanda deve to be presentata entro tre mesi."
+          },
+          {
+            "tedesco": "Im Sinne dieses Gesetzes gilt als Arbeitnehmer, wer...",
+            "italiano": "Ai sensi della presente legge è considerato lavoratore chi...",
+            "english": "to the sensi of the Present tense legge is considerato lavoratore chi..."
+          },
+          {
+            "tedesco": "Unbeschadet der Regelung in Absatz 1...",
+            "italiano": "Fatta salva la disposizione del comma 1...",
+            "english": "Fatta salva the disposizione of the comma 1..."
+          },
+          {
+            "tedesco": "Der Mieter ist verpflichtet, die Miete pünktlich zu zahlen.",
+            "italiano": "L'inquilino è obbligato a pagare l'affitto puntualmente.",
+            "english": "L'inquilino is obbligato to/at pagare l'affitto puntualmente."
+          },
+          {
+            "tedesco": "Unter Berücksichtigung aller Umstände entschied das Gericht...",
+            "italiano": "Tenuto conto di tutte le circostanze il tribunale decise...",
+            "english": "Tenuto conto of tutte the circostanze the tribunale decise..."
+          }
+        ],
+        "eccezioni": "the style giuridico tedesco is noto for the sua complessità. the frasi possono estendersi for un intero paragrafo. the comprensione richiede conoscenza of the terminologia specifica. the Rechtssprache tedesca influenza quella of Austria e Svizzera.",
+        "uso": "for the comprensione of contratti, leggi, sentenze. to the C2: riconoscere the strutture giuridiche, capire documenti legali. Non serve produrre testi giuridici but comprenderli. Utile for chi vive/lavora in paesi germanofoni."
+      },
+      "exercises": [
+        {
+          "question": "Cosa significa 'Gemäß § 12 des BGB'?",
+          "answer": "Ai sensi del paragrafo 12 del Codice civile tedesco",
+          "explanation": "Gemäß + Gen. = to the sensi of."
+        },
+        {
+          "question": "Cosa significa 'Der Antrag ist zu stellen'?",
+          "answer": "La domanda deve essere presentata",
+          "explanation": "Sein + zu + Inf. = obbligo."
+        },
+        {
+          "question": "Cosa significa 'Im Sinne dieses Gesetzes'?",
+          "answer": "Ai sensi della presente legge",
+          "explanation": "Formula giuridica standard."
+        },
+        {
+          "question": "Traduzione di 'Anspruch':",
+          "answer": "Diritto/pretesa (giuridica)",
+          "explanation": "Termine giuridico fondamentale."
+        },
+        {
+          "question": "Cosa significa 'Unbeschadet'?",
+          "answer": "Fatta salva / Ferma restando",
+          "explanation": "Preposition giuridica + Gen."
+        },
+        {
+          "question": "Caratteristiche dello stile giuridico:",
+          "answer": "Frasi lunghe, Nominalstil, passivo, terminologia, sein+zu+Inf.",
+          "explanation": "Tratti tipici of the Rechtssprache."
+        }
+      ]
+    },
+    {
+      "id": "c2_07",
+      "name": "Rhetorische Mittel",
+      "explanation": "Mezzi retorici for the persuasione e l'argomentazione efficace.",
+      "content": {
+        "regola": "the mezzi retorici (Rhetorische Mittel) vanno oltre the Stilmittel letterari: servono to/at persuadere, convincere, emozionare. Ethos (credibilità of the parlante), Pathos (appello to the emozioni), Logos (argomenti logici) - the tre modalità retoriche of Aristotele.\n\nTecniche avanzate: captatio benevolentiae (cattura of the simpatia: 'Wie Sie sicher wissen...'), concession (concessione strategica: 'Zwar ist ex. richtig, dass...aber'), reductio ad absurdum (portare all'assurdo l'argomento avversario), antitesi (contrasto enfatico), chiasmo (struttura incrociata: 'Nicht der Mensch für den Staat, sondern der Staat für den Menschen').\n\nFormule retoriche: 'Lassen Sie mich zunächst...' (Mi permetta innanzitutto of...), 'ex. steht außer Frage, dass...' (is outside discussione che...), 'Ich möchte zu bedenken geben, dass...' (Vorrei far considerare che...).",
+        "schema": "| means/way retorico         | Funzione              | example                               |",
+        "esempi": [
+          {
+            "tedesco": "Wie Sie sicher alle wissen, stehen wir vor einer großen Herausforderung.",
+            "italiano": "Come sicuramente saprete tutti, ci troviamo di fronte a una grande sfida.",
+            "english": "Come sicuramente saprete tutti, ci troviamo of fronte to/at una grande sfida."
+          },
+          {
+            "tedesco": "Zwar ist die Wirtschaftslage schwierig, aber gerade deshalb müssen wir handeln.",
+            "italiano": "È vero che la situazione economica è difficile, ma proprio per questo dobbiamo agire.",
+            "english": "is vero che the situazione economica is difficile, but proprio for questo dobbiamo agire."
+          },
+          {
+            "tedesco": "Es steht außer Frage, dass Bildung der Schlüssel zum Erfolg ist.",
+            "italiano": "È fuori discussione che l'istruzione è la chiave del successo.",
+            "english": "is outside discussione che l'istruzione is the chiave of the successo."
+          },
+          {
+            "tedesco": "Nicht die Schule für die Schüler, sondern die Schüler für die Schule? Nein!",
+            "italiano": "Non la scuola per gli studenti, ma gli studenti per la scuola? No!",
+            "english": "Non the scuola for gli studenti, but gli studenti for the scuola? No!"
+          },
+          {
+            "tedesco": "Freiheit, Gleichheit, Solidarität - das sind unsere Werte.",
+            "italiano": "Libertà, uguaglianza, solidarietà - questi sono i nostri valori.",
+            "english": "Libertà, uguaglianza, solidarietà - questi are the nostri valori."
+          },
+          {
+            "tedesco": "Ich möchte zu bedenken geben, dass die Folgen gravierend sein könnten.",
+            "italiano": "Vorrei far considerare che le conseguenze potrebbero essere gravi.",
+            "english": "Vorrei far considerare che the conseguenze potrebbero to be gravi."
+          }
+        ],
+        "eccezioni": "the retorica eccessiva o manipolativa is riconoscibile e controproducente. in tedesco the retorica tende to/at to be più contenuta che in the lingue romanze. L'argomentazione logica is generalmente più apprezzata dell'eloquenza emotiva in the cultura tedesca.",
+        "uso": "for discorsi, presentazioni, testi argomentativi of alto livello. to the C2: saper to use e riconoscere mezzi retorici. Combinare Ethos, Pathos e Logos. Adattare the retorica to the pubblico e to the contesto culturale tedesco."
+      },
+      "exercises": [
+        {
+          "question": "Cos'è la captatio benevolentiae?",
+          "answer": "Cattura della simpatia del pubblico all'inizio del discorso.",
+          "explanation": "Wie Sie sicher wissen..."
+        },
+        {
+          "question": "Cos'è la concessione strategica?",
+          "answer": "Ammettere un punto dell'avversario per poi confutarlo.",
+          "explanation": "Zwar...aber..."
+        },
+        {
+          "question": "Esempio di chiasmo:",
+          "answer": "Nicht A für B, sondern B für A.",
+          "explanation": "Struttura incrociata for enfasi."
+        },
+        {
+          "question": "Cos'è il tricolon?",
+          "answer": "Tre elementi in serie per effetto ritmico.",
+          "explanation": "Schnell, effektiv, nachhaltig."
+        },
+        {
+          "question": "Formula per 'È fuori discussione che...':",
+          "answer": "Es steht außer Frage, dass...",
+          "explanation": "Affermazione retorica forte."
+        },
+        {
+          "question": "Quale modalità retorica è più apprezzata nella cultura tedesca?",
+          "answer": "Logos (argomentazione logica)",
+          "explanation": "Rispetto to/at Pathos (emozione)."
+        }
+      ]
+    },
+    {
+      "id": "c2_08",
+      "name": "Valenz und Dependenz",
+      "explanation": "Teoria of the valenza verbale e struttura of the frase.",
+      "content": {
+        "regola": "the Valenztheorie (teoria of the valenza) descrive quanti e quali complementi un Verb richiede. Ogni Verb has una 'valenza', that is un Number fisso of posizioni from/by riempire. Verbi avalenti: 'ex. regnet' (0 argomenti). Monovalenti: 'schlafen' (1 arg.: subject). Bivalenti: 'sehen' (2 arg.: sogg.+acc.). Trivalenti: 'geben' (3 arg.: sogg.+dat.+acc.).\n\nOgni posizione has un Case specifico (Kasus): 'geben' richiede Nom. + Dat. + Akk. the tipo of complement fa parte of the 'reggenza' of the Verb. Complementi obbligatori (Ergänzungen) vs facoltativi (Angaben): 'Er wohnt in BERLIN' (obbligatorio locale) vs 'Er arbeitet HEUTE' (facoltativo temporale).\n\nthe Dependenzgrammatik vede the Verb come centro of the frase: tutti gli altri elementi 'dipendono' from/by esso.",
+        "schema": "| Valenza | Tipo         | Verb     | Struttura          | example                  |",
+        "esempi": [
+          {
+            "tedesco": "Es regnet. (avalente: nessun argomento reale)",
+            "italiano": "Piove.",
+            "english": "Piove."
+          },
+          {
+            "tedesco": "Das Kind schläft. (monovalente: solo soggetto)",
+            "italiano": "Il bambino dorme.",
+            "english": "the bambino dorme."
+          },
+          {
+            "tedesco": "Er liest ein Buch. (bivalente: sogg. + acc.)",
+            "italiano": "Legge un libro.",
+            "english": "Legge un libro."
+          },
+          {
+            "tedesco": "Ich helfe dir. (bivalente: sogg. + dat.)",
+            "italiano": "Ti aiuto.",
+            "english": "Ti aiuto."
+          },
+          {
+            "tedesco": "Ich gebe dir das Buch. (trivalente: sogg. + dat. + acc.)",
+            "italiano": "Ti do il libro.",
+            "english": "Ti do the libro."
+          },
+          {
+            "tedesco": "Er wohnt in Berlin. (bivalente: sogg. + loc. obbligatorio)",
+            "italiano": "Abita a Berlino.",
+            "english": "Abita to/at Berlino."
+          }
+        ],
+        "eccezioni": "Alcuni verbi cambiano valenza with significati different: 'essen' bivalente (Ich esse einen Apfel) o monovalente (Ich esse). 'Fahren' bivalente intransitivo (Ich fahre nach Berlin) o trivalente transitivo (Ich fahre das Auto in die Garage). the valenza is un continuum, non categorie rigide.",
+        "uso": "the teoria of the valenza is the fondamento of the grammatica tedesca moderna. Utile for: capire perché certi complementi are obbligatori, costruire frasi corrette, analizzare errori. to the C2: capire the struttura profonda of the frase tedesca."
+      },
+      "exercises": [
+        {
+          "question": "Quante valenze ha 'regnen'?",
+          "answer": "0 (avalente): Es regnet.",
+          "explanation": "Nessun argomento reale."
+        },
+        {
+          "question": "Quante valenze ha 'geben'?",
+          "answer": "3 (trivalente): Nom. + Dat. + Akk.",
+          "explanation": "Ich gebe dir das Buch."
+        },
+        {
+          "question": "'Wohnen' è monovalente o bivalente?",
+          "answer": "Bivalente: Nom. + complemento locale obbligatorio.",
+          "explanation": "Er wohnt *(in Berlin). without luogo is incompleto."
+        },
+        {
+          "question": "Differenza tra Ergänzung e Angabe?",
+          "answer": "Ergänzung: obbligatorio (dalla valenza). Angabe: facoltativo.",
+          "explanation": "'in Berlin wohnen' (obbl.) vs 'heute arbeiten' (fac.)."
+        },
+        {
+          "question": "Cos'è la teoria della valenza?",
+          "answer": "Descrive quanti e quali complementi un verbo richiede.",
+          "explanation": "the Verb come centro of the frase."
+        },
+        {
+          "question": "Come cambia la valenza di 'fahren'?",
+          "answer": "Intransitivo (2: Ich fahre nach Berlin) vs Transitivo (3: Ich fahre das Auto)",
+          "explanation": "the valenza dipende dall'use."
+        }
+      ]
+    },
+    {
+      "id": "c2_09",
+      "name": "Pragmatik",
+      "explanation": "Pragmatica linguistica: atti linguistici, implicature, cortesia.",
+      "content": {
+        "regola": "the pragmatica studia the language in use: non cosa significano the parole letteralmente, but cosa the parlante intende. Atti linguistici (Sprechakte): assertivi (affermazioni), direttivi (ordini, richieste), commissivi (promesse), espressivi (ringraziamenti, scuse), dichiarativi (sentenze).\n\nAtti linguistici indiretti: 'Könnten Sie das Fenster schließen?' is formalmente una domanda but pragmaticamente una richiesta. the cortesia (Höflichkeit) tedesca usa: Subjunctive II, particelle attenuative (vielleicht, eventuell), costruzioni indirette.\n\nImplicature: ciò che is suggerito without to be detto. 'Er ist pünktlich.' (implicatura: gli altri non the are). Principio of cooperazione of Grice: quantità, qualità, relazione, Mood.",
+        "schema": "| Atto linguistico | Diretto              | Indiretto (cortese)              |",
+        "esempi": [
+          {
+            "tedesco": "Könnten Sie mir vielleicht helfen? (richiesta indiretta)",
+            "italiano": "Potrebbe forse aiutarmi?",
+            "english": "Potrebbe forse aiutarmi?"
+          },
+          {
+            "tedesco": "Das Essen war interessant. (critica velata)",
+            "italiano": "Il cibo era 'interessante'. (= non buono)",
+            "english": "the cibo era 'interessante'. (= non buono)"
+          },
+          {
+            "tedesco": "Ich würde vorschlagen, dass wir... (suggerimento attenuato)",
+            "italiano": "Proporrei che noi...",
+            "english": "Proporrei che noi..."
+          },
+          {
+            "tedesco": "Da wäre noch Verbesserungspotenzial. (critica cortese)",
+            "italiano": "Ci sarebbe ancora potenziale di miglioramento.",
+            "english": "Ci sarebbe ancora potenziale of miglioramento."
+          },
+          {
+            "tedesco": "Hättest du vielleicht Lust, ins Kino zu gehen? (invito attenuato)",
+            "italiano": "Avresti forse voglia di andare al cinema?",
+            "english": "Avresti forse voglia of to go to the cinema?"
+          },
+          {
+            "tedesco": "Es ist kalt hier. (richiesta indiretta: chiudi la finestra)",
+            "italiano": "Fa freddo qui. (= chiudi la finestra)",
+            "english": "Fa freddo qui. (= chiudi the finestra)"
+          }
+        ],
+        "eccezioni": "the pragmatica varia culturalmente: ciò che is cortese in tedesco può sembrare diretto in italiano e viceversa. the tedeschi tendono to/at to be più diretti degli italiani but usano attenuazioni formali (Subjunctive II). the humor tedesco has aspetti pragmatici specifici.",
+        "uso": "to the C2: capire non solo cosa si dice but cosa si intende. Riconoscere atti linguistici indiretti. Adattare the grado of cortesia to the contesto. Capire implicature e sottintesi. to use strategie of cortesia negative (non imporre) e positive (mostrare interesse)."
+      },
+      "exercises": [
+        {
+          "question": "'Könnten Sie das Fenster zumachen?' Atto linguistico?",
+          "answer": "Direttivo indiretto (richiesta cortese, non domanda vera)",
+          "explanation": "Formalmente domanda, pragmaticamente richiesta."
+        },
+        {
+          "question": "'Da wäre noch Verbesserungspotenzial.' Significato pragmatico?",
+          "answer": "Critica cortese: 'non è abbastanza buono, va migliorato'",
+          "explanation": "Attenuazione estrema of una critica."
+        },
+        {
+          "question": "'Es ist kalt hier.' Come atto indiretto?",
+          "answer": "Richiesta indiretta: 'chiudi la finestra / accendi il riscaldamento'",
+          "explanation": "L'ascoltatore deve inferire l'intenzione."
+        },
+        {
+          "question": "Quali strategie di cortesia usa il tedesco?",
+          "answer": "Konjunktiv II, particelle (vielleicht, eventuell), costruzioni indirette",
+          "explanation": "Attenuazione formal."
+        },
+        {
+          "question": "Cosa sono le implicature?",
+          "answer": "Significati suggeriti ma non detti esplicitamente.",
+          "explanation": "Principio of cooperazione of Grice."
+        },
+        {
+          "question": "Differenza pragmatica culturale italiano-tedesco?",
+          "answer": "I tedeschi sono generalmente più diretti ma con attenuazioni formali.",
+          "explanation": "different convenzioni of cortesia."
+        }
+      ]
+    },
+    {
+      "id": "c2_10",
+      "name": "Kohäsion und Kohärenz",
+      "explanation": "Coesione grammaticale e coerenza semantica in the testo.",
+      "content": {
+        "regola": "the Kohäsion (coesione) riguarda the legami GRAMMATICALI between/among the parti of the testo: pronomi, connettori, ripetizioni lessicali, ellissi, tempi verbali coerenti. the Kohärenz (coerenza) riguarda the legami LOGICI e semantici: the testo 'has senso', the idee are collegate logicamente.\n\nMezzi of coesione: 1) Referenza: pronomi (er, sie, ex.), dimostrativi (dieser, jener), from/by-Komposita (darüber, daran). 2) Sostituzione: sinonimi, iperonomi, parafrasi. 3) Ellissi: omissione of elementi recuperabili. 4) Conjunction: connettori logici. 5) Coesione lessicale: ripetizioni, collocazioni.\n\nMezzi of coerenza: 1) Progressione tematica (stem→rema). 2) Isotopia (coerenza of the campo semantico). 3) Presupposizioni condivise. 4) Schemi testuali (Textmuster).",
+        "schema": "| Tipo coesione    | means/way                    | example                        |",
+        "esempi": [
+          {
+            "tedesco": "Der Lehrer kam herein. Er begrüßte die Schüler. (referenza pronominale)",
+            "italiano": "L'insegnante entrò. Salutò gli studenti.",
+            "english": "L'insegnante entrò. Salutò gli studenti."
+          },
+          {
+            "tedesco": "Das Problem wurde analysiert. Daraus ergab sich, dass... (da-Kompositum)",
+            "italiano": "Il problema fu analizzato. Da ciò risultò che...",
+            "english": "the problema fu analizzato. from/by ciò risultò che..."
+          },
+          {
+            "tedesco": "Berlin ist eine Großstadt. Die deutsche Hauptstadt hat... (sostituzione)",
+            "italiano": "Berlino è una grande città. La capitale tedesca ha...",
+            "english": "Berlino is una grande città. the capitale tedesca has..."
+          },
+          {
+            "tedesco": "Er liest gern Romane, sie dagegen Sachbücher. (ellissi + contrasto)",
+            "italiano": "Lui legge volentieri romanzi, lei invece saggi. (ellissi di 'liest')",
+            "english": "Lui legge volentieri romanzi, lei invece saggi. (ellissi of 'liest')"
+          },
+          {
+            "tedesco": "Zunächst werden die Ursachen untersucht. Anschließend... (sequenza)",
+            "italiano": "Innanzitutto vengono esaminate le cause. Successivamente...",
+            "english": "Innanzitutto vengono esaminate the cause. Successivamente..."
+          },
+          {
+            "tedesco": "Das Ergebnis war überraschend. Dieses Resultat zeigt, dass... (sostit.+dim.)",
+            "italiano": "Il risultato fu sorprendente. Questo risultato mostra che...",
+            "english": "the risultato fu sorprendente. Questo risultato mostra che..."
+          }
+        ],
+        "eccezioni": "Un testo può to be coeso but non coerente: the frasi are grammaticalmente collegate but non hanno senso logico. Può anche to be coerente but poco coeso: has senso but mancano the legami espliciti. Un buon testo has entrambe the qualità.",
+        "uso": "for the produzione of testi of qualità to/at livello C2. Variare the mezzi of coesione (non ripetere sempre gli stessi pronomi). Mantenere the coerenza logica. to use connettori appropriati. Saper analizzare the struttura testuale."
+      },
+      "exercises": [
+        {
+          "question": "Differenza tra coesione e coerenza?",
+          "answer": "Coesione: legami grammaticali. Coerenza: legami logici/semantici.",
+          "explanation": "Grammatica vs contenuto."
+        },
+        {
+          "question": "Quali sono i mezzi di referenza?",
+          "answer": "Pronomi, dimostrativi, da-Komposita.",
+          "explanation": "Elementi che rimandano ad altri in the testo."
+        },
+        {
+          "question": "Cos'è la sostituzione lessicale?",
+          "answer": "Usare sinonimi o iperonomi per evitare ripetizioni.",
+          "explanation": "Auto → Wagen / Fahrzeug."
+        },
+        {
+          "question": "Cos'è l'ellissi?",
+          "answer": "Omissione di elementi recuperabili dal contesto.",
+          "explanation": "Er trinkt Kaffee, sie Tee. (omesso: trinkt)"
+        },
+        {
+          "question": "Cos'è la progressione tematica?",
+          "answer": "Il modo in cui tema (dato) e rema (nuovo) si collegano tra frasi.",
+          "explanation": "L'informazione nuova diventa stem of the frase successiva."
+        },
+        {
+          "question": "Può un testo essere coeso ma incoerente?",
+          "answer": "Sì: frasi grammaticalmente collegate ma senza senso logico.",
+          "explanation": "Coesione ≠ coerenza."
+        }
+      ]
+    },
+    {
+      "id": "c2_11",
+      "name": "Komplexe Hypotaxe",
+      "explanation": "Periodi complessi with subordinate multiple e nidificate.",
+      "content": {
+        "regola": "bisogna padroneggiare periodi with più subordinate nidificate (Schachtelsätze). Tipi of nidificazione: 1) Subordinate in serie: '...weil er müde war, obwohl er gut geschlafen hatte.' 2) Subordinate nidificate: '...weil er glaubt, dass er alles weiß.' 3) Subordinate inside subordinate: '...weil er, der immer pünktlich ist, zu spät kam.'\n\nRegole for the comprensione: identificare the verbi finiti, contare the congiunzioni subordinanti, ricostruire the struttura ad albero. Ogni Verb finito corrisponde to/at una frase.\n\nin the produzione: non esagerare with the complessità. Massimo 2-3 livelli of nidificazione. Frasi troppo complesse diventano incomprensibili. the buon style alterna frasi brevi e lunghe.",
+        "schema": "Serie (paratax subordinata):\n| HS: Er kam zu spät, | NS1: weil er verschlafen hatte, | NS2: obwohl er den Wecker gestellt hatte. |\n\nNidificazione:\n| HS: Er sagte, | NS1: dass er glaube, | NS2: dass sie recht habe. |\n\nInterposizione:\n| HS inizio: Der Mann, | NS: der gestern ankam, | HS fine: ist mein Bruder. |",
+        "esempi": [
+          {
+            "tedesco": "Er sagte, dass er glaube, dass die Situation sich verbessern werde.",
+            "italiano": "Disse di credere che la situazione sarebbe migliorata.",
+            "english": "Disse of credere che the situazione sarebbe migliorata."
+          },
+          {
+            "tedesco": "Die Frau, die gestern ankam und die wir vom Flughafen abholten, ist meine Schwester.",
+            "italiano": "La donna che è arrivata ieri e che abbiamo preso all'aeroporto è mia sorella.",
+            "english": "the donna che is arrivata ieri e che abbiamo preso all'aeroporto is mia sorella."
+          },
+          {
+            "tedesco": "Obwohl er wusste, dass die Prüfung schwer sein würde, hat er nicht genug gelernt.",
+            "italiano": "Sebbene sapesse che l'esame sarebbe stato difficile, non ha studiato abbastanza.",
+            "english": "Sebbene sapesse che l'esame sarebbe stato difficile, non has studiato abbastanza."
+          },
+          {
+            "tedesco": "Ich bin der Meinung, dass jeder, der diese Regeln kennt, sie auch befolgen sollte.",
+            "italiano": "Sono dell'opinione che chiunque conosca queste regole dovrebbe anche seguirle.",
+            "english": "are dell'opinione che chiunque conosca queste regole dovrebbe anche seguirle."
+          },
+          {
+            "tedesco": "Nachdem er erfahren hatte, dass sein Antrag abgelehnt worden war, beschloss er, Widerspruch einzulegen.",
+            "italiano": "Dopo aver saputo che la sua domanda era stata respinta, decise di fare ricorso.",
+            "english": "Dopo aver saputo che the sua domanda era stata respinta, decise of to do/make ricorso."
+          }
+        ],
+        "eccezioni": "Gli Schachtelsätze (periodi nidificati) are tipici of the prosa accademica e giuridica tedesca. in the lingua moderna si preferiscono frasi più brevi e chiare. Mark Twain scherzava on the lunghezza of the frasi tedesche. Un buon testo varia the lunghezza of the frasi.",
+        "uso": "to the C2: saper comprendere e produrre periodi complessi. in the comprensione: identificare the verbi, contare the congiunzioni. in the produzione: non esagerare, alternare with frasi brevi. the style academic richiede questa competenza."
+      },
+      "exercises": [
+        {
+          "question": "Quante frasi contiene: 'Er sagte, dass er glaube, dass sie recht habe.'?",
+          "answer": "3 (una principale + due subordinate nidificate)",
+          "explanation": "Tre verbi finiti = tre frasi."
+        },
+        {
+          "question": "Riscrivi più semplicemente: 'Er glaubt, dass sie, die immer recht hat, auch diesmal recht hat.'",
+          "answer": "Er glaubt, dass sie auch diesmal recht hat. Sie hat nämlich immer recht.",
+          "explanation": "Separare in frasi più brevi."
+        },
+        {
+          "question": "Identifica la struttura: 'Obwohl er wusste, dass es schwer wird, machte er weiter.'",
+          "answer": "HS: machte er weiter. NS1: Obwohl er wusste. NS2: dass es schwer wird.",
+          "explanation": "NS2 nidificata inside NS1."
+        },
+        {
+          "question": "Massimo consigliato di livelli di nidificazione?",
+          "answer": "2-3 livelli",
+          "explanation": "Più of 3 rende the testo incomprensibile."
+        },
+        {
+          "question": "Come si analizza una frase complessa?",
+          "answer": "Identificare verbi finiti, contare congiunzioni, ricostruire struttura.",
+          "explanation": "Ogni Verb finito = una frase."
+        },
+        {
+          "question": "Cos'è uno Schachtelsatz?",
+          "answer": "Un periodo con subordinate nidificate l'una dentro l'altra.",
+          "explanation": "Tipico of the prosa accademica/giuridica tedesca."
+        }
+      ]
+    },
+    {
+      "id": "c2_12",
+      "name": "Ellipsen",
+      "explanation": "Omissioni grammaticali in the tedesco parlato e written.",
+      "content": {
+        "regola": "L'ellissi is l'omissione of elementi linguistici recuperabili from the contesto. in tedesco: 1) Ellissi coordinata: omissione of parti comuni in frasi coordinate: 'Ich trinke Kaffee und sie (trinkt) Tee.' 2) Ellissi of the subject: dopo 'und' with the stesso subject: 'Er stand auf und (er) ging.' 3) Ellissi of the Verb: in risposte: 'Wer kommt? - Ich (komme).' 4) Gapping: omissione of the Verb in frasi parallele: 'Er liest Romane, sie Sachbücher.'\n\nin the parlato: ellissi molto frequent. 'Hunger?' (= Hast du Hunger?), 'Kein Problem!' (= Das ist kein Problem), 'Und?' (= Und was ist passiert?). in the titoli giornalistici: omissione sistematica of articoli e ausiliari.\n\nL'ellissi is un means/way of coesione testuale: collega the frasi evitando ripetizioni.",
+        "schema": "| Tipo                | example completo                    | with ellissi                  |",
+        "esempi": [
+          {
+            "tedesco": "Er trinkt Kaffee, sie Tee. (gapping)",
+            "italiano": "Lui beve caffè, lei tè.",
+            "english": "Lui beve caffè, lei tè."
+          },
+          {
+            "tedesco": "Er stand auf und ging zur Tür. (ellissi soggetto)",
+            "italiano": "Si alzò e andò alla porta.",
+            "english": "Si alzò e andò to the porta."
+          },
+          {
+            "tedesco": "Wer hat das gemacht? - Ich. (ellissi verbo)",
+            "italiano": "Chi l'ha fatto? - Io.",
+            "english": "Chi l'has fatto? - Io."
+          },
+          {
+            "tedesco": "Hunger? - Ja! (ellissi nel parlato)",
+            "italiano": "Fame? - Sì!",
+            "english": "Fame? - Sì!"
+          },
+          {
+            "tedesco": "Kanzler in Rom (titolo: ellissi articolo+verbo)",
+            "italiano": "Cancelliere a Roma",
+            "english": "Cancelliere to/at Roma"
+          },
+          {
+            "tedesco": "Je mehr, desto besser. (ellissi massima)",
+            "italiano": "Più è, meglio è.",
+            "english": "Più is, meglio is."
+          }
+        ],
+        "eccezioni": "Non tutti gli elementi possono to be omessi for ellissi. the Verb finito in the posizione 2 non si omette (except in the coordinate dopo 'und'). the ellissi devono to be recuperabili from the contesto immediato. Ellissi ambigue are from/by evitare.",
+        "uso": "in the parlato: molto frequent, rendono the comunicazione naturale. in the written: the ellissi coordinate are normali. in the titoli: convenzionali. Nell'analisi testuale: identificare gli elementi omessi. to the C2: to use the ellissi naturalmente e riconoscerle."
+      },
+      "exercises": [
+        {
+          "question": "Identifica l'ellissi: 'Er liest Romane, sie Sachbücher.'",
+          "answer": "Omesso: 'liest' nella seconda parte.",
+          "explanation": "Gapping: the Verb common is omesso."
+        },
+        {
+          "question": "Identifica l'ellissi: 'Wer kommt? - Ich.'",
+          "answer": "Omesso: 'komme'.",
+          "explanation": "Risposta ellittica."
+        },
+        {
+          "question": "Cos'è il gapping?",
+          "answer": "Omissione del verbo in frasi parallele.",
+          "explanation": "Er trinkt Kaffee, sie Tee."
+        },
+        {
+          "question": "Le ellissi sono più frequenti nel parlato o nello scritto?",
+          "answer": "Nel parlato.",
+          "explanation": "Comunicazione più rapida e naturale."
+        },
+        {
+          "question": "Correggi l'ellissi ambigua: 'Er sah sie und rief.'",
+          "answer": "Er sah sie und rief (sie/jemanden/etwas?). Meglio: Er sah sie und rief sie.",
+          "explanation": "L'ellissi non deve creare ambiguità."
+        },
+        {
+          "question": "Espandi: 'Hunger?' →",
+          "answer": "Hast du Hunger?",
+          "explanation": "Ellissi of the parlato → frase completa."
+        }
+      ]
+    },
+    {
+      "id": "c2_13",
+      "name": "Topikalisierung und Fokus",
+      "explanation": "Strutture informative: topicalizzazione, focus e struttura dato-nuovo.",
+      "content": {
+        "regola": "in tedesco the posizione Vorfeld (pos. 1) serve for the topicalizzazione: l'elemento in Vorfeld is the 'topic' (ciò of cui si parla). L'elemento nuovo/focalizzato tende to/at to stay/stand towards the fine of the Mittelfeld o in the Nachfeld.\n\nFokuspartikeln (particelle of focus) enfatizzano un elemento specifico: 'nur' (solo), 'auch' (anche), 'sogar' (addirittura), 'schon' (già), 'erst' (solo/appena), 'besonders' (particolarmente). the posizione of the particella determina cosa is focalizzato: 'Er hat NUR mir geholfen' (solo to/at me) vs 'Er hat mir NUR geholfen' (solo aiutato, non altro).\n\nStruttura informativa: stem (dato/noto) → Rema (nuovo/focus). in tedesco the rema tende to/at to stay/stand to the fine of the frase (principio of the rema finale).",
+        "schema": "Topicalizzazione:",
+        "esempi": [
+          {
+            "tedesco": "Das Buch habe ich schon gelesen. (topic: il libro)",
+            "italiano": "Il libro l'ho già letto.",
+            "english": "the libro l'ho già letto."
+          },
+          {
+            "tedesco": "Gestern habe ich ihn getroffen. (topic: ieri)",
+            "italiano": "Ieri l'ho incontrato.",
+            "english": "Ieri l'ho incontrato."
+          },
+          {
+            "tedesco": "Nur er weiß die Antwort. (focus: solo lui)",
+            "italiano": "Solo lui sa la risposta.",
+            "english": "Solo lui sa the risposta."
+          },
+          {
+            "tedesco": "Sogar der Chef war überrascht. (focus: persino il capo)",
+            "italiano": "Persino il capo era sorpreso.",
+            "english": "Persino the capo era sorpreso."
+          },
+          {
+            "tedesco": "Er hat mir nur geholfen, nichts anderes. (focus: solo aiutato)",
+            "italiano": "Mi ha solo aiutato, nient'altro.",
+            "english": "Mi has solo aiutato, nient'altro."
+          },
+          {
+            "tedesco": "Er hat nur mir geholfen, niemandem sonst. (focus: solo a me)",
+            "italiano": "Ha aiutato solo me, nessun altro.",
+            "english": "has aiutato solo me, nessun altro."
+          },
+          {
+            "tedesco": "Interessant finde ich, dass... (topic: interessante)",
+            "italiano": "Interessante trovo il fatto che...",
+            "english": "Interessante trovo the fatto che..."
+          },
+          {
+            "tedesco": "Ihm habe ich das Buch gegeben, nicht ihr. (focus contrastivo)",
+            "italiano": "A lui ho dato il libro, non a lei.",
+            "english": "to/at lui ho dato the libro, non to/at lei."
+          }
+        ],
+        "eccezioni": "L'accento contrastivo può focalizzare qualsiasi elemento without spostarlo: 'ICH habe das gemacht, nicht du.' the Fokuspartikeln hanno ambito (scope) che dipende from the posizione: spostare the particella cambia the significato. the frasi scisse (Spaltsätze) are un means/way alternativo of focalizzazione.",
+        "uso": "to the C2: to use consapevolmente the posizione in the Vorfeld for guidare l'attenzione. Posizionare the Fokuspartikeln with precisione. Strutturare the testo second the principio dato→nuovo. to use l'enfasi contrastiva for argomentare efficacemente."
+      },
+      "exercises": [
+        {
+          "question": "Focalizza 'ieri': 'Ich habe ihn gestern getroffen.' →",
+          "answer": "Gestern habe ich ihn getroffen.",
+          "explanation": "Topicalizzazione in the Vorfeld."
+        },
+        {
+          "question": "Differenza: 'Er hat NUR mir geholfen' vs 'Er hat mir NUR geholfen'?",
+          "answer": "Solo a me / Solo aiutato (non altro)",
+          "explanation": "the posizione of 'nur' cambia the focus."
+        },
+        {
+          "question": "Cos'è il principio del rema finale?",
+          "answer": "L'informazione nuova/importante tende a stare alla fine della frase.",
+          "explanation": "Tedesco: dato→nuovo."
+        },
+        {
+          "question": "Come si chiama l'elemento in posizione 1?",
+          "answer": "Topic (ciò di cui si parla)",
+          "explanation": "Topicalizzazione in the Vorfeld."
+        },
+        {
+          "question": "Quale particella per 'persino/addirittura'?",
+          "answer": "sogar",
+          "explanation": "Sogar der Chef war überrascht."
+        },
+        {
+          "question": "Focus contrastivo senza spostamento:",
+          "answer": "Accento sulla parola: 'ICH habe das gemacht, nicht du.'",
+          "explanation": "Prosodia contrastiva."
+        }
+      ]
+    },
+    {
+      "id": "c2_14",
+      "name": "Idiomatik systematisch",
+      "explanation": "Studio sistematico of the espressioni idiomatiche tedesche.",
+      "content": {
+        "regola": "the espressioni idiomatiche (Redewendungen) hanno un significato che non si deduce from the singoli elementi. bisogna conoscerne circa 200-300. Si classificano for: parti of the corpo (die Nase voll haben = to be stufo), animali (einen Bärenhunger haben = to have una fame from/by lupo), colori (blau machen = marinare), numeri (to the Viere von sich strecken = distendersi).\n\nImportanti for the C2: 'den Nagel auf den Kopf treffen' (colpire in the segno), 'auf dem Holzweg sein' (to be on the strada sbagliata), 'ins Fettnäpfchen treten' (to do/make una gaffe), 'die Katze im Sack kaufen' (comprare to/at scatola chiusa), 'jemandem Honig ums Maul schmieren' (adulare), 'kein Blatt vor den Mund nehmen' (parlare without peli on the lingua).\n\nthe espressioni idiomatiche hanno livelli of formalità: 'den Löffel abgeben' (morire, molto colloquiale) vs 'das Zeitliche segnen' (morire, più elegante).",
+        "schema": "for parti of the corpo:",
+        "esempi": [
+          {
+            "tedesco": "Du hast den Nagel auf den Kopf getroffen!",
+            "italiano": "Hai colpito nel segno!",
+            "english": "Hai colpito in the segno!"
+          },
+          {
+            "tedesco": "Ich glaube, du bist auf dem Holzweg.",
+            "italiano": "Credo che tu sia sulla strada sbagliata.",
+            "english": "Credo che tu sia on the strada sbagliata."
+          },
+          {
+            "tedesco": "Er ist ins Fettnäpfchen getreten.",
+            "italiano": "Ha fatto una gaffe.",
+            "english": "has fatto una gaffe."
+          },
+          {
+            "tedesco": "Ich habe die Nase voll davon!",
+            "italiano": "Ne ho fin sopra i capelli!",
+            "english": "Ne ho fin above the capelli!"
+          },
+          {
+            "tedesco": "Ich drücke dir die Daumen!",
+            "italiano": "Faccio il tifo per te! / In bocca al lupo!",
+            "english": "Faccio the tifo for te! / in bocca to the lupo!"
+          },
+          {
+            "tedesco": "Sie nimmt kein Blatt vor den Mund.",
+            "italiano": "Non ha peli sulla lingua.",
+            "english": "Non has peli on the lingua."
+          },
+          {
+            "tedesco": "Da liegt der Hund begraben.",
+            "italiano": "Lì sta il problema / il punto cruciale.",
+            "english": "Lì sta the problema / the punto cruciale."
+          },
+          {
+            "tedesco": "Er lebt auf großem Fuß.",
+            "italiano": "Vive nel lusso.",
+            "english": "Vive in the lusso."
+          }
+        ],
+        "eccezioni": "Alcune espressioni idiomatiche are parzialmente modificabili: 'die Nase gestrichen voll haben' (enfatico). Altre are completamente fisse. Alcune hanno varianti regionali. Attenzione to the falsi amici idiomatici: 'in die Röhre gucken' (restare to/at bocca asciutta, non 'guardare in the tubo').",
+        "uso": "to the C2: conoscere e to use naturalmente the espressioni idiomatiche. Non tradurre letteralmente dall'italiano. Imparare for contesto e frequenza d'use. the espressioni idiomatiche rendono the comunicazione naturale e vivace."
+      },
+      "exercises": [
+        {
+          "question": "Significato: 'den Nagel auf den Kopf treffen'",
+          "answer": "Colpire nel segno / Indovinare esattamente",
+          "explanation": "Espressione molto common."
+        },
+        {
+          "question": "Significato: 'auf dem Holzweg sein'",
+          "answer": "Essere sulla strada sbagliata / Sbagliarsi",
+          "explanation": "Idiom molto used."
+        },
+        {
+          "question": "Significato: 'die Daumen drücken'",
+          "answer": "Fare il tifo / Incrociare le dita",
+          "explanation": "Equivalente of 'in bocca to the lupo'."
+        },
+        {
+          "question": "Significato: 'ins Fettnäpfchen treten'",
+          "answer": "Fare una gaffe / Commettere un errore sociale",
+          "explanation": "Lett.: calpestare the vasetto of grasso."
+        },
+        {
+          "question": "Significato: 'kein Blatt vor den Mund nehmen'",
+          "answer": "Parlare senza peli sulla lingua / Essere franchi",
+          "explanation": "Lett.: non mettere foglia in front of to the bocca."
+        },
+        {
+          "question": "Idiom per 'essere stufo':",
+          "answer": "die Nase voll haben",
+          "explanation": "Lett.: to have the naso pieno."
+        }
+      ]
+    },
+    {
+      "id": "c2_15",
+      "name": "Fehleranalyse Italienisch→Deutsch",
+      "explanation": "Errori tipici degli italofoni che imparano the tedesco.",
+      "content": {
+        "regola": "Gli italofoni commettono errori sistematici in tedesco dovuti all'interferenza of the lingua madre. ERRORI of Gender: in italiano the sole is maschile, in tedesco femminile (die Sonne); the luna is femminile, in tedesco maschile (der Mond). the diminutivi in -chen/-lein are sempre neutri (das Mädchen).\n\nERRORI of POSIZIONE of the Verb: dimenticare the V2 (the Verb in posizione 2 with inversione), mettere the Verb to the fine in the subordinata, posizione of the participio. ERRORI of Case: confusione Accusative/Dative, dimenticare the preposizioni with Case fisso.\n\nERRORI of STRUTTURA: tradurre letteralmente dall'italiano (calchi: *'Ich bin 25 Jahre' invece of 'Ich bin 25 Jahre alt'), omettere the subject (*'Ist schön' invece of 'ex. ist schön'), posizione dell'Adjective (*'ein Auto rot' invece of 'ein rotes Auto').",
+        "schema": "Errori tipici italofoni:",
+        "esempi": [
+          {
+            "tedesco": "*Morgen ich gehe nach Berlin. → Morgen gehe ich nach Berlin.",
+            "italiano": "Errore V2: inversione obbligatoria.",
+            "english": "Errore V2: inversione obbligatoria."
+          },
+          {
+            "tedesco": "*Ich bin 25 Jahre. → Ich bin 25 Jahre alt.",
+            "italiano": "Calco: in tedesco 'alt' è obbligatorio.",
+            "english": "Calco: in tedesco 'alt' is obbligatorio."
+          },
+          {
+            "tedesco": "*Weil ich bin müde. → Weil ich müde bin.",
+            "italiano": "Verbo alla fine nella subordinata.",
+            "english": "Verb to the fine in the subordinata."
+          },
+          {
+            "tedesco": "*Ich helfe dich. → Ich helfe dir.",
+            "italiano": "Helfen regge il dativo, non l'accusativo.",
+            "english": "Helfen regge the Dative, non l'Accusative."
+          },
+          {
+            "tedesco": "*Ist kalt. → Es ist kalt.",
+            "italiano": "Il tedesco richiede il soggetto 'es'.",
+            "english": "the tedesco richiede the subject 'ex.'."
+          },
+          {
+            "tedesco": "*Ich bin ein Arzt. → Ich bin Arzt.",
+            "italiano": "Senza articolo per professioni (senza aggettivo).",
+            "english": "without Article for professioni (without Adjective)."
+          },
+          {
+            "tedesco": "*Ein Auto rot. → Ein rotes Auto.",
+            "italiano": "L'aggettivo va prima del sostantivo e si declina.",
+            "english": "L'Adjective va first of the Noun e it is declined."
+          },
+          {
+            "tedesco": "*Ich habe kalt. → Mir ist kalt.",
+            "italiano": "In tedesco: dativo + sein (non avere).",
+            "english": "in tedesco: Dative + sein (non to have)."
+          },
+          {
+            "tedesco": "*Seit 3 Jahren ich lerne Deutsch. → Seit 3 Jahren lerne ich Deutsch.",
+            "italiano": "Inversione dopo complemento in Vorfeld.",
+            "english": "Inversione dopo complement in Vorfeld."
+          }
+        ],
+        "eccezioni": "Non tutti gli errori are dovuti all'interferenza: alcuni are errori of sviluppo comuni to/at tutti gli apprendenti. the consapevolezza degli errori tipici aiuta to/at correggerli. Alcuni errori diventano fossilizzati se non corretti precocemente.",
+        "uso": "to the C2: analizzare e correggere sistematicamente the propri errori. Conoscere the aree of interferenza italiano→tedesco. Sviluppare strategie of autocorrezione. Aiutare altri italofoni to/at evitare errori tipici."
+      },
+      "exercises": [
+        {
+          "question": "Correggi: 'Morgen ich gehe ins Kino.'",
+          "answer": "Morgen gehe ich ins Kino.",
+          "explanation": "Inversione dopo complement temporale in Vorfeld."
+        },
+        {
+          "question": "Correggi: 'Weil ich habe keine Zeit.'",
+          "answer": "Weil ich keine Zeit habe.",
+          "explanation": "in the subordinata the Verb va to the fine."
+        },
+        {
+          "question": "Correggi: 'Ich habe 30 Jahre.'",
+          "answer": "Ich bin 30 Jahre alt.",
+          "explanation": "in tedesco: sein + alt (non haben)."
+        },
+        {
+          "question": "Correggi: 'Ich helfe dich.'",
+          "answer": "Ich helfe dir.",
+          "explanation": "Helfen + Dative (dir, non dich)."
+        },
+        {
+          "question": "Correggi: 'Ist kalt heute.'",
+          "answer": "Es ist kalt heute. / Heute ist es kalt.",
+          "explanation": "subject ex. obbligatorio."
+        },
+        {
+          "question": "Correggi: 'Ich bin ein Arzt.'",
+          "answer": "Ich bin Arzt.",
+          "explanation": "without Article for professioni."
+        }
+      ]
+    }
+  ]
+}

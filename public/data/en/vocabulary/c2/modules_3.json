@@ -1,0 +1,2087 @@
+[
+  {
+    "id": "extra_9504",
+    "name": "Medienästhetik",
+    "category": "Medienästhetik",
+    "icon": "🎥",
+    "words": [
+      {
+        "german": "die Medienästhetik",
+        "italian": "l'estetica dei media",
+        "article": "die",
+        "plural": "",
+        "example": "Medienästhetik analysiert mediale Form."
+      },
+      {
+        "german": "die Interaktivität",
+        "italian": "l'interattività",
+        "article": "die",
+        "plural": "",
+        "example": "Interaktivität beteiligt den Nutzer."
+      },
+      {
+        "german": "die Multimodalität",
+        "italian": "la multimodalità",
+        "article": "die",
+        "plural": "",
+        "example": "Multimodalität verbindet Modi."
+      },
+      {
+        "german": "die Remediation",
+        "italian": "la rimediazione",
+        "article": "die",
+        "plural": "",
+        "example": "Remediation überträgt Medien."
+      },
+      {
+        "german": "die Affordanz",
+        "italian": "l'affordance",
+        "article": "die",
+        "plural": "Affordanzen",
+        "example": "Affordanzen bestimmen Nutzung."
+      },
+      {
+        "german": "die Materialität",
+        "italian": "la materialità",
+        "article": "die",
+        "plural": "",
+        "example": "Materialität der Medien beeinflusst."
+      },
+      {
+        "german": "die digitale Ästhetik",
+        "italian": "l'estetica digitale",
+        "article": "die",
+        "plural": "",
+        "example": "Digitale Ästhetik ist anders."
+      },
+      {
+        "german": "die algorithmische Ästhetik",
+        "italian": "l'estetica algoritmica",
+        "article": "die",
+        "plural": "",
+        "example": "Algorithmische Ästhetik erzeugt Neues."
+      },
+      {
+        "german": "die generative Kunst",
+        "italian": "l'arte generativa",
+        "article": "die",
+        "plural": "",
+        "example": "Generative Kunst nutzt Algorithmen."
+      },
+      {
+        "german": "die virtuelle Realität",
+        "italian": "la realtà virtuale",
+        "article": "die",
+        "plural": "",
+        "example": "Virtuelle Realität schafft Welten."
+      },
+      {
+        "german": "die erweiterte Realität",
+        "italian": "la realtà aumentata",
+        "article": "die",
+        "plural": "",
+        "example": "Erweiterte Realität überlagert."
+      },
+      {
+        "german": "die Synästhesie",
+        "italian": "la sinestesia",
+        "article": "die",
+        "plural": "",
+        "example": "Synästhesie verbindet Sinne."
+      },
+      {
+        "german": "die Aura",
+        "italian": "l'aura",
+        "article": "die",
+        "plural": "",
+        "example": "Benjamin beschrieb den Verlust der Aura."
+      },
+      {
+        "german": "das Gesamtkunstwerk",
+        "italian": "l'opera d'arte totale",
+        "article": "das",
+        "plural": "",
+        "example": "Wagner konzipierte das Gesamtkunstwerk."
+      },
+      {
+        "german": "die Netzkünst",
+        "italian": "la net art",
+        "article": "die",
+        "plural": "",
+        "example": "Netzkunst nutzt das Internet."
+      }
+    ]
+  },
+  {
+    "id": "extra_9505",
+    "name": "Wissenschaftsphilosophie",
+    "category": "Wissenschaftsphilosophie",
+    "icon": "🔬",
+    "words": [
+      {
+        "german": "der Paradigmenwechsel",
+        "italian": "il cambiamento di paradigma",
+        "article": "der",
+        "plural": "die Paradigmenwechsel",
+        "example": "Paradigmenwechsel nach Kuhn."
+      },
+      {
+        "german": "die Inkommensurabilität",
+        "italian": "l'incommensurabilità",
+        "article": "die",
+        "plural": "",
+        "example": "Inkommensurabilität von Theorien."
+      },
+      {
+        "german": "der Falsifikationismus",
+        "italian": "il falsificazionismo",
+        "article": "der",
+        "plural": "",
+        "example": "Falsifikationismus nach Popper."
+      },
+      {
+        "german": "die Forschungsprogramme",
+        "italian": "i programmi di ricerca",
+        "article": "die",
+        "plural": "",
+        "example": "Forschungsprogramme nach Lakatos."
+      },
+      {
+        "german": "der Antirealismus",
+        "italian": "l'antirealismo",
+        "article": "der",
+        "plural": "",
+        "example": "Antirealismus argumentieren."
+      },
+      {
+        "german": "der Instrumentalismus",
+        "italian": "lo strumentalismo",
+        "article": "der",
+        "plural": "",
+        "example": "Instrumentalismus bewerten."
+      },
+      {
+        "german": "der Konstruktive Empirismus",
+        "italian": "l'empirismo costruttivo",
+        "article": "der",
+        "plural": "",
+        "example": "Konstruktiver Empirismus nach van Fraassen."
+      },
+      {
+        "german": "die Unterbestimmtheit",
+        "italian": "la sottodeterminazione",
+        "article": "die",
+        "plural": "",
+        "example": "Quine-Duhem-Unterbestimmtheit."
+      },
+      {
+        "german": "die Theoriebeladenheit",
+        "italian": "la carica teorica",
+        "article": "die",
+        "plural": "",
+        "example": "Theoriebeladenheit der Beobachtung."
+      },
+      {
+        "german": "die Wertfreiheit",
+        "italian": "la neutralità valoriale",
+        "article": "die",
+        "plural": "",
+        "example": "Wertfreiheit diskutieren."
+      },
+      {
+        "german": "die Reproduzierbarkeitskrise",
+        "italian": "la crisi della riproducibilità",
+        "article": "die",
+        "plural": "",
+        "example": "Reproduzierbarkeitskrise adressieren."
+      },
+      {
+        "german": "die Prädiktive Validität",
+        "italian": "la validità predittiva",
+        "article": "die",
+        "plural": "",
+        "example": "Prädiktive Validität prüfen."
+      },
+      {
+        "german": "die Bayesianische Erkenntnistheorie",
+        "italian": "l'epistemologia bayesiana",
+        "article": "die",
+        "plural": "",
+        "example": "Bayesianische Erkenntnistheorie."
+      }
+    ]
+  },
+  {
+    "id": "extra_9506",
+    "name": "Kritische Theorie",
+    "category": "Kritische Theorie",
+    "icon": "📕",
+    "words": [
+      {
+        "german": "die kommunikative Rationalität",
+        "italian": "la razionalità comunicativa",
+        "article": "die",
+        "plural": "",
+        "example": "Kommunikative Rationalität nach Habermas."
+      },
+      {
+        "german": "die Lebenswelt",
+        "italian": "il mondo della vita",
+        "article": "die",
+        "plural": "die Lebenswelten",
+        "example": "Lebenswelt nach Husserl."
+      },
+      {
+        "german": "die Kolonialisierung der Lebenswelt",
+        "italian": "la colonizzazione del mondo della vita",
+        "article": "die",
+        "plural": "",
+        "example": "Kolonialisierung der Lebenswelt."
+      },
+      {
+        "german": "der öffentliche Diskurs",
+        "italian": "il discorso pubblico",
+        "article": "der",
+        "plural": "die öffentlichen Diskurse",
+        "example": "Öffentlichen Diskurs führen."
+      },
+      {
+        "german": "die Diskursethik",
+        "italian": "l'etica del discorso",
+        "article": "die",
+        "plural": "",
+        "example": "Diskursethik nach Habermas."
+      },
+      {
+        "german": "die ideale Sprechsituation",
+        "italian": "la situazione discorsiva ideale",
+        "article": "die",
+        "plural": "",
+        "example": "Ideale Sprechsituation postulieren."
+      },
+      {
+        "german": "die Spektakelgesellschaft",
+        "italian": "la società dello spettacolo",
+        "article": "die",
+        "plural": "",
+        "example": "Debords Spektakelgesellschaft."
+      }
+    ]
+  },
+  {
+    "id": "extra_9507",
+    "name": "Sprachtheorie",
+    "category": "Sprachtheorie",
+    "icon": "🗣️",
+    "words": [
+      {
+        "german": "die Generative Grammatik",
+        "italian": "la grammatica generativa",
+        "article": "die",
+        "plural": "",
+        "example": "Generative Grammatik studieren."
+      },
+      {
+        "german": "die Dependenzgrammatik",
+        "italian": "la grammatica delle dipendenze",
+        "article": "die",
+        "plural": "",
+        "example": "Dependenzgrammatik anwenden."
+      },
+      {
+        "german": "die Konstruktionsgrammatik",
+        "italian": "la grammatica delle costruzioni",
+        "article": "die",
+        "plural": "",
+        "example": "Konstruktionsgrammatik erforschen."
+      },
+      {
+        "german": "die Kognitive Grammatik",
+        "italian": "la grammatica cognitiva",
+        "article": "die",
+        "plural": "",
+        "example": "Kognitive Grammatik nach Langacker."
+      },
+      {
+        "german": "die Sapir-Whorf-Hypothese",
+        "italian": "l'ipotesi di Sapir-Whorf",
+        "article": "die",
+        "plural": "",
+        "example": "Sapir-Whorf-Hypothese diskutieren."
+      },
+      {
+        "german": "die sprachliche Relativität",
+        "italian": "la relatività linguistica",
+        "article": "die",
+        "plural": "",
+        "example": "Sprachliche Relativität erforschen."
+      },
+      {
+        "german": "die Modalität",
+        "italian": "la modalità",
+        "article": "die",
+        "plural": "die Modalitäten",
+        "example": "Modalität im Satz."
+      },
+      {
+        "german": "die Evidentialität",
+        "italian": "l'evidenzialità",
+        "article": "die",
+        "plural": "",
+        "example": "Evidentialität markieren."
+      },
+      {
+        "german": "die Aspektualität",
+        "italian": "l'aspettualità",
+        "article": "die",
+        "plural": "",
+        "example": "Aspektualität im Deutschen."
+      },
+      {
+        "german": "die Valenz",
+        "italian": "la valenza",
+        "article": "die",
+        "plural": "die Valenzen",
+        "example": "Verbvalenz bestimmen."
+      },
+      {
+        "german": "die Topikalisierung",
+        "italian": "la topicalizzazione",
+        "article": "die",
+        "plural": "die Topikalisierungen",
+        "example": "Topikalisierung im Satz."
+      },
+      {
+        "german": "die Fokussierung",
+        "italian": "la focalizzazione",
+        "article": "die",
+        "plural": "die Fokussierungen",
+        "example": "Fokussierung markieren."
+      },
+      {
+        "german": "die Grammatikalisierung",
+        "italian": "la grammaticalizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Grammatikalisierung erforschen."
+      },
+      {
+        "german": "die Lexikalisierung",
+        "italian": "la lessicalizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Lexikalisierung untersuchen."
+      },
+      {
+        "german": "die Idiomatizität",
+        "italian": "l'idiomaticità",
+        "article": "die",
+        "plural": "",
+        "example": "Idiomatizität bestimmen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9508",
+    "name": "Ästhetik und Kunsttheorie",
+    "category": "Ästhetik und Kunsttheorie",
+    "icon": "🎨",
+    "words": [
+      {
+        "german": "die Ästhetische Erfahrung",
+        "italian": "l'esperienza estetica",
+        "article": "die",
+        "plural": "",
+        "example": "Ästhetische Erfahrung reflektieren."
+      },
+      {
+        "german": "das Erhabene",
+        "italian": "il sublime",
+        "article": "das",
+        "plural": "",
+        "example": "Das Erhabene nach Kant."
+      },
+      {
+        "german": "das Schöne",
+        "italian": "il bello",
+        "article": "das",
+        "plural": "",
+        "example": "Das Schöne diskutieren."
+      },
+      {
+        "german": "die Geschmackskritik",
+        "italian": "la critica del gusto",
+        "article": "die",
+        "plural": "",
+        "example": "Geschmackskritik nach Kant."
+      },
+      {
+        "german": "die Mimesis",
+        "italian": "la mimesi",
+        "article": "die",
+        "plural": "",
+        "example": "Mimesis nach Aristoteles."
+      },
+      {
+        "german": "die Entauratisierung",
+        "italian": "la perdita dell'aura",
+        "article": "die",
+        "plural": "",
+        "example": "Entauratisierung der Kunst."
+      },
+      {
+        "german": "die Avantgarde",
+        "italian": "l'avanguardia",
+        "article": "die",
+        "plural": "die Avantgarden",
+        "example": "Avantgarde der Kunst."
+      },
+      {
+        "german": "die Neoavantgarde",
+        "italian": "la neoavanguardia",
+        "article": "die",
+        "plural": "",
+        "example": "Neoavantgarde bewerten."
+      },
+      {
+        "german": "die Institutionskritik",
+        "italian": "la critica istituzionale",
+        "article": "die",
+        "plural": "",
+        "example": "Institutionskritik in der Kunst."
+      },
+      {
+        "german": "die Performativität",
+        "italian": "la performatività",
+        "article": "die",
+        "plural": "",
+        "example": "Performativität in der Kunst."
+      },
+      {
+        "german": "die Relationalität",
+        "italian": "la relazionalità",
+        "article": "die",
+        "plural": "",
+        "example": "Relationale Ästhetik."
+      },
+      {
+        "german": "die Kontemplation",
+        "italian": "la contemplazione",
+        "article": "die",
+        "plural": "",
+        "example": "Kontemplation durch Kunst."
+      }
+    ]
+  },
+  {
+    "id": "extra_9509",
+    "name": "Politische Theorie vertieft",
+    "category": "Politische Theorie vertieft",
+    "icon": "🏛️",
+    "words": [
+      {
+        "german": "der Kontraktualismus",
+        "italian": "il contrattualismo",
+        "article": "der",
+        "plural": "",
+        "example": "Kontraktualismus nach Rawls."
+      },
+      {
+        "german": "das Differenzprinzip",
+        "italian": "il principio di differenza",
+        "article": "das",
+        "plural": "",
+        "example": "Differenzprinzip anwenden."
+      },
+      {
+        "german": "der Libertarismus",
+        "italian": "il libertarismo",
+        "article": "der",
+        "plural": "",
+        "example": "Libertarismus nach Nozick."
+      },
+      {
+        "german": "die prozedurale Gerechtigkeit",
+        "italian": "la giustizia procedurale",
+        "article": "die",
+        "plural": "",
+        "example": "Prozedurale Gerechtigkeit sichern."
+      },
+      {
+        "german": "die distributive Gerechtigkeit",
+        "italian": "la giustizia distributiva",
+        "article": "die",
+        "plural": "",
+        "example": "Distributive Gerechtigkeit diskutieren."
+      },
+      {
+        "german": "die Anerkennungstheorie",
+        "italian": "la teoria del riconoscimento",
+        "article": "die",
+        "plural": "",
+        "example": "Anerkennungstheorie nach Honneth."
+      },
+      {
+        "german": "die Fähigkeitenansatz",
+        "italian": "l'approccio delle capacità",
+        "article": "der",
+        "plural": "",
+        "example": "Fähigkeitenansatz nach Sen."
+      },
+      {
+        "german": "die globale Gerechtigkeit",
+        "italian": "la giustizia globale",
+        "article": "die",
+        "plural": "",
+        "example": "Globale Gerechtigkeit fördern."
+      },
+      {
+        "german": "die kosmopolitische Demokratie",
+        "italian": "la democrazia cosmopolitica",
+        "article": "die",
+        "plural": "",
+        "example": "Kosmopolitische Demokratie denken."
+      },
+      {
+        "german": "die radikale Demokratie",
+        "italian": "la democrazia radicale",
+        "article": "die",
+        "plural": "",
+        "example": "Radikale Demokratie nach Mouffe."
+      },
+      {
+        "german": "die agonale Demokratie",
+        "italian": "la democrazia agonale",
+        "article": "die",
+        "plural": "",
+        "example": "Agonale Demokratie verstehen."
+      },
+      {
+        "german": "der Postfundamentalismus",
+        "italian": "il postfondamentalismo",
+        "article": "der",
+        "plural": "",
+        "example": "Postfundamentalismus diskutieren."
+      },
+      {
+        "german": "die Dekonstruktion der Souveränität",
+        "italian": "la decostruzione della sovranità",
+        "article": "die",
+        "plural": "",
+        "example": "Souveränität dekonstruieren."
+      },
+      {
+        "german": "die subalterne Theorie",
+        "italian": "la teoria subalterna",
+        "article": "die",
+        "plural": "",
+        "example": "Subalterne Theorie nach Spivak."
+      },
+      {
+        "german": "der Orientalismus",
+        "italian": "l'orientalismo",
+        "article": "der",
+        "plural": "",
+        "example": "Orientalismus nach Said."
+      },
+      {
+        "german": "die Intersektionalität",
+        "italian": "l'intersezionalità",
+        "article": "die",
+        "plural": "",
+        "example": "Intersektionalität analysieren."
+      }
+    ]
+  },
+  {
+    "id": "extra_9510",
+    "name": "Hermeneutik und Interpretation",
+    "category": "Hermeneutik und Interpretation",
+    "icon": "📜",
+    "words": [
+      {
+        "german": "der hermeneutische Zirkel",
+        "italian": "il circolo ermeneutico",
+        "article": "der",
+        "plural": "",
+        "example": "Den hermeneutischen Zirkel verstehen."
+      },
+      {
+        "german": "die Vorverständnis",
+        "italian": "la pre-comprensione",
+        "article": "das",
+        "plural": "",
+        "example": "Vorverständnis reflektieren."
+      },
+      {
+        "german": "der Erwartungshorizont",
+        "italian": "l'orizzonte d'attesa",
+        "article": "der",
+        "plural": "die Erwartungshorizonte",
+        "example": "Erwartungshorizont bestimmen."
+      },
+      {
+        "german": "die Horizontverschmelzung",
+        "italian": "la fusione degli orizzonti",
+        "article": "die",
+        "plural": "",
+        "example": "Horizontverschmelzung nach Gadamer."
+      },
+      {
+        "german": "die Wirkungsgeschichte",
+        "italian": "la storia degli effetti",
+        "article": "die",
+        "plural": "",
+        "example": "Wirkungsgeschichte analysieren."
+      },
+      {
+        "german": "die Tiefenhermeneutik",
+        "italian": "l'ermeneutica profonda",
+        "article": "die",
+        "plural": "",
+        "example": "Tiefenhermeneutik anwenden."
+      },
+      {
+        "german": "die objektive Hermeneutik",
+        "italian": "l'ermeneutica oggettiva",
+        "article": "die",
+        "plural": "",
+        "example": "Objektive Hermeneutik nach Oevermann."
+      },
+      {
+        "german": "die Doppelte Hermeneutik",
+        "italian": "la doppia ermeneutica",
+        "article": "die",
+        "plural": "",
+        "example": "Doppelte Hermeneutik nach Giddens."
+      },
+      {
+        "german": "die Sinnkonstruktion",
+        "italian": "la costruzione del senso",
+        "article": "die",
+        "plural": "die Sinnkonstruktionen",
+        "example": "Sinnkonstruktion analysieren."
+      },
+      {
+        "german": "die Lebensweltanalyse",
+        "italian": "l'analisi del mondo della vita",
+        "article": "die",
+        "plural": "die Lebensweltanalysen",
+        "example": "Lebensweltanalyse durchführen."
+      },
+      {
+        "german": "die phänomenologische Reduktion",
+        "italian": "la riduzione fenomenologica",
+        "article": "die",
+        "plural": "",
+        "example": "Phänomenologische Reduktion üben."
+      },
+      {
+        "german": "die Epoché",
+        "italian": "l'epoché",
+        "article": "die",
+        "plural": "",
+        "example": "Epoché nach Husserl."
+      },
+      {
+        "german": "die eidetische Variation",
+        "italian": "la variazione eidetica",
+        "article": "die",
+        "plural": "",
+        "example": "Eidetische Variation durchführen."
+      },
+      {
+        "german": "die intentionale Analyse",
+        "italian": "l'analisi intenzionale",
+        "article": "die",
+        "plural": "die intentionalen Analysen",
+        "example": "Intentionale Analyse betreiben."
+      },
+      {
+        "german": "die transzendentale Subjektivität",
+        "italian": "la soggettività trascendentale",
+        "article": "die",
+        "plural": "",
+        "example": "Transzendentale Subjektivität."
+      }
+    ]
+  },
+  {
+    "id": "extra_9511",
+    "name": "Rechtstheorie",
+    "category": "Rechtstheorie",
+    "icon": "⚖️",
+    "words": [
+      {
+        "german": "die Reine Rechtslehre",
+        "italian": "la dottrina pura del diritto",
+        "article": "die",
+        "plural": "",
+        "example": "Kelsens Reine Rechtslehre."
+      },
+      {
+        "german": "die Grundnorm",
+        "italian": "la norma fondamentale",
+        "article": "die",
+        "plural": "die Grundnormen",
+        "example": "Kelsens Grundnorm."
+      },
+      {
+        "german": "der Rechtspositivismus",
+        "italian": "il positivismo giuridico",
+        "article": "der",
+        "plural": "",
+        "example": "Rechtspositivismus bewerten."
+      },
+      {
+        "german": "das Naturrecht",
+        "italian": "il diritto naturale",
+        "article": "das",
+        "plural": "",
+        "example": "Naturrecht diskutieren."
+      },
+      {
+        "german": "die Autopoiesis des Rechts",
+        "italian": "l'autopoiesi del diritto",
+        "article": "die",
+        "plural": "",
+        "example": "Autopoiesis des Rechts nach Luhmann."
+      },
+      {
+        "german": "die Rechtsökonomie",
+        "italian": "l'analisi economica del diritto",
+        "article": "die",
+        "plural": "",
+        "example": "Rechtsökonomie anwenden."
+      },
+      {
+        "german": "die Critical Legal Studies",
+        "italian": "i Critical Legal Studies",
+        "article": "die",
+        "plural": "",
+        "example": "Critical Legal Studies studieren."
+      },
+      {
+        "german": "die Feminist Legal Theory",
+        "italian": "la teoria giuridica femminista",
+        "article": "die",
+        "plural": "",
+        "example": "Feminist Legal Theory anwenden."
+      },
+      {
+        "german": "die Law-and-Literature-Bewegung",
+        "italian": "il movimento Law and Literature",
+        "article": "die",
+        "plural": "",
+        "example": "Law and Literature erforschen."
+      },
+      {
+        "german": "die Argumentationstheorie",
+        "italian": "la teoria dell'argomentazione",
+        "article": "die",
+        "plural": "",
+        "example": "Juristische Argumentationstheorie."
+      },
+      {
+        "german": "die Rechtshermeneutik",
+        "italian": "l'ermeneutica giuridica",
+        "article": "die",
+        "plural": "",
+        "example": "Rechtshermeneutik anwenden."
+      },
+      {
+        "german": "die Prinzipientheorie",
+        "italian": "la teoria dei principi",
+        "article": "die",
+        "plural": "",
+        "example": "Prinzipientheorie nach Alexy."
+      },
+      {
+        "german": "die Abwägungslehre",
+        "italian": "la dottrina del bilanciamento",
+        "article": "die",
+        "plural": "",
+        "example": "Abwägungslehre anwenden."
+      },
+      {
+        "german": "die Diskurstheorie des Rechts",
+        "italian": "la teoria discorsiva del diritto",
+        "article": "die",
+        "plural": "",
+        "example": "Diskurstheorie des Rechts nach Habermas."
+      },
+      {
+        "german": "die Verfahrenstheorie",
+        "italian": "la teoria procedurale",
+        "article": "die",
+        "plural": "",
+        "example": "Verfahrenstheorie entwickeln."
+      },
+      {
+        "german": "die Gerechtigkeit als Fairness",
+        "italian": "la giustizia come equità",
+        "article": "die",
+        "plural": "",
+        "example": "Gerechtigkeit als Fairness nach Rawls."
+      },
+      {
+        "german": "die Rechtsfortbildung",
+        "italian": "lo sviluppo del diritto",
+        "article": "die",
+        "plural": "",
+        "example": "Richterliche Rechtsfortbildung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9512",
+    "name": "Kognitionswissenschaft vertieft",
+    "category": "Kognitionswissenschaft vertieft",
+    "icon": "🧠",
+    "words": [
+      {
+        "german": "die Situated Cognition",
+        "italian": "la cognizione situata",
+        "article": "die",
+        "plural": "",
+        "example": "Situated Cognition untersuchen."
+      },
+      {
+        "german": "die Distributed Cognition",
+        "italian": "la cognizione distribuita",
+        "article": "die",
+        "plural": "",
+        "example": "Distributed Cognition analysieren."
+      },
+      {
+        "german": "die Enaktivismus",
+        "italian": "l'enattivismo",
+        "article": "der",
+        "plural": "",
+        "example": "Enaktivismus nach Varela."
+      },
+      {
+        "german": "die Autopoiese",
+        "italian": "l'autopoiesi",
+        "article": "die",
+        "plural": "",
+        "example": "Autopoiese nach Maturana."
+      },
+      {
+        "german": "die strukturelle Kopplung",
+        "italian": "l'accoppiamento strutturale",
+        "article": "die",
+        "plural": "",
+        "example": "Strukturelle Kopplung verstehen."
+      },
+      {
+        "german": "die dynamische Systemtheorie",
+        "italian": "la teoria dei sistemi dinamici",
+        "article": "die",
+        "plural": "",
+        "example": "Dynamische Systemtheorie anwenden."
+      },
+      {
+        "german": "die Konnektionismus",
+        "italian": "il connessionismo",
+        "article": "der",
+        "plural": "",
+        "example": "Konnektionismus vs. Symbolismus."
+      },
+      {
+        "german": "die Computational Theory of Mind",
+        "italian": "la teoria computazionale della mente",
+        "article": "die",
+        "plural": "",
+        "example": "Computational Theory of Mind bewerten."
+      },
+      {
+        "german": "die Modularitätsthese",
+        "italian": "la tesi della modularità",
+        "article": "die",
+        "plural": "",
+        "example": "Modularitätsthese nach Fodor."
+      },
+      {
+        "german": "die Prototypentheorie",
+        "italian": "la teoria dei prototipi",
+        "article": "die",
+        "plural": "",
+        "example": "Prototypentheorie nach Rosch."
+      },
+      {
+        "german": "die Frame-Semantik",
+        "italian": "la semantica dei frame",
+        "article": "die",
+        "plural": "",
+        "example": "Frame-Semantik nach Fillmore."
+      },
+      {
+        "german": "die Blending-Theorie",
+        "italian": "la teoria del blending",
+        "article": "die",
+        "plural": "",
+        "example": "Conceptual Blending nach Fauconnier."
+      },
+      {
+        "german": "die Conceptual Metaphor Theory",
+        "italian": "la teoria della metafora concettuale",
+        "article": "die",
+        "plural": "",
+        "example": "Lakoffs Conceptual Metaphor Theory."
+      },
+      {
+        "german": "die mentale Simulation",
+        "italian": "la simulazione mentale",
+        "article": "die",
+        "plural": "die mentalen Simulationen",
+        "example": "Mentale Simulation erforschen."
+      },
+      {
+        "german": "die Theory of Mind",
+        "italian": "la teoria della mente",
+        "article": "die",
+        "plural": "",
+        "example": "Theory of Mind untersuchen."
+      },
+      {
+        "german": "die exekutive Funktionen",
+        "italian": "le funzioni esecutive",
+        "article": "die",
+        "plural": "",
+        "example": "Exekutive Funktionen erforschen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9513",
+    "name": "Translationswissenschaft",
+    "category": "Translationswissenschaft",
+    "icon": "🌐",
+    "words": [
+      {
+        "german": "die Übersetzungstheorie",
+        "italian": "la teoria della traduzione",
+        "article": "die",
+        "plural": "die Übersetzungstheorien",
+        "example": "Übersetzungstheorie studieren."
+      },
+      {
+        "german": "die Dolmetschwissenschaft",
+        "italian": "la scienza dell'interpretariato",
+        "article": "die",
+        "plural": "",
+        "example": "Dolmetschwissenschaft erforschen."
+      },
+      {
+        "german": "die Funktionale Übersetzung",
+        "italian": "la traduzione funzionale",
+        "article": "die",
+        "plural": "",
+        "example": "Funktionale Übersetzung nach Nord."
+      },
+      {
+        "german": "die Skopostheorie",
+        "italian": "la teoria dello skopos",
+        "article": "die",
+        "plural": "",
+        "example": "Skopostheorie nach Vermeer."
+      },
+      {
+        "german": "die Manipulation School",
+        "italian": "la scuola della manipolazione",
+        "article": "die",
+        "plural": "",
+        "example": "Manipulation School studieren."
+      },
+      {
+        "german": "die Descriptive Translation Studies",
+        "italian": "gli studi descrittivi della traduzione",
+        "article": "die",
+        "plural": "",
+        "example": "DTS nach Toury."
+      },
+      {
+        "german": "die Postedition",
+        "italian": "la post-editing",
+        "article": "die",
+        "plural": "",
+        "example": "Postedition maschineller Übersetzung."
+      },
+      {
+        "german": "die Terminologieextraktion",
+        "italian": "l'estrazione terminologica",
+        "article": "die",
+        "plural": "",
+        "example": "Terminologieextraktion automatisieren."
+      },
+      {
+        "german": "das Übersetzungsgedächtnis",
+        "italian": "la memoria di traduzione",
+        "article": "das",
+        "plural": "die Übersetzungsgedächtnisse",
+        "example": "Übersetzungsgedächtnis nutzen."
+      },
+      {
+        "german": "die Computergestützte Übersetzung",
+        "italian": "la traduzione assistita",
+        "article": "die",
+        "plural": "",
+        "example": "CAT-Tools nutzen."
+      },
+      {
+        "german": "die Unübersetzbarkeit",
+        "italian": "l'intraducibilità",
+        "article": "die",
+        "plural": "",
+        "example": "Unübersetzbarkeit diskutieren."
+      },
+      {
+        "german": "die Fremdheit",
+        "italian": "l'estraneità",
+        "article": "die",
+        "plural": "",
+        "example": "Fremdheit in der Übersetzung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9514",
+    "name": "Medienphilosophie",
+    "category": "Medienphilosophie",
+    "icon": "📡",
+    "words": [
+      {
+        "german": "die Medienontologie",
+        "italian": "l'ontologia dei media",
+        "article": "die",
+        "plural": "",
+        "example": "Medienontologie erforschen."
+      },
+      {
+        "german": "die Medienarchäologie",
+        "italian": "l'archeologia dei media",
+        "article": "die",
+        "plural": "",
+        "example": "Medienarchäologie betreiben."
+      },
+      {
+        "german": "die Apparatustheorie",
+        "italian": "la teoria dell'apparato",
+        "article": "die",
+        "plural": "",
+        "example": "Apparatustheorie diskutieren."
+      },
+      {
+        "german": "die Remedialisierung",
+        "italian": "la rimediazione",
+        "article": "die",
+        "plural": "die Remedialisierungen",
+        "example": "Remedialisierung nach Bolter."
+      },
+      {
+        "german": "die Medienmaterialität",
+        "italian": "la materialità dei media",
+        "article": "die",
+        "plural": "",
+        "example": "Medienmaterialität untersuchen."
+      },
+      {
+        "german": "die Operativität",
+        "italian": "l'operatività",
+        "article": "die",
+        "plural": "",
+        "example": "Operativität technischer Bilder."
+      },
+      {
+        "german": "die Kulturtechnik",
+        "italian": "la tecnica culturale",
+        "article": "die",
+        "plural": "die Kulturtechniken",
+        "example": "Kulturtechniken erforschen."
+      },
+      {
+        "german": "die Übertragungsmedien",
+        "italian": "i media di trasmissione",
+        "article": "die",
+        "plural": "",
+        "example": "Übertragungsmedien analysieren."
+      },
+      {
+        "german": "die Speichermedien",
+        "italian": "i media di archiviazione",
+        "article": "die",
+        "plural": "",
+        "example": "Speichermedien untersuchen."
+      },
+      {
+        "german": "die Verarbeitungsmedien",
+        "italian": "i media di elaborazione",
+        "article": "die",
+        "plural": "",
+        "example": "Verarbeitungsmedien erforschen."
+      },
+      {
+        "german": "die Schriftkultur",
+        "italian": "la cultura scritta",
+        "article": "die",
+        "plural": "",
+        "example": "Schriftkultur analysieren."
+      },
+      {
+        "german": "die Oralität",
+        "italian": "l'oralità",
+        "article": "die",
+        "plural": "",
+        "example": "Oralität und Literalität."
+      },
+      {
+        "german": "die Hypermedialität",
+        "italian": "l'ipermedialità",
+        "article": "die",
+        "plural": "",
+        "example": "Hypermedialität erforschen."
+      },
+      {
+        "german": "die Transparenz",
+        "italian": "la trasparenza",
+        "article": "die",
+        "plural": "",
+        "example": "Transparenz der Medien."
+      },
+      {
+        "german": "die Interfacekritik",
+        "italian": "la critica dell'interfaccia",
+        "article": "die",
+        "plural": "",
+        "example": "Interfacekritik üben."
+      }
+    ]
+  },
+  {
+    "id": "extra_9515",
+    "name": "Geschlechterforschung",
+    "category": "Geschlechterforschung",
+    "icon": "⚧",
+    "words": [
+      {
+        "german": "die Gender Studies",
+        "italian": "gli studi di genere",
+        "article": "die",
+        "plural": "",
+        "example": "Gender Studies studieren."
+      },
+      {
+        "german": "die Performativität des Geschlechts",
+        "italian": "la performatività del genere",
+        "article": "die",
+        "plural": "",
+        "example": "Performativität nach Butler."
+      },
+      {
+        "german": "die Heteronormativität",
+        "italian": "l'eteronormatività",
+        "article": "die",
+        "plural": "",
+        "example": "Heteronormativität hinterfragen."
+      },
+      {
+        "german": "die Queer-Theorie",
+        "italian": "la teoria queer",
+        "article": "die",
+        "plural": "",
+        "example": "Queer-Theorie anwenden."
+      },
+      {
+        "german": "die Geschlechterbinarität",
+        "italian": "la binarietà di genere",
+        "article": "die",
+        "plural": "",
+        "example": "Geschlechterbinarität überwinden."
+      },
+      {
+        "german": "die Doing-Gender-Perspektive",
+        "italian": "la prospettiva doing gender",
+        "article": "die",
+        "plural": "",
+        "example": "Doing Gender analysieren."
+      },
+      {
+        "german": "die Maskulinitätsforschung",
+        "italian": "la ricerca sulla mascolinità",
+        "article": "die",
+        "plural": "",
+        "example": "Maskulinitätsforschung betreiben."
+      },
+      {
+        "german": "die hegemoniale Männlichkeit",
+        "italian": "la mascolinità egemone",
+        "article": "die",
+        "plural": "",
+        "example": "Hegemoniale Männlichkeit nach Connell."
+      },
+      {
+        "german": "die Care-Arbeit",
+        "italian": "il lavoro di cura",
+        "article": "die",
+        "plural": "",
+        "example": "Care-Arbeit aufwerten."
+      },
+      {
+        "german": "die Reproduktionsarbeit",
+        "italian": "il lavoro riproduttivo",
+        "article": "die",
+        "plural": "",
+        "example": "Reproduktionsarbeit sichtbar machen."
+      },
+      {
+        "german": "die Vergeschlechtlichung",
+        "italian": "la genderizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Vergeschlechtlichung von Berufen."
+      },
+      {
+        "german": "die Objektivierung",
+        "italian": "l'oggettificazione",
+        "article": "die",
+        "plural": "die Objektivierungen",
+        "example": "Objektivierung kritisieren."
+      },
+      {
+        "german": "die Handlungsmacht",
+        "italian": "l'agency",
+        "article": "die",
+        "plural": "",
+        "example": "Handlungsmacht stärken."
+      },
+      {
+        "german": "die Verletzbarkeit",
+        "italian": "la vulnerabilità",
+        "article": "die",
+        "plural": "",
+        "example": "Verletzbarkeit nach Butler."
+      },
+      {
+        "german": "die Materialität des Körpers",
+        "italian": "la materialità del corpo",
+        "article": "die",
+        "plural": "",
+        "example": "Materialität des Körpers diskutieren."
+      },
+      {
+        "german": "die Posthumanismus",
+        "italian": "il postumanesimo",
+        "article": "der",
+        "plural": "",
+        "example": "Posthumanismus erforschen."
+      },
+      {
+        "german": "die Technofeminismus",
+        "italian": "il tecnofemminismo",
+        "article": "der",
+        "plural": "",
+        "example": "Technofeminismus diskutieren."
+      },
+      {
+        "german": "die Affekttheorie",
+        "italian": "la teoria degli affetti",
+        "article": "die",
+        "plural": "",
+        "example": "Affekttheorie anwenden."
+      }
+    ]
+  },
+  {
+    "id": "extra_9516",
+    "name": "Wirtschaftsethik vertieft",
+    "category": "Wirtschaftsethik vertieft",
+    "icon": "💹",
+    "words": [
+      {
+        "german": "die Unternehmensethik",
+        "italian": "l'etica d'impresa",
+        "article": "die",
+        "plural": "",
+        "example": "Unternehmensethik einhalten."
+      },
+      {
+        "german": "die Stakeholder-Theorie",
+        "italian": "la teoria degli stakeholder",
+        "article": "die",
+        "plural": "",
+        "example": "Stakeholder-Theorie anwenden."
+      },
+      {
+        "german": "die Corporate Social Responsibility",
+        "italian": "la responsabilità sociale d'impresa",
+        "article": "die",
+        "plural": "",
+        "example": "CSR implementieren."
+      },
+      {
+        "german": "die Nachhaltigkeitsberichterstattung",
+        "italian": "il reporting di sostenibilità",
+        "article": "die",
+        "plural": "",
+        "example": "Nachhaltigkeitsberichterstattung erstellen."
+      },
+      {
+        "german": "die faire Handelsbedingungen",
+        "italian": "le condizioni commerciali eque",
+        "article": "die",
+        "plural": "",
+        "example": "Faire Handelsbedingungen schaffen."
+      },
+      {
+        "german": "die Postwachstumsökonomie",
+        "italian": "l'economia della post-crescita",
+        "article": "die",
+        "plural": "",
+        "example": "Postwachstumsökonomie diskutieren."
+      },
+      {
+        "german": "die Degrowth-Bewegung",
+        "italian": "il movimento decrescita",
+        "article": "die",
+        "plural": "",
+        "example": "Degrowth-Bewegung analysieren."
+      },
+      {
+        "german": "die Externalisierung",
+        "italian": "l'esternalizzazione",
+        "article": "die",
+        "plural": "die Externalisierungen",
+        "example": "Kosten externalisieren."
+      },
+      {
+        "german": "die Internalisierung",
+        "italian": "l'internalizzazione",
+        "article": "die",
+        "plural": "die Internalisierungen",
+        "example": "Externe Kosten internalisieren."
+      },
+      {
+        "german": "die Finanzethik",
+        "italian": "l'etica finanziaria",
+        "article": "die",
+        "plural": "",
+        "example": "Finanzethik beachten."
+      },
+      {
+        "german": "die algorithmische Gerechtigkeit",
+        "italian": "la giustizia algoritmica",
+        "article": "die",
+        "plural": "",
+        "example": "Algorithmische Gerechtigkeit fördern."
+      },
+      {
+        "german": "die digitale Spaltung",
+        "italian": "il divario digitale",
+        "article": "die",
+        "plural": "",
+        "example": "Digitale Spaltung überwinden."
+      },
+      {
+        "german": "die Gig-Economy",
+        "italian": "la gig economy",
+        "article": "die",
+        "plural": "",
+        "example": "Gig-Economy regulieren."
+      },
+      {
+        "german": "die Arbeitnehmerrechte",
+        "italian": "i diritti dei lavoratori",
+        "article": "die",
+        "plural": "",
+        "example": "Arbeitnehmerrechte stärken."
+      },
+      {
+        "german": "die Lieferkettentransparenz",
+        "italian": "la trasparenza della catena di fornitura",
+        "article": "die",
+        "plural": "",
+        "example": "Lieferkettentransparenz fordern."
+      }
+    ]
+  },
+  {
+    "id": "extra_9517",
+    "name": "Sozialphilosophie",
+    "category": "Sozialphilosophie",
+    "icon": "🏛️",
+    "words": [
+      {
+        "german": "die Vergemeinschaftung",
+        "italian": "la comunitarizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Vergemeinschaftung nach Weber."
+      },
+      {
+        "german": "die Lebensweltkolonialisierung",
+        "italian": "la colonizzazione del mondo della vita",
+        "article": "die",
+        "plural": "",
+        "example": "Habermas' Lebensweltkolonialisierung."
+      },
+      {
+        "german": "die Verrechtlichung",
+        "italian": "la giuridificazione",
+        "article": "die",
+        "plural": "",
+        "example": "Verrechtlichung kritisieren."
+      },
+      {
+        "german": "die Ökonomisierung",
+        "italian": "l'economicizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Ökonomisierung des Sozialen."
+      },
+      {
+        "german": "die Subjektivierung",
+        "italian": "la soggettivazione",
+        "article": "die",
+        "plural": "",
+        "example": "Subjektivierung nach Foucault."
+      },
+      {
+        "german": "die Pathologisierung",
+        "italian": "la patologizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Pathologisierung vermeiden."
+      },
+      {
+        "german": "die Therapeutisierung",
+        "italian": "la terapeutizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Therapeutisierung des Alltags."
+      },
+      {
+        "german": "die Flexibilisierung",
+        "italian": "la flessibilizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Flexibilisierung der Arbeit."
+      },
+      {
+        "german": "die Pluralisierung",
+        "italian": "la pluralizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Pluralisierung der Lebensstile."
+      },
+      {
+        "german": "die Entzauberung",
+        "italian": "il disincanto",
+        "article": "die",
+        "plural": "",
+        "example": "Entzauberung der Welt nach Weber."
+      }
+    ]
+  },
+  {
+    "id": "extra_9518",
+    "name": "Postkoloniale Studien",
+    "category": "Postkoloniale Studien",
+    "icon": "🌍",
+    "words": [
+      {
+        "german": "die Subalternität",
+        "italian": "la subalternità",
+        "article": "die",
+        "plural": "",
+        "example": "Subalternität nach Spivak."
+      },
+      {
+        "german": "die Mimikry",
+        "italian": "la mimicry",
+        "article": "die",
+        "plural": "",
+        "example": "Mimikry als Strategie."
+      },
+      {
+        "german": "der dritte Raum",
+        "italian": "il terzo spazio",
+        "article": "der",
+        "plural": "",
+        "example": "Bhabhas dritter Raum."
+      },
+      {
+        "german": "die epistemische Gewalt",
+        "italian": "la violenza epistemica",
+        "article": "die",
+        "plural": "",
+        "example": "Epistemische Gewalt erkennen."
+      },
+      {
+        "german": "die Dekolonisierung",
+        "italian": "la decolonizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Dekolonisierung des Wissens."
+      },
+      {
+        "german": "die Restitution",
+        "italian": "la restituzione",
+        "article": "die",
+        "plural": "die Restitutionen",
+        "example": "Restitution von Kulturgütern."
+      },
+      {
+        "german": "die kulturelle Aneignung",
+        "italian": "l'appropriazione culturale",
+        "article": "die",
+        "plural": "",
+        "example": "Kulturelle Aneignung diskutieren."
+      },
+      {
+        "german": "die Neokolonialismus",
+        "italian": "il neocolonialismo",
+        "article": "der",
+        "plural": "",
+        "example": "Neokolonialismus kritisieren."
+      },
+      {
+        "german": "die Dependenztheorie",
+        "italian": "la teoria della dipendenza",
+        "article": "die",
+        "plural": "",
+        "example": "Dependenztheorie analysieren."
+      },
+      {
+        "german": "die Weltsystemtheorie",
+        "italian": "la teoria del sistema-mondo",
+        "article": "die",
+        "plural": "",
+        "example": "Wallersteins Weltsystemtheorie."
+      },
+      {
+        "german": "die Zentrum-Peripherie-Dynamik",
+        "italian": "la dinamica centro-periferia",
+        "article": "die",
+        "plural": "",
+        "example": "Zentrum-Peripherie-Dynamik."
+      },
+      {
+        "german": "die Extraktivismus",
+        "italian": "l'estrattivismo",
+        "article": "der",
+        "plural": "",
+        "example": "Extraktivismus kritisieren."
+      },
+      {
+        "german": "die Landnahme",
+        "italian": "l'accaparramento delle terre",
+        "article": "die",
+        "plural": "",
+        "example": "Landnahme anprangern."
+      },
+      {
+        "german": "die epistemische Gerechtigkeit",
+        "italian": "la giustizia epistemica",
+        "article": "die",
+        "plural": "",
+        "example": "Epistemische Gerechtigkeit fördern."
+      },
+      {
+        "german": "die Wissensdekolonisierung",
+        "italian": "la decolonizzazione del sapere",
+        "article": "die",
+        "plural": "",
+        "example": "Wissensdekolonisierung vorantreiben."
+      }
+    ]
+  },
+  {
+    "id": "extra_9519",
+    "name": "Diskursanalyse vertieft",
+    "category": "Diskursanalyse vertieft",
+    "icon": "📋",
+    "words": [
+      {
+        "german": "die diskursive Formation",
+        "italian": "la formazione discorsiva",
+        "article": "die",
+        "plural": "die diskursiven Formationen",
+        "example": "Diskursive Formationen identifizieren."
+      },
+      {
+        "german": "die Aussageanalyse",
+        "italian": "l'analisi degli enunciati",
+        "article": "die",
+        "plural": "die Aussageanalysen",
+        "example": "Aussageanalyse durchführen."
+      },
+      {
+        "german": "die Wissensordnung",
+        "italian": "l'ordine del sapere",
+        "article": "die",
+        "plural": "die Wissensordnungen",
+        "example": "Wissensordnungen untersuchen."
+      },
+      {
+        "german": "die Diskurskoalition",
+        "italian": "la coalizione discorsiva",
+        "article": "die",
+        "plural": "die Diskurskoalitionen",
+        "example": "Diskurskoalitionen identifizieren."
+      },
+      {
+        "german": "die Rahmung",
+        "italian": "la cornice interpretativa",
+        "article": "die",
+        "plural": "die Rahmungen",
+        "example": "Rahmung analysieren."
+      },
+      {
+        "german": "die Narrativanalyse",
+        "italian": "l'analisi narrativa",
+        "article": "die",
+        "plural": "die Narrativanalysen",
+        "example": "Narrativanalyse durchführen."
+      },
+      {
+        "german": "die Argumentation",
+        "italian": "l'argomentazione",
+        "article": "die",
+        "plural": "die Argumentationen",
+        "example": "Argumentation analysieren."
+      },
+      {
+        "german": "die Topik",
+        "italian": "la topica",
+        "article": "die",
+        "plural": "",
+        "example": "Topik nach Aristoteles."
+      },
+      {
+        "german": "die Textsortenlingusitik",
+        "italian": "la linguistica testuale dei generi",
+        "article": "die",
+        "plural": "",
+        "example": "Textsortenlinguistik erforschen."
+      },
+      {
+        "german": "die Gesprächsanalyse",
+        "italian": "l'analisi della conversazione",
+        "article": "die",
+        "plural": "die Gesprächsanalysen",
+        "example": "Gesprächsanalyse durchführen."
+      },
+      {
+        "german": "die Multimodalitätsforschung",
+        "italian": "la ricerca sulla multimodalità",
+        "article": "die",
+        "plural": "",
+        "example": "Multimodalität erforschen."
+      },
+      {
+        "german": "die Medienlinguistik",
+        "italian": "la linguistica dei media",
+        "article": "die",
+        "plural": "",
+        "example": "Medienlinguistik studieren."
+      }
+    ]
+  },
+  {
+    "id": "extra_9520",
+    "name": "Wissenschaftssoziologie",
+    "category": "Wissenschaftssoziologie",
+    "icon": "🔬",
+    "words": [
+      {
+        "german": "das Wissenschaftssystem",
+        "italian": "il sistema scientifico",
+        "article": "das",
+        "plural": "die Wissenschaftssysteme",
+        "example": "Wissenschaftssystem analysieren."
+      },
+      {
+        "german": "die Wissenschaftsfreiheit",
+        "italian": "la libertà della scienza",
+        "article": "die",
+        "plural": "",
+        "example": "Wissenschaftsfreiheit schützen."
+      },
+      {
+        "german": "die Drittmittelforschung",
+        "italian": "la ricerca finanziata da terzi",
+        "article": "die",
+        "plural": "",
+        "example": "Drittmittelforschung betreiben."
+      },
+      {
+        "german": "die Exzellenzinitiative",
+        "italian": "l'iniziativa di eccellenza",
+        "article": "die",
+        "plural": "die Exzellenzinitiativen",
+        "example": "Exzellenzinitiative bewerten."
+      },
+      {
+        "german": "die Peer-Review",
+        "italian": "la revisione paritaria",
+        "article": "die",
+        "plural": "die Peer-Reviews",
+        "example": "Peer-Review durchführen."
+      },
+      {
+        "german": "die Zitationsanalyse",
+        "italian": "l'analisi delle citazioni",
+        "article": "die",
+        "plural": "die Zitationsanalysen",
+        "example": "Zitationsanalyse durchführen."
+      },
+      {
+        "german": "der Impact-Faktor",
+        "italian": "il fattore d'impatto",
+        "article": "der",
+        "plural": "die Impact-Faktoren",
+        "example": "Impact-Faktor berechnen."
+      },
+      {
+        "german": "die Bibliometrie",
+        "italian": "la bibliometria",
+        "article": "die",
+        "plural": "",
+        "example": "Bibliometrie anwenden."
+      },
+      {
+        "german": "die Szientometrie",
+        "italian": "la scientometria",
+        "article": "die",
+        "plural": "",
+        "example": "Szientometrie betreiben."
+      },
+      {
+        "german": "die Altmetrie",
+        "italian": "l'altmetrica",
+        "article": "die",
+        "plural": "",
+        "example": "Altmetrie nutzen."
+      },
+      {
+        "german": "die Open Science",
+        "italian": "la scienza aperta",
+        "article": "die",
+        "plural": "",
+        "example": "Open Science praktizieren."
+      },
+      {
+        "german": "die Replication Crisis",
+        "italian": "la crisi della replicabilità",
+        "article": "die",
+        "plural": "",
+        "example": "Replikationskrise adressieren."
+      },
+      {
+        "german": "die Predatory Journals",
+        "italian": "le riviste predatorie",
+        "article": "die",
+        "plural": "",
+        "example": "Predatory Journals erkennen."
+      },
+      {
+        "german": "die Wissenschaftskommunikation",
+        "italian": "la comunicazione scientifica",
+        "article": "die",
+        "plural": "",
+        "example": "Wissenschaftskommunikation verbessern."
+      },
+      {
+        "german": "die Bürgerwissenschaft",
+        "italian": "la citizen science",
+        "article": "die",
+        "plural": "",
+        "example": "Bürgerwissenschaft fördern."
+      }
+    ]
+  },
+  {
+    "id": "extra_9521",
+    "name": "Semiotik vertieft",
+    "category": "Semiotik vertieft",
+    "icon": "🔣",
+    "words": [
+      {
+        "german": "das Ikon",
+        "italian": "l'icona",
+        "article": "das",
+        "plural": "die Ikone",
+        "example": "Peirces Ikon."
+      },
+      {
+        "german": "die Zeichenrelation",
+        "italian": "la relazione segnica",
+        "article": "die",
+        "plural": "die Zeichenrelationen",
+        "example": "Zeichenrelation analysieren."
+      },
+      {
+        "german": "die Kodierung",
+        "italian": "la codifica",
+        "article": "die",
+        "plural": "die Kodierungen",
+        "example": "Kodierung und Dekodierung."
+      },
+      {
+        "german": "die Dekodierung",
+        "italian": "la decodifica",
+        "article": "die",
+        "plural": "die Dekodierungen",
+        "example": "Dekodierung vornehmen."
+      },
+      {
+        "german": "die Bedeutungsproduktion",
+        "italian": "la produzione di significato",
+        "article": "die",
+        "plural": "",
+        "example": "Bedeutungsproduktion analysieren."
+      },
+      {
+        "german": "die Biosemiotik",
+        "italian": "la biosemiotica",
+        "article": "die",
+        "plural": "",
+        "example": "Biosemiotik studieren."
+      },
+      {
+        "german": "die Ökosemiotik",
+        "italian": "l'ecosemiotica",
+        "article": "die",
+        "plural": "",
+        "example": "Ökosemiotik erforschen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9522",
+    "name": "Technikphilosophie vertieft",
+    "category": "Technikphilosophie vertieft",
+    "icon": "⚙️",
+    "words": [
+      {
+        "german": "die Technikdeterminismus",
+        "italian": "il determinismo tecnologico",
+        "article": "der",
+        "plural": "",
+        "example": "Technikdeterminismus diskutieren."
+      },
+      {
+        "german": "die Sozialkonstruktion der Technik",
+        "italian": "la costruzione sociale della tecnologia",
+        "article": "die",
+        "plural": "",
+        "example": "SCOT-Ansatz anwenden."
+      },
+      {
+        "german": "die Akteur-Netzwerk-Theorie",
+        "italian": "la teoria dell'attore-rete",
+        "article": "die",
+        "plural": "",
+        "example": "ANT nach Latour."
+      },
+      {
+        "german": "die Technogenese",
+        "italian": "la tecnogenesi",
+        "article": "die",
+        "plural": "",
+        "example": "Technogenese erforschen."
+      },
+      {
+        "german": "die Technikbewertung",
+        "italian": "la valutazione della tecnologia",
+        "article": "die",
+        "plural": "",
+        "example": "Technikbewertung durchführen."
+      },
+      {
+        "german": "die Verantwortbare Innovation",
+        "italian": "l'innovazione responsabile",
+        "article": "die",
+        "plural": "",
+        "example": "RRI umsetzen."
+      },
+      {
+        "german": "die Technische Vermittlung",
+        "italian": "la mediazione tecnica",
+        "article": "die",
+        "plural": "",
+        "example": "Technische Vermittlung verstehen."
+      },
+      {
+        "german": "die Postphänomenologie",
+        "italian": "la postfenomenologia",
+        "article": "die",
+        "plural": "",
+        "example": "Postphänomenologie nach Ihde."
+      },
+      {
+        "german": "die Designethik",
+        "italian": "l'etica del design",
+        "article": "die",
+        "plural": "",
+        "example": "Designethik anwenden."
+      },
+      {
+        "german": "die Wertesensitives Design",
+        "italian": "il design sensibile ai valori",
+        "article": "das",
+        "plural": "",
+        "example": "Wertesensitives Design."
+      },
+      {
+        "german": "die Nudge-Theorie",
+        "italian": "la teoria del nudge",
+        "article": "die",
+        "plural": "",
+        "example": "Nudge-Theorie anwenden."
+      },
+      {
+        "german": "die Technikanthropologie",
+        "italian": "l'antropologia della tecnologia",
+        "article": "die",
+        "plural": "",
+        "example": "Technikanthropologie studieren."
+      },
+      {
+        "german": "die Transhumanismus",
+        "italian": "il transumanesimo",
+        "article": "der",
+        "plural": "",
+        "example": "Transhumanismus diskutieren."
+      },
+      {
+        "german": "die Singularität",
+        "italian": "la singolarità tecnologica",
+        "article": "die",
+        "plural": "",
+        "example": "Technologische Singularität."
+      }
+    ]
+  },
+  {
+    "id": "extra_9523",
+    "name": "Phänomenologie",
+    "category": "Phänomenologie",
+    "icon": "💭",
+    "words": [
+      {
+        "german": "die Wesensschau",
+        "italian": "l'intuizione eidetica",
+        "article": "die",
+        "plural": "",
+        "example": "Wesensschau nach Husserl."
+      },
+      {
+        "german": "die Lebensweltphänomenologie",
+        "italian": "la fenomenologia del mondo della vita",
+        "article": "die",
+        "plural": "",
+        "example": "Lebensweltphänomenologie betreiben."
+      },
+      {
+        "german": "die Zeitbewusstsein",
+        "italian": "la coscienza del tempo",
+        "article": "das",
+        "plural": "",
+        "example": "Zeitbewusstsein analysieren."
+      },
+      {
+        "german": "die Leibphänomenologie",
+        "italian": "la fenomenologia del corpo proprio",
+        "article": "die",
+        "plural": "",
+        "example": "Leibphänomenologie nach Merleau-Ponty."
+      },
+      {
+        "german": "die Interleiblichkeit",
+        "italian": "l'intercorporeità",
+        "article": "die",
+        "plural": "",
+        "example": "Interleiblichkeit erforschen."
+      },
+      {
+        "german": "die Fremderfahrung",
+        "italian": "l'esperienza dell'alterità",
+        "article": "die",
+        "plural": "",
+        "example": "Fremderfahrung analysieren."
+      },
+      {
+        "german": "die Habitualität",
+        "italian": "l'abitualità",
+        "article": "die",
+        "plural": "",
+        "example": "Habitualität untersuchen."
+      },
+      {
+        "german": "die Protention",
+        "italian": "la protenzione",
+        "article": "die",
+        "plural": "die Protentionen",
+        "example": "Protention im Zeitbewusstsein."
+      },
+      {
+        "german": "die Appräsentation",
+        "italian": "l'appresentazione",
+        "article": "die",
+        "plural": "",
+        "example": "Appräsentation analysieren."
+      },
+      {
+        "german": "die Horizontintentionalität",
+        "italian": "l'intenzionalità dell'orizzonte",
+        "article": "die",
+        "plural": "",
+        "example": "Horizontintentionalität untersuchen."
+      },
+      {
+        "german": "die Passivität",
+        "italian": "la passività",
+        "article": "die",
+        "plural": "",
+        "example": "Passive Synthesis untersuchen."
+      },
+      {
+        "german": "die Affektion",
+        "italian": "l'affezione",
+        "article": "die",
+        "plural": "die Affektionen",
+        "example": "Affektion analysieren."
+      },
+      {
+        "german": "die Assoziation",
+        "italian": "l'associazione",
+        "article": "die",
+        "plural": "die Assoziationen",
+        "example": "Assoziative Synthese."
+      },
+      {
+        "german": "die Konstitution",
+        "italian": "la costituzione",
+        "article": "die",
+        "plural": "die Konstitutionen",
+        "example": "Konstitutionsanalyse betreiben."
+      },
+      {
+        "german": "die Noesis",
+        "italian": "la noesi",
+        "article": "die",
+        "plural": "die Noesen",
+        "example": "Noesis und Noema."
+      },
+      {
+        "german": "die Noema",
+        "italian": "il noema",
+        "article": "das",
+        "plural": "die Noemata",
+        "example": "Noematische Analyse."
+      }
+    ]
+  }
+]

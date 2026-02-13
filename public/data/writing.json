@@ -1,0 +1,2331 @@
+{
+  "levels": {
+    "A1": {
+      "exercises": [
+        {
+          "id": "a1_traduzione_01",
+          "type": "traduzione",
+          "prompt": "Ciao, come stai?",
+          "answer": "Hallo, wie geht es dir?",
+          "hints": ["Saluto formale", "Domanda di cortesia"],
+          "alternatives": ["Hallo, wie geht es Ihnen?"]
+        },
+        {
+          "id": "a1_traduzione_02",
+          "type": "traduzione",
+          "prompt": "Mi chiamo Marco",
+          "answer": "Ich heiße Marco",
+          "hints": ["Presentazione personale"],
+          "alternatives": ["Mein Name ist Marco"]
+        },
+        {
+          "id": "a1_traduzione_03",
+          "type": "traduzione",
+          "prompt": "Ho 25 anni",
+          "answer": "Ich bin 25 Jahre alt",
+          "hints": ["Affermazione di età"],
+          "alternatives": ["Ich bin fünfundzwanzig Jahre alt"]
+        },
+        {
+          "id": "a1_traduzione_04",
+          "type": "traduzione",
+          "prompt": "Dove abiti?",
+          "answer": "Wo wohnst du?",
+          "hints": ["Domanda di ubicazione"],
+          "alternatives": ["Wo leben Sie?"]
+        },
+        {
+          "id": "a1_traduzione_05",
+          "type": "traduzione",
+          "prompt": "Io abito a Roma",
+          "answer": "Ich wohne in Rom",
+          "hints": ["Affermazione di ubicazione"],
+          "alternatives": ["Ich lebe in Rom"]
+        },
+        {
+          "id": "a1_traduzione_06",
+          "type": "traduzione",
+          "prompt": "Quanti anni hai?",
+          "answer": "Wie alt bist du?",
+          "hints": ["Domanda di età"],
+          "alternatives": ["Wie viele Jahre alt bist du?"]
+        },
+        {
+          "id": "a1_traduzione_07",
+          "type": "traduzione",
+          "prompt": "Qual è il tuo nome?",
+          "answer": "Wie heißt du?",
+          "hints": ["Domanda di nome"],
+          "alternatives": ["Was ist dein Name?"]
+        },
+        {
+          "id": "a1_traduzione_08",
+          "type": "traduzione",
+          "prompt": "Piacere di conoscerti",
+          "answer": "Freut mich, dich kennenzulernen",
+          "hints": ["Saluto di cortesia"],
+          "alternatives": ["Es freut mich, dich kennenzulernen"]
+        },
+        {
+          "id": "a1_traduzione_09",
+          "type": "traduzione",
+          "prompt": "Grazie mille",
+          "answer": "Vielen Dank",
+          "hints": ["Ringraziamento sincero"],
+          "alternatives": ["Danke vielmals", "Vielen herzlichen Dank"]
+        },
+        {
+          "id": "a1_traduzione_10",
+          "type": "traduzione",
+          "prompt": "Di niente",
+          "answer": "Bitte schön",
+          "hints": ["Risposta al ringraziamento"],
+          "alternatives": ["Gerne", "Bitte"]
+        },
+        {
+          "id": "a1_traduzione_11",
+          "type": "traduzione",
+          "prompt": "Buongiorno",
+          "answer": "Guten Morgen",
+          "hints": ["Saluto mattutino"],
+          "alternatives": ["Guten Tag"]
+        },
+        {
+          "id": "a1_traduzione_12",
+          "type": "traduzione",
+          "prompt": "Buonasera",
+          "answer": "Guten Abend",
+          "hints": ["Saluto serale"],
+          "alternatives": ["Guten Abend"]
+        },
+        {
+          "id": "a1_completamento_01",
+          "type": "completamento",
+          "prompt": "Ich ___ Anna",
+          "answer": "heiße",
+          "hints": ["Verbo al presente", "Prima persona singolare"],
+          "alternatives": ["heisse"]
+        },
+        {
+          "id": "a1_completamento_02",
+          "type": "completamento",
+          "prompt": "Du ___ in Berlin",
+          "answer": "wohnst",
+          "hints": ["Verbo al presente", "Seconda persona singolare"],
+          "alternatives": ["wohnst"]
+        },
+        {
+          "id": "a1_completamento_03",
+          "type": "completamento",
+          "prompt": "Er ___ Lehrer",
+          "answer": "ist",
+          "hints": ["Verbo essere", "Terza persona singolare"],
+          "alternatives": ["ist"]
+        },
+        {
+          "id": "a1_completamento_04",
+          "type": "completamento",
+          "prompt": "Wie ___ dein Name?",
+          "answer": "heißt",
+          "hints": ["Domanda diretta", "Verbo al presente"],
+          "alternatives": ["heisst"]
+        },
+        {
+          "id": "a1_completamento_05",
+          "type": "completamento",
+          "prompt": "Das ist ein ___",
+          "answer": "Buch",
+          "hints": ["Sostantivo neutro", "Oggetto scolastico"],
+          "alternatives": ["buch"]
+        },
+        {
+          "id": "a1_completamento_06",
+          "type": "completamento",
+          "prompt": "Ich ___ Wasser trinken",
+          "answer": "möchte",
+          "hints": ["Verbo modale", "Desiderio"],
+          "alternatives": ["will"]
+        },
+        {
+          "id": "a1_completamento_07",
+          "type": "completamento",
+          "prompt": "Sie ___ sehr schön",
+          "answer": "ist",
+          "hints": ["Verbo essere", "Descrizione"],
+          "alternatives": ["ist"]
+        },
+        {
+          "id": "a1_completamento_08",
+          "type": "completamento",
+          "prompt": "Wir ___ Studenten",
+          "answer": "sind",
+          "hints": ["Verbo essere", "Prima persona plurale"],
+          "alternatives": ["sind"]
+        },
+        {
+          "id": "a1_completamento_09",
+          "type": "completamento",
+          "prompt": "Das Kind ___ im Park",
+          "answer": "spielt",
+          "hints": ["Verbo al presente", "Azione"],
+          "alternatives": ["spielt"]
+        },
+        {
+          "id": "a1_completamento_10",
+          "type": "completamento",
+          "prompt": "Ich ___ kein Auto",
+          "answer": "habe",
+          "hints": ["Verbo avere", "Prima persona singolare"],
+          "alternatives": ["habe"]
+        },
+        {
+          "id": "a1_completamento_11",
+          "type": "completamento",
+          "prompt": "Die Katze ___ grau",
+          "answer": "ist",
+          "hints": ["Verbo essere", "Descrizione colore"],
+          "alternatives": ["ist"]
+        },
+        {
+          "id": "a1_completamento_12",
+          "type": "completamento",
+          "prompt": "___? Mir geht es gut.",
+          "answer": "Wie geht es dir",
+          "hints": ["Saluto", "Domanda di cortesia"],
+          "alternatives": ["Wie geht es dir?"]
+        },
+        {
+          "id": "a1_riordina_01",
+          "type": "riordina",
+          "prompt": ["heiße", "Ich", "Marco"],
+          "answer": "Ich heiße Marco",
+          "hints": ["Ordine: soggetto, verbo, predicato"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_02",
+          "type": "riordina",
+          "prompt": ["wohnst", "du", "Berlin", "in"],
+          "answer": "Du wohnst in Berlin",
+          "hints": ["Ordine SVO: soggetto, verbo, complemento"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_03",
+          "type": "riordina",
+          "prompt": ["geht", "Wie", "es", "dir"],
+          "answer": "Wie geht es dir",
+          "hints": ["Domanda: W-verbo-soggetto"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_04",
+          "type": "riordina",
+          "prompt": ["Lehrer", "Ein", "ist", "er"],
+          "answer": "Ein Lehrer ist er",
+          "hints": ["Predicato nominale"],
+          "alternatives": ["Er ist ein Lehrer"]
+        },
+        {
+          "id": "a1_riordina_05",
+          "type": "riordina",
+          "prompt": ["Berlin", "Ich", "in", "wohne"],
+          "answer": "Ich wohne in Berlin",
+          "hints": ["Ordine base: soggetto, verbo, posposizione"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_06",
+          "type": "riordina",
+          "prompt": ["schön", "ist", "Das", "Lied"],
+          "answer": "Das Lied ist schön",
+          "hints": ["Articolo, nome, verbo, aggettivo"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_07",
+          "type": "riordina",
+          "prompt": ["trinke", "ich", "Milch", "gerne"],
+          "answer": "Ich trinke gerne Milch",
+          "hints": ["Avverbio di modo dopo verbo"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_08",
+          "type": "riordina",
+          "prompt": ["Jahre", "alt", "25", "bin", "Ich"],
+          "answer": "Ich bin 25 Jahre alt",
+          "hints": ["Età: soggetto, verbo, numero, unità"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_09",
+          "type": "riordina",
+          "prompt": ["spielen", "Kinder", "Die", "Park", "im"],
+          "answer": "Die Kinder spielen im Park",
+          "hints": ["Articolo, nome, verbo, posposizione"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_10",
+          "type": "riordina",
+          "prompt": ["Computer", "habe", "Ich", "einen"],
+          "answer": "Ich habe einen Computer",
+          "hints": ["Articolo indiretto accusativo maschile"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_11",
+          "type": "riordina",
+          "prompt": ["braun", "Katze", "Die", "ist"],
+          "answer": "Die Katze ist braun",
+          "hints": ["Descrizione: articolo, nome, verbo, aggettivo"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_riordina_12",
+          "type": "riordina",
+          "prompt": ["Mann", "Ein", "groß", "ist", "sehr"],
+          "answer": "Ein Mann ist sehr groß",
+          "hints": ["Avverbio di intensità prima dell'aggettivo"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_01",
+          "type": "scrittura_libera",
+          "prompt": "Presentati in tedesco: di' chi sei e dove abiti",
+          "answer": "Ich heiße [Nome]. Ich bin [Età] Jahre alt. Ich wohne in [Città]. Ich bin [Nazionalità].",
+          "hints": ["Usa: Ich heiße...", "Ich bin ... Jahre alt", "Ich wohne in ..."],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_02",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi il tuo aspetto fisico (colore dei capelli, occhi, altezza)",
+          "answer": "Ich habe braune Haare und blaue Augen. Ich bin groß/klein. Ich bin schlank/dick.",
+          "hints": ["Io ho = Ich habe", "capelli = Haare", "occhi = Augen"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_03",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi 3 cose che ami fare",
+          "answer": "Ich liebe Musik hören. Ich mag Bücher lesen. Ich spiele gerne Fußball.",
+          "hints": ["Ich liebe = amo", "Ich mag = mi piace", "gerne = volentieri"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_04",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una breve presentazione della tua famiglia",
+          "answer": "Ich habe einen Vater und eine Mutter. Ich habe zwei Brüder. Meine Familie ist sehr glücklich.",
+          "hints": ["padre = Vater", "madre = Mutter", "fratello = Bruder"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_05",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi la tua casa",
+          "answer": "Mein Haus ist groß. Es hat drei Schlafzimmer und ein Wohnzimmer. Ich liebe mein Haus.",
+          "hints": ["casa = Haus", "grande = groß", "camera = Schlafzimmer"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_06",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi cosa fai nel tuo tempo libero",
+          "answer": "In meiner Freizeit spiele ich Tennis. Ich lese gerne Bücher. Ich höre Musik.",
+          "hints": ["tempo libero = Freizeit", "gioco = spiele", "ascolto = höre"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_07",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una giornata tipo dalla mattina alla sera",
+          "answer": "Ich wache um 7 Uhr auf. Ich frühstücke. Ich gehe zur Schule. Ich komme um 15 Uhr zurück.",
+          "hints": ["mi sveglio = ich wache auf", "colazione = Frühstück", "vado a scuola = gehe zur Schule"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_08",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi il tuo cibo preferito",
+          "answer": "Mein Lieblingessen ist Spaghetti. Es ist sehr lecker. Ich esse es zweimal pro Woche.",
+          "hints": ["cibo preferito = Lieblingessen", "delizioso = lecker", "mangio = esse"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_09",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi 5 oggetti che hai nella tua camera",
+          "answer": "Ich habe ein Bett, einen Schreibtisch, einen Stuhl, einen Schrank und ein Fenster.",
+          "hints": ["letto = Bett", "scrivania = Schreibtisch", "armadio = Schrank"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_10",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi un messaggio di saluto a un amico tedesco",
+          "answer": "Hallo! Wie geht es dir? Mir geht es gut. Ich hoffe, es geht dir auch gut!",
+          "hints": ["ciao = Hallo", "come stai = wie geht es dir", "spero = hoffe"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_11",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi il tuo animale domestico preferito e perché",
+          "answer": "Mein Lieblingstier ist der Hund. Der Hund ist treu und freundlich. Ich liebe Hunde.",
+          "hints": ["animale preferito = Lieblingstier", "fedele = treu", "amichevole = freundlich"],
+          "alternatives": []
+        },
+        {
+          "id": "a1_scrittura_libera_12",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi come spendi il tuo weekend",
+          "answer": "Am Samstag spielen wir Fußball. Am Sonntag besuche ich meine Großmutter. Wir essen zusammen.",
+          "hints": ["sabato = Samstag", "domenica = Sonntag", "visito = besuche"],
+          "alternatives": []
+        }
+      ]
+    },
+    "A2": {
+      "exercises": [
+        {
+          "id": "a2_traduzione_01",
+          "type": "traduzione",
+          "prompt": "Mi piacerebbe visitare la Germania",
+          "answer": "Ich würde gerne Deutschland besuchen",
+          "hints": ["Condizionale", "Desiderio"],
+          "alternatives": ["Ich möchte Deutschland gerne besuchen"]
+        },
+        {
+          "id": "a2_traduzione_02",
+          "type": "traduzione",
+          "prompt": "Aveva un bellissimo giardino",
+          "answer": "Er hatte einen wunderschönen Garten",
+          "hints": ["Imperfetto", "Passato"],
+          "alternatives": ["Er hatte einen sehr schönen Garten"]
+        },
+        {
+          "id": "a2_traduzione_03",
+          "type": "traduzione",
+          "prompt": "Domani andrò al cinema",
+          "answer": "Morgen werde ich ins Kino gehen",
+          "hints": ["Futuro", "Domani"],
+          "alternatives": ["Ich gehe morgen ins Kino"]
+        },
+        {
+          "id": "a2_traduzione_04",
+          "type": "traduzione",
+          "prompt": "Mi sono divertito molto ieri",
+          "answer": "Ich habe mich gestern sehr amüsiert",
+          "hints": ["Passato prossimo", "Verbo riflessivo"],
+          "alternatives": ["Gestern hat mir sehr viel Spaß gemacht"]
+        },
+        {
+          "id": "a2_traduzione_05",
+          "type": "traduzione",
+          "prompt": "Puoi aiutarmi con questo esercizio?",
+          "answer": "Kannst du mir bei dieser Aufgabe helfen?",
+          "hints": ["Domanda di aiuto", "Verbo potere"],
+          "alternatives": ["Kannst du mir mit diesem Übung helfen?"]
+        },
+        {
+          "id": "a2_traduzione_06",
+          "type": "traduzione",
+          "prompt": "Quale sport preferisci?",
+          "answer": "Welcher Sport gefällt dir am besten?",
+          "hints": ["Domanda di preferenza"],
+          "alternatives": ["Welchen Sport magst du am liebsten?"]
+        },
+        {
+          "id": "a2_traduzione_07",
+          "type": "traduzione",
+          "prompt": "Ho finito i compiti un'ora fa",
+          "answer": "Ich habe meine Hausaufgaben vor einer Stunde beendet",
+          "hints": ["Passato prossimo", "Tempo"],
+          "alternatives": ["Ich habe meine Aufgaben vor einer Stunde fertig gemacht"]
+        },
+        {
+          "id": "a2_traduzione_08",
+          "type": "traduzione",
+          "prompt": "Se avessi tempo, verrei con te",
+          "answer": "Wenn ich Zeit hätte, würde ich mit dir kommen",
+          "hints": ["Condizionale irreale", "Ipotesi"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_traduzione_09",
+          "type": "traduzione",
+          "prompt": "L'ho incontrato mentre uscivo da casa",
+          "answer": "Ich bin ihm begegnet, als ich aus dem Haus ging",
+          "hints": ["Passato", "Simultaneità"],
+          "alternatives": ["Ich traf ihn, während ich aus dem Haus ging"]
+        },
+        {
+          "id": "a2_traduzione_10",
+          "type": "traduzione",
+          "prompt": "Mi piace il caffè più del tè",
+          "answer": "Ich mag Kaffee lieber als Tee",
+          "hints": ["Comparativo", "Preferenza"],
+          "alternatives": ["Kaffee gefällt mir besser als Tee"]
+        },
+        {
+          "id": "a2_traduzione_11",
+          "type": "traduzione",
+          "prompt": "Non mi importa quello che dicono",
+          "answer": "Es ist mir egal, was sie sagen",
+          "hints": ["Indifferenza", "Proposizione relativa"],
+          "alternatives": ["Mir ist es egal, was sie sagen"]
+        },
+        {
+          "id": "a2_traduzione_12",
+          "type": "traduzione",
+          "prompt": "Lei è più intelligente di sua sorella",
+          "answer": "Sie ist intelligenter als ihre Schwester",
+          "hints": ["Comparativo", "Aggettivo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_01",
+          "type": "completamento",
+          "prompt": "Wenn ich mehr Geld ___, würde ich eine neue Auto kaufen",
+          "answer": "hätte",
+          "hints": ["Condizionale irreale", "Imperfetto del congiuntivo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_02",
+          "type": "completamento",
+          "prompt": "Ich ___ seit drei Stunden auf den Bus",
+          "answer": "warte",
+          "hints": ["Presente con \"seit\""],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_03",
+          "type": "completamento",
+          "prompt": "Sie ___ das Buch schon gelesen",
+          "answer": "hat",
+          "hints": ["Passato prossimo", "Terza persona singolare"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_04",
+          "type": "completamento",
+          "prompt": "Wir ___ uns seit zehn Jahren",
+          "answer": "kennen",
+          "hints": ["Verbo al presente", "Prima persona plurale"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_05",
+          "type": "completamento",
+          "prompt": "Das ist das ___ Haus in der Straße",
+          "answer": "schönste",
+          "hints": ["Superlativo", "Neutro singolare"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_06",
+          "type": "completamento",
+          "prompt": "Ich muss ___ Zahnarzt gehen",
+          "answer": "zum",
+          "hints": ["Contrazione zum = zu + dem", "Dativo"],
+          "alternatives": ["zu dem"]
+        },
+        {
+          "id": "a2_completamento_07",
+          "type": "completamento",
+          "prompt": "Das Kind ___ die ganze Nacht",
+          "answer": "schläft",
+          "hints": ["Presente", "Terza persona singolare"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_08",
+          "type": "completamento",
+          "prompt": "Ich habe meine Freundin im Supermarkt ___",
+          "answer": "getroffen",
+          "hints": ["Passato prossimo", "Participio passato"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_09",
+          "type": "completamento",
+          "prompt": "Diese Kamera kostet 500 Euro, aber jene ___ nur 300",
+          "answer": "kostet",
+          "hints": ["Presente", "Dimostrativi"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_10",
+          "type": "completamento",
+          "prompt": "Der Film war so langweilig, dass ich ___ bin",
+          "answer": "eingeschlafen",
+          "hints": ["Passato", "Participio passato"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_11",
+          "type": "completamento",
+          "prompt": "Ich kann nicht kommen, weil ich viel ___ muss",
+          "answer": "arbeiten",
+          "hints": ["Infinito", "Subordinata causale"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_completamento_12",
+          "type": "completamento",
+          "prompt": "Der Arzt ___ mir, weniger Kaffee zu trinken",
+          "answer": "hat geraten",
+          "hints": ["Passato prossimo", "Verbo raten"],
+          "alternatives": ["riet"]
+        },
+        {
+          "id": "a2_riordina_01",
+          "type": "riordina",
+          "prompt": ["würde", "ich", "gerne", "besuchen", "Deutschland"],
+          "answer": "Ich würde gerne Deutschland besuchen",
+          "hints": ["Condizionale: soggetto, ausiliare, avverbio, verbo, complemento"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_02",
+          "type": "riordina",
+          "prompt": ["heute", "nicht", "komme", "ich", "Ich"],
+          "answer": "Ich komme heute nicht",
+          "hints": ["Negazione prima della fine"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_03",
+          "type": "riordina",
+          "prompt": ["gegessen", "habe", "Ich", "schon", "habe"],
+          "answer": "Ich habe schon gegessen",
+          "hints": ["Passato prossimo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_04",
+          "type": "riordina",
+          "prompt": ["kino", "morgen", "gehen", "werden", "wir", "ins"],
+          "answer": "Wir werden morgen ins Kino gehen",
+          "hints": ["Futuro: soggetto, ausiliare, complemento, verbo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_05",
+          "type": "riordina",
+          "prompt": ["eine", "zeitung", "liest", "frau", "die"],
+          "answer": "Die Frau liest eine Zeitung",
+          "hints": ["Nominativo, accusativo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_06",
+          "type": "riordina",
+          "prompt": ["besser", "auto", "deine", "ist", "meine", "als"],
+          "answer": "Meine Auto ist besser als deine",
+          "hints": ["Comparativo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_07",
+          "type": "riordina",
+          "prompt": ["gekauft", "einen", "neuen", "hat", "laptop", "er"],
+          "answer": "Er hat einen neuen Laptop gekauft",
+          "hints": ["Passato prossimo", "Accusativo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_08",
+          "type": "riordina",
+          "prompt": ["im", "jeden", "spazieren", "park", "gehen", "samstag", "ich"],
+          "answer": "Ich gehe jeden Samstag im Park spazieren",
+          "hints": ["Frequenza", "Ubicazione"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_09",
+          "type": "riordina",
+          "prompt": ["lachen", "über", "wir", "uns", "haben", "den", "witz"],
+          "answer": "Wir haben uns über den Witz gelacht",
+          "hints": ["Verbo riflessivo", "Passato prossimo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_10",
+          "type": "riordina",
+          "prompt": ["als", "aufwachte", "klingelte", "der", "ich", "wecker"],
+          "answer": "Der Wecker klingelte, als ich aufwachte",
+          "hints": ["Subordinata temporale", "Passato"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_11",
+          "type": "riordina",
+          "prompt": ["getragen", "hat", "schönes", "ein", "kleid", "sie"],
+          "answer": "Sie hat ein schönes Kleid getragen",
+          "hints": ["Passato prossimo", "Accusativo neutro"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_riordina_12",
+          "type": "riordina",
+          "prompt": ["fahren", "werden", "nach", "wir", "rom", "nächste", "woche"],
+          "answer": "Wir werden nächste Woche nach Rom fahren",
+          "hints": ["Futuro", "Complemento di luogo"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_01",
+          "type": "scrittura_libera",
+          "prompt": "Racconta una giornata speciale che ricordi",
+          "answer": "Letzte Woche hatte ich einen wunderschönen Tag. Ich bin mit meinen Freunden ins Kino gegangen. Wir haben einen spannenden Film geschaut.",
+          "hints": ["Passato prossimo", "Attività piacevoli"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_02",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi il tuo lavoro o la tua scuola",
+          "answer": "Ich gehe zur Schule. Meine Schule ist sehr modern. Ich habe Deutsch-, Mathe- und Englischunterricht.",
+          "hints": ["Scuola = Schule", "Lavoro = Arbeit"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_03",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una breve lettera a un amico tedesco",
+          "answer": "Lieber Max, es geht mir gut. Ich hoffe, es geht dir auch gut. Wie war dein Wochenende?",
+          "hints": ["Lieber = Caro", "Letterale = Brief"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_04",
+          "type": "scrittura_libera",
+          "prompt": "Quale sarebbe il tuo viaggio ideale?",
+          "answer": "Ich würde gerne nach Deutschland fahren. Ich möchte Berlin und München besuchen. Das wäre sehr schön.",
+          "hints": ["Condizionale", "Würde gerne"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_05",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi le tue competenze e talenti",
+          "answer": "Ich bin sehr gut in Mathematik. Ich kann schnell laufen. Ich bin ein guter Schüler.",
+          "hints": ["Abilità = Fähigkeiten"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_06",
+          "type": "scrittura_libera",
+          "prompt": "Qual è il tuo hobby preferito e perché?",
+          "answer": "Mein liebstes Hobby ist lesen. Ich lese sehr gerne Bücher. Ich finde Bücher sehr interessant.",
+          "hints": ["Hobby = Hobby", "Leggere = lesen"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_07",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi dei tuoi obiettivi futuri",
+          "answer": "Ich möchte einen guten Job finden. Ich will nach Deutschland fahren. Ich werde Deutsch lernen.",
+          "hints": ["Futuro", "Desideri", "Piani"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_08",
+          "type": "scrittura_libera",
+          "prompt": "Racconta un brutto errore che hai commesso",
+          "answer": "Letzte Woche habe ich einen großen Fehler gemacht. Ich bin zu spät zur Schule gekommen. Der Lehrer war nicht sehr glücklich.",
+          "hints": ["Passato prossimo", "Errore = Fehler"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_09",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi un luogo che ami",
+          "answer": "Ich liebe den Park in meiner Stadt. Er ist sehr grün und ruhig. Ich gehe dort spazieren.",
+          "hints": ["Quieto = ruhig", "Passeggio = Spaziergang"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_10",
+          "type": "scrittura_libera",
+          "prompt": "Quale genere di film ti piace più?",
+          "answer": "Ich mag Abenteuerfilme. Sie sind immer spannend und interessant. Ich gehe gerne ins Kino.",
+          "hints": ["Film = Film", "Genere = Gattung", "Avventura = Abenteuer"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_11",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi cosa faresti se avessi 1 milione di euro",
+          "answer": "Wenn ich eine Million Euro hätte, würde ich eine schöne Villa kaufen. Ich würde viel reisen. Ich würde meiner Familie helfen.",
+          "hints": ["Condizionale irreale"],
+          "alternatives": []
+        },
+        {
+          "id": "a2_scrittura_libera_12",
+          "type": "scrittura_libera",
+          "prompt": "Parla dei tuoi genitori e della vostra relazione",
+          "answer": "Meine Eltern sind sehr lieb. Wir verbringen viel Zeit zusammen. Ich liebe meine Eltern sehr.",
+          "hints": ["Genitori = Eltern", "Relazione = Beziehung"],
+          "alternatives": []
+        }
+      ]
+    },
+    "B1": {
+      "exercises": [
+        {
+          "id": "b1_traduzione_01",
+          "type": "traduzione",
+          "prompt": "Sebbene stesse piovendo, sono uscito di casa",
+          "answer": "Obwohl es regnete, bin ich aus dem Haus gegangen",
+          "hints": ["Subordinata concessiva", "Passato"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_02",
+          "type": "traduzione",
+          "prompt": "Se non mi fosse capitato quell'incidente, non avrei incontrato mio marito",
+          "answer": "Wenn mir dieser Unfall nicht passiert wäre, hätte ich meinen Mann nicht getroffen",
+          "hints": ["Condizionale irreale", "Trapassato prossimo"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_03",
+          "type": "traduzione",
+          "prompt": "Le decisioni che hai preso riflettono i tuoi valori",
+          "answer": "Die Entscheidungen, die du getroffen hast, spiegeln deine Werte wider",
+          "hints": ["Proposizione relativa", "Verbo riflessivo"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_04",
+          "type": "traduzione",
+          "prompt": "Malgrado le difficoltà, riuscì a completare il progetto",
+          "answer": "Trotz der Schwierigkeiten schaffte er es, das Projekt abzuschließen",
+          "hints": ["Preposizione trotz", "Dativo"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_05",
+          "type": "traduzione",
+          "prompt": "Mi domandavo se sarebbe venuto alla festa",
+          "answer": "Ich fragte mich, ob er zum Fest kommen würde",
+          "hints": ["Proposizione interrogativa indiretta", "Condizionale"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_06",
+          "type": "traduzione",
+          "prompt": "Il film, che ho visto l'altro ieri, era straordinario",
+          "answer": "Der Film, den ich vorgestern angesehen habe, war außergewöhnlich",
+          "hints": ["Proposizione relativa", "Passato prossimo"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_07",
+          "type": "traduzione",
+          "prompt": "Non mi rendiamo conto che il tempo stava per finire",
+          "answer": "Wir merkten nicht, dass die Zeit zu Ende ging",
+          "hints": ["Proposizione subordinata", "Verbi di percezione"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_08",
+          "type": "traduzione",
+          "prompt": "Avrebbe potuto avere successo se avesse studiato di più",
+          "answer": "Er hätte Erfolg haben können, wenn er mehr gelernt hätte",
+          "hints": ["Condizionale II", "Ipotesi controffattuale"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_09",
+          "type": "traduzione",
+          "prompt": "L'azienda sta attraversando un periodo di difficile transizione",
+          "answer": "Das Unternehmen durchlebt eine schwierige Übergangzeit",
+          "hints": ["Presente continuo", "Gerundio"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_10",
+          "type": "traduzione",
+          "prompt": "Mi sento come se stessi vivendo un sogno",
+          "answer": "Ich fühle mich, als ob ich einen Traum leben würde",
+          "hints": ["Proposizione comparativa", "Condizionale"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_11",
+          "type": "traduzione",
+          "prompt": "Nonostante gli sforzi, il risultato non è stato quello sperato",
+          "answer": "Trotz der Bemühungen war das Ergebnis nicht das erwartete",
+          "hints": ["Preposizione trotz", "Aggettivo sostantivato"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_traduzione_12",
+          "type": "traduzione",
+          "prompt": "Credo fermamente che il cambiamento sia possibile",
+          "answer": "Ich glaube fest daran, dass Veränderung möglich ist",
+          "hints": ["Proposizione subordinata", "Verbi di opinione"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_01",
+          "type": "completamento",
+          "prompt": "Wenn ich gewusst ___, wäre ich früher gekommen",
+          "answer": "hätte",
+          "hints": ["Condizionale II", "Pluperfekt"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_02",
+          "type": "completamento",
+          "prompt": "Das Haus, ___ meine Eltern gekauft haben, ist sehr alt",
+          "answer": "das",
+          "hints": ["Proposizione relativa", "Accusativo neutro"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_03",
+          "type": "completamento",
+          "prompt": "Er behauptet, er ___ die Wahrheit sagen",
+          "answer": "sage",
+          "hints": ["Congiuntivo indiretto", "Discorso indiretto"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_04",
+          "type": "completamento",
+          "prompt": "Ich bin dankbar für ___, das du mir getan hast",
+          "answer": "das",
+          "hints": ["Proposizione relativa", "Accusativo neutro"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_05",
+          "type": "completamento",
+          "prompt": "Trotz der Schwierigkeiten ___ er das Ziel erreicht",
+          "answer": "hat",
+          "hints": ["Passato prossimo", "Soggetto singolare"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_06",
+          "type": "completamento",
+          "prompt": "Ob es regnet oder schneit, ich ___ jeden Morgen joggen",
+          "answer": "gehe",
+          "hints": ["Presente", "Routine"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_07",
+          "type": "completamento",
+          "prompt": "Die Frage ist, ___ das möglich ist",
+          "answer": "ob",
+          "hints": ["Proposizione interrogativa indiretta"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_08",
+          "type": "completamento",
+          "prompt": "Meines Erachtens ___ der Plan nicht machbar",
+          "answer": "ist",
+          "hints": ["Verbo essere", "Opinione"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_09",
+          "type": "completamento",
+          "prompt": "Der Grund, ___ ich nicht komme, ist die Krankheit",
+          "answer": "warum",
+          "hints": ["Proposizione relativa", "Causa"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_10",
+          "type": "completamento",
+          "prompt": "Sie ___ arbeitet, um Geld zu verdienen",
+          "answer": "hart",
+          "hints": ["Avverbio di modo"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_11",
+          "type": "completamento",
+          "prompt": "Es ist wichtig, dass du das ___",
+          "answer": "verstehst",
+          "hints": ["Congiuntivo", "Necessità"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_completamento_12",
+          "type": "completamento",
+          "prompt": "Der Mann, mit ___ ich sprach, war sein Bruder",
+          "answer": "dem",
+          "hints": ["Proposizione relativa", "Dativo"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_01",
+          "type": "riordina",
+          "prompt": ["regnete", "es", "obwohl", "bin", "ich", "gegangen", "aus"],
+          "answer": "Obwohl es regnete, bin ich aus dem Haus gegangen",
+          "hints": ["Subordinata concessiva"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_02",
+          "type": "riordina",
+          "prompt": ["hätte", "gekommen", "ich", "wäre", "wenn", "gewusst", "ich"],
+          "answer": "Wenn ich gewusst hätte, wäre ich gekommen",
+          "hints": ["Condizionale II"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_03",
+          "type": "riordina",
+          "prompt": ["meinen", "du", "denkst", "was"],
+          "answer": "Was denkst du, meinen",
+          "hints": ["Domanda indiretta"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_04",
+          "type": "riordina",
+          "prompt": ["spiegeln", "treffen", "deine", "die", "entscheidungen", "die", "wider", "du", "werte"],
+          "answer": "Die Entscheidungen, die du triffst, spiegeln deine Werte wider",
+          "hints": ["Proposizione relativa"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_05",
+          "type": "riordina",
+          "prompt": ["schwierigkeiten", "trotz", "der", "projekt", "das", "abzuschließen", "schaffte", "er"],
+          "answer": "Trotz der Schwierigkeiten schaffte er es, das Projekt abzuschließen",
+          "hints": ["Preposizione trotz"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_06",
+          "type": "riordina",
+          "prompt": ["kommt", "ob", "fest", "er", "fragte", "ich", "mich"],
+          "answer": "Ich fragte mich, ob er kommt",
+          "hints": ["Proposizione interrogativa indiretta"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_07",
+          "type": "riordina",
+          "prompt": ["angesehen", "habe", "film", "den", "extraordinär", "war"],
+          "answer": "Der Film, den ich angesehen habe, war extraordinär",
+          "hints": ["Proposizione relativa"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_08",
+          "type": "riordina",
+          "prompt": ["geld", "hätte", "verdienen", "würde", "er", "können", "mehr", "wenn"],
+          "answer": "Wenn er mehr hätte, würde er mehr Geld verdienen",
+          "hints": ["Condizionale II"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_09",
+          "type": "riordina",
+          "prompt": ["zeit", "lebt", "schnell", "die", "vorbei", "geht"],
+          "answer": "Die Zeit geht schnell vorbei",
+          "hints": ["Verbo con particella"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_10",
+          "type": "riordina",
+          "prompt": ["sogno", "leben", "einem", "würde", "ich", "fühle", "ich", "mich", "als"],
+          "answer": "Ich fühle mich, als würde ich einen Traum leben",
+          "hints": ["Proposizione comparativa"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_11",
+          "type": "riordina",
+          "prompt": ["bemühungen", "der", "trotz", "ergebnis", "das", "hoffnung", "nicht", "war"],
+          "answer": "Trotz der Bemühungen war das Ergebnis nicht das hoffnungsvolle",
+          "hints": ["Preposizione trotz"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_riordina_12",
+          "type": "riordina",
+          "prompt": ["glaube", "ich", "daran", "möglich", "ist", "veränderung"],
+          "answer": "Ich glaube daran, dass Veränderung möglich ist",
+          "hints": ["Verbo con preposizione"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_01",
+          "type": "scrittura_libera",
+          "prompt": "Analizza un problema sociale contemporaneo e la sua soluzione",
+          "answer": "Das Klimawandel ist ein großes Problem. Wir müssen weniger Autos fahren. Die Regierung sollte erneuerbare Energie unterstützen.",
+          "hints": ["Problema = Problem", "Soluzione = Lösung"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_02",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una critica di un film, libro o show che hai visto",
+          "answer": "Ich habe den Film gestern angesehen. Die Geschichte war interessant, aber die Schauspieler waren nicht sehr gut. Insgesamt war es ein guter Film.",
+          "hints": ["Critica = Kritik", "Attore = Schauspieler"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_03",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi come celebri le festività più importanti",
+          "answer": "Zu Weihnachten treffe ich meine Familie. Wir kaufen Geschenke und schmücken das Haus. Am Weihnachtsabend essen wir zusammen.",
+          "hints": ["Festività = Feiertag", "Celebrare = feiern"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_04",
+          "type": "scrittura_libera",
+          "prompt": "Racconta un'esperienza di viaggio indimenticabile",
+          "answer": "Letzte Sommer bin ich nach Deutschland gefahren. Ich habe Berlin und Köln besucht. Es war eine wunderbare Erfahrung.",
+          "hints": ["Viaggio = Reise", "Indimenticabile = unvergesslich"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_05",
+          "type": "scrittura_libera",
+          "prompt": "Quale sarebbe il tuo lavoro ideale e perché?",
+          "answer": "Mein idealer Job wäre ein Architekt. Ich interessiere mich für Gebäude und Design. Ich würde gerne etwas Kreatives tun.",
+          "hints": ["Lavoro = Beruf", "Interessare = interessieren"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_06",
+          "type": "scrittura_libera",
+          "prompt": "Analizza i pro e i contro di vivere in una grande città vs piccolo paese",
+          "answer": "In der Stadt gibt es viele Arbeitsplätze, aber es ist auch laut. Im Land ist es ruhiger, aber es gibt weniger Möglichkeiten.",
+          "hints": ["Città = Stadt", "Vantaggio = Vorteil", "Svantaggio = Nachteil"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_07",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una lettera per chiedere aiuto o consiglio a qualcuno",
+          "answer": "Lieber Max, ich habe ein großes Problem. Mein Laptop funktioniert nicht mehr. Kannst du mir helfen?",
+          "hints": ["Lettera = Brief"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_08",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi le tue aspirazioni future e come le raggiungerai",
+          "answer": "Ich möchte einen Universitätsabschluss machen. Ich werde hart studieren. Dann möchte ich in Deutschla arbeiten.",
+          "hints": ["Aspirazione = Traum", "Raggiungere = erreichen"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_09",
+          "type": "scrittura_libera",
+          "prompt": "Confronta la tua cultura con una cultura tedesca",
+          "answer": "In meiner Kultur feieren wir verschiedene Feste als in Deutschland. Die Traditionen sind unterschiedlich, aber beide sind interessant.",
+          "hints": ["Cultura = Kultur", "Confrontare = vergleichen"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_10",
+          "type": "scrittura_libera",
+          "prompt": "Spiega quale momento della tua vita è stato il più importante",
+          "answer": "Der wichtigste Moment meines Lebens war, als ich die Schule abgeschlossen habe. Es war ein großer Erfolg für mich.",
+          "hints": ["Importante = wichtig"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_11",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi sulla tecnologia e il suo impatto sulla società moderna",
+          "answer": "Die Technologie hat große Veränderungen gebracht. Das Internet verbindet Menschen auf der ganzen Welt. Aber es hat auch negative Auswirkungen.",
+          "hints": ["Tecnologia = Technologie", "Impatto = Auswirkung"],
+          "alternatives": []
+        },
+        {
+          "id": "b1_scrittura_libera_12",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi la persona che ammiri più e spiega perché",
+          "answer": "Ich bewundere meinen Lehrer sehr. Er ist klug und geduldig. Er hilft seinen Schülern immer.",
+          "hints": ["Ammirare = bewundern"],
+          "alternatives": []
+        }
+      ]
+    },
+    "B2": {
+      "exercises": [
+        {
+          "id": "b2_traduzione_01",
+          "type": "traduzione",
+          "prompt": "Tenendo conto della situazione attuale, mi sembra prudente rimandare la decisione",
+          "answer": "Angesichts der derzeitigen Lage scheint es mir ratsam, die Entscheidung zu verschieben",
+          "hints": ["Struttura formale", "Verbo riflessivo"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_02",
+          "type": "traduzione",
+          "prompt": "È innegabile che il cambiamento climatico rappresenti una minaccia globale",
+          "answer": "Es ist unbestreitbar, dass der Klimawandel eine globale Bedrohung darstellt",
+          "hints": ["Costruzione impersonale", "Proposizione subordinata"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_03",
+          "type": "traduzione",
+          "prompt": "Non sia mai detto che rinuncia al suo principi per convenienza",
+          "answer": "Es möge nie gesagt werden, dass er seine Prinzipien aus Bequemlichkeit aufgibt",
+          "hints": ["Optativo", "Negazione"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_04",
+          "type": "traduzione",
+          "prompt": "Piuttosto che rischiare un fallimento, preferisce non intraprendere alcunché",
+          "answer": "Eher als das Risiko eines Scheiterns einzugehen, zieht er es vor, nichts zu unternehmen",
+          "hints": ["Comparative costruzione", "Infinito"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_05",
+          "type": "traduzione",
+          "prompt": "Avendo considerato tutte le opzioni, ha optato per la soluzione più pragmatica",
+          "answer": "Nachdem er alle Optionen berücksichtigt hatte, entschied er sich für die praktischste Lösung",
+          "hints": ["Gerundio", "Passato"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_06",
+          "type": "traduzione",
+          "prompt": "Nonostante la sua vasta esperienza, non era preparato per questa crisi",
+          "answer": "Trotz seiner großen Erfahrung war er auf diese Krise nicht vorbereitet",
+          "hints": ["Preposizione trotz", "Aggettivo possessivo"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_07",
+          "type": "traduzione",
+          "prompt": "Laddove le risorse sono scarse, la creatività diventa essenziale",
+          "answer": "Wo die Ressourcen knapp sind, wird Kreativität zu einer Notwendigkeit",
+          "hints": ["Subordinata locale", "Passiva"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_08",
+          "type": "traduzione",
+          "prompt": "Per quanto controversa, la proposta merita un'attenta considerazione",
+          "answer": "So kontrovers die Vorschlag auch sein mag, verdient sie eine sorgfältige Überlegung",
+          "hints": ["Costruzione concessiva", "Inversione"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_09",
+          "type": "traduzione",
+          "prompt": "Assumendo che il progetto proceda secondo i piani, avremo risultati entro giugno",
+          "answer": "Gesetzt den Fall, dass das Projekt planmäßig verläuft, werden wir bis Juni Ergebnisse haben",
+          "hints": ["Ipotesi", "Futuro"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_10",
+          "type": "traduzione",
+          "prompt": "Piuttosto che ricorrere alla violenza, dovremmo cercare il dialogo",
+          "answer": "Anstatt zur Gewalt zu greifen, sollten wir Dialog suchen",
+          "hints": ["Costruzione comparativa", "Infinito"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_11",
+          "type": "traduzione",
+          "prompt": "Si può affermare con certezza che questa tendenza continuerà negli anni a venire",
+          "answer": "Man kann mit Gewissheit behaupten, dass dieser Trend in den kommenden Jahren andauern wird",
+          "hints": ["Costruzione impersonale", "Futuro"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_traduzione_12",
+          "type": "traduzione",
+          "prompt": "Qual è il fondamento logico di questa argomentazione?",
+          "answer": "Welche logische Grundlage liegt dieser Argumentation zugrunde?",
+          "hints": ["Domanda retorica", "Verbo con preposizione"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_01",
+          "type": "completamento",
+          "prompt": "Angesichts der Tatsachen scheint es ratsam, diese ___ zu treffen",
+          "answer": "Entscheidung",
+          "hints": ["Sostantivo femminile", "Accusativo"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_02",
+          "type": "completamento",
+          "prompt": "Es ist unbestreitbar, ___ das Problem ernst ist",
+          "answer": "dass",
+          "hints": ["Proposizione subordinata", "Congiunzione"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_03",
+          "type": "completamento",
+          "prompt": "Der Artikel behandelt ___ Auswirkungen des Klimawandels",
+          "answer": "die",
+          "hints": ["Articolo determinativo plurale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_04",
+          "type": "completamento",
+          "prompt": "Nachdem ich alle Optionen berücksichtigt habe, ___ ich mich für die beste",
+          "answer": "entscheide",
+          "hints": ["Verbo al presente", "Verbo riflessivo"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_05",
+          "type": "completamento",
+          "prompt": "Der Grund, ___ wir diese Maßnahmen ergreifen, ist die Effizienz",
+          "answer": "warum",
+          "hints": ["Avverbio relativo", "Subordinata causal"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_06",
+          "type": "completamento",
+          "prompt": "Es wird behauptet, ___ Technologie die Gesellschaft verändert",
+          "answer": "dass",
+          "hints": ["Costruzione impersonale passiva", "Proposizione subordinata"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_07",
+          "type": "completamento",
+          "prompt": "So ___ das auch sein mag, wir müssen die Realität akzeptieren",
+          "answer": "unbequem",
+          "hints": ["Aggettivo predicativo", "Costruzione concessiva"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_08",
+          "type": "completamento",
+          "prompt": "Aufgrund seiner ___ war er qualifiziert für die Position",
+          "answer": "Erfahrung",
+          "hints": ["Sostantivo femminile", "Genitivo"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_09",
+          "type": "completamento",
+          "prompt": "Die Analyse zeigt, ___ mehrere Faktoren eine Rolle spielen",
+          "answer": "dass",
+          "hints": ["Proposizione subordinata", "Verbo impersonale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_10",
+          "type": "completamento",
+          "prompt": "Insofern ___ ich Ihre Bedenken, möchte ich auf einige Punkte hinweisen",
+          "answer": "ich Ihre Bedenken verstehe",
+          "hints": ["Subordinata concessiva"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_11",
+          "type": "completamento",
+          "prompt": "Das Phänomen, ___ wir beobachten, wird immer komplexer",
+          "answer": "das",
+          "hints": ["Proposizione relativa", "Accusativo neutro"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_completamento_12",
+          "type": "completamento",
+          "prompt": "Seine ___ deutet auf eine tiefere Problematik hin",
+          "answer": "Kritik",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_01",
+          "type": "riordina",
+          "prompt": ["lage", "angesichts", "derzeitigen", "scheint", "ratsam", "der", "es", "mir"],
+          "answer": "Angesichts der derzeitigen Lage scheint es mir ratsam",
+          "hints": ["Struttura formale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_02",
+          "type": "riordina",
+          "prompt": ["bestreitbar", "es", "ist", "dass", "unbestreitbar", "problem", "dies"],
+          "answer": "Es ist unbestreitbar, dass dies ein Problem ist",
+          "hints": ["Costruzione impersonale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_03",
+          "type": "riordina",
+          "prompt": ["risorse", "sind", "kreativität", "wo", "knapp", "essentiell", "die"],
+          "answer": "Wo die Ressourcen knapp sind, ist Kreativität essentiell",
+          "hints": ["Subordinata locale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_04",
+          "type": "riordina",
+          "prompt": ["kontrovers", "überlegung", "verdient", "sorgfältige", "sein", "die", "mag", "vorschlag"],
+          "answer": "So kontrovers die Vorschlag auch sein mag, verdient sie sorgfältige Überlegung",
+          "hints": ["Costruzione concessiva"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_05",
+          "type": "riordina",
+          "prompt": ["projekt", "planmäßig", "gesetzt", "dass", "verläuft", "das", "den"],
+          "answer": "Gesetzt den Fall, dass das Projekt planmäßig verläuft",
+          "hints": ["Ipotesi formale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_06",
+          "type": "riordina",
+          "prompt": ["gewalt", "greifen", "anstatt", "dialogo", "sollten", "suchen", "zur", "wir"],
+          "answer": "Anstatt zur Gewalt zu greifen, sollten wir Dialog suchen",
+          "hints": ["Costruzione comparativa"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_07",
+          "type": "riordina",
+          "prompt": ["gewissheit", "trend", "andauern", "behaupten", "jahren", "wird", "man", "kommenden", "mit"],
+          "answer": "Man kann mit Gewissheit behaupten, dass dieser Trend andauern wird",
+          "hints": ["Costruzione impersonale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_08",
+          "type": "riordina",
+          "prompt": ["grundlage", "liegt", "argumentation", "logische", "welche", "dieser", "zugrunde"],
+          "answer": "Welche logische Grundlage liegt dieser Argumentation zugrunde",
+          "hints": ["Verbo con preposizione"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_09",
+          "type": "riordina",
+          "prompt": ["tatsachen", "ratsam", "scheint", "tatsachen", "berücksichtigung", "der", "bei", "es"],
+          "answer": "Bei Berücksichtigung der Tatsachen scheint es ratsam",
+          "hints": ["Struttura preposizionale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_10",
+          "type": "riordina",
+          "prompt": ["erfahrung", "position", "qualifiziert", "seiner", "aufgrund", "er", "für", "war"],
+          "answer": "Aufgrund seiner Erfahrung war er qualifiziert für die Position",
+          "hints": ["Preposizione causale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_11",
+          "type": "riordina",
+          "prompt": ["analyse", "mehrere", "spielen", "dass", "faktoren", "rolle", "zeigt", "die"],
+          "answer": "Die Analyse zeigt, dass mehrere Faktoren eine Rolle spielen",
+          "hints": ["Verbo impersonale"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_riordina_12",
+          "type": "riordina",
+          "prompt": ["beobachten", "komplexer", "phänomen", "immer", "wir", "wird", "das"],
+          "answer": "Das Phänomen, das wir beobachten, wird immer komplexer",
+          "hints": ["Proposizione relativa"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_01",
+          "type": "scrittura_libera",
+          "prompt": "Analizza criticamente una politica governativa contemporanea",
+          "answer": "Die aktuelle Steuerpolitik ist komplex. Einerseits können die niedrigeren Steuern das wirtschaftliche Wachstum fördern. Andererseits könnte dies zu einem Defizit führen.",
+          "hints": ["Politica = Politik", "Analisi = Analyse"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_02",
+          "type": "scrittura_libera",
+          "prompt": "Discussione: Vantaggi e svantaggi della globalizzazione",
+          "answer": "Die Globalisierung hat viele Vorteile. Sie ermöglicht internationalen Handel. Jedoch entstehen auch neue Probleme wie Umweltschäden und kulturelle Verluste.",
+          "hints": ["Globalizzazione = Globalisierung"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_03",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una lettera formale per una reclamazione",
+          "answer": "Sehr geehrter Herr Müller, ich schreibe Ihnen, um mich über den Kundenservice zu beschweren. Das Produkt, das ich erhalten habe, war beschädigt.",
+          "hints": ["Reclamazione = Beschwerde"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_04",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi il ruolo della tecnologia nell'educazione moderna",
+          "answer": "Die Technologie hat das Bildungswesen transformiert. Online-Plattformen ermöglichen flexibles Lernen. Allerdings gibt es Bedenken bezüglich der digitalen Kluft.",
+          "hints": ["Tecnologia = Technologie", "Educazione = Bildung"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_05",
+          "type": "scrittura_libera",
+          "prompt": "Riflessione: Quale contributo puoi dare alla società?",
+          "answer": "Ich kann zur Gesellschaft durch meine Fähigkeiten beitragen. Ich möchte anderen helfen und unterstützen. Mein Ziel ist es, einen positiven Unterschied zu machen.",
+          "hints": ["Contributo = Beitrag"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_06",
+          "type": "scrittura_libera",
+          "prompt": "Analizza un dilemmma etico e come lo risol veresti",
+          "action": "Se trovassi del denaro per strada, lo consegnerei alla polizia. È importante essere onesto, anche quando nessuno sta guardando.",
+          "hints": ["Dilemma = Dilemma", "Etico = Ethisch"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_07",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi come vedi il futuro della tua carriera",
+          "answer": "Ich sehe eine vielversprechende Karriere vor mir. Ich möchte in meinem Bereich Expertise entwickeln. In zehn Jahren hoffe ich, eine Führungsposition zu haben.",
+          "hints": ["Carriera = Karriere"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_08",
+          "type": "scrittura_libera",
+          "prompt": "Confronta il sistema educativo di due paesi",
+          "answer": "Das deutsche Bildungssystem unterscheidet sich vom italienischen. In Deutschland gibt es mehr Spezialisierung. Italien betont geisteswissenschaftliche Themen mehr.",
+          "hints": ["Sistema = System", "Confrontare = vergleichen"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_09",
+          "type": "scrittura_libera",
+          "prompt": "Argomenta a favore o contro una posizione controversa",
+          "answer": "Ich bin für die Legalisierung von Marihuana. Dies würde die Kriminalität reduzieren. Zudem könnte der Staat Steuern verdienen.",
+          "hints": ["Argomentare = argumentieren"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_10",
+          "type": "scrittura_libera",
+          "prompt": "Descri vita personale e come equilibri lavoro e tempo libero",
+          "answer": "Ich lebe einen ausgewogenen Lebensstil. Ich arbeite hart, aber ich nehme mir Zeit für Familie und Hobbys. Dies ist für mein Wohlbefinden wichtig.",
+          "hints": ["Equilibrio = Gleichgewicht"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_11",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una revisione accademica o letteraria approfondita",
+          "answer": "Das Buch 'Faust' von Goethe ist ein Meisterwerk. Es erforscht tiefe philosophische Themen. Die Charakterentwicklung ist beeindruckend.",
+          "hints": ["Revisione = Besprechung"],
+          "alternatives": []
+        },
+        {
+          "id": "b2_scrittura_libera_12",
+          "type": "scrittura_libera",
+          "prompt": "Proponi soluzioni innovative per un problema globale",
+          "answer": "Um Armut zu bekämpfen, schlage ich vor, dass Länder in Bildung investieren. Dies würde wirtschaftliche Chancen schaffen. Zusätzlich könnten Handelsabkommen helfen.",
+          "hints": ["Proporre = vorschlagen", "Soluzione = Lösung"],
+          "alternatives": []
+        }
+      ]
+    },
+    "C1": {
+      "exercises": [
+        {
+          "id": "c1_traduzione_01",
+          "type": "traduzione",
+          "prompt": "Sebbene le circostanze fossero avverse, la sua determinazione rimase incrollabile",
+          "answer": "Obgleich die Umstände widrig waren, blieb seine Entschlossenheit unerschütterlich",
+          "hints": ["Registro formale", "Aggettivi sofisticati"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_02",
+          "type": "traduzione",
+          "prompt": "La proliferazione di informazioni contraddittorie ha esacerbato la confusione pubblica",
+          "answer": "Die Vermehrung widersprüchlicher Informationen hat die öffentliche Verwirrung verschärft",
+          "hints": ["Lessico astratto", "Verbi complessi"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_03",
+          "type": "traduzione",
+          "prompt": "Quantunque il progetto fosse ambizioso, la sua realizzazione si dimostrò fattibile",
+          "answer": "So ehrgeizig das Projekt auch war, seine Verwirklichung erwies sich als machbar",
+          "hints": ["Costruzione concessiva sofisticata"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_04",
+          "type": "traduzione",
+          "prompt": "L'accumulazione di prove inconfutabili ha portato all'inescorabile conclusione",
+          "answer": "Die Anhäufung unwiderlegbarer Beweise führte zur unvermeidlichen Schlussfolgerung",
+          "hints": ["Aggettivi colti"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_05",
+          "type": "traduzione",
+          "prompt": "La sua prosa, sebbene laboriosa, possiede una certa profondità concettuale",
+          "answer": "Seine Prosa, obwohl mühsam, besitzt eine gewisse konzeptionelle Tiefe",
+          "hints": ["Critica letteraria", "Registro formale"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_06",
+          "type": "traduzione",
+          "prompt": "Per quanto perspicace, la sua analisi non tiene conto di fattori periferici",
+          "answer": "So scharfsinnig die Analyse auch sein mag, sie berücksichtigt keine peripheren Faktoren",
+          "hints": ["Aggettivi di grado superiore"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_07",
+          "type": "traduzione",
+          "prompt": "La dicotomia tra ideale e pratico ha sempre tormentato gli intellettuali",
+          "answer": "Die Dichotomie zwischen Ideal und Praxis hat Intellektuelle schon immer geplagt",
+          "hints": ["Concetti astratti"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_08",
+          "type": "traduzione",
+          "prompt": "Piuttosto che capitolare al fatalismo, opta per una resistenza consapevole",
+          "answer": "Anstatt sich dem Fatalismus zu ergeben, entscheidet er sich für bewussten Widerstand",
+          "hints": ["Lessico sofisticato"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_09",
+          "type": "traduzione",
+          "prompt": "L'ambivalenza della sua posizione rispecchia l'incertezza contemporanea",
+          "answer": "Die Ambivalenz seiner Position spiegelt die zeitgenössische Unsicherheit wider",
+          "hints": ["Psicologia del carattere"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_10",
+          "type": "traduzione",
+          "prompt": "Nonostante l'apparenza frammentaria, il testo rivela una struttura coerente sottostante",
+          "answer": "Trotz des fragmentarischen Anscheins offenbart der Text eine zugrunde liegende kohärente Struktur",
+          "hints": ["Analisi testuale"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_11",
+          "type": "traduzione",
+          "prompt": "La sua capacità di sintetizzare concetti disparati denota un intelletto perspicace",
+          "answer": "Seine Fähigkeit, unterschiedliche Konzepte zu synthetisieren, deutet auf einen scharfsinnigen Intellekt hin",
+          "hints": ["Valutazione intellettuale"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_traduzione_12",
+          "type": "traduzione",
+          "prompt": "Il leitmotiv della transfigurazione ricorre costantemente in tutta l'opera",
+          "answer": "Das Leitmotiv der Verklärung wiederholt sich durchgängig in dem gesamten Werk",
+          "hints": ["Critica letteraria", "Lessico colto"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_01",
+          "type": "completamento",
+          "prompt": "Die ___ von Informationen hat zur Verwirrung der Öffentlichkeit beigetragen",
+          "answer": "Proliferation",
+          "hints": ["Sostantivo astratto", "Femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_02",
+          "type": "completamento",
+          "prompt": "Seine ___ für logische Konsistenz ist bewundernswert",
+          "answer": "Sorge",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_03",
+          "type": "completamento",
+          "prompt": "Die ___ des Autors spiegelt eine tiefe philosophische Überzeugung wider",
+          "answer": "Weltanschauung",
+          "hints": ["Sostantivo composto", "Femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_04",
+          "type": "completamento",
+          "prompt": "Trotz ihrer ___, ist die Theorie nicht ohne Kritik",
+          "answer": "Eleganz",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_05",
+          "type": "completamento",
+          "prompt": "Der ___ zwischen Theorie und Praxis bleibt bestehen",
+          "answer": "Riss",
+          "hints": ["Sostantivo maschile", "Metafora"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_06",
+          "type": "completamento",
+          "prompt": "Diese ___ erfordern eine nuancierte Auseinandersetzung",
+          "answer": "Fragestellungen",
+          "hints": ["Sostantivo plurale", "Femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_07",
+          "type": "completamento",
+          "prompt": "Der ___ des Textes lässt mehrere Interpretationen zu",
+          "answer": "Gehalt",
+          "hints": ["Sostantivo maschile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_08",
+          "type": "completamento",
+          "prompt": "Diese ___ widerlegen die bisherigen Annahmen",
+          "answer": "Erkenntnisse",
+          "hints": ["Sostantivo plurale", "Femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_09",
+          "type": "completamento",
+          "prompt": "Das Werk zeigt eine bemerkenswerte ____ von Stilen",
+          "answer": "Hybridität",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_10",
+          "type": "completamento",
+          "prompt": "Die ____ seiner Argumente erfordert kritische Prüfung",
+          "answer": "Stringenz",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_11",
+          "type": "completamento",
+          "prompt": "Diese ____ eröffnet neue Perspektiven",
+          "answer": "Hermeneutik",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_completamento_12",
+          "type": "completamento",
+          "prompt": "Der ____ seines Ansatzes liegt in seiner Ganzheitlichkeit",
+          "answer": "Reiz",
+          "hints": ["Sostantivo maschile"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_01",
+          "type": "riordina",
+          "prompt": ["umstände", "incrollable", "widrig", "obgleich", "diesen", "diesen", "entschlossenheit", "blieb", "seine"],
+          "answer": "Obgleich die Umstände widrig waren, blieb seine Entschlossenheit unerschütterlich",
+          "hints": ["Costruzione concessiva"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_02",
+          "type": "riordina",
+          "prompt": ["proliferation", "informationen", "exacerbiert", "verwirrung", "öffentliche", "hat"],
+          "answer": "Die Proliferation von Informationen hat die öffentliche Verwirrung exacerbiert",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_03",
+          "type": "riordina",
+          "prompt": ["ehrgeizig", "projekt", "das", "war", "auch", "so", "erwies", "verwirklichung", "machbar", "sich"],
+          "answer": "So ehrgeizig das Projekt auch war, seine Verwirklichung erwies sich als machbar",
+          "hints": ["Costruzione concessiva"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_04",
+          "type": "riordina",
+          "prompt": ["anhäufung", "beweise", "unwiderlegbarer", "unvermeidlichen", "zur", "geführt", "schlussfolgerung", "hat"],
+          "answer": "Die Anhäufung unwiderlegbarer Beweise hat zur unvermeidlichen Schlussfolgerung geführt",
+          "hints": ["Complemento di luogo"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_05",
+          "type": "riordina",
+          "prompt": ["prosa", "seine", "tiefe", "mühsam", "obwohl", "konzeptionelle", "gewisse", "besitzt", "eine"],
+          "answer": "Seine Prosa, obwohl mühsam, besitzt eine gewisse konzeptionelle Tiefe",
+          "hints": ["Proposizione relativa"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_06",
+          "type": "riordina",
+          "prompt": ["scharfsinnig", "analyse", "sein", "peripheren", "faktoren", "nicht", "berücksichtigt", "mag", "so"],
+          "answer": "So scharfsinnig die Analyse auch sein mag, sie berücksichtigt keine peripheren Faktoren",
+          "hints": ["Costruzione concessiva"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_07",
+          "type": "riordina",
+          "prompt": ["dichotomie", "ideal", "praxis", "intellektuelle", "schon", "geplagt", "immer", "zwischen", "hat"],
+          "answer": "Die Dichotomie zwischen Ideal und Praxis hat Intellektuelle schon immer geplagt",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_08",
+          "type": "riordina",
+          "prompt": ["fatalismus", "widerstand", "entscheidet", "anstatt", "bewussten", "sich", "ergeben", "für"],
+          "answer": "Anstatt sich dem Fatalismus zu ergeben, entscheidet er sich für bewussten Widerstand",
+          "hints": ["Costruzione comparativa"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_09",
+          "type": "riordina",
+          "prompt": ["ambivalenz", "unsicherheit", "spiegelt", "widersprechen", "zeitgenössische", "seiner", "position"],
+          "answer": "Die Ambivalenz seiner Position spiegelt die zeitgenössische Unsicherheit wider",
+          "hints": ["Verbo con preposizione"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_10",
+          "type": "riordina",
+          "prompt": ["text", "fragmentarischen", "anscheins", "trotz", "kohärente", "struktur", "offenbart", "zugrunde"],
+          "answer": "Trotz des fragmentarischen Anscheins offenbart der Text eine zugrunde liegende kohärente Struktur",
+          "hints": ["Preposizione trotz"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_11",
+          "type": "riordina",
+          "prompt": ["fähigkeit", "fähigkeit", "unterschiedliche", "scharfsinnigen", "synthetisieren", "intellekt", "deutet", "konzepte", "auf"],
+          "answer": "Seine Fähigkeit, unterschiedliche Konzepte zu synthetisieren, deutet auf einen scharfsinnigen Intellekt hin",
+          "hints": ["Struttura complessa"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_riordina_12",
+          "type": "riordina",
+          "prompt": ["leitmotiv", "transfiguration", "wiederholt", "durchgängig", "werk", "sich", "dem", "in", "gesamten"],
+          "answer": "Das Leitmotiv der Transfiguration wiederholt sich durchgängig in dem gesamten Werk",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_01",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una critica teorica di un'opera letteraria o artistica",
+          "answer": "Goethes 'Faust' ist ein komplexes Werk, das tiefe philosophische Fragen behandelt. Die Ambivalenz des Protagonisten spiegelt die menschliche Kondition wider. Die Struktur des Werks ermöglicht mehrere Interpretationen.",
+          "hints": ["Critica = Kritik"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_02",
+          "type": "scrittura_libera",
+          "prompt": "Analizza un problema epistemologico contemporaneo",
+          "answer": "Die Frage nach der Wahrheit in der Postmoderne ist fundamental. Epistemologisch gesehen, haben wir Schwierigkeiten, objektive Wahrheit zu definieren. Dies hat tiefe Auswirkungen auf die Gesellschaft.",
+          "hints": ["Epistemologico = Erkenntnistheoretisch"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_03",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una dissertazione breve su una questione filosofica",
+          "answer": "Die Frage nach der menschlichen Freiheit bleibt ungelöst. Deterministen argumentieren, dass Freiheit eine Illusion ist. Libertäre hingegen behaupten, dass echte Freiheit existiert. Die Wahrheit liegt wahrscheinlich dazwischen.",
+          "hints": ["Dissertazione = Abhandlung"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_04",
+          "type": "scrittura_libera",
+          "prompt": "Confronta due teorie o approcci contrastanti",
+          "answer": "Die strukturalistische und post-strukturalistische Perspektive unterscheiden sich fundamental. Der Strukturalismus sucht nach zugrundeliegenden Mustern. Der Post-Strukturalismus hingegen befragt diese Muster selbst. Beide haben ihre Merits.",
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_05",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una riflessione sulla natura del linguaggio",
+          "answer": "Das Wort ist ein rätselhaftes Phänomen. Es vermittelt Gedanken, aber ist niemals vollständig transparent. Der Bedeutungsraum eines Wortes ist immer offen und umstritten.",
+          "hints": ["Linguaggio = Sprache"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_06",
+          "type": "scrittura_libera",
+          "prompt": "Analizza l'impatto della digitalizzazione sulla cultura",
+          "answer": "Die Digitalisierung hat die kulturelle Landschaft tiefgreifend transformiert. Die Dematerialisierung von Kultur hat neue Möglichkeiten eröffnet. Gleichzeitig entstehen Fragen zur Authentizität und zum kulturellen Erbe.",
+          "hints": ["Digitalizzazione = Digitalisierung"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_07",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una lettera aperta su una questione pubblica",
+          "answer": "Sehr geehrte Damen und Herren, die aktuelle Krise in der Bildung erfordert sofortige Maßnahmen. Wir müssen in Lehrernausbildung investieren. Die Zukunft unserer Gesellschaft hängt davon ab.",
+          "hints": ["Lettera aperta = Offener Brief"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_08",
+          "type": "scrittura_libera",
+          "prompt": "Esamina una contraddizione intrinseca in un sistema o concetto",
+          "answer": "Der Kapitalismus enthält eine grundlegende Widerspruch: Er basiert auf Konkurrenz, aber benötigt Kooperation. Diese Spannung ist zentral für sein Funktionieren und zugleich seine potenzielle Quelle der Instabilität.",
+          "hints": ["Contraddizione = Widerspruch"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_09",
+          "type": "scrittura_libera",
+          "prompt": "Scrivi una risposta a un argomento che trovi difettoso",
+          "answer": "Der Argument des Deterministen ist sowohl logisch als auch empirisch problematisch. Erstens übersieht er die Rolle der Emergenz. Zweitens ignoriert er subjektive Erfahrung. Eine vollständige Antwort erfordert ein nuancierteres Verständnis.",
+          "hints": ["Difettoso = Fehlerhaft"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_10",
+          "type": "scrittura_libera",
+          "prompt": "Descrivi l'evoluzione di un concetto nel tempo",
+          "answer": "Das Konzept der 'Menschenrechte' hat sich erheblich entwickelt. Von den universellen Erklärungen des 18. Jahrhunderts bis zu modernen Verständigungen hat es sich kontinuierlich erweitert. Diese Evolution spiegelt sich in internationalen Konventionen wider.",
+          "hints": ["Evoluzione = Entwicklung"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_11",
+          "type": "scrittura_libera",
+          "prompt": "Proponi una nuova interpretazione di un fenomeno culturale",
+          "answer": "Man könnte argumentieren, dass moderne Populärkultur eine Form der Volksdramatisierung ist. Sie verarbeitet kollektive Ängste und Hoffnungen. Diese Perspektive offenbart neue Dimensionen des kulturellen Sinns.",
+          "hints": ["Interpretazione = Auslegung"],
+          "alternatives": []
+        },
+        {
+          "id": "c1_scrittura_libera_12",
+          "type": "scrittura_libera",
+          "prompt": "Discuti le implicazioni ontologiche di una scoperta recente",
+          "answer": "Die Quantenmechanik hat tiefe ontologische Fragen aufgeworfen. Sie stellt klassische Annahmen über Realität in Frage. Dies zwingt uns, unser Verständnis des Seins neu zu überdenken.",
+          "hints": ["Implicazioni = Auswirkungen", "Ontologico = Seinstheoretisch"],
+          "alternatives": []
+        }
+      ]
+    },
+    "C2": {
+      "exercises": [
+        {
+          "id": "c2_traduzione_01",
+          "type": "traduzione",
+          "prompt": "L'immanenza della finitudine umanatantormentava la sua ricerca di trascendenza",
+          "answer": "Die Immanenz der menschlichen Endlichkeit quälte seine Suche nach Transzendenz",
+          "hints": ["Lessico filosofico elevato"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_02",
+          "type": "traduzione",
+          "prompt": "La stratificazione semantica del testo resiste a qualsiasi tentativo di univocità interpretativa",
+          "answer": "Die semantische Schichtung des Textes widersetzt sich jedem Versuch hermeneutischer Eindeutigkeit",
+          "hints": ["Critica letteraria sofisticata"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_03",
+          "type": "traduzione",
+          "prompt": "Benché la sua argomentazione sia ineccepibile, non si sottrae all'indeterminatezza ontologica",
+          "answer": "Obwohl seine Argumentation fehlerlos ist, entgeht sie nicht der ontologischen Unbestimmtheit",
+          "hints": ["Filosofia del linguaggio"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_04",
+          "type": "traduzione",
+          "prompt": "La defezione del significante dal significato genera aporie insuperabili",
+          "answer": "Die Abweichung des Signifikanten vom Signifikat erzeugt unüberwindbare Aporien",
+          "hints": ["Semiotica avanzata"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_05",
+          "type": "traduzione",
+          "prompt": "L'irruzione del caos semiotico attraverso le fessure della struttura deterministica",
+          "answer": "Der Einbruch semiotischen Chaos durch die Risse der deterministischen Struktur",
+          "hints": ["Teoría critica postmoderna"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_06",
+          "type": "traduzione",
+          "prompt": "La sua opera evinceun'ontologia implicita che sfida le categorie tradizionali",
+          "answer": "Sein Werk bekundet eine implizite Ontologie, die traditionelle Kategorien herausfordert",
+          "hints": ["Analisi filosofica"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_07",
+          "type": "traduzione",
+          "prompt": "L'esperienza della alterità radicale inibisce qualsiasi sintetizzazione dialettica",
+          "answer": "Die Erfahrung radikaler Alterität hindert jede dialektische Synthese",
+          "hints": ["Teoria francese contemporanea"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_08",
+          "type": "traduzione",
+          "prompt": "L'eterogeneità irriducibile dei fenomeni confuta il riduzionismo metodologico",
+          "answer": "Die irreduzible Heterogenität der Phänomene widerlegt den methodologischen Reduktionismus",
+          "hints": ["Epistemologia critica"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_09",
+          "type": "traduzione",
+          "prompt": "La preterizione del soggetto cartesiano non comporta necessariamente il postulato dell'assenza",
+          "answer": "Die Umgehung des kartesischen Subjekts impliziert nicht notwendig das Postulat der Abwesenheit",
+          "hints": ["Filosofia continentale"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_10",
+          "type": "traduzione",
+          "prompt": "L'inflessibilità delle strutture binarie perpetua una configurazione di potere insidiosa",
+          "answer": "Die Unbiegsamkeit binärer Strukturen perpetuiert eine tückische Machtskonfiguration",
+          "hints": ["Teoria critica"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_11",
+          "type": "traduzione",
+          "prompt": "La consonanza tra significante e referente rimane irreparabilmente compromessa",
+          "answer": "Die Übereinstimmung zwischen Signifikant und Referent bleibt hoffnungslos beeinträchtigt",
+          "hints": ["Semiotica"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_traduzione_12",
+          "type": "traduzione",
+          "prompt": "L'aporia della rappresentazione non consente nulla oltre il differimento infinito",
+          "answer": "Die Aporie der Repräsentation erlaubt nichts außer unendlicher Aufschub",
+          "hints": ["Derrida"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_01",
+          "type": "completamento",
+          "prompt": "Die ___ der Endlichkeit durchzieht sein gesamtes philosophisches Werk",
+          "answer": "Immanenz",
+          "hints": ["Sostantivo femminile colto"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_02",
+          "type": "completamento",
+          "prompt": "Die semantische ___ des Textes resisitiert gegen hermeneutische Eindeutigkeit",
+          "answer": "Schichtung",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_03",
+          "type": "completamento",
+          "prompt": "Die ___ des Signifikanten vom Signifikat erzeigt unüberwindbare Probleme",
+          "answer": "Abweichung",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_04",
+          "type": "completamento",
+          "prompt": "Die irreducible ___ der Phänomene widerspricht dem methodologischen Reduktionismus",
+          "answer": "Heterogenität",
+          "hints": ["Sostantivo femminile colto"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_05",
+          "type": "completamento",
+          "prompt": "Die ___ zwischen Subjekt und Objekt bleibt philosophisch umstritten",
+          "answer": "Differenz",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_06",
+          "type": "completamento",
+          "prompt": "Die ___ des Seins in Heideggers Werk bleibt schwer zu interpretieren",
+          "answer": "Entzogenheit",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_07",
+          "type": "completamento",
+          "prompt": "Die ____ der Alterität widersetzt sich jeder totaliserenden Dialektik",
+          "answer": "Exzessivität",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_08",
+          "type": "completamento",
+          "prompt": "Diese ___ zwischen Theorie und Praxis erfordert eine neue Formulierung",
+          "answer": "Disjunktion",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_09",
+          "type": "completamento",
+          "prompt": "Die ___ des Denkens wird durch die Macht der Sprache konstituiert",
+          "answer": "Konstitutivität",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_10",
+          "type": "completamento",
+          "prompt": "Die ___ jeder universalisierenden Geste kennzeichnet sein Denken",
+          "answer": "Suspendierung",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_11",
+          "type": "completamento",
+          "prompt": "Die ____ des Ereignisses entzieht sich kausaler Erklärung",
+          "answer": "Singularität",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_completamento_12",
+          "type": "completamento",
+          "prompt": "Diese ___ zwischen Präsenz und Absenz definiert die Grenze des Denkbaren",
+          "answer": "Oszillation",
+          "hints": ["Sostantivo femminile"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_01",
+          "type": "riordina",
+          "prompt": ["immanenz", "endlichkeit", "quälte", "seiner", "suche", "transzendenz", "menschlichen", "die"],
+          "answer": "Die Immanenz der menschlichen Endlichkeit quälte seine Suche nach Transzendenz",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_02",
+          "type": "riordina",
+          "prompt": ["semantische", "schichtung", "widersetzt", "sich", "hermeneutischen", "eindeutigkeit", "die"],
+          "answer": "Die semantische Schichtung widersetzt sich hermeneutischer Eindeutigkeit",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_03",
+          "type": "riordina",
+          "prompt": ["abweichung", "signifikanten", "erzeugt", "signifikat", "aporia", "vom"],
+          "answer": "Die Abweichung des Signifikanten vom Signifikat erzeugt Aporie",
+          "hints": ["Complementi di luogo"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_04",
+          "type": "riordina",
+          "prompt": ["heterogenität", "irreducible", "phänomene", "widerlegt", "reduktionismus", "methodologischen"],
+          "answer": "Die irreduzible Heterogenität der Phänomene widerlegt den methodologischen Reduktionismus",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_05",
+          "type": "riordina",
+          "prompt": ["umgehung", "kartesischen", "impliziert", "abwesenheit", "nicht", "subjekts"],
+          "answer": "Die Umgehung des kartesischen Subjekts impliziert nicht die Abwesenheit",
+          "hints": ["Proposizione negativa"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_06",
+          "type": "riordina",
+          "prompt": ["unbiegsamkeit", "binärer", "perpetuiert", "strukturen", "machtskonfiguration"],
+          "answer": "Die Unbiegsamkeit binärer Strukturen perpetuiert eine Machtskonfiguration",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_07",
+          "type": "riordina",
+          "prompt": ["übereinstimmung", "signifikant", "referent", "bleibt", "beeinträchtigt"],
+          "answer": "Die Übereinstimmung zwischen Signifikant und Referent bleibt beeinträchtigt",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_08",
+          "type": "riordina",
+          "prompt": ["aporie", "repräsentation", "erlaubt", "nichts", "aufschub", "unendlicher", "außer"],
+          "answer": "Die Aporie der Repräsentation erlaubt nichts außer unendlichem Aufschub",
+          "hints": ["Costruzione comparativa"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_09",
+          "type": "riordina",
+          "prompt": ["erfahrung", "radikaler", "alterität", "hindert", "dialektische", "synthese"],
+          "answer": "Die Erfahrung radikaler Alterität hindert jede dialektische Synthese",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_10",
+          "type": "riordina",
+          "prompt": ["preterition", "kartesischen", "impliziert", "postulat", "abwesenheit", "subjekts"],
+          "answer": "Die Preterition des kartesischen Subjekts impliziert das Postulat der Abwesenheit",
+          "hints": ["Ordine SVO"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_11",
+          "type": "riordina",
+          "prompt": ["irruptio", "semiotischen", "chaos", "risse", "deterministischen", "strukturen"],
+          "answer": "Der Einbruch semiotischen Chaos durch die Risse deterministischer Strukturen",
+          "hints": ["Preposizioni"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_riordina_12",
+          "type": "riordina",
+          "prompt": ["konstitutivität", "macht", "sprache", "denkens", "wird", "durch", "konstituiert"],
+          "answer": "Die Konstitutivität des Denkens wird durch die Macht der Sprache konstituiert",
+          "hints": ["Passiva"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_01",
+          "type": "scrittura_libera",
+          "prompt": "Esamina le aporie della rappresentazione nella filosofia contemporanea",
+          "answer": "Die Krise der Repräsentation ist zentral für postmodernes Denken. Der Versuch, das Sein durch Sprache zu vermitteln, scheitert strukturell. Dies führt zu einer Neubewertung der Grenzen des Denkbaren.",
+          "hints": ["Aporie = Aporie"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_02",
+          "type": "scrittura_libera",
+          "prompt": "Analizza la relazione tra potere e conoscenza secondo Foucault",
+          "answer": "Foucault zeigt, dass Wissen und Macht untrennbar miteinander verbunden sind. Die Produktion von Wissen ist immer bereits in Machtstrukturen eingebunden. Dies revolutionierte unser Verständnis von Epistemologie.",
+          "hints": ["Relazione = Beziehung"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_03",
+          "type": "scrittura_libera",
+          "prompt": "Discuti la différance derridiana e le sue implicazioni",
+          "answer": "Derridas Konzept der différance durchbrechen die Logozentrismus des westlichen Denkens. Sie zeigt, dass Bedeutung nicht präsent sein kann, sondern aufgeschoben ist. Dies fundamentalhat postmoderne Theorien.",
+          "hints": ["Différance = Différance (Derrida)"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_04",
+          "type": "scrittura_libera",
+          "prompt": "Esamina la critica di Butler alla performatività del genere",
+          "answer": "Butler argumentiert, dass Geschlecht nicht ontologisch gegeben ist, sondern performativ konstituiert wird. Dies bedeutet, dass Identität durch wiederholte Handlungen produziert wird. Diese Theorie hat feministische Debatten revolutioniert.",
+          "hints": ["Performatività = Performativität"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_05",
+          "type": "scrittura_libera",
+          "prompt": "Analizza la nozione di sublime in Kant e la sua evoluzione",
+          "answer": "Kant unterscheidet zwischen dem Schönen und dem Erhabenen. Das Erhabene übersteigt die Representationsfähigkeit. Diese Kategorie hat ästhetisches Denken fundamentalhat beeinflusst.",
+          "hints": ["Sublime = Erhabene"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_06",
+          "type": "scrittura_libera",
+          "prompt": "Discussione: la fine della metafisica nella prospettiva heideggeriana",
+          "answer": "Heidegger deklariert das Ende der Metaphysik. Er zeigt, wie westliches Denken von Seinsvergessenheit gekennzeichnet ist. Eine Überwindung erfordert eine radikale Neubesinnung auf das Sein selbst.",
+          "hints": ["Metafisica = Metaphysik"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_07",
+          "type": "scrittura_libera",
+          "prompt": "Esamina la teoria di Levinas sull'Altro e l'etica",
+          "answer": "Levinas privilegiert die Ethik gegenüber Ontologie. Das Andere entzieht sich totalem Verstehen. Diese Unverfügbarkeit definiert ethische Verantwortung. Ein posthumaner Ansatz zur Philosophie.",
+          "hints": ["Altro = Der Andere"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_08",
+          "type": "scrittura_libera",
+          "prompt": "Analizza il ruolo della temporalità nella fenomenologia di Heidegger",
+          "answer": "Heidegger reformuliert Temporalität als fundamental für Sein. Zeitlichkeit ist nicht eine Abfolge von Momenten, sondern eine ursprüngliche Struktur. Dies transformierte existenziale Analyse.",
+          "hints": ["Temporalità = Zeitlichkeit"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_09",
+          "type": "scrittura_libera",
+          "prompt": "Discussione sulla crisi della ragione illuminista",
+          "answer": "Die Dialektik der Aufklärung zeigt die Aporie der Vernunft. Aufklärung enthält ihre eigene Verselbstständigungslogik. Dies führt zu einer Neubewertung der Grenzen des Rationalismus.",
+          "hints": ["Ragione = Vernunft"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_10",
+          "type": "scrittura_libera",
+          "prompt": "Esamina come Deleuze concepisce la differenza rispetto a Derrida",
+          "answer": "Deleuze betont produktive Differenz gegen Derridas différance. Für Deleuze ist Differenz affirmativ und generativ. Dies eröffnet andere Wege jenseits dekonstruktiver Logiken.",
+          "hints": ["Differenza = Differenz"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_11",
+          "type": "scrittura_libera",
+          "prompt": "Analizza il concetto di biopolitica in Agamben",
+          "answer": "Agamben sieht Biopolitik als zentral für moderne Macht. Der homo sacer liegt außerhalb der Rechtsordnung. Dies offenbart strukturelle Ausschlüsse im Rechtssystem selbst.",
+          "hints": ["Biopolitica = Biopolitik"],
+          "alternatives": []
+        },
+        {
+          "id": "c2_scrittura_libera_12",
+          "type": "scrittura_libera",
+          "prompt": "Discussione sull'ecopolitica e la giustizia ambientale contemporanea",
+          "answer": "Ecopolitics dekonstruiert die Natur-Kultur Dichotomie. Umweltgerechtigkeit erfordert eine Neubewertung nicht-menschlicher Agentivität. Dies fordert posthumanistische Frameworks heraus.",
+          "hints": ["Ecopolitica = Ökopolitik", "Ambientale = Umwelt"],
+          "alternatives": []
+        }
+      ]
+    }
+  }
+}

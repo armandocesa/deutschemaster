@@ -1,0 +1,1829 @@
+[
+  {
+    "id": "sizes",
+    "name": "sizes",
+    "category": "sizes",
+    "icon": "📏",
+    "wordCount": 16
+  },
+  {
+    "id": "colors",
+    "name": "colors",
+    "category": "colors",
+    "icon": "🎨",
+    "wordCount": 13
+  },
+  {
+    "id": "positive qualities",
+    "name": "positive qualities",
+    "category": "positive qualities",
+    "icon": "📖",
+    "wordCount": 16
+  },
+  {
+    "id": "negative qualities",
+    "name": "negative qualities",
+    "category": "negative qualities",
+    "icon": "📖",
+    "wordCount": 10
+  },
+  {
+    "id": "character",
+    "name": "character",
+    "category": "character",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "emotions",
+    "name": "emotions",
+    "category": "emotions",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "weather",
+    "name": "weather",
+    "category": "weather",
+    "icon": "📖",
+    "wordCount": 17
+  },
+  {
+    "id": "environment",
+    "name": "environment",
+    "category": "environment",
+    "icon": "🌍",
+    "wordCount": 1
+  },
+  {
+    "id": "fauna and flora",
+    "name": "fauna and flora",
+    "category": "fauna and flora",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "music",
+    "name": "music",
+    "category": "music",
+    "icon": "🎵",
+    "wordCount": 14
+  },
+  {
+    "id": "art",
+    "name": "art",
+    "category": "art",
+    "icon": "🎭",
+    "wordCount": 6
+  },
+  {
+    "id": "theater",
+    "name": "theater",
+    "category": "theater",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "literature",
+    "name": "literature",
+    "category": "literature",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "abstract",
+    "name": "abstract",
+    "category": "abstract",
+    "icon": "📖",
+    "wordCount": 31
+  },
+  {
+    "id": "pronouns",
+    "name": "pronouns",
+    "category": "pronouns",
+    "icon": "📖",
+    "wordCount": 43
+  },
+  {
+    "id": "frequent/common",
+    "name": "frequent/common",
+    "category": "frequent/common",
+    "icon": "📖",
+    "wordCount": 17
+  },
+  {
+    "id": "expressions",
+    "name": "expressions",
+    "category": "expressions",
+    "icon": "💬",
+    "wordCount": 36
+  },
+  {
+    "id": "time adverbs",
+    "name": "time adverbs",
+    "category": "time adverbs",
+    "icon": "⏰",
+    "wordCount": 27
+  },
+  {
+    "id": "place adverbs",
+    "name": "place adverbs",
+    "category": "place adverbs",
+    "icon": "🔄",
+    "wordCount": 10
+  },
+  {
+    "id": "manner adverbs",
+    "name": "manner adverbs",
+    "category": "manner adverbs",
+    "icon": "🔄",
+    "wordCount": 14
+  },
+  {
+    "id": "conjunctions",
+    "name": "conjunctions",
+    "category": "conjunctions",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "subordinating conjunctions",
+    "name": "subordinating conjunctions",
+    "category": "subordinating conjunctions",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "prepositions",
+    "name": "prepositions",
+    "category": "prepositions",
+    "icon": "📍",
+    "wordCount": 21
+  },
+  {
+    "id": "greetings",
+    "name": "greetings",
+    "category": "greetings",
+    "icon": "📖",
+    "wordCount": 49
+  },
+  {
+    "id": "numbers",
+    "name": "numbers",
+    "category": "numbers",
+    "icon": "🔢",
+    "wordCount": 51
+  },
+  {
+    "id": "time",
+    "name": "time",
+    "category": "time",
+    "icon": "⏰",
+    "wordCount": 29
+  },
+  {
+    "id": "family",
+    "name": "family",
+    "category": "family",
+    "icon": "👨‍👩‍👧",
+    "wordCount": 31
+  },
+  {
+    "id": "house",
+    "name": "house",
+    "category": "house",
+    "icon": "🏠",
+    "wordCount": 3
+  },
+  {
+    "id": "rooms",
+    "name": "rooms",
+    "category": "rooms",
+    "icon": "📖",
+    "wordCount": 14
+  },
+  {
+    "id": "house parts",
+    "name": "house parts",
+    "category": "house parts",
+    "icon": "🏠",
+    "wordCount": 5
+  },
+  {
+    "id": "furniture",
+    "name": "furniture",
+    "category": "furniture",
+    "icon": "📖",
+    "wordCount": 12
+  },
+  {
+    "id": "kitchen",
+    "name": "kitchen",
+    "category": "kitchen",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "utensils",
+    "name": "utensils",
+    "category": "utensils",
+    "icon": "📖",
+    "wordCount": 9
+  },
+  {
+    "id": "bathroom",
+    "name": "bathroom",
+    "category": "bathroom",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "ingredients",
+    "name": "ingredients",
+    "category": "ingredients",
+    "icon": "📖",
+    "wordCount": 22
+  },
+  {
+    "id": "fruits and vegetables",
+    "name": "fruits and vegetables",
+    "category": "fruits and vegetables",
+    "icon": "📖",
+    "wordCount": 15
+  },
+  {
+    "id": "spices",
+    "name": "spices",
+    "category": "spices",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "cooking",
+    "name": "cooking",
+    "category": "cooking",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "meals",
+    "name": "meals",
+    "category": "meals",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "media",
+    "name": "media",
+    "category": "media",
+    "icon": "📺",
+    "wordCount": 7
+  },
+  {
+    "id": "digital",
+    "name": "digital",
+    "category": "digital",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "communication",
+    "name": "communication",
+    "category": "communication",
+    "icon": "📖",
+    "wordCount": 9
+  },
+  {
+    "id": "body",
+    "name": "body",
+    "category": "body",
+    "icon": "💪",
+    "wordCount": 24
+  },
+  {
+    "id": "health",
+    "name": "health",
+    "category": "health",
+    "icon": "🏥",
+    "wordCount": 1
+  },
+  {
+    "id": "medicine",
+    "name": "medicine",
+    "category": "medicine",
+    "icon": "💊",
+    "wordCount": 7
+  },
+  {
+    "id": "finanza_avz",
+    "name": "finanza_avz",
+    "category": "finanza_avz",
+    "icon": "💶",
+    "wordCount": 2
+  },
+  {
+    "id": "business",
+    "name": "business",
+    "category": "business",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "hr",
+    "name": "hr",
+    "category": "hr",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "verbi_extra",
+    "name": "verbi_extra",
+    "category": "verbi_extra",
+    "icon": "🔄",
+    "wordCount": 17
+  },
+  {
+    "id": "quotidiano",
+    "name": "quotidiano",
+    "category": "quotidiano",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "aggettivi_extra",
+    "name": "aggettivi_extra",
+    "category": "aggettivi_extra",
+    "icon": "✨",
+    "wordCount": 35
+  },
+  {
+    "id": "riflessivi",
+    "name": "riflessivi",
+    "category": "riflessivi",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "mentale",
+    "name": "mentale",
+    "category": "mentale",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "fisico",
+    "name": "fisico",
+    "category": "fisico",
+    "icon": "📖",
+    "wordCount": 8
+  },
+  {
+    "id": "banca",
+    "name": "banca",
+    "category": "banca",
+    "icon": "📖",
+    "wordCount": 9
+  },
+  {
+    "id": "commercio",
+    "name": "commercio",
+    "category": "commercio",
+    "icon": "📖",
+    "wordCount": 4
+  },
+  {
+    "id": "piatti",
+    "name": "piatti",
+    "category": "piatti",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "bevande",
+    "name": "bevande",
+    "category": "bevande",
+    "icon": "📖",
+    "wordCount": 15
+  },
+  {
+    "id": "scuola",
+    "name": "scuola",
+    "category": "scuola",
+    "icon": "📚",
+    "wordCount": 10
+  },
+  {
+    "id": "scuola_persone",
+    "name": "scuola_persone",
+    "category": "scuola_persone",
+    "icon": "📚",
+    "wordCount": 4
+  },
+  {
+    "id": "materie",
+    "name": "materie",
+    "category": "materie",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "universita",
+    "name": "universita",
+    "category": "universita",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "materiale",
+    "name": "materiale",
+    "category": "materiale",
+    "icon": "📖",
+    "wordCount": 12
+  },
+  {
+    "id": "apprendimento",
+    "name": "apprendimento",
+    "category": "apprendimento",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "professioni",
+    "name": "professioni",
+    "category": "professioni",
+    "icon": "👔",
+    "wordCount": 10
+  },
+  {
+    "id": "ufficio",
+    "name": "ufficio",
+    "category": "ufficio",
+    "icon": "📖",
+    "wordCount": 11
+  },
+  {
+    "id": "lavoro_verbi",
+    "name": "lavoro_verbi",
+    "category": "lavoro_verbi",
+    "icon": "💼",
+    "wordCount": 2
+  },
+  {
+    "id": "lavoro",
+    "name": "lavoro",
+    "category": "lavoro",
+    "icon": "💼",
+    "wordCount": 1
+  },
+  {
+    "id": "politica",
+    "name": "politica",
+    "category": "politica",
+    "icon": "🏛️",
+    "wordCount": 1
+  },
+  {
+    "id": "sintomi",
+    "name": "sintomi",
+    "category": "sintomi",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "clothing",
+    "name": "clothing",
+    "category": "clothing",
+    "icon": "📖",
+    "wordCount": 32
+  },
+  {
+    "id": "cura",
+    "name": "cura",
+    "category": "cura",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "animals",
+    "name": "animals",
+    "category": "animals",
+    "icon": "🐾",
+    "wordCount": 14
+  },
+  {
+    "id": "plants",
+    "name": "plants",
+    "category": "plants",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "nature",
+    "name": "nature",
+    "category": "nature",
+    "icon": "🌿",
+    "wordCount": 5
+  },
+  {
+    "id": "professioni_ser",
+    "name": "professioni_ser",
+    "category": "professioni_ser",
+    "icon": "👔",
+    "wordCount": 4
+  },
+  {
+    "id": "relationships",
+    "name": "relationships",
+    "category": "relationships",
+    "icon": "📖",
+    "wordCount": 12
+  },
+  {
+    "id": "feelings",
+    "name": "feelings",
+    "category": "feelings",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "mind",
+    "name": "mind",
+    "category": "mind",
+    "icon": "📖",
+    "wordCount": 5
+  },
+  {
+    "id": "astronomy",
+    "name": "astronomy",
+    "category": "astronomy",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "geology",
+    "name": "geology",
+    "category": "geology",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "people",
+    "name": "people",
+    "category": "people",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "events",
+    "name": "events",
+    "category": "events",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "sports",
+    "name": "sports",
+    "category": "sports",
+    "icon": "⚽",
+    "wordCount": 17
+  },
+  {
+    "id": "hobbies",
+    "name": "hobbies",
+    "category": "hobbies",
+    "icon": "🎮",
+    "wordCount": 14
+  },
+  {
+    "id": "computer",
+    "name": "computer",
+    "category": "computer",
+    "icon": "📖",
+    "wordCount": 7
+  },
+  {
+    "id": "software",
+    "name": "software",
+    "category": "software",
+    "icon": "📖",
+    "wordCount": 8
+  },
+  {
+    "id": "internet",
+    "name": "internet",
+    "category": "internet",
+    "icon": "📖",
+    "wordCount": 6
+  },
+  {
+    "id": "smartphone",
+    "name": "smartphone",
+    "category": "smartphone",
+    "icon": "📖",
+    "wordCount": 8
+  },
+  {
+    "id": "security",
+    "name": "security",
+    "category": "security",
+    "icon": "📖",
+    "wordCount": 1
+  },
+  {
+    "id": "vehicles",
+    "name": "vehicles",
+    "category": "vehicles",
+    "icon": "📖",
+    "wordCount": 13
+  },
+  {
+    "id": "traffic",
+    "name": "traffic",
+    "category": "traffic",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "station",
+    "name": "station",
+    "category": "station",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "airport",
+    "name": "airport",
+    "category": "airport",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "travels",
+    "name": "travels",
+    "category": "travels",
+    "icon": "✈️",
+    "wordCount": 6
+  },
+  {
+    "id": "città",
+    "name": "cities",
+    "category": "cities",
+    "icon": "📖",
+    "wordCount": 3
+  },
+  {
+    "id": "verbs with prepositions",
+    "name": "verbs with prepositions",
+    "category": "verbs with prepositions",
+    "icon": "🔄",
+    "wordCount": 5
+  },
+  {
+    "id": "verbs with 'an'",
+    "name": "verbs with 'an'",
+    "category": "verbs with 'an'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'auf'",
+    "name": "verbs with 'auf'",
+    "category": "verbs with 'auf'",
+    "icon": "🔄",
+    "wordCount": 3
+  },
+  {
+    "id": "verbs with 'aus'",
+    "name": "verbs with 'aus'",
+    "category": "verbs with 'aus'",
+    "icon": "🔄",
+    "wordCount": 6
+  },
+  {
+    "id": "verbs with 'ein'",
+    "name": "verbs with 'ein'",
+    "category": "verbs with 'ein'",
+    "icon": "🔄",
+    "wordCount": 3
+  },
+  {
+    "id": "verbs with 'mit'",
+    "name": "verbs with 'mit'",
+    "category": "verbs with 'mit'",
+    "icon": "🔄",
+    "wordCount": 3
+  },
+  {
+    "id": "verbs with 'zu'",
+    "name": "verbs with 'zu'",
+    "category": "verbs with 'zu'",
+    "icon": "🔄",
+    "wordCount": 3
+  },
+  {
+    "id": "verbs with 'ab'",
+    "name": "verbs with 'ab'",
+    "category": "verbs with 'ab'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'vor'",
+    "name": "verbs with 'vor'",
+    "category": "verbs with 'vor'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbs with 'weg'",
+    "name": "verbs with 'weg'",
+    "category": "verbs with 'weg'",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "modal verbs",
+    "name": "modal verbs",
+    "category": "modal verbs",
+    "icon": "👗",
+    "wordCount": 6
+  },
+  {
+    "id": "movement verbs",
+    "name": "movement verbs",
+    "category": "movement verbs",
+    "icon": "🔄",
+    "wordCount": 10
+  },
+  {
+    "id": "position verbs",
+    "name": "position verbs",
+    "category": "position verbs",
+    "icon": "🔄",
+    "wordCount": 5
+  },
+  {
+    "id": "communication verbs",
+    "name": "communication verbs",
+    "category": "communication verbs",
+    "icon": "🔄",
+    "wordCount": 5
+  },
+  {
+    "id": "cognition verbs",
+    "name": "cognition verbs",
+    "category": "cognition verbs",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "perception verbs",
+    "name": "perception verbs",
+    "category": "perception verbs",
+    "icon": "🔄",
+    "wordCount": 4
+  },
+  {
+    "id": "everyday verbs",
+    "name": "everyday verbs",
+    "category": "everyday verbs",
+    "icon": "🔄",
+    "wordCount": 9
+  },
+  {
+    "id": "separable verbs",
+    "name": "separable verbs",
+    "category": "separable verbs",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "verbi_quot2",
+    "name": "everyday verbs 2",
+    "category": "everyday verbs 2",
+    "icon": "🔄",
+    "wordCount": 3
+  },
+  {
+    "id": "tourist activities",
+    "name": "tourist activities",
+    "category": "tourist activities",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "zahlen_1_20",
+    "name": "Zahlen 1-20",
+    "category": "Zahlen 1-20",
+    "icon": "🔢",
+    "wordCount": 0
+  },
+  {
+    "id": "zahlen_21_100",
+    "name": "Zahlen 21-100",
+    "category": "Zahlen 21-100",
+    "icon": "🔢",
+    "wordCount": 3
+  },
+  {
+    "id": "Ordinal numbers",
+    "name": "Numeri ordinali",
+    "category": "Numeri ordinali",
+    "icon": "🏅",
+    "wordCount": 0
+  },
+  {
+    "id": "Days of the week",
+    "name": "Giorni della settimana",
+    "category": "Giorni della settimana",
+    "icon": "📅",
+    "wordCount": 10
+  },
+  {
+    "id": "Months and seasons",
+    "name": "Mesi e stagioni",
+    "category": "Mesi e stagioni",
+    "icon": "🗓️",
+    "wordCount": 16
+  },
+  {
+    "id": "Time and hours",
+    "name": "Ora e tempo",
+    "category": "Ora e tempo",
+    "icon": "⏰",
+    "wordCount": 13
+  },
+  {
+    "id": "Food - basics",
+    "name": "Cibo - base",
+    "category": "Cibo - base",
+    "icon": "🍞",
+    "wordCount": 17
+  },
+  {
+    "id": "Meat and fish",
+    "name": "Carne e pesce",
+    "category": "Carne e pesce",
+    "icon": "🥩",
+    "wordCount": 11
+  },
+  {
+    "id": "Fruits and vegetables",
+    "name": "Frutta e verdura",
+    "category": "Frutta e verdura",
+    "icon": "🍎",
+    "wordCount": 14
+  },
+  {
+    "id": "Beverages",
+    "name": "Bevande",
+    "category": "Bevande",
+    "icon": "🥤",
+    "wordCount": 12
+  },
+  {
+    "id": "Clothing",
+    "name": "clothing",
+    "category": "clothing",
+    "icon": "👔",
+    "wordCount": 19
+  },
+  {
+    "id": "Body parts",
+    "name": "Parti del corpo",
+    "category": "Parti del corpo",
+    "icon": "🦶",
+    "wordCount": 19
+  },
+  {
+    "id": "Basic health",
+    "name": "Salute base",
+    "category": "Salute base",
+    "icon": "🏥",
+    "wordCount": 13
+  },
+  {
+    "id": "Housing and rooms",
+    "name": "Abitazione e stanze",
+    "category": "Abitazione e stanze",
+    "icon": "🏠",
+    "wordCount": 18
+  },
+  {
+    "id": "Furniture",
+    "name": "furniture",
+    "category": "furniture",
+    "icon": "🛋️",
+    "wordCount": 15
+  },
+  {
+    "id": "Household items",
+    "name": "Oggetti domestici",
+    "category": "Oggetti domestici",
+    "icon": "🏡",
+    "wordCount": 15
+  },
+  {
+    "id": "In the city",
+    "name": "In città",
+    "category": "In città",
+    "icon": "🏙️",
+    "wordCount": 18
+  },
+  {
+    "id": "Transportation",
+    "name": "Trasporti",
+    "category": "Trasporti",
+    "icon": "🚌",
+    "wordCount": 17
+  },
+  {
+    "id": "Nature and weather",
+    "name": "Natura e meteo",
+    "category": "Natura e meteo",
+    "icon": "🌦️",
+    "wordCount": 16
+  },
+  {
+    "id": "Landscape",
+    "name": "Paesaggio",
+    "category": "Paesaggio",
+    "icon": "🏔️",
+    "wordCount": 14
+  },
+  {
+    "id": "School and learning",
+    "name": "Scuola e apprendimento",
+    "category": "Scuola e apprendimento",
+    "icon": "📚",
+    "wordCount": 18
+  },
+  {
+    "id": "Professions",
+    "name": "Professioni",
+    "category": "Professioni",
+    "icon": "👷",
+    "wordCount": 16
+  },
+  {
+    "id": "Communication",
+    "name": "communication",
+    "category": "communication",
+    "icon": "💬",
+    "wordCount": 0
+  },
+  {
+    "id": "Basic adjectives",
+    "name": "Aggettivi base",
+    "category": "Aggettivi base",
+    "icon": "📋",
+    "wordCount": 1
+  },
+  {
+    "id": "Adjectives - feelings",
+    "name": "Aggettivi - sentimenti",
+    "category": "Aggettivi - sentimenti",
+    "icon": "😊",
+    "wordCount": 2
+  },
+  {
+    "id": "Everyday verbs",
+    "name": "Verbi quotidiani",
+    "category": "Verbi quotidiani",
+    "icon": "🏃",
+    "wordCount": 0
+  },
+  {
+    "id": "Question words",
+    "name": "Parole interrogative",
+    "category": "Parole interrogative",
+    "icon": "❓",
+    "wordCount": 6
+  },
+  {
+    "id": "Basic prepositions",
+    "name": "Preposizioni base",
+    "category": "Preposizioni base",
+    "icon": "📍",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9001",
+    "name": "Spielzeug",
+    "category": "Spielzeug",
+    "icon": "🧸",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9002",
+    "name": "Materialien",
+    "category": "Materialien",
+    "icon": "🪵",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9003",
+    "name": "Im Restaurant",
+    "category": "Im Restaurant",
+    "icon": "🍽️",
+    "wordCount": 5
+  },
+  {
+    "id": "extra_9004",
+    "name": "Beim Arzt",
+    "category": "Beim Arzt",
+    "icon": "🏥",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9005",
+    "name": "Farben und Formen",
+    "category": "Farben und Formen",
+    "icon": "🎨",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9006",
+    "name": "Familie erweitert",
+    "category": "Familie erweitert",
+    "icon": "👨‍👩‍👧‍👦",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9007",
+    "name": "Im Klassenzimmer",
+    "category": "Im Klassenzimmer",
+    "icon": "📚",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9008",
+    "name": "Hobbys",
+    "category": "Hobbys",
+    "icon": "🎯",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9009",
+    "name": "Jahreszeiten Aktivitäten",
+    "category": "Jahreszeiten Aktivitäten",
+    "icon": "🌸",
+    "wordCount": 11
+  },
+  {
+    "id": "extra_9010",
+    "name": "Grundverben erweitert",
+    "category": "Grundverben erweitert",
+    "icon": "🏃",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9011",
+    "name": "Lebensmittel erweitert",
+    "category": "Lebensmittel erweitert",
+    "icon": "🥣",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9012",
+    "name": "Getränke erweitert",
+    "category": "Getränke erweitert",
+    "icon": "🥤",
+    "wordCount": 7
+  },
+  {
+    "id": "extra_9013",
+    "name": "Badezimmer",
+    "category": "Badezimmer",
+    "icon": "🚿",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9014",
+    "name": "Werkzeug",
+    "category": "Werkzeug",
+    "icon": "🔧",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9015",
+    "name": "Im Büro",
+    "category": "Im Büro",
+    "icon": "💼",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9016",
+    "name": "Zahlen und Maße",
+    "category": "Zahlen und Maße",
+    "icon": "📏",
+    "wordCount": 5
+  },
+  {
+    "id": "extra_9017",
+    "name": "Richtungen",
+    "category": "Richtungen",
+    "icon": "🧭",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9018",
+    "name": "Zeitausdrücke",
+    "category": "Zeitausdrücke",
+    "icon": "⏰",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9019",
+    "name": "Am Telefon",
+    "category": "Am Telefon",
+    "icon": "📞",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9020",
+    "name": "Wochentage und Monate erweitert",
+    "category": "Wochentage und Monate erweitert",
+    "icon": "📅",
+    "wordCount": 5
+  },
+  {
+    "id": "extra_9021",
+    "name": "Körperteile erweitert",
+    "category": "Körperteile erweitert",
+    "icon": "🦶",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9022",
+    "name": "Tiere erweitert",
+    "category": "Tiere erweitert",
+    "icon": "🦁",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9023",
+    "name": "Kleidung erweitert",
+    "category": "Kleidung erweitert",
+    "icon": "👗",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9024",
+    "name": "Obst und Gemüse erweitert",
+    "category": "Obst und Gemüse erweitert",
+    "icon": "🍎",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9025",
+    "name": "Transport erweitert",
+    "category": "Transport erweitert",
+    "icon": "🚌",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9026",
+    "name": "Wetter Grundlagen",
+    "category": "Wetter Grundlagen",
+    "icon": "☀️",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9027",
+    "name": "Haus und Wohnung",
+    "category": "Haus und Wohnung",
+    "icon": "🏠",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9028",
+    "name": "Berufe erweitert",
+    "category": "Berufe erweitert",
+    "icon": "👩‍⚕️",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9029",
+    "name": "Haushaltsgeräte",
+    "category": "Haushaltsgeräte",
+    "icon": "🏡",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9030",
+    "name": "Emotionen und Zustände",
+    "category": "Emotionen und Zustände",
+    "icon": "💭",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9031",
+    "name": "Einkaufen erweitert",
+    "category": "Einkaufen erweitert",
+    "icon": "🛒",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9032",
+    "name": "Schule und Lernen",
+    "category": "Schule und Lernen",
+    "icon": "🎓",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9033",
+    "name": "Möbel und Einrichtung",
+    "category": "Möbel und Einrichtung",
+    "icon": "🪑",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9034",
+    "name": "Sport Grundlagen",
+    "category": "Sport Grundlagen",
+    "icon": "⚽",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9035",
+    "name": "Kochen und Küche",
+    "category": "Kochen und Küche",
+    "icon": "🍳",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9036",
+    "name": "Natur und Landschaft",
+    "category": "Natur und Landschaft",
+    "icon": "🏔️",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9037",
+    "name": "Musik und Instrumente",
+    "category": "Musik und Instrumente",
+    "icon": "🎵",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9038",
+    "name": "Haushalt und Putzen",
+    "category": "Haushalt und Putzen",
+    "icon": "🧹",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9039",
+    "name": "Verben des Alltags",
+    "category": "Verben des Alltags",
+    "icon": "🔄",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9040",
+    "name": "Adjektive Grundlagen",
+    "category": "Adjektive Grundlagen",
+    "icon": "📝",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9041",
+    "name": "Länder und Nationalitäten",
+    "category": "Länder und Nationalitäten",
+    "icon": "🌍",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9042",
+    "name": "Insekten und Spinnen",
+    "category": "Insekten und Spinnen",
+    "icon": "🐛",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9043",
+    "name": "Im Garten spielen",
+    "category": "Im Garten spielen",
+    "icon": "🌳",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9044",
+    "name": "Süßigkeiten und Snacks",
+    "category": "Süßigkeiten und Snacks",
+    "icon": "🍬",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9045",
+    "name": "Märchen und Fantasie",
+    "category": "Märchen und Fantasie",
+    "icon": "🧚",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9046",
+    "name": "Gegensätze",
+    "category": "Gegensätze",
+    "icon": "↔️",
+    "wordCount": 18
+  },
+  {
+    "id": "extra_9047",
+    "name": "Geräusche und Sinne",
+    "category": "Geräusche und Sinne",
+    "icon": "👂",
+    "wordCount": 12
+  },
+  {
+    "id": "extra_9048",
+    "name": "Wetter und Natur erweitert",
+    "category": "Wetter und Natur erweitert",
+    "icon": "🌈",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9049",
+    "name": "Körperpflege und Hygiene",
+    "category": "Körperpflege und Hygiene",
+    "icon": "🧼",
+    "wordCount": 13
+  },
+  {
+    "id": "extra_9050",
+    "name": "Mathematik Grundbegriffe",
+    "category": "Mathematik Grundbegriffe",
+    "icon": "🔢",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9051",
+    "name": "Höfliche Ausdrücke",
+    "category": "Höfliche Ausdrücke",
+    "icon": "🤝",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9052",
+    "name": "Bewegungen und Aktionen",
+    "category": "Bewegungen und Aktionen",
+    "icon": "🤸",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9053",
+    "name": "Gefühle und Reaktionen",
+    "category": "Gefühle und Reaktionen",
+    "icon": "😃",
+    "wordCount": 5
+  },
+  {
+    "id": "extra_9054",
+    "name": "Elektrogeräte",
+    "category": "Elektrogeräte",
+    "icon": "🔌",
+    "wordCount": 5
+  },
+  {
+    "id": "extra_9055",
+    "name": "Verben mit Präpositionen",
+    "category": "Verben mit Präpositionen",
+    "icon": "📖",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9056",
+    "name": "Raumfahrt für Kinder",
+    "category": "Raumfahrt für Kinder",
+    "icon": "🚀",
+    "wordCount": 10
+  },
+  {
+    "id": "extra_9057",
+    "name": "Freizeit und Spiele",
+    "category": "Freizeit und Spiele",
+    "icon": "🎮",
+    "wordCount": 14
+  },
+  {
+    "id": "extra_9058",
+    "name": "Feste und Traditionen",
+    "category": "Feste und Traditionen",
+    "icon": "🎄",
+    "wordCount": 15
+  },
+  {
+    "id": "extra_9059",
+    "name": "Körper erweitert",
+    "category": "Körper erweitert",
+    "icon": "🦴",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9060",
+    "name": "Im Supermarkt",
+    "category": "Im Supermarkt",
+    "icon": "🛒",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9061",
+    "name": "Küche",
+    "category": "Küche",
+    "icon": "🍳",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9062",
+    "name": "Getränke erweitert",
+    "category": "Getränke erweitert",
+    "icon": "🥤",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9063",
+    "name": "Obst und Gemüse erweitert",
+    "category": "Obst und Gemüse erweitert",
+    "icon": "🥕",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9064",
+    "name": "Fleisch und Fisch",
+    "category": "Fleisch und Fisch",
+    "icon": "🥩",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9065",
+    "name": "Backwaren und Beilagen",
+    "category": "Backwaren und Beilagen",
+    "icon": "🍞",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9066",
+    "name": "Im Badezimmer",
+    "category": "Im Badezimmer",
+    "icon": "🛁",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9067",
+    "name": "Kleidung erweitert",
+    "category": "Kleidung erweitert",
+    "icon": "👗",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9068",
+    "name": "Im Haus",
+    "category": "Im Haus",
+    "icon": "🏠",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9069",
+    "name": "Im Schlafzimmer",
+    "category": "Im Schlafzimmer",
+    "icon": "🛏️",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9070",
+    "name": "Wohnzimmer",
+    "category": "Wohnzimmer",
+    "icon": "🛋️",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9071",
+    "name": "Transport erweitert",
+    "category": "Transport erweitert",
+    "icon": "🚌",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9072",
+    "name": "Beim Arzt erweitert",
+    "category": "Beim Arzt erweitert",
+    "icon": "🏥",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9073",
+    "name": "Möbel und Einrichtung",
+    "category": "Möbel und Einrichtung",
+    "icon": "🪑",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9074",
+    "name": "Schreibwaren",
+    "category": "Schreibwaren",
+    "icon": "✏️",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9075",
+    "name": "Wetter und Natur 2",
+    "category": "Wetter und Natur 2",
+    "icon": "🌤️",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9076",
+    "name": "Tiere erweitert",
+    "category": "Tiere erweitert",
+    "icon": "🐾",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9077",
+    "name": "Im Park und Natur",
+    "category": "Im Park und Natur",
+    "icon": "🌳",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9078",
+    "name": "Zeit und Kalender",
+    "category": "Zeit und Kalender",
+    "icon": "📅",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9079",
+    "name": "Gefühle und Charakter",
+    "category": "Gefühle und Charakter",
+    "icon": "😊",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9080",
+    "name": "Berufe erweitert",
+    "category": "Berufe erweitert",
+    "icon": "👷",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9081",
+    "name": "Grundverben 2",
+    "category": "Grundverben 2",
+    "icon": "🏃",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9082",
+    "name": "Adjektive erweitert",
+    "category": "Adjektive erweitert",
+    "icon": "📝",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9083",
+    "name": "Fragewörter und Pronomen",
+    "category": "Fragewörter und Pronomen",
+    "icon": "❓",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9084",
+    "name": "Essen gehen",
+    "category": "Essen gehen",
+    "icon": "🍽️",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9085",
+    "name": "Reisen",
+    "category": "Reisen",
+    "icon": "✈️",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9086",
+    "name": "Hobby und Freizeit",
+    "category": "Hobby und Freizeit",
+    "icon": "🎨",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9087",
+    "name": "Familie und Personen",
+    "category": "Familie und Personen",
+    "icon": "👨‍👩‍👧",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9088",
+    "name": "Musikinstrumente",
+    "category": "Musikinstrumente",
+    "icon": "🎵",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9089",
+    "name": "Werkzeuge",
+    "category": "Werkzeuge",
+    "icon": "🔧",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9090",
+    "name": "Pflanzen und Garten",
+    "category": "Pflanzen und Garten",
+    "icon": "🌻",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9091",
+    "name": "Fahrzeuge",
+    "category": "Fahrzeuge",
+    "icon": "🚁",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9092",
+    "name": "Materialien",
+    "category": "Materialien",
+    "icon": "🧱",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9093",
+    "name": "Geometrie",
+    "category": "Geometrie",
+    "icon": "📐",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9094",
+    "name": "Zahlen und Maße 2",
+    "category": "Zahlen und Maße 2",
+    "icon": "🔢",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9095",
+    "name": "Krankheiten und Symptome",
+    "category": "Krankheiten und Symptome",
+    "icon": "🤒",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9096",
+    "name": "Konjunktionen und Partikeln",
+    "category": "Konjunktionen und Partikeln",
+    "icon": "🔗",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9097",
+    "name": "Im Hotel",
+    "category": "Im Hotel",
+    "icon": "🏨",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9098",
+    "name": "Gegensatzpaare",
+    "category": "Gegensatzpaare",
+    "icon": "↔️",
+    "wordCount": 2
+  },
+  {
+    "id": "extra_9099",
+    "name": "Verben des Alltags 2",
+    "category": "Verben des Alltags 2",
+    "icon": "🔄",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9100",
+    "name": "Spielsachen",
+    "category": "Spielsachen",
+    "icon": "🧸",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9101",
+    "name": "Bauernhoftiere",
+    "category": "Bauernhoftiere",
+    "icon": "🐄",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9102",
+    "name": "Insekten und Kleintiere",
+    "category": "Insekten und Kleintiere",
+    "icon": "🐛",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9103",
+    "name": "Meerestiere",
+    "category": "Meerestiere",
+    "icon": "🐠",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9104",
+    "name": "Verben mit Präpositionen",
+    "category": "Verben mit Präpositionen",
+    "icon": "📎",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9105",
+    "name": "Am Meer",
+    "category": "Am Meer",
+    "icon": "🏖️",
+    "wordCount": 9
+  },
+  {
+    "id": "extra_9106",
+    "name": "Im Krankenhaus",
+    "category": "Im Krankenhaus",
+    "icon": "🏥",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9107",
+    "name": "Zootiere",
+    "category": "Zootiere",
+    "icon": "🦁",
+    "wordCount": 1
+  },
+  {
+    "id": "extra_9108",
+    "name": "Verben der Bewegung",
+    "category": "Verben der Bewegung",
+    "icon": "🚶",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9109",
+    "name": "Märchen und Fantasie",
+    "category": "Märchen und Fantasie",
+    "icon": "🧚",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9110",
+    "name": "Kosmetik und Schmuck",
+    "category": "Kosmetik und Schmuck",
+    "icon": "💍",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9111",
+    "name": "Farben und Muster",
+    "category": "Farben und Muster",
+    "icon": "🎨",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9112",
+    "name": "Spielplatz",
+    "category": "Spielplatz",
+    "icon": "🛝",
+    "wordCount": 4
+  },
+  {
+    "id": "extra_9113",
+    "name": "Frühstück",
+    "category": "Frühstück",
+    "icon": "🥐",
+    "wordCount": 6
+  },
+  {
+    "id": "extra_9114",
+    "name": "Im Badezimmer",
+    "category": "Im Badezimmer",
+    "icon": "🚿",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9115",
+    "name": "Wochentage und Monate",
+    "category": "Wochentage und Monate",
+    "icon": "📅",
+    "wordCount": 0
+  },
+  {
+    "id": "extra_9116",
+    "name": "Schulfächer",
+    "category": "Schulfächer",
+    "icon": "📕",
+    "wordCount": 3
+  },
+  {
+    "id": "extra_9117",
+    "name": "Emotionen und Gefühle",
+    "category": "Emotionen und Gefühle",
+    "icon": "😊",
+    "wordCount": 0
+  }
+]

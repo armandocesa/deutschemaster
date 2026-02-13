@@ -1,0 +1,2101 @@
+[
+  {
+    "id": "zusammengesetzte_woerter",
+    "name": "Parole composte",
+    "category": "Parole composte",
+    "icon": "🔤",
+    "words": [
+      {
+        "german": "Geschwindigkeitsbeschränkung",
+        "italian": "limite di velocità",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Krankenversicherungsbeitrag",
+        "italian": "contributo assicurativo sanitario",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Einkommenssteuererklärung",
+        "italian": "dichiarazione dei redditi",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Straßenverkehrsordnung",
+        "italian": "codice della strada",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Verbraucherschutzgesetz",
+        "italian": "legge a tutela dei consumatori",
+        "article": "das",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Arbeitsbeschaffungsmaßnahme",
+        "italian": "misura per la creazione di lavoro",
+        "article": "die",
+        "plural": "-n",
+        "example": ""
+      },
+      {
+        "german": "Aufenthaltserlaubnis",
+        "italian": "permesso di soggiorno",
+        "article": "die",
+        "plural": "-se",
+        "example": ""
+      },
+      {
+        "german": "Steuervergünstigung",
+        "italian": "agevolazione fiscale",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Umweltverträglichkeitsprüfung",
+        "italian": "valutazione impatto ambientale",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Meinungsverschiedenheit",
+        "italian": "divergenza di opinioni",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Selbstverwirklichung",
+        "italian": "autorealizzazione",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Verantwortungsbewusstsein",
+        "italian": "senso di responsabilità",
+        "article": "das",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Grundstücksverkehrsgenehmigung",
+        "italian": "permesso di vendita immobiliare",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Rechtsschutzversicherung",
+        "italian": "assicurazione tutela legale",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Wohnungseigentümergemeinschaft",
+        "italian": "condominio (comunità proprietari)",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verwaltungssprache",
+    "name": "Linguaggio burocratico",
+    "category": "Linguaggio burocratico",
+    "icon": "🏛️",
+    "words": [
+      {
+        "german": "Bescheid",
+        "italian": "comunicazione ufficiale",
+        "article": "der",
+        "plural": "-e",
+        "example": ""
+      },
+      {
+        "german": "Antrag",
+        "italian": "domanda/richiesta",
+        "article": "der",
+        "plural": "Anträge",
+        "example": ""
+      },
+      {
+        "german": "Erlass",
+        "italian": "decreto",
+        "article": "der",
+        "plural": "Erlasse",
+        "example": ""
+      },
+      {
+        "german": "Verordnung",
+        "italian": "regolamento",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Richtlinie",
+        "italian": "direttiva",
+        "article": "die",
+        "plural": "-n",
+        "example": ""
+      },
+      {
+        "german": "Verwaltungsakt",
+        "italian": "atto amministrativo",
+        "article": "der",
+        "plural": "-e",
+        "example": ""
+      },
+      {
+        "german": "Dienstweg",
+        "italian": "canale ufficiale",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Sachbearbeiter",
+        "italian": "impiegato addetto",
+        "article": "der",
+        "plural": "-",
+        "example": ""
+      },
+      {
+        "german": "Aktenzeichen",
+        "italian": "numero di protocollo",
+        "article": "das",
+        "plural": "-",
+        "example": ""
+      },
+      {
+        "german": "Rechtsbehelfsbelehrung",
+        "italian": "istruzione sui mezzi di impugnazione",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Anhörung",
+        "italian": "audizione",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Einspruch",
+        "italian": "opposizione",
+        "article": "der",
+        "plural": "Einsprüche",
+        "example": ""
+      },
+      {
+        "german": "Amtsblatt",
+        "italian": "gazzetta ufficiale",
+        "article": "das",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Einwohnermeldeamt",
+        "italian": "anagrafe",
+        "article": "das",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Standesamt",
+        "italian": "ufficio di stato civile",
+        "article": "das",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "diplomatische_sprache",
+    "name": "Linguaggio diplomatico",
+    "category": "Linguaggio diplomatico",
+    "icon": "🤝",
+    "words": [
+      {
+        "german": "Memorandum",
+        "italian": "memorandum",
+        "article": "das",
+        "plural": "Memoranden",
+        "example": ""
+      },
+      {
+        "german": "Kommuniqué",
+        "italian": "comunicato",
+        "article": "das",
+        "plural": "-s",
+        "example": ""
+      },
+      {
+        "german": "Resolution",
+        "italian": "risoluzione",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Protokoll",
+        "italian": "protocollo",
+        "article": "das",
+        "plural": "-e",
+        "example": ""
+      },
+      {
+        "german": "Ratifizierung",
+        "italian": "ratifica",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Akkreditierung",
+        "italian": "accreditamento",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Immunität",
+        "italian": "immunità",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Persona non grata",
+        "italian": "persona non grata",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Vermittlung",
+        "italian": "mediazione",
+        "article": "die",
+        "plural": "-en",
+        "example": ""
+      },
+      {
+        "german": "Deeskalation",
+        "italian": "de-escalation",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Vertrauensbildung",
+        "italian": "costruzione della fiducia",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Souveränitätsprinzip",
+        "italian": "principio di sovranità",
+        "article": "das",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Nichteinmischung",
+        "italian": "non ingerenza",
+        "article": "die",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Multilateralismus",
+        "italian": "multilateralismo",
+        "article": "der",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Völkerrecht",
+        "italian": "diritto internazionale",
+        "article": "das",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Genfer Konventionen",
+        "italian": "Convenzioni di Ginevra",
+        "article": "die (Pl.)",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "metaphern",
+    "name": "Metafore e lingua figurata",
+    "category": "Metafore e lingua figurata",
+    "icon": "🎨",
+    "words": [
+      {
+        "german": "am seidenen Faden hängen",
+        "italian": "essere appeso a un filo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "auf Messers Schneide stehen",
+        "italian": "essere sul filo del rasoio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Eis brechen",
+        "italian": "rompere il ghiaccio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "den roten Faden verlieren",
+        "italian": "perdere il filo rosso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "eine Brücke schlagen",
+        "italian": "gettare un ponte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "grünes Licht geben",
+        "italian": "dare il via libera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "in trüben Gewässern fischen",
+        "italian": "pescare nel torbido",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "jemanden unter die Lupe nehmen",
+        "italian": "esaminare attentamente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schwarzsehen",
+        "italian": "essere pessimista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich auf dünnem Eis bewegen",
+        "italian": "muoversi su un terreno minato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Steine in den Weg legen",
+        "italian": "mettere i bastoni tra le ruote",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Wasser predigen und Wein trinken",
+        "italian": "predicare bene e razzolare male",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "extra_9488",
+    "name": "Stilistik",
+    "category": "Stilistik",
+    "icon": "✒️",
+    "words": [
+      {
+        "german": "die Metonymie",
+        "italian": "la metonimia",
+        "article": "die",
+        "plural": "Metonymien",
+        "example": "Metonymie ersetzt Begriffe."
+      },
+      {
+        "german": "die Synekdoche",
+        "italian": "la sineddoche",
+        "article": "die",
+        "plural": "Synekdochen",
+        "example": "Synekdoche nimmt den Teil fürs Ganze."
+      },
+      {
+        "german": "die Hyperbel",
+        "italian": "l'iperbole",
+        "article": "die",
+        "plural": "Hyperbeln",
+        "example": "Hyperbel übertreibt."
+      },
+      {
+        "german": "die Litotes",
+        "italian": "la litote",
+        "article": "die",
+        "plural": "",
+        "example": "Litotes untertreibt."
+      },
+      {
+        "german": "das Oxymoron",
+        "italian": "l'ossimoro",
+        "article": "das",
+        "plural": "Oxymora",
+        "example": "Oxymoron vereint Gegensätze."
+      },
+      {
+        "german": "die Alliteration",
+        "italian": "l'allitterazione",
+        "article": "die",
+        "plural": "Alliterationen",
+        "example": "Alliteration wiederholt Anlaute."
+      },
+      {
+        "german": "die Anapher",
+        "italian": "l'anafora",
+        "article": "die",
+        "plural": "Anaphern",
+        "example": "Anapher wiederholt Satzanfänge."
+      },
+      {
+        "german": "die Ellipse",
+        "italian": "l'ellissi",
+        "article": "die",
+        "plural": "Ellipsen",
+        "example": "Ellipse lässt Worte aus."
+      },
+      {
+        "german": "das Chiasmus",
+        "italian": "il chiasmo",
+        "article": "das",
+        "plural": "Chiasmen",
+        "example": "Chiasmus kreuzt Strukturen."
+      },
+      {
+        "german": "die Personifikation",
+        "italian": "la personificazione",
+        "article": "die",
+        "plural": "",
+        "example": "Personifikation belebt Gegenstände."
+      },
+      {
+        "german": "das Paradoxon",
+        "italian": "il paradosso",
+        "article": "das",
+        "plural": "Paradoxa",
+        "example": "Das Paradoxon widerspricht sich."
+      },
+      {
+        "german": "die Euphemismus",
+        "italian": "l'eufemismo",
+        "article": "der",
+        "plural": "Euphemismen",
+        "example": "Euphemismus mildert ab."
+      },
+      {
+        "german": "der Pleonasmus",
+        "italian": "il pleonasmo",
+        "article": "der",
+        "plural": "Pleonasmen",
+        "example": "Pleonasmus verdoppelt Bedeutung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9489",
+    "name": "Textlinguistik",
+    "category": "Textlinguistik",
+    "icon": "📄",
+    "words": [
+      {
+        "german": "die Textlinguistik",
+        "italian": "la linguistica testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Textlinguistik analysiert Texte als Einheiten."
+      },
+      {
+        "german": "die Textsorte",
+        "italian": "il tipo di testo",
+        "article": "die",
+        "plural": "Textsorten",
+        "example": "Textsorten haben Konventionen."
+      },
+      {
+        "german": "die Textfunktion",
+        "italian": "la funzione testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Textfunktion bestimmt den Zweck."
+      },
+      {
+        "german": "die Thema-Rhema-Gliederung",
+        "italian": "l'articolazione tema-rema",
+        "article": "die",
+        "plural": "",
+        "example": "Thema-Rhema organisiert Informationen."
+      },
+      {
+        "german": "die Isotopie",
+        "italian": "l'isotopia",
+        "article": "die",
+        "plural": "Isotopien",
+        "example": "Isotopie schafft thematische Einheit."
+      },
+      {
+        "german": "die Textkohäsion",
+        "italian": "la coesione testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Textkohäsion nutzt sprachliche Mittel."
+      },
+      {
+        "german": "die Makrostruktur",
+        "italian": "la macrostruttura",
+        "article": "die",
+        "plural": "",
+        "example": "Die Makrostruktur zeigt den Gesamtinhalt."
+      },
+      {
+        "german": "die Mikrostruktur",
+        "italian": "la microstruttura",
+        "article": "die",
+        "plural": "",
+        "example": "Die Mikrostruktur zeigt Satzverbindungen."
+      },
+      {
+        "german": "die Textproduktion",
+        "italian": "la produzione testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Textproduktion folgt Phasen."
+      },
+      {
+        "german": "die Textrezeption",
+        "italian": "la ricezione testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Textrezeption ist Verstehen."
+      },
+      {
+        "german": "die Textgrammatik",
+        "italian": "la grammatica testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Textgrammatik beschreibt Textstrukturen."
+      },
+      {
+        "german": "die Reformulierung",
+        "italian": "la riformulazione",
+        "article": "die",
+        "plural": "",
+        "example": "Reformulierung paraphrasiert."
+      },
+      {
+        "german": "die Textdeixis",
+        "italian": "la deissi testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Textdeixis verweist im Text."
+      },
+      {
+        "german": "das Themenentfaltung",
+        "italian": "lo sviluppo tematico",
+        "article": "die",
+        "plural": "",
+        "example": "Themenentfaltung strukturiert Texte."
+      },
+      {
+        "german": "die Textpragmatik",
+        "italian": "la pragmatica testuale",
+        "article": "die",
+        "plural": "",
+        "example": "Textpragmatik untersucht Wirkung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9490",
+    "name": "Diskursanalyse",
+    "category": "Diskursanalyse",
+    "icon": "💬",
+    "words": [
+      {
+        "german": "die diskursive Praxis",
+        "italian": "la pratica discorsiva",
+        "article": "die",
+        "plural": "",
+        "example": "Diskursive Praktiken erzeugen Bedeutung."
+      },
+      {
+        "german": "die Subjektposition",
+        "italian": "la posizione del soggetto",
+        "article": "die",
+        "plural": "",
+        "example": "Subjektpositionen werden zugewiesen."
+      },
+      {
+        "german": "die Hegemonie",
+        "italian": "l'egemonia",
+        "article": "die",
+        "plural": "",
+        "example": "Hegemonie dominiert Diskurse."
+      },
+      {
+        "german": "die Machtstruktur",
+        "italian": "la struttura di potere",
+        "article": "die",
+        "plural": "Machtstrukturen",
+        "example": "Machtstrukturen durchziehen Diskurse."
+      },
+      {
+        "german": "die Wissensoziologie",
+        "italian": "la sociologia della conoscenza",
+        "article": "die",
+        "plural": "",
+        "example": "Wissenssoziologie erforscht Wissensproduktion."
+      },
+      {
+        "german": "der Interdiskurs",
+        "italian": "l'interdiscorso",
+        "article": "der",
+        "plural": "",
+        "example": "Interdiskurse verbinden Bereiche."
+      },
+      {
+        "german": "die Diskursordnung",
+        "italian": "l'ordine del discorso",
+        "article": "die",
+        "plural": "",
+        "example": "Foucault beschrieb die Diskursordnung."
+      },
+      {
+        "german": "die Genealogie",
+        "italian": "la genealogia",
+        "article": "die",
+        "plural": "",
+        "example": "Genealogie erforscht Entstehung."
+      },
+      {
+        "german": "die Archäologie des Wissens",
+        "italian": "l'archeologia del sapere",
+        "article": "die",
+        "plural": "",
+        "example": "Foucault schrieb die Archäologie des Wissens."
+      },
+      {
+        "german": "die kritische Diskursanalyse",
+        "italian": "l'analisi critica del discorso",
+        "article": "die",
+        "plural": "",
+        "example": "CDA enthüllt Machtstrukturen."
+      },
+      {
+        "german": "die Dispositivanalyse",
+        "italian": "l'analisi del dispositivo",
+        "article": "die",
+        "plural": "",
+        "example": "Dispositivanalyse verbindet Diskurs und Praxis."
+      },
+      {
+        "german": "das Sagbare",
+        "italian": "il dicibile",
+        "article": "das",
+        "plural": "",
+        "example": "Das Sagbare ist diskursiv geregelt."
+      },
+      {
+        "german": "die Deutungshoheit",
+        "italian": "la sovranità interpretativa",
+        "article": "die",
+        "plural": "",
+        "example": "Deutungshoheit bestimmt Wahrheit."
+      }
+    ]
+  },
+  {
+    "id": "extra_9491",
+    "name": "Semiotik",
+    "category": "Semiotik",
+    "icon": "🔣",
+    "words": [
+      {
+        "german": "die Semiotik",
+        "italian": "la semiotica",
+        "article": "die",
+        "plural": "",
+        "example": "Semiotik erforscht Zeichen."
+      },
+      {
+        "german": "das Zeichen",
+        "italian": "il segno",
+        "article": "das",
+        "plural": "Zeichen",
+        "example": "Zeichen repräsentieren Bedeutung."
+      },
+      {
+        "german": "das Signifikat",
+        "italian": "il significato",
+        "article": "das",
+        "plural": "",
+        "example": "Das Signifikat ist die Bedeutung."
+      },
+      {
+        "german": "der Signifikant",
+        "italian": "il significante",
+        "article": "der",
+        "plural": "",
+        "example": "Der Signifikant ist die Form."
+      },
+      {
+        "german": "die Ikonizität",
+        "italian": "l'iconicità",
+        "article": "die",
+        "plural": "",
+        "example": "Ikonizität zeigt Ähnlichkeit."
+      },
+      {
+        "german": "der Code",
+        "italian": "il codice",
+        "article": "der",
+        "plural": "Codes",
+        "example": "Codes regeln Bedeutung."
+      },
+      {
+        "german": "die Semiose",
+        "italian": "la semiosi",
+        "article": "die",
+        "plural": "",
+        "example": "Semiose ist der Zeichenprozess."
+      },
+      {
+        "german": "die Polysemie",
+        "italian": "la polisemia",
+        "article": "die",
+        "plural": "",
+        "example": "Polysemie ist Mehrdeutigkeit."
+      },
+      {
+        "german": "die Zeichentheorie",
+        "italian": "la teoria del segno",
+        "article": "die",
+        "plural": "",
+        "example": "Peirce entwickelte die Zeichentheorie."
+      },
+      {
+        "german": "die visuelle Semiotik",
+        "italian": "la semiotica visiva",
+        "article": "die",
+        "plural": "",
+        "example": "Visuelle Semiotik analysiert Bilder."
+      },
+      {
+        "german": "der binäre Gegensatz",
+        "italian": "l'opposizione binaria",
+        "article": "der",
+        "plural": "",
+        "example": "Binäre Gegensätze strukturieren Bedeutung."
+      },
+      {
+        "german": "die Bedeutungskonstitution",
+        "italian": "la costituzione del significato",
+        "article": "die",
+        "plural": "",
+        "example": "Bedeutung wird aktiv konstituiert."
+      }
+    ]
+  },
+  {
+    "id": "extra_9492",
+    "name": "Narratologie",
+    "category": "Narratologie",
+    "icon": "📚",
+    "words": [
+      {
+        "german": "die Narratologie",
+        "italian": "la narratologia",
+        "article": "die",
+        "plural": "",
+        "example": "Narratologie erforscht Erzählstrukturen."
+      },
+      {
+        "german": "die Erzählperspektive",
+        "italian": "la prospettiva narrativa",
+        "article": "die",
+        "plural": "",
+        "example": "Die Erzählperspektive bestimmt den Blick."
+      },
+      {
+        "german": "die auktoriale Erzählung",
+        "italian": "la narrazione autoriale",
+        "article": "die",
+        "plural": "",
+        "example": "Auktoriale Erzählung ist allwissend."
+      },
+      {
+        "german": "die Ich-Erzählung",
+        "italian": "la narrazione in prima persona",
+        "article": "die",
+        "plural": "",
+        "example": "Die Ich-Erzählung ist subjektiv."
+      },
+      {
+        "german": "die erlebte Rede",
+        "italian": "il discorso indiretto libero",
+        "article": "die",
+        "plural": "",
+        "example": "Erlebte Rede verschmelzt Perspektiven."
+      },
+      {
+        "german": "die Prolepse",
+        "italian": "la prolessi",
+        "article": "die",
+        "plural": "Prolepsen",
+        "example": "Prolepse greift voraus."
+      },
+      {
+        "german": "die Analepse",
+        "italian": "l'analessi",
+        "article": "die",
+        "plural": "Analepsen",
+        "example": "Analepse blickt zurück."
+      },
+      {
+        "german": "die Diegese",
+        "italian": "la diegesi",
+        "article": "die",
+        "plural": "",
+        "example": "Diegese ist die erzählte Welt."
+      },
+      {
+        "german": "die Fokalisierung",
+        "italian": "la focalizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Fokalisierung bestimmt die Wahrnehmung."
+      },
+      {
+        "german": "die unzuverlässige Erzählung",
+        "italian": "la narrazione inattendibile",
+        "article": "die",
+        "plural": "",
+        "example": "Unzuverlässige Erzählung täuscht."
+      },
+      {
+        "german": "die Rahmenerzählung",
+        "italian": "la narrazione a cornice",
+        "article": "die",
+        "plural": "",
+        "example": "Die Rahmenerzählung umschließt."
+      },
+      {
+        "german": "die Binnenerzählung",
+        "italian": "la narrazione interna",
+        "article": "die",
+        "plural": "",
+        "example": "Die Binnenerzählung ist eingebettet."
+      },
+      {
+        "german": "der Plot",
+        "italian": "la trama",
+        "article": "der",
+        "plural": "Plots",
+        "example": "Der Plot treibt die Handlung."
+      },
+      {
+        "german": "das Sujet",
+        "italian": "il soggetto narrativo",
+        "article": "das",
+        "plural": "",
+        "example": "Das Sujet ist die erzählte Handlung."
+      },
+      {
+        "german": "die Metalepse",
+        "italian": "la metalessi",
+        "article": "die",
+        "plural": "Metalepsen",
+        "example": "Metalepse überschreitet Erzählebenen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9493",
+    "name": "Komparatistik",
+    "category": "Komparatistik",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Komparatistik",
+        "italian": "la letteratura comparata",
+        "article": "die",
+        "plural": "",
+        "example": "Komparatistik vergleicht Literaturen."
+      },
+      {
+        "german": "die Weltliteratur",
+        "italian": "la letteratura mondiale",
+        "article": "die",
+        "plural": "",
+        "example": "Goethe prägte den Begriff Weltliteratur."
+      },
+      {
+        "german": "die interkulturelle Literatur",
+        "italian": "la letteratura interculturale",
+        "article": "die",
+        "plural": "",
+        "example": "Interkulturelle Literatur verbindet Kulturen."
+      },
+      {
+        "german": "die Migrationsliteratur",
+        "italian": "la letteratura della migrazione",
+        "article": "die",
+        "plural": "",
+        "example": "Migrationsliteratur thematisiert Fremdheit."
+      },
+      {
+        "german": "die postkoloniale Literatur",
+        "italian": "la letteratura postcoloniale",
+        "article": "die",
+        "plural": "",
+        "example": "Postkoloniale Literatur hinterfragt Herrschaft."
+      },
+      {
+        "german": "der literarische Kanon",
+        "italian": "il canone letterario",
+        "article": "der",
+        "plural": "",
+        "example": "Der Kanon bestimmt wichtige Werke."
+      },
+      {
+        "german": "die Kanonisierung",
+        "italian": "la canonizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Kanonisierung wählt aus."
+      },
+      {
+        "german": "die Übersetzung",
+        "italian": "la traduzione",
+        "article": "die",
+        "plural": "Übersetzungen",
+        "example": "Übersetzung vermittelt."
+      },
+      {
+        "german": "die kulturelle Übersetzung",
+        "italian": "la traduzione culturale",
+        "article": "die",
+        "plural": "",
+        "example": "Kulturelle Übersetzung geht über Worte hinaus."
+      },
+      {
+        "german": "die Hybridität",
+        "italian": "l'ibridità",
+        "article": "die",
+        "plural": "",
+        "example": "Hybridität mischt Kulturen."
+      },
+      {
+        "german": "die Alterität",
+        "italian": "l'alterità",
+        "article": "die",
+        "plural": "",
+        "example": "Alterität ist Andersheit."
+      },
+      {
+        "german": "das Fremde",
+        "italian": "l'estraneo",
+        "article": "das",
+        "plural": "",
+        "example": "Das Fremde fordert heraus."
+      },
+      {
+        "german": "die Transnationalität",
+        "italian": "la transnazionalità",
+        "article": "die",
+        "plural": "",
+        "example": "Transnationalität überschreitet Grenzen."
+      },
+      {
+        "german": "die Gattungstheorie",
+        "italian": "la teoria dei generi letterari",
+        "article": "die",
+        "plural": "",
+        "example": "Gattungstheorie klassifiziert Texte."
+      },
+      {
+        "german": "die Periodisierung",
+        "italian": "la periodizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Periodisierung ordnet zeitlich."
+      },
+      {
+        "german": "die Einflussstudie",
+        "italian": "lo studio d'influenza",
+        "article": "die",
+        "plural": "",
+        "example": "Einflussstudien verfolgen Wirkungen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9494",
+    "name": "Übersetzungswissenschaft",
+    "category": "Übersetzungswissenschaft",
+    "icon": "🌐",
+    "words": [
+      {
+        "german": "die Übersetzungswissenschaft",
+        "italian": "la traduttologia",
+        "article": "die",
+        "plural": "",
+        "example": "Übersetzungswissenschaft erforscht Übersetzen."
+      },
+      {
+        "german": "die Äquivalenz",
+        "italian": "l'equivalenza",
+        "article": "die",
+        "plural": "",
+        "example": "Äquivalenz ist das Ziel."
+      },
+      {
+        "german": "die Adäquatheit",
+        "italian": "l'adeguatezza",
+        "article": "die",
+        "plural": "",
+        "example": "Adäquatheit passt an Zweck an."
+      },
+      {
+        "german": "die Ausgangsprache",
+        "italian": "la lingua di partenza",
+        "article": "die",
+        "plural": "",
+        "example": "Die Ausgangssprache ist das Original."
+      },
+      {
+        "german": "die Zielsprache",
+        "italian": "la lingua di arrivo",
+        "article": "die",
+        "plural": "",
+        "example": "Die Zielsprache empfängt."
+      },
+      {
+        "german": "die Domestizierung",
+        "italian": "l'addomesticamento",
+        "article": "die",
+        "plural": "",
+        "example": "Domestizierung passt an die Zielkultur an."
+      },
+      {
+        "german": "die Verfremdung",
+        "italian": "lo straniamento",
+        "article": "die",
+        "plural": "",
+        "example": "Verfremdung bewahrt Fremdheit."
+      },
+      {
+        "german": "die Lokalisisierung",
+        "italian": "la localizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Lokalisierung passt Software an."
+      },
+      {
+        "german": "die maschinelle Übersetzung",
+        "italian": "la traduzione automatica",
+        "article": "die",
+        "plural": "",
+        "example": "Maschinelle Übersetzung verbessert sich."
+      },
+      {
+        "german": "die Dolmetschung",
+        "italian": "l'interpretariato",
+        "article": "die",
+        "plural": "",
+        "example": "Dolmetschung ist mündlich."
+      },
+      {
+        "german": "das Simultandolmetschen",
+        "italian": "l'interpretariato simultaneo",
+        "article": "das",
+        "plural": "",
+        "example": "Simultandolmetschen ist anspruchsvoll."
+      },
+      {
+        "german": "das Konsekutivdolmetschen",
+        "italian": "l'interpretariato consecutivo",
+        "article": "das",
+        "plural": "",
+        "example": "Konsekutivdolmetschen folgt zeitversetzt."
+      },
+      {
+        "german": "die Transkreation",
+        "italian": "la transcreazione",
+        "article": "die",
+        "plural": "",
+        "example": "Transkreation übersetzt kreativ."
+      },
+      {
+        "german": "die Fachübersetzung",
+        "italian": "la traduzione specializzata",
+        "article": "die",
+        "plural": "",
+        "example": "Fachübersetzung braucht Fachwissen."
+      },
+      {
+        "german": "die literarische Übersetzung",
+        "italian": "la traduzione letteraria",
+        "article": "die",
+        "plural": "",
+        "example": "Literarische Übersetzung ist Kunst."
+      },
+      {
+        "german": "die Übersetzungsstrategie",
+        "italian": "la strategia di traduzione",
+        "article": "die",
+        "plural": "",
+        "example": "Übersetzungsstrategien leiten Entscheidungen."
+      },
+      {
+        "german": "die post-editing",
+        "italian": "la post-edizione",
+        "article": "die",
+        "plural": "",
+        "example": "Post-Editing überarbeitet maschinelle Übersetzung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9495",
+    "name": "Poetik",
+    "category": "Poetik",
+    "icon": "📜",
+    "words": [
+      {
+        "german": "die Poetik",
+        "italian": "la poetica",
+        "article": "die",
+        "plural": "",
+        "example": "Poetik reflektiert Dichtung."
+      },
+      {
+        "german": "die Versform",
+        "italian": "la forma del verso",
+        "article": "die",
+        "plural": "Versformen",
+        "example": "Die Versform bestimmt den Rhythmus."
+      },
+      {
+        "german": "der Jambus",
+        "italian": "il giambo",
+        "article": "der",
+        "plural": "Jamben",
+        "example": "Der Jambus ist unbetont-betont."
+      },
+      {
+        "german": "der Trochäus",
+        "italian": "il trocheo",
+        "article": "der",
+        "plural": "Trochäen",
+        "example": "Der Trochäus ist betont-unbetont."
+      },
+      {
+        "german": "der Daktylus",
+        "italian": "il dattilo",
+        "article": "der",
+        "plural": "Daktylen",
+        "example": "Der Daktylus hat drei Silben."
+      },
+      {
+        "german": "der Anapäst",
+        "italian": "l'anapesto",
+        "article": "der",
+        "plural": "Anapäste",
+        "example": "Der Anapäst ist kurz-kurz-lang."
+      },
+      {
+        "german": "das Sonett",
+        "italian": "il sonetto",
+        "article": "das",
+        "plural": "Sonette",
+        "example": "Das Sonett hat 14 Verse."
+      },
+      {
+        "german": "die Ode",
+        "italian": "l'ode",
+        "article": "die",
+        "plural": "Oden",
+        "example": "Die Ode ist feierlich."
+      },
+      {
+        "german": "die Elegie",
+        "italian": "l'elegia",
+        "article": "die",
+        "plural": "Elegien",
+        "example": "Die Elegie ist klagend."
+      },
+      {
+        "german": "die Ballade",
+        "italian": "la ballata",
+        "article": "die",
+        "plural": "Balladen",
+        "example": "Die Ballade erzählt."
+      },
+      {
+        "german": "das Epigramm",
+        "italian": "l'epigramma",
+        "article": "das",
+        "plural": "Epigramme",
+        "example": "Das Epigramm ist kurz."
+      },
+      {
+        "german": "der Hexameter",
+        "italian": "l'esametro",
+        "article": "der",
+        "plural": "Hexameter",
+        "example": "Der Hexameter ist episch."
+      },
+      {
+        "german": "das Metrum",
+        "italian": "il metro",
+        "article": "das",
+        "plural": "Metren",
+        "example": "Das Metrum bestimmt den Rhythmus."
+      },
+      {
+        "german": "das Enjambement",
+        "italian": "l'enjambement",
+        "article": "das",
+        "plural": "Enjambements",
+        "example": "Das Enjambement bricht Verszeilen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9496",
+    "name": "Dramentheorie",
+    "category": "Dramentheorie",
+    "icon": "🎭",
+    "words": [
+      {
+        "german": "die Dramentheorie",
+        "italian": "la teoria del dramma",
+        "article": "die",
+        "plural": "",
+        "example": "Dramentheorie analysiert dramatische Texte."
+      },
+      {
+        "german": "die Katharsis",
+        "italian": "la catarsi",
+        "article": "die",
+        "plural": "",
+        "example": "Katharsis reinigt durch Mitleid und Furcht."
+      },
+      {
+        "german": "die Peripetie",
+        "italian": "la peripezia",
+        "article": "die",
+        "plural": "Peripetien",
+        "example": "Peripetie ist der Wendepunkt."
+      },
+      {
+        "german": "die Anagnorisis",
+        "italian": "l'anagnorisi",
+        "article": "die",
+        "plural": "",
+        "example": "Anagnorisis ist die Erkennung."
+      },
+      {
+        "german": "der Protagonist",
+        "italian": "il protagonista",
+        "article": "der",
+        "plural": "Protagonisten",
+        "example": "Der Protagonist handelt zentral."
+      },
+      {
+        "german": "der Antagonist",
+        "italian": "l'antagonista",
+        "article": "der",
+        "plural": "Antagonisten",
+        "example": "Der Antagonist steht entgegen."
+      },
+      {
+        "german": "die Exposition",
+        "italian": "l'esposizione",
+        "article": "die",
+        "plural": "",
+        "example": "Exposition führt ein."
+      },
+      {
+        "german": "die steigende Handlung",
+        "italian": "l'azione ascendente",
+        "article": "die",
+        "plural": "",
+        "example": "Steigende Handlung steigert Spannung."
+      },
+      {
+        "german": "die fallende Handlung",
+        "italian": "l'azione discendente",
+        "article": "die",
+        "plural": "",
+        "example": "Fallende Handlung führt zum Ende."
+      },
+      {
+        "german": "die Katastrophe",
+        "italian": "la catastrofe",
+        "article": "die",
+        "plural": "",
+        "example": "Die Katastrophe ist das Ende der Tragödie."
+      },
+      {
+        "german": "das epische Theater",
+        "italian": "il teatro epico",
+        "article": "das",
+        "plural": "",
+        "example": "Brecht schuf das epische Theater."
+      },
+      {
+        "german": "der Verfremdungseffekt",
+        "italian": "l'effetto di straniamento",
+        "article": "der",
+        "plural": "",
+        "example": "Der V-Effekt durchbricht Illusion."
+      },
+      {
+        "german": "das absurde Theater",
+        "italian": "il teatro dell'assurdo",
+        "article": "das",
+        "plural": "",
+        "example": "Ionesco schrieb absurdes Theater."
+      },
+      {
+        "german": "die vierte Wand",
+        "italian": "la quarta parete",
+        "article": "die",
+        "plural": "",
+        "example": "Die vierte Wand trennt Bühne und Publikum."
+      },
+      {
+        "german": "die Regieanweisung",
+        "italian": "la didascalia",
+        "article": "die",
+        "plural": "Regieanweisungen",
+        "example": "Regieanweisungen leiten die Aufführung."
+      }
+    ]
+  },
+  {
+    "id": "extra_9497",
+    "name": "Filmtheorie",
+    "category": "Filmtheorie",
+    "icon": "🎬",
+    "words": [
+      {
+        "german": "die Filmtheorie",
+        "italian": "la teoria del cinema",
+        "article": "die",
+        "plural": "",
+        "example": "Filmtheorie reflektiert Film."
+      },
+      {
+        "german": "die Montage",
+        "italian": "il montaggio",
+        "article": "der",
+        "plural": "",
+        "example": "Montage verbindet Einstellungen."
+      },
+      {
+        "german": "die Mise en Scène",
+        "italian": "la messa in scena",
+        "article": "die",
+        "plural": "",
+        "example": "Mise en Scène gestaltet das Bild."
+      },
+      {
+        "german": "die Kamerabewegung",
+        "italian": "il movimento della cinepresa",
+        "article": "die",
+        "plural": "",
+        "example": "Kamerabewegung erzeugt Dynamik."
+      },
+      {
+        "german": "die Totale",
+        "italian": "il campo totale",
+        "article": "die",
+        "plural": "",
+        "example": "Die Totale zeigt den Raum."
+      },
+      {
+        "german": "die Nahaufnahme",
+        "italian": "il primo piano",
+        "article": "die",
+        "plural": "",
+        "example": "Die Nahaufnahme zeigt Details."
+      },
+      {
+        "german": "die extradiegetische Musik",
+        "italian": "la musica extradiegetica",
+        "article": "die",
+        "plural": "",
+        "example": "Filmmusik ist oft extradiegetisch."
+      },
+      {
+        "german": "die Plansequenz",
+        "italian": "il piano sequenza",
+        "article": "die",
+        "plural": "",
+        "example": "Die Plansequenz vermeidet Schnitte."
+      },
+      {
+        "german": "der McGuffin",
+        "italian": "il MacGuffin",
+        "article": "der",
+        "plural": "",
+        "example": "Der MacGuffin treibt die Handlung."
+      },
+      {
+        "german": "die subjektive Kamera",
+        "italian": "la camera soggettiva",
+        "article": "die",
+        "plural": "",
+        "example": "Die subjektive Kamera zeigt Sicht."
+      },
+      {
+        "german": "der Autorenfilm",
+        "italian": "il cinema d'autore",
+        "article": "der",
+        "plural": "",
+        "example": "Autorenfilm betont den Regisseur."
+      },
+      {
+        "german": "die Genretheorie",
+        "italian": "la teoria dei generi cinematografici",
+        "article": "die",
+        "plural": "",
+        "example": "Genretheorie klassifiziert Filme."
+      },
+      {
+        "german": "die Filmnarratologie",
+        "italian": "la narratologia cinematografica",
+        "article": "die",
+        "plural": "",
+        "example": "Filmnarratologie analysiert Erzählung."
+      },
+      {
+        "german": "die Semiotik des Films",
+        "italian": "la semiotica del cinema",
+        "article": "die",
+        "plural": "",
+        "example": "Filmsemiotik analysiert filmische Zeichen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9498",
+    "name": "Kulturkritik",
+    "category": "Kulturkritik",
+    "icon": "🎨",
+    "words": [
+      {
+        "german": "die Kulturkritik",
+        "italian": "la critica culturale",
+        "article": "die",
+        "plural": "",
+        "example": "Kulturkritik hinterfragt Kultur."
+      },
+      {
+        "german": "die Kulturindustrie",
+        "italian": "l'industria culturale",
+        "article": "die",
+        "plural": "",
+        "example": "Adorno kritisierte die Kulturindustrie."
+      },
+      {
+        "german": "die Massenkultur",
+        "italian": "la cultura di massa",
+        "article": "die",
+        "plural": "",
+        "example": "Massenkultur ist kommerziell."
+      },
+      {
+        "german": "die Hochkultur",
+        "italian": "l'alta cultura",
+        "article": "die",
+        "plural": "",
+        "example": "Hochkultur vs. Populärkultur."
+      },
+      {
+        "german": "die Populärkultur",
+        "italian": "la cultura popolare",
+        "article": "die",
+        "plural": "",
+        "example": "Populärkultur ist allgegenwärtig."
+      },
+      {
+        "german": "die Frankfurter Schule",
+        "italian": "la Scuola di Francoforte",
+        "article": "die",
+        "plural": "",
+        "example": "Die Frankfurter Schule war kritisch."
+      },
+      {
+        "german": "die kritische Theorie",
+        "italian": "la teoria critica",
+        "article": "die",
+        "plural": "",
+        "example": "Kritische Theorie hinterfragt Gesellschaft."
+      },
+      {
+        "german": "die Dialektik der Aufklärung",
+        "italian": "la dialettica dell'illuminismo",
+        "article": "die",
+        "plural": "",
+        "example": "Horkheimer und Adorno schrieben sie."
+      },
+      {
+        "german": "die Verdinglichung",
+        "italian": "la reificazione",
+        "article": "die",
+        "plural": "",
+        "example": "Verdinglichung macht Beziehungen zu Dingen."
+      },
+      {
+        "german": "die Ideologiekritik",
+        "italian": "la critica dell'ideologia",
+        "article": "die",
+        "plural": "",
+        "example": "Ideologiekritik enthüllt Verblendung."
+      },
+      {
+        "german": "der Dekonstruktivismus",
+        "italian": "il decostruttivismo",
+        "article": "der",
+        "plural": "",
+        "example": "Derrida begründete den Dekonstruktivismus."
+      },
+      {
+        "german": "die Simulakrum",
+        "italian": "il simulacro",
+        "article": "das",
+        "plural": "Simulakra",
+        "example": "Baudrillard beschrieb Simulakra."
+      },
+      {
+        "german": "die Hyperrealität",
+        "italian": "l'iperrealtà",
+        "article": "die",
+        "plural": "",
+        "example": "Hyperrealität ersetzt Realität."
+      },
+      {
+        "german": "die Kultur als Text",
+        "italian": "la cultura come testo",
+        "article": "die",
+        "plural": "",
+        "example": "Kultur wird als Text gelesen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9499",
+    "name": "Ideengeschichte",
+    "category": "Ideengeschichte",
+    "icon": "💡",
+    "words": [
+      {
+        "german": "die Ideengeschichte",
+        "italian": "la storia delle idee",
+        "article": "die",
+        "plural": "",
+        "example": "Ideengeschichte verfolgt Konzepte."
+      },
+      {
+        "german": "die Begriffsgeschichte",
+        "italian": "la storia dei concetti",
+        "article": "die",
+        "plural": "",
+        "example": "Koselleck prägte die Begriffsgeschichte."
+      },
+      {
+        "german": "die Mentalitätsgeschichte",
+        "italian": "la storia delle mentalità",
+        "article": "die",
+        "plural": "",
+        "example": "Mentalitätsgeschichte erforscht Denkweisen."
+      },
+      {
+        "german": "die Wissensgeschichte",
+        "italian": "la storia del sapere",
+        "article": "die",
+        "plural": "",
+        "example": "Wissensgeschichte untersucht Wissensformen."
+      },
+      {
+        "german": "die Historiografie",
+        "italian": "la storiografia",
+        "article": "die",
+        "plural": "",
+        "example": "Historiografie reflektiert Geschichtsschreibung."
+      },
+      {
+        "german": "die Epochenschwelle",
+        "italian": "la soglia epocale",
+        "article": "die",
+        "plural": "",
+        "example": "Epochenschwellen markieren Umbrüche."
+      },
+      {
+        "german": "der Zeitgeist",
+        "italian": "lo spirito del tempo",
+        "article": "der",
+        "plural": "",
+        "example": "Der Zeitgeist prägt Epochen."
+      },
+      {
+        "german": "die Episteme",
+        "italian": "l'episteme",
+        "article": "die",
+        "plural": "",
+        "example": "Foucault beschrieb Epistemen."
+      },
+      {
+        "german": "der Diskontinuität",
+        "italian": "la discontinuità",
+        "article": "die",
+        "plural": "",
+        "example": "Diskontinuitäten brechen Entwicklungen."
+      },
+      {
+        "german": "die longue durée",
+        "italian": "la longue durée",
+        "article": "die",
+        "plural": "",
+        "example": "Braudel analysierte die longue durée."
+      },
+      {
+        "german": "der Fortschrittsgedanke",
+        "italian": "l'idea di progresso",
+        "article": "der",
+        "plural": "",
+        "example": "Der Fortschrittsgedanke ist umstritten."
+      },
+      {
+        "german": "die Moderne",
+        "italian": "la modernità",
+        "article": "die",
+        "plural": "",
+        "example": "Die Moderne brachte Umbrüche."
+      },
+      {
+        "german": "die Spätmoderne",
+        "italian": "la tarda modernità",
+        "article": "die",
+        "plural": "",
+        "example": "Die Spätmoderne ist reflexiv."
+      }
+    ]
+  },
+  {
+    "id": "extra_9500",
+    "name": "Technikphilosophie",
+    "category": "Technikphilosophie",
+    "icon": "⚙️",
+    "words": [
+      {
+        "german": "die Technikphilosophie",
+        "italian": "la filosofia della tecnica",
+        "article": "die",
+        "plural": "",
+        "example": "Technikphilosophie reflektiert Technik."
+      },
+      {
+        "german": "die Technikkritik",
+        "italian": "la critica della tecnica",
+        "article": "die",
+        "plural": "",
+        "example": "Technikkritik warnt vor Risiken."
+      },
+      {
+        "german": "die Technikfolgenabschätzung",
+        "italian": "la valutazione dell'impatto tecnologico",
+        "article": "die",
+        "plural": "",
+        "example": "TA bewertet Folgen."
+      },
+      {
+        "german": "die instrumentelle Vernunft",
+        "italian": "la ragione strumentale",
+        "article": "die",
+        "plural": "",
+        "example": "Instrumentelle Vernunft reduziert auf Zwecke."
+      },
+      {
+        "german": "die technologische Singularität",
+        "italian": "la singolarità tecnologica",
+        "article": "der",
+        "plural": "",
+        "example": "Die technologische Singularität ist hypothetisch."
+      },
+      {
+        "german": "der Transhumanismus",
+        "italian": "il transumanesimo",
+        "article": "der",
+        "plural": "",
+        "example": "Transhumanismus will den Menschen verbessern."
+      },
+      {
+        "german": "der Posthumanismus",
+        "italian": "il postumanesimo",
+        "article": "der",
+        "plural": "",
+        "example": "Posthumanismus denkt über den Menschen hinaus."
+      },
+      {
+        "german": "die Technodeterminismus",
+        "italian": "il determinismo tecnologico",
+        "article": "der",
+        "plural": "",
+        "example": "Technodeterminismus sieht Technik als treibend."
+      },
+      {
+        "german": "die Sozialkonstruktion von Technik",
+        "italian": "la costruzione sociale della tecnologia",
+        "article": "die",
+        "plural": "",
+        "example": "SCOT betont soziale Formung."
+      },
+      {
+        "german": "die Risikotechnologie",
+        "italian": "la tecnologia a rischio",
+        "article": "die",
+        "plural": "",
+        "example": "Risikotechnologien brauchen Regulierung."
+      },
+      {
+        "german": "die Technikgestaltung",
+        "italian": "la progettazione tecnologica",
+        "article": "die",
+        "plural": "",
+        "example": "Technikgestaltung berücksichtigt Werte."
+      },
+      {
+        "german": "die partizipative Technikgestaltung",
+        "italian": "la progettazione tecnologica partecipativa",
+        "article": "die",
+        "plural": "",
+        "example": "Partizipative Gestaltung beteiligt Bürger."
+      },
+      {
+        "german": "die Cyborg-Theorie",
+        "italian": "la teoria del cyborg",
+        "article": "die",
+        "plural": "",
+        "example": "Haraway formulierte die Cyborg-Theorie."
+      },
+      {
+        "german": "die Algorithmenethik",
+        "italian": "l'etica degli algoritmi",
+        "article": "die",
+        "plural": "",
+        "example": "Algorithmenethik hinterfragt automatisierte Entscheidungen."
+      }
+    ]
+  },
+  {
+    "id": "extra_9501",
+    "name": "Medizinethik",
+    "category": "Medizinethik",
+    "icon": "⚕️",
+    "words": [
+      {
+        "german": "die Medizinethik",
+        "italian": "l'etica medica",
+        "article": "die",
+        "plural": "",
+        "example": "Medizinethik reflektiert ärztliches Handeln."
+      },
+      {
+        "german": "die vier Prinzipien",
+        "italian": "i quattro principi",
+        "article": "die",
+        "plural": "",
+        "example": "Beauchamp und Childress formulierten vier Prinzipien."
+      },
+      {
+        "german": "die Autonomie",
+        "italian": "l'autonomia",
+        "article": "die",
+        "plural": "",
+        "example": "Autonomie respektiert den Patienten."
+      },
+      {
+        "german": "die Benefizienz",
+        "italian": "la beneficenza",
+        "article": "die",
+        "plural": "",
+        "example": "Benefizienz ist Wohltun."
+      },
+      {
+        "german": "die Nonmaleficenz",
+        "italian": "la non maleficenza",
+        "article": "die",
+        "plural": "",
+        "example": "Nonmaleficenz ist Nichtschaden."
+      },
+      {
+        "german": "die Allokation",
+        "italian": "l'allocazione",
+        "article": "die",
+        "plural": "",
+        "example": "Allokation verteilt knappe Ressourcen."
+      },
+      {
+        "german": "die Rationierung",
+        "italian": "il razionamento",
+        "article": "die",
+        "plural": "",
+        "example": "Rationierung beschränkt Versorgung."
+      },
+      {
+        "german": "die Enhancement-Debatte",
+        "italian": "il dibattito sull'enhancement",
+        "article": "die",
+        "plural": "",
+        "example": "Enhancement geht über Heilung hinaus."
+      },
+      {
+        "german": "die Vorausverfügung",
+        "italian": "la disposizione anticipata",
+        "article": "die",
+        "plural": "",
+        "example": "Vorausverfügungen regeln Behandlung."
+      },
+      {
+        "german": "das Gendiagnostikgesetz",
+        "italian": "la legge sulla diagnostica genetica",
+        "article": "das",
+        "plural": "",
+        "example": "Das Gendiagnostikgesetz schützt."
+      },
+      {
+        "german": "die Reproduktionsethik",
+        "italian": "l'etica riproduttiva",
+        "article": "die",
+        "plural": "",
+        "example": "Reproduktionsethik ist komplex."
+      }
+    ]
+  },
+  {
+    "id": "extra_9502",
+    "name": "Gesellschaftskritik",
+    "category": "Gesellschaftskritik",
+    "icon": "🔍",
+    "words": [
+      {
+        "german": "die Gesellschaftskritik",
+        "italian": "la critica sociale",
+        "article": "die",
+        "plural": "",
+        "example": "Gesellschaftskritik hinterfragt Strukturen."
+      },
+      {
+        "german": "die soziale Reproduktion",
+        "italian": "la riproduzione sociale",
+        "article": "die",
+        "plural": "",
+        "example": "Soziale Reproduktion erhält Ungleichheit."
+      },
+      {
+        "german": "der symbolische Kapitalismus",
+        "italian": "il capitalismo simbolico",
+        "article": "der",
+        "plural": "",
+        "example": "Bourdieu analysierte symbolisches Kapital."
+      },
+      {
+        "german": "die symbolische Gewalt",
+        "italian": "la violenza simbolica",
+        "article": "die",
+        "plural": "",
+        "example": "Symbolische Gewalt wirkt unsichtbar."
+      },
+      {
+        "german": "die Biopolitik",
+        "italian": "la biopolitica",
+        "article": "die",
+        "plural": "",
+        "example": "Foucault analysierte Biopolitik."
+      },
+      {
+        "german": "die Gouvernementalität",
+        "italian": "la governamentalità",
+        "article": "die",
+        "plural": "",
+        "example": "Gouvernementalität beschreibt Regierungstechniken."
+      },
+      {
+        "german": "die Disziplinargesellschaft",
+        "italian": "la società disciplinare",
+        "article": "die",
+        "plural": "",
+        "example": "Foucault beschrieb Disziplinargesellschaft."
+      },
+      {
+        "german": "die Kontrollgesellschaft",
+        "italian": "la società del controllo",
+        "article": "die",
+        "plural": "",
+        "example": "Deleuze beschrieb Kontrollgesellschaft."
+      },
+      {
+        "german": "die Erlebnisgesellschaft",
+        "italian": "la società dell'esperienza",
+        "article": "die",
+        "plural": "",
+        "example": "Schulze beschrieb die Erlebnisgesellschaft."
+      },
+      {
+        "german": "die Resonanz",
+        "italian": "la risonanza",
+        "article": "die",
+        "plural": "",
+        "example": "Rosa stellte Resonanz als Gegenbegriff vor."
+      }
+    ]
+  },
+  {
+    "id": "extra_9503",
+    "name": "Wissenschaftsgeschichte",
+    "category": "Wissenschaftsgeschichte",
+    "icon": "📚",
+    "words": [
+      {
+        "german": "die Wissenschaftsgeschichte",
+        "italian": "la storia della scienza",
+        "article": "die",
+        "plural": "",
+        "example": "Wissenschaftsgeschichte erforscht Entwicklungen."
+      },
+      {
+        "german": "die kopernikanische Wende",
+        "italian": "la rivoluzione copernicana",
+        "article": "die",
+        "plural": "",
+        "example": "Die kopernikanische Wende war radikal."
+      },
+      {
+        "german": "die Darwinsche Evolution",
+        "italian": "l'evoluzione darwiniana",
+        "article": "die",
+        "plural": "",
+        "example": "Darwin revolutionierte die Biologie."
+      },
+      {
+        "german": "die Doppelhelix",
+        "italian": "la doppia elica",
+        "article": "die",
+        "plural": "",
+        "example": "Watson und Crick entdeckten die Doppelhelix."
+      },
+      {
+        "german": "die Entdeckung des Penicillins",
+        "italian": "la scoperta della penicillina",
+        "article": "die",
+        "plural": "",
+        "example": "Fleming entdeckte Penicillin."
+      },
+      {
+        "german": "die Wissenschaftsethik",
+        "italian": "l'etica scientifica",
+        "article": "die",
+        "plural": "",
+        "example": "Wissenschaftsethik setzt Grenzen."
+      },
+      {
+        "german": "die scientific community",
+        "italian": "la comunità scientifica",
+        "article": "die",
+        "plural": "",
+        "example": "Die Scientific Community prüft Ergebnisse."
+      },
+      {
+        "german": "das Peer-Review",
+        "italian": "la revisione paritaria",
+        "article": "das",
+        "plural": "",
+        "example": "Peer-Review sichert Qualität."
+      },
+      {
+        "german": "die Replikationskrise",
+        "italian": "la crisi della replicazione",
+        "article": "die",
+        "plural": "",
+        "example": "Die Replikationskrise betrifft Sozialwissenschaften."
+      },
+      {
+        "german": "die Verwissenschaftlichung",
+        "italian": "la scientificizzazione",
+        "article": "die",
+        "plural": "",
+        "example": "Verwissenschaftlichung durchdringt Gesellschaft."
+      },
+      {
+        "german": "die Interdisziplinarität",
+        "italian": "l'interdisciplinarità",
+        "article": "die",
+        "plural": "",
+        "example": "Interdisziplinarität verbindet Fächer."
+      },
+      {
+        "german": "die Transdisziplinarität",
+        "italian": "la transdisciplinarità",
+        "article": "die",
+        "plural": "",
+        "example": "Transdisziplinarität geht über Fächer hinaus."
+      },
+      {
+        "german": "die Big Science",
+        "italian": "la big science",
+        "article": "die",
+        "plural": "",
+        "example": "Big Science braucht Großgeräte."
+      }
+    ]
+  }
+]

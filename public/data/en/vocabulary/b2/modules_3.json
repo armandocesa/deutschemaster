@@ -1,0 +1,2283 @@
+[
+  {
+    "id": "pubblicita",
+    "name": "pubblicita",
+    "category": "pubblicita",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Reputation",
+        "italian": "la reputazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Öffentlichkeitsarbeit",
+        "italian": "le relazioni pubbliche",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pressemitteilung",
+        "italian": "il comunicato stampa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Sponsoring",
+        "italian": "la sponsorizzazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sponsern",
+        "italian": "sponsorizzare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "inserieren",
+        "italian": "inserire annunci",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vermarkten",
+        "italian": "commercializzare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Vermarktung",
+        "italian": "la commercializzazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Marketingstrategie",
+        "italian": "la strategia di marketing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Marktstudie",
+        "italian": "lo studio di mercato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Marktanalyse",
+        "italian": "l'analisi di mercato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "fakenews",
+    "name": "fakenews",
+    "category": "fakenews",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Falschmeldung",
+        "italian": "la notizia falsa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Desinformation",
+        "italian": "la disinformazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Misinformation",
+        "italian": "la misinformazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "manipulativ",
+        "italian": "manipolativo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verifizierung",
+        "italian": "la verifica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Faktencheck",
+        "italian": "il fact-checking",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "parteiisch",
+        "italian": "di parte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "unparteiisch",
+        "italian": "imparziale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Urheberrecht",
+        "italian": "il copyright",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Quellenangabe",
+        "italian": "la citazione della fonte",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "corpo",
+    "name": "body",
+    "category": "body",
+    "icon": "💪",
+    "words": [
+      {
+        "german": "das Augenlid",
+        "italian": "la palpebra",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Nasenloch",
+        "italian": "la narice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Ohrläppchen",
+        "italian": "il lobo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Zahnfleisch",
+        "italian": "la gengiva",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Kiefer",
+        "italian": "la mascella",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Becken",
+        "italian": "il bacino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wirbelsäule",
+        "italian": "la colonna vertebrale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Handrücken",
+        "italian": "il dorso della mano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Knöchel",
+        "italian": "la nocca",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kniescheibe",
+        "italian": "la rotula",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fußsohle",
+        "italian": "la pianta del piede",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Zehennagel",
+        "italian": "l'unghia del piede",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Milz",
+        "italian": "la milza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Arterie",
+        "italian": "l'arteria",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Schädel",
+        "italian": "il cranio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sehne",
+        "italian": "il tendine",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "salute",
+    "name": "health",
+    "category": "health",
+    "icon": "🏥",
+    "words": [
+      {
+        "german": "der Schlaganfall",
+        "italian": "l'ictus",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Prellung",
+        "italian": "la contusione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verstauchung",
+        "italian": "la distorsione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "finanza_avz",
+    "name": "finanza_avz",
+    "category": "finanza_avz",
+    "icon": "💶",
+    "words": [
+      {
+        "german": "die Rendite",
+        "italian": "il rendimento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Dividende",
+        "italian": "il dividendo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Jahresbilanz",
+        "italian": "il bilancio annuale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Cashflow",
+        "italian": "il flusso di cassa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Liquidität",
+        "italian": "la liquidità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Eigenkapital",
+        "italian": "il capitale proprio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Fremdkapital",
+        "italian": "il capitale di terzi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verbindlichkeiten",
+        "italian": "le passività",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Forderungen",
+        "italian": "i crediti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rücklagen",
+        "italian": "le riserve",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abschreibung",
+        "italian": "l'ammortamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "abschreiben",
+        "italian": "ammortizzare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Vermögenswert",
+        "italian": "l'attività",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Emission",
+        "italian": "l'emissione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "emittieren",
+        "italian": "emettere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Anleihe",
+        "italian": "l'obbligazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Staatsanleihe",
+        "italian": "il titolo di stato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fälligkeit",
+        "italian": "la scadenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fällig",
+        "italian": "in scadenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tilgung",
+        "italian": "l'ammortamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "verzinsen",
+        "italian": "fruttare interessi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verzinsung",
+        "italian": "la remunerazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Leitzins",
+        "italian": "il tasso di riferimento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zinserhöhung",
+        "italian": "l'aumento dei tassi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zinssenkung",
+        "italian": "il taglio dei tassi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Deflation",
+        "italian": "la deflazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rezession",
+        "italian": "la recessione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Konjunktur",
+        "italian": "la congiuntura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Aufschwung",
+        "italian": "la ripresa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Abschwung",
+        "italian": "la recessione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schuldenkrise",
+        "italian": "la crisi del debito",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Staatsverschuldung",
+        "italian": "il debito pubblico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Defizit",
+        "italian": "il deficit",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Überschuss",
+        "italian": "l'eccedenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Staatshaushalt",
+        "italian": "il bilancio statale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Erbschaftsteuer",
+        "italian": "l'imposta di successione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Grundsteuer",
+        "italian": "l'imposta immobiliare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Steuerfreibetrag",
+        "italian": "la detrazione fiscale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Steuerhinterziehung",
+        "italian": "l'evasione fiscale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "business",
+    "name": "business",
+    "category": "business",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die AG",
+        "italian": "la S.p.A.",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die GmbH",
+        "italian": "la S.r.l.",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Holding",
+        "italian": "la holding",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Konzern",
+        "italian": "the group",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Tochtergesellschaft",
+        "italian": "la società controllata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Muttergesellschaft",
+        "italian": "la società madre",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zweigstelle",
+        "italian": "la succursale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mittelstand",
+        "italian": "le PMI",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Großkonzern",
+        "italian": "la grande azienda",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Vorstand",
+        "italian": "il consiglio di amministrazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Vorstandsvorsitzende",
+        "italian": "il presidente del CdA",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Gesellschafter",
+        "italian": "il socio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Aktionär",
+        "italian": "l'azionista",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Beteiligung",
+        "italian": "la partecipazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Übernahme",
+        "italian": "l'acquisizione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fusion",
+        "italian": "la fusione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fusionieren",
+        "italian": "fondersi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Geschäftsmodell",
+        "italian": "il modello di business",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wettbewerbsanalyse",
+        "italian": "l'analisi della concorrenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Marktanteil",
+        "italian": "la quota di mercato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Marktführerschaft",
+        "italian": "la leadership di mercato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Marktführer",
+        "italian": "il leader di mercato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kundensegment",
+        "italian": "il segmento di clientela",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Positionierung",
+        "italian": "il posizionamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "positionieren",
+        "italian": "posizionare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wettbewerbsvorteil",
+        "italian": "il vantaggio competitivo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kernkompetenz",
+        "italian": "la competenza chiave",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wertschöpfung",
+        "italian": "la creazione di valore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Lieferkette",
+        "italian": "la supply chain",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Beschaffung",
+        "italian": "l'approvvigionamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "beschaffen",
+        "italian": "approvvigionare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fertigung",
+        "italian": "la fabbricazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fertigen",
+        "italian": "fabbricare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Qualitätskontrolle",
+        "italian": "il controllo qualità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Qualitätssicherung",
+        "italian": "l'assicurazione qualità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Außendienst",
+        "italian": "la forza vendita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Innendienst",
+        "italian": "il back office",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kundenzufriedenheit",
+        "italian": "la soddisfazione del cliente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kundenbindung",
+        "italian": "la fidelizzazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Akquise",
+        "italian": "l'acquisizione clienti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "akquirieren",
+        "italian": "acquisire clienti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "marketing",
+    "name": "marketing",
+    "category": "marketing",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Branding",
+        "italian": "il branding",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Markenbekanntheit",
+        "italian": "la brand awareness",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Markenimage",
+        "italian": "l'immagine del brand",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Markentreue",
+        "italian": "la fedeltà al brand",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Markenwert",
+        "italian": "il valore del brand",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pressekonferenz",
+        "italian": "la conferenza stampa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Pressesprecher",
+        "italian": "il portavoce",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pressesprecherin",
+        "italian": "la portavoce",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Content-Marketing",
+        "italian": "il content marketing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Reichweite",
+        "italian": "la portata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Impressionen",
+        "italian": "le impression",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Klickrate",
+        "italian": "il click-through rate",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Conversion",
+        "italian": "la conversione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "konvertieren",
+        "italian": "convertire",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Lead",
+        "italian": "il lead",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Landingpage",
+        "italian": "la landing page",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Call-to-Action",
+        "italian": "la call to action",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das SEO",
+        "italian": "la SEO",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das SEM",
+        "italian": "il SEM",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Suchmaschinenoptimierung",
+        "italian": "l'ottimizzazione per i motori di ricerca",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Keyword",
+        "italian": "la keyword",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Ranking",
+        "italian": "il ranking",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Traffic",
+        "italian": "il traffico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Analytics",
+        "italian": "l'analytics",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kennzahl",
+        "italian": "il KPI",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Metrik",
+        "italian": "la metrica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Dashboard",
+        "italian": "la dashboard",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Marktforschung",
+        "italian": "la ricerca di mercato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Fokusgruppe",
+        "italian": "il focus group",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zielgruppenanalyse",
+        "italian": "l'analisi del target",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kundenbefragung",
+        "italian": "il sondaggio clienti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Empfehlungsmarketing",
+        "italian": "il marketing del passaparola",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Mundpropaganda",
+        "italian": "il passaparola",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "innovieren",
+        "italian": "innovare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Prototyp",
+        "italian": "il prototipo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Pilotversuch",
+        "italian": "il test pilota",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Markteinführung",
+        "italian": "il lancio sul mercato",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Produktentwicklung",
+        "italian": "lo sviluppo prodotto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "hr",
+    "name": "hr",
+    "category": "hr",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "der Personalleiter",
+        "italian": "il direttore HR",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Personalleiterin",
+        "italian": "la direttrice HR",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Recruiter",
+        "italian": "il recruiter",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Recruiterin",
+        "italian": "la recruiter",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Assessment",
+        "italian": "l'assessment",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Assessment-Center",
+        "italian": "l'assessment center",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Vergütung",
+        "italian": "la retribuzione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Grundgehalt",
+        "italian": "lo stipendio base",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Provision",
+        "italian": "la provvigione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sozialleistungen",
+        "italian": "i benefit",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Karriereweg",
+        "italian": "il percorso di carriera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Coaching",
+        "italian": "il coaching",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Mentoring",
+        "italian": "il mentoring",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mentor",
+        "italian": "il mentore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Mentorin",
+        "italian": "la mentore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Mitarbeiterbeurteilung",
+        "italian": "la valutazione del personale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Mitarbeitergespräch",
+        "italian": "il colloquio di valutazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Feedback-Gespräch",
+        "italian": "il colloquio di feedback",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zielvereinbarung",
+        "italian": "l'accordo sugli obiettivi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Leistungsbeurteilung",
+        "italian": "la valutazione delle prestazioni",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kündigungsfrist",
+        "italian": "il periodo di preavviso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abfindung",
+        "italian": "il TFR",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Arbeitszeugnis",
+        "italian": "la lettera di referenze",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Urlaubsanspruch",
+        "italian": "il diritto alle ferie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gleitzeit",
+        "italian": "l'orario flessibile",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Betriebsrat",
+        "italian": "il consiglio di fabbrica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Tarifvertrag",
+        "italian": "il contratto collettivo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Arbeitsschutz",
+        "italian": "la sicurezza sul lavoro",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "verbi_extra",
+    "name": "verbi_extra",
+    "category": "verbi_extra",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "vernichten",
+        "italian": "annientare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "übermitteln",
+        "italian": "trasmettere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mindern",
+        "italian": "ridurre",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "c1",
+    "name": "c1",
+    "category": "c1",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Einsicht",
+        "italian": "la consapevolezza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Erkenntnis",
+        "italian": "la conoscenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Feststellung",
+        "italian": "la constatazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Beurteilung",
+        "italian": "la valutazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Einschätzung",
+        "italian": "la valutazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Begründung",
+        "italian": "la motivazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rechtfertigung",
+        "italian": "la giustificazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Auseinandersetzung",
+        "italian": "il confronto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Widerspruch",
+        "italian": "la contraddizione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Übereinstimmung",
+        "italian": "l'accordo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abweichung",
+        "italian": "la deviazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Schwankung",
+        "italian": "la fluttuazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abnahme",
+        "italian": "il calo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zunahme",
+        "italian": "l'aumento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Rückgang",
+        "italian": "il declino",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Anstieg",
+        "italian": "l'aumento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Durchbruch",
+        "italian": "la svolta",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Werdegang",
+        "italian": "la carriera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Herangehensweise",
+        "italian": "l'approccio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Vorgehensweise",
+        "italian": "il modo di procedere",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Lebensweise",
+        "italian": "lo stile di vita",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verhaltensweise",
+        "italian": "il comportamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wahrnehmung",
+        "italian": "la percezione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Empfindung",
+        "italian": "la sensazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Neigung",
+        "italian": "la tendenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Ausmaß",
+        "italian": "la dimensione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "avverbi_avz",
+    "name": "avverbi_avz",
+    "category": "avverbi_avz",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "ohnehin",
+        "italian": "comunque",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "womöglich",
+        "italian": "eventualmente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gegebenenfalls",
+        "italian": "eventualmente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "letztendlich",
+        "italian": "in fin dei conti",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schlussendlich",
+        "italian": "alla fine",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "im Wesentlichen",
+        "italian": "essenzialmente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "allem Anschein nach",
+        "italian": "a quanto pare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "aller Voraussicht nach",
+        "italian": "secondo le previsioni",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "allem voran",
+        "italian": "soprattutto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "im Nachhinein",
+        "italian": "col senno di poi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "im Hinblick auf",
+        "italian": "riguardo a",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "medicina",
+    "name": "medicine",
+    "category": "medicine",
+    "icon": "💊",
+    "words": [
+      {
+        "german": "therapieren",
+        "italian": "curare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "genesen",
+        "italian": "guarire",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dosieren",
+        "italian": "dosare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "mentale",
+    "name": "mentale",
+    "category": "mentale",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "systematisieren",
+        "italian": "sistematizzare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kategorisieren",
+        "italian": "categorizzare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "klassifizieren",
+        "italian": "to classify",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Klassifikation",
+        "italian": "la classificazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "priorisieren",
+        "italian": "dare priorità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gegenüberstellen",
+        "italian": "contrapporre",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Abwägung",
+        "italian": "la ponderazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Erwägung",
+        "italian": "la considerazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Vernachlässigung",
+        "italian": "la trascuratezza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "missachten",
+        "italian": "to ignore",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Missachtung",
+        "italian": "l'inosservanza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "würdigen",
+        "italian": "apprezzare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Würdigung",
+        "italian": "l'apprezzamento",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "intensificatori",
+    "name": "intensificatori",
+    "category": "intensificatori",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "überaus",
+        "italian": "estremamente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ungemein",
+        "italian": "incredibilmente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "irrsinnig",
+        "italian": "folle",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "immens",
+        "italian": "immenso",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "assicurazione",
+    "name": "assicurazione",
+    "category": "assicurazione",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Selbstbeteiligung",
+        "italian": "la franchigia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "professioni",
+    "name": "professioni",
+    "category": "professioni",
+    "icon": "👔",
+    "words": [
+      {
+        "german": "der Wirtschaftsprüfer",
+        "italian": "il revisore contabile",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "legge",
+    "name": "legge",
+    "category": "legge",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Bewährung",
+        "italian": "la condizionale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "sintomi",
+    "name": "sintomi",
+    "category": "sintomi",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "verstaucht",
+        "italian": "distorto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bösartig",
+        "italian": "maligno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gutartig",
+        "italian": "benigno",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "diabetisch",
+        "italian": "diabetico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Lungenentzündung",
+        "italian": "la polmonite",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Bronchitis",
+        "italian": "la bronchite",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Arthritis",
+        "italian": "l'artrite",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Osteoporose",
+        "italian": "l'osteoporosi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Demenz",
+        "italian": "la demenza",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Alzheimer-Krankheit",
+        "italian": "il morbo di Alzheimer",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Parkinson-Krankheit",
+        "italian": "il morbo di Parkinson",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Multiple Sklerose",
+        "italian": "la sclerosi multipla",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Epilepsie",
+        "italian": "l'epilessia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "trattamenti",
+    "name": "trattamenti",
+    "category": "trattamenti",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "therapeutisch",
+        "italian": "terapeutico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Infusion",
+        "italian": "l'infusione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Verschreibung",
+        "italian": "la prescrizione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "chirurgisch",
+        "italian": "chirurgico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Betäubung",
+        "italian": "l'anestesia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Transplantation",
+        "italian": "il trapianto",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "transplantieren",
+        "italian": "trapiantare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Chemotherapie",
+        "italian": "la chemioterapia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Strahlentherapie",
+        "italian": "la radioterapia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bestrahlen",
+        "italian": "irradiare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Dialyse",
+        "italian": "la dialisi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Rehabilitation",
+        "italian": "la riabilitazione",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rehabilitieren",
+        "italian": "riabilitare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Ergotherapie",
+        "italian": "l'ergoterapia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Akupunktur",
+        "italian": "l'agopuntura",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Homöopathie",
+        "italian": "l'omeopatia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "homöopathisch",
+        "italian": "omeopatico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Naturheilkunde",
+        "italian": "la medicina naturale",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Alternativmedizin",
+        "italian": "la medicina alternativa",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Krankenpflege",
+        "italian": "l'assistenza infermieristica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "diagnosi",
+    "name": "diagnosi",
+    "category": "diagnosi",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "diagnostisch",
+        "italian": "diagnostico",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Vorsorgeuntersuchung",
+        "italian": "l'esame preventivo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Blutwert",
+        "italian": "il valore del sangue",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Abstrich",
+        "italian": "il tampone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Biopsie",
+        "italian": "la biopsia",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die CT",
+        "italian": "la TAC",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Computertomografie",
+        "italian": "la tomografia computerizzata",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die MRT",
+        "italian": "la risonanza magnetica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das EKG",
+        "italian": "l'elettrocardiogramma",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Prognose",
+        "italian": "la prognosi",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Stethoskop",
+        "italian": "lo stetoscopio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "abhören",
+        "italian": "auscultare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "abtasten",
+        "italian": "palpare",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Antikörper",
+        "italian": "l'anticorpo",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Immunität",
+        "italian": "l'immunità",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "immun",
+        "italian": "immune",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Laboruntersuchung",
+        "italian": "l'analisi di laboratorio",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Krankenakte",
+        "italian": "la cartella clinica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Patientenakte",
+        "italian": "la cartella del paziente",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Vorgeschichte",
+        "italian": "la storia clinica",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "erblich",
+        "italian": "ereditario",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  }
+]

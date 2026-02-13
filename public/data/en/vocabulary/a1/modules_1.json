@@ -1,0 +1,2199 @@
+[
+  {
+    "id": "dimensioni",
+    "name": "sizes",
+    "category": "sizes",
+    "icon": "📏",
+    "words": [
+      {
+        "german": "groß",
+        "italian": "big, large",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "klein",
+        "italian": "small",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "lang",
+        "italian": "long",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kurz",
+        "italian": "short",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hoch",
+        "italian": "tall, high",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schwer",
+        "italian": "heavy",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "leicht",
+        "italian": "light",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "voll",
+        "italian": "full",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "leer",
+        "italian": "empty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "viel",
+        "italian": "much, a lot",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wenig",
+        "italian": "little, few",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mehr",
+        "italian": "more",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "weniger",
+        "italian": "less",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "genug",
+        "italian": "enough",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ganz",
+        "italian": "whole",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "halb",
+        "italian": "half",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "colori",
+    "name": "colors",
+    "category": "colors",
+    "icon": "🎨",
+    "words": [
+      {
+        "german": "rot",
+        "italian": "red",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "blau",
+        "italian": "blue",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "grün",
+        "italian": "green",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gelb",
+        "italian": "yellow",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "orange",
+        "italian": "orange",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "lila",
+        "italian": "purple",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rosa",
+        "italian": "pink",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "braun",
+        "italian": "brown",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schwarz",
+        "italian": "black",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "weiß",
+        "italian": "white",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "grau",
+        "italian": "gray",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dunkel",
+        "italian": "dark",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hell",
+        "italian": "clear",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "qualita_pos",
+    "name": "positive qualities",
+    "category": "positive qualities",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "gut",
+        "italian": "good",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schön",
+        "italian": "beautiful, nice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "toll",
+        "italian": "fantastic",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "super",
+        "italian": "super",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "neu",
+        "italian": "new",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "frisch",
+        "italian": "fresh",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sauber",
+        "italian": "clean",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hübsch",
+        "italian": "cute, pretty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wichtig",
+        "italian": "important",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "interessant",
+        "italian": "interesting",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "lustig",
+        "italian": "fun, amusing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "richtig",
+        "italian": "right, correct",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sicher",
+        "italian": "safe, sure",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "stark",
+        "italian": "loudly",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schnell",
+        "italian": "fast, quick",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "einfach",
+        "italian": "simple",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "qualita_neg",
+    "name": "negative qualities",
+    "category": "negative qualities",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "schlecht",
+        "italian": "bad, evil",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "alt",
+        "italian": "old",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schmutzig",
+        "italian": "dirty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kaputt",
+        "italian": "broken",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "falsch",
+        "italian": "wrong",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "langsam",
+        "italian": "slow",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schwierig",
+        "italian": "difficult, hard",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "langweilig",
+        "italian": "boring",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "teuer",
+        "italian": "dear, expensive",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "billig",
+        "italian": "cheap, economical",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "carattere",
+    "name": "character",
+    "category": "character",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "nett",
+        "italian": "kind",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "freundlich",
+        "italian": "friendly",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "lieb",
+        "italian": "dear, expensive",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ruhig",
+        "italian": "calm",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gesund",
+        "italian": "healthy",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "böse",
+        "italian": "bad, evil",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "emozioni",
+    "name": "emotions",
+    "category": "emotions",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "glücklich",
+        "italian": "happy",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "froh",
+        "italian": "content, happy",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "traurig",
+        "italian": "sad",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "müde",
+        "italian": "tired",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "meteo",
+    "name": "weather",
+    "category": "weather",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Wetter",
+        "italian": "the time, weather",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "warm",
+        "italian": "warm, hot",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kalt",
+        "italian": "cold",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "heiß",
+        "italian": "very hot",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sonne",
+        "italian": "the sun",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sonnig",
+        "italian": "sunny",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "scheinen",
+        "italian": "to shine",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Regen",
+        "italian": "the rain",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "regnen",
+        "italian": "to rain",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Schnee",
+        "italian": "the snow",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schneien",
+        "italian": "to snow",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wind",
+        "italian": "the wind",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Wolke",
+        "italian": "the cloud",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Eis",
+        "italian": "the ice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Grad",
+        "italian": "the degree",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Himmel",
+        "italian": "the sky",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nass",
+        "italian": "wet",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "ambiente",
+    "name": "environment",
+    "category": "environment",
+    "icon": "🌍",
+    "words": [
+      {
+        "german": "die Natur",
+        "italian": "nature",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "fauna_flora",
+    "name": "fauna and flora",
+    "category": "fauna and flora",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Tier",
+        "italian": "the animal",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Pflanze",
+        "italian": "the plant",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Wald",
+        "italian": "the forest",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wachsen",
+        "italian": "to grow",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Gras",
+        "italian": "the grass",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "musica",
+    "name": "music",
+    "category": "music",
+    "icon": "🎵",
+    "words": [
+      {
+        "german": "die Musik",
+        "italian": "music",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Lied",
+        "italian": "the song",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "singen",
+        "italian": "to sing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Sänger",
+        "italian": "the singer (male)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sängerin",
+        "italian": "the singer (female)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Stimme",
+        "italian": "the voice",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Band",
+        "italian": "the band",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Konzert",
+        "italian": "the concert",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Instrument",
+        "italian": "the instrument",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "spielen",
+        "italian": "to play (instrument)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Klavier",
+        "italian": "the piano",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gitarre",
+        "italian": "the guitar",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Gruppe",
+        "italian": "the group",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die CD",
+        "italian": "il CD",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "arte",
+    "name": "art",
+    "category": "art",
+    "icon": "🎭",
+    "words": [
+      {
+        "german": "die Kunst",
+        "italian": "art",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Bild",
+        "italian": "the picture, painting",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Farbe",
+        "italian": "the color",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Bleistift",
+        "italian": "the pencil",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Kamera",
+        "italian": "the camera",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Museum",
+        "italian": "the museum",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "teatro",
+    "name": "theater",
+    "category": "theater",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Theater",
+        "italian": "the theater",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Kino",
+        "italian": "the cinema, movie theater",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Film",
+        "italian": "the film, movie",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "letteratura",
+    "name": "literature",
+    "category": "literature",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "schreiben",
+        "italian": "to write",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Buch",
+        "italian": "the book",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "astratto",
+    "name": "abstract",
+    "category": "abstract",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "die Zeit",
+        "italian": "the time, weather",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Moment",
+        "italian": "the moment",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sekunde",
+        "italian": "the second",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Minute",
+        "italian": "the minute",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Stunde",
+        "italian": "the hour",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Tag",
+        "italian": "the day",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Nacht",
+        "italian": "the night",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Morgen",
+        "italian": "the morning",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Mittag",
+        "italian": "the midday, noon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Nachmittag",
+        "italian": "the afternoon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Abend",
+        "italian": "the evening",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Woche",
+        "italian": "the week",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Monat",
+        "italian": "the month",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Jahr",
+        "italian": "the year",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Ort",
+        "italian": "the place",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Platz",
+        "italian": "the place, seat",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Raum",
+        "italian": "the space",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Seite",
+        "italian": "the side",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Ende",
+        "italian": "the end",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Anfang",
+        "italian": "the beginning",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Leben",
+        "italian": "the life",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Alter",
+        "italian": "the age",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Ding",
+        "italian": "the thing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sache",
+        "italian": "the thing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Teil",
+        "italian": "the part",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Teil",
+        "italian": "the part",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Hälfte",
+        "italian": "the half",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Zahl",
+        "italian": "the number",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Nummer",
+        "italian": "the number",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Größe",
+        "italian": "the size",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Grund",
+        "italian": "the reason, motive",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "pronomi",
+    "name": "pronouns",
+    "category": "pronouns",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "ich",
+        "italian": "I",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "du",
+        "italian": "you (informal)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "er",
+        "italian": "he, him",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sie",
+        "italian": "she, her",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "es",
+        "italian": "it",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wir",
+        "italian": "we, us",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ihr",
+        "italian": "you (plural)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mich",
+        "italian": "me",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dich",
+        "italian": "you (object)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sich",
+        "italian": "himself, herself, itself",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "uns",
+        "italian": "us",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "euch",
+        "italian": "you (object plural)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mir",
+        "italian": "to me",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dir",
+        "italian": "to you",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ihm",
+        "italian": "to him",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ihnen",
+        "italian": "to them",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mein",
+        "italian": "my, mine",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dein",
+        "italian": "your (informal)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sein",
+        "italian": "his",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "unser",
+        "italian": "our",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "euer",
+        "italian": "your (plural)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dieser",
+        "italian": "this",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "welcher",
+        "italian": "which",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "jeder",
+        "italian": "every",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "alle",
+        "italian": "all, everyone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "viele",
+        "italian": "many",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "andere",
+        "italian": "others",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "man",
+        "italian": "one (impersonal)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "jemand",
+        "italian": "someone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "niemand",
+        "italian": "no one, nobody",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "etwas",
+        "italian": "something",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nichts",
+        "italian": "nothing",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "alles",
+        "italian": "everything",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "was",
+        "italian": "what",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wer",
+        "italian": "who",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wen",
+        "italian": "whom",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wem",
+        "italian": "to whom",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wo",
+        "italian": "where",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wohin",
+        "italian": "where (motion)",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "woher",
+        "italian": "from where",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wann",
+        "italian": "when",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie",
+        "italian": "how",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "warum",
+        "italian": "why",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "frequenti",
+    "name": "frequent/common",
+    "category": "frequent/common",
+    "icon": "📖",
+    "words": [
+      {
+        "german": "das Problem",
+        "italian": "the problem",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Frage",
+        "italian": "the question, demand",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Antwort",
+        "italian": "the answer",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Name",
+        "italian": "the name",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Wort",
+        "italian": "the word",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Satz",
+        "italian": "the sentence",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Sprache",
+        "italian": "the tongue",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das Beispiel",
+        "italian": "the example",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Regel",
+        "italian": "the rule",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Punkt",
+        "italian": "the point",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Information",
+        "italian": "the information",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Prüfung",
+        "italian": "the exam",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Test",
+        "italian": "the test",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Übung",
+        "italian": "the exercise",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Aufgabe",
+        "italian": "the task, homework",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "die Hilfe",
+        "italian": "the help",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "der Preis",
+        "italian": "the price",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "espressioni",
+    "name": "expressions",
+    "category": "expressions",
+    "icon": "💬",
+    "words": [
+      {
+        "german": "es gibt",
+        "italian": "there is/there are",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "es macht nichts",
+        "italian": "it doesn't matter",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "es tut mir leid",
+        "italian": "I'm sorry",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "es freut mich",
+        "italian": "I'm happy, I'm pleased",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "stimmt",
+        "italian": "right, correct",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "genau",
+        "italian": "exact, right",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "klar",
+        "italian": "clear",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zum Beispiel",
+        "italian": "for example",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich denke",
+        "italian": "I think",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich glaube",
+        "italian": "I believe",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich finde",
+        "italian": "I find",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich hoffe",
+        "italian": "I hope",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich freue mich",
+        "italian": "I'm happy, I'm pleased",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich habe Angst",
+        "italian": "I'm afraid",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich habe Hunger",
+        "italian": "I'm hungry",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich habe Durst",
+        "italian": "I'm thirsty",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich habe Zeit",
+        "italian": "I have time",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ich habe keine Zeit",
+        "italian": "I don't have time",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das macht Spaß",
+        "italian": "it's fun",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das gefällt mir",
+        "italian": "I like",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das schmeckt gut",
+        "italian": "it's good",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das ist toll",
+        "italian": "it's fantastic",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das ist super",
+        "italian": "it's super",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das ist interessant",
+        "italian": "it's interesting",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das ist langweilig",
+        "italian": "it's boring",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das ist einfach",
+        "italian": "it's simple",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das ist schwierig",
+        "italian": "it's difficult",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "das ist möglich",
+        "italian": "it's possible",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie geht's?",
+        "italian": "how are you?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "was gibt's?",
+        "italian": "what's up?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "was ist los?",
+        "italian": "what's happening?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wie bitte?",
+        "italian": "what did you say?",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "keine Ahnung",
+        "italian": "I have no idea",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "kein Problem",
+        "italian": "no problem",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "Moment mal",
+        "italian": "one moment",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ach so",
+        "italian": "ah, I see",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "avverbi_tempo",
+    "name": "time adverbs",
+    "category": "time adverbs",
+    "icon": "⏰",
+    "words": [
+      {
+        "german": "jetzt",
+        "italian": "now",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gerade",
+        "italian": "right now",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sofort",
+        "italian": "immediately",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gleich",
+        "italian": "soon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bald",
+        "italian": "soon, early",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "später",
+        "italian": "later",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dann",
+        "italian": "then",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zuerst",
+        "italian": "before, first",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "endlich",
+        "italian": "finally",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "immer",
+        "italian": "always",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nie",
+        "italian": "never",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "oft",
+        "italian": "often",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "selten",
+        "italian": "rarely",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "manchmal",
+        "italian": "sometimes",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "täglich",
+        "italian": "daily",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "morgens",
+        "italian": "in the morning",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "mittags",
+        "italian": "at noon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nachmittags",
+        "italian": "in the afternoon",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "abends",
+        "italian": "in the evening",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nachts",
+        "italian": "at night",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "lange",
+        "italian": "for a long time",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "schon",
+        "italian": "already",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "noch",
+        "italian": "still, yet",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "noch nicht",
+        "italian": "not yet",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nicht mehr",
+        "italian": "no longer",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "seit",
+        "italian": "since",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "bis",
+        "italian": "until",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "avverbi_luogo",
+    "name": "place adverbs",
+    "category": "place adverbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "hier",
+        "italian": "here",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "da",
+        "italian": "there",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "dort",
+        "italian": "there",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "oben",
+        "italian": "above, upstairs",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "unten",
+        "italian": "below, downstairs",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "vorne",
+        "italian": "in front",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "hinten",
+        "italian": "behind",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "links",
+        "italian": "on the left",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "rechts",
+        "italian": "on the right",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "geradeaus",
+        "italian": "straight",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "id": "avverbi_modo",
+    "name": "manner adverbs",
+    "category": "manner adverbs",
+    "icon": "🔄",
+    "words": [
+      {
+        "german": "gern",
+        "italian": "willingly",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "gerne",
+        "italian": "willingly",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "so",
+        "italian": "so, thus",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "zusammen",
+        "italian": "together",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "allein",
+        "italian": "alone",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "leise",
+        "italian": "quietly",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "laut",
+        "italian": "loudly",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "fast",
+        "italian": "almost",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "ein bisschen",
+        "italian": "a bit",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "sehr",
+        "italian": "much, a lot",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "wirklich",
+        "italian": "really",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "auch",
+        "italian": "also",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "nur",
+        "italian": "only",
+        "article": "",
+        "plural": "",
+        "example": ""
+      },
+      {
+        "german": "leider",
+        "italian": "unfortunately",
+        "article": "",
+        "plural": "",
+        "example": ""
+      }
+    ]
+  }
+]

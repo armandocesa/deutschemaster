@@ -1,0 +1,3067 @@
+{
+  "title": "Goethe-Zertifikat B2",
+  "topics": [
+    {
+      "id": "b2_01",
+      "name": "Konjunktiv I - Discorso indiretto formale",
+      "explanation": "the Subjunctive the for the indirect speech in the written language e formal.",
+      "content": {
+        "regola": "the Subjunctive the it is formed from the infinitive root + endings: -e, -est, -e, -en, -et, -en. ex.: kommen → er komme, haben → er habe. It is used in the formal indirect speech, especially in the journalism, for to signal that are referred to others' words.\n\nthe form più used is the 3rd Person Singular: er/sie komme, habe, sei, könne. Se the Konj. the is identical all'Indicative (ich komme = Konj.the e Ind.), It is used the Subjunctive II: ich käme.\n\n'Sein' to the Subjunctive the: ich sei, du seiest, er sei, wir seien, ihr seiet, sie seien. is l'unico Verb with forme chiaramente different dall'Indicative in tutte the people.",
+        "schema": "| Person   | sein  | haben | kommen | können |",
+        "esempi": [
+          {
+            "tedesco": "Der Minister sagte, er sei zufrieden.",
+            "italiano": "Il ministro ha detto di essere soddisfatto.",
+            "english": "the ministro has detto of to be soddisfatto."
+          },
+          {
+            "tedesco": "Sie behauptet, sie habe das nicht gewusst.",
+            "italiano": "Afferma di non averlo saputo.",
+            "english": "Afferma of non averlo saputo."
+          },
+          {
+            "tedesco": "Er sagte, er komme morgen.",
+            "italiano": "Ha detto che viene domani.",
+            "english": "has detto che viene domani."
+          },
+          {
+            "tedesco": "Die Zeitung berichtet, es gebe Probleme.",
+            "italiano": "Il giornale riporta che ci sono problemi.",
+            "english": "the giornale riporta che ci are problemi."
+          },
+          {
+            "tedesco": "Sie meinte, sie könne nicht kommen.",
+            "italiano": "Diceva di non poter venire.",
+            "english": "Diceva of non poter to come."
+          },
+          {
+            "tedesco": "Er erklärte, er wolle das ändern.",
+            "italiano": "Ha dichiarato di voler cambiare ciò.",
+            "english": "has dichiarato of voler cambiare ciò."
+          }
+        ],
+        "eccezioni": "Se Konj. the = Indicative, to use Konj. II: 'Sie sagten, sie kämen (non kommen).' for the Perfekt indiretto: habe/sei + Partizip II: 'Er sagte, er habe das gemacht.' Konj. the of the Future tense: werde + Infinitiv: 'Er sagte, er werde kommen.'",
+        "uso": "journalism, academic texts, formal indirect speech. signals distance from parole riportate. in the spoken language It is used l'Indicative with 'dass'. introductory verbs: sagen, behaupten, erklären, berichten, meinen."
+      },
+      "exercises": [
+        {
+          "question": "Konj. I di 'sein' (3a sing.):",
+          "answer": "sei",
+          "explanation": "Er sei zufrieden."
+        },
+        {
+          "question": "Riporta: 'Ich habe keine Zeit.' → Er sagte, er...",
+          "answer": "habe keine Zeit",
+          "explanation": "Konj. the of haben: habe."
+        },
+        {
+          "question": "Konj. I o II? 'Sie sagten, sie ___ morgen.' (kommen)",
+          "answer": "kämen",
+          "explanation": "Kommen Konj. the plur. = kommen (=ind.) → Konj. II: kämen."
+        },
+        {
+          "question": "Konj. I Perfekt: 'Er sagte, er ___ das ___ .' (machen)",
+          "answer": "habe...gemacht",
+          "explanation": "Konj. the Perfekt: habe + Partizip II."
+        },
+        {
+          "question": "Konj. I Futur: 'Sie sagte, sie ___ kommen.'",
+          "answer": "werde",
+          "explanation": "Konj. the of werden: werde + Infinitiv."
+        }
+      ]
+    },
+    {
+      "id": "b2_02",
+      "name": "Konjunktiv I vs II - Confronto",
+      "explanation": "Quando to use Subjunctive the e quando Subjunctive II.",
+      "content": {
+        "regola": "the Subjunctive the It is used for the formal indirect speech: signals che are referred to others' words. the Subjunctive II It is used for situazioni irreali, desideri, cortesia, condizioni non reali.\n\nin the indirect speech: preferire Konj. the. Se the form is identical all'Indicative, to use Konj. II come sostituto. Se anche the Konj. II is ambiguo, to use 'würde + Infinitiv'.\n\nGerarchia: 1° Konj. the (se different dall'Indicative), 2° Konj. II (come sostituto), 3° würde + Inf. (ultima risorsa).",
+        "schema": "| Funzione              | Subjunctive    | example                          |",
+        "esempi": [
+          {
+            "tedesco": "Er sagt, er sei krank. (Konj. I - disc. indiretto)",
+            "italiano": "Dice di essere malato.",
+            "english": "Dice of to be malato."
+          },
+          {
+            "tedesco": "Sie sagten, sie kämen morgen. (Konj. II sostitutivo)",
+            "italiano": "Dissero che sarebbero venuti domani.",
+            "english": "Dissero che sarebbero venuti domani."
+          },
+          {
+            "tedesco": "Wenn ich Zeit hätte, würde ich kommen. (Konj. II irreale)",
+            "italiano": "Se avessi tempo, verrei.",
+            "english": "Se avessi Tense, verrei."
+          },
+          {
+            "tedesco": "Könnten Sie das wiederholen? (Konj. II cortesia)",
+            "italiano": "Potrebbe ripetere?",
+            "english": "Potrebbe ripetere?"
+          },
+          {
+            "tedesco": "Er behauptet, er habe nichts gewusst. (Konj. I Perfekt)",
+            "italiano": "Afferma di non aver saputo nulla.",
+            "english": "Afferma of non aver saputo nulla."
+          },
+          {
+            "tedesco": "Ich wünschte, ich wäre dort. (Konj. II desiderio)",
+            "italiano": "Vorrei essere lì.",
+            "english": "Vorrei to be lì."
+          }
+        ],
+        "eccezioni": "in the spoken language the Konj. the is quasi assente; It is used 'Er hat gesagt, dass er krank ist' (Indicative with dass). in the written language giornalistica the Konj. the is standard. Alcuni verbi forti hanno un Konj. II proprio molto used: käme, gäbe, wüsste, ginge, bräuchte.",
+        "uso": "Konj. the = distance/neutralità in the riportare others' words (journalism). Konj. II = irrealtà, desideri, cortesia, condizioni ipotetiche. Non confondere the due usi. in the dubbio: Konj. the for disc. indiretto, Konj. II for tutto the resto."
+      },
+      "exercises": [
+        {
+          "question": "Konj. I o II? Per dire 'Se fossi ricco...':",
+          "answer": "Konjunktiv II (Wenn ich reich wäre...)",
+          "explanation": "Situazione irreale → Konj. II."
+        },
+        {
+          "question": "Konj. I o II? Per riportare 'Dice che è malato':",
+          "answer": "Konjunktiv I (Er sagt, er sei krank)",
+          "explanation": "indirect speech → Konj. the."
+        },
+        {
+          "question": "Perché 'sie kämen' e non 'sie kommen' nel disc. indiretto?",
+          "answer": "Perché 'kommen' Konj. I = indicativo → si usa Konj. II: kämen",
+          "explanation": "Sostituzione for ambiguità."
+        },
+        {
+          "question": "Konj. I o II? 'Potrebbe aiutarmi?'",
+          "answer": "Konj. II (Könnten Sie mir helfen?)",
+          "explanation": "Cortesia → Konj. II."
+        },
+        {
+          "question": "Quale Konjunktiv per il giornalismo?",
+          "answer": "Konjunktiv I",
+          "explanation": "formal indirect speech → Konj. the."
+        }
+      ]
+    },
+    {
+      "id": "b2_03",
+      "name": "Passivo con modali avanzato",
+      "explanation": "Usi complessi of the passivo with verbi modali in vari tempi.",
+      "content": {
+        "regola": "the passivo with modali to the Präteritum: 'Das musste gemacht werden.' to the Subjunctive II: 'Das müsste gemacht werden.' (Dovrebbe to be fatto). to the Perfekt: 'Das hat gemacht werden müssen.' (has dovuto to be fatto - doppio Infinitive).\n\nPassivo with modale in the subordinata: '...weil das gemacht werden muss.' (Präs.), '...weil das gemacht werden musste.' (Preterite.), '...weil das hat gemacht werden müssen.' (Perfekt - haben precede).\n\nAlternative to the passivo with modali: 'man' + attivo ('Man muss das machen'), 'sein...zu + Inf.' ('Das ist zu machen'), '-bar' ('Das ist machbar').",
+        "schema": "| Tense       | Struttura                         | example                            |",
+        "esempi": [
+          {
+            "tedesco": "Das Problem muss sofort gelöst werden.",
+            "italiano": "Il problema deve essere risolto subito.",
+            "english": "the problema deve to be risolto subito."
+          },
+          {
+            "tedesco": "Das konnte leicht erklärt werden.",
+            "italiano": "Poteva essere spiegato facilmente.",
+            "english": "Poteva to be spiegato facilmente."
+          },
+          {
+            "tedesco": "Das hätte früher gemacht werden müssen.",
+            "italiano": "Avrebbe dovuto essere fatto prima.",
+            "english": "Avrebbe dovuto to be fatto first."
+          },
+          {
+            "tedesco": "Die Arbeit müsste bis morgen erledigt werden.",
+            "italiano": "Il lavoro dovrebbe essere sbrigato entro domani.",
+            "english": "the lavoro dovrebbe to be sbrigato entro domani."
+          },
+          {
+            "tedesco": "...weil das sofort erledigt werden muss.",
+            "italiano": "...perché deve essere sbrigato subito.",
+            "english": "...perché deve to be sbrigato subito."
+          },
+          {
+            "tedesco": "Das hat nicht verhindert werden können.",
+            "italiano": "Non ha potuto essere impedito.",
+            "english": "Non has potuto to be impedito."
+          }
+        ],
+        "eccezioni": "the Perfekt passivo with modale (doppio Infinitive) is molto complesso e rare in the parlato. Si preferisce the Präteritum: 'Das musste gemacht werden.' the Konj. II Past tense is the form più complessa: 'Das hätte gemacht werden müssen.'",
+        "uso": "Molto frequent in burocrazia e testi formali. for semplificare: to use 'man' + attivo o costruzioni with 'sein...zu'. for the Perfekt preferire the Präteritum. the Konj. II passivo esprime necessità/possibilità irreale."
+      },
+      "exercises": [
+        {
+          "question": "Passivo + modale Prät.: 'Das Auto / reparieren / müssen'",
+          "answer": "Das Auto musste repariert werden.",
+          "explanation": "Musste + Part. II + werden."
+        },
+        {
+          "question": "Konj. II: 'Das Problem / lösen / können'",
+          "answer": "Das Problem könnte gelöst werden.",
+          "explanation": "Könnte + Part. II + werden."
+        },
+        {
+          "question": "Subordinata: '...weil das / erledigen / müssen'",
+          "answer": "...weil das erledigt werden muss.",
+          "explanation": "Muss to the fine of the subordinata."
+        },
+        {
+          "question": "Passato irreale: 'Das / machen / sollen' (hätte)",
+          "answer": "Das hätte gemacht werden sollen.",
+          "explanation": "Hätte + Part. II + werden + sollen."
+        },
+        {
+          "question": "Alternativa con man: 'Das muss gemacht werden.'",
+          "answer": "Man muss das machen.",
+          "explanation": "Man + attivo = alternativa semplice to the passivo."
+        }
+      ]
+    },
+    {
+      "id": "b2_04",
+      "name": "Zustandspassiv (sein-Passiv)",
+      "explanation": "the passivo of stato with sein + Partizip II.",
+      "content": {
+        "regola": "the Zustandspassiv (sein-Passiv) descrive the RISULTATO of un'azione, non the processo. it is formed with: sein + Partizip II. 'Die Tür IST geöffnet.' (the porta is aperta = stato risultante). Confronto: Vorgangspassiv: 'Die Tür WIRD geöffnet.' (the porta viene aperta = processo).\n\nthe Zustandspassiv non has agente (von + Dat.) perché descrive uno stato, non un'azione. it is conjugated with 'sein' in tutti the tempi: war + Part. II (Preterite.), ist...gewesen + Part. II (Perfekt, rare).\n\nDifferenza chiave: Vorgangspassiv (werden) = azione/processo. Zustandspassiv (sein) = risultato/stato.",
+        "schema": "| Tipo              | Present tense              | Präteritum            |",
+        "esempi": [
+          {
+            "tedesco": "Die Tür ist geschlossen.",
+            "italiano": "La porta è chiusa. (stato)",
+            "english": "the porta is chiusa. (stato)"
+          },
+          {
+            "tedesco": "Die Tür wird geschlossen.",
+            "italiano": "La porta viene chiusa. (azione)",
+            "english": "the porta viene chiusa. (azione)"
+          },
+          {
+            "tedesco": "Das Essen ist schon gekocht.",
+            "italiano": "Il cibo è già cucinato.",
+            "english": "the cibo is già cucinato."
+          },
+          {
+            "tedesco": "Der Brief war schon geschrieben.",
+            "italiano": "La lettera era già scritta.",
+            "english": "the lettera era già written."
+          },
+          {
+            "tedesco": "Das Geschäft ist geöffnet.",
+            "italiano": "Il negozio è aperto.",
+            "english": "the negozio is aperto."
+          },
+          {
+            "tedesco": "Das Auto ist repariert.",
+            "italiano": "L'auto è riparata.",
+            "english": "L'auto is riparata."
+          },
+          {
+            "tedesco": "Die Hausaufgaben sind gemacht.",
+            "italiano": "I compiti sono fatti.",
+            "english": "the compiti are fatti."
+          },
+          {
+            "tedesco": "Das Fenster war geöffnet, als ich kam.",
+            "italiano": "La finestra era aperta quando arrivai.",
+            "english": "the finestra era aperta quando arrivai."
+          }
+        ],
+        "eccezioni": "Non tutti the verbi ammettono the Zustandspassiv: solo verbi transitivi the cui risultato is percepibile. Non: 'Er ist geliebt' (stato d'amore?). Sì: 'Die Tür ist geöffnet' (si vede che is aperta). to/at volte ambiguo with Perfekt attivo: 'Er ist angekommen' = Perfekt of ankommen (with sein), non Zustandspassiv.",
+        "uso": "for descrivere risultati: 'Das Zimmer ist aufgeräumt.' (the stanza is in ordine). for cartelli: 'Geschlossen' / 'Geöffnet'. common in the lingua quotidiana for stati visibili. Distinguere from the Perfekt with sein (verbi of moto)."
+      },
+      "exercises": [
+        {
+          "question": "Vorgangs- o Zustandspassiv? 'Die Tür wird geöffnet.'",
+          "answer": "Vorgangspassiv (processo: viene aperta ora)",
+          "explanation": "Werden = processo/azione."
+        },
+        {
+          "question": "Vorgangs- o Zustandspassiv? 'Die Tür ist geöffnet.'",
+          "answer": "Zustandspassiv (stato: è aperta)",
+          "explanation": "Sein = stato/risultato."
+        },
+        {
+          "question": "Forma il Zustandspassiv: 'Das Buch / schreiben' (presente)",
+          "answer": "Das Buch ist geschrieben.",
+          "explanation": "Sein + Partizip II."
+        },
+        {
+          "question": "Al Präteritum: 'Die Arbeit / erledigen'",
+          "answer": "Die Arbeit war erledigt.",
+          "explanation": "War + Partizip II."
+        },
+        {
+          "question": "Differenza: 'Er ist angekommen' - passivo o Perfekt?",
+          "answer": "Perfekt attivo di ankommen (con sein)",
+          "explanation": "Ankommen usa sein to the Perfekt = non is Zustandspassiv."
+        }
+      ]
+    },
+    {
+      "id": "b2_05",
+      "name": "Erweiterte Partizipialattribute",
+      "explanation": "Attributi participiali estesi, comuni in the written language.",
+      "content": {
+        "regola": "in tedesco gli attributi participiali possono to be estesi with complementi posti between/among l'Article e the Noun. Questa struttura is tipica of the written language formal e scientifica. example: 'Der GESTERN VON MEINEM BRUDER GESCHRIEBENE Brief' = the lettera written ieri from/by mio fratello.\n\nStruttura: Article + complementi + Partizip (declinato) + Noun. the participio it is declined come un Adjective. Partizip the (attivo/in corso): 'der laut SINGENDE Mann' = l'uomo che canta forte. Partizip II (passivo/concluso): 'der GUT GESCHRIEBENE Brief' = the lettera ben written.\n\nEquivalgono to/at frasi relative: 'der gestern geschriebene Brief' = 'der Brief, der gestern geschrieben wurde.'",
+        "schema": "| Struttura                              | Equivalente relativa                     |",
+        "esempi": [
+          {
+            "tedesco": "Der gestern Abend angekommene Gast schläft noch.",
+            "italiano": "L'ospite arrivato ieri sera dorme ancora.",
+            "english": "L'ospite arrivato ieri sera dorme ancora."
+          },
+          {
+            "tedesco": "Die im Garten spielenden Kinder sind laut.",
+            "italiano": "I bambini che giocano in giardino sono rumorosi.",
+            "english": "the bambini che giocano in giardino are rumorosi."
+          },
+          {
+            "tedesco": "Das von vielen Experten empfohlene Buch ist ausverkauft.",
+            "italiano": "Il libro raccomandato da molti esperti è esaurito.",
+            "english": "the libro raccomandato from/by molti esperti is esaurito."
+          },
+          {
+            "tedesco": "Die für morgen geplante Konferenz wurde abgesagt.",
+            "italiano": "La conferenza prevista per domani è stata annullata.",
+            "english": "the conferenza prevista for domani is stata annullata."
+          },
+          {
+            "tedesco": "Der in der Zeitung veröffentlichte Artikel ist interessant.",
+            "italiano": "L'articolo pubblicato nel giornale è interessante.",
+            "english": "L'Article pubblicato in the giornale is interessante."
+          },
+          {
+            "tedesco": "Die seit Jahren steigende Inflation beunruhigt die Bürger.",
+            "italiano": "L'inflazione in aumento da anni preoccupa i cittadini.",
+            "english": "L'inflazione in aumento from/by anni preoccupa the cittadini."
+          }
+        ],
+        "eccezioni": "Questi attributi possono to be molto lunghi e complessi in the written language, rendendo the lettura difficile. in the spoken language si preferiscono the frasi relative. Non tutti the participi ammettono estensioni lunghe.",
+        "uso": "Tipici of: testi giornalistici, scientifici, burocratici. for the comprensione: leggere from/by destra (Noun) towards sinistra (complementi). for the produzione: to the livello B2/C1 saper trasformare from/by relativa to/at Partizipialattribut e viceversa."
+      },
+      "exercises": [
+        {
+          "question": "Trasforma in relativa: 'der gestern gekaufte Mantel'",
+          "answer": "der Mantel, der gestern gekauft wurde",
+          "explanation": "Part. II passivo → relativa passiva."
+        },
+        {
+          "question": "Trasforma in Partizipialattr.: 'das Buch, das von Goethe geschrieben wurde'",
+          "answer": "das von Goethe geschriebene Buch",
+          "explanation": "Relativa → attributo participiale."
+        },
+        {
+          "question": "Part. I o II? 'die im Park ___ Kinder' (spielen, in corso)",
+          "answer": "spielenden",
+          "explanation": "Azione in corso → Partizip the + declension."
+        },
+        {
+          "question": "Trasforma: 'der Zug, der aus München kommt'",
+          "answer": "der aus München kommende Zug",
+          "explanation": "Part. the (attivo, in corso)."
+        },
+        {
+          "question": "Questo stile è tipico di quale registro?",
+          "answer": "Lingua scritta formale, giornalistica, scientifica",
+          "explanation": "in the spoken language si preferiscono the frasi relative."
+        }
+      ]
+    },
+    {
+      "id": "b2_06",
+      "name": "Nominalstil vs Verbalstil",
+      "explanation": "Trasformazione between/among style nominale e style verbale.",
+      "content": {
+        "regola": "the style nominale (Nominalstil) trasforma verbi e aggettivi in sostantivi, tipico of the lingua formal, burocratica e scientifica. the style verbale (Verbalstil) usa frasi with verbi, più chiaro e near to the spoken language.\n\nNominalstil: 'Wegen der Renovierung des Gebäudes ist das Büro geschlossen.' Verbalstil: 'Weil das Gebäude renoviert wird, ist das Büro geschlossen.' Entrambe the frasi hanno the stesso significato.\n\nTrasformazione: Verb → Noun in -ung/-tion/-keit; frase temporale → Preposition temporale (während, nach, vor, bei); frase causale → Preposition causale (wegen, aufgrund).",
+        "schema": "| Verbalstil (frase)               | Nominalstil (prep.+Noun)        |",
+        "esempi": [
+          {
+            "tedesco": "Wegen der Verspätung des Zuges kamen wir zu spät. (nominal)",
+            "italiano": "A causa del ritardo del treno siamo arrivati tardi.",
+            "english": "to/at causa of the ritardo of the treno siamo arrivati tardi."
+          },
+          {
+            "tedesco": "Weil der Zug Verspätung hatte, kamen wir zu spät. (verbal)",
+            "italiano": "Poiché il treno era in ritardo, arrivammo tardi.",
+            "english": "Poiché the treno era in ritardo, arrivammo tardi."
+          },
+          {
+            "tedesco": "Nach der Ankunft gingen wir ins Hotel. (nominal)",
+            "italiano": "Dopo l'arrivo andammo in hotel.",
+            "english": "Dopo l'arrivo andammo in hotel."
+          },
+          {
+            "tedesco": "Nachdem wir angekommen waren, gingen wir ins Hotel. (verbal)",
+            "italiano": "Dopo essere arrivati, andammo in hotel.",
+            "english": "Dopo to be arrivati, andammo in hotel."
+          },
+          {
+            "tedesco": "Trotz des schlechten Wetters gingen wir wandern. (nominal)",
+            "italiano": "Nonostante il brutto tempo andammo a fare un'escursione.",
+            "english": "Nonostante the brutto Tense andammo to/at to do/make un'escursione."
+          },
+          {
+            "tedesco": "Zur Verbesserung der Situation schlug er Maßnahmen vor. (nominal)",
+            "italiano": "Per migliorare la situazione propose delle misure.",
+            "english": "for migliorare the situazione propose of the misure."
+          }
+        ],
+        "eccezioni": "the Nominalstil può rendere the testo pesante e difficile from/by capire. in the testi chiari si consiglia un equilibrio. the Verbalstil is preferito in the comunicazione quotidiana e in the testi divulgativi.",
+        "uso": "Nominalstil: testi scientifici, burocratici, giuridici, giornalistici. Verbalstil: spoken language, testi divulgativi, narrativa. All'esame B2/C1 bisogna saper trasformare from/by uno style all'altro."
+      },
+      "exercises": [
+        {
+          "question": "Trasforma in Verbalstil: 'Wegen der Renovierung ist das Büro geschlossen.'",
+          "answer": "Weil das Büro renoviert wird, ist es geschlossen.",
+          "explanation": "Prep. causale → frase causale."
+        },
+        {
+          "question": "Trasforma in Nominalstil: 'Nachdem er angekommen war, rief er an.'",
+          "answer": "Nach seiner Ankunft rief er an.",
+          "explanation": "Frase temporale → Preposition."
+        },
+        {
+          "question": "Trasforma in Nominalstil: 'Obwohl es schwierig war, hat er es geschafft.'",
+          "answer": "Trotz der Schwierigkeit hat er es geschafft.",
+          "explanation": "Concessiva → trotz + Gen."
+        },
+        {
+          "question": "Quale stile per testi scientifici?",
+          "answer": "Nominalstil",
+          "explanation": "Testi formali/scientifici preferiscono the style nominale."
+        },
+        {
+          "question": "Trasforma: 'Damit die Situation sich verbessert...' → Nominalstil",
+          "answer": "Zur Verbesserung der Situation...",
+          "explanation": "Frase finale → prep. finale."
+        }
+      ]
+    },
+    {
+      "id": "b2_07",
+      "name": "Irreale Bedingungssätze Vergangenheit",
+      "explanation": "Periodo ipotetico irreale to the Past tense.",
+      "content": {
+        "regola": "for esprimere condizioni irreali in the Past tense It is used the Subjunctive II to the Pluperfect: hätte/wäre + Partizip II. Protasi: 'Wenn ich das GEWUSST HÄTTE,...' Apodosi: '...WÄRE ich gekommen.' / '...HÄTTE ich das gemacht.'\n\nStruttura: Wenn + Sogg. + ... + Part. II + hätte/wäre, + (dann) + Konj. II Plusqu. (inversione). example completo: 'Wenn ich mehr gelernt hätte, hätte ich die Prüfung bestanden.'\n\nwithout wenn (inversione): 'Hätte ich das gewusst, wäre ich gekommen.'",
+        "schema": "| Protasi (condizione)              | Apodosi (conseguenza)               |",
+        "esempi": [
+          {
+            "tedesco": "Wenn ich das gewusst hätte, hätte ich anders gehandelt.",
+            "italiano": "Se l'avessi saputo, avrei agito diversamente.",
+            "english": "Se l'avessi saputo, avrei agito diversamente."
+          },
+          {
+            "tedesco": "Wenn er schneller gefahren wäre, hätte er den Zug erreicht.",
+            "italiano": "Se avesse guidato più veloce, avrebbe preso il treno.",
+            "english": "Se avesse guidato più veloce, avrebbe preso the treno."
+          },
+          {
+            "tedesco": "Hätte ich mehr Geld gehabt, hätte ich das Haus gekauft.",
+            "italiano": "Se avessi avuto più soldi, avrei comprato la casa.",
+            "english": "Se avessi avuto più soldi, avrei comprato the casa."
+          },
+          {
+            "tedesco": "Wenn sie nicht krank geworden wäre, wäre sie gekommen.",
+            "italiano": "Se non si fosse ammalata, sarebbe venuta.",
+            "english": "Se non si fosse ammalata, sarebbe venuta."
+          },
+          {
+            "tedesco": "Wäre ich an deiner Stelle gewesen, hätte ich das nicht gemacht.",
+            "italiano": "Se fossi stato al tuo posto, non l'avrei fatto.",
+            "english": "Se fossi stato to the tuo posto, non l'avrei fatto."
+          },
+          {
+            "tedesco": "Wenn wir uns früher getroffen hätten, wären wir Freunde geworden.",
+            "italiano": "Se ci fossimo incontrati prima, saremmo diventati amici.",
+            "english": "Se ci fossimo incontrati first, saremmo diventati amici."
+          }
+        ],
+        "eccezioni": "with modali to the Past tense irreale: 'Ich hätte kommen können.' (Avrei potuto to come). 'Er hätte das machen sollen.' (Avrebbe dovuto farlo). Struttura: hätte + Infinitiv + Modalverb-Infinitiv (doppio Infinitive).",
+        "uso": "for rimpianti, autocritica, speculazioni on the Past tense. 'Wenn ich doch...' = Se solo avessi... 'Fast hätte ich...' = for poco non avrei... Molto used in the conversation for esprimere ciò che sarebbe potuto accadere."
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Se avessi saputo, sarei venuto.'",
+          "answer": "Wenn ich das gewusst hätte, wäre ich gekommen.",
+          "explanation": "Hätte + gewusst / wäre + gekommen."
+        },
+        {
+          "question": "Senza wenn: 'Wenn ich Geld gehabt hätte,...'",
+          "answer": "Hätte ich Geld gehabt,...",
+          "explanation": "Inversione without wenn."
+        },
+        {
+          "question": "Con modale: 'Avrei potuto venire.'",
+          "answer": "Ich hätte kommen können.",
+          "explanation": "Hätte + Inf. + Modalverb-Inf."
+        },
+        {
+          "question": "Completa: Wenn er mehr ___ (lernen), ___ er die Prüfung ___ (bestehen).",
+          "answer": "gelernt hätte, hätte...bestanden",
+          "explanation": "Pluperfect Subjunctive in entrambe the parti."
+        },
+        {
+          "question": "Traduci: 'Se non fosse piovuto, saremmo andati al parco.'",
+          "answer": "Wenn es nicht geregnet hätte, wären wir in den Park gegangen.",
+          "explanation": "Hätte + geregnet / wären + gegangen."
+        }
+      ]
+    },
+    {
+      "id": "b2_08",
+      "name": "Doppelter Infinitiv",
+      "explanation": "the doppio Infinitive with modali, lassen, sehen, hören to the Perfekt.",
+      "content": {
+        "regola": "Quando un Modal verb, lassen, sehen o hören is used with un altro Infinitive, to the Perfekt It is used the doppio Infinitive (Ersatzinfinitiv) invece of the Partizip II. L'ausiliare is sempre 'haben'.\n\nexamples: 'Ich habe nicht kommen KÖNNEN.' (Non ho potuto to come) - non 'gekonnt'. 'Ich habe ihn singen HÖREN.' (L'ho sentito cantare) - non 'gehört'. 'Ich habe das Auto reparieren LASSEN.' (Ho fatto riparare l'auto) - non 'gelassen'.\n\nin the subordinata: l'ausiliare precede the due infiniti: '...weil ich nicht HABE kommen können.'",
+        "schema": "| Verb     | Perfekt with Infinitive              | Perfekt without Infinitive   |",
+        "esempi": [
+          {
+            "tedesco": "Ich habe nicht kommen können.",
+            "italiano": "Non ho potuto venire.",
+            "english": "Non ho potuto to come."
+          },
+          {
+            "tedesco": "Er hat das machen müssen.",
+            "italiano": "Ha dovuto farlo.",
+            "english": "has dovuto farlo."
+          },
+          {
+            "tedesco": "Sie hat das Auto waschen lassen.",
+            "italiano": "Ha fatto lavare l'auto.",
+            "english": "has fatto lavare l'auto."
+          },
+          {
+            "tedesco": "Ich habe ihn kommen sehen.",
+            "italiano": "L'ho visto venire.",
+            "english": "L'ho visto to come."
+          },
+          {
+            "tedesco": "Wir haben sie singen hören.",
+            "italiano": "L'abbiamo sentita cantare.",
+            "english": "L'abbiamo sentita cantare."
+          },
+          {
+            "tedesco": "...weil ich nicht habe kommen können.",
+            "italiano": "...perché non ho potuto venire. (subordinata)",
+            "english": "...perché non ho potuto to come. (subordinata)"
+          }
+        ],
+        "eccezioni": "'Brauchen' segue the stessa regola: 'Ich habe nicht kommen brauchen.' in the spoken language the doppio Infinitive is considerato pesante; si preferisce the Präteritum: 'Ich konnte nicht kommen.' 'Helfen' ammette entrambe the forme: 'geholfen' o 'helfen'.",
+        "uso": "the doppio Infinitive is obbligatorio in the written language corretta. in the spoken language si evita preferendo the Präteritum. in the subordinata the posizione of 'haben' is particolare: precede the due infiniti."
+      },
+      "exercises": [
+        {
+          "question": "Perfekt: 'Ich kann nicht kommen.' →",
+          "answer": "Ich habe nicht kommen können.",
+          "explanation": "Doppio Infinitive: non 'gekonnt'."
+        },
+        {
+          "question": "Perfekt: 'Er lässt das Auto reparieren.' →",
+          "answer": "Er hat das Auto reparieren lassen.",
+          "explanation": "Doppio Infinitive: non 'gelassen'."
+        },
+        {
+          "question": "Subordinata: '...weil er hat kommen müssen.' Corretto?",
+          "answer": "Sì, nella subordinata haben precede i due infiniti.",
+          "explanation": "Posizione speciale of haben."
+        },
+        {
+          "question": "Senza altro infinito: 'Ich konnte das.' Perfekt?",
+          "answer": "Ich habe das gekonnt.",
+          "explanation": "without Infinitive → Partizip II normale."
+        },
+        {
+          "question": "Perfekt: 'Ich höre sie singen.' →",
+          "answer": "Ich habe sie singen hören.",
+          "explanation": "Doppio Infinitive with hören."
+        }
+      ]
+    },
+    {
+      "id": "b2_09",
+      "name": "Genitiv-Relativsätze",
+      "explanation": "Pronomi relativi to the Genitive: dessen e deren.",
+      "content": {
+        "regola": "the pronomi relativi to the Genitive are: 'dessen' (maschile/neutro Singular) e 'deren' (femminile Singular/Plural). Corrispondono to/at 'the cui/the cui/the cui/the cui' in italiano. the Noun che segue dessen/deren NON has l'Article.\n\nexample: 'Der Mann, DESSEN Auto rot ist, heißt Müller.' (L'uomo the cui auto is rossa si chiama Müller). 'Dessen' refers to to/at 'Mann' (maschile) but 'Auto' mantiene the proprio Case in the relativa.\n\n'Deren' for femminile/Plural: 'Die Frau, DEREN Tasche hier liegt,...' 'Die Leute, DEREN Kinder hier spielen,...'",
+        "schema": "| Gender riferimento | Pron. rel. gen. | example                                |",
+        "esempi": [
+          {
+            "tedesco": "Der Mann, dessen Frau Ärztin ist, arbeitet hier.",
+            "italiano": "L'uomo la cui moglie è dottoressa lavora qui.",
+            "english": "L'uomo the cui moglie is dottoressa lavora qui."
+          },
+          {
+            "tedesco": "Das Kind, dessen Eltern verreist sind, bleibt bei uns.",
+            "italiano": "Il bambino i cui genitori sono in viaggio resta con noi.",
+            "english": "the bambino the cui genitori are in viaggio resta with noi."
+          },
+          {
+            "tedesco": "Die Frau, deren Name mir entfallen ist, war nett.",
+            "italiano": "La donna il cui nome mi sfugge era gentile.",
+            "english": "the donna the cui nome mi sfugge era gentile."
+          },
+          {
+            "tedesco": "Die Studenten, deren Arbeit gut war, bekamen eine Eins.",
+            "italiano": "Gli studenti il cui lavoro era buono presero un uno.",
+            "english": "Gli studenti the cui lavoro era buono presero un uno."
+          },
+          {
+            "tedesco": "Das Haus, dessen Dach kaputt ist, muss renoviert werden.",
+            "italiano": "La casa il cui tetto è rotto deve essere ristrutturata.",
+            "english": "the casa the cui tetto is rotto deve to be ristrutturata."
+          },
+          {
+            "tedesco": "Die Stadt, deren Einwohnerzahl wächst, braucht mehr Wohnungen.",
+            "italiano": "La città la cui popolazione cresce ha bisogno di più alloggi.",
+            "english": "the città the cui popolazione cresce has bisogno of più alloggi."
+          }
+        ],
+        "eccezioni": "Dopo dessen/deren the Noun NON has Article: 'der Mann, dessen AUTO' (non 'dessen das Auto'). Se the Noun dopo dessen/deren has un Adjective, questo it is declined in Mood forte: 'dessen neues Auto' (non 'neues' → forte perché manca l'Article).",
+        "uso": "for esprimere possesso/appartenenza in the relativa. Dessen = masch./neutro, deren = femm./plur. the Gender of dessen/deren dipende from the Noun of the main, the Case of the Noun che segue dipende from the sua funzione in the relativa."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Der Mann, ___ Auto vor dem Haus steht, ist mein Nachbar.",
+          "answer": "dessen",
+          "explanation": "Maschile → dessen."
+        },
+        {
+          "question": "Completa: Die Frau, ___ Kinder hier spielen, heißt Schmidt.",
+          "answer": "deren",
+          "explanation": "Femminile → deren."
+        },
+        {
+          "question": "Completa: Die Leute, ___ Haus wir kaufen wollen, ziehen um.",
+          "answer": "deren",
+          "explanation": "Plural → deren."
+        },
+        {
+          "question": "Dopo dessen/deren: con o senza articolo?",
+          "answer": "SENZA articolo: dessen Auto (non dessen das Auto)",
+          "explanation": "Dessen/deren sostituiscono l'Article possessivo."
+        },
+        {
+          "question": "Completa: Das Kind, ___ Mutter krank ist, bleibt zu Hause.",
+          "answer": "dessen",
+          "explanation": "Neutro → dessen."
+        }
+      ]
+    },
+    {
+      "id": "b2_10",
+      "name": "Relativsätze con was, wo, worüber",
+      "explanation": "Frasi relative with pronomi relativi speciali.",
+      "content": {
+        "regola": "'Was' come Relative pronoun It is used dopo: pronomi indefiniti (alles, etwas, nichts, vieles, das), superlativi sostantivati (das Beste), intere frasi. ex.: 'Alles, WAS er sagt, ist richtig.' 'Das ist das Beste, WAS ich je gesehen habe.' 'Er kam zu spät, WAS mich ärgerte.' (Arrivò tardi, the che mi irritò).\n\n'Wo' It is used for luoghi (alternativa to/at 'in + der/dem'): 'Die Stadt, WO ich wohne.' Anche in senso temporale: 'in der Zeit, wo ich dort war.'\n\n'Wo(r)+Preposition' for cose/concetti: 'Das, WORÜBER wir sprechen.' = 'Das, über das wir sprechen.'",
+        "schema": "| Pronoun rel. | use                        | example                              |",
+        "esempi": [
+          {
+            "tedesco": "Alles, was er sagt, ist interessant.",
+            "italiano": "Tutto ciò che dice è interessante.",
+            "english": "Tutto ciò che dice is interessante."
+          },
+          {
+            "tedesco": "Das ist das Schönste, was ich je gesehen habe.",
+            "italiano": "È la cosa più bella che abbia mai visto.",
+            "english": "is the cosa più bella che abbia mai visto."
+          },
+          {
+            "tedesco": "Er hat die Prüfung bestanden, was mich freut.",
+            "italiano": "Ha superato l'esame, il che mi fa piacere.",
+            "english": "has superato l'esame, the che mi fa piacere."
+          },
+          {
+            "tedesco": "Die Stadt, wo ich geboren bin, ist klein.",
+            "italiano": "La città dove sono nato è piccola.",
+            "english": "the città dove are nato is piccola."
+          },
+          {
+            "tedesco": "Das, worüber wir gesprochen haben, bleibt unter uns.",
+            "italiano": "Ciò di cui abbiamo parlato resta tra noi.",
+            "english": "Ciò of cui abbiamo parlato resta between/among noi."
+          },
+          {
+            "tedesco": "Nichts, was du sagst, überrascht mich.",
+            "italiano": "Niente di ciò che dici mi sorprende.",
+            "english": "Niente of ciò che dici mi sorprende."
+          }
+        ],
+        "eccezioni": "'Was' is not used with people (to use der/die/das). Dopo 'das' dimostrativo: 'Das, was du sagst' (non 'das, das du sagst'). 'Wo' for luoghi is colloquiale; formal: 'in der/dem'. Non confondere 'was' relativo with 'was' interrogativo.",
+        "uso": "Was: dopo indefiniti, superlativi, intere frasi. Wo: for luoghi (informale). Wo(r)+prep: for cose/concetti astratti (alternativa to/at prep. + das). Molto frequent in the lingua quotidiana e written."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Alles, ___ du sagst, ist richtig.",
+          "answer": "was",
+          "explanation": "Dopo 'alles' → was."
+        },
+        {
+          "question": "Completa: Er kam spät, ___ mich ärgerte.",
+          "answer": "was",
+          "explanation": "Riferito to/at intera frase → was."
+        },
+        {
+          "question": "Completa: Die Stadt, ___ ich geboren bin, ist klein.",
+          "answer": "wo",
+          "explanation": "for luoghi → wo."
+        },
+        {
+          "question": "Completa: Das, ___ ich mich interessiere, ist Kunst.",
+          "answer": "wofür",
+          "explanation": "Sich interessieren für → wofür."
+        },
+        {
+          "question": "Completa: Das Beste, ___ ich kenne, ist dieses Restaurant.",
+          "answer": "was",
+          "explanation": "Dopo superlativo → was."
+        }
+      ]
+    },
+    {
+      "id": "b2_11",
+      "name": "Costruzioni con lassen",
+      "explanation": "the different significati e usi of 'lassen'.",
+      "content": {
+        "regola": "'Lassen' has tre usi principali: 1) Lasciare/permettere: 'Lass mich gehen!' (Lasciami to go!). 2) Far to do/make: 'Ich lasse mein Auto reparieren.' (Faccio riparare the mia auto). 3) 'Sich lassen' = si può/is possibile: 'Das lässt sich machen.' (Si può to do/make).\n\nconjugation irregolare: lassen, ließ, gelassen (but doppio Infinitive: habe...lassen). All'Imperative: Lass! (du), Lasst! (ihr), Lassen Sie! (Sie).\n\n'Sich lassen' is un'alternativa elegante to the passivo with 'können': 'Das Fenster lässt sich öffnen.' = 'Das Fenster kann geöffnet werden.' = Si può aprire the finestra.",
+        "schema": "| use                | example                          | Traduzione                    |",
+        "esempi": [
+          {
+            "tedesco": "Lass mich bitte ausreden!",
+            "italiano": "Lasciami finire di parlare!",
+            "english": "Lasciami finire of parlare!"
+          },
+          {
+            "tedesco": "Ich lasse mein Auto waschen.",
+            "italiano": "Faccio lavare la mia auto.",
+            "english": "Faccio lavare the mia auto."
+          },
+          {
+            "tedesco": "Sie lässt sich die Haare schneiden.",
+            "italiano": "Si fa tagliare i capelli.",
+            "english": "Si fa tagliare the capelli."
+          },
+          {
+            "tedesco": "Das Problem lässt sich leicht lösen.",
+            "italiano": "Il problema si può risolvere facilmente.",
+            "english": "the problema si può risolvere facilmente."
+          },
+          {
+            "tedesco": "Lass uns ins Kino gehen!",
+            "italiano": "Andiamo al cinema!",
+            "english": "Andiamo to the cinema!"
+          },
+          {
+            "tedesco": "Er ließ mich nicht sprechen.",
+            "italiano": "Non mi ha lasciato parlare.",
+            "english": "Non mi has lasciato parlare."
+          },
+          {
+            "tedesco": "Das lässt sich nicht ändern.",
+            "italiano": "Non si può cambiare.",
+            "english": "Non si può cambiare."
+          },
+          {
+            "tedesco": "Ich habe mir die Haare schneiden lassen.",
+            "italiano": "Mi sono fatto tagliare i capelli.",
+            "english": "Mi are fatto tagliare the capelli."
+          }
+        ],
+        "eccezioni": "'Lassen' + riflessivo for azioni on se stessi: 'Ich lasse MIR die Haare schneiden' (Dative, perché the azioni are on the miei capelli). to the Perfekt: doppio Infinitive: 'Ich habe mich fotografieren LASSEN.' 'Lass uns...' = Let's... for suggerimenti.",
+        "uso": "Quotidiano: far to do/make (from the parrucchiere, meccanico etc.). formal: sich lassen come alternativa to the passivo. Colloquiale: Lass uns + Inf. for suggerimenti. Imperative: Lass das! = Smettila!"
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Mi faccio tagliare i capelli.'",
+          "answer": "Ich lasse mir die Haare schneiden.",
+          "explanation": "Lassen + Dative (mir) + Infinitive."
+        },
+        {
+          "question": "'Si può risolvere' con lassen:",
+          "answer": "Das lässt sich lösen.",
+          "explanation": "Sich lassen = alternativa to the passivo."
+        },
+        {
+          "question": "Traduci: 'Andiamo al cinema!'",
+          "answer": "Lass uns ins Kino gehen!",
+          "explanation": "Lass uns + Infinitive = let's."
+        },
+        {
+          "question": "Perfekt: 'Ich lasse das Auto reparieren.'",
+          "answer": "Ich habe das Auto reparieren lassen.",
+          "explanation": "Doppio Infinitive, non 'gelassen'."
+        },
+        {
+          "question": "Alternativa passiva: 'Das Fenster kann geöffnet werden.'",
+          "answer": "Das Fenster lässt sich öffnen.",
+          "explanation": "Sich lassen + Inf. = kann + Part.II + werden."
+        }
+      ]
+    },
+    {
+      "id": "b2_12",
+      "name": "Verbi con preposizioni avanzati",
+      "explanation": "Lista estesa of verbi with preposizioni fisse e use of from/by-/wo- compounds.",
+      "content": {
+        "regola": "Elenco esteso of verbi + Preposition: abhängen von+D (dipendere from/by), achten auf+to/at (to do/make attenzione to/at), sich beschweren über+to/at (lamentarsi of), bestehen aus+D (consistere of), sich bewerben um+to/at (candidarsi for), sich einigen auf+to/at (accordarsi on), sich erkundigen nach+D (informarsi on), sich gewöhnen an+to/at (abituarsi to/at), sich handeln um+to/at (trattarsi of), leiden an/unter+D (soffrire of), sich sehnen nach+D (to have nostalgia of), sorgen für+to/at (occuparsi of), sich verlassen auf+to/at (to do/make affidamento on), verzichten auf+to/at (rinunciare to/at), sich vorbereiten auf+to/at (prepararsi to/at).\n\nfor cose: from/by(r)+prep (darauf, darüber, daran) e wo(r)+prep (worauf, worüber, woran). for people: prep+Pronoun (auf ihn, über sie).",
+        "schema": "| Verb                   | Prep.+Case | from/by-Kompositum | Wo-Kompositum |",
+        "esempi": [
+          {
+            "tedesco": "Das hängt vom Wetter ab.",
+            "italiano": "Dipende dal tempo.",
+            "english": "Dipende from the Tense."
+          },
+          {
+            "tedesco": "Ich beschwere mich über den Lärm.",
+            "italiano": "Mi lamento del rumore.",
+            "english": "Mi lamento of the rumore."
+          },
+          {
+            "tedesco": "Der Kuchen besteht aus Mehl und Zucker.",
+            "italiano": "La torta è fatta di farina e zucchero.",
+            "english": "the torta is fatta of farina e zucchero."
+          },
+          {
+            "tedesco": "Ich habe mich daran gewöhnt.",
+            "italiano": "Mi ci sono abituato.",
+            "english": "Mi ci are abituato."
+          },
+          {
+            "tedesco": "Er verzichtet auf das Geld.",
+            "italiano": "Rinuncia ai soldi.",
+            "english": "Rinuncia to the soldi."
+          },
+          {
+            "tedesco": "Worüber beschwerst du dich?",
+            "italiano": "Di cosa ti lamenti?",
+            "english": "of cosa ti lamenti?"
+          },
+          {
+            "tedesco": "Ich verlasse mich auf dich.",
+            "italiano": "Faccio affidamento su di te.",
+            "english": "Faccio affidamento on of te."
+          },
+          {
+            "tedesco": "Wir bereiten uns auf die Prüfung vor.",
+            "italiano": "Ci prepariamo per l'esame.",
+            "english": "Ci prepariamo for l'esame."
+          }
+        ],
+        "eccezioni": "Alcuni verbi cambiano Preposition e significato: bestehen aus (consistere of), bestehen auf (insistere on), bestehen in (consistere in). Sich handeln um ≠ handeln von: 'ex. handelt sich um...' (si tratta of), 'Das Buch handelt von...' (the libro parla of).",
+        "uso": "to/at livello B2 bisogna conoscere circa 50-80 verbi with Preposition fissa. Imparare sempre: Verb + Preposition + Case. Esercitarsi with from/by-/wo- composti for cose e prep.+Pronoun for people."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Das hängt ___ Wetter ab.",
+          "answer": "vom (= von dem)",
+          "explanation": "Abhängen von + Dativ."
+        },
+        {
+          "question": "Completa: Ich habe mich ___ gewöhnt.",
+          "answer": "daran",
+          "explanation": "Sich gewöhnen an → daran (for cose)."
+        },
+        {
+          "question": "Domanda: 'Er verzichtet auf das Auto.' → ___?",
+          "answer": "Worauf verzichtet er?",
+          "explanation": "Verzichten auf → worauf (for cose)."
+        },
+        {
+          "question": "Completa: Wir bereiten uns ___ die Prüfung vor.",
+          "answer": "auf",
+          "explanation": "Sich vorbereiten auf + Akk."
+        },
+        {
+          "question": "Completa: Sie beschwert sich ___ den Lärm.",
+          "answer": "über",
+          "explanation": "Sich beschweren über + Akk."
+        }
+      ]
+    },
+    {
+      "id": "b2_13",
+      "name": "Congiunzioni avanzate",
+      "explanation": "Je...desto, indem, anstatt...zu, ohne...zu e altre congiunzioni complesse.",
+      "content": {
+        "regola": "Congiunzioni avanzate: 'indem' (facendo qualcosa, Mood): subordinata. 'Anstatt...zu' (invece of): infinitiva. 'Ohne...zu' (without): infinitiva. 'Je...desto/umso' (più...più): comparativi correlati.\n\n'Indem' (gerundio/Mood): 'Man lernt, INDEM man übt.' (Si impara esercitandosi). Verb to the fine. 'Anstatt...zu': 'Anstatt zu lernen, spielt er.' (Invece of studiare, gioca). 'Ohne...zu': 'Er ging, ohne zu grüßen.' (Andò via without salutare).\n\n'Je...desto': 'JE mehr ich lerne, DESTO besser spreche ich.' (Più studio, meglio parlo). Je-Satz: subordinata (Verb fine). Desto-Satz: main (inversione).",
+        "schema": "| Conjunction   | Tipo         | Struttura                              |",
+        "esempi": [
+          {
+            "tedesco": "Man lernt am besten, indem man viel übt.",
+            "italiano": "Si impara meglio esercitandosi molto.",
+            "english": "Si impara meglio esercitandosi molto."
+          },
+          {
+            "tedesco": "Anstatt zu lernen, sieht er fern.",
+            "italiano": "Invece di studiare, guarda la TV.",
+            "english": "Invece of studiare, guarda the TV."
+          },
+          {
+            "tedesco": "Er ging weg, ohne sich zu verabschieden.",
+            "italiano": "Andò via senza congedarsi.",
+            "english": "Andò via without congedarsi."
+          },
+          {
+            "tedesco": "Je mehr ich lese, desto mehr lerne ich.",
+            "italiano": "Più leggo, più imparo.",
+            "english": "Più leggo, più imparo."
+          },
+          {
+            "tedesco": "Je älter man wird, umso weiser wird man.",
+            "italiano": "Più si invecchia, più si diventa saggi.",
+            "english": "Più si invecchia, più si diventa saggi."
+          },
+          {
+            "tedesco": "Sie können die Situation verbessern, indem Sie mehr kommunizieren.",
+            "italiano": "Potete migliorare la situazione comunicando di più.",
+            "english": "Potete migliorare the situazione comunicando of più."
+          }
+        ],
+        "eccezioni": "Anstatt dass / ohne dass (with soggetti different): 'Anstatt dass ER kommt, schickt er eine E-Mail.' Ohne dass / anstatt...zu: stesso subject → infinitiva; soggetti different → dass. 'Indem' ≠ 'dadurch, dass': 'indem' is subordinante, 'dadurch, dass' is correlato.",
+        "uso": "Indem: Mood/means/way (come/facendo che cosa). Anstatt zu/dass: alternativa non scelta. Ohne zu/dass: mancanza of azione parallela. Je...desto: proporzione diretta (più...più). frequent negli esami B2/C1."
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Si impara facendo pratica.'",
+          "answer": "Man lernt, indem man übt.",
+          "explanation": "Indem + subordinata for the Mood."
+        },
+        {
+          "question": "Traduci: 'Invece di studiare, dorme.'",
+          "answer": "Anstatt zu lernen, schläft er.",
+          "explanation": "Anstatt...zu + Infinitive."
+        },
+        {
+          "question": "Traduci: 'Andò via senza salutare.'",
+          "answer": "Er ging weg, ohne zu grüßen.",
+          "explanation": "Ohne...zu + Infinitive."
+        },
+        {
+          "question": "Completa: ___ mehr ich übe, ___ besser spiele ich.",
+          "answer": "Je...desto",
+          "explanation": "Proporzione → je...desto."
+        },
+        {
+          "question": "Con soggetti diversi: 'Invece che lui venga, manda un'email.'",
+          "answer": "Anstatt dass er kommt, schickt er eine E-Mail.",
+          "explanation": "Soggetti different → anstatt dass + subordinata."
+        }
+      ]
+    },
+    {
+      "id": "b2_14",
+      "name": "Costruzioni impersonali",
+      "explanation": "Frasi impersonali with ex., man e passivo impersonale.",
+      "content": {
+        "regola": "Costruzioni impersonali tedesche: 1) 'ex.' impersonale for fenomeni/sensazioni: 'ex. regnet', 'ex. klopft', 'ex. tut mir leid'. 2) 'Man' for frasi generiche: 'Man sagt, dass...' (Si dice che...). 3) Passivo impersonale: 'ex. wird getanzt.' (Si balla) - anche without 'ex.' with inversione: 'Hier wird getanzt.'\n\nCostruzioni fisse: 'ex. geht um + Akk.' (si tratta of), 'ex. kommt auf + Akk. an' (dipende from/by), 'ex. kommt darauf an, ob/dass...' (dipende se/che), 'ex. lohnt sich' (vale the pena), 'ex. handelt sich um' (si tratta of).\n\nSensazioni: 'ex. ist mir kalt.' (Ho freddo), 'ex. ist mir schlecht.' (Mi sento male) - with Dative of the Person.",
+        "schema": "| Tipo               | example                          | Traduzione                 |",
+        "esempi": [
+          {
+            "tedesco": "Es regnet seit drei Tagen.",
+            "italiano": "Piove da tre giorni.",
+            "english": "Piove from/by tre giorni."
+          },
+          {
+            "tedesco": "Es ist mir zu warm.",
+            "italiano": "Ho troppo caldo.",
+            "english": "Ho troppo caldo."
+          },
+          {
+            "tedesco": "Es geht um die Zukunft.",
+            "italiano": "Si tratta del futuro.",
+            "english": "Si tratta of the Future tense."
+          },
+          {
+            "tedesco": "Es kommt darauf an, wie viel Zeit wir haben.",
+            "italiano": "Dipende da quanto tempo abbiamo.",
+            "english": "Dipende from/by quanto Tense abbiamo."
+          },
+          {
+            "tedesco": "Man sollte mehr Sport treiben.",
+            "italiano": "Si dovrebbe fare più sport.",
+            "english": "Si dovrebbe to do/make più sport."
+          },
+          {
+            "tedesco": "Hier wird viel gelacht.",
+            "italiano": "Qui si ride molto.",
+            "english": "Qui si ride molto."
+          },
+          {
+            "tedesco": "Es lohnt sich, diesen Film zu sehen.",
+            "italiano": "Vale la pena vedere questo film.",
+            "english": "Vale the pena vedere questo film."
+          },
+          {
+            "tedesco": "Es handelt sich um ein Missverständnis.",
+            "italiano": "Si tratta di un malinteso.",
+            "english": "Si tratta of un malinteso."
+          }
+        ],
+        "eccezioni": "'ex.' atmosferico non sparisce mai. 'ex.' in the passivo impersonale sparisce with inversione: 'Hier wird getanzt' (non 'Hier wird ex. getanzt'). 'Man' + Konj. II for consiglio generico: 'Man sollte mehr lesen.'",
+        "uso": "the costruzioni impersonali are molto frequent in the tedesco quotidiano. Imparare the espressioni fisse: ex. gibt, ex. geht um, ex. kommt auf...an, ex. lohnt sich, ex. handelt sich um. for tradurre the 'si' italiano: man (attivo) o passivo impersonale."
+      },
+      "exercises": [
+        {
+          "question": "Traduci 'Si dice che...':",
+          "answer": "Man sagt, dass...",
+          "explanation": "Man + Verb for impersonale attivo."
+        },
+        {
+          "question": "Traduci 'Qui non si fuma':",
+          "answer": "Hier wird nicht geraucht.",
+          "explanation": "Passivo impersonale (ex. sparisce with inversione)."
+        },
+        {
+          "question": "Completa: Es ___ ___ die Qualität ___. (dipendere)",
+          "answer": "kommt auf...an",
+          "explanation": "ex. kommt auf + Akk. + an."
+        },
+        {
+          "question": "Completa: ___ lohnt ___, das Museum zu besuchen.",
+          "answer": "Es...sich",
+          "explanation": "ex. lohnt sich + zu + Inf."
+        },
+        {
+          "question": "Completa: Es ___ sich ___ einen Fehler. (trattarsi)",
+          "answer": "handelt...um",
+          "explanation": "ex. handelt sich um + Akk."
+        }
+      ]
+    },
+    {
+      "id": "b2_15",
+      "name": "Aggettivi con preposizioni",
+      "explanation": "Aggettivi che reggono preposizioni specifiche.",
+      "content": {
+        "regola": "Come the verbi, anche molti aggettivi reggono preposizioni fisse. the più comuni: zufrieden mit+D (soddisfatto of), interessiert an+D (interessato to/at), stolz auf+to/at (fiero of), verantwortlich für+to/at (responsabile of), abhängig von+D (dipendente from/by), bereit zu+D (pronto to/at), enttäuscht von+D (deluso from/by), begeistert von+D (entusiasta of), neidisch auf+to/at (invidioso of), überzeugt von+D (convinto of).\n\nAnche qui: for cose from/by(r)+prep, for people prep+Pronoun. 'Ich bin stolz DARAUF.' 'Worauf bist du stolz?'",
+        "schema": "| Adjective + Prep.     | Case | example                          |",
+        "esempi": [
+          {
+            "tedesco": "Ich bin mit meinem Job zufrieden.",
+            "italiano": "Sono soddisfatto del mio lavoro.",
+            "english": "are soddisfatto of the mio lavoro."
+          },
+          {
+            "tedesco": "Sie ist stolz auf ihre Kinder.",
+            "italiano": "È fiera dei suoi figli.",
+            "english": "is fiera of the suoi figli."
+          },
+          {
+            "tedesco": "Er ist an Geschichte interessiert.",
+            "italiano": "È interessato alla storia.",
+            "english": "is interessato to the storia."
+          },
+          {
+            "tedesco": "Wer ist für dieses Projekt verantwortlich?",
+            "italiano": "Chi è responsabile di questo progetto?",
+            "english": "Chi is responsabile of questo progetto?"
+          },
+          {
+            "tedesco": "Das Ergebnis ist vom Wetter abhängig.",
+            "italiano": "Il risultato dipende dal tempo.",
+            "english": "the risultato dipende from the Tense."
+          },
+          {
+            "tedesco": "Ich bin von dem Film begeistert.",
+            "italiano": "Sono entusiasta del film.",
+            "english": "are entusiasta of the film."
+          },
+          {
+            "tedesco": "Bist du darauf vorbereitet?",
+            "italiano": "Sei preparato a questo?",
+            "english": "Sei preparato to/at questo?"
+          },
+          {
+            "tedesco": "Sie ist auf ihren Bruder neidisch.",
+            "italiano": "È invidiosa di suo fratello.",
+            "english": "is invidiosa of suo fratello."
+          }
+        ],
+        "eccezioni": "Alcuni aggettivi ammettono più preposizioni with sfumature different: froh über+to/at (contento of qualcosa) vs froh auf+to/at (rare). Böse auf+to/at (arrabbiato with Person) vs böse über+to/at (arrabbiato for cosa). the posizione dell'Adjective predicativo with prep. può variare.",
+        "uso": "to/at livello B2 imparare almeno 20-30 aggettivi with Preposition. Utili in the descrizione of sentimenti, opinioni, stati. with from/by(r)- for anticipare dass-Satz: 'Ich bin stolz darauf, dass er bestanden hat.'"
+      },
+      "exercises": [
+        {
+          "question": "Completa: Ich bin ___ meiner Arbeit zufrieden.",
+          "answer": "mit",
+          "explanation": "Zufrieden mit + Dativ."
+        },
+        {
+          "question": "Completa: Sie ist stolz ___ ihre Tochter.",
+          "answer": "auf",
+          "explanation": "Stolz auf + Akkusativ."
+        },
+        {
+          "question": "Per cose: 'Ich bin ___ interessiert.' (a ciò)",
+          "answer": "daran",
+          "explanation": "Interessiert an → daran."
+        },
+        {
+          "question": "Completa: Er ist ___ dem Ergebnis enttäuscht.",
+          "answer": "von",
+          "explanation": "Enttäuscht von + Dativ."
+        },
+        {
+          "question": "Domanda: 'Wofür ist er verantwortlich?' → Cosa chiede?",
+          "answer": "Per cosa è responsabile?",
+          "explanation": "Verantwortlich für → wofür (for cose)."
+        }
+      ]
+    },
+    {
+      "id": "b2_16",
+      "name": "Funzioni di werden",
+      "explanation": "the quattro usi of werden: Vollverb, Futur, Passiv, Subjunctive.",
+      "content": {
+        "regola": "'Werden' has quattro funzioni: 1) Verb main (Vollverb): 'Er wird Arzt.' (Diventa medico). 2) Ausiliare of the Futur the: 'Er wird kommen.' (Verrà). 3) Ausiliare of the passivo: 'Das Haus wird gebaut.' (the casa viene costruita). 4) in the form würde + Inf.: Subjunctive II.\n\nCome distinguere: werden + Adjective/Noun = diventare. Werden + Infinitiv = Future tense. Werden + Partizip II = passivo. Würde + Infinitiv = Conditional.\n\nconjugation: Present tense: werde, wirst, wird, werden, werdet, werden. Präteritum: wurde. Partizip II: geworden (Vollverb), worden (passivo).",
+        "schema": "| Funzione     | Struttura              | example                    | Traduzione          |",
+        "esempi": [
+          {
+            "tedesco": "Er wird Lehrer. (Vollverb)",
+            "italiano": "Diventa insegnante.",
+            "english": "Diventa insegnante."
+          },
+          {
+            "tedesco": "Es wird kalt. (Vollverb)",
+            "italiano": "Si sta facendo freddo.",
+            "english": "Si sta facendo freddo."
+          },
+          {
+            "tedesco": "Ich werde morgen kommen. (Futur)",
+            "italiano": "Verrò domani.",
+            "english": "Verrò domani."
+          },
+          {
+            "tedesco": "Das Haus wird gebaut. (Passiv)",
+            "italiano": "La casa viene costruita.",
+            "english": "the casa viene costruita."
+          },
+          {
+            "tedesco": "Er ist Arzt geworden. (Perfekt Vollverb)",
+            "italiano": "È diventato medico.",
+            "english": "is diventato medico."
+          },
+          {
+            "tedesco": "Das Haus ist gebaut worden. (Perfekt Passiv)",
+            "italiano": "La casa è stata costruita.",
+            "english": "the casa is stata costruita."
+          },
+          {
+            "tedesco": "Ich würde gern reisen. (Konjunktiv)",
+            "italiano": "Viaggerei volentieri.",
+            "english": "Viaggerei volentieri."
+          }
+        ],
+        "eccezioni": "Futur the It is used anche for supposizioni presenti: 'Er wird jetzt wohl schlafen.' (Starà probabilmente dormendo). Futur II for supposizioni passate: 'Er wird wohl geschlafen haben.' Perfekt Vollverb: 'ist...geworden'. Perfekt Passiv: 'ist...worden' (without ge-!).",
+        "uso": "Distinguere the funzioni from the contesto: +Noun/Adjective = diventare; +infinitivo = Future tense; +Partizip II = passivo; würde = Conditional. the Future tense spesso is sostituito from the Present tense + indicatore temporale: 'Ich komme morgen.'"
+      },
+      "exercises": [
+        {
+          "question": "Identifica: 'Er wird Arzt.' - Funzione?",
+          "answer": "Vollverb (diventare)",
+          "explanation": "Werden + Noun = diventare."
+        },
+        {
+          "question": "Identifica: 'Er wird kommen.' - Funzione?",
+          "answer": "Futur I",
+          "explanation": "Werden + infinitivo = Future tense."
+        },
+        {
+          "question": "Identifica: 'Das Haus wird gebaut.' - Funzione?",
+          "answer": "Passiv",
+          "explanation": "Werden + Partizip II = passivo."
+        },
+        {
+          "question": "Perfekt passivo: 'worden' o 'geworden'?",
+          "answer": "worden (Das Haus ist gebaut worden.)",
+          "explanation": "Passivo: worden. Vollverb: geworden."
+        },
+        {
+          "question": "Completa: Er ___ bestimmt müde. (suppongo, Futur)",
+          "answer": "wird",
+          "explanation": "Werden for supposizione Present tense."
+        }
+      ]
+    },
+    {
+      "id": "b2_17",
+      "name": "Nominalizzazione da verbi e aggettivi",
+      "explanation": "Come trasformare verbi e aggettivi in sostantivi.",
+      "content": {
+        "regola": "Nominalizzazione from/by verbi: -ung (die Einladung from/by einladen), Infinitive sostantivato (das Lernen), -tion (die Kommunikation), -(er)nis (das Ergebnis, die Erlaubnis). Nominalizzazione from/by aggettivi: -heit (die Schönheit from/by schön), -keit (die Möglichkeit from/by möglich), -ität (die Aktivität).\n\nSuffissi produttivi: -ung (from the Verb, sempre femminile), -heit/-keit (dall'Adjective, sempre femminile), -er (agente maschile: der Fahrer), -e (stato/qualità femminile: die Größe).\n\nthe nominalizzazione is fondamentale for the Nominalstil: 'Die Verbesserung der Situation' (the miglioramento of the situazione) from/by 'Die Situation verbessern'.",
+        "schema": "from/by Verb:",
+        "esempi": [
+          {
+            "tedesco": "Die Einladung kam per Post.",
+            "italiano": "L'invito è arrivato per posta. (da einladen)",
+            "english": "L'invito is arrivato for posta. (from/by einladen)"
+          },
+          {
+            "tedesco": "Das Lernen macht mir Spaß.",
+            "italiano": "Studiare mi piace. (infinito sostantivato)",
+            "english": "Studiare mi piace. (Infinitive sostantivato)"
+          },
+          {
+            "tedesco": "Die Schönheit der Natur ist beeindruckend.",
+            "italiano": "La bellezza della natura è impressionante.",
+            "english": "the bellezza of the natura is impressionante."
+          },
+          {
+            "tedesco": "Die Möglichkeit besteht.",
+            "italiano": "La possibilità esiste.",
+            "english": "the possibilità esiste."
+          },
+          {
+            "tedesco": "Die Verbesserung der Lage ist wichtig.",
+            "italiano": "Il miglioramento della situazione è importante.",
+            "english": "the miglioramento of the situazione is importante."
+          },
+          {
+            "tedesco": "Die Entdeckung war überraschend.",
+            "italiano": "La scoperta è stata sorprendente.",
+            "english": "the scoperta is stata sorprendente."
+          }
+        ],
+        "eccezioni": "-keit dopo aggettivi in -lich/-ig: freundlich→Freundlichkeit, traurig→Traurigkeit. -heit for gli altri: schön→Schönheit, krank→Krankheit. Alcuni sostantivi hanno cambiamenti in the root: hoch→Höhe, lang→Länge, breit→Breite.",
+        "uso": "for the Nominalstil (testi formali/scientifici). for the trasformazioni attivo/passivo/nominale. Regole: -ung/-heit/-keit = sempre femminile. das + Infinitiv = sempre neutro. -er (agente) = maschile."
+      },
+      "exercises": [
+        {
+          "question": "Nominalizza: 'verbessern' →",
+          "answer": "die Verbesserung",
+          "explanation": "Verb + -ung = Feminine noun."
+        },
+        {
+          "question": "Nominalizza: 'schön' →",
+          "answer": "die Schönheit",
+          "explanation": "Adjective + -heit = femminile."
+        },
+        {
+          "question": "Nominalizza: 'möglich' →",
+          "answer": "die Möglichkeit",
+          "explanation": "Agg. in -lich → + -keit = femminile."
+        },
+        {
+          "question": "Infinito sostantivato di 'lesen':",
+          "answer": "das Lesen",
+          "explanation": "Das + Infinitiv = neutro."
+        },
+        {
+          "question": "Nominalizza: 'fahren' (agente):",
+          "answer": "der Fahrer",
+          "explanation": "Verb + -er = agente maschile."
+        }
+      ]
+    },
+    {
+      "id": "b2_18",
+      "name": "Prefissi verbali",
+      "explanation": "Ver-, zer-, ent-, er-, be- e the loro significato.",
+      "content": {
+        "regola": "the prefissi inseparabili aggiungono un significato specifico to the Verb. 'Ver-': cambiamento/errore/completamento (verstehen capire, vergessen dimenticare, verkaufen vendere, sich verlaufen perdersi). 'Zer-': distruzione (zerstören distruggere, zerbrechen rompere in pezzi). 'Ent-': allontanamento/inizio (entdecken scoprire, entscheiden decidere, sich entwickeln svilupparsi). 'Er-': raggiungimento/inizio/morte (erreichen raggiungere, erklären spiegare, erfrieren morire of freddo). 'Be-': rende the Transitive verb (antworten→beantworten, sprechen→besprechen).\n\nQuesti prefissi are SEMPRE inseparabili (non si staccano) e the Partizip II NON prende ge-: verstanden, zerstört, entdeckt, erreicht, besucht.",
+        "schema": "| Prefisso | Significato base        | examples                              |",
+        "esempi": [
+          {
+            "tedesco": "Ich verstehe das nicht.",
+            "italiano": "Non capisco questo. (ver-: comprensione)",
+            "english": "Non capisco questo. (ver-: comprensione)"
+          },
+          {
+            "tedesco": "Er hat alles vergessen.",
+            "italiano": "Ha dimenticato tutto. (ver-: perdita)",
+            "english": "has dimenticato tutto. (ver-: perdita)"
+          },
+          {
+            "tedesco": "Der Sturm hat das Haus zerstört.",
+            "italiano": "La tempesta ha distrutto la casa. (zer-)",
+            "english": "the tempesta has distrutto the casa. (zer-)"
+          },
+          {
+            "tedesco": "Kolumbus hat Amerika entdeckt.",
+            "italiano": "Colombo ha scoperto l'America. (ent-)",
+            "english": "Colombo has scoperto l'America. (ent-)"
+          },
+          {
+            "tedesco": "Wir haben das Ziel erreicht.",
+            "italiano": "Abbiamo raggiunto l'obiettivo. (er-)",
+            "english": "Abbiamo raggiunto l'obiettivo. (er-)"
+          },
+          {
+            "tedesco": "Können Sie die Frage beantworten?",
+            "italiano": "Può rispondere alla domanda? (be-: transitivo)",
+            "english": "Può rispondere to the domanda? (be-: transitivo)"
+          },
+          {
+            "tedesco": "Er hat das Glas zerbrochen.",
+            "italiano": "Ha rotto il bicchiere in pezzi.",
+            "english": "has rotto the bicchiere in pezzi."
+          },
+          {
+            "tedesco": "Wer hat das Telefon erfunden?",
+            "italiano": "Chi ha inventato il telefono? (er-: creazione)",
+            "english": "Chi has inventato the telefono? (er-: creazione)"
+          }
+        ],
+        "eccezioni": "'Ver-' has significati molto vari: cambiamento (verwandeln=trasformare), errore (sich verfahren=sbagliare strada), completamento (verbrauchen=consumare). 'Be-' rende transitivo: 'Ich antworte auf die Frage' → 'Ich beantworte die Frage' (oggetto diretto without Preposition).",
+        "uso": "Capire the prefissi aiuta to/at dedurre the significato of verbi sconosciuti. Ver-/zer-/ent-/er-/be-/ge-/emp-/miss- are SEMPRE inseparabili. No ge- to the Partizip II: verstanden (non geverstanden). L'accento cade on the root (non on the prefisso)."
+      },
+      "exercises": [
+        {
+          "question": "Partizip II di 'verstehen':",
+          "answer": "verstanden",
+          "explanation": "Inseparabile: no ge-."
+        },
+        {
+          "question": "Quale prefisso per 'distruzione'?",
+          "answer": "zer- (zerstören, zerbrechen)",
+          "explanation": "Zer- = in pezzi, distruzione."
+        },
+        {
+          "question": "Quale prefisso rende il verbo transitivo?",
+          "answer": "be- (antworten → beantworten)",
+          "explanation": "Be- aggiunge the transitività."
+        },
+        {
+          "question": "Partizip II di 'entdecken':",
+          "answer": "entdeckt",
+          "explanation": "Inseparabile: no ge-."
+        },
+        {
+          "question": "Significato di 'sich verlaufen':",
+          "answer": "Perdersi (camminando)",
+          "explanation": "Ver- = errore/sbaglio in the direzione."
+        }
+      ]
+    },
+    {
+      "id": "b2_19",
+      "name": "Reggenza verbale complessa",
+      "explanation": "Verbi with doppio complement e costruzioni complesse.",
+      "content": {
+        "regola": "Molti verbi tedeschi richiedono complementi specifici: Dative + Accusative: geben (dare), schenken (regalare), erzählen (raccontare), empfehlen (raccomandare), leihen (prestare). Accusative + Genitive (rare, formal): beschuldigen (accusare of), verdächtigen (sospettare of), berauben (derubare of).\n\nOrdine complementi: with due sostantivi → Dative first of Accusative: 'Ich gebe dem Mann das Buch.' with Pronoun + Noun → Pronoun first: 'Ich gebe ihm das Buch.' / 'Ich gebe ex. dem Mann.' with due pronomi → Accusative first of Dative: 'Ich gebe ex. ihm.'\n\nAlcuni verbi hanno reggenza different dall'italiano: fragen + Akk. (Person) + Akk. (cosa): 'Ich frage dich etwas.'",
+        "schema": "Dative + Accusative:",
+        "esempi": [
+          {
+            "tedesco": "Ich gebe dem Kind das Spielzeug.",
+            "italiano": "Do il giocattolo al bambino.",
+            "english": "Do the giocattolo to the bambino."
+          },
+          {
+            "tedesco": "Sie schenkt ihrer Mutter Blumen.",
+            "italiano": "Regala fiori a sua madre.",
+            "english": "Regala fiori to/at sua madre."
+          },
+          {
+            "tedesco": "Kannst du mir das erklären?",
+            "italiano": "Puoi spiegarmelo?",
+            "english": "Puoi spiegarmelo?"
+          },
+          {
+            "tedesco": "Ich gebe es dir morgen.",
+            "italiano": "Te lo do domani.",
+            "english": "Te the do domani."
+          },
+          {
+            "tedesco": "Er empfiehlt uns dieses Restaurant.",
+            "italiano": "Ci raccomanda questo ristorante.",
+            "english": "Ci raccomanda questo ristorante."
+          },
+          {
+            "tedesco": "Man beschuldigte ihn des Diebstahls.",
+            "italiano": "Lo accusarono di furto.",
+            "english": "the accusarono of furto."
+          },
+          {
+            "tedesco": "Ich frage dich etwas.",
+            "italiano": "Ti chiedo qualcosa.",
+            "english": "Ti chiedo qualcosa."
+          },
+          {
+            "tedesco": "Sie leiht ihm ihr Auto.",
+            "italiano": "Gli presta la sua macchina.",
+            "english": "Gli presta the sua macchina."
+          }
+        ],
+        "eccezioni": "'Fragen' regge doppio Accusative: 'Ich frage DICH (acc.) ETWAS (acc.).' 'Lehren' regge doppio acc.: 'Er lehrt mich Deutsch.' (but anche: 'Er lehrt mir Deutsch.' - with dat. colloquiale). 'Kosten' regge doppio acc.: 'Das kostet mich viel Geld.'",
+        "uso": "Imparare the reggenza of ogni Verb is fondamentale. in the dizionari: geben + Dat. + Akk. Alcuni verbi italiani transitivi are Dative in tedesco (helfen, danken, gefallen). L'ordine of the complementi dipende from the tipo (Noun vs Pronoun)."
+      },
+      "exercises": [
+        {
+          "question": "Ordina: geben / ich / ihm / es",
+          "answer": "Ich gebe es ihm.",
+          "explanation": "Due pronomi: Akk. (ex.) first of Dat. (ihm)."
+        },
+        {
+          "question": "Ordina: geben / ich / dem Kind / das Buch",
+          "answer": "Ich gebe dem Kind das Buch.",
+          "explanation": "Due sostantivi: Dat. first of Akk."
+        },
+        {
+          "question": "Ordina: geben / ich / es / dem Kind",
+          "answer": "Ich gebe es dem Kind.",
+          "explanation": "Pronoun first of Noun."
+        },
+        {
+          "question": "Quale verbo ha doppio accusativo?",
+          "answer": "fragen (Ich frage dich etwas)",
+          "explanation": "Fragen + Akk. (Person) + Akk. (cosa)."
+        },
+        {
+          "question": "Completa: Sie schenkt ___ (sua madre) ___ (fiori).",
+          "answer": "ihrer Mutter Blumen",
+          "explanation": "Dat. + Akk.: ihrer Mutter (dat.) Blumen (akk.)."
+        }
+      ]
+    },
+    {
+      "id": "b2_20",
+      "name": "Connettori testuali avanzati",
+      "explanation": "Connettori for strutturare testi argomentativi.",
+      "content": {
+        "regola": "for scrivere testi argomentativi servono connettori testuali: Introduzione: zunächst (innanzitutto), erstens (first), einerseits (from/by un lato). Aggiunta: außerdem (furthermore), darüber hinaus (oltre to/at ciò), ferner (furthermore, formal). Contrasto: hingegen (invece), im Gegensatz dazu (to the contrario), allerdings (however). Conseguenza: folglich (of conseguenza), demzufolge (of conseguenza), infolgedessen (to/at seguito of ciò). Conclusione: zusammenfassend (riassumendo), abschließend (for concludere), schließlich (infine).\n\nQuesti connettori occupano posizione 1 (with inversione) o posizione in the Mittelfeld. are fondamentali for l'esame B2 (Schreiben Teil 2).",
+        "schema": "| Funzione     | Connettori                                    |",
+        "esempi": [
+          {
+            "tedesco": "Zunächst möchte ich das Problem erklären.",
+            "italiano": "Innanzitutto vorrei spiegare il problema.",
+            "english": "Innanzitutto vorrei spiegare the problema."
+          },
+          {
+            "tedesco": "Außerdem gibt es noch einen weiteren Aspekt.",
+            "italiano": "Inoltre c'è un ulteriore aspetto.",
+            "english": "furthermore c'is un ulteriore aspetto."
+          },
+          {
+            "tedesco": "Allerdings muss man bedenken, dass...",
+            "italiano": "Tuttavia bisogna considerare che...",
+            "english": "however bisogna considerare che..."
+          },
+          {
+            "tedesco": "Folglich sollten wir Maßnahmen ergreifen.",
+            "italiano": "Di conseguenza dovremmo prendere provvedimenti.",
+            "english": "of conseguenza dovremmo prendere provvedimenti."
+          },
+          {
+            "tedesco": "Einerseits ist das richtig, andererseits...",
+            "italiano": "Da un lato è giusto, dall'altro...",
+            "english": "from/by un lato is giusto, on the other hand..."
+          },
+          {
+            "tedesco": "Zusammenfassend lässt sich sagen, dass...",
+            "italiano": "Riassumendo si può dire che...",
+            "english": "Riassumendo si può to say che..."
+          }
+        ],
+        "eccezioni": "'Allerdings' può to stay/stand in pos. 1 (inversione) o in the Mittelfeld: 'Allerdings muss man...' / 'Man muss allerdings...' 'Jedoch' is sinonimo of 'allerdings/dennoch'. 'Zwar...aber' for concessione bilanciata.",
+        "uso": "Strutturare un testo argomentativo: 1) Introduzione (zunächst, einerseits), 2) Argomenti pro (außerdem, darüber hinaus), 3) Argomenti contra (allerdings, hingegen), 4) Conclusione (zusammenfassend, schließlich). Essenziale for B2 Schreiben."
+      },
+      "exercises": [
+        {
+          "question": "Per introdurre il primo punto:",
+          "answer": "Zunächst / Erstens / In erster Linie",
+          "explanation": "Connettori d'introduzione."
+        },
+        {
+          "question": "Per aggiungere un argomento:",
+          "answer": "Außerdem / Darüber hinaus / Ferner",
+          "explanation": "Connettori d'aggiunta."
+        },
+        {
+          "question": "Per contrasto:",
+          "answer": "Allerdings / Hingegen / Jedoch",
+          "explanation": "Connettori of contrasto."
+        },
+        {
+          "question": "Per concludere:",
+          "answer": "Zusammenfassend / Abschließend / Schließlich",
+          "explanation": "Connettori of conclusione."
+        },
+        {
+          "question": "'Da un lato...dall'altro':",
+          "answer": "Einerseits...andererseits",
+          "explanation": "Doppio connettore for bilanciare."
+        }
+      ]
+    },
+    {
+      "id": "b2_21",
+      "name": "Apposizioni",
+      "explanation": "Apposizioni come complement descrittivo between/among virgole.",
+      "content": {
+        "regola": "L'apposizione (Apposition) is un complement che descrive un Noun, posto between/among virgole in the stesso Case of the Noun to/at cui refers to. example: 'Herr Müller, MEIN LEHRER, ist nett.' (the sig. Müller, the mio insegnante, is gentile). 'Mein Lehrer' is in Nominative come 'Herr Müller'.\n\nL'apposizione concorda in Case: 'Ich kenne Herrn Müller, MEINEN LEHRER.' (acc.) 'Ich helfe Herrn Müller, MEINEM LEHRER.' (dat.).\n\nApposizioni with 'als' (come/in qualità of): 'Berlin als Hauptstadt Deutschlands' (Berlino come capitale of the Germania). 'Als' + Nominative se riferito to the subject.",
+        "schema": "| Case of the Noun | Apposizione in the stesso Case | example                             |",
+        "esempi": [
+          {
+            "tedesco": "Berlin, die Hauptstadt Deutschlands, ist interessant.",
+            "italiano": "Berlino, la capitale della Germania, è interessante.",
+            "english": "Berlino, the capitale of the Germania, is interessante."
+          },
+          {
+            "tedesco": "Mein Bruder, ein erfahrener Arzt, hilft mir.",
+            "italiano": "Mio fratello, un medico esperto, mi aiuta.",
+            "english": "Mio fratello, un medico esperto, mi aiuta."
+          },
+          {
+            "tedesco": "Ich besuche meinen Freund, einen bekannten Musiker.",
+            "italiano": "Visito il mio amico, un musicista famoso.",
+            "english": "Visito the mio amico, un musicista famoso."
+          },
+          {
+            "tedesco": "Er arbeitet als Ingenieur bei Siemens.",
+            "italiano": "Lavora come ingegnere alla Siemens.",
+            "english": "Lavora come ingegnere to the Siemens."
+          },
+          {
+            "tedesco": "Goethe, der berühmteste deutsche Dichter, lebte in Weimar.",
+            "italiano": "Goethe, il più famoso poeta tedesco, visse a Weimar.",
+            "english": "Goethe, the più famoso poeta tedesco, visse to/at Weimar."
+          },
+          {
+            "tedesco": "Wir danken Frau Schmidt, unserer Lehrerin, für ihre Hilfe.",
+            "italiano": "Ringraziamo la sig.ra Schmidt, la nostra insegnante, per il suo aiuto.",
+            "english": "Ringraziamo the sig.ra Schmidt, the nostra insegnante, for the suo aiuto."
+          }
+        ],
+        "eccezioni": "Dopo 'als' in funzione appositiva: stesso Case of the Noun: 'Er arbeitet als Arzt' (nom. perché sogg.). 'Ich kenne ihn als guten Arzt' (acc. perché ogg.). the apposizioni are sempre separate from/by virgole.",
+        "uso": "for aggiungere informazioni without to use una relativa. frequent in the scrittura. Concordano SEMPRE in the Case. with 'als': professioni, ruoli, caratteristiche. Rendono the testo più fluido e informativo."
+      },
+      "exercises": [
+        {
+          "question": "Completa (nom.): 'Herr Schmidt, ___ Nachbar, ist nett.'",
+          "answer": "mein",
+          "explanation": "Apposizione in Nominative come the subject."
+        },
+        {
+          "question": "Completa (akk.): 'Ich kenne Frau Müller, ___ Ärztin.'",
+          "answer": "eine/meine",
+          "explanation": "Accusative come l'oggetto."
+        },
+        {
+          "question": "Con als: 'Er arbeitet ___ Lehrer.'",
+          "answer": "als",
+          "explanation": "Als + professione (Nominative se sogg.)."
+        },
+        {
+          "question": "Caso dell'apposizione: 'Ich helfe dem Mann, ___ Nachbar.'",
+          "answer": "meinem",
+          "explanation": "Dative come the complement of termine."
+        },
+        {
+          "question": "Sono separate da...?",
+          "answer": "Virgole",
+          "explanation": "the apposizioni are sempre between/among virgole."
+        }
+      ]
+    },
+    {
+      "id": "b2_22",
+      "name": "Periodo ipotetico - Tutti i tipi",
+      "explanation": "the tre tipi of periodo ipotetico tedesco: reale, potenziale, irreale.",
+      "content": {
+        "regola": "Tipo the - Reale (possibile/probabile): 'Wenn ex. regnet, bleibe ich zu Hause.' (Indicative in entrambe the parti). Tipo II - Irreale Present tense: 'Wenn ich reich wäre, würde ich reisen.' (Konj. II). Tipo III - Irreale Past tense: 'Wenn ich das gewusst hätte, wäre ich gekommen.' (Konj. II Pluperfect).\n\nMisto (condizione passata, conseguenza Present tense): 'Wenn ich fleißiger gewesen wäre, hätte ich jetzt einen guten Job.' / 'Wenn ich fleißiger gewesen wäre, würde ich jetzt gut verdienen.'\n\nwithout 'wenn' (più formal): inversione in the protasi. 'Wäre ich reich, würde ich reisen.' 'Hätte ich das gewusst, wäre ich gekommen.'",
+        "schema": "| Tipo        | Protasi (se...)                  | Apodosi (then...)              |",
+        "esempi": [
+          {
+            "tedesco": "Wenn du kommst, freue ich mich. (Tipo I)",
+            "italiano": "Se vieni, mi fa piacere.",
+            "english": "Se vieni, mi fa piacere."
+          },
+          {
+            "tedesco": "Wenn ich Zeit hätte, würde ich dich besuchen. (Tipo II)",
+            "italiano": "Se avessi tempo, ti visiterei.",
+            "english": "Se avessi Tense, ti visiterei."
+          },
+          {
+            "tedesco": "Wenn ich das gewusst hätte, hätte ich anders gehandelt. (Tipo III)",
+            "italiano": "Se l'avessi saputo, avrei agito diversamente.",
+            "english": "Se l'avessi saputo, avrei agito diversamente."
+          },
+          {
+            "tedesco": "Wäre ich reich, würde ich nicht mehr arbeiten.",
+            "italiano": "Se fossi ricco, non lavorerei più.",
+            "english": "Se fossi ricco, non lavorerei più."
+          },
+          {
+            "tedesco": "Hätte er besser aufgepasst, wäre der Unfall nicht passiert.",
+            "italiano": "Se avesse fatto più attenzione, l'incidente non sarebbe successo.",
+            "english": "Se avesse fatto più attenzione, l'incidente non sarebbe successo."
+          },
+          {
+            "tedesco": "Wenn ich mehr gelernt hätte, würde ich jetzt besser sprechen. (misto)",
+            "italiano": "Se avessi studiato di più, ora parlerei meglio.",
+            "english": "Se avessi studiato of più, ora parlerei meglio."
+          }
+        ],
+        "eccezioni": "with 'falls' (in the Case in cui) to the posto of 'wenn' for condizione reale/possibile. 'Selbst wenn / Auch wenn' (anche se) for concessione Conditional. 'ex. sei denn' (to/at meno che non): 'Ich komme, ex. sei denn, ex. regnet.'",
+        "uso": "Tipo the: progetti, previsioni. Tipo II: desideri, consigli, ipotesi irreali. Tipo III: rimpianti, speculazioni on the Past tense. Misto: condizione passata with effetto Present tense. without wenn: più formal/letterario."
+      },
+      "exercises": [
+        {
+          "question": "Che tipo? 'Wenn es regnet, nehme ich einen Schirm.'",
+          "answer": "Tipo I (reale) - indicativo.",
+          "explanation": "Condizione possibile/reale."
+        },
+        {
+          "question": "Che tipo? 'Wenn ich Geld hätte, würde ich reisen.'",
+          "answer": "Tipo II (irreale presente) - Konj. II.",
+          "explanation": "Condizione irreale Present tense."
+        },
+        {
+          "question": "Che tipo? 'Hätte ich das gewusst, wäre ich gekommen.'",
+          "answer": "Tipo III (irreale passato) - Konj. II Plusqu.",
+          "explanation": "Condizione irreale passata."
+        },
+        {
+          "question": "Senza wenn: 'Wenn ich reich wäre,...' →",
+          "answer": "Wäre ich reich,...",
+          "explanation": "Inversione in the protasi."
+        },
+        {
+          "question": "'A meno che non' in tedesco?",
+          "answer": "es sei denn",
+          "explanation": "'Ich komme, ex. sei denn, ex. regnet.'"
+        }
+      ]
+    },
+    {
+      "id": "b2_23",
+      "name": "Esprimere opinioni",
+      "explanation": "Strutture for esprimere e argomentare opinioni.",
+      "content": {
+        "regola": "for esprimere opinioni: 'Meiner Meinung nach + inversione' (second me), 'Ich bin der Meinung, dass...' (are dell'opinione che), 'Ich finde/glaube/denke, dass...' (Trovo/credo/penso che), 'Aus meiner Sicht' (from the mio punto of vista).\n\nfor concordare: 'Ich stimme zu/Ich bin einverstanden' (are d'accordo), 'Das sehe ich genauso' (the vedo to the stesso Mood). for dissentire: 'Ich bin anderer Meinung' (are of different opinione), 'from/by bin ich nicht sicher' (Non ne are sicuro), 'Das stimmt meiner Meinung nach nicht' (Non is vero second me).\n\nfor argomentare: 'Dafür spricht, dass...' (to/at favore c'is the fatto che), 'Dagegen spricht, dass...' (against c'is the fatto che), 'Ein Vorteil/Nachteil ist, dass...' (Un vantaggio/svantaggio is che).",
+        "schema": "| Funzione    | Espressione                              |",
+        "esempi": [
+          {
+            "tedesco": "Meiner Meinung nach ist das richtig.",
+            "italiano": "Secondo me è giusto.",
+            "english": "second me is giusto."
+          },
+          {
+            "tedesco": "Ich bin der Meinung, dass wir mehr tun sollten.",
+            "italiano": "Sono dell'opinione che dovremmo fare di più.",
+            "english": "are dell'opinione che dovremmo to do/make of più."
+          },
+          {
+            "tedesco": "Da stimme ich Ihnen völlig zu.",
+            "italiano": "Su questo sono completamente d'accordo con Lei.",
+            "english": "on questo are completamente d'accordo with Lei."
+          },
+          {
+            "tedesco": "Ich sehe das anders.",
+            "italiano": "La vedo diversamente.",
+            "english": "the vedo diversamente."
+          },
+          {
+            "tedesco": "Dafür spricht, dass die Kosten sinken.",
+            "italiano": "A favore c'è il fatto che i costi diminuiscono.",
+            "english": "to/at favore c'is the fatto che the costi diminuiscono."
+          },
+          {
+            "tedesco": "Ein Nachteil wäre, dass es mehr Zeit kostet.",
+            "italiano": "Uno svantaggio sarebbe che costa più tempo.",
+            "english": "Uno svantaggio sarebbe che costa più Tense."
+          }
+        ],
+        "eccezioni": "'Meiner Meinung nach' (Dative!) causa inversione: 'Meiner Meinung nach IST das richtig.' Anche: 'meines Erachtens' (Genitive, formal). for attenuare: Subjunctive II: 'Ich würde sagen, dass...' 'Man könnte argumentieren, dass...'",
+        "uso": "Essenziale for l'esame B2 (mündliche Prüfung e Schreiben). Variare the espressioni. to use connettori for strutturare. Esprimere disaccordo in Mood cortese. Bilanciare pro e against."
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Secondo me è sbagliato.'",
+          "answer": "Meiner Meinung nach ist das falsch.",
+          "explanation": "Meiner Meinung nach + inversione."
+        },
+        {
+          "question": "'Sono d'accordo con Lei':",
+          "answer": "Ich stimme Ihnen zu. / Da bin ich einverstanden.",
+          "explanation": "Espressioni of accordo."
+        },
+        {
+          "question": "'Non sono d'accordo':",
+          "answer": "Ich bin anderer Meinung. / Da muss ich widersprechen.",
+          "explanation": "Espressioni of disaccordo cortese."
+        },
+        {
+          "question": "'Un vantaggio è che...':",
+          "answer": "Ein Vorteil ist, dass...",
+          "explanation": "for argomentare to/at favore."
+        },
+        {
+          "question": "Come attenuare un'opinione?",
+          "answer": "Konjunktiv II: Ich würde sagen... / Man könnte argumentieren...",
+          "explanation": "Forme attenuate with Konj. II."
+        }
+      ]
+    },
+    {
+      "id": "b2_24",
+      "name": "Trasformazioni attivo-passivo",
+      "explanation": "Come trasformare frasi dall'attivo to the passivo e viceversa.",
+      "content": {
+        "regola": "Attivo → Passivo: l'oggetto Accusative diventa subject, the subject diventa 'von + Dativ' (agente), the Verb diventa werden + Partizip II. 'Der Arzt untersucht den Patienten.' → 'Der Patient wird (vom Arzt) untersucht.'\n\nPassivo → Attivo: the subject passivo diventa oggetto, 'von + Dat.' diventa subject, werden sparisce. Se non c'is agente, to use 'man': 'Das Fenster wird geöffnet.' → 'Man öffnet das Fenster.'\n\nAlternative to the passivo: 'man' + attivo, 'sich lassen' + Inf., Adjective in '-bar', 'sein + zu + Inf.' 'Das Problem kann gelöst werden.' = 'Man kann das Problem lösen.' = 'Das Problem lässt sich lösen.' = 'Das Problem ist lösbar.' = 'Das Problem ist zu lösen.'",
+        "schema": "Attivo → Passivo:",
+        "esempi": [
+          {
+            "tedesco": "Man trinkt hier viel Bier. → Hier wird viel Bier getrunken.",
+            "italiano": "Qui si beve molta birra.",
+            "english": "Qui si beve molta birra."
+          },
+          {
+            "tedesco": "Das Buch wurde von Goethe geschrieben. → Goethe schrieb das Buch.",
+            "italiano": "Goethe scrisse il libro.",
+            "english": "Goethe scrisse the libro."
+          },
+          {
+            "tedesco": "Das Problem kann gelöst werden. = Das Problem lässt sich lösen.",
+            "italiano": "Il problema può essere risolto. = Il problema si può risolvere.",
+            "english": "the problema può to be risolto. = the problema si può risolvere."
+          },
+          {
+            "tedesco": "Die Aufgabe ist machbar. (alternativa -bar)",
+            "italiano": "Il compito è fattibile.",
+            "english": "the compito is fattibile."
+          },
+          {
+            "tedesco": "Die Arbeit ist bis morgen zu erledigen. (sein+zu)",
+            "italiano": "Il lavoro è da sbrigare entro domani.",
+            "english": "the lavoro is from/by sbrigare entro domani."
+          },
+          {
+            "tedesco": "Man sollte mehr Sport treiben. (alternativa con man)",
+            "italiano": "Si dovrebbe fare più sport.",
+            "english": "Si dovrebbe to do/make più sport."
+          }
+        ],
+        "eccezioni": "Non tutti the verbi ammettono the passivo: intransitivi without oggetto (schlafen, gehen → solo passivo impersonale: 'ex. wird geschlafen'), riflessivi (sich freuen → no passivo), verbi of stato (haben, kennen, wissen → rare/no passivo).",
+        "uso": "the trasformazioni are frequent nell'esame B2. Saper passare from/by attivo to/at passivo e viceversa. Conoscere the alternative to the passivo. 'Sein + zu + Inf.' has valore modale (deve/può to be fatto)."
+      },
+      "exercises": [
+        {
+          "question": "Attivo→Passivo: 'Man schließt das Geschäft um 18 Uhr.'",
+          "answer": "Das Geschäft wird um 18 Uhr geschlossen.",
+          "explanation": "Oggetto → subject, werden + Part. II."
+        },
+        {
+          "question": "Passivo→Attivo: 'Das Buch wurde von ihm gelesen.'",
+          "answer": "Er las das Buch.",
+          "explanation": "Von ihm → subject (er)."
+        },
+        {
+          "question": "Alternativa con sich lassen: 'Das kann gemacht werden.'",
+          "answer": "Das lässt sich machen.",
+          "explanation": "Sich lassen + Inf."
+        },
+        {
+          "question": "Alternativa con -bar: 'Das kann getrunken werden.'",
+          "answer": "Das ist trinkbar.",
+          "explanation": "Adjective in -bar."
+        },
+        {
+          "question": "Alternativa con sein+zu: 'Die Arbeit muss gemacht werden.'",
+          "answer": "Die Arbeit ist zu machen.",
+          "explanation": "Sein + zu + Inf. (obbligo/possibilità)."
+        }
+      ]
+    },
+    {
+      "id": "b2_25",
+      "name": "Registro formale vs informale",
+      "explanation": "Differenze between/among register formal e informale in tedesco.",
+      "content": {
+        "regola": "the tedesco distingue chiaramente register formal (Sie) e informale (du). formal: Sie (Lei), Subjunctive II for cortesia, costruzioni passive, Nominalstil, connettori formali. Informale: du/ihr, Imperative diretto, frasi brevi, particelle modali (doch, mal, ja).\n\nDifferenze grammaticali: formal: 'Könnten Sie mir bitte helfen?' Informale: 'Kannst du mir mal helfen?' formal: 'Ich möchte Sie bitten...' Informale: 'Ich wollte dich fragen...'\n\nformal written: 'Sehr geehrte Damen und Herren,...' 'Mit freundlichen Grüßen'. Informale written: 'Liebe/r...,' 'Viele Grüße / LG'.",
+        "schema": "| Aspetto      | formal                          | Informale                     |",
+        "esempi": [
+          {
+            "tedesco": "Könnten Sie mir bitte helfen? (formale)",
+            "italiano": "Potrebbe aiutarmi per favore?",
+            "english": "Potrebbe aiutarmi for favore?"
+          },
+          {
+            "tedesco": "Kannst du mir mal helfen? (informale)",
+            "italiano": "Puoi darmi una mano?",
+            "english": "Puoi darmi una mano?"
+          },
+          {
+            "tedesco": "Ich möchte Sie darauf hinweisen, dass... (formale)",
+            "italiano": "Vorrei farLe presente che...",
+            "english": "Vorrei farLe Present tense che..."
+          },
+          {
+            "tedesco": "Du, ich wollte dir noch sagen, dass... (informale)",
+            "italiano": "Senti, volevo dirti che...",
+            "english": "Senti, volevo dirti che..."
+          },
+          {
+            "tedesco": "Sehr geehrter Herr Müller, (formale)",
+            "italiano": "Egregio signor Müller,",
+            "english": "Egregio signor Müller,"
+          },
+          {
+            "tedesco": "Lieber Thomas, (informale)",
+            "italiano": "Caro Thomas,",
+            "english": "Caro Thomas,"
+          }
+        ],
+        "eccezioni": "in Austria e Svizzera the norme of cortesia possono variare. in aziende giovani/tech: spesso 'du' anche to the lavoro. in email: 'Hallo Frau/Herr...' is semi-formal. 'Sie' iniziale in una relazione può passare to/at 'du' (the più anziano/superiore propone the 'du').",
+        "uso": "formal: with sconosciuti, superiori, clienti, in lettere ufficiali. Informale: with amici, familiari, colleghi stretti, giovani. Semi-formal: 'Hallo Frau Schmidt' (email aziendali). Sbagliare the register può offendere o risultare inappropriato."
+      },
+      "exercises": [
+        {
+          "question": "Formalizza: 'Kannst du mir helfen?'",
+          "answer": "Könnten Sie mir bitte helfen?",
+          "explanation": "Sie + Konj. II + bitte."
+        },
+        {
+          "question": "Informale per: 'Ich möchte Sie bitten, das Formular auszufüllen.'",
+          "answer": "Kannst du das mal ausfüllen?",
+          "explanation": "Du + Indicative + particella 'mal'."
+        },
+        {
+          "question": "Saluto formale per email a sconosciuto:",
+          "answer": "Sehr geehrte Damen und Herren,",
+          "explanation": "formal generico."
+        },
+        {
+          "question": "Chiusura formale:",
+          "answer": "Mit freundlichen Grüßen",
+          "explanation": "Standard for lettere/email formali."
+        },
+        {
+          "question": "Quando si usa 'Sie'?",
+          "answer": "Con sconosciuti, superiori, clienti, contesti formali",
+          "explanation": "Sie = form of cortesia."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_01",
+      "name": "Verbposition in Satzverbindungen",
+      "explanation": "Dove va the Verb quando due frasi are collegate.",
+      "content": {
+        "regola": "Congiunzioni coordinanti (und, aber, oder, denn): Verb in posizione 2. Congiunzioni subordinanti (weil, dass, obwohl): Verb to the FINE. Avverbi connettivi (deshalb, trotzdem): Verb subito dopo (inversione, posizione 2).",
+        "schema": "| Tipo | example | Posizione V |",
+        "esempi": [
+          {
+            "tedesco": "Er lernt viel, denn er will die Prüfung bestehen.",
+            "italiano": "Studia molto, perché vuole superare l'esame.",
+            "english": "Studia molto, perché vuole superare l'esame."
+          },
+          {
+            "tedesco": "Er will die Prüfung bestehen, deshalb lernt er viel.",
+            "italiano": "Vuole superare l'esame, perciò studia molto.",
+            "english": "Vuole superare l'esame, perciò studia molto."
+          },
+          {
+            "tedesco": "Er lernt viel, weil er die Prüfung bestehen will.",
+            "italiano": "Studia molto, perché vuole superare l'esame.",
+            "english": "Studia molto, perché vuole superare l'esame."
+          },
+          {
+            "tedesco": "Es regnete, trotzdem ging sie spazieren.",
+            "italiano": "Pioveva, ciononostante andò a passeggiare.",
+            "english": "Pioveva, ciononostante andò to/at passeggiare."
+          },
+          {
+            "tedesco": "Sie ging spazieren, obwohl es regnete.",
+            "italiano": "Andò a passeggiare, benché piovesse.",
+            "english": "Andò to/at passeggiare, benché piovesse."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Dove va il verbo? 'Er bleibt zu Hause, denn er ___ krank.' (sein)",
+          "answer": "ist → V2: ...denn er ist krank.",
+          "explanation": "Dopo Conjunction coordinante → V2."
+        },
+        {
+          "question": "Dove va il verbo? 'Er ist krank, deshalb ___ er zu Hause.' (bleiben)",
+          "answer": "bleibt → ...deshalb bleibt er zu Hause.",
+          "explanation": "Dopo adverbio → inversione (V first of the subject)."
+        },
+        {
+          "question": "Dove va il verbo? 'Er bleibt zu Hause, weil er krank ___.' (sein)",
+          "answer": "ist → ...weil er krank ist.",
+          "explanation": "Dopo Conjunction subordinante → V-Ende."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_02",
+      "name": "Position von Dativ- und Akkusativobjekt",
+      "explanation": "L'ordine of Dative e Accusative in the frase tedesca.",
+      "content": {
+        "regola": "Regola base: first Dative, poi Accusative. Ich gebe dem Mann das Buch. but se l'Accusative is un Pronoun, viene first! Ich gebe ex. dem Mann. Se entrambi pronomi: first Accusative, poi Dative. Ich gebe ex. ihm.",
+        "schema": "Case Ordine",
+        "esempi": [
+          {
+            "tedesco": "Ich gebe dem Kind den Ball.",
+            "italiano": "Do la palla al bambino. (Dat + Akk)",
+            "english": "Do the palla to the bambino. (Dat + Akk)"
+          },
+          {
+            "tedesco": "Ich gebe ihn ihm.",
+            "italiano": "Glielo do. (Akk + Dat)",
+            "english": "Glielo do. (Akk + Dat)"
+          },
+          {
+            "tedesco": "Ich gebe es dem Kind.",
+            "italiano": "Lo do al bambino. (pron. Akk + sost. Dat)",
+            "english": "the do to the bambino. (pron. Akk + sost. Dat)"
+          },
+          {
+            "tedesco": "Ich gebe ihm den Ball.",
+            "italiano": "Gli do la palla. (pron. Dat + sost. Akk)",
+            "english": "Gli do the palla. (pron. Dat + sost. Akk)"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Ordina: 'Ich zeige (meiner Mutter) (das Foto).'",
+          "answer": "Ich zeige meiner Mutter das Foto.",
+          "explanation": "Due sostantivi → Dat + Akk."
+        },
+        {
+          "question": "Ordina: 'Ich zeige (es) (ihr).'",
+          "answer": "Ich zeige es ihr.",
+          "explanation": "Due pronomi → Akk + Dat."
+        },
+        {
+          "question": "Ordina: 'Ich schenke (meinem Vater) (es).'",
+          "answer": "Ich schenke es meinem Vater.",
+          "explanation": "Pronoun first of the Noun."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_03",
+      "name": "Höflichkeit, Vorschläge, Ratschläge und Vorwürfe",
+      "explanation": "Esprimere cortesia, dare consigli e to do/make rimproveri with the Subjunctive II.",
+      "content": {
+        "regola": "Cortesia: Könnten Sie mir helfen? Suggerimento: An deiner Stelle würde ich... / Du solltest... Rimprovero: Du hättest das machen sollen! (Avresti dovuto farlo!)",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Könnten Sie bitte das Fenster öffnen?",
+            "italiano": "Potrebbe aprire la finestra, per favore?",
+            "english": "Potrebbe aprire the finestra, for favore?"
+          },
+          {
+            "tedesco": "Wir könnten morgen wandern gehen.",
+            "italiano": "Potremmo andare a fare un'escursione domani.",
+            "english": "Potremmo to go to/at to do/make un'escursione domani."
+          },
+          {
+            "tedesco": "An deiner Stelle würde ich zum Arzt gehen.",
+            "italiano": "Al tuo posto andrei dal medico.",
+            "english": "to the tuo posto andrei from the medico."
+          },
+          {
+            "tedesco": "Du hättest früher anfangen sollen!",
+            "italiano": "Avresti dovuto iniziare prima!",
+            "english": "Avresti dovuto iniziare first!"
+          },
+          {
+            "tedesco": "Hättest du doch besser zugehört!",
+            "italiano": "Se solo avessi ascoltato meglio!",
+            "english": "Se solo avessi ascoltato meglio!"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Traduci in forma cortese: 'Mi può dire l'ora?'",
+          "answer": "Könnten Sie mir bitte sagen, wie spät es ist?",
+          "explanation": "Könnten Sie... for richieste cortesi."
+        },
+        {
+          "question": "Esprimi un consiglio: 'Al tuo posto studierei di più.'",
+          "answer": "An deiner Stelle würde ich mehr lernen.",
+          "explanation": "An deiner Stelle würde ich... for consigli."
+        },
+        {
+          "question": "Esprimi un rimprovero: 'Avresti dovuto chiamarmi!'",
+          "answer": "Du hättest mich anrufen sollen!",
+          "explanation": "hätte + sollen + Infinitiv for rimproveri."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_04",
+      "name": "Irreale Vergleiche und Folgen (als ob)",
+      "explanation": "Paragoni irreali with 'als ob' e 'als' (come se).",
+      "content": {
+        "regola": "'als ob' + Subjunctive II + Verb to the fine: Er tut, als ob er alles wüsste. form breve with 'als' + Verb subito dopo: Er tut, als wüsste er alles. Stesso significato, the form breve is più elegante.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Er tut, als ob er alles wüsste.",
+            "italiano": "Fa come se sapesse tutto.",
+            "english": "Fa come se sapesse tutto."
+          },
+          {
+            "tedesco": "Sie sieht aus, als wäre sie krank.",
+            "italiano": "Sembra che sia malata.",
+            "english": "Sembra che sia malata."
+          },
+          {
+            "tedesco": "Er tat so, als hätte er nichts gehört.",
+            "italiano": "Fece come se non avesse sentito niente.",
+            "english": "Fece come se non avesse sentito niente."
+          },
+          {
+            "tedesco": "Es ist zu kalt, als dass wir draußen essen könnten.",
+            "italiano": "Fa troppo freddo per mangiare fuori.",
+            "english": "Fa troppo freddo for mangiare outside."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Fa come se non mi conoscesse.'",
+          "answer": "Er tut, als ob er mich nicht kennen würde. / Er tut, als würde er mich nicht kennen.",
+          "explanation": "als ob + Konj. II (V-Ende) oppure als + Konj. II (V2)."
+        },
+        {
+          "question": "Traduci: 'Sembrava che avesse pianto.'",
+          "answer": "Sie sah aus, als hätte sie geweint.",
+          "explanation": "als + Konj. II Vergangenheit."
+        },
+        {
+          "question": "Traduci: 'È troppo tardi per cambiare qualcosa.'",
+          "answer": "Es ist zu spät, als dass man noch etwas ändern könnte.",
+          "explanation": "zu...als dass + Konj. II."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_05",
+      "name": "Formen mit Passivbedeutung",
+      "explanation": "Forme che hanno significato passivo without to use 'werden'.",
+      "content": {
+        "regola": "'sich lassen' + Inf = si può to do/make: Das lässt sich machen. 'sein + zu + Inf' = deve/può to be fatto: Die Aufgabe ist zu erledigen. '-bar' = che può to be: machbar (fattibile), essbar (commestibile).",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Das ist nicht zu glauben!",
+            "italiano": "Non ci si può credere!",
+            "english": "Non ci si può credere!"
+          },
+          {
+            "tedesco": "Das Problem lässt sich lösen.",
+            "italiano": "Il problema si può risolvere.",
+            "english": "the problema si può risolvere."
+          },
+          {
+            "tedesco": "Dieses Wasser ist trinkbar.",
+            "italiano": "Quest'acqua è potabile.",
+            "english": "Quest'acqua is potabile."
+          },
+          {
+            "tedesco": "Die zu erledigende Arbeit ist enorm.",
+            "italiano": "Il lavoro da svolgere è enorme.",
+            "english": "the lavoro from/by svolgere is enorme."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Trasforma in alternativa al passivo: 'Das kann repariert werden.'",
+          "answer": "Das lässt sich reparieren. / Das ist zu reparieren.",
+          "explanation": "sich lassen + Inf. oppure sein + zu + Inf."
+        },
+        {
+          "question": "Quale aggettivo in -bar? 'essen → ___'",
+          "answer": "essbar",
+          "explanation": "ess- + -bar = commestibile."
+        },
+        {
+          "question": "Trasforma: 'Der Fehler kann nicht erklärt werden.'",
+          "answer": "Der Fehler ist nicht zu erklären. / Der Fehler lässt sich nicht erklären.",
+          "explanation": "Alternative to the passivo with modale."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_06",
+      "name": "Passivsätze ohne Subjekt",
+      "explanation": "Frasi passive without un subject specifico.",
+      "content": {
+        "regola": "'ex.' come subject formal: ex. wurde viel gelacht. (Si is riso molto.) Se qualcos'altro is all'inizio, 'ex.' sparisce: Gestern wurde viel gelacht. It is used for azioni generali dove non importa chi agisce.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Hier wird nicht geraucht!",
+            "italiano": "Qui non si fuma!",
+            "english": "Qui non si fuma!"
+          },
+          {
+            "tedesco": "Es wurde viel diskutiert.",
+            "italiano": "Si è discusso molto.",
+            "english": "Si is discusso molto."
+          },
+          {
+            "tedesco": "Am Wochenende wird gefeiert.",
+            "italiano": "Nel fine settimana si festeggia.",
+            "english": "in the fine settimana si festeggia."
+          },
+          {
+            "tedesco": "Im Unterricht darf nicht gegessen werden.",
+            "italiano": "A lezione non si può mangiare.",
+            "english": "to/at lezione non si può mangiare."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Qui si parla tedesco.'",
+          "answer": "Hier wird Deutsch gesprochen.",
+          "explanation": "Passivo impersonale without subject."
+        },
+        {
+          "question": "Traduci: 'Si è ballato fino a mezzanotte.'",
+          "answer": "Es wurde bis Mitternacht getanzt.",
+          "explanation": "ex. + wurde + Partizip II."
+        },
+        {
+          "question": "Con o senza 'es'? 'Am Abend ___ wird gefeiert.'",
+          "answer": "Am Abend wird gefeiert. (senza es)",
+          "explanation": "Se the frase inizia with altro elemento, ex. scompare."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_07",
+      "name": "Wann ist Passiv möglich, wann nicht?",
+      "explanation": "Quando si può e quando NON si può to use the passivo.",
+      "content": {
+        "regola": "SÌ: with verbi transitivi (with Accusative). Der Kuchen wird gebacken. NO: with verbi riflessivi (sich freuen), verbi of stato (sein, bleiben), haben/besitzen/kennen. 'Er hat ein Auto' NON può diventare passivo.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Das Buch wird gelesen. ✓",
+            "italiano": "Il libro viene letto.",
+            "english": "the libro viene letto."
+          },
+          {
+            "tedesco": "*Es wird sich gefreut. ✗",
+            "italiano": "*Ci si rallegra. (NO! riflessivo)",
+            "english": "*Ci si rallegra. (NO! riflessivo)"
+          },
+          {
+            "tedesco": "Ihm wird geholfen. ✓",
+            "italiano": "Viene aiutato. (Dat-passivo)",
+            "english": "Viene aiutato. (Dat-passivo)"
+          },
+          {
+            "tedesco": "*Der Hund wird gehabt. ✗",
+            "italiano": "*Il cane viene avuto. (NO! haben)",
+            "english": "*the cane viene avuto. (NO! haben)"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Passivo possibile? 'Man isst den Kuchen.'",
+          "answer": "Sì: Der Kuchen wird gegessen.",
+          "explanation": "Transitive verb with Akk → passivo possibile."
+        },
+        {
+          "question": "Passivo possibile? 'Sie freut sich.'",
+          "answer": "No. Verbi riflessivi non formano il passivo.",
+          "explanation": "sich freuen is riflessivo → no passivo."
+        },
+        {
+          "question": "Passivo possibile? 'Man hilft dem Kind.'",
+          "answer": "Sì: Dem Kind wird geholfen.",
+          "explanation": "helfen regge Dative → passivo impersonale."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_08",
+      "name": "Lokale Präpositionen (erweitert)",
+      "explanation": "Preposizioni of luogo avanzate: entlang, gegenüber, innerhalb, außerhalb.",
+      "content": {
+        "regola": "'entlang' + Akk (dopo the nome): den Fluss entlang. 'gegenüber' + Dat: gegenüber dem Bahnhof. 'innerhalb/außerhalb' + Gen: innerhalb der Stadt. 'diesseits/jenseits' + Gen: jenseits des Flusses.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Innerhalb der Stadt gibt es viele Parks.",
+            "italiano": "All'interno della città ci sono molti parchi.",
+            "english": "All'interno of the città ci are molti parchi."
+          },
+          {
+            "tedesco": "Außerhalb der Öffnungszeiten ist geschlossen.",
+            "italiano": "Al di fuori degli orari di apertura è chiuso.",
+            "english": "to the of outside degli orari of apertura is chiuso."
+          },
+          {
+            "tedesco": "Wir gingen den Fluss entlang.",
+            "italiano": "Camminavamo lungo il fiume.",
+            "english": "Camminavamo lungo the fiume."
+          },
+          {
+            "tedesco": "Die Apotheke ist gegenüber dem Krankenhaus.",
+            "italiano": "La farmacia è di fronte all'ospedale.",
+            "english": "the farmacia is of fronte all'ospedale."
+          },
+          {
+            "tedesco": "Jenseits der Alpen liegt Italien.",
+            "italiano": "Al di là delle Alpi c'è l'Italia.",
+            "english": "to the of là of the Alpi c'is l'Italia."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'All'interno dell'edificio non si fuma.'",
+          "answer": "Innerhalb des Gebäudes wird nicht geraucht.",
+          "explanation": "innerhalb + Genitive."
+        },
+        {
+          "question": "Traduci: 'Camminavamo lungo la strada.'",
+          "answer": "Wir gingen die Straße entlang.",
+          "explanation": "entlang postposto + Akkusativ."
+        },
+        {
+          "question": "Traduci: 'La banca è di fronte alla chiesa.'",
+          "answer": "Die Bank ist gegenüber der Kirche.",
+          "explanation": "gegenüber + Dative."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_09",
+      "name": "Kausale Präpositionen",
+      "explanation": "Preposizioni for esprimere causa e motivo.",
+      "content": {
+        "regola": "'wegen' + Gen = to/at causa of. 'aufgrund' + Gen = to/at causa of (formal). 'dank' + Gen/Dat = grazie to/at. 'aus' + Dat = for (motivo interiore): aus Liebe. 'vor' + Dat = for (reazione): vor Freude weinen.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Wegen des Sturms fällt der Flug aus.",
+            "italiano": "A causa della tempesta il volo è cancellato.",
+            "english": "to/at causa of the tempesta the volo is cancellato."
+          },
+          {
+            "tedesco": "Aufgrund der hohen Kosten müssen wir sparen.",
+            "italiano": "A causa degli alti costi dobbiamo risparmiare.",
+            "english": "to/at causa degli alti costi dobbiamo risparmiare."
+          },
+          {
+            "tedesco": "Dank deiner Hilfe haben wir es geschafft.",
+            "italiano": "Grazie al tuo aiuto ce l'abbiamo fatta.",
+            "english": "Grazie to the tuo aiuto ce l'abbiamo fatta."
+          },
+          {
+            "tedesco": "Infolge des Unfalls wurde die Straße gesperrt.",
+            "italiano": "In conseguenza dell'incidente la strada è stata chiusa.",
+            "english": "in conseguenza dell'incidente the strada is stata chiusa."
+          },
+          {
+            "tedesco": "Mangels Beweisen wurde er freigesprochen.",
+            "italiano": "Per mancanza di prove fu assolto.",
+            "english": "for mancanza of prove fu assolto."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'A causa del maltempo restiamo a casa.'",
+          "answer": "Wegen des schlechten Wetters bleiben wir zu Hause.",
+          "explanation": "wegen + Genitive."
+        },
+        {
+          "question": "Traduci: 'Grazie alla sua esperienza ha trovato lavoro.'",
+          "answer": "Dank seiner Erfahrung hat er Arbeit gefunden.",
+          "explanation": "dank + Genitive."
+        },
+        {
+          "question": "Traduci: 'In occasione del suo compleanno facciamo una festa.'",
+          "answer": "Anlässlich seines Geburtstags machen wir eine Feier.",
+          "explanation": "anlässlich + Genitive."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_10",
+      "name": "Präpositionen der Redewiedergabe und Referenz",
+      "explanation": "Preposizioni for the speech/discourse riportato: laut, zufolge, nach.",
+      "content": {
+        "regola": "'laut' + Gen/Dat = second: laut dem Bericht. 'zufolge' + Dat (dopo the nome): dem Bericht zufolge. 'nach' + Dat = second: nach seiner Meinung. for riportare opinioni e notizie without indirect speech.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Laut dem Wetterbericht wird es morgen regnen.",
+            "italiano": "Secondo le previsioni meteo domani pioverà.",
+            "english": "second the previsioni meteo domani pioverà."
+          },
+          {
+            "tedesco": "Dem Bericht zufolge steigen die Preise.",
+            "italiano": "Secondo il rapporto i prezzi aumentano.",
+            "english": "second the rapporto the prezzi aumentano."
+          },
+          {
+            "tedesco": "Gemäß dem Gesetz ist das verboten.",
+            "italiano": "In base alla legge ciò è vietato.",
+            "english": "in base to the legge ciò is vietato."
+          },
+          {
+            "tedesco": "Hinsichtlich der Kosten gibt es Probleme.",
+            "italiano": "Per quanto riguarda i costi ci sono problemi.",
+            "english": "for quanto riguarda the costi ci are problemi."
+          },
+          {
+            "tedesco": "Bezüglich Ihrer Anfrage möchte ich Folgendes sagen.",
+            "italiano": "Riguardo alla Sua richiesta vorrei dire quanto segue.",
+            "english": "Riguardo to the Sua richiesta vorrei to say quanto segue."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Secondo il giornale ci sarà uno sciopero.'",
+          "answer": "Laut der Zeitung wird es einen Streik geben.",
+          "explanation": "laut + Dative."
+        },
+        {
+          "question": "Traduci: 'In base alla legge ciò è permesso.'",
+          "answer": "Gemäß dem Gesetz ist das erlaubt.",
+          "explanation": "gemäß + Dative."
+        },
+        {
+          "question": "Traduci: 'Per quanto riguarda il progetto, tutto procede bene.'",
+          "answer": "Hinsichtlich des Projekts läuft alles gut.",
+          "explanation": "hinsichtlich + Genitive."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_11",
+      "name": "Bedeutungen von in, an, auf, über, unter, vor",
+      "explanation": "the different significati of the preposizioni in, an, auf, über, unter, vor.",
+      "content": {
+        "regola": "'in' = inside, between/among. 'an' = to/at, presso (am Meer, am Montag). 'auf' = on, in (auf Deutsch). 'über' = above, on (stem), più of. 'unter' = under, between/among. 'vor' = in front of, fa (vor zwei Jahren).",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "In einer Stunde bin ich fertig.",
+            "italiano": "Tra un'ora ho finito. (temporale)",
+            "english": "between/among un'ora ho finito. (temporale)"
+          },
+          {
+            "tedesco": "Am Montag habe ich frei.",
+            "italiano": "Lunedì ho libero. (temporale)",
+            "english": "Lunedì ho libero. (temporale)"
+          },
+          {
+            "tedesco": "Wir sprechen über das Thema.",
+            "italiano": "Parliamo dell'argomento. (figurato)",
+            "english": "Parliamo dell'argomento. (figurato)"
+          },
+          {
+            "tedesco": "Sie zittert vor Kälte.",
+            "italiano": "Trema dal freddo. (causale)",
+            "english": "Trema from the freddo. (causale)"
+          },
+          {
+            "tedesco": "Unter der Woche arbeite ich.",
+            "italiano": "Durante la settimana lavoro. (temporale)",
+            "english": "during the settimana lavoro. (temporale)"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Locale, temporale o figurato? 'Er arbeitet an einem Projekt.'",
+          "answer": "Figurato (lavorare a un progetto).",
+          "explanation": "an + Dativ = lavorare to/at qualcosa."
+        },
+        {
+          "question": "Traduci: 'Tra due settimane ho le vacanze.'",
+          "answer": "In zwei Wochen habe ich Urlaub.",
+          "explanation": "in + Dativ = between/among (Future tense temporale)."
+        },
+        {
+          "question": "Traduci: 'È sotto pressione.'",
+          "answer": "Er steht unter Druck.",
+          "explanation": "unter + Dativ = figurato."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_12",
+      "name": "Verben mit Genitiv",
+      "explanation": "Verbi che richiedono the Genitive (rari but importanti in the language formal).",
+      "content": {
+        "regola": "Verbi formali with Genitive: 'bedürfen' = necessitare. 'sich bedienen' = servirsi of. 'anklagen' = accusare of. Er wurde des Diebstahls angeklagt. (Fu accusato of furto.) in the parlato spesso sostituiti from/by preposizioni.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Man beschuldigte ihn des Betrugs.",
+            "italiano": "Lo accusarono di frode.",
+            "english": "the accusarono of frode."
+          },
+          {
+            "tedesco": "Diese Sache bedarf einer Erklärung.",
+            "italiano": "Questa cosa necessita di una spiegazione.",
+            "english": "Questa cosa necessita of una spiegazione."
+          },
+          {
+            "tedesco": "Wir gedenken der Opfer des Krieges.",
+            "italiano": "Commemoriamo le vittime della guerra.",
+            "english": "Commemoriamo the vittime of the guerra."
+          },
+          {
+            "tedesco": "Man verdächtigte sie des Diebstahls.",
+            "italiano": "La sospettavano di furto.",
+            "english": "the sospettavano of furto."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'Lo accusarono di omicidio.'",
+          "answer": "Man beschuldigte ihn des Mordes.",
+          "explanation": "beschuldigen + Genitiv."
+        },
+        {
+          "question": "Traduci: 'Questo non necessita di commento.'",
+          "answer": "Das bedarf keines Kommentars.",
+          "explanation": "bedürfen + Genitiv."
+        },
+        {
+          "question": "Traduci: 'Commemoriamo i morti.'",
+          "answer": "Wir gedenken der Toten.",
+          "explanation": "gedenken + Genitiv."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_13",
+      "name": "Überblick über die Zeiten im Deutschen",
+      "explanation": "Riassunto of tutti the tempi verbali tedeschi.",
+      "content": {
+        "regola": "Present: ich mache. Präteritum: ich machte. Perfekt: ich habe gemacht. Pluperfect: ich hatte gemacht. Futur the: ich werde machen. Futur II: ich werde gemacht haben. in the parlato They are used above all Present, Perfekt e Präteritum (for haben/sein/modali).",
+        "schema": "| Tense | example | Traduzione |",
+        "esempi": [
+          {
+            "tedesco": "Ich lerne seit drei Jahren Deutsch.",
+            "italiano": "Imparo/Studio tedesco da tre anni. (Präsens)",
+            "english": "Imparo/Studio tedesco from/by tre anni. (Present)"
+          },
+          {
+            "tedesco": "Gestern habe ich einen Film gesehen.",
+            "italiano": "Ieri ho visto un film. (Perfekt)",
+            "english": "Ieri ho visto un film. (Perfekt)"
+          },
+          {
+            "tedesco": "Als Kind spielte ich gern im Garten.",
+            "italiano": "Da bambino giocavo volentieri in giardino. (Präteritum)",
+            "english": "from/by bambino giocavo volentieri in giardino. (Präteritum)"
+          },
+          {
+            "tedesco": "Nachdem ich gegessen hatte, ging ich spazieren.",
+            "italiano": "Dopo aver mangiato, andai a passeggiare. (Plusquamperfekt)",
+            "english": "Dopo aver mangiato, andai to/at passeggiare. (Pluperfect)"
+          },
+          {
+            "tedesco": "Bis morgen werde ich die Arbeit geschrieben haben.",
+            "italiano": "Entro domani avrò scritto il lavoro. (Futur II)",
+            "english": "Entro domani avrò written the lavoro. (Futur II)"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Quale tempo? 'Ieri SONO ANDATO al cinema.'",
+          "answer": "Perfekt: Gestern bin ich ins Kino gegangen.",
+          "explanation": "Past tense in the parlato → Perfekt."
+        },
+        {
+          "question": "Quale tempo? 'AVEVA GIÀ mangiato quando arrivai.'",
+          "answer": "Plusquamperfekt: Er hatte schon gegessen, als ich ankam.",
+          "explanation": "Past tense first of un altro Past tense → Pluperfect."
+        },
+        {
+          "question": "Quale tempo? 'Entro le 5 AVRÒ FINITO.'",
+          "answer": "Futur II: Bis 5 Uhr werde ich fertig sein. / Bis 5 Uhr werde ich es geschafft haben.",
+          "explanation": "Azione futura completata → Futur II."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_14",
+      "name": "Gebrauch von Zeiten der Vergangenheit",
+      "explanation": "Quando to use Perfekt, Präteritum o Pluperfect.",
+      "content": {
+        "regola": "PERFEKT: in the parlato for the Past tense. PRÄTERITUM: in the written, e in the parlato for haben/sein/modali. Pluperfect: for un'azione che is successa first of un'altra in the Past tense. Nachdem ich gegessen hatte, ging ich.",
+        "schema": null,
+        "esempi": [
+          {
+            "tedesco": "Ich bin gestern ins Kino gegangen. (parlato)",
+            "italiano": "Ieri sono andato al cinema.",
+            "english": "Ieri are andato to the cinema."
+          },
+          {
+            "tedesco": "Er ging die Straße entlang und sah ein Licht. (scritto)",
+            "italiano": "Andava per la strada e vide una luce.",
+            "english": "Andava for the strada e vide una luce."
+          },
+          {
+            "tedesco": "Ich war gestern müde. (Präteritum anche nel parlato)",
+            "italiano": "Ieri ero stanco.",
+            "english": "Ieri ero stanco."
+          },
+          {
+            "tedesco": "Nachdem er angekommen war, rief er mich an.",
+            "italiano": "Dopo essere arrivato, mi chiamò.",
+            "english": "Dopo to be arrivato, mi chiamò."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Perfekt o Präteritum nel parlato? 'Ieri ho comprato un libro.'",
+          "answer": "Perfekt: Gestern habe ich ein Buch gekauft.",
+          "explanation": "in the parlato → Perfekt."
+        },
+        {
+          "question": "Perfekt o Präteritum nel parlato? 'Ero stanco.'",
+          "answer": "Präteritum: Ich war müde.",
+          "explanation": "sein → Präteritum anche in the parlato."
+        },
+        {
+          "question": "Traduci con Plusquamperfekt: 'Dopo che ebbe finito, uscì.'",
+          "answer": "Nachdem er fertig gewesen war, ging er raus.",
+          "explanation": "Pluperfect for l'azione precedente."
+        }
+      ]
+    },
+    {
+      "id": "b2_new_15",
+      "name": "Trennbare und untrennbare Verben (erweitert)",
+      "explanation": "Prefissi separabili e inseparabili: casi speciali e doppio significato.",
+      "content": {
+        "regola": "Sempre separabili: ab-, an-, auf-, aus-, ein-, mit-, vor-, zu-. Sempre inseparabili: be-, emp-, ent-, er-, ge-, ver-, zer-. DOPPIO significato: durch-, über-, um-, unter-. Separabile = concreto, inseparabile = figurato. umfahren (sep.) = investire; umfahren (insep.) = aggirare.",
+        "schema": "| Prefisso | Separabile | Inseparabile |",
+        "esempi": [
+          {
+            "tedesco": "Er umfährt den Stau. (insep. = aggira)",
+            "italiano": "Aggira l'ingorgo.",
+            "english": "Aggira l'ingorgo."
+          },
+          {
+            "tedesco": "Er fährt den Poller um. (sep. = investe)",
+            "italiano": "Investe il paletto.",
+            "english": "Investe the paletto."
+          },
+          {
+            "tedesco": "Sie übersetzt den Text. (insep. = traduce)",
+            "italiano": "Traduce il testo.",
+            "english": "Traduce the testo."
+          },
+          {
+            "tedesco": "Die Fähre setzt die Passagiere über. (sep. = traghetta)",
+            "italiano": "Il traghetto trasporta i passeggeri.",
+            "english": "the traghetto trasporta the passeggeri."
+          },
+          {
+            "tedesco": "Er wiederholt die Lektion. (insep. = ripete)",
+            "italiano": "Ripete la lezione.",
+            "english": "Ripete the lezione."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Separabile o inseparabile? 'tradurre' = über|setzen?",
+          "answer": "Inseparabile: Sie übersetzt den Brief.",
+          "explanation": "übersetzen (tradurre) is inseparabile, accento on -setzen."
+        },
+        {
+          "question": "Separabile o inseparabile? 'investire/travolgere' = um|fahren?",
+          "answer": "Separabile: Er fährt den Zaun um.",
+          "explanation": "umfahren (investire) is separabile, accento on um-."
+        },
+        {
+          "question": "Traduci: 'Lui ripete sempre la stessa cosa.'",
+          "answer": "Er wiederholt immer dasselbe.",
+          "explanation": "wiederholen (ripetere) is inseparabile."
+        }
+      ]
+    },
+    {
+      "id": "b2_bedeutungen_um_bei_von",
+      "name": "Bedeutungen von um, bei, von, nach, aus, mit, zu",
+      "explanation": "the different significati of um, bei, von, nach, aus, mit, zu.",
+      "content": {
+        "regola": "'um' = intorno to/at, to the (ora), of (cambiamento). 'bei' = near to/at, during, in Case of. 'von' = from/by, of (origine/causa). 'nach' = dopo, towards. 'aus' = from/by (provenienza), of (materiale), for (motivo). 'mit' = with (compagnia/strumento). 'zu' = towards, for (scopo), to/at piedi (zu Fuß).",
+        "schema": "um + Akk | bei + Dat | von + Dat | nach + Dat | aus + Dat | mit + Dat | zu + Dat",
+        "esempi": [
+          {
+            "tedesco": "Wir laufen um den See.",
+            "italiano": "Camminiamo intorno al lago.",
+            "english": "Camminiamo intorno to the lago."
+          },
+          {
+            "tedesco": "Bei Regen bleiben wir zu Hause.",
+            "italiano": "In caso di pioggia restiamo a casa.",
+            "english": "in Case of pioggia restiamo to/at casa."
+          },
+          {
+            "tedesco": "Der Tisch ist aus Holz.",
+            "italiano": "Il tavolo è di legno.",
+            "english": "the tavolo is of legno."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Wir treffen uns ___ 15 Uhr. (temporal)",
+          "answer": "um",
+          "explanation": "'um' für Uhrzeiten."
+        },
+        {
+          "question": "Er wohnt ___ München. (in der Nähe von)",
+          "answer": "bei",
+          "explanation": "'bei' = in der Nähe von."
+        },
+        {
+          "question": "Sie kommt ___ Italien.",
+          "answer": "aus",
+          "explanation": "'aus' für Herkunft aus einem Land."
+        },
+        {
+          "question": "___ dem Essen gehen wir spazieren.",
+          "answer": "Nach",
+          "explanation": "'nach' = temporal, danach."
+        },
+        {
+          "question": "Sie fährt ___ dem Fahrrad.",
+          "answer": "mit",
+          "explanation": "'mit' für das Instrument/Verkehrsmittel."
+        }
+      ]
+    },
+    {
+      "id": "b2_fokuspartikeln",
+      "name": "Position von 'auch' und Fokuspartikeln",
+      "explanation": "Dove mettere 'auch', 'nur', 'sogar' e altre particelle in the frase.",
+      "content": {
+        "regola": "the particelle of focus si mettono first of the parola che vogliono evidenziare. Cambia the significato: 'Auch PETER kommt' = anche Peter (non solo altri). 'Peter kommt AUCH' = Peter viene anche (oltre to/at to do/make altro). Altre particelle: 'nur' = solo, 'sogar' = perfino, 'erst' = solo/appena, 'schon' = già.",
+        "schema": "Fokuspartikel + fokussiertes Element | Auch ICH war from/by. (nicht nur du) | Ich war AUCH from/by. (nicht nur woanders)",
+        "esempi": [
+          {
+            "tedesco": "Sogar der Chef hat gelacht.",
+            "italiano": "Perfino il capo ha riso.",
+            "english": "Perfino the capo has riso."
+          },
+          {
+            "tedesco": "Nur du kannst mir helfen.",
+            "italiano": "Solo tu puoi aiutarmi.",
+            "english": "Solo tu puoi aiutarmi."
+          },
+          {
+            "tedesco": "Er hat auch Deutsch gelernt.",
+            "italiano": "Ha imparato anche il tedesco.",
+            "english": "has imparato anche the tedesco."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "___ Maria spricht Deutsch. (nicht nur andere)",
+          "answer": "Auch",
+          "explanation": "'Auch' vor dem Subjekt fokussiert die Person."
+        },
+        {
+          "question": "___ der Lehrer wusste die Antwort nicht. (überraschend)",
+          "answer": "Sogar",
+          "explanation": "'Sogar' drückt Überraschung aus."
+        },
+        {
+          "question": "___ du kannst das schaffen. (niemand sonst)",
+          "answer": "Nur",
+          "explanation": "'Nur' schränkt auf eine Person ein."
+        },
+        {
+          "question": "Ich habe ___ ein Buch gekauft. (zusätzlich)",
+          "answer": "auch",
+          "explanation": "'auch' vor dem Objekt = zusätzlich."
+        },
+        {
+          "question": "Er ist ___ 10 Jahre alt. (nicht älter)",
+          "answer": "erst",
+          "explanation": "'erst' betont, dass ex. wenig ist."
+        }
+      ]
+    },
+    {
+      "id": "b2_informationsverteilung",
+      "name": "Informationsverteilung im Satz",
+      "explanation": "Come ordinare the informazioni in the frase tedesca: first the noto, poi the nuovo.",
+      "content": {
+        "regola": "in tedesco, l'informazione già nota va all'inizio of the frase, quella nuova to the fine. Pronomi vengono first of the nomi. Definite article (der/die/das) = noto. Indefinite article (ein/eine) = nuovo. example: Den Film habe ich schon gesehen. (the film l'ho già visto – 'the film' is noto.)",
+        "schema": "Vorfeld (bekannt) – Verb – Mittelfeld (bekannt→neu) – Satzende (neu/wichtig)",
+        "esempi": [
+          {
+            "tedesco": "Den Film habe ich schon gesehen. (Thema: den Film)",
+            "italiano": "Il film l'ho già visto.",
+            "english": "the film l'ho già visto."
+          },
+          {
+            "tedesco": "Gestern hat ein Mann mich angerufen. (neu: ein Mann)",
+            "italiano": "Ieri un uomo mi ha chiamato.",
+            "english": "Ieri un uomo mi has chiamato."
+          },
+          {
+            "tedesco": "Das Buch hat mir mein Vater geschenkt.",
+            "italiano": "Il libro me l'ha regalato mio padre.",
+            "english": "the libro me l'has regalato mio padre."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Was steht typischerweise am Satzanfang?",
+          "answer": "Bekannte Information",
+          "explanation": "Bekannte Info (Thema) steht im Vorfeld."
+        },
+        {
+          "question": "Wo steht die neue, wichtige Information?",
+          "answer": "Am Satzende",
+          "explanation": "Neue Info (Rhema) steht am Satzende."
+        },
+        {
+          "question": "___ habe ich gestern getroffen. (den Lehrer – bekannt)",
+          "answer": "Den Lehrer",
+          "explanation": "Bekannte Info im Vorfeld."
+        },
+        {
+          "question": "Stehen Pronomen vor oder nach Nomen im Mittelfeld?",
+          "answer": "vor",
+          "explanation": "Pronomen (bekannt) stehen vor Nomen."
+        },
+        {
+          "question": "Gestern hat ___ das Paket gebracht. (neu: ein Bote)",
+          "answer": "ein Bote",
+          "explanation": "Neue Information: unbestimmter Artikel = neu."
+        }
+      ]
+    },
+    {
+      "id": "b2_info_direkt_zum_verb",
+      "name": "Informationen direkt zum Verb",
+      "explanation": "Elementi che vanno near to the Verb perché formano un'unità with esso.",
+      "content": {
+        "regola": "Alcune parole appartengono to the Verb e vanno messe near ad esso (first of the participio o dell'Infinitive): direzione (zurück), risultato (leer, fertig), stato (auf, an, zu). example: Er hat das Glas leer getrunken. (has bevuto the bicchiere fino to/at svuotarlo.) Sie hat die Tür aufgemacht. (has aperto the porta.)",
+        "schema": "Subj – V1 – Mittelfeld – verbnahe Info – V2 | Er hat das Glas leer getrunken.",
+        "esempi": [
+          {
+            "tedesco": "Sie hat die Tür aufgemacht.",
+            "italiano": "Ha aperto la porta.",
+            "english": "has aperto the porta."
+          },
+          {
+            "tedesco": "Er ist nach Hause zurückgefahren.",
+            "italiano": "È tornato a casa (in macchina).",
+            "english": "is tornato to/at casa (in macchina)."
+          },
+          {
+            "tedesco": "Wir haben den Teller leer gegessen.",
+            "italiano": "Abbiamo mangiato tutto dal piatto.",
+            "english": "Abbiamo mangiato tutto from the piatto."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Er hat das Fenster ___gemacht. (aprire)",
+          "answer": "auf",
+          "explanation": "'aufmachen' – 'auf' steht direkt beim Verb."
+        },
+        {
+          "question": "Sie ist nach Berlin ___gefahren. (ritorno)",
+          "answer": "zurück",
+          "explanation": "'zurückfahren' – Richtung direkt beim Verb."
+        },
+        {
+          "question": "Ich habe die Flasche ___getrunken.",
+          "answer": "leer",
+          "explanation": "'leertrinken' – Resultat beim Verb."
+        },
+        {
+          "question": "Er hat die Lampe ___gemacht.",
+          "answer": "an",
+          "explanation": "'anmachen' – Zustand beim Verb."
+        },
+        {
+          "question": "Sie hat den Brief ___gelesen. (bis zum Ende)",
+          "answer": "fertig",
+          "explanation": "'fertiglesen' – Resultat beim Verb."
+        }
+      ]
+    },
+    {
+      "id": "b2_weitere_temporale_praep",
+      "name": "Weitere temporale Präpositionen",
+      "explanation": "Preposizioni of Tense avanzate: innerhalb, außerhalb, anlässlich, binnen.",
+      "content": {
+        "regola": "'innerhalb' + Gen = entro: innerhalb eines Monats (entro un mese). 'außerhalb' + Gen = to the of outside of: außerhalb der Arbeitszeit. 'anlässlich' + Gen = in occasione of. 'binnen' + Gen = in the giro of. 'über' + Akk = for (durata): übers Wochenende.",
+        "schema": "binnen/innerhalb + Genitiv | außerhalb + Genitiv | anlässlich + Genitiv | über + Akkusativ",
+        "esempi": [
+          {
+            "tedesco": "Innerhalb eines Jahres hat er Deutsch gelernt.",
+            "italiano": "Nell'arco di un anno ha imparato il tedesco.",
+            "english": "Nell'arco of un anno has imparato the tedesco."
+          },
+          {
+            "tedesco": "Anlässlich seines Geburtstags gab es eine Feier.",
+            "italiano": "In occasione del suo compleanno c'è stata una festa.",
+            "english": "in occasione of the suo compleanno c'is stata una festa."
+          },
+          {
+            "tedesco": "Er blieb übers Wochenende.",
+            "italiano": "È rimasto per tutto il fine settimana.",
+            "english": "is rimasto for tutto the fine settimana."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "___ eines Monats muss die Arbeit fertig sein.",
+          "answer": "Innerhalb",
+          "explanation": "'innerhalb' + Gen = entro."
+        },
+        {
+          "question": "___ der Öffnungszeiten ist das Büro geschlossen.",
+          "answer": "Außerhalb",
+          "explanation": "'außerhalb' + Gen = to the of outside of."
+        },
+        {
+          "question": "___ des Jubiläums hielt der Chef eine Rede.",
+          "answer": "Anlässlich",
+          "explanation": "'anlässlich' + Gen = in occasione of."
+        },
+        {
+          "question": "Er blieb ___ Wochenende in Berlin.",
+          "answer": "übers",
+          "explanation": "'über + das' = for tutto the."
+        },
+        {
+          "question": "___ weniger Tage war alles erledigt.",
+          "answer": "Binnen",
+          "explanation": "'binnen' + Gen = entro, in the giro of."
+        }
+      ]
+    },
+    {
+      "id": "b2_besondere_perfektformen",
+      "name": "Besondere Perfektformen",
+      "explanation": "Casi speciali in the formazione of the Perfekt.",
+      "content": {
+        "regola": "1) Verbi modali with Infinitive → Ersatzinfinitiv: Er hat kommen MÜSSEN (non *gemusst). 2) Verbi in -ieren → without ge-: hat studiert. 3) Prefissi inseparabili → without ge-: hat verstanden. 4) sein for movimento e cambiamento: ist gegangen, ist gewachsen. 5) haben for the resto: hat geschlafen.",
+        "schema": "Ersatzinfinitiv: hat kommen müssen | -ieren: hat studiert | be-/ver-/er-: hat verstanden | Bewegung: ist gegangen",
+        "esempi": [
+          {
+            "tedesco": "Er hat nicht kommen können.",
+            "italiano": "Non ha potuto venire.",
+            "english": "Non has potuto to come."
+          },
+          {
+            "tedesco": "Sie hat an der Uni studiert.",
+            "italiano": "Ha studiato all'università.",
+            "english": "has studiato all'università."
+          },
+          {
+            "tedesco": "Das Kind ist schnell gewachsen.",
+            "italiano": "Il bambino è cresciuto velocemente.",
+            "english": "the bambino is cresciuto velocemente."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Er hat nicht kommen ___. (können, Perfekt)",
+          "answer": "können",
+          "explanation": "Ersatzinfinitiv: nicht 'gekonnt', sondern 'können'."
+        },
+        {
+          "question": "Sie hat Medizin ___. (studieren)",
+          "answer": "studiert",
+          "explanation": "Verben auf -ieren: kein ge-."
+        },
+        {
+          "question": "Das Eis ___ geschmolzen. (sein/haben)",
+          "answer": "ist",
+          "explanation": "Zustandsänderung → sein."
+        },
+        {
+          "question": "Er hat das Problem ___. (verstehen)",
+          "answer": "verstanden",
+          "explanation": "Untrennbares Präfix ver-: kein ge-."
+        },
+        {
+          "question": "Sie hat den ganzen Tag ___. (schlafen)",
+          "answer": "geschlafen",
+          "explanation": "Keine Bewegung → haben + ge-...-en."
+        }
+      ]
+    },
+    {
+      "id": "b2_modalverben_vermutung_gegenwart",
+      "name": "Modalverben – Vermutungen in der Gegenwart",
+      "explanation": "to use the verbi modali for esprimere quanto sei sicuro of qualcosa in the Present tense.",
+      "content": {
+        "regola": "müssen = quasi certo (95%): Er muss krank sein. (Dev'to be malato.) dürfte = probabile (75%): Sie dürfte 30 sein. (Dovrebbe to have 30 anni.) könnte = possibile (50%): Das könnte stimmen. (Potrebbe to be vero.) kann nicht = impossibile: Das kann nicht wahr sein!",
+        "schema": "müssen (sicher) > dürfte (wahrscheinlich) > kann/könnte (möglich) > mag (vielleicht) | Subj + Modalverb + Infinitiv",
+        "esempi": [
+          {
+            "tedesco": "Er muss krank sein – er fehlt nie.",
+            "italiano": "Dev'essere malato – non manca mai.",
+            "english": "Dev'to be malato – non manca mai."
+          },
+          {
+            "tedesco": "Sie dürfte etwa 30 Jahre alt sein.",
+            "italiano": "Dovrebbe avere circa 30 anni.",
+            "english": "Dovrebbe to have circa 30 anni."
+          },
+          {
+            "tedesco": "Das könnte ein Fehler sein.",
+            "italiano": "Potrebbe essere un errore.",
+            "english": "Potrebbe to be un errore."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Er ___ krank sein, er sieht sehr blass aus. (95% sicher)",
+          "answer": "muss",
+          "explanation": "'müssen' = sehr sichere Vermutung."
+        },
+        {
+          "question": "Sie ___ etwa 40 sein. (wahrscheinlich)",
+          "answer": "dürfte",
+          "explanation": "'dürfte' = wahrscheinliche Vermutung."
+        },
+        {
+          "question": "Das ___ stimmen, ich bin nicht sicher. (möglich)",
+          "answer": "könnte",
+          "explanation": "'könnte' = mögliche Vermutung."
+        },
+        {
+          "question": "Das ___ nicht wahr sein! (unmöglich)",
+          "answer": "kann",
+          "explanation": "'kann nicht' = Unmöglichkeit."
+        },
+        {
+          "question": "Das ___ sein, aber ich bezweifle es.",
+          "answer": "mag",
+          "explanation": "'mag' = einräumende Vermutung."
+        }
+      ]
+    },
+    {
+      "id": "b2_modalverben_vermutung_vergangenheit",
+      "name": "Modalverben – Vermutungen in der Vergangenheit",
+      "explanation": "to use the verbi modali for ipotesi on qualcosa che is successo in the Past tense.",
+      "content": {
+        "regola": "Formula: Modal verb (to the Present tense) + Partizip II + haben/sein. Er muss krank gewesen sein. (Dev'to be stato malato.) Sie dürfte das gewusst haben. (Probabilmente the sapeva.) Er könnte gelogen haben. (Potrebbe aver mentito.) Das kann nicht passiert sein! (Non può to be successo!)",
+        "schema": "Subj + Modalverb (Present) + Partizip II + haben/sein | Er muss geschlafen haben. | Sie dürfte gegangen sein.",
+        "esempi": [
+          {
+            "tedesco": "Er muss den Bus verpasst haben.",
+            "italiano": "Deve aver perso l'autobus.",
+            "english": "Deve aver perso l'autobus."
+          },
+          {
+            "tedesco": "Sie dürfte schon gegangen sein.",
+            "italiano": "Dovrebbe essere già andata.",
+            "english": "Dovrebbe to be già andata."
+          },
+          {
+            "tedesco": "Er könnte gelogen haben.",
+            "italiano": "Potrebbe aver mentito.",
+            "english": "Potrebbe aver mentito."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Er ___ krank gewesen sein. (95% sicher)",
+          "answer": "muss",
+          "explanation": "'müssen' + Partizip II + sein = sichere Vermutung Vergangenheit."
+        },
+        {
+          "question": "Sie ___ das nicht gewusst haben. (wahrscheinlich)",
+          "answer": "dürfte",
+          "explanation": "'dürfte' + Partizip II + haben = wahrscheinlich."
+        },
+        {
+          "question": "Er ___ den Schlüssel vergessen haben. (möglich)",
+          "answer": "könnte",
+          "explanation": "'könnte' + Partizip II = mögliche Vermutung."
+        },
+        {
+          "question": "Das ___ nicht passiert sein! (unmöglich)",
+          "answer": "kann",
+          "explanation": "'kann nicht' + Partizip II = Unmöglichkeit."
+        },
+        {
+          "question": "Sie ___ schon angekommen sein. (wahrscheinlich)",
+          "answer": "dürfte",
+          "explanation": "'dürfte' = wahrscheinliche Vermutung."
+        }
+      ]
+    },
+    {
+      "id": "b2_artikelwoerter_adjektivdekl",
+      "name": "Artikelwörter und Adjektivdeklination",
+      "explanation": "Come cambiano the endings dell'Adjective to/at second dell'Article.",
+      "content": {
+        "regola": "Dopo der/die/das: endings deboli → quasi sempre -e o -en. example: der kleine Hund. Dopo ein/eine/kein: endings miste → Nom. masc. -er, Nom. neutro -ex., resto come debole. example: ein kleiner Hund. without Article: endings forti → l'Adjective prende the ending dell'Article. example: kalter Kaffee.",
+        "schema": "bestimmter Art. → schwach (-e/-en) | unbestimmter Art. → gemischt (-er/-ex./-e/-en) | ohne Art. → stark (wie Artikelendung)",
+        "esempi": [
+          {
+            "tedesco": "Der alte Mann sitzt auf der Bank.",
+            "italiano": "Il vecchio uomo siede sulla panchina.",
+            "english": "the vecchio uomo siede on the panchina."
+          },
+          {
+            "tedesco": "Ein kleines Kind spielt draußen.",
+            "italiano": "Un bambino piccolo gioca fuori.",
+            "english": "Un bambino piccolo gioca outside."
+          },
+          {
+            "tedesco": "Kalter Kaffee schmeckt nicht.",
+            "italiano": "Il caffè freddo non è buono.",
+            "english": "the caffè freddo non is buono."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "question": "Der klein___ Hund bellt. (nach best. Artikel, Nom.)",
+          "answer": "e",
+          "explanation": "Schwache Deklination nach 'der': -e."
+        },
+        {
+          "question": "Ein groß___ Haus steht dort. (Nom. Neutrum)",
+          "answer": "es",
+          "explanation": "Gemischte Dekl.: Nom. Neutrum = -ex.."
+        },
+        {
+          "question": "Frisch___ Brot schmeckt am besten. (ohne Artikel, Nom. N.)",
+          "answer": "es",
+          "explanation": "Starke Dekl.: wie Artikelendung 'das' → -ex.."
+        },
+        {
+          "question": "Die nett___ Frau hat mir geholfen. (nach best. Art., Nom.)",
+          "answer": "e",
+          "explanation": "Schwache Deklination: Nom. = -e."
+        },
+        {
+          "question": "Mit gut___ Freunden. (ohne Artikel, Dat. Pl.)",
+          "answer": "en",
+          "explanation": "Starke Dekl. Dativ Plural: -en."
+        }
+      ]
+    }
+  ]
+}

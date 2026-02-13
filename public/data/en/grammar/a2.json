@@ -1,0 +1,1555 @@
+{
+  "title": "Goethe-Zertifikat A2",
+  "topics": [
+    {
+      "id": "a2_01",
+      "name": "Perfekt con haben",
+      "explanation": "Formazione of the Perfekt with l'ausiliare haben e the Past participle regolare.",
+      "content": {
+        "regola": "the Perfekt is the Tense Past tense più used in the spoken language. it is formed with: ausiliare (haben o sein) coniugato to the Present tense + Partizip II (Past participle) to the fine of the frase. the maggior parte of the verbi usa 'haben'.\n\nthe Partizip II of the verbi regolari it is formed: ge- + root + -t. example: machen → ge-mach-t, kaufen → ge-kauf-t. for the verbi with stem in -t/-d: ge- + root + -et (arbeiten → ge-arbeit-et).\n\nthe verbi with prefisso inseparabile (be-, emp-, ent-, er-, ge-, miss-, ver-, zer-) NON aggiungono ge-: besuchen → besucht, erzählen → erzählt. the verbi in -ieren non prendono ge-: telefonieren → telefoniert.",
+        "schema": "Formazione Partizip II regolare:",
+        "esempi": [
+          {
+            "tedesco": "Ich habe gestern Fußball gespielt.",
+            "italiano": "Ieri ho giocato a calcio.",
+            "english": "Ieri ho giocato to/at calcio."
+          },
+          {
+            "tedesco": "Du hast ein Buch gekauft.",
+            "italiano": "Hai comprato un libro.",
+            "english": "Hai comprato un libro."
+          },
+          {
+            "tedesco": "Er hat lange gearbeitet.",
+            "italiano": "Ha lavorato a lungo.",
+            "english": "has lavorato to/at lungo."
+          },
+          {
+            "tedesco": "Wir haben Deutsch gelernt.",
+            "italiano": "Abbiamo studiato tedesco.",
+            "english": "Abbiamo studiato tedesco."
+          },
+          {
+            "tedesco": "Habt ihr den Film gesehen?",
+            "italiano": "Avete visto il film?",
+            "english": "Avete visto the film?"
+          },
+          {
+            "tedesco": "Sie haben mich besucht.",
+            "italiano": "Mi hanno visitato.",
+            "english": "Mi hanno visitato."
+          },
+          {
+            "tedesco": "Ich habe mit Maria telefoniert.",
+            "italiano": "Ho telefonato con Maria.",
+            "english": "Ho telefonato with Maria."
+          },
+          {
+            "tedesco": "Er hat nichts gesagt.",
+            "italiano": "Non ha detto niente.",
+            "english": "Non has detto niente."
+          }
+        ],
+        "eccezioni": "Verbi separabili: ge- between/among prefisso e root: einkaufen → ein-ge-kauft, aufmachen → auf-ge-macht. Verbi inseparabili (be-,ent-,er-,ver-,zer-,ge-,emp-,miss-): no ge-. Verbi in -ieren: no ge-.",
+        "uso": "the Perfekt It is used in the spoken language for azioni passate concluse. in the written language si preferisce the Präteritum. Ausiliare in pos. 2, participio to the fine: Klammer (cornice verbale)."
+      },
+      "exercises": [
+        {
+          "question": "Forma il Partizip II: machen",
+          "answer": "gemacht",
+          "explanation": "ge- + mach + -t = gemacht."
+        },
+        {
+          "question": "Forma il Partizip II: besuchen",
+          "answer": "besucht",
+          "explanation": "Prefisso inseparabile be-: no ge- → besucht."
+        },
+        {
+          "question": "Completa: Ich ___ gestern viel ___ (arbeiten).",
+          "answer": "habe...gearbeitet",
+          "explanation": "Haben + gearbeitet (stem in -t → -et)."
+        },
+        {
+          "question": "Forma il Partizip II: einkaufen",
+          "answer": "eingekauft",
+          "explanation": "Separabile: ein + ge + kauft = eingekauft."
+        },
+        {
+          "question": "Forma il Partizip II: telefonieren",
+          "answer": "telefoniert",
+          "explanation": "Verbi in -ieren: no ge- → telefoniert."
+        }
+      ]
+    },
+    {
+      "id": "a2_02",
+      "name": "Perfekt con sein",
+      "explanation": "Verbi che formano the Perfekt with l'ausiliare sein.",
+      "content": {
+        "regola": "Alcuni verbi usano 'sein' come ausiliare to the Perfekt. Regola generale: verbi intransitivi (without oggetto diretto) che they indicated: 1) cambiamento of luogo (gehen, kommen, fahren, fliegen, laufen, reisen) o 2) cambiamento of stato (werden, aufwachen, einschlafen, sterben, wachsen).\n\nAnche 'sein' (gewesen), 'bleiben' (geblieben) e 'passieren' (passiert) usano sein, pur non indicando movimento o cambiamento. are exceptions from/by memorizzare.\n\nStruttura identical: Sogg. + sein (coniug.) + ... + Partizip II. ex.: 'Ich BIN nach Berlin GEFAHREN.' (are andato to/at Berlino).",
+        "schema": "Verbi with sein:",
+        "esempi": [
+          {
+            "tedesco": "Ich bin nach Berlin gefahren.",
+            "italiano": "Sono andato a Berlino.",
+            "english": "are andato to/at Berlino."
+          },
+          {
+            "tedesco": "Sie ist gestern gekommen.",
+            "italiano": "È venuta ieri.",
+            "english": "is venuta ieri."
+          },
+          {
+            "tedesco": "Wir sind nach Italien geflogen.",
+            "italiano": "Siamo volati in Italia.",
+            "english": "Siamo volati in Italia."
+          },
+          {
+            "tedesco": "Er ist schnell gelaufen.",
+            "italiano": "Ha corso velocemente.",
+            "english": "has corso velocemente."
+          },
+          {
+            "tedesco": "Das Kind ist gewachsen.",
+            "italiano": "Il bambino è cresciuto.",
+            "english": "the bambino is cresciuto."
+          },
+          {
+            "tedesco": "Bist du lange geblieben?",
+            "italiano": "Sei rimasto a lungo?",
+            "english": "Sei rimasto to/at lungo?"
+          },
+          {
+            "tedesco": "Was ist passiert?",
+            "italiano": "Cosa è successo?",
+            "english": "Cosa is successo?"
+          },
+          {
+            "tedesco": "Ich bin um 7 Uhr aufgewacht.",
+            "italiano": "Mi sono svegliato alle 7.",
+            "english": "Mi are svegliato to the 7."
+          }
+        ],
+        "eccezioni": "Alcuni verbi usano haben O sein to/at second of the significato: 'Ich bin Auto gefahren' (intransitivo) vs 'Ich habe das Auto gefahren' (transitivo with oggetto). 'Schwimmen': regionale (sein in the sud, haben in the nord).",
+        "uso": "Verbi with sein: intransitivi of movimento/cambiamento of stato + sein/bleiben/passieren. in the dubbio: se c'is un direct object diretto → haben; se c'is movimento/cambio of stato without oggetto → sein."
+      },
+      "exercises": [
+        {
+          "question": "Haben o sein? Er ___ nach Hause gegangen.",
+          "answer": "ist",
+          "explanation": "Gehen = movimento → sein."
+        },
+        {
+          "question": "Haben o sein? Ich ___ einen Kaffee getrunken.",
+          "answer": "habe",
+          "explanation": "Trinken + oggetto diretto → haben."
+        },
+        {
+          "question": "Completa: Wir ___ gestern spät ___ (ankommen).",
+          "answer": "sind...angekommen",
+          "explanation": "Ankommen = movimento → sein."
+        },
+        {
+          "question": "Haben o sein? Sie ___ lange geblieben.",
+          "answer": "ist",
+          "explanation": "Bleiben = exception with sein."
+        },
+        {
+          "question": "Haben o sein? Was ___ passiert?",
+          "answer": "ist",
+          "explanation": "Passieren = exception with sein."
+        }
+      ]
+    },
+    {
+      "id": "a2_03",
+      "name": "Perfekt irregolare",
+      "explanation": "Participi passati of the verbi forti (irregolari) più comuni.",
+      "content": {
+        "regola": "the verbi forti (irregolari) formano the Partizip II with: ge- + root modificata + -en. the vocale of the root cambia (Ablaut). Questi verbi vanno memorizzati. the più comuni:\n\nGruppo e→o: sprechen→gesprochen, nehmen→genommen, helfen→geholfen, treffen→getroffen, werfen→geworfen. Gruppo ei→ie: schreiben→geschrieben, bleiben→geblieben, steigen→gestiegen. Gruppo the→u: finden→gefunden, trinken→getrunken, singen→gesungen.\n\nAltri importanti: essen→gegessen, geben→gegeben, lesen→gelesen, sehen→gesehen, gehen→gegangen, kommen→gekommen, fahren→gefahren, tragen→getragen, schlafen→geschlafen.",
+        "schema": "Verbi forti frequent:",
+        "esempi": [
+          {
+            "tedesco": "Ich habe mit ihm gesprochen.",
+            "italiano": "Ho parlato con lui.",
+            "english": "Ho parlato with lui."
+          },
+          {
+            "tedesco": "Sie hat einen Brief geschrieben.",
+            "italiano": "Ha scritto una lettera.",
+            "english": "has written una lettera."
+          },
+          {
+            "tedesco": "Wir haben Pizza gegessen.",
+            "italiano": "Abbiamo mangiato pizza.",
+            "english": "Abbiamo mangiato pizza."
+          },
+          {
+            "tedesco": "Hast du das Buch gelesen?",
+            "italiano": "Hai letto il libro?",
+            "english": "Hai letto the libro?"
+          },
+          {
+            "tedesco": "Er hat Wasser getrunken.",
+            "italiano": "Ha bevuto acqua.",
+            "english": "has bevuto acqua."
+          },
+          {
+            "tedesco": "Sie sind nach Hause gegangen.",
+            "italiano": "Sono andati a casa.",
+            "english": "are andati to/at casa."
+          },
+          {
+            "tedesco": "Ich bin mit dem Zug gefahren.",
+            "italiano": "Sono andato in treno.",
+            "english": "are andato in treno."
+          },
+          {
+            "tedesco": "Hast du meinen Schlüssel gefunden?",
+            "italiano": "Hai trovato la mia chiave?",
+            "english": "Hai trovato the mia chiave?"
+          }
+        ],
+        "eccezioni": "Verbi misti (regolari in the struttura but with cambio vocalico): bringen→gebracht, denken→gedacht, kennen→gekannt, wissen→gewusst, nennen→genannt. Hanno ge-...-t but vocale different.",
+        "uso": "the participi irregolari vanno memorizzati with the tre forme fondamentali: Infinitiv - Präteritum - Partizip II (sprechen - sprach - gesprochen). Studiare for gruppi of cambio vocalico aiuta the memorizzazione."
+      },
+      "exercises": [
+        {
+          "question": "Partizip II di 'sprechen'?",
+          "answer": "gesprochen",
+          "explanation": "Forte: e→o, ge-sproch-en."
+        },
+        {
+          "question": "Partizip II di 'essen'?",
+          "answer": "gegessen",
+          "explanation": "Forte: ge-gess-en (root ess-)."
+        },
+        {
+          "question": "Partizip II di 'fahren'?",
+          "answer": "gefahren",
+          "explanation": "Forte: ge-fahr-en (vocale invariata)."
+        },
+        {
+          "question": "Partizip II di 'denken'?",
+          "answer": "gedacht",
+          "explanation": "Verb misto: ge-dach-t (with cambio vocalico)."
+        },
+        {
+          "question": "Partizip II di 'nehmen'?",
+          "answer": "genommen",
+          "explanation": "Forte: e→o + mm: ge-nomm-en."
+        }
+      ]
+    },
+    {
+      "id": "a2_04",
+      "name": "Präteritum di sein, haben, werden",
+      "explanation": "the Simple past of the tre ausiliari fondamentali.",
+      "content": {
+        "regola": "the Präteritum (Simple past) of 'sein', 'haben' e 'werden' is molto used anche in the spoken language, to/at differenza of altri verbi dove si preferisce the Perfekt.\n\n'Sein' to the Präteritum: ich war, du warst, er war, wir waren, ihr wart, sie waren. 'Haben': ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. 'Werden': ich wurde, du wurdest, er wurde, wir wurden, ihr wurdet, sie wurden.\n\nIt is used the Präteritum of questi verbi perché is più breve e naturale of the Perfekt: 'Ich war müde' suona meglio of 'Ich bin müde gewesen'.",
+        "schema": "| Person   | sein  | haben   | werden  |",
+        "esempi": [
+          {
+            "tedesco": "Ich war gestern krank.",
+            "italiano": "Ieri ero malato.",
+            "english": "Ieri ero malato."
+          },
+          {
+            "tedesco": "Wo warst du?",
+            "italiano": "Dove eri?",
+            "english": "Dove eri?"
+          },
+          {
+            "tedesco": "Es war sehr kalt.",
+            "italiano": "Era molto freddo.",
+            "english": "Era molto freddo."
+          },
+          {
+            "tedesco": "Wir hatten viel Spaß.",
+            "italiano": "Ci siamo divertiti molto.",
+            "english": "Ci siamo divertiti molto."
+          },
+          {
+            "tedesco": "Hattest du Angst?",
+            "italiano": "Avevi paura?",
+            "english": "Avevi paura?"
+          },
+          {
+            "tedesco": "Sie hatte keine Zeit.",
+            "italiano": "Non aveva tempo.",
+            "english": "Non aveva Tense."
+          },
+          {
+            "tedesco": "Er wurde Arzt.",
+            "italiano": "Diventò medico.",
+            "english": "Diventò medico."
+          },
+          {
+            "tedesco": "Die Kinder wurden müde.",
+            "italiano": "I bambini diventarono stanchi.",
+            "english": "the bambini diventarono stanchi."
+          }
+        ],
+        "eccezioni": "in the spoken language It is used quasi sempre the Präteritum for sein/haben/werden e the modali, mentre for gli altri verbi It is used the Perfekt. 'ex. gab' is the Präteritum of 'ex. gibt' (c'era/c'erano).",
+        "uso": "to use the Präteritum of sein/haben in the spoken language e written. is più naturale to say 'Ich war müde' che 'Ich bin müde gewesen'. Anche the verbi modali They are used spesso to the Präteritum: ich konnte, ich musste."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Ich ___ (sein) gestern in Berlin.",
+          "answer": "war",
+          "explanation": "Sein, 1st sing. Preterite. = war."
+        },
+        {
+          "question": "Completa: Wir ___ (haben) keine Zeit.",
+          "answer": "hatten",
+          "explanation": "Haben, 1st plur. Preterite. = hatten."
+        },
+        {
+          "question": "Completa: Er ___ (werden) Lehrer.",
+          "answer": "wurde",
+          "explanation": "Werden, 3rd sing. Preterite. = wurde."
+        },
+        {
+          "question": "Completa: ___ du gestern zu Hause? (sein)",
+          "answer": "Warst",
+          "explanation": "Sein, 2nd sing. Preterite. = warst."
+        },
+        {
+          "question": "Completa: Es ___ (geben, Prät.) viele Leute.",
+          "answer": "gab",
+          "explanation": "ex. gibt → Preterite.: ex. gab."
+        }
+      ]
+    },
+    {
+      "id": "a2_05",
+      "name": "Verbi separabili",
+      "explanation": "Prefissi separabili e struttura of the frase.",
+      "content": {
+        "regola": "the verbi separabili hanno un prefisso che si stacca e va to the fine of the main clause. Prefissi separabili comuni: an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück-, ab-, um-, weg-, her-, hin-, fern-, los-.\n\nin the main clause to the Present tense: prefisso to the fine. 'Ich STEHE um 7 Uhr AUF.' to the Perfekt: ge- si inserisce between/among prefisso e root: 'aufstehen → aufgestanden'. with Modal verb: the Separable verb resta unito all'Infinitive to the fine: 'Ich muss um 7 Uhr aufstehen.'\n\nthe prefissi inseparabili (be-, emp-, ent-, er-, ge-, miss-, ver-, zer-) NON si staccano mai. Prefissi ambigui (durch-, über-, um-, unter-, wieder-) possono to be separabili o inseparabili with significato different.",
+        "schema": "| Verb       | Present tense                    | Perfekt                     |",
+        "esempi": [
+          {
+            "tedesco": "Ich stehe jeden Tag um 7 Uhr auf.",
+            "italiano": "Mi alzo ogni giorno alle 7.",
+            "english": "Mi alzo ogni giorno to the 7."
+          },
+          {
+            "tedesco": "Wann rufst du mich an?",
+            "italiano": "Quando mi chiami?",
+            "english": "Quando mi chiami?"
+          },
+          {
+            "tedesco": "Er kauft im Supermarkt ein.",
+            "italiano": "Fa la spesa al supermercato.",
+            "english": "Fa the spesa to the supermercato."
+          },
+          {
+            "tedesco": "Wir kommen morgen zurück.",
+            "italiano": "Torniamo domani.",
+            "english": "Torniamo domani."
+          },
+          {
+            "tedesco": "Ich habe gestern ferngesehen.",
+            "italiano": "Ieri ho guardato la TV.",
+            "english": "Ieri ho guardato the TV."
+          },
+          {
+            "tedesco": "Mach bitte die Tür zu!",
+            "italiano": "Chiudi la porta per favore!",
+            "english": "Chiudi the porta for favore!"
+          },
+          {
+            "tedesco": "Der Zug fährt um 8 Uhr ab.",
+            "italiano": "Il treno parte alle 8.",
+            "english": "the treno parte to the 8."
+          },
+          {
+            "tedesco": "Ich muss früh aufstehen.",
+            "italiano": "Devo alzarmi presto.",
+            "english": "Devo alzarmi presto."
+          }
+        ],
+        "eccezioni": "Prefissi ambigui: 'umfahren' (separabile: girare intorno) vs 'umfahren' (inseparabile: investire). L'accento cade on the prefisso se separabile (AUFstehen), on the root se inseparabile (beSTEHen).",
+        "uso": "in the main clause: prefisso to the fine. in the subordinata: the Verb resta unito: '...weil ich früh aufstehe.' with modale: Infinitive unito to the fine: 'Ich muss aufstehen.' to the Perfekt: ge- between/among prefisso e root."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Er ___ jeden Tag um 6 Uhr ___. (aufstehen)",
+          "answer": "steht...auf",
+          "explanation": "Present tense: prefisso 'auf' to the fine."
+        },
+        {
+          "question": "Forma il Partizip II: einkaufen",
+          "answer": "eingekauft",
+          "explanation": "ge- between/among prefisso e root: ein-ge-kauft."
+        },
+        {
+          "question": "Con modale: Ich muss Maria ___. (anrufen)",
+          "answer": "anrufen",
+          "explanation": "with modale: Infinitive unito to the fine."
+        },
+        {
+          "question": "Forma il Partizip II: aufstehen",
+          "answer": "aufgestanden",
+          "explanation": "Forte + separabile: auf-ge-standen."
+        },
+        {
+          "question": "Completa: Wann ___ der Zug ___? (abfahren)",
+          "answer": "fährt...ab",
+          "explanation": "Present tense: prefisso ab to the fine. Fahren→fährt (irregolare)."
+        }
+      ]
+    },
+    {
+      "id": "a2_06",
+      "name": "Verbi riflessivi",
+      "explanation": "Verbi riflessivi e pronomi riflessivi all'Accusative e Dative.",
+      "content": {
+        "regola": "the verbi riflessivi They are used with un Pronoun riflessivo (sich). in tedesco distinguiamo pronomi riflessivi all'Accusative e to the Dative. All'Accusative: mich, dich, sich, uns, euch, sich. to the Dative: mir, dir, sich, uns, euch, sich.\n\nIt is used the riflessivo Accusative quando non c'is altro direct object: 'Ich wasche MICH.' (Mi lavo). It is used the Dative quando c'is anche un oggetto Accusative: 'Ich wasche MIR die Hände.' (Mi lavo the mani).\n\nAlcuni verbi are sempre riflessivi: sich freuen (rallegrarsi), sich beeilen (sbrigarsi), sich erkälten (raffreddarsi), sich interessieren (interessarsi). Altri diventano riflessivi with significato different: vorstellen (presentare) vs sich vorstellen (immaginare).",
+        "schema": "Pronomi riflessivi:",
+        "esempi": [
+          {
+            "tedesco": "Ich freue mich auf die Ferien.",
+            "italiano": "Mi rallegro per le vacanze.",
+            "english": "Mi rallegro for the vacanze."
+          },
+          {
+            "tedesco": "Beeil dich!",
+            "italiano": "Sbrigati!",
+            "english": "Sbrigati!"
+          },
+          {
+            "tedesco": "Er interessiert sich für Musik.",
+            "italiano": "Si interessa di musica.",
+            "english": "Si interessa of musica."
+          },
+          {
+            "tedesco": "Ich wasche mir die Hände.",
+            "italiano": "Mi lavo le mani. (dat. + ogg.)",
+            "english": "Mi lavo the mani. (dat. + ogg.)"
+          },
+          {
+            "tedesco": "Wir setzen uns.",
+            "italiano": "Ci sediamo.",
+            "english": "Ci sediamo."
+          },
+          {
+            "tedesco": "Kannst du dir das vorstellen?",
+            "italiano": "Riesci a immaginarlo?",
+            "english": "Riesci to/at immaginarlo?"
+          },
+          {
+            "tedesco": "Sie hat sich erkältet.",
+            "italiano": "Si è raffreddata.",
+            "english": "Si is raffreddata."
+          },
+          {
+            "tedesco": "Ich ziehe mich an.",
+            "italiano": "Mi vesto.",
+            "english": "Mi vesto."
+          }
+        ],
+        "eccezioni": "in main clause the riflessivo va subito dopo the Verb coniugato: 'Ich freue MICH.' with inversione: 'Morgen freue ich MICH.' in subordinata: '...weil ich MICH freue.' Alcuni verbi cambiano significato: sich umziehen (cambiarsi) vs umziehen (traslocarsi).",
+        "uso": "the Pronoun riflessivo segue the Verb coniugato. with modale: 'Ich muss mich beeilen.' to the Perfekt: 'Ich habe mich gefreut.' Imparare se the Verb richiede sich + Akk. o sich + Dat."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Ich ___ ___ für Sport. (sich interessieren)",
+          "answer": "interessiere mich",
+          "explanation": "Riflessivo acc.: interessiere mich."
+        },
+        {
+          "question": "Akk. o Dat.? Ich wasche ___ die Hände.",
+          "answer": "mir",
+          "explanation": "with altro oggetto (Hände) → Dative: mir."
+        },
+        {
+          "question": "Completa: ___ dich! (sich beeilen)",
+          "answer": "Beeil",
+          "explanation": "Imperative du: Beeil dich!"
+        },
+        {
+          "question": "Completa: Er hat ___ erkältet.",
+          "answer": "sich",
+          "explanation": "3rd Person riflessivo = sich."
+        },
+        {
+          "question": "Completa: Wir setzen ___ auf das Sofa.",
+          "answer": "uns",
+          "explanation": "1st plur. riflessivo = uns."
+        }
+      ]
+    },
+    {
+      "id": "a2_07",
+      "name": "Comparativo e superlativo",
+      "explanation": "Formazione e use of comparativo e superlativo degli aggettivi.",
+      "content": {
+        "regola": "the comparativo it is formed aggiungendo -er all'Adjective: schnell → schneller (più veloce). the superlativo: am + Adjective + -sten: am schnellsten (the più veloce). Molti aggettivi monosillabici with to/at/o/u prendono l'Umlaut: alt → älter → am ältesten.\n\nfor confrontare: comparativo + 'als' (of/che): 'Er ist größer ALS ich.' (is più alto of me). for uguaglianza: 'so + positivo + wie': 'Er ist so groß WIE ich.' (is alto come me).\n\nAggettivi irregolari: gut → besser → am besten, gern → lieber → am liebsten, viel → mehr → am meisten, hoch → höher → am höchsten, nah → näher → am nächsten.",
+        "schema": "Formazione regolare:",
+        "esempi": [
+          {
+            "tedesco": "Er ist schneller als ich.",
+            "italiano": "È più veloce di me.",
+            "english": "is più veloce of me."
+          },
+          {
+            "tedesco": "Sie ist die klügste Schülerin.",
+            "italiano": "È la studentessa più intelligente.",
+            "english": "is the studentessa più intelligente."
+          },
+          {
+            "tedesco": "Mein Auto ist so teuer wie deins.",
+            "italiano": "La mia auto è cara come la tua.",
+            "english": "the mia auto is cara come the tua."
+          },
+          {
+            "tedesco": "Berlin ist größer als München.",
+            "italiano": "Berlino è più grande di Monaco.",
+            "english": "Berlino is più grande of Monaco."
+          },
+          {
+            "tedesco": "Das ist das beste Restaurant.",
+            "italiano": "È il miglior ristorante.",
+            "english": "is the miglior ristorante."
+          },
+          {
+            "tedesco": "Ich trinke lieber Tee als Kaffee.",
+            "italiano": "Preferisco bere tè che caffè.",
+            "english": "Preferisco bere tè che caffè."
+          },
+          {
+            "tedesco": "Er läuft am schnellsten.",
+            "italiano": "Corre più veloce di tutti.",
+            "english": "Corre più veloce of tutti."
+          },
+          {
+            "tedesco": "Das billigste Hotel kostet 50 Euro.",
+            "italiano": "L'hotel più economico costa 50 euro.",
+            "english": "L'hotel più economico costa 50 euro."
+          }
+        ],
+        "eccezioni": "Aggettivi in -el/-er perdono the 'e': dunkel→dunkler, teuer→teurer. Superlativo in -d/-t/-s/-ß/-z aggiunge -esten: alt→am ältesten, heiß→am heißesten. 'Mehr' e 'weniger' non they are declined.",
+        "uso": "Predicativo: Er ist am größten. Attributivo: der größte Mann (the comparativo/superlativo it is declined come Adjective). Confronto: comp. + als, uguaglianza: so...wie, inferiorità: nicht so...wie."
+      },
+      "exercises": [
+        {
+          "question": "Comparativo di 'alt'?",
+          "answer": "älter",
+          "explanation": "Monosillabo with 'to/at' → Umlaut: älter."
+        },
+        {
+          "question": "Superlativo di 'gut'?",
+          "answer": "am besten",
+          "explanation": "Irregolare: gut→besser→am besten."
+        },
+        {
+          "question": "Completa: Berlin ist ___ ___ München. (groß)",
+          "answer": "größer als",
+          "explanation": "Comparativo + als."
+        },
+        {
+          "question": "Completa: Er läuft so schnell ___ ich.",
+          "answer": "wie",
+          "explanation": "Uguaglianza: so + positivo + wie."
+        },
+        {
+          "question": "Superlativo di 'gern'?",
+          "answer": "am liebsten",
+          "explanation": "Irregolare: gern→lieber→am liebsten."
+        }
+      ]
+    },
+    {
+      "id": "a2_08",
+      "name": "Declinazione aggettivi dopo articolo determinativo",
+      "explanation": "endings degli aggettivi dopo der/die/das.",
+      "content": {
+        "regola": "Quando un Adjective is posto between/among Definite article e Noun (posizione attributiva), prende of the endings. Dopo l'Definite article (der, die, das, die pl.) the endings are solo -e o -en.\n\nending -e: Nominative maschile/femminile/neutro Singular. ending -en: TUTTI gli altri casi (Accusative masch., Dative, Genitive, Plural). Schema mnemonico: -e appare solo in 5 caselle of the Nominative/Accusative Singular, tutto the resto is -en.\n\nQuesto schema vale anche dopo: dieser, jeder, jener, welcher, mancher, to the.",
+        "schema": "weak declension (dopo art. det.):",
+        "esempi": [
+          {
+            "tedesco": "Der kleine Hund spielt.",
+            "italiano": "Il piccolo cane gioca. (nom. -e)",
+            "english": "the piccolo cane gioca. (nom. -e)"
+          },
+          {
+            "tedesco": "Ich sehe den kleinen Hund.",
+            "italiano": "Vedo il piccolo cane. (akk. masc. -en)",
+            "english": "Vedo the piccolo cane. (akk. masc. -en)"
+          },
+          {
+            "tedesco": "Die junge Frau lacht.",
+            "italiano": "La giovane donna ride. (nom. -e)",
+            "english": "the giovane donna ride. (nom. -e)"
+          },
+          {
+            "tedesco": "Das neue Auto ist schnell.",
+            "italiano": "La nuova auto è veloce. (nom. -e)",
+            "english": "the nuova auto is veloce. (nom. -e)"
+          },
+          {
+            "tedesco": "Ich helfe dem alten Mann.",
+            "italiano": "Aiuto il vecchio uomo. (dat. -en)",
+            "english": "Aiuto the vecchio uomo. (dat. -en)"
+          },
+          {
+            "tedesco": "Die neuen Bücher sind teuer.",
+            "italiano": "I nuovi libri sono cari. (plur. -en)",
+            "english": "the nuovi libri are cari. (plur. -en)"
+          },
+          {
+            "tedesco": "Er gibt der netten Frau die Blumen.",
+            "italiano": "Dà i fiori alla donna gentile. (dat. -en)",
+            "english": "Dà the fiori to the donna gentile. (dat. -en)"
+          },
+          {
+            "tedesco": "Ich kaufe das rote Kleid.",
+            "italiano": "Compro il vestito rosso. (akk. neutro -e)",
+            "english": "Compro the vestito rosso. (akk. neutro -e)"
+          }
+        ],
+        "eccezioni": "Aggettivi in -el perdono the 'e' interna: dunkel → der dunkle Raum. Aggettivi in -er of origine straniera possono perdere the 'e': teuer → das teure Auto. 'Hoch' perde the 'c' in posizione attributiva: der hohe Berg.",
+        "uso": "the weak declension (dopo art. det.) has quasi solo -en. the 5 exceptions with -e are: nom. masc./femm./neutro + akk. femm./neutro. Regola pratica: -e quando l'Article mostra già chiaramente the Gender, -en in tutti gli altri casi."
+      },
+      "exercises": [
+        {
+          "question": "Completa: der groß___ Mann (nom.)",
+          "answer": "große",
+          "explanation": "Nom. masc. dopo art. det. → -e."
+        },
+        {
+          "question": "Completa: den klein___ Hund (akk.)",
+          "answer": "kleinen",
+          "explanation": "Akk. masc. dopo art. det. → -en."
+        },
+        {
+          "question": "Completa: die alt___ Frau (dat.)",
+          "answer": "alten",
+          "explanation": "Dat. femm. dopo art. det. → -en."
+        },
+        {
+          "question": "Completa: das neu___ Buch (nom.)",
+          "answer": "neue",
+          "explanation": "Nom. neutro dopo art. det. → -e."
+        },
+        {
+          "question": "Completa: die klein___ Kinder (nom.)",
+          "answer": "kleinen",
+          "explanation": "Plur. dopo art. det. → -en."
+        }
+      ]
+    },
+    {
+      "id": "a2_09",
+      "name": "Declinazione aggettivi dopo articolo indeterminativo",
+      "explanation": "endings degli aggettivi dopo ein/eine/kein/mein.",
+      "content": {
+        "regola": "Dopo l'Indefinite article (ein, eine, kein, mein, dein, sein, ihr, unser, euer) the endings dell'Adjective are dette 'miste'. the differenza with the weak declension: to the Nominative maschile e neutro, e all'Accusative neutro, l'Adjective prende the ending 'forte' perché 'ein' non mostra the Gender.\n\nNom. masch.: ein alt-ER Mann (non -e!). Nom./Akk. neutro: ein alt-ex. Haus (non -e!). in tutti gli altri casi: come the weak declension (-en o -e).\n\nRegola pratica: dove 'ein' non has ending propria (ein Mann, ein Haus), l'Adjective compensa mostrando the Gender (-er masc., -ex. neutro).",
+        "schema": "mixed declension (dopo art. indet.):",
+        "esempi": [
+          {
+            "tedesco": "Ein kleiner Hund spielt.",
+            "italiano": "Un piccolo cane gioca. (nom. masc. -er)",
+            "english": "Un piccolo cane gioca. (nom. masc. -er)"
+          },
+          {
+            "tedesco": "Ich habe ein neues Auto.",
+            "italiano": "Ho una nuova auto. (akk. neutro -es)",
+            "english": "Ho una nuova auto. (akk. neutro -ex.)"
+          },
+          {
+            "tedesco": "Eine junge Frau kommt.",
+            "italiano": "Una giovane donna viene. (nom. femm. -e)",
+            "english": "Una giovane donna viene. (nom. femm. -e)"
+          },
+          {
+            "tedesco": "Ich sehe einen großen Mann.",
+            "italiano": "Vedo un uomo grande. (akk. masc. -en)",
+            "english": "Vedo un uomo grande. (akk. masc. -en)"
+          },
+          {
+            "tedesco": "Er wohnt in einem alten Haus.",
+            "italiano": "Abita in una vecchia casa. (dat. neutro -en)",
+            "english": "Abita in una vecchia casa. (dat. neutro -en)"
+          },
+          {
+            "tedesco": "Mein bester Freund heißt Thomas.",
+            "italiano": "Il mio migliore amico si chiama Thomas.",
+            "english": "the mio migliore amico si chiama Thomas."
+          },
+          {
+            "tedesco": "Ich habe keine neuen Schuhe.",
+            "italiano": "Non ho scarpe nuove. (plur. -en)",
+            "english": "Non ho scarpe nuove. (plur. -en)"
+          },
+          {
+            "tedesco": "Sie gibt ihrem kleinen Bruder ein Geschenk.",
+            "italiano": "Dà un regalo al suo fratellino.",
+            "english": "Dà un regalo to the suo fratellino."
+          }
+        ],
+        "eccezioni": "the Plural segue the weak declension (-en) perché kein/mein ecc. hanno ending Plural (keine, meine). 'Ein' non has Plural, therefore without Article It is used the strong declension.",
+        "uso": "Ricorda: dove ein/mein/kein NON mostra the Gender (masc. nom., neutro nom./akk.), l'Adjective the mostra with -er/-ex.. Altrove the Gender is già chiaro dall'Article e l'Adjective prende -e o -en."
+      },
+      "exercises": [
+        {
+          "question": "Completa: ein groß___ Haus (nom.)",
+          "answer": "großes",
+          "explanation": "Nom. neutro: ein non mostra Gender → -ex.."
+        },
+        {
+          "question": "Completa: ein klein___ Hund (nom.)",
+          "answer": "kleiner",
+          "explanation": "Nom. masc.: ein non mostra Gender → -er."
+        },
+        {
+          "question": "Completa: eine jung___ Frau (nom.)",
+          "answer": "junge",
+          "explanation": "Nom. femm.: eine mostra Gender → -e."
+        },
+        {
+          "question": "Completa: einen alt___ Mann (akk.)",
+          "answer": "alten",
+          "explanation": "Akk. masc.: einen mostra Gender → -en."
+        },
+        {
+          "question": "Completa: Ich habe kein neu___ Auto. (akk.)",
+          "answer": "neues",
+          "explanation": "Akk. neutro: kein non mostra Gender → -ex.."
+        }
+      ]
+    },
+    {
+      "id": "a2_10",
+      "name": "Declinazione aggettivi senza articolo",
+      "explanation": "endings forti degli aggettivi used without Article.",
+      "content": {
+        "regola": "Quando l'Adjective non is preceduto from/by Article, prende the endings 'forti'. L'Adjective stesso deve mostrare the Gender e the Case, therefore the endings corrispondono to/at quelle dell'Definite article (with un'exception to the Genitive masc./neutro).\n\nQuesto avviene with: sostantivi plurali without Article, sostantivi non numerabili (Wasser, Milch), dopo numerali (zwei, drei...), dopo alcuni indefiniti (viele, einige, wenige, mehrere, andere).\n\nex.: 'Kaltes Wasser ist gesund.' (Acqua fredda fa bene), 'Alte Häuser sind schön.' (the vecchie case are belle).",
+        "schema": "strong declension (without Article):",
+        "esempi": [
+          {
+            "tedesco": "Kalter Wind weht.",
+            "italiano": "Soffia vento freddo. (nom. masc. -er)",
+            "english": "Soffia vento freddo. (nom. masc. -er)"
+          },
+          {
+            "tedesco": "Frische Milch ist lecker.",
+            "italiano": "Il latte fresco è buono. (nom. femm. -e)",
+            "english": "the latte fresco is buono. (nom. femm. -e)"
+          },
+          {
+            "tedesco": "Kaltes Wasser bitte!",
+            "italiano": "Acqua fredda per favore! (nom./akk. neutro -es)",
+            "english": "Acqua fredda for favore! (nom./akk. neutro -ex.)"
+          },
+          {
+            "tedesco": "Alte Häuser sind schön.",
+            "italiano": "Le vecchie case sono belle. (nom. plur. -e)",
+            "english": "the vecchie case are belle. (nom. plur. -e)"
+          },
+          {
+            "tedesco": "Ich trinke gern deutschen Wein.",
+            "italiano": "Bevo volentieri vino tedesco. (akk. masc. -en)",
+            "english": "Bevo volentieri vino tedesco. (akk. masc. -en)"
+          },
+          {
+            "tedesco": "Mit frischer Milch schmeckt es besser.",
+            "italiano": "Con latte fresco è più buono. (dat. femm. -er)",
+            "english": "with latte fresco is più buono. (dat. femm. -er)"
+          },
+          {
+            "tedesco": "Zwei kleine Kinder spielen.",
+            "italiano": "Due bambini piccoli giocano.",
+            "english": "Due bambini piccoli giocano."
+          },
+          {
+            "tedesco": "Er trinkt viel schwarzen Kaffee.",
+            "italiano": "Beve molto caffè nero.",
+            "english": "Beve molto caffè nero."
+          }
+        ],
+        "eccezioni": "to the Genitive masc. e neutro the ending is -en (non -ex.), perché the Noun stesso prende -s: 'trotz schlechten Wetters' (nonostante the brutto Tense). Dopo viel/wenig to the Singular non it is declined: 'viel Geld' (molto denaro).",
+        "uso": "to use quando non c'is Article, especially: Plural without Article, with materiali/sostanze non numerabili, dopo numeri e parole come viele/einige/wenige. Ricordarsi che the endings forti riflettono the Gender come l'Article."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Kalt___ Wasser ist gesund.",
+          "answer": "Kaltes",
+          "explanation": "Neutro nom. without art. → -ex.."
+        },
+        {
+          "question": "Completa: Ich trinke gern deutsch___ Bier.",
+          "answer": "deutsches",
+          "explanation": "Neutro akk. without art. → -ex.."
+        },
+        {
+          "question": "Completa: Alt___ Häuser haben Charme.",
+          "answer": "Alte",
+          "explanation": "Plur. nom. without art. → -e."
+        },
+        {
+          "question": "Completa: Mit frisch___ Obst.",
+          "answer": "frischem",
+          "explanation": "Neutro dat. without art. → -em."
+        },
+        {
+          "question": "Completa: Zwei klein___ Kinder spielen.",
+          "answer": "kleine",
+          "explanation": "Plur. nom. dopo Number → -e (forte)."
+        }
+      ]
+    },
+    {
+      "id": "a2_11",
+      "name": "Nebensatz con weil",
+      "explanation": "Frasi subordinate causali with 'weil' (perché).",
+      "content": {
+        "regola": "'Weil' (perché) introduce una subordinate clause causale. in the subordinata tedesca the Verb coniugato va to the FINE of the frase. Struttura: Hauptsatz + , weil + subject + ... + Verb (to the fine).\n\nexample: 'Ich bleibe zu Hause, WEIL ich krank BIN.' (Resto to/at casa perché are malato). the Verb 'bin' va to the fine.\n\nSe the subordinata with 'weil' viene first of the main, the main inizia with the Verb (inversione): 'Weil ich krank bin, BLEIBE ICH zu Hause.' the subordinata occupa the 'posizione 1' of the main.",
+        "schema": "Struttura:",
+        "esempi": [
+          {
+            "tedesco": "Ich lerne Deutsch, weil ich in Deutschland arbeiten will.",
+            "italiano": "Studio tedesco perché voglio lavorare in Germania.",
+            "english": "Studio tedesco perché voglio lavorare in Germania."
+          },
+          {
+            "tedesco": "Er ist müde, weil er schlecht geschlafen hat.",
+            "italiano": "È stanco perché ha dormito male.",
+            "english": "is stanco perché has dormito male."
+          },
+          {
+            "tedesco": "Weil es regnet, bleiben wir zu Hause.",
+            "italiano": "Poiché piove, restiamo a casa.",
+            "english": "Poiché piove, restiamo to/at casa."
+          },
+          {
+            "tedesco": "Sie kommt nicht, weil sie keine Zeit hat.",
+            "italiano": "Non viene perché non ha tempo.",
+            "english": "Non viene perché non has Tense."
+          },
+          {
+            "tedesco": "Weil ich kein Auto habe, fahre ich mit dem Bus.",
+            "italiano": "Poiché non ho la macchina, vado in autobus.",
+            "english": "Poiché non ho the macchina, vado in autobus."
+          },
+          {
+            "tedesco": "Ich bin froh, weil du hier bist.",
+            "italiano": "Sono contento perché sei qui.",
+            "english": "are contento perché sei qui."
+          }
+        ],
+        "eccezioni": "in the spoken language informale 'weil' It is used to/at volte with l'ordine of the main (Verb in pos. 2): 'Ich komme nicht, weil ich bin krank.' Questo is grammaticalmente scorretto in the written! Alternativa: 'denn' + ordine main: 'Ich komme nicht, denn ich bin krank.'",
+        "uso": "'Weil' risponde to the domanda 'Warum?' (perché?). in the subordinata: Verb to the fine. Se c'is un modale: modale to the fine. Se Perfekt: ausiliare to the fine dopo the participio: '...weil er gut geschlafen hat.'"
+      },
+      "exercises": [
+        {
+          "question": "Completa: Ich bleibe zu Hause, weil ich krank ___.",
+          "answer": "bin",
+          "explanation": "in the subordinata the Verb va to the fine."
+        },
+        {
+          "question": "Trasforma: 'Er ist müde. Er hat schlecht geschlafen.'",
+          "answer": "Er ist müde, weil er schlecht geschlafen hat.",
+          "explanation": "with weil: ausiliare to the fine."
+        },
+        {
+          "question": "Metti 'weil' prima: 'Sie kommt nicht, weil sie arbeiten muss.'",
+          "answer": "Weil sie arbeiten muss, kommt sie nicht.",
+          "explanation": "Subordinata first → inversione in the main."
+        },
+        {
+          "question": "Correggi: 'Ich lerne, weil ich will gut sprechen.'",
+          "answer": "Ich lerne, weil ich gut sprechen will.",
+          "explanation": "the modale va to the fine of the subordinata."
+        },
+        {
+          "question": "Differenza tra 'weil' e 'denn'?",
+          "answer": "weil: verbo alla fine (subordinata); denn: ordine normale (coordinata)",
+          "explanation": "Weil = subordinante, denn = coordinante."
+        }
+      ]
+    },
+    {
+      "id": "a2_12",
+      "name": "Nebensatz con dass",
+      "explanation": "Frasi subordinate dichiarative with 'dass' (che).",
+      "content": {
+        "regola": "'Dass' (che) introduce una subordinate clause dichiarativa. Come tutte the subordinate, the Verb va to the fine. It is used dopo verbi of opinione, percezione, desiderio, comunicazione: glauben (credere), denken (pensare), wissen (to know), hoffen (sperare), sagen (to say), finden (trovare/ritenere).\n\nStruttura: Hauptsatz + , dass + subject + ... + Verb. ex.: 'Ich glaube, DASS er kommt.' (Credo che lui venga). 'Ich weiß, DASS sie Deutsch spricht.' (So che lei parla tedesco).\n\nSpesso 'dass' può to be omesso, e the frase assume l'ordine normale: 'Ich glaube, er kommt.' = 'Ich glaube, dass er kommt.'",
+        "schema": "| Hauptsatz         | dass + Nebensatz (Verb to the fine)  |",
+        "esempi": [
+          {
+            "tedesco": "Ich glaube, dass er recht hat.",
+            "italiano": "Credo che lui abbia ragione.",
+            "english": "Credo che lui abbia ragione."
+          },
+          {
+            "tedesco": "Sie sagt, dass sie morgen kommt.",
+            "italiano": "Dice che viene domani.",
+            "english": "Dice che viene domani."
+          },
+          {
+            "tedesco": "Ich weiß, dass du Deutsch lernst.",
+            "italiano": "So che studi tedesco.",
+            "english": "So che studi tedesco."
+          },
+          {
+            "tedesco": "Ich hoffe, dass das Wetter schön wird.",
+            "italiano": "Spero che il tempo sarà bello.",
+            "english": "Spero che the Tense sarà bello."
+          },
+          {
+            "tedesco": "Es ist wichtig, dass du pünktlich bist.",
+            "italiano": "È importante che tu sia puntuale.",
+            "english": "is importante che tu sia puntuale."
+          },
+          {
+            "tedesco": "Ich finde, dass der Film gut ist.",
+            "italiano": "Trovo che il film sia buono.",
+            "english": "Trovo che the film sia buono."
+          },
+          {
+            "tedesco": "Er meint, dass wir mehr lernen sollen.",
+            "italiano": "Pensa che dovremmo studiare di più.",
+            "english": "Pensa che dovremmo studiare of più."
+          },
+          {
+            "tedesco": "Ich bin froh, dass du hier bist.",
+            "italiano": "Sono contento che tu sia qui.",
+            "english": "are contento che tu sia qui."
+          }
+        ],
+        "eccezioni": "Dass-Satz come subject: 'Dass er kommt, freut mich.' (Che lui venga mi fa piacere). in questo Case the main inizia col Verb. Si può sostituire with 'ex. freut mich, dass...' Dopo 'wissen', 'sagen', 'glauben' si può omettere 'dass'.",
+        "uso": "Dopo verbi of pensiero/opinione/comunicazione. Struttura: Verb to the fine of the subordinata. with Perfekt: '...dass er gekommen ist.' with modale: '...dass er kommen kann.' with separabile: '...dass er aufsteht.' (the Verb si riunisce)."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Ich glaube, dass er morgen ___ (kommen).",
+          "answer": "kommt",
+          "explanation": "Verb to the fine of the subordinata."
+        },
+        {
+          "question": "Trasforma con dass: 'Er ist krank. Ich weiß das.'",
+          "answer": "Ich weiß, dass er krank ist.",
+          "explanation": "Dass + subject + ... + Verb to the fine."
+        },
+        {
+          "question": "Completa: Sie sagt, dass sie morgen nicht kommen ___ (können).",
+          "answer": "kann",
+          "explanation": "Modale to the fine of the subordinata."
+        },
+        {
+          "question": "Riscrivi senza dass: 'Ich glaube, dass er kommt.'",
+          "answer": "Ich glaube, er kommt.",
+          "explanation": "without dass: ordine normale of the main."
+        },
+        {
+          "question": "Completa: Es ist wichtig, dass du die Hausaufgaben ___ (machen).",
+          "answer": "machst",
+          "explanation": "Verb coniugato to the fine."
+        }
+      ]
+    },
+    {
+      "id": "a2_13",
+      "name": "Nebensatz con wenn",
+      "explanation": "Frasi subordinate condizionali e temporali with 'wenn'.",
+      "content": {
+        "regola": "'Wenn' has due significati: 1) Conditional: 'se' (Wenn ex. regnet, bleibe ich zu Hause = Se piove, resto to/at casa); 2) temporale ripetitivo: 'quando' (for azioni ripetute/abituali: Wenn ich nach Hause komme, esse ich = Quando arrivo to/at casa, mangio).\n\nCome subordinante, the Verb va to the fine. Se the wenn-Satz viene first, the main inizia col Verb: 'Wenn ich Zeit habe, KOMME ich.'\n\nfor 'quando' with azione singola in the Past tense It is used 'als' (non wenn): 'Als ich ein Kind war...' (Quando ero bambino...). 'Wenn' for the Past tense solo se ripetitivo: '(Immer) wenn er kam, brachte er Blumen.'",
+        "schema": "Conditional:",
+        "esempi": [
+          {
+            "tedesco": "Wenn ich Zeit habe, lese ich ein Buch.",
+            "italiano": "Se/Quando ho tempo, leggo un libro.",
+            "english": "Se/Quando ho Tense, leggo un libro."
+          },
+          {
+            "tedesco": "Wenn es regnet, nehme ich einen Schirm.",
+            "italiano": "Se piove, prendo un ombrello.",
+            "english": "Se piove, prendo un ombrello."
+          },
+          {
+            "tedesco": "Ich rufe dich an, wenn ich fertig bin.",
+            "italiano": "Ti chiamo quando ho finito.",
+            "english": "Ti chiamo quando ho finito."
+          },
+          {
+            "tedesco": "Wenn du willst, können wir ins Kino gehen.",
+            "italiano": "Se vuoi, possiamo andare al cinema.",
+            "english": "Se vuoi, possiamo to go to the cinema."
+          },
+          {
+            "tedesco": "Immer wenn er kommt, bringt er Blumen mit.",
+            "italiano": "Ogni volta che viene, porta dei fiori.",
+            "english": "Ogni volta che viene, porta of the fiori."
+          },
+          {
+            "tedesco": "Wenn ich groß bin, werde ich Arzt.",
+            "italiano": "Quando sarò grande, diventerò medico.",
+            "english": "Quando sarò grande, diventerò medico."
+          }
+        ],
+        "eccezioni": "'Wenn' vs 'als': 'wenn' = condizione o azione ripetuta; 'als' = azione singola in the Past tense. 'Als ich ein Kind war' (quando ero bambino - una volta). 'Wenn ich ein Kind war' sarebbe sbagliato (to/at meno che non sia ripetitivo).",
+        "uso": "Condizione: 'Se piove...'. Tense ripetitivo: 'Ogni volta che...'. for azione singola passata: to use 'als'. Struttura: Verb to the fine of the wenn-Satz. Se wenn-Satz first: inversione in the main."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Wenn ich reich ___ (sein), kaufe ich ein Haus.",
+          "answer": "wäre/bin",
+          "explanation": "with condizione irreale: wäre. Reale: bin."
+        },
+        {
+          "question": "'Quando' singolo passato: ___ ich in Berlin war, besuchte ich das Museum.",
+          "answer": "Als",
+          "explanation": "Azione singola in the Past tense → als, non wenn."
+        },
+        {
+          "question": "Completa: Wenn es kalt ___ (sein), ziehe ich einen Mantel an.",
+          "answer": "ist",
+          "explanation": "Condizione Present tense → Present tense: ist."
+        },
+        {
+          "question": "Inversione: 'Ich bleibe zu Hause, wenn es regnet.' → wenn prima",
+          "answer": "Wenn es regnet, bleibe ich zu Hause.",
+          "explanation": "Wenn-Satz first → inversione in the main."
+        },
+        {
+          "question": "Wenn o als? ___ ich klein war, spielte ich gern.",
+          "answer": "Als",
+          "explanation": "Past tense, azione singola (periodo) → als."
+        }
+      ]
+    },
+    {
+      "id": "a2_14",
+      "name": "Nebensatz con obwohl",
+      "explanation": "Frasi subordinate concessive with 'obwohl' (sebbene/nonostante).",
+      "content": {
+        "regola": "'Obwohl' (sebbene, nonostante, anche se) introduce una subordinate clause concessiva. Esprime un contrasto: un'azione avviene nonostante un ostacolo. Come tutte the subordinate, the Verb va to the fine.\n\nStruttura: Hauptsatz + , obwohl + Sogg. + ... + Verb. Oppure: Obwohl + Sogg. + ... + Verb, + Hauptsatz (with inversione).\n\nexample: 'Er arbeitet, OBWOHL er krank IST.' (Lavora sebbene sia malato). Oppure: 'Obwohl er krank ist, ARBEITET er.'",
+        "schema": "| Hauptsatz          | obwohl + Nebensatz (Verb fine) |",
+        "esempi": [
+          {
+            "tedesco": "Er arbeitet, obwohl er krank ist.",
+            "italiano": "Lavora sebbene sia malato.",
+            "english": "Lavora sebbene sia malato."
+          },
+          {
+            "tedesco": "Obwohl es regnet, geht sie spazieren.",
+            "italiano": "Nonostante piova, va a passeggiare.",
+            "english": "Nonostante piova, va to/at passeggiare."
+          },
+          {
+            "tedesco": "Ich bin müde, obwohl ich gut geschlafen habe.",
+            "italiano": "Sono stanco nonostante abbia dormito bene.",
+            "english": "are stanco nonostante abbia dormito bene."
+          },
+          {
+            "tedesco": "Obwohl er kein Geld hat, ist er glücklich.",
+            "italiano": "Sebbene non abbia soldi, è felice.",
+            "english": "Sebbene non abbia soldi, is felice."
+          },
+          {
+            "tedesco": "Sie lacht, obwohl sie traurig ist.",
+            "italiano": "Ride anche se è triste.",
+            "english": "Ride anche se is triste."
+          },
+          {
+            "tedesco": "Obwohl ich viel gelernt habe, habe ich die Prüfung nicht bestanden.",
+            "italiano": "Sebbene abbia studiato molto, non ho superato l'esame.",
+            "english": "Sebbene abbia studiato molto, non ho superato l'esame."
+          }
+        ],
+        "eccezioni": "in spoken language It is used anche 'trotzdem' (however/nonostante ciò) come Adverb connettore in the main clause (with inversione): 'Er ist krank. Trotzdem arbeitet er.' Non confondere obwohl (subordinante, Verb to the fine) with trotzdem (Adverb, Verb in pos. 2).",
+        "uso": "for esprimere concessione/contrasto. Sinonimo più formal: 'obgleich', 'obschon'. in main clause with significato simile: 'trotzdem' (however), 'dennoch' (ciononostante) - but with struttura different."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Er geht aus, obwohl es kalt ___.",
+          "answer": "ist",
+          "explanation": "Verb to the fine of the subordinata."
+        },
+        {
+          "question": "Riscrivi con obwohl prima: 'Sie isst viel, obwohl sie abnehmen will.'",
+          "answer": "Obwohl sie abnehmen will, isst sie viel.",
+          "explanation": "Inversione in the main."
+        },
+        {
+          "question": "Differenza tra obwohl e trotzdem?",
+          "answer": "obwohl: subordinante (verbo fine); trotzdem: avverbio (verbo pos. 2)",
+          "explanation": "Obwohl ich müde bin, arbeite ich. / Ich bin müde. Trotzdem arbeite ich."
+        },
+        {
+          "question": "Completa: Obwohl er viel ___ (lernen, Perfekt), hat er die Prüfung nicht bestanden.",
+          "answer": "gelernt hat",
+          "explanation": "Perfekt in the subordinata: participio + ausiliare to the fine."
+        },
+        {
+          "question": "Traduci: 'Nonostante piova, andiamo al parco.'",
+          "answer": "Obwohl es regnet, gehen wir in den Park.",
+          "explanation": "Obwohl + Verb to the fine, inversione in the main."
+        }
+      ]
+    },
+    {
+      "id": "a2_15",
+      "name": "Verbi con preposizioni fisse",
+      "explanation": "Verbi che reggono una Preposition specifica.",
+      "content": {
+        "regola": "Molti verbi tedeschi are seguiti from/by una Preposition specifica che determina anche the Case. Vanno imparati to/at memoria. examples: warten auf + Akk. (aspettare), sich freuen auf + Akk. (non veder l'ora of), sich freuen über + Akk. (to be contento of), denken an + Akk. (pensare to/at), sich interessieren für + Akk. (interessarsi to/at).\n\nwith Dative: sprechen mit + Dat. (parlare with), Angst haben vor + Dat. (to have paura of), anfangen mit + Dat. (iniziare with), teilnehmen an + Dat. (partecipare to/at), träumen von + Dat. (sognare of).\n\nfor chiedere with una Preposition: for cose It is used wo(r)- + Preposition: 'Worauf wartest du?' (Cosa aspetti?). for people: Preposition + Wen/Wem: 'Auf wen wartest du?' (Chi aspetti?).",
+        "schema": "with Accusative:",
+        "esempi": [
+          {
+            "tedesco": "Ich warte auf den Bus.",
+            "italiano": "Aspetto l'autobus.",
+            "english": "Aspetto l'autobus."
+          },
+          {
+            "tedesco": "Wir freuen uns auf die Ferien.",
+            "italiano": "Non vediamo l'ora delle vacanze.",
+            "english": "Non vediamo l'ora of the vacanze."
+          },
+          {
+            "tedesco": "Er denkt oft an seine Familie.",
+            "italiano": "Pensa spesso alla sua famiglia.",
+            "english": "Pensa spesso to the sua famiglia."
+          },
+          {
+            "tedesco": "Sie interessiert sich für Musik.",
+            "italiano": "Si interessa di musica.",
+            "english": "Si interessa of musica."
+          },
+          {
+            "tedesco": "Ich habe Angst vor Hunden.",
+            "italiano": "Ho paura dei cani.",
+            "english": "Ho paura of the cani."
+          },
+          {
+            "tedesco": "Worauf wartest du?",
+            "italiano": "Cosa aspetti? (wo+r+auf)",
+            "english": "Cosa aspetti? (wo+r+auf)"
+          },
+          {
+            "tedesco": "Auf wen wartest du?",
+            "italiano": "Chi aspetti?",
+            "english": "Chi aspetti?"
+          },
+          {
+            "tedesco": "Ich träume von einer Weltreise.",
+            "italiano": "Sogno un viaggio intorno al mondo.",
+            "english": "Sogno un viaggio intorno to the mondo."
+          }
+        ],
+        "eccezioni": "Attenzione: 'sich freuen auf' (aspettare with gioia, Future tense) vs 'sich freuen über' (to be contento of, Present tense/Past tense). 'Denken an' (pensare to/at) vs 'denken über' (riflettere on). Alcuni verbi cambiano significato with preposizioni different.",
+        "uso": "Imparare sempre: Verb + Preposition + Case. for cose: wo(r)+prep (wofür, worüber, woran). for people: prep+wen/wem (für wen, über wen, an wen). the 'r' si inserisce first of vocale: wo-r-auf, wo-r-über."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Ich warte ___ den Bus.",
+          "answer": "auf",
+          "explanation": "Warten + auf + Akk."
+        },
+        {
+          "question": "Completa: Er freut sich ___ das Geschenk.",
+          "answer": "über",
+          "explanation": "Sich freuen über = contento of (Present tense/Past tense)."
+        },
+        {
+          "question": "Domanda per 'Ich denke an die Prüfung': ___?",
+          "answer": "Woran denkst du?",
+          "explanation": "for cose: wo(r) + an = woran."
+        },
+        {
+          "question": "Completa: Sie hat Angst ___ Spinnen.",
+          "answer": "vor",
+          "explanation": "Angst haben vor + Dat."
+        },
+        {
+          "question": "sich freuen auf o über? 'Ich ___ ___ ___ die Ferien.' (futuro)",
+          "answer": "freue mich auf",
+          "explanation": "Auf = Future tense (non vedo l'ora). Über = Present tense."
+        }
+      ]
+    },
+    {
+      "id": "a2_16",
+      "name": "Caso Genitivo",
+      "explanation": "the Genitive come Case of the possesso e of the specificazione.",
+      "content": {
+        "regola": "the Genitive indica possesso/appartenenza e corrisponde to the 'of' italiano. Articoli: des (masch./neutro, +s/-ex. to the Noun), der (femm./plur.). Indeterminativi: eines (m./n.), einer (f.).\n\nthe sostantivi maschili e neutri aggiungono -s (polisillabi: des Lehrers) o -ex. (monosillabi/sibilanti: des Mannes, des Hauses). Femminile e Plural non cambiano the Noun.\n\nin the spoken language the Genitive is spesso sostituito from/by 'von + Dativ': 'das Buch des Lehrers' = 'das Buch von dem Lehrer'. Alcune preposizioni reggono the Genitive: wegen (to/at causa of), trotz (nonostante), während (during), statt/anstatt (invece of).",
+        "schema": "| Case Gen. | Masch.       | Femm.    | Neutro       | Plur.    |",
+        "esempi": [
+          {
+            "tedesco": "Das Auto des Mannes ist rot.",
+            "italiano": "La macchina dell'uomo è rossa.",
+            "english": "the macchina dell'uomo is rossa."
+          },
+          {
+            "tedesco": "Die Tasche der Frau ist neu.",
+            "italiano": "La borsa della donna è nuova.",
+            "english": "the borsa of the donna is nuova."
+          },
+          {
+            "tedesco": "Der Name des Kindes ist Max.",
+            "italiano": "Il nome del bambino è Max.",
+            "english": "the nome of the bambino is Max."
+          },
+          {
+            "tedesco": "Trotz des Regens gehen wir spazieren.",
+            "italiano": "Nonostante la pioggia andiamo a passeggiare.",
+            "english": "Nonostante the pioggia andiamo to/at passeggiare."
+          },
+          {
+            "tedesco": "Während der Pause essen wir.",
+            "italiano": "Durante la pausa mangiamo.",
+            "english": "during the pausa mangiamo."
+          },
+          {
+            "tedesco": "Wegen des Wetters bleibe ich zu Hause.",
+            "italiano": "A causa del tempo resto a casa.",
+            "english": "to/at causa of the Tense resto to/at casa."
+          },
+          {
+            "tedesco": "Die Farbe des Autos gefällt mir.",
+            "italiano": "Mi piace il colore della macchina.",
+            "english": "Mi piace the colore of the macchina."
+          },
+          {
+            "tedesco": "Statt eines Buches kaufe ich eine Zeitschrift.",
+            "italiano": "Invece di un libro compro una rivista.",
+            "english": "Invece of un libro compro una rivista."
+          }
+        ],
+        "eccezioni": "in the spoken language: von + Dat. invece of the Genitive: 'das Haus von meinem Bruder' = 'das Haus meines Bruders'. the nomi propri aggiungono -s without apostrofo: 'Annas Buch', 'Deutschlands Hauptstadt'. Se the nome finisce in -s: Apostrofo: 'Thomas' Auto'.",
+        "uso": "for esprimere possesso/appartenenza. with preposizioni: wegen, trotz, während, statt. in testi written e formali. in the spoken language spesso sostituito from/by 'von + Dat.'."
+      },
+      "exercises": [
+        {
+          "question": "Traduci: 'il libro dell'insegnante (m.)'",
+          "answer": "das Buch des Lehrers",
+          "explanation": "Masch. gen.: des + -s to the Noun."
+        },
+        {
+          "question": "Completa: Trotz ___ (der) Regen___ gehen wir.",
+          "answer": "des Regens",
+          "explanation": "Trotz + Genitive: des Regens."
+        },
+        {
+          "question": "Traduci: 'la borsa della donna'",
+          "answer": "die Tasche der Frau",
+          "explanation": "Femm. gen.: der (the Noun non cambia)."
+        },
+        {
+          "question": "Completa: Während ___ (die) Ferien lese ich viel.",
+          "answer": "der Ferien",
+          "explanation": "Während + gen. plur.: der."
+        },
+        {
+          "question": "Genitivo con nome proprio: 'il libro di Anna'",
+          "answer": "Annas Buch",
+          "explanation": "Nomi propri: nome + s (without apostrofo)."
+        }
+      ]
+    },
+    {
+      "id": "a2_17",
+      "name": "Pronomi dimostrativi e indefiniti",
+      "explanation": "Dieser/jener, jeder, to the, man, jemand, niemand, etwas, nichts.",
+      "content": {
+        "regola": "Pronomi DIMOSTRATIVI: 'dieser/diese/dieses' (questo) e 'jener/jene/jenes' (quello) they are declined come l'Definite article. 'Dieser' is molto più used of 'jener'; for 'quello' It is used spesso l'Definite article with enfasi.\n\nPronomi INDEFINITI: 'jeder/jede/jedes' (ogni, ognuno) - Singular, it is declined come 'dieser'. 'to the' (tutti) - Plural. 'Man' (si impersonale) - solo Nominative, Accusative 'einen', Dative 'einem'. 'Jemand' (qualcuno), 'niemand' (nessuno) - declension facoltativa.\n\n'Etwas' (qualcosa), 'nichts' (niente) - invariabili. with Adjective sostantivato: 'etwas Schönes' (qualcosa of bello), 'nichts Neues' (niente of nuovo) - Adjective maiuscolo e neutro.",
+        "schema": "Dieser (come art. det.):",
+        "esempi": [
+          {
+            "tedesco": "Dieser Film ist gut.",
+            "italiano": "Questo film è buono.",
+            "english": "Questo film is buono."
+          },
+          {
+            "tedesco": "Ich nehme dieses Buch.",
+            "italiano": "Prendo questo libro.",
+            "english": "Prendo questo libro."
+          },
+          {
+            "tedesco": "Jeder Mensch ist anders.",
+            "italiano": "Ogni persona è diversa.",
+            "english": "Ogni Person is different."
+          },
+          {
+            "tedesco": "Alle Kinder spielen gern.",
+            "italiano": "Tutti i bambini giocano volentieri.",
+            "english": "Tutti the bambini giocano volentieri."
+          },
+          {
+            "tedesco": "Man spricht hier Deutsch.",
+            "italiano": "Qui si parla tedesco.",
+            "english": "Qui si parla tedesco."
+          },
+          {
+            "tedesco": "Jemand hat angerufen.",
+            "italiano": "Qualcuno ha chiamato.",
+            "english": "Qualcuno has chiamato."
+          },
+          {
+            "tedesco": "Niemand ist perfekt.",
+            "italiano": "Nessuno è perfetto.",
+            "english": "Nessuno is Perfect."
+          },
+          {
+            "tedesco": "Ich habe etwas Interessantes gelesen.",
+            "italiano": "Ho letto qualcosa di interessante.",
+            "english": "Ho letto qualcosa of interessante."
+          }
+        ],
+        "eccezioni": "'Man' non refers to to/at un Gender specifico. with 'man' the Verb is to the 3rd Person Singular. 'Etwas Neues' - l'Adjective dopo etwas/nichts is sempre sostantivato, neutro, with maiuscola. 'Jemand/niemand' possono restare invariati anche all'acc./dat.",
+        "uso": "'Dieser' for to indicated vicinanza. 'Jeder' + Singular for 'ogni'. 'to the' + Plural for 'tutti'. 'Man' for frasi impersonali generiche. 'Etwas/nichts' + Adjective neutro sostantivato."
+      },
+      "exercises": [
+        {
+          "question": "Declina 'dieser' all'accusativo maschile.",
+          "answer": "diesen",
+          "explanation": "Come art. det.: den → diesen."
+        },
+        {
+          "question": "Completa: ___ Student muss lernen. (ogni)",
+          "answer": "Jeder",
+          "explanation": "Jeder + Singular = ogni."
+        },
+        {
+          "question": "Completa: ___ spricht hier Englisch. (impersonale)",
+          "answer": "Man",
+          "explanation": "Man = Pronoun impersonale."
+        },
+        {
+          "question": "Completa: Ich habe ___ Schönes gekauft.",
+          "answer": "etwas",
+          "explanation": "Etwas + Adjective neutro sostantivato."
+        },
+        {
+          "question": "Completa: ___ ist gekommen. (nessuno)",
+          "answer": "Niemand",
+          "explanation": "Niemand = nessuno."
+        }
+      ]
+    },
+    {
+      "id": "a2_18",
+      "name": "Connettori: deshalb, trotzdem, außerdem",
+      "explanation": "Avverbi connettori che causano inversione in the frase.",
+      "content": {
+        "regola": "the connettori avverbiali collegano due frasi principali come the congiunzioni, but occupano the POSIZIONE 1 of the second frase e causano INVERSIONE (Verb-subject). the principali:\n\n'Deshalb/deswegen/darum/daher' (perciò/therefore): causa-effetto. 'Trotzdem' (however/nonostante ciò): concessione. 'Außerdem' (furthermore): aggiunta. 'Dann' (poi/then): sequenza. 'Sonst' (altrimenti): alternativa. 'Stattdessen' (invece): sostituzione.\n\nDifferenza with congiunzioni coordinanti: 'denn' (pos. 0, no inversione) vs 'deshalb' (pos. 1, inversione). 'Obwohl' (subordinante, Verb to the fine) vs 'trotzdem' (Adverb connettore, Verb in pos. 2).",
+        "schema": "| Connettore   | Significato    | example with inversione           |",
+        "esempi": [
+          {
+            "tedesco": "Ich bin müde, deshalb gehe ich ins Bett.",
+            "italiano": "Sono stanco, perciò vado a letto.",
+            "english": "are stanco, perciò vado to/at letto."
+          },
+          {
+            "tedesco": "Es regnet, trotzdem gehen wir spazieren.",
+            "italiano": "Piove, tuttavia andiamo a passeggiare.",
+            "english": "Piove, however andiamo to/at passeggiare."
+          },
+          {
+            "tedesco": "Er spricht Deutsch. Außerdem spricht er Französisch.",
+            "italiano": "Parla tedesco. Inoltre parla francese.",
+            "english": "Parla tedesco. furthermore parla francese."
+          },
+          {
+            "tedesco": "Zuerst essen wir, dann gehen wir ins Kino.",
+            "italiano": "Prima mangiamo, poi andiamo al cinema.",
+            "english": "first mangiamo, poi andiamo to the cinema."
+          },
+          {
+            "tedesco": "Beeil dich, sonst kommen wir zu spät.",
+            "italiano": "Sbrigati, altrimenti arriviamo in ritardo.",
+            "english": "Sbrigati, altrimenti arriviamo in ritardo."
+          },
+          {
+            "tedesco": "Er hat kein Auto. Stattdessen fährt er Fahrrad.",
+            "italiano": "Non ha la macchina. Invece va in bicicletta.",
+            "english": "Non has the macchina. Invece va in bicicletta."
+          }
+        ],
+        "eccezioni": "the connettori possono anche to stay/stand in the Mittelfeld (non in pos. 1): 'Ich gehe trotzdem aus.' = 'Trotzdem gehe ich aus.' but in pos. 1 with inversione are più enfatici. 'Darum', 'deswegen', 'daher' are sinonimi of 'deshalb'.",
+        "uso": "for collegare frasi mostrando rapporti logici. Causa → deshalb. Concessione → trotzdem. Aggiunta → außerdem. Sequenza → dann/danach. Alternativa → sonst. Sempre with inversione in pos. 1."
+      },
+      "exercises": [
+        {
+          "question": "Collega con deshalb: 'Ich bin krank. Ich bleibe zu Hause.'",
+          "answer": "Ich bin krank, deshalb bleibe ich zu Hause.",
+          "explanation": "Deshalb + inversione: bleibe ich."
+        },
+        {
+          "question": "Collega con trotzdem: 'Es ist kalt. Er geht schwimmen.'",
+          "answer": "Es ist kalt, trotzdem geht er schwimmen.",
+          "explanation": "Trotzdem + inversione: geht er."
+        },
+        {
+          "question": "Differenza tra 'denn' e 'deshalb'?",
+          "answer": "denn: causa (pos. 0, no inv.); deshalb: conseguenza (pos. 1, inv.)",
+          "explanation": "Ich bin müde, denn ich habe gearbeitet. / Ich habe gearbeitet, deshalb bin ich müde."
+        },
+        {
+          "question": "Completa: Es regnet. ___ nehme ich einen Schirm.",
+          "answer": "Deshalb",
+          "explanation": "Conseguenza logica → deshalb + inversione."
+        },
+        {
+          "question": "Collega con außerdem: 'Er spricht Deutsch. Er spricht auch Italienisch.'",
+          "answer": "Er spricht Deutsch. Außerdem spricht er Italienisch.",
+          "explanation": "Außerdem + inversione: spricht er."
+        }
+      ]
+    },
+    {
+      "id": "a2_19",
+      "name": "Verbi con dativo",
+      "explanation": "Verbi che reggono the Case Dative invece dell'Accusative.",
+      "content": {
+        "regola": "Alcuni verbi tedeschi reggono the Dative for the loro complement, to/at differenza dell'italiano dove userebbero l'Accusative. the più importanti: helfen (aiutare), danken (ringraziare), gefallen (piacere), gehören (appartenere), gratulieren (congratularsi), antworten (rispondere), folgen (seguire), glauben (credere to/at qcn.), fehlen (mancare), schmecken (piacere come gusto), passen (to go bene/calzare), leidtun (dispiacere).\n\nStruttura: subject + Verb + Dative (Person). ex.: 'Ich helfe DIR.' (Ti aiuto), 'Das Buch gehört MIR.' (the libro appartiene to/at me).\n\nAlcuni verbi hanno sia Accusative che Dative: 'Ich gebe DIR (dat.) DAS BUCH (acc.).' in questo Case the Dative indica the Person, l'Accusative the cosa.",
+        "schema": "Verbi with solo Dative:",
+        "esempi": [
+          {
+            "tedesco": "Kannst du mir helfen?",
+            "italiano": "Puoi aiutarmi?",
+            "english": "Puoi aiutarmi?"
+          },
+          {
+            "tedesco": "Ich danke dir für das Geschenk.",
+            "italiano": "Ti ringrazio per il regalo.",
+            "english": "Ti ringrazio for the regalo."
+          },
+          {
+            "tedesco": "Die Stadt gefällt mir sehr.",
+            "italiano": "La città mi piace molto.",
+            "english": "the città mi piace molto."
+          },
+          {
+            "tedesco": "Wem gehört dieses Buch?",
+            "italiano": "A chi appartiene questo libro?",
+            "english": "to/at chi appartiene questo libro?"
+          },
+          {
+            "tedesco": "Du fehlst mir.",
+            "italiano": "Mi manchi.",
+            "english": "Mi manchi."
+          },
+          {
+            "tedesco": "Schmeckt dir der Kuchen?",
+            "italiano": "Ti piace la torta (come gusto)?",
+            "english": "Ti piace the torta (come gusto)?"
+          },
+          {
+            "tedesco": "Es tut mir leid.",
+            "italiano": "Mi dispiace.",
+            "english": "Mi dispiace."
+          },
+          {
+            "tedesco": "Die Schuhe passen mir nicht.",
+            "italiano": "Le scarpe non mi stanno bene.",
+            "english": "the scarpe non mi stanno bene."
+          }
+        ],
+        "eccezioni": "'Glauben' with Dative = credere to/at qualcuno: 'Ich glaube dir.' with Accusative = credere qualcosa: 'Ich glaube das.' 'Folgen' + dat.: 'Folgen Sie mir!' (Mi segua). Attenzione: 'gefallen' ≠ 'mögen'. 'Gefallen' has struttura come 'piacere' italiano.",
+        "uso": "Imparare the lista of the verbi with Dative. in Case of dubbio: se the complement is una Person e non subisce direttamente l'azione, is probabile the Dative. 'Gefallen' e 'fehlen' hanno the struttura dell'italiano 'piacere' e 'mancare': Das gefällt mir = Questo piace to/at me."
+      },
+      "exercises": [
+        {
+          "question": "Completa: Kannst du ___ (io) helfen?",
+          "answer": "mir",
+          "explanation": "Helfen + Dative: mir."
+        },
+        {
+          "question": "Completa: Die Pizza schmeckt ___ (lui) gut.",
+          "answer": "ihm",
+          "explanation": "Schmecken + Dative: ihm."
+        },
+        {
+          "question": "Completa: Wem ___ dieses Auto? (gehören)",
+          "answer": "gehört",
+          "explanation": "Gehören + dat.: to/at chi appartiene?"
+        },
+        {
+          "question": "Completa: Es ___ mir ___. (leidtun)",
+          "answer": "tut...leid",
+          "explanation": "Leidtun = Separable verb: tut leid."
+        },
+        {
+          "question": "Completa: Du ___ (mancare) mir sehr.",
+          "answer": "fehlst",
+          "explanation": "Fehlen + Dative: Du fehlst mir = Mi manchi."
+        }
+      ]
+    },
+    {
+      "id": "a2_20",
+      "name": "TeKaMoLo - Ordine nel Mittelfeld",
+      "explanation": "L'ordine of the complementi in the parte centrale of the frase.",
+      "content": {
+        "regola": "in the Mittelfeld (parte centrale between/among Verb coniugato e fine of the frase) the complementi seguono tendenzialmente l'ordine TeKaMoLo: Temporal (quando), Kausal (perché), Modal (come), Lokal (dove).\n\nexample completo: 'Ich fahre MORGEN (Te) WEGEN DER ARBEIT (Ka) MIT DEM ZUG (Mo) NACH BERLIN (the).' (Domani vado to/at Berlino in treno for lavoro).\n\nQuesto non is una regola assoluta but una tendenza. the complement Dative precede l'Accusative (se are sostantivi). Se l'Accusative is un Pronoun, precede the Dative: 'Ich gebe ex. dir.' (Te the do).",
+        "schema": "TeKaMoLo:",
+        "esempi": [
+          {
+            "tedesco": "Ich fahre morgen mit dem Zug nach Berlin.",
+            "italiano": "Domani vado a Berlino in treno. (Te-Mo-Lo)",
+            "english": "Domani vado to/at Berlino in treno. (Te-Mo-the)"
+          },
+          {
+            "tedesco": "Er geht jeden Tag gern in die Schule.",
+            "italiano": "Va volentieri a scuola ogni giorno. (Te-Mo-Lo)",
+            "english": "Va volentieri to/at scuola ogni giorno. (Te-Mo-the)"
+          },
+          {
+            "tedesco": "Wir fliegen nächste Woche wegen der Hochzeit nach Italien.",
+            "italiano": "Voliamo in Italia la prossima settimana per il matrimonio. (Te-Ka-Lo)",
+            "english": "Voliamo in Italia the prossima settimana for the matrimonio. (Te-Ka-the)"
+          },
+          {
+            "tedesco": "Sie arbeitet seit einem Jahr fleißig in München.",
+            "italiano": "Lavora diligentemente a Monaco da un anno. (Te-Mo-Lo)",
+            "english": "Lavora diligentemente to/at Monaco from/by un anno. (Te-Mo-the)"
+          },
+          {
+            "tedesco": "Ich gebe meinem Bruder morgen das Geschenk.",
+            "italiano": "Domani do il regalo a mio fratello. (Dat.-Te-Akk.)",
+            "english": "Domani do the regalo to/at mio fratello. (Dat.-Te-Akk.)"
+          },
+          {
+            "tedesco": "Ich gebe es ihm morgen.",
+            "italiano": "Glielo do domani. (Akk.pron-Dat.pron-Te)",
+            "english": "Glielo do domani. (Akk.pron-Dat.pron-Te)"
+          }
+        ],
+        "eccezioni": "TeKaMoLo is una linea guida, non una regola rigida. for enfasi si può cambiare l'ordine. the Pronoun riflessivo sta subito dopo the Verb. the pronomi personali precedono the sostantivi in the Mittelfeld. 'Nicht' sta first dell'ultimo elemento of the Mittelfeld.",
+        "uso": "Quando si hanno più complementi, to use TeKaMoLo come guida. Dat. Noun first of Akk. Noun. Pronomi first of sostantivi. Akk. Pronoun first of Dat. Pronoun."
+      },
+      "exercises": [
+        {
+          "question": "Ordina: gehe / ich / in die Schule / jeden Tag / gern",
+          "answer": "Ich gehe jeden Tag gern in die Schule.",
+          "explanation": "Te (jeden Tag) - Mo (gern) - the (in die Schule)."
+        },
+        {
+          "question": "Ordina: fährt / er / morgen / mit dem Auto / nach Hamburg",
+          "answer": "Er fährt morgen mit dem Auto nach Hamburg.",
+          "explanation": "Te (morgen) - Mo (mit dem Auto) - the (nach Hamburg)."
+        },
+        {
+          "question": "Quale ordine: dativo o accusativo prima (sostantivi)?",
+          "answer": "Dativo prima dell'accusativo.",
+          "explanation": "Ich gebe dem Mann das Buch. (Dat. poi Akk.)"
+        },
+        {
+          "question": "E con i pronomi?",
+          "answer": "Accusativo prima del dativo.",
+          "explanation": "Ich gebe ex. ihm. (Akk.pron. poi Dat.pron.)"
+        },
+        {
+          "question": "Cosa significa TeKaMoLo?",
+          "answer": "Temporal-Kausal-Modal-Lokal",
+          "explanation": "Ordine of the complementi in the Mittelfeld."
+        }
+      ]
+    }
+  ]
+}

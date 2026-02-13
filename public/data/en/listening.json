@@ -1,0 +1,2561 @@
+{
+  "levels": {
+    "A1": {
+      "exercises": [
+        {
+          "id": "a1_diktat_01",
+          "type": "diktat",
+          "title": "Greetings",
+          "text": "Guten Morgen! Wie geht es dir?",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_02",
+          "type": "diktat",
+          "title": "Basic Introduction",
+          "text": "Ich heiße Marco und ich bin 25 Jahre alt.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_03",
+          "type": "diktat",
+          "title": "Where are you from",
+          "text": "Ich komme aus Italien und wohne jetzt in Deutschland.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_04",
+          "type": "diktat",
+          "title": "Family",
+          "text": "Ich habe einen Bruder und eine Schwester.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_05",
+          "type": "diktat",
+          "title": "Daily routine",
+          "text": "Ich wache um sieben Uhr auf und frühstücke.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_comprensione_01",
+          "type": "comprensione",
+          "title": "Simple Introduction",
+          "text": "Mein Name ist Anna. Ich bin Lehrerin. Ich arbeite in einer Schule. Ich mag meine Arbeit sehr.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "What is the person's name?",
+              "options": [
+                "Anna",
+                "Andrea",
+                "Alice",
+                "Alessandra"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Quale è il lavoro di Anna?",
+              "options": [
+                "Infermiera",
+                "Lehrerin",
+                "Köchin",
+                "Ingeniera"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Dove lavora Anna?",
+              "options": [
+                "In un ospedale",
+                "In un negozio",
+                "In una scuola",
+                "In un ristorante"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_comprensione_02",
+          "type": "comprensione",
+          "title": "Family Description",
+          "text": "Ich habe einen großen Bruder. Er heißt Thomas. Thomas ist Arzt. Meine Schwester heißt Sabine. Sie studiert noch.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Che lavoro fa Thomas?",
+              "options": [
+                "Insegnante",
+                "Arzt",
+                "Meccanico",
+                "Cuoco"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Che cosa fa Sabine?",
+              "options": [
+                "Lavora come infermiera",
+                "Studia ancora",
+                "È pensionata",
+                "È disoccupata"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Quanti fratelli ha il narratore?",
+              "options": [
+                "Un fratello e una sorella",
+                "Due fratelli",
+                "Una sorella",
+                "Tre fratelli"
+              ],
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": "a1_lueckentext_01",
+          "type": "lueckentext",
+          "title": "Daily Routine",
+          "text": "Ich wache um 7 Uhr auf. Dann dusche ich und frühstücke. Ich trinke Kaffee und esse Brot.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "wache"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_02",
+          "type": "lueckentext",
+          "title": "Simple Statement",
+          "text": "Der Hund ist braun. Die Katze ist schwarz. Das Auto ist rot.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "braun"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_06",
+          "type": "diktat",
+          "title": "Occupation",
+          "text": "Mein Vater arbeitet als Ingenieur in einer großen Firma.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_07",
+          "type": "diktat",
+          "title": "Hobby",
+          "text": "In meiner Freizeit lese ich Bücher und spiele Gitarre.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_08",
+          "type": "diktat",
+          "title": "School",
+          "text": "Ich gehe zur Schule. Meine Lieblingsfächer sind Mathematik und Geschichte.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_09",
+          "type": "diktat",
+          "title": "Food",
+          "text": "Ich esse gerne Pizza und Pasta. Mein Lieblingsgetränk ist Orangensaft.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_10",
+          "type": "diktat",
+          "title": "Weekend",
+          "text": "Am Wochenende treffe ich meine Freunde. Wir gehen ins Kino oder spazieren.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_11",
+          "type": "diktat",
+          "title": "Numbers",
+          "text": "Ich bin zwanzig Jahre alt. Mein Bruder ist sechzehn.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_12",
+          "type": "diktat",
+          "title": "Time",
+          "text": "Es ist neun Uhr morgens. Der Unterricht beginnt um acht Uhr.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_13",
+          "type": "diktat",
+          "title": "Weather",
+          "text": "Das Wetter ist heute sehr schön. Die Sonne scheint.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_14",
+          "type": "diktat",
+          "title": "Shopping",
+          "text": "Ich gehe zum Supermarkt. Ich kaufe Brot, Milch und Käse.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_15",
+          "type": "diktat",
+          "title": "Animals",
+          "text": "Ich habe einen Hund. Sein Name ist Max. Der Hund ist sehr freundlich.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_16",
+          "type": "diktat",
+          "title": "Languages",
+          "text": "Ich spreche Deutsch und Englisch. Ich lerne auch Französisch.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_diktat_17",
+          "type": "diktat",
+          "title": "House",
+          "text": "Mein Haus hat vier Zimmer. Das Wohnzimmer ist sehr groß.",
+          "speed": 0.85,
+          "questions": null
+        },
+        {
+          "id": "a1_comprensione_03",
+          "type": "comprensione",
+          "title": "Food Preferences",
+          "text": "Maria mag Äpfel und Bananen. Sie isst kein Fleisch. Ihr Lieblingsobst ist Erdbeeren.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Was mag Maria gerne?",
+              "options": [
+                "Fleisch",
+                "Äpfel und Bananen",
+                "Kartoffeln",
+                "Fisch"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Isst Maria Fleisch?",
+              "options": [
+                "Ja, sehr gerne",
+                "Nein, sie isst kein Fleisch",
+                "Manchmal",
+                "Nicht sicher"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist Marias Lieblingsobst?",
+              "options": [
+                "Äpfel",
+                "Bananen",
+                "Erdbeeren",
+                "Orangen"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_comprensione_04",
+          "type": "comprensione",
+          "title": "Daily Activities",
+          "text": "Peter wacht um sieben Uhr auf. Er frühstückt um sieben Uhr dreißig. Dann geht er zur Arbeit.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Wann wacht Peter auf?",
+              "options": [
+                "Um sechs Uhr",
+                "Um sieben Uhr",
+                "Um acht Uhr",
+                "Um neun Uhr"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wann frühstückt Peter?",
+              "options": [
+                "Um sieben Uhr",
+                "Um sieben Uhr dreißig",
+                "Um acht Uhr",
+                "Um neun Uhr"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wohin geht Peter nach dem Frühstück?",
+              "options": [
+                "Zur Schule",
+                "Zur Universität",
+                "Zur Arbeit",
+                "Zum Gym"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_comprensione_05",
+          "type": "comprensione",
+          "title": "Family Members",
+          "text": "Ich habe zwei Großeltern. Sie sind alt und nett. Sie wohnen auf dem Land.",
+          "speed": 0.85,
+          "questions": [
+            {
+              "question": "Wie viele Großeltern hat die Person?",
+              "options": [
+                "Eins",
+                "Zwei",
+                "Drei",
+                "Vier"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie sind die Großeltern?",
+              "options": [
+                "Jung und böse",
+                "Alt und nett",
+                "Mittel und langweilig",
+                "Sehr jung"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wo wohnen die Großeltern?",
+              "options": [
+                "In der Stadt",
+                "Im Dorf",
+                "Auf dem Land",
+                "Im Wald"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "a1_lueckentext_03",
+          "type": "lueckentext",
+          "title": "School Subjects",
+          "text": "Ich mag Mathematik und Deutsch. Geschichte ist auch interessant. Physik ist schwierig.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "mag"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_04",
+          "type": "lueckentext",
+          "title": "Colors",
+          "text": "Das Buch ist rot. Der Stift ist blau. Das Heft ist grün.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "rot"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_05",
+          "type": "lueckentext",
+          "title": "Sports",
+          "text": "Ich spiele Fußball. Mein Freund spielt Tennis. Wir spielen am Wochenende.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "spiele"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_06",
+          "type": "lueckentext",
+          "title": "Clothing",
+          "text": "Ich trage ein rotes Hemd. Ich trage auch schwarze Hosen. Meine Schuhe sind braun.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "trage"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_07",
+          "type": "lueckentext",
+          "title": "Drinks",
+          "text": "Ich trinke gerne Kaffee. Meine Mutter trinkt Tee. Mein Vater trinkt Bier.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "trinke"
+            }
+          ],
+          "questions": null
+        },
+        {
+          "id": "a1_lueckentext_08",
+          "type": "lueckentext",
+          "title": "Places",
+          "text": "Das ist ein Supermarkt. Das ist ein Kino. Das ist ein Restaurant.",
+          "speed": 0.85,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "Supermarkt"
+            }
+          ],
+          "questions": null
+        }
+      ]
+    },
+    "A2": {
+      "exercises": [
+        {
+          "id": "a2_diktat_01",
+          "type": "diktat",
+          "title": "Restaurant",
+          "text": "Ich hätte gerne einen Tisch für zwei Personen. Können Sie mir einen ruhigen Platz geben?",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_02",
+          "type": "diktat",
+          "title": "Travel Plans",
+          "text": "Nächsten Monat fahre ich nach Berlin. Ich möchte die Museen besuchen und die Kultur kennenlernen.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_03",
+          "type": "diktat",
+          "title": "Health",
+          "text": "Ich habe starke Kopfschmerzen. Können Sie mir ein Medikament empfehlen?",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_04",
+          "type": "diktat",
+          "title": "Shopping",
+          "text": "Diese Jacke ist zu teuer. Haben Sie eine günstigere Größe?",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_05",
+          "type": "diktat",
+          "title": "Weather",
+          "text": "Das Wetter ist heute sehr schön. Gestern hat es die ganze Zeit geregnet.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_comprensione_01",
+          "type": "comprensione",
+          "title": "Job Interview",
+          "text": "Der Arbeitgeber fragt: Welche Erfahrung haben Sie? Der Kandidat antwortet: Ich habe fünf Jahre als Kundenberater gearbeitet. Ich spreche drei Sprachen und bin sehr zuverlässig.",
+          "speed": 0.8,
+          "questions": [
+            {
+              "question": "Quanto tempo ha lavorato il candidato come consulente clienti?",
+              "options": [
+                "Tre anni",
+                "Quattro anni",
+                "Cinque anni",
+                "Dieci anni"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Quante lingue parla il candidato?",
+              "options": [
+                "Due",
+                "Tre",
+                "Quattro",
+                "Una"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Quale qualità ha il candidato?",
+              "options": [
+                "Non è affidabile",
+                "È molto affidabile",
+                "È pigro",
+                "È disonesto"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "a2_comprensione_02",
+          "type": "comprensione",
+          "title": "Hotel Reservation",
+          "text": "Guten Tag! Ich möchte ein Zimmer buchen. Wie viele Nächte? Fünf Nächte. Das Zimmer kostet 80 Euro pro Nacht. Das ist gut. Ich nehme das Zimmer.",
+          "speed": 0.8,
+          "questions": [
+            {
+              "question": "Quante notti vuole prenotare il cliente?",
+              "options": [
+                "Tre notti",
+                "Quattro notti",
+                "Cinque notti",
+                "Sei notti"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Qual è il prezzo per notte?",
+              "options": [
+                "70 euro",
+                "80 euro",
+                "90 euro",
+                "100 euro"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Il cliente è soddisfatto?",
+              "options": [
+                "Sì, molto",
+                "No, è troppo caro",
+                "No, preferisce un'altra camera",
+                "Non è sicuro"
+              ],
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_01",
+          "type": "lueckentext",
+          "title": "Holiday Plans",
+          "text": "Ich fahre in den Urlaub. Ich besuche meine Familie. Wir übernachten in einem Hotel. Es ist wunderbar.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "fahre"
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_02",
+          "type": "lueckentext",
+          "title": "Past Events",
+          "text": "Gestern bin ich ins Kino gegangen. Der Film war spannend. Ich habe Popcorn gegessen.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 2,
+              "correct": "spannend"
+            }
+          ]
+        },
+        {
+          "id": "a2_diktat_06",
+          "type": "diktat",
+          "title": "Birthday Party",
+          "text": "Nächste Woche habe ich Geburtstag. Ich lade meine Freunde ein. Wir feiern zusammen.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_07",
+          "type": "diktat",
+          "title": "Sport",
+          "text": "Ich gehe dreimal pro Woche ins Fitnessstudio. Ich mache gerne Cardio und Gewichte.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_08",
+          "type": "diktat",
+          "title": "Learning Languages",
+          "text": "Ich lerne Deutsch seit zwei Jahren. Es macht mir viel Spaß.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_09",
+          "type": "diktat",
+          "title": "Technology",
+          "text": "Mein Handy ist sehr wichtig für mich. Ich nutze es jeden Tag.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_10",
+          "type": "diktat",
+          "title": "Environment",
+          "text": "Wir sollten die Umwelt schützen. Ich recycle meine Müll.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_11",
+          "type": "diktat",
+          "title": "Directions",
+          "text": "Die Post ist neben der Bank. Das Museum ist gegenüber vom Hotel.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_12",
+          "type": "diktat",
+          "title": "Doctor's Appointment",
+          "text": "Ich habe morgen einen Termin beim Zahnarzt. Mein Zahn tut weh.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_13",
+          "type": "diktat",
+          "title": "Apartment",
+          "text": "Meine Wohnung hat zwei Schlafzimmer und einen großen Balkon.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_14",
+          "type": "diktat",
+          "title": "Hobbies",
+          "text": "Mein Hobby ist Fotografieren. Ich mache gerne Bilder von Natur.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_15",
+          "type": "diktat",
+          "title": "Work Routine",
+          "text": "Ich arbeite als Krankenpfleger in einem Krankenhaus.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_16",
+          "type": "diktat",
+          "title": "Music",
+          "text": "Ich spiele Klavier und singe in einem Chor.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_diktat_17",
+          "type": "diktat",
+          "title": "Transportation",
+          "text": "Ich fahre mit dem Auto zur Arbeit. Der Bus ist zu langsam.",
+          "speed": 0.8
+        },
+        {
+          "id": "a2_comprensione_03",
+          "type": "comprensione",
+          "title": "Doctor Visit",
+          "text": "Guten Tag, Herr Müller. Was ist das Problem? Ich habe Kopfschmerzen seit zwei Tagen. Nehmen Sie zwei Tabletten pro Tag.",
+          "speed": 0.8,
+          "questions": [
+            {
+              "question": "Was hat der Patient?",
+              "options": [
+                "Kopfschmerzen",
+                "Magenschmerzen",
+                "Zahnschmerzen",
+                "Rückenschmerzen"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Wie lange hat er Kopfschmerzen?",
+              "options": [
+                "Einen Tag",
+                "Zwei Tage",
+                "Drei Tage",
+                "Eine Woche"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie viele Tabletten pro Tag soll er nehmen?",
+              "options": [
+                "Eins",
+                "Zwei",
+                "Drei",
+                "Vier"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "a2_comprensione_04",
+          "type": "comprensione",
+          "title": "Travel Plans",
+          "text": "Ich fahre nächste Woche nach Österreich. Ich besuche Salzburg und Wien. Ich bleibe zwei Wochen.",
+          "speed": 0.8,
+          "questions": [
+            {
+              "question": "Wohin fährt die Person?",
+              "options": [
+                "Nach Frankreich",
+                "Nach Österreich",
+                "Nach Italien",
+                "Nach Schweiz"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Städte besucht sie?",
+              "options": [
+                "München und Berlin",
+                "Dresden und Hamburg",
+                "Salzburg und Wien",
+                "Köln und Bonn"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Wie lange bleibt sie?",
+              "options": [
+                "Eine Woche",
+                "Zwei Wochen",
+                "Einen Monat",
+                "Zwei Monate"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "a2_comprensione_05",
+          "type": "comprensione",
+          "title": "Apartment Details",
+          "text": "Meine neue Wohnung kostet 800 Euro pro Monat. Sie hat drei Zimmer und liegt in der Nähe der U-Bahn. Die Wohnung ist modern und sehr hell.",
+          "speed": 0.8,
+          "questions": [
+            {
+              "question": "Wie viel kostet die Wohnung?",
+              "options": [
+                "500 Euro",
+                "700 Euro",
+                "800 Euro",
+                "900 Euro"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Wie viele Zimmer hat die Wohnung?",
+              "options": [
+                "Zwei",
+                "Drei",
+                "Vier",
+                "Fünf"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wo liegt die Wohnung?",
+              "options": [
+                "Weit weg von der U-Bahn",
+                "In der Nähe der U-Bahn",
+                "Im Zentrum",
+                "Im Wald"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_03",
+          "type": "lueckentext",
+          "title": "Restaurant Conversation",
+          "text": "Guten Abend. Ich hätte gerne einen Tisch. Wie viele Personen? Vier Personen.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 2,
+              "correct": "Tisch"
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_04",
+          "type": "lueckentext",
+          "title": "Movie Experience",
+          "text": "Der Film war sehr gut. Die Geschichte war spannend und lustig.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "gut"
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_05",
+          "type": "lueckentext",
+          "title": "Bus Schedule",
+          "text": "Der Bus fährt alle zehn Minuten. Der nächste Bus kommt in fünf Minuten.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "fährt"
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_06",
+          "type": "lueckentext",
+          "title": "Weather Forecast",
+          "text": "Morgen wird es regnen. Am Wochenende wird es sonnig und warm.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "regnen"
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_07",
+          "type": "lueckentext",
+          "title": "Family Plans",
+          "text": "Am Samstag besuchen wir meine Großeltern. Sie wohnen auf dem Land. Wir bringen ihnen Blumen mit.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 2,
+              "correct": "Land"
+            }
+          ]
+        },
+        {
+          "id": "a2_lueckentext_08",
+          "type": "lueckentext",
+          "title": "Job Description",
+          "text": "Mein Job ist interessant und gut bezahlt. Ich arbeite in einem Büro. Die Kollegen sind freundlich.",
+          "speed": 0.8,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "interessant"
+            }
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "exercises": [
+        {
+          "id": "b1_diktat_01",
+          "type": "diktat",
+          "title": "Complex Opinion",
+          "text": "Ich bin der Meinung, dass Technologie unser Leben verbessert, aber wir sollten nicht zu abhängig davon werden.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_02",
+          "type": "diktat",
+          "title": "Professional Meeting",
+          "text": "In diesem Projekt werden wir eng mit verschiedenen Abteilungen zusammenarbeiten müssen, um die Ziele zu erreichen.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_03",
+          "type": "diktat",
+          "title": "Social Issues",
+          "text": "Die Arbeitslosigkeit ist ein ernstes Problem in vielen europäischen Ländern.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_04",
+          "type": "diktat",
+          "title": "Environmental Concerns",
+          "text": "Der Klimawandel erfordert sofortige Maßnahmen, um weitere Schäden zu vermeiden.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_05",
+          "type": "diktat",
+          "title": "Education System",
+          "text": "Das deutsche Schulsystem hat sowohl Stärken als auch Schwächen, die diskutiert werden sollten.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_comprensione_01",
+          "type": "comprensione",
+          "title": "Business Discussion",
+          "text": "Unser Unternehmen hat in diesem Jahr 30 Prozent Wachstum erreicht. Das ist hauptsächlich auf unsere neue Marketingstrategie zurückzuführen. Wir planen, nächstes Jahr in drei neue Märkte zu expandieren.",
+          "speed": 0.75,
+          "questions": [
+            {
+              "question": "Quale percentuale di crescita ha raggiunto l'azienda?",
+              "options": [
+                "20 percento",
+                "25 percento",
+                "30 percento",
+                "35 percento"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "A cosa è dovuta principalmente la crescita?",
+              "options": [
+                "Ai nuovi dipendenti",
+                "Alla nuova strategia di marketing",
+                "Ai prezzi più bassi",
+                "Al calo dei costi"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Quanti nuovi mercati pianificano di espandere l'anno prossimo?",
+              "options": [
+                "Uno",
+                "Due",
+                "Tre",
+                "Cinque"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "b1_comprensione_02",
+          "type": "comprensione",
+          "title": "Travel Experience",
+          "text": "Ich habe letztes Jahr eine unvergessliche Reise nach Japan gemacht. Das Land ist faszinierend mit seiner Mischung aus moderner Technologie und alter Tradition. Die Menschen waren sehr freundlich und hilfsbereit. Ich kann es kaum erwarten, zurückzukehren.",
+          "speed": 0.75,
+          "questions": [
+            {
+              "question": "Quando ha fatto il viaggio in Giappone?",
+              "options": [
+                "Due anni fa",
+                "L'anno scorso",
+                "Questo anno",
+                "Tre anni fa"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Cosa affascinava il viaggiatore del Giappone?",
+              "options": [
+                "Solo la tecnologia moderna",
+                "Solo le tradizioni antiche",
+                "Il mix di tecnologia e tradizione",
+                "I prezzi bassi"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Come erano le persone?",
+              "options": [
+                "Scortesi",
+                "Fredde",
+                "Molto amichevoli e disponibili",
+                "Ignorate"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_01",
+          "type": "lueckentext",
+          "title": "Career Planning",
+          "text": "Nach dem Studium möchte ich in einem multinationalen Unternehmen arbeiten. Ich will meine Fähigkeiten entwickeln und neue Erfahrungen sammeln.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "Studium"
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_02",
+          "type": "lueckentext",
+          "title": "Cultural Experience",
+          "text": "Die deutsche Kultur ist sehr vielfältig. Jede Region hat ihre eigenen Traditionen und Besonderheiten.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "vielfältig"
+            }
+          ]
+        },
+        {
+          "id": "b1_diktat_06",
+          "type": "diktat",
+          "title": "Health and Wellness",
+          "text": "Eine gesunde Lebensweise ist essentiell für das Wohlbefinden und die Produktivität.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_07",
+          "type": "diktat",
+          "title": "Social Media Impact",
+          "text": "Soziale Medien beeinflussen stark, wie wir kommunizieren und Informationen teilen.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_08",
+          "type": "diktat",
+          "title": "Immigration",
+          "text": "Integration von Immigranten ist eine wichtige Aufgabe für moderne Gesellschaften.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_09",
+          "type": "diktat",
+          "title": "Art and Culture",
+          "text": "Künstlerische Ausdrucksformen reflektieren die Werte und Herausforderungen einer Gesellschaft.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_10",
+          "type": "diktat",
+          "title": "Future Technology",
+          "text": "Künstliche Intelligenz wird unsere Zukunft grundlegend verändern.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_11",
+          "type": "diktat",
+          "title": "Economic Trends",
+          "text": "Der globale Markt wächst schneller als je zuvor. Viele Unternehmen expandieren international.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_12",
+          "type": "diktat",
+          "title": "Education Value",
+          "text": "Eine gute Ausbildung ist wichtig für die Karriere. Lebenslanges Lernen wird immer wichtiger.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_13",
+          "type": "diktat",
+          "title": "Mental Health",
+          "text": "Psychische Gesundheit ist genauso wichtig wie körperliche Gesundheit.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_14",
+          "type": "diktat",
+          "title": "Urban Development",
+          "text": "Nachhaltige Stadtentwicklung ist ein Schlüssel zu lebenswerten Städten.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_15",
+          "type": "diktat",
+          "title": "News Media",
+          "text": "Die Medienlandschaft verändert sich durch digitale Innovationen.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_16",
+          "type": "diktat",
+          "title": "Sports and Society",
+          "text": "Sport spielt eine wichtige Rolle in der Gesellschaft und Kultur.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_diktat_17",
+          "type": "diktat",
+          "title": "Environmental Protection",
+          "text": "Umweltschutz erfordert Engagement von Regierungen, Unternehmen und Bürgern.",
+          "speed": 0.75
+        },
+        {
+          "id": "b1_comprensione_03",
+          "type": "comprensione",
+          "title": "Technology Impact",
+          "text": "Das Internet hat die Art verändert, wie wir arbeiten und kommunizieren. Manche sagen, es ist zu viel Bildschirmzeit. Aber es öffnet auch neue Möglichkeiten für Bildung.",
+          "speed": 0.75,
+          "questions": [
+            {
+              "question": "Was hat das Internet verändert?",
+              "options": [
+                "Nur die Mode",
+                "Die Art zu arbeiten und zu kommunizieren",
+                "Die Kultur nicht",
+                "Nur die Musik"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist ein Problem des Internets?",
+              "options": [
+                "Es ist zu langsam",
+                "Zu viel Bildschirmzeit",
+                "Es gibt keine Probleme",
+                "Es kostet zu viel"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Vorteile hat das Internet?",
+              "options": [
+                "Keine",
+                "Es verbessert Unterhaltung",
+                "Es öffnet neue Möglichkeiten für Bildung",
+                "Es reduziert soziale Kontakte"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "b1_comprensione_04",
+          "type": "comprensione",
+          "title": "Environmental Action",
+          "text": "Immer mehr Menschen ändern ihr Verhalten zum Schutz der Umwelt. Sie nutzen öffentliche Verkehrsmittel, kaufen lokal und sparen Energie. Solche individuellen Maßnahmen können einen großen Unterschied machen.",
+          "speed": 0.75,
+          "questions": [
+            {
+              "question": "Was ändern Menschen zum Umweltschutz?",
+              "options": [
+                "Nichts",
+                "Nur ihre Kleidung",
+                "Ihr Verhalten",
+                "Nur ihre Sprache"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Welche Maßnahmen werden erwähnt?",
+              "options": [
+                "Mehr Auto fahren",
+                "Öffentliche Verkehrsmittel, lokal kaufen, Energie sparen",
+                "Mehr fliegen",
+                "Mehr konsumieren"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist die Wirkung solcher Maßnahmen?",
+              "options": [
+                "Keine",
+                "Negativ",
+                "Sie können einen großen Unterschied machen",
+                "Nur lokal"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "b1_comprensione_05",
+          "type": "comprensione",
+          "title": "Career Development",
+          "text": "Berufliche Entwicklung ist nicht nur in großen Firmen möglich. Auch in kleinen Unternehmen kann man wachsen und Verantwortung übernehmen. Das Wichtigste ist, sich ständig weiterzuentwickeln.",
+          "speed": 0.75,
+          "questions": [
+            {
+              "question": "Wo ist berufliche Entwicklung möglich?",
+              "options": [
+                "Nur in großen Firmen",
+                "Nur in kleinen Unternehmen",
+                "In großen und kleinen Unternehmen",
+                "Nirgendwo"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Was kann man in kleinen Unternehmen tun?",
+              "options": [
+                "Nichts",
+                "Nur untergeordnete Aufgaben",
+                "Wachsen und Verantwortung übernehmen",
+                "Nur Routinearbeit"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Was ist am wichtigsten?",
+              "options": [
+                "Das Gehalt",
+                "Die Firmengröße",
+                "Sich ständig weiterzuentwickeln",
+                "Der Standort"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_03",
+          "type": "lueckentext",
+          "title": "Social Issues",
+          "text": "Soziale Ungleichheit ist ein großes Problem in vielen Ländern. Wir müssen zusammenarbeiten, um es zu lösen.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Soziale"
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_04",
+          "type": "lueckentext",
+          "title": "Scientific Discovery",
+          "text": "Wissenschaftliche Entdeckungen verändern unser Verständnis der Welt.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Wissenschaftliche"
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_05",
+          "type": "lueckentext",
+          "title": "Global Challenges",
+          "text": "Globale Probleme wie Armut und Krankheit erfordern internationale Zusammenarbeit.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "Probleme"
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_06",
+          "type": "lueckentext",
+          "title": "Cultural Exchange",
+          "text": "Kultureller Austausch zwischen Ländern fördert gegenseitiges Verständnis und Toleranz.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Kultureller"
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_07",
+          "type": "lueckentext",
+          "title": "Health Awareness",
+          "text": "Gesundheitsbewusstsein ist in der modernen Gesellschaft essentiell.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Gesundheitsbewusstsein"
+            }
+          ]
+        },
+        {
+          "id": "b1_lueckentext_08",
+          "type": "lueckentext",
+          "title": "Technology Ethics",
+          "text": "Technologische Entwicklung muss mit ethischen Überlegungen einhergehen.",
+          "speed": 0.75,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "muss"
+            }
+          ]
+        }
+      ]
+    },
+    "B2": {
+      "exercises": [
+        {
+          "id": "b2_diktat_01",
+          "type": "diktat",
+          "title": "Economic Analysis",
+          "text": "Die Globalisierung hat zu einer verstärkten wirtschaftlichen Interdependenz zwischen den Nationen geführt, was sowohl Chancen als auch Risiken mit sich bringt.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_02",
+          "type": "diktat",
+          "title": "Literature Discussion",
+          "text": "In seiner Novelle behandelt der Autor die Thematik von Identität und Zugehörigkeit auf subtile und durchdachte Weise.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_03",
+          "type": "diktat",
+          "title": "Scientific Progress",
+          "text": "Die medizinischen Fortschritte der letzten Jahrzehnte haben das menschliche Leben grundlegend verlängert und verbessert.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_04",
+          "type": "diktat",
+          "title": "Political Systems",
+          "text": "Verschiedene politische Systeme bringen unterschiedliche Vor- und Nachteile für die Gesellschaft mit sich.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_05",
+          "type": "diktat",
+          "title": "Consumer Behavior",
+          "text": "Das Verbraucherverhalten wird zunehmend von digitalen Technologien und Online-Plattformen beeinflusst.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_comprensione_01",
+          "type": "comprensione",
+          "title": "Academic Lecture",
+          "text": "Der historische Kontext des zwanzigsten Jahrhunderts war geprägt von tiefgreifenden sozialen und politischen Umwälzungen. Die industrielle Entwicklung führte zu Massenmigration in die Städte, was wiederum zu neuen Formen der sozialen Organisation führte. Diese Veränderungen waren nicht immer friedlich und oft mit großem menschlichen Leid verbunden.",
+          "speed": 0.7,
+          "questions": [
+            {
+              "question": "Quali erano le caratteristiche del contesto storico del ventesimo secolo?",
+              "options": [
+                "Pace duratura",
+                "Trasformazioni sociali e politiche profonde",
+                "Stabilità economica",
+                "Declino della tecnologia"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Quale effetto ha avuto lo sviluppo industriale?",
+              "options": [
+                "Nessun effetto",
+                "Emigrazione dalle città",
+                "Migrazione di massa verso le città",
+                "Riduzione della popolazione"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Come erano spesso accompagnate queste trasformazioni?",
+              "options": [
+                "Da gioia collettiva",
+                "Da grande sofferenza umana",
+                "Da nessun effetto",
+                "Da stabilità economica"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "b2_comprensione_02",
+          "type": "comprensione",
+          "title": "Environmental Science",
+          "text": "Die Auswirkungen des Klimawandels sind mittlerweile wissenschaftlich dokumentiert und messbar. Wissenschaftler warnen, dass ohne drastische Maßnahmen die Temperaturanstieg nicht zu kontrollieren sein wird. Dies wird zu Naturkatastrophen, Wasserknappheit und Nahrungsmittelkrise führen.",
+          "speed": 0.7,
+          "questions": [
+            {
+              "question": "Come sono documentate le conseguenze del cambiamento climatico?",
+              "options": [
+                "Sono teoriche",
+                "Sono scientificamente documentate e misurabili",
+                "Sono solo previsioni",
+                "Non sono reali"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Cosa prevedono gli scienziati senza misure drastiche?",
+              "options": [
+                "Miglioramenti",
+                "L'aumento della temperatura non sarà controllabile",
+                "Nessun cambiamento",
+                "Raffreddamento globale"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Quali conseguenze porterà il cambiamento climatico?",
+              "options": [
+                "Solo tempeste",
+                "Catastrofi naturali, scarsità d'acqua e crisi alimentare",
+                "Nessuna conseguenza",
+                "Solo inquinamento dell'aria"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_01",
+          "type": "lueckentext",
+          "title": "Philosophical Thought",
+          "text": "Die Philosophie beschäftigt sich mit fundamentalen Fragen über die Natur der Realität, der Ethik und des menschlichen Daseins.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "beschäftigt"
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_02",
+          "type": "lueckentext",
+          "title": "Digital Transformation",
+          "text": "Die digitale Transformation durchdringt alle Bereiche der Gesellschaft und Wirtschaft.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "durchdringt"
+            }
+          ]
+        },
+        {
+          "id": "b2_diktat_06",
+          "type": "diktat",
+          "title": "Urban Planning",
+          "text": "Nachhaltige Stadtplanung erfordert einen integrierten Ansatz zwischen Umweltschutz und wirtschaftlicher Entwicklung.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_07",
+          "type": "diktat",
+          "title": "Cultural Diversity",
+          "text": "Kulturelle Vielfalt bereichert Gesellschaften und fördert kreative Innovation.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_08",
+          "type": "diktat",
+          "title": "International Relations",
+          "text": "Die internationalen Beziehungen werden zunehmend durch Handelskonflikte und geopolitische Spannungen geprägt.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_09",
+          "type": "diktat",
+          "title": "Ethics in Science",
+          "text": "Ethische Überlegungen sind zentral für die Forschung in Genetik und Biotechnologie.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_10",
+          "type": "diktat",
+          "title": "Media Literacy",
+          "text": "Die Fähigkeit, Medieninhalte kritisch zu analysieren, ist in der heutigen Informationsgesellschaft unerlässlich.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_11",
+          "type": "diktat",
+          "title": "Artificial Intelligence",
+          "text": "Die Entwicklung von künstlicher Intelligenz wirft fundamentale Fragen über die Zukunft der Arbeit auf.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_12",
+          "type": "diktat",
+          "title": "Global Supply Chain",
+          "text": "Globale Lieferketten sind komplex und verletzlich gegenüber externen Schocks.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_13",
+          "type": "diktat",
+          "title": "Social Movements",
+          "text": "Soziale Bewegungen spielen eine wichtige Rolle bei der Gestaltung von Gesellschaftsveränderungen.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_14",
+          "type": "diktat",
+          "title": "Historical Analysis",
+          "text": "Historische Ereignisse müssen in ihrem zeitlichen und räumlichen Kontext analysiert werden.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_15",
+          "type": "diktat",
+          "title": "Business Ethics",
+          "text": "Unternehmensethik ist nicht nur eine moralische Verpflichtung, sondern auch ein wirtschaftlicher Vorteil.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_16",
+          "type": "diktat",
+          "title": "Democratic Participation",
+          "text": "Demokratische Partizipation erfordert informierte Bürger und funktionsfähige Institutionen.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_diktat_17",
+          "type": "diktat",
+          "title": "Language and Identity",
+          "text": "Sprache prägt unsere Wahrnehmung der Realität und ist zentral für kulturelle Identität.",
+          "speed": 0.7
+        },
+        {
+          "id": "b2_comprensione_03",
+          "type": "comprensione",
+          "title": "Economic Theory",
+          "text": "Der Keynesianismus und der Libertarianismus vertreten gegensätzliche Ansichten über die Rolle des Staates in der Wirtschaft. Während Keynesianer staatliche Intervention befürworten, um Rezessionen zu bekämpfen, betonen Libertarianer die Effizienz freier Märkte. Diese Debatte prägt wirtschaftspolitische Entscheidungen weltweit.",
+          "speed": 0.7,
+          "questions": [
+            {
+              "question": "Wer befürwortet staatliche Intervention in der Wirtschaft?",
+              "options": [
+                "Libertäre",
+                "Keynesianer",
+                "Monarchisten",
+                "Anarchisten"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was betonen Libertäre?",
+              "options": [
+                "Staatskontrolle",
+                "Die Effizienz freier Märkte",
+                "Planung durch Zentralbank",
+                "Regulierung"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Worum geht es in dieser Debatte?",
+              "options": [
+                "Nur Philosophie",
+                "Die Rolle des Staates in der Wirtschaft",
+                "Literatur",
+                "Sport"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "b2_comprensione_04",
+          "type": "comprensione",
+          "title": "Postmodern Art",
+          "text": "Die postmoderne Kunstbewegung hinterfragt die Konzepte von Original und Authentizität. Künstler verwenden Zitat, Pastiche und Ironie, um traditionelle Kunstkonventionen zu dekonstruieren. Dies führt zu einer Vermischung von Hochkultur und Popkultur, die die Grenzen zwischen Elite und Masse aufweicht.",
+          "speed": 0.7,
+          "questions": [
+            {
+              "question": "Was hinterfragt die postmoderne Kunstbewegung?",
+              "options": [
+                "Nur Farben",
+                "Original und Authentizität",
+                "Nur Formen",
+                "Nur Größe"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Techniken nutzen postmoderne Künstler?",
+              "options": [
+                "Nur Realismus",
+                "Zitat, Pastiche und Ironie",
+                "Nur Abstraktion",
+                "Nur Fotografie"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welcher Effekt entsteht?",
+              "options": [
+                "Mehr Klassifizierung",
+                "Vermischung von Hochkultur und Popkultur",
+                "Rückkehr zu traditioneller Kunst",
+                "Neue Grenzen"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "b2_comprensione_05",
+          "type": "comprensione",
+          "title": "Neuroscience Research",
+          "text": "Moderne Neurowissenschaften enthüllen die Plastizität des Gehirns, das heißt seine Fähigkeit, sich throughout des Lebens zu verändern. Dies widerlegt frühere Annahmen, dass das Gehirn nach der Kindheit fix ist. Diese Erkenntnisse haben tiefe Implikationen für Bildung, Rehabilitation und Altern.",
+          "speed": 0.7,
+          "questions": [
+            {
+              "question": "Was ist Gehirnplastizität?",
+              "options": [
+                "Die Größe des Gehirns",
+                "Die Fähigkeit sich zu verändern",
+                "Die Farbe des Gehirns",
+                "Die Struktur in der Kindheit"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche alte Annahme wird widerlegt?",
+              "options": [
+                "Das Gehirn wächst",
+                "Das Gehirn ist nach der Kindheit fix",
+                "Das Gehirn schrumpft",
+                "Das Gehirn hat keine Funktion"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Bereiche sind betroffen?",
+              "options": [
+                "Nur Musik",
+                "Bildung, Rehabilitation und Altern",
+                "Nur Sport",
+                "Nur Ernährung"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_03",
+          "type": "lueckentext",
+          "title": "Complex Governance",
+          "text": "Die Verwaltung moderner Staaten erfordert koordinierte Anstrengungen auf mehreren Ebenen.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "Verwaltung"
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_04",
+          "type": "lueckentext",
+          "title": "Literary Heritage",
+          "text": "Deutschsprachige Literatur hat einen enormen Einfluss auf die europäische Kulturgeschichte.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Deutschsprachige"
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_05",
+          "type": "lueckentext",
+          "title": "Interdisciplinary Research",
+          "text": "Interdisziplinäre Forschung verbindet Methoden und Perspektiven verschiedener Fachbereiche.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Interdisziplinäre"
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_06",
+          "type": "lueckentext",
+          "title": "Migration Studies",
+          "text": "Migrationsforschung untersucht komplexe Bewegungen von Menschen über Grenzen hinweg.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Migrationsforschung"
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_07",
+          "type": "lueckentext",
+          "title": "Institutional Change",
+          "text": "Institutioneller Wandel ist ein langsamer Prozess, der tief in kulturellen Normen verwurzelt ist.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "Wandel"
+            }
+          ]
+        },
+        {
+          "id": "b2_lueckentext_08",
+          "type": "lueckentext",
+          "title": "Symbolic Meaning",
+          "text": "Symbolische Bedeutungen variieren zwischen Kulturen und können Missverständnisse hervorrufen.",
+          "speed": 0.7,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Symbolische"
+            }
+          ]
+        }
+      ]
+    },
+    "C1": {
+      "exercises": [
+        {
+          "id": "c1_diktat_01",
+          "type": "diktat",
+          "title": "Complex Analysis",
+          "text": "Die Hermeneutik als Interpretationsmethode ermöglicht es uns, die Tiefenstrukturen von Texten zu ergründen und ihre kulturellen sowie historischen Kontexte zu verstehen.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_02",
+          "type": "diktat",
+          "title": "Epistemology",
+          "text": "Die Frage nach der Natur von Wissen und wie wir die Wahrheit erkennen können, ist eine der grundlegendsten philosophischen Fragen.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_03",
+          "type": "diktat",
+          "title": "Aesthetic Theory",
+          "text": "Ästhetische Erfahrung transzendiert die bloße Sinneswahrnehmung und eröffnet uns Zugang zu einer tieferen Realität.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_04",
+          "type": "diktat",
+          "title": "Linguistic Nuance",
+          "text": "Die Ambiguität und Mehrdeutigkeit natürlicher Sprachen ermöglichen kunstvolle Expressionen, die in präziseren formalen Systemen unmöglich wären.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_05",
+          "type": "diktat",
+          "title": "Sociological Perspective",
+          "text": "Soziale Strukturen prägen unser Handeln und Denken auf subtile Weise, die oft unserer bewussten Wahrnehmung entgehen.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_comprensione_01",
+          "type": "comprensione",
+          "title": "Literary Critique",
+          "text": "Die postmoderne Literatur zeichnet sich durch ihre Ablehnung von eindeutigen Bedeutungen und ihrer Dekonstruktion traditioneller narrativer Strukturen aus. Autoren wie Derrida haben gezeigt, dass der Text selbst unstabil ist und nur in seinem Verhältnis zu anderen Texten Bedeutung entwickelt. Diese Perspektive revolutioniert unser Verständnis von Literatur und Interpretation.",
+          "speed": 0.65,
+          "questions": [
+            {
+              "question": "Quali sono le caratteristiche della letteratura postmoderna?",
+              "options": [
+                "Chiarezza e semplicità",
+                "Rifiuto di significati univoci e decostruzione di strutture narrative",
+                "Aderenza al realismo",
+                "Ottimismo sulla comunicazione"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Secondo Derrida, qual è la natura del testo?",
+              "options": [
+                "È sempre stabile",
+                "È instabile e sviluppa significato attraverso relazioni intertestuali",
+                "È completo e chiuso",
+                "È indipendente da altri testi"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Quale impatto ha avuto questa prospettiva?",
+              "options": [
+                "Nessun effetto",
+                "Ha rivoluzionato la nostra comprensione della letteratura e dell'interpretazione",
+                "Ha semplificato l'analisi letteraria",
+                "Ha eliminato la necessità di critica"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c1_comprensione_02",
+          "type": "comprensione",
+          "title": "Phenomenology",
+          "text": "Die Phänomenologie Husserls konzentriert sich auf die Struktur der Bewusstseinserfahrung und wie wir die Welt wahrnehmen. Durch die Methode der Epoché oder phänomenologischen Reduktion versucht er, die wesentlichen Merkmale der Erfahrung zu enthüllen. Diese radikale Neubewertung der Wahrnehmung hat tiefgreifende Auswirkungen auf alle nachfolgenden Philosophien gehabt.",
+          "speed": 0.65,
+          "questions": [
+            {
+              "question": "Su cosa si concentra la fenomenologia di Husserl?",
+              "options": [
+                "Sulla logica formale",
+                "Sulla struttura dell'esperienza conscia",
+                "Sulla fisica quantistica",
+                "Sull'economia"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Qual è il metodo centrale della fenomenologia?",
+              "options": [
+                "L'empirismo scientifico",
+                "L'induzione statistica",
+                "L'epoché o riduzione fenomenologica",
+                "L'osservazione diretta"
+              ],
+              "correct": 2
+            },
+            {
+              "question": "Quale impatto ha avuto il pensiero di Husserl?",
+              "options": [
+                "Nessuno",
+                "Ha influenzato solo la logica",
+                "Ha avuto effetti profondi su tutte le filosofie successive",
+                "È stato ignorato dai contemporanei"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_01",
+          "type": "lueckentext",
+          "title": "Ontological Questions",
+          "text": "Die Ontologie untersucht die fundamentale Natur des Seins und der Existenz auf abstrakter Ebene.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "untersucht"
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_02",
+          "type": "lueckentext",
+          "title": "Dialectics",
+          "text": "Die dialektische Methode offenbart interne Widersprüche in Konzepten und fördert die Synthese neuer Erkenntnisse.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "offenbart"
+            }
+          ]
+        },
+        {
+          "id": "c1_diktat_06",
+          "type": "diktat",
+          "title": "Metaphysics",
+          "text": "Metaphysische Spekulationen versuchen, hinter die empirische Realität zu blicken und die tiefere Struktur der Wirklichkeit zu erfassen.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_07",
+          "type": "diktat",
+          "title": "Semiotics",
+          "text": "Die Semiotik analysiert, wie Zeichen Bedeutung schaffen und wie sie in komplexe Systeme von Sinnen und Verständnis eingebettet sind.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_08",
+          "type": "diktat",
+          "title": "Pragmatism",
+          "text": "Pragmatische Philosophie bewertet die Wahrheit einer Idee anhand ihrer praktischen Konsequenzen und ihrer Nützlichkeit.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_09",
+          "type": "diktat",
+          "title": "Deconstruction",
+          "text": "Dekonstruktion als methodologischer Ansatz zerlegt die binären Oppositionen, auf denen westliches Denken aufgebaut ist.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_10",
+          "type": "diktat",
+          "title": "Critical Theory",
+          "text": "Die kritische Theorie der Frankfurter Schule kritisierte die ideologischen Grundlagen der Massenkultur und kapitalistischen Rationalität.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_11",
+          "type": "diktat",
+          "title": "Phenomenological Aspects",
+          "text": "Die Phänomenologie untersuchte die Intentionalität des Bewusstseins und die Konstitution von Bedeutung in der menschlichen Erfahrung.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_12",
+          "type": "diktat",
+          "title": "Poststructuralist Critique",
+          "text": "Poststrukturalistische Denker erkannten, dass Sprache selbst ein Ort der Undecidability und Differenz ist.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_13",
+          "type": "diktat",
+          "title": "Power and Knowledge",
+          "text": "Foucault argumentierte, dass Wissen und Macht untrennbar miteinander verflochten sind in sozialen Praktiken.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_14",
+          "type": "diktat",
+          "title": "Aesthetic Autonomy",
+          "text": "Die Autonomie des Ästhetischen behauptet, dass Kunstwerke ihren eigenen Gesetzen folgen, unabhängig von utilitaristischen Zwecken.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_15",
+          "type": "diktat",
+          "title": "Historical Consciousness",
+          "text": "Historische Bewusstsein ermöglicht uns, gegenwärtige Phänomene in ihrer genealogischen Dimension zu verstehen.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_16",
+          "type": "diktat",
+          "title": "Intersubjective Relations",
+          "text": "Intersubjektive Relationen konstituieren den sozialen Raum durch Anerkennung und wechselseitige Verständigung.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_diktat_17",
+          "type": "diktat",
+          "title": "Conceptual Frameworks",
+          "text": "Konzeptuelle Rahmen prägen unser Verständnis von Realität und strukturieren unsere intellektuelle Praxis.",
+          "speed": 0.65
+        },
+        {
+          "id": "c1_comprensione_03",
+          "type": "comprensione",
+          "title": "Hermeneutic Tradition",
+          "text": "Die hermeneutische Tradition, von Schleiermacher über Gadamer bis zu Ricoeur, betont den zirkulären Charakter des Verstehens. Der Text wird nicht als geschlossenes Objekt betrachtet, sondern als ein dialogischer Prozess zwischen Leser und Text. Gadamers Konzept der Horizontverschmelzung beschreibt, wie der Leser seinen eigenen Horizont mit dem des Textes verbindet.",
+          "speed": 0.65,
+          "questions": [
+            {
+              "question": "Was ist zentral in der hermeneutischen Tradition?",
+              "options": [
+                "Statische Interpretation",
+                "Der zirkuläre Charakter des Verstehens",
+                "Objektive Bedeutung",
+                "Lineare Analyse"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie wird der Text betrachtet?",
+              "options": [
+                "Als geschlossenes Objekt",
+                "Als dialogischer Prozess",
+                "Als totes Artefakt",
+                "Als rein subjektiv"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist Horizontverschmelzung?",
+              "options": [
+                "Das Ignorieren des Texts",
+                "Verbindung des Leserhorizonts mit dem Texthorizont",
+                "Eine Kunsttechnik",
+                "Ein mathematisches Konzept"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c1_comprensione_04",
+          "type": "comprensione",
+          "title": "Dialectical Reasoning",
+          "text": "Die dialektische Methode, wie sie von Hegel und später von Marx entwickelt wurde, zeigt, dass Widersprüche in Konzepten zu Synthesen führen. Dieser Prozess der Thesis-Antithesis-Synthesis beschreibt nicht nur logische Beziehungen, sondern auch historische Entwicklungen. Kritische Denker nutzen diese Methode, um verborgene Widersprüche in sozialen und wirtschaftlichen Systemen zu offenbaren.",
+          "speed": 0.65,
+          "questions": [
+            {
+              "question": "Wohin führen Widersprüche in der Dialektik?",
+              "options": [
+                "Zu Stagnation",
+                "Zu Synthesen",
+                "Zu Verwirrung",
+                "Zu nichts"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welche Struktur wird beschrieben?",
+              "options": [
+                "These-Beispiel-Konklusion",
+                "These-Antithese-Synthese",
+                "Ursache-Wirkung-Ergebnis",
+                "Alpha-Beta-Gamma"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wofür nutzen kritische Denker die dialektische Methode?",
+              "options": [
+                "Nur für logische Spiele",
+                "Um Widersprüche in sozialen Systemen zu offenbaren",
+                "Um zu unterhalten",
+                "Um nichts besonderes"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c1_comprensione_05",
+          "type": "comprensione",
+          "title": "Linguistic Relativity",
+          "text": "Die Sapir-Whorf-Hypothese behauptet, dass die Struktur einer Sprache unser Denken und unsere Wahrnehmung der Welt formt. Während die starke Version dieser Hypothese widerlegt wurde, zeigen neuere Forschungen, dass Sprache tatsächlich subtile, aber bedeutsame Auswirkungen auf Kognition hat. Dies hat Implikationen für Philosophie, Linguistik und interkulturelle Kommunikation.",
+          "speed": 0.65,
+          "questions": [
+            {
+              "question": "Was behauptet die Sapir-Whorf-Hypothese?",
+              "options": [
+                "Sprache hat keine Auswirkung auf Denken",
+                "Sprachstruktur formt unser Denken",
+                "Alle Sprachen sind identisch",
+                "Denken formt Sprache"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was ist mit der starken Version passiert?",
+              "options": [
+                "Sie wurde bestätigt",
+                "Sie wurde widerlegt",
+                "Sie ist noch umstritten",
+                "Sie wurde ignoriert"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was zeigen neuere Forschungen?",
+              "options": [
+                "Keine Auswirkung",
+                "Subtile aber bedeutungsvolle Auswirkungen",
+                "Nur psychologische Effekte",
+                "Nur kulturelle Unterschiede"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_03",
+          "type": "lueckentext",
+          "title": "Epistemological Questions",
+          "text": "Epistemologische Fragen über die Natur von Wissen und Erkenntnis sind fundamental für alle philosophischen Unternehmungen.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Epistemologische"
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_04",
+          "type": "lueckentext",
+          "title": "Existential Authenticity",
+          "text": "Existenzielle Authentizität erfordert, dass wir unsere Freiheit anerkennen und die Verantwortung für unsere Wahlen akzeptieren.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Existenzielle"
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_05",
+          "type": "lueckentext",
+          "title": "Transcendent Dimensions",
+          "text": "Transzendente Dimensionen der menschlichen Erfahrung übersteigen rein empirische oder rationale Erklärungen.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Transzendente"
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_06",
+          "type": "lueckentext",
+          "title": "Normative Authority",
+          "text": "Normative Autorität in ethischen Fragen kann nicht einfach auf Konvention oder Tradition reduziert werden.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Normative"
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_07",
+          "type": "lueckentext",
+          "title": "Interpretive Plurality",
+          "text": "Interpretative Vielfalt ist nicht ein Problem sondern eine Bereicherung unseres Verständnisses kultureller Phänomene.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Interpretative"
+            }
+          ]
+        },
+        {
+          "id": "c1_lueckentext_08",
+          "type": "lueckentext",
+          "title": "Reflexive Knowledge",
+          "text": "Reflexives Wissen wendet sich selbst auf sich an und hinterfragt seine eigenen Grundlagen.",
+          "speed": 0.65,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Reflexives"
+            }
+          ]
+        }
+      ]
+    },
+    "C2": {
+      "exercises": [
+        {
+          "id": "c2_diktat_01",
+          "type": "diktat",
+          "title": "Transcendentalism",
+          "text": "Die transzendentale Philosophie Kants revolutionierte das Verständnis von Erkenntnismöglichkeiten durch seine Kritik an empiristischen und rationalistischen Paradigmen.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_02",
+          "type": "diktat",
+          "title": "Structuralism",
+          "text": "Der Strukturalismus konzentriert sich auf die formalen Systeme, die Bedeutung generieren, anstatt auf die Intentionalität des Subjekts oder des Schöpfers.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_03",
+          "type": "diktat",
+          "title": "Post-structuralism",
+          "text": "Poststrukturalistische Denker bestreiten die Stabilität von Bedeutung und die Möglichkeit metadiskursiver Positionen, von denen aus man sprechen könnte.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_04",
+          "type": "diktat",
+          "title": "Phenomenological Hermeneutics",
+          "text": "Die phänomenologische Hermeneutik Gadamers betont den Dialog zwischen Interpret und Text und verwirft die Idee einer objektiven Bedeutungserfassung.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_05",
+          "type": "diktat",
+          "title": "Existentialism",
+          "text": "Der Existentialismus Sartres behauptet, dass die Existenz der Essenz vorausgeht und dass wir als Subjekte die Verantwortung für die Schaffung unserer eigenen Natur tragen.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_comprensione_01",
+          "type": "comprensione",
+          "title": "Dialectical Materialism",
+          "text": "Der dialektische Materialismus von Marx und Engels bietet einen analytischen Rahmen, um die historische Entwicklung durch materielle Produktionsverhältnisse und Klassenkonflikte zu verstehen. Diese Theorie behauptet, dass die Überbau der Gesellschaft durch die ökonomische Basis bestimmt wird und dass Geschichte durch Klassenkämpfe vorangetrieben wird, nicht durch ideelle oder moralische Fortschritte.",
+          "speed": 0.6,
+          "questions": [
+            {
+              "question": "Quale quadro analitico fornisce il materialismo dialettico?",
+              "options": [
+                "Analisi idealistica della storia",
+                "Comprensione dello sviluppo storico attraverso rapporti di produzione",
+                "Studio della religione",
+                "Analisi della bellezza artistica"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Cosa determina la sovrastruttura della società secondo Marx?",
+              "options": [
+                "Le idee filosofiche",
+                "Le basi economiche",
+                "La cultura popolare",
+                "Le religioni"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Cosa guida la storia secondo questa teoria?",
+              "options": [
+                "Il progresso morale",
+                "Il caso e la fortuna",
+                "I conflitti di classe",
+                "La leadership illuminata"
+              ],
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "c2_comprensione_02",
+          "type": "comprensione",
+          "title": "Psychoanalytic Theory",
+          "text": "Die psychoanalytische Theorie Freuds postuliert, dass unbewusste psychische Prozesse das menschliche Verhalten und Erleben maßgeblich bestimmen. Das Konzept des Triebverzichts als Grundlage der Zivilisation suggeriert, dass kulture Entwicklung auf der Unterdrückung primitiver Lüste beruht. Spätere Denker wie Lacan rekonzeptualisierten Freuds Theorie durch linguistische und strukturale Perspektiven.",
+          "speed": 0.6,
+          "questions": [
+            {
+              "question": "Cosa postula la teoria psicoanalitica di Freud?",
+              "options": [
+                "Solo il comportamento conscio conta",
+                "I processi psichici inconsci determinano il comportamento",
+                "L'istinto non ha importanza",
+                "Solo le esperienze di vita contano"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Su cosa si basa la civiltà secondo Freud?",
+              "options": [
+                "Su l'istinto primitivo",
+                "Sulla repressione dei desideri primitivi",
+                "Sull'ignoranza",
+                "Sulla violenza"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Come hanno reinterpretato Lacan e altri il pensiero freudiano?",
+              "options": [
+                "Lo hanno respinto completamente",
+                "Attraverso prospettive linguistiche e strutturali",
+                "Non hanno fatto cambiamenti",
+                "Lo hanno semplificato"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_01",
+          "type": "lueckentext",
+          "title": "Subjectivity",
+          "text": "Die Konstruktion von Subjektivität ist nicht prähistorical sondern sozial und diskursiv konstituiert durch komplexe Machtdynamiken.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "Konstruktion"
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_02",
+          "type": "lueckentext",
+          "title": "Genealogy",
+          "text": "Die genealogische Methode Foucaults verfolgt die historischen Ursprünge scheinbar natürlicher Kategorien zurück und enthüllt ihre politischen und diskursiven Grundlagen.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 1,
+              "correct": "verfolgt"
+            }
+          ]
+        },
+        {
+          "id": "c2_diktat_06",
+          "type": "diktat",
+          "title": "Biopolitics",
+          "text": "Biopolitik analysiert, wie moderne Machtstrukturen leben selbst als Gegenstand der Kontrolle und Optimierung erfasst haben.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_07",
+          "type": "diktat",
+          "title": "Speculative Realism",
+          "text": "Der spekulative Realismus lehnt korrelationistische Philosophien ab und behauptet die Unabhängigkeit von Objekten von menschlicher Interpretation.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_08",
+          "type": "diktat",
+          "title": "New Materialism",
+          "text": "Der neue Materialismus breitet die ontologische Bedeutung nicht menschlicher Aktanten aus und befragt anthropozentrische Rahmen.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_09",
+          "type": "diktat",
+          "title": "Cosmopolitanism",
+          "text": "Der Kosmopolitismus als ethische und politische Haltung fordert universale Verantwortung jenseits nationaler und kultureller Grenzen.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_10",
+          "type": "diktat",
+          "title": "Alter-modernism",
+          "text": "Alter-Moderne als konzeptueller Rahmen überschreitet die binäre Opposition zwischen Modernität und Postmodernität und proponiert komplexere historische Narrationen.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_11",
+          "type": "diktat",
+          "title": "Neoliberal Critique",
+          "text": "Die Kritik des Neoliberalismus offenbart, wie ökonomische Rationalität alle Bereiche des sozialen Lebens kolonisiert hat.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_12",
+          "type": "diktat",
+          "title": "Queer Theory",
+          "text": "Queer Theory befragt die scheinbar natürlichen Kategorien von Geschlecht und Sexualität und offenbart ihre kontingente Konstruktion.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_13",
+          "type": "diktat",
+          "title": "Posthuman Futures",
+          "text": "Posthumane Perspektiven dekonstruieren die humanistische Ordnung und eröffnen Möglichkeiten für nicht-anthropozentrische Ethiken.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_14",
+          "type": "diktat",
+          "title": "Affective Turn",
+          "text": "Die affektive Wende in den Geistes- und Sozialwissenschaften privilegiert nicht-repräsentationale Formen des Verstehens.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_15",
+          "type": "diktat",
+          "title": "Post-colonial Studies",
+          "text": "Postkoloniale Studien analysieren die anhaltenden Auswirkungen des Kolonialismus auf Wissen, Identität und globale Strukturen.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_16",
+          "type": "diktat",
+          "title": "Digital Ontology",
+          "text": "Digitale Ontologien erforschen die neue Form von Sein und Existenz, die sich durch computationale Prozesse konstituieren.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_diktat_17",
+          "type": "diktat",
+          "title": "Planetary Thinking",
+          "text": "Planetares Denken transzendiert nationale Grenzen und konzeptualisiert die Erde als einen komplexen, sich selbst regulierenden Organismus.",
+          "speed": 0.6
+        },
+        {
+          "id": "c2_comprensione_03",
+          "type": "comprensione",
+          "title": "Capitalist Realism",
+          "text": "Mark Fishers Konzept des kapitalistischen Realismus beschreibt einen Zustand, in dem es leichter erscheint, das Ende der Welt vorzustellen als das Ende des Kapitalismus. Dieses ideologische Phänomen manifestiert sich in einer diffusen Melancholie und dem Gefühl, dass alternative Systeme unmöglich sind. Fishers Analyse suggeriert, dass wir nicht nur mit ökonomischen Strukturen kämpfen, sondern mit einer psychologischen und kulturellen Disposition, die unser Vorstellungsvermögen kolonisiert hat.",
+          "speed": 0.6,
+          "questions": [
+            {
+              "question": "Was ist das Kernargument von kapitalistischem Realismus?",
+              "options": [
+                "Der Kapitalismus ist unvermeidlich",
+                "Es ist leichter, das Ende der Welt vorzustellen als das Ende des Kapitalismus",
+                "Alternative Systeme sind möglich",
+                "Der Kapitalismus wird bald enden"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Wie manifestiert sich dieses ideologische Phänomen?",
+              "options": [
+                "In Euphorie",
+                "In diffuser Melancholie und Hoffnungslosigkeit",
+                "In aktiven Protesten",
+                "In wissenschaftlichen Durchbrüchen"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was hat Fishers Analyse offenbart?",
+              "options": [
+                "Nur wirtschaftliche Probleme",
+                "Psychologische und kulturelle Dispositionen, die unser Vorstellungsvermögen kolonisieren",
+                "Nur technische Lösungen",
+                "Nur politische Lösungen"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c2_comprensione_04",
+          "type": "comprensione",
+          "title": "Ontological Politics",
+          "text": "Ontologische Politik, wie sie von Annemarie Mol und anderen konzeptualisiert wird, argumentiert, dass Ontologien nicht vorgegeben sind, sondern in sozialen Praktiken und wissenschaftlichen Prozessen aktiv konstituiert werden. Dies bedeutet, dass die Frage was real ist, nicht philosophisch abstrakt, sondern praktisch und politisch entschieden wird. Die Implikation ist, dass Wirklichkeit plural ist und dass verschiedene Ontologien koexistieren und in Konflikt stehen können.",
+          "speed": 0.6,
+          "questions": [
+            {
+              "question": "Was sind Ontologien nach dieser Theorie?",
+              "options": [
+                "Vorgegeben und unveränderbar",
+                "In sozialen Praktiken konstituiert",
+                "Nur philosophische Konzepte",
+                "Unveränderbare Wahrheiten"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Worum geht es in ontologischer Politik?",
+              "options": [
+                "Um Machtspiele",
+                "Darum, dass verschiedene Wirklichkeitskonzepte politisch entschieden werden",
+                "Um abstrakte Philosophie",
+                "Um Sprachphilosophie"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was bedeutet Pluralität der Wirklichkeit?",
+              "options": [
+                "Es gibt nur eine Wirklichkeit",
+                "Verschiedene Ontologien koexistieren und können in Konflikt stehen",
+                "Wirklichkeit ist subjektiv",
+                "Wirklichkeit existiert nicht"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c2_comprensione_05",
+          "type": "comprensione",
+          "title": "Accelerationism",
+          "text": "Der Accelerationismus argumentiert, dass progressive Veränderung nicht durch ein Verlangsamen oder Zurücktreten vom Kapitalismus erreicht wird, sondern durch eine Beschleunigung seiner Logiken. Denker wie Nick Srnicek und Alex Williams schlagen vor, dass Technologie und Rationalität instrumentalisiert werden können, um eine post-kapitalistische Zukunft zu erschaffen. Diese provokative Theorie fordert herkömmliche linke Strategien heraus und bietet sowohl Hoffnung als auch Ambivalenz.",
+          "speed": 0.6,
+          "questions": [
+            {
+              "question": "Wie kann progressive Veränderung erreicht werden nach Accelerationism?",
+              "options": [
+                "Durch Rückkehr zur Natur",
+                "Durch Beschleunigung kapitalistischer Logiken",
+                "Durch Lähmung",
+                "Durch Rückzug"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Was schlagen Srnicek und Williams vor?",
+              "options": [
+                "Technologie ablehnen",
+                "Technologie instrumentalisieren für post-kapitalistische Zukunft",
+                "Kapitalismus akzeptieren",
+                "Keine Veränderung"
+              ],
+              "correct": 1
+            },
+            {
+              "question": "Welchen Effekt hat diese Theorie?",
+              "options": [
+                "Sie bestätigt linke Orthodoxie",
+                "Sie fordert sie heraus und bietet Hoffnung und Ambivalenz",
+                "Sie ist leicht zu akzeptieren",
+                "Sie hat keinen Effekt"
+              ],
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_03",
+          "type": "lueckentext",
+          "title": "Hypermodern Critique",
+          "text": "Hypermoderne Kritik wendet sich gegen die Illusion einer umfassenden rationalen Kontrollierbarkeit der Welt.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Hypermoderne"
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_04",
+          "type": "lueckentext",
+          "title": "Transnational Networks",
+          "text": "Transnationale Netzwerke überschreiten nationale Grenzen und konstituieren neue Formen von Governance und Solidarität.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Transnationale"
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_05",
+          "type": "lueckentext",
+          "title": "Cosmopolitical Assemblages",
+          "text": "Kosmopolitische Assemblages bringen menschliche und nicht-menschliche Aktanten zusammen in komplexen ökologischen und politischen Versammlungen.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Kosmopolitische"
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_06",
+          "type": "lueckentext",
+          "title": "Phenomenological Residue",
+          "text": "Das phänomenologische Residuum verweist auf das Irreduzible der Erfahrung, das sich kognitiven Kategorisierungen entzieht.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 2,
+              "correct": "Residuum"
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_07",
+          "type": "lueckentext",
+          "title": "Speculative Becoming",
+          "text": "Spekulatives Werden denkt über etablierte ontologische Kategorien hinaus und erkundet virtuelles Potential.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Spekulatives"
+            }
+          ]
+        },
+        {
+          "id": "c2_lueckentext_08",
+          "type": "lueckentext",
+          "title": "Ecological Embeddedness",
+          "text": "Ökologische Eingebundenheit betont, dass menschliche Existenz nicht autonom ist, sondern fundamental in naturale Systeme verwickelt.",
+          "speed": 0.6,
+          "gaps": [
+            {
+              "position": 0,
+              "correct": "Ökologische"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
