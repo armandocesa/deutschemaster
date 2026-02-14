@@ -213,6 +213,32 @@ export default function FlashcardsPage({ onNavigate }) {
     setMode('playing');
   };
 
+  // Keyboard navigation for flashcards
+  useEffect(() => {
+    if (mode !== 'playing') return;
+    const handleKeyDown = (e) => {
+      switch (e.key) {
+        case ' ':
+        case 'Enter':
+          e.preventDefault();
+          setFlipped(prev => !prev);
+          break;
+        case 'ArrowRight':
+        case 'ArrowDown':
+          e.preventDefault();
+          if (flipped) handleCorrect();
+          break;
+        case 'ArrowLeft':
+        case 'ArrowUp':
+          e.preventDefault();
+          if (flipped) handleIncorrect();
+          break;
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [mode, flipped]);
+
   // Return to setup
   const backToSetup = () => {
     setMode('setup');
@@ -608,6 +634,11 @@ export default function FlashcardsPage({ onNavigate }) {
             </div>
           </div>
         </div>
+
+        {/* Keyboard Hint */}
+        <p style={{ textAlign: 'center', color: 'var(--text-tertiary)', fontSize: '12px', margin: '0', padding: '0 20px' }}>
+          {flipped ? '← Non lo so  |  Lo so →' : 'Spazio per girare'}
+        </p>
 
         {/* Action Buttons */}
         {flipped && (

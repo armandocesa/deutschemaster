@@ -6,6 +6,7 @@ import BottomNav from './components/BottomNav';
 import Footer from './components/Footer';
 import { useLanguage } from './contexts/LanguageContext';
 import { trackPageView } from './utils/analytics';
+import { isEnabled as notificationsEnabled, getReminderTime, scheduleReminder } from './utils/notifications';
 
 // Error Boundary to catch rendering errors in lazy-loaded pages
 class ErrorBoundary extends Component {
@@ -127,6 +128,14 @@ function AppContent() {
   const [selectedReading, setSelectedReading] = useState(null);
   const [selectedLesson, setSelectedLesson] = useState(null);
   const [selectedStory, setSelectedStory] = useState(null);
+
+  // Re-initialize notification reminders on app load
+  useEffect(() => {
+    if (notificationsEnabled()) {
+      const cleanup = scheduleReminder(getReminderTime());
+      return cleanup;
+    }
+  }, []);
 
   const navigate = useCallback((page, options = {}) => {
     setCurrentPage(page);
