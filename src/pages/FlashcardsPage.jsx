@@ -60,6 +60,11 @@ export default function FlashcardsPage({ onNavigate }) {
   const [difficultWordsCount, setDifficultWordsCount] = useState(0);
   const [lockedLevel, setLockedLevel] = useState(null);
 
+  // Cleanup speech synthesis on unmount
+  useEffect(() => {
+    return () => { window.speechSynthesis.cancel(); };
+  }, []);
+
   // Initialize counts when component mounts
   useEffect(() => {
     const reviewWords = getReviewWords();

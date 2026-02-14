@@ -21,6 +21,18 @@ class ErrorBoundary extends Component {
     console.error('ErrorBoundary caught:', error, errorInfo);
   }
 
+  handleReload = () => {
+    try {
+      const keysToRemove = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith('dm_quiz_')) keysToRemove.push(key);
+      }
+      keysToRemove.forEach(k => localStorage.removeItem(k));
+    } catch {}
+    window.location.reload();
+  };
+
   render() {
     if (this.state.hasError) {
       return (
@@ -31,12 +43,20 @@ class ErrorBoundary extends Component {
             <p style={{ fontSize: '14px', color: '#8888a0', marginBottom: '20px' }}>
               {this.state.error?.message || 'Errore nel caricamento della pagina'}
             </p>
-            <button
-              onClick={() => { this.setState({ hasError: false, error: null }); }}
-              style={{ padding: '10px 24px', background: 'linear-gradient(135deg, #6c5ce7, #00cec9)', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
-            >
-              Riprova
-            </button>
+            <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
+              <button
+                onClick={() => { this.setState({ hasError: false, error: null }); }}
+                style={{ padding: '10px 24px', background: 'linear-gradient(135deg, #6c5ce7, #00cec9)', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
+              >
+                Riprova
+              </button>
+              <button
+                onClick={this.handleReload}
+                style={{ padding: '10px 24px', background: '#1a1a2e', color: '#eeeef2', border: '1px solid #333', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
+              >
+                Ricarica
+              </button>
+            </div>
           </div>
         </div>
       );

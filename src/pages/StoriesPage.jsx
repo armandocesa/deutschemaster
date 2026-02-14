@@ -34,7 +34,6 @@ function StoryReader({ story, level, colors, onBack }) {
         const completed = JSON.parse(localStorage.getItem('dm_completed_stories') || '[]');
         if (!completed.includes(story.id)) {
           completed.push(story.id);
-          localStorage.setItem('dm_completed_stories', JSON.stringify(completed));
           saveAndSync('dm_completed_stories', JSON.stringify(completed));
         }
       } catch {}

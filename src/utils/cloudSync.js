@@ -16,6 +16,7 @@ const SYNC_KEYS = [
   'dm_last_level',
   'dm_path_progress',
   'dm_placement_level',
+  'dm_completed_stories',
 ];
 
 function getLocalData(key) {
@@ -127,6 +128,9 @@ function mergeData(key, local, cloud) {
     case 'dm_difficultWords':
     case 'dm_reviewQuestions':
       return mergeArrays(local, cloud);
+    case 'dm_completed_stories':
+      // Union of completed story IDs
+      return [...new Set([...(Array.isArray(local) ? local : []), ...(Array.isArray(cloud) ? cloud : [])])];
     case 'dm_daily_goal':
       return mergeDailyGoal(local, cloud);
     case 'dm_learningProgress':
@@ -180,9 +184,13 @@ function mergeXP(local, cloud) {
 }
 
 function mergeQuizStats(local, cloud) {
+  // Pick the dataset with more answers as the "winner"
+  const localTotal = local.totalAnswered || 0;
+  const cloudTotal = cloud.totalAnswered || 0;
+  const winner = localTotal >= cloudTotal ? local : cloud;
   return {
-    totalAnswered: Math.max(local.totalAnswered || 0, cloud.totalAnswered || 0),
-    correctAnswers: Math.max(local.correctAnswers || 0, cloud.correctAnswers || 0),
+    totalAnswered: winner.totalAnswered || 0,
+    correctAnswers: winner.correctAnswers || 0,
   };
 }
 
