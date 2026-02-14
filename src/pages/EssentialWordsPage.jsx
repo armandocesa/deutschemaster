@@ -191,14 +191,12 @@ export default function EssentialWordsPage({ level, onNavigate }) {
 
   if (loading || !data) {
     return (
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: '400px',
-        color: 'var(--text-secondary)'
-      }}>
-        <div>{t('common.loading')}</div>
+      <div style={{ padding: '20px' }}>
+        <div className="skeleton" style={{ width: '220px', height: '28px', marginBottom: '8px' }} />
+        <div className="skeleton" style={{ width: '300px', height: '16px', marginBottom: '24px' }} />
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '12px' }}>
+          {[1,2,3,4,5,6].map(i => <div key={i} className="skeleton" style={{ height: '80px', borderRadius: 'var(--radius)' }} />)}
+        </div>
       </div>
     );
   }

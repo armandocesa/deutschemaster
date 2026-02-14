@@ -265,9 +265,11 @@ export default function StoriesPage({ level, reading, onNavigate }) {
 
   if (loading) {
     return (
-      <div className="reading-page">
-        <div className="reading-text-container">
-          <p style={{textAlign: 'center', padding: '40px', color: 'var(--text-secondary)'}}>{t('stories.loading')}</p>
+      <div className="reading-page" style={{ padding: '20px' }}>
+        <div className="skeleton" style={{ width: '180px', height: '28px', marginBottom: '8px' }} />
+        <div className="skeleton" style={{ width: '280px', height: '16px', marginBottom: '24px' }} />
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '16px' }}>
+          {[1,2,3,4].map(i => <div key={i} className="skeleton" style={{ height: '140px', borderRadius: 'var(--radius)' }} />)}
         </div>
       </div>
     );

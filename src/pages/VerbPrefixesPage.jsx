@@ -335,14 +335,15 @@ export default function VerbPrefixesPage({ onNavigate }) {
 
   if (loading || !data) {
     return (
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: '400px',
-        color: 'var(--text-secondary)'
-      }}>
-        <div>{t('common.loading')}</div>
+      <div style={{ padding: '20px' }}>
+        <div className="skeleton" style={{ width: '200px', height: '28px', marginBottom: '8px' }} />
+        <div className="skeleton" style={{ width: '260px', height: '16px', marginBottom: '24px' }} />
+        <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
+          {[1,2].map(i => <div key={i} className="skeleton" style={{ width: '120px', height: '40px', borderRadius: '10px' }} />)}
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          {[1,2,3,4].map(i => <div key={i} className="skeleton" style={{ height: '70px', borderRadius: 'var(--radius)' }} />)}
+        </div>
       </div>
     );
   }
