@@ -43,7 +43,7 @@ export default function HomePage({ onNavigate }) {
   const [placementTestTaken, setPlacementTestTaken] = useState(false);
 
   // Record activity on homepage visit & check badges
-  useMemo(() => { recordActivity(); checkBadges(); }, []);
+  useEffect(() => { recordActivity(); checkBadges(); }, []);
 
   // Check if placement test has been taken
   useEffect(() => {

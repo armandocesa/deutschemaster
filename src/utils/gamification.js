@@ -364,7 +364,7 @@ export const setDailyGoal = (target) => {
   });
 
   data.target = target;
-  localStorage.setItem('dm_daily_goal', JSON.stringify(data));
+  saveAndSync('dm_daily_goal', JSON.stringify(data));
   return true;
 };
 

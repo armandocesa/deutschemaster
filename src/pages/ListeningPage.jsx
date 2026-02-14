@@ -102,6 +102,13 @@ export default function ListeningPage({ onNavigate }) {
     setMode('playing');
   };
 
+  // Cleanup speech synthesis on unmount
+  useEffect(() => {
+    return () => {
+      window.speechSynthesis.cancel();
+    };
+  }, []);
+
   // Auto-play audio when question loads
   useEffect(() => {
     if (mode === 'playing' && questions.length > 0 && currentIndex < questions.length) {
