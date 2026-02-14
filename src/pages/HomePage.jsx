@@ -9,12 +9,12 @@ import { saveAndSync } from '../utils/cloudSync';
 
 function QuickActionCard({ icon, title, color, onClick, noLevel, badge }) {
   const [selectedLvl, setSelectedLvl] = useState(() => {
-    try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; }
+    try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
   });
   const handleLevelClick = (e, lvl) => {
     e.stopPropagation();
     setSelectedLvl(lvl);
-    try { saveAndSync('dm_last_level', lvl); } catch {}
+    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
     onClick(lvl);
   };
   return (

@@ -258,12 +258,12 @@ function GrammarTopicDetail({ topic, level, colors }) {
 export default function GrammarPage({ level, topic, onNavigate }) {
   const { t } = useLanguage();
   const { GRAMMAR_DATA } = useData();
-  const [internalLevel, setInternalLevel] = useState(level || (() => { try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; } }));
+  const [internalLevel, setInternalLevel] = useState(level || (() => { try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; } }));
   const activeLevel = level || internalLevel;
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
-    try { saveAndSync('dm_last_level', lvl); } catch {}
+    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
     if (level) onNavigate('grammar', { level: lvl });
   };
 

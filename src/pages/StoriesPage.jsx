@@ -15,6 +15,11 @@ function StoryReader({ story, level, colors, onBack }) {
   const [tooltipWord, setTooltipWord] = useState(null);
   const { t } = useLanguage();
 
+  // Cleanup speech synthesis on unmount
+  useEffect(() => {
+    return () => { window.speechSynthesis.cancel(); };
+  }, []);
+
   const currentLine = story.lines[currentLineIndex];
   const questions = story.lines.filter(l => l.type === 'question');
   const completedQuestions = questions.filter(q => answers[story.lines.indexOf(q)] !== undefined).length;
@@ -221,7 +226,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   const { canAccessLevel, requiresAuth } = useLevelAccess();
   const { t, language } = useLanguage();
   const [internalLevel, setInternalLevel] = useState(level || (() => {
-    try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; }
+    try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
   }));
   const [stories, setStories] = useState([]);
   const [selectedStory, setSelectedStory] = useState(null);
@@ -255,7 +260,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
-    try { saveAndSync('dm_last_level', lvl); } catch {}
+    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
     if (level) onNavigate('stories', { level: lvl });
   };
 

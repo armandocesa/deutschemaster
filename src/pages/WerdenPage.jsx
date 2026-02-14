@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function WerdenPage({ onNavigate }) {
@@ -7,6 +7,11 @@ export default function WerdenPage({ onNavigate }) {
   const [expandedExercise, setExpandedExercise] = useState(null);
   const [exerciseAnswers, setExerciseAnswers] = useState({});
   const [selectedExample, setSelectedExample] = useState(null);
+
+  // Cleanup speech synthesis on unmount
+  useEffect(() => {
+    return () => { window.speechSynthesis.cancel(); };
+  }, []);
 
   // Speech synthesis function
   const speakGerman = (text) => {

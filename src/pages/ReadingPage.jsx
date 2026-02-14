@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -10,6 +10,11 @@ function ReadingDetail({ reading, level, colors }) {
   const { t } = useLanguage();
   const [answers, setAnswers] = useState({});
   const [showScore, setShowScore] = useState(false);
+
+  // Cleanup speech synthesis on unmount
+  useEffect(() => {
+    return () => { window.speechSynthesis.cancel(); };
+  }, []);
   const handleAnswer = (qIdx, answer) => { if(answers[qIdx]!==undefined) return; setAnswers(prev => ({...prev,[qIdx]:answer})); if(Object.keys({...answers,[qIdx]:answer}).length===reading.questions.length) setShowScore(true); };
   const score = Object.entries(answers).filter(([idx, ans]) => ans === reading.questions[parseInt(idx)]?.correctAnswer).length;
   const readAloud = () => { try { window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(reading.text); u.lang='de-DE'; u.rate=0.85; speechSynthesis.speak(u); } catch {} };
@@ -59,11 +64,11 @@ function ReadingDetail({ reading, level, colors }) {
 export default function ReadingPage({ level, reading, onNavigate }) {
   const { t } = useLanguage();
   const { READING_DATA } = useData();
-  const [internalLevel, setInternalLevel] = useState(level || (() => { try{return localStorage.getItem('dm_last_level')||'A1'}catch{return 'A1'} }));
+  const [internalLevel, setInternalLevel] = useState(level || (() => { try{const v=localStorage.getItem('dm_last_level');return v?JSON.parse(v):'A1'}catch{return 'A1'} }));
   const activeLevel = level || internalLevel;
   const texts = READING_DATA.levels?.[activeLevel]?.texts || [];
   const colors = LEVEL_COLORS[activeLevel];
-  const handleLevelChange = (lvl) => { setInternalLevel(lvl); try{saveAndSync('dm_last_level',lvl)}catch{} if(level) onNavigate('reading',{level:lvl}); };
+  const handleLevelChange = (lvl) => { setInternalLevel(lvl); try{saveAndSync('dm_last_level',JSON.stringify(lvl))}catch{} if(level) onNavigate('reading',{level:lvl}); };
 
   if (reading) return <ReadingDetail reading={reading} level={activeLevel} colors={colors} />;
 

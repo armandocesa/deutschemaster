@@ -141,7 +141,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [internalLevel, setInternalLevel] = useState(() => {
-    try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; }
+    try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
   });
   const activeLevel = level || internalLevel;
   const [search, setSearch] = useState('');
@@ -150,7 +150,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
-    try { saveAndSync('dm_last_level', lvl); } catch {}
+    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
     if (level) onNavigate('essential-words', { level: lvl });
   };
 
