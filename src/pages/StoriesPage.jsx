@@ -233,7 +233,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   const [loading, setLoading] = useState(true);
 
   const activeLevel = level || internalLevel;
-  const colors = LEVEL_COLORS[activeLevel];
+  const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
   const canAccess = canAccessLevel(activeLevel);
 
   useEffect(() => {
@@ -245,7 +245,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
         const completed = JSON.parse(localStorage.getItem('dm_completed_stories') || '[]');
         setCompletedStories(completed);
       } catch (e) {
-        console.error('Error loading stories:', e);
+        if (import.meta.env.DEV) console.error('Error loading stories:', e);
       } finally {
         setLoading(false);
       }

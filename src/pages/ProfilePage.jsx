@@ -45,7 +45,7 @@ const ProfilePage = ({ onNavigate }) => {
         setPlacementTestData(JSON.parse(testData));
       }
     } catch (e) {
-      console.warn('Failed to load placement test data:', e);
+      if (import.meta.env.DEV) console.warn('Failed to load placement test data:', e);
     }
   }, []);
 
@@ -291,9 +291,9 @@ const ProfilePage = ({ onNavigate }) => {
           <div style={{
             marginBottom: '24px',
             padding: '16px',
-            backgroundColor: 'var(--bg-card, #22222d)',
+            backgroundColor: 'var(--bg-card)',
             borderRadius: '12px',
-            border: '1px solid var(--border, rgba(255,255,255,0.07))',
+            border: '1px solid var(--border)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
@@ -313,7 +313,7 @@ const ProfilePage = ({ onNavigate }) => {
                   </div>
                   <div>
                     <div style={{ fontWeight: 700, fontSize: '15px' }}>{user?.displayName || 'Utente'}</div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-secondary, #8888a0)' }}>{user?.email}</div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{user?.email}</div>
                   </div>
                 </div>
                 <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
@@ -343,7 +343,7 @@ const ProfilePage = ({ onNavigate }) => {
               </>
             ) : (
               <>
-                <div style={{ fontSize: '14px', color: 'var(--text-secondary, #8888a0)' }}>
+                <div style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
                   {firebaseEnabled ? t('profile.signedIn') : t('profile.offline')}
                 </div>
                 {firebaseEnabled && (
@@ -363,16 +363,16 @@ const ProfilePage = ({ onNavigate }) => {
           <div style={{
             marginBottom: '24px',
             padding: '16px',
-            backgroundColor: 'var(--bg-card, #22222d)',
+            backgroundColor: 'var(--bg-card)',
             borderRadius: '12px',
-            border: '1px solid var(--border, rgba(255,255,255,0.07))',
+            border: '1px solid var(--border)',
           }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                 <span style={{ fontSize: '20px' }}>🔔</span>
                 <div>
                   <div style={{ fontWeight: 700, fontSize: '15px' }}>{t('profile.notifications.title')}</div>
-                  <div style={{ fontSize: '12px', color: 'var(--text-secondary, #8888a0)' }}>
+                  <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
                     {t('profile.notifications.subtitle')}
                   </div>
                 </div>
@@ -404,7 +404,7 @@ const ProfilePage = ({ onNavigate }) => {
             </div>
 
             {notificationsEnabled && (
-              <div style={{ paddingTop: '16px', borderTop: '1px solid var(--border, rgba(255,255,255,0.07))' }}>
+              <div style={{ paddingTop: '16px', borderTop: '1px solid var(--border)' }}>
                 <div style={{ marginBottom: '12px' }}>
                   <label style={{
                     fontSize: '13px',

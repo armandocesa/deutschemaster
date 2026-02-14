@@ -8,7 +8,7 @@ export const getDifficultWords = () => {
 export const saveDifficultWord = (word, type = 'word') => {
   const words = getDifficultWords();
   const id = type === 'verb' ? (word.infinitiv || word.german) : (word.german || word.infinitiv);
-  if (!id) { console.warn('saveDifficultWord: word has no valid ID', word); return; }
+  if (!id) { if (import.meta.env.DEV) console.warn('saveDifficultWord: word has no valid ID', word); return; }
   if (!words.find(w => w.id === id)) {
     words.push({ ...word, id, type, savedAt: Date.now() });
     saveAndSync('dm_difficultWords', JSON.stringify(words));
@@ -98,5 +98,5 @@ export const getProgressStats = () => {
       localStorage.setItem('dm_' + key, localStorage.getItem(key));
       localStorage.removeItem(key);
     });
-  } catch(e) { console.warn('Storage migration error:', e); }
+  } catch(e) { if (import.meta.env.DEV) console.warn('Storage migration error:', e); }
 })();

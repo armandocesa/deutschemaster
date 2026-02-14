@@ -29,7 +29,7 @@ export const LanguageProvider = ({ children }) => {
       try {
         localStorage.setItem('dm_ui_language', lang);
       } catch {
-        console.warn('Could not save language preference to localStorage');
+        if (import.meta.env.DEV) console.warn('Could not save language preference to localStorage');
       }
     }
   };

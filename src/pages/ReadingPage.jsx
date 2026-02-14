@@ -67,7 +67,7 @@ export default function ReadingPage({ level, reading, onNavigate }) {
   const [internalLevel, setInternalLevel] = useState(level || (() => { try{const v=localStorage.getItem('dm_last_level');return v?JSON.parse(v):'A1'}catch{return 'A1'} }));
   const activeLevel = level || internalLevel;
   const texts = READING_DATA.levels?.[activeLevel]?.texts || [];
-  const colors = LEVEL_COLORS[activeLevel];
+  const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
   const handleLevelChange = (lvl) => { setInternalLevel(lvl); try{saveAndSync('dm_last_level',JSON.stringify(lvl))}catch{} if(level) onNavigate('reading',{level:lvl}); };
 
   if (reading) return <ReadingDetail reading={reading} level={activeLevel} colors={colors} />;

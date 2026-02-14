@@ -74,7 +74,7 @@ export default function WritingPage({ onNavigate }) {
         const data = await fetchLangJSON('writing.json', language);
         setWritingData(data);
       } catch (error) {
-        console.error('Error loading writing data:', error);
+        if (import.meta.env.DEV) console.error('Error loading writing data:', error);
       }
     };
     loadWritingData();

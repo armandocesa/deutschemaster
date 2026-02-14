@@ -71,7 +71,7 @@ export async function initSession() {
         eventCount: 0,
       });
     } catch (e) {
-      console.warn('Failed to initialize session in Firestore:', e);
+      if (import.meta.env.DEV) console.warn('Failed to initialize session in Firestore:', e);
       // Queue for later sync
       eventQueue.push({ type: 'session_init', data: sessionData, timestamp: new Date() });
     }
@@ -80,7 +80,6 @@ export async function initSession() {
     eventQueue.push({ type: 'session_init', data: sessionData, timestamp: new Date() });
   }
 
-  if (import.meta.env.DEV) console.log('Session initialized:', currentSessionId);
 }
 
 /**
@@ -125,7 +124,7 @@ export async function trackPageView(pageName) {
         device: getDeviceInfo().type,
       });
     } catch (e) {
-      console.warn('Failed to log page view:', e);
+      if (import.meta.env.DEV) console.warn('Failed to log page view:', e);
       eventQueue.push({
         type: 'page_view',
         data: { page: pageName, userId, sessionId: currentSessionId },
@@ -163,7 +162,7 @@ export async function trackEvent(eventName, eventData = {}) {
     try {
       await addDoc(collection(db, 'analytics', 'events'), eventDoc);
     } catch (e) {
-      console.warn('Failed to log event:', e);
+      if (import.meta.env.DEV) console.warn('Failed to log event:', e);
       eventQueue.push({
         type: 'event',
         data: { ...eventDoc, timestamp: new Date() },
@@ -218,11 +217,10 @@ export async function endSession() {
       // Update daily stats
       await updateDailyStats(userId, pageVisitsInSession);
     } catch (e) {
-      console.warn('Failed to end session:', e);
+      if (import.meta.env.DEV) console.warn('Failed to end session:', e);
     }
   }
 
-  if (import.meta.env.DEV) console.log('Session ended:', currentSessionId, 'Duration:', sessionDuration, 'ms');
 
   // Clear session data
   currentSessionId = null;
@@ -268,7 +266,7 @@ async function updateDailyStats(userId, pagesVisited) {
 
     await setDoc(docRef, dataToSave, { merge: true });
   } catch (e) {
-    console.warn('Failed to update daily stats:', e);
+    if (import.meta.env.DEV) console.warn('Failed to update daily stats:', e);
   }
 }
 
@@ -295,17 +293,16 @@ export async function syncQueuedEvents() {
           successCount++;
         }
       } catch (e) {
-        console.warn('Error queuing event for batch:', e);
+        if (import.meta.env.DEV) console.warn('Error queuing event for batch:', e);
       }
     }
 
     if (successCount > 0) {
       await batch.commit();
       eventQueue.splice(0, successCount);
-      if (import.meta.env.DEV) console.log('Synced', successCount, 'queued events');
     }
   } catch (e) {
-    console.warn('Failed to sync queued events:', e);
+    if (import.meta.env.DEV) console.warn('Failed to sync queued events:', e);
   } finally {
     isSyncing = false;
   }
@@ -359,7 +356,7 @@ export async function getAnalytics(startDate, endDate) {
 
     return analyticsData;
   } catch (e) {
-    console.warn('Failed to fetch analytics:', e);
+    if (import.meta.env.DEV) console.warn('Failed to fetch analytics:', e);
     return null;
   }
 }
@@ -427,7 +424,7 @@ export async function getAnalyticsSummary(days = 30) {
 
     return summary;
   } catch (e) {
-    console.warn('Failed to fetch analytics summary:', e);
+    if (import.meta.env.DEV) console.warn('Failed to fetch analytics summary:', e);
     return null;
   }
 }
@@ -446,7 +443,7 @@ async function countNewRegistrations(startDate, endDate) {
     const snapshot = await getDocs(q);
     return snapshot.size;
   } catch (e) {
-    console.warn('Failed to count registrations:', e);
+    if (import.meta.env.DEV) console.warn('Failed to count registrations:', e);
     return 0;
   }
 }
@@ -463,7 +460,7 @@ export async function getActiveSessionsCount() {
     const todaySnap = await getDoc(todayDocRef);
     return todaySnap.exists() ? (todaySnap.data().totalSessions || 0) : 0;
   } catch (e) {
-    console.warn('Failed to get active sessions:', e);
+    if (import.meta.env.DEV) console.warn('Failed to get active sessions:', e);
     return 0;
   }
 }
@@ -493,7 +490,7 @@ export async function getMostVisitedPages(days = 7) {
       .slice(0, 10)
       .map(([page, count]) => ({ page, count }));
   } catch (e) {
-    console.warn('Failed to get most visited pages:', e);
+    if (import.meta.env.DEV) console.warn('Failed to get most visited pages:', e);
     return [];
   }
 }
@@ -520,7 +517,7 @@ export async function getExerciseCompletionRates() {
 
     return rates;
   } catch (e) {
-    console.warn('Failed to get exercise completion rates:', e);
+    if (import.meta.env.DEV) console.warn('Failed to get exercise completion rates:', e);
     return {};
   }
 }

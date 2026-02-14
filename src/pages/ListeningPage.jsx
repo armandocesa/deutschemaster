@@ -62,7 +62,7 @@ export default function ListeningPage({ onNavigate }) {
         }
         const res = await fetch('/data/listening.json');
         if (res.ok) setListeningData(await res.json());
-      } catch (err) { console.error('Error loading listening data:', err); }
+      } catch (err) { if (import.meta.env.DEV) console.error('Error loading listening data:', err); }
     };
     loadData();
   }, [language]);
@@ -269,7 +269,7 @@ export default function ListeningPage({ onNavigate }) {
     }
   };
 
-  const colors = LEVEL_COLORS[selectedLevel];
+  const colors = LEVEL_COLORS[selectedLevel] || { bg: '#6c5ce7', text: '#fff' };
 
   const handleLevelChange = (lvl) => {
     if (!canAccessLevel(lvl)) {

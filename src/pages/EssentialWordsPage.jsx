@@ -187,7 +187,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
     }
   };
 
-  const colors = LEVEL_COLORS[activeLevel];
+  const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
 
   if (loading || !data) {
     return (

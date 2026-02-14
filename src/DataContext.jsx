@@ -89,7 +89,7 @@ export function DataProvider({ children }) {
 
       setData({ VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA, READING_DATA, LESSONS_DATA });
     } catch (err) {
-      console.error('Data loading failed:', err);
+      if (import.meta.env.DEV) console.error('Data loading failed:', err);
       setError(err.message || 'Errore nel caricamento dei dati');
     } finally {
       setLoading(false);

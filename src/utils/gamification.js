@@ -56,7 +56,7 @@ const initStorage = (key, defaultValue) => {
   try {
     return JSON.parse(existing);
   } catch (e) {
-    console.warn(`Failed to parse dm_${key}, resetting to default`);
+    if (import.meta.env.DEV) console.warn(`Failed to parse dm_${key}, resetting to default`);
     saveAndSync(`dm_${key}`, JSON.stringify(defaultValue));
     return defaultValue;
   }
@@ -354,7 +354,7 @@ export const getDailyGoal = () => {
  */
 export const setDailyGoal = (target) => {
   if (![10, 30, 50, 100, 150].includes(target)) {
-    console.warn(`Invalid daily goal target: ${target}`);
+    if (import.meta.env.DEV) console.warn(`Invalid daily goal target: ${target}`);
     return false;
   }
 
@@ -706,7 +706,7 @@ export const recordReview = (wordId, correct) => {
   const data = initStorage('spaced_repetition', { words: {} });
 
   if (!data.words[wordId]) {
-    console.warn(`Word ${wordId} not found in spaced repetition system`);
+    if (import.meta.env.DEV) console.warn(`Word ${wordId} not found in spaced repetition system`);
     return false;
   }
 

@@ -36,7 +36,7 @@ export function AuthProvider({ children }) {
             await syncFromCloud(firebaseUser.uid);
             break; // Success, stop retrying
           } catch (e) {
-            console.warn(`Cloud sync attempt ${attempt} failed:`, e);
+            if (import.meta.env.DEV) console.warn(`Cloud sync attempt ${attempt} failed:`, e);
             if (attempt < 2) {
               await new Promise(r => setTimeout(r, 1000)); // Wait 1s before retry
             }
@@ -103,7 +103,7 @@ export function AuthProvider({ children }) {
     if (!hasConfig) return;
     // Sync before logout
     if (user) {
-      try { await syncToCloud(user.uid); } catch (e) { console.warn('Sync before logout failed:', e); }
+      try { await syncToCloud(user.uid); } catch (e) { if (import.meta.env.DEV) console.warn('Sync before logout failed:', e); }
     }
     await signOut(auth);
   };

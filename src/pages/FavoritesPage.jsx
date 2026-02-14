@@ -11,7 +11,7 @@ export default function FavoritesPage({ onNavigate }) {
   const wordCount = words.filter(w => w.type === 'word').length;
   const verbCount = words.filter(w => w.type === 'verb').length;
 
-  const handleRemove = (id) => { removeDifficultWord(id); setWords(getDifficultWords()); };
+  const handleRemove = (id) => { removeDifficultWord(id); setWords(prev => prev.filter(w => w.id !== id)); };
 
   return (
     <div className="favorites-page">

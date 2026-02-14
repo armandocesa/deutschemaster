@@ -326,8 +326,8 @@ const PathsPage = ({ onNavigate }) => {
                   padding: '12px 20px',
                   borderRadius: '12px',
                   border: 'none',
-                  backgroundColor: isSelected ? path.color : '#22222d',
-                  color: isSelected ? '#fff' : '#eeeef2',
+                  backgroundColor: isSelected ? path.color : 'var(--bg-card)',
+                  color: isSelected ? '#fff' : 'var(--text-primary)',
                   cursor: 'pointer',
                   fontSize: '14px',
                   fontWeight: '600',
@@ -550,7 +550,7 @@ const PathsPage = ({ onNavigate }) => {
                                 e.currentTarget.style.borderColor = `${currentPathData.color}40`;
                               }}
                               onMouseLeave={(e) => {
-                                e.currentTarget.style.backgroundColor = '#22222d';
+                                e.currentTarget.style.backgroundColor = 'var(--bg-card)';
                                 e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)';
                               }}
                             >

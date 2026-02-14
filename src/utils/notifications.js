@@ -9,7 +9,7 @@
  */
 export const requestPermission = async () => {
   if (!('Notification' in window)) {
-    console.warn('Notification API not supported in this browser');
+    if (import.meta.env.DEV) console.warn('Notification API not supported in this browser');
     return false;
   }
 
@@ -22,7 +22,7 @@ export const requestPermission = async () => {
       const permission = await Notification.requestPermission();
       return permission === 'granted';
     } catch (error) {
-      console.error('Error requesting notification permission:', error);
+      if (import.meta.env.DEV) console.error('Error requesting notification permission:', error);
       return false;
     }
   }
@@ -71,12 +71,12 @@ export const setReminderTime = (time) => {
  */
 export const showNotification = (title, options = {}) => {
   if (!('Notification' in window)) {
-    console.warn('Notification API not supported');
+    if (import.meta.env.DEV) console.warn('Notification API not supported');
     return;
   }
 
   if (Notification.permission !== 'granted') {
-    console.warn('Notification permission not granted');
+    if (import.meta.env.DEV) console.warn('Notification permission not granted');
     return;
   }
 
@@ -106,7 +106,7 @@ export const showNotification = (title, options = {}) => {
       });
     }
   } catch (error) {
-    console.error('Error showing notification:', error);
+    if (import.meta.env.DEV) console.error('Error showing notification:', error);
   }
 };
 

@@ -28,9 +28,9 @@ if (hasConfig) {
   // Enable offline persistence
   enableIndexedDbPersistence(db).catch((err) => {
     if (err.code === 'failed-precondition') {
-      console.warn('Firestore persistence: multiple tabs open');
+      if (import.meta.env.DEV) console.warn('Firestore persistence: multiple tabs open');
     } else if (err.code === 'unimplemented') {
-      console.warn('Firestore persistence: browser not supported');
+      if (import.meta.env.DEV) console.warn('Firestore persistence: browser not supported');
     }
   });
 }

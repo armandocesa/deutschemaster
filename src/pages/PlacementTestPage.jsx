@@ -26,7 +26,7 @@ export default function PlacementTestPage({ onNavigate }) {
     fetch('/data/placement-test.json')
       .then(res => res.json())
       .then(data => setQuestions(data.questions))
-      .catch(err => console.error('Failed to load placement test:', err));
+      .catch(err => { if (import.meta.env.DEV) console.error('Failed to load placement test:', err); });
   }, []);
 
   const currentQuestion = useMemo(() => {
@@ -127,7 +127,7 @@ export default function PlacementTestPage({ onNavigate }) {
       };
       saveAndSync('dm_placement_level', JSON.stringify(testData));
     } catch (e) {
-      console.warn('Failed to save placement test result:', e);
+      if (import.meta.env.DEV) console.warn('Failed to save placement test result:', e);
     }
 
     // Record activity for gamification

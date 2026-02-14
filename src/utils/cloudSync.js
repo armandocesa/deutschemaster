@@ -53,7 +53,7 @@ export async function syncToCloud(uid) {
   try {
     await setDoc(doc(db, 'users', uid, 'data', 'progress'), payload, { merge: true });
   } catch (e) {
-    console.warn('syncToCloud failed:', e);
+    if (import.meta.env.DEV) console.warn('syncToCloud failed:', e);
   }
 }
 
@@ -87,7 +87,7 @@ export async function syncFromCloud(uid) {
       setLocalData(key, merged);
     }
   } catch (e) {
-    console.warn('syncFromCloud failed:', e);
+    if (import.meta.env.DEV) console.warn('syncFromCloud failed:', e);
   }
 }
 
@@ -105,7 +105,7 @@ export async function syncKeyToCloud(uid, key) {
       [key]: data,
     }, { merge: true });
   } catch (e) {
-    console.warn(`syncKeyToCloud(${key}) failed:`, e);
+    if (import.meta.env.DEV) console.warn(`syncKeyToCloud(${key}) failed:`, e);
   }
 }
 
@@ -283,6 +283,6 @@ export async function batchWrite(operations) {
     await operations(batch);
     await batch.commit();
   } catch (e) {
-    console.warn('Batch write failed:', e);
+    if (import.meta.env.DEV) console.warn('Batch write failed:', e);
   }
 }

@@ -11,7 +11,7 @@ async function fetchJSON(path) {
     cache.set(path, data);
     return data;
   } catch (error) {
-    console.error(`Failed to load ${path}:`, error);
+    if (import.meta.env.DEV) console.error(`Failed to load ${path}:`, error);
     return null;
   }
 }

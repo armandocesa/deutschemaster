@@ -618,7 +618,7 @@ export default function WerdenPage({ onNavigate }) {
       <div
         style={{
           backgroundColor: 'var(--bg-card)',
-          borderBottom: '1px solid #444450',
+          borderBottom: '1px solid var(--border-hover)',
           padding: '20px',
         }}
       >
@@ -678,7 +678,7 @@ export default function WerdenPage({ onNavigate }) {
       <div
         style={{
           backgroundColor: 'var(--bg-card)',
-          borderTop: '1px solid #444450',
+          borderTop: '1px solid var(--border-hover)',
           padding: '20px',
           textAlign: 'center',
           marginTop: '40px',

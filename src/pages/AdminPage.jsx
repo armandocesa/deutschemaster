@@ -50,7 +50,7 @@ const AdminPage = ({ onNavigate }) => {
         setCompletionRates(rates);
         setActiveSessions(sessions);
       } catch (e) {
-        console.error('Failed to fetch analytics:', e);
+        if (import.meta.env.DEV) console.error('Failed to fetch analytics:', e);
         setError(t('admin.error'));
       } finally {
         setLoading(false);
