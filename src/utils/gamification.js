@@ -14,17 +14,24 @@ import { saveAndSync } from './cloudSync';
  * Get today's date in YYYY-MM-DD format
  */
 const getToday = () => {
+  // Use local date (not UTC) to avoid timezone issues with streak tracking
   const date = new Date();
-  return date.toISOString().split('T')[0];
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 };
 
 /**
- * Get date N days ago in YYYY-MM-DD format
+ * Get date N days ago in YYYY-MM-DD format (local time)
  */
 const getDaysAgo = (days) => {
   const date = new Date();
   date.setDate(date.getDate() - days);
-  return date.toISOString().split('T')[0];
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 };
 
 /**
@@ -98,9 +105,16 @@ export const recordActivity = () => {
         data.longestStreak = data.currentStreak;
       }
     } else {
-      // Gap in streak
+      // Check gap in streak
       const daysSinceActive = daysBetween(data.lastActiveDate, today);
-      if (daysSinceActive > 1) {
+      if (daysSinceActive === 1) {
+        // Consecutive day — increment streak
+        data.currentStreak += 1;
+        if (data.currentStreak > data.longestStreak) {
+          data.longestStreak = data.currentStreak;
+        }
+      } else if (daysSinceActive > 1) {
+        // Gap in streak — reset
         data.currentStreak = 1;
       }
     }
@@ -317,9 +331,12 @@ export const getDailyGoal = () => {
 
   while (completedSet.has(checkDate)) {
     goalStreak += 1;
-    const prevDate = new Date(checkDate);
+    const prevDate = new Date(checkDate + 'T12:00:00'); // Use noon to avoid DST issues
     prevDate.setDate(prevDate.getDate() - 1);
-    checkDate = prevDate.toISOString().split('T')[0];
+    const year = prevDate.getFullYear();
+    const month = String(prevDate.getMonth() + 1).padStart(2, '0');
+    const day = String(prevDate.getDate()).padStart(2, '0');
+    checkDate = `${year}-${month}-${day}`;
   }
 
   return {
@@ -594,7 +611,7 @@ export const checkBadges = () => {
   const streakData = getStreak();
   const xpData = getXP();
   const lessonProgress = initStorage('lessons_progress', {});
-  const quizStats = initStorage('quizStats', { completed: 0, correct: 0, perfect: 0 });
+  const quizStats = initStorage('quizStats', { totalAnswered: 0, correctAnswers: 0 });
   const learningProgress = initStorage('learningProgress', { words: {} });
   const readingStats = initStorage('readingStats', { completed: 0 });
 
@@ -617,10 +634,10 @@ export const checkBadges = () => {
     words_500: () => wordCount >= 500,
     words_1000: () => wordCount >= 1000,
 
-    first_quiz: () => quizStats.completed >= 1,
-    perfect_quiz: () => quizStats.perfect >= 1,
-    quiz_50: () => quizStats.completed >= 50,
-    correct_100: () => quizStats.correct >= 100,
+    first_quiz: () => (quizStats.totalAnswered || quizStats.completed || 0) >= 1,
+    perfect_quiz: () => (quizStats.perfect || 0) >= 1,
+    quiz_50: () => (quizStats.totalAnswered || quizStats.completed || 0) >= 50,
+    correct_100: () => (quizStats.correctAnswers || quizStats.correct || 0) >= 100,
 
     first_lesson: () => Object.keys(lessonProgress).length >= 1,
     lessons_10: () => Object.keys(lessonProgress).length >= 10,
@@ -714,10 +731,13 @@ export const recordReview = (wordId, correct) => {
     word.easeFactor = Math.max(1.3, (word.easeFactor || 2.5) - 0.2);
   }
 
-  // Calculate next review date
-  const nextReviewDate = new Date(today);
+  // Calculate next review date (local time)
+  const nextReviewDate = new Date(today + 'T12:00:00');
   nextReviewDate.setDate(nextReviewDate.getDate() + word.interval);
-  word.nextReview = nextReviewDate.toISOString().split('T')[0];
+  const nrYear = nextReviewDate.getFullYear();
+  const nrMonth = String(nextReviewDate.getMonth() + 1).padStart(2, '0');
+  const nrDay = String(nextReviewDate.getDate()).padStart(2, '0');
+  word.nextReview = `${nrYear}-${nrMonth}-${nrDay}`;
   word.lastReview = today;
 
   saveAndSync('dm_spaced_repetition', JSON.stringify(data));

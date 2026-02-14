@@ -6,7 +6,8 @@ import { speak } from '../utils/speech';
 import {
   getDifficultWords,
   getProgress,
-  markWordStatus
+  markWordStatus,
+  saveProgress
 } from '../utils/storage';
 import { addXP, recordActivity } from '../utils/gamification';
 import { useLevelAccess } from '../hooks/useLevelAccess';
@@ -21,22 +22,22 @@ function getReviewWords() {
     .map(([wordId]) => wordId);
 }
 
-// Helper to record review session
+// Helper to record review session (uses saveProgress for cloud sync)
 function recordReview(wordId, correct) {
   const progress = getProgress();
   if (!progress.reviews) progress.reviews = {};
   if (!progress.reviews[wordId]) progress.reviews[wordId] = [];
   progress.reviews[wordId].push({ correct, date: Date.now() });
-  localStorage.setItem('dm_learningProgress', JSON.stringify(progress));
+  saveProgress(progress);
 }
 
-// Helper to add word to review pile (words that need more practice)
+// Helper to add word to review pile (uses saveProgress for cloud sync)
 function addToReview(wordId, german, italian) {
   const progress = getProgress();
   if (!progress.wordsToReview) progress.wordsToReview = [];
   if (!progress.wordsToReview.find(w => w.id === wordId)) {
     progress.wordsToReview.push({ id: wordId, german, italian, addedAt: Date.now() });
-    localStorage.setItem('dm_learningProgress', JSON.stringify(progress));
+    saveProgress(progress);
   }
 }
 
@@ -130,9 +131,9 @@ export default function FlashcardsPage({ onNavigate }) {
 
   // Mark card as correct
   const handleCorrect = () => {
-    if (currentIndex >= cards.length) return;
-
     const card = cards[currentIndex];
+    if (!card) return;
+
     setResults(prev => [...prev, { id: card.id, correct: true }]);
     setSessionStats(prev => ({
       ...prev,
@@ -146,22 +147,25 @@ export default function FlashcardsPage({ onNavigate }) {
     }
     markWordStatus(card.id, true);
 
-    // Auto-advance
+    // Auto-advance with functional update to avoid stale closure
     setTimeout(() => {
-      if (currentIndex < cards.length - 1) {
-        setCurrentIndex(currentIndex + 1);
-        setFlipped(false);
-      } else {
-        setMode('finished');
-      }
+      setCurrentIndex(prev => {
+        if (prev < cards.length - 1) {
+          setFlipped(false);
+          return prev + 1;
+        } else {
+          setMode('finished');
+          return prev;
+        }
+      });
     }, 300);
   };
 
   // Mark card as incorrect
   const handleIncorrect = () => {
-    if (currentIndex >= cards.length) return;
-
     const card = cards[currentIndex];
+    if (!card) return;
+
     setResults(prev => [...prev, { id: card.id, correct: false }]);
     setSessionStats(prev => ({
       ...prev,
@@ -174,14 +178,17 @@ export default function FlashcardsPage({ onNavigate }) {
     addToReview(card.id, card.german, card.italian);
     markWordStatus(card.id, false);
 
-    // Auto-advance
+    // Auto-advance with functional update to avoid stale closure
     setTimeout(() => {
-      if (currentIndex < cards.length - 1) {
-        setCurrentIndex(currentIndex + 1);
-        setFlipped(false);
-      } else {
-        setMode('finished');
-      }
+      setCurrentIndex(prev => {
+        if (prev < cards.length - 1) {
+          setFlipped(false);
+          return prev + 1;
+        } else {
+          setMode('finished');
+          return prev;
+        }
+      });
     }, 300);
   };
 

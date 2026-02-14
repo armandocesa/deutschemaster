@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useCallback } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -101,7 +101,26 @@ export default function VocabularyPage({ level, module, onNavigate }) {
   }
 
   const words = module.words || [];
-  const filteredWords = searchTerm ? words.filter(w => (w.german || '').toLowerCase().includes(searchTerm.toLowerCase()) || (w.italian || '').toLowerCase().includes(searchTerm.toLowerCase())) : words;
+  const [displayCount, setDisplayCount] = useState(50);
+  const [debouncedSearch, setDebouncedSearch] = useState('');
+  const debounceRef = useRef(null);
+
+  const handleSearch = useCallback((e) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      setDebouncedSearch(value);
+      setDisplayCount(50); // Reset pagination on search
+    }, 300);
+  }, []);
+
+  const filteredWords = debouncedSearch
+    ? words.filter(w => (w.german || '').toLowerCase().includes(debouncedSearch.toLowerCase()) || (w.italian || '').toLowerCase().includes(debouncedSearch.toLowerCase()))
+    : words;
+
+  const visibleWords = filteredWords.slice(0, displayCount);
+  const hasMore = displayCount < filteredWords.length;
 
   return (
     <div className="vocabulary-page">
@@ -116,15 +135,25 @@ export default function VocabularyPage({ level, module, onNavigate }) {
         <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'unseen').length}</span> {t('vocabulary.unseen')}</div>
       </div>
       <div className="vocab-toolbar">
-        <div className="search-box"><Icons.Search /><input type="text" placeholder={t('vocabulary.search')} value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} /></div>
+        <div className="search-box"><Icons.Search /><input type="text" placeholder={t('vocabulary.search')} value={searchTerm} onChange={handleSearch} /></div>
         <div className="view-toggle">
           <button className={viewMode === 'grid' ? 'active' : ''} onClick={() => setViewMode('grid')}>{t('vocabulary.grid')}</button>
           <button className={viewMode === 'list' ? 'active' : ''} onClick={() => setViewMode('list')}>{t('vocabulary.list')}</button>
         </div>
       </div>
       <div className={`words-container ${viewMode}`}>
-        {filteredWords.map((word, idx) => <WordCard key={idx} word={word} viewMode={viewMode} />)}
+        {visibleWords.map((word) => <WordCard key={`${word.german}_${word.article || ''}`} word={word} viewMode={viewMode} />)}
       </div>
+      {hasMore && (
+        <div style={{textAlign:'center',padding:'20px'}}>
+          <button
+            onClick={() => setDisplayCount(prev => prev + 50)}
+            style={{padding:'10px 24px',background:'var(--bg-secondary)',color:'var(--text-primary)',border:'1px solid var(--border)',borderRadius:'8px',fontSize:'14px',fontWeight:600,cursor:'pointer'}}
+          >
+            {t('vocabulary.loadMore') || 'Carica altre'} ({filteredWords.length - displayCount} {t('vocabulary.remaining') || 'rimanenti'})
+          </button>
+        </div>
+      )}
       {filteredWords.length === 0 && <div className="empty-state"><p>{t('vocabulary.noResults')}</p></div>}
     </div>
   );

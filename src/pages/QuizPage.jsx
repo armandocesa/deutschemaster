@@ -60,7 +60,12 @@ export default function QuizPage({ level, onNavigate }) {
         levelData?.modules?.forEach(m => { const mod = m.name||m.category||'x'; wordsByMod[mod]=m.words||[]; m.words?.forEach(w => allWords.push({...w, mod})); });
       }
       let available = allWords.filter(w => !usedIds.includes(w.german));
-      if (available.length < count) { usedIds = []; available = allWords; }
+      if (available.length < count) {
+        // Partial reset: keep only the most recent half of used IDs
+        const halfPoint = Math.floor(usedIds.length / 2);
+        usedIds = usedIds.slice(halfPoint);
+        available = allWords.filter(w => !usedIds.includes(w.german));
+      }
       const selected = fisherYatesShuffle(available).slice(0, count);
       const allItalian = [...new Set(allWords.map(w => w.italian))];
       selected.forEach(word => {
@@ -73,9 +78,15 @@ export default function QuizPage({ level, onNavigate }) {
     } else {
       const levelData = GRAMMAR_DATA.levels?.[lvl];
       const allEx = [];
-      levelData?.topics?.forEach(topic => { topic.exercises?.forEach((ex, i) => allEx.push({...ex, id: `${topic.id}_${i}`, topicId: topic.id})); });
+      let globalIdx = 0;
+      levelData?.topics?.forEach(topic => { topic.exercises?.forEach((ex) => { allEx.push({...ex, id: `${topic.id}_${globalIdx}`, topicId: topic.id}); globalIdx++; }); });
       let available = allEx.filter(ex => !usedIds.includes(ex.id));
-      if (available.length < count) { usedIds = []; available = allEx; }
+      if (available.length < count) {
+        // Partial reset: keep only the most recent half
+        const halfPoint = Math.floor(usedIds.length / 2);
+        usedIds = usedIds.slice(halfPoint);
+        available = allEx.filter(ex => !usedIds.includes(ex.id));
+      }
       const selected = fisherYatesShuffle(available).slice(0, count);
       selected.forEach(ex => { qs.push({question: ex.question, correctAnswer: ex.answer, explanation: ex.explanation, type: 'grammar', isOpen: true, grammarId: ex.topicId}); usedIds.push(ex.id); });
       saveUsedQuestions(type, lvl, usedIds);
@@ -91,7 +102,7 @@ export default function QuizPage({ level, onNavigate }) {
     const q = questions[currentQuestion];
     const na = typeof answer === 'string' ? answer.toLowerCase().trim() : answer;
     const nc = typeof q.correctAnswer === 'string' ? q.correctAnswer.toLowerCase().trim() : q.correctAnswer;
-    const isCorrect = q.isOpen ? na === nc : answer === q.correctAnswer;
+    const isCorrect = q.isOpen ? na === nc : (typeof answer === 'string' ? answer.toLowerCase().trim() : answer) === (typeof q.correctAnswer === 'string' ? q.correctAnswer.toLowerCase().trim() : q.correctAnswer);
     if (isCorrect) { setScore(s => s + 1); addXP(10, 'quiz_correct'); }
     updateQuizStats(isCorrect);
     if (q.wordId) { markWordStatus(q.wordId, isCorrect); if (!isCorrect) addToReview(q.wordId, q.question.replace('Cosa significa "','').replace('"?',''), q.correctAnswer); }

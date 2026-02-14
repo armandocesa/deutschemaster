@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { useLanguage } from './contexts/LanguageContext';
 
 const DataContext = createContext(null);
@@ -28,11 +28,13 @@ export function DataProvider({ children }) {
   const { language } = useLanguage();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  useEffect(() => {
-    async function loadAll() {
-      setLoading(true);
+  const loadAll = useCallback(async () => {
+    setLoading(true);
+    setError(null);
 
+    try {
       // Load vocab for all levels
       const vocabLevels = {};
       const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
@@ -71,9 +73,9 @@ export function DataProvider({ children }) {
       // Load verbs
       const verbStats = await fetchJSON('verbs/stats.json', language);
       const totalVerbs = verbStats?.totalVerbs || 414;
-      const chunksNeeded = Math.ceil(totalVerbs / 50);
+      const verbChunksNeeded = Math.ceil(totalVerbs / 50);
       const allVerbs = [];
-      for (let i = 1; i <= chunksNeeded; i++) {
+      for (let i = 1; i <= verbChunksNeeded; i++) {
         const chunk = await fetchJSON(`verbs/verbs_${i}.json`, language);
         if (chunk) allVerbs.push(...chunk);
       }
@@ -86,10 +88,33 @@ export function DataProvider({ children }) {
       const LESSONS_DATA = await fetchJSON('lessons.json', language) || [];
 
       setData({ VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA, READING_DATA, LESSONS_DATA });
+    } catch (err) {
+      console.error('Data loading failed:', err);
+      setError(err.message || 'Errore nel caricamento dei dati');
+    } finally {
       setLoading(false);
     }
-    loadAll();
   }, [language]);
+
+  useEffect(() => {
+    loadAll();
+  }, [loadAll]);
+
+  if (error) {
+    return (
+      <div style={{display:'flex',alignItems:'center',justifyContent:'center',minHeight:'100vh',background:'var(--bg-primary, #0f0f14)',color:'var(--text-primary, #eeeef2)',flexDirection:'column',gap:'16px'}}>
+        <div style={{fontSize:'48px'}}>⚠️</div>
+        <div style={{fontSize:'20px',fontWeight:700}}>Errore di caricamento</div>
+        <div style={{color:'var(--text-secondary, #8888a0)',fontSize:'14px',textAlign:'center',maxWidth:'300px'}}>{error}</div>
+        <button
+          onClick={loadAll}
+          style={{padding:'10px 24px',background:'linear-gradient(135deg, #6c5ce7, #00cec9)',color:'white',border:'none',borderRadius:'8px',fontSize:'14px',fontWeight:600,cursor:'pointer',marginTop:'8px'}}
+        >
+          Riprova
+        </button>
+      </div>
+    );
+  }
 
   if (loading) {
     const loadingMessages = {

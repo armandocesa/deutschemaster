@@ -159,7 +159,7 @@ export default function HomePage({ onNavigate }) {
           <div className="continue-cards">
             <div className="continue-card" onClick={() => onNavigate('quiz')}>
               <div className="card-badge" style={{backgroundColor: 'var(--accent)'}}>{quizStats.totalAnswered}</div>
-              <div className="card-text"><h4>{t('home.progress.questionsAsked')}</h4><p>{Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100)}% {t('home.progress.correct')}</p></div>
+              <div className="card-text"><h4>{t('home.progress.questionsAsked')}</h4><p>{quizStats.totalAnswered > 0 ? Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100) : 0}% {t('home.progress.correct')}</p></div>
             </div>
             {savedCount > 0 && (
               <div className="continue-card" onClick={() => onNavigate('favorites')}>

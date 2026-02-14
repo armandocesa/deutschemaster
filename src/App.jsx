@@ -1,10 +1,49 @@
-import React, { useState, useMemo, useCallback, Suspense, useEffect } from 'react';
+import React, { useState, useMemo, useCallback, Suspense, useEffect, Component } from 'react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Header from './components/Header';
 import BottomNav from './components/BottomNav';
 import Footer from './components/Footer';
 import { useLanguage } from './contexts/LanguageContext';
 import { trackPageView } from './utils/analytics';
+
+// Error Boundary to catch rendering errors in lazy-loaded pages
+class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    console.error('ErrorBoundary caught:', error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f0f14', color: '#eeeef2' }}>
+          <div style={{ textAlign: 'center', padding: '20px' }}>
+            <div style={{ fontSize: '48px', marginBottom: '16px' }}>⚠️</div>
+            <h2 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Qualcosa è andato storto</h2>
+            <p style={{ fontSize: '14px', color: '#8888a0', marginBottom: '20px' }}>
+              {this.state.error?.message || 'Errore nel caricamento della pagina'}
+            </p>
+            <button
+              onClick={() => { this.setState({ hasError: false, error: null }); }}
+              style={{ padding: '10px 24px', background: 'linear-gradient(135deg, #6c5ce7, #00cec9)', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
+            >
+              Riprova
+            </button>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
 // Lazy load all pages for code splitting
 const HomePage = React.lazy(() => import('./pages/HomePage'));
@@ -137,6 +176,7 @@ function AppContent() {
     <div className="app">
       {!isLoginPage && !shouldShow404 && <Header currentPage={currentPage} onNavigate={navigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />}
       <main className="main-content">
+        <ErrorBoundary>
         <Suspense fallback={<PageLoadingFallback />}>
           {shouldShow404 && <NotFoundPage onNavigate={navigate} />}
           {currentPage === 'login' && <LoginPage onNavigate={navigate} />}
@@ -163,6 +203,7 @@ function AppContent() {
           {currentPage === 'dona' && <DonaPage onNavigate={navigate} />}
           {currentPage === 'admin' && <AdminPage onNavigate={navigate} />}
         </Suspense>
+        </ErrorBoundary>
       </main>
       {!isLoginPage && !shouldShow404 && <BottomNav currentPage={currentPage} onNavigate={navigate} />}
       {!isLoginPage && !shouldShow404 && <Footer />}

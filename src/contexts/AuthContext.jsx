@@ -30,11 +30,17 @@ export function AuthProvider({ children }) {
     const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
       if (firebaseUser) {
         setUser(firebaseUser);
-        // Sync data from cloud on login
-        try {
-          await syncFromCloud(firebaseUser.uid);
-        } catch (e) {
-          console.warn('Cloud sync on login failed:', e);
+        // Sync data from cloud on login (with retry)
+        for (let attempt = 1; attempt <= 2; attempt++) {
+          try {
+            await syncFromCloud(firebaseUser.uid);
+            break; // Success, stop retrying
+          } catch (e) {
+            console.warn(`Cloud sync attempt ${attempt} failed:`, e);
+            if (attempt < 2) {
+              await new Promise(r => setTimeout(r, 1000)); // Wait 1s before retry
+            }
+          }
         }
       } else {
         setUser(null);

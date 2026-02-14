@@ -138,25 +138,45 @@ function mergeData(key, local, cloud) {
   }
 }
 
+function newerDate(a, b) {
+  if (!a) return b;
+  if (!b) return a;
+  return new Date(a) >= new Date(b) ? a : b;
+}
+
 function mergeStreak(local, cloud) {
   return {
     currentStreak: Math.max(local.currentStreak || 0, cloud.currentStreak || 0),
     longestStreak: Math.max(local.longestStreak || 0, cloud.longestStreak || 0),
-    lastActiveDate: [local.lastActiveDate, cloud.lastActiveDate].sort().pop(),
+    lastActiveDate: newerDate(local.lastActiveDate, cloud.lastActiveDate),
     calendar: { ...(cloud.calendar || {}), ...(local.calendar || {}) },
   };
 }
 
 function mergeXP(local, cloud) {
-  const merged = {
+  // Determine the newest todayDate
+  const localDate = local.todayDate || '';
+  const cloudDate = cloud.todayDate || '';
+  const newestDate = newerDate(localDate, cloudDate) || localDate;
+
+  let todayXP;
+  if (localDate === cloudDate) {
+    // Same day: take the higher value
+    todayXP = Math.max(local.todayXP || 0, cloud.todayXP || 0);
+  } else if (newestDate === localDate) {
+    // Local is newer day
+    todayXP = local.todayXP || 0;
+  } else {
+    // Cloud is newer day
+    todayXP = cloud.todayXP || 0;
+  }
+
+  return {
     totalXP: Math.max(local.totalXP || 0, cloud.totalXP || 0),
-    todayXP: local.todayDate === cloud.todayDate
-      ? Math.max(local.todayXP || 0, cloud.todayXP || 0)
-      : local.todayXP || 0,
-    todayDate: local.todayDate || cloud.todayDate,
+    todayXP,
+    todayDate: newestDate,
     history: mergeArrays(local.history || [], cloud.history || []),
   };
-  return merged;
 }
 
 function mergeQuizStats(local, cloud) {
@@ -167,8 +187,8 @@ function mergeQuizStats(local, cloud) {
 }
 
 function mergeBadges(local, cloud) {
-  const localUnlocked = local.unlocked || local || {};
-  const cloudUnlocked = cloud.unlocked || cloud || {};
+  const localUnlocked = (local && typeof local === 'object' && local.unlocked) ? local.unlocked : {};
+  const cloudUnlocked = (cloud && typeof cloud === 'object' && cloud.unlocked) ? cloud.unlocked : {};
   return {
     unlocked: { ...cloudUnlocked, ...localUnlocked },
   };
@@ -215,7 +235,9 @@ function mergeSpacedRepetition(local, cloud) {
   const cloudWords = cloud.words || {};
   const merged = { ...cloudWords };
   for (const [id, data] of Object.entries(localWords)) {
-    if (!merged[id] || (data.lastReview && data.lastReview > (merged[id].lastReview || ''))) {
+    const localReview = data.lastReview || '';
+    const cloudReview = merged[id]?.lastReview || '';
+    if (!merged[id] || (localReview && new Date(localReview) >= new Date(cloudReview || '1970-01-01'))) {
       merged[id] = data;
     }
   }
