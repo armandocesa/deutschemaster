@@ -57,12 +57,25 @@ export default function VocabularyPage({ level, module, onNavigate }) {
   const [viewMode, setViewMode] = useState('list');
   const [internalLevel, setInternalLevel] = useState(level || (() => { try { return localStorage.getItem('dm_last_level') || 'A1'; } catch { return 'A1'; } }));
   const activeLevel = level || internalLevel;
+  const [displayCount, setDisplayCount] = useState(50);
+  const [debouncedSearch, setDebouncedSearch] = useState('');
+  const debounceRef = useRef(null);
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
     try { saveAndSync('dm_last_level', lvl); } catch {}
     if (level) onNavigate('vocabulary', { level: lvl });
   };
+
+  const handleSearch = useCallback((e) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      setDebouncedSearch(value);
+      setDisplayCount(50);
+    }, 300);
+  }, []);
 
   const levelData = VOCABULARY_DATA?.levels?.[activeLevel];
   const modules = levelData?.modules || [];
@@ -101,19 +114,6 @@ export default function VocabularyPage({ level, module, onNavigate }) {
   }
 
   const words = module.words || [];
-  const [displayCount, setDisplayCount] = useState(50);
-  const [debouncedSearch, setDebouncedSearch] = useState('');
-  const debounceRef = useRef(null);
-
-  const handleSearch = useCallback((e) => {
-    const value = e.target.value;
-    setSearchTerm(value);
-    if (debounceRef.current) clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(() => {
-      setDebouncedSearch(value);
-      setDisplayCount(50); // Reset pagination on search
-    }, 300);
-  }, []);
 
   const filteredWords = debouncedSearch
     ? words.filter(w => (w.german || '').toLowerCase().includes(debouncedSearch.toLowerCase()) || (w.italian || '').toLowerCase().includes(debouncedSearch.toLowerCase()))
