@@ -144,16 +144,16 @@ function VerbCard({ verb, prefix, onToggleFavorite, saved }) {
                       marginBottom: '4px',
                       fontStyle: 'italic'
                     }}>
-                      "{example.german}"
+                      "{example.de || example.german}"
                     </div>
                     <div style={{
                       color: 'var(--text-secondary)',
                       fontSize: '11px'
                     }}>
-                      {example.italian}
+                      {example.it || example.italian}
                     </div>
                     <button
-                      onClick={() => speak(example.german)}
+                      onClick={() => speak(example.de || example.german)}
                       style={{
                         marginTop: '6px',
                         background: 'rgba(99, 102, 241, 0.1)',
@@ -219,14 +219,14 @@ function PrefixCard({ prefix, onToggleFavorite, savedVerbs }) {
           <span style={{ fontSize: '16px', fontWeight: 800, color: 'var(--accent)' }}>
             {prefix.prefix}
           </span>
-          {prefix.translation && (
+          {(prefix.translation || prefix.meaning) && (
             <div style={{
               fontSize: '12px',
               color: 'var(--text-secondary)',
               fontWeight: 400,
               marginTop: '2px'
             }}>
-              {prefix.translation}
+              {prefix.translation || prefix.meaning}
             </div>
           )}
         </div>
@@ -279,11 +279,21 @@ export default function VerbPrefixesPage({ onNavigate }) {
     fetch(`${import.meta.env.BASE_URL}data/verb-prefixes.json`)
       .then(r => r.json())
       .then(d => {
-        setData(d);
+        // Transform sections array into keyed format if needed
+        let normalized = d;
+        if (d.sections && Array.isArray(d.sections)) {
+          normalized = {};
+          d.sections.forEach(section => {
+            // Map 'wechsel' type to 'variabel' key
+            const key = section.type === 'wechsel' ? 'variabel' : section.type;
+            normalized[key] = section.prefixes || [];
+          });
+        }
+        setData(normalized);
         const allVerbs = [];
         ['trennbar', 'untrennbar', 'variabel'].forEach(key => {
-          if (d[key]) {
-            d[key].forEach(prefix => {
+          if (normalized[key]) {
+            normalized[key].forEach(prefix => {
               if (prefix.verbs) {
                 allVerbs.push(...prefix.verbs.map(v => v.verb));
               }
