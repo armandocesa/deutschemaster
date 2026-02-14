@@ -7,7 +7,7 @@ import { saveDifficultWord, isDifficultWord, removeDifficultWord } from '../util
 import { saveAndSync } from '../utils/cloudSync';
 import { useLanguage } from '../contexts/LanguageContext';
 
-function WordCard({ word, onToggleFavorite, saved }) {
+function WordCard({ word, onToggleFavorite, saved, t }) {
   const [expandedExample, setExpandedExample] = useState(false);
 
   const articleText = word.article ? `${word.article} ` : '';
@@ -340,6 +340,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
                       word={word}
                       saved={savedWords.has(word.german)}
                       onToggleFavorite={toggleFavorite}
+                      t={t}
                     />
                   ))}
                 </div>
