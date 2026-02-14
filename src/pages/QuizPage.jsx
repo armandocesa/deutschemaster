@@ -185,6 +185,34 @@ export default function QuizPage({ level, onNavigate }) {
             <button className="retry-btn" onClick={startQuiz}>{t('quiz.retry')}</button>
             <button className="back-btn" onClick={() => setQuizState('setup')}>{t('quiz.newQuiz')}</button>
           </div>
+          <button
+            className="share-btn"
+            onClick={() => {
+              const text = `🇩🇪 Deutsche Master - Quiz ${quizLevel}\n📊 ${percentage}% (${score}/${questions.length})\n⭐ +${quizXP} XP\n\nImpara il tedesco gratis!\nhttps://deutschemaster.vercel.app`;
+              if (navigator.share) {
+                navigator.share({ title: 'Deutsche Master Quiz', text }).catch(() => {});
+              } else {
+                window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
+              }
+            }}
+            style={{
+              marginTop: '12px',
+              padding: '10px 24px',
+              background: '#25D366',
+              color: 'white',
+              border: 'none',
+              borderRadius: '10px',
+              fontSize: '14px',
+              fontWeight: 600,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              margin: '12px auto 0'
+            }}
+          >
+            📤 {t('quiz.share') || 'Condividi risultato'}
+          </button>
         </div>
       </div>
     );

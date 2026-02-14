@@ -1,12 +1,14 @@
 import React from 'react';
 import Icons from './Icons';
 import { useLanguage } from '../contexts/LanguageContext';
+import { useTheme } from '../contexts/ThemeContext';
 import { getStreak, getXP } from '../utils/gamification';
 
 export default function Header({ currentPage, onNavigate, onBack, showBack, breadcrumbs }) {
   const streak = getStreak();
   const xp = getXP();
   const { language, setLanguage, t } = useLanguage();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <header className="header">
@@ -78,6 +80,14 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
               🇬🇧
             </button>
           </div>
+          <button
+            className="header-stat-btn"
+            onClick={toggleTheme}
+            title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+            style={{ fontSize: '16px' }}
+          >
+            {theme === 'dark' ? '☀️' : '🌙'}
+          </button>
           <button className="header-stat-btn profile-btn" onClick={() => onNavigate('profile')} title="Profile">
             <Icons.Profile />
           </button>

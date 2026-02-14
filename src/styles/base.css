@@ -5,6 +5,7 @@ body {
   background-image: radial-gradient(ellipse at 50% 0%, rgba(124,108,240,0.03) 0%, transparent 60%);
   color: var(--text-primary); line-height: 1.6;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 #root, .app { min-height: 100vh; display: flex; flex-direction: column; }
 

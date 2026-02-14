@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useCallback, Suspense, useEffect, Component } from 'react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
 import BottomNav from './components/BottomNav';
 import Footer from './components/Footer';
@@ -36,23 +37,23 @@ class ErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       return (
-        <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f0f14', color: '#eeeef2' }}>
+        <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
           <div style={{ textAlign: 'center', padding: '20px' }}>
             <div style={{ fontSize: '48px', marginBottom: '16px' }}>⚠️</div>
             <h2 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Qualcosa è andato storto</h2>
-            <p style={{ fontSize: '14px', color: '#8888a0', marginBottom: '20px' }}>
+            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '20px' }}>
               {this.state.error?.message || 'Errore nel caricamento della pagina'}
             </p>
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
               <button
                 onClick={() => { this.setState({ hasError: false, error: null }); }}
-                style={{ padding: '10px 24px', background: 'linear-gradient(135deg, #6c5ce7, #00cec9)', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
+                style={{ padding: '10px 24px', background: 'var(--gradient-1)', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
               >
                 Riprova
               </button>
               <button
                 onClick={this.handleReload}
-                style={{ padding: '10px 24px', background: '#1a1a2e', color: '#eeeef2', border: '1px solid #333', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
+                style={{ padding: '10px 24px', background: 'var(--bg-card)', color: 'var(--text-primary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
               >
                 Ricarica
               </button>
@@ -106,10 +107,10 @@ const PAGE_NAME_KEYS = {
 const PageLoadingFallback = () => {
   const { t } = useLanguage();
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f0f14', color: '#eeeef2' }}>
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
       <div style={{ textAlign: 'center' }}>
         <div style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: '#6c5ce7', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
-        <p style={{ fontSize: '14px', color: '#8888a0' }}>{t('loadingPage')}</p>
+        <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>{t('loadingPage')}</p>
         <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
       </div>
     </div>
@@ -169,10 +170,10 @@ function AppContent() {
 
   if (loading) {
     return (
-      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f0f14', color: '#eeeef2' }}>
+      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
         <div style={{ textAlign: 'center' }}>
           <div style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: '#6c5ce7', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
-          <p style={{ fontSize: '14px', color: '#8888a0' }}>{t('loading')}</p>
+          <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>{t('loading')}</p>
           <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
         </div>
       </div>
@@ -195,7 +196,7 @@ function AppContent() {
   return (
     <div className="app">
       {!isLoginPage && !shouldShow404 && <Header currentPage={currentPage} onNavigate={navigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />}
-      <main className="main-content">
+      <main className="main-content" key={currentPage}>
         <ErrorBoundary>
         <Suspense fallback={<PageLoadingFallback />}>
           {shouldShow404 && <NotFoundPage onNavigate={navigate} />}
@@ -233,8 +234,10 @@ function AppContent() {
 
 export default function App() {
   return (
-    <AuthProvider>
-      <AppContent />
-    </AuthProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        <AppContent />
+      </AuthProvider>
+    </ThemeProvider>
   );
 }

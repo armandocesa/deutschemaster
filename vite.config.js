@@ -41,8 +41,20 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,json}'],
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         runtimeCaching: [
+          {
+            urlPattern: /\/data\/.*\.json$/i,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'data-json-cache',
+              expiration: {
+                maxEntries: 200,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+              }
+            }
+          },
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
             handler: 'CacheFirst',
