@@ -155,7 +155,7 @@ const AdminPage = ({ onNavigate }) => {
               width: '48px',
               height: '48px',
               border: '3px solid rgba(108,92,231,0.3)',
-              borderTopColor: '#6c5ce7',
+              borderTopColor: 'var(--accent)',
               borderRadius: '50%',
               animation: 'spin 0.8s linear infinite',
               margin: '0 auto 16px',

@@ -14,7 +14,7 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
     <header className="header">
       <div className="header-content">
         {showBack ? (
-          <button className="back-btn" onClick={onBack}><Icons.Back /></button>
+          <button className="back-btn" onClick={onBack} aria-label="Go back"><Icons.Back /></button>
         ) : (
           <div className="logo" onClick={() => onNavigate('home')}>
             <span className="logo-icon">{'\u{1F1E9}\u{1F1EA}'}</span>
@@ -33,12 +33,12 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
         )}
         <div className="header-stats">
           {streak.currentStreak > 0 && (
-            <button className="header-stat-btn" onClick={() => onNavigate('profile')} title="Streak">
+            <button className="header-stat-btn" onClick={() => onNavigate('profile')} title="Streak" aria-label="View streak">
               <span style={{fontSize:'16px'}}>🔥</span>
               <span className="header-stat-value">{streak.currentStreak}</span>
             </button>
           )}
-          <button className="header-stat-btn xp-btn" onClick={() => onNavigate('profile')} title="XP">
+          <button className="header-stat-btn xp-btn" onClick={() => onNavigate('profile')} title="XP" aria-label="View XP">
             <span style={{fontSize:'14px', fontWeight:800, color:'var(--accent)'}}>XP</span>
             <span className="header-stat-value">{xp.totalXP}</span>
           </button>
@@ -88,7 +88,7 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
           >
             {theme === 'dark' ? '☀️' : '🌙'}
           </button>
-          <button className="header-stat-btn profile-btn" onClick={() => onNavigate('profile')} title="Profile">
+          <button className="header-stat-btn profile-btn" onClick={() => onNavigate('profile')} title="Profile" aria-label="View profile">
             <Icons.Profile />
           </button>
         </div>

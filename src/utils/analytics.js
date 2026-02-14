@@ -80,7 +80,7 @@ export async function initSession() {
     eventQueue.push({ type: 'session_init', data: sessionData, timestamp: new Date() });
   }
 
-  console.log('Session initialized:', currentSessionId);
+  if (import.meta.env.DEV) console.log('Session initialized:', currentSessionId);
 }
 
 /**
@@ -222,7 +222,7 @@ export async function endSession() {
     }
   }
 
-  console.log('Session ended:', currentSessionId, 'Duration:', sessionDuration, 'ms');
+  if (import.meta.env.DEV) console.log('Session ended:', currentSessionId, 'Duration:', sessionDuration, 'ms');
 
   // Clear session data
   currentSessionId = null;
@@ -302,7 +302,7 @@ export async function syncQueuedEvents() {
     if (successCount > 0) {
       await batch.commit();
       eventQueue.splice(0, successCount);
-      console.log('Synced', successCount, 'queued events');
+      if (import.meta.env.DEV) console.log('Synced', successCount, 'queued events');
     }
   } catch (e) {
     console.warn('Failed to sync queued events:', e);

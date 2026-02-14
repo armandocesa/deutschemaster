@@ -126,6 +126,11 @@ export default function FlashcardsPage({ onNavigate }) {
   // Start the flashcard session
   const startSession = () => {
     const newCards = generateCards(source, selectedLevel, cardsPerSession);
+    if (newCards.length === 0) {
+      setCards([]);
+      setMode('empty');
+      return;
+    }
     setCards(newCards);
     setCurrentIndex(0);
     setFlipped(false);
@@ -373,6 +378,20 @@ export default function FlashcardsPage({ onNavigate }) {
           onClose={() => setLockedLevel(null)}
           onLoginClick={handleLoginClick}
         />
+      </div>
+    );
+  }
+
+  // EMPTY STATE
+  if (mode === 'empty') {
+    return (
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '16px', padding: '40px 20px', textAlign: 'center' }}>
+        <div style={{ fontSize: '48px' }}>📭</div>
+        <h3 style={{ margin: 0, color: 'var(--text-primary)' }}>{t('flashcards.noCards') || 'Nessuna carta disponibile'}</h3>
+        <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '14px' }}>{t('flashcards.noCardsHint') || 'Prova a cambiare la sorgente o il livello'}</p>
+        <button onClick={backToSetup} style={{ padding: '10px 24px', background: 'var(--gradient-1)', color: 'white', border: 'none', borderRadius: '10px', fontSize: '14px', fontWeight: 600, cursor: 'pointer', marginTop: '8px' }}>
+          {t('flashcards.back') || 'Torna indietro'}
+        </button>
       </div>
     );
   }

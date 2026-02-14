@@ -108,7 +108,7 @@ export function DataProvider({ children }) {
         <div style={{color:'var(--text-secondary, #8888a0)',fontSize:'14px',textAlign:'center',maxWidth:'300px'}}>{error}</div>
         <button
           onClick={loadAll}
-          style={{padding:'10px 24px',background:'linear-gradient(135deg, #6c5ce7, #00cec9)',color:'white',border:'none',borderRadius:'8px',fontSize:'14px',fontWeight:600,cursor:'pointer',marginTop:'8px'}}
+          style={{padding:'10px 24px',background:'var(--gradient-1)',color:'white',border:'none',borderRadius:'8px',fontSize:'14px',fontWeight:600,cursor:'pointer',marginTop:'8px'}}
         >
           Riprova
         </button>
@@ -125,7 +125,7 @@ export function DataProvider({ children }) {
     return (
       <div style={{display:'flex',alignItems:'center',justifyContent:'center',minHeight:'100vh',background:'var(--bg-primary)',color:'var(--text-primary)',flexDirection:'column',gap:'16px'}}>
         <div style={{fontSize:'48px'}}>{'\u{1F1E9}\u{1F1EA}'}</div>
-        <div style={{fontSize:'24px',fontWeight:800,background:'linear-gradient(135deg, #6c5ce7, #00cec9)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>DeutschMaster</div>
+        <div style={{fontSize:'24px',fontWeight:800,background:'var(--gradient-1)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}}>DeutschMaster</div>
         <div style={{color:'var(--text-secondary)',fontSize:'14px'}}>{loadingMessages[language] || loadingMessages['it']}</div>
       </div>
     );

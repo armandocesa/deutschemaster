@@ -273,8 +273,8 @@ const PathsPage = ({ onNavigate }) => {
 
   return (
     <div style={{
-      backgroundColor: '#0f0f14',
-      color: '#eeeef2',
+      backgroundColor: 'var(--bg-primary)',
+      color: 'var(--text-primary)',
       minHeight: '100vh',
       padding: '0',
       fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
@@ -283,7 +283,7 @@ const PathsPage = ({ onNavigate }) => {
       <div style={{
         padding: '20px',
         borderBottom: '1px solid rgba(255,255,255,0.07)',
-        backgroundColor: '#191920',
+        backgroundColor: 'var(--bg-secondary)',
         position: 'sticky',
         top: 0,
         zIndex: 10,
@@ -292,7 +292,7 @@ const PathsPage = ({ onNavigate }) => {
           <h1 style={{ margin: '0 0 20px 0', fontSize: '28px', fontWeight: '700' }}>
             {t('paths.title')}
           </h1>
-          <p style={{ margin: '0', color: '#8888a0', fontSize: '14px' }}>
+          <p style={{ margin: '0', color: 'var(--text-secondary)', fontSize: '14px' }}>
             {t('paths.subtitle')}
           </p>
         </div>
@@ -367,7 +367,7 @@ const PathsPage = ({ onNavigate }) => {
               </h2>
               <p style={{
                 margin: '0 0 20px 0',
-                color: '#8888a0',
+                color: 'var(--text-secondary)',
                 fontSize: '14px',
               }}>
                 {t(currentPathData.subtitleKey)}
@@ -375,7 +375,7 @@ const PathsPage = ({ onNavigate }) => {
 
               {/* Progress Bar */}
               <div style={{
-                backgroundColor: '#22222d',
+                backgroundColor: 'var(--bg-card)',
                 borderRadius: '12px',
                 padding: '16px',
                 display: 'flex',
@@ -422,7 +422,7 @@ const PathsPage = ({ onNavigate }) => {
                       <div style={{
                         width: '2px',
                         height: '16px',
-                        backgroundColor: isLocked ? '#4a4a5a' : currentPathData.color,
+                        backgroundColor: isLocked ? 'var(--text-tertiary)' : currentPathData.color,
                         opacity: isLocked ? 0.4 : 1,
                         margin: '0 auto',
                         borderStyle: isLocked ? 'dashed' : 'solid',
@@ -460,7 +460,7 @@ const PathsPage = ({ onNavigate }) => {
                       {/* Stage Info */}
                       <div style={{
                         flex: 1,
-                        backgroundColor: '#22222d',
+                        backgroundColor: 'var(--bg-card)',
                         borderRadius: '12px',
                         padding: '16px',
                         border: `1px solid ${isExpanded ? currentPathData.color + '40' : 'rgba(255,255,255,0.07)'}`,
@@ -481,7 +481,7 @@ const PathsPage = ({ onNavigate }) => {
                           </h3>
                           <span style={{
                             fontSize: '12px',
-                            color: '#8888a0',
+                            color: 'var(--text-secondary)',
                           }}>
                             {stageCompletion.completed}/{stageCompletion.total}
                           </span>
@@ -539,14 +539,14 @@ const PathsPage = ({ onNavigate }) => {
                                 gap: '12px',
                                 padding: '12px 16px',
                                 marginBottom: '8px',
-                                backgroundColor: '#22222d',
+                                backgroundColor: 'var(--bg-card)',
                                 borderRadius: '8px',
                                 cursor: 'pointer',
                                 border: '1px solid rgba(255,255,255,0.07)',
                                 transition: 'all 0.2s ease',
                               }}
                               onMouseEnter={(e) => {
-                                e.currentTarget.style.backgroundColor = '#2a2a35';
+                                e.currentTarget.style.backgroundColor = 'var(--bg-card-hover)';
                                 e.currentTarget.style.borderColor = `${currentPathData.color}40`;
                               }}
                               onMouseLeave={(e) => {
@@ -576,7 +576,7 @@ const PathsPage = ({ onNavigate }) => {
                                 height: '20px',
                                 borderRadius: '50%',
                                 backgroundColor: isCompleted ? '#00b894' : 'transparent',
-                                border: `2px solid ${isCompleted ? '#00b894' : '#4a4a5a'}`,
+                                border: `2px solid ${isCompleted ? '#00b894' : 'var(--text-tertiary)'}`,
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
@@ -590,7 +590,7 @@ const PathsPage = ({ onNavigate }) => {
                               {/* Chevron */}
                               <span style={{
                                 fontSize: '16px',
-                                color: '#8888a0',
+                                color: 'var(--text-secondary)',
                                 marginLeft: '4px',
                               }}>
                                 ›
@@ -607,11 +607,11 @@ const PathsPage = ({ onNavigate }) => {
                         marginLeft: '30px',
                         marginBottom: '24px',
                         padding: '12px 16px',
-                        backgroundColor: '#22222d',
+                        backgroundColor: 'var(--bg-card)',
                         borderRadius: '8px',
                         borderLeft: '2px solid #4a4a5a',
                         paddingLeft: '24px',
-                        color: '#8888a0',
+                        color: 'var(--text-secondary)',
                         fontSize: '13px',
                       }}>
                         {t('paths.lock')}
@@ -646,7 +646,7 @@ const PathsPage = ({ onNavigate }) => {
                   {t('paths.pathCompleted')}
                 </div>
                 <div style={{
-                  color: '#8888a0',
+                  color: 'var(--text-secondary)',
                   fontSize: '14px',
                 }}>
                   {t('paths.congratulations')} {currentPathData.name}.

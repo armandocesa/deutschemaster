@@ -44,7 +44,7 @@ export default function WerdenPage({ onNavigate }) {
         <table className="w-full text-sm border-collapse">
           <tbody>
             {pronouns.map((pronoun, idx) => (
-              <tr key={pronoun} style={{ backgroundColor: idx % 2 === 0 ? '#2a2a35' : '#22222d' }}>
+              <tr key={pronoun} style={{ backgroundColor: idx % 2 === 0 ? 'var(--bg-card-hover)' : 'var(--bg-card)' }}>
                 <td className="p-3 font-semibold text-gray-300 border-b border-gray-600 w-24">
                   {pronoun}
                 </td>
@@ -87,7 +87,7 @@ export default function WerdenPage({ onNavigate }) {
               <button
                 onClick={() => speakGerman(german)}
                 className="text-xs px-2 py-1 rounded hover:opacity-70"
-                style={{ backgroundColor: colors[color].border, color: '#0f0f14' }}
+                style={{ backgroundColor: colors[color].border, color: 'var(--bg-primary)' }}
               >
                 🔊
               </button>
@@ -120,14 +120,14 @@ export default function WerdenPage({ onNavigate }) {
             className="text-sm px-3 py-1 rounded transition"
             style={{
               backgroundColor: colors[color].border,
-              color: '#0f0f14',
+              color: 'var(--bg-primary)',
               fontWeight: 'bold',
             }}
           >
             {expandedExercise === id ? `✓ ${t('werden.hideAnswer')}` : t('werden.showAnswer')}
           </button>
           {expandedExercise === id && (
-            <div className="mt-3 p-2 rounded" style={{ backgroundColor: '#2a2a35' }}>
+            <div className="mt-3 p-2 rounded" style={{ backgroundColor: 'var(--bg-card-hover)' }}>
               <p className="text-sm font-mono mb-1">
                 <span className="text-yellow-300">{t('werden.answer')}</span> {answer}
               </p>
@@ -608,8 +608,8 @@ export default function WerdenPage({ onNavigate }) {
   return (
     <div
       style={{
-        backgroundColor: '#0f0f14',
-        color: '#eeeef2',
+        backgroundColor: 'var(--bg-primary)',
+        color: 'var(--text-primary)',
         minHeight: '100vh',
         fontFamily: "'Inter', 'Segoe UI', sans-serif",
       }}
@@ -617,7 +617,7 @@ export default function WerdenPage({ onNavigate }) {
       {/* Header */}
       <div
         style={{
-          backgroundColor: '#22222d',
+          backgroundColor: 'var(--bg-card)',
           borderBottom: '1px solid #444450',
           padding: '20px',
         }}
@@ -637,7 +637,7 @@ export default function WerdenPage({ onNavigate }) {
       {/* Tab Navigation */}
       <div
         className="sticky top-0 z-10 flex overflow-x-auto gap-0 border-b"
-        style={{ backgroundColor: '#22222d', borderColor: '#444450' }}
+        style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--text-tertiary)' }}
       >
         {[
           { id: 'overview', label: t('werden.overview') },
@@ -654,7 +654,7 @@ export default function WerdenPage({ onNavigate }) {
             className="px-4 py-3 text-sm font-medium transition border-b-2 whitespace-nowrap hover:opacity-80"
             style={{
               borderColor: activeTab === tab.id ? '#0096c7' : 'transparent',
-              color: activeTab === tab.id ? '#0096c7' : '#999fa8',
+              color: activeTab === tab.id ? '#0096c7' : 'var(--text-secondary)',
               backgroundColor: activeTab === tab.id ? 'rgba(0, 150, 199, 0.1)' : 'transparent',
             }}
           >
@@ -677,7 +677,7 @@ export default function WerdenPage({ onNavigate }) {
       {/* Footer */}
       <div
         style={{
-          backgroundColor: '#22222d',
+          backgroundColor: 'var(--bg-card)',
           borderTop: '1px solid #444450',
           padding: '20px',
           textAlign: 'center',

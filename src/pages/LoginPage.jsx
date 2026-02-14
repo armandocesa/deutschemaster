@@ -20,7 +20,7 @@ export default function LoginPage({ onNavigate }) {
           <h1 style={styles.title}>{t('login.title')}</h1>
           <div style={{ padding: '20px', background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.3)', borderRadius: '12px', textAlign: 'center' }}>
             <p style={{ margin: '0 0 8px', fontWeight: 600, color: '#f59e0b' }}>{t('login.firebaseDisabled')}</p>
-            <p style={{ margin: 0, fontSize: '13px', color: '#8888a0' }}>
+            <p style={{ margin: 0, fontSize: '13px', color: 'var(--text-secondary)' }}>
               {t('login.firebaseDisabledMessage')}
             </p>
           </div>
@@ -168,21 +168,21 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     padding: '20px',
-    backgroundColor: '#0f0f14',
+    backgroundColor: 'var(--bg-primary)',
   },
   card: {
     width: '100%',
     maxWidth: '400px',
     padding: '40px 32px',
-    backgroundColor: '#191920',
+    backgroundColor: 'var(--bg-surface)',
     borderRadius: '16px',
-    border: '1px solid rgba(255,255,255,0.07)',
+    border: '1px solid var(--glass-border)',
   },
   logo: {
     width: '60px',
     height: '60px',
     borderRadius: '16px',
-    background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)',
+    background: 'var(--gradient-2)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -196,13 +196,13 @@ const styles = {
     textAlign: 'center',
     fontSize: '24px',
     fontWeight: 800,
-    color: '#eeeef2',
+    color: 'var(--text-primary)',
     margin: '0 0 4px',
   },
   subtitle: {
     textAlign: 'center',
     fontSize: '14px',
-    color: '#8888a0',
+    color: 'var(--text-secondary)',
     margin: '0 0 24px',
   },
   error: {
@@ -210,7 +210,7 @@ const styles = {
     backgroundColor: 'rgba(239,68,68,0.1)',
     border: '1px solid rgba(239,68,68,0.3)',
     borderRadius: '8px',
-    color: '#ef4444',
+    color: 'var(--error)',
     fontSize: '13px',
     marginBottom: '16px',
   },
@@ -227,14 +227,14 @@ const styles = {
   label: {
     fontSize: '13px',
     fontWeight: 600,
-    color: '#a0a0b8',
+    color: 'var(--text-secondary)',
   },
   input: {
     padding: '12px 16px',
     borderRadius: '10px',
-    border: '1px solid rgba(255,255,255,0.1)',
-    backgroundColor: '#22222d',
-    color: '#eeeef2',
+    border: '1px solid var(--border-hover)',
+    backgroundColor: 'var(--bg-card)',
+    color: 'var(--text-primary)',
     fontSize: '15px',
     outline: 'none',
     transition: 'border-color 0.2s',
@@ -254,14 +254,14 @@ const styles = {
     width: '100%',
   },
   btnPrimary: {
-    background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)',
+    background: 'var(--gradient-2)',
     color: 'white',
     marginTop: '8px',
   },
   btnGoogle: {
-    backgroundColor: '#22222d',
-    color: '#eeeef2',
-    border: '1px solid rgba(255,255,255,0.1)',
+    backgroundColor: 'var(--bg-card)',
+    color: 'var(--text-primary)',
+    border: '1px solid var(--border-hover)',
   },
   divider: {
     display: 'flex',
@@ -272,24 +272,24 @@ const styles = {
   dividerLine: {
     flex: 1,
     height: '1px',
-    backgroundColor: 'rgba(255,255,255,0.07)',
+    backgroundColor: 'var(--glass-border)',
   },
   dividerText: {
     fontSize: '12px',
-    color: '#8888a0',
+    color: 'var(--text-secondary)',
     textTransform: 'uppercase',
     letterSpacing: '1px',
   },
   switchMode: {
     textAlign: 'center',
     fontSize: '13px',
-    color: '#8888a0',
+    color: 'var(--text-secondary)',
     marginTop: '20px',
   },
   switchBtn: {
     background: 'none',
     border: 'none',
-    color: '#a29bfe',
+    color: 'var(--accent-light)',
     fontWeight: 700,
     cursor: 'pointer',
     fontSize: '13px',
@@ -298,7 +298,7 @@ const styles = {
   skipBtn: {
     background: 'none',
     border: 'none',
-    color: '#8888a0',
+    color: 'var(--text-secondary)',
     cursor: 'pointer',
     fontSize: '12px',
     marginTop: '16px',

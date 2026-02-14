@@ -151,7 +151,7 @@ export default function LevelAccessModal({ isOpen, level, onClose, onLoginClick 
 
         .modal-btn-primary {
           padding: 12px 20px;
-          background-color: #6c5ce7;
+          background-color: var(--accent);
           color: white;
           border: none;
           border-radius: 6px;
