@@ -54,8 +54,10 @@ export const updateQuizStats = (correct) => {
 };
 
 export const getProgress = () => {
-  try { return JSON.parse(localStorage.getItem('dm_learningProgress')) || { words: {}, grammar: {}, verbs: {} }; }
-  catch { return { words: {}, grammar: {}, verbs: {} }; }
+  try {
+    const data = JSON.parse(localStorage.getItem('dm_learningProgress')) || {};
+    return { words: data.words || {}, grammar: data.grammar || {}, verbs: data.verbs || {} };
+  } catch { return { words: {}, grammar: {}, verbs: {} }; }
 };
 
 export const saveProgress = (progress) => { saveAndSync('dm_learningProgress', JSON.stringify(progress)); };
@@ -63,14 +65,14 @@ export const saveProgress = (progress) => { saveAndSync('dm_learningProgress', J
 export const markWordStatus = (wordId, correct) => { const p = getProgress(); p.words[wordId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() }; saveProgress(p); };
 export const markGrammarStatus = (topicId, correct) => { const p = getProgress(); p.grammar[topicId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() }; saveProgress(p); };
 export const markVerbStatus = (verbId, correct) => { const p = getProgress(); p.verbs[verbId] = { status: correct ? 'correct' : 'incorrect', date: Date.now() }; saveProgress(p); };
-export const getWordStatus = (wordId) => getProgress().words[wordId]?.status || 'unseen';
-export const getGrammarStatus = (topicId) => getProgress().grammar[topicId]?.status || 'unseen';
-export const getVerbStatus = (verbId) => getProgress().verbs[verbId]?.status || 'unseen';
+export const getWordStatus = (wordId) => { const p = getProgress(); return (p.words || {})[wordId]?.status || 'unseen'; };
+export const getGrammarStatus = (topicId) => { const p = getProgress(); return (p.grammar || {})[topicId]?.status || 'unseen'; };
+export const getVerbStatus = (verbId) => { const p = getProgress(); return (p.verbs || {})[verbId]?.status || 'unseen'; };
 
 export const getProgressStats = () => {
   const progress = getProgress();
-  const ws = Object.values(progress.words);
-  const gs = Object.values(progress.grammar);
+  const ws = Object.values(progress.words || {});
+  const gs = Object.values(progress.grammar || {});
   return { wordsCorrect: ws.filter(w => w.status === 'correct').length, wordsIncorrect: ws.filter(w => w.status === 'incorrect').length, grammarCorrect: gs.filter(g => g.status === 'correct').length, grammarIncorrect: gs.filter(g => g.status === 'incorrect').length };
 };
 

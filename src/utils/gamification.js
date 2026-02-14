@@ -77,6 +77,7 @@ export const getStreak = () => {
     lastActiveDate: null,
     calendar: {}
   });
+  if (!data.calendar) data.calendar = {};
   return data;
 };
 
@@ -589,7 +590,7 @@ const BADGES = [
  */
 export const getBadges = () => {
   const unlockedData = initStorage('badges', { unlocked: {} });
-  const unlockedSet = new Set(Object.keys(unlockedData.unlocked));
+  const unlockedSet = new Set(Object.keys(unlockedData?.unlocked || {}));
 
   return BADGES.map(badge => ({
     ...badge,
@@ -604,16 +605,17 @@ export const getBadges = () => {
  */
 export const checkBadges = () => {
   const unlockedData = initStorage('badges', { unlocked: {} });
+  if (!unlockedData.unlocked) unlockedData.unlocked = {};
   const newlyUnlocked = [];
   const today = getToday();
 
   // Get all required data
-  const streakData = getStreak();
-  const xpData = getXP();
-  const lessonProgress = initStorage('lessons_progress', {});
-  const quizStats = initStorage('quizStats', { totalAnswered: 0, correctAnswers: 0 });
-  const learningProgress = initStorage('learningProgress', { words: {} });
-  const readingStats = initStorage('readingStats', { completed: 0 });
+  const streakData = getStreak() || { currentStreak: 0, longestStreak: 0 };
+  const xpData = getXP() || { totalXP: 0, level: 1 };
+  const lessonProgress = initStorage('lessons_progress', {}) || {};
+  const quizStats = initStorage('quizStats', { totalAnswered: 0, correctAnswers: 0 }) || {};
+  const learningProgress = initStorage('learningProgress', { words: {} }) || { words: {} };
+  const readingStats = initStorage('readingStats', { completed: 0 }) || { completed: 0 };
 
   const wordCount = Object.keys(learningProgress.words || {}).length;
 
