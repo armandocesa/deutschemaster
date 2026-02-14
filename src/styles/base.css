@@ -1,5 +1,11 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  background-image: radial-gradient(ellipse at 50% 0%, rgba(124,108,240,0.03) 0%, transparent 60%);
+  color: var(--text-primary); line-height: 1.6;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
 #root, .app { min-height: 100vh; display: flex; flex-direction: column; }
 
 /* Animations */

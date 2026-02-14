@@ -1,13 +1,15 @@
+/* Nav text hidden on smaller screens */
 @media (max-width: 600px) { .nav-btn span { display: none; } }
 @media (max-width: 500px) { .user-stats-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .setup-options.levels { grid-template-columns: repeat(3, 1fr); } }
 
+/* Bottom navigation */
 .bottom-nav { display: none; }
 @media (max-width: 768px) {
   .nav.desktop-nav { display: none !important; }
   .bottom-nav {
     display: flex; position: fixed; bottom: 0; left: 0; right: 0;
-    background: rgba(10,10,16,0.88);
+    background: rgba(10,10,16,0.92);
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
     border-top: 1px solid var(--glass-border);
@@ -22,26 +24,21 @@
     transition: all var(--transition-fast);
     border-radius: var(--radius-sm);
     position: relative;
-    min-height: 44px; /* Touch target */
+    min-height: 44px;
   }
   .bottom-nav-item:active { transform: scale(0.92); }
-  .bottom-nav-item.active {
-    color: var(--accent-light);
-  }
+  .bottom-nav-item.active { color: var(--accent-light); }
   .bottom-nav-item.active::before {
     content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    height: 3px;
-    background: var(--gradient-1);
-    border-radius: 0 0 3px 3px;
+    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 20px; height: 3px;
+    background: var(--gradient-1); border-radius: 0 0 3px 3px;
   }
   .bottom-nav-item svg { width: 22px; height: 22px; transition: transform var(--transition-spring); }
   .bottom-nav-item.active svg { transform: scale(1.1); }
-  .main-content { padding-bottom: 76px !important; }
+
+  /* Layout adjustments */
+  .main-content { padding-bottom: 76px !important; padding-left: 16px !important; padding-right: 16px !important; }
   .header-content { height: 48px; }
   .logo-text { font-size: 16px; }
   .breadcrumbs { margin: 0 8px; font-size: 12px; }
@@ -53,11 +50,26 @@
   .topic-card { padding: 12px 14px; }
   .verb-row { padding: 12px 14px; }
 
-  /* Horizontal scroll for cards on mobile */
-  .quick-actions-grid {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 10px;
-  }
+  /* Card grid on mobile */
+  .quick-actions-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+
+  /* Gamification bar stacks on mobile */
+  .home-gamification-bar { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .gamification-card.xp-card { grid-column: 1 / -1; }
+
+  /* Header stats compact */
+  .header-stats { gap: 4px; margin-right: 8px; }
+  .header-stat-btn { padding: 4px 8px; font-size: 12px; }
+  .header-stat-btn.xp-btn span:first-child { display: none; }
+
+  /* Hero adjustments */
+  .hero { padding: 28px 0 20px; }
+  .hero-stats { gap: 8px; }
+  .hero-stats > div { padding: 10px 16px; min-width: 80px; }
+  .stat-number { font-size: 22px; }
+
+  /* Reading grid */
+  .reading-list { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 }
 
 /* Small phones */
@@ -67,6 +79,8 @@
   .home-stat { padding: 10px 12px; min-width: 70px; }
   .modules-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
   .words-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+  .quick-actions-grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; }
+  .hero-title { font-size: 28px; }
 }
 
 /* Reduced motion */

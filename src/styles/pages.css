@@ -1,7 +1,7 @@
 /* Pages common */
 .vocabulary-page, .grammar-page, .verbs-page, .quiz-page, .reading-page, .favorites-page, .practice-page, .special-verbs-page, .lessons-page { animation: fadeInUp 0.35s ease; }
-.page-title { font-size: 24px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.5px; }
-.page-subtitle { color: var(--text-secondary); margin-bottom: 20px; font-size: 14px; }
+.page-title { font-size: 26px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.7px; }
+.page-subtitle { color: var(--text-secondary); margin-bottom: 22px; font-size: 14px; line-height: 1.5; }
 .page-header { margin-bottom: 24px; }
 .page-level-badge { display: inline-block; padding: 4px 12px; border-radius: 8px; font-size: 13px; font-weight: 700; color: white; margin-bottom: 12px; }
 .empty-state { text-align: center; padding: 60px 20px; color: var(--text-secondary); }
@@ -25,7 +25,7 @@
 .module-card:nth-child(10) { animation-delay: 0.2s; }
 .module-card:nth-child(n+11) { animation-delay: 0.22s; }
 .module-card:hover {
-  background: var(--bg-card-hover); border-color: var(--accent);
+  background: var(--bg-card-hover); border-color: var(--border-accent);
   box-shadow: var(--shadow-glow), var(--shadow-sm); transform: translateY(-3px);
 }
 .module-icon { font-size: 28px; margin-bottom: 10px; transition: transform var(--transition-spring); }
@@ -59,7 +59,7 @@
   padding: 16px; transition: all var(--transition-smooth); position: relative;
   cursor: pointer; min-height: 140px; perspective: 1000px;
 }
-.word-card:hover { border-color: var(--accent); box-shadow: var(--shadow-glow); transform: translateY(-2px); }
+.word-card:hover { border-color: var(--border-accent); box-shadow: var(--shadow-glow), var(--shadow-sm); transform: translateY(-3px); }
 .word-german { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
 .word-italian { color: var(--text-secondary); font-size: 13px; }
 .word-card-inner { position: relative; }
@@ -93,7 +93,7 @@
   padding: 14px 16px; cursor: pointer; display: flex; align-items: center; gap: 12px;
   transition: all var(--transition-fast);
 }
-.topic-card:hover { background: var(--bg-card-hover); border-color: var(--accent); transform: translateX(4px); }
+.topic-card:hover { background: var(--bg-card-hover); border-color: var(--border-accent); transform: translateX(4px); box-shadow: var(--shadow-sm); }
 .topic-number {
   width: 32px; height: 32px; background: var(--gradient-1); border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
@@ -151,7 +151,7 @@
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm);
   padding: 10px 14px; cursor: pointer; transition: all var(--transition-fast);
 }
-.verb-row:hover { border-color: var(--accent); background: var(--bg-card-hover); transform: translateX(2px); }
+.verb-row:hover { border-color: var(--border-accent); background: var(--bg-card-hover); transform: translateX(2px); box-shadow: var(--shadow-sm); }
 .verb-infinitive { font-size: 15px; font-weight: 700; min-width: 140px; }
 .verb-translation { color: var(--text-secondary); font-size: 14px; flex: 1; }
 .verb-badges { display: flex; gap: 6px; align-items: center; }
@@ -302,7 +302,7 @@
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 20px; cursor: pointer; transition: all var(--transition-smooth);
 }
-.reading-card:hover { background: var(--bg-card-hover); border-color: var(--accent); transform: translateY(-3px); box-shadow: var(--shadow-glow); }
+.reading-card:hover { background: var(--bg-card-hover); border-color: var(--border-accent); transform: translateY(-3px); box-shadow: var(--shadow-glow), var(--shadow-sm); }
 .reading-card h3 { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
 .reading-card p { color: var(--text-secondary); font-size: 12px; }
 .reading-text-container { max-width: 680px; margin: 0 auto; }
@@ -359,13 +359,13 @@
 .progress-dot.unseen { background: var(--border); }
 
 /* Gamification bar on homepage */
-.home-gamification-bar { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; margin-bottom: 20px; }
+.home-gamification-bar { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; margin-bottom: 22px; }
 .gamification-card {
   display: flex; align-items: center; gap: 10px;
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 12px 16px; cursor: pointer; transition: all var(--transition-smooth);
 }
-.gamification-card:hover { border-color: var(--accent); background: var(--bg-card-hover); box-shadow: var(--shadow-glow); }
+.gamification-card:hover { border-color: var(--border-accent); background: var(--bg-card-hover); box-shadow: var(--shadow-glow); }
 .streak-card { min-width: 90px; }
 .goal-card { min-width: 140px; }
 
