@@ -207,7 +207,7 @@ const ACTIVITY_ICONS = {
 };
 
 const PathsPage = ({ onNavigate }) => {
-  const { user } = useData();
+  const data = useData();
   const { t } = useLanguage();
   const [selectedPath, setSelectedPath] = useState('a1');
   const [expandedStage, setExpandedStage] = useState(null);
@@ -218,7 +218,7 @@ const PathsPage = ({ onNavigate }) => {
     setPathProgress(saved || {});
   }, []);
 
-  const currentPathData = PATHS_DATA.find(p => p.id === selectedPath);
+  const currentPathData = PATHS_DATA.find(p => p.id === selectedPath) || PATHS_DATA[0];
 
   // Calculate completion stats
   const calculateCompletion = (stages) => {

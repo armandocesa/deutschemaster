@@ -23,8 +23,8 @@ function WordCard({ word, viewMode, onRemove }) {
     return (
       <div className={`word-row status-${wordStatus}`}>
         <span className={`progress-dot ${wordStatus}`}></span>
-        <div className="word-german"><span className="article">{word.article}</span><span className="word">{word.german}</span>{word.plural && <span className="plural">({word.plural})</span>}</div>
-        <div className="word-italian">{word.italian}</div>
+        <div className="word-german"><span className="article">{String(word.article || '')}</span><span className="word">{String(word.german || '')}</span>{typeof word.plural === 'string' && word.plural && <span className="plural">({word.plural})</span>}</div>
+        <div className="word-italian">{String(word.italian || '')}</div>
         <button className="save-btn" onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
         <button className="speak-btn" onClick={() => speak(word.german)}><Icons.Volume /></button>
       </div>
@@ -37,13 +37,13 @@ function WordCard({ word, viewMode, onRemove }) {
       <div className="word-card-inner">
         <div className="word-card-front">
           <button className={`save-btn ${saved ? 'saved' : ''}`} onClick={toggleSave}>{saved ? <Icons.StarFilled /> : <Icons.Star />}</button>
-          <div className="word-main">{word.article && <span className="word-article">{word.article}</span>}<span className="word-german">{word.german}</span></div>
-          {word.plural && <div className="word-plural">Pl: {word.plural}</div>}
+          <div className="word-main">{typeof word.article === 'string' && word.article && <span className="word-article">{word.article}</span>}<span className="word-german">{String(word.german || '')}</span></div>
+          {typeof word.plural === 'string' && word.plural && <div className="word-plural">Pl: {word.plural}</div>}
           <button className="speak-btn" onClick={(e) => { e.stopPropagation(); speak(word.german); }}><Icons.Volume /></button>
         </div>
         <div className="word-card-back">
-          <div className="word-italian">{word.italian}</div>
-          {word.example && <div className="word-example">"{word.example}"</div>}
+          <div className="word-italian">{String(word.italian || '')}</div>
+          {typeof word.example === 'string' && word.example && <div className="word-example">"{word.example}"</div>}
         </div>
       </div>
     </div>
@@ -64,9 +64,9 @@ export default function VocabularyPage({ level, module, onNavigate }) {
     if (level) onNavigate('vocabulary', { level: lvl });
   };
 
-  const levelData = VOCABULARY_DATA.levels?.[activeLevel];
+  const levelData = VOCABULARY_DATA?.levels?.[activeLevel];
   const modules = levelData?.modules || [];
-  const colors = LEVEL_COLORS[activeLevel];
+  const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
 
   if (!module) {
     return (

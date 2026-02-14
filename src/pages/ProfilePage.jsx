@@ -12,7 +12,7 @@ import {
 import { getQuizStats, getProgressStats, getDifficultWords } from '../utils/storage';
 import {
   requestPermission,
-  isEnabled as notificationsEnabled,
+  isEnabled as checkNotificationsEnabled,
   setEnabled as setNotificationsEnabled,
   getReminderTime,
   setReminderTime,
@@ -29,7 +29,7 @@ const ProfilePage = ({ onNavigate }) => {
   const dailyGoalData = getDailyGoal();
   const [selectedGoal, setSelectedGoal] = useState(dailyGoalData.target || 50);
   const [placementTestData, setPlacementTestData] = useState(null);
-  const [notificationsEnabled, setNotificationsEnabledLocal] = useState(() => notificationsEnabled());
+  const [notificationsEnabled, setNotificationsEnabledLocal] = useState(() => checkNotificationsEnabled());
   const [reminderHour, setReminderHour] = useState(() => {
     const time = getReminderTime();
     return parseInt(time.split(':')[0]);

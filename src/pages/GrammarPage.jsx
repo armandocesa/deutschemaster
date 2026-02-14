@@ -267,9 +267,9 @@ export default function GrammarPage({ level, topic, onNavigate }) {
     if (level) onNavigate('grammar', { level: lvl });
   };
 
-  const levelData = GRAMMAR_DATA.levels?.[activeLevel];
+  const levelData = GRAMMAR_DATA?.levels?.[activeLevel];
   const topics = levelData?.topics || [];
-  const colors = LEVEL_COLORS[activeLevel];
+  const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
 
   if (!topic) {
     return (
@@ -280,15 +280,15 @@ export default function GrammarPage({ level, topic, onNavigate }) {
         </div>
         <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
         <div className="topics-list">
-          {topics.map((t, idx) => {
-            const topicId = t.id || `${activeLevel}_${idx}`;
+          {topics.map((topic, idx) => {
+            const topicId = topic.id || `${activeLevel}_${idx}`;
             const topicStatus = getGrammarStatus(topicId);
             return (
-              <div key={t.id || idx} className={`topic-card status-${topicStatus}`} onClick={() => onNavigate('grammar', {level: activeLevel, topic: t})}>
+              <div key={topic.id || idx} className={`topic-card status-${topicStatus}`} onClick={() => onNavigate('grammar', {level: activeLevel, topic: topic})}>
                 <span className={`progress-dot ${topicStatus}`}></span>
                 <div className="topic-number">{idx + 1}</div>
-                <div className="topic-content"><h3 className="topic-title">{t.name}</h3><p className="topic-explanation">{t.explanation}</p></div>
-                <div className="topic-meta">{t.exercises && <span className="exercise-count">{t.exercises.length} {t('grammar.exercises')}</span>}<Icons.ChevronRight /></div>
+                <div className="topic-content"><h3 className="topic-title">{topic.name}</h3><p className="topic-explanation">{topic.explanation}</p></div>
+                <div className="topic-meta">{topic.exercises && <span className="exercise-count">{topic.exercises.length} {t('grammar.exercises')}</span>}<Icons.ChevronRight /></div>
               </div>
             );
           })}
