@@ -41,22 +41,22 @@ class ErrorBoundary extends Component {
         <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
           <div style={{ textAlign: 'center', padding: '20px' }}>
             <div style={{ fontSize: '48px', marginBottom: '16px' }}>⚠️</div>
-            <h2 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Qualcosa è andato storto</h2>
+            <h2 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Something went wrong</h2>
             <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '20px' }}>
-              {this.state.error?.message || 'Errore nel caricamento della pagina'}
+              {this.state.error?.message || 'An error occurred while loading the page'}
             </p>
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
               <button
                 onClick={() => { this.setState({ hasError: false, error: null }); }}
                 style={{ padding: '10px 24px', background: 'var(--gradient-1)', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
               >
-                Riprova
+                Retry
               </button>
               <button
                 onClick={this.handleReload}
                 style={{ padding: '10px 24px', background: 'var(--bg-card)', color: 'var(--text-primary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
               >
-                Ricarica
+                Reload
               </button>
             </div>
           </div>

@@ -5,19 +5,19 @@ const DataContext = createContext(null);
 
 const BASE = import.meta.env.BASE_URL + 'data';
 
-async function fetchJSON(path, language = 'it') {
+async function fetchJSON(path, language = 'en') {
   try {
-    // Try language-specific path first if language is 'en'
-    if (language === 'en') {
+    // Try language-specific path first
+    if (language && language !== 'it') {
       try {
-        const res = await fetch(`${BASE}/en/${path}`);
+        const res = await fetch(`${BASE}/${language}/${path}`);
         if (res.ok) return await res.json();
       } catch {
-        // Fall back to Italian if English version doesn't exist
+        // Fall back to default (Italian) data if language version doesn't exist
       }
     }
 
-    // Fall back to Italian (default path)
+    // Fall back to default path (Italian data)
     const res = await fetch(`${BASE}/${path}`);
     if (!res.ok) return null;
     return await res.json();
@@ -90,7 +90,7 @@ export function DataProvider({ children }) {
       setData({ VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA, READING_DATA, LESSONS_DATA });
     } catch (err) {
       if (import.meta.env.DEV) console.error('Data loading failed:', err);
-      setError(err.message || 'Errore nel caricamento dei dati');
+      setError(err.message || 'Failed to load data');
     } finally {
       setLoading(false);
     }
@@ -104,13 +104,13 @@ export function DataProvider({ children }) {
     return (
       <div style={{display:'flex',alignItems:'center',justifyContent:'center',minHeight:'100vh',background:'var(--bg-primary, #0f0f14)',color:'var(--text-primary, #eeeef2)',flexDirection:'column',gap:'16px'}}>
         <div style={{fontSize:'48px'}}>⚠️</div>
-        <div style={{fontSize:'20px',fontWeight:700}}>Errore di caricamento</div>
+        <div style={{fontSize:'20px',fontWeight:700}}>Loading error</div>
         <div style={{color:'var(--text-secondary, #8888a0)',fontSize:'14px',textAlign:'center',maxWidth:'300px'}}>{error}</div>
         <button
           onClick={loadAll}
           style={{padding:'10px 24px',background:'var(--gradient-1)',color:'white',border:'none',borderRadius:'8px',fontSize:'14px',fontWeight:600,cursor:'pointer',marginTop:'8px'}}
         >
-          Riprova
+          Retry
         </button>
       </div>
     );

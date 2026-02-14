@@ -76,7 +76,7 @@ export default function QuizPage({ level, onNavigate }) {
         selected.forEach(word => {
           const sameMod = (wordsByMod[word.mod]||[]).filter(w => w.italian !== word.italian).map(w => w.italian);
           const wrongAnswers = sameMod.length >= 3 ? findSimilarAnswers(word.italian, sameMod, 3) : findSimilarAnswers(word.italian, allItalian, 3);
-          qs.push({ question: `Cosa significa "${word.german}"?`, correctAnswer: word.italian, options: fisherYatesShuffle([word.italian, ...wrongAnswers]), type: 'vocabulary', wordId: word.german });
+          qs.push({ question: `${t('quiz.whatMeans')} "${word.german}"?`, correctAnswer: word.italian, options: fisherYatesShuffle([word.italian, ...wrongAnswers]), type: 'vocabulary', wordId: word.german });
           usedIds.push(word.german);
         });
         saveUsedQuestions(type, lvl, usedIds);
@@ -200,7 +200,7 @@ export default function QuizPage({ level, onNavigate }) {
           <button
             className="share-btn"
             onClick={() => {
-              const text = `🇩🇪 Deutsche Master - Quiz ${quizLevel}\n📊 ${percentage}% (${score}/${questions.length})\n⭐ +${quizXP} XP\n\nImpara il tedesco gratis!\nhttps://deutschemaster.vercel.app`;
+              const text = `🇩🇪 DeutschMaster - Quiz ${quizLevel}\n📊 ${percentage}% (${score}/${questions.length})\n⭐ +${quizXP} XP\n\n${t('quiz.shareText')}\nhttps://deutschemaster.vercel.app`;
               if (navigator.share) {
                 navigator.share({ title: 'Deutsche Master Quiz', text }).catch(() => {});
               } else {

@@ -1,14 +1,14 @@
 {
-  "name": "DeutschMaster - Impara il Tedesco",
+  "name": "DeutschMaster - Learn German",
   "short_name": "DeutschMaster",
-  "description": "App gratuita per imparare il tedesco dal livello A1 al C2. 14.315 parole, grammatica, verbi, quiz, storie e flashcards.",
+  "description": "Free app to learn German from level A1 to C2. 14,315 words, grammar, verbs, quizzes, stories and flashcards.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a10",
   "theme_color": "#1a1a2e",
   "orientation": "portrait-primary",
   "scope": "/",
-  "lang": "it",
+  "lang": "en",
   "categories": ["education", "language"],
   "icons": [
     {
@@ -29,17 +29,17 @@
     {
       "name": "Quiz",
       "url": "/?page=quiz",
-      "description": "Fai un quiz di tedesco"
+      "description": "Take a German quiz"
     },
     {
       "name": "Flashcards",
       "url": "/?page=flashcards",
-      "description": "Ripassa con le flashcards"
+      "description": "Review with flashcards"
     },
     {
-      "name": "Vocabolario",
+      "name": "Vocabulary",
       "url": "/?page=vocabulary",
-      "description": "Esplora il vocabolario"
+      "description": "Explore vocabulary"
     }
   ]
 }

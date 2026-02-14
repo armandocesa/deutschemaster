@@ -43,9 +43,9 @@ class ErrorBoundary extends React.Component {
     if (this.state.hasError) {
       return (
         <div className="error-boundary">
-          <h2>Qualcosa &egrave; andato storto</h2>
-          <p style={{color: 'var(--text-secondary)'}}>Si &egrave; verificato un errore imprevisto.</p>
-          <button onClick={() => { this.setState({ hasError: false }); window.location.reload(); }}>Ricarica la pagina</button>
+          <h2>Something went wrong</h2>
+          <p style={{color: 'var(--text-secondary)'}}>An unexpected error occurred.</p>
+          <button onClick={() => { this.setState({ hasError: false }); window.location.reload(); }}>Reload page</button>
         </div>
       );
     }

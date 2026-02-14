@@ -14,14 +14,18 @@ export const useLanguage = () => {
 
 const translations = { it, en };
 
+const detectLanguage = () => {
+  try {
+    const saved = localStorage.getItem('dm_ui_language');
+    if (saved && translations[saved]) return saved;
+  } catch {}
+  // Auto-detect from browser locale
+  const browserLang = (navigator.language || navigator.userLanguage || '').split('-')[0];
+  return translations[browserLang] ? browserLang : 'en';
+};
+
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguageState] = useState(() => {
-    try {
-      return localStorage.getItem('dm_ui_language') || 'it';
-    } catch {
-      return 'it';
-    }
-  });
+  const [language, setLanguageState] = useState(detectLanguage);
 
   const setLanguage = (lang) => {
     if (translations[lang]) {
@@ -48,7 +52,7 @@ export const LanguageProvider = ({ children }) => {
     }
 
     if (current === undefined) {
-      current = translations['it'];
+      current = translations['en'];
       for (const k of keys) {
         if (current && typeof current === 'object') {
           current = current[k];
