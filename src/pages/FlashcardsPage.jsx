@@ -648,7 +648,7 @@ export default function FlashcardsPage({ onNavigate }) {
               style={{
                 flex: 1,
                 padding: '14px',
-                background: '#ef4444',
+                background: 'var(--error)',
                 color: 'white',
                 border: 'none',
                 borderRadius: '10px',
@@ -673,7 +673,7 @@ export default function FlashcardsPage({ onNavigate }) {
               style={{
                 flex: 1,
                 padding: '14px',
-                background: '#10b981',
+                background: 'var(--success)',
                 color: 'white',
                 border: 'none',
                 borderRadius: '10px',
@@ -701,9 +701,9 @@ export default function FlashcardsPage({ onNavigate }) {
   // FINISHED SCREEN
   if (mode === 'finished') {
     const percentage = (sessionStats.correct / sessionStats.total) * 100;
-    let percentageColor = '#10b981'; // green
-    if (percentage < 50) percentageColor = '#ef4444'; // red
-    else if (percentage < 70) percentageColor = '#f59e0b'; // yellow
+    let percentageColor = 'var(--success)'; // green
+    if (percentage < 50) percentageColor = 'var(--error)'; // red
+    else if (percentage < 70) percentageColor = 'var(--warning)'; // yellow
 
     const xpEarned = sessionStats.correct * 5;
 
@@ -747,7 +747,7 @@ export default function FlashcardsPage({ onNavigate }) {
             <p style={{ fontSize: '14px', color: 'var(--text-secondary)', margin: '0 0 12px 0' }}>{t('flashcards.results')}</p>
             <div style={{ display: 'flex', gap: '20px', justifyContent: 'center' }}>
               <div>
-                <p style={{ fontSize: '24px', fontWeight: 800, color: '#10b981', margin: '0' }}>
+                <p style={{ fontSize: '24px', fontWeight: 800, color: 'var(--success)', margin: '0' }}>
                   {sessionStats.correct}
                 </p>
                 <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>
@@ -756,7 +756,7 @@ export default function FlashcardsPage({ onNavigate }) {
               </div>
               <div style={{ width: '1px', background: 'var(--bg-primary)' }} />
               <div>
-                <p style={{ fontSize: '24px', fontWeight: 800, color: '#ef4444', margin: '0' }}>
+                <p style={{ fontSize: '24px', fontWeight: 800, color: 'var(--error)', margin: '0' }}>
                   {sessionStats.incorrect}
                 </p>
                 <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>

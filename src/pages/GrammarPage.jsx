@@ -95,9 +95,9 @@ function GrammarTopicDetail({ topic, level, colors }) {
   const renderEccezioni = (text) => {
     return (
       <div style={{
-        backgroundColor: 'rgba(255, 152, 0, 0.1)',
-        border: '1px solid rgba(255, 152, 0, 0.3)',
-        borderLeft: '4px solid #FF9800',
+        backgroundColor: 'var(--warning-dim)',
+        border: '1px solid var(--warning)',
+        borderLeft: '4px solid var(--warning)',
         padding: '12px',
         borderRadius: '4px',
         lineHeight: '1.6'

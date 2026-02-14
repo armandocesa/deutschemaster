@@ -38,13 +38,13 @@ function LessonDetail({ lesson }) {
             <div style={{ display: 'flex', gap: '8px', marginTop: '4px', flexWrap: 'wrap' }}>
               <span className={`lesson-phase-badge ${lesson.phase}`}>{lesson.phase === 'passiva' ? t('lessons.passive') : t('lessons.active')}</span>
               <span className="lesson-tag">{lesson.tag}</span>
-              {lesson.isReview && <span style={{ background: 'rgba(255,193,7,0.12)', color: '#ffc107', padding: '2px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 600 }}>{t('lessons.review')}</span>}
+              {lesson.isReview && <span style={{ background: 'var(--warning-dim)', color: 'var(--warning)', padding: '2px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 600 }}>{t('lessons.review')}</span>}
             </div>
           </div>
         </div>
         <button onClick={toggleCompletion} style={{
           marginTop: '12px', padding: '10px 20px', borderRadius: '8px', border: 'none', fontSize: '14px', fontWeight: 600, cursor: 'pointer',
-          background: isCompleted ? '#22c55e' : 'var(--accent)', color: 'white', display: 'flex', alignItems: 'center', gap: '8px'
+          background: isCompleted ? 'var(--success)' : 'var(--accent)', color: 'white', display: 'flex', alignItems: 'center', gap: '8px'
         }}>
           {isCompleted ? <><Icons.Check /> {t('lessons.completed_label')}</> : t('lessons.markCompleted')}
         </button>
@@ -207,7 +207,7 @@ export default function LessonsPage({ selectedLesson, onNavigate }) {
         <div className="lessons-list">{passiva.map(renderLesson)}</div>
       </div>
       <div className="lessons-phase-group">
-        <h3 className="lessons-phase-title" style={{ color: '#00cec9' }}>{t('lessons.active')}</h3>
+        <h3 className="lessons-phase-title" style={{ color: 'var(--highlight)' }}>{t('lessons.active')}</h3>
         <p className="lessons-phase-subtitle">{t('lessons.title')} 50-100 - {t('lessons.activeProduction')}</p>
         <div className="lessons-list">{attiva.map(renderLesson)}</div>
       </div>

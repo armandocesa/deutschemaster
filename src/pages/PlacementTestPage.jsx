@@ -515,9 +515,9 @@ export default function PlacementTestPage({ onNavigate }) {
                     selectedOption === idx
                       ? 'var(--accent)'
                       : submitted && idx === currentQuestion.correctAnswer
-                      ? '#10b981'
+                      ? 'var(--success)'
                       : submitted && selectedOption === idx
-                      ? '#ef4444'
+                      ? 'var(--error)'
                       : 'var(--bg)',
                   color:
                     selectedOption === idx || (submitted && (idx === currentQuestion.correctAnswer || selectedOption === idx))
@@ -527,9 +527,9 @@ export default function PlacementTestPage({ onNavigate }) {
                     selectedOption === idx
                       ? `2px solid var(--accent)`
                       : submitted && idx === currentQuestion.correctAnswer
-                      ? '2px solid #10b981'
+                      ? '2px solid var(--success)'
                       : submitted && selectedOption === idx
-                      ? '2px solid #ef4444'
+                      ? '2px solid var(--error)'
                       : '1px solid var(--border)',
                   borderRadius: 'var(--radius)',
                   fontSize: '15px',
@@ -564,8 +564,8 @@ export default function PlacementTestPage({ onNavigate }) {
               style={{
                 marginTop: '28px',
                 padding: '16px',
-                background: selectedOption === currentQuestion.correctAnswer ? 'rgba(16,185,129,0.1)' : 'rgba(239,68,68,0.1)',
-                border: `1px solid ${selectedOption === currentQuestion.correctAnswer ? '#10b981' : '#ef4444'}`,
+                background: selectedOption === currentQuestion.correctAnswer ? 'var(--success-dim)' : 'var(--error-dim)',
+                border: `1px solid ${selectedOption === currentQuestion.correctAnswer ? 'var(--success)' : 'var(--error)'}`,
                 borderRadius: 'var(--radius)',
                 fontSize: '14px',
                 color: 'var(--text-primary)',

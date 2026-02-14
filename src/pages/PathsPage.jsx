@@ -384,7 +384,7 @@ const PathsPage = ({ onNavigate }) => {
               }}>
                 <div style={{ flex: 1 }}>
                   <div style={{
-                    backgroundColor: '#14141f',
+                    backgroundColor: 'var(--bg-primary)',
                     borderRadius: '8px',
                     height: '8px',
                     overflow: 'hidden',
@@ -489,7 +489,7 @@ const PathsPage = ({ onNavigate }) => {
 
                         {/* Progress Bar */}
                         <div style={{
-                          backgroundColor: '#14141f',
+                          backgroundColor: 'var(--bg-primary)',
                           borderRadius: '6px',
                           height: '6px',
                           overflow: 'hidden',
@@ -575,8 +575,8 @@ const PathsPage = ({ onNavigate }) => {
                                 width: '20px',
                                 height: '20px',
                                 borderRadius: '50%',
-                                backgroundColor: isCompleted ? '#00b894' : 'transparent',
-                                border: `2px solid ${isCompleted ? '#00b894' : 'var(--text-tertiary)'}`,
+                                backgroundColor: isCompleted ? 'var(--success)' : 'transparent',
+                                border: `2px solid ${isCompleted ? 'var(--success)' : 'var(--text-tertiary)'}`,
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
@@ -609,7 +609,7 @@ const PathsPage = ({ onNavigate }) => {
                         padding: '12px 16px',
                         backgroundColor: 'var(--bg-card)',
                         borderRadius: '8px',
-                        borderLeft: '2px solid #4a4a5a',
+                        borderLeft: '2px solid var(--text-tertiary)',
                         paddingLeft: '24px',
                         color: 'var(--text-secondary)',
                         fontSize: '13px',

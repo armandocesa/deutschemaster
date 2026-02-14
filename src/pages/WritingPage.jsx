@@ -656,12 +656,12 @@ export default function WritingPage({ onNavigate }) {
                 }`
               }}>
                 {results[currentIndex]?.feedback === 'correct' && (
-                  <p style={{ color: '#065f46', fontWeight: '600', marginBottom: '8px' }}>
+                  <p style={{ color: 'var(--success)', fontWeight: '600', marginBottom: '8px' }}>
                     {t('writing.correct')}{results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'almost' && (
-                  <p style={{ color: '#92400e', fontWeight: '600', marginBottom: '8px' }}>
+                  <p style={{ color: 'var(--warning)', fontWeight: '600', marginBottom: '8px' }}>
                     {t('writing.almost')}{results[currentIndex]?.xpGain} XP
                   </p>
                 )}
@@ -671,7 +671,7 @@ export default function WritingPage({ onNavigate }) {
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'incorrect' && (
-                  <p style={{ color: '#991b1b', fontWeight: '600', marginBottom: '8px' }}>
+                  <p style={{ color: 'var(--error)', fontWeight: '600', marginBottom: '8px' }}>
                     {t('writing.incorrect')}
                   </p>
                 )}
@@ -746,11 +746,11 @@ export default function WritingPage({ onNavigate }) {
     const totalXP = results.reduce((sum, r) => sum + (r.xpGain || 0), 0);
 
     // Determine color based on percentage
-    let scoreColor = '#10b981'; // Green
-    if (percentage < 50) scoreColor = '#ef4444'; // Red
-    else if (percentage < 70) scoreColor = '#f59e0b'; // Orange
-    else if (percentage < 85) scoreColor = '#3b82f6'; // Blue
-    else scoreColor = '#10b981'; // Green
+    let scoreColor = 'var(--success)'; // Green
+    if (percentage < 50) scoreColor = 'var(--error)'; // Red
+    else if (percentage < 70) scoreColor = 'var(--warning)'; // Orange
+    else if (percentage < 85) scoreColor = 'var(--info)'; // Blue
+    else scoreColor = 'var(--success)'; // Green
 
     return (
       <div className="writing-page">
@@ -785,11 +785,11 @@ export default function WritingPage({ onNavigate }) {
             textAlign: 'center'
           }}>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '12px', fontSize: '14px' }}>
-              <span style={{ display: 'block', color: '#10b981', fontWeight: '700', fontSize: '16px' }}>
+              <span style={{ display: 'block', color: 'var(--success)', fontWeight: '700', fontSize: '16px' }}>
                 {correct} {t('writing.correct_count')}
               </span>
               {almost > 0 && (
-                <span style={{ display: 'block', color: '#f59e0b', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
+                <span style={{ display: 'block', color: 'var(--warning)', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
                   {almost} {t('writing.almost_count')}
                 </span>
               )}
@@ -799,7 +799,7 @@ export default function WritingPage({ onNavigate }) {
                 </span>
               )}
               {incorrect > 0 && (
-                <span style={{ display: 'block', color: '#ef4444', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
+                <span style={{ display: 'block', color: 'var(--error)', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
                   {incorrect} {t('writing.wrong_count')}
                 </span>
               )}
@@ -845,10 +845,10 @@ export default function WritingPage({ onNavigate }) {
                   <p style={{ color: 'var(--text-secondary)', fontSize: '13px', marginBottom: '4px', fontWeight: '600' }}>
                     {result.question}
                   </p>
-                  <p style={{ color: result.feedback === 'almost' ? '#f59e0b' : '#ef4444', fontSize: '13px', marginBottom: '4px' }}>
+                  <p style={{ color: result.feedback === 'almost' ? 'var(--warning)' : 'var(--error)', fontSize: '13px', marginBottom: '4px' }}>
                     {t('writing.yourAnswer')} <strong>{result.userAnswer}</strong>
                   </p>
-                  <p style={{ color: '#10b981', fontSize: '13px' }}>
+                  <p style={{ color: 'var(--success)', fontSize: '13px' }}>
                     {t('writing.correctAnswerIs')} <strong>{result.correctAnswer}</strong>
                   </p>
                 </div>

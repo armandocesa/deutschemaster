@@ -156,18 +156,18 @@
 .verb-translation { color: var(--text-secondary); font-size: 14px; flex: 1; }
 .verb-badges { display: flex; gap: 6px; align-items: center; }
 .verb-aux { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; margin-right: 6px; }
-.verb-aux.haben { background: rgba(59,130,246,0.12); color: #3b82f6; }
-.verb-aux.sein { background: rgba(34,197,94,0.12); color: #22c55e; }
-.verb-irregular { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 11px; background: rgba(245,158,11,0.12); color: #f59e0b; }
+.verb-aux.haben { background: rgba(59,130,246,0.12); color: var(--verb-haben); }
+.verb-aux.sein { background: rgba(34,197,94,0.12); color: var(--verb-sein); }
+.verb-irregular { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 11px; background: rgba(245,158,11,0.12); color: var(--verb-irregular); }
 .verb-detail { max-width: 600px; margin: 0 auto; }
 .verb-header { text-align: center; margin-bottom: 30px; }
 .verb-title { font-size: 36px; font-weight: 700; margin-bottom: 8px; }
 .verb-meaning { color: var(--text-secondary); font-size: 18px; margin-bottom: 16px; }
 .verb-meta { display: flex; justify-content: center; gap: 10px; margin-bottom: 16px; }
 .verb-aux-badge, .verb-irregular-badge { padding: 6px 12px; border-radius: 8px; font-size: 13px; }
-.verb-aux-badge.haben { background: rgba(59,130,246,0.12); color: #3b82f6; }
-.verb-aux-badge.sein { background: rgba(34,197,94,0.12); color: #22c55e; }
-.verb-irregular-badge { background: rgba(245,158,11,0.12); color: #f59e0b; }
+.verb-aux-badge.haben { background: rgba(59,130,246,0.12); color: var(--verb-haben); }
+.verb-aux-badge.sein { background: rgba(34,197,94,0.12); color: var(--verb-sein); }
+.verb-irregular-badge { background: rgba(245,158,11,0.12); color: var(--verb-irregular); }
 .tense-tabs { display: flex; gap: 6px; margin-bottom: 20px; overflow-x: auto; padding-bottom: 10px; }
 .tense-tab {
   padding: 10px 16px; border: 1px solid var(--border); border-radius: var(--radius-sm);
@@ -330,8 +330,8 @@
 .favorite-main { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
 .favorite-translation { color: var(--text-secondary); font-size: 14px; margin-bottom: 10px; }
 .save-btn { position: absolute; top: 10px; right: 10px; background: none; border: none; color: var(--text-secondary); cursor: pointer; padding: 4px; z-index: 10; transition: all var(--transition-fast); }
-.save-btn:hover { color: #f59e0b; transform: scale(1.2); }
-.save-btn.saved { color: #f59e0b; }
+.save-btn:hover { color: var(--warning); transform: scale(1.2); }
+.save-btn.saved { color: var(--warning); }
 
 /* Lessons */
 .lessons-page { padding: 20px; max-width: 900px; margin: 0 auto; width: 100%; }

@@ -182,9 +182,9 @@ function StoryReader({ story, level, colors, onBack }) {
                       disabled={answered}
                       style={{
                         padding: '12px 16px',
-                        background: answered ? (isCorrect ? 'rgba(16,185,129,0.2)' : selected ? 'rgba(239,68,68,0.2)' : 'rgba(108,92,231,0.05)') : 'rgba(108,92,231,0.1)',
-                        border: answered ? (isCorrect ? '2px solid #10b981' : selected ? '2px solid #ef4444' : '1px solid rgba(108,92,231,0.2)') : '1px solid rgba(108,92,231,0.2)',
-                        color: answered ? (isCorrect ? '#10b981' : selected ? '#ef4444' : 'var(--text-primary)') : 'var(--text-primary)',
+                        background: answered ? (isCorrect ? 'var(--success-dim)' : selected ? 'var(--error-dim)' : 'rgba(108,92,231,0.05)') : 'rgba(108,92,231,0.1)',
+                        border: answered ? (isCorrect ? '2px solid var(--success)' : selected ? '2px solid var(--error)' : '1px solid rgba(108,92,231,0.2)') : '1px solid rgba(108,92,231,0.2)',
+                        color: answered ? (isCorrect ? 'var(--success)' : selected ? 'var(--error)' : 'var(--text-primary)') : 'var(--text-primary)',
                         borderRadius: 'var(--radius)',
                         textAlign: 'left',
                         cursor: answered ? 'not-allowed' : 'pointer',
@@ -319,7 +319,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
               style={{cursor: 'pointer', position: 'relative', overflow: 'hidden'}}
             >
               {isCompleted && (
-                <div style={{position: 'absolute', top: '12px', right: '12px', background: '#10b981', color: 'white', borderRadius: '50%', width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', fontWeight: '700', zIndex: 10}}>
+                <div style={{position: 'absolute', top: '12px', right: '12px', background: 'var(--success)', color: 'white', borderRadius: '50%', width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', fontWeight: '700', zIndex: 10}}>
                   ✓
                 </div>
               )}
@@ -334,7 +334,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
                 ))}
               </div>
               {isCompleted && (
-                <div style={{marginTop: '12px', padding: '8px 12px', background: 'rgba(16,185,129,0.1)', color: '#10b981', borderRadius: 'var(--radius)', fontSize: '11px', fontWeight: '600'}}>
+                <div style={{marginTop: '12px', padding: '8px 12px', background: 'var(--success-dim)', color: 'var(--success)', borderRadius: 'var(--radius)', fontSize: '11px', fontWeight: '600'}}>
                   {t('lessons.completed_label')}! +20 XP
                 </div>
               )}

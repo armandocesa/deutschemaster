@@ -244,12 +244,12 @@ const AdminPage = ({ onNavigate }) => {
         {error && (
           <div
             style={{
-              background: 'rgba(239,68,68,0.1)',
-              border: '1px solid rgba(239,68,68,0.3)',
+              background: 'var(--error-dim)',
+              border: '1px solid var(--error)',
               borderRadius: 'var(--radius)',
               padding: '16px',
               marginBottom: '24px',
-              color: '#ef4444',
+              color: 'var(--error)',
             }}
           >
             {error}
@@ -425,7 +425,7 @@ const AdminPage = ({ onNavigate }) => {
                       padding: '12px',
                       background: 'var(--bg)',
                       borderRadius: 'var(--radius)',
-                      borderLeft: `3px solid #10b981`,
+                      borderLeft: `3px solid var(--success)`,
                     }}
                   >
                     <span style={{ fontSize: '14px', fontWeight: '500' }}>
@@ -435,7 +435,7 @@ const AdminPage = ({ onNavigate }) => {
                       style={{
                         fontSize: '14px',
                         fontWeight: '600',
-                        color: '#10b981',
+                        color: 'var(--success)',
                       }}
                     >
                       {count}
@@ -556,7 +556,7 @@ const AdminPage = ({ onNavigate }) => {
                     <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
                       {formatPageName(page, language)}
                     </div>
-                    <div style={{ fontSize: '28px', fontWeight: '700', color: '#3b82f6' }}>
+                    <div style={{ fontSize: '28px', fontWeight: '700', color: 'var(--info)' }}>
                       {count}
                     </div>
                     <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '8px' }}>

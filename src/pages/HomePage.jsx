@@ -163,7 +163,7 @@ export default function HomePage({ onNavigate }) {
             </div>
             {savedCount > 0 && (
               <div className="continue-card" onClick={() => onNavigate('favorites')}>
-                <div className="card-badge" style={{backgroundColor: '#f59e0b'}}>{savedCount}</div>
+                <div className="card-badge" style={{backgroundColor: 'var(--warning)'}}>{savedCount}</div>
                 <div className="card-text"><h4>{t('home.progress.savedWords')}</h4><p>{t('home.progress.toReview')}</p></div>
               </div>
             )}

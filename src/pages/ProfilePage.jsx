@@ -305,7 +305,7 @@ const ProfilePage = ({ onNavigate }) => {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                   <div style={{
                     width: '42px', height: '42px', borderRadius: '50%',
-                    background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)',
+                    background: 'linear-gradient(135deg, var(--accent), #a29bfe)',
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     fontSize: '18px', fontWeight: 800, color: 'white',
                   }}>
@@ -320,7 +320,7 @@ const ProfilePage = ({ onNavigate }) => {
                   {ADMIN_EMAILS.includes(user?.email) && (
                     <button onClick={() => onNavigate('admin')} style={{
                       padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(59,130,246,0.3)',
-                      backgroundColor: 'rgba(59,130,246,0.1)', color: '#3b82f6', fontSize: '13px',
+                      backgroundColor: 'var(--info-dim)', color: 'var(--info)', fontSize: '13px',
                       fontWeight: 600, cursor: 'pointer', transition: 'all 0.2s',
                     }}
                     onMouseEnter={(e) => {
@@ -334,7 +334,7 @@ const ProfilePage = ({ onNavigate }) => {
                   )}
                   <button onClick={async () => { await logout(); onNavigate('home'); }} style={{
                     padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(239,68,68,0.3)',
-                    backgroundColor: 'rgba(239,68,68,0.1)', color: '#ef4444', fontSize: '13px',
+                    backgroundColor: 'var(--error-dim)', color: 'var(--error)', fontSize: '13px',
                     fontWeight: 600, cursor: 'pointer',
                   }}>
                     {t('profile.signOut')}
@@ -460,11 +460,11 @@ const ProfilePage = ({ onNavigate }) => {
               <div style={{
                 marginTop: '12px',
                 padding: '12px',
-                background: 'rgba(239,68,68,0.1)',
-                border: '1px solid rgba(239,68,68,0.3)',
+                background: 'var(--error-dim)',
+                border: '1px solid var(--error)',
                 borderRadius: '8px',
                 fontSize: '13px',
-                color: '#ef4444',
+                color: 'var(--error)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
@@ -476,7 +476,7 @@ const ProfilePage = ({ onNavigate }) => {
                   style={{
                     background: 'transparent',
                     border: 'none',
-                    color: '#ef4444',
+                    color: 'var(--error)',
                     cursor: 'pointer',
                     fontSize: '18px',
                     padding: '0',
@@ -903,9 +903,9 @@ const ProfilePage = ({ onNavigate }) => {
                       {placementTestData.correctAnswers}/{placementTestData.totalQuestions}
                     </div>
                   </div>
-                  <div style={{ background: 'rgba(59,130,246,0.1)', borderRadius: '8px', padding: '12px' }}>
+                  <div style={{ background: 'var(--info-dim)', borderRadius: '8px', padding: '12px' }}>
                     <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>{t('profile.placementTest.testDate')}</div>
-                    <div style={{ fontSize: '20px', fontWeight: '700', color: '#3b82f6' }}>
+                    <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--info)' }}>
                       {new Date(placementTestData.completedAt).toLocaleDateString(language === 'en' ? 'en-US' : 'it-IT')}
                     </div>
                   </div>
