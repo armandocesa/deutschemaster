@@ -49,49 +49,61 @@ export default function QuizPage({ level, onNavigate }) {
   };
 
   const generateQuestions = (type, lvl, count) => {
-    const qs = [];
-    let usedIds = getUsedQuestions(type, lvl);
-    if (type === 'vocabulary') {
-      let allWords = [];
-      const wordsByMod = {};
-      if (difficultOnly) { allWords = getDifficultWords().filter(w => w.type === 'word'); }
-      else {
-        const levelData = VOCABULARY_DATA.levels?.[lvl];
-        levelData?.modules?.forEach(m => { const mod = m.name||m.category||'x'; wordsByMod[mod]=m.words||[]; m.words?.forEach(w => allWords.push({...w, mod})); });
+    try {
+      const qs = [];
+      let usedIds = getUsedQuestions(type, lvl);
+      const usedIdSet = new Set(usedIds);
+      if (type === 'vocabulary') {
+        let allWords = [];
+        const wordsByMod = {};
+        if (difficultOnly) { allWords = getDifficultWords().filter(w => w.type === 'word'); }
+        else {
+          const levelData = VOCABULARY_DATA?.levels?.[lvl];
+          if (!levelData?.modules) return [];
+          levelData.modules.forEach(m => { const mod = m.name||m.category||'x'; wordsByMod[mod]=m.words||[]; m.words?.forEach(w => allWords.push({...w, mod})); });
+        }
+        if (allWords.length === 0) return [];
+        let available = allWords.filter(w => !usedIdSet.has(w.german));
+        if (available.length < count) {
+          // Partial reset: keep only the most recent half of used IDs
+          const halfPoint = Math.floor(usedIds.length / 2);
+          usedIds = usedIds.slice(halfPoint);
+          const freshSet = new Set(usedIds);
+          available = allWords.filter(w => !freshSet.has(w.german));
+        }
+        const selected = fisherYatesShuffle(available).slice(0, count);
+        const allItalian = [...new Set(allWords.map(w => w.italian))];
+        selected.forEach(word => {
+          const sameMod = (wordsByMod[word.mod]||[]).filter(w => w.italian !== word.italian).map(w => w.italian);
+          const wrongAnswers = sameMod.length >= 3 ? findSimilarAnswers(word.italian, sameMod, 3) : findSimilarAnswers(word.italian, allItalian, 3);
+          qs.push({ question: `Cosa significa "${word.german}"?`, correctAnswer: word.italian, options: fisherYatesShuffle([word.italian, ...wrongAnswers]), type: 'vocabulary', wordId: word.german });
+          usedIds.push(word.german);
+        });
+        saveUsedQuestions(type, lvl, usedIds);
+      } else {
+        const levelData = GRAMMAR_DATA?.levels?.[lvl];
+        if (!levelData?.topics) return [];
+        const allEx = [];
+        let globalIdx = 0;
+        levelData.topics.forEach(topic => { topic.exercises?.forEach((ex) => { allEx.push({...ex, id: `${topic.id}_${globalIdx}`, topicId: topic.id}); globalIdx++; }); });
+        if (allEx.length === 0) return [];
+        let available = allEx.filter(ex => !usedIdSet.has(ex.id));
+        if (available.length < count) {
+          // Partial reset: keep only the most recent half
+          const halfPoint = Math.floor(usedIds.length / 2);
+          usedIds = usedIds.slice(halfPoint);
+          const freshSet = new Set(usedIds);
+          available = allEx.filter(ex => !freshSet.has(ex.id));
+        }
+        const selected = fisherYatesShuffle(available).slice(0, count);
+        selected.forEach(ex => { qs.push({question: ex.question, correctAnswer: ex.answer, explanation: ex.explanation, type: 'grammar', isOpen: true, grammarId: ex.topicId}); usedIds.push(ex.id); });
+        saveUsedQuestions(type, lvl, usedIds);
       }
-      let available = allWords.filter(w => !usedIds.includes(w.german));
-      if (available.length < count) {
-        // Partial reset: keep only the most recent half of used IDs
-        const halfPoint = Math.floor(usedIds.length / 2);
-        usedIds = usedIds.slice(halfPoint);
-        available = allWords.filter(w => !usedIds.includes(w.german));
-      }
-      const selected = fisherYatesShuffle(available).slice(0, count);
-      const allItalian = [...new Set(allWords.map(w => w.italian))];
-      selected.forEach(word => {
-        const sameMod = (wordsByMod[word.mod]||[]).filter(w => w.italian !== word.italian).map(w => w.italian);
-        const wrongAnswers = sameMod.length >= 3 ? findSimilarAnswers(word.italian, sameMod, 3) : findSimilarAnswers(word.italian, allItalian, 3);
-        qs.push({ question: `Cosa significa "${word.german}"?`, correctAnswer: word.italian, options: fisherYatesShuffle([word.italian, ...wrongAnswers]), type: 'vocabulary', wordId: word.german });
-        usedIds.push(word.german);
-      });
-      saveUsedQuestions(type, lvl, usedIds);
-    } else {
-      const levelData = GRAMMAR_DATA.levels?.[lvl];
-      const allEx = [];
-      let globalIdx = 0;
-      levelData?.topics?.forEach(topic => { topic.exercises?.forEach((ex) => { allEx.push({...ex, id: `${topic.id}_${globalIdx}`, topicId: topic.id}); globalIdx++; }); });
-      let available = allEx.filter(ex => !usedIds.includes(ex.id));
-      if (available.length < count) {
-        // Partial reset: keep only the most recent half
-        const halfPoint = Math.floor(usedIds.length / 2);
-        usedIds = usedIds.slice(halfPoint);
-        available = allEx.filter(ex => !usedIds.includes(ex.id));
-      }
-      const selected = fisherYatesShuffle(available).slice(0, count);
-      selected.forEach(ex => { qs.push({question: ex.question, correctAnswer: ex.answer, explanation: ex.explanation, type: 'grammar', isOpen: true, grammarId: ex.topicId}); usedIds.push(ex.id); });
-      saveUsedQuestions(type, lvl, usedIds);
+      return qs;
+    } catch (error) {
+      if (import.meta.env.DEV) console.warn('Failed to generate questions:', error);
+      return [];
     }
-    return qs;
   };
 
   const startQuiz = () => { const q = generateQuestions(quizType, quizLevel, 10); setQuestions(q); setCurrentQuestion(0); setScore(0); setAnswers({}); setQuizState('playing'); };

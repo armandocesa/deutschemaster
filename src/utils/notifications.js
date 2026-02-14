@@ -151,7 +151,9 @@ const getRandomNotificationMessage = (streak) => {
  * @returns {boolean}
  */
 const hasStudiedToday = () => {
-  const today = new Date().toISOString().split('T')[0];
+  // Use local date (not UTC) to match gamification.js getToday() format
+  const date = new Date();
+  const today = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
   try {
     const streakData = localStorage.getItem('dm_streak');
     if (!streakData) return false;

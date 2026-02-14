@@ -264,8 +264,8 @@ export function saveAndSync(key, jsonString) {
 
   // If Firebase is configured and user is logged in, sync to cloud
   if (hasConfig && auth && auth.currentUser && SYNC_KEYS.includes(key)) {
-    syncKeyToCloud(auth.currentUser.uid, key).catch(() => {
-      // Silent fail — localStorage is the source of truth
+    syncKeyToCloud(auth.currentUser.uid, key).catch((e) => {
+      if (import.meta.env.DEV) console.warn(`Cloud sync failed for ${key}:`, e);
     });
   }
 }

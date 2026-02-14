@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useMemo, useEffect } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -11,6 +11,7 @@ import { saveAndSync } from '../utils/cloudSync';
 function WordCard({ word, viewMode, onRemove }) {
   const [flipped, setFlipped] = useState(false);
   const [saved, setSaved] = useState(isDifficultWord(word.german));
+  useEffect(() => { setSaved(isDifficultWord(word.german)); }, [word.german]);
   const wordStatus = getWordStatus(word.german);
   const toggleSave = (e) => {
     e.stopPropagation();
@@ -115,6 +116,12 @@ export default function VocabularyPage({ level, module, onNavigate }) {
 
   const words = module.words || [];
 
+  const progressCounts = useMemo(() => {
+    const correct = words.filter(w => getWordStatus(w.german) === 'correct').length;
+    const incorrect = words.filter(w => getWordStatus(w.german) === 'incorrect').length;
+    return { correct, incorrect, unseen: words.length - correct - incorrect };
+  }, [words]);
+
   const filteredWords = debouncedSearch
     ? words.filter(w => (w.german || '').toLowerCase().includes(debouncedSearch.toLowerCase()) || (w.italian || '').toLowerCase().includes(debouncedSearch.toLowerCase()))
     : words;
@@ -130,9 +137,9 @@ export default function VocabularyPage({ level, module, onNavigate }) {
         <p className="page-subtitle">{words.length} {t('vocabulary.words')}</p>
       </div>
       <div className="progress-summary">
-        <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'correct').length}</span> {t('vocabulary.correct')}</div>
-        <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'incorrect').length}</span> {t('vocabulary.incorrect')}</div>
-        <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{words.filter(w => getWordStatus(w.german) === 'unseen').length}</span> {t('vocabulary.unseen')}</div>
+        <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{progressCounts.correct}</span> {t('vocabulary.correct')}</div>
+        <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{progressCounts.incorrect}</span> {t('vocabulary.incorrect')}</div>
+        <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{progressCounts.unseen}</span> {t('vocabulary.unseen')}</div>
       </div>
       <div className="vocab-toolbar">
         <div className="search-box"><Icons.Search /><input type="text" placeholder={t('vocabulary.search')} value={searchTerm} onChange={handleSearch} /></div>
