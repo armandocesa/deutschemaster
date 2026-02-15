@@ -225,7 +225,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
               fontWeight: '600',
               color: 'var(--accent)',
               letterSpacing: '0.5px'
-            }}>ESERCIZI ({topic.exercises.length})</h3>
+            }}>{t('lessons.exercises')} ({topic.exercises.length})</h3>
           </div>
           <div className="exercises-list">
             {topic.exercises.map((ex, idx) => (

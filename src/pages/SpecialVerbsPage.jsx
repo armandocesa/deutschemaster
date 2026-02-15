@@ -746,64 +746,15 @@ export default function SpecialVerbsPage({ onNavigate }) {
         )}
 
         {activeTab === 'prepositionen' && (
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-            gap: '12px'
-          }}>
+          <div className="compact-list">
             {VERBEN_MIT_PRÄPOSITIONEN.map((item, idx) => (
-              <div key={idx} style={{
-                background: 'var(--bg-card)',
-                border: '1px solid var(--border)',
-                borderRadius: 'var(--radius)',
-                padding: '12px'
-              }}>
-                <div style={{
-                  fontSize: '14px',
-                  fontWeight: 700,
-                  color: 'var(--accent)',
-                  marginBottom: '4px'
-                }}>
-                  {item.german}
+              <div key={idx} className="compact-list-item" style={{cursor:'default'}}>
+                <div className="compact-info">
+                  <div className="compact-title" style={{color:'var(--accent)'}}>{item.german}</div>
+                  <div className="compact-subtitle">{item.italian} — <em>"{item.example}"</em></div>
                 </div>
-                <div style={{
-                  fontSize: '12px',
-                  color: 'var(--text-secondary)',
-                  marginBottom: '8px'
-                }}>
-                  {item.italian}
-                </div>
-                <div style={{
-                  fontSize: '12px',
-                  color: 'var(--text-primary)',
-                  fontStyle: 'italic',
-                  padding: '8px',
-                  background: 'rgba(99, 102, 241, 0.05)',
-                  borderRadius: '4px',
-                  borderLeft: '2px solid var(--accent)'
-                }}>
-                  "{item.example}"
-                </div>
-                <button
-                  onClick={() => speak(item.example)}
-                  style={{
-                    marginTop: '8px',
-                    background: 'rgba(99, 102, 241, 0.1)',
-                    border: '1px solid rgba(99, 102, 241, 0.3)',
-                    borderRadius: '3px',
-                    padding: '4px 8px',
-                    cursor: 'pointer',
-                    color: 'var(--accent)',
-                    fontSize: '11px',
-                    fontWeight: 600,
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    width: '100%',
-                    justifyContent: 'center'
-                  }}
-                >
-                  <Icons.Volume /> {t('specialVerbs.listen')}
+                <button className="vocab-action-btn" onClick={() => speak(item.example)} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-secondary)',padding:'4px'}}>
+                  <Icons.Volume />
                 </button>
               </div>
             ))}

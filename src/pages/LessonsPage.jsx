@@ -183,7 +183,7 @@ export default function LessonsPage({ selectedLesson, onNavigate }) {
           <div className="compact-title">{lesson.title}</div>
           <div className="compact-subtitle">
             {lesson.phase === 'passiva' ? t('lessons.passive') : t('lessons.active')} · {lesson.tag}
-            {!hasContent && <span style={{fontStyle:'italic'}}> · in arrivo</span>}
+            {!hasContent && <span style={{fontStyle:'italic'}}> · {t('lessons.comingSoon')}</span>}
           </div>
         </div>
         {isCompleted && <span className="compact-badge success">✓</span>}

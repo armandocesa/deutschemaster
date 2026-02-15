@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import it from '../i18n/it.json';
 import en from '../i18n/en.json';
+import de from '../i18n/de.json';
 
 const LanguageContext = createContext();
 
@@ -12,7 +13,7 @@ export const useLanguage = () => {
   return context;
 };
 
-const translations = { it, en };
+const translations = { it, en, de };
 
 const detectLanguage = () => {
   try {

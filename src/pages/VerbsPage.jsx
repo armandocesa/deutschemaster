@@ -8,7 +8,7 @@ import { isDifficultWord, saveDifficultWord, removeDifficultWord } from '../util
 function VerbDetail({ verb }) {
   const { t } = useLanguage();
   const [activeTense, setActiveTense] = useState('präsens');
-  const tenses = [{key:'präsens',label:'Präsens'},{key:'präteritum',label:'Präteritum'},{key:'perfekt',label:'Perfekt'},{key:'konjunktiv2',label:'Konj. II'},{key:'imperativ',label:'Imperativ'}];
+  const tenses = [{key:'präsens',label:'Präsens'},{key:'präteritum',label:'Präteritum'},{key:'perfekt',label:'Perfekt'},{key:'futur1',label:'Futur I'},{key:'konjunktiv1',label:'Konj. I'},{key:'konjunktiv2',label:'Konj. II'},{key:'imperativ',label:'Imperativ'}];
   const pronouns = ['ich','du','er','wir','ihr','sie'];
   const conjugations = verb.konjugation || {};
   const currentTense = conjugations[activeTense] || {};
