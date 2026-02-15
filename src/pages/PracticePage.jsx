@@ -78,7 +78,7 @@ export default function PracticePage({ onNavigate }) {
                 <div className="compact-subtitle" style={{opacity: isRevealed ? 1 : 0.3}}>{isRevealed ? translation : '• • •'}</div>
               </div>
               <span className="compact-badge" style={{background: LEVEL_COLORS[word.level]?.bg || '#666', color:'#fff', fontSize:'11px'}}>{word.level}</span>
-              <button className="vocab-action-btn" onClick={(e) => {e.stopPropagation();speak(word.german);}} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-secondary)',padding:'4px'}}><Icons.Volume /></button>
+              <button className="vocab-action-btn" onClick={(e) => {e.stopPropagation();speak(word.german);}} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-secondary)',padding:'4px'}} aria-label="Listen to pronunciation"><Icons.Volume /></button>
             </div>
           );
         })}

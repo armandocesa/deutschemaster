@@ -240,7 +240,7 @@ export default function QuizPage({ level, onNavigate }) {
       <div className="quiz-header">
         {currentQuestion > 0 && <button className="quiz-nav-btn" onClick={prevQuestion}><Icons.Back /> {t('quiz.back')}</button>}
         <span className="question-number">{t('quiz.question')} {currentQuestion + 1} {t('quiz.of')} {questions.length}</span>
-        <button className={`save-question-btn ${isReviewQuestion(current?.question)?'saved':''}`} onClick={toggleSaveQuestion}>{isReviewQuestion(current?.question) ? <Icons.StarFilled /> : <Icons.Star />}</button>
+        <button className={`save-question-btn ${isReviewQuestion(current?.question)?'saved':''}`} onClick={toggleSaveQuestion} aria-label={isReviewQuestion(current?.question) ? 'Remove from review' : 'Save for review'}>{isReviewQuestion(current?.question) ? <Icons.StarFilled /> : <Icons.Star />}</button>
       </div>
       <div className="quiz-progress"><div className="progress-bar"><div className="progress-fill" style={{width: `${((currentQuestion+1)/questions.length)*100}%`}} /></div></div>
       <div className="quiz-card">

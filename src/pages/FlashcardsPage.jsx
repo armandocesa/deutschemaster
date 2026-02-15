@@ -433,6 +433,7 @@ export default function FlashcardsPage({ onNavigate }) {
         <div style={{ padding: '20px 20px 0 20px' }}>
           <button
             onClick={backToSetup}
+            aria-label="Back to setup"
             style={{
               background: 'none',
               border: 'none',
@@ -446,7 +447,7 @@ export default function FlashcardsPage({ onNavigate }) {
             <Icons.Back />
           </button>
 
-          {/* Progress Bar */}
+          {/* Progress bar */}
           <div style={{ marginBottom: '20px' }}>
             <div style={{ height: '6px', background: 'var(--bg-secondary)', borderRadius: '3px', overflow: 'hidden', marginBottom: '8px' }}>
               <div style={{
@@ -545,6 +546,7 @@ export default function FlashcardsPage({ onNavigate }) {
                     e.stopPropagation();
                     speak(currentCard.german);
                   }}
+                  aria-label="Listen to pronunciation"
                   style={{
                     background: 'var(--accent-primary)',
                     color: 'white',

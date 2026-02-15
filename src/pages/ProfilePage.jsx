@@ -473,6 +473,7 @@ const ProfilePage = ({ onNavigate }) => {
                 <span>{t('profile.notifications.blocked')}</span>
                 <button
                   onClick={() => setShowNotificationPrompt(false)}
+                  aria-label="Dismiss notification prompt"
                   style={{
                     background: 'transparent',
                     border: 'none',

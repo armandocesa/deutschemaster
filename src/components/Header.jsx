@@ -47,6 +47,7 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
               className={`lang-btn ${language === 'it' ? 'active' : ''}`}
               onClick={() => setLanguage('it')}
               title="Italiano"
+              aria-label="Switch to Italian"
               style={{
                 padding:'6px 10px',
                 background: language === 'it' ? 'var(--accent)' : 'transparent',
@@ -65,6 +66,7 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
               className={`lang-btn ${language === 'en' ? 'active' : ''}`}
               onClick={() => setLanguage('en')}
               title="English"
+              aria-label="Switch to English"
               style={{
                 padding:'6px 10px',
                 background: language === 'en' ? 'var(--accent)' : 'transparent',
@@ -84,6 +86,7 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
             className="header-stat-btn"
             onClick={toggleTheme}
             title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+            aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
             style={{ fontSize: '16px' }}
           >
             {theme === 'dark' ? '☀️' : '🌙'}
@@ -99,7 +102,7 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
           <button className={`nav-btn ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>{t('nav.verbs')}</span></button>
           <button className={`nav-btn ${currentPage === 'practice' || currentPage === 'flashcards' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>{t('nav.practice')}</span></button>
           <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>{t('nav.saved')}</span></button>
-          <button className={`nav-btn ${currentPage === 'dona' ? 'active' : ''}`} onClick={() => onNavigate('dona')} title="Support Deutsche Master" style={{fontSize: '16px'}}>❤️</button>
+          <button className={`nav-btn ${currentPage === 'dona' ? 'active' : ''}`} onClick={() => onNavigate('dona')} title="Support Deutsche Master" aria-label="Support Deutsche Master" style={{fontSize: '16px'}}>❤️</button>
           <button className={`nav-btn ${currentPage === 'profile' ? 'active' : ''}`} onClick={() => onNavigate('profile')}><Icons.Profile /><span>{t('nav.profile')}</span></button>
         </nav>
       </div>

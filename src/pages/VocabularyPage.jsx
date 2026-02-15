@@ -39,10 +39,10 @@ function WordRow({ word, category, onSaveChange }) {
       <td className="vocab-cell-translation">{word.italian || ''}</td>
       <td className="vocab-cell-category"><span className="vocab-category-badge">{formatCategory(category)}</span></td>
       <td className="vocab-cell-actions">
-        <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={toggleSave} title={saved ? 'Remove' : 'Save'}>
+        <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={toggleSave} title={saved ? 'Remove' : 'Save'} aria-label={saved ? 'Remove from saved' : 'Save word'}>
           {saved ? <Icons.StarFilled /> : <Icons.Star />}
         </button>
-        <button className="vocab-action-btn" onClick={() => speak(word.german)} title="Listen">
+        <button className="vocab-action-btn" onClick={() => speak(word.german)} title="Listen" aria-label="Listen to pronunciation">
           <Icons.Volume />
         </button>
       </td>
