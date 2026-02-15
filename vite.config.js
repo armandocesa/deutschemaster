@@ -10,7 +10,7 @@ export default defineConfig({
       manifest: {
         name: 'Deutsche Master',
         short_name: 'DeutscheMaster',
-        description: 'Impara il tedesco gratis - App completa per italiani',
+        description: 'Learn German free from A1 to C2 — Vocabulary, Grammar, Verbs, Quiz & more',
         theme_color: '#1a1a2e',
         background_color: '#1a1a2e',
         display: 'standalone',
@@ -33,10 +33,18 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: '/icon-512x512.svg',
-            sizes: '512x512',
-            type: 'image/svg+xml',
-            form_factor: 'wide'
+            src: '/screenshot-wide.png',
+            sizes: '1280x720',
+            type: 'image/png',
+            form_factor: 'wide',
+            label: 'DeutschMaster Desktop - Learn German Free'
+          },
+          {
+            src: '/screenshot-narrow.png',
+            sizes: '750x1334',
+            type: 'image/png',
+            form_factor: 'narrow',
+            label: 'DeutschMaster Mobile - Learn German Free'
           }
         ]
       },
