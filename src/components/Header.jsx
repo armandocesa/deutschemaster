@@ -73,8 +73,8 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
             <Icons.Profile />
           </button>
         </div>
-        <nav className="nav desktop-nav">
-          <button className={`nav-btn ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>{t('nav.home')}</span></button>
+        <nav className="nav desktop-nav" aria-label="Main navigation">
+          <button className={`nav-btn ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')} aria-current={currentPage === 'home' ? 'page' : undefined}><Icons.Home /><span>{t('nav.home')}</span></button>
           <button className={`nav-btn ${currentPage === 'paths' ? 'active' : ''}`} onClick={() => onNavigate('paths')}><Icons.Target /><span>{t('nav.paths')}</span></button>
           <button className={`nav-btn ${currentPage === 'stories' ? 'active' : ''}`} onClick={() => onNavigate('stories')}><span className="nav-stories-icon">📖</span><span>{t('nav.stories')}</span></button>
           <button className={`nav-btn ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>{t('nav.verbs')}</span></button>

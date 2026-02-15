@@ -159,9 +159,9 @@ const PAGE_DESCRIPTIONS = {
 const PageLoadingFallback = () => {
   const { t } = useLanguage();
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
+    <div role="status" aria-live="polite" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
       <div style={{ textAlign: 'center' }}>
-        <div style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: 'var(--accent)', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
+        <div aria-hidden="true" style={{ width: '48px', height: '48px', border: '3px solid rgba(108,92,231,0.3)', borderTopColor: 'var(--accent)', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
         <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>{t('loadingPage')}</p>
         <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
       </div>
@@ -338,10 +338,19 @@ function AppContent() {
   const isLoginPage = currentPage === 'login';
   const isNotFound = !PATH_TO_PAGE[location.pathname] && location.pathname !== '/';
 
+  // Focus management: move focus to main content after SPA navigation
+  useEffect(() => {
+    const mainEl = document.getElementById('main-content');
+    if (mainEl) {
+      mainEl.focus({ preventScroll: true });
+    }
+  }, [location.pathname]);
+
   return (
     <div className="app">
+      <a href="#main-content" className="skip-to-content">Skip to content</a>
       {!isLoginPage && !isNotFound && <Header currentPage={currentPage} onNavigate={onNavigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />}
-      <main className="main-content">
+      <main id="main-content" className="main-content" tabIndex="-1" role="main">
         <ErrorBoundary>
         <Suspense fallback={<PageLoadingFallback />}>
           <Routes>

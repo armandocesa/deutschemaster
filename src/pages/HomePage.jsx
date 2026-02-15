@@ -19,9 +19,9 @@ function QuickActionCard({ icon, title, color, onClick, noLevel, badge }) {
     onClick(lvl);
   };
   return (
-    <div className="quick-action-card" onClick={() => noLevel ? onClick() : onClick(selectedLvl)}>
+    <div className="quick-action-card" onClick={() => noLevel ? onClick() : onClick(selectedLvl)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); noLevel ? onClick() : onClick(selectedLvl); }}} tabIndex="0" role="button" aria-label={title}>
       <div className="quick-action-header">
-        <div className="quick-action-icon" style={{backgroundColor: color}}>{icon}</div>
+        <div className="quick-action-icon" style={{backgroundColor: color}} aria-hidden="true">{icon}</div>
         <span className="quick-action-title">{title}</span>
         {badge && <span style={{background:'var(--accent)',color:'white',borderRadius:'10px',padding:'2px 8px',fontSize:'11px',fontWeight:700,marginLeft:'auto'}}>{badge}</span>}
       </div>

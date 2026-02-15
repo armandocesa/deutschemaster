@@ -36,7 +36,7 @@ export function ToastProvider({ children }) {
 // Toast Container Component
 function ToastContainer({ toasts, onRemove }) {
   return (
-    <div className="toast-container">
+    <div className="toast-container" role="status" aria-live="polite" aria-atomic="false">
       {toasts.map(toast => (
         <Toast
           key={toast.id}
@@ -63,8 +63,8 @@ function Toast({ toast, onRemove }) {
   };
 
   return (
-    <div className={`toast toast--${toast.type}`}>
-      <span className="toast-icon">{getIcon(toast.type)}</span>
+    <div className={`toast toast--${toast.type}`} role={toast.type === 'error' ? 'alert' : 'status'}>
+      <span className="toast-icon" aria-hidden="true">{getIcon(toast.type)}</span>
       <span className="toast-message">{toast.message}</span>
       <button
         className="toast-close"

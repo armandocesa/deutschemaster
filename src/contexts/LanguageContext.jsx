@@ -31,6 +31,8 @@ export const LanguageProvider = ({ children }) => {
   const setLanguage = (lang) => {
     if (translations[lang]) {
       setLanguageState(lang);
+      // Update html lang attribute for accessibility
+      document.documentElement.lang = lang;
       try {
         localStorage.setItem('dm_ui_language', lang);
       } catch {
@@ -38,6 +40,11 @@ export const LanguageProvider = ({ children }) => {
       }
     }
   };
+
+  // Set initial html lang attribute
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const t = (key) => {
     const keys = key.split('.');
