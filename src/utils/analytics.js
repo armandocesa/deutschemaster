@@ -1,5 +1,6 @@
 import { db, auth, hasConfig } from '../firebase';
 import { doc, setDoc, getDoc, collection, addDoc, query, where, getDocs, writeBatch, serverTimestamp, Timestamp } from 'firebase/firestore';
+import { LIMITS } from './rateLimit';
 
 /**
  * Analytics Module for Deutsche Master
@@ -113,8 +114,8 @@ export async function trackPageView(pageName) {
 
   const userId = auth?.currentUser?.uid || 'anonymous';
 
-  // Log page view to Firestore
-  if (auth?.currentUser?.uid) {
+  // Log page view to Firestore (with rate limiting)
+  if (auth?.currentUser?.uid && LIMITS.analytics('page-view')) {
     try {
       await addDoc(collection(db, 'analytics', 'pageViews'), {
         page: pageName,
@@ -158,7 +159,7 @@ export async function trackEvent(eventName, eventData = {}) {
     data: eventData,
   };
 
-  if (auth?.currentUser?.uid) {
+  if (auth?.currentUser?.uid && LIMITS.analytics('track-event')) {
     try {
       await addDoc(collection(db, 'analytics', 'events'), eventDoc);
     } catch (e) {

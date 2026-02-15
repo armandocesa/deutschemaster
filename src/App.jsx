@@ -215,7 +215,7 @@ function PageWrapper({ component: PageComponent, pageName }) {
   const level = searchParams.get('level') || null;
   const state = location.state || {};
 
-  // Update document title and meta description
+  // Update document title, meta description, and canonical URL
   useEffect(() => {
     const suffix = PAGE_TITLES[pageName];
     if (pageName === 'home') {
@@ -231,6 +231,46 @@ function PageWrapper({ component: PageComponent, pageName }) {
       if (!meta) { meta = document.createElement('meta'); meta.name = 'description'; document.head.appendChild(meta); }
       meta.content = level ? `${desc} Level ${level}.` : desc;
     }
+    // Dynamic canonical URL
+    const base = 'https://deutschemaster.vercel.app';
+    const path = PAGE_TO_PATH[pageName] || '/';
+    const canonicalUrl = level ? `${base}${path}?level=${level}` : `${base}${path}`;
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) { canonical = document.createElement('link'); canonical.rel = 'canonical'; document.head.appendChild(canonical); }
+    canonical.href = canonicalUrl;
+    // Update OG URL
+    let ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.content = canonicalUrl;
+    // Dynamic BreadcrumbList structured data
+    const breadcrumbLd = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      'itemListElement': [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: base + '/' }
+      ]
+    };
+    if (pageName !== 'home') {
+      breadcrumbLd.itemListElement.push({
+        '@type': 'ListItem', position: 2,
+        name: PAGE_TITLES[pageName] || pageName,
+        item: `${base}${path}`
+      });
+      if (level) {
+        breadcrumbLd.itemListElement.push({
+          '@type': 'ListItem', position: 3,
+          name: `Level ${level}`,
+          item: canonicalUrl
+        });
+      }
+    }
+    let ldScript = document.getElementById('breadcrumb-ld');
+    if (!ldScript) {
+      ldScript = document.createElement('script');
+      ldScript.id = 'breadcrumb-ld';
+      ldScript.type = 'application/ld+json';
+      document.head.appendChild(ldScript);
+    }
+    ldScript.textContent = JSON.stringify(breadcrumbLd);
   }, [pageName, level]);
 
   // Build props based on what each page expects

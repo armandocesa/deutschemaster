@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import Icons from '../components/Icons';
+import Onboarding from '../components/Onboarding';
 import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS } from '../utils/constants';
 import { useData } from '../DataContext';
@@ -41,6 +42,9 @@ export default function HomePage({ onNavigate }) {
   const { t } = useLanguage();
   const { VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA } = useData();
   const [placementTestTaken, setPlacementTestTaken] = useState(false);
+  const [showOnboarding, setShowOnboarding] = useState(() => {
+    try { return !localStorage.getItem('dm_onboarding_done'); } catch { return false; }
+  });
 
   // Record activity on homepage visit & check badges
   useEffect(() => { recordActivity(); checkBadges(); }, []);
@@ -83,6 +87,7 @@ export default function HomePage({ onNavigate }) {
 
   return (
     <div className="home-page">
+      {showOnboarding && <Onboarding onNavigate={onNavigate} onComplete={() => setShowOnboarding(false)} />}
       {/* Streak + XP + Daily Goal Bar */}
       <section className="home-gamification-bar">
         <div className="home-gamification-card home-streak-card" onClick={() => onNavigate('profile')}>

@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
+import { initializeAppCheck, ReCaptchaEnterpriseProvider } from 'firebase/app-check';
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -18,12 +19,30 @@ let app = null;
 let auth = null;
 let db = null;
 let googleProvider = null;
+let appCheck = null;
 
 if (hasConfig) {
   app = initializeApp(firebaseConfig);
   auth = getAuth(app);
   db = getFirestore(app);
   googleProvider = new GoogleAuthProvider();
+
+  // Firebase App Check - protects backend resources from abuse
+  const recaptchaKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
+  if (recaptchaKey) {
+    try {
+      appCheck = initializeAppCheck(app, {
+        provider: new ReCaptchaEnterpriseProvider(recaptchaKey),
+        isTokenAutoRefreshEnabled: true,
+      });
+    } catch (err) {
+      if (import.meta.env.DEV) console.warn('App Check init failed:', err);
+    }
+  } else if (import.meta.env.DEV) {
+    // In development, enable debug token for App Check
+    // Set FIREBASE_APPCHECK_DEBUG_TOKEN=true in browser console before loading
+    self.FIREBASE_APPCHECK_DEBUG_TOKEN = true;
+  }
 
   // Enable offline persistence
   enableIndexedDbPersistence(db).catch((err) => {
@@ -35,4 +54,4 @@ if (hasConfig) {
   });
 }
 
-export { app, auth, db, googleProvider, hasConfig };
+export { app, auth, db, googleProvider, hasConfig, appCheck };

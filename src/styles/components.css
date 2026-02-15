@@ -302,3 +302,55 @@
 .user-stat { text-align: center; }
 .user-stat-number { display: block; font-size: 22px; font-weight: 700; color: var(--success); }
 .user-stat-label { font-size: 10px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+
+/* ===== ONBOARDING ===== */
+.onboarding-overlay {
+  position: fixed; inset: 0; z-index: 10000;
+  background: rgba(0,0,0,0.7); backdrop-filter: blur(8px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px; animation: fadeIn 0.3s ease;
+}
+.onboarding-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 40px 32px;
+  max-width: 420px; width: 100%; text-align: center;
+  box-shadow: var(--shadow-lg); animation: scaleIn 0.35s ease;
+}
+.onboarding-icon { font-size: 56px; margin-bottom: 16px; }
+.onboarding-title { font-size: 22px; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; }
+.onboarding-desc { font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px; }
+.onboarding-dots { display: flex; gap: 8px; justify-content: center; margin-bottom: 28px; }
+.onboarding-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border-hover); transition: all 0.3s ease; }
+.onboarding-dot.active { background: var(--accent); width: 24px; border-radius: 4px; }
+.onboarding-actions { display: flex; flex-direction: column; gap: 10px; }
+.onboarding-btn {
+  padding: 12px 24px; border-radius: var(--radius-sm);
+  font-size: 15px; font-weight: 600; cursor: pointer; border: none;
+  transition: all 0.2s ease;
+}
+.onboarding-btn.primary { background: var(--accent); color: white; }
+.onboarding-btn.primary:hover { filter: brightness(1.1); transform: translateY(-1px); }
+.onboarding-btn.secondary { background: var(--bg-surface); color: var(--text-primary); border: 1px solid var(--border); }
+.onboarding-btn.secondary:hover { background: var(--bg-card-hover); }
+.onboarding-btn.skip { background: transparent; color: var(--text-tertiary); font-size: 13px; }
+.onboarding-btn.skip:hover { color: var(--text-secondary); }
+
+/* ===== EMPTY STATES ===== */
+.empty-state {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 48px 24px; text-align: center; min-height: 200px;
+}
+.empty-state-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.8; }
+.empty-state-title { font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px; }
+.empty-state-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.6; max-width: 320px; margin-bottom: 20px; }
+.empty-state-actions { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.empty-state-btn {
+  padding: 10px 20px; border-radius: var(--radius-sm);
+  font-size: 14px; font-weight: 600; cursor: pointer; border: none;
+  background: var(--accent); color: white; transition: all 0.2s ease;
+}
+.empty-state-btn:hover { filter: brightness(1.1); transform: translateY(-1px); }
+.empty-state-btn.secondary {
+  background: var(--bg-surface); color: var(--text-primary); border: 1px solid var(--border);
+}
+.empty-state-btn.secondary:hover { background: var(--bg-card-hover); }

@@ -1,5 +1,6 @@
 import { db, auth, hasConfig } from '../firebase';
 import { doc, setDoc, getDoc, writeBatch } from 'firebase/firestore';
+import { LIMITS } from './rateLimit';
 
 // All localStorage keys to sync
 const SYNC_KEYS = [
@@ -50,6 +51,11 @@ export async function syncToCloud(uid) {
 
   if (Object.keys(payload).length === 0) return;
 
+  if (!LIMITS.firestoreWrite('sync-to-cloud')) {
+    if (import.meta.env.DEV) console.warn('syncToCloud rate limited');
+    return;
+  }
+
   try {
     await setDoc(doc(db, 'users', uid, 'data', 'progress'), payload, { merge: true });
   } catch (e) {
@@ -63,6 +69,11 @@ export async function syncToCloud(uid) {
  */
 export async function syncFromCloud(uid) {
   if (!hasConfig || !uid) return;
+
+  if (!LIMITS.firestoreRead('sync-from-cloud')) {
+    if (import.meta.env.DEV) console.warn('syncFromCloud rate limited');
+    return;
+  }
 
   try {
     const snapshot = await getDoc(doc(db, 'users', uid, 'data', 'progress'));
@@ -96,6 +107,11 @@ export async function syncFromCloud(uid) {
  */
 export async function syncKeyToCloud(uid, key) {
   if (!hasConfig || !uid) return;
+
+  if (!LIMITS.firestoreWrite(`sync-key-${key}`)) {
+    if (import.meta.env.DEV) console.warn(`syncKeyToCloud(${key}) rate limited`);
+    return;
+  }
 
   const data = getLocalData(key);
   if (data === null) return;

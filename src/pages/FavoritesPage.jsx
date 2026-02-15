@@ -29,8 +29,17 @@ export default function FavoritesPage({ onNavigate }) {
       )}
       {filteredWords.length === 0 ? (
         <div className="empty-state">
-          <p>{t('favorites.empty')}</p>
-          <p className="favorites-hint">{t('favorites.hint')}</p>
+          <div className="empty-state-icon">⭐</div>
+          <div className="empty-state-title">{t('favorites.empty')}</div>
+          <div className="empty-state-desc">{t('favorites.hint')}</div>
+          <div className="empty-state-actions">
+            <button className="empty-state-btn" onClick={() => onNavigate('vocabulary', { level: 'A1' })}>
+              {t('home.vocabularyTitle') !== 'home.vocabularyTitle' ? t('home.vocabularyTitle') : 'Vocabulary'}
+            </button>
+            <button className="empty-state-btn secondary" onClick={() => onNavigate('grammar', { level: 'A1' })}>
+              {t('home.grammarTitle') !== 'home.grammarTitle' ? t('home.grammarTitle') : 'Grammar'}
+            </button>
+          </div>
         </div>
       ) : (
         <div className="compact-list">

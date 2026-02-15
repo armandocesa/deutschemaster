@@ -46,8 +46,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://firestore.googleapis.com">
+  <link rel="dns-prefetch" href="https://firebaseinstallations.googleapis.com">
+  <link rel="dns-prefetch" href="https://identitytoolkit.googleapis.com">
 
-  <!-- Fonts -->
+  <!-- Font preload + stylesheet -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Multilingual hreflang -->
@@ -83,6 +86,31 @@
       "@type": "Language",
       "name": "German"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "German Language Course A1-C2",
+    "description": "Complete German language course from beginner (A1) to mastery (C2) with vocabulary, grammar, verb conjugations, reading, writing, and listening exercises.",
+    "provider": {
+      "@type": "Organization",
+      "name": "DeutschMaster",
+      "url": "https://deutschemaster.vercel.app"
+    },
+    "isAccessibleForFree": true,
+    "inLanguage": "de",
+    "availableLanguage": ["en", "it"],
+    "educationalLevel": ["Beginner", "Intermediate", "Advanced"],
+    "hasCourseInstance": [
+      { "@type": "CourseInstance", "name": "A1 Beginner", "courseMode": "online" },
+      { "@type": "CourseInstance", "name": "A2 Elementary", "courseMode": "online" },
+      { "@type": "CourseInstance", "name": "B1 Intermediate", "courseMode": "online" },
+      { "@type": "CourseInstance", "name": "B2 Upper Intermediate", "courseMode": "online" },
+      { "@type": "CourseInstance", "name": "C1 Advanced", "courseMode": "online" },
+      { "@type": "CourseInstance", "name": "C2 Mastery", "courseMode": "online" }
+    ]
   }
   </script>
 </head>
