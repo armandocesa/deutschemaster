@@ -1,4 +1,5 @@
-import React, { useState, useMemo, useCallback, Suspense, useEffect } from 'react';
+import React, { useState, useMemo, useCallback, Suspense, useEffect, Component } from 'react';
+import { BrowserRouter, Routes, Route, useNavigate, useLocation, useSearchParams, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
@@ -37,7 +38,6 @@ class ErrorBoundary extends Component {
 
   render() {
     if (this.state.hasError) {
-      // Detect language from navigator for error boundary (can't use hooks in class component)
       const lang = (navigator.language || '').slice(0, 2);
       const msgs = {
         it: { title: 'Qualcosa è andato storto', retry: 'Riprova', reload: 'Ricarica' },
@@ -104,6 +104,33 @@ const PAGE_NAME_KEYS = {
   dona: 'profile.donateNow', admin: 'admin.title'
 };
 
+// Map page names to URL paths
+const PAGE_TO_PATH = {
+  home: '/', login: '/login', vocabulary: '/vocabulary', grammar: '/grammar',
+  verbs: '/verbs', quiz: '/quiz', practice: '/practice', 'special-verbs': '/special-verbs',
+  favorites: '/favorites', reading: '/reading', stories: '/stories', lessons: '/lessons',
+  profile: '/profile', flashcards: '/flashcards', writing: '/writing', listening: '/listening',
+  paths: '/paths', 'essential-words': '/essential-words', 'verb-prefixes': '/verb-prefixes',
+  werden: '/werden', 'placement-test': '/placement-test', dona: '/dona', admin: '/admin'
+};
+
+// Reverse mapping: path to page name
+const PATH_TO_PAGE = {};
+Object.entries(PAGE_TO_PATH).forEach(([page, path]) => { PATH_TO_PAGE[path] = page; });
+
+// Page title suffixes for SEO
+const PAGE_TITLES = {
+  home: 'DeutschMaster - Learn German Free | A1-C2',
+  vocabulary: 'Vocabulary', grammar: 'Grammar', verbs: 'Verb Conjugations',
+  quiz: 'Quiz', practice: 'Practice', 'special-verbs': 'Special Verbs',
+  favorites: 'Saved Words', reading: 'Reading', stories: 'Stories',
+  lessons: 'Lessons', profile: 'Profile', flashcards: 'Flashcards',
+  writing: 'Writing', listening: 'Listening', paths: 'Learning Paths',
+  'essential-words': 'Essential Words', 'verb-prefixes': 'Verb Prefixes',
+  werden: 'Werden', 'placement-test': 'Placement Test', dona: 'Support',
+  login: 'Sign In', admin: 'Admin'
+};
+
 // Loading fallback component for lazy-loaded pages
 const PageLoadingFallback = () => {
   const { t } = useLanguage();
@@ -118,16 +145,80 @@ const PageLoadingFallback = () => {
   );
 };
 
+/**
+ * Custom hook that wraps react-router's useNavigate.
+ * Provides the same onNavigate(page, options) API that all child pages use.
+ * Under the hood, navigates to proper URLs with search params and router state.
+ */
+function useAppNavigate() {
+  const routerNavigate = useNavigate();
+
+  return useCallback((page, options = {}) => {
+    const path = PAGE_TO_PATH[page] || `/${page}`;
+    const searchParams = new URLSearchParams();
+    const state = {};
+
+    // Level goes in URL search params (for SEO & deep linking)
+    if (options.level) searchParams.set('level', options.level);
+
+    // Complex objects go in router state (not serializable to URL)
+    if (options.topic) state.topic = options.topic;
+    if (options.reading) state.reading = options.reading;
+    if (options.lesson) state.lesson = options.lesson;
+    if (options.story) state.story = options.story;
+    if (options.module) state.module = options.module;
+    if (options.difficultOnly) searchParams.set('difficult', '1');
+
+    const search = searchParams.toString();
+    const fullPath = search ? `${path}?${search}` : path;
+
+    routerNavigate(fullPath, { state: Object.keys(state).length > 0 ? state : undefined });
+    window.scrollTo(0, 0);
+    trackPageView(page);
+  }, [routerNavigate]);
+}
+
+/**
+ * Wrapper component for each route page.
+ * Extracts level from search params and state objects from router state,
+ * then passes them as props to the page component.
+ */
+function PageWrapper({ component: PageComponent, pageName }) {
+  const [searchParams] = useSearchParams();
+  const location = useLocation();
+  const onNavigate = useAppNavigate();
+
+  const level = searchParams.get('level') || null;
+  const state = location.state || {};
+
+  // Update document title
+  useEffect(() => {
+    const suffix = PAGE_TITLES[pageName];
+    if (pageName === 'home') {
+      document.title = suffix || 'DeutschMaster';
+    } else if (suffix) {
+      const levelStr = level ? ` ${level}` : '';
+      document.title = `${suffix}${levelStr} | DeutschMaster`;
+    }
+  }, [pageName, level]);
+
+  // Build props based on what each page expects
+  const props = { onNavigate };
+  if (level) props.level = level;
+  if (state.topic) props.topic = state.topic;
+  if (state.reading) props.reading = state.reading;
+  if (state.lesson) props.selectedLesson = state.lesson;
+  if (state.story) props.story = state.story;
+  if (state.module) props.selectedVerb = state.module;
+
+  return <PageComponent {...props} />;
+}
+
 function AppContent() {
   const { loading } = useAuth();
   const { t } = useLanguage();
-  const [currentPage, setCurrentPage] = useState('home');
-  const [selectedLevel, setSelectedLevel] = useState(null);
-  const [selectedModule, setSelectedModule] = useState(null);
-  const [selectedTopic, setSelectedTopic] = useState(null);
-  const [selectedReading, setSelectedReading] = useState(null);
-  const [selectedLesson, setSelectedLesson] = useState(null);
-  const [selectedStory, setSelectedStory] = useState(null);
+  const location = useLocation();
+  const onNavigate = useAppNavigate();
 
   // Re-initialize notification reminders on app load
   useEffect(() => {
@@ -137,45 +228,28 @@ function AppContent() {
     }
   }, []);
 
-  const navigate = useCallback((page, options = {}) => {
-    setCurrentPage(page);
-    setSelectedLevel(options.level || null);
-    setSelectedModule(options.module || null);
-    setSelectedTopic(options.topic || null);
-    setSelectedReading(options.reading || null);
-    setSelectedLesson(options.lesson || null);
-    setSelectedStory(options.story || null);
-    window.scrollTo(0, 0);
-
-    // Track page view
-    trackPageView(page);
-  }, []);
+  // Derive current page name from URL path
+  const currentPage = PATH_TO_PAGE[location.pathname] || 'home';
+  const [searchParams] = useSearchParams();
+  const selectedLevel = searchParams.get('level') || null;
 
   const goBack = useCallback(() => {
-    if (currentPage === 'login') { setCurrentPage('home'); return; }
-    if (selectedStory) { setSelectedStory(null); return; }
-    if (selectedLesson) { setSelectedLesson(null); return; }
-    if (selectedReading) { setSelectedReading(null); return; }
-    if (selectedTopic) { setSelectedTopic(null); return; }
-    if (selectedModule) { setSelectedModule(null); return; }
-    if (selectedLevel && currentPage !== 'home') { setSelectedLevel(null); return; }
-    setCurrentPage('home');
-    setSelectedLevel(null);
-    window.scrollTo(0, 0);
-  }, [selectedStory, selectedLesson, selectedReading, selectedTopic, selectedModule, selectedLevel, currentPage]);
+    window.history.back();
+  }, []);
 
   const breadcrumbs = useMemo(() => {
     if (currentPage === 'home' || currentPage === 'login') return [];
-    const crumbs = [{ label: t('nav.home'), onClick: () => navigate('home') }];
-    crumbs.push({ label: PAGE_NAME_KEYS[currentPage] ? t(PAGE_NAME_KEYS[currentPage]) : currentPage, onClick: () => navigate(currentPage) });
-    if (selectedLevel) crumbs.push({ label: selectedLevel, onClick: () => navigate(currentPage, { level: selectedLevel }) });
-    if (selectedModule && currentPage === 'verbs') crumbs.push({ label: selectedModule.name || 'Verb', onClick: null });
-    if (selectedTopic) crumbs.push({ label: selectedTopic.name || 'Argomento', onClick: null });
-    if (selectedReading) crumbs.push({ label: selectedReading.title || 'Testo', onClick: null });
-    if (selectedLesson) crumbs.push({ label: selectedLesson.title || 'Lezione', onClick: null });
-    if (selectedStory) crumbs.push({ label: selectedStory.title || 'Storia', onClick: null });
+    const crumbs = [{ label: t('nav.home'), onClick: () => onNavigate('home') }];
+    crumbs.push({ label: PAGE_NAME_KEYS[currentPage] ? t(PAGE_NAME_KEYS[currentPage]) : currentPage, onClick: () => onNavigate(currentPage) });
+    if (selectedLevel) crumbs.push({ label: selectedLevel, onClick: () => onNavigate(currentPage, { level: selectedLevel }) });
+    const state = location.state || {};
+    if (state.module) crumbs.push({ label: state.module.name || state.module.infinitiv || 'Verb', onClick: null });
+    if (state.topic) crumbs.push({ label: state.topic.name || 'Topic', onClick: null });
+    if (state.reading) crumbs.push({ label: state.reading.title || 'Text', onClick: null });
+    if (state.lesson) crumbs.push({ label: state.lesson.title || 'Lesson', onClick: null });
+    if (state.story) crumbs.push({ label: state.story.title || 'Story', onClick: null });
     return crumbs;
-  }, [currentPage, selectedLevel, selectedModule, selectedTopic, selectedReading, selectedLesson, t]);
+  }, [currentPage, selectedLevel, location.state, t, onNavigate]);
 
   if (loading) {
     return (
@@ -191,62 +265,57 @@ function AppContent() {
 
   const showBack = currentPage !== 'home';
   const isLoginPage = currentPage === 'login';
-
-  // List of valid pages for route validation
-  const validPages = [
-    'home', 'login', 'vocabulary', 'grammar', 'verbs', 'quiz', 'practice',
-    'special-verbs', 'favorites', 'reading', 'stories', 'lessons', 'profile', 'flashcards',
-    'writing', 'listening', 'paths', 'essential-words', 'verb-prefixes', 'werden', 'placement-test', 'dona', 'admin'
-  ];
-
-  const isValidPage = validPages.includes(currentPage);
-  const shouldShow404 = currentPage && !isValidPage && currentPage !== 'home';
+  const isNotFound = !PATH_TO_PAGE[location.pathname] && location.pathname !== '/';
 
   return (
     <div className="app">
-      {!isLoginPage && !shouldShow404 && <Header currentPage={currentPage} onNavigate={navigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />}
-      <main className="main-content" key={currentPage}>
+      {!isLoginPage && !isNotFound && <Header currentPage={currentPage} onNavigate={onNavigate} onBack={goBack} showBack={showBack} breadcrumbs={breadcrumbs} />}
+      <main className="main-content">
         <ErrorBoundary>
         <Suspense fallback={<PageLoadingFallback />}>
-          {shouldShow404 && <NotFoundPage onNavigate={navigate} />}
-          {currentPage === 'login' && <LoginPage onNavigate={navigate} />}
-          {currentPage === 'home' && <HomePage onNavigate={navigate} />}
-          {currentPage === 'vocabulary' && <VocabularyPage level={selectedLevel} onNavigate={navigate} />}
-          {currentPage === 'grammar' && <GrammarPage level={selectedLevel} topic={selectedTopic} onNavigate={navigate} />}
-          {currentPage === 'verbs' && <VerbsPage selectedVerb={selectedModule} onNavigate={navigate} />}
-          {currentPage === 'quiz' && <QuizPage level={selectedLevel} onNavigate={navigate} />}
-          {currentPage === 'practice' && <PracticePage onNavigate={navigate} />}
-          {currentPage === 'special-verbs' && <SpecialVerbsPage onNavigate={navigate} />}
-          {currentPage === 'favorites' && <FavoritesPage onNavigate={navigate} />}
-          {currentPage === 'reading' && <ReadingPage level={selectedLevel} reading={selectedReading} onNavigate={navigate} />}
-          {currentPage === 'stories' && <StoriesPage level={selectedLevel} story={selectedStory} onNavigate={navigate} />}
-          {currentPage === 'lessons' && <LessonsPage selectedLesson={selectedLesson} onNavigate={navigate} />}
-          {currentPage === 'profile' && <ProfilePage onNavigate={navigate} />}
-          {currentPage === 'flashcards' && <FlashcardsPage onNavigate={navigate} />}
-          {currentPage === 'writing' && <WritingPage onNavigate={navigate} />}
-          {currentPage === 'listening' && <ListeningPage onNavigate={navigate} />}
-          {currentPage === 'paths' && <PathsPage onNavigate={navigate} />}
-          {currentPage === 'essential-words' && <EssentialWordsPage level={selectedLevel} onNavigate={navigate} />}
-          {currentPage === 'verb-prefixes' && <VerbPrefixesPage onNavigate={navigate} />}
-          {currentPage === 'werden' && <WerdenPage onNavigate={navigate} />}
-          {currentPage === 'placement-test' && <PlacementTestPage onNavigate={navigate} />}
-          {currentPage === 'dona' && <DonaPage onNavigate={navigate} />}
-          {currentPage === 'admin' && <AdminPage onNavigate={navigate} />}
+          <Routes>
+            <Route path="/" element={<PageWrapper component={HomePage} pageName="home" />} />
+            <Route path="/login" element={<PageWrapper component={LoginPage} pageName="login" />} />
+            <Route path="/vocabulary" element={<PageWrapper component={VocabularyPage} pageName="vocabulary" />} />
+            <Route path="/grammar" element={<PageWrapper component={GrammarPage} pageName="grammar" />} />
+            <Route path="/verbs" element={<PageWrapper component={VerbsPage} pageName="verbs" />} />
+            <Route path="/quiz" element={<PageWrapper component={QuizPage} pageName="quiz" />} />
+            <Route path="/practice" element={<PageWrapper component={PracticePage} pageName="practice" />} />
+            <Route path="/special-verbs" element={<PageWrapper component={SpecialVerbsPage} pageName="special-verbs" />} />
+            <Route path="/favorites" element={<PageWrapper component={FavoritesPage} pageName="favorites" />} />
+            <Route path="/reading" element={<PageWrapper component={ReadingPage} pageName="reading" />} />
+            <Route path="/stories" element={<PageWrapper component={StoriesPage} pageName="stories" />} />
+            <Route path="/lessons" element={<PageWrapper component={LessonsPage} pageName="lessons" />} />
+            <Route path="/profile" element={<PageWrapper component={ProfilePage} pageName="profile" />} />
+            <Route path="/flashcards" element={<PageWrapper component={FlashcardsPage} pageName="flashcards" />} />
+            <Route path="/writing" element={<PageWrapper component={WritingPage} pageName="writing" />} />
+            <Route path="/listening" element={<PageWrapper component={ListeningPage} pageName="listening" />} />
+            <Route path="/paths" element={<PageWrapper component={PathsPage} pageName="paths" />} />
+            <Route path="/essential-words" element={<PageWrapper component={EssentialWordsPage} pageName="essential-words" />} />
+            <Route path="/verb-prefixes" element={<PageWrapper component={VerbPrefixesPage} pageName="verb-prefixes" />} />
+            <Route path="/werden" element={<PageWrapper component={WerdenPage} pageName="werden" />} />
+            <Route path="/placement-test" element={<PageWrapper component={PlacementTestPage} pageName="placement-test" />} />
+            <Route path="/dona" element={<PageWrapper component={DonaPage} pageName="dona" />} />
+            <Route path="/admin" element={<PageWrapper component={AdminPage} pageName="admin" />} />
+            <Route path="*" element={<NotFoundPage onNavigate={onNavigate} />} />
+          </Routes>
         </Suspense>
         </ErrorBoundary>
       </main>
-      {!isLoginPage && !shouldShow404 && <BottomNav currentPage={currentPage} onNavigate={navigate} />}
-      {!isLoginPage && !shouldShow404 && <Footer />}
+      {!isLoginPage && !isNotFound && <BottomNav currentPage={currentPage} onNavigate={onNavigate} />}
+      {!isLoginPage && !isNotFound && <Footer />}
     </div>
   );
 }
 
 export default function App() {
   return (
-    <ThemeProvider>
-      <AuthProvider>
-        <AppContent />
-      </AuthProvider>
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider>
+        <AuthProvider>
+          <AppContent />
+        </AuthProvider>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
