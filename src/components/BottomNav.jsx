@@ -2,7 +2,7 @@ import React from 'react';
 import Icons from './Icons';
 import { useLanguage } from '../contexts/LanguageContext';
 
-export default function BottomNav({ currentPage, onNavigate }) {
+function BottomNav({ currentPage, onNavigate }) {
   const { t } = useLanguage();
   return (
     <nav className="bottom-nav" aria-label="Main navigation">
@@ -14,3 +14,5 @@ export default function BottomNav({ currentPage, onNavigate }) {
     </nav>
   );
 }
+
+export default React.memo(BottomNav);

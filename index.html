@@ -42,8 +42,49 @@
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1f1e9;&#x1f1ea;</text></svg>">
 
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://firestore.googleapis.com">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Multilingual hreflang -->
+  <link rel="alternate" hreflang="en" href="https://deutschemaster.vercel.app/">
+  <link rel="alternate" hreflang="it" href="https://deutschemaster.vercel.app/">
+  <link rel="alternate" hreflang="de" href="https://deutschemaster.vercel.app/">
+  <link rel="alternate" hreflang="x-default" href="https://deutschemaster.vercel.app/">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "DeutschMaster",
+    "url": "https://deutschemaster.vercel.app",
+    "description": "Free app to learn German from A1 to C2 with vocabulary, grammar, verb conjugations, stories and quizzes.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web",
+    "inLanguage": ["en", "it", "de"],
+    "isAccessibleForFree": true,
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Armando Cesa"
+    },
+    "educationalLevel": ["Beginner", "Intermediate", "Advanced"],
+    "teaches": "German language",
+    "about": {
+      "@type": "Language",
+      "name": "German"
+    }
+  }
+  </script>
 </head>
 <body>
   <div id="root"></div>

@@ -11,37 +11,39 @@ service cloud.firestore {
       }
     }
 
-    // Analytics collection - more permissive for data tracking
+    // Analytics collection - scoped to own data
     match /analytics/{document=**} {
-      // Sessions: all authenticated users can read, only their own sessions
+      // Sessions: users can only read/write their own sessions
       match /sessions/{sessionId} {
-        allow read: if request.auth.uid != null;
-        allow create: if request.auth.uid != null || request.auth == null; // Allow both authenticated and anonymous
-        allow write: if request.auth.uid == resource.data.userId;
+        allow read: if request.auth.uid != null && resource.data.userId == request.auth.uid;
+        allow create: if request.auth.uid != null;
+        allow update, delete: if request.auth.uid != null && resource.data.userId == request.auth.uid;
       }
 
-      // Page views: authenticated users can create/read
+      // Page views: users can create their own, read only their own
       match /pageViews/{docId} {
-        allow read, create: if request.auth.uid != null;
-        allow write: if request.auth.uid == resource.data.userId;
+        allow read: if request.auth.uid != null && resource.data.userId == request.auth.uid;
+        allow create: if request.auth.uid != null;
+        allow update, delete: if request.auth.uid != null && resource.data.userId == request.auth.uid;
       }
 
-      // Events: authenticated users can create/read
+      // Events: users can create their own, read only their own
       match /events/{docId} {
-        allow read, create: if request.auth.uid != null;
-        allow write: if request.auth.uid == resource.data.userId;
+        allow read: if request.auth.uid != null && resource.data.userId == request.auth.uid;
+        allow create: if request.auth.uid != null;
+        allow update, delete: if request.auth.uid != null && resource.data.userId == request.auth.uid;
       }
 
       // Daily stats: authenticated users can read, admin can write
       match /dailyStats/{date} {
         allow read: if request.auth.uid != null;
-        allow write: if request.auth.uid != null && isAdmin(request.auth.uid);
+        allow write: if request.auth.uid != null && isAdmin(request.auth);
       }
     }
 
-    // Helper function to check if user is admin
-    function isAdmin(uid) {
-      return uid in ['armandocesa@gmail.com']; // Will work with email check via custom claims in practice
+    // Helper function to check if user is admin (uses custom claims)
+    function isAdmin(auth) {
+      return auth.token.admin == true || auth.token.email == 'armandocesa@gmail.com';
     }
 
     // Default deny all

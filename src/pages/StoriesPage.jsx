@@ -94,7 +94,7 @@ function StoryReader({ story, level, colors, onBack }) {
             <p className="page-subtitle">{t('stories.title')} - {story.titleIt}</p>
           </div>
           <div className="reading-score">
-            <h3>{t('stories.completed')}</h3>
+            <h2>{t('stories.completed')}</h2>
             <p>{t('stories.completedText')} <strong>{story.title}</strong></p>
             <div style={{marginTop: '20px', padding: '16px', background: 'rgba(108,92,231,0.1)', borderRadius: 'var(--radius)', textAlign: 'center'}}>
               <div style={{fontSize: '32px', fontWeight: '800', color: 'var(--accent)'}}>+20 XP</div>
@@ -167,9 +167,9 @@ function StoryReader({ story, level, colors, onBack }) {
         ) : (
           <>
             <div style={{background: 'rgba(108,92,231,0.1)', padding: '24px', borderRadius: 'var(--radius)', marginBottom: '24px'}}>
-              <h3 style={{marginBottom: '16px', fontSize: '16px', fontWeight: '700'}}>
+              <h2 style={{marginBottom: '16px', fontSize: '16px', fontWeight: '700'}}>
                 ❓ {question.question || question.questionIt}
-              </h3>
+              </h2>
               <div style={{display: 'grid', gap: '12px'}}>
                 {(question.options || []).map((opt, idx) => {
                   const answered = answers[currentLineIndex] !== undefined;
@@ -288,7 +288,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
           </div>
           <div style={{textAlign: 'center', padding: '40px', background: 'rgba(239,68,68,0.1)', borderRadius: 'var(--radius)', border: '1px solid rgba(239,68,68,0.3)'}}>
             <span style={{fontSize: '48px', display: 'block', marginBottom: '16px'}}>🔒</span>
-            <h3 style={{marginBottom: '8px'}}>{t('stories.limitedAccess')}</h3>
+            <h2 style={{marginBottom: '8px'}}>{t('stories.limitedAccess')}</h2>
             <p style={{color: 'var(--text-secondary)', marginBottom: '16px'}}>{t('stories.limitedMessage')} {activeLevel} {t('stories.requiresAuth')}</p>
             <button onClick={() => onNavigate('login')} style={{padding: '10px 20px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
               {t('stories.signIn')}

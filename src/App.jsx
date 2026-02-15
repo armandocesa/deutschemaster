@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback, Suspense, useEffect, Component } from 'react';
+import React, { useState, useMemo, useCallback, Suspense, useEffect } from 'react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
@@ -37,28 +37,28 @@ class ErrorBoundary extends Component {
 
   render() {
     if (this.state.hasError) {
+      // Detect language from navigator for error boundary (can't use hooks in class component)
+      const lang = (navigator.language || '').slice(0, 2);
+      const msgs = {
+        it: { title: 'Qualcosa è andato storto', retry: 'Riprova', reload: 'Ricarica' },
+        de: { title: 'Etwas ist schiefgelaufen', retry: 'Erneut versuchen', reload: 'Neu laden' },
+        en: { title: 'Something went wrong', retry: 'Retry', reload: 'Reload' },
+      };
+      const m = msgs[lang] || msgs.en;
       return (
-        <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
-          <div style={{ textAlign: 'center', padding: '20px' }}>
-            <div style={{ fontSize: '48px', marginBottom: '16px' }}>⚠️</div>
-            <h2 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Something went wrong</h2>
-            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '20px' }}>
-              {this.state.error?.message || 'An error occurred while loading the page'}
-            </p>
-            <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
-              <button
-                onClick={() => { this.setState({ hasError: false, error: null }); }}
-                style={{ padding: '10px 24px', background: 'var(--gradient-1)', color: 'white', border: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
-              >
-                Retry
-              </button>
-              <button
-                onClick={this.handleReload}
-                style={{ padding: '10px 24px', background: 'var(--bg-card)', color: 'var(--text-primary)', border: '1px solid var(--border)', borderRadius: '8px', fontSize: '14px', fontWeight: 600, cursor: 'pointer' }}
-              >
-                Reload
-              </button>
-            </div>
+        <div className="error-boundary">
+          <div style={{ fontSize: '48px', marginBottom: '16px' }}>⚠️</div>
+          <h2>{m.title}</h2>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '20px' }}>
+            {this.state.error?.message || ''}
+          </p>
+          <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
+            <button onClick={() => { this.setState({ hasError: false, error: null }); }}>
+              {m.retry}
+            </button>
+            <button onClick={this.handleReload}>
+              {m.reload}
+            </button>
           </div>
         </div>
       );

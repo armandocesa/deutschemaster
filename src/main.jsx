@@ -31,9 +31,14 @@ window.addEventListener('beforeunload', () => {
 });
 
 // Periodically sync queued events (every 30 seconds)
-setInterval(() => {
+const syncInterval = setInterval(() => {
   syncQueuedEvents();
 }, 30000);
+
+// Clean up interval on page unload
+window.addEventListener('beforeunload', () => {
+  clearInterval(syncInterval);
+});
 
 class ErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { hasError: false }; }
@@ -41,11 +46,13 @@ class ErrorBoundary extends React.Component {
   componentDidCatch(error, info) { if (import.meta.env.DEV) console.error('ErrorBoundary:', error, info); }
   render() {
     if (this.state.hasError) {
+      const lang = (navigator.language || '').slice(0, 2);
+      const msgs = { it: { t: 'Qualcosa è andato storto', r: 'Ricarica la pagina' }, de: { t: 'Etwas ist schiefgelaufen', r: 'Seite neu laden' }, en: { t: 'Something went wrong', r: 'Reload page' } };
+      const m = msgs[lang] || msgs.en;
       return (
         <div className="error-boundary">
-          <h2>Something went wrong</h2>
-          <p style={{color: 'var(--text-secondary)'}}>An unexpected error occurred.</p>
-          <button onClick={() => { this.setState({ hasError: false }); window.location.reload(); }}>Reload page</button>
+          <h2>{m.t}</h2>
+          <button onClick={() => { this.setState({ hasError: false }); window.location.reload(); }}>{m.r}</button>
         </div>
       );
     }

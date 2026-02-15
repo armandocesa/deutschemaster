@@ -41,7 +41,7 @@ function ReadingDetail({ reading, level, colors }) {
         <div className="reading-toolbar"><button className="read-aloud-btn" onClick={readAloud}><Icons.Volume /> {t('reading.readAloud')}</button></div>
         <div className="reading-text">{reading.text.split('\n').filter(p => p.trim()).map((p, i) => <p key={i}>{renderTextWithTooltips(p)}</p>)}</div>
         <div className="comprehension-section">
-          <h3>{t('reading.comprehension')}</h3>
+          <h2>{t('reading.comprehension')}</h2>
           {reading.questions.map((q, qIdx) => {
             const userAnswer = answers[qIdx]; const hasAnswered = userAnswer !== undefined; const isCorrect = userAnswer === q.correctAnswer;
             return (
@@ -54,7 +54,7 @@ function ReadingDetail({ reading, level, colors }) {
               </div>
             );
           })}
-          {showScore && <div className="reading-score"><h3>{t('reading.score')} {score}/{reading.questions.length}</h3><p>{score===reading.questions.length?t('reading.perfect'):score>=reading.questions.length/2?t('reading.goodJob'):t('reading.tryAgain')}</p></div>}
+          {showScore && <div className="reading-score"><h2>{t('reading.score')} {score}/{reading.questions.length}</h2><p>{score===reading.questions.length?t('reading.perfect'):score>=reading.questions.length/2?t('reading.goodJob'):t('reading.tryAgain')}</p></div>}
         </div>
       </div>
     </div>

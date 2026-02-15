@@ -160,13 +160,13 @@ function GrammarTopicDetail({ topic, level, colors }) {
         marginBottom: '12px'
       }}>
         <span style={{ fontSize: '20px' }}>{iconMap[key] || '◆'}</span>
-        <h3 style={{
+        <h2 style={{
           margin: 0,
           fontSize: '16px',
           fontWeight: '600',
           color: 'var(--accent)',
           letterSpacing: '0.5px'
-        }}>{displayKey}</h3>
+        }}>{displayKey}</h2>
       </div>
     );
   };
@@ -219,13 +219,13 @@ function GrammarTopicDetail({ topic, level, colors }) {
             marginBottom: '16px'
           }}>
             <span style={{ fontSize: '20px' }}>📚</span>
-            <h3 style={{
+            <h2 style={{
               margin: 0,
               fontSize: '16px',
               fontWeight: '600',
               color: 'var(--accent)',
               letterSpacing: '0.5px'
-            }}>{t('lessons.exercises')} ({topic.exercises.length})</h3>
+            }}>{t('lessons.exercises')} ({topic.exercises.length})</h2>
           </div>
           <div className="exercises-list">
             {topic.exercises.map((ex, idx) => (

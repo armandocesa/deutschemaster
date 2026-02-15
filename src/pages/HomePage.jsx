@@ -62,12 +62,15 @@ export default function HomePage({ onNavigate }) {
     exercises: GRAMMAR_DATA.statistics?.totalExercises || 261,
   }), [VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA]);
 
-  const quizStats = getQuizStats();
-  const savedCount = getDifficultWords().length;
-  const streak = getStreak();
-  const xp = getXP();
-  const dailyGoal = checkDailyGoal();
-  const reviewStats = getReviewStats();
+  const userProgress = useMemo(() => ({
+    quizStats: getQuizStats(),
+    savedCount: getDifficultWords().length,
+    streak: getStreak(),
+    xp: getXP(),
+    dailyGoal: checkDailyGoal(),
+    reviewStats: getReviewStats(),
+  }), []); // eslint-disable-line react-hooks/exhaustive-deps
+  const { quizStats, savedCount, streak, xp, dailyGoal, reviewStats } = userProgress;
 
   const getLevelName = (lvl) => {
     if (lvl <= 5) return t('home.levels.beginner');
@@ -155,7 +158,7 @@ export default function HomePage({ onNavigate }) {
 
       {quizStats.totalAnswered > 0 && (
         <section className="continue-section">
-          <h3 className="continue-title">{t('home.progress.title')}</h3>
+          <h2 className="continue-title">{t('home.progress.title')}</h2>
           <div className="continue-cards">
             <div className="continue-card" onClick={() => onNavigate('quiz')}>
               <div className="card-badge" style={{backgroundColor: 'var(--accent)'}}>{quizStats.totalAnswered}</div>
@@ -172,7 +175,7 @@ export default function HomePage({ onNavigate }) {
       )}
 
       <section>
-        <h3 className="continue-title">{t('home.study')}</h3>
+        <h2 className="continue-title">{t('home.study')}</h2>
         <div className="quick-actions-grid">
           {!placementTestTaken && (
             <QuickActionCard icon={<span style={{fontSize:'20px'}}>📍</span>} title={t('home.testPositioning')} color="#6c5ce7" onClick={() => onNavigate('placement-test')} noLevel badge={t('home.new')} />
@@ -191,7 +194,7 @@ export default function HomePage({ onNavigate }) {
       </section>
 
       <section>
-        <h3 className="continue-title">{t('home.practice')}</h3>
+        <h2 className="continue-title">{t('home.practice')}</h2>
         <div className="quick-actions-grid">
           <QuickActionCard icon={<Icons.Flashcard />} title={t('home.flashcardsTitle')} color="#8b5cf6" onClick={() => onNavigate('flashcards')} noLevel badge={reviewStats.dueToday > 0 ? `${reviewStats.dueToday} ${t('home.toDo')}` : null} />
           <QuickActionCard icon={<Icons.Writing />} title={t('home.writingTitle')} color="#10b981" onClick={() => onNavigate('writing')} noLevel />

@@ -61,7 +61,7 @@ function LessonDetail({ lesson }) {
         <div style={{ marginBottom: '28px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
             <span style={{ fontSize: '20px' }}>💬</span>
-            <h3 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.dialog')}</h3>
+            <h2 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.dialog')}</h2>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             {lesson.dialogue.map((line, idx) => (
@@ -84,7 +84,7 @@ function LessonDetail({ lesson }) {
         <div style={{ marginBottom: '28px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
             <span style={{ fontSize: '20px' }}>📖</span>
-            <h3 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.vocabulary')}</h3>
+            <h2 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.vocabulary')}</h2>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
             {lesson.vocabulary.map((word, idx) => (
@@ -106,7 +106,7 @@ function LessonDetail({ lesson }) {
         <div style={{ marginBottom: '28px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
             <span style={{ fontSize: '20px' }}>📝</span>
-            <h3 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.grammar')}</h3>
+            <h2 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.grammar')}</h2>
           </div>
           <div style={{
             padding: '16px', background: 'rgba(76,175,80,0.08)', border: '1px solid rgba(76,175,80,0.2)',
@@ -121,7 +121,7 @@ function LessonDetail({ lesson }) {
         <div style={{ marginBottom: '28px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
             <span style={{ fontSize: '20px' }}>📚</span>
-            <h3 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.exercises')} ({lesson.exercises.length})</h3>
+            <h2 style={{ margin: 0, fontSize: '16px', fontWeight: 600, color: 'var(--accent)', letterSpacing: '0.5px' }}>{t('lessons.exercises')} ({lesson.exercises.length})</h2>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             {lesson.exercises.map((ex, idx) => (
@@ -195,16 +195,16 @@ export default function LessonsPage({ selectedLesson, onNavigate }) {
   return (
     <div className="lessons-page">
       <div className="lessons-progress">
-        <div className="lessons-progress-header"><h3>{t('lessons.progress')}</h3><span>{completedCount}/{lessons.length} {t('lessons.completed')}</span></div>
+        <div className="lessons-progress-header"><h2>{t('lessons.progress')}</h2><span>{completedCount}/{lessons.length} {t('lessons.completed')}</span></div>
         <div className="lessons-progress-bar"><div className="lessons-progress-fill" style={{ width: `${lessons.length ? completedCount / lessons.length * 100 : 0}%` }}></div></div>
       </div>
       <div className="lessons-phase-group">
-        <h3 className="lessons-phase-title" style={{ color: 'var(--accent-light)' }}>{t('lessons.passive')}</h3>
+        <h2 className="lessons-phase-title" style={{ color: 'var(--accent-light)' }}>{t('lessons.passive')}</h2>
         <p className="lessons-phase-subtitle">{t('lessons.title')} 1-49 - {t('lessons.listeningComprehension')}</p>
         <div className="compact-list">{passiva.map(renderLesson)}</div>
       </div>
       <div className="lessons-phase-group">
-        <h3 className="lessons-phase-title" style={{ color: 'var(--highlight)' }}>{t('lessons.active')}</h3>
+        <h2 className="lessons-phase-title" style={{ color: 'var(--highlight)' }}>{t('lessons.active')}</h2>
         <p className="lessons-phase-subtitle">{t('lessons.title')} 50-100 - {t('lessons.activeProduction')}</p>
         <div className="compact-list">{attiva.map(renderLesson)}</div>
       </div>
