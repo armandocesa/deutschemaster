@@ -16,7 +16,7 @@
           "plural": "Unternehmen",
           "type": "n",
           "en": "Azienda",
-          "exampleEn": "L'azienda cresce."
+          "exampleEn": "The company is growing."
         },
         {
           "de": "Investition",
@@ -27,7 +27,7 @@
           "plural": "Investitionen",
           "type": "n",
           "en": "Investimento",
-          "exampleEn": "L'investimento è logico."
+          "exampleEn": "The investment makes sense."
         },
         {
           "de": "Aktie",
@@ -38,7 +38,7 @@
           "plural": "Aktien",
           "type": "n",
           "en": "Azione",
-          "exampleEn": "L'azione aumenta."
+          "exampleEn": "The stock is rising."
         },
         {
           "de": "Gewinn",
@@ -49,7 +49,7 @@
           "plural": "Gewinne",
           "type": "n",
           "en": "Profitto",
-          "exampleEn": "Il profitto è alto."
+          "exampleEn": "The profit is high."
         },
         {
           "de": "Verlust",
@@ -60,7 +60,7 @@
           "plural": "Verluste",
           "type": "n",
           "en": "Perdita",
-          "exampleEn": "La perdita è grande."
+          "exampleEn": "The loss is big."
         },
         {
           "de": "Wettbewerb",
@@ -71,7 +71,7 @@
           "plural": "Wettbewerbe",
           "type": "n",
           "en": "Competizione",
-          "exampleEn": "La competizione è accesa."
+          "exampleEn": "The competition is fierce."
         },
         {
           "de": "Handel",
@@ -82,7 +82,7 @@
           "plural": null,
           "type": "n",
           "en": "Commercio",
-          "exampleEn": "Il commercio prospera."
+          "exampleEn": "Trade is booming."
         },
         {
           "de": "exportieren",
@@ -93,7 +93,7 @@
           "plural": null,
           "type": "v",
           "en": "Esportare",
-          "exampleEn": "Esportiamo merci."
+          "exampleEn": "We export goods."
         },
         {
           "de": "importieren",
@@ -104,7 +104,7 @@
           "plural": null,
           "type": "v",
           "en": "Importare",
-          "exampleEn": "Importiamo materie prime."
+          "exampleEn": "We import raw materials."
         },
         {
           "de": "Markt",
@@ -115,7 +115,7 @@
           "plural": "Märkte",
           "type": "n",
           "en": "Mercato",
-          "exampleEn": "Il mercato è volatile."
+          "exampleEn": "The market is volatile."
         },
         {
           "de": "Preis",
@@ -126,7 +126,7 @@
           "plural": "Preise",
           "type": "n",
           "en": "Prezzo",
-          "exampleEn": "Il prezzo è alto."
+          "exampleEn": "The price is high."
         },
         {
           "de": "Kunde",
@@ -137,7 +137,7 @@
           "plural": "Kunden",
           "type": "n",
           "en": "Cliente",
-          "exampleEn": "Il cliente è importante."
+          "exampleEn": "The customer is important."
         },
         {
           "de": "Verkauf",
@@ -148,7 +148,7 @@
           "plural": "Verkäufe",
           "type": "n",
           "en": "Vendita",
-          "exampleEn": "La vendita è buona."
+          "exampleEn": "Sales are good."
         },
         {
           "de": "Einkauf",
@@ -159,7 +159,7 @@
           "plural": "Einkäufe",
           "type": "n",
           "en": "Acquisto",
-          "exampleEn": "L'acquisto è caro."
+          "exampleEn": "Purchasing is expensive."
         },
         {
           "de": "Produktion",
@@ -170,7 +170,7 @@
           "plural": "Produktionen",
           "type": "n",
           "en": "Produzione",
-          "exampleEn": "La produzione aumenta."
+          "exampleEn": "Production is growing."
         },
         {
           "de": "Dienstleistung",
@@ -181,7 +181,7 @@
           "plural": "Dienstleistungen",
           "type": "n",
           "en": "Servizio",
-          "exampleEn": "Il servizio è buono."
+          "exampleEn": "The service is good."
         },
         {
           "de": "Strategie",
@@ -192,7 +192,7 @@
           "plural": "Strategien",
           "type": "n",
           "en": "Strategia",
-          "exampleEn": "La strategia è a lungo termine."
+          "exampleEn": "The strategy is long-term."
         },
         {
           "de": "Konkurrenz",
@@ -203,7 +203,7 @@
           "plural": "Konkurrenzen",
           "type": "n",
           "en": "Concorrenza",
-          "exampleEn": "La concorrenza è grande."
+          "exampleEn": "The competition is big."
         },
         {
           "de": "Monopol",
@@ -214,7 +214,7 @@
           "plural": "Monopole",
           "type": "n",
           "en": "Monopolio",
-          "exampleEn": "Il monopolio è problematico."
+          "exampleEn": "The monopoly is problematic."
         },
         {
           "de": "Dividende",
@@ -225,7 +225,7 @@
           "plural": "Dividenden",
           "type": "n",
           "en": "Dividendo",
-          "exampleEn": "Il dividendo viene pagato."
+          "exampleEn": "The dividend is paid."
         },
         {
           "de": "Bilanz",
@@ -236,7 +236,7 @@
           "plural": "Bilanzen",
           "type": "n",
           "en": "Bilancio",
-          "exampleEn": "Il bilancio è positivo."
+          "exampleEn": "The balance sheet is positive."
         },
         {
           "de": "Budget",
@@ -246,8 +246,8 @@
           "article": "das",
           "plural": "Budgets",
           "type": "n",
-          "en": "Budget",
-          "exampleEn": "Il budget è limitato."
+          "en": "budget",
+          "exampleEn": "The budget is limited."
         },
         {
           "de": "Schulden",
@@ -258,7 +258,7 @@
           "plural": null,
           "type": "n",
           "en": "Debiti",
-          "exampleEn": "I debiti sono alti."
+          "exampleEn": "The debts are high."
         },
         {
           "de": "Kapital",
@@ -269,7 +269,7 @@
           "plural": "Kapitalien",
           "type": "n",
           "en": "Capitale",
-          "exampleEn": "Il capitale cresce."
+          "exampleEn": "Capital is growing."
         },
         {
           "de": "Zinsen",
@@ -280,7 +280,7 @@
           "plural": null,
           "type": "n",
           "en": "Interessi",
-          "exampleEn": "Gli interessi sono bassi."
+          "exampleEn": "Interest rates are low."
         },
         {
           "de": "Bankrott",
@@ -291,7 +291,7 @@
           "plural": "Bankrotte",
           "type": "n",
           "en": "fallimento",
-          "exampleEn": "Il fallimento è catastrofico."
+          "exampleEn": "Bankruptcy is catastrophic."
         },
         {
           "de": "Finanzmarkt",
@@ -302,7 +302,7 @@
           "plural": "Finanzmärkte",
           "type": "n",
           "en": "mercato finanziario",
-          "exampleEn": "Il mercato finanziario è volatile."
+          "exampleEn": "The financial market is volatile."
         },
         {
           "de": "Rendite",
@@ -313,7 +313,7 @@
           "plural": "Renditen",
           "type": "n",
           "en": "rendimento",
-          "exampleEn": "Il rendimento è positivo."
+          "exampleEn": "The yield is positive."
         }
       ]
     },
@@ -330,7 +330,7 @@
           "plural": "Abgeordnete",
           "type": "n",
           "en": "deputato",
-          "exampleEn": "Il deputato vota."
+          "exampleEn": "The representative votes."
         },
         {
           "de": "Koalition",
@@ -341,7 +341,7 @@
           "plural": "Koalitionen",
           "type": "n",
           "en": "coalizione",
-          "exampleEn": "La coalizione è stabile."
+          "exampleEn": "The coalition is stable."
         },
         {
           "de": "Opposition",
@@ -352,7 +352,7 @@
           "plural": "Oppositionen",
           "type": "n",
           "en": "opposizione",
-          "exampleEn": "L'opposizione critica."
+          "exampleEn": "The opposition criticizes."
         },
         {
           "de": "Debatte",
@@ -363,7 +363,7 @@
           "plural": "Debatten",
           "type": "n",
           "en": "dibattito",
-          "exampleEn": "Il dibattito è acceso."
+          "exampleEn": "The debate is heated."
         },
         {
           "de": "Reform",
@@ -374,7 +374,7 @@
           "plural": "Reformen",
           "type": "n",
           "en": "riforma",
-          "exampleEn": "La riforma è necessaria."
+          "exampleEn": "The reform is necessary."
         },
         {
           "de": "Wahlkampf",
@@ -385,7 +385,7 @@
           "plural": "Wahlkämpfe",
           "type": "n",
           "en": "campagna elettorale",
-          "exampleEn": "La campagna elettorale è lunga."
+          "exampleEn": "The election campaign is long."
         },
         {
           "de": "abstimmen",
@@ -396,7 +396,7 @@
           "plural": null,
           "type": "v",
           "en": "votare",
-          "exampleEn": "Votiamo."
+          "exampleEn": "We vote."
         },
         {
           "de": "Bundestag",
@@ -406,8 +406,8 @@
           "article": "der",
           "plural": null,
           "type": "n",
-          "en": "Bundestag",
-          "exampleEn": "Il Bundestag dibatte."
+          "en": "federal parliament",
+          "exampleEn": "The Bundestag debates."
         },
         {
           "de": "Bundesrat",
@@ -417,8 +417,8 @@
           "article": "der",
           "plural": null,
           "type": "n",
-          "en": "Bundesrat",
-          "exampleEn": "Il Bundesrat approva."
+          "en": "federal council",
+          "exampleEn": "The Bundesrat approves."
         },
         {
           "de": "Kanzler",
@@ -429,7 +429,7 @@
           "plural": "Kanzler",
           "type": "n",
           "en": "cancelliere",
-          "exampleEn": "Il cancelliere governa."
+          "exampleEn": "The chancellor governs."
         },
         {
           "de": "Minister",
@@ -440,7 +440,7 @@
           "plural": "Minister",
           "type": "n",
           "en": "ministro",
-          "exampleEn": "Il ministro decide."
+          "exampleEn": "The minister decides."
         },
         {
           "de": "Außenpolitik",
@@ -451,7 +451,7 @@
           "plural": null,
           "type": "n",
           "en": "politica estera",
-          "exampleEn": "La politica estera è complessa."
+          "exampleEn": "Foreign policy is complex."
         },
         {
           "de": "Innenpolitik",
@@ -462,7 +462,7 @@
           "plural": null,
           "type": "n",
           "en": "politica interna",
-          "exampleEn": "La politica interna è importante."
+          "exampleEn": "Domestic policy is important."
         },
         {
           "de": "Verfassung",
@@ -473,7 +473,7 @@
           "plural": "Verfassungen",
           "type": "n",
           "en": "costituzione",
-          "exampleEn": "La costituzione è fondamentale."
+          "exampleEn": "The constitution is fundamental."
         },
         {
           "de": "Grundgesetz",
@@ -484,7 +484,7 @@
           "plural": null,
           "type": "n",
           "en": "legge fondamentale",
-          "exampleEn": "La legge fondamentale protegge."
+          "exampleEn": "The Basic Law protects."
         },
         {
           "de": "Fraktion",
@@ -495,7 +495,7 @@
           "plural": "Fraktionen",
           "type": "n",
           "en": "gruppo parlamentare",
-          "exampleEn": "Il gruppo parlamentare dibatte."
+          "exampleEn": "The parliamentary group debates."
         },
         {
           "de": "Regierungspartei",
@@ -506,7 +506,7 @@
           "plural": "Regierungsparteien",
           "type": "n",
           "en": "partito di governo",
-          "exampleEn": "Il partito di governo governa."
+          "exampleEn": "The governing party rules."
         },
         {
           "de": "Mandat",
@@ -517,7 +517,7 @@
           "plural": "Mandate",
           "type": "n",
           "en": "mandato",
-          "exampleEn": "Il mandato è chiaro."
+          "exampleEn": "The mandate is clear."
         },
         {
           "de": "Legislatur",
@@ -528,7 +528,7 @@
           "plural": "Legislaturen",
           "type": "n",
           "en": "legislatura",
-          "exampleEn": "La legislatura dura quattro anni."
+          "exampleEn": "The legislative term lasts four years."
         },
         {
           "de": "verhandeln",
@@ -539,7 +539,7 @@
           "plural": null,
           "type": "v",
           "en": "negoziare",
-          "exampleEn": "Negoziamo."
+          "exampleEn": "We negotiate."
         },
         {
           "de": "beschließen",
@@ -550,7 +550,7 @@
           "plural": null,
           "type": "v",
           "en": "deliberare",
-          "exampleEn": "Deliberiamo."
+          "exampleEn": "We decide."
         },
         {
           "de": "ratifizieren",
@@ -561,7 +561,7 @@
           "plural": null,
           "type": "v",
           "en": "ratificare",
-          "exampleEn": "Ratifichiamo."
+          "exampleEn": "We ratify."
         },
         {
           "de": "einsetzen",
@@ -572,7 +572,7 @@
           "plural": null,
           "type": "v",
           "en": "insediare",
-          "exampleEn": "Il cancelliere viene insediato."
+          "exampleEn": "The chancellor is appointed."
         },
         {
           "de": "amtieren",
@@ -583,7 +583,7 @@
           "plural": null,
           "type": "v",
           "en": "rivestire una carica",
-          "exampleEn": "Il presidente riveste una carica."
+          "exampleEn": "The president takes office."
         },
         {
           "de": "Kompetenz",
@@ -594,7 +594,7 @@
           "plural": "Kompetenzen",
           "type": "n",
           "en": "competenza",
-          "exampleEn": "La competenza è chiara."
+          "exampleEn": "The competence is clear."
         },
         {
           "de": "Referendum",
@@ -605,7 +605,7 @@
           "plural": "Referenda",
           "type": "n",
           "en": "referendum",
-          "exampleEn": "Il referendum è democratico."
+          "exampleEn": "The referendum is democratic."
         },
         {
           "de": "Koalition",
@@ -616,7 +616,7 @@
           "plural": "Koalitionen",
           "type": "n",
           "en": "coalizione",
-          "exampleEn": "La coalizione è stabile."
+          "exampleEn": "The coalition is stable."
         }
       ]
     },
@@ -633,7 +633,7 @@
           "plural": "Forschungen",
           "type": "n",
           "en": "ricerca",
-          "exampleEn": "La ricerca è importante."
+          "exampleEn": "Research is important."
         },
         {
           "de": "Experiment",
@@ -644,7 +644,7 @@
           "plural": "Experimente",
           "type": "n",
           "en": "esperimento",
-          "exampleEn": "L'esperimento riesce."
+          "exampleEn": "The experiment succeeds."
         },
         {
           "de": "Ergebnis",
@@ -655,7 +655,7 @@
           "plural": "Ergebnisse",
           "type": "n",
           "en": "risultato",
-          "exampleEn": "Il risultato è sorprendente."
+          "exampleEn": "The result is surprising."
         },
         {
           "de": "Hypothese",
@@ -666,7 +666,7 @@
           "plural": "Hypothesen",
           "type": "n",
           "en": "ipotesi",
-          "exampleEn": "L'ipotesi è plausibile."
+          "exampleEn": "The hypothesis is plausible."
         },
         {
           "de": "beweisen",
@@ -677,7 +677,7 @@
           "plural": null,
           "type": "v",
           "en": "provare",
-          "exampleEn": "Lo provo."
+          "exampleEn": "I prove that."
         },
         {
           "de": "analysieren",
@@ -688,7 +688,7 @@
           "plural": null,
           "type": "v",
           "en": "analizzare",
-          "exampleEn": "Analizzo i dati."
+          "exampleEn": "I analyze the data."
         },
         {
           "de": "Methode",
@@ -699,7 +699,7 @@
           "plural": "Methoden",
           "type": "n",
           "en": "metodo",
-          "exampleEn": "Il metodo è rigoroso."
+          "exampleEn": "The method is rigorous."
         },
         {
           "de": "Labor",
@@ -710,7 +710,7 @@
           "plural": "Labore",
           "type": "n",
           "en": "laboratorio",
-          "exampleEn": "Il laboratorio è moderno."
+          "exampleEn": "The lab is modern."
         },
         {
           "de": "Theorie",
@@ -721,7 +721,7 @@
           "plural": "Theorien",
           "type": "n",
           "en": "teoria",
-          "exampleEn": "La teoria spiega molto."
+          "exampleEn": "The theory explains much."
         },
         {
           "de": "Studie",
@@ -732,7 +732,7 @@
           "plural": "Studien",
           "type": "n",
           "en": "studio",
-          "exampleEn": "Lo studio è completo."
+          "exampleEn": "The study is comprehensive."
         },
         {
           "de": "Daten",
@@ -743,7 +743,7 @@
           "plural": null,
           "type": "n",
           "en": "dati",
-          "exampleEn": "I dati sono accurati."
+          "exampleEn": "The data are accurate."
         },
         {
           "de": "Statistik",
@@ -754,7 +754,7 @@
           "plural": "Statistiken",
           "type": "n",
           "en": "statistica",
-          "exampleEn": "La statistica lo mostra."
+          "exampleEn": "The statistics show that."
         },
         {
           "de": "Variable",
@@ -765,7 +765,7 @@
           "plural": "Variablen",
           "type": "n",
           "en": "variabile",
-          "exampleEn": "La variabile è importante."
+          "exampleEn": "The variable is important."
         },
         {
           "de": "Korrelation",
@@ -776,7 +776,7 @@
           "plural": "Korrelationen",
           "type": "n",
           "en": "correlazione",
-          "exampleEn": "La correlazione è forte."
+          "exampleEn": "Correlation is strong."
         },
         {
           "de": "Schlussfolgerung",
@@ -787,7 +787,7 @@
           "plural": "Schlussfolgerungen",
           "type": "n",
           "en": "conclusione",
-          "exampleEn": "La conclusione è logica."
+          "exampleEn": "The conclusion is logical."
         },
         {
           "de": "untersuchen",
@@ -798,7 +798,7 @@
           "plural": null,
           "type": "v",
           "en": "indagare",
-          "exampleEn": "Indago il fenomeno."
+          "exampleEn": "I investigate the phenomenon."
         },
         {
           "de": "messen",
@@ -809,7 +809,7 @@
           "plural": null,
           "type": "v",
           "en": "misurare",
-          "exampleEn": "Misuro la temperatura."
+          "exampleEn": "I measure the temperature."
         },
         {
           "de": "vergleichen",
@@ -820,7 +820,7 @@
           "plural": null,
           "type": "v",
           "en": "confrontare",
-          "exampleEn": "Confronto i risultati."
+          "exampleEn": "I compare the results."
         },
         {
           "de": "veröffentlichen",
@@ -831,7 +831,7 @@
           "plural": null,
           "type": "v",
           "en": "pubblicare",
-          "exampleEn": "Lo scienziato pubblica."
+          "exampleEn": "The scientist publishes."
         },
         {
           "de": "Peer-Review",
@@ -842,7 +842,7 @@
           "plural": null,
           "type": "n",
           "en": "revisione paritaria",
-          "exampleEn": "La revisione paritaria è importante."
+          "exampleEn": "Peer review is important."
         },
         {
           "de": "Fachzeitschrift",
@@ -853,7 +853,7 @@
           "plural": "Fachzeitschriften",
           "type": "n",
           "en": "rivista specializzata",
-          "exampleEn": "La rivista specializzata è rinomata."
+          "exampleEn": "The academic journal is renowned."
         },
         {
           "de": "Nachweis",
@@ -864,7 +864,7 @@
           "plural": "Nachweise",
           "type": "n",
           "en": "prova",
-          "exampleEn": "La prova è fornita."
+          "exampleEn": "The proof is provided."
         },
         {
           "de": "Beweis",
@@ -875,7 +875,7 @@
           "plural": "Beweise",
           "type": "n",
           "en": "dimostrazione",
-          "exampleEn": "La dimostrazione è rigorosa."
+          "exampleEn": "The proof is rigorous."
         },
         {
           "de": "Modell",
@@ -886,7 +886,7 @@
           "plural": "Modelle",
           "type": "n",
           "en": "modello",
-          "exampleEn": "Il modello è preciso."
+          "exampleEn": "The model is precise."
         },
         {
           "de": "Simulation",
@@ -897,7 +897,7 @@
           "plural": "Simulationen",
           "type": "n",
           "en": "simulazione",
-          "exampleEn": "La simulazione è realistica."
+          "exampleEn": "The simulation is realistic."
         },
         {
           "de": "Laboratorium",
@@ -908,7 +908,7 @@
           "plural": "Laboratorien",
           "type": "n",
           "en": "laboratorio",
-          "exampleEn": "Il laboratorio è attrezzato."
+          "exampleEn": "The laboratory is equipped."
         },
         {
           "de": "Entdeckung",
@@ -919,7 +919,7 @@
           "plural": "Entdeckungen",
           "type": "n",
           "en": "scoperta",
-          "exampleEn": "La scoperta è significativa."
+          "exampleEn": "The discovery is significant."
         }
       ]
     },
@@ -936,7 +936,7 @@
           "plural": "Gerichte",
           "type": "n",
           "en": "tribunale",
-          "exampleEn": "Il tribunale decide."
+          "exampleEn": "The court decides."
         },
         {
           "de": "Richter",
@@ -947,7 +947,7 @@
           "plural": "Richter",
           "type": "n",
           "en": "giudice",
-          "exampleEn": "Il giudice giudica."
+          "exampleEn": "The judge rules."
         },
         {
           "de": "Anwalt",
@@ -958,7 +958,7 @@
           "plural": "Anwälte",
           "type": "n",
           "en": "avvocato",
-          "exampleEn": "L'avvocato difende."
+          "exampleEn": "The lawyer defends."
         },
         {
           "de": "Klage",
@@ -969,7 +969,7 @@
           "plural": "Klagen",
           "type": "n",
           "en": "causa",
-          "exampleEn": "La causa viene presentata."
+          "exampleEn": "The lawsuit is filed."
         },
         {
           "de": "Urteil",
@@ -980,7 +980,7 @@
           "plural": "Urteile",
           "type": "n",
           "en": "sentenza",
-          "exampleEn": "La sentenza è equa."
+          "exampleEn": "The verdict is fair."
         },
         {
           "de": "Strafe",
@@ -991,7 +991,7 @@
           "plural": "Strafen",
           "type": "n",
           "en": "punizione",
-          "exampleEn": "La punizione è severa."
+          "exampleEn": "The penalty is severe."
         },
         {
           "de": "Gesetz",
@@ -1002,7 +1002,7 @@
           "plural": "Gesetze",
           "type": "n",
           "en": "legge",
-          "exampleEn": "La legge è rigorosa."
+          "exampleEn": "The law is strict."
         },
         {
           "de": "verurteilen",
@@ -1013,7 +1013,7 @@
           "plural": null,
           "type": "v",
           "en": "condannare",
-          "exampleEn": "Il giudice condanna."
+          "exampleEn": "The judge convicts."
         },
         {
           "de": "anklagen",
@@ -1024,7 +1024,7 @@
           "plural": null,
           "type": "v",
           "en": "accusare",
-          "exampleEn": "Il pubblico ministero accusa."
+          "exampleEn": "The prosecutor accuses."
         },
         {
           "de": "Verteidigung",
@@ -1035,7 +1035,7 @@
           "plural": "Verteidigungen",
           "type": "n",
           "en": "difesa",
-          "exampleEn": "La difesa è forte."
+          "exampleEn": "The defense is strong."
         },
         {
           "de": "Angeklagter",
@@ -1046,7 +1046,7 @@
           "plural": "Angeklagte",
           "type": "n",
           "en": "imputato",
-          "exampleEn": "L'imputato viene ascoltato."
+          "exampleEn": "The defendant is heard."
         },
         {
           "de": "Zeuge",
@@ -1057,7 +1057,7 @@
           "plural": "Zeugen",
           "type": "n",
           "en": "testimone",
-          "exampleEn": "Il testimone depone."
+          "exampleEn": "The witness testifies."
         },
         {
           "de": "Beweis",
@@ -1068,7 +1068,7 @@
           "plural": "Beweise",
           "type": "n",
           "en": "prova",
-          "exampleEn": "La prova è convincente."
+          "exampleEn": "The evidence is convincing."
         },
         {
           "de": "Prozess",
@@ -1079,7 +1079,7 @@
           "plural": "Prozesse",
           "type": "n",
           "en": "processo",
-          "exampleEn": "Il processo dura a lungo."
+          "exampleEn": "The trial lasts long."
         },
         {
           "de": "Berufung",
@@ -1090,7 +1090,7 @@
           "plural": "Berufungen",
           "type": "n",
           "en": "appello",
-          "exampleEn": "L'appello viene presentato."
+          "exampleEn": "The appeal is filed."
         },
         {
           "de": "Verfassung",
@@ -1101,7 +1101,7 @@
           "plural": "Verfassungen",
           "type": "n",
           "en": "costituzione",
-          "exampleEn": "La costituzione protegge."
+          "exampleEn": "The constitution protects."
         },
         {
           "de": "Grundrecht",
@@ -1112,7 +1112,7 @@
           "plural": "Grundrechte",
           "type": "n",
           "en": "diritto fondamentale",
-          "exampleEn": "Il diritto fondamentale è importante."
+          "exampleEn": "The fundamental right is important."
         },
         {
           "de": "Straftat",
@@ -1123,7 +1123,7 @@
           "plural": "Straftaten",
           "type": "n",
           "en": "reato",
-          "exampleEn": "Il reato è grave."
+          "exampleEn": "The crime is serious."
         },
         {
           "de": "Verbrechen",
@@ -1134,7 +1134,7 @@
           "plural": "Verbrechen",
           "type": "n",
           "en": "crimine",
-          "exampleEn": "Il crimine è risolto."
+          "exampleEn": "The crime is solved."
         },
         {
           "de": "Paragraph",
@@ -1145,7 +1145,7 @@
           "plural": "Paragraphen",
           "type": "n",
           "en": "articolo",
-          "exampleEn": "L'articolo è chiaro."
+          "exampleEn": "The section is clear."
         },
         {
           "de": "Beschluss",
@@ -1156,7 +1156,7 @@
           "plural": "Beschlüsse",
           "type": "n",
           "en": "ordinanza",
-          "exampleEn": "L'ordinanza è vincolante."
+          "exampleEn": "The ruling is binding."
         },
         {
           "de": "Justiz",
@@ -1167,7 +1167,7 @@
           "plural": null,
           "type": "n",
           "en": "giustizia",
-          "exampleEn": "La giustizia è indipendente."
+          "exampleEn": "Justice is independent."
         },
         {
           "de": "Verhandlung",
@@ -1178,7 +1178,7 @@
           "plural": "Verhandlungen",
           "type": "n",
           "en": "udienza",
-          "exampleEn": "L'udienza è pubblica."
+          "exampleEn": "The hearing is public."
         },
         {
           "de": "freisprechen",
@@ -1189,7 +1189,7 @@
           "plural": null,
           "type": "v",
           "en": "assolvere",
-          "exampleEn": "Il giudice assolve."
+          "exampleEn": "The judge acquits."
         },
         {
           "de": "schuldig",
@@ -1200,7 +1200,7 @@
           "plural": null,
           "type": "adj",
           "en": "colpevole",
-          "exampleEn": "È colpevole."
+          "exampleEn": "He is guilty."
         }
       ]
     },
@@ -1217,7 +1217,7 @@
           "plural": null,
           "type": "n",
           "en": "comportamento",
-          "exampleEn": "Il comportamento è strano."
+          "exampleEn": "The behavior is strange."
         },
         {
           "de": "Bewusstsein",
@@ -1228,7 +1228,7 @@
           "plural": null,
           "type": "n",
           "en": "consapevolezza",
-          "exampleEn": "La consapevolezza è chiara."
+          "exampleEn": "The consciousness is clear."
         },
         {
           "de": "Wahrnehmung",
@@ -1239,7 +1239,7 @@
           "plural": "Wahrnehmungen",
           "type": "n",
           "en": "percezione",
-          "exampleEn": "La percezione è importante."
+          "exampleEn": "Perception is important."
         },
         {
           "de": "Motivation",
@@ -1250,7 +1250,7 @@
           "plural": "Motivationen",
           "type": "n",
           "en": "motivazione",
-          "exampleEn": "La motivazione è alta."
+          "exampleEn": "The motivation is high."
         },
         {
           "de": "Persönlichkeit",
@@ -1261,7 +1261,7 @@
           "plural": "Persönlichkeiten",
           "type": "n",
           "en": "personalità",
-          "exampleEn": "La personalità è unica."
+          "exampleEn": "The personality is unique."
         },
         {
           "de": "Therapie",
@@ -1272,7 +1272,7 @@
           "plural": "Therapien",
           "type": "n",
           "en": "terapia",
-          "exampleEn": "La terapia aiuta."
+          "exampleEn": "The therapy helps."
         },
         {
           "de": "Angststörung",
@@ -1283,7 +1283,7 @@
           "plural": "Angststörungen",
           "type": "n",
           "en": "disturbo d'ansia",
-          "exampleEn": "Il disturbo d'ansia è curabile."
+          "exampleEn": "The anxiety disorder is treatable."
         },
         {
           "de": "Depression",
@@ -1294,7 +1294,7 @@
           "plural": "Depressionen",
           "type": "n",
           "en": "depressione",
-          "exampleEn": "La depressione è seria."
+          "exampleEn": "Depression is serious."
         },
         {
           "de": "Stress",
@@ -1305,7 +1305,7 @@
           "plural": null,
           "type": "n",
           "en": "stress",
-          "exampleEn": "Lo stress è grande."
+          "exampleEn": "The stress is big."
         },
         {
           "de": "Burnout",
@@ -1316,7 +1316,7 @@
           "plural": "Burnouts",
           "type": "n",
           "en": "esaurimento",
-          "exampleEn": "L'esaurimento è diffuso."
+          "exampleEn": "Burnout is widespread."
         },
         {
           "de": "Selbstwertgefühl",
@@ -1327,7 +1327,7 @@
           "plural": null,
           "type": "n",
           "en": "autostima",
-          "exampleEn": "L'autostima è importante."
+          "exampleEn": "Self-esteem is important."
         },
         {
           "de": "Empathie",
@@ -1338,7 +1338,7 @@
           "plural": null,
           "type": "n",
           "en": "empatia",
-          "exampleEn": "L'empatia è importante."
+          "exampleEn": "Empathy is important."
         },
         {
           "de": "emotional",
@@ -1349,7 +1349,7 @@
           "plural": null,
           "type": "adj",
           "en": "emotivo",
-          "exampleEn": "La reazione è emotiva."
+          "exampleEn": "The reaction is emotional."
         },
         {
           "de": "rational",
@@ -1360,7 +1360,7 @@
           "plural": null,
           "type": "adj",
           "en": "razionale",
-          "exampleEn": "La decisione è razionale."
+          "exampleEn": "The decision is rational."
         },
         {
           "de": "unbewusst",
@@ -1371,7 +1371,7 @@
           "plural": null,
           "type": "adj",
           "en": "inconscio",
-          "exampleEn": "Il comportamento è inconscio."
+          "exampleEn": "The behavior is unconscious."
         },
         {
           "de": "verdrängen",
@@ -1382,7 +1382,7 @@
           "plural": null,
           "type": "v",
           "en": "reprimere",
-          "exampleEn": "Reprimo il trauma."
+          "exampleEn": "I suppress the trauma."
         },
         {
           "de": "reflektieren",
@@ -1393,7 +1393,7 @@
           "plural": null,
           "type": "v",
           "en": "riflettere",
-          "exampleEn": "Rifletto il mio comportamento."
+          "exampleEn": "I reflect on my behavior."
         },
         {
           "de": "Trauma",
@@ -1404,7 +1404,7 @@
           "plural": "Traumata",
           "type": "n",
           "en": "trauma",
-          "exampleEn": "Il trauma è profondo."
+          "exampleEn": "The trauma is profound."
         },
         {
           "de": "Resilienz",
@@ -1415,7 +1415,7 @@
           "plural": null,
           "type": "n",
           "en": "resilienza",
-          "exampleEn": "La resilienza è importante."
+          "exampleEn": "Resilience is important."
         },
         {
           "de": "Achtsamkeit",
@@ -1426,7 +1426,7 @@
           "plural": null,
           "type": "n",
           "en": "consapevolezza",
-          "exampleEn": "La consapevolezza è terapeutica."
+          "exampleEn": "Mindfulness is therapeutic."
         },
         {
           "de": "kognitiv",
@@ -1437,7 +1437,7 @@
           "plural": null,
           "type": "adj",
           "en": "cognitivo",
-          "exampleEn": "La funzione è cognitiva."
+          "exampleEn": "The function is cognitive."
         },
         {
           "de": "Intelligenz",
@@ -1448,7 +1448,7 @@
           "plural": null,
           "type": "n",
           "en": "intelligenza",
-          "exampleEn": "L'intelligenza è elevata."
+          "exampleEn": "The intelligence is high."
         },
         {
           "de": "Kreativität",
@@ -1459,7 +1459,7 @@
           "plural": null,
           "type": "n",
           "en": "creatività",
-          "exampleEn": "La creatività è preziosa."
+          "exampleEn": "The creativity is valuable."
         },
         {
           "de": "Identität",
@@ -1470,7 +1470,7 @@
           "plural": "Identitäten",
           "type": "n",
           "en": "identità",
-          "exampleEn": "L'identità è chiara."
+          "exampleEn": "The identity is clear."
         },
         {
           "de": "Selbstverwirklichung",
@@ -1481,7 +1481,7 @@
           "plural": null,
           "type": "n",
           "en": "autorealizzazione",
-          "exampleEn": "L'autorealizzazione è importante."
+          "exampleEn": "Self-actualization is important."
         },
         {
           "de": "Verhalten",
@@ -1492,7 +1492,7 @@
           "plural": null,
           "type": "n",
           "en": "comportamento",
-          "exampleEn": "Il comportamento è prevedibile."
+          "exampleEn": "The behavior is predictable."
         },
         {
           "de": "Kognitiv",
@@ -1503,7 +1503,7 @@
           "plural": null,
           "type": "adj",
           "en": "cognitivo",
-          "exampleEn": "Cognitivo si riferisce al pensiero."
+          "exampleEn": "Cognitive refers to thinking."
         },
         {
           "de": "Emotion",
@@ -1514,7 +1514,7 @@
           "plural": "Emotionen",
           "type": "n",
           "en": "emozione",
-          "exampleEn": "L'emozione è forte."
+          "exampleEn": "The emotion is strong."
         }
       ]
     },
@@ -1531,7 +1531,7 @@
           "plural": null,
           "type": "v",
           "en": "affermare",
-          "exampleEn": "Lo affermo."
+          "exampleEn": "I claim that."
         },
         {
           "de": "widersprechen",
@@ -1542,7 +1542,7 @@
           "plural": null,
           "type": "v",
           "en": "contraddire",
-          "exampleEn": "Ti contraddico."
+          "exampleEn": "I disagree with you."
         },
         {
           "de": "zustimmen",
@@ -1553,7 +1553,7 @@
           "plural": null,
           "type": "v",
           "en": "concordare",
-          "exampleEn": "Concordo."
+          "exampleEn": "I agree."
         },
         {
           "de": "argumentieren",
@@ -1564,7 +1564,7 @@
           "plural": null,
           "type": "v",
           "en": "argomentare",
-          "exampleEn": "Argomento."
+          "exampleEn": "I argue."
         },
         {
           "de": "Standpunkt",
@@ -1575,7 +1575,7 @@
           "plural": "Standpunkte",
           "type": "n",
           "en": "punto di vista",
-          "exampleEn": "Il punto di vista è chiaro."
+          "exampleEn": "The viewpoint is clear."
         },
         {
           "de": "Meinung",
@@ -1586,7 +1586,7 @@
           "plural": "Meinungen",
           "type": "n",
           "en": "opinione",
-          "exampleEn": "L'opinione è diversa."
+          "exampleEn": "The opinion is different."
         },
         {
           "de": "Aspekt",
@@ -1597,7 +1597,7 @@
           "plural": "Aspekte",
           "type": "n",
           "en": "aspetto",
-          "exampleEn": "L'aspetto è importante."
+          "exampleEn": "The aspect is important."
         },
         {
           "de": "Perspektive",
@@ -1608,7 +1608,7 @@
           "plural": "Perspektiven",
           "type": "n",
           "en": "prospettiva",
-          "exampleEn": "La prospettiva è diversa."
+          "exampleEn": "The perspective is different."
         },
         {
           "de": "Gegenargument",
@@ -1619,7 +1619,7 @@
           "plural": "Gegenargumente",
           "type": "n",
           "en": "contrargomentazione",
-          "exampleEn": "La contrargomentazione è forte."
+          "exampleEn": "The counterargument is strong."
         },
         {
           "de": "einwenden",
@@ -1630,7 +1630,7 @@
           "plural": null,
           "type": "v",
           "en": "obiettare",
-          "exampleEn": "Obietto."
+          "exampleEn": "I object."
         },
         {
           "de": "erwidern",
@@ -1641,7 +1641,7 @@
           "plural": null,
           "type": "v",
           "en": "replicare",
-          "exampleEn": "Replica."
+          "exampleEn": "He replies to that."
         },
         {
           "de": "begründen",
@@ -1652,7 +1652,7 @@
           "plural": null,
           "type": "v",
           "en": "motivare",
-          "exampleEn": "Motivo la mia affermazione."
+          "exampleEn": "I justify my statement."
         },
         {
           "de": "belegen",
@@ -1663,7 +1663,7 @@
           "plural": null,
           "type": "v",
           "en": "provare",
-          "exampleEn": "Lo provo con i fatti."
+          "exampleEn": "I support that with facts."
         },
         {
           "de": "hinterfragen",
@@ -1674,7 +1674,7 @@
           "plural": null,
           "type": "v",
           "en": "mettere in questione",
-          "exampleEn": "Metto in questione."
+          "exampleEn": "I question that."
         },
         {
           "de": "infrage stellen",
@@ -1685,7 +1685,7 @@
           "plural": null,
           "type": "v",
           "en": "contestare",
-          "exampleEn": "Contesto."
+          "exampleEn": "I challenge that."
         },
         {
           "de": "differenzieren",
@@ -1696,7 +1696,7 @@
           "plural": null,
           "type": "v",
           "en": "differenziare",
-          "exampleEn": "Bisogna differenziare."
+          "exampleEn": "One must differentiate."
         },
         {
           "de": "abwägen",
@@ -1707,7 +1707,7 @@
           "plural": null,
           "type": "v",
           "en": "pesare",
-          "exampleEn": "Peso."
+          "exampleEn": "I weigh up."
         },
         {
           "de": "berücksichtigen",
@@ -1718,7 +1718,7 @@
           "plural": null,
           "type": "v",
           "en": "considerare",
-          "exampleEn": "Bisogna considerare."
+          "exampleEn": "One must consider that."
         },
         {
           "de": "einräumen",
@@ -1729,7 +1729,7 @@
           "plural": null,
           "type": "v",
           "en": "ammettere",
-          "exampleEn": "Ammetto."
+          "exampleEn": "I admit."
         },
         {
           "de": "zugestehen",
@@ -1740,7 +1740,7 @@
           "plural": null,
           "type": "v",
           "en": "concedere",
-          "exampleEn": "Concedo."
+          "exampleEn": "I concede."
         },
         {
           "de": "Schlussfolgerung",
@@ -1751,7 +1751,7 @@
           "plural": "Schlussfolgerungen",
           "type": "n",
           "en": "conclusione",
-          "exampleEn": "La conclusione è logica."
+          "exampleEn": "The conclusion is logical."
         },
         {
           "de": "Zusammenfassung",
@@ -1762,7 +1762,7 @@
           "plural": "Zusammenfassungen",
           "type": "n",
           "en": "riassunto",
-          "exampleEn": "Il riassunto è conciso."
+          "exampleEn": "The summary is concise."
         },
         {
           "de": "Fazit",
@@ -1773,7 +1773,7 @@
           "plural": null,
           "type": "n",
           "en": "conclusione",
-          "exampleEn": "La conclusione è chiara."
+          "exampleEn": "The conclusion is clear."
         },
         {
           "de": "These",
@@ -1784,7 +1784,7 @@
           "plural": "Thesen",
           "type": "n",
           "en": "tesi",
-          "exampleEn": "La tesi è audace."
+          "exampleEn": "The thesis is bold."
         },
         {
           "de": "Antithese",
@@ -1795,7 +1795,7 @@
           "plural": "Antithesen",
           "type": "n",
           "en": "antitesi",
-          "exampleEn": "L'antitesi è opposta."
+          "exampleEn": "The antithesis is opposite."
         },
         {
           "de": "Argumentation",
@@ -1806,7 +1806,7 @@
           "plural": "Argumentationen",
           "type": "n",
           "en": "argomentazione",
-          "exampleEn": "L'argomentazione è forte."
+          "exampleEn": "The argumentation is strong."
         },
         {
           "de": "Kontext",
@@ -1817,7 +1817,7 @@
           "plural": "Kontexte",
           "type": "n",
           "en": "contesto",
-          "exampleEn": "Il contesto è importante."
+          "exampleEn": "The context is important."
         },
         {
           "de": "Perspektive",
@@ -1828,7 +1828,7 @@
           "plural": "Perspektiven",
           "type": "n",
           "en": "prospettiva",
-          "exampleEn": "La prospettiva è diversa."
+          "exampleEn": "The perspective is different."
         },
         {
           "de": "Standpunkt",
@@ -1839,7 +1839,7 @@
           "plural": "Standpunkte",
           "type": "n",
           "en": "punto di vista",
-          "exampleEn": "Il punto di vista è valido."
+          "exampleEn": "The viewpoint is valid."
         },
         {
           "de": "Kompromiss",
@@ -1850,7 +1850,7 @@
           "plural": "Kompromisse",
           "type": "n",
           "en": "compromesso",
-          "exampleEn": "Il compromesso è possibile."
+          "exampleEn": "The compromise is possible."
         }
       ]
     },
@@ -1867,7 +1867,7 @@
           "plural": "Zusammenhänge",
           "type": "n",
           "en": "contesto",
-          "exampleEn": "Il contesto è importante."
+          "exampleEn": "The connection is important."
         },
         {
           "de": "Einfluss",
@@ -1878,7 +1878,7 @@
           "plural": "Einflüsse",
           "type": "n",
           "en": "influenza",
-          "exampleEn": "L'influenza è grande."
+          "exampleEn": "The influence is big."
         },
         {
           "de": "Entwicklung",
@@ -1889,7 +1889,7 @@
           "plural": "Entwicklungen",
           "type": "n",
           "en": "sviluppo",
-          "exampleEn": "Lo sviluppo è positivo."
+          "exampleEn": "The development is positive."
         },
         {
           "de": "Tendenz",
@@ -1900,7 +1900,7 @@
           "plural": "Tendenzen",
           "type": "n",
           "en": "tendenza",
-          "exampleEn": "La tendenza è al rialzo."
+          "exampleEn": "The trend is upward."
         },
         {
           "de": "Auswirkung",
@@ -1911,7 +1911,7 @@
           "plural": "Auswirkungen",
           "type": "n",
           "en": "effetto",
-          "exampleEn": "L'effetto è negativo."
+          "exampleEn": "The impact is negative."
         },
         {
           "de": "Voraussetzung",
@@ -1922,7 +1922,7 @@
           "plural": "Voraussetzungen",
           "type": "n",
           "en": "prerequisito",
-          "exampleEn": "Il prerequisito è dato."
+          "exampleEn": "The precondition is given."
         },
         {
           "de": "Bedingung",
@@ -1933,7 +1933,7 @@
           "plural": "Bedingungen",
           "type": "n",
           "en": "condizione",
-          "exampleEn": "La condizione è soddisfatta."
+          "exampleEn": "The condition is met."
         },
         {
           "de": "Konsequenz",
@@ -1944,7 +1944,7 @@
           "plural": "Konsequenzen",
           "type": "n",
           "en": "conseguenza",
-          "exampleEn": "La conseguenza è grave."
+          "exampleEn": "The consequence is serious."
         },
         {
           "de": "Ursache",
@@ -1955,7 +1955,7 @@
           "plural": "Ursachen",
           "type": "n",
           "en": "causa",
-          "exampleEn": "La causa è nota."
+          "exampleEn": "The cause is known."
         },
         {
           "de": "Wirkung",
@@ -1966,7 +1966,7 @@
           "plural": "Wirkungen",
           "type": "n",
           "en": "effetto",
-          "exampleEn": "L'effetto è percettibile."
+          "exampleEn": "The effect is noticeable."
         },
         {
           "de": "Phänomen",
@@ -1977,7 +1977,7 @@
           "plural": "Phänomene",
           "type": "n",
           "en": "fenomeno",
-          "exampleEn": "Il fenomeno è interessante."
+          "exampleEn": "The phenomenon is interesting."
         },
         {
           "de": "Konzept",
@@ -1988,7 +1988,7 @@
           "plural": "Konzepte",
           "type": "n",
           "en": "concetto",
-          "exampleEn": "Il concetto è innovativo."
+          "exampleEn": "The concept is innovative."
         },
         {
           "de": "Prinzip",
@@ -1999,7 +1999,7 @@
           "plural": "Prinzipien",
           "type": "n",
           "en": "principio",
-          "exampleEn": "Il principio è fondamentale."
+          "exampleEn": "The principle is fundamental."
         },
         {
           "de": "Grundlage",
@@ -2010,7 +2010,7 @@
           "plural": "Grundlagen",
           "type": "n",
           "en": "base",
-          "exampleEn": "La base è solida."
+          "exampleEn": "The foundation is solid."
         },
         {
           "de": "Maßnahme",
@@ -2021,7 +2021,7 @@
           "plural": "Maßnahmen",
           "type": "n",
           "en": "misura",
-          "exampleEn": "La misura è efficace."
+          "exampleEn": "The measure is effective."
         },
         {
           "de": "Herausforderung",
@@ -2032,7 +2032,7 @@
           "plural": "Herausforderungen",
           "type": "n",
           "en": "sfida",
-          "exampleEn": "La sfida è grande."
+          "exampleEn": "The challenge is big."
         },
         {
           "de": "Chance",
@@ -2043,7 +2043,7 @@
           "plural": "Chancen",
           "type": "n",
           "en": "opportunità",
-          "exampleEn": "L'opportunità è favorevole."
+          "exampleEn": "The opportunity is favorable."
         },
         {
           "de": "Risiko",
@@ -2054,7 +2054,7 @@
           "plural": "Risiken",
           "type": "n",
           "en": "rischio",
-          "exampleEn": "Il rischio è alto."
+          "exampleEn": "The risk is high."
         },
         {
           "de": "Lösung",
@@ -2065,7 +2065,7 @@
           "plural": "Lösungen",
           "type": "n",
           "en": "soluzione",
-          "exampleEn": "La soluzione è elegante."
+          "exampleEn": "The solution is elegant."
         },
         {
           "de": "Strategie",
@@ -2076,7 +2076,7 @@
           "plural": "Strategien",
           "type": "n",
           "en": "strategia",
-          "exampleEn": "La strategia è saggia."
+          "exampleEn": "The strategy is clever."
         },
         {
           "de": "Ansatz",
@@ -2087,7 +2087,7 @@
           "plural": "Ansätze",
           "type": "n",
           "en": "approccio",
-          "exampleEn": "L'approccio è nuovo."
+          "exampleEn": "The approach is new."
         },
         {
           "de": "Umsetzung",
@@ -2098,7 +2098,7 @@
           "plural": "Umsetzungen",
           "type": "n",
           "en": "implementazione",
-          "exampleEn": "L'implementazione è difficile."
+          "exampleEn": "The implementation is difficult."
         },
         {
           "de": "Fortschritt",
@@ -2109,7 +2109,7 @@
           "plural": null,
           "type": "n",
           "en": "progresso",
-          "exampleEn": "Il progresso è notevole."
+          "exampleEn": "The progress is noticeable."
         },
         {
           "de": "Wandel",
@@ -2120,7 +2120,7 @@
           "plural": "Wandel",
           "type": "n",
           "en": "cambiamento",
-          "exampleEn": "Il cambiamento è necessario."
+          "exampleEn": "The change is necessary."
         },
         {
           "de": "Zukunft",
@@ -2131,7 +2131,7 @@
           "plural": "Zukünfte",
           "type": "n",
           "en": "futuro",
-          "exampleEn": "Il futuro è aperto."
+          "exampleEn": "The future is open."
         },
         {
           "de": "Konzept",
@@ -2142,7 +2142,7 @@
           "plural": "Konzepte",
           "type": "n",
           "en": "concetto",
-          "exampleEn": "Il concetto è innovativo."
+          "exampleEn": "The concept is innovative."
         },
         {
           "de": "Theorie",
@@ -2153,7 +2153,7 @@
           "plural": "Theorien",
           "type": "n",
           "en": "teoria",
-          "exampleEn": "La teoria è coerente."
+          "exampleEn": "The theory is consistent."
         },
         {
           "de": "Prinzip",
@@ -2164,7 +2164,7 @@
           "plural": "Prinzipien",
           "type": "n",
           "en": "principio",
-          "exampleEn": "Il principio è fondamentale."
+          "exampleEn": "The principle is fundamental."
         },
         {
           "de": "Methode",
@@ -2175,7 +2175,7 @@
           "plural": "Methoden",
           "type": "n",
           "en": "metodo",
-          "exampleEn": "Il metodo è efficiente."
+          "exampleEn": "The method is efficient."
         },
         {
           "de": "Ansatz",
@@ -2186,7 +2186,7 @@
           "plural": "Ansätze",
           "type": "n",
           "en": "approccio",
-          "exampleEn": "L'approccio è pragmatico."
+          "exampleEn": "The approach is pragmatic."
         },
         {
           "de": "Struktur",
@@ -2197,7 +2197,7 @@
           "plural": "Strukturen",
           "type": "n",
           "en": "struttura",
-          "exampleEn": "La struttura è logica."
+          "exampleEn": "The structure is logical."
         },
         {
           "de": "Funktion",
@@ -2208,7 +2208,7 @@
           "plural": "Funktionen",
           "type": "n",
           "en": "funzione",
-          "exampleEn": "La funzione è chiara."
+          "exampleEn": "The function is clear."
         },
         {
           "de": "Relation",
@@ -2219,7 +2219,7 @@
           "plural": "Relationen",
           "type": "n",
           "en": "relazione",
-          "exampleEn": "La relazione è importante."
+          "exampleEn": "The relation is important."
         }
       ]
     },
@@ -2236,7 +2236,7 @@
           "plural": "Rechte",
           "type": "n",
           "en": "diritto",
-          "exampleEn": "Il diritto è vincolante."
+          "exampleEn": "The law is binding."
         },
         {
           "de": "Gesetz",
@@ -2247,7 +2247,7 @@
           "plural": "Gesetze",
           "type": "n",
           "en": "legge",
-          "exampleEn": "La legge è giusta."
+          "exampleEn": "The law is just."
         },
         {
           "de": "Verordnung",
@@ -2258,7 +2258,7 @@
           "plural": "Verordnungen",
           "type": "n",
           "en": "regolamento",
-          "exampleEn": "Il regolamento è chiaro."
+          "exampleEn": "The regulation is clear."
         },
         {
           "de": "Gericht",
@@ -2269,7 +2269,7 @@
           "plural": "Gerichte",
           "type": "n",
           "en": "tribunale",
-          "exampleEn": "Il tribunale decide."
+          "exampleEn": "The court decides."
         },
         {
           "de": "Richter",
@@ -2280,7 +2280,7 @@
           "plural": "Richter",
           "type": "n",
           "en": "giudice",
-          "exampleEn": "Il giudice è imparziale."
+          "exampleEn": "The judge is impartial."
         },
         {
           "de": "Anwalt",
@@ -2291,7 +2291,7 @@
           "plural": "Anwälte",
           "type": "n",
           "en": "avvocato",
-          "exampleEn": "L'avvocato difende."
+          "exampleEn": "The lawyer defends."
         },
         {
           "de": "Klage",
@@ -2302,7 +2302,7 @@
           "plural": "Klagen",
           "type": "n",
           "en": "causa",
-          "exampleEn": "La causa viene presentata."
+          "exampleEn": "The lawsuit is filed."
         },
         {
           "de": "Prozess",
@@ -2313,7 +2313,7 @@
           "plural": "Prozesse",
           "type": "n",
           "en": "processo",
-          "exampleEn": "Il processo è lungo."
+          "exampleEn": "The trial is long."
         },
         {
           "de": "Urteil",
@@ -2324,7 +2324,7 @@
           "plural": "Urteile",
           "type": "n",
           "en": "sentenza",
-          "exampleEn": "La sentenza è definitiva."
+          "exampleEn": "The verdict is final."
         },
         {
           "de": "Vertrag",
@@ -2335,7 +2335,7 @@
           "plural": "Verträge",
           "type": "n",
           "en": "contratto",
-          "exampleEn": "Il contratto è vincolante."
+          "exampleEn": "The contract is binding."
         },
         {
           "de": "Schuld",
@@ -2346,7 +2346,7 @@
           "plural": "Schulden",
           "type": "n",
           "en": "colpa",
-          "exampleEn": "La colpa è provata."
+          "exampleEn": "The guilt is proven."
         },
         {
           "de": "Strafe",
@@ -2357,7 +2357,7 @@
           "plural": "Strafen",
           "type": "n",
           "en": "punizione",
-          "exampleEn": "La punizione è proporzionata."
+          "exampleEn": "The punishment is proportional."
         },
         {
           "de": "Beweis",
@@ -2368,7 +2368,7 @@
           "plural": "Beweise",
           "type": "n",
           "en": "prova",
-          "exampleEn": "La prova è incontrovertibile."
+          "exampleEn": "The evidence is compelling."
         },
         {
           "de": "Aussage",
@@ -2379,7 +2379,7 @@
           "plural": "Aussagen",
           "type": "n",
           "en": "testimonianza",
-          "exampleEn": "La testimonianza è rilevante."
+          "exampleEn": "The testimony is relevant."
         },
         {
           "de": "Pflicht",
@@ -2390,7 +2390,7 @@
           "plural": "Pflichten",
           "type": "n",
           "en": "obbligo",
-          "exampleEn": "L'obbligo è richiesto."
+          "exampleEn": "The obligation is required."
         },
         {
           "de": "Haftung",
@@ -2401,7 +2401,7 @@
           "plural": "Haftungen",
           "type": "n",
           "en": "responsabilità",
-          "exampleEn": "La responsabilità è limitata."
+          "exampleEn": "The liability is limited."
         },
         {
           "de": "Versicherung",
@@ -2412,7 +2412,7 @@
           "plural": "Versicherungen",
           "type": "n",
           "en": "assicurazione",
-          "exampleEn": "L'assicurazione è obbligatoria."
+          "exampleEn": "The insurance is mandatory."
         },
         {
           "de": "Testament",
@@ -2423,7 +2423,7 @@
           "plural": "Testamente",
           "type": "n",
           "en": "testamento",
-          "exampleEn": "Il testamento è autenticato dal notaio."
+          "exampleEn": "The will is notarized."
         },
         {
           "de": "Erbschaft",
@@ -2434,7 +2434,7 @@
           "plural": "Erbschaften",
           "type": "n",
           "en": "eredità",
-          "exampleEn": "L'eredità è grande."
+          "exampleEn": "The inheritance is big."
         },
         {
           "de": "Menschenrechte",
@@ -2445,7 +2445,7 @@
           "plural": null,
           "type": "n",
           "en": "diritti umani",
-          "exampleEn": "I diritti umani sono inviolabili."
+          "exampleEn": "Human rights are inviolable."
         }
       ]
     },
@@ -2462,7 +2462,7 @@
           "plural": "Wissenschaften",
           "type": "n",
           "en": "scienza",
-          "exampleEn": "La scienza ricerca."
+          "exampleEn": "Science explores."
         },
         {
           "de": "Forschung",
@@ -2473,7 +2473,7 @@
           "plural": "Forschungen",
           "type": "n",
           "en": "ricerca",
-          "exampleEn": "La ricerca è fondamentale."
+          "exampleEn": "The research is fundamental."
         },
         {
           "de": "Hypothese",
@@ -2484,7 +2484,7 @@
           "plural": "Hypothesen",
           "type": "n",
           "en": "ipotesi",
-          "exampleEn": "L'ipotesi è verificabile."
+          "exampleEn": "The hypothesis is testable."
         },
         {
           "de": "Experiment",
@@ -2495,7 +2495,7 @@
           "plural": "Experimente",
           "type": "n",
           "en": "esperimento",
-          "exampleEn": "L'esperimento è replicabile."
+          "exampleEn": "The experiment is replicable."
         },
         {
           "de": "Daten",
@@ -2506,7 +2506,7 @@
           "plural": null,
           "type": "n",
           "en": "dati",
-          "exampleEn": "I dati sono accurati."
+          "exampleEn": "The data are accurate."
         },
         {
           "de": "Analyse",
@@ -2517,7 +2517,7 @@
           "plural": "Analysen",
           "type": "n",
           "en": "analisi",
-          "exampleEn": "L'analisi è approfondita."
+          "exampleEn": "The analysis is thorough."
         },
         {
           "de": "Modell",
@@ -2528,7 +2528,7 @@
           "plural": "Modelle",
           "type": "n",
           "en": "modello",
-          "exampleEn": "Il modello è utile."
+          "exampleEn": "The model is helpful."
         },
         {
           "de": "Atome",
@@ -2539,7 +2539,7 @@
           "plural": "Atome",
           "type": "n",
           "en": "atomi",
-          "exampleEn": "Gli atomi sono componenti."
+          "exampleEn": "Atoms are building blocks."
         },
         {
           "de": "Moleküle",
@@ -2550,7 +2550,7 @@
           "plural": "Moleküle",
           "type": "n",
           "en": "molecole",
-          "exampleEn": "Le molecole sono composte."
+          "exampleEn": "Molecules are composed."
         },
         {
           "de": "Energie",
@@ -2561,7 +2561,7 @@
           "plural": "Energien",
           "type": "n",
           "en": "energia",
-          "exampleEn": "L'energia è conservata."
+          "exampleEn": "Energy is conserved."
         },
         {
           "de": "Kraft",
@@ -2572,7 +2572,7 @@
           "plural": "Kräfte",
           "type": "n",
           "en": "forza",
-          "exampleEn": "La forza è misurabile."
+          "exampleEn": "The force is measurable."
         },
         {
           "de": "Materie",
@@ -2583,7 +2583,7 @@
           "plural": null,
           "type": "n",
           "en": "materia",
-          "exampleEn": "La materia ha peso."
+          "exampleEn": "Matter has weight."
         },
         {
           "de": "Licht",
@@ -2594,7 +2594,7 @@
           "plural": "Lichter",
           "type": "n",
           "en": "luce",
-          "exampleEn": "La luce viaggia velocemente."
+          "exampleEn": "Light travels fast."
         },
         {
           "de": "Strahlung",
@@ -2605,7 +2605,7 @@
           "plural": "Strahlungen",
           "type": "n",
           "en": "radiazione",
-          "exampleEn": "La radiazione è energetica."
+          "exampleEn": "Radiation is energetic."
         },
         {
           "de": "Quelle",
@@ -2616,7 +2616,7 @@
           "plural": "Quellen",
           "type": "n",
           "en": "fonte",
-          "exampleEn": "La fonte è affidabile."
+          "exampleEn": "The source is credible."
         },
         {
           "de": "Studium",
@@ -2627,7 +2627,7 @@
           "plural": "Studien",
           "type": "n",
           "en": "studio",
-          "exampleEn": "Lo studio è completo."
+          "exampleEn": "The study is comprehensive."
         },
         {
           "de": "Literatur",
@@ -2638,7 +2638,7 @@
           "plural": "Literaturen",
           "type": "n",
           "en": "letteratura",
-          "exampleEn": "La letteratura è ricca."
+          "exampleEn": "The literature is rich."
         },
         {
           "de": "Methode",
@@ -2649,7 +2649,7 @@
           "plural": "Methoden",
           "type": "n",
           "en": "metodo",
-          "exampleEn": "Il metodo è scientifico."
+          "exampleEn": "The method is scientific."
         },
         {
           "de": "Ergebnis",
@@ -2660,7 +2660,7 @@
           "plural": "Ergebnisse",
           "type": "n",
           "en": "risultato",
-          "exampleEn": "Il risultato è significativo."
+          "exampleEn": "The result is significant."
         },
         {
           "de": "Schluß",
@@ -2671,7 +2671,7 @@
           "plural": "Schlüsse",
           "type": "n",
           "en": "conclusione",
-          "exampleEn": "La conclusione è logica."
+          "exampleEn": "The conclusion is logical."
         }
       ]
     },
@@ -2688,7 +2688,7 @@
           "plural": "Philosophien",
           "type": "n",
           "en": "filosofia",
-          "exampleEn": "La filosofia chiede il significato."
+          "exampleEn": "Philosophy asks about the meaning."
         },
         {
           "de": "Existenz",
@@ -2699,7 +2699,7 @@
           "plural": "Existenzen",
           "type": "n",
           "en": "esistenza",
-          "exampleEn": "L'esistenza è misteriosa."
+          "exampleEn": "Existence is mysterious."
         },
         {
           "de": "Sein",
@@ -2710,7 +2710,7 @@
           "plural": null,
           "type": "n",
           "en": "essere",
-          "exampleEn": "L'essere è fondamentale."
+          "exampleEn": "Being is fundamental."
         },
         {
           "de": "Wesen",
@@ -2721,7 +2721,7 @@
           "plural": "Wesen",
           "type": "n",
           "en": "essenza",
-          "exampleEn": "L'essenza è invariante."
+          "exampleEn": "The essence is invariant."
         },
         {
           "de": "Wahrheit",
@@ -2732,7 +2732,7 @@
           "plural": "Wahrheiten",
           "type": "n",
           "en": "verità",
-          "exampleEn": "La verità è relativa."
+          "exampleEn": "Truth is relative."
         },
         {
           "de": "Moral",
@@ -2743,7 +2743,7 @@
           "plural": null,
           "type": "n",
           "en": "morale",
-          "exampleEn": "La morale è soggettiva."
+          "exampleEn": "Morality is subjective."
         },
         {
           "de": "Ethik",
@@ -2754,7 +2754,7 @@
           "plural": "Ethiken",
           "type": "n",
           "en": "etica",
-          "exampleEn": "L'etica è orientata all'azione."
+          "exampleEn": "Ethics guides action."
         },
         {
           "de": "Gut",
@@ -2765,7 +2765,7 @@
           "plural": "Güter",
           "type": "n",
           "en": "bene",
-          "exampleEn": "Il bene è universale."
+          "exampleEn": "Good is universal."
         },
         {
           "de": "Böse",
@@ -2776,7 +2776,7 @@
           "plural": null,
           "type": "n",
           "en": "male",
-          "exampleEn": "Il male è relativo."
+          "exampleEn": "Evil is relative."
         },
         {
           "de": "Freiheit",
@@ -2787,7 +2787,7 @@
           "plural": "Freiheiten",
           "type": "n",
           "en": "libertà",
-          "exampleEn": "La libertà è preziosa."
+          "exampleEn": "Freedom is precious."
         },
         {
           "de": "Gott",
@@ -2798,7 +2798,7 @@
           "plural": "Götter",
           "type": "n",
           "en": "dio",
-          "exampleEn": "Dio è trascendente."
+          "exampleEn": "God is transcendent."
         },
         {
           "de": "Glaube",
@@ -2809,7 +2809,7 @@
           "plural": "Glauben",
           "type": "n",
           "en": "fede",
-          "exampleEn": "La fede è personale."
+          "exampleEn": "Faith is personal."
         },
         {
           "de": "Religion",
@@ -2820,7 +2820,7 @@
           "plural": "Religionen",
           "type": "n",
           "en": "religione",
-          "exampleEn": "La religione è culturale."
+          "exampleEn": "Religion is cultural."
         },
         {
           "de": "Vernunft",
@@ -2831,7 +2831,7 @@
           "plural": null,
           "type": "n",
           "en": "ragione",
-          "exampleEn": "La ragione è determinante."
+          "exampleEn": "Reason is decisive."
         },
         {
           "de": "Verstand",
@@ -2842,7 +2842,7 @@
           "plural": null,
           "type": "n",
           "en": "intelletto",
-          "exampleEn": "L'intelletto è limitato."
+          "exampleEn": "Understanding is limited."
         },
         {
           "de": "Intuition",
@@ -2853,7 +2853,7 @@
           "plural": "Intuitionen",
           "type": "n",
           "en": "intuizione",
-          "exampleEn": "L'intuizione è immediata."
+          "exampleEn": "Intuition is immediate."
         },
         {
           "de": "Schönheit",
@@ -2864,7 +2864,7 @@
           "plural": null,
           "type": "n",
           "en": "bellezza",
-          "exampleEn": "La bellezza è soggettiva."
+          "exampleEn": "Beauty is subjective."
         },
         {
           "de": "Kunst",
@@ -2875,7 +2875,7 @@
           "plural": "Künste",
           "type": "n",
           "en": "arte",
-          "exampleEn": "L'arte è espressiva."
+          "exampleEn": "Art is expressive."
         },
         {
           "de": "Sinn",
@@ -2886,7 +2886,7 @@
           "plural": "Sinne",
           "type": "n",
           "en": "significato",
-          "exampleEn": "Il significato è contestuale."
+          "exampleEn": "The meaning is context-dependent."
         },
         {
           "de": "Zweck",
@@ -2897,7 +2897,7 @@
           "plural": "Zwecke",
           "type": "n",
           "en": "scopo",
-          "exampleEn": "Lo scopo è giustificato."
+          "exampleEn": "The purpose is justified."
         }
       ]
     },
@@ -2914,7 +2914,7 @@
           "plural": null,
           "type": "n",
           "en": "media",
-          "exampleEn": "I media informano."
+          "exampleEn": "Media informs."
         },
         {
           "de": "Zeitung",
@@ -2925,7 +2925,7 @@
           "plural": "Zeitungen",
           "type": "n",
           "en": "giornale",
-          "exampleEn": "Il giornale esce quotidianamente."
+          "exampleEn": "The newspaper appears daily."
         },
         {
           "de": "Zeitschrift",
@@ -2936,7 +2936,7 @@
           "plural": "Zeitschriften",
           "type": "n",
           "en": "rivista",
-          "exampleEn": "La rivista è mensile."
+          "exampleEn": "The magazine is monthly."
         },
         {
           "de": "Radio",
@@ -2947,7 +2947,7 @@
           "plural": "Radios",
           "type": "n",
           "en": "radio",
-          "exampleEn": "La radio trasmette."
+          "exampleEn": "Radio transmits."
         },
         {
           "de": "Fernsehen",
@@ -2958,7 +2958,7 @@
           "plural": null,
           "type": "n",
           "en": "televisione",
-          "exampleEn": "La televisione è popolare."
+          "exampleEn": "Television is popular."
         },
         {
           "de": "Dokumentation",
@@ -2969,7 +2969,7 @@
           "plural": "Dokumentationen",
           "type": "n",
           "en": "documentario",
-          "exampleEn": "Il documentario è informativo."
+          "exampleEn": "The documentary is informative."
         },
         {
           "de": "Nachricht",
@@ -2980,7 +2980,7 @@
           "plural": "Nachrichten",
           "type": "n",
           "en": "notizia",
-          "exampleEn": "La notizia è attuale."
+          "exampleEn": "The news is current."
         },
         {
           "de": "Bericht",
@@ -2991,7 +2991,7 @@
           "plural": "Berichte",
           "type": "n",
           "en": "rapporto",
-          "exampleEn": "Il rapporto è completo."
+          "exampleEn": "The report is comprehensive."
         },
         {
           "de": "Sendung",
@@ -3002,7 +3002,7 @@
           "plural": "Sendungen",
           "type": "n",
           "en": "trasmissione",
-          "exampleEn": "La trasmissione è intrattenente."
+          "exampleEn": "The broadcast is entertaining."
         },
         {
           "de": "Interview",
@@ -3013,7 +3013,7 @@
           "plural": "Interviews",
           "type": "n",
           "en": "intervista",
-          "exampleEn": "L'intervista è puntuale."
+          "exampleEn": "The interview is concise."
         },
         {
           "de": "Netzwerk",
@@ -3024,7 +3024,7 @@
           "plural": "Netzwerke",
           "type": "n",
           "en": "rete",
-          "exampleEn": "La rete è globale."
+          "exampleEn": "The network is global."
         },
         {
           "de": "Plattform",
@@ -3035,7 +3035,7 @@
           "plural": "Plattformen",
           "type": "n",
           "en": "piattaforma",
-          "exampleEn": "La piattaforma è digitale."
+          "exampleEn": "The platform is digital."
         },
         {
           "de": "Quelle",
@@ -3046,7 +3046,7 @@
           "plural": "Quellen",
           "type": "n",
           "en": "fonte",
-          "exampleEn": "La fonte è affidabile."
+          "exampleEn": "The source is reliable."
         },
         {
           "de": "Bias",
@@ -3057,7 +3057,7 @@
           "plural": "Biases",
           "type": "n",
           "en": "pregiudizio",
-          "exampleEn": "Il pregiudizio è inconscio."
+          "exampleEn": "The bias is unconscious."
         },
         {
           "de": "Propaganda",
@@ -3068,7 +3068,7 @@
           "plural": "Propagandas",
           "type": "n",
           "en": "propaganda",
-          "exampleEn": "La propaganda è manipolativa."
+          "exampleEn": "Propaganda is manipulative."
         },
         {
           "de": "Zensur",
@@ -3079,7 +3079,7 @@
           "plural": "Zensuren",
           "type": "n",
           "en": "censura",
-          "exampleEn": "La censura è problematica."
+          "exampleEn": "Censorship is problematic."
         },
         {
           "de": "Freiheit der Presse",
@@ -3090,7 +3090,7 @@
           "plural": null,
           "type": "n",
           "en": "libertà di stampa",
-          "exampleEn": "La libertà di stampa è essenziale."
+          "exampleEn": "Press freedom is essential."
         },
         {
           "de": "Journalismus",
@@ -3101,7 +3101,7 @@
           "plural": null,
           "type": "n",
           "en": "giornalismo",
-          "exampleEn": "Il giornalismo è importante."
+          "exampleEn": "Journalism is important."
         },
         {
           "de": "Journalist",
@@ -3112,7 +3112,7 @@
           "plural": "Journalisten",
           "type": "n",
           "en": "giornalista",
-          "exampleEn": "Il giornalista ricerca."
+          "exampleEn": "The journalist researches."
         },
         {
           "de": "Herausgeber",
@@ -3123,7 +3123,7 @@
           "plural": "Herausgeber",
           "type": "n",
           "en": "editore",
-          "exampleEn": "L'editore pubblica."
+          "exampleEn": "The publisher publishes."
         }
       ]
     },
@@ -3140,7 +3140,7 @@
           "plural": "Nationen",
           "type": "n",
           "en": "nazione",
-          "exampleEn": "La nazione è sovrana."
+          "exampleEn": "The nation is sovereign."
         },
         {
           "de": "Staat",
@@ -3151,7 +3151,7 @@
           "plural": "Staaten",
           "type": "n",
           "en": "stato",
-          "exampleEn": "Lo stato è organizzato."
+          "exampleEn": "The state is organized."
         },
         {
           "de": "Diplomatie",
@@ -3162,7 +3162,7 @@
           "plural": "Diplomationen",
           "type": "n",
           "en": "diplomazia",
-          "exampleEn": "La diplomazia è sottile."
+          "exampleEn": "Diplomacy is subtle."
         },
         {
           "de": "Diplomat",
@@ -3173,7 +3173,7 @@
           "plural": "Diplomaten",
           "type": "n",
           "en": "diplomatico",
-          "exampleEn": "Il diplomatico negozia."
+          "exampleEn": "The diplomat negotiates."
         },
         {
           "de": "Allianz",
@@ -3184,7 +3184,7 @@
           "plural": "Allianzen",
           "type": "n",
           "en": "alleanza",
-          "exampleEn": "L'alleanza è forte."
+          "exampleEn": "The alliance is strong."
         },
         {
           "de": "Konflikt",
@@ -3195,7 +3195,7 @@
           "plural": "Konflikte",
           "type": "n",
           "en": "conflitto",
-          "exampleEn": "Il conflitto è escalation."
+          "exampleEn": "Conflict is escalating."
         },
         {
           "de": "Krieg",
@@ -3206,7 +3206,7 @@
           "plural": "Kriege",
           "type": "n",
           "en": "guerra",
-          "exampleEn": "La guerra è distruttiva."
+          "exampleEn": "War is destructive."
         },
         {
           "de": "Frieden",
@@ -3217,7 +3217,7 @@
           "plural": "Frieden",
           "type": "n",
           "en": "pace",
-          "exampleEn": "La pace è preziosa."
+          "exampleEn": "Peace is valuable."
         },
         {
           "de": "Sicherheit",
@@ -3228,7 +3228,7 @@
           "plural": "Sicherheiten",
           "type": "n",
           "en": "sicurezza",
-          "exampleEn": "La sicurezza è prioritaria."
+          "exampleEn": "Security is a priority."
         },
         {
           "de": "Verteidigung",
@@ -3239,7 +3239,7 @@
           "plural": "Verteidigungen",
           "type": "n",
           "en": "difesa",
-          "exampleEn": "La difesa è giustificata."
+          "exampleEn": "Defense is justified."
         },
         {
           "de": "Atommacht",
@@ -3250,7 +3250,7 @@
           "plural": "Atommächte",
           "type": "n",
           "en": "potenza nucleare",
-          "exampleEn": "La potenza nucleare è minacciosa."
+          "exampleEn": "Nuclear power is threatening."
         },
         {
           "de": "Embargo",
@@ -3261,7 +3261,7 @@
           "plural": "Embargos",
           "type": "n",
           "en": "embargo",
-          "exampleEn": "L'embargo è economico."
+          "exampleEn": "The embargo is economic."
         },
         {
           "de": "Sanktion",
@@ -3272,7 +3272,7 @@
           "plural": "Sanktionen",
           "type": "n",
           "en": "sanzione",
-          "exampleEn": "La sanzione è efficace."
+          "exampleEn": "The sanction is effective."
         },
         {
           "de": "Vertrag",
@@ -3283,7 +3283,7 @@
           "plural": "Verträge",
           "type": "n",
           "en": "trattato",
-          "exampleEn": "Il trattato è vincolante."
+          "exampleEn": "The treaty is binding."
         },
         {
           "de": "Vereinte Nationen",
@@ -3294,7 +3294,7 @@
           "plural": null,
           "type": "n",
           "en": "Nazioni Unite",
-          "exampleEn": "Le Nazioni Unite mediano."
+          "exampleEn": "The United Nations mediates."
         },
         {
           "de": "Europäische Union",
@@ -3305,7 +3305,7 @@
           "plural": null,
           "type": "n",
           "en": "Unione Europea",
-          "exampleEn": "L'Unione Europea integra."
+          "exampleEn": "The European Union integrates."
         },
         {
           "de": "Souveränität",
@@ -3316,7 +3316,7 @@
           "plural": "Souveränitäten",
           "type": "n",
           "en": "sovranità",
-          "exampleEn": "La sovranità è non negoziabile."
+          "exampleEn": "Sovereignty is non-negotiable."
         },
         {
           "de": "Grenzkonflikt",
@@ -3327,7 +3327,7 @@
           "plural": "Grenzkonflikte",
           "type": "n",
           "en": "conflitto di confine",
-          "exampleEn": "Il conflitto di confine è antico."
+          "exampleEn": "The border conflict is old."
         },
         {
           "de": "Flüchtling",
@@ -3338,7 +3338,7 @@
           "plural": "Flüchtlinge",
           "type": "n",
           "en": "rifugiato",
-          "exampleEn": "Il rifugiato cerca protezione."
+          "exampleEn": "The refugee seeks protection."
         },
         {
           "de": "Humanitäre Hilfe",
@@ -3349,7 +3349,7 @@
           "plural": null,
           "type": "n",
           "en": "aiuto umanitario",
-          "exampleEn": "L'aiuto umanitario è necessario."
+          "exampleEn": "Humanitarian aid is necessary."
         }
       ]
     },
@@ -3366,7 +3366,7 @@
           "plural": "Diplomaten",
           "type": "n",
           "en": "Diplomatico",
-          "exampleEn": "Il diplomatico negozia."
+          "exampleEn": "The diplomat negotiates."
         },
         {
           "de": "Verhandlung",
@@ -3377,7 +3377,7 @@
           "plural": "Verhandlungen",
           "type": "n",
           "en": "Negoziazione",
-          "exampleEn": "La negoziazione è difficile."
+          "exampleEn": "The negotiation is difficult."
         },
         {
           "de": "Abkommen",
@@ -3388,7 +3388,7 @@
           "plural": "Abkommen",
           "type": "n",
           "en": "Accordo",
-          "exampleEn": "L'accordo è valido."
+          "exampleEn": "The agreement is valid."
         },
         {
           "de": "Botschaft",
@@ -3399,7 +3399,7 @@
           "plural": "Botschaften",
           "type": "n",
           "en": "Ambasciata",
-          "exampleEn": "L'ambasciata è a Berlino."
+          "exampleEn": "The embassy is in Berlin."
         },
         {
           "de": "Gesandter",
@@ -3410,7 +3410,7 @@
           "plural": "Gesandten",
           "type": "n",
           "en": "Inviato",
-          "exampleEn": "L'inviato porta un messaggio."
+          "exampleEn": "The envoy brings a message."
         },
         {
           "de": "Protokoll",
@@ -3421,7 +3421,7 @@
           "plural": "Protokolle",
           "type": "n",
           "en": "Protocollo",
-          "exampleEn": "Il protocollo è vincolante."
+          "exampleEn": "The protocol is binding."
         },
         {
           "de": "Gipfel",
@@ -3432,7 +3432,7 @@
           "plural": "Gipfel",
           "type": "n",
           "en": "Vertice",
-          "exampleEn": "Il vertice è internazionale."
+          "exampleEn": "The summit is international."
         },
         {
           "de": "Sanktion",
@@ -3443,7 +3443,7 @@
           "plural": "Sanktionen",
           "type": "n",
           "en": "Sanzione",
-          "exampleEn": "La sanzione è economica."
+          "exampleEn": "The sanction is economic."
         },
         {
           "de": "Konsulat",
@@ -3454,7 +3454,7 @@
           "plural": "Konsulate",
           "type": "n",
           "en": "Consolato",
-          "exampleEn": "Il consolato rilascia visti."
+          "exampleEn": "The consulate issues visas."
         },
         {
           "de": "Vereinte Nationen",
@@ -3465,7 +3465,7 @@
           "plural": null,
           "type": "n",
           "en": "Nazioni Unite",
-          "exampleEn": "Le Nazioni Unite hanno sede a New York."
+          "exampleEn": "The United Nations sits in New York."
         },
         {
           "de": "Allianz",
@@ -3476,7 +3476,7 @@
           "plural": "Allianzen",
           "type": "n",
           "en": "Alleanza",
-          "exampleEn": "L'alleanza è forte."
+          "exampleEn": "The alliance is strong."
         },
         {
           "de": "Konflikt",
@@ -3487,7 +3487,7 @@
           "plural": "Konflikte",
           "type": "n",
           "en": "Conflitto",
-          "exampleEn": "Il conflitto è risolto."
+          "exampleEn": "The conflict is resolved."
         },
         {
           "de": "Friedensvertrag",
@@ -3498,7 +3498,7 @@
           "plural": "Friedensverträge",
           "type": "n",
           "en": "Trattato di pace",
-          "exampleEn": "Il trattato di pace viene firmato."
+          "exampleEn": "The peace treaty is signed."
         },
         {
           "de": "Streitbeilegung",
@@ -3509,7 +3509,7 @@
           "plural": "Streitbeilegungen",
           "type": "n",
           "en": "Risoluzione delle controversie",
-          "exampleEn": "La risoluzione delle controversie ha successo."
+          "exampleEn": "The dispute resolution is successful."
         },
         {
           "de": "Souveränität",
@@ -3520,7 +3520,7 @@
           "plural": "Souveränitäten",
           "type": "n",
           "en": "Sovranità",
-          "exampleEn": "La sovranità è garantita."
+          "exampleEn": "Sovereignty is guaranteed."
         },
         {
           "de": "Autonomie",
@@ -3531,7 +3531,7 @@
           "plural": "Autonomien",
           "type": "n",
           "en": "Autonomia",
-          "exampleEn": "L'autonomia è protetta."
+          "exampleEn": "Autonomy is protected."
         },
         {
           "de": "Intervention",
@@ -3542,7 +3542,7 @@
           "plural": "Interventionen",
           "type": "n",
           "en": "Intervento",
-          "exampleEn": "L'intervento è controverso."
+          "exampleEn": "The intervention is controversial."
         },
         {
           "de": "Schiedsrichter",
@@ -3553,7 +3553,7 @@
           "plural": "Schiedsrichter",
           "type": "n",
           "en": "Arbitro",
-          "exampleEn": "L'arbitro è neutrale."
+          "exampleEn": "The arbitrator is neutral."
         },
         {
           "de": "verhandeln",
@@ -3564,7 +3564,7 @@
           "plural": null,
           "type": "v",
           "en": "Negoziare",
-          "exampleEn": "I paesi negoziano."
+          "exampleEn": "The countries negotiate."
         },
         {
           "de": "unterzeichnen",
@@ -3575,7 +3575,7 @@
           "plural": null,
           "type": "v",
           "en": "Firmare",
-          "exampleEn": "Il presidente firma il contratto."
+          "exampleEn": "The president signs the treaty."
         },
         {
           "de": "ratifizieren",
@@ -3586,7 +3586,7 @@
           "plural": null,
           "type": "v",
           "en": "Ratificare",
-          "exampleEn": "Il parlamento ratifica l'accordo."
+          "exampleEn": "Parliament ratifies the agreement."
         },
         {
           "de": "diplomatisch",
@@ -3597,7 +3597,7 @@
           "plural": null,
           "type": "adj",
           "en": "Diplomatico",
-          "exampleEn": "Questa è una soluzione diplomatica."
+          "exampleEn": "This is a diplomatic solution."
         },
         {
           "de": "neutral",
@@ -3608,7 +3608,7 @@
           "plural": null,
           "type": "adj",
           "en": "Neutrale",
-          "exampleEn": "Il paese è neutrale."
+          "exampleEn": "The country is neutral."
         },
         {
           "de": "friedlich",
@@ -3619,7 +3619,7 @@
           "plural": null,
           "type": "adj",
           "en": "Pacifico",
-          "exampleEn": "La soluzione è pacifica."
+          "exampleEn": "The solution is peaceful."
         }
       ]
     },
@@ -3636,7 +3636,7 @@
           "plural": null,
           "type": "n",
           "en": "Ambiente",
-          "exampleEn": "L'ambiente è minacciato."
+          "exampleEn": "The environment is threatened."
         },
         {
           "de": "Klima",
@@ -3647,7 +3647,7 @@
           "plural": null,
           "type": "n",
           "en": "Clima",
-          "exampleEn": "Il clima cambia."
+          "exampleEn": "The climate is changing."
         },
         {
           "de": "Natur",
@@ -3658,7 +3658,7 @@
           "plural": null,
           "type": "n",
           "en": "Natura",
-          "exampleEn": "La natura è bellissima."
+          "exampleEn": "Nature is beautiful."
         },
         {
           "de": "Tier",
@@ -3669,7 +3669,7 @@
           "plural": "Tiere",
           "type": "n",
           "en": "Animale",
-          "exampleEn": "L'animale è in pericolo."
+          "exampleEn": "The animal is endangered."
         },
         {
           "de": "Pflanze",
@@ -3680,7 +3680,7 @@
           "plural": "Pflanzen",
           "type": "n",
           "en": "Pianta",
-          "exampleEn": "La pianta cresce."
+          "exampleEn": "The plant grows."
         },
         {
           "de": "Wald",
@@ -3691,7 +3691,7 @@
           "plural": "Wälder",
           "type": "n",
           "en": "Foresta",
-          "exampleEn": "La foresta è verde."
+          "exampleEn": "The forest is green."
         },
         {
           "de": "Meer",
@@ -3702,7 +3702,7 @@
           "plural": "Meere",
           "type": "n",
           "en": "Mare",
-          "exampleEn": "Il mare è profondo."
+          "exampleEn": "The sea is deep."
         },
         {
           "de": "Luft",
@@ -3713,7 +3713,7 @@
           "plural": null,
           "type": "n",
           "en": "Aria",
-          "exampleEn": "L'aria è pulita."
+          "exampleEn": "The air is clean."
         },
         {
           "de": "Wasser",
@@ -3724,7 +3724,7 @@
           "plural": null,
           "type": "n",
           "en": "Acqua",
-          "exampleEn": "L'acqua è fredda."
+          "exampleEn": "The water is cold."
         },
         {
           "de": "Boden",
@@ -3735,7 +3735,7 @@
           "plural": "Böden",
           "type": "n",
           "en": "Suolo",
-          "exampleEn": "Il suolo è fertile."
+          "exampleEn": "The soil is fertile."
         },
         {
           "de": "Verschmutzung",
@@ -3746,7 +3746,7 @@
           "plural": "Verschmutzungen",
           "type": "n",
           "en": "Inquinamento",
-          "exampleEn": "L'inquinamento è grave."
+          "exampleEn": "The pollution is severe."
         },
         {
           "de": "Emissionen",
@@ -3757,7 +3757,7 @@
           "plural": null,
           "type": "n",
           "en": "Emissioni",
-          "exampleEn": "Le emissioni sono nocive."
+          "exampleEn": "The emissions are harmful."
         },
         {
           "de": "Recycling",
@@ -3768,7 +3768,7 @@
           "plural": null,
           "type": "n",
           "en": "Riciclaggio",
-          "exampleEn": "Il riciclaggio è importante."
+          "exampleEn": "Recycling is important."
         },
         {
           "de": "Energie",
@@ -3779,7 +3779,7 @@
           "plural": "Energien",
           "type": "n",
           "en": "Energia",
-          "exampleEn": "L'energia è rinnovabile."
+          "exampleEn": "Energy is renewable."
         },
         {
           "de": "Solaranlage",
@@ -3790,7 +3790,7 @@
           "plural": "Solaranlagen",
           "type": "n",
           "en": "Pannello solare",
-          "exampleEn": "Il pannello solare produce elettricità."
+          "exampleEn": "The solar panel produces electricity."
         },
         {
           "de": "Windkraft",
@@ -3801,7 +3801,7 @@
           "plural": null,
           "type": "n",
           "en": "Energia eolica",
-          "exampleEn": "L'energia eolica è sostenibile."
+          "exampleEn": "Wind power is sustainable."
         },
         {
           "de": "Naturschutz",
@@ -3812,7 +3812,7 @@
           "plural": null,
           "type": "n",
           "en": "Conservazione della natura",
-          "exampleEn": "La conservazione della natura è necessaria."
+          "exampleEn": "Nature conservation is necessary."
         },
         {
           "de": "Artenvielfalt",
@@ -3823,7 +3823,7 @@
           "plural": null,
           "type": "n",
           "en": "Biodiversità",
-          "exampleEn": "La biodiversità è minacciata."
+          "exampleEn": "Biodiversity is endangered."
         },
         {
           "de": "schützen",
@@ -3834,7 +3834,7 @@
           "plural": null,
           "type": "v",
           "en": "Proteggere",
-          "exampleEn": "Proteggiamo l'ambiente."
+          "exampleEn": "We protect the environment."
         },
         {
           "de": "verschmutzen",
@@ -3845,7 +3845,7 @@
           "plural": null,
           "type": "v",
           "en": "Inquinare",
-          "exampleEn": "La fabbrica inquina l'aria."
+          "exampleEn": "The factory pollutes the air."
         },
         {
           "de": "erneuerbar",
@@ -3856,7 +3856,7 @@
           "plural": null,
           "type": "adj",
           "en": "Rinnovabile",
-          "exampleEn": "Questa è energia rinnovabile."
+          "exampleEn": "This is renewable energy."
         },
         {
           "de": "nachhaltig",
@@ -3867,7 +3867,7 @@
           "plural": null,
           "type": "adj",
           "en": "Sostenibile",
-          "exampleEn": "Questa è una soluzione sostenibile."
+          "exampleEn": "This is a sustainable solution."
         },
         {
           "de": "gefährdet",
@@ -3878,7 +3878,7 @@
           "plural": null,
           "type": "adj",
           "en": "Minacciato",
-          "exampleEn": "La specie è minacciata."
+          "exampleEn": "The species is endangered."
         }
       ]
     },
@@ -3895,7 +3895,7 @@
           "plural": "Technologien",
           "type": "n",
           "en": "Tecnologia",
-          "exampleEn": "La tecnologia si sviluppa rapidamente."
+          "exampleEn": "Technology develops quickly."
         },
         {
           "de": "Innovation",
@@ -3906,7 +3906,7 @@
           "plural": "Innovationen",
           "type": "n",
           "en": "Innovazione",
-          "exampleEn": "L'innovazione è rivoluzionaria."
+          "exampleEn": "The innovation is revolutionary."
         },
         {
           "de": "Computer",
@@ -3916,8 +3916,8 @@
           "article": "der",
           "plural": "Computer",
           "type": "n",
-          "en": "Computer",
-          "exampleEn": "Il computer è veloce."
+          "en": "computer",
+          "exampleEn": "The computer is fast."
         },
         {
           "de": "Software",
@@ -3927,8 +3927,8 @@
           "article": "die",
           "plural": "Softwareprodukte",
           "type": "n",
-          "en": "Software",
-          "exampleEn": "Il software è affidabile."
+          "en": "software",
+          "exampleEn": "The software is reliable."
         },
         {
           "de": "Hardware",
@@ -3938,8 +3938,8 @@
           "article": "die",
           "plural": null,
           "type": "n",
-          "en": "Hardware",
-          "exampleEn": "L'hardware è robusto."
+          "en": "hardware",
+          "exampleEn": "The hardware is robust."
         },
         {
           "de": "Programm",
@@ -3950,7 +3950,7 @@
           "plural": "Programme",
           "type": "n",
           "en": "Programma",
-          "exampleEn": "Il programma è facile da usare."
+          "exampleEn": "The program is user-friendly."
         },
         {
           "de": "Code",
@@ -3961,7 +3961,7 @@
           "plural": "Codes",
           "type": "n",
           "en": "Codice",
-          "exampleEn": "Il codice è senza errori."
+          "exampleEn": "The code is error-free."
         },
         {
           "de": "Datenbank",
@@ -3972,7 +3972,7 @@
           "plural": "Datenbanken",
           "type": "n",
           "en": "Database",
-          "exampleEn": "Il database è grande."
+          "exampleEn": "The database is large."
         },
         {
           "de": "Server",
@@ -3982,8 +3982,8 @@
           "article": "der",
           "plural": "Server",
           "type": "n",
-          "en": "Server",
-          "exampleEn": "Il server è sicuro."
+          "en": "server",
+          "exampleEn": "The server is secure."
         },
         {
           "de": "Netzwerk",
@@ -3994,7 +3994,7 @@
           "plural": "Netzwerke",
           "type": "n",
           "en": "Rete",
-          "exampleEn": "La rete è veloce."
+          "exampleEn": "The network is fast."
         },
         {
           "de": "Internet",
@@ -4004,8 +4004,8 @@
           "article": "das",
           "plural": null,
           "type": "n",
-          "en": "Internet",
-          "exampleEn": "Internet è onnipresente."
+          "en": "internet",
+          "exampleEn": "The internet is ubiquitous."
         },
         {
           "de": "Cloud",
@@ -4015,8 +4015,8 @@
           "article": "die",
           "plural": "Clouds",
           "type": "n",
-          "en": "Cloud",
-          "exampleEn": "Il cloud memorizza i dati."
+          "en": "cloud",
+          "exampleEn": "The cloud stores data."
         },
         {
           "de": "Sicherheit",
@@ -4027,7 +4027,7 @@
           "plural": "Sicherheiten",
           "type": "n",
           "en": "Sicurezza",
-          "exampleEn": "La sicurezza è importante."
+          "exampleEn": "Security is important."
         },
         {
           "de": "Verschlüsselung",
@@ -4038,7 +4038,7 @@
           "plural": "Verschlüsselungen",
           "type": "n",
           "en": "Crittografia",
-          "exampleEn": "La crittografia è forte."
+          "exampleEn": "The encryption is strong."
         },
         {
           "de": "Virus",
@@ -4048,8 +4048,8 @@
           "article": "der",
           "plural": "Viren",
           "type": "n",
-          "en": "Virus",
-          "exampleEn": "Il virus è pericoloso."
+          "en": "virus",
+          "exampleEn": "The virus is dangerous."
         },
         {
           "de": "Firewall",
@@ -4059,8 +4059,8 @@
           "article": "die",
           "plural": "Firewalls",
           "type": "n",
-          "en": "Firewall",
-          "exampleEn": "Il firewall protegge il computer."
+          "en": "firewall",
+          "exampleEn": "The firewall protects the computer."
         },
         {
           "de": "Künstliche Intelligenz",
@@ -4071,7 +4071,7 @@
           "plural": null,
           "type": "n",
           "en": "Intelligenza artificiale",
-          "exampleEn": "L'intelligenza artificiale è potente."
+          "exampleEn": "Artificial intelligence is powerful."
         },
         {
           "de": "Algorithmus",
@@ -4082,7 +4082,7 @@
           "plural": "Algorithmen",
           "type": "n",
           "en": "Algoritmo",
-          "exampleEn": "L'algoritmo è complesso."
+          "exampleEn": "The algorithm is complex."
         },
         {
           "de": "programmieren",
@@ -4093,7 +4093,7 @@
           "plural": null,
           "type": "v",
           "en": "Programmmare",
-          "exampleEn": "Programma un'app."
+          "exampleEn": "He programs an app."
         },
         {
           "de": "aktualisieren",
@@ -4104,7 +4104,7 @@
           "plural": null,
           "type": "v",
           "en": "Aggiornare",
-          "exampleEn": "Il sistema viene aggiornato."
+          "exampleEn": "The system is being updated."
         },
         {
           "de": "digital",
@@ -4115,7 +4115,7 @@
           "plural": null,
           "type": "adj",
           "en": "Digitale",
-          "exampleEn": "Questa è una soluzione digitale."
+          "exampleEn": "This is a digital solution."
         },
         {
           "de": "virtuell",
@@ -4126,7 +4126,7 @@
           "plural": null,
           "type": "adj",
           "en": "Virtuale",
-          "exampleEn": "Questa è una realtà virtuale."
+          "exampleEn": "This is a virtual reality."
         },
         {
           "de": "modern",
@@ -4137,7 +4137,7 @@
           "plural": null,
           "type": "adj",
           "en": "Moderno",
-          "exampleEn": "Questa è una tecnologia moderna."
+          "exampleEn": "This is modern technology."
         }
       ]
     },
@@ -4154,7 +4154,7 @@
           "plural": "Architekturen",
           "type": "n",
           "en": "Architettura",
-          "exampleEn": "L'architettura è moderna."
+          "exampleEn": "The architecture is modern."
         },
         {
           "de": "Gebäude",
@@ -4165,7 +4165,7 @@
           "plural": "Gebäude",
           "type": "n",
           "en": "Edificio",
-          "exampleEn": "L'edificio è antico."
+          "exampleEn": "The building is old."
         },
         {
           "de": "Haus",
@@ -4176,7 +4176,7 @@
           "plural": "Häuser",
           "type": "n",
           "en": "Casa",
-          "exampleEn": "La casa è grande."
+          "exampleEn": "The house is large."
         },
         {
           "de": "Wohnung",
@@ -4187,7 +4187,7 @@
           "plural": "Wohnungen",
           "type": "n",
           "en": "Appartamento",
-          "exampleEn": "L'appartamento è caro."
+          "exampleEn": "The apartment is expensive."
         },
         {
           "de": "Straße",
@@ -4198,7 +4198,7 @@
           "plural": "Straßen",
           "type": "n",
           "en": "Strada",
-          "exampleEn": "La strada è larga."
+          "exampleEn": "The street is wide."
         },
         {
           "de": "Platz",
@@ -4209,7 +4209,7 @@
           "plural": "Plätze",
           "type": "n",
           "en": "Piazza",
-          "exampleEn": "La piazza è centrale."
+          "exampleEn": "The square is central."
         },
         {
           "de": "Park",
@@ -4220,7 +4220,7 @@
           "plural": "Parks",
           "type": "n",
           "en": "Parco",
-          "exampleEn": "Il parco è verde."
+          "exampleEn": "The park is green."
         },
         {
           "de": "Brücke",
@@ -4231,7 +4231,7 @@
           "plural": "Brücken",
           "type": "n",
           "en": "Ponte",
-          "exampleEn": "Il ponte è stabile."
+          "exampleEn": "The bridge is stable."
         },
         {
           "de": "Turm",
@@ -4242,7 +4242,7 @@
           "plural": "Türme",
           "type": "n",
           "en": "Torre",
-          "exampleEn": "La torre è alta."
+          "exampleEn": "The tower is tall."
         },
         {
           "de": "Kirche",
@@ -4253,7 +4253,7 @@
           "plural": "Kirchen",
           "type": "n",
           "en": "Chiesa",
-          "exampleEn": "La chiesa è antica."
+          "exampleEn": "The church is old."
         },
         {
           "de": "Denkmal",
@@ -4264,7 +4264,7 @@
           "plural": "Denkmale",
           "type": "n",
           "en": "Monumento",
-          "exampleEn": "Il monumento è impressionante."
+          "exampleEn": "The monument is impressive."
         },
         {
           "de": "Fassade",
@@ -4275,7 +4275,7 @@
           "plural": "Fassaden",
           "type": "n",
           "en": "Facciata",
-          "exampleEn": "La facciata è bella."
+          "exampleEn": "The facade is beautiful."
         },
         {
           "de": "Fundament",
@@ -4286,7 +4286,7 @@
           "plural": "Fundamente",
           "type": "n",
           "en": "Fondamento",
-          "exampleEn": "Il fondamento è solido."
+          "exampleEn": "The foundation is solid."
         },
         {
           "de": "Ziegel",
@@ -4297,7 +4297,7 @@
           "plural": "Ziegel",
           "type": "n",
           "en": "Mattone",
-          "exampleEn": "Il mattone è rosso."
+          "exampleEn": "The brick is red."
         },
         {
           "de": "Beton",
@@ -4308,7 +4308,7 @@
           "plural": null,
           "type": "n",
           "en": "Cemento",
-          "exampleEn": "Il cemento è duro."
+          "exampleEn": "The concrete is hard."
         },
         {
           "de": "Stahl",
@@ -4319,7 +4319,7 @@
           "plural": null,
           "type": "n",
           "en": "Acciaio",
-          "exampleEn": "L'acciaio è forte."
+          "exampleEn": "The steel is strong."
         },
         {
           "de": "Holz",
@@ -4330,7 +4330,7 @@
           "plural": null,
           "type": "n",
           "en": "Legno",
-          "exampleEn": "Il legno è caldo."
+          "exampleEn": "The wood is warm."
         },
         {
           "de": "Stadtplan",
@@ -4341,7 +4341,7 @@
           "plural": "Stadtpläne",
           "type": "n",
           "en": "Pianta della città",
-          "exampleEn": "La pianta della città mostra le strade."
+          "exampleEn": "The city map shows streets."
         },
         {
           "de": "bauen",
@@ -4352,7 +4352,7 @@
           "plural": null,
           "type": "v",
           "en": "Costruire",
-          "exampleEn": "Costruiscono una nuova casa."
+          "exampleEn": "They are building a new house."
         },
         {
           "de": "abreißen",
@@ -4363,7 +4363,7 @@
           "plural": null,
           "type": "v",
           "en": "Demolire",
-          "exampleEn": "L'edificio vecchio viene demolito."
+          "exampleEn": "The old building is being demolished."
         },
         {
           "de": "gestalten",
@@ -4374,7 +4374,7 @@
           "plural": null,
           "type": "v",
           "en": "Progettare",
-          "exampleEn": "L'architetto progetta la casa."
+          "exampleEn": "The architect designs the house."
         },
         {
           "de": "architektonisch",
@@ -4385,7 +4385,7 @@
           "plural": null,
           "type": "adj",
           "en": "Architettonico",
-          "exampleEn": "Questo è un capolavoro architettonico."
+          "exampleEn": "This is an architectural masterpiece."
         },
         {
           "de": "urban",
@@ -4396,7 +4396,7 @@
           "plural": null,
           "type": "adj",
           "en": "Urbano",
-          "exampleEn": "Questa è un'area urbana."
+          "exampleEn": "This is an urban area."
         }
       ]
     },
@@ -4413,7 +4413,7 @@
           "plural": "Philosophien",
           "type": "n",
           "en": "Filosofia",
-          "exampleEn": "La filosofia è antica."
+          "exampleEn": "Philosophy is old."
         },
         {
           "de": "Ethik",
@@ -4424,7 +4424,7 @@
           "plural": "Ethiken",
           "type": "n",
           "en": "Etica",
-          "exampleEn": "L'etica è importante."
+          "exampleEn": "Ethics is important."
         },
         {
           "de": "Moral",
@@ -4435,7 +4435,7 @@
           "plural": "Moralen",
           "type": "n",
           "en": "Morale",
-          "exampleEn": "La morale è controversa."
+          "exampleEn": "Morality is controversial."
         },
         {
           "de": "Wert",
@@ -4446,7 +4446,7 @@
           "plural": "Werte",
           "type": "n",
           "en": "Valore",
-          "exampleEn": "Il valore è soggettivo."
+          "exampleEn": "The value is subjective."
         },
         {
           "de": "Tugend",
@@ -4457,7 +4457,7 @@
           "plural": "Tugenden",
           "type": "n",
           "en": "Virtù",
-          "exampleEn": "La virtù è lodevole."
+          "exampleEn": "Virtue is praiseworthy."
         },
         {
           "de": "Wahrheit",
@@ -4468,7 +4468,7 @@
           "plural": "Wahrheiten",
           "type": "n",
           "en": "Verità",
-          "exampleEn": "La verità è importante."
+          "exampleEn": "Truth is important."
         },
         {
           "de": "Gerechtigkeit",
@@ -4479,7 +4479,7 @@
           "plural": null,
           "type": "n",
           "en": "Giustizia",
-          "exampleEn": "La giustizia è fondamentale."
+          "exampleEn": "Justice is fundamental."
         },
         {
           "de": "Freiheit",
@@ -4490,7 +4490,7 @@
           "plural": null,
           "type": "n",
           "en": "Libertà",
-          "exampleEn": "La libertà è preziosa."
+          "exampleEn": "Freedom is precious."
         },
         {
           "de": "Pflicht",
@@ -4501,7 +4501,7 @@
           "plural": "Pflichten",
           "type": "n",
           "en": "Dovere",
-          "exampleEn": "Il dovere è chiaro."
+          "exampleEn": "Duty is clear."
         },
         {
           "de": "Verantwortung",
@@ -4512,7 +4512,7 @@
           "plural": "Verantwortungen",
           "type": "n",
           "en": "Responsabilità",
-          "exampleEn": "La responsabilità è grande."
+          "exampleEn": "Responsibility is great."
         },
         {
           "de": "Bewusstsein",
@@ -4523,7 +4523,7 @@
           "plural": "Bewusstseine",
           "type": "n",
           "en": "Consapevolezza",
-          "exampleEn": "La consapevolezza è importante."
+          "exampleEn": "Consciousness is important."
         },
         {
           "de": "Mensch",
@@ -4534,7 +4534,7 @@
           "plural": "Menschen",
           "type": "n",
           "en": "Uomo",
-          "exampleEn": "L'uomo è complesso."
+          "exampleEn": "Humans are complex."
         },
         {
           "de": "Seele",
@@ -4545,7 +4545,7 @@
           "plural": "Seelen",
           "type": "n",
           "en": "Anima",
-          "exampleEn": "L'anima è immortale."
+          "exampleEn": "The soul is immortal."
         },
         {
           "de": "Verstand",
@@ -4556,7 +4556,7 @@
           "plural": null,
           "type": "n",
           "en": "Ragione",
-          "exampleEn": "La ragione è potente."
+          "exampleEn": "The mind is powerful."
         },
         {
           "de": "Gefühl",
@@ -4567,7 +4567,7 @@
           "plural": "Gefühle",
           "type": "n",
           "en": "Sentimento",
-          "exampleEn": "Il sentimento è autentico."
+          "exampleEn": "The feeling is real."
         },
         {
           "de": "Liebe",
@@ -4578,7 +4578,7 @@
           "plural": null,
           "type": "n",
           "en": "Amore",
-          "exampleEn": "L'amore è universale."
+          "exampleEn": "Love is universal."
         },
         {
           "de": "Hass",
@@ -4589,7 +4589,7 @@
           "plural": "Hasse",
           "type": "n",
           "en": "Odio",
-          "exampleEn": "L'odio è distruttivo."
+          "exampleEn": "Hatred is destructive."
         },
         {
           "de": "denken",
@@ -4600,7 +4600,7 @@
           "plural": null,
           "type": "v",
           "en": "Pensare",
-          "exampleEn": "Pensa profondamente."
+          "exampleEn": "He thinks profoundly."
         },
         {
           "de": "nachdenken",
@@ -4611,7 +4611,7 @@
           "plural": null,
           "type": "v",
           "en": "Riflettere",
-          "exampleEn": "Riflette sulla vita."
+          "exampleEn": "She reflects on life."
         },
         {
           "de": "glauben",
@@ -4622,7 +4622,7 @@
           "plural": null,
           "type": "v",
           "en": "Credere",
-          "exampleEn": "Crede in Dio."
+          "exampleEn": "He believes in God."
         },
         {
           "de": "ethisch",
@@ -4633,7 +4633,7 @@
           "plural": null,
           "type": "adj",
           "en": "Etico",
-          "exampleEn": "Questa è una questione etica."
+          "exampleEn": "This is an ethical question."
         },
         {
           "de": "moralisch",
@@ -4644,7 +4644,7 @@
           "plural": null,
           "type": "adj",
           "en": "Morale",
-          "exampleEn": "Questo è un dilemma morale."
+          "exampleEn": "This is a moral dilemma."
         },
         {
           "de": "weise",
@@ -4655,7 +4655,7 @@
           "plural": null,
           "type": "adj",
           "en": "Saggio",
-          "exampleEn": "L'uomo saggio dà consigli."
+          "exampleEn": "The wise man gives advice."
         }
       ]
     },
@@ -4672,7 +4672,7 @@
           "plural": "Gesellschaften",
           "type": "n",
           "en": "Società",
-          "exampleEn": "La società cambia."
+          "exampleEn": "Society is changing."
         },
         {
           "de": "Kultur",
@@ -4683,7 +4683,7 @@
           "plural": "Kulturen",
           "type": "n",
           "en": "Cultura",
-          "exampleEn": "La cultura è varia."
+          "exampleEn": "Culture is diverse."
         },
         {
           "de": "Klasse",
@@ -4694,7 +4694,7 @@
           "plural": "Klassen",
           "type": "n",
           "en": "Classe",
-          "exampleEn": "La classe è strutturata."
+          "exampleEn": "The class is structured."
         },
         {
           "de": "Status",
@@ -4704,8 +4704,8 @@
           "article": "der",
           "plural": "Status",
           "type": "n",
-          "en": "Status",
-          "exampleEn": "Lo status è importante."
+          "en": "status",
+          "exampleEn": "Status is important."
         },
         {
           "de": "Familie",
@@ -4716,7 +4716,7 @@
           "plural": "Familien",
           "type": "n",
           "en": "Famiglia",
-          "exampleEn": "La famiglia è importante."
+          "exampleEn": "Family is important."
         },
         {
           "de": "Gruppe",
@@ -4727,7 +4727,7 @@
           "plural": "Gruppen",
           "type": "n",
           "en": "Gruppo",
-          "exampleEn": "Il gruppo è coeso."
+          "exampleEn": "The group is cohesive."
         },
         {
           "de": "Institution",
@@ -4738,7 +4738,7 @@
           "plural": "Institutionen",
           "type": "n",
           "en": "Istituzione",
-          "exampleEn": "L'istituzione è antica."
+          "exampleEn": "The institution is old."
         },
         {
           "de": "Norm",
@@ -4749,7 +4749,7 @@
           "plural": "Normen",
           "type": "n",
           "en": "Norma",
-          "exampleEn": "La norma è stabilita."
+          "exampleEn": "The norm is established."
         },
         {
           "de": "Wert",
@@ -4760,7 +4760,7 @@
           "plural": "Werte",
           "type": "n",
           "en": "Valore",
-          "exampleEn": "Il valore è culturale."
+          "exampleEn": "The value is cultural."
         },
         {
           "de": "Brauch",
@@ -4771,7 +4771,7 @@
           "plural": "Bräuche",
           "type": "n",
           "en": "Usanza",
-          "exampleEn": "L'usanza è antica."
+          "exampleEn": "The custom is old."
         },
         {
           "de": "Ritual",
@@ -4782,7 +4782,7 @@
           "plural": "Rituale",
           "type": "n",
           "en": "Rituale",
-          "exampleEn": "Il rituale è sacro."
+          "exampleEn": "The ritual is sacred."
         },
         {
           "de": "Tradition",
@@ -4793,7 +4793,7 @@
           "plural": "Traditionen",
           "type": "n",
           "en": "Tradizione",
-          "exampleEn": "La tradizione è lunga."
+          "exampleEn": "The tradition is long."
         },
         {
           "de": "Geschlecht",
@@ -4804,7 +4804,7 @@
           "plural": "Geschlechter",
           "type": "n",
           "en": "Genere",
-          "exampleEn": "Il genere è complesso."
+          "exampleEn": "Gender is complex."
         },
         {
           "de": "Identität",
@@ -4815,7 +4815,7 @@
           "plural": "Identitäten",
           "type": "n",
           "en": "Identità",
-          "exampleEn": "L'identità è personale."
+          "exampleEn": "Identity is personal."
         },
         {
           "de": "Rolle",
@@ -4826,7 +4826,7 @@
           "plural": "Rollen",
           "type": "n",
           "en": "Ruolo",
-          "exampleEn": "Il ruolo è importante."
+          "exampleEn": "The role is important."
         },
         {
           "de": "Macht",
@@ -4837,7 +4837,7 @@
           "plural": null,
           "type": "n",
           "en": "Potere",
-          "exampleEn": "Il potere è centrale."
+          "exampleEn": "Power is central."
         },
         {
           "de": "Einfluss",
@@ -4848,7 +4848,7 @@
           "plural": "Einflüsse",
           "type": "n",
           "en": "Influenza",
-          "exampleEn": "L'influenza è significativa."
+          "exampleEn": "Influence is significant."
         },
         {
           "de": "Konflikt",
@@ -4859,7 +4859,7 @@
           "plural": "Konflikte",
           "type": "n",
           "en": "Conflitto",
-          "exampleEn": "Il conflitto è reale."
+          "exampleEn": "The conflict is real."
         },
         {
           "de": "interagieren",
@@ -4870,7 +4870,7 @@
           "plural": null,
           "type": "v",
           "en": "Interagire",
-          "exampleEn": "Le persone interagiscono tra loro."
+          "exampleEn": "People interact with each other."
         },
         {
           "de": "sozialisieren",
@@ -4881,7 +4881,7 @@
           "plural": null,
           "type": "v",
           "en": "Socializzare",
-          "exampleEn": "I bambini si socializzano."
+          "exampleEn": "Children socialize."
         },
         {
           "de": "sozial",
@@ -4892,7 +4892,7 @@
           "plural": null,
           "type": "adj",
           "en": "Sociale",
-          "exampleEn": "Questo è un problema sociale."
+          "exampleEn": "This is a social problem."
         },
         {
           "de": "kulturell",
@@ -4903,7 +4903,7 @@
           "plural": null,
           "type": "adj",
           "en": "Culturale",
-          "exampleEn": "Questa è una differenza culturale."
+          "exampleEn": "This is a cultural difference."
         },
         {
           "de": "institutionell",
@@ -4914,7 +4914,7 @@
           "plural": null,
           "type": "adj",
           "en": "Istituzionale",
-          "exampleEn": "Questa è una questione istituzionale."
+          "exampleEn": "This is an institutional question."
         }
       ]
     },
@@ -4931,7 +4931,7 @@
           "plural": null,
           "type": "n",
           "en": "Giornalismo",
-          "exampleEn": "Il giornalismo è importante."
+          "exampleEn": "Journalism is important."
         },
         {
           "de": "Journalist",
@@ -4942,7 +4942,7 @@
           "plural": "Journalisten",
           "type": "n",
           "en": "Giornalista",
-          "exampleEn": "Il giornalista ricerca."
+          "exampleEn": "The journalist researches."
         },
         {
           "de": "Redakteur",
@@ -4953,7 +4953,7 @@
           "plural": "Redakteure",
           "type": "n",
           "en": "Redattore",
-          "exampleEn": "Il redattore modifica gli articoli."
+          "exampleEn": "The editor edits articles."
         },
         {
           "de": "Zeitung",
@@ -4964,7 +4964,7 @@
           "plural": "Zeitungen",
           "type": "n",
           "en": "Giornale",
-          "exampleEn": "Il giornale è quotidiano."
+          "exampleEn": "The newspaper is daily."
         },
         {
           "de": "Artikel",
@@ -4975,7 +4975,7 @@
           "plural": "Artikel",
           "type": "n",
           "en": "Articolo",
-          "exampleEn": "L'articolo è informativo."
+          "exampleEn": "The article is informative."
         },
         {
           "de": "Bericht",
@@ -4986,7 +4986,7 @@
           "plural": "Berichte",
           "type": "n",
           "en": "Rapporto",
-          "exampleEn": "Il rapporto è dettagliato."
+          "exampleEn": "The report is detailed."
         },
         {
           "de": "Schlagzeile",
@@ -4997,7 +4997,7 @@
           "plural": "Schlagzeilen",
           "type": "n",
           "en": "Titolo",
-          "exampleEn": "Il titolo è accattivante."
+          "exampleEn": "The headline is striking."
         },
         {
           "de": "Nachricht",
@@ -5008,7 +5008,7 @@
           "plural": "Nachrichten",
           "type": "n",
           "en": "Notizia",
-          "exampleEn": "La notizia è attuale."
+          "exampleEn": "The news is current."
         },
         {
           "de": "Radiozendung",
@@ -5019,7 +5019,7 @@
           "plural": "Radiozendungen",
           "type": "n",
           "en": "Programma radiofonico",
-          "exampleEn": "Il programma radiofonico è divertente."
+          "exampleEn": "The radio program is entertaining."
         },
         {
           "de": "Fernsehsendung",
@@ -5030,7 +5030,7 @@
           "plural": "Fernsehsendungen",
           "type": "n",
           "en": "Programma televisivo",
-          "exampleEn": "Il programma televisivo è popolare."
+          "exampleEn": "The television program is popular."
         },
         {
           "de": "Dokumentation",
@@ -5041,7 +5041,7 @@
           "plural": "Dokumentationen",
           "type": "n",
           "en": "Documentazione",
-          "exampleEn": "La documentazione è rivelatrice."
+          "exampleEn": "The documentary is revealing."
         },
         {
           "de": "Recherche",
@@ -5052,7 +5052,7 @@
           "plural": "Recherchen",
           "type": "n",
           "en": "Ricerca",
-          "exampleEn": "La ricerca è approfondita."
+          "exampleEn": "The research is thorough."
         },
         {
           "de": "Quelle",
@@ -5063,7 +5063,7 @@
           "plural": "Quellen",
           "type": "n",
           "en": "Fonte",
-          "exampleEn": "La fonte è affidabile."
+          "exampleEn": "The source is reliable."
         },
         {
           "de": "Interview",
@@ -5074,7 +5074,7 @@
           "plural": "Interviews",
           "type": "n",
           "en": "Intervista",
-          "exampleEn": "L'intervista è affascinante."
+          "exampleEn": "The interview is fascinating."
         },
         {
           "de": "Konferenz",
@@ -5085,7 +5085,7 @@
           "plural": "Konferenzen",
           "type": "n",
           "en": "Conferenza",
-          "exampleEn": "La conferenza è informativa."
+          "exampleEn": "The conference is informative."
         },
         {
           "de": "Pressemitteilung",
@@ -5096,7 +5096,7 @@
           "plural": "Pressemitteilungen",
           "type": "n",
           "en": "Comunicato stampa",
-          "exampleEn": "Il comunicato stampa è ufficiale."
+          "exampleEn": "The press release is official."
         },
         {
           "de": "Redaktion",
@@ -5107,7 +5107,7 @@
           "plural": "Redaktionen",
           "type": "n",
           "en": "Redazione",
-          "exampleEn": "La redazione è professionale."
+          "exampleEn": "The editorial office is professional."
         },
         {
           "de": "berichten",
@@ -5118,7 +5118,7 @@
           "plural": null,
           "type": "v",
           "en": "Riferire",
-          "exampleEn": "Il giornalista riferisce su eventi."
+          "exampleEn": "The journalist reports on events."
         },
         {
           "de": "recherchieren",
@@ -5129,7 +5129,7 @@
           "plural": null,
           "type": "v",
           "en": "Ricercare",
-          "exampleEn": "Ricerca la storia."
+          "exampleEn": "She researches the story."
         },
         {
           "de": "veröffentlichen",
@@ -5140,7 +5140,7 @@
           "plural": null,
           "type": "v",
           "en": "Pubblicare",
-          "exampleEn": "L'articolo viene pubblicato."
+          "exampleEn": "The article is published."
         },
         {
           "de": "journalistisch",
@@ -5151,7 +5151,7 @@
           "plural": null,
           "type": "adj",
           "en": "Giornalistico",
-          "exampleEn": "Questa è un'inchiesta giornalistica."
+          "exampleEn": "This is a journalistic investigation."
         },
         {
           "de": "objektiv",
@@ -5162,7 +5162,7 @@
           "plural": null,
           "type": "adj",
           "en": "Obiettivo",
-          "exampleEn": "Il rapporto è obiettivo."
+          "exampleEn": "The report is objective."
         },
         {
           "de": "unabhängig",
@@ -5173,7 +5173,7 @@
           "plural": null,
           "type": "adj",
           "en": "Indipendente",
-          "exampleEn": "Il giornalista è indipendente."
+          "exampleEn": "The journalist is independent."
         }
       ]
     },
@@ -5190,7 +5190,7 @@
           "plural": "Energien",
           "type": "n",
           "en": "Energia",
-          "exampleEn": "L'energia è preziosa."
+          "exampleEn": "Energy is precious."
         },
         {
           "de": "Kraftwerk",
@@ -5201,7 +5201,7 @@
           "plural": "Kraftwerke",
           "type": "n",
           "en": "Centrale elettrica",
-          "exampleEn": "La centrale elettrica è grande."
+          "exampleEn": "The power plant is large."
         },
         {
           "de": "Kohle",
@@ -5212,7 +5212,7 @@
           "plural": null,
           "type": "n",
           "en": "Carbone",
-          "exampleEn": "Il carbone è nocivo."
+          "exampleEn": "Coal is harmful."
         },
         {
           "de": "Öl",
@@ -5223,7 +5223,7 @@
           "plural": null,
           "type": "n",
           "en": "Petrolio",
-          "exampleEn": "Il petrolio è prezioso."
+          "exampleEn": "Oil is valuable."
         },
         {
           "de": "Gas",
@@ -5233,8 +5233,8 @@
           "article": "das",
           "plural": null,
           "type": "n",
-          "en": "Gas",
-          "exampleEn": "Il gas è facilmente infiammabile."
+          "en": "gas",
+          "exampleEn": "Gas is easily flammable."
         },
         {
           "de": "Atom",
@@ -5245,7 +5245,7 @@
           "plural": "Atome",
           "type": "n",
           "en": "Atomo",
-          "exampleEn": "L'atomo è piccolo."
+          "exampleEn": "The atom is small."
         },
         {
           "de": "Kernkraftwerk",
@@ -5256,7 +5256,7 @@
           "plural": "Kernkraftwerke",
           "type": "n",
           "en": "Centrale nucleare",
-          "exampleEn": "La centrale nucleare è controversa."
+          "exampleEn": "The nuclear power plant is controversial."
         },
         {
           "de": "Stromversorgung",
@@ -5267,7 +5267,7 @@
           "plural": null,
           "type": "n",
           "en": "Fornitura di elettricità",
-          "exampleEn": "La fornitura di elettricità è affidabile."
+          "exampleEn": "The power supply is reliable."
         },
         {
           "de": "Verteilung",
@@ -5278,7 +5278,7 @@
           "plural": "Verteilungen",
           "type": "n",
           "en": "Distribuzione",
-          "exampleEn": "La distribuzione è equa."
+          "exampleEn": "The distribution is fair."
         },
         {
           "de": "Verbrauch",
@@ -5289,7 +5289,7 @@
           "plural": "Verbräuche",
           "type": "n",
           "en": "Consumo",
-          "exampleEn": "Il consumo è elevato."
+          "exampleEn": "Consumption is high."
         },
         {
           "de": "Effizienz",
@@ -5300,7 +5300,7 @@
           "plural": null,
           "type": "n",
           "en": "Efficienza",
-          "exampleEn": "L'efficienza è importante."
+          "exampleEn": "Efficiency is important."
         },
         {
           "de": "Einsparung",
@@ -5311,7 +5311,7 @@
           "plural": "Einsparungen",
           "type": "n",
           "en": "Risparmio",
-          "exampleEn": "Il risparmio è significativo."
+          "exampleEn": "The saving is significant."
         },
         {
           "de": "Preis",
@@ -5322,7 +5322,7 @@
           "plural": "Preise",
           "type": "n",
           "en": "Prezzo",
-          "exampleEn": "Il prezzo è aumentato."
+          "exampleEn": "The price has risen."
         },
         {
           "de": "Subvention",
@@ -5333,7 +5333,7 @@
           "plural": "Subventionen",
           "type": "n",
           "en": "Sussidio",
-          "exampleEn": "Il sussidio è considerevole."
+          "exampleEn": "The subsidy is considerable."
         },
         {
           "de": "Investition",
@@ -5344,7 +5344,7 @@
           "plural": "Investitionen",
           "type": "n",
           "en": "Investimento",
-          "exampleEn": "L'investimento è necessario."
+          "exampleEn": "The investment is necessary."
         },
         {
           "de": "Infrastruktur",
@@ -5355,7 +5355,7 @@
           "plural": "Infrastrukturen",
           "type": "n",
           "en": "Infrastruttura",
-          "exampleEn": "L'infrastruttura è vecchia."
+          "exampleEn": "The infrastructure is old."
         },
         {
           "de": "Netz",
@@ -5366,7 +5366,7 @@
           "plural": "Netze",
           "type": "n",
           "en": "Rete",
-          "exampleEn": "La rete è complessa."
+          "exampleEn": "The network is complex."
         },
         {
           "de": "Speicherung",
@@ -5377,7 +5377,7 @@
           "plural": "Speicherungen",
           "type": "n",
           "en": "Stoccaggio",
-          "exampleEn": "Lo stoccaggio è difficile."
+          "exampleEn": "Storage is difficult."
         },
         {
           "de": "verbrauchen",
@@ -5388,7 +5388,7 @@
           "plural": null,
           "type": "v",
           "en": "Consumare",
-          "exampleEn": "Consumiamo troppa elettricità."
+          "exampleEn": "We consume too much electricity."
         },
         {
           "de": "sparen",
@@ -5399,7 +5399,7 @@
           "plural": null,
           "type": "v",
           "en": "Risparmiare",
-          "exampleEn": "Risparmiamo energia."
+          "exampleEn": "We save energy."
         },
         {
           "de": "verteilen",
@@ -5410,7 +5410,7 @@
           "plural": null,
           "type": "v",
           "en": "Distribuire",
-          "exampleEn": "L'energia viene distribuita."
+          "exampleEn": "The energy is distributed."
         },
         {
           "de": "energetisch",
@@ -5421,7 +5421,7 @@
           "plural": null,
           "type": "adj",
           "en": "Energetico",
-          "exampleEn": "Questo è un problema energetico."
+          "exampleEn": "This is an energy problem."
         },
         {
           "de": "nachhaltig",
@@ -5432,7 +5432,7 @@
           "plural": null,
           "type": "adj",
           "en": "Sostenibile",
-          "exampleEn": "Questa è una soluzione sostenibile."
+          "exampleEn": "This is a sustainable solution."
         }
       ]
     }

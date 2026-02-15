@@ -91,28 +91,28 @@
       },
       {
         "german": "Frühling",
-        "italian": "primavera",
+        "italian": "spring",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Sommer",
-        "italian": "estate",
+        "italian": "summer",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Herbst",
-        "italian": "autunno",
+        "italian": "autumn, fall",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Winter",
-        "italian": "inverno",
+        "italian": "winter",
         "article": "der",
         "plural": "",
         "example": ""
@@ -127,7 +127,7 @@
     "words": [
       {
         "german": "Stunde",
-        "italian": "ora",
+        "italian": "now",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -141,14 +141,14 @@
       },
       {
         "german": "Sekunde",
-        "italian": "secondo",
+        "italian": "zufolge",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Uhr",
-        "italian": "orologio",
+        "italian": "clock, watch",
         "article": "die",
         "plural": "-en",
         "example": ""
@@ -226,42 +226,42 @@
     "words": [
       {
         "german": "Brot",
-        "italian": "pane",
+        "italian": "bread",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Brötchen",
-        "italian": "panino",
+        "italian": "bread roll, bun",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Butter",
-        "italian": "burro",
+        "italian": "butter",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Käse",
-        "italian": "formaggio",
+        "italian": "cheese",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Ei",
-        "italian": "uovo",
+        "italian": "egg",
         "article": "das",
         "plural": "Eier",
         "example": ""
       },
       {
         "german": "Reis",
-        "italian": "riso",
+        "italian": "rice",
         "article": "der",
         "plural": "",
         "example": ""
@@ -275,14 +275,14 @@
       },
       {
         "german": "Kartoffel",
-        "italian": "patata",
+        "italian": "potato",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Tomate",
-        "italian": "pomodoro",
+        "italian": "tomato",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -296,7 +296,7 @@
       },
       {
         "german": "Zwiebel",
-        "italian": "cipolla",
+        "italian": "onion",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -310,35 +310,35 @@
       },
       {
         "german": "Salz",
-        "italian": "sale",
+        "italian": "salt",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Pfeffer",
-        "italian": "pepe",
+        "italian": "pepper",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Zucker",
-        "italian": "zucchero",
+        "italian": "sugar",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Öl",
-        "italian": "olio",
+        "italian": "oil",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Essig",
-        "italian": "aceto",
+        "italian": "vinegar",
         "article": "der",
         "plural": "",
         "example": ""
@@ -353,7 +353,7 @@
     "words": [
       {
         "german": "Fleisch",
-        "italian": "carne",
+        "italian": "meat",
         "article": "das",
         "plural": "",
         "example": ""
@@ -367,7 +367,7 @@
       },
       {
         "german": "Schweinefleisch",
-        "italian": "maiale",
+        "italian": "pig",
         "article": "das",
         "plural": "",
         "example": ""
@@ -381,21 +381,21 @@
       },
       {
         "german": "Wurst",
-        "italian": "salsiccia",
+        "italian": "sausage",
         "article": "die",
         "plural": "Würste",
         "example": ""
       },
       {
         "german": "Schinken",
-        "italian": "prosciutto",
+        "italian": "ham",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Fisch",
-        "italian": "pesce",
+        "italian": "fish",
         "article": "der",
         "plural": "-e",
         "example": ""
@@ -438,14 +438,14 @@
     "words": [
       {
         "german": "Apfel",
-        "italian": "mela",
+        "italian": "apple",
         "article": "der",
         "plural": "Äpfel",
         "example": ""
       },
       {
         "german": "Birne",
-        "italian": "pera",
+        "italian": "pear",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -459,21 +459,21 @@
       },
       {
         "german": "Zitrone",
-        "italian": "limone",
+        "italian": "lemon",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Erdbeere",
-        "italian": "fragola",
+        "italian": "strawberry",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Traube",
-        "italian": "uva",
+        "italian": "grape",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -494,14 +494,14 @@
       },
       {
         "german": "Wassermelone",
-        "italian": "anguria",
+        "italian": "watermelon",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Salat",
-        "italian": "insalata",
+        "italian": "salad",
         "article": "der",
         "plural": "-e",
         "example": ""
@@ -515,7 +515,7 @@
       },
       {
         "german": "Paprika",
-        "italian": "peperone",
+        "italian": "pepper, paprika",
         "article": "die/der",
         "plural": "-s",
         "example": ""
@@ -544,49 +544,49 @@
     "words": [
       {
         "german": "Wasser",
-        "italian": "acqua",
+        "italian": "water",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Saft",
-        "italian": "succo",
+        "italian": "juice",
         "article": "der",
         "plural": "Säfte",
         "example": ""
       },
       {
         "german": "Milch",
-        "italian": "latte",
+        "italian": "milk",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Kaffee",
-        "italian": "caffè",
+        "italian": "coffee",
         "article": "der",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Tee",
-        "italian": "tè",
+        "italian": "tea",
         "article": "der",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Bier",
-        "italian": "birra",
+        "italian": "beer",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Wein",
-        "italian": "vino",
+        "italian": "wine",
         "article": "der",
         "plural": "-e",
         "example": ""
@@ -607,7 +607,7 @@
       },
       {
         "german": "Kakao",
-        "italian": "cacao",
+        "italian": "cocoa",
         "article": "der",
         "plural": "",
         "example": ""
@@ -636,49 +636,49 @@
     "words": [
       {
         "german": "Hemd",
-        "italian": "camicia",
+        "italian": "shirt",
         "article": "das",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Hose",
-        "italian": "pantaloni",
+        "italian": "pants, trousers",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Rock",
-        "italian": "gonna",
+        "italian": "skirt",
         "article": "der",
         "plural": "Röcke",
         "example": ""
       },
       {
         "german": "Kleid",
-        "italian": "vestito",
+        "italian": "dress",
         "article": "das",
         "plural": "-er",
         "example": ""
       },
       {
         "german": "Jacke",
-        "italian": "giacca",
+        "italian": "jacket",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Mantel",
-        "italian": "cappotto",
+        "italian": "coat",
         "article": "der",
         "plural": "Mäntel",
         "example": ""
       },
       {
         "german": "Pullover",
-        "italian": "maglione",
+        "italian": "pullover, sweater",
         "article": "der",
         "plural": "-",
         "example": ""
@@ -692,70 +692,70 @@
       },
       {
         "german": "Schuh",
-        "italian": "scarpa",
+        "italian": "shoe",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Stiefel",
-        "italian": "stivale",
+        "italian": "boot",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Socke",
-        "italian": "calzino",
+        "italian": "sock",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Handschuh",
-        "italian": "guanto",
+        "italian": "glove",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Mütze",
-        "italian": "berretto",
+        "italian": "cap",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Schal",
-        "italian": "sciarpa",
+        "italian": "scarf",
         "article": "der",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Gürtel",
-        "italian": "cintura",
+        "italian": "belt",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Krawatte",
-        "italian": "cravatta",
+        "italian": "tie",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Anzug",
-        "italian": "abito/completo",
+        "italian": "suit",
         "article": "der",
         "plural": "Anzüge",
         "example": ""
       },
       {
         "german": "Bluse",
-        "italian": "camicetta",
+        "italian": "blouse",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -777,7 +777,7 @@
     "words": [
       {
         "german": "Kopf",
-        "italian": "testa",
+        "italian": "head",
         "article": "der",
         "plural": "Köpfe",
         "example": ""
@@ -791,119 +791,119 @@
       },
       {
         "german": "Gesicht",
-        "italian": "viso",
+        "italian": "face",
         "article": "das",
         "plural": "-er",
         "example": ""
       },
       {
         "german": "Auge",
-        "italian": "occhio",
+        "italian": "eye",
         "article": "das",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Ohr",
-        "italian": "orecchio",
+        "italian": "ear",
         "article": "das",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Nase",
-        "italian": "naso",
+        "italian": "nose",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Mund",
-        "italian": "bocca",
+        "italian": "mouth",
         "article": "der",
         "plural": "Münder",
         "example": ""
       },
       {
         "german": "Zahn",
-        "italian": "dente",
+        "italian": "tooth",
         "article": "der",
         "plural": "Zähne",
         "example": ""
       },
       {
         "german": "Hals",
-        "italian": "collo",
+        "italian": "neck",
         "article": "der",
         "plural": "Hälse",
         "example": ""
       },
       {
         "german": "Schulter",
-        "italian": "spalla",
+        "italian": "shoulder",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Hand",
-        "italian": "mano",
+        "italian": "hand",
         "article": "die",
         "plural": "Hände",
         "example": ""
       },
       {
         "german": "Finger",
-        "italian": "dito",
+        "italian": "finger",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Bein",
-        "italian": "gamba",
+        "italian": "leg",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Fuß",
-        "italian": "piede",
+        "italian": "foot",
         "article": "der",
         "plural": "Füße",
         "example": ""
       },
       {
         "german": "Knie",
-        "italian": "ginocchio",
+        "italian": "knee",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Bauch",
-        "italian": "pancia",
+        "italian": "belly, abdomen",
         "article": "der",
         "plural": "Bäuche",
         "example": ""
       },
       {
         "german": "Rücken",
-        "italian": "schiena",
+        "italian": "back",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Herz",
-        "italian": "cuore",
+        "italian": "heart",
         "article": "das",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Lunge",
-        "italian": "polmone",
+        "italian": "lung",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -918,7 +918,7 @@
     "words": [
       {
         "german": "Arzt",
-        "italian": "medico",
+        "italian": "doctor",
         "article": "der",
         "plural": "Ärzte",
         "example": ""
@@ -932,14 +932,14 @@
       },
       {
         "german": "Krankenhaus",
-        "italian": "ospedale",
+        "italian": "hospital",
         "article": "das",
         "plural": "Krankenhäuser",
         "example": ""
       },
       {
         "german": "Apotheke",
-        "italian": "farmacia",
+        "italian": "pharmacy",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -1017,7 +1017,7 @@
     "words": [
       {
         "german": "Wohnung",
-        "italian": "appartamento",
+        "italian": "apartment, flat",
         "article": "die",
         "plural": "-en",
         "example": ""
@@ -1031,21 +1031,21 @@
       },
       {
         "german": "Zimmer",
-        "italian": "stanza",
+        "italian": "room",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Schlafzimmer",
-        "italian": "camera da letto",
+        "italian": "bedroom",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Wohnzimmer",
-        "italian": "soggiorno",
+        "italian": "living room",
         "article": "das",
         "plural": "-",
         "example": ""
@@ -1066,35 +1066,35 @@
       },
       {
         "german": "Flur",
-        "italian": "corridoio",
+        "italian": "hallway, corridor",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Balkon",
-        "italian": "balcone",
+        "italian": "balcony",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Garten",
-        "italian": "giardino",
+        "italian": "garden",
         "article": "der",
         "plural": "Gärten",
         "example": ""
       },
       {
         "german": "Keller",
-        "italian": "cantina",
+        "italian": "basement, cellar",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Dachboden",
-        "italian": "soffitta",
+        "italian": "attic",
         "article": "der",
         "plural": "Dachböden",
         "example": ""
@@ -1108,21 +1108,21 @@
       },
       {
         "german": "Treppe",
-        "italian": "scala",
+        "italian": "stairs",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Tür",
-        "italian": "porta",
+        "italian": "door",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Fenster",
-        "italian": "finestra",
+        "italian": "window",
         "article": "das",
         "plural": "-",
         "example": ""
@@ -1151,14 +1151,14 @@
     "words": [
       {
         "german": "Tisch",
-        "italian": "tavolo",
+        "italian": "table",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Stuhl",
-        "italian": "sedia",
+        "italian": "chair",
         "article": "der",
         "plural": "Stühle",
         "example": ""
@@ -1172,14 +1172,14 @@
       },
       {
         "german": "Bett",
-        "italian": "letto",
+        "italian": "bed",
         "article": "das",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Schrank",
-        "italian": "armadio",
+        "italian": "wardrobe, closet",
         "article": "der",
         "plural": "Schränke",
         "example": ""
@@ -1306,7 +1306,7 @@
       },
       {
         "german": "Fernseher",
-        "italian": "televisore",
+        "italian": "television",
         "article": "der",
         "plural": "-",
         "example": ""
@@ -1320,7 +1320,7 @@
       },
       {
         "german": "Telefon",
-        "italian": "telefono",
+        "italian": "telephone",
         "article": "das",
         "plural": "-e",
         "example": ""
@@ -1377,28 +1377,28 @@
     "words": [
       {
         "german": "Straße",
-        "italian": "strada",
+        "italian": "street",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Platz",
-        "italian": "piazza",
+        "italian": "square, plaza",
         "article": "der",
         "plural": "Plätze",
         "example": ""
       },
       {
         "german": "Brücke",
-        "italian": "ponte",
+        "italian": "bridge",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Kirche",
-        "italian": "chiesa",
+        "italian": "church",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -1440,14 +1440,14 @@
       },
       {
         "german": "Park",
-        "italian": "parco",
+        "italian": "park",
         "article": "der",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Markt",
-        "italian": "mercato",
+        "italian": "market",
         "article": "der",
         "plural": "Märkte",
         "example": ""
@@ -1511,7 +1511,7 @@
     "words": [
       {
         "german": "Auto",
-        "italian": "auto",
+        "italian": "car",
         "article": "das",
         "plural": "-s",
         "example": ""
@@ -1525,7 +1525,7 @@
       },
       {
         "german": "Zug",
-        "italian": "treno",
+        "italian": "train",
         "article": "der",
         "plural": "Züge",
         "example": ""
@@ -1553,7 +1553,7 @@
       },
       {
         "german": "Flugzeug",
-        "italian": "aereo",
+        "italian": "airplane",
         "article": "das",
         "plural": "-e",
         "example": ""
@@ -1638,56 +1638,56 @@
     "words": [
       {
         "german": "Sonne",
-        "italian": "sole",
+        "italian": "sun",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Mond",
-        "italian": "luna",
+        "italian": "moon",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Stern",
-        "italian": "stella",
+        "italian": "star",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Wolke",
-        "italian": "nuvola",
+        "italian": "cloud",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Regen",
-        "italian": "pioggia",
+        "italian": "rain",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Schnee",
-        "italian": "neve",
+        "italian": "snow",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Wind",
-        "italian": "vento",
+        "italian": "wind",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Sturm",
-        "italian": "tempesta",
+        "italian": "storm",
         "article": "der",
         "plural": "Stürme",
         "example": ""
@@ -1701,28 +1701,28 @@
       },
       {
         "german": "Nebel",
-        "italian": "nebbia",
+        "italian": "fog",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Eis",
-        "italian": "ghiaccio",
+        "italian": "ice",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Blitz",
-        "italian": "fulmine",
+        "italian": "lightning",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Donner",
-        "italian": "tuono",
+        "italian": "thunder",
         "article": "der",
         "plural": "-",
         "example": ""
@@ -1758,7 +1758,7 @@
     "words": [
       {
         "german": "Berg",
-        "italian": "montagna",
+        "italian": "mountain",
         "article": "der",
         "plural": "-e",
         "example": ""
@@ -1772,21 +1772,21 @@
       },
       {
         "german": "Fluss",
-        "italian": "fiume",
+        "italian": "river",
         "article": "der",
         "plural": "Flüsse",
         "example": ""
       },
       {
         "german": "See",
-        "italian": "lago",
+        "italian": "lake",
         "article": "der",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Meer",
-        "italian": "mare",
+        "italian": "sea",
         "article": "das",
         "plural": "-e",
         "example": ""
@@ -1800,7 +1800,7 @@
       },
       {
         "german": "Wald",
-        "italian": "bosco",
+        "italian": "forest",
         "article": "der",
         "plural": "Wälder",
         "example": ""
@@ -1864,7 +1864,7 @@
     "words": [
       {
         "german": "Schule",
-        "italian": "scuola",
+        "italian": "school",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -1878,7 +1878,7 @@
       },
       {
         "german": "Lehrer",
-        "italian": "insegnante (m.)",
+        "italian": "teacher (m.)",
         "article": "der",
         "plural": "-",
         "example": ""
@@ -1934,14 +1934,14 @@
       },
       {
         "german": "Stift",
-        "italian": "penna",
+        "italian": "pen",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Bleistift",
-        "italian": "matita",
+        "italian": "pencil",
         "article": "der",
         "plural": "-e",
         "example": ""
@@ -2082,7 +2082,7 @@
       },
       {
         "german": "Rechtsanwalt",
-        "italian": "avvocato",
+        "italian": "lawyer",
         "article": "der",
         "plural": "Rechtsanwälte",
         "example": ""
@@ -2125,7 +2125,7 @@
     "words": [
       {
         "german": "nötig",
-        "italian": "necessario",
+        "italian": "necessary",
         "article": "",
         "plural": "",
         "example": ""

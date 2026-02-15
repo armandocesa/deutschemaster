@@ -7,14 +7,14 @@
     "words": [
       {
         "german": "der Bürgersteig",
-        "italian": "il marciapiede",
+        "italian": "the marciapiede",
         "article": "der",
         "plural": "Bürgersteige",
         "example": "Geh auf dem Bürgersteig."
       },
       {
         "german": "die Abzweigung",
-        "italian": "la biforcazione",
+        "italian": "the bifurcation",
         "article": "die",
         "plural": "Abzweigungen",
         "example": "An der Abzweigung links."
@@ -29,7 +29,7 @@
     "words": [
       {
         "german": "nachher",
-        "italian": "dopo",
+        "italian": "after",
         "article": "",
         "plural": "",
         "example": "Nachher gehen wir essen."
@@ -51,28 +51,28 @@
       },
       {
         "german": "die Mailbox",
-        "italian": "la segreteria",
+        "italian": "the office",
         "article": "die",
         "plural": "",
         "example": "Sprechen Sie auf die Mailbox."
       },
       {
         "german": "die Vorwahl",
-        "italian": "il prefisso",
+        "italian": "the prefisso",
         "article": "die",
         "plural": "Vorwahlen",
         "example": "Wie ist die Vorwahl?"
       },
       {
         "german": "die Rufnummer",
-        "italian": "il numero di telefono",
+        "italian": "the numero di telefono",
         "article": "die",
         "plural": "Rufnummern",
         "example": "Wie ist Ihre Rufnummer?"
       },
       {
         "german": "der Anrufbeantworter",
-        "italian": "la segreteria telefonica",
+        "italian": "the segreteria telefonica",
         "article": "der",
         "plural": "Anrufbeantworter",
         "example": "Der Anrufbeantworter ist an."
@@ -86,21 +86,21 @@
       },
       {
         "german": "das Festnetz",
-        "italian": "la rete fissa",
+        "italian": "the rete fissa",
         "article": "das",
         "plural": "",
         "example": "Ruf mich auf dem Festnetz an."
       },
       {
         "german": "die Durchwahl",
-        "italian": "l'interno",
+        "italian": "the interno",
         "article": "die",
         "plural": "Durchwahlen",
         "example": "Wie ist Ihre Durchwahl?"
       },
       {
         "german": "die Telefonzelle",
-        "italian": "la cabina telefonica",
+        "italian": "the cabina telefonica",
         "article": "die",
         "plural": "Telefonzellen",
         "example": "Die Telefonzelle ist alt."
@@ -115,35 +115,35 @@
     "words": [
       {
         "german": "der Werktag",
-        "italian": "il giorno feriale",
+        "italian": "the giorno feriale",
         "article": "der",
         "plural": "Werktage",
         "example": "Montag ist ein Werktag."
       },
       {
         "german": "das Datum",
-        "italian": "la data",
+        "italian": "the data",
         "article": "das",
         "plural": "Daten",
         "example": "Welches Datum ist heute?"
       },
       {
         "german": "die Mitternacht",
-        "italian": "la mezzanotte",
+        "italian": "the mezzanotte",
         "article": "die",
         "plural": "",
         "example": "Um Mitternacht schlafe ich."
       },
       {
         "german": "die Dämmerung",
-        "italian": "il crepuscolo",
+        "italian": "the crepuscolo",
         "article": "die",
         "plural": "",
         "example": "In der Dämmerung wird es dunkel."
       },
       {
         "german": "die Morgendämmerung",
-        "italian": "l'alba",
+        "italian": "the sunrise",
         "article": "die",
         "plural": "",
         "example": "Die Morgendämmerung ist schön."
@@ -172,42 +172,42 @@
     "words": [
       {
         "german": "der Anorak",
-        "italian": "il giubbotto",
+        "italian": "the giubbotto",
         "article": "der",
         "plural": "Anoraks",
         "example": "Bei Regen trage ich einen Anorak."
       },
       {
         "german": "der Schlafanzug",
-        "italian": "il pigiama",
+        "italian": "the pajamas",
         "article": "der",
         "plural": "Schlafanzüge",
         "example": "Ich ziehe den Schlafanzug an."
       },
       {
         "german": "der Regenmantel",
-        "italian": "l'impermeabile",
+        "italian": "the impermeabile",
         "article": "der",
         "plural": "Regenmäntel",
         "example": "Nimm den Regenmantel mit."
       },
       {
         "german": "der Pantoffel",
-        "italian": "la pantofola",
+        "italian": "the slipper",
         "article": "der",
         "plural": "Pantoffeln",
         "example": "Zu Hause trage ich Pantoffeln."
       },
       {
         "german": "der Hosenträger",
-        "italian": "le bretelle",
+        "italian": "the bretelle",
         "article": "der",
         "plural": "",
         "example": "Er trägt Hosenträger."
       },
       {
         "german": "die Schürze",
-        "italian": "il grembiule",
+        "italian": "the grembiule",
         "article": "die",
         "plural": "Schürzen",
         "example": "Beim Kochen trage ich eine Schürze."
@@ -229,7 +229,7 @@
     "words": [
       {
         "german": "der Fahrkartenautomat",
-        "italian": "la biglietteria automatica",
+        "italian": "the ticket machine",
         "article": "der",
         "plural": "Fahrkartenautomaten",
         "example": "Kaufe die Fahrkarte am Automaten."
@@ -244,7 +244,7 @@
     "words": [
       {
         "german": "die Hitze",
-        "italian": "il caldo",
+        "italian": "the caldo",
         "article": "die",
         "plural": "",
         "example": "Die Hitze ist stark."
@@ -259,14 +259,14 @@
     "words": [
       {
         "german": "die Einfahrt",
-        "italian": "l'ingresso carraio",
+        "italian": "the ingresso carraio",
         "article": "die",
         "plural": "Einfahrten",
         "example": "Das Auto steht in der Einfahrt."
       },
       {
         "german": "die Fußmatte",
-        "italian": "lo zerbino",
+        "italian": "the zerbino",
         "article": "die",
         "plural": "Fußmatten",
         "example": "Wisch die Schuhe auf der Fußmatte ab."
@@ -281,28 +281,28 @@
     "words": [
       {
         "german": "die Polizistin",
-        "italian": "la poliziotta",
+        "italian": "the poliziotta",
         "article": "die",
         "plural": "Polizistinnen",
         "example": "Die Polizistin fragt."
       },
       {
         "german": "die Bäckerin",
-        "italian": "la panettiera",
+        "italian": "the panettiera",
         "article": "die",
         "plural": "Bäckerinnen",
         "example": "Die Bäckerin backt Kuchen."
       },
       {
         "german": "die Zahnärztin",
-        "italian": "la dentista",
+        "italian": "the dentista",
         "article": "die",
         "plural": "Zahnärztinnen",
         "example": "Die Zahnärztin ist nett."
       },
       {
         "german": "der Briefträger",
-        "italian": "il postino",
+        "italian": "the postman",
         "article": "der",
         "plural": "Briefträger",
         "example": "Der Briefträger bringt Post."
@@ -317,7 +317,7 @@
     "words": [
       {
         "german": "der Ventilator",
-        "italian": "il ventilatore",
+        "italian": "the ventilatore",
         "article": "der",
         "plural": "Ventilatoren",
         "example": "Der Ventilator kühlt."
@@ -347,35 +347,35 @@
     "words": [
       {
         "german": "die Kasse",
-        "italian": "la cassa",
+        "italian": "the crate",
         "article": "die",
         "plural": "Kassen",
         "example": "Zahlen Sie an der Kasse."
       },
       {
         "german": "der Einkaufswagen",
-        "italian": "il carrello",
+        "italian": "the shopping cart",
         "article": "der",
         "plural": "Einkaufswagen",
         "example": "Nimm einen Einkaufswagen."
       },
       {
         "german": "der Einkaufskorb",
-        "italian": "il cestino della spesa",
+        "italian": "the cestino della spesa",
         "article": "der",
         "plural": "Einkaufskörbe",
         "example": "Ich nehme einen Einkaufskorb."
       },
       {
         "german": "das Wechselgeld",
-        "italian": "il resto",
+        "italian": "the resto",
         "article": "das",
         "plural": "",
         "example": "Hier ist das Wechselgeld."
       },
       {
         "german": "die Einkaufsliste",
-        "italian": "la lista della spesa",
+        "italian": "the lista della spesa",
         "article": "die",
         "plural": "Einkaufslisten",
         "example": "Ich schreibe eine Einkaufsliste."
@@ -404,28 +404,28 @@
     "words": [
       {
         "german": "das Kopfkissen",
-        "italian": "il cuscino",
+        "italian": "the pillow",
         "article": "das",
         "plural": "Kopfkissen",
         "example": "Das Kissen ist weich."
       },
       {
         "german": "die Bettdecke",
-        "italian": "la coperta",
+        "italian": "the coperta",
         "article": "die",
         "plural": "Bettdecken",
         "example": "Die Bettdecke ist warm."
       },
       {
         "german": "der Bilderrahmen",
-        "italian": "la cornice",
+        "italian": "the frame",
         "article": "der",
         "plural": "Bilderrahmen",
         "example": "Der Bilderrahmen ist golden."
       },
       {
         "german": "die Garderobe",
-        "italian": "l'appendiabiti",
+        "italian": "the appendiabiti",
         "article": "die",
         "plural": "Garderoben",
         "example": "Häng die Jacke an die Garderobe."
@@ -447,7 +447,7 @@
       },
       {
         "german": "die Spielerin",
-        "italian": "la giocatrice",
+        "italian": "the giocatrice",
         "article": "die",
         "plural": "Spielerinnen",
         "example": "Die Spielerin ist schnell."
@@ -462,7 +462,7 @@
     "words": [
       {
         "german": "die Rezeptur",
-        "italian": "la ricetta",
+        "italian": "the recipe",
         "article": "die",
         "plural": "Rezepturen",
         "example": "Hast du eine Rezeptur?"

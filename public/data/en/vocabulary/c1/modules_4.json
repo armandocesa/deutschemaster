@@ -7,119 +7,119 @@
     "words": [
       {
         "german": "die schwache KI",
-        "italian": "l'IA debole",
+        "italian": "die schwache KI",
         "article": "die",
         "plural": "",
         "example": "Schwache KI löst spezifische Aufgaben."
       },
       {
         "german": "die starke KI",
-        "italian": "l'IA forte",
+        "italian": "die starke KI",
         "article": "die",
         "plural": "",
         "example": "Starke KI ist hypothetisch."
       },
       {
         "german": "das Transformer-Modell",
-        "italian": "il modello Transformer",
+        "italian": "das Transformer-Modell",
         "article": "das",
         "plural": "",
         "example": "Transformer revolutionierten NLP."
       },
       {
         "german": "das große Sprachmodell",
-        "italian": "il grande modello linguistico",
+        "italian": "das große Sprachmodell",
         "article": "das",
         "plural": "",
         "example": "Große Sprachmodelle generieren Text."
       },
       {
         "german": "die Generative KI",
-        "italian": "l'IA generativa",
+        "italian": "die Generative KI",
         "article": "die",
         "plural": "",
         "example": "Generative KI erzeugt Inhalte."
       },
       {
         "german": "der Prompt",
-        "italian": "il prompt",
+        "italian": "der Prompt",
         "article": "der",
         "plural": "Prompts",
         "example": "Der Prompt steuert die Ausgabe."
       },
       {
         "german": "die Halluzination",
-        "italian": "l'allucinazione",
+        "italian": "die Halluzination",
         "article": "die",
         "plural": "Halluzinationen",
         "example": "KI-Halluzinationen sind Fehler."
       },
       {
         "german": "das Reinforcement Learning",
-        "italian": "l'apprendimento per rinforzo",
+        "italian": "das Reinforcement Learning",
         "article": "das",
         "plural": "",
         "example": "Reinforcement Learning belohnt richtiges Verhalten."
       },
       {
         "german": "die Bilderkennung",
-        "italian": "il riconoscimento delle immagini",
+        "italian": "die bilderkenning",
         "article": "die",
         "plural": "",
         "example": "Bilderkennung identifiziert Objekte."
       },
       {
         "german": "die Spracherkennung",
-        "italian": "il riconoscimento vocale",
+        "italian": "die spracherkenning",
         "article": "die",
         "plural": "",
         "example": "Spracherkennung transkribiert."
       },
       {
         "german": "das Natural Language Processing",
-        "italian": "l'elaborazione del linguaggio naturale",
+        "italian": "das Natural Language Processing",
         "article": "das",
         "plural": "",
         "example": "NLP verarbeitet Sprache."
       },
       {
         "german": "die Bias-Problematik",
-        "italian": "la problematica del bias",
+        "italian": "die Bias-Problematik",
         "article": "die",
         "plural": "",
         "example": "Bias in KI ist ein Problem."
       },
       {
         "german": "die Erklärbarkeit",
-        "italian": "la spiegabilità",
+        "italian": "die erklärbarity",
         "article": "die",
         "plural": "",
         "example": "Erklärbarkeit von KI ist gefordert."
       },
       {
         "german": "der KI-Ethikrat",
-        "italian": "il comitato etico sull'IA",
+        "italian": "der KI-Ethikrat",
         "article": "der",
         "plural": "",
         "example": "Der KI-Ethikrat berät."
       },
       {
         "german": "die Trainingsdaten",
-        "italian": "i dati di addestramento",
+        "italian": "die Trainingsdaten",
         "article": "die",
         "plural": "",
         "example": "Trainingsdaten bestimmen die Qualität."
       },
       {
         "german": "die Feinabstimmung",
-        "italian": "il fine-tuning",
+        "italian": "die feinabstimming",
         "article": "die",
         "plural": "",
         "example": "Feinabstimmung optimiert Modelle."
       },
       {
         "german": "die Superintelligenz",
-        "italian": "la superintelligenza",
+        "italian": "die Superintelligenz",
         "article": "die",
         "plural": "",
         "example": "Superintelligenz ist hypothetisch."
@@ -134,119 +134,119 @@
     "words": [
       {
         "german": "das Datenschutzrecht",
-        "italian": "il diritto alla protezione dei dati",
+        "italian": "das Datenschutzrecht",
         "article": "das",
         "plural": "",
         "example": "Datenschutzrecht schützt Bürger."
       },
       {
         "german": "die informationelle Selbstbestimmung",
-        "italian": "l'autodeterminazione informativa",
+        "italian": "die informationelle selbstbestimming",
         "article": "die",
         "plural": "",
         "example": "Informationelle Selbstbestimmung ist ein Grundrecht."
       },
       {
         "german": "die Auftragsdatenverarbeitung",
-        "italian": "il trattamento dei dati per conto terzi",
+        "italian": "die auftragsdatenverarbeiting",
         "article": "die",
         "plural": "",
         "example": "Auftragsdatenverarbeitung ist reguliert."
       },
       {
         "german": "die Datenschutz-Folgenabschätzung",
-        "italian": "la valutazione d'impatto sulla protezione dati",
+        "italian": "die datenschutz-folgenabschätzing",
         "article": "die",
         "plural": "",
         "example": "DSFA ist bei Risiken Pflicht."
       },
       {
         "german": "die Datenminimierung",
-        "italian": "la minimizzazione dei dati",
+        "italian": "die datenminimiering",
         "article": "die",
         "plural": "",
         "example": "Datenminimierung ist ein Grundsatz."
       },
       {
         "german": "die Zweckbindung",
-        "italian": "la limitazione delle finalità",
+        "italian": "die zweckbinding",
         "article": "die",
         "plural": "",
         "example": "Zweckbindung schränkt Nutzung ein."
       },
       {
         "german": "die Speicherbegrenzung",
-        "italian": "la limitazione della conservazione",
+        "italian": "die speicherbegrenzing",
         "article": "die",
         "plural": "",
         "example": "Speicherbegrenzung ist Pflicht."
       },
       {
         "german": "die Transparenzpflicht",
-        "italian": "l'obbligo di trasparenza",
+        "italian": "die Transparenzpflicht",
         "article": "die",
         "plural": "",
         "example": "Transparenzpflicht informiert Betroffene."
       },
       {
         "german": "das Auskunftsrecht",
-        "italian": "il diritto di accesso",
+        "italian": "das Auskunftsrecht",
         "article": "das",
         "plural": "",
         "example": "Auskunftsrecht ermöglicht Information."
       },
       {
         "german": "das Recht auf Datenportabilität",
-        "italian": "il diritto alla portabilità dei dati",
+        "italian": "das Recht auf Datenportabilität",
         "article": "das",
         "plural": "",
         "example": "Datenportabilität ermöglicht Wechsel."
       },
       {
         "german": "die Einwilligungserklärung",
-        "italian": "la dichiarazione di consenso",
+        "italian": "die einwilligungserkläring",
         "article": "die",
         "plural": "",
         "example": "Einwilligungserklärung muss freiwillig sein."
       },
       {
         "german": "die Datenschutzbehörde",
-        "italian": "l'autorità per la protezione dei dati",
+        "italian": "die Datenschutzbehörde",
         "article": "die",
         "plural": "",
         "example": "Die Datenschutzbehörde kontrolliert."
       },
       {
         "german": "das Bußgeld",
-        "italian": "la sanzione pecuniaria",
+        "italian": "das Bußgeld",
         "article": "das",
         "plural": "Bußgelder",
         "example": "Bußgelder können hoch sein."
       },
       {
         "german": "die Rechenschaftspflicht",
-        "italian": "l'obbligo di rendicontazione",
+        "italian": "die Rechenschaftspflicht",
         "article": "die",
         "plural": "",
         "example": "Rechenschaftspflicht zwingt zur Dokumentation."
       },
       {
         "german": "die Privacy by Design",
-        "italian": "la privacy by design",
+        "italian": "die Privacy by Design",
         "article": "die",
         "plural": "",
         "example": "Privacy by Design integriert Datenschutz."
       },
       {
         "german": "die Privacy by Default",
-        "italian": "la privacy by default",
+        "italian": "die Privacy by Default",
         "article": "die",
         "plural": "",
         "example": "Privacy by Default setzt Standards."
       },
       {
         "german": "die Datenverarbeitungsvereinbarung",
-        "italian": "l'accordo sul trattamento dei dati",
+        "italian": "die datenverarbeitungsvereinbaring",
         "article": "die",
         "plural": "",
         "example": "Die DVV regelt die Verarbeitung."
@@ -261,98 +261,98 @@
     "words": [
       {
         "german": "das Verfassungsrecht",
-        "italian": "il diritto costituzionale",
+        "italian": "das Verfassungsrecht",
         "article": "das",
         "plural": "",
         "example": "Verfassungsrecht regelt Staatsorganisation."
       },
       {
         "german": "die Grundrechte",
-        "italian": "i diritti fondamentali",
+        "italian": "die Grundrechte",
         "article": "die",
         "plural": "",
         "example": "Grundrechte sind unveräußerlich."
       },
       {
         "german": "die Ewigkeitsklausel",
-        "italian": "la clausola di eternità",
+        "italian": "die Ewigkeitsklausel",
         "article": "die",
         "plural": "",
         "example": "Die Ewigkeitsklausel schützt Grundsätze."
       },
       {
         "german": "das Bundesverfassungsgericht",
-        "italian": "la Corte Costituzionale Federale",
+        "italian": "das Bundesverfassungsgericht",
         "article": "das",
         "plural": "",
         "example": "Das BVerfG prüft Gesetze."
       },
       {
         "german": "der Föderalismus",
-        "italian": "il federalismo",
+        "italian": "der Föderalismus",
         "article": "der",
         "plural": "",
         "example": "Föderalismus verteilt Macht."
       },
       {
         "german": "die Kompetenzverteilung",
-        "italian": "la ripartizione delle competenze",
+        "italian": "die kompetenzverteiling",
         "article": "die",
         "plural": "",
         "example": "Kompetenzverteilung regelt Zuständigkeiten."
       },
       {
         "german": "die Gesetzgebungskompetenz",
-        "italian": "la competenza legislativa",
+        "italian": "die Gesetzgebungskompetenz",
         "article": "die",
         "plural": "",
         "example": "Die Gesetzgebungskompetenz ist verteilt."
       },
       {
         "german": "das Demokratieprinzip",
-        "italian": "il principio democratico",
+        "italian": "das Demokratieprinzip",
         "article": "das",
         "plural": "",
         "example": "Das Demokratieprinzip ist fundamental."
       },
       {
         "german": "das Rechtsstaatsprinzip",
-        "italian": "il principio dello stato di diritto",
+        "italian": "das Rechtsstaatsprinzip",
         "article": "das",
         "plural": "",
         "example": "Das Rechtsstaatsprinzip bindet Macht."
       },
       {
         "german": "das Sozialstaatsprinzip",
-        "italian": "il principio dello stato sociale",
+        "italian": "das Sozialstaatsprinzip",
         "article": "das",
         "plural": "",
         "example": "Das Sozialstaatsprinzip fordert Schutz."
       },
       {
         "german": "das Übermaßverbot",
-        "italian": "il divieto di eccesso",
+        "italian": "das Übermaßverbot",
         "article": "das",
         "plural": "",
         "example": "Das Übermaßverbot schützt Bürger."
       },
       {
         "german": "die Wesensgehaltsgarantie",
-        "italian": "la garanzia del contenuto essenziale",
+        "italian": "die Wesensgehaltsgarantie",
         "article": "die",
         "plural": "",
         "example": "Die Wesensgehaltsgarantie schützt den Kern."
       },
       {
         "german": "der Gesetzesvorbehalt",
-        "italian": "la riserva di legge",
+        "italian": "der Gesetzesvorbehalt",
         "article": "der",
         "plural": "",
         "example": "Der Gesetzesvorbehalt erfordert ein Gesetz."
       },
       {
         "german": "die Staatszielbestimmung",
-        "italian": "la determinazione degli obiettivi statali",
+        "italian": "die staatszielbestimming",
         "article": "die",
         "plural": "",
         "example": "Umweltschutz ist eine Staatszielbestimmung."
@@ -367,119 +367,119 @@
     "words": [
       {
         "german": "das Wettbewerbsrecht",
-        "italian": "il diritto della concorrenza",
+        "italian": "das Wettbewerbsrecht",
         "article": "das",
         "plural": "",
         "example": "Wettbewerbsrecht schützt den Markt."
       },
       {
         "german": "das Kartell",
-        "italian": "il cartello",
+        "italian": "das Kartell",
         "article": "das",
         "plural": "Kartelle",
         "example": "Kartelle sind verboten."
       },
       {
         "german": "die Fusionskontrolle",
-        "italian": "il controllo delle fusioni",
+        "italian": "die Fusionskontrolle",
         "article": "die",
         "plural": "",
         "example": "Fusionskontrolle prüft Zusammenschlüsse."
       },
       {
         "german": "die marktbeherrschende Stellung",
-        "italian": "la posizione dominante",
+        "italian": "die marktbeherrschende stelling",
         "article": "die",
         "plural": "",
         "example": "Marktbeherrschende Stellung wird geprüft."
       },
       {
         "german": "der Missbrauch",
-        "italian": "l'abuso",
+        "italian": "der Missbrauch",
         "article": "der",
         "plural": "",
         "example": "Missbrauch von Marktmacht ist verboten."
       },
       {
         "german": "die Preisabsprache",
-        "italian": "l'accordo sui prezzi",
+        "italian": "die Preisabsprache",
         "article": "die",
         "plural": "",
         "example": "Preisabsprachen sind illegal."
       },
       {
         "german": "die Wettbewerbsbehörde",
-        "italian": "l'autorità della concorrenza",
+        "italian": "die Wettbewerbsbehörde",
         "article": "die",
         "plural": "",
         "example": "Die Wettbewerbsbehörde ermittelt."
       },
       {
         "german": "die Marktkonzentration",
-        "italian": "la concentrazione del mercato",
+        "italian": "die Marktkonzentration",
         "article": "die",
         "plural": "",
         "example": "Marktkonzentration wird beobachtet."
       },
       {
         "german": "das Bundeskartellamt",
-        "italian": "l'Ufficio federale dei cartelli",
+        "italian": "das Bundeskartellamt",
         "article": "das",
         "plural": "",
         "example": "Das Bundeskartellamt kontrolliert."
       },
       {
         "german": "die Beihilfekontrolle",
-        "italian": "il controllo degli aiuti di stato",
+        "italian": "die Beihilfekontrolle",
         "article": "die",
         "plural": "",
         "example": "Beihilfekontrolle verhindert Verzerrungen."
       },
       {
         "german": "die unlautere Wettbewerbspraktik",
-        "italian": "la pratica commerciale sleale",
+        "italian": "die unlautere Wettbewerbspraktik",
         "article": "die",
         "plural": "",
         "example": "Unlautere Praktiken sind verboten."
       },
       {
         "german": "die Marktabschottung",
-        "italian": "la chiusura del mercato",
+        "italian": "die marktabschotting",
         "article": "die",
         "plural": "",
         "example": "Marktabschottung behindert Wettbewerb."
       },
       {
         "german": "die Verbraucherwohlfahrt",
-        "italian": "il benessere del consumatore",
+        "italian": "die Verbraucherwohlfahrt",
         "article": "die",
         "plural": "",
         "example": "Verbraucherwohlfahrt ist das Ziel."
       },
       {
         "german": "die Sektoruntersuchung",
-        "italian": "l'indagine settoriale",
+        "italian": "die sektoruntersuching",
         "article": "die",
         "plural": "",
         "example": "Sektoruntersuchungen prüfen Branchen."
       },
       {
         "german": "die Abstellungsverfügung",
-        "italian": "l'ordine di cessazione",
+        "italian": "die abstellungsverfüging",
         "article": "die",
         "plural": "",
         "example": "Die Abstellungsverfügung stoppt Verstöße."
       },
       {
         "german": "die Kronzeugenregelung",
-        "italian": "il programma di clemenza",
+        "italian": "die kronzeugenregeling",
         "article": "die",
         "plural": "",
         "example": "Die Kronzeugenregelung belohnt Hinweisgeber."
       },
       {
         "german": "die Bußgeldentscheidung",
-        "italian": "la decisione sanzionatoria",
+        "italian": "die bußgeldentscheiding",
         "article": "die",
         "plural": "",
         "example": "Die Bußgeldentscheidung war hoch."
@@ -494,112 +494,112 @@
     "words": [
       {
         "german": "das Europarecht",
-        "italian": "il diritto europeo",
+        "italian": "das Europarecht",
         "article": "das",
         "plural": "",
         "example": "Europarecht geht vor nationalem Recht."
       },
       {
         "german": "der Vorrang des Unionsrechts",
-        "italian": "il primato del diritto UE",
+        "italian": "der Vorrang des Unionsrechts",
         "article": "der",
         "plural": "",
         "example": "Vorrang ist ein Grundsatz."
       },
       {
         "german": "die unmittelbare Wirkung",
-        "italian": "l'effetto diretto",
+        "italian": "die unmittelbare wirking",
         "article": "die",
         "plural": "",
         "example": "Verordnungen haben unmittelbare Wirkung."
       },
       {
         "german": "die Vorabentscheidung",
-        "italian": "la decisione pregiudiziale",
+        "italian": "die vorabentscheiding",
         "article": "die",
         "plural": "",
         "example": "Vorabentscheidungen klären EU-Recht."
       },
       {
         "german": "die Grundfreiheiten",
-        "italian": "le libertà fondamentali",
+        "italian": "die Grundfreiheiten",
         "article": "die",
         "plural": "",
         "example": "Die vier Grundfreiheiten gelten."
       },
       {
         "german": "die Warenverkehrsfreiheit",
-        "italian": "la libera circolazione delle merci",
+        "italian": "die warenverkehrsfreiness",
         "article": "die",
         "plural": "",
         "example": "Warenverkehrsfreiheit ermöglicht Handel."
       },
       {
         "german": "die Dienstleistungsfreiheit",
-        "italian": "la libertà di prestazione di servizi",
+        "italian": "die dienstleistungsfreiness",
         "article": "die",
         "plural": "",
         "example": "Dienstleistungsfreiheit gilt in der EU."
       },
       {
         "german": "die Kapitalverkehrsfreiheit",
-        "italian": "la libera circolazione dei capitali",
+        "italian": "die kapitalverkehrsfreiness",
         "article": "die",
         "plural": "",
         "example": "Kapitalverkehrsfreiheit ermöglicht Investitionen."
       },
       {
         "german": "die Arbeitnehmerfreizügigkeit",
-        "italian": "la libera circolazione dei lavoratori",
+        "italian": "die arbeitnehmerfreizügigity",
         "article": "die",
         "plural": "",
         "example": "Arbeitnehmerfreizügigkeit ist garantiert."
       },
       {
         "german": "die Niederlassungsfreiheit",
-        "italian": "la libertà di stabilimento",
+        "italian": "die niederlassungsfreiness",
         "article": "die",
         "plural": "",
         "example": "Niederlassungsfreiheit gilt für Unternehmen."
       },
       {
         "german": "das Diskriminierungsverbot",
-        "italian": "il divieto di discriminazione",
+        "italian": "das Diskriminierungsverbot",
         "article": "das",
         "plural": "",
         "example": "Diskriminierungsverbot ist fundamental."
       },
       {
         "german": "die Richtlinienumsetzung",
-        "italian": "il recepimento delle direttive",
+        "italian": "die richtlinienumsetzing",
         "article": "die",
         "plural": "",
         "example": "Richtlinienumsetzung ist Pflicht."
       },
       {
         "german": "das Vertragsverletzungsverfahren",
-        "italian": "la procedura di infrazione",
+        "italian": "das Vertragsverletzungsverfahren",
         "article": "das",
         "plural": "",
         "example": "Vertragsverletzungsverfahren ahnden Verstöße."
       },
       {
         "german": "die EU-Grundrechtecharta",
-        "italian": "la Carta dei diritti fondamentali dell'UE",
+        "italian": "die EU-Grundrechtecharta",
         "article": "die",
         "plural": "",
         "example": "Die Grundrechtecharta schützt Rechte."
       },
       {
         "german": "die Unionsbürgerschaft",
-        "italian": "la cittadinanza dell'Unione",
+        "italian": "die Unionsbürgerschaft",
         "article": "die",
         "plural": "",
         "example": "Unionsbürgerschaft gibt Rechte."
       },
       {
         "german": "der acquis communautaire",
-        "italian": "l'acquis comunitario",
+        "italian": "der acquis communautaire",
         "article": "der",
         "plural": "",
         "example": "Der acquis ist der Rechtsbestand."
@@ -614,112 +614,112 @@
     "words": [
       {
         "german": "die Mikroökonomie",
-        "italian": "la microeconomia",
+        "italian": "die Mikroökonomie",
         "article": "die",
         "plural": "",
         "example": "Mikroökonomie studieren."
       },
       {
         "german": "die Makroökonomie",
-        "italian": "la macroeconomia",
+        "italian": "die Makroökonomie",
         "article": "die",
         "plural": "",
         "example": "Makroökonomie analysieren."
       },
       {
         "german": "die Volkswirtschaftslehre",
-        "italian": "l'economia politica",
+        "italian": "die Volkswirtschaftslehre",
         "article": "die",
         "plural": "",
         "example": "VWL studieren."
       },
       {
         "german": "die Betriebswirtschaftslehre",
-        "italian": "l'economia aziendale",
+        "italian": "die Betriebswirtschaftslehre",
         "article": "die",
         "plural": "",
         "example": "BWL studieren."
       },
       {
         "german": "die Grenzkosten",
-        "italian": "i costi marginali",
+        "italian": "die Grenzkosten",
         "article": "die",
         "plural": "",
         "example": "Grenzkosten berechnen."
       },
       {
         "german": "die Opportunitätskosten",
-        "italian": "i costi opportunità",
+        "italian": "die Opportunitätskosten",
         "article": "die",
         "plural": "",
         "example": "Opportunitätskosten berücksichtigen."
       },
       {
         "german": "die Preiselastizität",
-        "italian": "l'elasticità del prezzo",
+        "italian": "die Preiselastizität",
         "article": "die",
         "plural": "",
         "example": "Preiselastizität bestimmen."
       },
       {
         "german": "das Gleichgewicht",
-        "italian": "l'equilibrio",
+        "italian": "das Gleichgewicht",
         "article": "das",
         "plural": "die Gleichgewichte",
         "example": "Marktgleichgewicht herstellen."
       },
       {
         "german": "die Externalität",
-        "italian": "l'esternalità",
+        "italian": "die Externalität",
         "article": "die",
         "plural": "die Externalitäten",
         "example": "Negative Externalitäten internalisieren."
       },
       {
         "german": "die Geldpolitik",
-        "italian": "la politica monetaria",
+        "italian": "die Geldpolitik",
         "article": "die",
         "plural": "",
         "example": "Geldpolitik der EZB."
       },
       {
         "german": "die Fiskalpolitik",
-        "italian": "la politica fiscale",
+        "italian": "die Fiskalpolitik",
         "article": "die",
         "plural": "",
         "example": "Expansive Fiskalpolitik betreiben."
       },
       {
         "german": "die Leistungsbilanz",
-        "italian": "la bilancia corrente",
+        "italian": "die Leistungsbilanz",
         "article": "die",
         "plural": "die Leistungsbilanzen",
         "example": "Die Leistungsbilanz ausgleichen."
       },
       {
         "german": "der Multiplikatoreffekt",
-        "italian": "l'effetto moltiplicatore",
+        "italian": "der Multiplikatoreffekt",
         "article": "der",
         "plural": "die Multiplikatoreffekte",
         "example": "Den Multiplikatoreffekt berechnen."
       },
       {
         "german": "die Angebotsökonomie",
-        "italian": "l'economia dell'offerta",
+        "italian": "die Angebotsökonomie",
         "article": "die",
         "plural": "",
         "example": "Angebotsökonomie diskutieren."
       },
       {
         "german": "die Nachfrageökonomie",
-        "italian": "l'economia della domanda",
+        "italian": "die Nachfrageökonomie",
         "article": "die",
         "plural": "",
         "example": "Nachfrageökonomie nach Keynes."
       },
       {
         "german": "der Monetarismus",
-        "italian": "il monetarismo",
+        "italian": "der Monetarismus",
         "article": "der",
         "plural": "",
         "example": "Monetarismus nach Friedman."
@@ -734,112 +734,112 @@
     "words": [
       {
         "german": "die Rollentheorie",
-        "italian": "la teoria dei ruoli",
+        "italian": "die Rollentheorie",
         "article": "die",
         "plural": "die Rollentheorien",
         "example": "Rollentheorie anwenden."
       },
       {
         "german": "die Konflikttheorie",
-        "italian": "la teoria del conflitto",
+        "italian": "die Konflikttheorie",
         "article": "die",
         "plural": "die Konflikttheorien",
         "example": "Konflikttheorie nach Marx."
       },
       {
         "german": "die symbolische Interaktion",
-        "italian": "l'interazione simbolica",
+        "italian": "die symbolische Interaktion",
         "article": "die",
         "plural": "",
         "example": "Symbolischer Interaktionismus."
       },
       {
         "german": "die Ethnomethodologie",
-        "italian": "l'etnometodologia",
+        "italian": "die Ethnomethodologie",
         "article": "die",
         "plural": "",
         "example": "Ethnomethodologie erforschen."
       },
       {
         "german": "die Feldtheorie",
-        "italian": "la teoria del campo",
+        "italian": "die Feldtheorie",
         "article": "die",
         "plural": "die Feldtheorien",
         "example": "Bourdieus Feldtheorie."
       },
       {
         "german": "das kulturelle Kapital",
-        "italian": "il capitale culturale",
+        "italian": "das kulturelle Kapital",
         "article": "das",
         "plural": "",
         "example": "Kulturelles Kapital nach Bourdieu."
       },
       {
         "german": "das soziale Kapital",
-        "italian": "il capitale sociale",
+        "italian": "das soziale Kapital",
         "article": "das",
         "plural": "",
         "example": "Soziales Kapital aufbauen."
       },
       {
         "german": "der Habitus",
-        "italian": "l'habitus",
+        "italian": "der Habitus",
         "article": "der",
         "plural": "die Habitus",
         "example": "Habitus nach Bourdieu."
       },
       {
         "german": "die Anomie",
-        "italian": "l'anomia",
+        "italian": "die Anomie",
         "article": "die",
         "plural": "",
         "example": "Anomie nach Durkheim."
       },
       {
         "german": "die Rationalisierung",
-        "italian": "la razionalizzazione",
+        "italian": "die rationalization",
         "article": "die",
         "plural": "",
         "example": "Rationalisierung nach Weber."
       },
       {
         "german": "die Bürokratisierung",
-        "italian": "la burocratizzazione",
+        "italian": "die bürokratization",
         "article": "die",
         "plural": "",
         "example": "Bürokratisierung kritisieren."
       },
       {
         "german": "die Entfremdung",
-        "italian": "l'alienazione",
+        "italian": "die entfremding",
         "article": "die",
         "plural": "",
         "example": "Entfremdung nach Marx."
       },
       {
         "german": "die Vergesellschaftung",
-        "italian": "la socializzazione",
+        "italian": "die vergesellschafting",
         "article": "die",
         "plural": "",
         "example": "Vergesellschaftung nach Simmel."
       },
       {
         "german": "die Individualisierung",
-        "italian": "l'individualizzazione",
+        "italian": "die individualization",
         "article": "die",
         "plural": "",
         "example": "Individualisierung nach Beck."
       },
       {
         "german": "die Risikogesellschaft",
-        "italian": "la società del rischio",
+        "italian": "die Risikogesellschaft",
         "article": "die",
         "plural": "",
         "example": "Becks Risikogesellschaft."
       },
       {
         "german": "die Wissensgesellschaft",
-        "italian": "la società della conoscenza",
+        "italian": "die Wissensgesellschaft",
         "article": "die",
         "plural": "",
         "example": "Wissensgesellschaft entstehen."
@@ -854,98 +854,98 @@
     "words": [
       {
         "german": "die Politikfeldanalyse",
-        "italian": "l'analisi delle politiche pubbliche",
+        "italian": "die Politikfeldanalyse",
         "article": "die",
         "plural": "die Politikfeldanalysen",
         "example": "Politikfeldanalyse betreiben."
       },
       {
         "german": "die Regierungslehre",
-        "italian": "la scienza del governo",
+        "italian": "die Regierungslehre",
         "article": "die",
         "plural": "",
         "example": "Regierungslehre studieren."
       },
       {
         "german": "die Vergleichende Politikwissenschaft",
-        "italian": "la politica comparata",
+        "italian": "die Vergleichende Politikwissenschaft",
         "article": "die",
         "plural": "",
         "example": "Vergleichende Politikwissenschaft."
       },
       {
         "german": "der Korporatismus",
-        "italian": "il corporativismo",
+        "italian": "der Korporatismus",
         "article": "der",
         "plural": "",
         "example": "Korporatismus analysieren."
       },
       {
         "german": "die Pfadabhängigkeit",
-        "italian": "la dipendenza dal percorso",
+        "italian": "die pfadabhängigity",
         "article": "die",
         "plural": "",
         "example": "Pfadabhängigkeit erkennen."
       },
       {
         "german": "die Vetospielertheorie",
-        "italian": "la teoria dei giocatori con veto",
+        "italian": "die Vetospielertheorie",
         "article": "die",
         "plural": "",
         "example": "Vetospielertheorie anwenden."
       },
       {
         "german": "die Governance",
-        "italian": "la governance",
+        "italian": "die Governance",
         "article": "die",
         "plural": "",
         "example": "Good Governance fördern."
       },
       {
         "german": "die Deliberation",
-        "italian": "la deliberazione",
+        "italian": "die Deliberation",
         "article": "die",
         "plural": "die Deliberationen",
         "example": "Deliberative Demokratie."
       },
       {
         "german": "die Partizipation",
-        "italian": "la partecipazione",
+        "italian": "die Partizipation",
         "article": "die",
         "plural": "",
         "example": "Politische Partizipation fördern."
       },
       {
         "german": "die Repräsentation",
-        "italian": "la rappresentanza",
+        "italian": "die Repräsentation",
         "article": "die",
         "plural": "",
         "example": "Politische Repräsentation."
       },
       {
         "german": "die politische Kultur",
-        "italian": "la cultura politica",
+        "italian": "die politische Kultur",
         "article": "die",
         "plural": "",
         "example": "Politische Kultur erforschen."
       },
       {
         "german": "die Politikverdrossenheit",
-        "italian": "il disincanto politico",
+        "italian": "die politikverdrossenness",
         "article": "die",
         "plural": "",
         "example": "Politikverdrossenheit überwinden."
       },
       {
         "german": "die Wahlforschung",
-        "italian": "la ricerca elettorale",
+        "italian": "die wahlforsching",
         "article": "die",
         "plural": "",
         "example": "Wahlforschung betreiben."
       },
       {
         "german": "die Parteienforschung",
-        "italian": "la ricerca sui partiti",
+        "italian": "die parteienforsching",
         "article": "die",
         "plural": "",
         "example": "Parteienforschung vertiefen."
@@ -960,105 +960,105 @@
     "words": [
       {
         "german": "die Rechtssoziologie",
-        "italian": "la sociologia del diritto",
+        "italian": "die Rechtssoziologie",
         "article": "die",
         "plural": "",
         "example": "Rechtssoziologie erforschen."
       },
       {
         "german": "die Rechtsvergleichung",
-        "italian": "il diritto comparato",
+        "italian": "die rechtsvergleiching",
         "article": "die",
         "plural": "",
         "example": "Rechtsvergleichung betreiben."
       },
       {
         "german": "die Rechtsgeschichte",
-        "italian": "la storia del diritto",
+        "italian": "die Rechtsgeschichte",
         "article": "die",
         "plural": "",
         "example": "Rechtsgeschichte studieren."
       },
       {
         "german": "die Grundrechtsdogmatik",
-        "italian": "la dogmatica dei diritti fondamentali",
+        "italian": "die Grundrechtsdogmatik",
         "article": "die",
         "plural": "",
         "example": "Grundrechtsdogmatik vertiefen."
       },
       {
         "german": "die Verfassungsinterpretation",
-        "italian": "l'interpretazione costituzionale",
+        "italian": "die Verfassungsinterpretation",
         "article": "die",
         "plural": "die Verfassungsinterpretationen",
         "example": "Verfassungsinterpretation üben."
       },
       {
         "german": "die Gesetzgebungslehre",
-        "italian": "la scienza della legislazione",
+        "italian": "die Gesetzgebungslehre",
         "article": "die",
         "plural": "",
         "example": "Gesetzgebungslehre studieren."
       },
       {
         "german": "die Rechtsfolgenabschätzung",
-        "italian": "la valutazione delle conseguenze giuridiche",
+        "italian": "die rechtsfolgenabschätzing",
         "article": "die",
         "plural": "die Rechtsfolgenabschätzungen",
         "example": "Rechtsfolgenabschätzung durchführen."
       },
       {
         "german": "die Normenhierarchie",
-        "italian": "la gerarchia delle norme",
+        "italian": "die Normenhierarchie",
         "article": "die",
         "plural": "die Normenhierarchien",
         "example": "Normenhierarchie beachten."
       },
       {
         "german": "die Ermessensausübung",
-        "italian": "l'esercizio della discrezionalità",
+        "italian": "die ermessensausübing",
         "article": "die",
         "plural": "",
         "example": "Ermessensausübung prüfen."
       },
       {
         "german": "der Beurteilungsspielraum",
-        "italian": "il margine di valutazione",
+        "italian": "der Beurteilungsspielraum",
         "article": "der",
         "plural": "die Beurteilungsspielräume",
         "example": "Beurteilungsspielraum nutzen."
       },
       {
         "german": "die Vorbehaltlose Grundrechte",
-        "italian": "i diritti fondamentali senza riserva",
+        "italian": "die Vorbehaltlose Grundrechte",
         "article": "die",
         "plural": "",
         "example": "Vorbehaltlose Grundrechte schützen."
       },
       {
         "german": "die Drittwirkung",
-        "italian": "l'efficacia verso terzi",
+        "italian": "die drittwirking",
         "article": "die",
         "plural": "",
         "example": "Mittelbare Drittwirkung prüfen."
       },
       {
         "german": "die Staatshaftung",
-        "italian": "la responsabilità dello Stato",
+        "italian": "die staatshafting",
         "article": "die",
         "plural": "",
         "example": "Staatshaftung geltend machen."
       },
       {
         "german": "die Verfahrensgarantie",
-        "italian": "la garanzia procedurale",
+        "italian": "die Verfahrensgarantie",
         "article": "die",
         "plural": "die Verfahrensgarantien",
         "example": "Verfahrensgarantien einhalten."
       },
       {
         "german": "die Normenkollision",
-        "italian": "il conflitto di norme",
+        "italian": "die Normenkollision",
         "article": "die",
         "plural": "die Normenkollisionen",
         "example": "Normenkollision auflösen."
@@ -1073,126 +1073,126 @@
     "words": [
       {
         "german": "die Synapse",
-        "italian": "la sinapsi",
+        "italian": "die Synapse",
         "article": "die",
         "plural": "die Synapsen",
         "example": "Synaptische Übertragung."
       },
       {
         "german": "der Neurotransmitter",
-        "italian": "il neurotrasmettitore",
+        "italian": "der Neurotransmitter",
         "article": "der",
         "plural": "die Neurotransmitter",
         "example": "Neurotransmitter ausschütten."
       },
       {
         "german": "die Hirnforschung",
-        "italian": "la ricerca cerebrale",
+        "italian": "die hirnforsching",
         "article": "die",
         "plural": "",
         "example": "Hirnforschung vorantreiben."
       },
       {
         "german": "die Bildgebung",
-        "italian": "l'imaging",
+        "italian": "die bildgebing",
         "article": "die",
         "plural": "",
         "example": "Bildgebende Verfahren nutzen."
       },
       {
         "german": "die Magnetresonanztomographie",
-        "italian": "la risonanza magnetica",
+        "italian": "die Magnetresonanztomographie",
         "article": "die",
         "plural": "",
         "example": "MRT durchführen."
       },
       {
         "german": "die Elektroenzephalographie",
-        "italian": "l'elettroencefalografia",
+        "italian": "die Elektroenzephalographie",
         "article": "die",
         "plural": "",
         "example": "EEG aufzeichnen."
       },
       {
         "german": "die Großhirnrinde",
-        "italian": "la corteccia cerebrale",
+        "italian": "die Großhirnrinde",
         "article": "die",
         "plural": "",
         "example": "Die Großhirnrinde erforschen."
       },
       {
         "german": "das Kleinhirn",
-        "italian": "il cervelletto",
+        "italian": "das Kleinhirn",
         "article": "das",
         "plural": "",
         "example": "Das Kleinhirn steuert Bewegungen."
       },
       {
         "german": "der Hippocampus",
-        "italian": "l'ippocampo",
+        "italian": "der Hippocampus",
         "article": "der",
         "plural": "die Hippocampi",
         "example": "Der Hippocampus speichert Erinnerungen."
       },
       {
         "german": "die Amygdala",
-        "italian": "l'amigdala",
+        "italian": "die Amygdala",
         "article": "die",
         "plural": "die Amygdalae",
         "example": "Die Amygdala verarbeitet Emotionen."
       },
       {
         "german": "der präfrontale Cortex",
-        "italian": "la corteccia prefrontale",
+        "italian": "der präfrontale Cortex",
         "article": "der",
         "plural": "",
         "example": "Der präfrontale Cortex entscheidet."
       },
       {
         "german": "die Myelinisierung",
-        "italian": "la mielinizzazione",
+        "italian": "die myelinization",
         "article": "die",
         "plural": "",
         "example": "Myelinisierung der Nervenbahnen."
       },
       {
         "german": "die Neurodegeneration",
-        "italian": "la neurodegenerazione",
+        "italian": "die Neurodegeneration",
         "article": "die",
         "plural": "",
         "example": "Neurodegeneration verlangsamen."
       },
       {
         "german": "die Neurogenese",
-        "italian": "la neurogenesi",
+        "italian": "die Neurogenese",
         "article": "die",
         "plural": "",
         "example": "Neurogenese im Erwachsenenalter."
       },
       {
         "german": "die Spiegelneuronen",
-        "italian": "i neuroni specchio",
+        "italian": "die Spiegelneuronen",
         "article": "die",
         "plural": "",
         "example": "Spiegelneuronen erforschen."
       },
       {
         "german": "die Lateralisierung",
-        "italian": "la lateralizzazione",
+        "italian": "die lateralization",
         "article": "die",
         "plural": "",
         "example": "Lateralisierung des Gehirns."
       },
       {
         "german": "der Cortisol",
-        "italian": "il cortisolo",
+        "italian": "der Cortisol",
         "article": "der",
         "plural": "",
         "example": "Cortisolspiegel messen."
       },
       {
         "german": "das Dopamin",
-        "italian": "la dopamina",
+        "italian": "das Dopamin",
         "article": "das",
         "plural": "",
         "example": "Dopamin als Glückshormon."
@@ -1207,126 +1207,126 @@
     "words": [
       {
         "german": "die Ökosystemdienstleistung",
-        "italian": "il servizio ecosistemico",
+        "italian": "die ökosystemdienstleisting",
         "article": "die",
         "plural": "die Ökosystemdienstleistungen",
         "example": "Ökosystemdienstleistungen bewerten."
       },
       {
         "german": "die Tragfähigkeit",
-        "italian": "la capacità di carico",
+        "italian": "die tragfähigity",
         "article": "die",
         "plural": "",
         "example": "Die Tragfähigkeit der Erde."
       },
       {
         "german": "die Biosphäre",
-        "italian": "la biosfera",
+        "italian": "die Biosphäre",
         "article": "die",
         "plural": "",
         "example": "Die Biosphäre schützen."
       },
       {
         "german": "die Lithosphäre",
-        "italian": "la litosfera",
+        "italian": "die Lithosphäre",
         "article": "die",
         "plural": "",
         "example": "Die Lithosphäre erforschen."
       },
       {
         "german": "die Hydrosphäre",
-        "italian": "l'idrosfera",
+        "italian": "die Hydrosphäre",
         "article": "die",
         "plural": "",
         "example": "Die Hydrosphäre untersuchen."
       },
       {
         "german": "die Atmosphäre",
-        "italian": "l'atmosfera",
+        "italian": "die Atmosphäre",
         "article": "die",
         "plural": "",
         "example": "Die Atmosphäre analysieren."
       },
       {
         "german": "die Pedosphäre",
-        "italian": "la pedosfera",
+        "italian": "die Pedosphäre",
         "article": "die",
         "plural": "",
         "example": "Die Pedosphäre erforschen."
       },
       {
         "german": "die Kryosphäre",
-        "italian": "la criosfera",
+        "italian": "die Kryosphäre",
         "article": "die",
         "plural": "",
         "example": "Die Kryosphäre schmilzt."
       },
       {
         "german": "der Biogeochemische Kreislauf",
-        "italian": "il ciclo biogeochimico",
+        "italian": "der Biogeochemische Kreislauf",
         "article": "der",
         "plural": "die biogeochemischen Kreisläufe",
         "example": "Biogeochemische Kreisläufe verstehen."
       },
       {
         "german": "der Stickstoffkreislauf",
-        "italian": "il ciclo dell'azoto",
+        "italian": "der Stickstoffkreislauf",
         "article": "der",
         "plural": "",
         "example": "Den Stickstoffkreislauf analysieren."
       },
       {
         "german": "der Kohlenstoffkreislauf",
-        "italian": "il ciclo del carbonio",
+        "italian": "der Kohlenstoffkreislauf",
         "article": "der",
         "plural": "",
         "example": "Den Kohlenstoffkreislauf verstehen."
       },
       {
         "german": "die Desertifikation",
-        "italian": "la desertificazione",
+        "italian": "die Desertifikation",
         "article": "die",
         "plural": "",
         "example": "Desertifikation verhindern."
       },
       {
         "german": "die Eutrophierung",
-        "italian": "l'eutrofizzazione",
+        "italian": "die eutrophiering",
         "article": "die",
         "plural": "",
         "example": "Eutrophierung bekämpfen."
       },
       {
         "german": "die Versauerung",
-        "italian": "l'acidificazione",
+        "italian": "die versauering",
         "article": "die",
         "plural": "",
         "example": "Versauerung der Ozeane."
       },
       {
         "german": "die Bioremediation",
-        "italian": "la biorimediazione",
+        "italian": "die Bioremediation",
         "article": "die",
         "plural": "",
         "example": "Bioremediation anwenden."
       },
       {
         "german": "die Phytoremediation",
-        "italian": "la fitorimediazione",
+        "italian": "die Phytoremediation",
         "article": "die",
         "plural": "",
         "example": "Phytoremediation erforschen."
       },
       {
         "german": "die Umweltfolgenabschätzung",
-        "italian": "la valutazione dell'impatto ambientale",
+        "italian": "die umweltfolgenabschätzing",
         "article": "die",
         "plural": "die Umweltfolgenabschätzungen",
         "example": "Umweltfolgenabschätzung durchführen."
       },
       {
         "german": "die Lebenszyklusanalyse",
-        "italian": "l'analisi del ciclo di vita",
+        "italian": "die Lebenszyklusanalyse",
         "article": "die",
         "plural": "die Lebenszyklusanalysen",
         "example": "Lebenszyklusanalyse erstellen."
@@ -1341,91 +1341,91 @@
     "words": [
       {
         "german": "das tiefe Lernen",
-        "italian": "l'apprendimento profondo",
+        "italian": "das tiefe Lernen",
         "article": "das",
         "plural": "",
         "example": "Deep Learning erforschen."
       },
       {
         "german": "der Entscheidungsbaum",
-        "italian": "l'albero decisionale",
+        "italian": "der Entscheidungsbaum",
         "article": "der",
         "plural": "die Entscheidungsbäume",
         "example": "Entscheidungsbäume erstellen."
       },
       {
         "german": "die Sprachverarbeitung",
-        "italian": "l'elaborazione del linguaggio",
+        "italian": "die sprachverarbeiting",
         "article": "die",
         "plural": "",
         "example": "Natürliche Sprachverarbeitung."
       },
       {
         "german": "die Roboterethik",
-        "italian": "l'etica della robotica",
+        "italian": "die Roboterethik",
         "article": "die",
         "plural": "",
         "example": "Roboterethik diskutieren."
       },
       {
         "german": "die Erklärbare KI",
-        "italian": "l'IA spiegabile",
+        "italian": "die Erklärbare KI",
         "article": "die",
         "plural": "",
         "example": "Erklärbare KI entwickeln."
       },
       {
         "german": "die Verzerrung",
-        "italian": "il bias",
+        "italian": "die verzerring",
         "article": "die",
         "plural": "die Verzerrungen",
         "example": "Algorithmische Verzerrung erkennen."
       },
       {
         "german": "die Computerlinguistik",
-        "italian": "la linguistica computazionale",
+        "italian": "die Computerlinguistik",
         "article": "die",
         "plural": "",
         "example": "Computerlinguistik studieren."
       },
       {
         "german": "die Softwarearchitektur",
-        "italian": "l'architettura software",
+        "italian": "die Softwarearchitektur",
         "article": "die",
         "plural": "die Softwarearchitekturen",
         "example": "Softwarearchitektur entwerfen."
       },
       {
         "german": "die Verteilte Systeme",
-        "italian": "i sistemi distribuiti",
+        "italian": "die Verteilte Systeme",
         "article": "die",
         "plural": "",
         "example": "Verteilte Systeme entwickeln."
       },
       {
         "german": "die Kryptographie",
-        "italian": "la crittografia",
+        "italian": "die Kryptographie",
         "article": "die",
         "plural": "",
         "example": "Kryptographie erforschen."
       },
       {
         "german": "die Informationssicherheit",
-        "italian": "la sicurezza informatica",
+        "italian": "die informationssicherness",
         "article": "die",
         "plural": "",
         "example": "Informationssicherheit gewährleisten."
       },
       {
         "german": "die Netzwerktopologie",
-        "italian": "la topologia di rete",
+        "italian": "die Netzwerktopologie",
         "article": "die",
         "plural": "die Netzwerktopologien",
         "example": "Netzwerktopologie entwerfen."
       },
       {
         "german": "die Berechenbarkeitstheorie",
-        "italian": "la teoria della computabilità",
+        "italian": "die Berechenbarkeitstheorie",
         "article": "die",
         "plural": "",
         "example": "Berechenbarkeitstheorie studieren."
@@ -1440,56 +1440,56 @@
     "words": [
       {
         "german": "die Vorsorgevollmacht",
-        "italian": "la procura sanitaria",
+        "italian": "die Vorsorgevollmacht",
         "article": "die",
         "plural": "die Vorsorgevollmachten",
         "example": "Vorsorgevollmacht erteilen."
       },
       {
         "german": "die Keimbahntherapie",
-        "italian": "la terapia della linea germinale",
+        "italian": "die Keimbahntherapie",
         "article": "die",
         "plural": "",
         "example": "Keimbahntherapie debattieren."
       },
       {
         "german": "die Schweigepflicht",
-        "italian": "il segreto professionale",
+        "italian": "die Schweigepflicht",
         "article": "die",
         "plural": "",
         "example": "Schweigepflicht einhalten."
       },
       {
         "german": "die Ethikkommission",
-        "italian": "il comitato etico",
+        "italian": "die Ethikkommission",
         "article": "die",
         "plural": "die Ethikkommissionen",
         "example": "Die Ethikkommission entscheidet."
       },
       {
         "german": "die Verteilungsgerechtigkeit",
-        "italian": "la giustizia distributiva",
+        "italian": "die distributive gerechtigkeit",
         "article": "die",
         "plural": "",
         "example": "Verteilungsgerechtigkeit im Gesundheitswesen."
       },
       {
         "german": "die Triage",
-        "italian": "il triage",
+        "italian": "die Triage",
         "article": "die",
         "plural": "",
         "example": "Triage durchführen."
       },
       {
         "german": "die Tierversuchsethik",
-        "italian": "l'etica della sperimentazione animale",
+        "italian": "die Tierversuchsethik",
         "article": "die",
         "plural": "",
         "example": "Tierversuchsethik diskutieren."
       },
       {
         "german": "die Menschenversuchsethik",
-        "italian": "l'etica della sperimentazione umana",
+        "italian": "die Menschenversuchsethik",
         "article": "die",
         "plural": "",
         "example": "Menschenversuchsethik beachten."
@@ -1504,98 +1504,98 @@
     "words": [
       {
         "german": "die performative Äußerung",
-        "italian": "l'enunciato performativo",
+        "italian": "die performative äußering",
         "article": "die",
         "plural": "die performativen Äußerungen",
         "example": "Performative Äußerungen erkennen."
       },
       {
         "german": "die konstatative Äußerung",
-        "italian": "l'enunciato constatativo",
+        "italian": "die konstatative äußering",
         "article": "die",
         "plural": "die konstatativen Äußerungen",
         "example": "Konstatative Äußerungen analysieren."
       },
       {
         "german": "die Illokution",
-        "italian": "l'illocuzione",
+        "italian": "die Illokution",
         "article": "die",
         "plural": "die Illokutionen",
         "example": "Die illokutionäre Kraft bestimmen."
       },
       {
         "german": "die Perlokution",
-        "italian": "la perlocuzione",
+        "italian": "die Perlokution",
         "article": "die",
         "plural": "die Perlokutionen",
         "example": "Perlokutionäre Wirkung analysieren."
       },
       {
         "german": "die Prädikation",
-        "italian": "la predicazione",
+        "italian": "die Prädikation",
         "article": "die",
         "plural": "die Prädikationen",
         "example": "Prädikation analysieren."
       },
       {
         "german": "die Propositionalität",
-        "italian": "la proposizionalità",
+        "italian": "die Propositionalität",
         "article": "die",
         "plural": "",
         "example": "Propositionalität bestimmen."
       },
       {
         "german": "der Wahrheitswert",
-        "italian": "il valore di verità",
+        "italian": "der Wahrheitswert",
         "article": "der",
         "plural": "die Wahrheitswerte",
         "example": "Den Wahrheitswert bestimmen."
       },
       {
         "german": "die Verifikation",
-        "italian": "la verifica",
+        "italian": "die Verifikation",
         "article": "die",
         "plural": "die Verifikationen",
         "example": "Verifikationsprinzip anwenden."
       },
       {
         "german": "die Falsifikation",
-        "italian": "la falsificazione",
+        "italian": "die Falsifikation",
         "article": "die",
         "plural": "die Falsifikationen",
         "example": "Falsifikation nach Popper."
       },
       {
         "german": "die Familienähnlichkeit",
-        "italian": "la somiglianza di famiglia",
+        "italian": "die familienähnlichity",
         "article": "die",
         "plural": "die Familienähnlichkeiten",
         "example": "Familienähnlichkeit erkennen."
       },
       {
         "german": "die Privatsprache",
-        "italian": "il linguaggio privato",
+        "italian": "die Privatsprache",
         "article": "die",
         "plural": "die Privatsprachen",
         "example": "Privatsprachenargument."
       },
       {
         "german": "die Gebrauchstheorie",
-        "italian": "la teoria dell'uso",
+        "italian": "die Gebrauchstheorie",
         "article": "die",
         "plural": "die Gebrauchstheorien",
         "example": "Gebrauchstheorie der Bedeutung."
       },
       {
         "german": "die Wahrheitstheorie",
-        "italian": "la teoria della verità",
+        "italian": "die Wahrheitstheorie",
         "article": "die",
         "plural": "die Wahrheitstheorien",
         "example": "Korrespondenztheorie der Wahrheit."
       },
       {
         "german": "die Kohärenztheorie",
-        "italian": "la teoria della coerenza",
+        "italian": "die Kohärenztheorie",
         "article": "die",
         "plural": "die Kohärenztheorien",
         "example": "Kohärenztheorie der Wahrheit."
@@ -1610,42 +1610,42 @@
     "words": [
       {
         "german": "die Hypothesenbildung",
-        "italian": "la formulazione delle ipotesi",
+        "italian": "die hypothesenbilding",
         "article": "die",
         "plural": "",
         "example": "Hypothesen bilden."
       },
       {
         "german": "die Zufallsauswahl",
-        "italian": "la selezione casuale",
+        "italian": "die Zufallsauswahl",
         "article": "die",
         "plural": "die Zufallsauswahlen",
         "example": "Zufallsauswahl durchführen."
       },
       {
         "german": "die Repräsentativität",
-        "italian": "la rappresentatività",
+        "italian": "die Repräsentativität",
         "article": "die",
         "plural": "",
         "example": "Repräsentativität sicherstellen."
       },
       {
         "german": "die Varianz",
-        "italian": "la varianza",
+        "italian": "die Varianz",
         "article": "die",
         "plural": "die Varianzen",
         "example": "Die Varianz berechnen."
       },
       {
         "german": "das Signifikanzniveau",
-        "italian": "il livello di significatività",
+        "italian": "das Signifikanzniveau",
         "article": "das",
         "plural": "die Signifikanzniveaus",
         "example": "Signifikanzniveau festlegen."
       },
       {
         "german": "die Ethnographie",
-        "italian": "l'etnografia",
+        "italian": "die Ethnographie",
         "article": "die",
         "plural": "die Ethnographien",
         "example": "Ethnographische Forschung betreiben."
@@ -1660,84 +1660,84 @@
     "words": [
       {
         "german": "der Wirkungsgrad",
-        "italian": "il rendimento",
+        "italian": "der Wirkungsgrad",
         "article": "der",
         "plural": "die Wirkungsgrade",
         "example": "Den Wirkungsgrad verbessern."
       },
       {
         "german": "die Kraft-Wärme-Kopplung",
-        "italian": "la cogenerazione",
+        "italian": "die kraft-wärme-koppling",
         "article": "die",
         "plural": "",
         "example": "Kraft-Wärme-Kopplung nutzen."
       },
       {
         "german": "der Energiespeicher",
-        "italian": "l'accumulatore di energia",
+        "italian": "der Energiespeicher",
         "article": "der",
         "plural": "die Energiespeicher",
         "example": "Energiespeicher entwickeln."
       },
       {
         "german": "die Lithium-Ionen-Batterie",
-        "italian": "la batteria agli ioni di litio",
+        "italian": "die Lithium-Ionen-Batterie",
         "article": "die",
         "plural": "die Lithium-Ionen-Batterien",
         "example": "Lithium-Ionen-Batterien verbessern."
       },
       {
         "german": "die Festkörperbatterie",
-        "italian": "la batteria allo stato solido",
+        "italian": "die Festkörperbatterie",
         "article": "die",
         "plural": "die Festkörperbatterien",
         "example": "Festkörperbatterien erforschen."
       },
       {
         "german": "die Elektrolyse",
-        "italian": "l'elettrolisi",
+        "italian": "die Elektrolyse",
         "article": "die",
         "plural": "die Elektrolysen",
         "example": "Elektrolyse durchführen."
       },
       {
         "german": "die Kernfusion",
-        "italian": "la fusione nucleare",
+        "italian": "die Kernfusion",
         "article": "der",
         "plural": "",
         "example": "Kernfusion erforschen."
       },
       {
         "german": "die Kernspaltung",
-        "italian": "la fissione nucleare",
+        "italian": "die kernspalting",
         "article": "die",
         "plural": "",
         "example": "Kernspaltung nutzen."
       },
       {
         "german": "die Grundlast",
-        "italian": "il carico di base",
+        "italian": "die Grundlast",
         "article": "die",
         "plural": "",
         "example": "Grundlast sichern."
       },
       {
         "german": "die Spitzenlast",
-        "italian": "il carico di picco",
+        "italian": "die Spitzenlast",
         "article": "die",
         "plural": "",
         "example": "Spitzenlast abdecken."
       },
       {
         "german": "die Netzparität",
-        "italian": "la grid parity",
+        "italian": "die Netzparität",
         "article": "die",
         "plural": "",
         "example": "Netzparität erreichen."
       },
       {
         "german": "der Kapazitätsfaktor",
-        "italian": "il fattore di capacità",
+        "italian": "der Kapazitätsfaktor",
         "article": "der",
         "plural": "die Kapazitätsfaktoren",
         "example": "Den Kapazitätsfaktor berechnen."
@@ -1752,105 +1752,105 @@
     "words": [
       {
         "german": "die Bioprospektierung",
-        "italian": "la bioprospecting",
+        "italian": "die bioprospektiering",
         "article": "die",
         "plural": "",
         "example": "Bioprospektierung ethisch bewerten."
       },
       {
         "german": "die Xenotransplantation",
-        "italian": "la xenotrapianto",
+        "italian": "die Xenotransplantation",
         "article": "die",
         "plural": "die Xenotransplantationen",
         "example": "Xenotransplantation erforschen."
       },
       {
         "german": "die Synthetische Biologie",
-        "italian": "la biologia sintetica",
+        "italian": "die Synthetische Biologie",
         "article": "die",
         "plural": "",
         "example": "Synthetische Biologie regulieren."
       },
       {
         "german": "die CRISPR-Technologie",
-        "italian": "la tecnologia CRISPR",
+        "italian": "die CRISPR-Technologie",
         "article": "die",
         "plural": "",
         "example": "CRISPR-Technologie einsetzen."
       },
       {
         "german": "die Epigenetik",
-        "italian": "l'epigenetica",
+        "italian": "die Epigenetik",
         "article": "die",
         "plural": "",
         "example": "Epigenetik erforschen."
       },
       {
         "german": "die Biobank",
-        "italian": "la biobanca",
+        "italian": "die Biobank",
         "article": "die",
         "plural": "die Biobanken",
         "example": "Biobanken regulieren."
       },
       {
         "german": "die genetische Diskriminierung",
-        "italian": "la discriminazione genetica",
+        "italian": "die genetische diskriminiering",
         "article": "die",
         "plural": "",
         "example": "Genetische Diskriminierung verbieten."
       },
       {
         "german": "die Biopiraterie",
-        "italian": "la biopirateria",
+        "italian": "die Biopiraterie",
         "article": "die",
         "plural": "",
         "example": "Biopiraterie bekämpfen."
       },
       {
         "german": "das Klonverbot",
-        "italian": "il divieto di clonazione",
+        "italian": "das Klonverbot",
         "article": "das",
         "plural": "die Klonverbote",
         "example": "Klonverbot durchsetzen."
       },
       {
         "german": "die Dual-Use-Forschung",
-        "italian": "la ricerca dual-use",
+        "italian": "die dual-use-forsching",
         "article": "die",
         "plural": "",
         "example": "Dual-Use-Forschung regulieren."
       },
       {
         "german": "die Gain-of-Function-Forschung",
-        "italian": "la ricerca gain-of-function",
+        "italian": "die gain-of-function-forsching",
         "article": "die",
         "plural": "",
         "example": "Gain-of-Function-Forschung debattieren."
       },
       {
         "german": "die Biosicherheit",
-        "italian": "la biosicurezza",
+        "italian": "die biosicherness",
         "article": "die",
         "plural": "",
         "example": "Biosicherheit gewährleisten."
       },
       {
         "german": "die Laborsicherheit",
-        "italian": "la sicurezza di laboratorio",
+        "italian": "die laborsicherness",
         "article": "die",
         "plural": "",
         "example": "Laborsicherheit einhalten."
       },
       {
         "german": "die Speziesismus-Debatte",
-        "italian": "il dibattito sullo specismo",
+        "italian": "die Speziesismus-Debatte",
         "article": "die",
         "plural": "",
         "example": "Speziesismus-Debatte führen."
       },
       {
         "german": "die Klimagerechtigkeit",
-        "italian": "la giustizia climatica",
+        "italian": "die klimagerechtigity",
         "article": "die",
         "plural": "",
         "example": "Klimagerechtigkeit einfordern."
@@ -1865,112 +1865,112 @@
     "words": [
       {
         "german": "die Mengenlehre",
-        "italian": "la teoria degli insiemi",
+        "italian": "die Mengenlehre",
         "article": "die",
         "plural": "",
         "example": "Mengenlehre studieren."
       },
       {
         "german": "die Topologie",
-        "italian": "la topologia",
+        "italian": "die Topologie",
         "article": "die",
         "plural": "",
         "example": "Topologie erforschen."
       },
       {
         "german": "die Algebra",
-        "italian": "l'algebra",
+        "italian": "die Algebra",
         "article": "die",
         "plural": "",
         "example": "Abstrakte Algebra studieren."
       },
       {
         "german": "die Analysis",
-        "italian": "l'analisi matematica",
+        "italian": "die Analysis",
         "article": "die",
         "plural": "",
         "example": "Analysis lernen."
       },
       {
         "german": "die Zahlentheorie",
-        "italian": "la teoria dei numeri",
+        "italian": "die Zahlentheorie",
         "article": "die",
         "plural": "",
         "example": "Zahlentheorie erforschen."
       },
       {
         "german": "die Wahrscheinlichkeitstheorie",
-        "italian": "la teoria della probabilità",
+        "italian": "die Wahrscheinlichkeitstheorie",
         "article": "die",
         "plural": "",
         "example": "Wahrscheinlichkeitstheorie anwenden."
       },
       {
         "german": "die Spieltheorie",
-        "italian": "la teoria dei giochi",
+        "italian": "die Spieltheorie",
         "article": "die",
         "plural": "",
         "example": "Spieltheorie nutzen."
       },
       {
         "german": "die Graphentheorie",
-        "italian": "la teoria dei grafi",
+        "italian": "die Graphentheorie",
         "article": "die",
         "plural": "",
         "example": "Graphentheorie studieren."
       },
       {
         "german": "die Kombinatorik",
-        "italian": "la combinatoria",
+        "italian": "die Kombinatorik",
         "article": "die",
         "plural": "",
         "example": "Kombinatorik anwenden."
       },
       {
         "german": "die lineare Algebra",
-        "italian": "l'algebra lineare",
+        "italian": "die lineare Algebra",
         "article": "die",
         "plural": "",
         "example": "Lineare Algebra studieren."
       },
       {
         "german": "die Differentialgleichung",
-        "italian": "l'equazione differenziale",
+        "italian": "die differentialgleiching",
         "article": "die",
         "plural": "die Differentialgleichungen",
         "example": "Differentialgleichungen lösen."
       },
       {
         "german": "die Integralrechnung",
-        "italian": "il calcolo integrale",
+        "italian": "die integralrechning",
         "article": "die",
         "plural": "",
         "example": "Integralrechnung beherrschen."
       },
       {
         "german": "die Stochastik",
-        "italian": "la stocastica",
+        "italian": "die Stochastik",
         "article": "die",
         "plural": "",
         "example": "Stochastik anwenden."
       },
       {
         "german": "die Numerik",
-        "italian": "la numerica",
+        "italian": "die Numerik",
         "article": "die",
         "plural": "",
         "example": "Numerische Methoden nutzen."
       },
       {
         "german": "die Optimierung",
-        "italian": "l'ottimizzazione",
+        "italian": "die optimiering",
         "article": "die",
         "plural": "die Optimierungen",
         "example": "Mathematische Optimierung."
       },
       {
         "german": "die Approximation",
-        "italian": "l'approssimazione",
+        "italian": "die Approximation",
         "article": "die",
         "plural": "die Approximationen",
         "example": "Approximation berechnen."
@@ -1985,77 +1985,77 @@
     "words": [
       {
         "german": "die Krisenkommunikation",
-        "italian": "la comunicazione di crisi",
+        "italian": "die Krisenkommunikation",
         "article": "die",
         "plural": "",
         "example": "Krisenkommunikation planen."
       },
       {
         "german": "die Unternehmenskommunikation",
-        "italian": "la comunicazione aziendale",
+        "italian": "die Unternehmenskommunikation",
         "article": "die",
         "plural": "",
         "example": "Unternehmenskommunikation gestalten."
       },
       {
         "german": "die Pressearbeit",
-        "italian": "il lavoro con la stampa",
+        "italian": "die Pressearbeit",
         "article": "die",
         "plural": "",
         "example": "Pressearbeit leisten."
       },
       {
         "german": "die Markenführung",
-        "italian": "la gestione del marchio",
+        "italian": "die markenführing",
         "article": "die",
         "plural": "",
         "example": "Markenführung optimieren."
       },
       {
         "german": "die Kommunikationsstrategie",
-        "italian": "la strategia comunicativa",
+        "italian": "die Kommunikationsstrategie",
         "article": "die",
         "plural": "die Kommunikationsstrategien",
         "example": "Kommunikationsstrategie entwickeln."
       },
       {
         "german": "das Storytelling",
-        "italian": "la narrazione",
+        "italian": "das Storytelling",
         "article": "das",
         "plural": "",
         "example": "Storytelling einsetzen."
       },
       {
         "german": "die Medienmitteilung",
-        "italian": "il comunicato mediatico",
+        "italian": "die medienmitteiling",
         "article": "die",
         "plural": "die Medienmitteilungen",
         "example": "Medienmitteilung verfassen."
       },
       {
         "german": "die Engagement-Rate",
-        "italian": "il tasso di coinvolgimento",
+        "italian": "die Engagement-Rate",
         "article": "die",
         "plural": "die Engagement-Raten",
         "example": "Engagement-Rate messen."
       },
       {
         "german": "die Suchmaschinenwerbung",
-        "italian": "la pubblicità sui motori di ricerca",
+        "italian": "die suchmaschinenwerbing",
         "article": "die",
         "plural": "",
         "example": "SEA schalten."
       },
       {
         "german": "die Display-Werbung",
-        "italian": "la pubblicità display",
+        "italian": "die display-werbing",
         "article": "die",
         "plural": "",
         "example": "Display-Werbung nutzen."
       },
       {
         "german": "die Native Werbung",
-        "italian": "la pubblicità nativa",
+        "italian": "die native werbing",
         "article": "die",
         "plural": "",
         "example": "Native Werbung einsetzen."
@@ -2070,105 +2070,105 @@
     "words": [
       {
         "german": "das Leib-Seele-Problem",
-        "italian": "il problema mente-corpo",
+        "italian": "das Leib-Seele-Problem",
         "article": "das",
         "plural": "",
         "example": "Das Leib-Seele-Problem diskutieren."
       },
       {
         "german": "der Dualismus",
-        "italian": "il dualismo",
+        "italian": "der Dualismus",
         "article": "der",
         "plural": "",
         "example": "Cartesianischer Dualismus."
       },
       {
         "german": "der Funktionalismus",
-        "italian": "il funzionalismo",
+        "italian": "die funktionalismus",
         "article": "der",
         "plural": "",
         "example": "Funktionalismus in der Philosophie des Geistes."
       },
       {
         "german": "der Epiphänomenalismus",
-        "italian": "l'epifenomenalismo",
+        "italian": "der Epiphänomenalismus",
         "article": "der",
         "plural": "",
         "example": "Epiphänomenalismus erklären."
       },
       {
         "german": "die Intentionalität",
-        "italian": "l'intenzionalità",
+        "italian": "die Intentionalität",
         "article": "die",
         "plural": "",
         "example": "Intentionalität des Bewusstseins."
       },
       {
         "german": "die Qualia",
-        "italian": "i qualia",
+        "italian": "die Qualia",
         "article": "die",
         "plural": "",
         "example": "Qualia-Problem diskutieren."
       },
       {
         "german": "das Bewusstsein",
-        "italian": "la coscienza",
+        "italian": "das Bewusstsein",
         "article": "das",
         "plural": "",
         "example": "Bewusstsein erforschen."
       },
       {
         "german": "die Willensfreiheit",
-        "italian": "il libero arbitrio",
+        "italian": "die willensfreiness",
         "article": "die",
         "plural": "",
         "example": "Willensfreiheit debattieren."
       },
       {
         "german": "der Kompatibilismus",
-        "italian": "il compatibilismo",
+        "italian": "der Kompatibilismus",
         "article": "der",
         "plural": "",
         "example": "Kompatibilismus vertreten."
       },
       {
         "german": "der Inkompatibilismus",
-        "italian": "l'incompatibilismo",
+        "italian": "der Inkompatibilismus",
         "article": "der",
         "plural": "",
         "example": "Inkompatibilismus argumentieren."
       },
       {
         "german": "die Supervenienz",
-        "italian": "la sopravvenienza",
+        "italian": "die Supervenienz",
         "article": "die",
         "plural": "",
         "example": "Supervenienz erklären."
       },
       {
         "german": "die Emergenz",
-        "italian": "l'emergenza",
+        "italian": "die Emergenz",
         "article": "die",
         "plural": "",
         "example": "Emergenz des Bewusstseins."
       },
       {
         "german": "der Eliminativismus",
-        "italian": "l'eliminativismo",
+        "italian": "der Eliminativismus",
         "article": "der",
         "plural": "",
         "example": "Eliminativismus bewerten."
       },
       {
         "german": "die Verkörperung",
-        "italian": "l'incarnazione",
+        "italian": "die verkörpering",
         "article": "die",
         "plural": "",
         "example": "Embodied Cognition erforschen."
       },
       {
         "german": "die Extended Mind",
-        "italian": "la mente estesa",
+        "italian": "die Extended Mind",
         "article": "die",
         "plural": "",
         "example": "Extended Mind Theorie."

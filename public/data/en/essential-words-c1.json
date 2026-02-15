@@ -16,7 +16,7 @@
           "plural": "Dissertationen",
           "type": "n",
           "en": "Dissertazione",
-          "exampleEn": "La dissertazione è complessa."
+          "exampleEn": "The dissertation is complex."
         },
         {
           "de": "Abhandlung",
@@ -27,7 +27,7 @@
           "plural": "Abhandlungen",
           "type": "n",
           "en": "Trattato",
-          "exampleEn": "Il trattato è approfondito."
+          "exampleEn": "The treatise is thorough."
         },
         {
           "de": "These",
@@ -38,7 +38,7 @@
           "plural": "Thesen",
           "type": "n",
           "en": "Tesi",
-          "exampleEn": "La tesi viene difesa."
+          "exampleEn": "The thesis is defended."
         },
         {
           "de": "Theorie",
@@ -49,7 +49,7 @@
           "plural": "Theorien",
           "type": "n",
           "en": "Teoria",
-          "exampleEn": "La teoria spiega molto."
+          "exampleEn": "The theory explains much."
         },
         {
           "de": "Paradigma",
@@ -59,8 +59,8 @@
           "article": "das",
           "plural": "Paradigmen",
           "type": "n",
-          "en": "Paradigma",
-          "exampleEn": "Il paradigma cambia."
+          "en": "paradigm",
+          "exampleEn": "The paradigm is shifting."
         },
         {
           "de": "Erkenntnis",
@@ -71,7 +71,7 @@
           "plural": "Erkenntnisse",
           "type": "n",
           "en": "Conoscenza",
-          "exampleEn": "La conoscenza è profonda."
+          "exampleEn": "The knowledge is profound."
         },
         {
           "de": "Methodik",
@@ -82,7 +82,7 @@
           "plural": "Methodiken",
           "type": "n",
           "en": "Metodologia",
-          "exampleEn": "La metodologia è rigorosa."
+          "exampleEn": "The methodology is rigorous."
         },
         {
           "de": "Epistemologie",
@@ -93,7 +93,7 @@
           "plural": null,
           "type": "n",
           "en": "Epistemologia",
-          "exampleEn": "L'epistemologia è complessa."
+          "exampleEn": "Epistemology is complex."
         },
         {
           "de": "Ontologie",
@@ -104,7 +104,7 @@
           "plural": null,
           "type": "n",
           "en": "Ontologia",
-          "exampleEn": "L'ontologia chiede dell'essere."
+          "exampleEn": "Ontology asks about being."
         },
         {
           "de": "Axiom",
@@ -115,7 +115,7 @@
           "plural": "Axiome",
           "type": "n",
           "en": "Assioma",
-          "exampleEn": "L'assioma è vero."
+          "exampleEn": "The axiom is true."
         },
         {
           "de": "Premisse",
@@ -126,7 +126,7 @@
           "plural": "Prämissen",
           "type": "n",
           "en": "Premessa",
-          "exampleEn": "La premessa è sbagliata."
+          "exampleEn": "The premise is false."
         },
         {
           "de": "Schlussfolgerung",
@@ -137,7 +137,7 @@
           "plural": "Schlussfolgerungen",
           "type": "n",
           "en": "Conclusione",
-          "exampleEn": "La conclusione è logica."
+          "exampleEn": "The conclusion is logical."
         },
         {
           "de": "Synthese",
@@ -148,7 +148,7 @@
           "plural": "Synthesen",
           "type": "n",
           "en": "Sintesi",
-          "exampleEn": "La sintesi è riuscita."
+          "exampleEn": "The synthesis is successful."
         },
         {
           "de": "Antithese",
@@ -159,7 +159,7 @@
           "plural": "Antithesen",
           "type": "n",
           "en": "Antitesi",
-          "exampleEn": "L'antitesi è opposta."
+          "exampleEn": "The antithesis is opposite."
         },
         {
           "de": "Dialektik",
@@ -170,7 +170,7 @@
           "plural": null,
           "type": "n",
           "en": "Dialettica",
-          "exampleEn": "La dialettica è dinamica."
+          "exampleEn": "Dialectics is dynamic."
         },
         {
           "de": "Hermeneutik",
@@ -181,7 +181,7 @@
           "plural": null,
           "type": "n",
           "en": "Ermeneutica",
-          "exampleEn": "L'ermeneutica interpreta."
+          "exampleEn": "Hermeneutics interprets."
         },
         {
           "de": "Phänomenologie",
@@ -192,7 +192,7 @@
           "plural": null,
           "type": "n",
           "en": "Fenomenologia",
-          "exampleEn": "La fenomenologia esamina."
+          "exampleEn": "Phenomenology examines."
         },
         {
           "de": "Existenzialismus",
@@ -203,7 +203,7 @@
           "plural": null,
           "type": "n",
           "en": "Esistenzialismo",
-          "exampleEn": "L'esistenzialismo enfatizza la libertà."
+          "exampleEn": "Existentialism emphasizes freedom."
         },
         {
           "de": "Dekonstruktion",
@@ -214,7 +214,7 @@
           "plural": "Dekonstruktionen",
           "type": "n",
           "en": "Decostruzione",
-          "exampleEn": "La decostruzione mette in questione."
+          "exampleEn": "Deconstruction questions."
         },
         {
           "de": "Semantik",
@@ -225,7 +225,7 @@
           "plural": null,
           "type": "n",
           "en": "Semantica",
-          "exampleEn": "La semantica analizza il significato."
+          "exampleEn": "Semantics analyzes meaning."
         },
         {
           "de": "Pragmatik",
@@ -236,7 +236,7 @@
           "plural": null,
           "type": "n",
           "en": "Pragmatica",
-          "exampleEn": "La pragmatica esamina l'uso."
+          "exampleEn": "Pragmatics examines usage."
         }
       ]
     },
@@ -253,7 +253,7 @@
           "plural": null,
           "type": "idiom",
           "en": "essere evidente/ovvio",
-          "exampleEn": "È evidente che dobbiamo agire."
+          "exampleEn": "It is obvious that we must act."
         },
         {
           "de": "unter vier Augen",
@@ -264,7 +264,7 @@
           "plural": null,
           "type": "idiom",
           "en": "in privato",
-          "exampleEn": "Parlammo in privato."
+          "exampleEn": "We spoke in private."
         },
         {
           "de": "den Nagel auf den Kopf treffen",
@@ -275,7 +275,7 @@
           "plural": null,
           "type": "idiom",
           "en": "cogliere nel segno",
-          "exampleEn": "Hai colto nel segno."
+          "exampleEn": "You hit the nail on the head."
         },
         {
           "de": "über den Tellerrand schauen",
@@ -286,7 +286,7 @@
           "plural": null,
           "type": "idiom",
           "en": "allargare gli orizzonti",
-          "exampleEn": "Bisogna allargare gli orizzonti."
+          "exampleEn": "One should broaden one's horizons."
         },
         {
           "de": "ins kalte Wasser springen",
@@ -297,7 +297,7 @@
           "plural": null,
           "type": "idiom",
           "en": "buttarsi a capofitto",
-          "exampleEn": "Mi butto a capofitto."
+          "exampleEn": "I dive into the deep end."
         },
         {
           "de": "kein Blatt vor den Mund nehmen",
@@ -308,7 +308,7 @@
           "plural": null,
           "type": "idiom",
           "en": "dire pane al pane",
-          "exampleEn": "Dice pane al pane."
+          "exampleEn": "He speaks plainly."
         },
         {
           "de": "auf dem Holzweg sein",
@@ -319,7 +319,7 @@
           "plural": null,
           "type": "idiom",
           "en": "essere fuori strada",
-          "exampleEn": "Sei fuori strada."
+          "exampleEn": "You are on the wrong track."
         },
         {
           "de": "die Katze im Sack kaufen",
@@ -330,7 +330,7 @@
           "plural": null,
           "type": "idiom",
           "en": "comprare gatto in sacco",
-          "exampleEn": "È come comprare gatto in sacco."
+          "exampleEn": "This is buying a pig in a poke."
         },
         {
           "de": "jemandem auf den Zahn fühlen",
@@ -341,7 +341,7 @@
           "plural": null,
           "type": "idiom",
           "en": "mettere alla prova",
-          "exampleEn": "Ti metto alla prova."
+          "exampleEn": "I'm testing you."
         },
         {
           "de": "Öl ins Feuer gießen",
@@ -352,7 +352,7 @@
           "plural": null,
           "type": "idiom",
           "en": "aggiungere benzina sul fuoco",
-          "exampleEn": "È aggiungere benzina sul fuoco."
+          "exampleEn": "This is adding fuel to the fire."
         },
         {
           "de": "den Faden verlieren",
@@ -363,7 +363,7 @@
           "plural": null,
           "type": "idiom",
           "en": "perdere il filo",
-          "exampleEn": "Perdo il filo."
+          "exampleEn": "I'm losing the thread."
         },
         {
           "de": "das Kind mit dem Bade ausschütten",
@@ -374,7 +374,7 @@
           "plural": null,
           "type": "idiom",
           "en": "gettare il bambino con l'acqua",
-          "exampleEn": "È gettare il bambino con l'acqua."
+          "exampleEn": "This is throwing out the baby with the bathwater."
         },
         {
           "de": "auf Wolke sieben schweben",
@@ -385,7 +385,7 @@
           "plural": null,
           "type": "idiom",
           "en": "stare sulle nuvole",
-          "exampleEn": "Lei sta sulle nuvole."
+          "exampleEn": "She's on cloud nine."
         },
         {
           "de": "die Daumen drücken",
@@ -396,7 +396,7 @@
           "plural": null,
           "type": "idiom",
           "en": "incrociare le dita",
-          "exampleEn": "Incrocio le dita per te."
+          "exampleEn": "I'm keeping my fingers crossed for you."
         },
         {
           "de": "aus einer Mücke einen Elefanten machen",
@@ -407,7 +407,7 @@
           "plural": null,
           "type": "idiom",
           "en": "fare una montagna di una talpa",
-          "exampleEn": "Fai una montagna di una talpa."
+          "exampleEn": "You're making a mountain out of a molehill."
         },
         {
           "de": "auf den Busch klopfen",
@@ -418,7 +418,7 @@
           "plural": null,
           "type": "idiom",
           "en": "girare attorno al tema",
-          "exampleEn": "Smettila di girare attorno al tema."
+          "exampleEn": "Stop beating around the bush."
         },
         {
           "de": "die Nadel im Heuhaufen suchen",
@@ -429,7 +429,7 @@
           "plural": null,
           "type": "idiom",
           "en": "cercare l'ago nel pagliaio",
-          "exampleEn": "È come cercare l'ago nel pagliaio."
+          "exampleEn": "This is like looking for a needle in a haystack."
         },
         {
           "de": "mit offenem Visier kämpfen",
@@ -440,7 +440,7 @@
           "plural": null,
           "type": "idiom",
           "en": "combattere a viso aperto",
-          "exampleEn": "Combatte a viso aperto."
+          "exampleEn": "He fights with an open face."
         },
         {
           "de": "über seinen Schatten springen",
@@ -451,7 +451,7 @@
           "plural": null,
           "type": "idiom",
           "en": "vincere se stesso",
-          "exampleEn": "Vince se stesso."
+          "exampleEn": "He overcomes himself."
         },
         {
           "de": "Farbe bekennen",
@@ -462,7 +462,7 @@
           "plural": null,
           "type": "idiom",
           "en": "mostrare le proprie intenzioni",
-          "exampleEn": "Ora deve mostrare le proprie intenzioni."
+          "exampleEn": "Now he has to show his true colors."
         }
       ]
     },
@@ -479,7 +479,7 @@
           "plural": "Metaphern",
           "type": "n",
           "en": "metafora",
-          "exampleEn": "La metafora è eloquente."
+          "exampleEn": "The metaphor is eloquent."
         },
         {
           "de": "Ironie",
@@ -490,7 +490,7 @@
           "plural": "Ironien",
           "type": "n",
           "en": "ironia",
-          "exampleEn": "L'ironia è sottile."
+          "exampleEn": "Irony is subtle."
         },
         {
           "de": "Anspielung",
@@ -501,7 +501,7 @@
           "plural": "Anspielungen",
           "type": "n",
           "en": "allusione",
-          "exampleEn": "L'allusione è nascosta."
+          "exampleEn": "The allusion is hidden."
         },
         {
           "de": "Euphemismus",
@@ -512,7 +512,7 @@
           "plural": "Euphemismen",
           "type": "n",
           "en": "eufemismo",
-          "exampleEn": "È un eufemismo."
+          "exampleEn": "This is a euphemism."
         },
         {
           "de": "betonen",
@@ -523,7 +523,7 @@
           "plural": null,
           "type": "v",
           "en": "enfatizzare",
-          "exampleEn": "Enfatizzo l'importante."
+          "exampleEn": "I emphasize what is important."
         },
         {
           "de": "hervorheben",
@@ -534,7 +534,7 @@
           "plural": null,
           "type": "v",
           "en": "evidenziare",
-          "exampleEn": "Lo evidenzio."
+          "exampleEn": "I highlight this."
         },
         {
           "de": "andeuten",
@@ -545,7 +545,7 @@
           "plural": null,
           "type": "v",
           "en": "alludere",
-          "exampleEn": "Lo alludo."
+          "exampleEn": "I hint at this."
         },
         {
           "de": "Rhetoriker",
@@ -556,7 +556,7 @@
           "plural": "Rhetoriker",
           "type": "n",
           "en": "oratore",
-          "exampleEn": "L'oratore è convincente."
+          "exampleEn": "The orator is convincing."
         },
         {
           "de": "Eloquenz",
@@ -567,7 +567,7 @@
           "plural": null,
           "type": "n",
           "en": "eloquenza",
-          "exampleEn": "L'eloquenza è impressionante."
+          "exampleEn": "The eloquence is impressive."
         },
         {
           "de": "überzeugen",
@@ -578,7 +578,7 @@
           "plural": null,
           "type": "v",
           "en": "convincere",
-          "exampleEn": "L'oratore convince."
+          "exampleEn": "The speaker convinces."
         },
         {
           "de": "Stilmittel",
@@ -589,7 +589,7 @@
           "plural": "Stilmittel",
           "type": "n",
           "en": "figura retorica",
-          "exampleEn": "La figura retorica è efficace."
+          "exampleEn": "The stylistic device is effective."
         },
         {
           "de": "Vergleich",
@@ -600,7 +600,7 @@
           "plural": "Vergleiche",
           "type": "n",
           "en": "paragone",
-          "exampleEn": "Il paragone è appropriato."
+          "exampleEn": "The comparison is fitting."
         },
         {
           "de": "Übertreibung",
@@ -611,7 +611,7 @@
           "plural": "Übertreibungen",
           "type": "n",
           "en": "esagerazione",
-          "exampleEn": "È un'esagerazione."
+          "exampleEn": "This is an exaggeration."
         },
         {
           "de": "Untertreibung",
@@ -622,7 +622,7 @@
           "plural": "Untertreibungen",
           "type": "n",
           "en": "attenuazione",
-          "exampleEn": "È un'attenuazione."
+          "exampleEn": "This is an understatement."
         },
         {
           "de": "Kontrast",
@@ -633,7 +633,7 @@
           "plural": "Kontraste",
           "type": "n",
           "en": "contrasto",
-          "exampleEn": "Il contrasto è evidente."
+          "exampleEn": "The contrast is striking."
         },
         {
           "de": "Wiederholung",
@@ -644,7 +644,7 @@
           "plural": "Wiederholungen",
           "type": "n",
           "en": "ripetizione",
-          "exampleEn": "La ripetizione ha effetto."
+          "exampleEn": "The repetition has effect."
         },
         {
           "de": "Frage (rhetorisch)",
@@ -655,7 +655,7 @@
           "plural": "Fragen",
           "type": "n",
           "en": "domanda retorica",
-          "exampleEn": "È una domanda retorica."
+          "exampleEn": "This is a rhetorical question."
         },
         {
           "de": "Paradox",
@@ -666,7 +666,7 @@
           "plural": "Paradoxe",
           "type": "n",
           "en": "paradosso",
-          "exampleEn": "Il paradosso è affascinante."
+          "exampleEn": "The paradox is fascinating."
         },
         {
           "de": "Allegorie",
@@ -677,7 +677,7 @@
           "plural": "Allegorien",
           "type": "n",
           "en": "allegoria",
-          "exampleEn": "L'allegoria è complessa."
+          "exampleEn": "The allegory is complex."
         },
         {
           "de": "Satire",
@@ -688,7 +688,7 @@
           "plural": "Satiren",
           "type": "n",
           "en": "satira",
-          "exampleEn": "La satira è pungente."
+          "exampleEn": "The satire is biting."
         }
       ]
     },
@@ -705,7 +705,7 @@
           "plural": "Ungleichheiten",
           "type": "n",
           "en": "disuguaglianza",
-          "exampleEn": "La disuguaglianza è grande."
+          "exampleEn": "The inequality is great."
         },
         {
           "de": "Diskriminierung",
@@ -716,7 +716,7 @@
           "plural": "Diskriminierungen",
           "type": "n",
           "en": "discriminazione",
-          "exampleEn": "La discriminazione è vietata."
+          "exampleEn": "Discrimination is forbidden."
         },
         {
           "de": "Vorurteil",
@@ -727,7 +727,7 @@
           "plural": "Vorurteile",
           "type": "n",
           "en": "pregiudizio",
-          "exampleEn": "Il pregiudizio è dannoso."
+          "exampleEn": "The prejudice is harmful."
         },
         {
           "de": "Integration",
@@ -738,7 +738,7 @@
           "plural": "Integrationen",
           "type": "n",
           "en": "integrazione",
-          "exampleEn": "L'integrazione è importante."
+          "exampleEn": "Integration is important."
         },
         {
           "de": "Gerechtigkeit",
@@ -749,7 +749,7 @@
           "plural": "Gerechtigkeiten",
           "type": "n",
           "en": "giustizia",
-          "exampleEn": "La giustizia è essenziale."
+          "exampleEn": "Justice is essential."
         },
         {
           "de": "Gleichberechtigung",
@@ -760,7 +760,7 @@
           "plural": null,
           "type": "n",
           "en": "parità di diritti",
-          "exampleEn": "La parità di diritti è possibile."
+          "exampleEn": "Equal rights are possible."
         },
         {
           "de": "Inklusion",
@@ -771,7 +771,7 @@
           "plural": null,
           "type": "n",
           "en": "inclusione",
-          "exampleEn": "L'inclusione è importante."
+          "exampleEn": "Inclusion is important."
         },
         {
           "de": "Vielfalt",
@@ -782,7 +782,7 @@
           "plural": null,
           "type": "n",
           "en": "diversità",
-          "exampleEn": "La diversità è arricchente."
+          "exampleEn": "Diversity is enriching."
         },
         {
           "de": "Toleranz",
@@ -793,7 +793,7 @@
           "plural": null,
           "type": "n",
           "en": "tolleranza",
-          "exampleEn": "La tolleranza è importante."
+          "exampleEn": "Tolerance is important."
         },
         {
           "de": "Rassismus",
@@ -804,7 +804,7 @@
           "plural": null,
           "type": "n",
           "en": "razzismo",
-          "exampleEn": "Il razzismo è abominevole."
+          "exampleEn": "Racism is abominable."
         },
         {
           "de": "Sexismus",
@@ -815,7 +815,7 @@
           "plural": null,
           "type": "n",
           "en": "sessismo",
-          "exampleEn": "Il sessismo è dannoso."
+          "exampleEn": "Sexism is harmful."
         },
         {
           "de": "Chancengleichheit",
@@ -826,7 +826,7 @@
           "plural": null,
           "type": "n",
           "en": "uguaglianza di opportunità",
-          "exampleEn": "L'uguaglianza di opportunità è importante."
+          "exampleEn": "Equal opportunities are important."
         },
         {
           "de": "Benachteiligung",
@@ -837,7 +837,7 @@
           "plural": "Benachteiligungen",
           "type": "n",
           "en": "svantaggio",
-          "exampleEn": "Lo svantaggio è ingiusto."
+          "exampleEn": "The disadvantage is unfair."
         },
         {
           "de": "Privilegien",
@@ -848,7 +848,7 @@
           "plural": null,
           "type": "n",
           "en": "privilegi",
-          "exampleEn": "I privilegi sono ingiusti."
+          "exampleEn": "Privileges are unjust."
         },
         {
           "de": "marginalisiert",
@@ -859,7 +859,7 @@
           "plural": null,
           "type": "adj",
           "en": "emarginato",
-          "exampleEn": "I gruppi sono emarginati."
+          "exampleEn": "Groups are marginalized."
         },
         {
           "de": "systemisch",
@@ -870,7 +870,7 @@
           "plural": null,
           "type": "adj",
           "en": "sistemico",
-          "exampleEn": "Il problema è sistemico."
+          "exampleEn": "The problem is systemic."
         },
         {
           "de": "strukturell",
@@ -881,7 +881,7 @@
           "plural": null,
           "type": "adj",
           "en": "strutturale",
-          "exampleEn": "Il problema è strutturale."
+          "exampleEn": "The problem is structural."
         },
         {
           "de": "unterdrücken",
@@ -892,7 +892,7 @@
           "plural": null,
           "type": "v",
           "en": "opprimere",
-          "exampleEn": "Non si opprime."
+          "exampleEn": "One does not oppress."
         },
         {
           "de": "ausgrenzen",
@@ -903,7 +903,7 @@
           "plural": null,
           "type": "v",
           "en": "escludere",
-          "exampleEn": "Nessuno viene escluso."
+          "exampleEn": "No one is excluded."
         },
         {
           "de": "Minderheit",
@@ -914,7 +914,7 @@
           "plural": "Minderheiten",
           "type": "n",
           "en": "minoranza",
-          "exampleEn": "La minoranza ha diritti."
+          "exampleEn": "The minority has rights."
         }
       ]
     },
@@ -931,7 +931,7 @@
           "plural": "Fachbegriffe",
           "type": "n",
           "en": "termine tecnico",
-          "exampleEn": "Il termine tecnico è preciso."
+          "exampleEn": "The technical term is precise."
         },
         {
           "de": "Terminologie",
@@ -942,7 +942,7 @@
           "plural": "Terminologien",
           "type": "n",
           "en": "terminologia",
-          "exampleEn": "La terminologia è complessa."
+          "exampleEn": "The terminology is complex."
         },
         {
           "de": "Definition",
@@ -953,7 +953,7 @@
           "plural": "Definitionen",
           "type": "n",
           "en": "definizione",
-          "exampleEn": "La definizione è chiara."
+          "exampleEn": "The definition is clear."
         },
         {
           "de": "Kontext",
@@ -964,7 +964,7 @@
           "plural": "Kontexte",
           "type": "n",
           "en": "contesto",
-          "exampleEn": "Il contesto è importante."
+          "exampleEn": "The context is important."
         },
         {
           "de": "Differenzierung",
@@ -975,7 +975,7 @@
           "plural": "Differenzierungen",
           "type": "n",
           "en": "differenziazione",
-          "exampleEn": "La differenziazione è necessaria."
+          "exampleEn": "Differentiation is necessary."
         },
         {
           "de": "Spezifizierung",
@@ -986,7 +986,7 @@
           "plural": "Spezifizierungen",
           "type": "n",
           "en": "specificazione",
-          "exampleEn": "La specificazione è importante."
+          "exampleEn": "Specification is important."
         },
         {
           "de": "Abstraktion",
@@ -997,7 +997,7 @@
           "plural": "Abstraktionen",
           "type": "n",
           "en": "astrazione",
-          "exampleEn": "L'astrazione è alta."
+          "exampleEn": "The abstraction is high."
         },
         {
           "de": "Kategorisierung",
@@ -1008,7 +1008,7 @@
           "plural": "Kategorisierungen",
           "type": "n",
           "en": "categorizzazione",
-          "exampleEn": "La categorizzazione è utile."
+          "exampleEn": "Categorization is useful."
         },
         {
           "de": "Systematisierung",
@@ -1019,7 +1019,7 @@
           "plural": "Systematisierungen",
           "type": "n",
           "en": "sistematizzazione",
-          "exampleEn": "La sistematizzazione è importante."
+          "exampleEn": "Systematization is important."
         },
         {
           "de": "Klassifizierung",
@@ -1030,7 +1030,7 @@
           "plural": "Klassifizierungen",
           "type": "n",
           "en": "classificazione",
-          "exampleEn": "La classificazione è accurata."
+          "exampleEn": "The classification is accurate."
         },
         {
           "de": "Implikation",
@@ -1041,7 +1041,7 @@
           "plural": "Implikationen",
           "type": "n",
           "en": "implicazione",
-          "exampleEn": "L'implicazione è profonda."
+          "exampleEn": "The implication is profound."
         },
         {
           "de": "Konnotation",
@@ -1052,7 +1052,7 @@
           "plural": "Konnotationen",
           "type": "n",
           "en": "connotazione",
-          "exampleEn": "La connotazione è negativa."
+          "exampleEn": "The connotation is negative."
         },
         {
           "de": "Denotation",
@@ -1063,7 +1063,7 @@
           "plural": "Denotationen",
           "type": "n",
           "en": "denotazione",
-          "exampleEn": "La denotazione è chiara."
+          "exampleEn": "The denotation is clear."
         },
         {
           "de": "Semantik",
@@ -1074,7 +1074,7 @@
           "plural": null,
           "type": "n",
           "en": "semantica",
-          "exampleEn": "La semantica è complessa."
+          "exampleEn": "Semantics is complex."
         },
         {
           "de": "Pragmatik",
@@ -1085,7 +1085,7 @@
           "plural": null,
           "type": "n",
           "en": "pragmatica",
-          "exampleEn": "La pragmatica è pratica."
+          "exampleEn": "Pragmatics is practical."
         },
         {
           "de": "Diskurs",
@@ -1096,7 +1096,7 @@
           "plural": "Diskurse",
           "type": "n",
           "en": "discorso",
-          "exampleEn": "Il discorso è rilevante."
+          "exampleEn": "The discourse is relevant."
         },
         {
           "de": "Elaboration",
@@ -1107,7 +1107,7 @@
           "plural": "Elaborationen",
           "type": "n",
           "en": "elaborazione",
-          "exampleEn": "L'elaborazione è importante."
+          "exampleEn": "Elaboration is important."
         },
         {
           "de": "Operationalisierung",
@@ -1118,7 +1118,7 @@
           "plural": "Operationalisierungen",
           "type": "n",
           "en": "operazionalizzazione",
-          "exampleEn": "L'operazionalizzazione è difficile."
+          "exampleEn": "Operationalization is difficult."
         },
         {
           "de": "Determinante",
@@ -1129,7 +1129,7 @@
           "plural": "Determinanten",
           "type": "n",
           "en": "determinante",
-          "exampleEn": "Il determinante è importante."
+          "exampleEn": "The determinant is important."
         },
         {
           "de": "interdisziplinär",
@@ -1140,7 +1140,7 @@
           "plural": null,
           "type": "adj",
           "en": "interdisciplinare",
-          "exampleEn": "L'approccio è interdisciplinare."
+          "exampleEn": "The approach is interdisciplinary."
         }
       ]
     },
@@ -1157,7 +1157,7 @@
           "plural": null,
           "type": "n",
           "en": "macroeconomia",
-          "exampleEn": "La macroeconomia studia l'economia generale."
+          "exampleEn": "Macroeconomics studies the overall economy."
         },
         {
           "de": "Mikroökonomie",
@@ -1168,7 +1168,7 @@
           "plural": null,
           "type": "n",
           "en": "microeconomia",
-          "exampleEn": "La microeconomia analizza i mercati individuali."
+          "exampleEn": "Microeconomics analyzes individual markets."
         },
         {
           "de": "Konjunkturzyklus",
@@ -1179,7 +1179,7 @@
           "plural": "Konjunkturzyklen",
           "type": "n",
           "en": "ciclo economico",
-          "exampleEn": "Il ciclo economico è periodico."
+          "exampleEn": "The business cycle is periodic."
         },
         {
           "de": "Rezession",
@@ -1190,7 +1190,7 @@
           "plural": "Rezessionen",
           "type": "n",
           "en": "recessione",
-          "exampleEn": "La recessione è dolorosa."
+          "exampleEn": "Recession is painful."
         },
         {
           "de": "Stagnation",
@@ -1201,7 +1201,7 @@
           "plural": "Stagnationen",
           "type": "n",
           "en": "stagnazione",
-          "exampleEn": "La stagnazione è persistente."
+          "exampleEn": "Stagnation is persistent."
         },
         {
           "de": "Deflation",
@@ -1212,7 +1212,7 @@
           "plural": "Deflationen",
           "type": "n",
           "en": "deflazione",
-          "exampleEn": "La deflazione è rara."
+          "exampleEn": "Deflation is rare."
         },
         {
           "de": "Volatilität",
@@ -1223,7 +1223,7 @@
           "plural": "Volatilitäten",
           "type": "n",
           "en": "volatilità",
-          "exampleEn": "La volatilità è rischiosa."
+          "exampleEn": "Volatility is risky."
         },
         {
           "de": "Derivate",
@@ -1234,7 +1234,7 @@
           "plural": null,
           "type": "n",
           "en": "derivati",
-          "exampleEn": "I derivati sono complessi."
+          "exampleEn": "Derivatives are complex."
         },
         {
           "de": "Hedging",
@@ -1245,7 +1245,7 @@
           "plural": null,
           "type": "n",
           "en": "copertura",
-          "exampleEn": "La copertura riduce il rischio."
+          "exampleEn": "Hedging reduces risk."
         },
         {
           "de": "Arbitrage",
@@ -1256,7 +1256,7 @@
           "plural": "Arbitragen",
           "type": "n",
           "en": "arbitraggio",
-          "exampleEn": "L'arbitraggio sfrutta le differenze di prezzo."
+          "exampleEn": "Arbitrage exploits price differences."
         },
         {
           "de": "Portfolio",
@@ -1267,7 +1267,7 @@
           "plural": "Portfolios",
           "type": "n",
           "en": "portafoglio",
-          "exampleEn": "Il portafoglio è diversificato."
+          "exampleEn": "The portfolio is diversified."
         },
         {
           "de": "Liquidität",
@@ -1278,7 +1278,7 @@
           "plural": "Liquiditäten",
           "type": "n",
           "en": "liquidità",
-          "exampleEn": "La liquidità è essenziale."
+          "exampleEn": "Liquidity is essential."
         },
         {
           "de": "Solvenz",
@@ -1289,7 +1289,7 @@
           "plural": null,
           "type": "n",
           "en": "solvibilità",
-          "exampleEn": "La solvibilità è la capacità di pagare."
+          "exampleEn": "Solvency is the ability to pay."
         },
         {
           "de": "Bilanz",
@@ -1300,7 +1300,7 @@
           "plural": "Bilanzen",
           "type": "n",
           "en": "bilancio",
-          "exampleEn": "Il bilancio è trasparente."
+          "exampleEn": "The balance sheet is transparent."
         },
         {
           "de": "Gewinn- und Verlustrechnung",
@@ -1311,7 +1311,7 @@
           "plural": null,
           "type": "n",
           "en": "conto economico",
-          "exampleEn": "Il conto economico mostra la redditività."
+          "exampleEn": "The profit and loss statement shows profitability."
         },
         {
           "de": "Cashflow",
@@ -1322,7 +1322,7 @@
           "plural": "Cashflows",
           "type": "n",
           "en": "flusso di cassa",
-          "exampleEn": "Il flusso di cassa è positivo."
+          "exampleEn": "Cash flow is positive."
         },
         {
           "de": "ROI",
@@ -1333,7 +1333,7 @@
           "plural": "ROIs",
           "type": "n",
           "en": "ROI",
-          "exampleEn": "L'ROI è importante."
+          "exampleEn": "ROI is important."
         },
         {
           "de": "Verschuldungsquote",
@@ -1344,7 +1344,7 @@
           "plural": "Verschuldungsquoten",
           "type": "n",
           "en": "rapporto di indebitamento",
-          "exampleEn": "Il rapporto di indebitamento è alto."
+          "exampleEn": "The debt ratio is high."
         },
         {
           "de": "Eigenkapitalquote",
@@ -1355,7 +1355,7 @@
           "plural": "Eigenkapitalquoten",
           "type": "n",
           "en": "rapporto di patrimonio",
-          "exampleEn": "Il rapporto di patrimonio è basso."
+          "exampleEn": "The equity ratio is low."
         },
         {
           "de": "Konjunkturpolitik",
@@ -1366,7 +1366,7 @@
           "plural": null,
           "type": "n",
           "en": "politica economica",
-          "exampleEn": "La politica economica è interventista."
+          "exampleEn": "Economic policy is interventionist."
         }
       ]
     },
@@ -1383,7 +1383,7 @@
           "plural": "Ingenieure",
           "type": "n",
           "en": "ingegnere",
-          "exampleEn": "L'ingegnere costruisce."
+          "exampleEn": "The engineer constructs."
         },
         {
           "de": "Konstruktion",
@@ -1394,7 +1394,7 @@
           "plural": "Konstruktionen",
           "type": "n",
           "en": "costruzione",
-          "exampleEn": "La costruzione è precisa."
+          "exampleEn": "The construction is precise."
         },
         {
           "de": "CAD",
@@ -1405,7 +1405,7 @@
           "plural": null,
           "type": "n",
           "en": "CAD",
-          "exampleEn": "Il CAD facilita il design."
+          "exampleEn": "CAD facilitates design."
         },
         {
           "de": "Simulation",
@@ -1416,7 +1416,7 @@
           "plural": "Simulationen",
           "type": "n",
           "en": "simulazione",
-          "exampleEn": "La simulazione è accurata."
+          "exampleEn": "The simulation is accurate."
         },
         {
           "de": "Toleranz",
@@ -1427,7 +1427,7 @@
           "plural": "Toleranzen",
           "type": "n",
           "en": "tolleranza",
-          "exampleEn": "La tolleranza è il margine di errore."
+          "exampleEn": "Tolerance is the margin of error."
         },
         {
           "de": "Festigkeit",
@@ -1438,7 +1438,7 @@
           "plural": "Festigkeiten",
           "type": "n",
           "en": "resistenza",
-          "exampleEn": "La resistenza è materiale."
+          "exampleEn": "Strength is material."
         },
         {
           "de": "Belastung",
@@ -1449,7 +1449,7 @@
           "plural": "Belastungen",
           "type": "n",
           "en": "carico",
-          "exampleEn": "Il carico è calcolabile."
+          "exampleEn": "The load is calculable."
         },
         {
           "de": "Verformung",
@@ -1460,7 +1460,7 @@
           "plural": "Verformungen",
           "type": "n",
           "en": "deformazione",
-          "exampleEn": "La deformazione è misurabile."
+          "exampleEn": "Deformation is measurable."
         },
         {
           "de": "Spannung",
@@ -1471,7 +1471,7 @@
           "plural": "Spannungen",
           "type": "n",
           "en": "tensione",
-          "exampleEn": "La tensione è meccanica."
+          "exampleEn": "The stress is mechanical."
         },
         {
           "de": "Schub",
@@ -1482,7 +1482,7 @@
           "plural": "Schübe",
           "type": "n",
           "en": "taglio",
-          "exampleEn": "Il taglio è una forza."
+          "exampleEn": "Shear is a force."
         },
         {
           "de": "Reibung",
@@ -1493,7 +1493,7 @@
           "plural": "Reibungen",
           "type": "n",
           "en": "attrito",
-          "exampleEn": "L'attrito è resistente."
+          "exampleEn": "Friction is resistant."
         },
         {
           "de": "Vibration",
@@ -1504,7 +1504,7 @@
           "plural": "Vibrationen",
           "type": "n",
           "en": "vibrazione",
-          "exampleEn": "La vibrazione è oscillatoria."
+          "exampleEn": "Vibration is oscillatory."
         },
         {
           "de": "Thermodynamik",
@@ -1515,7 +1515,7 @@
           "plural": null,
           "type": "n",
           "en": "termodinamica",
-          "exampleEn": "La termodinamica studia il calore."
+          "exampleEn": "Thermodynamics studies heat."
         },
         {
           "de": "Fluid",
@@ -1526,7 +1526,7 @@
           "plural": "Fluide",
           "type": "n",
           "en": "fluido",
-          "exampleEn": "Il fluido è scorrevole."
+          "exampleEn": "The fluid is flowing."
         },
         {
           "de": "Strömung",
@@ -1537,7 +1537,7 @@
           "plural": "Strömungen",
           "type": "n",
           "en": "flusso",
-          "exampleEn": "Il flusso è turbolento."
+          "exampleEn": "The flow is turbulent."
         },
         {
           "de": "Rohrleitung",
@@ -1548,7 +1548,7 @@
           "plural": "Rohrleitungen",
           "type": "n",
           "en": "tubatura",
-          "exampleEn": "La tubatura trasporta."
+          "exampleEn": "The pipeline transports."
         },
         {
           "de": "Dichtung",
@@ -1559,7 +1559,7 @@
           "plural": "Dichtungen",
           "type": "n",
           "en": "sigillo",
-          "exampleEn": "Il sigillo è impermeabile."
+          "exampleEn": "The seal is waterproof."
         },
         {
           "de": "Lager",
@@ -1570,7 +1570,7 @@
           "plural": "Lager",
           "type": "n",
           "en": "cuscinetto",
-          "exampleEn": "Il cuscinetto è rotante."
+          "exampleEn": "The bearing is rotating."
         },
         {
           "de": "Getriebe",
@@ -1581,7 +1581,7 @@
           "plural": "Getriebe",
           "type": "n",
           "en": "cambio",
-          "exampleEn": "Il cambio trasmette la forza."
+          "exampleEn": "The gear transmits force."
         },
         {
           "de": "Schaltung",
@@ -1592,7 +1592,7 @@
           "plural": "Schaltungen",
           "type": "n",
           "en": "circuito",
-          "exampleEn": "Il circuito è elettronico."
+          "exampleEn": "The circuit is electronic."
         }
       ]
     },
@@ -1609,7 +1609,7 @@
           "plural": "Pathologien",
           "type": "n",
           "en": "patologia",
-          "exampleEn": "La patologia studia le malattie."
+          "exampleEn": "Pathology studies diseases."
         },
         {
           "de": "Diagnose",
@@ -1620,7 +1620,7 @@
           "plural": "Diagnosen",
           "type": "n",
           "en": "diagnosi",
-          "exampleEn": "La diagnosi è precisa."
+          "exampleEn": "The diagnosis is precise."
         },
         {
           "de": "Therapie",
@@ -1631,7 +1631,7 @@
           "plural": "Therapien",
           "type": "n",
           "en": "terapia",
-          "exampleEn": "La terapia è efficace."
+          "exampleEn": "The therapy is effective."
         },
         {
           "de": "Symptom",
@@ -1642,7 +1642,7 @@
           "plural": "Symptome",
           "type": "n",
           "en": "sintomo",
-          "exampleEn": "Il sintomo è evidente."
+          "exampleEn": "The symptom is obvious."
         },
         {
           "de": "Syndrom",
@@ -1653,7 +1653,7 @@
           "plural": "Syndrome",
           "type": "n",
           "en": "sindrome",
-          "exampleEn": "La sindrome è complessa."
+          "exampleEn": "The syndrome is complex."
         },
         {
           "de": "Operation",
@@ -1664,7 +1664,7 @@
           "plural": "Operationen",
           "type": "n",
           "en": "intervento chirurgico",
-          "exampleEn": "L'intervento chirurgico è invasivo."
+          "exampleEn": "The operation is invasive."
         },
         {
           "de": "Geschwür",
@@ -1675,7 +1675,7 @@
           "plural": "Geschwüre",
           "type": "n",
           "en": "ulcera",
-          "exampleEn": "L'ulcera è dolorosa."
+          "exampleEn": "The ulcer is painful."
         },
         {
           "de": "Inflammation",
@@ -1686,7 +1686,7 @@
           "plural": "Inflammationen",
           "type": "n",
           "en": "infiammazione",
-          "exampleEn": "L'infiammazione è una reazione."
+          "exampleEn": "Inflammation is a reaction."
         },
         {
           "de": "Allergie",
@@ -1697,7 +1697,7 @@
           "plural": "Allergien",
           "type": "n",
           "en": "allergia",
-          "exampleEn": "L'allergia è una iper-reazione."
+          "exampleEn": "Allergy is an overreaction."
         },
         {
           "de": "Antigen",
@@ -1708,7 +1708,7 @@
           "plural": "Antigene",
           "type": "n",
           "en": "antigene",
-          "exampleEn": "L'antigene è una sostanza estranea."
+          "exampleEn": "The antigen is a foreign substance."
         },
         {
           "de": "Antibody",
@@ -1719,7 +1719,7 @@
           "plural": "Antikörper",
           "type": "n",
           "en": "anticorpo",
-          "exampleEn": "L'anticorpo protegge."
+          "exampleEn": "The antibody protects."
         },
         {
           "de": "Enzym",
@@ -1730,7 +1730,7 @@
           "plural": "Enzyme",
           "type": "n",
           "en": "enzima",
-          "exampleEn": "L'enzima catalizza."
+          "exampleEn": "The enzyme catalyzes."
         },
         {
           "de": "Hormon",
@@ -1741,7 +1741,7 @@
           "plural": "Hormone",
           "type": "n",
           "en": "ormone",
-          "exampleEn": "L'ormone regola."
+          "exampleEn": "The hormone regulates."
         },
         {
           "de": "Endoskopie",
@@ -1752,7 +1752,7 @@
           "plural": "Endoskopien",
           "type": "n",
           "en": "endoscopia",
-          "exampleEn": "L'endoscopia è minimamente invasiva."
+          "exampleEn": "Endoscopy is minimally invasive."
         },
         {
           "de": "Biopsie",
@@ -1763,7 +1763,7 @@
           "plural": "Biopsien",
           "type": "n",
           "en": "biopsia",
-          "exampleEn": "La biopsia è diagnostica."
+          "exampleEn": "The biopsy is diagnostic."
         },
         {
           "de": "Chirurgie",
@@ -1774,7 +1774,7 @@
           "plural": "Chirurgien",
           "type": "n",
           "en": "chirurgia",
-          "exampleEn": "La chirurgia è invasiva."
+          "exampleEn": "Surgery is invasive."
         },
         {
           "de": "Onkologie",
@@ -1785,7 +1785,7 @@
           "plural": null,
           "type": "n",
           "en": "oncologia",
-          "exampleEn": "L'oncologia tratta il cancro."
+          "exampleEn": "Oncology treats cancer."
         },
         {
           "de": "Kardiologie",
@@ -1796,7 +1796,7 @@
           "plural": null,
           "type": "n",
           "en": "cardiologia",
-          "exampleEn": "La cardiologia studia il cuore."
+          "exampleEn": "Cardiology studies the heart."
         },
         {
           "de": "Neurologie",
@@ -1807,7 +1807,7 @@
           "plural": null,
           "type": "n",
           "en": "neurologia",
-          "exampleEn": "La neurologia esamina i nervi."
+          "exampleEn": "Neurology examines nerves."
         },
         {
           "de": "Psychiatrie",
@@ -1818,7 +1818,7 @@
           "plural": null,
           "type": "n",
           "en": "psichiatria",
-          "exampleEn": "La psichiatria tratta la mente."
+          "exampleEn": "Psychiatry treats the mind."
         }
       ]
     },
@@ -1835,7 +1835,7 @@
           "plural": null,
           "type": "n",
           "en": "morfologia",
-          "exampleEn": "La morfologia analizza la struttura delle parole."
+          "exampleEn": "Morphology analyzes word structure."
         },
         {
           "de": "Syntax",
@@ -1846,7 +1846,7 @@
           "plural": "Syntaxen",
           "type": "n",
           "en": "sintassi",
-          "exampleEn": "La sintassi ordina le frasi."
+          "exampleEn": "Syntax arranges sentences."
         },
         {
           "de": "Semiotik",
@@ -1857,7 +1857,7 @@
           "plural": null,
           "type": "n",
           "en": "semiotica",
-          "exampleEn": "La semiotica esamina i segni."
+          "exampleEn": "Semiotics examines signs."
         },
         {
           "de": "Linguistik",
@@ -1868,7 +1868,7 @@
           "plural": null,
           "type": "n",
           "en": "linguistica",
-          "exampleEn": "La linguistica è la scienza del linguaggio."
+          "exampleEn": "Linguistics is the science of language."
         },
         {
           "de": "Phonetik",
@@ -1879,7 +1879,7 @@
           "plural": null,
           "type": "n",
           "en": "fonetica",
-          "exampleEn": "La fonetica esamina i suoni."
+          "exampleEn": "Phonetics examines sounds."
         },
         {
           "de": "Phonologie",
@@ -1890,7 +1890,7 @@
           "plural": null,
           "type": "n",
           "en": "fonologia",
-          "exampleEn": "La fonologia ordina i suoni."
+          "exampleEn": "Phonology arranges sounds."
         },
         {
           "de": "Wortbildung",
@@ -1901,7 +1901,7 @@
           "plural": "Wortbildungen",
           "type": "n",
           "en": "formazione di parole",
-          "exampleEn": "La formazione di parole crea nuove parole."
+          "exampleEn": "Word formation creates new words."
         },
         {
           "de": "Etymologie",
@@ -1912,7 +1912,7 @@
           "plural": "Etymologien",
           "type": "n",
           "en": "etimologia",
-          "exampleEn": "L'etimologia ricerca l'origine delle parole."
+          "exampleEn": "Etymology researches word origins."
         },
         {
           "de": "Idiom",
@@ -1923,7 +1923,7 @@
           "plural": "Idiome",
           "type": "n",
           "en": "idioma",
-          "exampleEn": "L'idioma è specifico della lingua."
+          "exampleEn": "Idiom is language-specific."
         },
         {
           "de": "Redewendung",
@@ -1934,7 +1934,7 @@
           "plural": "Redewendungen",
           "type": "n",
           "en": "modo di dire",
-          "exampleEn": "Il modo di dire è figurativo."
+          "exampleEn": "Phraseology is figurative."
         },
         {
           "de": "Sprichwort",
@@ -1945,7 +1945,7 @@
           "plural": "Sprichwörter",
           "type": "n",
           "en": "proverbio",
-          "exampleEn": "Il proverbio è saggezza."
+          "exampleEn": "A proverb is wisdom."
         },
         {
           "de": "Metapher",
@@ -1956,7 +1956,7 @@
           "plural": "Metaphern",
           "type": "n",
           "en": "metafora",
-          "exampleEn": "La metafora è un paragone."
+          "exampleEn": "Metaphor is comparison."
         },
         {
           "de": "Metonymie",
@@ -1967,7 +1967,7 @@
           "plural": "Metonymien",
           "type": "n",
           "en": "metonimia",
-          "exampleEn": "La metonimia è sostituzione di parole."
+          "exampleEn": "Metonymy is word substitution."
         },
         {
           "de": "Synekdoche",
@@ -1978,7 +1978,7 @@
           "plural": "Synekdochen",
           "type": "n",
           "en": "sineddoche",
-          "exampleEn": "La sineddoche è sostituzione di parti."
+          "exampleEn": "Synecdoche is part substitution."
         },
         {
           "de": "Litotes",
@@ -1989,7 +1989,7 @@
           "plural": "Litotes",
           "type": "n",
           "en": "litote",
-          "exampleEn": "La litote è attenuazione."
+          "exampleEn": "Meiosis is understatement."
         },
         {
           "de": "Hyperbel",
@@ -2000,7 +2000,7 @@
           "plural": "Hyperbeln",
           "type": "n",
           "en": "iperbole",
-          "exampleEn": "L'iperbole è esagerazione."
+          "exampleEn": "Hyperbole is exaggeration."
         },
         {
           "de": "Oxymoron",
@@ -2011,7 +2011,7 @@
           "plural": "Oxymora",
           "type": "n",
           "en": "ossimoro",
-          "exampleEn": "L'ossimoro è contraddizione."
+          "exampleEn": "Oxymoron is contradiction."
         },
         {
           "de": "Asyndeton",
@@ -2022,7 +2022,7 @@
           "plural": "Asyndeta",
           "type": "n",
           "en": "asindeto",
-          "exampleEn": "L'asindeto omette le congiunzioni."
+          "exampleEn": "Asyndeton omits conjunctions."
         },
         {
           "de": "Polysyndeton",
@@ -2033,7 +2033,7 @@
           "plural": "Polysyndeta",
           "type": "n",
           "en": "polisindeto",
-          "exampleEn": "Il polisindeto ripete le congiunzioni."
+          "exampleEn": "Polysyndeton repeats conjunctions."
         },
         {
           "de": "Chiasmus",
@@ -2044,7 +2044,7 @@
           "plural": "Chiasmi",
           "type": "n",
           "en": "chiasmo",
-          "exampleEn": "Il chiasmo è antitesi."
+          "exampleEn": "Chiasmus is antithesis."
         }
       ]
     },
@@ -2061,7 +2061,7 @@
           "plural": null,
           "type": "n",
           "en": "etnocentrismo",
-          "exampleEn": "L'etnocentrismo è pregiudizio."
+          "exampleEn": "Ethnocentrism is bias."
         },
         {
           "de": "Kulturrelativismus",
@@ -2072,7 +2072,7 @@
           "plural": null,
           "type": "n",
           "en": "relativismo culturale",
-          "exampleEn": "Il relativismo culturale rispetta le differenze."
+          "exampleEn": "Cultural relativism respects differences."
         },
         {
           "de": "Akkulturation",
@@ -2083,7 +2083,7 @@
           "plural": "Akkulturationen",
           "type": "n",
           "en": "acculturazione",
-          "exampleEn": "L'acculturazione è un processo."
+          "exampleEn": "Acculturation is a process."
         },
         {
           "de": "Assimilation",
@@ -2094,7 +2094,7 @@
           "plural": "Assimilationen",
           "type": "n",
           "en": "assimilazione",
-          "exampleEn": "L'assimilazione è integrazione."
+          "exampleEn": "Assimilation is integration."
         },
         {
           "de": "Hegemonie",
@@ -2105,7 +2105,7 @@
           "plural": "Hegemonien",
           "type": "n",
           "en": "egemonia",
-          "exampleEn": "L'egemonia è dominio."
+          "exampleEn": "Hegemony is dominance."
         },
         {
           "de": "Subalternität",
@@ -2116,7 +2116,7 @@
           "plural": "Subalternitäten",
           "type": "n",
           "en": "subalternità",
-          "exampleEn": "La subalternità è subordinazione."
+          "exampleEn": "Subalternity is subordination."
         },
         {
           "de": "Performativität",
@@ -2127,7 +2127,7 @@
           "plural": null,
           "type": "n",
           "en": "performatività",
-          "exampleEn": "La performatività costituisce l'identità."
+          "exampleEn": "Performativity constitutes identity."
         },
         {
           "de": "Intersektionalität",
@@ -2138,7 +2138,7 @@
           "plural": null,
           "type": "n",
           "en": "intersezionalità",
-          "exampleEn": "L'intersezionalità sovrappone le identità."
+          "exampleEn": "Intersectionality overlays identities."
         },
         {
           "de": "Hybridität",
@@ -2149,7 +2149,7 @@
           "plural": "Hybriditäten",
           "type": "n",
           "en": "ibridità",
-          "exampleEn": "L'ibridità è mescolanza."
+          "exampleEn": "Hybridity is mixing."
         },
         {
           "de": "Transnationalismus",
@@ -2160,7 +2160,7 @@
           "plural": null,
           "type": "n",
           "en": "transnazionalismo",
-          "exampleEn": "Il transnazionalismo supera i confini."
+          "exampleEn": "Transnationalism transcends boundaries."
         },
         {
           "de": "Globalisierung",
@@ -2171,7 +2171,7 @@
           "plural": "Globalisierungen",
           "type": "n",
           "en": "globalizzazione",
-          "exampleEn": "La globalizzazione collega."
+          "exampleEn": "Globalization connects."
         },
         {
           "de": "Lokalisierung",
@@ -2182,7 +2182,7 @@
           "plural": "Lokalisierungen",
           "type": "n",
           "en": "localizzazione",
-          "exampleEn": "La localizzazione ancora."
+          "exampleEn": "Localization anchors."
         },
         {
           "de": "Glocalisierung",
@@ -2193,7 +2193,7 @@
           "plural": "Glocalisierungen",
           "type": "n",
           "en": "glocalizzazione",
-          "exampleEn": "La glocalizzazione combina globale e locale."
+          "exampleEn": "Glocalization combines global and local."
         },
         {
           "de": "Postkolonialismus",
@@ -2204,7 +2204,7 @@
           "plural": null,
           "type": "n",
           "en": "postcolonialismo",
-          "exampleEn": "Il postcolonialismo mette in questione il colonialismo."
+          "exampleEn": "Postcolonialism questions colonial rule."
         },
         {
           "de": "Kulturwechsel",
@@ -2215,7 +2215,7 @@
           "plural": "Kulturwechsel",
           "type": "n",
           "en": "cambio culturale",
-          "exampleEn": "Il cambio culturale è dinamico."
+          "exampleEn": "Cultural change is dynamic."
         },
         {
           "de": "Kulturkontakt",
@@ -2226,7 +2226,7 @@
           "plural": "Kulturkontakte",
           "type": "n",
           "en": "contatto culturale",
-          "exampleEn": "Il contatto culturale porta allo scambio."
+          "exampleEn": "Cultural contact leads to exchange."
         },
         {
           "de": "Kulturkonflikt",
@@ -2237,7 +2237,7 @@
           "plural": "Kulturkonflikte",
           "type": "n",
           "en": "conflitto culturale",
-          "exampleEn": "Il conflitto culturale è impegnativo."
+          "exampleEn": "Cultural conflict is challenging."
         },
         {
           "de": "Kulturerbe",
@@ -2248,7 +2248,7 @@
           "plural": "Kulturerben",
           "type": "n",
           "en": "patrimonio culturale",
-          "exampleEn": "Il patrimonio culturale è prezioso."
+          "exampleEn": "Cultural heritage is valuable."
         },
         {
           "de": "Ritualisierung",
@@ -2259,7 +2259,7 @@
           "plural": "Ritualisierungen",
           "type": "n",
           "en": "ritualizzazione",
-          "exampleEn": "La ritualizzazione consolida le pratiche."
+          "exampleEn": "Ritualization solidifies practices."
         },
         {
           "de": "Sakralisierung",
@@ -2270,7 +2270,7 @@
           "plural": "Sakralisierungen",
           "type": "n",
           "en": "sacralizzazione",
-          "exampleEn": "La sacralizzazione santifica."
+          "exampleEn": "Sacralization sanctifies."
         }
       ]
     },
@@ -2287,7 +2287,7 @@
           "plural": null,
           "type": "n",
           "en": "Neuroscienze",
-          "exampleEn": "Le neuroscienze sono affascinanti."
+          "exampleEn": "Neuroscience is fascinating."
         },
         {
           "de": "Gehirn",
@@ -2298,7 +2298,7 @@
           "plural": "Gehirne",
           "type": "n",
           "en": "Cervello",
-          "exampleEn": "Il cervello è complesso."
+          "exampleEn": "The brain is complex."
         },
         {
           "de": "Neuron",
@@ -2309,7 +2309,7 @@
           "plural": "Neuronen",
           "type": "n",
           "en": "Neurone",
-          "exampleEn": "Il neurone è attivo."
+          "exampleEn": "The neuron is active."
         },
         {
           "de": "Synapse",
@@ -2320,7 +2320,7 @@
           "plural": "Synapsen",
           "type": "n",
           "en": "Sinapsi",
-          "exampleEn": "La sinapsi è minuscola."
+          "exampleEn": "The synapse is tiny."
         },
         {
           "de": "Neurotransmitter",
@@ -2331,7 +2331,7 @@
           "plural": "Neurotransmitter",
           "type": "n",
           "en": "Neurotrasmettitore",
-          "exampleEn": "Il neurotrasmettitore è chimico."
+          "exampleEn": "The neurotransmitter is chemical."
         },
         {
           "de": "Cortex",
@@ -2342,7 +2342,7 @@
           "plural": "Cortices",
           "type": "n",
           "en": "Corteccia",
-          "exampleEn": "La corteccia è importante."
+          "exampleEn": "The cortex is important."
         },
         {
           "de": "Hippocampus",
@@ -2353,7 +2353,7 @@
           "plural": "Hippocampi",
           "type": "n",
           "en": "Ippocampo",
-          "exampleEn": "L'ippocampo immagazzina i ricordi."
+          "exampleEn": "The hippocampus stores memories."
         },
         {
           "de": "Gedächtnis",
@@ -2364,7 +2364,7 @@
           "plural": "Gedächtnisse",
           "type": "n",
           "en": "Memoria",
-          "exampleEn": "La memoria è selettiva."
+          "exampleEn": "Memory is selective."
         },
         {
           "de": "Lernfähigkeit",
@@ -2375,7 +2375,7 @@
           "plural": null,
           "type": "n",
           "en": "Capacità di apprendimento",
-          "exampleEn": "La capacità di apprendimento è plastica."
+          "exampleEn": "The learning ability is plastic."
         },
         {
           "de": "Sinnesorgan",
@@ -2386,7 +2386,7 @@
           "plural": "Sinnesorgane",
           "type": "n",
           "en": "Organo sensoriale",
-          "exampleEn": "L'organo sensoriale è sensibile."
+          "exampleEn": "The sense organ is sensitive."
         },
         {
           "de": "Wahrnehmung",
@@ -2397,7 +2397,7 @@
           "plural": "Wahrnehmungen",
           "type": "n",
           "en": "Percezione",
-          "exampleEn": "La percezione è soggettiva."
+          "exampleEn": "Perception is subjective."
         },
         {
           "de": "Stimulus",
@@ -2408,7 +2408,7 @@
           "plural": "Stimuli",
           "type": "n",
           "en": "Stimolo",
-          "exampleEn": "Lo stimolo provoca una reazione."
+          "exampleEn": "The stimulus triggers a reaction."
         },
         {
           "de": "Reaktion",
@@ -2419,7 +2419,7 @@
           "plural": "Reaktionen",
           "type": "n",
           "en": "Reazione",
-          "exampleEn": "La reazione è veloce."
+          "exampleEn": "The reaction is fast."
         },
         {
           "de": "Reflex",
@@ -2430,7 +2430,7 @@
           "plural": "Reflexe",
           "type": "n",
           "en": "Riflesso",
-          "exampleEn": "Il riflesso è innato."
+          "exampleEn": "The reflex is innate."
         },
         {
           "de": "Verhalten",
@@ -2441,7 +2441,7 @@
           "plural": "Verhaltensweisen",
           "type": "n",
           "en": "Comportamento",
-          "exampleEn": "Il comportamento è osservabile."
+          "exampleEn": "Behavior is observable."
         },
         {
           "de": "Emotion",
@@ -2452,7 +2452,7 @@
           "plural": "Emotionen",
           "type": "n",
           "en": "Emozione",
-          "exampleEn": "L'emozione è intensa."
+          "exampleEn": "Emotion is intense."
         },
         {
           "de": "Bewusstsein",
@@ -2463,7 +2463,7 @@
           "plural": null,
           "type": "n",
           "en": "Consapevolezza",
-          "exampleEn": "La consapevolezza è enigmatica."
+          "exampleEn": "Consciousness is mysterious."
         },
         {
           "de": "Unbewusstsein",
@@ -2474,7 +2474,7 @@
           "plural": null,
           "type": "n",
           "en": "Inconscio",
-          "exampleEn": "L'inconscio è potente."
+          "exampleEn": "The unconscious is powerful."
         },
         {
           "de": "neurologisch",
@@ -2485,7 +2485,7 @@
           "plural": null,
           "type": "adj",
           "en": "Neurologico",
-          "exampleEn": "Questo è un disturbo neurologico."
+          "exampleEn": "This is a neurological disorder."
         },
         {
           "de": "kognitiv",
@@ -2496,7 +2496,7 @@
           "plural": null,
           "type": "adj",
           "en": "Cognitivo",
-          "exampleEn": "Questa è una funzione cognitiva."
+          "exampleEn": "This is a cognitive function."
         }
       ]
     },
@@ -2513,7 +2513,7 @@
           "plural": null,
           "type": "n",
           "en": "Storia dell'arte",
-          "exampleEn": "La storia dell'arte è affascinante."
+          "exampleEn": "Art history is fascinating."
         },
         {
           "de": "Kunstwerk",
@@ -2524,7 +2524,7 @@
           "plural": "Kunstwerke",
           "type": "n",
           "en": "Opera d'arte",
-          "exampleEn": "L'opera d'arte è famosa."
+          "exampleEn": "The artwork is famous."
         },
         {
           "de": "Meisterwerk",
@@ -2535,7 +2535,7 @@
           "plural": "Meisterwerke",
           "type": "n",
           "en": "Capolavoro",
-          "exampleEn": "Il capolavoro è senza tempo."
+          "exampleEn": "The masterpiece is timeless."
         },
         {
           "de": "Kunstrichtung",
@@ -2546,7 +2546,7 @@
           "plural": "Kunstrichtungen",
           "type": "n",
           "en": "Movimento artistico",
-          "exampleEn": "Il movimento artistico è rivoluzionario."
+          "exampleEn": "The art movement is revolutionary."
         },
         {
           "de": "Renaissance",
@@ -2557,7 +2557,7 @@
           "plural": null,
           "type": "n",
           "en": "Rinascimento",
-          "exampleEn": "Il Rinascimento era fecondo."
+          "exampleEn": "The Renaissance was fruitful."
         },
         {
           "de": "Barock",
@@ -2568,7 +2568,7 @@
           "plural": null,
           "type": "n",
           "en": "Barocco",
-          "exampleEn": "Il Barocco era stravagante."
+          "exampleEn": "The Baroque was extravagant."
         },
         {
           "de": "Klassizismus",
@@ -2579,7 +2579,7 @@
           "plural": null,
           "type": "n",
           "en": "Classicismo",
-          "exampleEn": "Il Classicismo era ordinato."
+          "exampleEn": "Classicism was orderly."
         },
         {
           "de": "Romantik",
@@ -2590,7 +2590,7 @@
           "plural": null,
           "type": "n",
           "en": "Romanticismo",
-          "exampleEn": "Il Romanticismo era emotivo."
+          "exampleEn": "Romanticism was emotional."
         },
         {
           "de": "Impressionismus",
@@ -2601,7 +2601,7 @@
           "plural": null,
           "type": "n",
           "en": "Impressionismo",
-          "exampleEn": "L'Impressionismo era nuovo."
+          "exampleEn": "Impressionism was new."
         },
         {
           "de": "Expressionismus",
@@ -2612,7 +2612,7 @@
           "plural": null,
           "type": "n",
           "en": "Espressionismo",
-          "exampleEn": "L'Espressionismo era potente."
+          "exampleEn": "Expressionism was powerful."
         },
         {
           "de": "Malerei",
@@ -2623,7 +2623,7 @@
           "plural": "Malereien",
           "type": "n",
           "en": "Pittura",
-          "exampleEn": "La pittura è visiva."
+          "exampleEn": "Painting is visual."
         },
         {
           "de": "Skulptur",
@@ -2634,7 +2634,7 @@
           "plural": "Skulpturen",
           "type": "n",
           "en": "Scultura",
-          "exampleEn": "La scultura è tridimensionale."
+          "exampleEn": "Sculpture is three-dimensional."
         },
         {
           "de": "Farbe",
@@ -2645,7 +2645,7 @@
           "plural": "Farben",
           "type": "n",
           "en": "Colore",
-          "exampleEn": "Il colore è vivido."
+          "exampleEn": "Color is vibrant."
         },
         {
           "de": "Komposition",
@@ -2656,7 +2656,7 @@
           "plural": "Kompositionen",
           "type": "n",
           "en": "Composizione",
-          "exampleEn": "La composizione è equilibrata."
+          "exampleEn": "The composition is balanced."
         },
         {
           "de": "Perspektive",
@@ -2667,7 +2667,7 @@
           "plural": "Perspektiven",
           "type": "n",
           "en": "Prospettiva",
-          "exampleEn": "La prospettiva è spaziale."
+          "exampleEn": "Perspective is spatial."
         },
         {
           "de": "Licht",
@@ -2678,7 +2678,7 @@
           "plural": "Lichter",
           "type": "n",
           "en": "Luce",
-          "exampleEn": "La luce è luminosa."
+          "exampleEn": "The light is luminous."
         },
         {
           "de": "Schatten",
@@ -2689,7 +2689,7 @@
           "plural": "Schatten",
           "type": "n",
           "en": "Ombra",
-          "exampleEn": "L'ombra è scura."
+          "exampleEn": "The shadow is dark."
         },
         {
           "de": "Form",
@@ -2700,7 +2700,7 @@
           "plural": "Formen",
           "type": "n",
           "en": "Forma",
-          "exampleEn": "La forma è astratta."
+          "exampleEn": "The form is abstract."
         },
         {
           "de": "Stil",
@@ -2711,7 +2711,7 @@
           "plural": "Stile",
           "type": "n",
           "en": "Stile",
-          "exampleEn": "Lo stile è riconoscibile."
+          "exampleEn": "The style is recognizable."
         },
         {
           "de": "künstlerisch",
@@ -2722,7 +2722,7 @@
           "plural": null,
           "type": "adj",
           "en": "Artistico",
-          "exampleEn": "Questa è una visione artistica."
+          "exampleEn": "This is an artistic vision."
         }
       ]
     },
@@ -2739,7 +2739,7 @@
           "plural": null,
           "type": "n",
           "en": "Scienze politiche",
-          "exampleEn": "Le scienze politiche sono rilevanti."
+          "exampleEn": "Political science is relevant."
         },
         {
           "de": "Politik",
@@ -2750,7 +2750,7 @@
           "plural": "Politiken",
           "type": "n",
           "en": "Politica",
-          "exampleEn": "La politica è complessa."
+          "exampleEn": "Politics is complex."
         },
         {
           "de": "Staat",
@@ -2761,7 +2761,7 @@
           "plural": "Staaten",
           "type": "n",
           "en": "Stato",
-          "exampleEn": "Lo stato è potente."
+          "exampleEn": "The state is powerful."
         },
         {
           "de": "Regierung",
@@ -2772,7 +2772,7 @@
           "plural": "Regierungen",
           "type": "n",
           "en": "Governo",
-          "exampleEn": "Il governo governa."
+          "exampleEn": "The government governs."
         },
         {
           "de": "Parlament",
@@ -2783,7 +2783,7 @@
           "plural": "Parlamente",
           "type": "n",
           "en": "Parlamento",
-          "exampleEn": "Il parlamento fa leggi."
+          "exampleEn": "Parliament makes laws."
         },
         {
           "de": "Präsident",
@@ -2794,7 +2794,7 @@
           "plural": "Präsidenten",
           "type": "n",
           "en": "Presidente",
-          "exampleEn": "Il presidente è eletto."
+          "exampleEn": "The president is elected."
         },
         {
           "de": "Kanzler",
@@ -2805,7 +2805,7 @@
           "plural": "Kanzler",
           "type": "n",
           "en": "Cancelliere",
-          "exampleEn": "Il cancelliere governa."
+          "exampleEn": "The chancellor governs."
         },
         {
           "de": "Wahl",
@@ -2816,7 +2816,7 @@
           "plural": "Wahlen",
           "type": "n",
           "en": "Elezione",
-          "exampleEn": "L'elezione è libera."
+          "exampleEn": "The election is free."
         },
         {
           "de": "Abstimmung",
@@ -2827,7 +2827,7 @@
           "plural": "Abstimmungen",
           "type": "n",
           "en": "Voto",
-          "exampleEn": "Il voto è segreto."
+          "exampleEn": "The voting is secret."
         },
         {
           "de": "Partei",
@@ -2838,7 +2838,7 @@
           "plural": "Parteien",
           "type": "n",
           "en": "Partito",
-          "exampleEn": "Il partito ha membri."
+          "exampleEn": "The party has members."
         },
         {
           "de": "Ideologie",
@@ -2849,7 +2849,7 @@
           "plural": "Ideologien",
           "type": "n",
           "en": "Ideologia",
-          "exampleEn": "L'ideologia è pronunciata."
+          "exampleEn": "The ideology is pronounced."
         },
         {
           "de": "Demokratie",
@@ -2860,7 +2860,7 @@
           "plural": "Demokratien",
           "type": "n",
           "en": "Democrazia",
-          "exampleEn": "La democrazia è preziosa."
+          "exampleEn": "Democracy is valuable."
         },
         {
           "de": "Diktatur",
@@ -2871,7 +2871,7 @@
           "plural": "Diktaturen",
           "type": "n",
           "en": "Dittatura",
-          "exampleEn": "La dittatura è oppressiva."
+          "exampleEn": "Dictatorship is oppressive."
         },
         {
           "de": "Monarchie",
@@ -2882,7 +2882,7 @@
           "plural": "Monarchien",
           "type": "n",
           "en": "Monarchia",
-          "exampleEn": "La monarchia è tradizionale."
+          "exampleEn": "Monarchy is traditional."
         },
         {
           "de": "Republik",
@@ -2893,7 +2893,7 @@
           "plural": "Republiken",
           "type": "n",
           "en": "Repubblica",
-          "exampleEn": "La repubblica è moderna."
+          "exampleEn": "The republic is modern."
         },
         {
           "de": "Verfassung",
@@ -2904,7 +2904,7 @@
           "plural": "Verfassungen",
           "type": "n",
           "en": "Costituzione",
-          "exampleEn": "La costituzione è fondamentale."
+          "exampleEn": "The constitution is fundamental."
         },
         {
           "de": "Gesetz",
@@ -2915,7 +2915,7 @@
           "plural": "Gesetze",
           "type": "n",
           "en": "Legge",
-          "exampleEn": "La legge è vincolante."
+          "exampleEn": "The law is binding."
         },
         {
           "de": "Regelung",
@@ -2926,7 +2926,7 @@
           "plural": "Regelungen",
           "type": "n",
           "en": "Regolamento",
-          "exampleEn": "Il regolamento è chiaro."
+          "exampleEn": "The regulation is clear."
         },
         {
           "de": "Lobbyismus",
@@ -2937,7 +2937,7 @@
           "plural": null,
           "type": "n",
           "en": "Lobbismo",
-          "exampleEn": "Il lobbismo è influente."
+          "exampleEn": "Lobbying is influential."
         },
         {
           "de": "Korruption",
@@ -2948,7 +2948,7 @@
           "plural": null,
           "type": "n",
           "en": "Corruzione",
-          "exampleEn": "La corruzione è dannosa."
+          "exampleEn": "Corruption is harmful."
         }
       ]
     },
@@ -2965,7 +2965,7 @@
           "plural": null,
           "type": "n",
           "en": "Linguistica",
-          "exampleEn": "La linguistica è scientifica."
+          "exampleEn": "Linguistics is scientific."
         },
         {
           "de": "Sprache",
@@ -2976,7 +2976,7 @@
           "plural": "Sprachen",
           "type": "n",
           "en": "Lingua",
-          "exampleEn": "La lingua è varia."
+          "exampleEn": "Language is diverse."
         },
         {
           "de": "Wort",
@@ -2987,7 +2987,7 @@
           "plural": "Wörter",
           "type": "n",
           "en": "Parola",
-          "exampleEn": "La parola è significativa."
+          "exampleEn": "The word is meaningful."
         },
         {
           "de": "Satz",
@@ -2998,7 +2998,7 @@
           "plural": "Sätze",
           "type": "n",
           "en": "Frase",
-          "exampleEn": "La frase è grammaticale."
+          "exampleEn": "The sentence is grammatical."
         },
         {
           "de": "Grammatik",
@@ -3009,7 +3009,7 @@
           "plural": "Grammatiken",
           "type": "n",
           "en": "Grammatica",
-          "exampleEn": "La grammatica è complessa."
+          "exampleEn": "Grammar is complex."
         },
         {
           "de": "Syntax",
@@ -3020,7 +3020,7 @@
           "plural": "Syntaxen",
           "type": "n",
           "en": "Sintassi",
-          "exampleEn": "La sintassi è strutturata."
+          "exampleEn": "Syntax is structured."
         },
         {
           "de": "Semantik",
@@ -3031,7 +3031,7 @@
           "plural": "Semantiken",
           "type": "n",
           "en": "Semantica",
-          "exampleEn": "La semantica è significativa."
+          "exampleEn": "Semantics is meaningful."
         },
         {
           "de": "Phonologie",
@@ -3042,7 +3042,7 @@
           "plural": "Phonologien",
           "type": "n",
           "en": "Fonologia",
-          "exampleEn": "La fonologia è acustica."
+          "exampleEn": "Phonology is acoustic."
         },
         {
           "de": "Dialekt",
@@ -3053,7 +3053,7 @@
           "plural": "Dialekte",
           "type": "n",
           "en": "Dialetto",
-          "exampleEn": "Il dialetto è regionale."
+          "exampleEn": "The dialect is regional."
         },
         {
           "de": "Akzent",
@@ -3064,7 +3064,7 @@
           "plural": "Akzente",
           "type": "n",
           "en": "Accento",
-          "exampleEn": "L'accento è riconoscibile."
+          "exampleEn": "The accent is recognizable."
         },
         {
           "de": "Bedeutung",
@@ -3075,7 +3075,7 @@
           "plural": "Bedeutungen",
           "type": "n",
           "en": "Significato",
-          "exampleEn": "Il significato è chiaro."
+          "exampleEn": "The meaning is clear."
         },
         {
           "de": "Etymologie",
@@ -3086,7 +3086,7 @@
           "plural": "Etymologien",
           "type": "n",
           "en": "Etimologia",
-          "exampleEn": "L'etimologia è interessante."
+          "exampleEn": "Etymology is interesting."
         },
         {
           "de": "Morphologie",
@@ -3097,7 +3097,7 @@
           "plural": "Morphologien",
           "type": "n",
           "en": "Morfologia",
-          "exampleEn": "La morfologia è analitica."
+          "exampleEn": "Morphology is analytical."
         },
         {
           "de": "Pragmatik",
@@ -3108,7 +3108,7 @@
           "plural": "Pragmatiken",
           "type": "n",
           "en": "Pragmatica",
-          "exampleEn": "La pragmatica è dipendente dal contesto."
+          "exampleEn": "Pragmatics is context-dependent."
         },
         {
           "de": "Diskurs",
@@ -3119,7 +3119,7 @@
           "plural": "Diskurse",
           "type": "n",
           "en": "Discorso",
-          "exampleEn": "Il discorso è accademico."
+          "exampleEn": "The discourse is academic."
         },
         {
           "de": "Metapher",
@@ -3130,7 +3130,7 @@
           "plural": "Metaphern",
           "type": "n",
           "en": "Metafora",
-          "exampleEn": "La metafora è linguistica."
+          "exampleEn": "Metaphor is linguistic."
         },
         {
           "de": "Metonymie",
@@ -3141,7 +3141,7 @@
           "plural": "Metonymien",
           "type": "n",
           "en": "Metonimia",
-          "exampleEn": "La metonimia è stilistica."
+          "exampleEn": "Metonymy is stylistic."
         },
         {
           "de": "Ironie",
@@ -3152,7 +3152,7 @@
           "plural": "Ironien",
           "type": "n",
           "en": "Ironia",
-          "exampleEn": "L'ironia è sottile."
+          "exampleEn": "Irony is subtle."
         },
         {
           "de": "Idiomatisch",
@@ -3163,7 +3163,7 @@
           "plural": null,
           "type": "adj",
           "en": "Idiomatico",
-          "exampleEn": "Questa è un'espressione idiomatica."
+          "exampleEn": "This is an idiomatic expression."
         },
         {
           "de": "linguistisch",
@@ -3174,7 +3174,7 @@
           "plural": null,
           "type": "adj",
           "en": "Linguistico",
-          "exampleEn": "Questa è un'analisi linguistica."
+          "exampleEn": "This is a linguistic analysis."
         }
       ]
     },
@@ -3191,7 +3191,7 @@
           "plural": null,
           "type": "n",
           "en": "Psicoanalisi",
-          "exampleEn": "La psicoanalisi è profonda."
+          "exampleEn": "Psychoanalysis is profound."
         },
         {
           "de": "Unbewusstsein",
@@ -3202,7 +3202,7 @@
           "plural": null,
           "type": "n",
           "en": "Inconscio",
-          "exampleEn": "L'inconscio è nascosto."
+          "exampleEn": "The unconscious is hidden."
         },
         {
           "de": "Bewusstsein",
@@ -3213,7 +3213,7 @@
           "plural": null,
           "type": "n",
           "en": "Consapevolezza",
-          "exampleEn": "La consapevolezza è consapevole."
+          "exampleEn": "Consciousness is perceiving."
         },
         {
           "de": "Trieb",
@@ -3224,7 +3224,7 @@
           "plural": "Triebe",
           "type": "n",
           "en": "Pulsione",
-          "exampleEn": "La pulsione è fondamentale."
+          "exampleEn": "The drive is fundamental."
         },
         {
           "de": "Abwehrmechanismus",
@@ -3235,7 +3235,7 @@
           "plural": "Abwehrmechanismen",
           "type": "n",
           "en": "Meccanismo di difesa",
-          "exampleEn": "Il meccanismo di difesa è inconscio."
+          "exampleEn": "The defense mechanism is unconscious."
         },
         {
           "de": "Verdrängung",
@@ -3246,7 +3246,7 @@
           "plural": "Verdrängungen",
           "type": "n",
           "en": "Rimozione",
-          "exampleEn": "La rimozione è inconscia."
+          "exampleEn": "Repression is unconscious."
         },
         {
           "de": "Projektion",
@@ -3257,7 +3257,7 @@
           "plural": "Projektionen",
           "type": "n",
           "en": "Proiezione",
-          "exampleEn": "La proiezione è una difesa."
+          "exampleEn": "Projection is a defense."
         },
         {
           "de": "Regression",
@@ -3268,7 +3268,7 @@
           "plural": "Regressionen",
           "type": "n",
           "en": "Regressione",
-          "exampleEn": "La regressione è un ritiro."
+          "exampleEn": "Regression is a withdrawal."
         },
         {
           "de": "Sublimation",
@@ -3279,7 +3279,7 @@
           "plural": "Sublimationen",
           "type": "n",
           "en": "Sublimazione",
-          "exampleEn": "La sublimazione è creativa."
+          "exampleEn": "Sublimation is creative."
         },
         {
           "de": "Übertragung",
@@ -3290,7 +3290,7 @@
           "plural": "Übertragungen",
           "type": "n",
           "en": "Transferenza",
-          "exampleEn": "La transferenza è relazionale."
+          "exampleEn": "Transference is relational."
         },
         {
           "de": "Gegenübertragung",
@@ -3301,7 +3301,7 @@
           "plural": "Gegenübertragungen",
           "type": "n",
           "en": "Controtransfert",
-          "exampleEn": "Il controtransfert è reciproco."
+          "exampleEn": "Countertransference is reciprocal."
         },
         {
           "de": "Komplex",
@@ -3312,7 +3312,7 @@
           "plural": "Komplexe",
           "type": "n",
           "en": "Complesso",
-          "exampleEn": "Il complesso è carico di emozione."
+          "exampleEn": "The complex is emotionally charged."
         },
         {
           "de": "Symbol",
@@ -3323,7 +3323,7 @@
           "plural": "Symbole",
           "type": "n",
           "en": "Simbolo",
-          "exampleEn": "Il simbolo è ricco di significato."
+          "exampleEn": "The symbol is rich in meaning."
         },
         {
           "de": "Traum",
@@ -3334,7 +3334,7 @@
           "plural": "Träume",
           "type": "n",
           "en": "Sogno",
-          "exampleEn": "Il sogno è simbolico."
+          "exampleEn": "The dream is symbolic."
         },
         {
           "de": "Assoziation",
@@ -3345,7 +3345,7 @@
           "plural": "Assoziationen",
           "type": "n",
           "en": "Associazione",
-          "exampleEn": "L'associazione è libera."
+          "exampleEn": "Association is free."
         },
         {
           "de": "Widerstand",
@@ -3356,7 +3356,7 @@
           "plural": "Widerstände",
           "type": "n",
           "en": "Resistenza",
-          "exampleEn": "La resistenza è inconscia."
+          "exampleEn": "Resistance is unconscious."
         },
         {
           "de": "Heilung",
@@ -3367,7 +3367,7 @@
           "plural": "Heilungen",
           "type": "n",
           "en": "Guarigione",
-          "exampleEn": "La guarigione è un processo."
+          "exampleEn": "Healing is a process."
         },
         {
           "de": "Therapie",
@@ -3378,7 +3378,7 @@
           "plural": "Therapien",
           "type": "n",
           "en": "Terapia",
-          "exampleEn": "La terapia è orientata in profondità."
+          "exampleEn": "Therapy is depth-oriented."
         },
         {
           "de": "analytisch",
@@ -3389,7 +3389,7 @@
           "plural": null,
           "type": "adj",
           "en": "Analitico",
-          "exampleEn": "La vista analitica è introspettiva."
+          "exampleEn": "The analytical view is introspective."
         },
         {
           "de": "unbewusst",
@@ -3400,7 +3400,7 @@
           "plural": null,
           "type": "adj",
           "en": "Inconscio",
-          "exampleEn": "Questa è una motivazione inconscia."
+          "exampleEn": "This is an unconscious motivation."
         }
       ]
     },
@@ -3417,7 +3417,7 @@
           "plural": null,
           "type": "n",
           "en": "Scienze ambientali",
-          "exampleEn": "Le scienze ambientali sono urgenti."
+          "exampleEn": "Environmental science is urgent."
         },
         {
           "de": "Ökosystem",
@@ -3428,7 +3428,7 @@
           "plural": "Ökosysteme",
           "type": "n",
           "en": "Ecosistema",
-          "exampleEn": "L'ecosistema è fragile."
+          "exampleEn": "The ecosystem is fragile."
         },
         {
           "de": "Habitat",
@@ -3438,8 +3438,8 @@
           "article": "der",
           "plural": "Habitate",
           "type": "n",
-          "en": "Habitat",
-          "exampleEn": "L'habitat è vitale."
+          "en": "habitat",
+          "exampleEn": "The habitat is vital."
         },
         {
           "de": "Nahrungskette",
@@ -3450,7 +3450,7 @@
           "plural": "Nahrungsketten",
           "type": "n",
           "en": "Catena alimentare",
-          "exampleEn": "La catena alimentare è complessa."
+          "exampleEn": "The food chain is complex."
         },
         {
           "de": "Biodiversität",
@@ -3461,7 +3461,7 @@
           "plural": null,
           "type": "n",
           "en": "Biodiversità",
-          "exampleEn": "La biodiversità è minacciata."
+          "exampleEn": "Biodiversity is threatened."
         },
         {
           "de": "Klimawandel",
@@ -3472,7 +3472,7 @@
           "plural": null,
           "type": "n",
           "en": "Cambiamento climatico",
-          "exampleEn": "Il cambiamento climatico è reale."
+          "exampleEn": "Climate change is real."
         },
         {
           "de": "Treibhausgase",
@@ -3483,7 +3483,7 @@
           "plural": null,
           "type": "n",
           "en": "Gas serra",
-          "exampleEn": "I gas serra sono nocivi."
+          "exampleEn": "Greenhouse gases are harmful."
         },
         {
           "de": "Kohlendioxid",
@@ -3494,7 +3494,7 @@
           "plural": null,
           "type": "n",
           "en": "Biossido di carbonio",
-          "exampleEn": "L'anidride carbonica aumenta."
+          "exampleEn": "Carbon dioxide is rising."
         },
         {
           "de": "Ozonloch",
@@ -3505,7 +3505,7 @@
           "plural": "Ozonlöcher",
           "type": "n",
           "en": "Buco dell'ozono",
-          "exampleEn": "Il buco dell'ozono è noto."
+          "exampleEn": "The ozone hole is known."
         },
         {
           "de": "Säuerung",
@@ -3516,7 +3516,7 @@
           "plural": "Säuerungen",
           "type": "n",
           "en": "Acidificazione",
-          "exampleEn": "L'acidificazione degli oceani è critica."
+          "exampleEn": "Ocean acidification is critical."
         },
         {
           "de": "Kontaminant",
@@ -3527,7 +3527,7 @@
           "plural": "Kontaminanten",
           "type": "n",
           "en": "Contaminante",
-          "exampleEn": "Il contaminante è tossico."
+          "exampleEn": "The contaminant is toxic."
         },
         {
           "de": "Pestizid",
@@ -3538,7 +3538,7 @@
           "plural": "Pestizide",
           "type": "n",
           "en": "Pesticida",
-          "exampleEn": "Il pesticida è dannoso per l'ambiente."
+          "exampleEn": "The pesticide is environmentally harmful."
         },
         {
           "de": "Abfallwirtschaft",
@@ -3549,7 +3549,7 @@
           "plural": null,
           "type": "n",
           "en": "Gestione dei rifiuti",
-          "exampleEn": "La gestione dei rifiuti è importante."
+          "exampleEn": "Waste management is important."
         },
         {
           "de": "Wasserschutz",
@@ -3560,7 +3560,7 @@
           "plural": null,
           "type": "n",
           "en": "Protezione dell'acqua",
-          "exampleEn": "La protezione dell'acqua è vitale."
+          "exampleEn": "Water protection is vital."
         },
         {
           "de": "Naturschutzgebiet",
@@ -3571,7 +3571,7 @@
           "plural": "Naturschutzgebiete",
           "type": "n",
           "en": "Area protetta",
-          "exampleEn": "L'area protetta è sorvegliata."
+          "exampleEn": "The nature reserve is guarded."
         },
         {
           "de": "Tragfähigkeit",
@@ -3582,7 +3582,7 @@
           "plural": "Tragfähigkeiten",
           "type": "n",
           "en": "Capacità portante",
-          "exampleEn": "La capacità portante è limitata."
+          "exampleEn": "Carrying capacity is limited."
         },
         {
           "de": "Resilienz",
@@ -3593,7 +3593,7 @@
           "plural": "Resilienzeng",
           "type": "n",
           "en": "Resilienza",
-          "exampleEn": "La resilienza è adattiva."
+          "exampleEn": "Resilience is adaptive."
         },
         {
           "de": "Mitigation",
@@ -3604,7 +3604,7 @@
           "plural": "Mitigationen",
           "type": "n",
           "en": "Mitigazione",
-          "exampleEn": "La mitigazione è necessaria."
+          "exampleEn": "Mitigation is necessary."
         },
         {
           "de": "Anpassung",
@@ -3615,7 +3615,7 @@
           "plural": "Anpassungen",
           "type": "n",
           "en": "Adattamento",
-          "exampleEn": "L'adattamento è richiesto."
+          "exampleEn": "Adaptation is required."
         },
         {
           "de": "ökologisch",
@@ -3626,7 +3626,7 @@
           "plural": null,
           "type": "adj",
           "en": "Ecologico",
-          "exampleEn": "Questo è un problema ecologico."
+          "exampleEn": "This is an ecological problem."
         }
       ]
     },
@@ -3643,7 +3643,7 @@
           "plural": null,
           "type": "n",
           "en": "Relazioni internazionali",
-          "exampleEn": "Le relazioni internazionali sono complesse."
+          "exampleEn": "International relations are complex."
         },
         {
           "de": "Geopolitik",
@@ -3654,7 +3654,7 @@
           "plural": null,
           "type": "n",
           "en": "Geopolitica",
-          "exampleEn": "La geopolitica è strategica."
+          "exampleEn": "Geopolitics is strategic."
         },
         {
           "de": "Souveränität",
@@ -3665,7 +3665,7 @@
           "plural": "Souveränitäten",
           "type": "n",
           "en": "Sovranità",
-          "exampleEn": "La sovranità è fondamentale."
+          "exampleEn": "Sovereignty is fundamental."
         },
         {
           "de": "Hegemonie",
@@ -3676,7 +3676,7 @@
           "plural": "Hegemonien",
           "type": "n",
           "en": "Egemonia",
-          "exampleEn": "L'egemonia è potente."
+          "exampleEn": "Hegemony is powerful."
         },
         {
           "de": "Multipolarität",
@@ -3687,7 +3687,7 @@
           "plural": null,
           "type": "n",
           "en": "Multipolarità",
-          "exampleEn": "La multipolarità è in ascesa."
+          "exampleEn": "Multipolarity is rising."
         },
         {
           "de": "Unipolares System",
@@ -3698,7 +3698,7 @@
           "plural": null,
           "type": "n",
           "en": "Sistema unipolare",
-          "exampleEn": "Il sistema unipolare è instabile."
+          "exampleEn": "The unipolar system is unstable."
         },
         {
           "de": "Allianz",
@@ -3709,7 +3709,7 @@
           "plural": "Allianzen",
           "type": "n",
           "en": "Alleanza",
-          "exampleEn": "L'alleanza è strategica."
+          "exampleEn": "The alliance is strategic."
         },
         {
           "de": "Blockbildung",
@@ -3720,7 +3720,7 @@
           "plural": "Blockbildungen",
           "type": "n",
           "en": "Formazione di blocchi",
-          "exampleEn": "La formazione di blocchi è evidente."
+          "exampleEn": "Block formation is evident."
         },
         {
           "de": "Soft Power",
@@ -3731,7 +3731,7 @@
           "plural": null,
           "type": "n",
           "en": "Soft power",
-          "exampleEn": "Il soft power è sottovalutato."
+          "exampleEn": "Soft power is underestimated."
         },
         {
           "de": "Hard Power",
@@ -3742,7 +3742,7 @@
           "plural": null,
           "type": "n",
           "en": "Hard power",
-          "exampleEn": "L'hard power è visibile."
+          "exampleEn": "Hard power is visible."
         },
         {
           "de": "Diplomatie",
@@ -3753,7 +3753,7 @@
           "plural": "Diplomatien",
           "type": "n",
           "en": "Diplomazia",
-          "exampleEn": "La diplomazia è negoziabile."
+          "exampleEn": "Diplomacy is negotiable."
         },
         {
           "de": "Multilateralismus",
@@ -3764,7 +3764,7 @@
           "plural": null,
           "type": "n",
           "en": "Multilateralismo",
-          "exampleEn": "Il multilateralismo è inclusivo."
+          "exampleEn": "Multilateralism is inclusive."
         },
         {
           "de": "Bilateralismus",
@@ -3775,7 +3775,7 @@
           "plural": null,
           "type": "n",
           "en": "Bilateralismo",
-          "exampleEn": "Il bilateralismo è più diretto."
+          "exampleEn": "Bilateralism is more direct."
         },
         {
           "de": "Integration",
@@ -3786,7 +3786,7 @@
           "plural": "Integrationen",
           "type": "n",
           "en": "Integrazione",
-          "exampleEn": "L'integrazione è economica."
+          "exampleEn": "Integration is economic."
         },
         {
           "de": "Kooperation",
@@ -3797,7 +3797,7 @@
           "plural": "Kooperationen",
           "type": "n",
           "en": "Cooperazione",
-          "exampleEn": "La cooperazione è reciproca."
+          "exampleEn": "Cooperation is mutual."
         },
         {
           "de": "Konflikt",
@@ -3808,7 +3808,7 @@
           "plural": "Konflikte",
           "type": "n",
           "en": "Conflitto",
-          "exampleEn": "Il conflitto è in escalation."
+          "exampleEn": "Conflict is escalating."
         },
         {
           "de": "Krieg",
@@ -3819,7 +3819,7 @@
           "plural": "Kriege",
           "type": "n",
           "en": "Guerra",
-          "exampleEn": "La guerra è distruttiva."
+          "exampleEn": "War is destructive."
         },
         {
           "de": "Frieden",
@@ -3830,7 +3830,7 @@
           "plural": "Frieden",
           "type": "n",
           "en": "Pace",
-          "exampleEn": "La pace è preziosa."
+          "exampleEn": "Peace is precious."
         },
         {
           "de": "international",
@@ -3841,7 +3841,7 @@
           "plural": null,
           "type": "adj",
           "en": "Internazionale",
-          "exampleEn": "Questa è una questione internazionale."
+          "exampleEn": "This is an international question."
         },
         {
           "de": "transnational",
@@ -3852,7 +3852,7 @@
           "plural": null,
           "type": "adj",
           "en": "Transnazionale",
-          "exampleEn": "Questo è un'azienda transnazionale."
+          "exampleEn": "This is a transnational corporation."
         }
       ]
     },
@@ -3869,7 +3869,7 @@
           "plural": "Wirtschaftstheorien",
           "type": "n",
           "en": "Teoria economica",
-          "exampleEn": "La teoria economica è controversa."
+          "exampleEn": "Economic theory is controversial."
         },
         {
           "de": "Makroökonomie",
@@ -3880,7 +3880,7 @@
           "plural": null,
           "type": "n",
           "en": "Macroeconomia",
-          "exampleEn": "La macroeconomia è aggregativa."
+          "exampleEn": "Macroeconomics is aggregative."
         },
         {
           "de": "Mikroökonomie",
@@ -3891,7 +3891,7 @@
           "plural": null,
           "type": "n",
           "en": "Microeconomia",
-          "exampleEn": "La microeconomia è individualistica."
+          "exampleEn": "Microeconomics is individualistic."
         },
         {
           "de": "Kapitalismus",
@@ -3902,7 +3902,7 @@
           "plural": null,
           "type": "n",
           "en": "Capitalismo",
-          "exampleEn": "Il capitalismo è dinamico."
+          "exampleEn": "Capitalism is dynamic."
         },
         {
           "de": "Sozialismus",
@@ -3913,7 +3913,7 @@
           "plural": null,
           "type": "n",
           "en": "Socialismo",
-          "exampleEn": "Il socialismo è collettivista."
+          "exampleEn": "Socialism is collectivist."
         },
         {
           "de": "Keynesianismus",
@@ -3924,7 +3924,7 @@
           "plural": null,
           "type": "n",
           "en": "Keynesianismo",
-          "exampleEn": "Il keynesianismo enfatizza la domanda."
+          "exampleEn": "Keynesianism emphasizes demand."
         },
         {
           "de": "Monetarismus",
@@ -3935,7 +3935,7 @@
           "plural": null,
           "type": "n",
           "en": "Monetarismo",
-          "exampleEn": "Il monetarismo si concentra sulla massa monetaria."
+          "exampleEn": "Monetarism focuses on money supply."
         },
         {
           "de": "Angebot und Nachfrage",
@@ -3946,7 +3946,7 @@
           "plural": null,
           "type": "n",
           "en": "Offerta e domanda",
-          "exampleEn": "L'offerta e la domanda determinano il prezzo."
+          "exampleEn": "Supply and demand determine price."
         },
         {
           "de": "Marktmechanismus",
@@ -3957,7 +3957,7 @@
           "plural": "Marktmechanismen",
           "type": "n",
           "en": "Meccanismo di mercato",
-          "exampleEn": "Il meccanismo di mercato è auto-regolante."
+          "exampleEn": "The market mechanism is self-regulating."
         },
         {
           "de": "Gleichgewicht",
@@ -3968,7 +3968,7 @@
           "plural": "Gleichgewichte",
           "type": "n",
           "en": "Equilibrio",
-          "exampleEn": "L'equilibrio è fugace."
+          "exampleEn": "Equilibrium is fleeting."
         },
         {
           "de": "Effizienz",
@@ -3979,7 +3979,7 @@
           "plural": "Effizienzen",
           "type": "n",
           "en": "Efficienza",
-          "exampleEn": "L'efficienza è pareto-ottimale."
+          "exampleEn": "Efficiency is Pareto-optimal."
         },
         {
           "de": "Externalität",
@@ -3990,7 +3990,7 @@
           "plural": "Externalitäten",
           "type": "n",
           "en": "Esternalità",
-          "exampleEn": "L'esternalità non è valutata nel prezzo."
+          "exampleEn": "The externality is not priced in."
         },
         {
           "de": "Moral Hazard",
@@ -4001,7 +4001,7 @@
           "plural": null,
           "type": "n",
           "en": "Azzardo morale",
-          "exampleEn": "L'azzardo morale è problematico."
+          "exampleEn": "Moral hazard is problematic."
         },
         {
           "de": "Asymmetrische Information",
@@ -4012,7 +4012,7 @@
           "plural": null,
           "type": "n",
           "en": "Informazione asimmetrica",
-          "exampleEn": "L'informazione asimmetrica è problematica."
+          "exampleEn": "Asymmetric information is problematic."
         },
         {
           "de": "Rente",
@@ -4023,7 +4023,7 @@
           "plural": "Renten",
           "type": "n",
           "en": "Rendita",
-          "exampleEn": "La rendita è distribuita disuguaglianza."
+          "exampleEn": "Rent is unequally distributed."
         },
         {
           "de": "Opportunitätskosten",
@@ -4034,7 +4034,7 @@
           "plural": null,
           "type": "n",
           "en": "Costi opportunità",
-          "exampleEn": "I costi opportunità sono significativi."
+          "exampleEn": "Opportunity costs are significant."
         },
         {
           "de": "Knappheit",
@@ -4045,7 +4045,7 @@
           "plural": null,
           "type": "n",
           "en": "Scarsità",
-          "exampleEn": "La scarsità è fondamentale."
+          "exampleEn": "Scarcity is fundamental."
         },
         {
           "de": "Ressourcenallokation",
@@ -4056,7 +4056,7 @@
           "plural": "Ressourcenallokationen",
           "type": "n",
           "en": "Allocazione delle risorse",
-          "exampleEn": "L'allocazione delle risorse è centrale."
+          "exampleEn": "Resource allocation is central."
         },
         {
           "de": "ökonomisch",
@@ -4067,7 +4067,7 @@
           "plural": null,
           "type": "adj",
           "en": "Economico",
-          "exampleEn": "Questa è un'analisi economica."
+          "exampleEn": "This is an economic analysis."
         },
         {
           "de": "theoretisch",
@@ -4078,7 +4078,7 @@
           "plural": null,
           "type": "adj",
           "en": "Teorico",
-          "exampleEn": "Questo è un modello teorico."
+          "exampleEn": "This is a theoretical model."
         }
       ]
     }

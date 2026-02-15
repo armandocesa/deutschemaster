@@ -7,14 +7,14 @@
     "words": [
       {
         "german": "der Stein",
-        "italian": "la pietra",
+        "italian": "the pietra",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Sand",
-        "italian": "la sabbia",
+        "italian": "the sabbia",
         "article": "",
         "plural": "",
         "example": ""
@@ -29,7 +29,7 @@
     "words": [
       {
         "german": "der Mensch",
-        "italian": "l'essere umano",
+        "italian": "the essere umano",
         "article": "",
         "plural": "",
         "example": ""
@@ -43,14 +43,14 @@
       },
       {
         "german": "der Herr",
-        "italian": "il signore",
+        "italian": "the signore",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Dame",
-        "italian": "la signora",
+        "italian": "the signora",
         "article": "",
         "plural": "",
         "example": ""
@@ -71,7 +71,7 @@
       },
       {
         "german": "der Gast",
-        "italian": "l'ospite",
+        "italian": "the ospite",
         "article": "",
         "plural": "",
         "example": ""
@@ -86,35 +86,35 @@
     "words": [
       {
         "german": "das Fest",
-        "italian": "la festa",
+        "italian": "the holiday",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Party",
-        "italian": "la festa",
+        "italian": "the holiday",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Geburtstag",
-        "italian": "il compleanno",
+        "italian": "the compleanno",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "Weihnachten",
-        "italian": "il Natale",
+        "italian": "the Christmas",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "Ostern",
-        "italian": "la Pasqua",
+        "italian": "the Easter",
         "article": "",
         "plural": "",
         "example": ""
@@ -171,7 +171,7 @@
       },
       {
         "german": "der Fan",
-        "italian": "il tifoso",
+        "italian": "the tifoso",
         "article": "",
         "plural": "",
         "example": ""
@@ -185,14 +185,14 @@
       },
       {
         "german": "der Basketball",
-        "italian": "la pallacanestro",
+        "italian": "the pallacanestro",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Volleyball",
-        "italian": "la pallavolo",
+        "italian": "volleyball",
         "article": "",
         "plural": "",
         "example": ""
@@ -213,7 +213,7 @@
       },
       {
         "german": "schwimmen",
-        "italian": "nuotare",
+        "italian": "to swim",
         "article": "",
         "plural": "",
         "example": ""
@@ -270,14 +270,14 @@
     "words": [
       {
         "german": "das Hobby",
-        "italian": "l'hobby",
+        "italian": "the hobby",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Freizeit",
-        "italian": "il tempo libero",
+        "italian": "the tempo libero",
         "article": "",
         "plural": "",
         "example": ""
@@ -291,7 +291,7 @@
       },
       {
         "german": "tanzen",
-        "italian": "ballare",
+        "italian": "to dance",
         "article": "",
         "plural": "",
         "example": ""
@@ -319,14 +319,14 @@
       },
       {
         "german": "das Videospiel",
-        "italian": "il videogioco",
+        "italian": "the videogioco",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Computerspiel",
-        "italian": "il gioco per computer",
+        "italian": "the gioco per computer",
         "article": "",
         "plural": "",
         "example": ""
@@ -376,49 +376,49 @@
     "words": [
       {
         "german": "der PC",
-        "italian": "il PC",
+        "italian": "the PC",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Tablet",
-        "italian": "il tablet",
+        "italian": "the tablet",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Monitor",
-        "italian": "il monitor",
+        "italian": "the monitor",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Taste",
-        "italian": "il tasto",
+        "italian": "the tasto",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Kopfhörer",
-        "italian": "le cuffie",
+        "italian": "the cuffie",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der USB-Stick",
-        "italian": "la chiavetta USB",
+        "italian": "the chiavetta USB",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Kabel",
-        "italian": "il cavo",
+        "italian": "the cavo",
         "article": "",
         "plural": "",
         "example": ""
@@ -433,56 +433,56 @@
     "words": [
       {
         "german": "das Programm",
-        "italian": "il programma",
+        "italian": "the programma",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Datei",
-        "italian": "il file",
+        "italian": "the file",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Text",
-        "italian": "il testo",
+        "italian": "the testo",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Video",
-        "italian": "il video",
+        "italian": "the video",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "einfügen",
-        "italian": "incollare",
+        "italian": "to glue",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "starten",
-        "italian": "avviare",
+        "italian": "to start",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "einschalten",
-        "italian": "accendere",
+        "italian": "entzuenden",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "ausschalten",
-        "italian": "spegnere",
+        "italian": "to turn off",
         "article": "",
         "plural": "",
         "example": ""
@@ -497,14 +497,14 @@
     "words": [
       {
         "german": "das Netz",
-        "italian": "la rete",
+        "italian": "network",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das WLAN",
-        "italian": "il WiFi",
+        "italian": "the WiFi",
         "article": "",
         "plural": "",
         "example": ""
@@ -525,7 +525,7 @@
       },
       {
         "german": "die Mail",
-        "italian": "l'email",
+        "italian": "the email",
         "article": "",
         "plural": "",
         "example": ""
@@ -547,56 +547,56 @@
     "words": [
       {
         "german": "das Smartphone",
-        "italian": "lo smartphone",
+        "italian": "the smartphone",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Handy",
-        "italian": "il cellulare",
+        "italian": "the cellulare",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Foto",
-        "italian": "la foto",
+        "italian": "the foto",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Selfie",
-        "italian": "il selfie",
+        "italian": "the selfie",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "anrufen",
-        "italian": "chiamare",
+        "italian": "to call",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Anruf",
-        "italian": "la chiamata",
+        "italian": "the chiamata",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die SMS",
-        "italian": "l'SMS",
+        "italian": "the SMS",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Wecker",
-        "italian": "la sveglia",
+        "italian": "the sveglia",
         "article": "",
         "plural": "",
         "example": ""
@@ -611,7 +611,7 @@
     "words": [
       {
         "german": "der Fehler",
-        "italian": "l'errore",
+        "italian": "the errore",
         "article": "",
         "plural": "",
         "example": ""
@@ -626,7 +626,7 @@
     "words": [
       {
         "german": "das Auto",
-        "italian": "l'auto",
+        "italian": "the auto",
         "article": "",
         "plural": "",
         "example": ""
@@ -661,7 +661,7 @@
       },
       {
         "german": "das Rad",
-        "italian": "la bici",
+        "italian": "the bici",
         "article": "",
         "plural": "",
         "example": ""
@@ -682,14 +682,14 @@
       },
       {
         "german": "die U-Bahn",
-        "italian": "la metropolitana",
+        "italian": "the metropolitana",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Taxi",
-        "italian": "il taxi",
+        "italian": "the taxi",
         "article": "",
         "plural": "",
         "example": ""
@@ -710,7 +710,7 @@
       },
       {
         "german": "das Boot",
-        "italian": "la barca",
+        "italian": "the barca",
         "article": "",
         "plural": "",
         "example": ""
@@ -725,14 +725,14 @@
     "words": [
       {
         "german": "fahren",
-        "italian": "guidare/andare",
+        "italian": "to drive",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Ampel",
-        "italian": "il semaforo",
+        "italian": "the semaforo",
         "article": "",
         "plural": "",
         "example": ""
@@ -754,7 +754,7 @@
       },
       {
         "german": "die Haltestelle",
-        "italian": "la fermata",
+        "italian": "the fermata",
         "article": "",
         "plural": "",
         "example": ""
@@ -783,14 +783,14 @@
       },
       {
         "german": "das Gepäck",
-        "italian": "il bagaglio",
+        "italian": "the luggage",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Flug",
-        "italian": "il volo",
+        "italian": "the volo",
         "article": "",
         "plural": "",
         "example": ""
@@ -805,28 +805,28 @@
     "words": [
       {
         "german": "der Tourist",
-        "italian": "il turista",
+        "italian": "the turista",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "das Hotel",
-        "italian": "l'hotel",
+        "italian": "the hotel",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Berge",
-        "italian": "le montagne",
+        "italian": "the montagne",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "der Zoo",
-        "italian": "lo zoo",
+        "italian": "the zoo",
         "article": "",
         "plural": "",
         "example": ""
@@ -840,7 +840,7 @@
       },
       {
         "german": "die Touristin",
-        "italian": "la turista",
+        "italian": "the turista",
         "article": "",
         "plural": "",
         "example": ""
@@ -862,14 +862,14 @@
       },
       {
         "german": "das Dorf",
-        "italian": "il villaggio",
+        "italian": "the villaggio",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "die Hauptstadt",
-        "italian": "la capitale",
+        "italian": "the capitale",
         "article": "",
         "plural": "",
         "example": ""
@@ -912,7 +912,7 @@
       },
       {
         "german": "reden über",
-        "italian": "parlare di",
+        "italian": "to talk about",
         "article": "",
         "plural": "",
         "example": ""
@@ -971,7 +971,7 @@
     "words": [
       {
         "german": "ausmachen",
-        "italian": "spegnere",
+        "italian": "to turn off",
         "article": "",
         "plural": "",
         "example": ""
@@ -1006,7 +1006,7 @@
       },
       {
         "german": "werden",
-        "italian": "diventare",
+        "italian": "to become",
         "article": "",
         "plural": "",
         "example": ""

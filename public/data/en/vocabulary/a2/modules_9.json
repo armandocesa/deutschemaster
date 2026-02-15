@@ -7,21 +7,21 @@
     "words": [
       {
         "german": "Flug",
-        "italian": "volo",
+        "italian": "flight",
         "article": "der",
         "plural": "Flüge",
         "example": ""
       },
       {
         "german": "Abflug",
-        "italian": "decollo/partenza",
+        "italian": "takeoff/departure",
         "article": "der",
         "plural": "Abflüge",
         "example": ""
       },
       {
         "german": "Landung",
-        "italian": "atterraggio",
+        "italian": "landing",
         "article": "die",
         "plural": "-en",
         "example": ""
@@ -35,70 +35,70 @@
       },
       {
         "german": "Boarding",
-        "italian": "imbarco",
+        "italian": "boarding",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Gepäck",
-        "italian": "bagaglio",
+        "italian": "luggage",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Handgepäck",
-        "italian": "bagaglio a mano",
+        "italian": "hand luggage",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Sicherheitskontrolle",
-        "italian": "controllo sicurezza",
+        "italian": "security check",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Bordkarte",
-        "italian": "carta d'imbarco",
+        "italian": "boarding pass",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Anschlussflug",
-        "italian": "coincidenza",
+        "italian": "connection",
         "article": "der",
         "plural": "Anschlussflüge",
         "example": ""
       },
       {
         "german": "Zoll",
-        "italian": "dogana",
+        "italian": "customs",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Passagier",
-        "italian": "passeggero",
+        "italian": "passenger",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Steward",
-        "italian": "assistente di volo (m.)",
+        "italian": "flight attendant (male)",
         "article": "der",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Stewardess",
-        "italian": "assistente di volo (f.)",
+        "italian": "flight attendant (female)",
         "article": "die",
         "plural": "-en",
         "example": ""
@@ -113,35 +113,35 @@
     "words": [
       {
         "german": "Bauchschmerzen",
-        "italian": "mal di pancia",
+        "italian": "stomach ache",
         "article": "die (Pl.)",
         "plural": "",
         "example": ""
       },
       {
         "german": "Rückenschmerzen",
-        "italian": "mal di schiena",
+        "italian": "back pain",
         "article": "die (Pl.)",
         "plural": "",
         "example": ""
       },
       {
         "german": "Halsschmerzen",
-        "italian": "mal di gola",
+        "italian": "sore throat",
         "article": "die (Pl.)",
         "plural": "",
         "example": ""
       },
       {
         "german": "Zahnschmerzen",
-        "italian": "mal di denti",
+        "italian": "toothache",
         "article": "die (Pl.)",
         "plural": "",
         "example": ""
       },
       {
         "german": "Durchfall",
-        "italian": "diarrea",
+        "italian": "diarrhea",
         "article": "der",
         "plural": "",
         "example": ""
@@ -155,63 +155,63 @@
       },
       {
         "german": "Allergie",
-        "italian": "allergia",
+        "italian": "allergy",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Blutdruck",
-        "italian": "pressione sanguigna",
+        "italian": "blood pressure",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Untersuchung",
-        "italian": "visita/esame",
+        "italian": "examination/check-up",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Spritze",
-        "italian": "iniezione/siringa",
+        "italian": "injection/syringe",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Verband",
-        "italian": "benda/fasciatura",
+        "italian": "bandage/dressing",
         "article": "der",
         "plural": "Verbände",
         "example": ""
       },
       {
         "german": "Pflaster",
-        "italian": "cerotto",
+        "italian": "band-aid",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Salbe",
-        "italian": "pomata",
+        "italian": "ointment",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Tropfen",
-        "italian": "gocce",
+        "italian": "drops",
         "article": "die (Pl.)",
         "plural": "",
         "example": ""
       },
       {
         "german": "Krankmeldung",
-        "italian": "certificato malattia",
+        "italian": "sick note",
         "article": "die",
         "plural": "-en",
         "example": ""
@@ -240,7 +240,7 @@
       },
       {
         "german": "Nachricht",
-        "italian": "messaggio",
+        "italian": "message",
         "article": "die",
         "plural": "-en",
         "example": ""
@@ -254,14 +254,14 @@
       },
       {
         "german": "Bildschirm",
-        "italian": "schermo",
+        "italian": "screen",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Tastatur",
-        "italian": "tastiera",
+        "italian": "keyboard",
         "article": "die",
         "plural": "-en",
         "example": ""
@@ -275,7 +275,7 @@
       },
       {
         "german": "Drucker",
-        "italian": "stampante",
+        "italian": "printer",
         "article": "der",
         "plural": "-",
         "example": ""
@@ -289,21 +289,21 @@
       },
       {
         "german": "Handy",
-        "italian": "cellulare",
+        "italian": "mobile phone",
         "article": "das",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Ladegerät",
-        "italian": "caricabatterie",
+        "italian": "charger",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Akku",
-        "italian": "batteria",
+        "italian": "drums",
         "article": "der",
         "plural": "-s",
         "example": ""
@@ -325,14 +325,14 @@
     "words": [
       {
         "german": "Fußball",
-        "italian": "calcio",
+        "italian": "soccer",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Basketball",
-        "italian": "pallacanestro",
+        "italian": "basketball",
         "article": "der",
         "plural": "",
         "example": ""
@@ -346,14 +346,14 @@
       },
       {
         "german": "Volleyball",
-        "italian": "pallavolo",
+        "italian": "volleyball",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Radfahren",
-        "italian": "ciclismo",
+        "italian": "cycling",
         "article": "das",
         "plural": "",
         "example": ""
@@ -374,49 +374,49 @@
       },
       {
         "german": "Mannschaft",
-        "italian": "squadra",
+        "italian": "team",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Spiel",
-        "italian": "partita/gioco",
+        "italian": "match/game",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Wettkampf",
-        "italian": "gara",
+        "italian": "competition",
         "article": "der",
         "plural": "Wettkämpfe",
         "example": ""
       },
       {
         "german": "Tor",
-        "italian": "gol/porta",
+        "italian": "goal/door",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Schiedsrichter",
-        "italian": "arbitro",
+        "italian": "referee",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Gewinner",
-        "italian": "vincitore",
+        "italian": "winner",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Verlierer",
-        "italian": "perdente",
+        "italian": "loser",
         "article": "der",
         "plural": "-",
         "example": ""
@@ -431,77 +431,77 @@
     "words": [
       {
         "german": "Geburtstag",
-        "italian": "compleanno",
+        "italian": "birthday",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Hochzeit",
-        "italian": "matrimonio",
+        "italian": "wedding",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Taufe",
-        "italian": "battesimo",
+        "italian": "baptism",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Geschenk",
-        "italian": "regalo",
+        "italian": "gift",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Kerze",
-        "italian": "candela",
+        "italian": "candle",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Feuerwerk",
-        "italian": "fuochi d'artificio",
+        "italian": "fireworks",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Weihnachtsbaum",
-        "italian": "albero di Natale",
+        "italian": "Christmas tree",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Osterei",
-        "italian": "uovo di Pasqua",
+        "italian": "Easter egg",
         "article": "das",
         "plural": "-er",
         "example": ""
       },
       {
         "german": "Kuchen",
-        "italian": "torta",
+        "italian": "cake",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Einladung",
-        "italian": "invito",
+        "italian": "invitation",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Feier",
-        "italian": "festa/celebrazione",
+        "italian": "party/celebration",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -523,35 +523,35 @@
     "words": [
       {
         "german": "Konto",
-        "italian": "conto",
+        "italian": "account",
         "article": "das",
         "plural": "Konten",
         "example": ""
       },
       {
         "german": "Girokonto",
-        "italian": "conto corrente",
+        "italian": "checking account",
         "article": "das",
         "plural": "Girokonten",
         "example": ""
       },
       {
         "german": "Sparkonto",
-        "italian": "conto risparmio",
+        "italian": "savings account",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Überweisung",
-        "italian": "bonifico",
+        "italian": "transfer",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Geldautomat",
-        "italian": "bancomat",
+        "italian": "ATM",
         "article": "der",
         "plural": "-en",
         "example": ""
@@ -565,84 +565,84 @@
       },
       {
         "german": "Kredit",
-        "italian": "credito",
+        "italian": "credit",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Schulden",
-        "italian": "debiti",
+        "italian": "debts",
         "article": "die (Pl.)",
         "plural": "",
         "example": ""
       },
       {
         "german": "Zinsen",
-        "italian": "interessi",
+        "italian": "interest",
         "article": "die (Pl.)",
         "plural": "",
         "example": ""
       },
       {
         "german": "Gebühr",
-        "italian": "commissione/tassa",
+        "italian": "fee/commission",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Brief",
-        "italian": "lettera",
+        "italian": "letter",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Paket",
-        "italian": "pacco",
+        "italian": "package",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Briefmarke",
-        "italian": "francobollo",
+        "italian": "stamp",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Briefkasten",
-        "italian": "cassetta postale",
+        "italian": "mailbox",
         "article": "der",
         "plural": "Briefkästen",
         "example": ""
       },
       {
         "german": "Empfänger",
-        "italian": "destinatario",
+        "italian": "recipient",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Absender",
-        "italian": "mittente",
+        "italian": "sender",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Einschreiben",
-        "italian": "raccomandata",
+        "italian": "registered mail",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Porto",
-        "italian": "spese postali",
+        "italian": "postage",
         "article": "das",
         "plural": "",
         "example": ""
@@ -657,112 +657,112 @@
     "words": [
       {
         "german": "Freude",
-        "italian": "gioia",
+        "italian": "joy",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Trauer",
-        "italian": "tristezza",
+        "italian": "sadness",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Angst",
-        "italian": "paura",
+        "italian": "fear",
         "article": "die",
         "plural": "Ängste",
         "example": ""
       },
       {
         "german": "Wut",
-        "italian": "rabbia",
+        "italian": "anger",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Liebe",
-        "italian": "amore",
+        "italian": "love",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Hass",
-        "italian": "odio",
+        "italian": "hate",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Hoffnung",
-        "italian": "speranza",
+        "italian": "hope",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Sehnsucht",
-        "italian": "nostalgia",
+        "italian": "homesickness",
         "article": "die",
         "plural": "Sehnsüchte",
         "example": ""
       },
       {
         "german": "Mitleid",
-        "italian": "compassione",
+        "italian": "compassion",
         "article": "das",
         "plural": "",
         "example": ""
       },
       {
         "german": "Scham",
-        "italian": "vergogna",
+        "italian": "shame",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Eifersucht",
-        "italian": "gelosia",
+        "italian": "jealousy",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Neid",
-        "italian": "invidia",
+        "italian": "envy",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Begeisterung",
-        "italian": "entusiasmo",
+        "italian": "enthusiasm",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Langeweile",
-        "italian": "noia",
+        "italian": "boredom",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Erleichterung",
-        "italian": "sollievo",
+        "italian": "relief",
         "article": "die",
         "plural": "",
         "example": ""
       },
       {
         "german": "Verzweiflung",
-        "italian": "disperazione",
+        "italian": "despair",
         "article": "die",
         "plural": "",
         "example": ""
@@ -777,63 +777,63 @@
     "words": [
       {
         "german": "Pfanne",
-        "italian": "padella",
+        "italian": "pan",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Topf",
-        "italian": "pentola",
+        "italian": "pot",
         "article": "der",
         "plural": "Töpfe",
         "example": ""
       },
       {
         "german": "Schüssel",
-        "italian": "ciotola",
+        "italian": "bowl",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Teller",
-        "italian": "piatto",
+        "italian": "plate",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Gabel",
-        "italian": "forchetta",
+        "italian": "fork",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Messer",
-        "italian": "coltello",
+        "italian": "knife",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Löffel",
-        "italian": "cucchiaio",
+        "italian": "spoon",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Glas",
-        "italian": "bicchiere",
+        "italian": "glass",
         "article": "das",
         "plural": "Gläser",
         "example": ""
       },
       {
         "german": "Tasse",
-        "italian": "tazza",
+        "italian": "cup",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -848,126 +848,126 @@
     "words": [
       {
         "german": "Büro",
-        "italian": "ufficio",
+        "italian": "office",
         "article": "das",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Chef",
-        "italian": "capo",
+        "italian": "boss",
         "article": "der",
         "plural": "-s",
         "example": ""
       },
       {
         "german": "Kollege",
-        "italian": "collega (m.)",
+        "italian": "colleague (male)",
         "article": "der",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Kollegin",
-        "italian": "collega (f.)",
+        "italian": "colleague (female)",
         "article": "die",
         "plural": "-nen",
         "example": ""
       },
       {
         "german": "Besprechung",
-        "italian": "riunione",
+        "italian": "meeting",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Projekt",
-        "italian": "progetto",
+        "italian": "project",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Aufgabe",
-        "italian": "compito",
+        "italian": "task",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Frist",
-        "italian": "scadenza",
+        "italian": "deadline",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Gehalt",
-        "italian": "stipendio",
+        "italian": "salary",
         "article": "das",
         "plural": "Gehälter",
         "example": ""
       },
       {
         "german": "Vertrag",
-        "italian": "contratto",
+        "italian": "contract",
         "article": "der",
         "plural": "Verträge",
         "example": ""
       },
       {
         "german": "Bewerbung",
-        "italian": "candidatura",
+        "italian": "application",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Lebenslauf",
-        "italian": "curriculum",
+        "italian": "resume",
         "article": "der",
         "plural": "Lebensläufe",
         "example": ""
       },
       {
         "german": "Vorstellungsgespräch",
-        "italian": "colloquio di lavoro",
+        "italian": "job interview",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Kündigung",
-        "italian": "licenziamento/dimissioni",
+        "italian": "dismissal/resignation",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Überstunde",
-        "italian": "straordinario",
+        "italian": "overtime",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Feierabend",
-        "italian": "fine della giornata lavorativa",
+        "italian": "end of working day",
         "article": "der",
         "plural": "",
         "example": ""
       },
       {
         "german": "Urlaub nehmen",
-        "italian": "prendere ferie",
+        "italian": "to take vacation",
         "article": "",
         "plural": "",
         "example": ""
       },
       {
         "german": "Dienstreise",
-        "italian": "viaggio di lavoro",
+        "italian": "business trip",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -982,140 +982,140 @@
     "words": [
       {
         "german": "Hund",
-        "italian": "cane",
+        "italian": "dog",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Katze",
-        "italian": "gatto",
+        "italian": "cat",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Pferd",
-        "italian": "cavallo",
+        "italian": "horse",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Kuh",
-        "italian": "mucca",
+        "italian": "cow",
         "article": "die",
         "plural": "Kühe",
         "example": ""
       },
       {
         "german": "Schwein",
-        "italian": "maiale",
+        "italian": "pig",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Schaf",
-        "italian": "pecora",
+        "italian": "sheep",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Ziege",
-        "italian": "capra",
+        "italian": "goat",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Huhn",
-        "italian": "gallina",
+        "italian": "chicken",
         "article": "das",
         "plural": "Hühner",
         "example": ""
       },
       {
         "german": "Ente",
-        "italian": "anatra",
+        "italian": "duck",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Vogel",
-        "italian": "uccello",
+        "italian": "bird",
         "article": "der",
         "plural": "Vögel",
         "example": ""
       },
       {
         "german": "Adler",
-        "italian": "aquila",
+        "italian": "eagle",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Bär",
-        "italian": "orso",
+        "italian": "bear",
         "article": "der",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Wolf",
-        "italian": "lupo",
+        "italian": "wolf",
         "article": "der",
         "plural": "Wölfe",
         "example": ""
       },
       {
         "german": "Fuchs",
-        "italian": "volpe",
+        "italian": "fox",
         "article": "der",
         "plural": "Füchse",
         "example": ""
       },
       {
         "german": "Hase",
-        "italian": "lepre",
+        "italian": "hare",
         "article": "der",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Schlange",
-        "italian": "serpente",
+        "italian": "snake",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Frosch",
-        "italian": "rana",
+        "italian": "frog",
         "article": "der",
         "plural": "Frösche",
         "example": ""
       },
       {
         "german": "Schmetterling",
-        "italian": "farfalla",
+        "italian": "butterfly",
         "article": "der",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Biene",
-        "italian": "ape",
+        "italian": "bee",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Ameise",
-        "italian": "formica",
+        "italian": "ant",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -1137,77 +1137,77 @@
       },
       {
         "german": "Lied",
-        "italian": "canzone",
+        "italian": "song",
         "article": "das",
         "plural": "-er",
         "example": ""
       },
       {
         "german": "Konzert",
-        "italian": "concerto",
+        "italian": "concert",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Instrument",
-        "italian": "strumento",
+        "italian": "instrument",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Gitarre",
-        "italian": "chitarra",
+        "italian": "guitar",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Klavier",
-        "italian": "pianoforte",
+        "italian": "piano",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Geige",
-        "italian": "violino",
+        "italian": "violin",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Flöte",
-        "italian": "flauto",
+        "italian": "flute",
         "article": "die",
         "plural": "-n",
         "example": ""
       },
       {
         "german": "Schlagzeug",
-        "italian": "batteria",
+        "italian": "drums",
         "article": "das",
         "plural": "-e",
         "example": ""
       },
       {
         "german": "Sänger",
-        "italian": "cantante (m.)",
+        "italian": "singer (male)",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Sängerin",
-        "italian": "cantante (f.)",
+        "italian": "singer (female)",
         "article": "die",
         "plural": "-nen",
         "example": ""
       },
       {
         "german": "Chor",
-        "italian": "coro",
+        "italian": "choir",
         "article": "der",
         "plural": "Chöre",
         "example": ""
@@ -1228,35 +1228,35 @@
       },
       {
         "german": "Maler",
-        "italian": "pittore",
+        "italian": "painter",
         "article": "der",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Gemälde",
-        "italian": "dipinto",
+        "italian": "painting",
         "article": "das",
         "plural": "-",
         "example": ""
       },
       {
         "german": "Skulptur",
-        "italian": "scultura",
+        "italian": "sculpture",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Ausstellung",
-        "italian": "mostra",
+        "italian": "exhibition",
         "article": "die",
         "plural": "-en",
         "example": ""
       },
       {
         "german": "Galerie",
-        "italian": "galleria",
+        "italian": "gallery",
         "article": "die",
         "plural": "-n",
         "example": ""
@@ -1271,49 +1271,49 @@
     "words": [
       {
         "german": "die Vorhersage",
-        "italian": "la previsione",
+        "italian": "the forecast",
         "article": "die",
         "plural": "Vorhersagen",
         "example": "Die Vorhersage sagt Regen."
       },
       {
         "german": "der Niederschlag",
-        "italian": "le precipitazioni",
+        "italian": "the precipitation",
         "article": "der",
         "plural": "Niederschläge",
         "example": "Morgen gibt es Niederschlag."
       },
       {
         "german": "das Hochdruckgebiet",
-        "italian": "l'alta pressione",
+        "italian": "the high pressure",
         "article": "das",
         "plural": "Hochdruckgebiete",
         "example": "Ein Hochdruckgebiet kommt."
       },
       {
         "german": "das Tiefdruckgebiet",
-        "italian": "la bassa pressione",
+        "italian": "the low pressure",
         "article": "das",
         "plural": "Tiefdruckgebiete",
         "example": "Ein Tiefdruckgebiet bringt Regen."
       },
       {
         "german": "die Windstärke",
-        "italian": "la forza del vento",
+        "italian": "the wind force",
         "article": "die",
         "plural": "",
         "example": "Windstärke 5 ist stark."
       },
       {
         "german": "die Böe",
-        "italian": "la raffica",
+        "italian": "the gust",
         "article": "die",
         "plural": "Böen",
         "example": "Starke Böen kommen."
       },
       {
         "german": "der Wetterbericht",
-        "italian": "il bollettino meteorologico",
+        "italian": "the weather report",
         "article": "der",
         "plural": "Wetterberichte",
         "example": "Hör den Wetterbericht."
@@ -1328,28 +1328,28 @@
     "words": [
       {
         "german": "die Umleitung",
-        "italian": "la deviazione",
+        "italian": "the deviation",
         "article": "die",
         "plural": "Umleitungen",
         "example": "Folge der Umleitung."
       },
       {
         "german": "anschnallen",
-        "italian": "allacciare la cintura",
+        "italian": "to fasten the seatbelt",
         "article": "",
         "plural": "",
         "example": "Bitte anschnallen."
       },
       {
         "german": "das Parkverbot",
-        "italian": "il divieto di sosta",
+        "italian": "the parking ban",
         "article": "das",
         "plural": "Parkverbote",
         "example": "Hier ist Parkverbot."
       },
       {
         "german": "die Ausfahrt",
-        "italian": "l'uscita",
+        "italian": "exit",
         "article": "die",
         "plural": "Ausfahrten",
         "example": "Die nächste Ausfahrt nehmen."
@@ -1364,42 +1364,42 @@
     "words": [
       {
         "german": "der Fliesenleger",
-        "italian": "il piastrellista",
+        "italian": "the tiler",
         "article": "der",
         "plural": "Fliesenleger",
         "example": "Der Fliesenleger legt Fliesen."
       },
       {
         "german": "der Glaser",
-        "italian": "il vetraio",
+        "italian": "the glazier",
         "article": "der",
         "plural": "Glaser",
         "example": "Der Glaser ersetzt das Glas."
       },
       {
         "german": "der Schornsteinfeger",
-        "italian": "lo spazzacamino",
+        "italian": "the chimney sweep",
         "article": "der",
         "plural": "Schornsteinfeger",
         "example": "Der Schornsteinfeger kommt."
       },
       {
         "german": "der Kostenvoranschlag",
-        "italian": "il preventivo",
+        "italian": "the estimate",
         "article": "der",
         "plural": "Kostenvoranschläge",
         "example": "Ich brauche einen Kostenvoranschlag."
       },
       {
         "german": "montieren",
-        "italian": "montare",
+        "italian": "to edit",
         "article": "",
         "plural": "",
         "example": "Er montiert den Schrank."
       },
       {
         "german": "der Handwerker",
-        "italian": "l'artigiano",
+        "italian": "the craftsman",
         "article": "der",
         "plural": "Handwerker",
         "example": "Ich rufe den Handwerker."
@@ -1414,105 +1414,105 @@
     "words": [
       {
         "german": "das Vollkornbrot",
-        "italian": "il pane integrale",
+        "italian": "the whole wheat bread",
         "article": "das",
         "plural": "Vollkornbrote",
         "example": "Vollkornbrot ist gesund."
       },
       {
         "german": "das Eiweiß",
-        "italian": "le proteine",
+        "italian": "the proteins",
         "article": "das",
         "plural": "",
         "example": "Fisch enthält viel Eiweiß."
       },
       {
         "german": "das Fett",
-        "italian": "il grasso",
+        "italian": "the fat",
         "article": "das",
         "plural": "Fette",
         "example": "Zu viel Fett ist ungesund."
       },
       {
         "german": "die Kohlenhydrate",
-        "italian": "i carboidrati",
+        "italian": "the carbohydrates",
         "article": "die",
         "plural": "",
         "example": "Nudeln haben Kohlenhydrate."
       },
       {
         "german": "die Ballaststoffe",
-        "italian": "le fibre",
+        "italian": "the fiber",
         "article": "die",
         "plural": "",
         "example": "Gemüse hat Ballaststoffe."
       },
       {
         "german": "die Kalorie",
-        "italian": "la caloria",
+        "italian": "the calorie",
         "article": "die",
         "plural": "Kalorien",
         "example": "Wie viele Kalorien hat das?"
       },
       {
         "german": "vegetarisch",
-        "italian": "vegetariano",
+        "italian": "vegetarian",
         "article": "",
         "plural": "",
         "example": "Ich esse vegetarisch."
       },
       {
         "german": "vegan",
-        "italian": "vegano",
+        "italian": "vegan",
         "article": "",
         "plural": "",
         "example": "Sie lebt vegan."
       },
       {
         "german": "laktosefrei",
-        "italian": "senza lattosio",
+        "italian": "lactose-free",
         "article": "",
         "plural": "",
         "example": "Ich trinke laktosefreie Milch."
       },
       {
         "german": "glutenfrei",
-        "italian": "senza glutine",
+        "italian": "gluten-free",
         "article": "",
         "plural": "",
         "example": "Gibt es glutenfreies Brot?"
       },
       {
         "german": "die Diät",
-        "italian": "la dieta",
+        "italian": "the diet",
         "article": "die",
         "plural": "Diäten",
         "example": "Ich mache eine Diät."
       },
       {
         "german": "die Nährstoffe",
-        "italian": "i nutrienti",
+        "italian": "the nutrients",
         "article": "die",
         "plural": "",
         "example": "Obst hat viele Nährstoffe."
       },
       {
         "german": "die Vollwertkost",
-        "italian": "l'alimentazione integrale",
+        "italian": "the whole food diet",
         "article": "die",
         "plural": "",
         "example": "Vollwertkost ist gesund."
       },
       {
         "german": "das Nahrungsergänzungsmittel",
-        "italian": "l'integratore alimentare",
+        "italian": "the dietary supplement",
         "article": "das",
         "plural": "",
         "example": "Er nimmt Nahrungsergänzungsmittel."
       },
       {
         "german": "die Unverträglichkeit",
-        "italian": "l'intolleranza",
+        "italian": "the intoleranz",
         "article": "die",
         "plural": "Unverträglichkeiten",
         "example": "Ich habe eine Laktoseunverträglichkeit."
@@ -1527,56 +1527,56 @@
     "words": [
       {
         "german": "das Aufwärmen",
-        "italian": "il riscaldamento",
+        "italian": "the warm-up",
         "article": "das",
         "plural": "",
         "example": "Aufwärmen ist wichtig."
       },
       {
         "german": "die Ausdauer",
-        "italian": "la resistenza",
+        "italian": "resistance",
         "article": "die",
         "plural": "",
         "example": "Laufen verbessert die Ausdauer."
       },
       {
         "german": "die Bewegung",
-        "italian": "il movimento",
+        "italian": "the movement",
         "article": "die",
         "plural": "Bewegungen",
         "example": "Bewegung ist gesund."
       },
       {
         "german": "die Frisur",
-        "italian": "la pettinatura",
+        "italian": "the hairstyle",
         "article": "die",
         "plural": "Frisuren",
         "example": "Deine Frisur ist schön."
       },
       {
         "german": "die Hantel",
-        "italian": "il manubrio",
+        "italian": "the dumbbell",
         "article": "die",
         "plural": "Hanteln",
         "example": "Er trainiert mit Hanteln."
       },
       {
         "german": "das Laufband",
-        "italian": "il tapis roulant",
+        "italian": "the treadmill",
         "article": "das",
         "plural": "Laufbänder",
         "example": "Ich laufe auf dem Laufband."
       },
       {
         "german": "der Heimtrainer",
-        "italian": "la cyclette",
+        "italian": "the stationary bike",
         "article": "der",
         "plural": "Heimtrainer",
         "example": "Er fährt auf dem Heimtrainer."
       },
       {
         "german": "der Yoga",
-        "italian": "lo yoga",
+        "italian": "the yoga",
         "article": "der",
         "plural": "",
         "example": "Ich mache Yoga."
@@ -1591,49 +1591,49 @@
     "words": [
       {
         "german": "der Möbelwagen",
-        "italian": "il camion del trasloco",
+        "italian": "the moving truck",
         "article": "der",
         "plural": "Möbelwagen",
         "example": "Der Möbelwagen kommt."
       },
       {
         "german": "die Miete",
-        "italian": "l'affitto",
+        "italian": "the rent",
         "article": "die",
         "plural": "Mieten",
         "example": "Die Miete ist teuer."
       },
       {
         "german": "die Nebenkosten",
-        "italian": "le spese condominiali",
+        "italian": "the condo fees",
         "article": "die",
         "plural": "",
         "example": "Die Nebenkosten steigen."
       },
       {
         "german": "die Anmeldung",
-        "italian": "la registrazione",
+        "italian": "die registrierung",
         "article": "die",
         "plural": "",
         "example": "Die Anmeldung ist Pflicht."
       },
       {
         "german": "die Einweihungsfeier",
-        "italian": "la festa di inaugurazione",
+        "italian": "the housewarming party",
         "article": "die",
         "plural": "",
         "example": "Wir machen eine Einweihungsfeier."
       },
       {
         "german": "der Umzugshelfer",
-        "italian": "l'aiutante del trasloco",
+        "italian": "the moving helper",
         "article": "der",
         "plural": "Umzugshelfer",
         "example": "Ich brauche Umzugshelfer."
       },
       {
         "german": "die Meldebescheinigung",
-        "italian": "il certificato di residenza",
+        "italian": "the residence certificate",
         "article": "die",
         "plural": "",
         "example": "Ich brauche eine Meldebescheinigung."
@@ -1655,42 +1655,42 @@
     "words": [
       {
         "german": "das Strandtuch",
-        "italian": "il telo da mare",
+        "italian": "the beach towel",
         "article": "das",
         "plural": "Strandtücher",
         "example": "Ich lege das Strandtuch hin."
       },
       {
         "german": "der Rettungsschwimmer",
-        "italian": "il bagnino",
+        "italian": "the lifeguard",
         "article": "der",
         "plural": "",
         "example": "Der Rettungsschwimmer passt auf."
       },
       {
         "german": "die Brandung",
-        "italian": "le onde frangenti",
+        "italian": "the breaking waves",
         "article": "die",
         "plural": "",
         "example": "Die Brandung ist stark."
       },
       {
         "german": "die Sandbank",
-        "italian": "il banco di sabbia",
+        "italian": "the sandbank",
         "article": "die",
         "plural": "Sandbänke",
         "example": "Wir stehen auf einer Sandbank."
       },
       {
         "german": "das Schnorcheln",
-        "italian": "lo snorkeling",
+        "italian": "the snorkeling",
         "article": "das",
         "plural": "",
         "example": "Ich gehe schnorcheln."
       },
       {
         "german": "die Strandbar",
-        "italian": "il bar sulla spiaggia",
+        "italian": "the beach bar",
         "article": "die",
         "plural": "Strandbars",
         "example": "Wir trinken in der Strandbar."
@@ -1705,77 +1705,77 @@
     "words": [
       {
         "german": "die Isomatte",
-        "italian": "il materassino isolante",
+        "italian": "the sleeping mat",
         "article": "die",
         "plural": "Isomatten",
         "example": "Die Isomatte ist bequem."
       },
       {
         "german": "das Lagerfeuer",
-        "italian": "il fuoco da campo",
+        "italian": "the campfire",
         "article": "das",
         "plural": "",
         "example": "Wir machen ein Lagerfeuer."
       },
       {
         "german": "der Gaskocher",
-        "italian": "il fornello a gas",
+        "italian": "the camping stove",
         "article": "der",
         "plural": "Gaskocher",
         "example": "Wir kochen mit dem Gaskocher."
       },
       {
         "german": "die Kühlbox",
-        "italian": "la borsa frigo",
+        "italian": "the cooler bag",
         "article": "die",
         "plural": "Kühlboxen",
         "example": "Das Essen ist in der Kühlbox."
       },
       {
         "german": "das Taschenmesser",
-        "italian": "il coltellino",
+        "italian": "the pocket knife",
         "article": "das",
         "plural": "Taschenmesser",
         "example": "Ich habe ein Taschenmesser."
       },
       {
         "german": "der Kompass",
-        "italian": "la bussola",
+        "italian": "the compass",
         "article": "der",
         "plural": "Kompasse",
         "example": "Wir brauchen einen Kompass."
       },
       {
         "german": "die Trinkflasche",
-        "italian": "la borraccia",
+        "italian": "the water bottle",
         "article": "die",
         "plural": "Trinkflaschen",
         "example": "Nimm die Trinkflasche mit."
       },
       {
         "german": "das Insektenspray",
-        "italian": "lo spray antizanzare",
+        "italian": "the mosquito spray",
         "article": "das",
         "plural": "",
         "example": "Benutze Insektenspray."
       },
       {
         "german": "die Stirnlampe",
-        "italian": "la lampada frontale",
+        "italian": "the headlamp",
         "article": "die",
         "plural": "Stirnlampen",
         "example": "Nimm die Stirnlampe mit."
       },
       {
         "german": "der Zeltplatz",
-        "italian": "l'area campeggio",
+        "italian": "the camping area",
         "article": "der",
         "plural": "Zeltplätze",
         "example": "Der Zeltplatz ist ruhig."
       },
       {
         "german": "die Heringe",
-        "italian": "i picchetti",
+        "italian": "the tent pegs",
         "article": "die",
         "plural": "",
         "example": "Die Heringe halten das Zelt."

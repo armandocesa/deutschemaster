@@ -14,7 +14,8 @@
           "exampleEn": "Ho la febbre e mi sento male.",
           "article": "das",
           "plural": "Fieber",
-          "type": "n"
+          "type": "n",
+          "it": "Febbre"
         },
         {
           "de": "Schmerzen",
@@ -23,7 +24,8 @@
           "exampleEn": "Ho dolori alla spalla.",
           "article": "die",
           "plural": "Schmerzen",
-          "type": "n"
+          "type": "n",
+          "it": "Dolori"
         },
         {
           "de": "Erkältung",
@@ -32,7 +34,8 @@
           "exampleEn": "Un raffreddore è fastidioso.",
           "article": "die",
           "plural": "Erkältungen",
-          "type": "n"
+          "type": "n",
+          "it": "Raffreddore"
         },
         {
           "de": "Husten",
@@ -41,7 +44,8 @@
           "exampleEn": "La tosse è forte.",
           "article": "der",
           "plural": "Husten",
-          "type": "n"
+          "type": "n",
+          "it": "Tosse"
         },
         {
           "de": "Apotheke",
@@ -50,7 +54,8 @@
           "exampleEn": "Vado in farmacia.",
           "article": "die",
           "plural": "Apotheken",
-          "type": "n"
+          "type": "n",
+          "it": "Farmacia"
         },
         {
           "de": "Rezept",
@@ -59,7 +64,8 @@
           "exampleEn": "Il medico scrive una ricetta.",
           "article": "das",
           "plural": "Rezepte",
-          "type": "n"
+          "type": "n",
+          "it": "Ricetta"
         },
         {
           "de": "Tablette",
@@ -68,7 +74,8 @@
           "exampleEn": "Prendi una compressa per il mal di testa.",
           "article": "die",
           "plural": "Tabletten",
-          "type": "n"
+          "type": "n",
+          "it": "Compresse"
         },
         {
           "de": "Kopfschmerzen",
@@ -77,7 +84,8 @@
           "exampleEn": "Ho mal di testa.",
           "article": "die",
           "plural": "Kopfschmerzen",
-          "type": "n"
+          "type": "n",
+          "it": "Mal di testa"
         },
         {
           "de": "Zahnschmerzen",
@@ -86,7 +94,8 @@
           "exampleEn": "Il mal di denti è grave.",
           "article": "die",
           "plural": "Zahnschmerzen",
-          "type": "n"
+          "type": "n",
+          "it": "Mal di denti"
         },
         {
           "de": "Grippe",
@@ -95,7 +104,8 @@
           "exampleEn": "L'influenza è pericolosa.",
           "article": "die",
           "plural": "Grippen",
-          "type": "n"
+          "type": "n",
+          "it": "Influenza"
         },
         {
           "de": "Allergie",
@@ -104,7 +114,8 @@
           "exampleEn": "Ho un'allergia alle arachidi.",
           "article": "die",
           "plural": "Allergien",
-          "type": "n"
+          "type": "n",
+          "it": "Allergia"
         },
         {
           "de": "Verletzung",
@@ -113,7 +124,8 @@
           "exampleEn": "La ferita non è grave.",
           "article": "die",
           "plural": "Verletzungen",
-          "type": "n"
+          "type": "n",
+          "it": "Ferita"
         },
         {
           "de": "Injektion",
@@ -122,7 +134,8 @@
           "exampleEn": "L'iniezione fa male.",
           "article": "die",
           "plural": "Injektionen",
-          "type": "n"
+          "type": "n",
+          "it": "Iniezione"
         },
         {
           "de": "Krankenhaus",
@@ -131,7 +144,8 @@
           "exampleEn": "L'ospedale è moderno.",
           "article": "das",
           "plural": "Krankenhäuser",
-          "type": "n"
+          "type": "n",
+          "it": "Ospedale"
         },
         {
           "de": "Diagnose",
@@ -140,7 +154,8 @@
           "exampleEn": "La diagnosi è chiara.",
           "article": "die",
           "plural": "Diagnosen",
-          "type": "n"
+          "type": "n",
+          "it": "Diagnosi"
         },
         {
           "de": "Behandlung",
@@ -149,7 +164,8 @@
           "exampleEn": "Il trattamento aiuta.",
           "article": "die",
           "plural": "Behandlungen",
-          "type": "n"
+          "type": "n",
+          "it": "Trattamento"
         },
         {
           "de": "Arzt",
@@ -158,7 +174,8 @@
           "exampleEn": "Il medico mi esamina.",
           "article": "der",
           "plural": "Ärzte",
-          "type": "n"
+          "type": "n",
+          "it": "Medico"
         },
         {
           "de": "Krankenschwester",
@@ -167,7 +184,8 @@
           "exampleEn": "L'infermiera è gentile.",
           "article": "die",
           "plural": "Krankenschwestern",
-          "type": "n"
+          "type": "n",
+          "it": "Infermiera"
         }
       ]
     },
@@ -182,7 +200,8 @@
           "exampleEn": "Compro vestiti.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "comprare"
         },
         {
           "de": "verkaufen",
@@ -191,7 +210,8 @@
           "exampleEn": "Il negozio vende libri.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "vendere"
         },
         {
           "de": "bezahlen",
@@ -200,7 +220,8 @@
           "exampleEn": "Pago con la carta.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "pagare"
         },
         {
           "de": "Preis",
@@ -209,7 +230,8 @@
           "exampleEn": "Il prezzo è troppo alto.",
           "article": "der",
           "plural": "Preise",
-          "type": "n"
+          "type": "n",
+          "it": "Prezzo"
         },
         {
           "de": "Geld",
@@ -218,7 +240,8 @@
           "exampleEn": "Non ho abbastanza denaro.",
           "article": "das",
           "plural": "Gelder",
-          "type": "n"
+          "type": "n",
+          "it": "Denaro"
         },
         {
           "de": "teuer",
@@ -227,7 +250,8 @@
           "exampleEn": "Questa macchina è cara.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "caro"
         },
         {
           "de": "billig",
@@ -236,7 +260,8 @@
           "exampleEn": "Il pane è economico.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "economico"
         },
         {
           "de": "Kasse",
@@ -245,7 +270,8 @@
           "exampleEn": "La cassa è all'ingresso.",
           "article": "die",
           "plural": "Kassen",
-          "type": "n"
+          "type": "n",
+          "it": "Cassa"
         },
         {
           "de": "Angebot",
@@ -254,7 +280,8 @@
           "exampleEn": "L'offerta è interessante.",
           "article": "das",
           "plural": "Angebote",
-          "type": "n"
+          "type": "n",
+          "it": "Offerta"
         },
         {
           "de": "Rabatt",
@@ -263,7 +290,8 @@
           "exampleEn": "C'è uno sconto del 20%.",
           "article": "der",
           "plural": "Rabatte",
-          "type": "n"
+          "type": "n",
+          "it": "Sconto"
         },
         {
           "de": "Supermarkt",
@@ -272,7 +300,8 @@
           "exampleEn": "Il supermercato è grande.",
           "article": "der",
           "plural": "Supermärkte",
-          "type": "n"
+          "type": "n",
+          "it": "Supermercato"
         },
         {
           "de": "Laden",
@@ -281,7 +310,8 @@
           "exampleEn": "Il negozio chiude alle 18.",
           "article": "der",
           "plural": "Läden",
-          "type": "n"
+          "type": "n",
+          "it": "Negozio"
         },
         {
           "de": "Tasche",
@@ -290,7 +320,8 @@
           "exampleEn": "La borsa è piena.",
           "article": "die",
           "plural": "Taschen",
-          "type": "n"
+          "type": "n",
+          "it": "Borsa"
         },
         {
           "de": "Rechnuung",
@@ -299,7 +330,8 @@
           "exampleEn": "Il conto è 50 euro.",
           "article": "die",
           "plural": "Rechnungen",
-          "type": "n"
+          "type": "n",
+          "it": "Conto"
         },
         {
           "de": "Quittung",
@@ -308,7 +340,8 @@
           "exampleEn": "Ho bisogno di una ricevuta.",
           "article": "die",
           "plural": "Quittungen",
-          "type": "n"
+          "type": "n",
+          "it": "Ricevuta"
         },
         {
           "de": "Wechselgeld",
@@ -317,7 +350,8 @@
           "exampleEn": "Il resto non è corretto.",
           "article": "das",
           "plural": "Wechselgelder",
-          "type": "n"
+          "type": "n",
+          "it": "Resto"
         },
         {
           "de": "Kredit",
@@ -326,7 +360,8 @@
           "exampleEn": "Pago con credito.",
           "article": "der",
           "plural": "Kredite",
-          "type": "n"
+          "type": "n",
+          "it": "Credito"
         },
         {
           "de": "Banknote",
@@ -335,7 +370,8 @@
           "exampleEn": "Do una banconota.",
           "article": "die",
           "plural": "Banknoten",
-          "type": "n"
+          "type": "n",
+          "it": "Banconota"
         },
         {
           "de": "Münze",
@@ -344,7 +380,8 @@
           "exampleEn": "Ho solo monete.",
           "article": "die",
           "plural": "Münzen",
-          "type": "n"
+          "type": "n",
+          "it": "Moneta"
         }
       ]
     },
@@ -368,7 +405,8 @@
           "exampleEn": "Andiamo al cinema.",
           "article": "das",
           "plural": "Kinos",
-          "type": "n"
+          "type": "n",
+          "it": "Cinema"
         },
         {
           "de": "Museum",
@@ -377,7 +415,8 @@
           "exampleEn": "Il museo è interessante.",
           "article": "das",
           "plural": "Museen",
-          "type": "n"
+          "type": "n",
+          "it": "Museo"
         },
         {
           "de": "Konzert",
@@ -386,7 +425,8 @@
           "exampleEn": "Il concerto è domani.",
           "article": "das",
           "plural": "Konzerte",
-          "type": "n"
+          "type": "n",
+          "it": "Concerto"
         },
         {
           "de": "Theater",
@@ -395,7 +435,8 @@
           "exampleEn": "Andiamo a teatro.",
           "article": "das",
           "plural": "Theater",
-          "type": "n"
+          "type": "n",
+          "it": "Teatro"
         },
         {
           "de": "schwimmen",
@@ -404,7 +445,8 @@
           "exampleEn": "Mi piace nuotare.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "nuotare"
         },
         {
           "de": "tanzen",
@@ -413,7 +455,8 @@
           "exampleEn": "Balliamo fino a mezzanotte.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "ballare"
         },
         {
           "de": "singen",
@@ -422,7 +465,8 @@
           "exampleEn": "Mi piace cantare.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "cantare"
         },
         {
           "de": "spielen",
@@ -431,7 +475,8 @@
           "exampleEn": "Giochiamo a calcio.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "giocare"
         },
         {
           "de": "malen",
@@ -440,7 +485,8 @@
           "exampleEn": "Il bambino dipinge un quadro.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "dipingere"
         },
         {
           "de": "kochen",
@@ -449,7 +495,8 @@
           "exampleEn": "Cucino spaghetti.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "cucinare"
         },
         {
           "de": "Bild",
@@ -458,7 +505,8 @@
           "exampleEn": "Il quadro è bello.",
           "article": "das",
           "plural": "Bilder",
-          "type": "n"
+          "type": "n",
+          "it": "Quadro"
         },
         {
           "de": "Fotografie",
@@ -467,11 +515,12 @@
           "exampleEn": "La fotografia è artistica.",
           "article": "die",
           "plural": "Fotografien",
-          "type": "n"
+          "type": "n",
+          "it": "Fotografia"
         },
         {
           "de": "Film",
-          "en": "Film",
+          "en": "movie",
           "example": "Der Film ist interessant.",
           "exampleEn": "Il film è interessante.",
           "article": "der",
@@ -485,7 +534,8 @@
           "exampleEn": "La canzone è bella.",
           "article": "das",
           "plural": "Lieder",
-          "type": "n"
+          "type": "n",
+          "it": "Canzone"
         },
         {
           "de": "Buch",
@@ -494,7 +544,8 @@
           "exampleEn": "Il libro è avvincente.",
           "article": "das",
           "plural": "Bücher",
-          "type": "n"
+          "type": "n",
+          "it": "Libro"
         },
         {
           "de": "Spiel",
@@ -503,11 +554,12 @@
           "exampleEn": "Il gioco è divertente.",
           "article": "das",
           "plural": "Spiele",
-          "type": "n"
+          "type": "n",
+          "it": "Gioco"
         },
         {
           "de": "Hobby",
-          "en": "Hobby",
+          "en": "hobby",
           "example": "Mein Hobby ist Lesen.",
           "exampleEn": "Il mio hobby è leggere.",
           "article": "das",
@@ -521,7 +573,8 @@
           "exampleEn": "Questa attività è divertente.",
           "article": "die",
           "plural": "Aktivitäten",
-          "type": "n"
+          "type": "n",
+          "it": "Attività"
         },
         {
           "de": "Hobby",
@@ -530,7 +583,8 @@
           "exampleEn": "Il mio hobby è la lettura.",
           "article": "das",
           "plural": "Hobbys",
-          "type": "n"
+          "type": "n",
+          "it": "hobby"
         },
         {
           "de": "Spiel",
@@ -539,7 +593,8 @@
           "exampleEn": "Il gioco è divertente.",
           "article": "das",
           "plural": "Spiele",
-          "type": "n"
+          "type": "n",
+          "it": "gioco"
         },
         {
           "de": "Reiten",
@@ -548,7 +603,8 @@
           "exampleEn": "Mi piace l'equitazione.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "equitazione"
         },
         {
           "de": "Wandern",
@@ -557,7 +613,8 @@
           "exampleEn": "L'escursionismo è sano.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "escursionismo"
         },
         {
           "de": "Tanz",
@@ -566,7 +623,8 @@
           "exampleEn": "La danza è bella.",
           "article": "der",
           "plural": "Tänze",
-          "type": "n"
+          "type": "n",
+          "it": "danza"
         },
         {
           "de": "Musik",
@@ -575,7 +633,8 @@
           "exampleEn": "La musica è forte.",
           "article": "die",
           "plural": "Musiken",
-          "type": "n"
+          "type": "n",
+          "it": "musica"
         },
         {
           "de": "lesen",
@@ -584,7 +643,8 @@
           "exampleEn": "Leggo un libro.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "leggere"
         },
         {
           "de": "schreiben",
@@ -593,7 +653,8 @@
           "exampleEn": "Scrivo una lettera.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "scrivere"
         },
         {
           "de": "malen",
@@ -602,7 +663,8 @@
           "exampleEn": "Dipingo un quadro.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "dipingere"
         },
         {
           "de": "zeichnen",
@@ -611,7 +673,8 @@
           "exampleEn": "Disegno un cerchio.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "disegnare"
         },
         {
           "de": "singen",
@@ -620,7 +683,8 @@
           "exampleEn": "Mi piace cantare.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "cantare"
         },
         {
           "de": "tanzen",
@@ -629,7 +693,8 @@
           "exampleEn": "Mi piace ballare.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "ballare"
         },
         {
           "de": "kochen",
@@ -638,7 +703,8 @@
           "exampleEn": "Mi piace cucinare.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "cucinare"
         },
         {
           "de": "backen",
@@ -647,7 +713,8 @@
           "exampleEn": "Cuoco una torta al forno.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "cuocere al forno"
         }
       ]
     },
@@ -662,7 +729,8 @@
           "exampleEn": "La vacanza è meravigliosa.",
           "article": "der",
           "plural": "Urlaube",
-          "type": "n"
+          "type": "n",
+          "it": "Vacanza"
         },
         {
           "de": "Reise",
@@ -671,11 +739,12 @@
           "exampleEn": "Il viaggio è entusiasmante.",
           "article": "die",
           "plural": "Reisen",
-          "type": "n"
+          "type": "n",
+          "it": "Viaggio"
         },
         {
           "de": "Hotel",
-          "en": "Hotel",
+          "en": "hotel",
           "example": "Das Hotel ist komfortabel.",
           "exampleEn": "L'hotel è confortevole.",
           "article": "das",
@@ -689,7 +758,8 @@
           "exampleEn": "La spiaggia è bella.",
           "article": "der",
           "plural": "Strände",
-          "type": "n"
+          "type": "n",
+          "it": "Spiaggia"
         },
         {
           "de": "Berg",
@@ -698,7 +768,8 @@
           "exampleEn": "La montagna è alta.",
           "article": "der",
           "plural": "Berge",
-          "type": "n"
+          "type": "n",
+          "it": "Montagna"
         },
         {
           "de": "See",
@@ -707,7 +778,8 @@
           "exampleEn": "Il lago è bellissimo.",
           "article": "der",
           "plural": "Seen",
-          "type": "n"
+          "type": "n",
+          "it": "Lago"
         },
         {
           "de": "Meer",
@@ -716,7 +788,8 @@
           "exampleEn": "Il mare è calmo.",
           "article": "das",
           "plural": "Meere",
-          "type": "n"
+          "type": "n",
+          "it": "Mare"
         },
         {
           "de": "Koffer",
@@ -725,7 +798,8 @@
           "exampleEn": "La valigia è pesante.",
           "article": "der",
           "plural": "Koffer",
-          "type": "n"
+          "type": "n",
+          "it": "Valigia"
         },
         {
           "de": "Flug",
@@ -734,7 +808,8 @@
           "exampleEn": "Il volo dura tre ore.",
           "article": "der",
           "plural": "Flüge",
-          "type": "n"
+          "type": "n",
+          "it": "Volo"
         },
         {
           "de": "Ticket",
@@ -743,7 +818,8 @@
           "exampleEn": "Il biglietto è caro.",
           "article": "das",
           "plural": "Tickets",
-          "type": "n"
+          "type": "n",
+          "it": "Biglietto"
         },
         {
           "de": "buchen",
@@ -752,7 +828,8 @@
           "exampleEn": "Prenoto una stanza.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "prenotare"
         },
         {
           "de": "fliegen",
@@ -761,7 +838,8 @@
           "exampleEn": "L'aereo vola.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "volare"
         },
         {
           "de": "fahren",
@@ -770,7 +848,8 @@
           "exampleEn": "Andiamo a Berlino.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "guidare"
         },
         {
           "de": "Führung",
@@ -779,7 +858,8 @@
           "exampleEn": "La visita guidata è interessante.",
           "article": "die",
           "plural": "Führungen",
-          "type": "n"
+          "type": "n",
+          "it": "Visita guidata"
         },
         {
           "de": "Sehenswürdigkeit",
@@ -788,7 +868,8 @@
           "exampleEn": "L'attrazione turistica è famosa.",
           "article": "die",
           "plural": "Sehenswürdigkeiten",
-          "type": "n"
+          "type": "n",
+          "it": "Attrazione turistica"
         },
         {
           "de": "Karte",
@@ -797,7 +878,8 @@
           "exampleEn": "La mappa mostra la strada.",
           "article": "die",
           "plural": "Karten",
-          "type": "n"
+          "type": "n",
+          "it": "Mappa"
         },
         {
           "de": "Gepäck",
@@ -806,7 +888,8 @@
           "exampleEn": "Il bagaglio è troppo pesante.",
           "article": "das",
           "plural": "Gepäckstücke",
-          "type": "n"
+          "type": "n",
+          "it": "Bagaglio"
         },
         {
           "de": "Zimmer",
@@ -815,7 +898,8 @@
           "exampleEn": "La camera è piccola.",
           "article": "das",
           "plural": "Zimmer",
-          "type": "n"
+          "type": "n",
+          "it": "Camera"
         },
         {
           "de": "Reservierung",
@@ -824,7 +908,8 @@
           "exampleEn": "La prenotazione è confermata.",
           "article": "die",
           "plural": "Reservierungen",
-          "type": "n"
+          "type": "n",
+          "it": "Prenotazione"
         },
         {
           "de": "Koffer",
@@ -833,7 +918,8 @@
           "exampleEn": "La valigia è pesante.",
           "article": "der",
           "plural": "Koffer",
-          "type": "n"
+          "type": "n",
+          "it": "valigia"
         },
         {
           "de": "Karte",
@@ -842,7 +928,8 @@
           "exampleEn": "La mappa mostra i percorsi.",
           "article": "die",
           "plural": "Karten",
-          "type": "n"
+          "type": "n",
+          "it": "mappa"
         },
         {
           "de": "Hotel",
@@ -851,7 +938,8 @@
           "exampleEn": "L'hotel è confortevole.",
           "article": "das",
           "plural": "Hotels",
-          "type": "n"
+          "type": "n",
+          "it": "hotel"
         },
         {
           "de": "Ferienhaus",
@@ -860,7 +948,8 @@
           "exampleEn": "La casa vacanze è grande.",
           "article": "das",
           "plural": "Ferienhäuser",
-          "type": "n"
+          "type": "n",
+          "it": "casa vacanze"
         }
       ]
     },
@@ -875,7 +964,8 @@
           "exampleEn": "La scuola inizia alle 8.",
           "article": "die",
           "plural": "Schulen",
-          "type": "n"
+          "type": "n",
+          "it": "Scuola"
         },
         {
           "de": "Lehrer",
@@ -884,7 +974,8 @@
           "exampleEn": "L'insegnante spiega la lezione.",
           "article": "der",
           "plural": "Lehrer",
-          "type": "n"
+          "type": "n",
+          "it": "Insegnante"
         },
         {
           "de": "Schüler",
@@ -893,7 +984,8 @@
           "exampleEn": "Lo studente è diligente.",
           "article": "der",
           "plural": "Schüler",
-          "type": "n"
+          "type": "n",
+          "it": "Studente"
         },
         {
           "de": "Klasse",
@@ -902,7 +994,8 @@
           "exampleEn": "La classe ha 30 studenti.",
           "article": "die",
           "plural": "Klassen",
-          "type": "n"
+          "type": "n",
+          "it": "Classe"
         },
         {
           "de": "Prüfung",
@@ -911,7 +1004,8 @@
           "exampleEn": "L'esame è domani.",
           "article": "die",
           "plural": "Prüfungen",
-          "type": "n"
+          "type": "n",
+          "it": "Esame"
         },
         {
           "de": "Hausaufgabe",
@@ -920,7 +1014,8 @@
           "exampleEn": "Il compito a casa è difficile.",
           "article": "die",
           "plural": "Hausaufgaben",
-          "type": "n"
+          "type": "n",
+          "it": "Compito a casa"
         },
         {
           "de": "Fach",
@@ -929,7 +1024,8 @@
           "exampleEn": "La materia tedesco è importante.",
           "article": "das",
           "plural": "Fächer",
-          "type": "n"
+          "type": "n",
+          "it": "Materia"
         },
         {
           "de": "Mathematik",
@@ -938,7 +1034,8 @@
           "exampleEn": "La matematica è difficile.",
           "article": "die",
           "plural": "Mathematik",
-          "type": "n"
+          "type": "n",
+          "it": "Matematica"
         },
         {
           "de": "Geschichte",
@@ -947,7 +1044,8 @@
           "exampleEn": "La storia è interessante.",
           "article": "die",
           "plural": "Geschichten",
-          "type": "n"
+          "type": "n",
+          "it": "Storia"
         },
         {
           "de": "Englisch",
@@ -956,7 +1054,8 @@
           "exampleEn": "Imparo l'inglese.",
           "article": "das",
           "plural": "Englisch",
-          "type": "n"
+          "type": "n",
+          "it": "Inglese"
         },
         {
           "de": "Deutsch",
@@ -965,7 +1064,8 @@
           "exampleEn": "Il tedesco è la mia lingua.",
           "article": "das",
           "plural": "Deutsch",
-          "type": "n"
+          "type": "n",
+          "it": "Tedesco"
         },
         {
           "de": "Sprache",
@@ -974,7 +1074,8 @@
           "exampleEn": "Imparo una nuova lingua.",
           "article": "die",
           "plural": "Sprachen",
-          "type": "n"
+          "type": "n",
+          "it": "Lingua"
         },
         {
           "de": "Noten",
@@ -983,7 +1084,8 @@
           "exampleEn": "I voti sono buoni.",
           "article": "die",
           "plural": "Noten",
-          "type": "n"
+          "type": "n",
+          "it": "Voti"
         },
         {
           "de": "Zeugnis",
@@ -992,7 +1094,8 @@
           "exampleEn": "La pagella mostra i voti.",
           "article": "das",
           "plural": "Zeugnisse",
-          "type": "n"
+          "type": "n",
+          "it": "Pagelle"
         },
         {
           "de": "Schulbuch",
@@ -1001,7 +1104,8 @@
           "exampleEn": "Il libro scolastico è importante.",
           "article": "das",
           "plural": "Schulbücher",
-          "type": "n"
+          "type": "n",
+          "it": "Libro scolastico"
         },
         {
           "de": "Bleistift",
@@ -1010,7 +1114,8 @@
           "exampleEn": "La matita è affilata.",
           "article": "der",
           "plural": "Bleistifte",
-          "type": "n"
+          "type": "n",
+          "it": "Matita"
         },
         {
           "de": "Stift",
@@ -1019,7 +1124,8 @@
           "exampleEn": "La penna scrive bene.",
           "article": "der",
           "plural": "Stifte",
-          "type": "n"
+          "type": "n",
+          "it": "Penna"
         },
         {
           "de": "Heft",
@@ -1028,7 +1134,8 @@
           "exampleEn": "Il quaderno è pieno.",
           "article": "das",
           "plural": "Hefte",
-          "type": "n"
+          "type": "n",
+          "it": "Quaderno"
         },
         {
           "de": "Papier",
@@ -1037,7 +1144,8 @@
           "exampleEn": "La carta è bianca.",
           "article": "das",
           "plural": "Papiere",
-          "type": "n"
+          "type": "n",
+          "it": "Carta"
         },
         {
           "de": "Prüfung",
@@ -1046,7 +1154,8 @@
           "exampleEn": "L'esame è difficile.",
           "article": "die",
           "plural": "Prüfungen",
-          "type": "n"
+          "type": "n",
+          "it": "esame"
         },
         {
           "de": "Note",
@@ -1055,7 +1164,8 @@
           "exampleEn": "Il voto è buono.",
           "article": "die",
           "plural": "Noten",
-          "type": "n"
+          "type": "n",
+          "it": "voto"
         }
       ]
     },
@@ -1070,7 +1180,8 @@
           "exampleEn": "L'albero è grande.",
           "article": "der",
           "plural": "Bäume",
-          "type": "n"
+          "type": "n",
+          "it": "Albero"
         },
         {
           "de": "Blume",
@@ -1079,7 +1190,8 @@
           "exampleEn": "Il fiore è bello.",
           "article": "die",
           "plural": "Blumen",
-          "type": "n"
+          "type": "n",
+          "it": "Fiore"
         },
         {
           "de": "Tier",
@@ -1088,7 +1200,8 @@
           "exampleEn": "L'animale è selvaggio.",
           "article": "das",
           "plural": "Tiere",
-          "type": "n"
+          "type": "n",
+          "it": "Animale"
         },
         {
           "de": "Hund",
@@ -1097,7 +1210,8 @@
           "exampleEn": "Il cane è amichevole.",
           "article": "der",
           "plural": "Hunde",
-          "type": "n"
+          "type": "n",
+          "it": "Cane"
         },
         {
           "de": "Katze",
@@ -1106,7 +1220,8 @@
           "exampleEn": "Il gatto è indipendente.",
           "article": "die",
           "plural": "Katzen",
-          "type": "n"
+          "type": "n",
+          "it": "Gatto"
         },
         {
           "de": "Vogel",
@@ -1115,7 +1230,8 @@
           "exampleEn": "L'uccello canta al mattino.",
           "article": "der",
           "plural": "Vögel",
-          "type": "n"
+          "type": "n",
+          "it": "Uccello"
         },
         {
           "de": "Wald",
@@ -1124,7 +1240,8 @@
           "exampleEn": "La foresta è scura.",
           "article": "der",
           "plural": "Wälder",
-          "type": "n"
+          "type": "n",
+          "it": "Foresta"
         },
         {
           "de": "Garten",
@@ -1133,7 +1250,8 @@
           "exampleEn": "Il giardino è verde.",
           "article": "der",
           "plural": "Gärten",
-          "type": "n"
+          "type": "n",
+          "it": "Giardino"
         },
         {
           "de": "Sonne",
@@ -1142,7 +1260,8 @@
           "exampleEn": "Il sole splende luminoso.",
           "article": "die",
           "plural": "Sonnen",
-          "type": "n"
+          "type": "n",
+          "it": "Sole"
         },
         {
           "de": "Mond",
@@ -1151,7 +1270,8 @@
           "exampleEn": "La luna è luminosa.",
           "article": "der",
           "plural": "Monde",
-          "type": "n"
+          "type": "n",
+          "it": "Luna"
         },
         {
           "de": "Stern",
@@ -1160,7 +1280,8 @@
           "exampleEn": "La stella brilla.",
           "article": "der",
           "plural": "Sterne",
-          "type": "n"
+          "type": "n",
+          "it": "Stella"
         },
         {
           "de": "Regen",
@@ -1169,7 +1290,8 @@
           "exampleEn": "La pioggia è forte.",
           "article": "der",
           "plural": "Regen",
-          "type": "n"
+          "type": "n",
+          "it": "Pioggia"
         },
         {
           "de": "Schnee",
@@ -1178,7 +1300,8 @@
           "exampleEn": "La neve è fredda.",
           "article": "der",
           "plural": "Schnee",
-          "type": "n"
+          "type": "n",
+          "it": "Neve"
         },
         {
           "de": "Wind",
@@ -1187,7 +1310,8 @@
           "exampleEn": "Il vento è forte.",
           "article": "der",
           "plural": "Winde",
-          "type": "n"
+          "type": "n",
+          "it": "Vento"
         },
         {
           "de": "Wasser",
@@ -1196,7 +1320,8 @@
           "exampleEn": "L'acqua è limpida.",
           "article": "das",
           "plural": "Wasser",
-          "type": "n"
+          "type": "n",
+          "it": "Acqua"
         },
         {
           "de": "Fluss",
@@ -1205,7 +1330,8 @@
           "exampleEn": "Il fiume è largo.",
           "article": "der",
           "plural": "Flüsse",
-          "type": "n"
+          "type": "n",
+          "it": "Fiume"
         },
         {
           "de": "Berg",
@@ -1214,7 +1340,8 @@
           "exampleEn": "La montagna è molto alta.",
           "article": "der",
           "plural": "Berge",
-          "type": "n"
+          "type": "n",
+          "it": "Montagna"
         },
         {
           "de": "Blatt",
@@ -1223,7 +1350,8 @@
           "exampleEn": "La foglia è verde.",
           "article": "das",
           "plural": "Blätter",
-          "type": "n"
+          "type": "n",
+          "it": "Foglia"
         },
         {
           "de": "Gras",
@@ -1232,7 +1360,8 @@
           "exampleEn": "L'erba è verde.",
           "article": "das",
           "plural": "Gräser",
-          "type": "n"
+          "type": "n",
+          "it": "Erba"
         },
         {
           "de": "Blume",
@@ -1241,7 +1370,8 @@
           "exampleEn": "Il fiore è bello.",
           "article": "die",
           "plural": "Blumen",
-          "type": "n"
+          "type": "n",
+          "it": "fiore"
         },
         {
           "de": "Baum",
@@ -1250,7 +1380,8 @@
           "exampleEn": "L'albero è grande.",
           "article": "der",
           "plural": "Bäume",
-          "type": "n"
+          "type": "n",
+          "it": "albero"
         },
         {
           "de": "Stein",
@@ -1259,7 +1390,8 @@
           "exampleEn": "La pietra è dura.",
           "article": "der",
           "plural": "Steine",
-          "type": "n"
+          "type": "n",
+          "it": "pietra"
         },
         {
           "de": "Sand",
@@ -1268,7 +1400,8 @@
           "exampleEn": "La sabbia è fine.",
           "article": "der",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "sabbia"
         },
         {
           "de": "Wasser",
@@ -1277,7 +1410,8 @@
           "exampleEn": "L'acqua è fresca.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "acqua"
         },
         {
           "de": "Feuer",
@@ -1286,7 +1420,8 @@
           "exampleEn": "Il fuoco è caldo.",
           "article": "das",
           "plural": "Feuer",
-          "type": "n"
+          "type": "n",
+          "it": "fuoco"
         },
         {
           "de": "Wetter",
@@ -1295,7 +1430,8 @@
           "exampleEn": "Il tempo è bello.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "tempo"
         },
         {
           "de": "Sonne",
@@ -1304,7 +1440,8 @@
           "exampleEn": "Il sole splende.",
           "article": "die",
           "plural": "Sonnen",
-          "type": "n"
+          "type": "n",
+          "it": "sole"
         },
         {
           "de": "Mond",
@@ -1313,7 +1450,8 @@
           "exampleEn": "La luna brilla.",
           "article": "der",
           "plural": "Monde",
-          "type": "n"
+          "type": "n",
+          "it": "luna"
         },
         {
           "de": "Stern",
@@ -1322,7 +1460,8 @@
           "exampleEn": "La stella brilla.",
           "article": "der",
           "plural": "Sterne",
-          "type": "n"
+          "type": "n",
+          "it": "stella"
         },
         {
           "de": "Wolke",
@@ -1331,7 +1470,8 @@
           "exampleEn": "La nuvola vola.",
           "article": "die",
           "plural": "Wolken",
-          "type": "n"
+          "type": "n",
+          "it": "nuvola"
         },
         {
           "de": "Regen",
@@ -1340,7 +1480,8 @@
           "exampleEn": "La pioggia cade.",
           "article": "der",
           "plural": "Regenfälle",
-          "type": "n"
+          "type": "n",
+          "it": "pioggia"
         },
         {
           "de": "Schnee",
@@ -1349,7 +1490,8 @@
           "exampleEn": "La neve si scioglie.",
           "article": "der",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "neve"
         },
         {
           "de": "Wind",
@@ -1358,7 +1500,8 @@
           "exampleEn": "Il vento soffia.",
           "article": "der",
           "plural": "Winde",
-          "type": "n"
+          "type": "n",
+          "it": "vento"
         }
       ]
     },
@@ -1373,7 +1516,8 @@
           "exampleEn": "Sono felice.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "felice"
         },
         {
           "de": "traurig",
@@ -1382,7 +1526,8 @@
           "exampleEn": "Il bambino è triste.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "triste"
         },
         {
           "de": "müde",
@@ -1391,7 +1536,8 @@
           "exampleEn": "Sono stanco dopo il lavoro.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "stanco"
         },
         {
           "de": "aufgeregt",
@@ -1400,7 +1546,8 @@
           "exampleEn": "Sono eccitato per il viaggio.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "eccitato"
         },
         {
           "de": "nervös",
@@ -1409,7 +1556,8 @@
           "exampleEn": "Sono nervoso prima dell'esame.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "nervoso"
         },
         {
           "de": "zufrieden",
@@ -1418,7 +1566,8 @@
           "exampleEn": "Sono soddisfatto del lavoro.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "soddisfatto"
         },
         {
           "de": "überrascht",
@@ -1427,7 +1576,8 @@
           "exampleEn": "Sono sorpreso.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "sorpreso"
         },
         {
           "de": "Angst",
@@ -1436,7 +1586,8 @@
           "exampleEn": "Ho paura del buio.",
           "article": "die",
           "plural": "Ängste",
-          "type": "n"
+          "type": "n",
+          "it": "Paura"
         },
         {
           "de": "Freude",
@@ -1445,7 +1596,8 @@
           "exampleEn": "La gioia è grande.",
           "article": "die",
           "plural": "Freuden",
-          "type": "n"
+          "type": "n",
+          "it": "Gioia"
         },
         {
           "de": "Liebe",
@@ -1454,7 +1606,8 @@
           "exampleEn": "L'amore è meraviglioso.",
           "article": "die",
           "plural": "Lieben",
-          "type": "n"
+          "type": "n",
+          "it": "Amore"
         },
         {
           "de": "Hoffnung",
@@ -1463,7 +1616,8 @@
           "exampleEn": "La speranza è importante.",
           "article": "die",
           "plural": "Hoffnungen",
-          "type": "n"
+          "type": "n",
+          "it": "Speranza"
         },
         {
           "de": "Enttäuschung",
@@ -1472,7 +1626,8 @@
           "exampleEn": "La delusione è grande.",
           "article": "die",
           "plural": "Enttäuschungen",
-          "type": "n"
+          "type": "n",
+          "it": "Delusione"
         },
         {
           "de": "Wut",
@@ -1481,7 +1636,8 @@
           "exampleEn": "La sua ira è grande.",
           "article": "die",
           "plural": "Wuten",
-          "type": "n"
+          "type": "n",
+          "it": "Ira"
         },
         {
           "de": "Verwirrung",
@@ -1490,7 +1646,8 @@
           "exampleEn": "La confusione è grande.",
           "article": "die",
           "plural": "Verwirrungen",
-          "type": "n"
+          "type": "n",
+          "it": "Confusione"
         },
         {
           "de": "vergnügt",
@@ -1499,7 +1656,8 @@
           "exampleEn": "Sono contento.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "contentao"
         },
         {
           "de": "einsam",
@@ -1508,7 +1666,8 @@
           "exampleEn": "Mi sento solo.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "solo"
         },
         {
           "de": "nett",
@@ -1517,7 +1676,8 @@
           "exampleEn": "Il ragazzo è carino.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "carino"
         },
         {
           "de": "böse",
@@ -1526,7 +1686,8 @@
           "exampleEn": "È cattivo.",
           "article": null,
           "plural": null,
-          "type": "adj"
+          "type": "adj",
+          "it": "cattivo"
         }
       ]
     },
@@ -1541,7 +1702,8 @@
           "exampleEn": "Scrivo un'email.",
           "article": "die",
           "plural": "E-Mails",
-          "type": "n"
+          "type": "n",
+          "it": "Email"
         },
         {
           "de": "Brief",
@@ -1550,7 +1712,8 @@
           "exampleEn": "La lettera è lunga.",
           "article": "der",
           "plural": "Briefe",
-          "type": "n"
+          "type": "n",
+          "it": "Lettera"
         },
         {
           "de": "Telefon",
@@ -1559,7 +1722,8 @@
           "exampleEn": "Il telefono squilla.",
           "article": "das",
           "plural": "Telefone",
-          "type": "n"
+          "type": "n",
+          "it": "Telefono"
         },
         {
           "de": "anrufen",
@@ -1568,7 +1732,8 @@
           "exampleEn": "Ti chiamo.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "chiamare"
         },
         {
           "de": "schicken",
@@ -1577,7 +1742,8 @@
           "exampleEn": "Invio un messaggio.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "inviare"
         },
         {
           "de": "Nachricht",
@@ -1586,11 +1752,12 @@
           "exampleEn": "Ricevo un messaggio.",
           "article": "die",
           "plural": "Nachrichten",
-          "type": "n"
+          "type": "n",
+          "it": "Messaggio"
         },
         {
           "de": "Internet",
-          "en": "Internet",
+          "en": "internet",
           "example": "Das Internet ist schnell.",
           "exampleEn": "Internet è veloce.",
           "article": "das",
@@ -1599,7 +1766,7 @@
         },
         {
           "de": "Computer",
-          "en": "Computer",
+          "en": "computer",
           "example": "Der Computer ist neu.",
           "exampleEn": "Il computer è nuovo.",
           "article": "der",
@@ -1613,7 +1780,8 @@
           "exampleEn": "Il cellulare è pratico.",
           "article": "das",
           "plural": "Handys",
-          "type": "n"
+          "type": "n",
+          "it": "Cellulare"
         },
         {
           "de": "Tastatur",
@@ -1622,7 +1790,8 @@
           "exampleEn": "La tastiera è pulita.",
           "article": "die",
           "plural": "Tastaturen",
-          "type": "n"
+          "type": "n",
+          "it": "Tastiera"
         },
         {
           "de": "Maus",
@@ -1631,7 +1800,8 @@
           "exampleEn": "Il mouse funziona.",
           "article": "die",
           "plural": "Mäuse",
-          "type": "n"
+          "type": "n",
+          "it": "Mouse"
         },
         {
           "de": "Bildschirm",
@@ -1640,7 +1810,8 @@
           "exampleEn": "Lo schermo è grande.",
           "article": "der",
           "plural": "Bildschirme",
-          "type": "n"
+          "type": "n",
+          "it": "Schermo"
         },
         {
           "de": "Website",
@@ -1649,7 +1820,8 @@
           "exampleEn": "Il sito web è interessante.",
           "article": "die",
           "plural": "Websites",
-          "type": "n"
+          "type": "n",
+          "it": "Sito web"
         },
         {
           "de": "Passwort",
@@ -1658,7 +1830,8 @@
           "exampleEn": "La password è sicura.",
           "article": "das",
           "plural": "Passwörter",
-          "type": "n"
+          "type": "n",
+          "it": "Password"
         },
         {
           "de": "Benutzername",
@@ -1667,7 +1840,8 @@
           "exampleEn": "Il nome utente è breve.",
           "article": "der",
           "plural": "Benutzernamen",
-          "type": "n"
+          "type": "n",
+          "it": "Nome utente"
         },
         {
           "de": "Konversation",
@@ -1676,7 +1850,8 @@
           "exampleEn": "La conversazione è interessante.",
           "article": "die",
           "plural": "Konversationen",
-          "type": "n"
+          "type": "n",
+          "it": "Conversazione"
         },
         {
           "de": "Gespräch",
@@ -1685,7 +1860,8 @@
           "exampleEn": "La conversazione è lunga.",
           "article": "das",
           "plural": "Gespräche",
-          "type": "n"
+          "type": "n",
+          "it": "Conversazione"
         },
         {
           "de": "Diskussion",
@@ -1694,7 +1870,8 @@
           "exampleEn": "La discussione è accesa.",
           "article": "die",
           "plural": "Diskussionen",
-          "type": "n"
+          "type": "n",
+          "it": "Discussione"
         },
         {
           "de": "Frage",
@@ -1703,7 +1880,8 @@
           "exampleEn": "La domanda è difficile.",
           "article": "die",
           "plural": "Fragen",
-          "type": "n"
+          "type": "n",
+          "it": "Domanda"
         },
         {
           "de": "Antwort",
@@ -1712,7 +1890,8 @@
           "exampleEn": "La risposta è corretta.",
           "article": "die",
           "plural": "Antworten",
-          "type": "n"
+          "type": "n",
+          "it": "Risposta"
         }
       ]
     },
@@ -1727,7 +1906,8 @@
           "exampleEn": "L'auto guida.",
           "article": "das",
           "plural": "Autos",
-          "type": "n"
+          "type": "n",
+          "it": "auto"
         },
         {
           "de": "Zug",
@@ -1736,7 +1916,8 @@
           "exampleEn": "Il treno va veloce.",
           "article": "der",
           "plural": "Züge",
-          "type": "n"
+          "type": "n",
+          "it": "treno"
         },
         {
           "de": "Bus",
@@ -1745,7 +1926,8 @@
           "exampleEn": "L'autobus è pieno.",
           "article": "der",
           "plural": "Busse",
-          "type": "n"
+          "type": "n",
+          "it": "autobus"
         },
         {
           "de": "Flugzeug",
@@ -1754,7 +1936,8 @@
           "exampleEn": "L'aeroplano vola alto.",
           "article": "das",
           "plural": "Flugzeuge",
-          "type": "n"
+          "type": "n",
+          "it": "aeroplano"
         },
         {
           "de": "Schiff",
@@ -1763,7 +1946,8 @@
           "exampleEn": "La nave naviga.",
           "article": "das",
           "plural": "Schiffe",
-          "type": "n"
+          "type": "n",
+          "it": "nave"
         },
         {
           "de": "Fahrrad",
@@ -1772,7 +1956,8 @@
           "exampleEn": "La bicicletta è veloce.",
           "article": "das",
           "plural": "Fahrräder",
-          "type": "n"
+          "type": "n",
+          "it": "bicicletta"
         },
         {
           "de": "Motorrad",
@@ -1781,7 +1966,8 @@
           "exampleEn": "La motocicletta è rumorosa.",
           "article": "das",
           "plural": "Motorräder",
-          "type": "n"
+          "type": "n",
+          "it": "motocicletta"
         },
         {
           "de": "Taxi",
@@ -1790,7 +1976,8 @@
           "exampleEn": "Il taxi aspetta.",
           "article": "das",
           "plural": "Taxis",
-          "type": "n"
+          "type": "n",
+          "it": "taxi"
         },
         {
           "de": "Straße",
@@ -1799,7 +1986,8 @@
           "exampleEn": "La strada è larga.",
           "article": "die",
           "plural": "Straßen",
-          "type": "n"
+          "type": "n",
+          "it": "strada"
         },
         {
           "de": "Bahn",
@@ -1808,7 +1996,8 @@
           "exampleEn": "La ferrovia è vecchia.",
           "article": "die",
           "plural": "Bahnen",
-          "type": "n"
+          "type": "n",
+          "it": "ferrovia"
         },
         {
           "de": "Hafen",
@@ -1817,7 +2006,8 @@
           "exampleEn": "Il porto è grande.",
           "article": "der",
           "plural": "Häfen",
-          "type": "n"
+          "type": "n",
+          "it": "porto"
         },
         {
           "de": "Flughafen",
@@ -1826,7 +2016,8 @@
           "exampleEn": "L'aeroporto è moderno.",
           "article": "der",
           "plural": "Flughäfen",
-          "type": "n"
+          "type": "n",
+          "it": "aeroporto"
         },
         {
           "de": "Bahnhof",
@@ -1835,7 +2026,8 @@
           "exampleEn": "La stazione è centrale.",
           "article": "der",
           "plural": "Bahnhöfe",
-          "type": "n"
+          "type": "n",
+          "it": "stazione"
         },
         {
           "de": "Parkplatz",
@@ -1844,7 +2036,8 @@
           "exampleEn": "Il parcheggio è pieno.",
           "article": "der",
           "plural": "Parkplätze",
-          "type": "n"
+          "type": "n",
+          "it": "parcheggio"
         },
         {
           "de": "Fahrkarte",
@@ -1853,7 +2046,8 @@
           "exampleEn": "Il biglietto è caro.",
           "article": "die",
           "plural": "Fahrkarten",
-          "type": "n"
+          "type": "n",
+          "it": "biglietto"
         },
         {
           "de": "Reifen",
@@ -1862,7 +2056,8 @@
           "exampleEn": "Lo pneumatico è rotto.",
           "article": "der",
           "plural": "Reifen",
-          "type": "n"
+          "type": "n",
+          "it": "pneumatico"
         },
         {
           "de": "Motor",
@@ -1871,7 +2066,8 @@
           "exampleEn": "Il motore funziona.",
           "article": "der",
           "plural": "Motoren",
-          "type": "n"
+          "type": "n",
+          "it": "motore"
         },
         {
           "de": "Verkehr",
@@ -1880,7 +2076,8 @@
           "exampleEn": "Il traffico è denso.",
           "article": "der",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "traffico"
         },
         {
           "de": "Fahrt",
@@ -1889,7 +2086,8 @@
           "exampleEn": "Il viaggio è lungo.",
           "article": "die",
           "plural": "Fahrten",
-          "type": "n"
+          "type": "n",
+          "it": "viaggio"
         },
         {
           "de": "Reise",
@@ -1898,7 +2096,8 @@
           "exampleEn": "Il viaggio è interessante.",
           "article": "die",
           "plural": "Reisen",
-          "type": "n"
+          "type": "n",
+          "it": "viaggio"
         }
       ]
     },
@@ -1913,7 +2112,8 @@
           "exampleEn": "Il computer funziona.",
           "article": "der",
           "plural": "Computer",
-          "type": "n"
+          "type": "n",
+          "it": "computer"
         },
         {
           "de": "Telefon",
@@ -1922,7 +2122,8 @@
           "exampleEn": "Il telefono squilla.",
           "article": "das",
           "plural": "Telefone",
-          "type": "n"
+          "type": "n",
+          "it": "telefono"
         },
         {
           "de": "Handy",
@@ -1931,7 +2132,8 @@
           "exampleEn": "Il cellulare è utile.",
           "article": "das",
           "plural": "Handys",
-          "type": "n"
+          "type": "n",
+          "it": "cellulare"
         },
         {
           "de": "Bildschirm",
@@ -1940,7 +2142,8 @@
           "exampleEn": "Lo schermo è grande.",
           "article": "der",
           "plural": "Bildschirme",
-          "type": "n"
+          "type": "n",
+          "it": "schermo"
         },
         {
           "de": "Tastatur",
@@ -1949,7 +2152,8 @@
           "exampleEn": "La tastiera è moderna.",
           "article": "die",
           "plural": "Tastaturen",
-          "type": "n"
+          "type": "n",
+          "it": "tastiera"
         },
         {
           "de": "Maus",
@@ -1958,7 +2162,8 @@
           "exampleEn": "Il mouse è veloce.",
           "article": "die",
           "plural": "Mäuse",
-          "type": "n"
+          "type": "n",
+          "it": "mouse"
         },
         {
           "de": "Drucker",
@@ -1967,11 +2172,12 @@
           "exampleEn": "La stampante funziona.",
           "article": "der",
           "plural": "Drucker",
-          "type": "n"
+          "type": "n",
+          "it": "stampante"
         },
         {
           "de": "Internet",
-          "en": "Internet",
+          "en": "internet",
           "example": "Das Internet ist schnell.",
           "exampleEn": "Internet è veloce.",
           "article": "das",
@@ -1985,7 +2191,8 @@
           "exampleEn": "L'email è importante.",
           "article": "die",
           "plural": "Emails",
-          "type": "n"
+          "type": "n",
+          "it": "email"
         },
         {
           "de": "Website",
@@ -1994,7 +2201,8 @@
           "exampleEn": "Il sito web è interessante.",
           "article": "die",
           "plural": "Websites",
-          "type": "n"
+          "type": "n",
+          "it": "sito web"
         },
         {
           "de": "Datei",
@@ -2003,7 +2211,8 @@
           "exampleEn": "Il file è grande.",
           "article": "die",
           "plural": "Dateien",
-          "type": "n"
+          "type": "n",
+          "it": "file"
         },
         {
           "de": "Passwort",
@@ -2012,7 +2221,8 @@
           "exampleEn": "La password è sicura.",
           "article": "das",
           "plural": "Passwörter",
-          "type": "n"
+          "type": "n",
+          "it": "password"
         },
         {
           "de": "Batterie",
@@ -2021,7 +2231,8 @@
           "exampleEn": "La batteria è scarica.",
           "article": "die",
           "plural": "Batterien",
-          "type": "n"
+          "type": "n",
+          "it": "batteria"
         },
         {
           "de": "Lautsprecher",
@@ -2030,7 +2241,8 @@
           "exampleEn": "L'altoparlante è rumoroso.",
           "article": "der",
           "plural": "Lautsprecher",
-          "type": "n"
+          "type": "n",
+          "it": "altoparlante"
         },
         {
           "de": "Kamera",
@@ -2039,7 +2251,8 @@
           "exampleEn": "La fotocamera è moderna.",
           "article": "die",
           "plural": "Kameras",
-          "type": "n"
+          "type": "n",
+          "it": "fotocamera"
         },
         {
           "de": "Video",
@@ -2048,7 +2261,8 @@
           "exampleEn": "Il video è lungo.",
           "article": "das",
           "plural": "Videos",
-          "type": "n"
+          "type": "n",
+          "it": "video"
         },
         {
           "de": "Musik",
@@ -2057,7 +2271,8 @@
           "exampleEn": "La musica è bella.",
           "article": "die",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "musica"
         },
         {
           "de": "App",
@@ -2066,7 +2281,8 @@
           "exampleEn": "L'app è utile.",
           "article": "die",
           "plural": "Apps",
-          "type": "n"
+          "type": "n",
+          "it": "app"
         },
         {
           "de": "Download",
@@ -2075,7 +2291,8 @@
           "exampleEn": "Il download è veloce.",
           "article": "der",
           "plural": "Downloads",
-          "type": "n"
+          "type": "n",
+          "it": "download"
         },
         {
           "de": "Update",
@@ -2084,7 +2301,8 @@
           "exampleEn": "L'aggiornamento è importante.",
           "article": "das",
           "plural": "Updates",
-          "type": "n"
+          "type": "n",
+          "it": "aggiornamento"
         }
       ]
     },
@@ -2099,7 +2317,8 @@
           "exampleEn": "Il calcio è popolare.",
           "article": "der",
           "plural": "Fußbälle",
-          "type": "n"
+          "type": "n",
+          "it": "calcio"
         },
         {
           "de": "Tennis",
@@ -2108,7 +2327,8 @@
           "exampleEn": "Il tennis è faticoso.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "tennis"
         },
         {
           "de": "Volleyball",
@@ -2117,7 +2337,8 @@
           "exampleEn": "La pallavolo è divertente.",
           "article": "der",
           "plural": "Volleybälle",
-          "type": "n"
+          "type": "n",
+          "it": "pallavolo"
         },
         {
           "de": "Schwimmen",
@@ -2126,7 +2347,8 @@
           "exampleEn": "Il nuoto è sano.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "nuoto"
         },
         {
           "de": "Joggen",
@@ -2135,7 +2357,8 @@
           "exampleEn": "Il jogging è movimento.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "jogging"
         },
         {
           "de": "Yoga",
@@ -2144,7 +2367,8 @@
           "exampleEn": "Lo yoga è rilassante.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "yoga"
         },
         {
           "de": "Fitnessstudio",
@@ -2153,7 +2377,8 @@
           "exampleEn": "La palestra è piena.",
           "article": "das",
           "plural": "Fitnessstudios",
-          "type": "n"
+          "type": "n",
+          "it": "palestra"
         },
         {
           "de": "Trainingsanzug",
@@ -2162,7 +2387,8 @@
           "exampleEn": "La tuta da ginnastica è comoda.",
           "article": "der",
           "plural": "Trainingsanzüge",
-          "type": "n"
+          "type": "n",
+          "it": "tuta da ginnastica"
         },
         {
           "de": "Sportschuh",
@@ -2171,7 +2397,8 @@
           "exampleEn": "La scarpa da sport è leggera.",
           "article": "der",
           "plural": "Sportschuhe",
-          "type": "n"
+          "type": "n",
+          "it": "scarpa da sport"
         },
         {
           "de": "Bahn",
@@ -2180,7 +2407,8 @@
           "exampleEn": "La pista è veloce.",
           "article": "die",
           "plural": "Bahnen",
-          "type": "n"
+          "type": "n",
+          "it": "pista"
         },
         {
           "de": "Feld",
@@ -2189,7 +2417,8 @@
           "exampleEn": "Il campo è grande.",
           "article": "das",
           "plural": "Felder",
-          "type": "n"
+          "type": "n",
+          "it": "campo"
         },
         {
           "de": "Platz",
@@ -2198,7 +2427,8 @@
           "exampleEn": "Il campo è pieno.",
           "article": "der",
           "plural": "Plätze",
-          "type": "n"
+          "type": "n",
+          "it": "campo"
         },
         {
           "de": "Tor",
@@ -2207,7 +2437,8 @@
           "exampleEn": "La porta è larga.",
           "article": "das",
           "plural": "Tore",
-          "type": "n"
+          "type": "n",
+          "it": "porta"
         },
         {
           "de": "Schläger",
@@ -2216,7 +2447,8 @@
           "exampleEn": "La racchetta è leggera.",
           "article": "der",
           "plural": "Schläger",
-          "type": "n"
+          "type": "n",
+          "it": "racchetta"
         },
         {
           "de": "Ball",
@@ -2225,7 +2457,8 @@
           "exampleEn": "La palla è rotonda.",
           "article": "der",
           "plural": "Bälle",
-          "type": "n"
+          "type": "n",
+          "it": "palla"
         },
         {
           "de": "Wettkampf",
@@ -2234,7 +2467,8 @@
           "exampleEn": "La competizione è eccitante.",
           "article": "der",
           "plural": "Wettkämpfe",
-          "type": "n"
+          "type": "n",
+          "it": "competizione"
         },
         {
           "de": "Sieger",
@@ -2243,7 +2477,8 @@
           "exampleEn": "Il vincitore è felice.",
           "article": "der",
           "plural": "Sieger",
-          "type": "n"
+          "type": "n",
+          "it": "vincitore"
         },
         {
           "de": "Verein",
@@ -2252,7 +2487,8 @@
           "exampleEn": "Il club è antico.",
           "article": "der",
           "plural": "Vereine",
-          "type": "n"
+          "type": "n",
+          "it": "club"
         },
         {
           "de": "Trainer",
@@ -2261,7 +2497,8 @@
           "exampleEn": "L'allenatore è esperto.",
           "article": "der",
           "plural": "Trainer",
-          "type": "n"
+          "type": "n",
+          "it": "allenatore"
         },
         {
           "de": "Spieler",
@@ -2270,7 +2507,8 @@
           "exampleEn": "Il giocatore è veloce.",
           "article": "der",
           "plural": "Spieler",
-          "type": "n"
+          "type": "n",
+          "it": "giocatore"
         }
       ]
     },
@@ -2285,7 +2523,8 @@
           "exampleEn": "Il negozio è grande.",
           "article": "das",
           "plural": "Geschäfte",
-          "type": "n"
+          "type": "n",
+          "it": "negozio"
         },
         {
           "de": "Supermarkt",
@@ -2294,7 +2533,8 @@
           "exampleEn": "Il supermercato è pieno.",
           "article": "der",
           "plural": "Supermärkte",
-          "type": "n"
+          "type": "n",
+          "it": "supermercato"
         },
         {
           "de": "Kasse",
@@ -2303,7 +2543,8 @@
           "exampleEn": "La cassa è aperta.",
           "article": "die",
           "plural": "Kassen",
-          "type": "n"
+          "type": "n",
+          "it": "cassa"
         },
         {
           "de": "Verkäufer",
@@ -2312,7 +2553,8 @@
           "exampleEn": "Il venditore è gentile.",
           "article": "der",
           "plural": "Verkäufer",
-          "type": "n"
+          "type": "n",
+          "it": "venditore"
         },
         {
           "de": "Ware",
@@ -2321,7 +2563,8 @@
           "exampleEn": "La merce è buona.",
           "article": "die",
           "plural": "Waren",
-          "type": "n"
+          "type": "n",
+          "it": "merce"
         },
         {
           "de": "Preis",
@@ -2330,7 +2573,8 @@
           "exampleEn": "Il prezzo è alto.",
           "article": "der",
           "plural": "Preise",
-          "type": "n"
+          "type": "n",
+          "it": "prezzo"
         },
         {
           "de": "Rabatt",
@@ -2339,7 +2583,8 @@
           "exampleEn": "Lo sconto è grande.",
           "article": "der",
           "plural": "Rabatte",
-          "type": "n"
+          "type": "n",
+          "it": "sconto"
         },
         {
           "de": "Rechnung",
@@ -2348,7 +2593,8 @@
           "exampleEn": "Il conto è pagato.",
           "article": "die",
           "plural": "Rechnungen",
-          "type": "n"
+          "type": "n",
+          "it": "conto"
         },
         {
           "de": "Quittung",
@@ -2357,7 +2603,8 @@
           "exampleEn": "La ricevuta è importante.",
           "article": "die",
           "plural": "Quittungen",
-          "type": "n"
+          "type": "n",
+          "it": "ricevuta"
         },
         {
           "de": "Wechselgeld",
@@ -2366,7 +2613,8 @@
           "exampleEn": "Il resto è corretto.",
           "article": "das",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "resto"
         },
         {
           "de": "Einkaufswagen",
@@ -2375,7 +2623,8 @@
           "exampleEn": "Il carrello è pieno.",
           "article": "der",
           "plural": "Einkaufswagen",
-          "type": "n"
+          "type": "n",
+          "it": "carrello"
         },
         {
           "de": "Einkaufskorb",
@@ -2384,7 +2633,8 @@
           "exampleEn": "Il cestino è piccolo.",
           "article": "der",
           "plural": "Einkaufskörbe",
-          "type": "n"
+          "type": "n",
+          "it": "cestino"
         },
         {
           "de": "Beutel",
@@ -2393,7 +2643,8 @@
           "exampleEn": "La borsa è grande.",
           "article": "der",
           "plural": "Beutel",
-          "type": "n"
+          "type": "n",
+          "it": "borsa"
         },
         {
           "de": "Kauf",
@@ -2402,7 +2653,8 @@
           "exampleEn": "L'acquisto è felice.",
           "article": "der",
           "plural": "Käufe",
-          "type": "n"
+          "type": "n",
+          "it": "acquisto"
         },
         {
           "de": "Umtausch",
@@ -2411,7 +2663,8 @@
           "exampleEn": "Il cambio è possibile.",
           "article": "der",
           "plural": "Umtausche",
-          "type": "n"
+          "type": "n",
+          "it": "cambio"
         },
         {
           "de": "Garantie",
@@ -2420,7 +2673,8 @@
           "exampleEn": "La garanzia è due anni.",
           "article": "die",
           "plural": "Garantien",
-          "type": "n"
+          "type": "n",
+          "it": "garanzia"
         },
         {
           "de": "Bescheinigung",
@@ -2429,7 +2683,8 @@
           "exampleEn": "Il certificato è valido.",
           "article": "die",
           "plural": "Bescheinigungen",
-          "type": "n"
+          "type": "n",
+          "it": "certificato"
         },
         {
           "de": "Marke",
@@ -2438,7 +2693,8 @@
           "exampleEn": "Il marchio è noto.",
           "article": "die",
           "plural": "Marken",
-          "type": "n"
+          "type": "n",
+          "it": "marca"
         },
         {
           "de": "Größe",
@@ -2447,7 +2703,8 @@
           "exampleEn": "La taglia è S.",
           "article": "die",
           "plural": "Größen",
-          "type": "n"
+          "type": "n",
+          "it": "taglia"
         },
         {
           "de": "Farbe",
@@ -2456,7 +2713,8 @@
           "exampleEn": "Il colore è blu.",
           "article": "die",
           "plural": "Farben",
-          "type": "n"
+          "type": "n",
+          "it": "colore"
         },
         {
           "de": "Versand",
@@ -2465,7 +2723,8 @@
           "exampleEn": "La spedizione è veloce.",
           "article": "der",
           "plural": "Versande",
-          "type": "n"
+          "type": "n",
+          "it": "spedizione"
         }
       ]
     },
@@ -2480,7 +2739,8 @@
           "exampleEn": "Il cinema mostra film.",
           "article": "das",
           "plural": "Kinos",
-          "type": "n"
+          "type": "n",
+          "it": "cinema"
         },
         {
           "de": "Film",
@@ -2489,7 +2749,8 @@
           "exampleEn": "Il film è interessante.",
           "article": "der",
           "plural": "Filme",
-          "type": "n"
+          "type": "n",
+          "it": "film"
         },
         {
           "de": "Theater",
@@ -2498,7 +2759,8 @@
           "exampleEn": "Il teatro è bello.",
           "article": "das",
           "plural": "Theater",
-          "type": "n"
+          "type": "n",
+          "it": "teatro"
         },
         {
           "de": "Konzert",
@@ -2507,7 +2769,8 @@
           "exampleEn": "Il concerto è rumoroso.",
           "article": "das",
           "plural": "Konzerte",
-          "type": "n"
+          "type": "n",
+          "it": "concerto"
         },
         {
           "de": "Museum",
@@ -2516,7 +2779,8 @@
           "exampleEn": "Il museo è grande.",
           "article": "das",
           "plural": "Museen",
-          "type": "n"
+          "type": "n",
+          "it": "museo"
         },
         {
           "de": "Ausstellung",
@@ -2525,7 +2789,8 @@
           "exampleEn": "La mostra è interessante.",
           "article": "die",
           "plural": "Ausstellungen",
-          "type": "n"
+          "type": "n",
+          "it": "mostra"
         },
         {
           "de": "Buch",
@@ -2534,7 +2799,8 @@
           "exampleEn": "Il libro è spesso.",
           "article": "das",
           "plural": "Bücher",
-          "type": "n"
+          "type": "n",
+          "it": "libro"
         },
         {
           "de": "Zeitung",
@@ -2543,7 +2809,8 @@
           "exampleEn": "Il giornale è vecchio.",
           "article": "die",
           "plural": "Zeitungen",
-          "type": "n"
+          "type": "n",
+          "it": "giornale"
         },
         {
           "de": "Zeitschrift",
@@ -2552,7 +2819,8 @@
           "exampleEn": "La rivista è colorata.",
           "article": "die",
           "plural": "Zeitschriften",
-          "type": "n"
+          "type": "n",
+          "it": "rivista"
         },
         {
           "de": "Spiel",
@@ -2561,7 +2829,8 @@
           "exampleEn": "Il gioco è divertente.",
           "article": "das",
           "plural": "Spiele",
-          "type": "n"
+          "type": "n",
+          "it": "gioco"
         },
         {
           "de": "Brettspiel",
@@ -2570,7 +2839,8 @@
           "exampleEn": "Il gioco da tavolo è antico.",
           "article": "das",
           "plural": "Brettspiele",
-          "type": "n"
+          "type": "n",
+          "it": "gioco da tavolo"
         },
         {
           "de": "Videospiel",
@@ -2579,7 +2849,8 @@
           "exampleEn": "Il videogioco è moderno.",
           "article": "das",
           "plural": "Videospiele",
-          "type": "n"
+          "type": "n",
+          "it": "videogioco"
         },
         {
           "de": "Restaurant",
@@ -2588,7 +2859,8 @@
           "exampleEn": "Il ristorante è pieno.",
           "article": "das",
           "plural": "Restaurants",
-          "type": "n"
+          "type": "n",
+          "it": "ristorante"
         },
         {
           "de": "Café",
@@ -2597,7 +2869,8 @@
           "exampleEn": "Il caffè è accogliente.",
           "article": "das",
           "plural": "Cafés",
-          "type": "n"
+          "type": "n",
+          "it": "caffè"
         },
         {
           "de": "Bar",
@@ -2606,7 +2879,8 @@
           "exampleEn": "Il bar è vivace.",
           "article": "die",
           "plural": "Bars",
-          "type": "n"
+          "type": "n",
+          "it": "bar"
         },
         {
           "de": "Disco",
@@ -2615,7 +2889,8 @@
           "exampleEn": "La discoteca è rumorosa.",
           "article": "die",
           "plural": "Discos",
-          "type": "n"
+          "type": "n",
+          "it": "discoteca"
         },
         {
           "de": "Reiseführer",
@@ -2624,7 +2899,8 @@
           "exampleEn": "La guida turistica è utile.",
           "article": "der",
           "plural": "Reiseführer",
-          "type": "n"
+          "type": "n",
+          "it": "guida turistica"
         },
         {
           "de": "Hobbys",
@@ -2633,7 +2909,8 @@
           "exampleEn": "L'hobby è interessante.",
           "article": "das",
           "plural": "Hobbys",
-          "type": "n"
+          "type": "n",
+          "it": "hobby"
         },
         {
           "de": "Sammeln",
@@ -2642,7 +2919,8 @@
           "exampleEn": "Collezionare è un hobby.",
           "article": null,
           "plural": null,
-          "type": "v"
+          "type": "v",
+          "it": "collezionare"
         },
         {
           "de": "Entspannung",
@@ -2651,7 +2929,8 @@
           "exampleEn": "Il rilassamento è importante.",
           "article": "die",
           "plural": null,
-          "type": "n"
+          "type": "n",
+          "it": "rilassamento"
         }
       ]
     },
@@ -2661,7 +2940,7 @@
       "words": [
         {
           "de": "Computer",
-          "en": "Computer",
+          "en": "computer",
           "example": "Der Computer ist schnell.",
           "exampleEn": "Il computer è veloce.",
           "article": "der",
@@ -2675,7 +2954,8 @@
           "exampleEn": "Il cellulare è moderno.",
           "article": "das",
           "plural": "Handys",
-          "type": "noun"
+          "type": "noun",
+          "it": "Cellulare"
         },
         {
           "de": "Telefon",
@@ -2684,11 +2964,12 @@
           "exampleEn": "Il telefono suona.",
           "article": "das",
           "plural": "Telefone",
-          "type": "noun"
+          "type": "noun",
+          "it": "Telefono"
         },
         {
           "de": "Internet",
-          "en": "Internet",
+          "en": "internet",
           "example": "Das Internet ist nützlich.",
           "exampleEn": "Internet è utile.",
           "article": "das",
@@ -2702,11 +2983,12 @@
           "exampleEn": "Il sito web è bello.",
           "article": "die",
           "plural": "Websites",
-          "type": "noun"
+          "type": "noun",
+          "it": "Sito web"
         },
         {
           "de": "Email",
-          "en": "Email",
+          "en": "email",
           "example": "Die Email ist wichtig.",
           "exampleEn": "L'email è importante.",
           "article": "die",
@@ -2720,7 +3002,8 @@
           "exampleEn": "Il messaggio è breve.",
           "article": "die",
           "plural": "Nachrichten",
-          "type": "noun"
+          "type": "noun",
+          "it": "Messaggio"
         },
         {
           "de": "Fernseh",
@@ -2729,11 +3012,12 @@
           "exampleEn": "La televisione è grande.",
           "article": "der",
           "plural": "Fernseher",
-          "type": "noun"
+          "type": "noun",
+          "it": "Televisione"
         },
         {
           "de": "Radio",
-          "en": "Radio",
+          "en": "radio",
           "example": "Das Radio spielt Musik.",
           "exampleEn": "La radio suona musica.",
           "article": "das",
@@ -2747,7 +3031,8 @@
           "exampleEn": "Il giornale è informativo.",
           "article": "die",
           "plural": "Zeitungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Giornale"
         },
         {
           "de": "Zeitschrift",
@@ -2756,11 +3041,12 @@
           "exampleEn": "La rivista è interessante.",
           "article": "die",
           "plural": "Zeitschriften",
-          "type": "noun"
+          "type": "noun",
+          "it": "Rivista"
         },
         {
           "de": "Film",
-          "en": "Film",
+          "en": "movie",
           "example": "Der Film ist spannend.",
           "exampleEn": "Il film è entusiasmante.",
           "article": "der",
@@ -2769,7 +3055,7 @@
         },
         {
           "de": "Video",
-          "en": "Video",
+          "en": "video",
           "example": "Das Video ist lang.",
           "exampleEn": "Il video è lungo.",
           "article": "das",
@@ -2778,7 +3064,7 @@
         },
         {
           "de": "Foto",
-          "en": "Foto",
+          "en": "photo",
           "example": "Das Foto ist scharf.",
           "exampleEn": "La foto è nitida.",
           "article": "das",
@@ -2792,7 +3078,8 @@
           "exampleEn": "L'applicazione è utile.",
           "article": "die",
           "plural": "Anwendungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Applicazione"
         },
         {
           "de": "Spiel",
@@ -2801,7 +3088,8 @@
           "exampleEn": "Il gioco è divertente.",
           "article": "das",
           "plural": "Spiele",
-          "type": "noun"
+          "type": "noun",
+          "it": "Gioco"
         },
         {
           "de": "Bildschirm",
@@ -2810,7 +3098,8 @@
           "exampleEn": "Lo schermo è luminoso.",
           "article": "der",
           "plural": "Bildschirme",
-          "type": "noun"
+          "type": "noun",
+          "it": "Schermo"
         },
         {
           "de": "Tastatur",
@@ -2819,7 +3108,8 @@
           "exampleEn": "La tastiera è tedesca.",
           "article": "die",
           "plural": "Tastaturen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Tastiera"
         },
         {
           "de": "Maus",
@@ -2828,7 +3118,8 @@
           "exampleEn": "Il mouse è piccolo.",
           "article": "die",
           "plural": "Mäuse",
-          "type": "noun"
+          "type": "noun",
+          "it": "Mouse"
         },
         {
           "de": "Drucker",
@@ -2837,7 +3128,8 @@
           "exampleEn": "La stampante è veloce.",
           "article": "der",
           "plural": "Drucker",
-          "type": "noun"
+          "type": "noun",
+          "it": "Stampante"
         },
         {
           "de": "Datei",
@@ -2846,7 +3138,8 @@
           "exampleEn": "Il file è grande.",
           "article": "die",
           "plural": "Dateien",
-          "type": "noun"
+          "type": "noun",
+          "it": "File"
         },
         {
           "de": "Programm",
@@ -2855,7 +3148,8 @@
           "exampleEn": "Il programma è utile.",
           "article": "das",
           "plural": "Programme",
-          "type": "noun"
+          "type": "noun",
+          "it": "Programma"
         },
         {
           "de": "Passwort",
@@ -2864,7 +3158,8 @@
           "exampleEn": "La password è sicura.",
           "article": "das",
           "plural": "Passwörter",
-          "type": "noun"
+          "type": "noun",
+          "it": "Password"
         },
         {
           "de": "Benutzername",
@@ -2873,11 +3168,12 @@
           "exampleEn": "Il nome utente è unico.",
           "article": "der",
           "plural": "Benutzernamen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Nome utente"
         },
         {
           "de": "Browser",
-          "en": "Browser",
+          "en": "browser",
           "example": "Der Browser ist schnell.",
           "exampleEn": "Il browser è veloce.",
           "article": "der",
@@ -2897,7 +3193,8 @@
           "exampleEn": "Il dottore è competente.",
           "article": "der",
           "plural": "Ärzte",
-          "type": "noun"
+          "type": "noun",
+          "it": "Dottore"
         },
         {
           "de": "Krankenhaus",
@@ -2906,7 +3203,8 @@
           "exampleEn": "L'ospedale è moderno.",
           "article": "das",
           "plural": "Krankenhäuser",
-          "type": "noun"
+          "type": "noun",
+          "it": "Ospedale"
         },
         {
           "de": "Apotheke",
@@ -2915,7 +3213,8 @@
           "exampleEn": "La farmacia è vicina.",
           "article": "die",
           "plural": "Apotheken",
-          "type": "noun"
+          "type": "noun",
+          "it": "Farmacia"
         },
         {
           "de": "Medikament",
@@ -2924,7 +3223,8 @@
           "exampleEn": "La medicina aiuta.",
           "article": "das",
           "plural": "Medikamente",
-          "type": "noun"
+          "type": "noun",
+          "it": "Medicina"
         },
         {
           "de": "Krankheit",
@@ -2933,7 +3233,8 @@
           "exampleEn": "La malattia è grave.",
           "article": "die",
           "plural": "Krankheiten",
-          "type": "noun"
+          "type": "noun",
+          "it": "Malattia"
         },
         {
           "de": "Fieber",
@@ -2942,7 +3243,8 @@
           "exampleEn": "La febbre è alta.",
           "article": "das",
           "plural": "Fieber",
-          "type": "noun"
+          "type": "noun",
+          "it": "Febbre"
         },
         {
           "de": "Husten",
@@ -2951,7 +3253,8 @@
           "exampleEn": "La tosse è fastidiosa.",
           "article": "der",
           "plural": "Husten",
-          "type": "noun"
+          "type": "noun",
+          "it": "Tosse"
         },
         {
           "de": "Schmerz",
@@ -2960,7 +3263,8 @@
           "exampleEn": "Il dolore è intenso.",
           "article": "der",
           "plural": "Schmerzen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Dolore"
         },
         {
           "de": "Rezept",
@@ -2969,7 +3273,8 @@
           "exampleEn": "La ricetta è dal dottore.",
           "article": "das",
           "plural": "Rezepte",
-          "type": "noun"
+          "type": "noun",
+          "it": "Ricetta"
         },
         {
           "de": "Behandlung",
@@ -2978,7 +3283,8 @@
           "exampleEn": "Il trattamento è efficace.",
           "article": "die",
           "plural": "Behandlungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Trattamento"
         },
         {
           "de": "Operation",
@@ -2987,7 +3293,8 @@
           "exampleEn": "L'operazione è necessaria.",
           "article": "die",
           "plural": "Operationen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Operazione"
         },
         {
           "de": "Versicherung",
@@ -2996,7 +3303,8 @@
           "exampleEn": "L'assicurazione paga.",
           "article": "die",
           "plural": "Versicherungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Assicurazione"
         },
         {
           "de": "Impfung",
@@ -3005,7 +3313,8 @@
           "exampleEn": "La vaccinazione è importante.",
           "article": "die",
           "plural": "Impfungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Vaccinazione"
         },
         {
           "de": "Symptom",
@@ -3014,7 +3323,8 @@
           "exampleEn": "Il sintomo è chiaro.",
           "article": "das",
           "plural": "Symptome",
-          "type": "noun"
+          "type": "noun",
+          "it": "Sintomo"
         },
         {
           "de": "Diagnose",
@@ -3023,7 +3333,8 @@
           "exampleEn": "La diagnosi è importante.",
           "article": "die",
           "plural": "Diagnosen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Diagnosi"
         },
         {
           "de": "Rettung",
@@ -3032,7 +3343,8 @@
           "exampleEn": "L'ambulanza arriva velocemente.",
           "article": "die",
           "plural": "Rettungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Ambulanza"
         },
         {
           "de": "Erste Hilfe",
@@ -3041,7 +3353,8 @@
           "exampleEn": "Il primo soccorso è importante.",
           "article": "die",
           "plural": "Erste Hilfe",
-          "type": "noun"
+          "type": "noun",
+          "it": "Primo soccorso"
         },
         {
           "de": "Verletzung",
@@ -3050,7 +3363,8 @@
           "exampleEn": "La ferita è leggera.",
           "article": "die",
           "plural": "Verletzungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Ferita"
         },
         {
           "de": "Knochenbruch",
@@ -3059,7 +3373,8 @@
           "exampleEn": "La frattura è grave.",
           "article": "der",
           "plural": "Knochenbrüche",
-          "type": "noun"
+          "type": "noun",
+          "it": "Frattura"
         },
         {
           "de": "Allergie",
@@ -3068,7 +3383,8 @@
           "exampleEn": "L'allergia è spiacevole.",
           "article": "die",
           "plural": "Allergien",
-          "type": "noun"
+          "type": "noun",
+          "it": "Allergia"
         },
         {
           "de": "Blutdruck",
@@ -3077,7 +3393,8 @@
           "exampleEn": "La pressione arteriosa è normale.",
           "article": "der",
           "plural": "Blutdrücke",
-          "type": "noun"
+          "type": "noun",
+          "it": "Pressione arteriosa"
         },
         {
           "de": "Gewicht",
@@ -3086,7 +3403,8 @@
           "exampleEn": "Il peso è sano.",
           "article": "das",
           "plural": "Gewichte",
-          "type": "noun"
+          "type": "noun",
+          "it": "Peso"
         },
         {
           "de": "Höhe",
@@ -3095,7 +3413,8 @@
           "exampleEn": "L'altezza è misurata.",
           "article": "die",
           "plural": "Höhen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Altezza"
         },
         {
           "de": "Untersuchung",
@@ -3104,7 +3423,8 @@
           "exampleEn": "La visita è accurata.",
           "article": "die",
           "plural": "Untersuchungen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Visita"
         },
         {
           "de": "Praxis",
@@ -3113,7 +3433,8 @@
           "exampleEn": "Lo studio medico è moderno.",
           "article": "die",
           "plural": "Praxen",
-          "type": "noun"
+          "type": "noun",
+          "it": "Studio medico"
         }
       ]
     }

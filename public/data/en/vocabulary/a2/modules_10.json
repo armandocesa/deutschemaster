@@ -7,28 +7,28 @@
     "words": [
       {
         "german": "der Brunnen",
-        "italian": "la fontana",
+        "italian": "the fountain",
         "article": "der",
         "plural": "Brunnen",
         "example": "Der Brunnen ist schön."
       },
       {
         "german": "die Stadtmauer",
-        "italian": "le mura della città",
+        "italian": "the city walls",
         "article": "die",
         "plural": "Stadtmauern",
         "example": "Die Stadtmauer ist alt."
       },
       {
         "german": "der Fremdenführer",
-        "italian": "la guida turistica",
+        "italian": "tour guide",
         "article": "der",
         "plural": "Fremdenführer",
         "example": "Der Fremdenführer erklärt."
       },
       {
         "german": "die Aussichtsplattform",
-        "italian": "la piattaforma panoramica",
+        "italian": "the observation platform",
         "article": "die",
         "plural": "Aussichtsplattformen",
         "example": "Die Aussicht ist toll."
@@ -43,56 +43,56 @@
     "words": [
       {
         "german": "die Notrufnummer",
-        "italian": "il numero d'emergenza",
+        "italian": "the emergency number",
         "article": "die",
         "plural": "",
         "example": "Die Notrufnummer ist 112."
       },
       {
         "german": "bewusstlos",
-        "italian": "privo di sensi",
+        "italian": "unconscious",
         "article": "",
         "plural": "",
         "example": "Er ist bewusstlos."
       },
       {
         "german": "die Vergiftung",
-        "italian": "l'avvelenamento",
+        "italian": "the poisoning",
         "article": "die",
         "plural": "",
         "example": "Das ist eine Vergiftung."
       },
       {
         "german": "der Sonnenstich",
-        "italian": "il colpo di sole",
+        "italian": "the sun stroke",
         "article": "der",
         "plural": "",
         "example": "Er hat einen Sonnenstich."
       },
       {
         "german": "die Trage",
-        "italian": "la barella",
+        "italian": "the stretcher",
         "article": "die",
         "plural": "Tragen",
         "example": "Er liegt auf der Trage."
       },
       {
         "german": "der Defibrillator",
-        "italian": "il defibrillatore",
+        "italian": "the defibrillator",
         "article": "der",
         "plural": "Defibrillatoren",
         "example": "Der Defibrillator rettet Leben."
       },
       {
         "german": "die Erstversorgung",
-        "italian": "il primo soccorso",
+        "italian": "the first aid",
         "article": "die",
         "plural": "",
         "example": "Die Erstversorgung ist wichtig."
       },
       {
         "german": "die stabile Seitenlage",
-        "italian": "la posizione laterale di sicurezza",
+        "italian": "the recovery position",
         "article": "die",
         "plural": "",
         "example": "Legen Sie ihn in die stabile Seitenlage."
@@ -107,28 +107,28 @@
     "words": [
       {
         "german": "der Versicherungsschein",
-        "italian": "la polizza",
+        "italian": "policy",
         "article": "der",
         "plural": "",
         "example": "Zeigen Sie den Versicherungsschein."
       },
       {
         "german": "die Laufzeit",
-        "italian": "la durata",
+        "italian": "die dauer",
         "article": "die",
         "plural": "Laufzeiten",
         "example": "Die Laufzeit ist ein Jahr."
       },
       {
         "german": "der Versicherungsmakler",
-        "italian": "il broker assicurativo",
+        "italian": "the insurance broker",
         "article": "der",
         "plural": "",
         "example": "Der Versicherungsmakler berät."
       },
       {
         "german": "die Zusatzversicherung",
-        "italian": "l'assicurazione integrativa",
+        "italian": "the supplementary insurance",
         "article": "die",
         "plural": "",
         "example": "Eine Zusatzversicherung lohnt sich."
@@ -143,70 +143,70 @@
     "words": [
       {
         "german": "der Restmüll",
-        "italian": "i rifiuti indifferenziati",
+        "italian": "the residual waste",
         "article": "der",
         "plural": "",
         "example": "Das kommt in den Restmüll."
       },
       {
         "german": "die Biotonne",
-        "italian": "il bidone dell'organico",
+        "italian": "the organic waste bin",
         "article": "die",
         "plural": "Biotonnen",
         "example": "Obstreste in die Biotonne."
       },
       {
         "german": "der Glascontainer",
-        "italian": "il contenitore del vetro",
+        "italian": "the glass container",
         "article": "der",
         "plural": "",
         "example": "Flaschen in den Glascontainer."
       },
       {
         "german": "der Wertstoff",
-        "italian": "il materiale riciclabile",
+        "italian": "the recyclable material",
         "article": "der",
         "plural": "Wertstoffe",
         "example": "Das ist ein Wertstoff."
       },
       {
         "german": "wiederverwenden",
-        "italian": "riutilizzare",
+        "italian": "to recycle",
         "article": "",
         "plural": "",
         "example": "Man kann das wiederverwenden."
       },
       {
         "german": "die Pfandflasche",
-        "italian": "la bottiglia con cauzione",
+        "italian": "the deposit bottle",
         "article": "die",
         "plural": "Pfandflaschen",
         "example": "Gib die Flasche zurück."
       },
       {
         "german": "der Sperrmüll",
-        "italian": "i rifiuti ingombranti",
+        "italian": "the bulky waste",
         "article": "der",
         "plural": "",
         "example": "Morgen ist Sperrmüll."
       },
       {
         "german": "das Altpapier",
-        "italian": "la carta da macero",
+        "italian": "the waste paper",
         "article": "das",
         "plural": "",
         "example": "Altpapier wird recycelt."
       },
       {
         "german": "das Altglas",
-        "italian": "il vetro usato",
+        "italian": "the used glass",
         "article": "das",
         "plural": "",
         "example": "Altglas in den Container."
       },
       {
         "german": "die Wertstofftonne",
-        "italian": "il bidone dei riciclabili",
+        "italian": "the recycling bin",
         "article": "die",
         "plural": "",
         "example": "Plastik in die Wertstofftonne."
@@ -221,35 +221,35 @@
     "words": [
       {
         "german": "die Gießkanne",
-        "italian": "l'annaffiatoio",
+        "italian": "the watering can",
         "article": "die",
         "plural": "Gießkannen",
         "example": "Nimm die Gießkanne."
       },
       {
         "german": "der Rasenmäher",
-        "italian": "il tagliaerba",
+        "italian": "the lawn mower",
         "article": "der",
         "plural": "",
         "example": "Der Rasenmäher ist laut."
       },
       {
         "german": "das Unkraut",
-        "italian": "le erbacce",
+        "italian": "the weeds",
         "article": "das",
         "plural": "",
         "example": "Ich jäte Unkraut."
       },
       {
         "german": "das Beet",
-        "italian": "l'aiuola",
+        "italian": "the flower bed",
         "article": "das",
         "plural": "Beete",
         "example": "Das Beet ist voll Blumen."
       },
       {
         "german": "die Gartenschere",
-        "italian": "le cesoie",
+        "italian": "the pruning shears",
         "article": "die",
         "plural": "Gartenscheren",
         "example": "Nimm die Gartenschere."
@@ -264,14 +264,14 @@
     "words": [
       {
         "german": "der Lehrplan",
-        "italian": "il programma scolastico",
+        "italian": "the curriculum",
         "article": "der",
         "plural": "Lehrpläne",
         "example": "Der Lehrplan ist voll."
       },
       {
         "german": "die Nachhilfe",
-        "italian": "le ripetizioni",
+        "italian": "the tutoring",
         "article": "die",
         "plural": "",
         "example": "Er bekommt Nachhilfe."
@@ -293,7 +293,7 @@
     "words": [
       {
         "german": "geizig",
-        "italian": "avaro",
+        "italian": "stingy",
         "article": "",
         "plural": "",
         "example": "Er ist geizig."
@@ -308,77 +308,77 @@
     "words": [
       {
         "german": "der Schreibtischstuhl",
-        "italian": "la sedia da scrivania",
+        "italian": "the desk chair",
         "article": "der",
         "plural": "",
         "example": "Der Stuhl ist ergonomisch."
       },
       {
         "german": "das Hochbett",
-        "italian": "il letto a soppalco",
+        "italian": "the loft bed",
         "article": "das",
         "plural": "Hochbetten",
         "example": "Das Hochbett spart Platz."
       },
       {
         "german": "die Eckbank",
-        "italian": "la panca angolare",
+        "italian": "the corner bench",
         "article": "die",
         "plural": "Eckbänke",
         "example": "Die Eckbank ist gemütlich."
       },
       {
         "german": "der Schuhschrank",
-        "italian": "la scarpiera",
+        "italian": "the shoe rack",
         "article": "der",
         "plural": "Schuhschränke",
         "example": "Der Schuhschrank ist voll."
       },
       {
         "german": "das Futon",
-        "italian": "il futon",
+        "italian": "the futon",
         "article": "das",
         "plural": "Futons",
         "example": "Das Futon ist bequem."
       },
       {
         "german": "der Klappstuhl",
-        "italian": "la sedia pieghevole",
+        "italian": "the folding chair",
         "article": "der",
         "plural": "Klappstühle",
         "example": "Nimm den Klappstuhl mit."
       },
       {
         "german": "der Barhocker",
-        "italian": "lo sgabello da bar",
+        "italian": "the bar stool",
         "article": "der",
         "plural": "Barhocker",
         "example": "Er sitzt auf dem Barhocker."
       },
       {
         "german": "das Boxspringbett",
-        "italian": "il letto boxspring",
+        "italian": "the box spring bed",
         "article": "das",
         "plural": "",
         "example": "Das Boxspringbett ist bequem."
       },
       {
         "german": "der Lattenrost",
-        "italian": "la rete del letto",
+        "italian": "the bed frame",
         "article": "der",
         "plural": "Lattenroste",
         "example": "Der Lattenrost ist neu."
       },
       {
         "german": "der Rollcontainer",
-        "italian": "il cassettiera a rotelle",
+        "italian": "the rolling cabinet",
         "article": "der",
         "plural": "",
         "example": "Der Rollcontainer ist praktisch."
       },
       {
         "german": "der Wandspiegel",
-        "italian": "lo specchio da parete",
+        "italian": "the wall mirror",
         "article": "der",
         "plural": "Wandspiegel",
         "example": "Der Wandspiegel ist groß."
@@ -393,84 +393,84 @@
     "words": [
       {
         "german": "das Spülmittel",
-        "italian": "il detersivo per piatti",
+        "italian": "the dish soap",
         "article": "das",
         "plural": "",
         "example": "Ich brauche Spülmittel."
       },
       {
         "german": "die Windel",
-        "italian": "il pannolino",
+        "italian": "the diaper",
         "article": "die",
         "plural": "Windeln",
         "example": "Das Baby braucht Windeln."
       },
       {
         "german": "die Taschentücher",
-        "italian": "i fazzoletti",
+        "italian": "the tissues",
         "article": "die",
         "plural": "",
         "example": "Ich brauche Taschentücher."
       },
       {
         "german": "das Haarspray",
-        "italian": "la lacca",
+        "italian": "the hairspray",
         "article": "das",
         "plural": "",
         "example": "Sie benutzt Haarspray."
       },
       {
         "german": "die Handcreme",
-        "italian": "la crema per le mani",
+        "italian": "the hand cream",
         "article": "die",
         "plural": "",
         "example": "Die Handcreme ist gut."
       },
       {
         "german": "der Lippenstift",
-        "italian": "il rossetto",
+        "italian": "the lipstick",
         "article": "der",
         "plural": "Lippenstifte",
         "example": "Der Lippenstift ist rot."
       },
       {
         "german": "die Wimperntusche",
-        "italian": "il mascara",
+        "italian": "the mascara",
         "article": "die",
         "plural": "",
         "example": "Sie benutzt Wimperntusche."
       },
       {
         "german": "der Nagellack",
-        "italian": "lo smalto",
+        "italian": "the nail polish",
         "article": "der",
         "plural": "Nagellacke",
         "example": "Der Nagellack ist pink."
       },
       {
         "german": "die Kontaktlinsen",
-        "italian": "le lenti a contatto",
+        "italian": "the contact lenses",
         "article": "die",
         "plural": "",
         "example": "Ich trage Kontaktlinsen."
       },
       {
         "german": "die Haarkur",
-        "italian": "la maschera per capelli",
+        "italian": "the hair mask",
         "article": "die",
         "plural": "Haarkuren",
         "example": "Die Haarkur pflegt."
       },
       {
         "german": "der Conditioner",
-        "italian": "il balsamo",
+        "italian": "the conditioner",
         "article": "der",
         "plural": "",
         "example": "Ich benutze Conditioner."
       },
       {
         "german": "die Gesichtsmaske",
-        "italian": "la maschera viso",
+        "italian": "the face mask",
         "article": "die",
         "plural": "Gesichtsmasken",
         "example": "Die Gesichtsmaske ist toll."
@@ -485,77 +485,77 @@
     "words": [
       {
         "german": "der Hustensaft",
-        "italian": "lo sciroppo per la tosse",
+        "italian": "the cough syrup",
         "article": "der",
         "plural": "",
         "example": "Nimm Hustensaft."
       },
       {
         "german": "das Nasenspray",
-        "italian": "lo spray nasale",
+        "italian": "the nasal spray",
         "article": "das",
         "plural": "",
         "example": "Benutze Nasenspray."
       },
       {
         "german": "die Halstablette",
-        "italian": "la pastiglia per la gola",
+        "italian": "the throat lozenge",
         "article": "die",
         "plural": "Halstabletten",
         "example": "Nimm eine Halstablette."
       },
       {
         "german": "das Schmerzmittel",
-        "italian": "l'antidolorifico",
+        "italian": "the painkiller",
         "article": "das",
         "plural": "",
         "example": "Ich brauche Schmerzmittel."
       },
       {
         "german": "die Dosierung",
-        "italian": "il dosaggio",
+        "italian": "the dosage",
         "article": "die",
         "plural": "",
         "example": "Beachten Sie die Dosierung."
       },
       {
         "german": "die Packungsbeilage",
-        "italian": "il foglietto illustrativo",
+        "italian": "the package insert",
         "article": "die",
         "plural": "",
         "example": "Lesen Sie die Packungsbeilage."
       },
       {
         "german": "das Antibiotikum",
-        "italian": "l'antibiotico",
+        "italian": "the antibiotic",
         "article": "das",
         "plural": "Antibiotika",
         "example": "Er nimmt ein Antibiotikum."
       },
       {
         "german": "die Wärmflasche",
-        "italian": "la borsa dell'acqua calda",
+        "italian": "the hot water bottle",
         "article": "die",
         "plural": "",
         "example": "Die Wärmflasche hilft."
       },
       {
         "german": "die Augentropfen",
-        "italian": "il collirio",
+        "italian": "the eye drops",
         "article": "die",
         "plural": "",
         "example": "Ich brauche Augentropfen."
       },
       {
         "german": "das Pflanzenheilmittel",
-        "italian": "il rimedio fitoterapico",
+        "italian": "the herbal remedy",
         "article": "das",
         "plural": "",
         "example": "Er nutzt Pflanzenheilmittel."
       },
       {
         "german": "die Lutschtablette",
-        "italian": "la pastiglia",
+        "italian": "the lozenge",
         "article": "die",
         "plural": "Lutschtabletten",
         "example": "Nimm eine Lutschtablette."
@@ -570,14 +570,14 @@
     "words": [
       {
         "german": "der Schlussverkauf",
-        "italian": "i saldi",
+        "italian": "the sale",
         "article": "der",
         "plural": "",
         "example": "Es ist Schlussverkauf."
       },
       {
         "german": "das Etikett",
-        "italian": "l'etichetta",
+        "italian": "the label",
         "article": "das",
         "plural": "Etiketten",
         "example": "Lies das Etikett."
@@ -592,35 +592,35 @@
     "words": [
       {
         "german": "der Strandurlaub",
-        "italian": "la vacanza al mare",
+        "italian": "the beach vacation",
         "article": "der",
         "plural": "",
         "example": "Wir machen Strandurlaub."
       },
       {
         "german": "der Skiurlaub",
-        "italian": "la settimana bianca",
+        "italian": "the ski vacation",
         "article": "der",
         "plural": "",
         "example": "Im Winter machen wir Skiurlaub."
       },
       {
         "german": "der Wellnessurlaub",
-        "italian": "la vacanza benessere",
+        "italian": "the wellness vacation",
         "article": "der",
         "plural": "",
         "example": "Sie macht Wellnessurlaub."
       },
       {
         "german": "der Wanderurlaub",
-        "italian": "la vacanza escursionistica",
+        "italian": "the hiking vacation",
         "article": "der",
         "plural": "",
         "example": "Wir machen Wanderurlaub."
       },
       {
         "german": "die Pauschalreise",
-        "italian": "il viaggio tutto incluso",
+        "italian": "the all-inclusive package tour",
         "article": "die",
         "plural": "",
         "example": "Wir buchen eine Pauschalreise."
@@ -635,112 +635,112 @@
     "words": [
       {
         "german": "die Kaltmiete",
-        "italian": "l'affitto base",
+        "italian": "the base rent",
         "article": "die",
         "plural": "",
         "example": "Die Kaltmiete ist 500 Euro."
       },
       {
         "german": "die Warmmiete",
-        "italian": "l'affitto totale",
+        "italian": "the total rent",
         "article": "die",
         "plural": "",
         "example": "Die Warmmiete ist 700 Euro."
       },
       {
         "german": "die Wohnfläche",
-        "italian": "la superficie abitabile",
+        "italian": "the living space",
         "article": "die",
         "plural": "",
         "example": "Die Wohnfläche ist 80 qm."
       },
       {
         "german": "die Betriebskosten",
-        "italian": "le spese di gestione",
+        "italian": "the operating costs",
         "article": "die",
         "plural": "",
         "example": "Die Betriebskosten steigen."
       },
       {
         "german": "die Heizkosten",
-        "italian": "le spese di riscaldamento",
+        "italian": "the heating costs",
         "article": "die",
         "plural": "",
         "example": "Die Heizkosten sind hoch."
       },
       {
         "german": "die Mieterhöhung",
-        "italian": "l'aumento dell'affitto",
+        "italian": "the rent increase",
         "article": "die",
         "plural": "",
         "example": "Es gibt eine Mieterhöhung."
       },
       {
         "german": "das Übergabeprotokoll",
-        "italian": "il verbale di consegna",
+        "italian": "the handover protocol",
         "article": "das",
         "plural": "",
         "example": "Unterschreiben Sie das Übergabeprotokoll."
       },
       {
         "german": "die Hausordnung",
-        "italian": "il regolamento condominiale",
+        "italian": "the house rules",
         "article": "die",
         "plural": "",
         "example": "Beachten Sie die Hausordnung."
       },
       {
         "german": "der Mietspiegel",
-        "italian": "l'indice degli affitti",
+        "italian": "the rental index",
         "article": "der",
         "plural": "",
         "example": "Prüfen Sie den Mietspiegel."
       },
       {
         "german": "die Nebenkostenabrechnung",
-        "italian": "il rendiconto spese",
+        "italian": "the expense statement",
         "article": "die",
         "plural": "",
         "example": "Die Nebenkostenabrechnung kommt."
       },
       {
         "german": "die Wohnungsübergabe",
-        "italian": "la consegna dell'appartamento",
+        "italian": "the apartment handover",
         "article": "die",
         "plural": "",
         "example": "Die Wohnungsübergabe ist morgen."
       },
       {
         "german": "die Schönheitsreparatur",
-        "italian": "la riparazione estetica",
+        "italian": "the cosmetic repair",
         "article": "die",
         "plural": "",
         "example": "Schönheitsreparaturen sind Pflicht."
       },
       {
         "german": "der Mieterschutz",
-        "italian": "la tutela dell'inquilino",
+        "italian": "the tenant protection",
         "article": "der",
         "plural": "",
         "example": "Mieterschutz ist wichtig."
       },
       {
         "german": "die Hausverwaltung",
-        "italian": "l'amministrazione condominiale",
+        "italian": "the property management",
         "article": "die",
         "plural": "",
         "example": "Die Hausverwaltung informiert."
       },
       {
         "german": "der Staffelmietvertrag",
-        "italian": "il contratto a scaletta",
+        "italian": "the stepped rent contract",
         "article": "der",
         "plural": "",
         "example": "Ein Staffelmietvertrag hat feste Erhöhungen."
       },
       {
         "german": "die Indexmiete",
-        "italian": "l'affitto indicizzato",
+        "italian": "the indexed rent",
         "article": "die",
         "plural": "",
         "example": "Die Indexmiete steigt mit der Inflation."
@@ -762,91 +762,91 @@
     "words": [
       {
         "german": "das Paket",
-        "italian": "il pacco",
+        "italian": "the package",
         "article": "das",
         "plural": "Pakete",
         "example": "Das Paket ist angekommen."
       },
       {
         "german": "der Briefumschlag",
-        "italian": "la busta",
+        "italian": "the envelope",
         "article": "der",
         "plural": "Briefumschläge",
         "example": "Ich brauche einen Briefumschlag."
       },
       {
         "german": "die Postleitzahl",
-        "italian": "il codice postale",
+        "italian": "the postal code",
         "article": "die",
         "plural": "Postleitzahlen",
         "example": "Wie ist die Postleitzahl?"
       },
       {
         "german": "das Einschreiben",
-        "italian": "la raccomandata",
+        "italian": "the registered letter",
         "article": "das",
         "plural": "Einschreiben",
         "example": "Ich schicke es als Einschreiben."
       },
       {
         "german": "der Postbote",
-        "italian": "il postino",
+        "italian": "the postman",
         "article": "der",
         "plural": "Postboten",
         "example": "Der Postbote bringt die Post."
       },
       {
         "german": "das Päckchen",
-        "italian": "il pacchetto",
+        "italian": "the small package",
         "article": "das",
         "plural": "Päckchen",
         "example": "Ich schicke ein Päckchen."
       },
       {
         "german": "die Sendungsverfolgung",
-        "italian": "il tracciamento",
+        "italian": "the absteckung",
         "article": "die",
         "plural": "",
         "example": "Ich prüfe die Sendungsverfolgung."
       },
       {
         "german": "die Zustellung",
-        "italian": "la consegna",
+        "italian": "the delivery",
         "article": "die",
         "plural": "",
         "example": "Die Zustellung ist morgen."
       },
       {
         "german": "der Paketdienst",
-        "italian": "il corriere",
+        "italian": "the courier",
         "article": "der",
         "plural": "",
         "example": "Der Paketdienst bringt das Paket."
       },
       {
         "german": "frankieren",
-        "italian": "affrancare",
+        "italian": "stamp",
         "article": "",
         "plural": "",
         "example": "Frankiere den Brief."
       },
       {
         "german": "die Packstation",
-        "italian": "la stazione pacchi",
+        "italian": "the parcel station",
         "article": "die",
         "plural": "Packstationen",
         "example": "Ich hole das Paket an der Packstation."
       },
       {
         "german": "das Porto",
-        "italian": "la spesa di spedizione",
+        "italian": "the shipping cost",
         "article": "das",
         "plural": "",
         "example": "Das Porto ist 1,60 Euro."
       },
       {
         "german": "der Nachnahme",
-        "italian": "il contrassegno",
+        "italian": "the cash on delivery",
         "article": "der",
         "plural": "",
         "example": "Per Nachnahme bezahlen."
@@ -861,28 +861,28 @@
     "words": [
       {
         "german": "die Krankmeldung",
-        "italian": "il certificato di malattia",
+        "italian": "the sick note",
         "article": "die",
         "plural": "Krankmeldungen",
         "example": "Ich brauche eine Krankmeldung."
       },
       {
         "german": "die Blutabnahme",
-        "italian": "il prelievo di sangue",
+        "italian": "the blood draw",
         "article": "die",
         "plural": "",
         "example": "Morgen ist Blutabnahme."
       },
       {
         "german": "der Impfpass",
-        "italian": "il libretto vaccinale",
+        "italian": "the vaccination record",
         "article": "der",
         "plural": "Impfpässe",
         "example": "Bring den Impfpass mit."
       },
       {
         "german": "die Gesundheitskarte",
-        "italian": "la tessera sanitaria",
+        "italian": "health insurance card",
         "article": "die",
         "plural": "",
         "example": "Zeigen Sie die Gesundheitskarte."
@@ -897,28 +897,28 @@
     "words": [
       {
         "german": "der Gepäckträger",
-        "italian": "il facchino",
+        "italian": "the porter",
         "article": "der",
         "plural": "Gepäckträger",
         "example": "Der Gepäckträger hilft."
       },
       {
         "german": "die Buchungsbestätigung",
-        "italian": "la conferma di prenotazione",
+        "italian": "the booking confirmation",
         "article": "die",
         "plural": "",
         "example": "Zeigen Sie die Buchungsbestätigung."
       },
       {
         "german": "das Hotelzimmer",
-        "italian": "la camera d'albergo",
+        "italian": "the hotel room",
         "article": "das",
         "plural": "Hotelzimmer",
         "example": "Das Hotelzimmer ist sauber."
       },
       {
         "german": "der Weckruf",
-        "italian": "la sveglia telefonica",
+        "italian": "the wake-up call",
         "article": "der",
         "plural": "Weckrufe",
         "example": "Ich bestelle einen Weckruf."
@@ -933,49 +933,49 @@
     "words": [
       {
         "german": "das Bürgeramt",
-        "italian": "l'ufficio anagrafe",
+        "italian": "registry office",
         "article": "das",
         "plural": "Bürgerämter",
         "example": "Ich gehe zum Bürgeramt."
       },
       {
         "german": "die Aufenthaltserlaubnis",
-        "italian": "il permesso di soggiorno",
+        "italian": "the residence permit",
         "article": "die",
         "plural": "",
         "example": "Ich brauche eine Aufenthaltserlaubnis."
       },
       {
         "german": "die Geburtsurkunde",
-        "italian": "il certificato di nascita",
+        "italian": "the birth certificate",
         "article": "die",
         "plural": "Geburtsurkunden",
         "example": "Bringen Sie die Geburtsurkunde."
       },
       {
         "german": "das Standesamt",
-        "italian": "l'ufficio di stato civile",
+        "italian": "the civil registry office",
         "article": "das",
         "plural": "Standesämter",
         "example": "Wir heiraten im Standesamt."
       },
       {
         "german": "die Arbeitserlaubnis",
-        "italian": "il permesso di lavoro",
+        "italian": "the work permit",
         "article": "die",
         "plural": "",
         "example": "Sie braucht eine Arbeitserlaubnis."
       },
       {
         "german": "das Arbeitsamt",
-        "italian": "l'ufficio di collocamento",
+        "italian": "the employment office",
         "article": "das",
         "plural": "Arbeitsämter",
         "example": "Melden Sie sich beim Arbeitsamt."
       },
       {
         "german": "das Einwohnermeldeamt",
-        "italian": "l'anagrafe",
+        "italian": "the registration office",
         "article": "das",
         "plural": "",
         "example": "Melden Sie sich beim Einwohnermeldeamt an."
@@ -989,35 +989,35 @@
       },
       {
         "german": "das Formular",
-        "italian": "il modulo",
+        "italian": "the form",
         "article": "das",
         "plural": "Formulare",
         "example": "Füllen Sie das Formular aus."
       },
       {
         "german": "die Beglaubigung",
-        "italian": "la certificazione",
+        "italian": "the certification",
         "article": "die",
         "plural": "",
         "example": "Ich brauche eine Beglaubigung."
       },
       {
         "german": "der Stempel",
-        "italian": "il timbro",
+        "italian": "the stamp",
         "article": "der",
         "plural": "Stempel",
         "example": "Der Stempel fehlt."
       },
       {
         "german": "die Frist",
-        "italian": "la scadenza",
+        "italian": "the faelligkeit",
         "article": "die",
         "plural": "Fristen",
         "example": "Die Frist endet morgen."
       },
       {
         "german": "das Meldeformular",
-        "italian": "il modulo di registrazione",
+        "italian": "the registration form",
         "article": "das",
         "plural": "",
         "example": "Füllen Sie das Meldeformular aus."
@@ -1032,35 +1032,35 @@
     "words": [
       {
         "german": "die Dokumentation",
-        "italian": "il documentario",
+        "italian": "the documentary",
         "article": "die",
         "plural": "Dokumentationen",
         "example": "Die Doku ist spannend."
       },
       {
         "german": "der Streaming-Dienst",
-        "italian": "il servizio di streaming",
+        "italian": "the streaming service",
         "article": "der",
         "plural": "",
         "example": "Ich nutze einen Streaming-Dienst."
       },
       {
         "german": "die Mediathek",
-        "italian": "la mediateca",
+        "italian": "the media library",
         "article": "die",
         "plural": "Mediatheken",
         "example": "Ich schaue in der Mediathek."
       },
       {
         "german": "der Untertitel",
-        "italian": "il sottotitolo",
+        "italian": "the subtitle",
         "article": "der",
         "plural": "Untertitel",
         "example": "Ich schaue mit Untertitel."
       },
       {
         "german": "die Einschaltquote",
-        "italian": "la quota di ascolto",
+        "italian": "the viewership",
         "article": "die",
         "plural": "",
         "example": "Die Einschaltquote ist hoch."
