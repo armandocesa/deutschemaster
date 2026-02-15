@@ -8,6 +8,12 @@ import { speak } from '../utils/speech';
 import { getWordStatus, isDifficultWord, saveDifficultWord, removeDifficultWord } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
 
+// Format category names: "qualita_neg" → "Qualita neg", "ambiente" → "Ambiente"
+const formatCategory = (cat) => {
+  if (!cat) return '';
+  return cat.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+};
+
 function WordRow({ word, category, onSaveChange }) {
   const [saved, setSaved] = useState(isDifficultWord(word.german));
   useEffect(() => { setSaved(isDifficultWord(word.german)); }, [word.german]);
@@ -31,7 +37,7 @@ function WordRow({ word, category, onSaveChange }) {
         </div>
       </td>
       <td className="vocab-cell-translation">{word.italian || ''}</td>
-      <td className="vocab-cell-category"><span className="vocab-category-badge">{category}</span></td>
+      <td className="vocab-cell-category"><span className="vocab-category-badge">{formatCategory(category)}</span></td>
       <td className="vocab-cell-actions">
         <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={toggleSave} title={saved ? 'Remove' : 'Save'}>
           {saved ? <Icons.StarFilled /> : <Icons.Star />}

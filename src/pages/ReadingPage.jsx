@@ -76,8 +76,17 @@ export default function ReadingPage({ level, reading, onNavigate }) {
     <div className="reading-page">
       <div className="page-header"><h1 className="page-title">{t('reading.title')}</h1><p className="page-subtitle">{getLevelName(activeLevel)} - {texts.length} {t('reading.texts')}</p></div>
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
-      <div className="reading-list">
-        {texts.map(text => (<div key={text.id} className="reading-card" onClick={() => onNavigate('reading',{level:activeLevel,reading:text})}><span className="theme-badge">{text.theme}</span><h3>{text.title}</h3><p>{text.text.substring(0,100)}...</p></div>))}
+      <div className="compact-list">
+        {texts.map(text => (
+          <div key={text.id} className="compact-list-item" onClick={() => onNavigate('reading',{level:activeLevel,reading:text})}>
+            <span className="compact-icon">📖</span>
+            <div className="compact-info">
+              <div className="compact-title">{text.title}</div>
+              <div className="compact-subtitle">{text.theme}</div>
+            </div>
+            <span className="compact-chevron">›</span>
+          </div>
+        ))}
       </div>
       {texts.length === 0 && <div className="empty-state"><p>{t('reading.noTexts')}</p></div>}
     </div>

@@ -308,36 +308,18 @@ export default function StoriesPage({ level, reading, onNavigate }) {
 
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
 
-      <div className="reading-list">
+      <div className="compact-list">
         {currentStories.map(story => {
           const isCompleted = completedStories.includes(story.id);
           return (
-            <div
-              key={story.id}
-              className="reading-card"
-              onClick={() => setSelectedStory(story)}
-              style={{cursor: 'pointer', position: 'relative', overflow: 'hidden'}}
-            >
-              {isCompleted && (
-                <div style={{position: 'absolute', top: '12px', right: '12px', background: 'var(--success)', color: 'white', borderRadius: '50%', width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', fontWeight: '700', zIndex: 10}}>
-                  ✓
-                </div>
-              )}
-              <div style={{fontSize: '48px', marginBottom: '12px'}}>{story.emoji}</div>
-              <h3>{story.title}</h3>
-              <p style={{fontSize: '12px', color: 'var(--text-secondary)', marginTop: '8px'}}>{story.titleIt}</p>
-              <div style={{marginTop: '12px', fontSize: '11px', color: 'var(--text-secondary)', display: 'flex', gap: '8px', flexWrap: 'wrap'}}>
-                {story.characters.map(char => (
-                  <span key={char} style={{background: 'rgba(108,92,231,0.1)', padding: '2px 8px', borderRadius: '4px'}}>
-                    {char}
-                  </span>
-                ))}
+            <div key={story.id} className={`compact-list-item ${isCompleted ? 'completed' : ''}`} onClick={() => setSelectedStory(story)}>
+              <span className="compact-icon">{story.emoji}</span>
+              <div className="compact-info">
+                <div className="compact-title">{story.title}</div>
+                <div className="compact-subtitle">{story.characters?.join(', ')}</div>
               </div>
-              {isCompleted && (
-                <div style={{marginTop: '12px', padding: '8px 12px', background: 'var(--success-dim)', color: 'var(--success)', borderRadius: 'var(--radius)', fontSize: '11px', fontWeight: '600'}}>
-                  {t('lessons.completed_label')}! +20 XP
-                </div>
-              )}
+              {isCompleted && <span className="compact-badge success">✓</span>}
+              <span className="compact-chevron">›</span>
             </div>
           );
         })}

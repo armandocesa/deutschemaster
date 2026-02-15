@@ -279,16 +279,19 @@ export default function GrammarPage({ level, topic, onNavigate }) {
           <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel)} - {topics.length} {t('grammar.topics')}</p>
         </div>
         <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
-        <div className="topics-list">
+        <div className="compact-list">
           {topics.map((topic, idx) => {
             const topicId = topic.id || `${activeLevel}_${idx}`;
             const topicStatus = getGrammarStatus(topicId);
             return (
-              <div key={topic.id || idx} className={`topic-card status-${topicStatus}`} onClick={() => onNavigate('grammar', {level: activeLevel, topic: topic})}>
-                <span className={`progress-dot ${topicStatus}`}></span>
-                <div className="topic-number">{idx + 1}</div>
-                <div className="topic-content"><h3 className="topic-title">{topic.name}</h3><p className="topic-explanation">{topic.explanation}</p></div>
-                <div className="topic-meta">{topic.exercises && <span className="exercise-count">{topic.exercises.length} {t('grammar.exercises')}</span>}<Icons.ChevronRight /></div>
+              <div key={topic.id || idx} className={`compact-list-item`} onClick={() => onNavigate('grammar', {level: activeLevel, topic: topic})}>
+                <span className={`progress-dot compact-dot ${topicStatus}`}></span>
+                <div className="compact-info">
+                  <div className="compact-title">{topic.name}</div>
+                  <div className="compact-subtitle">{topic.explanation}</div>
+                </div>
+                {topic.exercises && <span className="compact-meta">{topic.exercises.length} ex.</span>}
+                <span className="compact-chevron">›</span>
               </div>
             );
           })}

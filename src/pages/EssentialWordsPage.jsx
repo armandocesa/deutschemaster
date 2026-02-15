@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
@@ -7,132 +7,32 @@ import { saveDifficultWord, isDifficultWord, removeDifficultWord } from '../util
 import { saveAndSync } from '../utils/cloudSync';
 import { useLanguage } from '../contexts/LanguageContext';
 
-function WordCard({ word, onToggleFavorite, saved, t }) {
-  const [expandedExample, setExpandedExample] = useState(false);
+const formatCategory = (cat) => {
+  if (!cat) return '';
+  return cat.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+};
 
-  const articleText = word.article ? `${word.article} ` : '';
-  const pluralText = word.plural ? ` (Pl: ${word.plural})` : '';
-
+function EssentialWordRow({ word, category, saved, onToggleFavorite }) {
   return (
-    <div style={{
-      background: 'var(--bg-card)',
-      border: '1px solid var(--border)',
-      borderRadius: 'var(--radius)',
-      padding: '12px',
-      minHeight: '120px',
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '8px'
-    }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <div style={{ flex: 1 }}>
-          <div style={{
-            fontSize: '14px',
-            fontWeight: 700,
-            color: 'var(--text-primary)',
-            marginBottom: '4px'
-          }}>
-            {articleText}<strong>{word.german}</strong>{pluralText}
-          </div>
-          <div style={{
-            fontSize: '13px',
-            color: 'var(--text-secondary)',
-            marginBottom: '6px'
-          }}>
-            {word.italian}
-          </div>
-          {word.type && (
-            <div style={{
-              display: 'inline-block',
-              fontSize: '10px',
-              fontWeight: 600,
-              background: 'var(--accent)',
-              color: 'white',
-              padding: '2px 6px',
-              borderRadius: '4px',
-              marginRight: '4px'
-            }}>
-              {word.type}
-            </div>
-          )}
+    <tr className="vocab-row">
+      <td className="vocab-cell-word">
+        <div className="vocab-word-main">
+          {word.article && <span className="vocab-article">{word.article}</span>}
+          <span className="vocab-german">{word.german}</span>
+          {word.plural && <span className="vocab-plural">({word.plural})</span>}
         </div>
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleFavorite(word.german);
-          }}
-          style={{
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            fontSize: '18px',
-            padding: '4px',
-            color: saved ? 'var(--accent)' : 'var(--text-secondary)',
-            transition: 'color 0.2s'
-          }}
-        >
+      </td>
+      <td className="vocab-cell-translation">{word.italian || ''}</td>
+      <td className="vocab-cell-category"><span className="vocab-category-badge">{formatCategory(category)}</span></td>
+      <td className="vocab-cell-actions">
+        <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={() => onToggleFavorite(word.german)} title={saved ? 'Remove' : 'Save'}>
           {saved ? <Icons.StarFilled /> : <Icons.Star />}
         </button>
-      </div>
-
-      <div style={{ display: 'flex', gap: '6px', marginTop: 'auto' }}>
-        <button
-          onClick={() => speak(word.german)}
-          style={{
-            flex: 1,
-            background: 'rgba(99, 102, 241, 0.1)',
-            border: '1px solid rgba(99, 102, 241, 0.3)',
-            borderRadius: '4px',
-            padding: '6px',
-            cursor: 'pointer',
-            color: 'var(--accent)',
-            fontSize: '12px',
-            fontWeight: 600,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '4px',
-            transition: 'all 0.2s'
-          }}
-        >
-          <Icons.Volume /> {t('essentialWords.listen')}
+        <button className="vocab-action-btn" onClick={() => speak(word.german)} title="Listen">
+          <Icons.Volume />
         </button>
-        {word.example && (
-          <button
-            onClick={() => setExpandedExample(!expandedExample)}
-            style={{
-              flex: 1,
-              background: 'rgba(16, 185, 129, 0.1)',
-              border: '1px solid rgba(16, 185, 129, 0.3)',
-              borderRadius: '4px',
-              padding: '6px',
-              cursor: 'pointer',
-              color: 'var(--text-secondary)',
-              fontSize: '12px',
-              fontWeight: 600,
-              transition: 'all 0.2s'
-            }}
-          >
-            {expandedExample ? t('essentialWords.hide') : t('essentialWords.example')}
-          </button>
-        )}
-      </div>
-
-      {expandedExample && word.example && (
-        <div style={{
-          fontSize: '12px',
-          color: 'var(--text-secondary)',
-          fontStyle: 'italic',
-          padding: '8px',
-          background: 'rgba(99, 102, 241, 0.05)',
-          borderRadius: '4px',
-          marginTop: '4px',
-          borderLeft: '2px solid var(--accent)'
-        }}>
-          "{word.example}"
-        </div>
-      )}
-    </div>
+      </td>
+    </tr>
   );
 }
 
@@ -144,19 +44,34 @@ export default function EssentialWordsPage({ level, onNavigate }) {
     try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
   });
   const activeLevel = level || internalLevel;
-  const [search, setSearch] = useState('');
-  const [expandedCategory, setExpandedCategory] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
+  const [displayCount, setDisplayCount] = useState(100);
   const [savedWords, setSavedWords] = useState(new Set());
+  const [saveVersion, setSaveVersion] = useState(0);
+  const debounceRef = useRef(null);
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
+    setSearchTerm('');
+    setDebouncedSearch('');
+    setDisplayCount(100);
     try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
     if (level) onNavigate('essential-words', { level: lvl });
   };
 
+  const handleSearch = useCallback((e) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      setDebouncedSearch(value);
+      setDisplayCount(100);
+    }, 300);
+  }, []);
+
   useEffect(() => {
     setLoading(true);
-    setExpandedCategory(null);
     fetch(`${import.meta.env.BASE_URL}data/essential-words-${activeLevel.toLowerCase()}.json`)
       .then(r => r.json())
       .then(d => {
@@ -171,13 +86,31 @@ export default function EssentialWordsPage({ level, onNavigate }) {
       .catch(() => setLoading(false));
   }, [activeLevel]);
 
+  const allWords = useMemo(() => {
+    if (!data?.categories) return [];
+    const words = [];
+    data.categories.forEach(cat => {
+      const catName = cat.name || '';
+      (cat.words || []).forEach(w => {
+        words.push({ ...w, _category: catName });
+      });
+    });
+    return words;
+  }, [data]);
+
+  const filteredWords = useMemo(() => {
+    if (!debouncedSearch) return allWords;
+    const q = debouncedSearch.toLowerCase();
+    return allWords.filter(w =>
+      (w.german || '').toLowerCase().includes(q) ||
+      (w.italian || '').toLowerCase().includes(q) ||
+      (w._category || '').toLowerCase().includes(q)
+    );
+  }, [allWords, debouncedSearch]);
+
   const toggleFavorite = (germanWord) => {
-    const word = data?.categories
-      .flatMap(c => c.words || [])
-      .find(w => w.german === germanWord);
-
+    const word = allWords.find(w => w.german === germanWord);
     if (!word) return;
-
     if (savedWords.has(germanWord)) {
       removeDifficultWord(germanWord);
       setSavedWords(new Set([...savedWords].filter(w => w !== germanWord)));
@@ -185,168 +118,74 @@ export default function EssentialWordsPage({ level, onNavigate }) {
       saveDifficultWord(word, 'word');
       setSavedWords(new Set([...savedWords, germanWord]));
     }
+    setSaveVersion(v => v + 1);
   };
 
   const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
+  const visibleWords = filteredWords.slice(0, displayCount);
+  const hasMore = displayCount < filteredWords.length;
 
   if (loading || !data) {
     return (
-      <div style={{ padding: '20px' }}>
+      <div className="vocabulary-page" style={{ padding: '20px' }}>
         <div className="skeleton" style={{ width: '220px', height: '28px', marginBottom: '8px' }} />
         <div className="skeleton" style={{ width: '300px', height: '16px', marginBottom: '24px' }} />
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '12px' }}>
-          {[1,2,3,4,5,6].map(i => <div key={i} className="skeleton" style={{ height: '80px', borderRadius: 'var(--radius)' }} />)}
-        </div>
+        {[1,2,3,4].map(i => <div key={i} className="skeleton" style={{ height: '40px', borderRadius: 'var(--radius)', marginBottom: '4px' }} />)}
       </div>
     );
   }
 
-  const categories = data.categories || [];
-
-  let filteredCategories = categories.map(cat => ({
-    ...cat,
-    words: (cat.words || []).filter(w =>
-      search === '' ||
-      (w.german || '').toLowerCase().includes(search.toLowerCase()) ||
-      (w.italian || '').toLowerCase().includes(search.toLowerCase())
-    )
-  })).filter(cat => cat.words.length > 0);
-
   return (
-    <div style={{ background: 'var(--bg-primary)' }}>
-      <div style={{
-        background: 'var(--bg-card)',
-        borderBottom: '1px solid var(--border)',
-        padding: '16px 20px',
-        marginBottom: '16px'
-      }}>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '12px',
-          marginBottom: '12px'
-        }}>
-          <span style={{
-            background: colors.bg,
-            color: 'white',
-            padding: '4px 8px',
-            borderRadius: '4px',
-            fontSize: '12px',
-            fontWeight: 700
-          }}>
-            {activeLevel}
-          </span>
-          <h1 style={{
-            fontSize: '24px',
-            fontWeight: 800,
-            color: 'var(--text-primary)',
-            margin: 0
-          }}>
-            {t('essentialWords.title')}
-          </h1>
+    <div className="vocabulary-page">
+      <div className="page-header" style={{'--level-color': colors.bg}}>
+        <h1 className="page-title">{t('essentialWords.title')}</h1>
+        <p className="page-subtitle">{getLevelName(activeLevel)} — {allWords.length} {t('vocabulary.words')}</p>
+      </div>
+
+      <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
+
+      <div className="vocab-toolbar">
+        <div className="search-box"><Icons.Search /><input type="text" placeholder={t('essentialWords.search')} value={searchTerm} onChange={handleSearch} /></div>
+      </div>
+
+      <div className="vocab-table-wrapper">
+        <table className="vocab-table">
+          <thead>
+            <tr>
+              <th className="vocab-th-word">{t('vocabulary.colWord')}</th>
+              <th className="vocab-th-translation">{t('vocabulary.colTranslation')}</th>
+              <th className="vocab-th-category">{t('vocabulary.colCategory')}</th>
+              <th className="vocab-th-actions">{t('vocabulary.colActions')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {visibleWords.map((word) => (
+              <EssentialWordRow
+                key={`${word.german}_${word.article || ''}_${word._category}`}
+                word={word}
+                category={word._category}
+                saved={savedWords.has(word.german)}
+                onToggleFavorite={toggleFavorite}
+              />
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {hasMore && (
+        <div style={{textAlign:'center',padding:'20px'}}>
+          <button onClick={() => setDisplayCount(prev => prev + 100)} className="vocab-load-more-btn">
+            {t('vocabulary.loadMore')} ({filteredWords.length - displayCount} {t('vocabulary.remaining')})
+          </button>
         </div>
-        <p style={{
-          fontSize: '13px',
-          color: 'var(--text-secondary)',
-          margin: 0
-        }}>
-          {getLevelName(activeLevel)} - {categories.length} {t('essentialWords.categories')}
-        </p>
-      </div>
+      )}
 
-      <div style={{ padding: '0 20px' }}>
-        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
-      </div>
-
-      <div style={{ padding: '16px 20px' }}>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          background: 'var(--bg-card)',
-          border: '1px solid var(--border)',
-          borderRadius: 'var(--radius)',
-          padding: '8px 12px',
-          gap: '8px'
-        }}>
-          <Icons.Search />
-          <input
-            type="text"
-            placeholder={t('essentialWords.search')}
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            style={{
-              flex: 1,
-              background: 'none',
-              border: 'none',
-              color: 'var(--text-primary)',
-              fontSize: '14px',
-              outline: 'none'
-            }}
-          />
+      {filteredWords.length === 0 && (
+        <div className="empty-state" style={{textAlign:'center',padding:'40px 20px',color:'var(--text-secondary)'}}>
+          <div style={{fontSize:'36px',marginBottom:'12px'}}>🔍</div>
+          <p>{t('essentialWords.noResults')}</p>
         </div>
-      </div>
-
-      <div style={{ padding: '0 20px 20px' }}>
-        {filteredCategories.length === 0 ? (
-          <div style={{
-            textAlign: 'center',
-            padding: '40px 20px',
-            color: 'var(--text-secondary)'
-          }}>
-            <p>{t('essentialWords.noResults')}</p>
-          </div>
-        ) : (
-          filteredCategories.map((category, idx) => (
-            <div key={idx} style={{ marginBottom: '12px' }}>
-              <button
-                onClick={() => setExpandedCategory(expandedCategory === idx ? null : idx)}
-                style={{
-                  width: '100%',
-                  background: 'var(--bg-card)',
-                  border: '1px solid var(--border)',
-                  borderRadius: 'var(--radius)',
-                  padding: '12px 16px',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center',
-                  cursor: 'pointer',
-                  color: 'var(--text-primary)',
-                  fontSize: '14px',
-                  fontWeight: 600,
-                  transition: 'all 0.2s'
-                }}
-              >
-                <span>{category.name}</span>
-                <span style={{
-                  fontSize: '12px',
-                  color: 'var(--text-secondary)'
-                }}>
-                  {category.words.length}
-                </span>
-              </button>
-
-              {expandedCategory === idx && (
-                <div style={{
-                  display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-                  gap: '12px',
-                  marginTop: '12px'
-                }}>
-                  {category.words.map((word, wIdx) => (
-                    <WordCard
-                      key={wIdx}
-                      word={word}
-                      saved={savedWords.has(word.german)}
-                      onToggleFavorite={toggleFavorite}
-                      t={t}
-                    />
-                  ))}
-                </div>
-              )}
-            </div>
-          ))
-        )}
-      </div>
+      )}
     </div>
   );
 }
