@@ -105,7 +105,19 @@
     "incorrect": "errate",
     "unseen": "da fare",
     "noResults": "Nessuna parola trovata",
-    "plural": "Pl:"
+    "plural": "Pl:",
+    "loadMore": "Carica altre",
+    "remaining": "rimanenti",
+    "colWord": "Parola",
+    "colTranslation": "Traduzione",
+    "colCategory": "Categoria",
+    "colActions": "Azioni",
+    "allWords": "Tutte le parole",
+    "filterAll": "Tutte",
+    "filterSaved": "Salvate",
+    "filterCorrect": "Corrette",
+    "filterIncorrect": "Errate",
+    "filterUnseen": "Nuove"
   },
   "reading": {
     "title": "Lettura",

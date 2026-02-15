@@ -169,7 +169,7 @@ function AppContent() {
     const crumbs = [{ label: t('nav.home'), onClick: () => navigate('home') }];
     crumbs.push({ label: PAGE_NAME_KEYS[currentPage] ? t(PAGE_NAME_KEYS[currentPage]) : currentPage, onClick: () => navigate(currentPage) });
     if (selectedLevel) crumbs.push({ label: selectedLevel, onClick: () => navigate(currentPage, { level: selectedLevel }) });
-    if (selectedModule && currentPage === 'vocabulary') crumbs.push({ label: selectedModule.name || 'Modulo', onClick: null });
+    if (selectedModule && currentPage === 'verbs') crumbs.push({ label: selectedModule.name || 'Verb', onClick: null });
     if (selectedTopic) crumbs.push({ label: selectedTopic.name || 'Argomento', onClick: null });
     if (selectedReading) crumbs.push({ label: selectedReading.title || 'Testo', onClick: null });
     if (selectedLesson) crumbs.push({ label: selectedLesson.title || 'Lezione', onClick: null });
@@ -211,7 +211,7 @@ function AppContent() {
           {shouldShow404 && <NotFoundPage onNavigate={navigate} />}
           {currentPage === 'login' && <LoginPage onNavigate={navigate} />}
           {currentPage === 'home' && <HomePage onNavigate={navigate} />}
-          {currentPage === 'vocabulary' && <VocabularyPage level={selectedLevel} module={selectedModule} onNavigate={navigate} />}
+          {currentPage === 'vocabulary' && <VocabularyPage level={selectedLevel} onNavigate={navigate} />}
           {currentPage === 'grammar' && <GrammarPage level={selectedLevel} topic={selectedTopic} onNavigate={navigate} />}
           {currentPage === 'verbs' && <VerbsPage selectedVerb={selectedModule} onNavigate={navigate} />}
           {currentPage === 'quiz' && <QuizPage level={selectedLevel} onNavigate={navigate} />}

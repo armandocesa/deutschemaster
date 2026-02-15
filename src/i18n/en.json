@@ -105,7 +105,19 @@
     "incorrect": "incorrect",
     "unseen": "unseen",
     "noResults": "No words found",
-    "plural": "Pl:"
+    "plural": "Pl:",
+    "loadMore": "Load more",
+    "remaining": "remaining",
+    "colWord": "Word",
+    "colTranslation": "Translation",
+    "colCategory": "Category",
+    "colActions": "Actions",
+    "allWords": "All words",
+    "filterAll": "All",
+    "filterSaved": "Saved",
+    "filterCorrect": "Correct",
+    "filterIncorrect": "Wrong",
+    "filterUnseen": "New"
   },
   "reading": {
     "title": "Reading",
