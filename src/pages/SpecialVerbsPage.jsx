@@ -230,141 +230,57 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div style={{
-      background: 'var(--bg-card)',
-      border: '1px solid var(--border)',
-      borderRadius: 'var(--radius)',
-      overflow: 'hidden',
-      marginBottom: '12px'
-    }}>
+    <div className="sv-card">
       <button
         onClick={() => setExpanded(!expanded)}
-        style={{
-          width: '100%',
-          background: 'none',
-          border: 'none',
-          padding: '12px',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          cursor: 'pointer',
-          color: 'var(--text-primary)',
-          fontSize: '15px',
-          fontWeight: 700,
-          textAlign: 'left',
-          transition: 'all 0.2s'
-        }}
-        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(99, 102, 241, 0.05)'}
-        onMouseLeave={(e) => e.currentTarget.style.background = 'none'}
+        className="sv-card-header"
       >
-        <div>
-          <div style={{ fontSize: '16px', fontWeight: 800, color: 'var(--accent)' }}>
+        <div className="sv-card-header-content">
+          <div className="sv-card-title">
             {modal.verb}
           </div>
-          <div style={{
-            fontSize: '12px',
-            color: 'var(--text-secondary)',
-            fontWeight: 400,
-            marginTop: '2px'
-          }}>
+          <div className="sv-card-subtitle">
             {modal.italian}
           </div>
         </div>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px'
-        }}>
+        <div className="sv-card-actions">
           <button
             onClick={(e) => {
               e.stopPropagation();
               onToggleFavorite(modal.verb);
             }}
-            style={{
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              fontSize: '16px',
-              padding: '4px',
-              color: saved ? 'var(--accent)' : 'var(--text-secondary)',
-              transition: 'color 0.2s'
-            }}
+            className={`sv-favorite-btn ${saved ? 'sv-favorite-btn--saved' : ''}`}
           >
             {saved ? <Icons.StarFilled /> : <Icons.Star />}
           </button>
-          <span style={{
-            fontSize: '12px',
-            color: 'var(--text-secondary)',
-            transition: 'transform 0.2s',
-            transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)'
-          }}>
+          <span className={`sv-expand-icon ${expanded ? 'sv-expand-icon--open' : ''}`}>
             ▼
           </span>
         </div>
       </button>
 
       {expanded && (
-        <div style={{
-          borderTop: '1px solid var(--border)',
-          padding: '12px',
-          background: 'rgba(99, 102, 241, 0.02)'
-        }}>
-          <div style={{ marginBottom: '12px' }}>
-            <div style={{
-              fontSize: '11px',
-              fontWeight: 700,
-              color: 'var(--text-secondary)',
-              marginBottom: '8px',
-              textTransform: 'uppercase'
-            }}>
+        <div className="sv-card-content">
+          <div className="sv-section">
+            <div className="sv-section-label">
               {t('specialVerbs.present')}
             </div>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gap: '8px'
-            }}>
+            <div className="sv-section-grid">
               {modal.present.map((conj, idx) => (
-                <div key={idx} style={{
-                  fontSize: '12px',
-                  color: 'var(--text-primary)',
-                  fontFamily: 'monospace',
-                  padding: '6px',
-                  background: 'var(--bg-primary)',
-                  borderRadius: '4px',
-                  border: '1px solid var(--border)'
-                }}>
+                <div key={idx} className="sv-conjugation">
                   {conj}
                 </div>
               ))}
             </div>
           </div>
 
-          <div style={{ marginBottom: '12px' }}>
-            <div style={{
-              fontSize: '11px',
-              fontWeight: 700,
-              color: 'var(--text-secondary)',
-              marginBottom: '8px',
-              textTransform: 'uppercase'
-            }}>
+          <div className="sv-section">
+            <div className="sv-section-label">
               {t('specialVerbs.preterite')}
             </div>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gap: '8px'
-            }}>
+            <div className="sv-section-grid">
               {modal.preterite.map((conj, idx) => (
-                <div key={idx} style={{
-                  fontSize: '12px',
-                  color: 'var(--text-primary)',
-                  fontFamily: 'monospace',
-                  padding: '6px',
-                  background: 'var(--bg-primary)',
-                  borderRadius: '4px',
-                  border: '1px solid var(--border)'
-                }}>
+                <div key={idx} className="sv-conjugation">
                   {conj}
                 </div>
               ))}
@@ -373,53 +289,21 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
 
           {modal.examples && modal.examples.length > 0 && (
             <div>
-              <div style={{
-                fontSize: '11px',
-                fontWeight: 700,
-                color: 'var(--text-secondary)',
-                marginBottom: '8px',
-                textTransform: 'uppercase'
-              }}>
+              <div className="sv-section-label">
                 {t('specialVerbs.examples')}
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div className="sv-example-list">
                 {modal.examples.map((example, idx) => (
-                  <div key={idx} style={{
-                    padding: '8px',
-                    background: 'var(--bg-primary)',
-                    borderRadius: '4px',
-                    border: '1px solid var(--border)',
-                    fontSize: '12px'
-                  }}>
-                    <div style={{
-                      color: 'var(--text-primary)',
-                      marginBottom: '4px',
-                      fontStyle: 'italic'
-                    }}>
+                  <div key={idx} className="sv-example">
+                    <div className="sv-example-text">
                       "{example.german}"
                     </div>
-                    <div style={{
-                      color: 'var(--text-secondary)',
-                      fontSize: '11px'
-                    }}>
+                    <div className="sv-example-translation">
                       {example.italian}
                     </div>
                     <button
                       onClick={() => speak(example.german)}
-                      style={{
-                        marginTop: '6px',
-                        background: 'rgba(99, 102, 241, 0.1)',
-                        border: '1px solid rgba(99, 102, 241, 0.3)',
-                        borderRadius: '3px',
-                        padding: '4px 8px',
-                        cursor: 'pointer',
-                        color: 'var(--accent)',
-                        fontSize: '11px',
-                        fontWeight: 600,
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '4px'
-                      }}
+                      className="sv-listen-btn"
                     >
                       <Icons.Volume /> {t('specialVerbs.listen')}
                     </button>
@@ -440,132 +324,53 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div style={{
-      background: 'var(--bg-card)',
-      border: '1px solid var(--border)',
-      borderRadius: 'var(--radius)',
-      overflow: 'hidden',
-      marginBottom: '12px'
-    }}>
+    <div className="sv-card">
       <button
         onClick={() => setExpanded(!expanded)}
-        style={{
-          width: '100%',
-          background: 'none',
-          border: 'none',
-          padding: '12px',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          cursor: 'pointer',
-          color: 'var(--text-primary)',
-          fontSize: '15px',
-          fontWeight: 700,
-          textAlign: 'left',
-          transition: 'all 0.2s'
-        }}
-        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(99, 102, 241, 0.05)'}
-        onMouseLeave={(e) => e.currentTarget.style.background = 'none'}
+        className="sv-card-header"
       >
-        <div>
-          <div style={{ fontSize: '16px', fontWeight: 800, color: 'var(--accent)' }}>
+        <div className="sv-card-header-content">
+          <div className="sv-card-title">
             {verb.verb}
           </div>
-          <div style={{
-            fontSize: '12px',
-            color: 'var(--text-secondary)',
-            fontWeight: 400,
-            marginTop: '2px'
-          }}>
+          <div className="sv-card-subtitle">
             {verb.italian}
           </div>
         </div>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px'
-        }}>
+        <div className="sv-card-actions">
           <button
             onClick={(e) => {
               e.stopPropagation();
               onToggleFavorite(verb.verb);
             }}
-            style={{
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              fontSize: '16px',
-              padding: '4px',
-              color: saved ? 'var(--accent)' : 'var(--text-secondary)',
-              transition: 'color 0.2s'
-            }}
+            className={`sv-favorite-btn ${saved ? 'sv-favorite-btn--saved' : ''}`}
           >
             {saved ? <Icons.StarFilled /> : <Icons.Star />}
           </button>
-          <span style={{
-            fontSize: '12px',
-            color: 'var(--text-secondary)',
-            transition: 'transform 0.2s',
-            transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)'
-          }}>
+          <span className={`sv-expand-icon ${expanded ? 'sv-expand-icon--open' : ''}`}>
             ▼
           </span>
         </div>
       </button>
 
       {expanded && (
-        <div style={{
-          borderTop: '1px solid var(--border)',
-          padding: '12px',
-          background: 'rgba(99, 102, 241, 0.02)'
-        }}>
-          <div style={{ marginBottom: '12px' }}>
-            <div style={{
-              fontSize: '11px',
-              fontWeight: 700,
-              color: 'var(--text-secondary)',
-              marginBottom: '8px',
-              textTransform: 'uppercase'
-            }}>
+        <div className="sv-card-content">
+          <div className="sv-section">
+            <div className="sv-section-label">
               {t('specialVerbs.type')}: {verb.type}
             </div>
-            <div style={{
-              fontSize: '12px',
-              color: 'var(--text-primary)',
-              padding: '8px',
-              background: 'var(--bg-primary)',
-              borderRadius: '4px',
-              border: '1px solid var(--border)'
-            }}>
+            <div className="sv-conjugation">
               {t('specialVerbs.reflexivePronouns')}: mich, dich, sich, uns, euch, sich
             </div>
           </div>
 
-          <div style={{ marginBottom: '12px' }}>
-            <div style={{
-              fontSize: '11px',
-              fontWeight: 700,
-              color: 'var(--text-secondary)',
-              marginBottom: '8px',
-              textTransform: 'uppercase'
-            }}>
+          <div className="sv-section">
+            <div className="sv-section-label">
               {t('specialVerbs.present')}
             </div>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gap: '8px'
-            }}>
+            <div className="sv-section-grid">
               {verb.present.map((conj, idx) => (
-                <div key={idx} style={{
-                  fontSize: '12px',
-                  color: 'var(--text-primary)',
-                  fontFamily: 'monospace',
-                  padding: '6px',
-                  background: 'var(--bg-primary)',
-                  borderRadius: '4px',
-                  border: '1px solid var(--border)'
-                }}>
+                <div key={idx} className="sv-conjugation">
                   {conj}
                 </div>
               ))}
@@ -574,53 +379,21 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
 
           {verb.examples && verb.examples.length > 0 && (
             <div>
-              <div style={{
-                fontSize: '11px',
-                fontWeight: 700,
-                color: 'var(--text-secondary)',
-                marginBottom: '8px',
-                textTransform: 'uppercase'
-              }}>
+              <div className="sv-section-label">
                 {t('specialVerbs.examples')}
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div className="sv-example-list">
                 {verb.examples.map((example, idx) => (
-                  <div key={idx} style={{
-                    padding: '8px',
-                    background: 'var(--bg-primary)',
-                    borderRadius: '4px',
-                    border: '1px solid var(--border)',
-                    fontSize: '12px'
-                  }}>
-                    <div style={{
-                      color: 'var(--text-primary)',
-                      marginBottom: '4px',
-                      fontStyle: 'italic'
-                    }}>
+                  <div key={idx} className="sv-example">
+                    <div className="sv-example-text">
                       "{example.german}"
                     </div>
-                    <div style={{
-                      color: 'var(--text-secondary)',
-                      fontSize: '11px'
-                    }}>
+                    <div className="sv-example-translation">
                       {example.italian}
                     </div>
                     <button
                       onClick={() => speak(example.german)}
-                      style={{
-                        marginTop: '6px',
-                        background: 'rgba(99, 102, 241, 0.1)',
-                        border: '1px solid rgba(99, 102, 241, 0.3)',
-                        borderRadius: '3px',
-                        padding: '4px 8px',
-                        cursor: 'pointer',
-                        color: 'var(--accent)',
-                        fontSize: '11px',
-                        fontWeight: 600,
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '4px'
-                      }}
+                      className="sv-listen-btn"
                     >
                       <Icons.Volume /> {t('specialVerbs.listen')}
                     </button>
@@ -665,60 +438,29 @@ export default function SpecialVerbsPage({ onNavigate }) {
   ];
 
   return (
-    <div style={{ background: 'var(--bg-primary)' }}>
-      <div style={{
-        background: 'var(--bg-card)',
-        borderBottom: '1px solid var(--border)',
-        padding: '16px 20px',
-        marginBottom: '16px'
-      }}>
-        <h1 style={{
-          fontSize: '24px',
-          fontWeight: 800,
-          color: 'var(--text-primary)',
-          margin: '0 0 12px 0'
-        }}>
+    <div className="sv-page">
+      <div className="sv-header">
+        <h1 className="sv-page-title">
           {t('specialVerbs.title')}
         </h1>
-        <p style={{
-          fontSize: '13px',
-          color: 'var(--text-secondary)',
-          margin: 0
-        }}>
+        <p className="sv-page-subtitle">
           {t('specialVerbs.subtitle')}
         </p>
       </div>
 
-      <div style={{
-        display: 'flex',
-        gap: '8px',
-        padding: '12px 20px',
-        borderBottom: '1px solid var(--border)',
-        overflowX: 'auto'
-      }}>
+      <div className="sv-tabs">
         {tabs.map(tab => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            style={{
-              padding: '8px 12px',
-              borderRadius: 'var(--radius)',
-              border: activeTab === tab.id ? '2px solid var(--accent)' : '1px solid var(--border)',
-              background: activeTab === tab.id ? 'rgba(99, 102, 241, 0.1)' : 'transparent',
-              color: activeTab === tab.id ? 'var(--accent)' : 'var(--text-secondary)',
-              fontWeight: 600,
-              fontSize: '13px',
-              cursor: 'pointer',
-              whiteSpace: 'nowrap',
-              transition: 'all 0.2s'
-            }}
+            className={`sv-tab ${activeTab === tab.id ? 'sv-tab--active' : ''}`}
           >
-            {tab.label} <span style={{ fontSize: '11px', opacity: 0.7 }}>({tab.count})</span>
+            {tab.label} <span className="sv-tab-count">({tab.count})</span>
           </button>
         ))}
       </div>
 
-      <div style={{ padding: '16px 20px' }}>
+      <div className="sv-content">
         {activeTab === 'modalverben' && (
           <div>
             {MODALVERBEN.map((modal, idx) => (
@@ -748,12 +490,12 @@ export default function SpecialVerbsPage({ onNavigate }) {
         {activeTab === 'prepositionen' && (
           <div className="compact-list">
             {VERBEN_MIT_PRÄPOSITIONEN.map((item, idx) => (
-              <div key={idx} className="compact-list-item" style={{cursor:'default'}}>
+              <div key={idx} className="compact-list-item">
                 <div className="compact-info">
                   <div className="compact-title" style={{color:'var(--accent)'}}>{item.german}</div>
                   <div className="compact-subtitle">{item.italian} — <em>"{item.example}"</em></div>
                 </div>
-                <button className="vocab-action-btn" onClick={() => speak(item.example)} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-secondary)',padding:'4px'}}>
+                <button className="vocab-action-btn" onClick={() => speak(item.example)}>
                   <Icons.Volume />
                 </button>
               </div>
@@ -762,90 +504,35 @@ export default function SpecialVerbsPage({ onNavigate }) {
         )}
 
         {activeTab === 'irregular' && (
-          <div>
-            <div style={{
-              overflowX: 'auto',
-              border: '1px solid var(--border)',
-              borderRadius: 'var(--radius)',
-              background: 'var(--bg-card)'
-            }}>
-              <table style={{
-                width: '100%',
-                borderCollapse: 'collapse',
-                fontSize: '12px'
-              }}>
-                <thead>
-                  <tr style={{ borderBottom: '2px solid var(--border)' }}>
-                    <th style={{
-                      padding: '12px',
-                      textAlign: 'left',
-                      color: 'var(--accent)',
-                      fontWeight: 700,
-                      background: 'rgba(99, 102, 241, 0.05)'
-                    }}>{t('specialVerbs.infinitive')}</th>
-                    <th style={{
-                      padding: '12px',
-                      textAlign: 'left',
-                      color: 'var(--accent)',
-                      fontWeight: 700,
-                      background: 'rgba(99, 102, 241, 0.05)'
-                    }}>Präteritum</th>
-                    <th style={{
-                      padding: '12px',
-                      textAlign: 'left',
-                      color: 'var(--accent)',
-                      fontWeight: 700,
-                      background: 'rgba(99, 102, 241, 0.05)'
-                    }}>Perfekt</th>
-                    <th style={{
-                      padding: '12px',
-                      textAlign: 'left',
-                      color: 'var(--accent)',
-                      fontWeight: 700,
-                      background: 'rgba(99, 102, 241, 0.05)'
-                    }}>{t('specialVerbs.translationCol')}</th>
+          <div className="sv-table-container">
+            <table className="sv-table">
+              <thead>
+                <tr className="sv-table-head">
+                  <th className="sv-table-th">{t('specialVerbs.infinitive')}</th>
+                  <th className="sv-table-th">Präteritum</th>
+                  <th className="sv-table-th">Perfekt</th>
+                  <th className="sv-table-th">{t('specialVerbs.translationCol')}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {IRREGULAR_VERBEN.map((verb, idx) => (
+                  <tr key={idx} className="sv-table-row">
+                    <td className="sv-table-td sv-table-td--mono">
+                      {verb.present}
+                    </td>
+                    <td className="sv-table-td sv-table-td--mono">
+                      {verb.preterite}
+                    </td>
+                    <td className="sv-table-td sv-table-td--mono">
+                      {verb.perfect}
+                    </td>
+                    <td className="sv-table-td sv-table-td--secondary">
+                      {verb.italian}
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {IRREGULAR_VERBEN.map((verb, idx) => (
-                    <tr key={idx} style={{
-                      borderBottom: '1px solid var(--border)',
-                      background: idx % 2 === 0 ? 'transparent' : 'rgba(99, 102, 241, 0.02)'
-                    }}>
-                      <td style={{
-                        padding: '10px 12px',
-                        color: 'var(--text-primary)',
-                        fontFamily: 'monospace',
-                        fontWeight: 600
-                      }}>
-                        {verb.present}
-                      </td>
-                      <td style={{
-                        padding: '10px 12px',
-                        color: 'var(--text-primary)',
-                        fontFamily: 'monospace'
-                      }}>
-                        {verb.preterite}
-                      </td>
-                      <td style={{
-                        padding: '10px 12px',
-                        color: 'var(--text-primary)',
-                        fontFamily: 'monospace'
-                      }}>
-                        {verb.perfect}
-                      </td>
-                      <td style={{
-                        padding: '10px 12px',
-                        color: 'var(--text-secondary)',
-                        fontSize: '11px'
-                      }}>
-                        {verb.italian}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </table>
           </div>
         )}
       </div>

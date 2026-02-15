@@ -331,7 +331,7 @@ export default function ListeningPage({ onNavigate }) {
                       disabled={isLocked}
                     >
                       {lvl}
-                      {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
+                      {isLocked && <span className="listening-lock-icon">🔒</span>}
                     </button>
                   );
                 })}
@@ -353,7 +353,7 @@ export default function ListeningPage({ onNavigate }) {
               </div>
             </div>
 
-            <button className="start-btn" onClick={startExercise} style={{ backgroundColor: colors.bg }}>
+            <button className="listening-start-btn" onClick={startExercise} style={{ backgroundColor: colors.bg }}>
               {t('listening.start')}
             </button>
           </div>
@@ -386,7 +386,7 @@ export default function ListeningPage({ onNavigate }) {
     return (
       <div className="listening-page">
         <div className="finished-container">
-          <div className="score-circle" style={{ borderColor: colors.bg }}>
+          <div className="listening-score-circle" style={{ borderColor: colors.bg }}>
             <span className="score-value">{percentage}%</span>
           </div>
           <h2>{t('listening.completed')}</h2>
@@ -457,7 +457,7 @@ export default function ListeningPage({ onNavigate }) {
               <h3>{current.title}</h3>
 
               <button
-                className="speaker-btn"
+                className="listening-speaker-btn"
                 onClick={playAudio}
                 style={{
                   background: `linear-gradient(135deg, ${colors.bg}, ${colors.light})`,
@@ -506,7 +506,7 @@ export default function ListeningPage({ onNavigate }) {
 
               {!showResult ? (
                 <button
-                  className="verify-btn"
+                  className="listening-verify-btn"
                   onClick={handleDikttatVerify}
                   disabled={!userAnswer.trim()}
                   style={{ backgroundColor: colors.bg }}
@@ -538,7 +538,7 @@ export default function ListeningPage({ onNavigate }) {
                     </div>
                   )}
 
-                  <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
+                  <button className="listening-next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
                     {t('listening.next')}
                   </button>
                 </div>
@@ -566,7 +566,7 @@ export default function ListeningPage({ onNavigate }) {
               <h3>{current.title}</h3>
 
               <button
-                className="speaker-btn"
+                className="listening-speaker-btn"
                 onClick={playAudio}
                 style={{
                   background: `linear-gradient(135deg, ${colors.bg}, ${colors.light})`,
@@ -635,7 +635,7 @@ export default function ListeningPage({ onNavigate }) {
               </div>
 
               {allAnswered && (
-                <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
+                <button className="listening-next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
                   {t('listening.next')}
                 </button>
               )}
@@ -661,7 +661,7 @@ export default function ListeningPage({ onNavigate }) {
               <h3>{current.title}</h3>
 
               <button
-                className="speaker-btn"
+                className="listening-speaker-btn"
                 onClick={playAudio}
                 style={{
                   background: `linear-gradient(135deg, ${colors.bg}, ${colors.light})`,
@@ -723,7 +723,7 @@ export default function ListeningPage({ onNavigate }) {
 
               {!showResult ? (
                 <button
-                  className="verify-btn"
+                  className="listening-verify-btn"
                   onClick={handleLueckenTextVerify}
                   disabled={!userAnswer.trim()}
                   style={{ backgroundColor: colors.bg }}
@@ -748,7 +748,7 @@ export default function ListeningPage({ onNavigate }) {
                     </div>
                   )}
 
-                  <button className="next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
+                  <button className="listening-next-btn" onClick={nextQuestion} style={{ backgroundColor: colors.bg }}>
                     {t('listening.next')}
                   </button>
                 </div>

@@ -85,43 +85,43 @@ export default function HomePage({ onNavigate }) {
     <div className="home-page">
       {/* Streak + XP + Daily Goal Bar */}
       <section className="home-gamification-bar">
-        <div className="gamification-card streak-card" onClick={() => onNavigate('profile')}>
+        <div className="home-gamification-card home-streak-card" onClick={() => onNavigate('profile')}>
           <span style={{fontSize:'28px'}}>🔥</span>
           <div>
             <div style={{fontSize:'22px',fontWeight:800,lineHeight:1}}>{streak.currentStreak}</div>
             <div style={{fontSize:'11px',color:'var(--text-secondary)'}}>{t('days')}</div>
           </div>
         </div>
-        <div className="gamification-card xp-card" onClick={() => onNavigate('profile')}>
-          <div style={{display:'flex',alignItems:'center',gap:'6px'}}>
-            <span style={{fontSize:'22px',fontWeight:800,color:'var(--accent)'}}>{xp.totalXP}</span>
-            <span style={{fontSize:'12px',color:'var(--text-secondary)',fontWeight:600}}>XP</span>
+        <div className="home-gamification-card home-xp-card" onClick={() => onNavigate('profile')}>
+          <div className="home-xp-value">
+            <span className="home-xp-number">{xp.totalXP}</span>
+            <span className="home-xp-label">XP</span>
           </div>
-          <div style={{fontSize:'11px',color:'var(--text-secondary)'}}>Lv. {xp.level} {getLevelName(xp.level)}</div>
-          <div style={{width:'100%',height:'4px',background:'var(--border)',borderRadius:'2px',marginTop:'4px'}}>
-            <div style={{height:'100%',background:'var(--accent)',borderRadius:'2px',width:`${Math.min(100,(xp.xpInCurrentLevel/xp.xpForNextLevel)*100)}%`,transition:'width 0.3s'}}/>
+          <div className="home-xp-level">Lv. {xp.level} {getLevelName(xp.level)}</div>
+          <div className="home-xp-bar-container">
+            <div className="home-xp-bar-fill" style={{width:`${Math.min(100,(xp.xpInCurrentLevel/xp.xpForNextLevel)*100)}%`}}/>
           </div>
         </div>
-        <div className="gamification-card goal-card" onClick={() => onNavigate('profile')}>
-          <div style={{position:'relative',width:'44px',height:'44px'}}>
-            <svg width="44" height="44" viewBox="0 0 44 44" style={{transform:'rotate(-90deg)'}}>
+        <div className="home-gamification-card home-goal-card" onClick={() => onNavigate('profile')}>
+          <div className="home-goal-circle">
+            <svg width="44" height="44" viewBox="0 0 44 44" className="home-goal-svg">
               <circle cx="22" cy="22" r="18" fill="none" stroke="var(--border)" strokeWidth="4"/>
               <circle cx="22" cy="22" r="18" fill="none" stroke={dailyGoal.completed ? 'var(--success)' : 'var(--accent)'} strokeWidth="4"
                 strokeDasharray={`${2*Math.PI*18}`} strokeDashoffset={`${2*Math.PI*18*(1-dailyGoal.percentage/100)}`} strokeLinecap="round"/>
             </svg>
-            <div style={{position:'absolute',inset:0,display:'flex',alignItems:'center',justifyContent:'center',fontSize:'10px',fontWeight:700}}>
+            <div className="home-goal-text">
               {dailyGoal.completed ? '✓' : `${Math.round(dailyGoal.percentage)}%`}
             </div>
           </div>
           <div>
-            <div style={{fontSize:'12px',fontWeight:600}}>{dailyGoal.progress}/{dailyGoal.target} XP</div>
-            <div style={{fontSize:'10px',color:'var(--text-secondary)'}}>{t('profile.dailyGoal.title')}</div>
+            <div className="home-goal-progress">{dailyGoal.progress}/{dailyGoal.target} XP</div>
+            <div className="home-goal-label">{t('profile.dailyGoal.title')}</div>
           </div>
         </div>
       </section>
 
       <section className="home-compact">
-        <h1 className="home-greeting">{t('home.welcome')} <span className="highlight">{t('home.language')}</span></h1>
+        <h1 className="home-greeting">{t('home.welcome')} <span className="home-greeting-highlight">{t('home.language')}</span></h1>
         <p className="home-subtitle">{t('home.subtitle')}</p>
         <div className="home-stats-bar">
           <div className="home-stat"><span className="home-stat-num">{stats.words.toLocaleString()}</span><span className="home-stat-label">{t('home.stats.words')}</span></div>
@@ -132,42 +132,40 @@ export default function HomePage({ onNavigate }) {
       </section>
 
       {!placementTestTaken && (
-        <section style={{background: 'linear-gradient(135deg, rgba(108,92,231,0.15), rgba(162,155,254,0.1))', border: '1px solid rgba(108,92,231,0.3)', borderRadius: 'var(--radius)', padding: '20px', marginBottom: '32px', display: 'flex', alignItems: 'center', gap: '16px'}}>
-          <div style={{fontSize: '32px'}}>📍</div>
-          <div style={{flex: 1}}>
-            <div style={{fontWeight: 700, fontSize: '14px', marginBottom: '4px'}}>{t('home.placement.title')}</div>
-            <div style={{fontSize: '12px', color: 'var(--text-secondary)'}}>{t('home.placement.subtitle')}</div>
+        <section className="home-placement-section">
+          <div className="home-placement-icon">📍</div>
+          <div className="home-placement-content">
+            <div className="home-placement-title">{t('home.placement.title')}</div>
+            <div className="home-placement-subtitle">{t('home.placement.subtitle')}</div>
           </div>
-          <button onClick={() => onNavigate('placement-test')} style={{padding: '8px 16px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontWeight: 600, fontSize: '13px', cursor: 'pointer', whiteSpace: 'nowrap'}}>{t('home.placement.button')}</button>
+          <button onClick={() => onNavigate('placement-test')} className="home-placement-btn">{t('home.placement.button')}</button>
         </section>
       )}
 
       {/* Review reminder */}
       {reviewStats.dueToday > 0 && (
-        <section className="review-reminder" onClick={() => onNavigate('flashcards')}>
-          <div style={{display:'flex',alignItems:'center',gap:'12px',padding:'16px',background:'rgba(245,158,11,0.1)',border:'1px solid rgba(245,158,11,0.3)',borderRadius:'var(--radius)',cursor:'pointer'}}>
-            <span style={{fontSize:'24px'}}>📋</span>
-            <div style={{flex:1}}>
-              <div style={{fontWeight:700,fontSize:'14px'}}>{t('home.review.title')}</div>
-              <div style={{fontSize:'12px',color:'var(--text-secondary)'}}>{reviewStats.dueToday} {t('home.review.subtitle')}</div>
-            </div>
-            <Icons.ChevronRight />
+        <section className="home-review-reminder" onClick={() => onNavigate('flashcards')}>
+          <span className="home-review-icon">📋</span>
+          <div className="home-review-content">
+            <div className="home-review-title">{t('home.review.title')}</div>
+            <div className="home-review-subtitle">{reviewStats.dueToday} {t('home.review.subtitle')}</div>
           </div>
+          <Icons.ChevronRight />
         </section>
       )}
 
       {quizStats.totalAnswered > 0 && (
-        <section className="continue-section">
-          <h2 className="continue-title">{t('home.progress.title')}</h2>
-          <div className="continue-cards">
-            <div className="continue-card" onClick={() => onNavigate('quiz')}>
-              <div className="card-badge" style={{backgroundColor: 'var(--accent)'}}>{quizStats.totalAnswered}</div>
-              <div className="card-text"><h4>{t('home.progress.questionsAsked')}</h4><p>{quizStats.totalAnswered > 0 ? Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100) : 0}% {t('home.progress.correct')}</p></div>
+        <section className="home-continue-section">
+          <h2 className="home-continue-title">{t('home.progress.title')}</h2>
+          <div className="home-continue-cards">
+            <div className="home-continue-card" onClick={() => onNavigate('quiz')}>
+              <div className="home-card-badge" style={{backgroundColor: 'var(--accent)'}}>{quizStats.totalAnswered}</div>
+              <div className="home-card-text"><h4>{t('home.progress.questionsAsked')}</h4><p>{quizStats.totalAnswered > 0 ? Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100) : 0}% {t('home.progress.correct')}</p></div>
             </div>
             {savedCount > 0 && (
-              <div className="continue-card" onClick={() => onNavigate('favorites')}>
-                <div className="card-badge" style={{backgroundColor: 'var(--warning)'}}>{savedCount}</div>
-                <div className="card-text"><h4>{t('home.progress.savedWords')}</h4><p>{t('home.progress.toReview')}</p></div>
+              <div className="home-continue-card" onClick={() => onNavigate('favorites')}>
+                <div className="home-card-badge" style={{backgroundColor: 'var(--warning)'}}>{savedCount}</div>
+                <div className="home-card-text"><h4>{t('home.progress.savedWords')}</h4><p>{t('home.progress.toReview')}</p></div>
               </div>
             )}
           </div>
@@ -175,8 +173,8 @@ export default function HomePage({ onNavigate }) {
       )}
 
       <section>
-        <h2 className="continue-title">{t('home.study')}</h2>
-        <div className="quick-actions-grid">
+        <h2 className="home-continue-title">{t('home.study')}</h2>
+        <div className="home-quick-actions-grid">
           {!placementTestTaken && (
             <QuickActionCard icon={<span style={{fontSize:'20px'}}>📍</span>} title={t('home.testPositioning')} color="#6c5ce7" onClick={() => onNavigate('placement-test')} noLevel badge={t('home.new')} />
           )}
@@ -194,8 +192,8 @@ export default function HomePage({ onNavigate }) {
       </section>
 
       <section>
-        <h2 className="continue-title">{t('home.practice')}</h2>
-        <div className="quick-actions-grid">
+        <h2 className="home-continue-title">{t('home.practice')}</h2>
+        <div className="home-quick-actions-grid">
           <QuickActionCard icon={<Icons.Flashcard />} title={t('home.flashcardsTitle')} color="#8b5cf6" onClick={() => onNavigate('flashcards')} noLevel badge={reviewStats.dueToday > 0 ? `${reviewStats.dueToday} ${t('home.toDo')}` : null} />
           <QuickActionCard icon={<Icons.Writing />} title={t('home.writingTitle')} color="#10b981" onClick={() => onNavigate('writing')} noLevel />
           <QuickActionCard icon={<Icons.Listening />} title={t('home.listeningTitle')} color="#06b6d4" onClick={() => onNavigate('listening')} noLevel />

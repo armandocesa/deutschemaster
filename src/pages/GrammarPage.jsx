@@ -27,9 +27,9 @@ function GrammarTopicDetail({ topic, level, colors }) {
     const paragraphs = splitParagraphs(text);
     if (!paragraphs) return <span>{text}</span>;
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+      <div className="grammar-regola-container">
         {paragraphs.map((para, idx) => (
-          <p key={idx} style={{ margin: 0, lineHeight: '1.6' }}>{para}</p>
+          <p key={idx} className="grammar-regola-paragraph">{para}</p>
         ))}
       </div>
     );
@@ -38,17 +38,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
   // Render schema section (usually a table-like text)
   const renderSchema = (text) => {
     return (
-      <div style={{
-        backgroundColor: 'var(--bg-secondary)',
-        padding: '12px',
-        borderRadius: '6px',
-        fontFamily: 'monospace',
-        fontSize: '13px',
-        whiteSpace: 'pre-wrap',
-        wordBreak: 'break-word',
-        lineHeight: '1.6',
-        border: '1px solid var(--border-color)'
-      }}>
+      <div className="grammar-schema-container">
         {text}
       </div>
     );
@@ -58,30 +48,16 @@ function GrammarTopicDetail({ topic, level, colors }) {
   const renderEsempi = (examples) => {
     if (!Array.isArray(examples)) return null;
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+      <div className="grammar-esempi-container">
         {examples.map((ex, idx) => (
-          <div key={idx} style={{
-            padding: '12px',
-            backgroundColor: 'var(--bg-secondary)',
-            borderLeft: '3px solid var(--accent)',
-            borderRadius: '4px'
-          }}>
+          <div key={idx} className="grammar-esempio-item">
             {(ex.tedesco || ex.german) && (
-              <div style={{
-                fontWeight: '600',
-                color: 'var(--text-primary)',
-                marginBottom: '8px',
-                fontSize: '15px'
-              }}>
+              <div className="grammar-esempio-german">
                 🇩🇪 {ex.tedesco || ex.german}
               </div>
             )}
             {(ex.italiano || ex.italian) && (
-              <div style={{
-                color: 'var(--text-secondary)',
-                fontSize: '14px',
-                lineHeight: '1.5'
-              }}>
+              <div className="grammar-esempio-italian">
                 🇮🇹 {ex.italiano || ex.italian}
               </div>
             )}
@@ -94,14 +70,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
   // Render eccezioni with warning-style background
   const renderEccezioni = (text) => {
     return (
-      <div style={{
-        backgroundColor: 'var(--warning-dim)',
-        border: '1px solid var(--warning)',
-        borderLeft: '4px solid var(--warning)',
-        padding: '12px',
-        borderRadius: '4px',
-        lineHeight: '1.6'
-      }}>
+      <div className="grammar-eccezioni-container">
         {text}
       </div>
     );
@@ -110,14 +79,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
   // Render uso section (usage notes)
   const renderUso = (text) => {
     return (
-      <div style={{
-        backgroundColor: 'rgba(76, 175, 80, 0.08)',
-        border: '1px solid rgba(76, 175, 80, 0.2)',
-        padding: '12px',
-        borderRadius: '4px',
-        lineHeight: '1.6',
-        fontSize: '14px'
-      }}>
+      <div className="grammar-uso-container">
         {text}
       </div>
     );
@@ -136,7 +98,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
       return Object.entries(value).map(([k, v]) => {
         if (k.startsWith('_')) return null;
         const displayK = k.replace(/_/g, ' ');
-        return <div key={k} style={{marginTop: '4px'}}><strong style={{color: 'var(--accent)', fontSize: '12px'}}>{displayK}:</strong> {typeof v === 'object' ? renderGenericValue(v) : <span style={{color: 'var(--text-secondary)'}}>{v}</span>}</div>;
+        return <div key={k} className="grammar-generic-item"><strong className="grammar-generic-label">{displayK}:</strong> {typeof v === 'object' ? renderGenericValue(v) : <span className="grammar-generic-value">{v}</span>}</div>;
       });
     }
     return <span>{String(value)}</span>;
@@ -153,20 +115,9 @@ function GrammarTopicDetail({ topic, level, colors }) {
     };
     const displayKey = key.replace(/_/g, ' ').replace(/([A-Z])/g, ' $1').trim().toUpperCase();
     return (
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: '10px',
-        marginBottom: '12px'
-      }}>
-        <span style={{ fontSize: '20px' }}>{iconMap[key] || '◆'}</span>
-        <h2 style={{
-          margin: 0,
-          fontSize: '16px',
-          fontWeight: '600',
-          color: 'var(--accent)',
-          letterSpacing: '0.5px'
-        }}>{displayKey}</h2>
+      <div className="grammar-section-header">
+        <span className="grammar-section-icon">{iconMap[key] || '◆'}</span>
+        <h2 className="grammar-section-title">{displayKey}</h2>
       </div>
     );
   };
@@ -187,7 +138,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
       if (value === undefined || value === null) return null;
 
       return (
-        <div key={key} className="content-block" style={{ marginBottom: '24px' }}>
+        <div key={key} className="grammar-content-block">
           {renderSectionHeader(key)}
           <div className="content-value">
             {key === 'regola' && renderRegola(value)}
@@ -205,27 +156,16 @@ function GrammarTopicDetail({ topic, level, colors }) {
   return (
     <div className="grammar-detail">
       <div className="page-header" style={{'--level-color': colors.bg}}>
-        <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
+        <span className="page-level-badge">{level}</span>
         <h1 className="page-title">{topic.name}</h1>
         <p className="page-subtitle">{topic.explanation}</p>
       </div>
       <div className="grammar-content">{topic.content && renderContent(topic.content)}</div>
       {topic.exercises && topic.exercises.length > 0 && (
         <div className="exercises-section">
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            marginBottom: '16px'
-          }}>
-            <span style={{ fontSize: '20px' }}>📚</span>
-            <h2 style={{
-              margin: 0,
-              fontSize: '16px',
-              fontWeight: '600',
-              color: 'var(--accent)',
-              letterSpacing: '0.5px'
-            }}>{t('lessons.exercises')} ({topic.exercises.length})</h2>
+          <div className="grammar-section-header">
+            <span className="grammar-section-icon">📚</span>
+            <h2 className="grammar-section-title">{t('lessons.exercises')} ({topic.exercises.length})</h2>
           </div>
           <div className="exercises-list">
             {topic.exercises.map((ex, idx) => (

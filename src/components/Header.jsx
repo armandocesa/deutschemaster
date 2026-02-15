@@ -34,50 +34,28 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
         <div className="header-stats">
           {streak.currentStreak > 0 && (
             <button className="header-stat-btn" onClick={() => onNavigate('profile')} title="Streak" aria-label="View streak">
-              <span style={{fontSize:'16px'}}>🔥</span>
+              <span className="header-stat-emoji">🔥</span>
               <span className="header-stat-value">{streak.currentStreak}</span>
             </button>
           )}
-          <button className="header-stat-btn xp-btn" onClick={() => onNavigate('profile')} title="XP" aria-label="View XP">
-            <span style={{fontSize:'14px', fontWeight:800, color:'var(--accent)'}}>XP</span>
+          <button className="header-stat-btn header-xp-btn" onClick={() => onNavigate('profile')} title="XP" aria-label="View XP">
+            <span className="header-xp-text">XP</span>
             <span className="header-stat-value">{xp.totalXP}</span>
           </button>
-          <div className="language-selector" style={{display:'flex', gap:'6px'}}>
+          <div className="header-language-selector">
             <button
-              className={`lang-btn ${language === 'it' ? 'active' : ''}`}
+              className={`header-lang-btn ${language === 'it' ? 'active' : ''}`}
               onClick={() => setLanguage('it')}
               title="Italiano"
               aria-label="Switch to Italian"
-              style={{
-                padding:'6px 10px',
-                background: language === 'it' ? 'var(--accent)' : 'transparent',
-                color: language === 'it' ? 'white' : 'var(--text-secondary)',
-                border: language === 'it' ? 'none' : '1px solid var(--border)',
-                borderRadius:'6px',
-                cursor:'pointer',
-                fontSize:'13px',
-                fontWeight:600,
-                transition:'all 0.2s'
-              }}
             >
               🇮🇹
             </button>
             <button
-              className={`lang-btn ${language === 'en' ? 'active' : ''}`}
+              className={`header-lang-btn ${language === 'en' ? 'active' : ''}`}
               onClick={() => setLanguage('en')}
               title="English"
               aria-label="Switch to English"
-              style={{
-                padding:'6px 10px',
-                background: language === 'en' ? 'var(--accent)' : 'transparent',
-                color: language === 'en' ? 'white' : 'var(--text-secondary)',
-                border: language === 'en' ? 'none' : '1px solid var(--border)',
-                borderRadius:'6px',
-                cursor:'pointer',
-                fontSize:'13px',
-                fontWeight:600,
-                transition:'all 0.2s'
-              }}
             >
               🇬🇧
             </button>
@@ -98,11 +76,11 @@ export default function Header({ currentPage, onNavigate, onBack, showBack, brea
         <nav className="nav desktop-nav">
           <button className={`nav-btn ${currentPage === 'home' ? 'active' : ''}`} onClick={() => onNavigate('home')}><Icons.Home /><span>{t('nav.home')}</span></button>
           <button className={`nav-btn ${currentPage === 'paths' ? 'active' : ''}`} onClick={() => onNavigate('paths')}><Icons.Target /><span>{t('nav.paths')}</span></button>
-          <button className={`nav-btn ${currentPage === 'stories' ? 'active' : ''}`} onClick={() => onNavigate('stories')}><span style={{fontSize:'16px'}}>📖</span><span>{t('nav.stories')}</span></button>
+          <button className={`nav-btn ${currentPage === 'stories' ? 'active' : ''}`} onClick={() => onNavigate('stories')}><span className="nav-stories-icon">📖</span><span>{t('nav.stories')}</span></button>
           <button className={`nav-btn ${currentPage === 'verbs' || currentPage === 'special-verbs' ? 'active' : ''}`} onClick={() => onNavigate('verbs')}><Icons.Verb /><span>{t('nav.verbs')}</span></button>
           <button className={`nav-btn ${currentPage === 'practice' || currentPage === 'flashcards' ? 'active' : ''}`} onClick={() => onNavigate('practice')}><Icons.Practice /><span>{t('nav.practice')}</span></button>
           <button className={`nav-btn ${currentPage === 'favorites' ? 'active' : ''}`} onClick={() => onNavigate('favorites')}><Icons.Star /><span>{t('nav.saved')}</span></button>
-          <button className={`nav-btn ${currentPage === 'dona' ? 'active' : ''}`} onClick={() => onNavigate('dona')} title="Support Deutsche Master" aria-label="Support Deutsche Master" style={{fontSize: '16px'}}>❤️</button>
+          <button className={`nav-btn nav-dona-btn ${currentPage === 'dona' ? 'active' : ''}`} onClick={() => onNavigate('dona')} title="Support Deutsche Master" aria-label="Support Deutsche Master">❤️</button>
           <button className={`nav-btn ${currentPage === 'profile' ? 'active' : ''}`} onClick={() => onNavigate('profile')}><Icons.Profile /><span>{t('nav.profile')}</span></button>
         </nav>
       </div>

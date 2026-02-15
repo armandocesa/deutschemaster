@@ -96,22 +96,22 @@ function StoryReader({ story, level, colors, onBack }) {
           <div className="reading-score">
             <h2>{t('stories.completed')}</h2>
             <p>{t('stories.completedText')} <strong>{story.title}</strong></p>
-            <div style={{marginTop: '20px', padding: '16px', background: 'rgba(108,92,231,0.1)', borderRadius: 'var(--radius)', textAlign: 'center'}}>
-              <div style={{fontSize: '32px', fontWeight: '800', color: 'var(--accent)'}}>+20 XP</div>
-              <p style={{color: 'var(--text-secondary)', marginTop: '8px'}}>{t('stories.xpEarned')}</p>
+            <div className="stories-score-section">
+              <div className="stories-score-xp">+20 XP</div>
+              <p className="stories-score-xp-label">{t('stories.xpEarned')}</p>
             </div>
             {questions.length > 0 && (
-              <div style={{marginTop: '20px', padding: '16px', background: 'rgba(108,92,231,0.05)', borderRadius: 'var(--radius)'}}>
+              <div className="stories-comprehension-box">
                 <h4>{t('stories.comprehension')}</h4>
-                <p style={{fontSize: '18px', fontWeight: '700', marginTop: '8px'}}>
+                <p className="stories-comprehension-score">
                   {correctCount}/{questions.length} {t('stories.questions')}
                 </p>
-                <p style={{color: 'var(--text-secondary)', marginTop: '8px'}}>
+                <p className="stories-comprehension-message">
                   {correctCount === questions.length ? t('stories.perfect') : correctCount >= questions.length / 2 ? t('stories.goodJob') : t('stories.retry')}
                 </p>
               </div>
             )}
-            <button onClick={onBack} style={{marginTop: '24px', padding: '12px 24px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
+            <button onClick={onBack} className="stories-back-button">
               {t('stories.backToStories')}
             </button>
           </div>
@@ -132,12 +132,12 @@ function StoryReader({ story, level, colors, onBack }) {
           <p className="page-subtitle">{story.titleIt}</p>
         </div>
 
-        <div style={{display: 'flex', gap: '12px', marginBottom: '20px', fontSize: '12px'}}>
-          <div style={{padding: '6px 12px', background: 'rgba(108,92,231,0.1)', borderRadius: 'var(--radius)', color: 'var(--accent)'}}>
+        <div className="stories-status-badges">
+          <div className="stories-status-badge">
             {t('stories.line')} {currentLineIndex + 1} {t('stories.of')} {story.lines.length}
           </div>
           {questions.length > 0 && (
-            <div style={{padding: '6px 12px', background: 'rgba(108,92,231,0.1)', borderRadius: 'var(--radius)', color: 'var(--accent)'}}>
+            <div className="stories-status-badge">
               {t('stories.questionsAnswered')} {completedQuestions}/{questions.length}
             </div>
           )}
@@ -145,32 +145,32 @@ function StoryReader({ story, level, colors, onBack }) {
 
         {!isQuestion ? (
           <>
-            <div className="reading-toolbar">
-              <button className="read-aloud-btn" onClick={readAloud}>
+            <div className="stories-toolbar">
+              <button className="stories-read-aloud-btn" onClick={readAloud}>
                 <Icons.Volume /> {t('stories.readAloud')}
               </button>
             </div>
-            <div style={{background: 'rgba(108,92,231,0.05)', padding: '24px', borderRadius: 'var(--radius)', marginBottom: '24px'}}>
-              <div style={{fontSize: '14px', lineHeight: '1.8', color: 'var(--text-primary)'}}>
-                <span style={{fontWeight: '600', color: 'var(--accent)', marginRight: '12px'}}>
+            <div className="stories-text-display">
+              <div className="stories-text-content">
+                <span className="stories-text-speaker">
                   {currentLine.speaker === 'narrator' ? t('stories.narrator') : `${currentLine.speaker}:`}
                 </span>
                 <span>{renderTextWithTooltips(currentLine.text)}</span>
               </div>
               {currentLine.translation && (
-                <div style={{fontSize: '12px', color: 'var(--text-secondary)', marginTop: '12px', paddingTop: '12px', borderTop: '1px solid rgba(108,92,231,0.2)'}}>
-                  <strong>{t('stories.italian')}:</strong> {currentLine.translation}
+                <div className="stories-text-translation">
+                  <span className="stories-translation-label">{t('stories.italian')}:</span> {currentLine.translation}
                 </div>
               )}
             </div>
           </>
         ) : (
           <>
-            <div style={{background: 'rgba(108,92,231,0.1)', padding: '24px', borderRadius: 'var(--radius)', marginBottom: '24px'}}>
-              <h2 style={{marginBottom: '16px', fontSize: '16px', fontWeight: '700'}}>
+            <div className="stories-question-box">
+              <h2 className="stories-question-text">
                 ❓ {question.question || question.questionIt}
               </h2>
-              <div style={{display: 'grid', gap: '12px'}}>
+              <div className="stories-options-grid">
                 {(question.options || []).map((opt, idx) => {
                   const answered = answers[currentLineIndex] !== undefined;
                   const isCorrect = idx === question.correctAnswer;
@@ -180,18 +180,7 @@ function StoryReader({ story, level, colors, onBack }) {
                       key={idx}
                       onClick={() => handleAnswer(opt)}
                       disabled={answered}
-                      style={{
-                        padding: '12px 16px',
-                        background: answered ? (isCorrect ? 'var(--success-dim)' : selected ? 'var(--error-dim)' : 'rgba(108,92,231,0.05)') : 'rgba(108,92,231,0.1)',
-                        border: answered ? (isCorrect ? '2px solid var(--success)' : selected ? '2px solid var(--error)' : '1px solid rgba(108,92,231,0.2)') : '1px solid rgba(108,92,231,0.2)',
-                        color: answered ? (isCorrect ? 'var(--success)' : selected ? 'var(--error)' : 'var(--text-primary)') : 'var(--text-primary)',
-                        borderRadius: 'var(--radius)',
-                        textAlign: 'left',
-                        cursor: answered ? 'not-allowed' : 'pointer',
-                        fontSize: '14px',
-                        fontWeight: '600',
-                        transition: 'all 0.3s'
-                      }}
+                      className={`stories-option-btn ${answered ? (isCorrect ? 'correct' : selected ? 'incorrect' : 'pending') : ''}`}
                     >
                       {isCorrect && answered && '✓ '}
                       {selected && answered && !isCorrect && '✗ '}
@@ -204,14 +193,14 @@ function StoryReader({ story, level, colors, onBack }) {
           </>
         )}
 
-        <div style={{display: 'flex', gap: '12px', justifyContent: 'space-between', marginTop: '24px'}}>
-          <button onClick={onBack} style={{padding: '12px 24px', background: 'rgba(108,92,231,0.1)', color: 'var(--accent)', border: '1px solid rgba(108,92,231,0.2)', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
+        <div className="stories-navigation">
+          <button onClick={onBack} className="stories-nav-back-btn">
             {t('stories.back')}
           </button>
           <button
             onClick={handleNext}
             disabled={isQuestion && answers[currentLineIndex] === undefined}
-            style={{padding: '12px 24px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: isQuestion && answers[currentLineIndex] === undefined ? 'not-allowed' : 'pointer', opacity: isQuestion && answers[currentLineIndex] === undefined ? 0.5 : 1}}
+            className="stories-nav-next-btn"
           >
             {currentLineIndex === story.lines.length - 1 ? t('stories.completeStory') : t('stories.nextLine')}
           </button>

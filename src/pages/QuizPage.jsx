@@ -164,7 +164,7 @@ export default function QuizPage({ level, onNavigate }) {
                     disabled={isLocked}
                   >
                     {lvl}
-                    {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
+                    {isLocked && <span className="quiz-lock-icon">🔒</span>}
                   </button>
                 );
               })}
@@ -192,13 +192,13 @@ export default function QuizPage({ level, onNavigate }) {
           <div className="score-circle"><span className="score-value">{percentage}%</span></div>
           <h2>{t('quiz.completed')}</h2>
           <p className="score-text">{score} {t('quiz.correct')} {questions.length}</p>
-          <p style={{color:'var(--accent)',fontWeight:700,fontSize:'16px',margin:'8px 0'}}>+{quizXP} XP</p>
+          <p className="quiz-xp-earned">+{quizXP} XP</p>
           <div className="quiz-actions">
             <button className="retry-btn" onClick={startQuiz}>{t('quiz.retry')}</button>
             <button className="back-btn" onClick={() => setQuizState('setup')}>{t('quiz.newQuiz')}</button>
           </div>
           <button
-            className="share-btn"
+            className="quiz-share-btn"
             onClick={() => {
               const text = `🇩🇪 DeutschMaster - Quiz ${quizLevel}\n📊 ${percentage}% (${score}/${questions.length})\n⭐ +${quizXP} XP\n\n${t('quiz.shareText')}\nhttps://deutschemaster.vercel.app`;
               if (navigator.share) {
@@ -206,21 +206,6 @@ export default function QuizPage({ level, onNavigate }) {
               } else {
                 window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
               }
-            }}
-            style={{
-              marginTop: '12px',
-              padding: '10px 24px',
-              background: '#25D366',
-              color: 'white',
-              border: 'none',
-              borderRadius: '10px',
-              fontSize: '14px',
-              fontWeight: 600,
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '8px',
-              margin: '12px auto 0'
             }}
           >
             📤 {t('quiz.share')}
@@ -265,7 +250,7 @@ export default function QuizPage({ level, onNavigate }) {
           <div className="quiz-options">
             {current?.options?.map((option, idx) => (
               <button key={idx} className={`quiz-option ${hasAnswered?(option===current.correctAnswer?'correct':option===selectedAnswer?'incorrect':''):''}`} onClick={() => !hasAnswered&&handleAnswer(option)} disabled={hasAnswered}>
-                <span style={{color:'var(--text-secondary)',marginRight:'8px',fontWeight:600}}>{idx+1}.</span> {option}
+                <span className="quiz-option-number">{idx+1}.</span> {option}
               </button>
             ))}
           </div>

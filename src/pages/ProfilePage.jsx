@@ -203,155 +203,65 @@ const ProfilePage = ({ onNavigate }) => {
   }, [xpHistory, selectedGoal]);
 
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        background: 'var(--bg)',
-        padding: '24px 16px',
-        fontFamily: 'system-ui, -apple-system, sans-serif',
-        color: 'var(--text-primary)',
-      }}
-    >
-      <div
-        style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-        }}
-      >
+    <div className="profile-container">
+      <div className="profile-wrapper">
         {/* DONATION BANNER */}
-        <div
-          style={{
-            background: 'linear-gradient(135deg, rgba(108,92,231,0.15), rgba(162,155,254,0.1))',
-            border: '1px solid rgba(108,92,231,0.3)',
-            borderRadius: 'var(--radius)',
-            padding: '16px 20px',
-            marginBottom: '32px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '16px',
-            flexWrap: 'wrap',
-          }}
-        >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <span style={{ fontSize: '20px' }}>❤️</span>
+        <div className="profile-donation-banner">
+          <div className="profile-donation-content">
+            <span className="profile-donation-emoji">❤️</span>
             <div>
-              <div style={{ fontSize: '14px', fontWeight: '600', color: 'var(--text-primary)' }}>
+              <div className="profile-donation-text-title">
                 {t('profile.donation')}
               </div>
-              <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '2px' }}>
+              <div className="profile-donation-text-subtitle">
                 {t('profile.supportUs')}
               </div>
             </div>
           </div>
           <button
             onClick={() => onNavigate('dona')}
-            style={{
-              padding: '8px 16px',
-              borderRadius: 'var(--radius)',
-              border: 'none',
-              background: 'var(--accent)',
-              color: 'white',
-              fontSize: '12px',
-              fontWeight: '700',
-              cursor: 'pointer',
-              transition: 'all 0.2s',
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'scale(1.05)';
-              e.currentTarget.style.boxShadow = '0 4px 12px rgba(108,92,231,0.4)';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'scale(1)';
-              e.currentTarget.style.boxShadow = 'none';
-            }}
+            className="profile-donation-btn"
           >
             {t('profile.donateNow')}
           </button>
         </div>
         {/* HEADER SECTION */}
-        <div
-          style={{
-            marginBottom: '40px',
-            textAlign: 'center',
-          }}
-        >
-          <h1
-            style={{
-              fontSize: '32px',
-              fontWeight: '700',
-              marginBottom: '24px',
-              color: 'var(--text-primary)',
-            }}
-          >
+        <div className="profile-header">
+          <h1 className="profile-title">
             {t('profile.title')}
           </h1>
 
           {/* Account Section */}
-          <div style={{
-            marginBottom: '24px',
-            padding: '16px',
-            backgroundColor: 'var(--bg-card)',
-            borderRadius: '12px',
-            border: '1px solid var(--border)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: '12px',
-          }}>
+          <div className="profile-account-section">
             {isAuthenticated ? (
               <>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                  <div style={{
-                    width: '42px', height: '42px', borderRadius: '50%',
-                    background: 'linear-gradient(135deg, var(--accent), #a29bfe)',
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontSize: '18px', fontWeight: 800, color: 'white',
-                  }}>
+                <div className="profile-user-info">
+                  <div className="profile-avatar">
                     {(user?.displayName || user?.email || '?')[0].toUpperCase()}
                   </div>
                   <div>
-                    <div style={{ fontWeight: 700, fontSize: '15px' }}>{user?.displayName || 'Utente'}</div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{user?.email}</div>
+                    <div className="profile-user-name">{user?.displayName || 'Utente'}</div>
+                    <div className="profile-user-email">{user?.email}</div>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+                <div className="profile-account-actions">
                   {ADMIN_EMAILS.includes(user?.email) && (
-                    <button onClick={() => onNavigate('admin')} style={{
-                      padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(59,130,246,0.3)',
-                      backgroundColor: 'var(--info-dim)', color: 'var(--info)', fontSize: '13px',
-                      fontWeight: 600, cursor: 'pointer', transition: 'all 0.2s',
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = 'rgba(59,130,246,0.2)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = 'rgba(59,130,246,0.1)';
-                    }}>
+                    <button onClick={() => onNavigate('admin')} className="profile-admin-btn">
                       ⚙️ Admin
                     </button>
                   )}
-                  <button onClick={async () => { await logout(); onNavigate('home'); }} style={{
-                    padding: '8px 16px', borderRadius: '8px', border: '1px solid rgba(239,68,68,0.3)',
-                    backgroundColor: 'var(--error-dim)', color: 'var(--error)', fontSize: '13px',
-                    fontWeight: 600, cursor: 'pointer',
-                  }}>
+                  <button onClick={async () => { await logout(); onNavigate('home'); }} className="profile-logout-btn">
                     {t('profile.signOut')}
                   </button>
                 </div>
               </>
             ) : (
               <>
-                <div style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
+                <div className="profile-signed-in-message">
                   {firebaseEnabled ? t('profile.signedIn') : t('profile.offline')}
                 </div>
                 {firebaseEnabled && (
-                  <button onClick={() => onNavigate('login')} style={{
-                    padding: '8px 16px', borderRadius: '8px', border: 'none',
-                    background: 'linear-gradient(135deg, #6c5ce7, #a29bfe)', color: 'white',
-                    fontSize: '13px', fontWeight: 600, cursor: 'pointer',
-                  }}>
+                  <button onClick={() => onNavigate('login')} className="profile-signin-btn">
                     {t('profile.signInButton')}
                   </button>
                 )}
@@ -360,83 +270,36 @@ const ProfilePage = ({ onNavigate }) => {
           </div>
 
           {/* Notification Settings Section */}
-          <div style={{
-            marginBottom: '24px',
-            padding: '16px',
-            backgroundColor: 'var(--bg-card)',
-            borderRadius: '12px',
-            border: '1px solid var(--border)',
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                <span style={{ fontSize: '20px' }}>🔔</span>
+          <div className="profile-notifications-section">
+            <div className="profile-notifications-header">
+              <div className="profile-notifications-content">
+                <span className="profile-notifications-emoji">🔔</span>
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: '15px' }}>{t('profile.notifications.title')}</div>
-                  <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+                  <div className="profile-notifications-title">{t('profile.notifications.title')}</div>
+                  <div className="profile-notifications-subtitle">
                     {t('profile.notifications.subtitle')}
                   </div>
                 </div>
               </div>
               <button
                 onClick={() => handleNotificationToggle(!notificationsEnabled)}
-                style={{
-                  padding: '8px 16px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  background: notificationsEnabled ? 'var(--accent)' : 'rgba(108,92,231,0.2)',
-                  color: 'white',
-                  fontSize: '13px',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  transition: 'all 0.2s',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'scale(1.05)';
-                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(108,92,231,0.3)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'scale(1)';
-                  e.currentTarget.style.boxShadow = 'none';
-                }}
+                className={`profile-notifications-toggle ${!notificationsEnabled ? 'profile-notifications-toggle--disabled' : ''}`}
               >
                 {notificationsEnabled ? t('profile.notifications.enabled') : t('profile.notifications.disabled')}
               </button>
             </div>
 
             {notificationsEnabled && (
-              <div style={{ paddingTop: '16px', borderTop: '1px solid var(--border)' }}>
-                <div style={{ marginBottom: '12px' }}>
-                  <label style={{
-                    fontSize: '13px',
-                    fontWeight: '600',
-                    color: 'var(--text-secondary)',
-                    display: 'block',
-                    marginBottom: '12px',
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.5px',
-                  }}>
+              <div className="profile-notifications-settings">
+                <div>
+                  <label className="profile-reminder-label">
                     {t('profile.notifications.reminderTime')}
                   </label>
-                  <div style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    flexWrap: 'wrap',
-                  }}>
+                  <div className="profile-reminder-controls">
                     <select
                       value={reminderHour}
                       onChange={(e) => handleReminderTimeChange(parseInt(e.target.value))}
-                      style={{
-                        padding: '10px 12px',
-                        borderRadius: '8px',
-                        border: '1px solid var(--border)',
-                        background: 'var(--bg)',
-                        color: 'var(--text-primary)',
-                        fontSize: '14px',
-                        fontWeight: '500',
-                        cursor: 'pointer',
-                        minWidth: '120px',
-                      }}
+                      className="profile-reminder-select"
                     >
                       {Array.from({ length: 24 }, (_, i) => (
                         <option key={i} value={i}>
@@ -444,11 +307,7 @@ const ProfilePage = ({ onNavigate }) => {
                         </option>
                       ))}
                     </select>
-                    <div style={{
-                      fontSize: '12px',
-                      color: 'var(--text-secondary)',
-                      fontStyle: 'italic',
-                    }}>
+                    <div className="profile-reminder-hint">
                       {t('profile.notifications.reminderHint')}
                     </div>
                   </div>
@@ -457,31 +316,12 @@ const ProfilePage = ({ onNavigate }) => {
             )}
 
             {showNotificationPrompt && (
-              <div style={{
-                marginTop: '12px',
-                padding: '12px',
-                background: 'var(--error-dim)',
-                border: '1px solid var(--error)',
-                borderRadius: '8px',
-                fontSize: '13px',
-                color: 'var(--error)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                gap: '12px',
-              }}>
+              <div className="profile-notification-prompt">
                 <span>{t('profile.notifications.blocked')}</span>
                 <button
                   onClick={() => setShowNotificationPrompt(false)}
                   aria-label="Dismiss notification prompt"
-                  style={{
-                    background: 'transparent',
-                    border: 'none',
-                    color: 'var(--error)',
-                    cursor: 'pointer',
-                    fontSize: '18px',
-                    padding: '0',
-                  }}
+                  className="profile-prompt-close"
                 >
                   ✕
                 </button>
@@ -489,62 +329,21 @@ const ProfilePage = ({ onNavigate }) => {
             )}
           </div>
 
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '32px',
-              flexWrap: 'wrap',
-            }}
-          >
+          <div className="profile-stats-header">
             {/* XP Display */}
-            <div style={{ textAlign: 'center' }}>
-              <div
-                style={{
-                  fontSize: '14px',
-                  color: 'var(--text-secondary)',
-                  marginBottom: '12px',
-                  fontWeight: '500',
-                }}
-              >
+            <div className="profile-xp-display">
+              <div className="profile-xp-label">
                 {t('profile.stats.xp')}
               </div>
-              <div
-                style={{
-                  fontSize: '48px',
-                  fontWeight: '700',
-                  color: 'var(--accent)',
-                }}
-              >
+              <div className="profile-xp-value">
                 {(xpData.totalXP || 0).toLocaleString()}
               </div>
             </div>
 
             {/* Level Badge */}
-            <div
-              style={{
-                width: '160px',
-                height: '160px',
-                borderRadius: '50%',
-                background: 'linear-gradient(135deg, var(--accent), var(--accent-light))',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                boxShadow: '0 8px 32px rgba(59, 130, 246, 0.3)',
-                color: 'white',
-              }}
-            >
-              <div style={{ fontSize: '56px', fontWeight: '700' }}>{level}</div>
-              <div
-                style={{
-                  fontSize: '14px',
-                  marginTop: '8px',
-                  opacity: '0.95',
-                  fontWeight: '500',
-                }}
-              >
+            <div className="profile-level-badge">
+              <div className="profile-level-number">{level}</div>
+              <div className="profile-level-name">
                 {levelName}
               </div>
             </div>
@@ -552,81 +351,33 @@ const ProfilePage = ({ onNavigate }) => {
         </div>
 
         {/* STREAK SECTION */}
-        <div
-          style={{
-            background: 'var(--bg-card)',
-            border: '1px solid var(--border)',
-            borderRadius: 'var(--radius)',
-            padding: '28px',
-            marginBottom: '32px',
-          }}
-        >
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '12px',
-              marginBottom: '16px',
-            }}
-          >
-            <span style={{ fontSize: '48px' }}>🔥</span>
-            <div style={{ flex: 1 }}>
-              <div
-                style={{
-                  fontSize: '44px',
-                  fontWeight: '700',
-                  color: 'var(--text-primary)',
-                }}
-              >
+        <div className="profile-streak-section">
+          <div className="profile-streak-header">
+            <span className="profile-streak-emoji">🔥</span>
+            <div className="profile-streak-content">
+              <div className="profile-streak-number">
                 {streakData.currentStreak || 0}
               </div>
-              <div
-                style={{
-                  fontSize: '14px',
-                  color: 'var(--text-secondary)',
-                  marginTop: '4px',
-                }}
-              >
+              <div className="profile-streak-text">
                 {t('profile.stats.streak')} {longestStreak} {t('days')}
               </div>
             </div>
           </div>
 
           {/* Mini Calendar */}
-          <div style={{ marginTop: '24px' }}>
-            <h3
-              style={{
-                fontSize: '14px',
-                fontWeight: '600',
-                color: 'var(--text-secondary)',
-                marginBottom: '16px',
-                textTransform: 'uppercase',
-                letterSpacing: '0.5px',
-              }}
-            >
+          <div className="profile-calendar-container">
+            <h3 className="profile-calendar-title">
               {new Date(currentYear, currentMonth).toLocaleString(language === 'en' ? 'en-US' : 'it-IT', {
                 month: 'long',
                 year: 'numeric',
               })}
             </h3>
 
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(7, 1fr)',
-                gap: '8px',
-              }}
-            >
+            <div className="profile-calendar-grid">
               {(language === 'en' ? ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] : ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab']).map((dayName) => (
                 <div
                   key={dayName}
-                  style={{
-                    textAlign: 'center',
-                    fontSize: '12px',
-                    fontWeight: '600',
-                    color: 'var(--text-secondary)',
-                    marginBottom: '8px',
-                  }}
+                  className="profile-calendar-day-name"
                 >
                   {dayName}
                 </div>
@@ -638,20 +389,7 @@ const ProfilePage = ({ onNavigate }) => {
                 ) : (
                   <div
                     key={dayObj.day}
-                    style={{
-                      aspectRatio: '1',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      borderRadius: 'var(--radius)',
-                      fontSize: '12px',
-                      fontWeight: '600',
-                      background: dayObj.active ? 'var(--success)' : 'var(--bg)',
-                      color: dayObj.active ? 'white' : 'var(--text-primary)',
-                      border: dayObj.isToday ? '2px solid var(--accent)' : 'none',
-                      cursor: 'default',
-                      transition: 'all 0.2s',
-                    }}
+                    className={`profile-calendar-day ${dayObj.active ? 'profile-calendar-day--active' : ''} ${dayObj.isToday ? 'profile-calendar-day--today' : ''}`}
                   >
                     {dayObj.day}
                   </div>
@@ -662,44 +400,14 @@ const ProfilePage = ({ onNavigate }) => {
         </div>
 
         {/* DAILY GOAL SECTION */}
-        <div
-          style={{
-            background: 'var(--bg-card)',
-            border: '1px solid var(--border)',
-            borderRadius: 'var(--radius)',
-            padding: '28px',
-            marginBottom: '32px',
-          }}
-        >
-          <h2
-            style={{
-              fontSize: '18px',
-              fontWeight: '700',
-              marginBottom: '24px',
-              color: 'var(--text-primary)',
-            }}
-          >
+        <div className="profile-goal-section">
+          <h2 className="profile-goal-title">
             {t('profile.dailyGoal.title')}
           </h2>
 
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '32px',
-              marginBottom: '32px',
-              flexWrap: 'wrap',
-            }}
-          >
+          <div className="profile-goal-container">
             {/* Circular Progress */}
-            <div
-              style={{
-                position: 'relative',
-                width: '140px',
-                height: '140px',
-                flex: '0 0 auto',
-              }}
-            >
+            <div className="profile-goal-progress">
               <svg
                 width="140"
                 height="140"
@@ -732,105 +440,36 @@ const ProfilePage = ({ onNavigate }) => {
                 />
               </svg>
 
-              <div
-                style={{
-                  position: 'absolute',
-                  inset: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexDirection: 'column',
-                }}
-              >
-                <div
-                  style={{
-                    fontSize: '24px',
-                    fontWeight: '700',
-                    color: 'var(--text-primary)',
-                  }}
-                >
+              <div className="profile-goal-progress-text">
+                <div className="profile-goal-progress-value">
                   {todayXP} / {selectedGoal}
                 </div>
-                <div
-                  style={{
-                    fontSize: '12px',
-                    color: 'var(--text-secondary)',
-                    marginTop: '4px',
-                  }}
-                >
+                <div className="profile-goal-progress-label">
                   XP
                 </div>
               </div>
             </div>
 
             {/* Goal Selector */}
-            <div>
-              <div
-                style={{
-                  fontSize: '14px',
-                  fontWeight: '600',
-                  color: 'var(--text-secondary)',
-                  marginBottom: '16px',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.5px',
-                }}
-              >
+            <div className="profile-goal-selector">
+              <div className="profile-goal-label">
                 {t('profile.dailyGoal.choose')}
               </div>
 
-              <div
-                style={{
-                  display: 'flex',
-                  gap: '12px',
-                  flexWrap: 'wrap',
-                }}
-              >
+              <div className="profile-goal-buttons">
                 {goalOptions.map((goal) => (
                   <button
                     key={goal}
                     onClick={() => handleGoalChange(goal)}
-                    style={{
-                      padding: '12px 20px',
-                      borderRadius: 'var(--radius)',
-                      border:
-                        selectedGoal === goal
-                          ? '2px solid var(--accent)'
-                          : '1px solid var(--border)',
-                      background:
-                        selectedGoal === goal ? 'var(--accent)' : 'var(--bg-card-hover)',
-                      color:
-                        selectedGoal === goal
-                          ? 'white'
-                          : 'var(--text-primary)',
-                      fontWeight: '600',
-                      fontSize: '14px',
-                      cursor: 'pointer',
-                      transition: 'all 0.2s',
-                    }}
-                    onMouseEnter={(e) => {
-                      if (selectedGoal !== goal) {
-                        e.target.style.borderColor = 'var(--accent)';
-                      }
-                    }}
-                    onMouseLeave={(e) => {
-                      if (selectedGoal !== goal) {
-                        e.target.style.borderColor = 'var(--border)';
-                      }
-                    }}
+                    className={`profile-goal-btn ${selectedGoal === goal ? 'profile-goal-btn--active' : ''}`}
                   >
                     {goal} XP
                   </button>
                 ))}
               </div>
 
-              <div
-                style={{
-                  marginTop: '16px',
-                  fontSize: '14px',
-                  color: 'var(--text-secondary)',
-                }}
-              >
-                {t('profile.dailyGoal.streak')} <span style={{ fontWeight: '700', color: 'var(--accent)' }}>{goalStreak}</span>{' '}
+              <div className="profile-goal-streak">
+                {t('profile.dailyGoal.streak')} <span className="profile-goal-streak-value">{goalStreak}</span>{' '}
                 {t('days')}
               </div>
             </div>
@@ -839,74 +478,43 @@ const ProfilePage = ({ onNavigate }) => {
 
         {/* PLACEMENT TEST SECTION */}
         {placementTestData && (
-          <div
-            style={{
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
-              borderRadius: 'var(--radius)',
-              padding: '28px',
-              marginBottom: '32px',
-            }}
-          >
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-              <h2 style={{ fontSize: '18px', fontWeight: '700', color: 'var(--text-primary)', margin: 0 }}>
+          <div className="profile-placement-section">
+            <div className="profile-placement-header">
+              <h2 className="profile-placement-title">
                 {t('profile.placementTest.title')}
               </h2>
               <button
                 onClick={() => onNavigate('placement-test')}
-                style={{
-                  padding: '6px 12px',
-                  background: 'var(--accent)',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: 'var(--radius)',
-                  fontSize: '12px',
-                  fontWeight: '600',
-                  cursor: 'pointer',
-                }}
+                className="profile-placement-retry-btn"
               >
                 {t('profile.placementTest.retry')}
               </button>
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'wrap' }}>
+            <div className="profile-placement-content">
               <div>
-                <div style={{ fontSize: '12px', color: 'var(--text-secondary)', fontWeight: '600', marginBottom: '8px', textTransform: 'uppercase' }}>
+                <div className="profile-placement-level-label">
                   {t('profile.placementTest.detectedLevel')}
                 </div>
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '100px',
-                    height: '100px',
-                    borderRadius: '50%',
-                    background: `linear-gradient(135deg, var(--accent), var(--accent-light))`,
-                    color: 'white',
-                    fontSize: '36px',
-                    fontWeight: '700',
-                    boxShadow: '0 8px 16px rgba(108,92,231,0.3)',
-                  }}
-                >
+                <div className="profile-placement-level-badge">
                   {placementTestData.level}
                 </div>
               </div>
 
-              <div style={{ flex: 1, minWidth: '200px' }}>
-                <div style={{ fontSize: '13px', fontWeight: '600', color: 'var(--text-primary)', marginBottom: '12px' }}>
+              <div className="profile-placement-results">
+                <div className="profile-placement-results-title">
                   {t('profile.placementTest.results')}
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                  <div style={{ background: 'rgba(108,92,231,0.1)', borderRadius: '8px', padding: '12px' }}>
-                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>{t('profile.placementTest.correctAnswers')}</div>
-                    <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--accent)' }}>
+                <div className="profile-placement-results-grid">
+                  <div className="profile-placement-result-card">
+                    <div className="profile-placement-result-label">{t('profile.placementTest.correctAnswers')}</div>
+                    <div className="profile-placement-result-value">
                       {placementTestData.correctAnswers}/{placementTestData.totalQuestions}
                     </div>
                   </div>
-                  <div style={{ background: 'var(--info-dim)', borderRadius: '8px', padding: '12px' }}>
-                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '4px' }}>{t('profile.placementTest.testDate')}</div>
-                    <div style={{ fontSize: '20px', fontWeight: '700', color: 'var(--info)' }}>
+                  <div className="profile-placement-result-card profile-placement-result-card--info">
+                    <div className="profile-placement-result-label">{t('profile.placementTest.testDate')}</div>
+                    <div className="profile-placement-result-value profile-placement-result-value--info">
                       {new Date(placementTestData.completedAt).toLocaleDateString(language === 'en' ? 'en-US' : 'it-IT')}
                     </div>
                   </div>
@@ -917,14 +525,7 @@ const ProfilePage = ({ onNavigate }) => {
         )}
 
         {/* STATISTICS SECTION */}
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-            gap: '20px',
-            marginBottom: '32px',
-          }}
-        >
+        <div className="profile-stats-grid">
           {[
             { label: t('profile.stats.wordsStudied'), value: totalWordsStudied },
             { label: t('profile.stats.correctAnswers'), value: `${correctAnswersPercentage}%` },
@@ -933,35 +534,11 @@ const ProfilePage = ({ onNavigate }) => {
             { label: t('profile.stats.totalXP'), value: (xpData.totalXP || 0).toLocaleString() },
             { label: t('profile.stats.level'), value: level },
           ].map((stat, idx) => (
-            <div
-              key={idx}
-              style={{
-                background: 'var(--bg-card)',
-                border: '1px solid var(--border)',
-                borderRadius: 'var(--radius)',
-                padding: '20px',
-                textAlign: 'center',
-              }}
-            >
-              <div
-                style={{
-                  fontSize: '13px',
-                  color: 'var(--text-secondary)',
-                  fontWeight: '600',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.5px',
-                  marginBottom: '12px',
-                }}
-              >
+            <div key={idx} className="profile-stat-card">
+              <div className="profile-stat-label">
                 {stat.label}
               </div>
-              <div
-                style={{
-                  fontSize: '32px',
-                  fontWeight: '700',
-                  color: 'var(--accent)',
-                }}
-              >
+              <div className="profile-stat-value">
                 {stat.value}
               </div>
             </div>
@@ -969,72 +546,27 @@ const ProfilePage = ({ onNavigate }) => {
         </div>
 
         {/* XP WEEKLY CHART */}
-        <div
-          style={{
-            background: 'var(--bg-card)',
-            border: '1px solid var(--border)',
-            borderRadius: 'var(--radius)',
-            padding: '28px',
-            marginBottom: '32px',
-          }}
-        >
-          <h2
-            style={{
-              fontSize: '18px',
-              fontWeight: '700',
-              marginBottom: '24px',
-              color: 'var(--text-primary)',
-            }}
-          >
+        <div className="profile-xp-chart-section">
+          <h2 className="profile-xp-chart-title">
             {t('profile.xpChart.title')}
           </h2>
 
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'flex-end',
-              justifyContent: 'space-around',
-              height: '200px',
-              gap: '16px',
-            }}
-          >
+          <div className="profile-xp-chart">
             {last7DaysXP.map((dayData, idx) => {
               const heightPercentage = maxXPInWeek > 0 ? (dayData.xp / maxXPInWeek) * 100 : 0;
 
               return (
                 <div
                   key={idx}
-                  style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    flex: 1,
-                    gap: '12px',
-                  }}
+                  className="profile-xp-bar-container"
                 >
                   <div
-                    style={{
-                      width: '100%',
-                      height: `${heightPercentage}%`,
-                      minHeight: '8px',
-                      borderRadius: 'var(--radius)',
-                      background: dayData.isToday
-                        ? 'var(--accent)'
-                        : 'var(--accent)',
-                      opacity: dayData.isToday ? '1' : '0.5',
-                      transition: 'all 0.3s',
-                      cursor: 'default',
-                    }}
+                    className={`profile-xp-bar ${dayData.isToday ? 'profile-xp-bar--active' : ''}`}
+                    style={{ height: `${heightPercentage}%` }}
                     title={`${dayData.xp} XP`}
                   />
                   <div
-                    style={{
-                      fontSize: '12px',
-                      color: dayData.isToday
-                        ? 'var(--accent)'
-                        : 'var(--text-secondary)',
-                      fontWeight: dayData.isToday ? '700' : '500',
-                    }}
+                    className={`profile-xp-bar-label ${dayData.isToday ? 'profile-xp-bar-label--active' : ''}`}
                   >
                     {dayData.day}
                   </div>
@@ -1045,122 +577,37 @@ const ProfilePage = ({ onNavigate }) => {
         </div>
 
         {/* BADGES SECTION */}
-        <div
-          style={{
-            background: 'var(--bg-card)',
-            border: '1px solid var(--border)',
-            borderRadius: 'var(--radius)',
-            padding: '28px',
-          }}
-        >
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              marginBottom: '24px',
-            }}
-          >
-            <h2
-              style={{
-                fontSize: '18px',
-                fontWeight: '700',
-                color: 'var(--text-primary)',
-              }}
-            >
+        <div className="profile-badges-section">
+          <div className="profile-badges-header">
+            <h2 className="profile-badges-title">
               {t('profile.badges.title')}
             </h2>
-            <span
-              style={{
-                fontSize: '14px',
-                color: 'var(--text-secondary)',
-                fontWeight: '600',
-              }}
-            >
+            <span className="profile-badges-count">
               {badges.filter((b) => b.unlocked).length} / {badges.length} {t('profile.badges.unlocked')}
             </span>
           </div>
 
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))',
-              gap: '16px',
-            }}
-          >
+          <div className="profile-badges-grid">
             {badges.map((badge, idx) => (
               <div
                 key={idx}
-                style={{
-                  position: 'relative',
-                  background: 'var(--bg)',
-                  border: '1px solid var(--border)',
-                  borderRadius: 'var(--radius)',
-                  padding: '20px',
-                  textAlign: 'center',
-                  opacity: badge.unlocked ? '1' : '0.6',
-                  filter: badge.unlocked ? 'grayscale(0%)' : 'grayscale(100%)',
-                  transition: 'all 0.3s',
-                  cursor: 'pointer',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = badge.unlocked
-                    ? 'translateY(-4px)'
-                    : 'none';
-                  e.currentTarget.style.boxShadow = badge.unlocked
-                    ? '0 12px 24px rgba(59, 130, 246, 0.15)'
-                    : 'none';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'none';
-                  e.currentTarget.style.boxShadow = 'none';
-                }}
+                className={`profile-badge ${!badge.unlocked ? 'profile-badge--locked' : ''}`}
               >
                 {!badge.unlocked && (
-                  <div
-                    style={{
-                      position: 'absolute',
-                      inset: '0',
-                      borderRadius: 'var(--radius)',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      fontSize: '32px',
-                      zIndex: '2',
-                    }}
-                  >
+                  <div className="profile-badge-lock">
                     🔒
                   </div>
                 )}
 
-                <div
-                  style={{
-                    fontSize: '48px',
-                    marginBottom: '12px',
-                    filter: !badge.unlocked ? 'brightness(0.5)' : 'none',
-                  }}
-                >
+                <div className={`profile-badge-icon ${!badge.unlocked ? 'profile-badge-icon--locked' : ''}`}>
                   {badge.icon}
                 </div>
 
-                <div
-                  style={{
-                    fontSize: '13px',
-                    fontWeight: '700',
-                    color: 'var(--text-primary)',
-                    marginBottom: '6px',
-                  }}
-                >
+                <div className="profile-badge-name">
                   {badge.nameKey ? t(badge.nameKey) : badge.name}
                 </div>
 
-                <div
-                  style={{
-                    fontSize: '12px',
-                    color: 'var(--text-secondary)',
-                    lineHeight: '1.4',
-                  }}
-                >
+                <div className="profile-badge-description">
                   {badge.descKey ? t(badge.descKey) : badge.description}
                 </div>
               </div>

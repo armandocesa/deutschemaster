@@ -606,39 +606,23 @@ export default function WerdenPage({ onNavigate }) {
   );
 
   return (
-    <div
-      style={{
-        backgroundColor: 'var(--bg-primary)',
-        color: 'var(--text-primary)',
-        minHeight: '100vh',
-        fontFamily: "'Inter', 'Segoe UI', sans-serif",
-      }}
-    >
+    <div className="werden-container">
       {/* Header */}
-      <div
-        style={{
-          backgroundColor: 'var(--bg-card)',
-          borderBottom: '1px solid var(--border-hover)',
-          padding: '20px',
-        }}
-      >
+      <div className="werden-header">
         <button
           onClick={() => onNavigate('home')}
-          className="text-blue-400 hover:text-blue-300 text-sm mb-4 transition"
+          className="werden-back-btn"
         >
           ← {t('werden.back')}
         </button>
-        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+        <h1 className="werden-title">
           {t('werden.title')}
         </h1>
-        <p className="text-gray-400 mt-2">{t('werden.all')}</p>
+        <p className="werden-subtitle">{t('werden.all')}</p>
       </div>
 
       {/* Tab Navigation */}
-      <div
-        className="sticky top-0 z-10 flex overflow-x-auto gap-0 border-b"
-        style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--text-tertiary)' }}
-      >
+      <div className="werden-tabs">
         {[
           { id: 'overview', label: t('werden.overview') },
           { id: 'werden', label: t('werden.mainVerb') },
@@ -651,12 +635,7 @@ export default function WerdenPage({ onNavigate }) {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className="px-4 py-3 text-sm font-medium transition border-b-2 whitespace-nowrap hover:opacity-80"
-            style={{
-              borderColor: activeTab === tab.id ? '#0096c7' : 'transparent',
-              color: activeTab === tab.id ? '#0096c7' : 'var(--text-secondary)',
-              backgroundColor: activeTab === tab.id ? 'rgba(0, 150, 199, 0.1)' : 'transparent',
-            }}
+            className={`werden-tab ${activeTab === tab.id ? 'active' : ''}`}
           >
             {tab.label}
           </button>
@@ -664,7 +643,7 @@ export default function WerdenPage({ onNavigate }) {
       </div>
 
       {/* Content */}
-      <div style={{ padding: '30px', maxWidth: '1200px', margin: '0 auto' }}>
+      <div className="werden-content">
         {activeTab === 'overview' && <OverviewSection />}
         {activeTab === 'werden' && <WerdenVerbSection />}
         {activeTab === 'futuri' && <FuturISection />}
@@ -675,17 +654,9 @@ export default function WerdenPage({ onNavigate }) {
       </div>
 
       {/* Footer */}
-      <div
-        style={{
-          backgroundColor: 'var(--bg-card)',
-          borderTop: '1px solid var(--border-hover)',
-          padding: '20px',
-          textAlign: 'center',
-          marginTop: '40px',
-        }}
-      >
-        <p className="text-sm text-gray-400">{t('werden.footer1')}</p>
-        <p className="text-xs text-gray-500 mt-2">{t('werden.footer2')}</p>
+      <div className="werden-footer">
+        <p className="werden-footer-primary">{t('werden.footer1')}</p>
+        <p className="werden-footer-secondary">{t('werden.footer2')}</p>
       </div>
     </div>
   );

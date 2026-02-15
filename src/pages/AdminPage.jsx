@@ -67,42 +67,13 @@ const AdminPage = ({ onNavigate }) => {
   // Not authenticated
   if (!isAuthenticated) {
     return (
-      <div
-        style={{
-          minHeight: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: 'var(--bg)',
-          color: 'var(--text-primary)',
-        }}
-      >
-        <div style={{ textAlign: 'center', maxWidth: '400px' }}>
-          <h1 style={{ fontSize: '24px', marginBottom: '16px' }}>{t('admin.accessRequired')}</h1>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '24px' }}>
-            {t('admin.authRequired')}
-          </p>
+      <div className="admin-auth-error-container">
+        <div className="admin-auth-error-content">
+          <h1 className="admin-auth-error-title">{t('admin.accessRequired')}</h1>
+          <p className="admin-auth-error-text">{t('admin.authRequired')}</p>
           <button
             onClick={() => onNavigate('login')}
-            style={{
-              padding: '12px 24px',
-              background: 'var(--accent)',
-              color: 'white',
-              border: 'none',
-              borderRadius: 'var(--radius)',
-              fontSize: '16px',
-              fontWeight: '600',
-              cursor: 'pointer',
-              transition: 'all 0.2s',
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.transform = 'scale(1.05)';
-              e.target.style.boxShadow = '0 4px 12px rgba(108,92,231,0.4)';
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.transform = 'scale(1)';
-              e.target.style.boxShadow = 'none';
-            }}
+            className="admin-auth-btn"
           >
             {t('login.signin')}
           </button>
@@ -114,24 +85,11 @@ const AdminPage = ({ onNavigate }) => {
   // Not admin
   if (!isAdmin) {
     return (
-      <div
-        style={{
-          minHeight: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: 'var(--bg)',
-          color: 'var(--text-primary)',
-        }}
-      >
-        <div style={{ textAlign: 'center', maxWidth: '400px' }}>
-          <h1 style={{ fontSize: '24px', marginBottom: '16px' }}>{t('admin.accessDenied')}</h1>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '24px' }}>
-            {t('admin.noPermission')}
-          </p>
-          <p style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
-            Email: {user?.email}
-          </p>
+      <div className="admin-auth-error-container">
+        <div className="admin-auth-error-content">
+          <h1 className="admin-auth-error-title">{t('admin.accessDenied')}</h1>
+          <p className="admin-auth-error-text">{t('admin.noPermission')}</p>
+          <p className="admin-auth-error-email">Email: {user?.email}</p>
         </div>
       </div>
     );
@@ -140,81 +98,32 @@ const AdminPage = ({ onNavigate }) => {
   // Loading state
   if (loading) {
     return (
-      <div
-        style={{
-          minHeight: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: 'var(--bg)',
-        }}
-      >
-        <div style={{ textAlign: 'center' }}>
-          <div
-            style={{
-              width: '48px',
-              height: '48px',
-              border: '3px solid rgba(108,92,231,0.3)',
-              borderTopColor: 'var(--accent)',
-              borderRadius: '50%',
-              animation: 'spin 0.8s linear infinite',
-              margin: '0 auto 16px',
-            }}
-          />
-          <p style={{ color: 'var(--text-secondary)' }}>{t('admin.loading')}</p>
-          <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+      <div className="admin-loading-container">
+        <div className="admin-loading-content">
+          <div className="admin-spinner" />
+          <p className="admin-loading-text">{t('admin.loading')}</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        background: 'var(--bg)',
-        padding: '24px 16px',
-        fontFamily: 'system-ui, -apple-system, sans-serif',
-        color: 'var(--text-primary)',
-      }}
-    >
-      <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+    <div className="admin-page">
+      <div className="admin-container">
         {/* HEADER */}
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            marginBottom: '32px',
-            flexWrap: 'wrap',
-            gap: '16px',
-          }}
-        >
+        <div className="admin-header">
           <div>
-            <h1 style={{ fontSize: '32px', fontWeight: '700', marginBottom: '8px' }}>
-              {t('admin.title')}
-            </h1>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>
-              {t('admin.subtitle')}
-            </p>
+            <h1 className="admin-header-title">{t('admin.title')}</h1>
+            <p className="admin-header-subtitle">{t('admin.subtitle')}</p>
           </div>
 
-          <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-            <label style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
+          <div className="admin-header-controls">
+            <label className="admin-refresh-label">
               {t('admin.refreshEvery')}
               <select
                 value={refreshInterval}
                 onChange={(e) => setRefreshInterval(parseInt(e.target.value))}
-                style={{
-                  marginLeft: '8px',
-                  padding: '6px 12px',
-                  background: 'var(--bg-card)',
-                  color: 'var(--text-primary)',
-                  border: '1px solid var(--border)',
-                  borderRadius: 'var(--radius)',
-                  fontSize: '14px',
-                  cursor: 'pointer',
-                }}
+                className="admin-refresh-select"
               >
                 <option value={15}>15 {t('admin.seconds')}</option>
                 <option value={30}>30 {t('admin.seconds')}</option>
@@ -225,16 +134,7 @@ const AdminPage = ({ onNavigate }) => {
 
             <button
               onClick={() => onNavigate('profile')}
-              style={{
-                padding: '8px 16px',
-                background: 'rgba(108,92,231,0.2)',
-                color: 'var(--accent)',
-                border: '1px solid var(--accent)',
-                borderRadius: 'var(--radius)',
-                fontSize: '13px',
-                fontWeight: '600',
-                cursor: 'pointer',
-              }}
+              className="admin-back-btn"
             >
               {t('admin.backToProfile')}
             </button>
@@ -242,29 +142,11 @@ const AdminPage = ({ onNavigate }) => {
         </div>
 
         {error && (
-          <div
-            style={{
-              background: 'var(--error-dim)',
-              border: '1px solid var(--error)',
-              borderRadius: 'var(--radius)',
-              padding: '16px',
-              marginBottom: '24px',
-              color: 'var(--error)',
-            }}
-          >
-            {error}
-          </div>
+          <div className="admin-error-banner">{error}</div>
         )}
 
         {/* KEY METRICS */}
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-            gap: '16px',
-            marginBottom: '32px',
-          }}
-        >
+        <div className="admin-metrics-grid">
           {/* Today's Stats */}
           <MetricCard
             label={t('admin.sessionsToday')}
@@ -296,214 +178,77 @@ const AdminPage = ({ onNavigate }) => {
         </div>
 
         {/* ACTIVE SESSIONS & TOP PAGES */}
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))',
-            gap: '24px',
-            marginBottom: '32px',
-          }}
-        >
+        <div className="admin-content-grid">
           {/* Most Visited Pages */}
-          <div
-            style={{
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
-              borderRadius: 'var(--radius)',
-              padding: '24px',
-            }}
-          >
-            <h2
-              style={{
-                fontSize: '18px',
-                fontWeight: '700',
-                marginBottom: '20px',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px',
-              }}
-            >
-              <span>📄</span> {t('admin.mostVisited')}
+          <div className="admin-panel">
+            <h2 className="admin-panel-title">
+              <span className="admin-panel-icon">📄</span> {t('admin.mostVisited')}
             </h2>
 
             {mostVisited.length > 0 ? (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div className="admin-list">
                 {mostVisited.map((item, idx) => (
-                  <div
-                    key={idx}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      padding: '12px',
-                      background: 'var(--bg)',
-                      borderRadius: 'var(--radius)',
-                      borderLeft: `3px solid var(--accent)`,
-                    }}
-                  >
-                    <span style={{ fontSize: '14px', fontWeight: '500' }}>
+                  <div key={idx} className="admin-list-item">
+                    <span className="admin-list-item-label">
                       {formatPageName(item.page, language)}
                     </span>
-                    <div
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '12px',
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: '150px',
-                          height: '8px',
-                          background: 'rgba(108,92,231,0.2)',
-                          borderRadius: '4px',
-                          overflow: 'hidden',
-                        }}
-                      >
+                    <div className="admin-list-item-content">
+                      <div className="admin-progress-bar">
                         <div
+                          className="admin-progress-fill"
                           style={{
-                            height: '100%',
                             width: `${(item.count / (mostVisited[0]?.count || 1)) * 100}%`,
-                            background: 'var(--accent)',
-                            borderRadius: '4px',
                           }}
                         />
                       </div>
-                      <span
-                        style={{
-                          fontSize: '14px',
-                          fontWeight: '600',
-                          color: 'var(--accent)',
-                          minWidth: '40px',
-                          textAlign: 'right',
-                        }}
-                      >
-                        {item.count}
-                      </span>
+                      <span className="admin-list-item-value">{item.count}</span>
                     </div>
                   </div>
                 ))}
               </div>
             ) : (
-              <p style={{ color: 'var(--text-secondary)', textAlign: 'center', padding: '32px 0' }}>
-                {t('admin.noData')}
-              </p>
+              <p className="admin-empty-message">{t('admin.noData')}</p>
             )}
           </div>
 
           {/* Exercise Completion Rates */}
-          <div
-            style={{
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
-              borderRadius: 'var(--radius)',
-              padding: '24px',
-            }}
-          >
-            <h2
-              style={{
-                fontSize: '18px',
-                fontWeight: '700',
-                marginBottom: '20px',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px',
-              }}
-            >
-              <span>✅</span> {t('admin.exercisesCompleted')}
+          <div className="admin-panel">
+            <h2 className="admin-panel-title">
+              <span className="admin-panel-icon">✅</span> {t('admin.exercisesCompleted')}
             </h2>
 
             {Object.keys(completionRates).length > 0 ? (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div className="admin-list">
                 {Object.entries(completionRates).map(([event, count]) => (
-                  <div
-                    key={event}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      padding: '12px',
-                      background: 'var(--bg)',
-                      borderRadius: 'var(--radius)',
-                      borderLeft: `3px solid var(--success)`,
-                    }}
-                  >
-                    <span style={{ fontSize: '14px', fontWeight: '500' }}>
+                  <div key={event} className="admin-list-item admin-list-item-success">
+                    <span className="admin-list-item-label">
                       {formatEventName(event, language)}
                     </span>
-                    <span
-                      style={{
-                        fontSize: '14px',
-                        fontWeight: '600',
-                        color: 'var(--success)',
-                      }}
-                    >
-                      {count}
-                    </span>
+                    <span className="admin-list-item-value">{count}</span>
                   </div>
                 ))}
               </div>
             ) : (
-              <p style={{ color: 'var(--text-secondary)', textAlign: 'center', padding: '32px 0' }}>
-                {t('admin.noData')}
-              </p>
+              <p className="admin-empty-message">{t('admin.noData')}</p>
             )}
           </div>
         </div>
 
         {/* TODAY'S BREAKDOWN */}
         {summary?.today?.pageViews && Object.keys(summary.today.pageViews).length > 0 && (
-          <div
-            style={{
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
-              borderRadius: 'var(--radius)',
-              padding: '24px',
-              marginBottom: '32px',
-            }}
-          >
-            <h2
-              style={{
-                fontSize: '18px',
-                fontWeight: '700',
-                marginBottom: '20px',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px',
-              }}
-            >
-              <span>🔍</span> {t('admin.pageDetailsToday')}
+          <div className="admin-panel admin-panel--spaced">
+            <h2 className="admin-panel-title">
+              <span className="admin-panel-icon">🔍</span> {t('admin.pageDetailsToday')}
             </h2>
 
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                gap: '16px',
-              }}
-            >
+            <div className="admin-stats-grid">
               {Object.entries(summary.today.pageViews)
                 .sort(([, a], [, b]) => b - a)
                 .map(([page, count]) => (
-                  <div
-                    key={page}
-                    style={{
-                      background: 'var(--bg)',
-                      border: '1px solid var(--border)',
-                      borderRadius: 'var(--radius)',
-                      padding: '16px',
-                      textAlign: 'center',
-                    }}
-                  >
-                    <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
-                      {formatPageName(page, language)}
-                    </div>
-                    <div style={{ fontSize: '28px', fontWeight: '700', color: 'var(--accent)' }}>
-                      {count}
-                    </div>
-                    <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '8px' }}>
-                      {t('admin.views')}
-                    </div>
+                  <div key={page} className="admin-stat">
+                    <div className="admin-stat-label">{formatPageName(page, language)}</div>
+                    <div className="admin-stat-value admin-stat-value-accent">{count}</div>
+                    <div className="admin-stat-footer">{t('admin.views')}</div>
                   </div>
                 ))}
             </div>
@@ -512,56 +257,19 @@ const AdminPage = ({ onNavigate }) => {
 
         {/* WEEKLY STATS */}
         {summary?.week?.pageViews && Object.keys(summary.week.pageViews).length > 0 && (
-          <div
-            style={{
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
-              borderRadius: 'var(--radius)',
-              padding: '24px',
-            }}
-          >
-            <h2
-              style={{
-                fontSize: '18px',
-                fontWeight: '700',
-                marginBottom: '20px',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px',
-              }}
-            >
-              <span>📊</span> {t('admin.pagesThisWeek')}
+          <div className="admin-panel">
+            <h2 className="admin-panel-title">
+              <span className="admin-panel-icon">📊</span> {t('admin.pagesThisWeek')}
             </h2>
 
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                gap: '16px',
-              }}
-            >
+            <div className="admin-stats-grid">
               {Object.entries(summary.week.pageViews)
                 .sort(([, a], [, b]) => b - a)
                 .map(([page, count]) => (
-                  <div
-                    key={page}
-                    style={{
-                      background: 'var(--bg)',
-                      border: '1px solid var(--border)',
-                      borderRadius: 'var(--radius)',
-                      padding: '16px',
-                      textAlign: 'center',
-                    }}
-                  >
-                    <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
-                      {formatPageName(page, language)}
-                    </div>
-                    <div style={{ fontSize: '28px', fontWeight: '700', color: 'var(--info)' }}>
-                      {count}
-                    </div>
-                    <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '8px' }}>
-                      {t('admin.views')}
-                    </div>
+                  <div key={page} className="admin-stat">
+                    <div className="admin-stat-label">{formatPageName(page, language)}</div>
+                    <div className="admin-stat-value admin-stat-value-info">{count}</div>
+                    <div className="admin-stat-footer">{t('admin.views')}</div>
                   </div>
                 ))}
             </div>
@@ -577,39 +285,12 @@ const AdminPage = ({ onNavigate }) => {
  */
 function MetricCard({ label, value, icon, subtext }) {
   return (
-    <div
-      style={{
-        background: 'var(--bg-card)',
-        border: '1px solid var(--border)',
-        borderRadius: 'var(--radius)',
-        padding: '20px',
-        display: 'flex',
-        alignItems: 'flex-start',
-        gap: '16px',
-      }}
-    >
-      <div style={{ fontSize: '32px' }}>{icon}</div>
-      <div style={{ flex: 1 }}>
-        <div
-          style={{
-            fontSize: '12px',
-            color: 'var(--text-secondary)',
-            fontWeight: '600',
-            textTransform: 'uppercase',
-            letterSpacing: '0.5px',
-            marginBottom: '8px',
-          }}
-        >
-          {label}
-        </div>
-        <div style={{ fontSize: '32px', fontWeight: '700', color: 'var(--accent)', marginBottom: '4px' }}>
-          {value}
-        </div>
-        {subtext && (
-          <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
-            {subtext}
-          </div>
-        )}
+    <div className="admin-card">
+      <div className="admin-card-icon">{icon}</div>
+      <div className="admin-card-content">
+        <div className="admin-card-label">{label}</div>
+        <div className="admin-card-value">{value}</div>
+        {subtext && <div className="admin-card-subtext">{subtext}</div>}
       </div>
     </div>
   );

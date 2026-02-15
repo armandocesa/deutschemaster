@@ -273,33 +273,22 @@ export default function WritingPage({ onNavigate }) {
         <h1 className="page-title">{t('writing.title')}</h1>
         <p className="page-subtitle">{t('writing.setupSubtitle')}</p>
 
-        <div className="writing-setup" style={{ maxWidth: '600px', margin: '0 auto', padding: '24px' }}>
+        <div className="writing-setup">
           {/* Exercise Type Selector */}
-          <div className="setup-section" style={{ marginBottom: '32px' }}>
-            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>{t('writing.exerciseType')}</h3>
-            <div className="setup-options" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+          <div className="setup-section">
+            <h3>{t('writing.exerciseType')}</h3>
+            <div className="setup-options">
               {['traduzione', 'completamento', 'riordina', 'scrittura_libera'].map(type => (
                 <button
                   key={type}
                   className={`setup-option ${exerciseType === type ? 'active' : ''}`}
                   onClick={() => setExerciseType(type)}
-                  style={{
-                    padding: '12px 16px',
-                    border: exerciseType === type ? '2px solid var(--primary-color)' : '1px solid var(--border-color)',
-                    borderRadius: '8px',
-                    backgroundColor: exerciseType === type ? 'var(--primary-light)' : 'var(--bg-secondary)',
-                    color: 'var(--text-primary)',
-                    cursor: 'pointer',
-                    fontWeight: '600',
-                    fontSize: '13px',
-                    transition: 'all 0.2s'
-                  }}
                 >
                   {exerciseTypeLabels[type]}
                 </button>
               ))}
             </div>
-            <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '12px' }}>
+            <p>
               {exerciseType === 'traduzione' && `🇮🇹 ${t('writing.translateTo')}`}
               {exerciseType === 'completamento' && `✏️ ${t('writing.complete')}`}
               {exerciseType === 'riordina' && `🔀 ${t('writing.order')}`}
@@ -308,33 +297,20 @@ export default function WritingPage({ onNavigate }) {
           </div>
 
           {/* Level Selector */}
-          <div className="setup-section" style={{ marginBottom: '32px' }}>
-            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>{t('writing.level')}</h3>
-            <div className="setup-options levels" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
+          <div className="setup-section">
+            <h3>{t('writing.level')}</h3>
+            <div className="setup-options levels">
               {Object.entries(LEVEL_COLORS).map(([lvl, colors]) => {
                 const isLocked = lvl !== 'A1' && !canAccessLevel(lvl);
                 return (
                   <button
                     key={lvl}
-                    className={`setup-option level ${selectedLevel === lvl ? 'active' : ''} ${isLocked ? 'locked' : ''}`}
+                    className={`setup-option ${selectedLevel === lvl ? 'active' : ''} ${isLocked ? 'locked' : ''}`}
                     onClick={() => handleLevelChange(lvl)}
                     disabled={isLocked}
-                    style={{
-                      padding: '12px 16px',
-                      border: selectedLevel === lvl ? '2px solid' : '1px solid transparent',
-                      borderColor: selectedLevel === lvl ? colors.bg : 'var(--border-color)',
-                      borderRadius: '8px',
-                      backgroundColor: selectedLevel === lvl ? colors.light : isLocked ? 'var(--bg-secondary)' : 'var(--bg-secondary)',
-                      color: isLocked ? 'var(--text-secondary)' : colors.text,
-                      cursor: isLocked ? 'not-allowed' : 'pointer',
-                      fontWeight: '600',
-                      fontSize: '14px',
-                      transition: 'all 0.2s',
-                      opacity: isLocked ? 0.5 : 1
-                    }}
                   >
                     {lvl}
-                    {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
+                    {isLocked && <span>🔒</span>}
                   </button>
                 );
               })}
@@ -342,24 +318,14 @@ export default function WritingPage({ onNavigate }) {
           </div>
 
           {/* Exercise Count Selector */}
-          <div className="setup-section" style={{ marginBottom: '32px' }}>
-            <h3 style={{ marginBottom: '16px', fontSize: '18px', fontWeight: '600', color: 'var(--text-primary)' }}>{t('writing.exerciseCount')}</h3>
-            <div className="setup-options" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
+          <div className="setup-section">
+            <h3>{t('writing.exerciseCount')}</h3>
+            <div className="setup-options">
               {[10, 15, 20].map(count => (
                 <button
                   key={count}
+                  className={`setup-option ${exerciseCount === count ? 'active' : ''}`}
                   onClick={() => setExerciseCount(count)}
-                  style={{
-                    padding: '12px 16px',
-                    border: exerciseCount === count ? '2px solid var(--primary-color)' : '1px solid var(--border-color)',
-                    borderRadius: '8px',
-                    backgroundColor: exerciseCount === count ? 'var(--primary-light)' : 'var(--bg-secondary)',
-                    color: 'var(--text-primary)',
-                    cursor: 'pointer',
-                    fontWeight: '600',
-                    fontSize: '14px',
-                    transition: 'all 0.2s'
-                  }}
                 >
                   {count}
                 </button>
@@ -371,18 +337,7 @@ export default function WritingPage({ onNavigate }) {
           <button
             onClick={startExercise}
             disabled={!writingData}
-            style={{
-              width: '100%',
-              padding: '14px 24px',
-              fontSize: '16px',
-              fontWeight: '700',
-              backgroundColor: writingData ? 'var(--primary-color)' : 'var(--bg-secondary)',
-              color: writingData ? 'white' : 'var(--text-secondary)',
-              border: 'none',
-              borderRadius: '8px',
-              cursor: writingData ? 'pointer' : 'not-allowed',
-              transition: 'all 0.2s'
-            }}
+            className="writing-start-btn"
           >
             {writingData ? t('writing.start') : t('writing.loading')}
           </button>
@@ -407,10 +362,10 @@ export default function WritingPage({ onNavigate }) {
       if (currentQuestion.type === 'traduzione') {
         return (
           <>
-            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+            <p className="writing-card__label">
               {t('writing.translateTo')}
             </p>
-            <p style={{ fontSize: '28px', fontWeight: '700', color: 'var(--text-primary)', fontStyle: 'italic' }}>
+            <p className="writing-card__prompt">
               {currentQuestion.prompt}
             </p>
           </>
@@ -418,10 +373,10 @@ export default function WritingPage({ onNavigate }) {
       } else if (currentQuestion.type === 'completamento') {
         return (
           <>
-            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+            <p className="writing-card__label">
               {t('writing.complete')}
             </p>
-            <p style={{ fontSize: '22px', fontWeight: '500', color: 'var(--text-primary)' }}>
+            <p className="writing-card__prompt writing-card__prompt--completion">
               {currentQuestion.prompt}
             </p>
           </>
@@ -429,10 +384,10 @@ export default function WritingPage({ onNavigate }) {
       } else if (currentQuestion.type === 'riordina') {
         return (
           <>
-            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+            <p className="writing-card__label">
               {t('writing.order')}
             </p>
-            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '16px' }}>
+            <p className="writing-card__instruction">
               {t('writing.clickWords')}
             </p>
           </>
@@ -440,10 +395,10 @@ export default function WritingPage({ onNavigate }) {
       } else if (currentQuestion.type === 'scrittura_libera') {
         return (
           <>
-            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: '500' }}>
+            <p className="writing-card__label">
               {t('writing.write')}
             </p>
-            <p style={{ fontSize: '16px', color: 'var(--text-primary)', fontStyle: 'italic' }}>
+            <p className="writing-card__prompt">
               {currentQuestion.prompt}
             </p>
           </>
@@ -459,36 +414,15 @@ export default function WritingPage({ onNavigate }) {
 
         return (
           <>
-            <div style={{
-              backgroundColor: 'var(--bg-primary)',
-              border: '2px solid var(--border-color)',
-              borderRadius: '8px',
-              padding: '16px',
-              marginBottom: '16px',
-              minHeight: '60px',
-              display: 'flex',
-              flexWrap: 'wrap',
-              gap: '8px',
-              alignItems: 'flex-start'
-            }}>
+            <div className="writing-word-container">
               {selectedWords.length === 0 ? (
-                <span style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>{t('writing.clickWords')}</span>
+                <span className="writing-word-placeholder">{t('writing.clickWords')}</span>
               ) : (
                 selectedWords.map((word, idx) => (
                   <button
                     key={idx}
                     onClick={() => setSelectedWords(selectedWords.filter((_, i) => i !== idx))}
-                    style={{
-                      padding: '8px 12px',
-                      backgroundColor: 'var(--primary-color)',
-                      color: 'white',
-                      border: 'none',
-                      borderRadius: '6px',
-                      cursor: 'pointer',
-                      fontSize: '14px',
-                      fontWeight: '600',
-                      transition: 'all 0.2s'
-                    }}
+                    className="writing-word-selected"
                   >
                     {word}
                   </button>
@@ -496,12 +430,7 @@ export default function WritingPage({ onNavigate }) {
               )}
             </div>
 
-            <div style={{
-              display: 'flex',
-              flexWrap: 'wrap',
-              gap: '8px',
-              marginBottom: '16px'
-            }}>
+            <div className="writing-words-available">
               {words.map((word, idx) => {
                 const isSelected = selectedWords.includes(word);
                 return (
@@ -509,18 +438,7 @@ export default function WritingPage({ onNavigate }) {
                     key={idx}
                     onClick={() => !isSelected && setSelectedWords([...selectedWords, word])}
                     disabled={isSelected}
-                    style={{
-                      padding: '10px 16px',
-                      backgroundColor: isSelected ? 'var(--bg-secondary)' : 'var(--bg-secondary)',
-                      color: isSelected ? 'var(--text-secondary)' : 'var(--text-primary)',
-                      border: `2px solid ${isSelected ? 'var(--bg-secondary)' : 'var(--border-color)'}`,
-                      borderRadius: '8px',
-                      cursor: isSelected ? 'not-allowed' : 'pointer',
-                      fontSize: '14px',
-                      fontWeight: '600',
-                      opacity: isSelected ? 0.5 : 1,
-                      transition: 'all 0.2s'
-                    }}
+                    className="writing-word-available"
                   >
                     {word}
                   </button>
@@ -534,7 +452,7 @@ export default function WritingPage({ onNavigate }) {
         return (
           <input
             type="text"
-            className="writing-input"
+            className={`writing-input ${currentQuestion.type === 'scrittura_libera' ? 'writing-input--free-writing' : ''}`}
             placeholder={currentQuestion.type === 'scrittura_libera' ? t('writing.writeYourAnswer') : t('writing.writeAnswer')}
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
@@ -544,21 +462,6 @@ export default function WritingPage({ onNavigate }) {
               }
             }}
             autoFocus
-            style={{
-              width: '100%',
-              padding: '16px',
-              fontSize: currentQuestion.type === 'scrittura_libera' ? '16px' : '18px',
-              border: '2px solid var(--border-color)',
-              borderRadius: '8px',
-              backgroundColor: 'var(--bg-primary)',
-              color: 'var(--text-primary)',
-              marginBottom: '16px',
-              fontWeight: '500',
-              boxSizing: 'border-box',
-              transition: 'border-color 0.2s',
-              minHeight: currentQuestion.type === 'scrittura_libera' ? '120px' : 'auto',
-              resize: currentQuestion.type === 'scrittura_libera' ? 'vertical' : 'none'
-            }}
           />
         );
       }
@@ -567,38 +470,28 @@ export default function WritingPage({ onNavigate }) {
     return (
       <div className="writing-page">
         {/* Progress Bar */}
-        <div className="quiz-progress" style={{ marginBottom: '24px' }}>
-          <div className="progress-bar" style={{ width: '100%', height: '4px', backgroundColor: 'var(--bg-secondary)', borderRadius: '2px', overflow: 'hidden' }}>
+        <div className="writing-progress">
+          <div className="writing-progress__bar">
             <div
-              className="progress-fill"
+              className="writing-progress__fill"
               style={{
-                width: `${((currentIndex + 1) / questions.length) * 100}%`,
-                backgroundColor: 'var(--primary-color)',
-                height: '100%',
-                transition: 'width 0.3s ease'
+                width: `${((currentIndex + 1) / questions.length) * 100}%`
               }}
             />
           </div>
         </div>
 
         {/* Counter */}
-        <div style={{ textAlign: 'center', marginBottom: '24px', color: 'var(--text-secondary)', fontSize: '14px', fontWeight: '600' }}>
+        <div className="writing-counter">
           {t('writing.exercise')} {currentIndex + 1} {t('writing.of')} {questions.length}
         </div>
 
         {/* Question Card */}
-        <div className="quiz-card" style={{
-          backgroundColor: 'var(--bg-secondary)',
-          borderRadius: '12px',
-          padding: '32px',
-          marginBottom: '32px',
-          maxWidth: '600px',
-          margin: '0 auto 32px auto'
-        }}>
-          <div style={{ marginBottom: '24px', textAlign: 'center' }}>
+        <div className="writing-card">
+          <div className="writing-card__content">
             {renderExerciseContent()}
             {currentQuestion.hints && currentQuestion.hints.length > 0 && (
-              <p style={{ fontSize: '12px', color: 'var(--primary-color)', marginTop: '12px' }}>
+              <p className="writing-card__hint">
                 💡 {currentQuestion.hints[0]}
               </p>
             )}
@@ -611,27 +504,7 @@ export default function WritingPage({ onNavigate }) {
               <button
                 onClick={checkAnswer}
                 disabled={currentQuestion.type === 'riordina' ? selectedWords.length === 0 : !userInput.trim()}
-                style={{
-                  width: '100%',
-                  padding: '14px 24px',
-                  fontSize: '16px',
-                  fontWeight: '700',
-                  backgroundColor:
-                    currentQuestion.type === 'riordina'
-                      ? selectedWords.length > 0 ? 'var(--primary-color)' : 'var(--bg-secondary)'
-                      : userInput.trim() ? 'var(--primary-color)' : 'var(--bg-secondary)',
-                  color:
-                    currentQuestion.type === 'riordina'
-                      ? selectedWords.length > 0 ? 'white' : 'var(--text-secondary)'
-                      : userInput.trim() ? 'white' : 'var(--text-secondary)',
-                  border: 'none',
-                  borderRadius: '8px',
-                  cursor:
-                    currentQuestion.type === 'riordina'
-                      ? selectedWords.length > 0 ? 'pointer' : 'not-allowed'
-                      : userInput.trim() ? 'pointer' : 'not-allowed',
-                  transition: 'all 0.2s'
-                }}
+                className="writing-check-btn"
               >
                 {t('writing.verify')}
               </button>
@@ -639,53 +512,38 @@ export default function WritingPage({ onNavigate }) {
           ) : (
             // Result feedback
             <>
-              <div style={{
-                padding: '16px',
-                borderRadius: '8px',
-                marginBottom: '16px',
-                backgroundColor:
-                  results[currentIndex]?.feedback === 'correct' ? 'var(--success-light, #d1fae5)' :
-                  results[currentIndex]?.feedback === 'almost' ? 'var(--warning-light, #fef3c7)' :
-                  results[currentIndex]?.feedback === 'submitted' ? 'var(--primary-light, rgba(124, 58, 248, 0.1))' :
-                  'var(--error-light, #fee2e2)',
-                borderLeft: `4px solid ${
-                  results[currentIndex]?.feedback === 'correct' ? 'var(--success-color, #10b981)' :
-                  results[currentIndex]?.feedback === 'almost' ? 'var(--warning-color, #f59e0b)' :
-                  results[currentIndex]?.feedback === 'submitted' ? 'var(--primary-color)' :
-                  'var(--error-color, #ef4444)'
-                }`
-              }}>
+              <div className={`writing-feedback writing-feedback--${results[currentIndex]?.feedback}`}>
                 {results[currentIndex]?.feedback === 'correct' && (
-                  <p style={{ color: 'var(--success)', fontWeight: '600', marginBottom: '8px' }}>
-                    {t('writing.correct')}{results[currentIndex]?.xpGain} XP
+                  <p className="writing-feedback__text">
+                    {t('writing.correct')} {results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'almost' && (
-                  <p style={{ color: 'var(--warning)', fontWeight: '600', marginBottom: '8px' }}>
-                    {t('writing.almost')}{results[currentIndex]?.xpGain} XP
+                  <p className="writing-feedback__text">
+                    {t('writing.almost')} {results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'submitted' && (
-                  <p style={{ color: 'var(--primary-color)', fontWeight: '600', marginBottom: '8px' }}>
-                    {t('writing.submitted')}{results[currentIndex]?.xpGain} XP
+                  <p className="writing-feedback__text">
+                    {t('writing.submitted')} {results[currentIndex]?.xpGain} XP
                   </p>
                 )}
                 {results[currentIndex]?.feedback === 'incorrect' && (
-                  <p style={{ color: 'var(--error)', fontWeight: '600', marginBottom: '8px' }}>
+                  <p className="writing-feedback__text">
                     {t('writing.incorrect')}
                   </p>
                 )}
 
                 {results[currentIndex]?.feedback !== 'correct' && results[currentIndex]?.feedback !== 'submitted' && (
                   <>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
+                    <p className="writing-feedback__detail">
                       {t('writing.yourAnswer')} <strong>{results[currentIndex]?.userAnswer}</strong>
                     </p>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>
+                    <p className="writing-feedback__detail">
                       {t('writing.correctAnswerIs')} <strong>{results[currentIndex]?.correctAnswer}</strong>
                     </p>
                     {results[currentIndex]?.alternatives && results[currentIndex]?.alternatives.length > 0 && (
-                      <p style={{ color: 'var(--text-secondary)', fontSize: '12px', marginTop: '8px' }}>
+                      <p className="writing-feedback__answer">
                         {t('writing.alternativeAnswers')} {results[currentIndex]?.alternatives.join(', ')}
                       </p>
                     )}
@@ -694,16 +552,16 @@ export default function WritingPage({ onNavigate }) {
 
                 {results[currentIndex]?.feedback === 'submitted' && (
                   <>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
+                    <p className="writing-feedback__detail">
                       {t('writing.yourAnswer')}
                     </p>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '12px', fontStyle: 'italic' }}>
+                    <p className="writing-feedback__answer">
                       "{results[currentIndex]?.userAnswer}"
                     </p>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '8px' }}>
+                    <p className="writing-feedback__detail">
                       {t('writing.modelAnswer')}
                     </p>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '14px', fontStyle: 'italic' }}>
+                    <p className="writing-feedback__answer">
                       "{results[currentIndex]?.correctAnswer}"
                     </p>
                   </>
@@ -713,18 +571,7 @@ export default function WritingPage({ onNavigate }) {
               {/* Next button */}
               <button
                 onClick={nextQuestion}
-                style={{
-                  width: '100%',
-                  padding: '14px 24px',
-                  fontSize: '16px',
-                  fontWeight: '700',
-                  backgroundColor: 'var(--primary-color)',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: '8px',
-                  cursor: 'pointer',
-                  transition: 'all 0.2s'
-                }}
+                className="writing-next-btn"
               >
                 {currentIndex < questions.length - 1 ? t('writing.next') : t('writing.seeResults')}
               </button>
@@ -754,101 +601,68 @@ export default function WritingPage({ onNavigate }) {
 
     return (
       <div className="writing-page">
-        <div className="quiz-finished" style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center', padding: '24px' }}>
+        <div className="writing-finished">
           {/* Score Circle */}
-          <div style={{
-            width: '140px',
-            height: '140px',
-            borderRadius: '50%',
-            backgroundColor: scoreColor,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 24px auto',
-            boxShadow: `0 8px 32px rgba(0,0,0,0.1)`
-          }}>
-            <span style={{ fontSize: '48px', fontWeight: '700', color: 'white' }}>
+          <div className="writing-score-circle" style={{ backgroundColor: scoreColor }}>
+            <span className="writing-score-percentage">
               {percentage}%
             </span>
           </div>
 
-          <h2 style={{ fontSize: '28px', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '8px' }}>
+          <h2 className="page-title">
             {t('writing.completed')}
           </h2>
 
           {/* Results Summary */}
-          <div style={{
-            backgroundColor: 'var(--bg-secondary)',
-            borderRadius: '12px',
-            padding: '20px',
-            marginBottom: '24px',
-            textAlign: 'center'
-          }}>
-            <p style={{ color: 'var(--text-secondary)', marginBottom: '12px', fontSize: '14px' }}>
-              <span style={{ display: 'block', color: 'var(--success)', fontWeight: '700', fontSize: '16px' }}>
-                {correct} {t('writing.correct_count')}
-              </span>
+          <div className="writing-results-summary">
+            <div>
+              <div className="writing-results__item writing-results__item--correct">
+                <span>{correct} {t('writing.correct_count')}</span>
+              </div>
               {almost > 0 && (
-                <span style={{ display: 'block', color: 'var(--warning)', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                  {almost} {t('writing.almost_count')}
-                </span>
+                <div className="writing-results__item writing-results__item--almost">
+                  <span>{almost} {t('writing.almost_count')}</span>
+                </div>
               )}
               {submitted > 0 && (
-                <span style={{ display: 'block', color: 'var(--primary-color)', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                  {submitted} {t('writing.submitted_count')}
-                </span>
+                <div className="writing-results__item writing-results__item--submitted">
+                  <span>{submitted} {t('writing.submitted_count')}</span>
+                </div>
               )}
               {incorrect > 0 && (
-                <span style={{ display: 'block', color: 'var(--error)', fontWeight: '700', fontSize: '16px', marginTop: '8px' }}>
-                  {incorrect} {t('writing.wrong_count')}
-                </span>
+                <div className="writing-results__item writing-results__item--incorrect">
+                  <span>{incorrect} {t('writing.wrong_count')}</span>
+                </div>
               )}
-            </p>
-            <p style={{ color: 'var(--text-secondary)', marginTop: '16px', paddingTop: '16px', borderTop: '1px solid var(--border-color)' }}>
+            </div>
+            <p className="writing-results-summary__footer">
               {t('writing.of')} <strong>{results.length}</strong> {t('writing.exercises')}
             </p>
           </div>
 
           {/* XP Earned */}
-          <div style={{
-            backgroundColor: 'var(--primary-light, rgba(124, 58, 248, 0.1))',
-            borderRadius: '12px',
-            padding: '16px',
-            marginBottom: '24px'
-          }}>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '4px' }}>{t('writing.xpEarned')}</p>
-            <p style={{ fontSize: '28px', fontWeight: '700', color: 'var(--primary-color)' }}>
+          <div className="writing-xp-earned">
+            <p className="writing-xp-earned__label">{t('writing.xpEarned')}</p>
+            <p className="writing-xp-earned__value">
               +{totalXP} XP
             </p>
           </div>
 
           {/* Mistakes List */}
           {(incorrect > 0 || almost > 0) && (
-            <div style={{
-              backgroundColor: 'var(--bg-secondary)',
-              borderRadius: '12px',
-              padding: '20px',
-              marginBottom: '24px',
-              textAlign: 'left',
-              maxHeight: '350px',
-              overflowY: 'auto'
-            }}>
-              <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--text-primary)', marginBottom: '16px' }}>
+            <div className="writing-mistakes-section">
+              <h3>
                 {t('writing.reviewAnswers')}
               </h3>
               {results.filter(r => r.feedback === 'incorrect' || r.feedback === 'almost').map((result, idx) => (
-                <div key={idx} style={{
-                  borderBottom: '1px solid var(--border-color)',
-                  paddingBottom: '12px',
-                  marginBottom: '12px'
-                }}>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '13px', marginBottom: '4px', fontWeight: '600' }}>
+                <div key={idx} className="writing-mistake-item">
+                  <p className="writing-mistake-item__question">
                     {result.question}
                   </p>
-                  <p style={{ color: result.feedback === 'almost' ? 'var(--warning)' : 'var(--error)', fontSize: '13px', marginBottom: '4px' }}>
+                  <p className="writing-mistake-item__yours">
                     {t('writing.yourAnswer')} <strong>{result.userAnswer}</strong>
                   </p>
-                  <p style={{ color: 'var(--success)', fontSize: '13px' }}>
+                  <p className="writing-mistake-item__correct">
                     {t('writing.correctAnswerIs')} <strong>{result.correctAnswer}</strong>
                   </p>
                 </div>
@@ -857,36 +671,16 @@ export default function WritingPage({ onNavigate }) {
           )}
 
           {/* Action Buttons */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+          <div className="writing-actions">
             <button
               onClick={startExercise}
-              style={{
-                padding: '14px 24px',
-                fontSize: '16px',
-                fontWeight: '700',
-                backgroundColor: 'var(--primary-color)',
-                color: 'white',
-                border: 'none',
-                borderRadius: '8px',
-                cursor: 'pointer',
-                transition: 'all 0.2s'
-              }}
+              className="writing-retry-btn"
             >
               {t('writing.retry')}
             </button>
             <button
               onClick={resetExercise}
-              style={{
-                padding: '14px 24px',
-                fontSize: '16px',
-                fontWeight: '700',
-                backgroundColor: 'var(--bg-secondary)',
-                color: 'var(--text-primary)',
-                border: '1px solid var(--border-color)',
-                borderRadius: '8px',
-                cursor: 'pointer',
-                transition: 'all 0.2s'
-              }}
+              className="writing-new-session-btn"
             >
               {t('writing.newSession')}
             </button>

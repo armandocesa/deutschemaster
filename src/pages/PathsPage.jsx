@@ -272,45 +272,22 @@ const PathsPage = ({ onNavigate }) => {
   const currentCompletion = calculateCompletion(currentPathData.stages);
 
   return (
-    <div style={{
-      backgroundColor: 'var(--bg-primary)',
-      color: 'var(--text-primary)',
-      minHeight: '100vh',
-      padding: '0',
-      fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-    }}>
+    <div className="paths-container">
       {/* Header */}
-      <div style={{
-        padding: '20px',
-        borderBottom: '1px solid rgba(255,255,255,0.07)',
-        backgroundColor: 'var(--bg-secondary)',
-        position: 'sticky',
-        top: 0,
-        zIndex: 10,
-      }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h1 style={{ margin: '0 0 20px 0', fontSize: '28px', fontWeight: '700' }}>
+      <div className="paths-header">
+        <div className="paths-header-inner">
+          <h1 className="paths-header-title">
             {t('paths.title')}
           </h1>
-          <p style={{ margin: '0', color: 'var(--text-secondary)', fontSize: '14px' }}>
+          <p className="paths-header-subtitle">
             {t('paths.subtitle')}
           </p>
         </div>
       </div>
 
       {/* Level Tabs */}
-      <div style={{
-        padding: '20px',
-        borderBottom: '1px solid rgba(255,255,255,0.07)',
-        overflow: 'auto',
-      }}>
-        <div style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-          display: 'flex',
-          gap: '12px',
-          flexWrap: 'wrap',
-        }}>
+      <div className="paths-tabs-section">
+        <div className="paths-tabs-container">
           {PATHS_DATA.map((path) => {
             const pathCompletion = calculateCompletion(path.stages);
             const isSelected = selectedPath === path.id;
@@ -322,24 +299,15 @@ const PathsPage = ({ onNavigate }) => {
                   setSelectedPath(path.id);
                   setExpandedStage(null);
                 }}
+                className="paths-tab-btn"
                 style={{
-                  padding: '12px 20px',
-                  borderRadius: '12px',
-                  border: 'none',
                   backgroundColor: isSelected ? path.color : 'var(--bg-card)',
                   color: isSelected ? '#fff' : 'var(--text-primary)',
-                  cursor: 'pointer',
-                  fontSize: '14px',
-                  fontWeight: '600',
-                  transition: 'all 0.3s ease',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px',
                   boxShadow: isSelected ? `0 4px 12px ${path.color}40` : 'none',
                 }}
               >
-                <span style={{ fontSize: '16px' }}>{path.level}</span>
-                <span style={{ fontSize: '12px', opacity: 0.7 }}>
+                <span className="paths-tab-level">{path.level}</span>
+                <span className="paths-tab-percent">
                   {pathCompletion.percentage}%
                 </span>
               </button>
@@ -349,151 +317,76 @@ const PathsPage = ({ onNavigate }) => {
       </div>
 
       {/* Main Content */}
-      <div style={{
-        maxWidth: '1200px',
-        margin: '0 auto',
-        padding: '40px 20px',
-      }}>
+      <div className="paths-main-content">
         {currentPathData && (
           <div>
             {/* Path Header */}
-            <div style={{ marginBottom: '40px' }}>
-              <h2 style={{
-                margin: '0 0 8px 0',
-                fontSize: '24px',
-                fontWeight: '700',
-              }}>
+            <div className="paths-path-header">
+              <h2 className="paths-path-title">
                 {currentPathData.name}
               </h2>
-              <p style={{
-                margin: '0 0 20px 0',
-                color: 'var(--text-secondary)',
-                fontSize: '14px',
-              }}>
+              <p className="paths-path-subtitle">
                 {t(currentPathData.subtitleKey)}
               </p>
 
               {/* Progress Bar */}
-              <div style={{
-                backgroundColor: 'var(--bg-card)',
-                borderRadius: '12px',
-                padding: '16px',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '16px',
-              }}>
-                <div style={{ flex: 1 }}>
-                  <div style={{
-                    backgroundColor: 'var(--bg-primary)',
-                    borderRadius: '8px',
-                    height: '8px',
-                    overflow: 'hidden',
-                  }}>
-                    <div style={{
-                      backgroundColor: currentPathData.color,
-                      height: '100%',
-                      width: `${currentCompletion.percentage}%`,
-                      transition: 'width 0.3s ease',
-                    }} />
-                  </div>
+              <div className="paths-progress-container">
+                <div className="paths-progress-bar">
+                  <div className="paths-progress-fill" style={{
+                    backgroundColor: currentPathData.color,
+                    width: `${currentCompletion.percentage}%`,
+                  }} />
                 </div>
-                <div style={{
-                  fontSize: '14px',
-                  fontWeight: '600',
-                  minWidth: '60px',
-                  textAlign: 'right',
-                }}>
+                <div className="paths-progress-text">
                   {currentCompletion.completed}/{currentCompletion.total}
                 </div>
               </div>
             </div>
 
             {/* Stages */}
-            <div style={{ position: 'relative' }}>
+            <div className="paths-stages-container">
               {currentPathData.stages.map((stage, stageIndex) => {
                 const stageCompletion = calculateStageCompletion(stage);
                 const isExpanded = expandedStage === stage.id;
                 const isLocked = isStageLocked(stageIndex);
 
                 return (
-                  <div key={stage.id} style={{ marginBottom: '0' }}>
+                  <div key={stage.id}>
                     {/* Connector Line (before stage) */}
                     {stageIndex > 0 && (
-                      <div style={{
-                        width: '2px',
-                        height: '16px',
+                      <div className={`paths-connector-line ${isLocked ? 'locked' : ''}`} style={{
                         backgroundColor: isLocked ? 'var(--text-tertiary)' : currentPathData.color,
-                        opacity: isLocked ? 0.4 : 1,
-                        margin: '0 auto',
-                        borderStyle: isLocked ? 'dashed' : 'solid',
-                        display: 'block',
                       }} />
                     )}
 
                     {/* Stage Card */}
                     <div
                       onClick={() => !isLocked && setExpandedStage(isExpanded ? null : stage.id)}
-                      style={{
-                        display: 'flex',
-                        gap: '16px',
-                        marginBottom: '24px',
-                        cursor: isLocked ? 'not-allowed' : 'pointer',
-                        opacity: isLocked ? 0.5 : 1,
-                      }}
+                      className={`paths-stage-wrapper ${isLocked ? 'locked' : ''}`}
                     >
                       {/* Stage Circle */}
-                      <div style={{
-                        width: '60px',
-                        height: '60px',
-                        borderRadius: '50%',
+                      <div className="paths-stage-circle" style={{
                         backgroundColor: currentPathData.color,
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        fontSize: '28px',
-                        flexShrink: 0,
                         boxShadow: `0 4px 16px ${currentPathData.color}40`,
                       }}>
                         {stage.icon}
                       </div>
 
                       {/* Stage Info */}
-                      <div style={{
-                        flex: 1,
-                        backgroundColor: 'var(--bg-card)',
-                        borderRadius: '12px',
-                        padding: '16px',
-                        border: `1px solid ${isExpanded ? currentPathData.color + '40' : 'rgba(255,255,255,0.07)'}`,
-                        transition: 'all 0.3s ease',
+                      <div className="paths-stage-info" style={{
+                        borderColor: isExpanded ? currentPathData.color + '40' : 'rgba(255,255,255,0.07)',
                       }}>
-                        <div style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          alignItems: 'center',
-                          marginBottom: '8px',
-                        }}>
-                          <h3 style={{
-                            margin: '0',
-                            fontSize: '16px',
-                            fontWeight: '600',
-                          }}>
+                        <div className="paths-stage-header">
+                          <h3 className="paths-stage-name">
                             {t(stage.nameKey)}
                           </h3>
-                          <span style={{
-                            fontSize: '12px',
-                            color: 'var(--text-secondary)',
-                          }}>
+                          <span className="paths-stage-progress-text">
                             {stageCompletion.completed}/{stageCompletion.total}
                           </span>
                         </div>
 
                         {/* Progress Bar */}
-                        <div style={{
-                          backgroundColor: 'var(--bg-primary)',
-                          borderRadius: '6px',
-                          height: '6px',
-                          overflow: 'hidden',
-                        }}>
+                        <div className="paths-stage-progress-bar">
                           <div style={{
                             backgroundColor: currentPathData.color,
                             height: '100%',
@@ -503,13 +396,7 @@ const PathsPage = ({ onNavigate }) => {
                         </div>
 
                         {/* Chevron */}
-                        <div style={{
-                          position: 'absolute',
-                          right: '20px',
-                          top: '50%',
-                          transform: `translateY(-50%) rotate(${isExpanded ? 90 : 0}deg)`,
-                          transition: 'transform 0.3s ease',
-                          fontSize: '20px',
+                        <div className={`paths-stage-chevron ${isExpanded ? 'expanded' : ''}`} style={{
                           color: currentPathData.color,
                         }}>
                           ›
@@ -519,11 +406,8 @@ const PathsPage = ({ onNavigate }) => {
 
                     {/* Expanded Activities */}
                     {isExpanded && !isLocked && (
-                      <div style={{
-                        marginLeft: '30px',
-                        marginBottom: '24px',
-                        borderLeft: `2px solid ${currentPathData.color}40`,
-                        paddingLeft: '24px',
+                      <div className="paths-activities-section" style={{
+                        borderLeftColor: currentPathData.color + '40',
                       }}>
                         {stage.activities.map((activity) => {
                           const activityKey = `${stage.id}_${activity.id}`;
@@ -533,66 +417,28 @@ const PathsPage = ({ onNavigate }) => {
                             <div
                               key={activity.id}
                               onClick={() => handleActivityClick(activity, stage.id)}
+                              className="paths-activity"
                               style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '12px',
-                                padding: '12px 16px',
-                                marginBottom: '8px',
-                                backgroundColor: 'var(--bg-card)',
-                                borderRadius: '8px',
-                                cursor: 'pointer',
-                                border: '1px solid rgba(255,255,255,0.07)',
-                                transition: 'all 0.2s ease',
-                              }}
-                              onMouseEnter={(e) => {
-                                e.currentTarget.style.backgroundColor = 'var(--bg-card-hover)';
-                                e.currentTarget.style.borderColor = `${currentPathData.color}40`;
-                              }}
-                              onMouseLeave={(e) => {
-                                e.currentTarget.style.backgroundColor = 'var(--bg-card)';
-                                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)';
+                                '--accent-color': currentPathData.color,
                               }}
                             >
                               {/* Activity Icon */}
-                              <span style={{ fontSize: '16px' }}>
+                              <span className="paths-activity-icon">
                                 {ACTIVITY_ICONS[activity.type] || '•'}
                               </span>
 
                               {/* Activity Label */}
-                              <span style={{
-                                flex: 1,
-                                fontSize: '14px',
-                                fontWeight: '500',
-                                textDecoration: isCompleted ? 'line-through' : 'none',
-                                opacity: isCompleted ? 0.6 : 1,
-                              }}>
+                              <span className={`paths-activity-label ${isCompleted ? 'completed' : ''}`}>
                                 {t(activity.labelKey)}
                               </span>
 
                               {/* Completion Check */}
-                              <div style={{
-                                width: '20px',
-                                height: '20px',
-                                borderRadius: '50%',
-                                backgroundColor: isCompleted ? 'var(--success)' : 'transparent',
-                                border: `2px solid ${isCompleted ? 'var(--success)' : 'var(--text-tertiary)'}`,
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                fontSize: '12px',
-                                color: isCompleted ? '#fff' : 'transparent',
-                                flexShrink: 0,
-                              }}>
+                              <div className={`paths-activity-check ${isCompleted ? 'completed' : 'pending'}`}>
                                 {isCompleted && '✓'}
                               </div>
 
                               {/* Chevron */}
-                              <span style={{
-                                fontSize: '16px',
-                                color: 'var(--text-secondary)',
-                                marginLeft: '4px',
-                              }}>
+                              <span className="paths-activity-chevron">
                                 ›
                               </span>
                             </div>
@@ -603,17 +449,7 @@ const PathsPage = ({ onNavigate }) => {
 
                     {/* Locked Stage Message */}
                     {isLocked && (
-                      <div style={{
-                        marginLeft: '30px',
-                        marginBottom: '24px',
-                        padding: '12px 16px',
-                        backgroundColor: 'var(--bg-card)',
-                        borderRadius: '8px',
-                        borderLeft: '2px solid var(--text-tertiary)',
-                        paddingLeft: '24px',
-                        color: 'var(--text-secondary)',
-                        fontSize: '13px',
-                      }}>
+                      <div className="paths-locked-message">
                         {t('paths.lock')}
                       </div>
                     )}
@@ -624,31 +460,17 @@ const PathsPage = ({ onNavigate }) => {
 
             {/* Completion Badge */}
             {currentCompletion.percentage === 100 && (
-              <div style={{
-                marginTop: '40px',
-                padding: '24px',
+              <div className="paths-completion-badge" style={{
                 backgroundColor: currentPathData.color + '20',
-                borderRadius: '12px',
-                border: `2px solid ${currentPathData.color}`,
-                textAlign: 'center',
+                borderColor: currentPathData.color,
               }}>
-                <div style={{
-                  fontSize: '32px',
-                  marginBottom: '8px',
-                }}>
+                <div className="paths-completion-badge-icon">
                   🎉
                 </div>
-                <div style={{
-                  fontSize: '18px',
-                  fontWeight: '600',
-                  marginBottom: '4px',
-                }}>
+                <div className="paths-completion-badge-title">
                   {t('paths.pathCompleted')}
                 </div>
-                <div style={{
-                  color: 'var(--text-secondary)',
-                  fontSize: '14px',
-                }}>
+                <div className="paths-completion-badge-message">
                   {t('paths.congratulations')} {currentPathData.name}.
                 </div>
               </div>

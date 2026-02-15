@@ -14,17 +14,17 @@ export default function LoginPage({ onNavigate }) {
 
   if (!firebaseEnabled) {
     return (
-      <div style={styles.container}>
-        <div style={styles.card}>
-          <div style={styles.logo}>DE</div>
-          <h1 style={styles.title}>{t('login.title')}</h1>
-          <div style={{ padding: '20px', background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.3)', borderRadius: '12px', textAlign: 'center' }}>
-            <p style={{ margin: '0 0 8px', fontWeight: 600, color: '#f59e0b' }}>{t('login.firebaseDisabled')}</p>
-            <p style={{ margin: 0, fontSize: '13px', color: 'var(--text-secondary)' }}>
+      <div className="login-container">
+        <div className="login-card">
+          <div className="login-logo">DE</div>
+          <h1 className="login-title">{t('login.title')}</h1>
+          <div className="login-firebase-disabled">
+            <p className="login-firebase-disabled-title">{t('login.firebaseDisabled')}</p>
+            <p className="login-firebase-disabled-message">
               {t('login.firebaseDisabledMessage')}
             </p>
           </div>
-          <button onClick={() => onNavigate('home')} style={{ ...styles.btn, ...styles.btnPrimary, marginTop: '20px' }}>
+          <button onClick={() => onNavigate('home')} className="login-btn login-btn-primary">
             {t('login.continueWithoutAccount')}
           </button>
         </div>
@@ -74,46 +74,46 @@ export default function LoginPage({ onNavigate }) {
   };
 
   return (
-    <div style={styles.container}>
-      <div style={styles.card}>
-        <div style={styles.logo}>DE</div>
-        <h1 style={styles.title}>{t('login.title')}</h1>
-        <p style={styles.subtitle}>
+    <div className="login-container">
+      <div className="login-card">
+        <div className="login-logo">DE</div>
+        <h1 className="login-title">{t('login.title')}</h1>
+        <p className="login-subtitle">
           {isSignup ? t('login.createAccount') : t('login.signIn')}
         </p>
 
         {error && (
-          <div style={styles.error}>{error}</div>
+          <div className="login-error">{error}</div>
         )}
 
-        <form onSubmit={handleSubmit} style={styles.form}>
+        <form onSubmit={handleSubmit} className="login-form">
           {isSignup && (
-            <div style={styles.field}>
-              <label style={styles.label}>{t('login.name')}</label>
+            <div className="login-field">
+              <label className="login-label">{t('login.name')}</label>
               <input
                 type="text"
                 value={displayName}
                 onChange={(e) => setDisplayName(e.target.value)}
                 placeholder={t('login.yourName')}
-                style={styles.input}
+                className="login-input"
               />
             </div>
           )}
 
-          <div style={styles.field}>
-            <label style={styles.label}>{t('login.email')}</label>
+          <div className="login-field">
+            <label className="login-label">{t('login.email')}</label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={t('login.yourEmail')}
               required
-              style={styles.input}
+              className="login-input"
             />
           </div>
 
-          <div style={styles.field}>
-            <label style={styles.label}>{t('login.password')}</label>
+          <div className="login-field">
+            <label className="login-label">{t('login.password')}</label>
             <input
               type="password"
               value={password}
@@ -121,22 +121,22 @@ export default function LoginPage({ onNavigate }) {
               placeholder={isSignup ? t('login.minPassword') : t('login.yourPassword')}
               required
               minLength={6}
-              style={styles.input}
+              className="login-input"
             />
           </div>
 
-          <button type="submit" disabled={loading} style={{ ...styles.btn, ...styles.btnPrimary, opacity: loading ? 0.7 : 1 }}>
+          <button type="submit" disabled={loading} className="login-btn login-btn-primary" style={{ opacity: loading ? 0.7 : 1 }}>
             {loading ? t('login.loading') : isSignup ? t('login.signup') : t('login.signin')}
           </button>
         </form>
 
-        <div style={styles.divider}>
-          <span style={styles.dividerLine} />
-          <span style={styles.dividerText}>{t('login.or')}</span>
-          <span style={styles.dividerLine} />
+        <div className="login-divider">
+          <span className="login-divider-line" />
+          <span className="login-divider-text">{t('login.or')}</span>
+          <span className="login-divider-line" />
         </div>
 
-        <button onClick={handleGoogle} disabled={loading} style={{ ...styles.btn, ...styles.btnGoogle }}>
+        <button onClick={handleGoogle} disabled={loading} className="login-btn login-btn-google">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
             <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/>
             <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
@@ -146,14 +146,14 @@ export default function LoginPage({ onNavigate }) {
           {t('login.continueGoogle')}
         </button>
 
-        <div style={styles.switchMode}>
+        <div className="login-switch-mode">
           {isSignup ? t('login.switchToSignin') : t('login.switchToSignup')}
-          <button onClick={() => { setIsSignup(!isSignup); setError(''); }} style={styles.switchBtn}>
+          <button onClick={() => { setIsSignup(!isSignup); setError(''); }} className="login-switch-btn">
             {isSignup ? t('login.signin') : t('login.signup')}
           </button>
         </div>
 
-        <button onClick={() => onNavigate('home')} style={styles.skipBtn}>
+        <button onClick={() => onNavigate('home')} className="login-skip-btn">
           {t('login.continueWithoutAccount')}
         </button>
       </div>

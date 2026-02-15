@@ -248,79 +248,53 @@ export default function FlashcardsPage({ onNavigate }) {
   // SETUP SCREEN
   if (mode === 'setup') {
     return (
-      <div style={{ minHeight: '100vh', background: 'var(--bg-primary)', paddingBottom: '100px' }}>
-        <div style={{ padding: '20px', marginBottom: '20px' }}>
-          <h1 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-primary)', margin: '20px 0 5px 0' }}>{t('flashcards.title')}</h1>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '14px', margin: '0' }}>{t('flashcards.subtitle')}</p>
+      <div className="fc-page">
+        <div className="fc-header">
+          <h1 className="fc-title">{t('flashcards.title')}</h1>
+          <p className="fc-subtitle">{t('flashcards.subtitle')}</p>
         </div>
 
         {/* Source Selection */}
-        <div style={{ padding: '0 20px', marginBottom: '30px' }}>
-          <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>{t('flashcards.chooseSource')}</p>
+        <div className="fc-source-section">
+          <p className="fc-source-label">{t('flashcards.chooseSource')}</p>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+          <div className="fc-source-options">
             {/* Per Livello */}
             <div
               onClick={() => { setSource('level'); setSelectedLevel('A1'); }}
-              style={{
-                padding: '16px',
-                borderRadius: '12px',
-                background: source === 'level' ? 'var(--accent-primary)' : 'var(--bg-secondary)',
-                border: source === 'level' ? '2px solid var(--accent-primary)' : '2px solid transparent',
-                cursor: 'pointer',
-                transition: 'all 0.2s',
-                color: source === 'level' ? 'white' : 'var(--text-primary)',
-              }}
+              className={`fc-source-card ${source === 'level' ? 'active' : ''}`}
             >
-              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>{t('flashcards.byLevel')}</p>
-              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{t('flashcards.byLevelDescription')}</p>
+              <p className="fc-source-card-title">{t('flashcards.byLevel')}</p>
+              <p className="fc-source-card-desc">{t('flashcards.byLevelDescription')}</p>
             </div>
 
             {/* Ripasso Programmato */}
             <div
               onClick={() => setSource('review')}
-              style={{
-                padding: '16px',
-                borderRadius: '12px',
-                background: source === 'review' ? 'var(--accent-primary)' : 'var(--bg-secondary)',
-                border: source === 'review' ? '2px solid var(--accent-primary)' : '2px solid transparent',
-                cursor: 'pointer',
-                transition: 'all 0.2s',
-                color: source === 'review' ? 'white' : 'var(--text-primary)',
-                opacity: reviewWordsCount === 0 ? 0.6 : 1,
-                pointerEvents: reviewWordsCount === 0 ? 'none' : 'auto',
-              }}
+              className={`fc-source-card ${source === 'review' ? 'active' : ''} ${reviewWordsCount === 0 ? 'disabled' : ''}`}
+              style={{ opacity: reviewWordsCount === 0 ? 0.6 : 1, pointerEvents: reviewWordsCount === 0 ? 'none' : 'auto' }}
             >
-              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>{t('flashcards.scheduledReview')}</p>
-              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{reviewWordsCount} {t('flashcards.reviewWaiting')}</p>
+              <p className="fc-source-card-title">{t('flashcards.scheduledReview')}</p>
+              <p className="fc-source-card-desc">{reviewWordsCount} {t('flashcards.reviewWaiting')}</p>
             </div>
 
             {/* Parole Difficili */}
             <div
               onClick={() => setSource('difficult')}
-              style={{
-                padding: '16px',
-                borderRadius: '12px',
-                background: source === 'difficult' ? 'var(--accent-primary)' : 'var(--bg-secondary)',
-                border: source === 'difficult' ? '2px solid var(--accent-primary)' : '2px solid transparent',
-                cursor: 'pointer',
-                transition: 'all 0.2s',
-                color: source === 'difficult' ? 'white' : 'var(--text-primary)',
-                opacity: difficultWordsCount === 0 ? 0.6 : 1,
-                pointerEvents: difficultWordsCount === 0 ? 'none' : 'auto',
-              }}
+              className={`fc-source-card ${source === 'difficult' ? 'active' : ''} ${difficultWordsCount === 0 ? 'disabled' : ''}`}
+              style={{ opacity: difficultWordsCount === 0 ? 0.6 : 1, pointerEvents: difficultWordsCount === 0 ? 'none' : 'auto' }}
             >
-              <p style={{ fontWeight: 600, margin: '0 0 8px 0' }}>{t('flashcards.difficultWords')}</p>
-              <p style={{ fontSize: '13px', margin: '0', opacity: 0.8 }}>{difficultWordsCount} {t('flashcards.wordsSaved')}</p>
+              <p className="fc-source-card-title">{t('flashcards.difficultWords')}</p>
+              <p className="fc-source-card-desc">{difficultWordsCount} {t('flashcards.wordsSaved')}</p>
             </div>
           </div>
         </div>
 
         {/* Level Selector (if 'Per Livello' is selected) */}
         {source === 'level' && (
-          <div style={{ padding: '0 20px', marginBottom: '30px' }}>
-            <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>{t('flashcards.level')}</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px' }}>
+          <div className="fc-level-section">
+            <p className="fc-source-label">{t('flashcards.level')}</p>
+            <div className="fc-level-grid">
               {['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(level => {
                 const colors = LEVEL_COLORS[level];
                 const isLocked = level !== 'A1' && !canAccessLevel(level);
@@ -329,20 +303,16 @@ export default function FlashcardsPage({ onNavigate }) {
                     key={level}
                     onClick={() => handleLevelChange(level)}
                     disabled={isLocked}
+                    className={`fc-level-btn ${selectedLevel === level && !isLocked ? 'fc-level-btn--active' : ''}`}
                     style={{
-                      padding: '12px',
-                      borderRadius: '8px',
-                      border: selectedLevel === level ? `2px solid ${colors.bg}` : '2px solid transparent',
-                      background: selectedLevel === level && !isLocked ? colors.light : isLocked ? 'var(--bg-secondary)' : 'var(--bg-secondary)',
+                      borderColor: selectedLevel === level ? colors.bg : 'transparent',
+                      background: selectedLevel === level && !isLocked ? colors.light : 'var(--bg-secondary)',
                       color: selectedLevel === level && !isLocked ? colors.text : isLocked ? 'var(--text-secondary)' : 'var(--text-primary)',
-                      fontWeight: 600,
-                      cursor: isLocked ? 'not-allowed' : 'pointer',
-                      transition: 'all 0.2s',
                       opacity: isLocked ? 0.5 : 1,
                     }}
                   >
                     {level}
-                    {isLocked && <span style={{marginLeft: '4px', fontSize: '12px'}}>🔒</span>}
+                    {isLocked && <span className="fc-level-lock">🔒</span>}
                   </button>
                 );
               })}
@@ -351,23 +321,14 @@ export default function FlashcardsPage({ onNavigate }) {
         )}
 
         {/* Cards Per Session */}
-        <div style={{ padding: '0 20px', marginBottom: '30px' }}>
-          <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '12px' }}>{t('flashcards.cardCount')}</p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '8px' }}>
+        <div className="fc-cardcount-section">
+          <p className="fc-source-label">{t('flashcards.cardCount')}</p>
+          <div className="fc-cardcount-grid">
             {[10, 20, 30, 50].map(num => (
               <button
                 key={num}
                 onClick={() => setCardsPerSession(num)}
-                style={{
-                  padding: '12px',
-                  borderRadius: '8px',
-                  border: cardsPerSession === num ? '2px solid var(--accent-primary)' : '2px solid var(--bg-secondary)',
-                  background: cardsPerSession === num ? 'var(--accent-primary)' : 'var(--bg-secondary)',
-                  color: cardsPerSession === num ? 'white' : 'var(--text-primary)',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  transition: 'all 0.2s',
-                }}
+                className={`fc-cardcount-btn ${cardsPerSession === num ? 'active' : ''}`}
               >
                 {num}
               </button>
@@ -376,23 +337,10 @@ export default function FlashcardsPage({ onNavigate }) {
         </div>
 
         {/* Start Button */}
-        <div style={{ padding: '20px', paddingTop: '40px' }}>
+        <div className="fc-start-section">
           <button
             onClick={startSession}
-            style={{
-              width: '100%',
-              padding: '16px',
-              background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))',
-              color: 'white',
-              border: 'none',
-              borderRadius: '12px',
-              fontSize: '16px',
-              fontWeight: 700,
-              cursor: 'pointer',
-              transition: 'transform 0.2s',
-            }}
-            onMouseDown={(e) => e.target.style.transform = 'scale(0.98)'}
-            onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
+            className="fc-start-btn"
           >
             {t('flashcards.start')}
           </button>
@@ -411,11 +359,11 @@ export default function FlashcardsPage({ onNavigate }) {
   // EMPTY STATE
   if (mode === 'empty') {
     return (
-      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '16px', padding: '40px 20px', textAlign: 'center' }}>
-        <div style={{ fontSize: '48px' }}>📭</div>
-        <h2 style={{ margin: 0, color: 'var(--text-primary)' }}>{t('flashcards.noCards') || 'Nessuna carta disponibile'}</h2>
-        <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '14px' }}>{t('flashcards.noCardsHint') || 'Prova a cambiare la sorgente o il livello'}</p>
-        <button onClick={backToSetup} style={{ padding: '10px 24px', background: 'var(--gradient-1)', color: 'white', border: 'none', borderRadius: '10px', fontSize: '14px', fontWeight: 600, cursor: 'pointer', marginTop: '8px' }}>
+      <div className="fc-empty">
+        <div className="fc-empty-icon">📭</div>
+        <h2 className="fc-empty-title">{t('flashcards.noCards') || 'Nessuna carta disponibile'}</h2>
+        <p className="fc-empty-desc">{t('flashcards.noCardsHint') || 'Prova a cambiare la sorgente o il livello'}</p>
+        <button onClick={backToSetup} className="fc-empty-btn">
           {t('flashcards.back') || 'Torna indietro'}
         </button>
       </div>
@@ -428,114 +376,52 @@ export default function FlashcardsPage({ onNavigate }) {
     const progress = ((currentIndex + 1) / cards.length) * 100;
 
     return (
-      <div style={{ minHeight: '100vh', background: 'var(--bg-primary)', paddingBottom: '100px', display: 'flex', flexDirection: 'column' }}>
+      <div className="fc-playing">
         {/* Header */}
-        <div style={{ padding: '20px 20px 0 20px' }}>
+        <div className="fc-header-section">
           <button
             onClick={backToSetup}
             aria-label="Back to setup"
-            style={{
-              background: 'none',
-              border: 'none',
-              color: 'var(--text-primary)',
-              cursor: 'pointer',
-              fontSize: '24px',
-              padding: '0',
-              marginBottom: '20px',
-            }}
+            className="fc-back-btn"
           >
             <Icons.Back />
           </button>
 
           {/* Progress bar */}
-          <div style={{ marginBottom: '20px' }}>
-            <div style={{ height: '6px', background: 'var(--bg-secondary)', borderRadius: '3px', overflow: 'hidden', marginBottom: '8px' }}>
-              <div style={{
-                height: '100%',
-                background: 'linear-gradient(90deg, var(--accent-primary), var(--accent-secondary))',
-                width: `${progress}%`,
-                transition: 'width 0.3s',
-              }} />
+          <div className="fc-progress-section">
+            <div className="fc-progress-track">
+              <div className="fc-progress-bar" style={{ width: `${progress}%` }} />
             </div>
-            <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '0', textAlign: 'right' }}>
+            <p className="fc-progress-text">
               {t('flashcards.card')} {currentIndex + 1} {t('flashcards.of')} {cards.length}
             </p>
           </div>
         </div>
 
         {/* Flashcard */}
-        <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px 20px 40px 20px' }}>
+        <div className="fc-card-container">
           <div
-            style={{
-              width: '100%',
-              maxWidth: '400px',
-              height: '320px',
-              position: 'relative',
-              cursor: 'pointer',
-              perspective: '1000px',
-            }}
+            className="fc-card-wrapper"
             onClick={() => setFlipped(!flipped)}
           >
-            <div
-              style={{
-                position: 'absolute',
-                width: '100%',
-                height: '100%',
-                transition: 'transform 0.6s',
-                transformStyle: 'preserve-3d',
-                transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-              }}
-            >
+            <div className={`fc-card-inner ${flipped ? 'flipped' : ''}`}>
               {/* Front */}
-              <div
-                style={{
-                  position: 'absolute',
-                  width: '100%',
-                  height: '100%',
-                  background: 'linear-gradient(135deg, var(--bg-secondary), var(--bg-secondary))',
-                  borderRadius: '16px',
-                  padding: '32px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  border: '2px solid var(--accent-primary)',
-                  backfaceVisibility: 'hidden',
-                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
-                }}
-              >
+              <div className="fc-card-face fc-card-front">
                 {/* Article */}
                 {currentCard.article && (
-                  <span style={{
-                    fontSize: '18px',
-                    fontWeight: 600,
-                    color: 'var(--accent-primary)',
-                    marginBottom: '8px',
-                  }}>
+                  <span className="fc-article">
                     {currentCard.article}
                   </span>
                 )}
 
                 {/* German Word */}
-                <p style={{
-                  fontSize: '48px',
-                  fontWeight: 800,
-                  color: 'var(--text-primary)',
-                  margin: '0 0 20px 0',
-                  textAlign: 'center',
-                  wordBreak: 'break-word',
-                }}>
+                <p className="fc-word-main">
                   {currentCard.german}
                 </p>
 
                 {/* Plural */}
                 {currentCard.plural && (
-                  <p style={{
-                    fontSize: '16px',
-                    color: 'var(--text-secondary)',
-                    margin: '0 0 20px 0',
-                    fontStyle: 'italic',
-                  }}>
+                  <p className="fc-word-plural">
                     Pl: {currentCard.plural}
                   </p>
                 )}
@@ -547,89 +433,33 @@ export default function FlashcardsPage({ onNavigate }) {
                     speak(currentCard.german);
                   }}
                   aria-label="Listen to pronunciation"
-                  style={{
-                    background: 'var(--accent-primary)',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: '50%',
-                    width: '56px',
-                    height: '56px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    cursor: 'pointer',
-                    transition: 'transform 0.2s',
-                  }}
-                  onMouseDown={(e) => e.target.style.transform = 'scale(0.95)'}
-                  onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
+                  className="fc-speaker-btn"
                 >
                   <Icons.Volume />
                 </button>
 
                 {/* Tap to flip hint */}
-                <p style={{
-                  fontSize: '12px',
-                  color: 'var(--text-secondary)',
-                  marginTop: '20px',
-                  textAlign: 'center',
-                  opacity: 0.7,
-                }}>
+                <p className="fc-hint">
                   {t('flashcards.tap')}
                 </p>
               </div>
 
               {/* Back */}
-              <div
-                style={{
-                  position: 'absolute',
-                  width: '100%',
-                  height: '100%',
-                  background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))',
-                  borderRadius: '16px',
-                  padding: '32px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  backfaceVisibility: 'hidden',
-                  transform: 'rotateY(180deg)',
-                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
-                }}
-              >
+              <div className="fc-card-face fc-card-back">
                 {/* Italian */}
-                <p style={{
-                  fontSize: '48px',
-                  fontWeight: 800,
-                  color: 'white',
-                  margin: '0 0 20px 0',
-                  textAlign: 'center',
-                  wordBreak: 'break-word',
-                }}>
+                <p className="fc-word-translation">
                   {currentCard.italian}
                 </p>
 
                 {/* Example */}
                 {currentCard.example && (
-                  <p style={{
-                    fontSize: '14px',
-                    color: 'rgba(255, 255, 255, 0.9)',
-                    margin: '0',
-                    textAlign: 'center',
-                    fontStyle: 'italic',
-                    marginTop: '20px',
-                  }}>
+                  <p className="fc-example">
                     "{currentCard.example}"
                   </p>
                 )}
 
                 {/* Tap to flip hint */}
-                <p style={{
-                  fontSize: '12px',
-                  color: 'rgba(255, 255, 255, 0.7)',
-                  marginTop: 'auto',
-                  paddingTop: '20px',
-                  textAlign: 'center',
-                }}>
+                <p className="fc-hint">
                   {t('flashcards.tap')}
                 </p>
               </div>
@@ -638,33 +468,16 @@ export default function FlashcardsPage({ onNavigate }) {
         </div>
 
         {/* Keyboard Hint */}
-        <p style={{ textAlign: 'center', color: 'var(--text-tertiary)', fontSize: '12px', margin: '0', padding: '0 20px' }}>
+        <p className="fc-keyboard-hint">
           {flipped ? '← Non lo so  |  Lo so →' : 'Spazio per girare'}
         </p>
 
         {/* Action Buttons */}
         {flipped && (
-          <div style={{ padding: '20px', display: 'flex', gap: '12px' }}>
+          <div className="fc-action-buttons">
             <button
               onClick={handleIncorrect}
-              style={{
-                flex: 1,
-                padding: '14px',
-                background: 'var(--error)',
-                color: 'white',
-                border: 'none',
-                borderRadius: '10px',
-                fontSize: '14px',
-                fontWeight: 700,
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '8px',
-                transition: 'all 0.2s',
-              }}
-              onMouseDown={(e) => e.target.style.transform = 'scale(0.96)'}
-              onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
+              className="fc-action-btn incorrect"
             >
               <Icons.X />
               {t('flashcards.iDontKnow')}
@@ -672,24 +485,7 @@ export default function FlashcardsPage({ onNavigate }) {
 
             <button
               onClick={handleCorrect}
-              style={{
-                flex: 1,
-                padding: '14px',
-                background: 'var(--success)',
-                color: 'white',
-                border: 'none',
-                borderRadius: '10px',
-                fontSize: '14px',
-                fontWeight: 700,
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '8px',
-                transition: 'all 0.2s',
-              }}
-              onMouseDown={(e) => e.target.style.transform = 'scale(0.96)'}
-              onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
+              className="fc-action-btn correct"
             >
               <Icons.Check />
               {t('flashcards.iKnow')}
@@ -710,67 +506,45 @@ export default function FlashcardsPage({ onNavigate }) {
     const xpEarned = sessionStats.correct * 5;
 
     return (
-      <div style={{ minHeight: '100vh', background: 'var(--bg-primary)', padding: '20px', paddingBottom: '100px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div className="fc-results">
         {/* Score Section */}
-        <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <h1 style={{ fontSize: '28px', fontWeight: 800, color: 'var(--text-primary)', margin: '0 0 20px 0' }}>{t('flashcards.sessionCompleted')}</h1>
+        <div className="fc-results-score">
+          <h1 className="fc-results-title">{t('flashcards.sessionCompleted')}</h1>
 
           {/* Percentage Circle */}
-          <div style={{
-            width: '140px',
-            height: '140px',
-            borderRadius: '50%',
-            background: 'var(--bg-secondary)',
-            border: `8px solid ${percentageColor}`,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 30px auto',
-          }}>
-            <div style={{ textAlign: 'center' }}>
-              <p style={{
-                fontSize: '48px',
-                fontWeight: 800,
-                color: percentageColor,
-                margin: '0',
-              }}>
-                {Math.round(percentage)}%
-              </p>
-            </div>
+          <div className="fc-results-circle" style={{ borderColor: percentageColor }}>
+            <p className="fc-results-percentage" style={{ color: percentageColor }}>
+              {Math.round(percentage)}%
+            </p>
           </div>
 
           {/* Stats */}
-          <div style={{
-            background: 'var(--bg-secondary)',
-            padding: '20px',
-            borderRadius: '12px',
-            marginBottom: '20px',
-          }}>
-            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', margin: '0 0 12px 0' }}>{t('flashcards.results')}</p>
-            <div style={{ display: 'flex', gap: '20px', justifyContent: 'center' }}>
-              <div>
-                <p style={{ fontSize: '24px', fontWeight: 800, color: 'var(--success)', margin: '0' }}>
+          <div className="fc-results-stats">
+            <p className="fc-results-stats-label">{t('flashcards.results')}</p>
+            <div className="fc-results-stats-grid">
+              <div className="fc-results-stat">
+                <p className="fc-results-stat-value" style={{ color: 'var(--success)' }}>
                   {sessionStats.correct}
                 </p>
-                <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>
+                <p className="fc-results-stat-label">
                   {t('flashcards.correct')}
                 </p>
               </div>
-              <div style={{ width: '1px', background: 'var(--bg-primary)' }} />
-              <div>
-                <p style={{ fontSize: '24px', fontWeight: 800, color: 'var(--error)', margin: '0' }}>
+              <div className="fc-results-stat-divider" />
+              <div className="fc-results-stat">
+                <p className="fc-results-stat-value" style={{ color: 'var(--error)' }}>
                   {sessionStats.incorrect}
                 </p>
-                <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>
+                <p className="fc-results-stat-label">
                   {t('flashcards.incorrect')}
                 </p>
               </div>
-              <div style={{ width: '1px', background: 'var(--bg-primary)' }} />
-              <div>
-                <p style={{ fontSize: '24px', fontWeight: 800, color: 'var(--accent-primary)', margin: '0' }}>
+              <div className="fc-results-stat-divider" />
+              <div className="fc-results-stat">
+                <p className="fc-results-stat-value" style={{ color: 'var(--accent-primary)' }}>
                   {sessionStats.total}
                 </p>
-                <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '4px 0 0 0' }}>
+                <p className="fc-results-stat-label">
                   {t('flashcards.total')}
                 </p>
               </div>
@@ -778,54 +552,24 @@ export default function FlashcardsPage({ onNavigate }) {
           </div>
 
           {/* XP */}
-          <div style={{
-            background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))',
-            color: 'white',
-            padding: '16px',
-            borderRadius: '12px',
-            marginBottom: '30px',
-          }}>
-            <p style={{ fontSize: '12px', opacity: 0.9, margin: '0 0 4px 0' }}>{t('flashcards.xpEarned')}</p>
-            <p style={{ fontSize: '32px', fontWeight: 800, margin: '0' }}>+{xpEarned}</p>
+          <div className="fc-results-xp">
+            <p className="fc-results-xp-label">{t('flashcards.xpEarned')}</p>
+            <p className="fc-results-xp-value">+{xpEarned}</p>
           </div>
         </div>
 
         {/* Buttons */}
-        <div style={{ width: '100%', maxWidth: '400px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div className="fc-results-buttons">
           <button
             onClick={restartSession}
-            style={{
-              padding: '14px',
-              background: 'var(--accent-primary)',
-              color: 'white',
-              border: 'none',
-              borderRadius: '10px',
-              fontSize: '14px',
-              fontWeight: 700,
-              cursor: 'pointer',
-              transition: 'all 0.2s',
-            }}
-            onMouseDown={(e) => e.target.style.transform = 'scale(0.96)'}
-            onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
+            className="fc-results-btn primary"
           >
             {t('flashcards.retry')}
           </button>
 
           <button
             onClick={backToSetup}
-            style={{
-              padding: '14px',
-              background: 'var(--bg-secondary)',
-              color: 'var(--text-primary)',
-              border: '2px solid var(--bg-secondary)',
-              borderRadius: '10px',
-              fontSize: '14px',
-              fontWeight: 700,
-              cursor: 'pointer',
-              transition: 'all 0.2s',
-            }}
-            onMouseDown={(e) => e.target.style.transform = 'scale(0.96)'}
-            onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
+            className="fc-results-btn secondary"
           >
             {t('flashcards.newSession')}
           </button>

@@ -71,14 +71,14 @@ export default function PracticePage({ onNavigate }) {
           const isRevealed = revealedWords[index];
           const status = getWordStatus(word.german);
           return (
-            <div key={`${word.german}-${index}`} className="compact-list-item" onClick={() => toggleReveal(index)} style={{cursor:'pointer'}}>
+            <div key={`${word.german}-${index}`} className="practice-list-item" onClick={() => toggleReveal(index)}>
               <span className={`progress-dot compact-dot ${status}`}></span>
               <div className="compact-info">
                 <div className="compact-title">{mainWord}</div>
                 <div className="compact-subtitle" style={{opacity: isRevealed ? 1 : 0.3}}>{isRevealed ? translation : '• • •'}</div>
               </div>
-              <span className="compact-badge" style={{background: LEVEL_COLORS[word.level]?.bg || '#666', color:'#fff', fontSize:'11px'}}>{word.level}</span>
-              <button className="vocab-action-btn" onClick={(e) => {e.stopPropagation();speak(word.german);}} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-secondary)',padding:'4px'}} aria-label="Listen to pronunciation"><Icons.Volume /></button>
+              <span className="practice-level-badge" style={{background: LEVEL_COLORS[word.level]?.bg || '#666'}}>{word.level}</span>
+              <button className="practice-speak-btn" onClick={(e) => {e.stopPropagation();speak(word.german);}} aria-label="Listen to pronunciation"><Icons.Volume /></button>
             </div>
           );
         })}

@@ -52,8 +52,6 @@ function VerbCard({ verb, prefix, onToggleFavorite, saved }) {
           textAlign: 'left',
           transition: 'all 0.2s'
         }}
-        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(99, 102, 241, 0.05)'}
-        onMouseLeave={(e) => e.currentTarget.style.background = 'none'}
       >
         <span>{verb.verb}</span>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -212,8 +210,6 @@ function PrefixCard({ prefix, onToggleFavorite, savedVerbs }) {
           textAlign: 'left',
           transition: 'all 0.2s'
         }}
-        onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(99, 102, 241, 0.05)'}
-        onMouseLeave={(e) => e.currentTarget.style.background = 'none'}
       >
         <div>
           <span style={{ fontSize: '16px', fontWeight: 800, color: 'var(--accent)' }}>
@@ -335,14 +331,14 @@ export default function VerbPrefixesPage({ onNavigate }) {
 
   if (loading || !data) {
     return (
-      <div style={{ padding: '20px' }}>
-        <div className="skeleton" style={{ width: '200px', height: '28px', marginBottom: '8px' }} />
-        <div className="skeleton" style={{ width: '260px', height: '16px', marginBottom: '24px' }} />
-        <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
-          {[1,2].map(i => <div key={i} className="skeleton" style={{ width: '120px', height: '40px', borderRadius: '10px' }} />)}
+      <div className="vp-loading-placeholder">
+        <div className="skeleton vp-skeleton-title" />
+        <div className="skeleton vp-skeleton-subtitle" />
+        <div className="vp-skeleton-tabs">
+          {[1,2].map(i => <div key={i} className="skeleton vp-skeleton-tab" />)}
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-          {[1,2,3,4].map(i => <div key={i} className="skeleton" style={{ height: '70px', borderRadius: 'var(--radius)' }} />)}
+        <div className="vp-skeleton-cards">
+          {[1,2,3,4].map(i => <div key={i} className="skeleton vp-skeleton-card" />)}
         </div>
       </div>
     );
@@ -357,66 +353,31 @@ export default function VerbPrefixesPage({ onNavigate }) {
   const currentData = data[activeTab] || [];
 
   return (
-    <div style={{ background: 'var(--bg-primary)' }}>
-      <div style={{
-        background: 'var(--bg-card)',
-        borderBottom: '1px solid var(--border)',
-        padding: '16px 20px',
-        marginBottom: '16px'
-      }}>
-        <h1 style={{
-          fontSize: '24px',
-          fontWeight: 800,
-          color: 'var(--text-primary)',
-          margin: '0 0 12px 0'
-        }}>
+    <div className="vp-container">
+      <div className="vp-header">
+        <h1 className="vp-header-title">
           {t('verbPrefixes.title')}
         </h1>
-        <p style={{
-          fontSize: '13px',
-          color: 'var(--text-secondary)',
-          margin: 0
-        }}>
+        <p className="vp-header-subtitle">
           {t('verbPrefixes.subtitle')}
         </p>
       </div>
 
-      <div style={{
-        display: 'flex',
-        gap: '8px',
-        padding: '12px 20px',
-        borderBottom: '1px solid var(--border)',
-        overflowX: 'auto'
-      }}>
+      <div className="vp-tabs">
         {tabs.map(tab => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            style={{
-              padding: '8px 12px',
-              borderRadius: 'var(--radius)',
-              border: activeTab === tab.id ? '2px solid var(--accent)' : '1px solid var(--border)',
-              background: activeTab === tab.id ? 'rgba(99, 102, 241, 0.1)' : 'transparent',
-              color: activeTab === tab.id ? 'var(--accent)' : 'var(--text-secondary)',
-              fontWeight: 600,
-              fontSize: '13px',
-              cursor: 'pointer',
-              whiteSpace: 'nowrap',
-              transition: 'all 0.2s'
-            }}
+            className={`vp-tab-btn ${activeTab === tab.id ? 'active' : ''}`}
           >
-            {tab.label} <span style={{ fontSize: '11px', opacity: 0.7 }}>({tab.count})</span>
+            {tab.label} <span className="vp-tab-count">({tab.count})</span>
           </button>
         ))}
       </div>
 
-      <div style={{ padding: '16px 20px' }}>
+      <div className="vp-content">
         {currentData.length === 0 ? (
-          <div style={{
-            textAlign: 'center',
-            padding: '40px 20px',
-            color: 'var(--text-secondary)'
-          }}>
+          <div className="vp-empty-state">
             <p>{t('verbPrefixes.noPrefixes')}</p>
           </div>
         ) : (

@@ -2,6 +2,7 @@ import React, { useState, useMemo, useCallback, Suspense, useEffect, Component }
 import { BrowserRouter, Routes, Route, useNavigate, useLocation, useSearchParams, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ThemeProvider } from './contexts/ThemeContext';
+import { ToastProvider } from './components/Toast';
 import Header from './components/Header';
 import BottomNav from './components/BottomNav';
 import Footer from './components/Footer';
@@ -131,6 +132,29 @@ const PAGE_TITLES = {
   login: 'Sign In', admin: 'Admin'
 };
 
+// Dynamic meta descriptions for SEO
+const PAGE_DESCRIPTIONS = {
+  home: 'Learn German free online from A1 to C2. Vocabulary, grammar, verb conjugations, quizzes, flashcards, stories and more.',
+  vocabulary: 'German vocabulary lists organized by CEFR level. Learn and practice words from A1 beginner to C2 mastery.',
+  grammar: 'German grammar rules with examples and exercises. Master cases, articles, word order and more.',
+  verbs: 'German verb conjugations in all tenses. Präsens, Präteritum, Perfekt, Futur, Konjunktiv and Imperativ.',
+  quiz: 'Test your German knowledge with interactive quizzes. Multiple choice and open-ended questions.',
+  practice: 'Practice German vocabulary with spaced repetition. Review difficult words and track progress.',
+  'special-verbs': 'Master German modal verbs, reflexive verbs and irregular verbs with conjugation tables.',
+  reading: 'German reading comprehension texts for all levels. Improve reading skills with graded texts.',
+  stories: 'Read German stories and fairy tales. Interactive stories with vocabulary support.',
+  lessons: 'Structured German lessons from beginner to advanced. Learn step by step.',
+  flashcards: 'German flashcards with spaced repetition. Learn vocabulary efficiently.',
+  writing: 'German writing practice. Build sentences and improve your written German.',
+  listening: 'German listening exercises. Improve pronunciation and comprehension.',
+  paths: 'Guided German learning paths from A1 to C2. Follow structured courses.',
+  'essential-words': 'Most common German words by frequency. Essential vocabulary for each CEFR level.',
+  'verb-prefixes': 'German separable and inseparable verb prefixes. Master trennbare and untrennbare Verben.',
+  werden: 'Master the German verb "werden" in all its uses: future, passive, subjunctive.',
+  'placement-test': 'Find your German level with our placement test. Get placed from A1 to C2.',
+  dona: 'Support DeutschMaster development. Help keep German learning free for everyone.',
+};
+
 // Loading fallback component for lazy-loaded pages
 const PageLoadingFallback = () => {
   const { t } = useLanguage();
@@ -191,7 +215,7 @@ function PageWrapper({ component: PageComponent, pageName }) {
   const level = searchParams.get('level') || null;
   const state = location.state || {};
 
-  // Update document title
+  // Update document title and meta description
   useEffect(() => {
     const suffix = PAGE_TITLES[pageName];
     if (pageName === 'home') {
@@ -199,6 +223,13 @@ function PageWrapper({ component: PageComponent, pageName }) {
     } else if (suffix) {
       const levelStr = level ? ` ${level}` : '';
       document.title = `${suffix}${levelStr} | DeutschMaster`;
+    }
+    // Dynamic meta description
+    const desc = PAGE_DESCRIPTIONS[pageName];
+    if (desc) {
+      let meta = document.querySelector('meta[name="description"]');
+      if (!meta) { meta = document.createElement('meta'); meta.name = 'description'; document.head.appendChild(meta); }
+      meta.content = level ? `${desc} Level ${level}.` : desc;
     }
   }, [pageName, level]);
 
@@ -313,7 +344,9 @@ export default function App() {
     <BrowserRouter>
       <ThemeProvider>
         <AuthProvider>
-          <AppContent />
+          <ToastProvider>
+            <AppContent />
+          </ToastProvider>
         </AuthProvider>
       </ThemeProvider>
     </BrowserRouter>
