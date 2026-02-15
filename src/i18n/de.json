@@ -1007,5 +1007,20 @@
     "reach_b2_desc": "Erreiche Stufe B2",
     "reach_c1": "Stufe C1",
     "reach_c1_desc": "Erreiche Stufe C1"
+  },
+  "onboarding": {
+    "welcome": "Willkommen bei DeutschMaster!",
+    "welcomeDesc": "Lerne Deutsch von A1 bis C2 mit Vokabeln, Grammatik, Verben, Geschichten und Quizzen — komplett kostenlos.",
+    "level": "Finde dein Niveau",
+    "levelDesc": "Mach einen kurzen Einstufungstest, um dein aktuelles Deutschniveau herauszufinden — oder starte bei A1.",
+    "explore": "Entdecke & lerne",
+    "exploreDesc": "Übe Vokabeln, lerne Grammatik, konjugiere Verben, lies Geschichten und teste dich mit Quizzen.",
+    "track": "Verfolge deinen Fortschritt",
+    "trackDesc": "Verdiene XP, halte deine Serie aufrecht, schalte Abzeichen frei und synchronisiere deinen Fortschritt über Geräte hinweg.",
+    "takeTest": "Einstufungstest machen",
+    "skipTest": "Bei A1 starten",
+    "start": "Los geht's!",
+    "next": "Weiter",
+    "skip": "Überspringen"
   }
 }

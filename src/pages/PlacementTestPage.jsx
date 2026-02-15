@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import '../styles/pages/placement.css';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { saveAndSync } from '../utils/cloudSync';
 import { recordActivity } from '../utils/gamification';

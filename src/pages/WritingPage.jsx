@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/pages/writing.css';
 import Icons from '../components/Icons';
 import { LEVEL_COLORS, fisherYatesShuffle } from '../utils/constants';
 import { useData } from '../DataContext';

@@ -1,6 +1,7 @@
 import { db, auth, hasConfig } from '../firebase';
 import { doc, setDoc, getDoc, writeBatch } from 'firebase/firestore';
 import { LIMITS } from './rateLimit';
+import { firestoreRetry } from './retry';
 
 // All localStorage keys to sync
 const SYNC_KEYS = [
@@ -57,7 +58,7 @@ export async function syncToCloud(uid) {
   }
 
   try {
-    await setDoc(doc(db, 'users', uid, 'data', 'progress'), payload, { merge: true });
+    await firestoreRetry(() => setDoc(doc(db, 'users', uid, 'data', 'progress'), payload, { merge: true }));
   } catch (e) {
     if (import.meta.env.DEV) console.warn('syncToCloud failed:', e);
   }
@@ -76,7 +77,7 @@ export async function syncFromCloud(uid) {
   }
 
   try {
-    const snapshot = await getDoc(doc(db, 'users', uid, 'data', 'progress'));
+    const snapshot = await firestoreRetry(() => getDoc(doc(db, 'users', uid, 'data', 'progress')));
     if (!snapshot.exists()) return;
 
     const cloudData = snapshot.data();

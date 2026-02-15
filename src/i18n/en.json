@@ -1007,5 +1007,20 @@
     "reach_b2_desc": "Reach level B2",
     "reach_c1": "Level C1",
     "reach_c1_desc": "Reach level C1"
+  },
+  "onboarding": {
+    "welcome": "Welcome to DeutschMaster!",
+    "welcomeDesc": "Learn German from A1 to C2 with vocabulary, grammar, verbs, stories, and quizzes — completely free.",
+    "level": "Find your level",
+    "levelDesc": "Take a quick placement test to discover your current German level — or start from A1.",
+    "explore": "Explore & learn",
+    "exploreDesc": "Practice vocabulary, study grammar, conjugate verbs, read stories, and test yourself with quizzes.",
+    "track": "Track your progress",
+    "trackDesc": "Earn XP, maintain your streak, unlock badges, and sync your progress across devices by signing in.",
+    "takeTest": "Take placement test",
+    "skipTest": "Start from A1",
+    "start": "Let's go!",
+    "next": "Next",
+    "skip": "Skip"
   }
 }
