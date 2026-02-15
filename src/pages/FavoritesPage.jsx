@@ -33,15 +33,15 @@ export default function FavoritesPage({ onNavigate }) {
           <p style={{fontSize:'14px',marginTop:'10px'}}>{t('favorites.hint')}</p>
         </div>
       ) : (
-        <div className="favorites-grid">
+        <div className="compact-list">
           {filteredWords.map(item => (
-            <div key={item.id} className="favorite-card">
-              <button className="remove-btn" onClick={() => handleRemove(item.id)}><Icons.X /></button>
-              {item.type === 'verb' ? (
-                <><div className="favorite-main">{item.infinitiv}</div><div className="favorite-translation">{item.italiano}</div><span className="favorite-type">{t('favorites.verb_type')}</span></>
-              ) : (
-                <><div className="favorite-main">{item.article} {item.german}</div><div className="favorite-translation">{item.italian}</div><span className="favorite-type">{t('favorites.word_type')}</span></>
-              )}
+            <div key={item.id} className="compact-list-item" style={{cursor:'default'}}>
+              <div className="compact-info">
+                <div className="compact-title">{item.type === 'verb' ? item.infinitiv : `${item.article || ''} ${item.german}`.trim()}</div>
+                <div className="compact-subtitle">{item.type === 'verb' ? item.italiano : item.italian}</div>
+              </div>
+              <span className="compact-badge" style={{background:'var(--accent-dim)',color:'var(--accent-light)'}}>{item.type === 'verb' ? t('favorites.verb_type') : t('favorites.word_type')}</span>
+              <button className="vocab-action-btn" onClick={() => handleRemove(item.id)} title="Remove" style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-secondary)',padding:'4px'}}><Icons.X /></button>
             </div>
           ))}
         </div>

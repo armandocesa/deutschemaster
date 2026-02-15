@@ -174,23 +174,20 @@ export default function LessonsPage({ selectedLesson, onNavigate }) {
 
     return (
       <div key={lesson.id}
-        className={`lesson-card ${lesson.isReview ? 'review' : ''} ${isCompleted ? 'completed' : ''}`}
+        className={`compact-list-item ${isCompleted ? 'completed' : ''}`}
         onClick={() => onNavigate('lessons', { lesson })}
         style={{ cursor: 'pointer' }}
       >
-        <div className="lesson-num">{lesson.number}</div>
-        <div className="lesson-info">
-          <div className="lesson-title">{lesson.title}</div>
-          <div className="lesson-meta">
-            <span className={`lesson-phase-badge ${lesson.phase}`}>{lesson.phase === 'passiva' ? t('lessons.passive') : t('lessons.active')}</span>
-            <span className="lesson-tag">{lesson.tag}</span>
-            {!hasContent && <span style={{ fontSize: '11px', color: 'var(--text-secondary)', fontStyle: 'italic' }}>in arrivo</span>}
+        <span className="compact-icon" style={{fontSize:'14px',fontWeight:800,width:'28px',height:'28px',borderRadius:'50%',display:'flex',alignItems:'center',justifyContent:'center',background:'rgba(108,92,231,0.15)',color:'var(--accent-light)',flexShrink:0}}>{lesson.number}</span>
+        <div className="compact-info">
+          <div className="compact-title">{lesson.title}</div>
+          <div className="compact-subtitle">
+            {lesson.phase === 'passiva' ? t('lessons.passive') : t('lessons.active')} · {lesson.tag}
+            {!hasContent && <span style={{fontStyle:'italic'}}> · in arrivo</span>}
           </div>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {isCompleted && <Icons.Check style={{ color: 'var(--success)', width: '20px', height: '20px' }} />}
-          <Icons.ChevronRight />
-        </div>
+        {isCompleted && <span className="compact-badge success">✓</span>}
+        <span className="compact-chevron">›</span>
       </div>
     );
   };
@@ -204,12 +201,12 @@ export default function LessonsPage({ selectedLesson, onNavigate }) {
       <div className="lessons-phase-group">
         <h3 className="lessons-phase-title" style={{ color: 'var(--accent-light)' }}>{t('lessons.passive')}</h3>
         <p className="lessons-phase-subtitle">{t('lessons.title')} 1-49 - {t('lessons.listeningComprehension')}</p>
-        <div className="lessons-list">{passiva.map(renderLesson)}</div>
+        <div className="compact-list">{passiva.map(renderLesson)}</div>
       </div>
       <div className="lessons-phase-group">
         <h3 className="lessons-phase-title" style={{ color: 'var(--highlight)' }}>{t('lessons.active')}</h3>
         <p className="lessons-phase-subtitle">{t('lessons.title')} 50-100 - {t('lessons.activeProduction')}</p>
-        <div className="lessons-list">{attiva.map(renderLesson)}</div>
+        <div className="compact-list">{attiva.map(renderLesson)}</div>
       </div>
     </div>
   );

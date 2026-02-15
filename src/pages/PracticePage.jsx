@@ -64,22 +64,21 @@ export default function PracticePage({ onNavigate }) {
         <button className="show-all-btn" onClick={toggleShowAll}>{showAll ? <><Icons.EyeOff /> {t('practice.hideAll')}</> : <><Icons.Eye /> {t('practice.showAll')}</>}</button>
       </div>
       <div className="practice-stats"><span>{sortedWords.length.toLocaleString()} {t('practice.words')}</span><span>{'\u2022'}</span><span>{Object.keys(revealedWords).filter(k => revealedWords[k]).length} {t('practice.revealed')}</span></div>
-      <div className="practice-list">
+      <div className="compact-list">
         {sortedWords.map((word, index) => {
           const mainWord = mode === 'de-it' ? word.german : word.italian;
           const translation = mode === 'de-it' ? word.italian : word.german;
           const isRevealed = revealedWords[index];
           const status = getWordStatus(word.german);
           return (
-            <div key={`${word.german}-${index}`} className={`practice-card ${isRevealed?'revealed':''} status-${status}`} onClick={() => toggleReveal(index)}>
-              <span className={`progress-dot ${status}`}></span>
-              <div className="practice-main">
-                <span className="practice-word">{mainWord}</span>
-                {mode === 'de-it' && <button className="speak-btn-small" onClick={(e) => {e.stopPropagation();speak(word.german);}}><Icons.Volume /></button>}
+            <div key={`${word.german}-${index}`} className="compact-list-item" onClick={() => toggleReveal(index)} style={{cursor:'pointer'}}>
+              <span className={`progress-dot compact-dot ${status}`}></span>
+              <div className="compact-info">
+                <div className="compact-title">{mainWord}</div>
+                <div className="compact-subtitle" style={{opacity: isRevealed ? 1 : 0.3}}>{isRevealed ? translation : '• • •'}</div>
               </div>
-              <div className={`practice-translation ${isRevealed?'visible':''}`}>{isRevealed ? translation : '\u2022 \u2022 \u2022'}</div>
-              {isRevealed && mode === 'it-de' && <button className="speak-btn-small after" onClick={(e) => {e.stopPropagation();speak(word.german);}}><Icons.Volume /></button>}
-              <span className="practice-level" style={{backgroundColor: LEVEL_COLORS[word.level]?.bg || '#666'}}>{word.level}</span>
+              <span className="compact-badge" style={{background: LEVEL_COLORS[word.level]?.bg || '#666', color:'#fff', fontSize:'11px'}}>{word.level}</span>
+              <button className="vocab-action-btn" onClick={(e) => {e.stopPropagation();speak(word.german);}} style={{background:'none',border:'none',cursor:'pointer',color:'var(--text-secondary)',padding:'4px'}}><Icons.Volume /></button>
             </div>
           );
         })}
