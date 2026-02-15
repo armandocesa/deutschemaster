@@ -388,200 +388,38 @@ export const checkDailyGoal = () => {
 
 const BADGES = [
   // Streak badges
-  {
-    id: 'first_day',
-    name: 'Primo Giorno',
-    description: 'Completa la tua prima attività',
-    icon: '🌱',
-    category: 'streak'
-  },
-  {
-    id: 'week_streak',
-    name: 'Una Settimana!',
-    description: '7 giorni consecutivi',
-    icon: '🔥',
-    category: 'streak'
-  },
-  {
-    id: 'month_streak',
-    name: 'Un Mese!',
-    description: '30 giorni consecutivi',
-    icon: '💪',
-    category: 'streak'
-  },
-  {
-    id: 'century_streak',
-    name: '100 Giorni!',
-    description: '100 giorni consecutivi',
-    icon: '💯',
-    category: 'streak'
-  },
-
+  { id: 'first_day', nameKey: 'badges.first_day', descKey: 'badges.first_day_desc', icon: '🌱', category: 'streak' },
+  { id: 'week_streak', nameKey: 'badges.week_streak', descKey: 'badges.week_streak_desc', icon: '🔥', category: 'streak' },
+  { id: 'month_streak', nameKey: 'badges.month_streak', descKey: 'badges.month_streak_desc', icon: '💪', category: 'streak' },
+  { id: 'century_streak', nameKey: 'badges.century_streak', descKey: 'badges.century_streak_desc', icon: '💯', category: 'streak' },
   // XP badges
-  {
-    id: 'first_100xp',
-    name: 'Primi Passi',
-    description: 'Guadagna 100 XP',
-    icon: '⭐',
-    category: 'xp'
-  },
-  {
-    id: 'xp_1000',
-    name: 'Studente Dedicato',
-    description: 'Guadagna 1000 XP',
-    icon: '🏆',
-    category: 'xp'
-  },
-  {
-    id: 'xp_5000',
-    name: 'Esperto',
-    description: 'Guadagna 5000 XP',
-    icon: '👑',
-    category: 'xp'
-  },
-  {
-    id: 'xp_10000',
-    name: 'Maestro',
-    description: 'Guadagna 10000 XP',
-    icon: '🎓',
-    category: 'xp'
-  },
-
+  { id: 'first_100xp', nameKey: 'badges.first_100xp', descKey: 'badges.first_100xp_desc', icon: '⭐', category: 'xp' },
+  { id: 'xp_1000', nameKey: 'badges.xp_1000', descKey: 'badges.xp_1000_desc', icon: '🏆', category: 'xp' },
+  { id: 'xp_5000', nameKey: 'badges.xp_5000', descKey: 'badges.xp_5000_desc', icon: '👑', category: 'xp' },
+  { id: 'xp_10000', nameKey: 'badges.xp_10000', descKey: 'badges.xp_10000_desc', icon: '🎓', category: 'xp' },
   // Vocabulary badges
-  {
-    id: 'first_word',
-    name: 'Prima Parola',
-    description: 'Studia la tua prima parola',
-    icon: '📖',
-    category: 'vocabulary'
-  },
-  {
-    id: 'words_100',
-    name: 'Vocabolario Base',
-    description: 'Studia 100 parole',
-    icon: '📚',
-    category: 'vocabulary'
-  },
-  {
-    id: 'words_500',
-    name: 'Vocabolario Avanzato',
-    description: 'Studia 500 parole',
-    icon: '🧠',
-    category: 'vocabulary'
-  },
-  {
-    id: 'words_1000',
-    name: 'Poliglotta',
-    description: 'Studia 1000 parole',
-    icon: '🌍',
-    category: 'vocabulary'
-  },
-
+  { id: 'first_word', nameKey: 'badges.first_word', descKey: 'badges.first_word_desc', icon: '📖', category: 'vocabulary' },
+  { id: 'words_100', nameKey: 'badges.words_100', descKey: 'badges.words_100_desc', icon: '📚', category: 'vocabulary' },
+  { id: 'words_500', nameKey: 'badges.words_500', descKey: 'badges.words_500_desc', icon: '🧠', category: 'vocabulary' },
+  { id: 'words_1000', nameKey: 'badges.words_1000', descKey: 'badges.words_1000_desc', icon: '🌍', category: 'vocabulary' },
   // Quiz badges
-  {
-    id: 'first_quiz',
-    name: 'Primo Quiz',
-    description: 'Completa il tuo primo quiz',
-    icon: '❓',
-    category: 'quiz'
-  },
-  {
-    id: 'perfect_quiz',
-    name: 'Perfezione!',
-    description: '10/10 in un quiz',
-    icon: '💎',
-    category: 'quiz'
-  },
-  {
-    id: 'quiz_50',
-    name: 'Quiz Master',
-    description: 'Completa 50 quiz',
-    icon: '🎯',
-    category: 'quiz'
-  },
-  {
-    id: 'correct_100',
-    name: '100 Corrette!',
-    description: '100 risposte corrette',
-    icon: '✅',
-    category: 'quiz'
-  },
-
+  { id: 'first_quiz', nameKey: 'badges.first_quiz', descKey: 'badges.first_quiz_desc', icon: '❓', category: 'quiz' },
+  { id: 'perfect_quiz', nameKey: 'badges.perfect_quiz', descKey: 'badges.perfect_quiz_desc', icon: '💎', category: 'quiz' },
+  { id: 'quiz_50', nameKey: 'badges.quiz_50', descKey: 'badges.quiz_50_desc', icon: '🎯', category: 'quiz' },
+  { id: 'correct_100', nameKey: 'badges.correct_100', descKey: 'badges.correct_100_desc', icon: '✅', category: 'quiz' },
   // Lesson badges
-  {
-    id: 'first_lesson',
-    name: 'Prima Lezione',
-    description: 'Completa la prima lezione',
-    icon: '📝',
-    category: 'lessons'
-  },
-  {
-    id: 'lessons_10',
-    name: 'Studente Modello',
-    description: 'Completa 10 lezioni',
-    icon: '🎒',
-    category: 'lessons'
-  },
-  {
-    id: 'lessons_50',
-    name: 'Metà Strada!',
-    description: 'Completa 50 lezioni',
-    icon: '🚀',
-    category: 'lessons'
-  },
-  {
-    id: 'all_lessons',
-    name: 'Corso Completo!',
-    description: 'Completa tutte le 100 lezioni',
-    icon: '🏅',
-    category: 'lessons'
-  },
-
+  { id: 'first_lesson', nameKey: 'badges.first_lesson', descKey: 'badges.first_lesson_desc', icon: '📝', category: 'lessons' },
+  { id: 'lessons_10', nameKey: 'badges.lessons_10', descKey: 'badges.lessons_10_desc', icon: '🎒', category: 'lessons' },
+  { id: 'lessons_50', nameKey: 'badges.lessons_50', descKey: 'badges.lessons_50_desc', icon: '🚀', category: 'lessons' },
+  { id: 'all_lessons', nameKey: 'badges.all_lessons', descKey: 'badges.all_lessons_desc', icon: '🏅', category: 'lessons' },
   // Reading badges
-  {
-    id: 'first_reading',
-    name: 'Primo Testo',
-    description: 'Leggi il tuo primo testo',
-    icon: '📰',
-    category: 'reading'
-  },
-  {
-    id: 'readings_20',
-    name: 'Lettore',
-    description: 'Leggi 20 testi',
-    icon: '📖',
-    category: 'reading'
-  },
-
+  { id: 'first_reading', nameKey: 'badges.first_reading', descKey: 'badges.first_reading_desc', icon: '📰', category: 'reading' },
+  { id: 'readings_20', nameKey: 'badges.readings_20', descKey: 'badges.readings_20_desc', icon: '📖', category: 'reading' },
   // Level badges
-  {
-    id: 'reach_a2',
-    name: 'Livello A2',
-    description: 'Raggiungi il livello A2',
-    icon: '🟢',
-    category: 'level'
-  },
-  {
-    id: 'reach_b1',
-    name: 'Livello B1',
-    description: 'Raggiungi il livello B1',
-    icon: '🔵',
-    category: 'level'
-  },
-  {
-    id: 'reach_b2',
-    name: 'Livello B2',
-    description: 'Raggiungi il livello B2',
-    icon: '🟡',
-    category: 'level'
-  },
-  {
-    id: 'reach_c1',
-    name: 'Livello C1',
-    description: 'Raggiungi il livello C1',
-    icon: '🔴',
-    category: 'level'
-  }
+  { id: 'reach_a2', nameKey: 'badges.reach_a2', descKey: 'badges.reach_a2_desc', icon: '🟢', category: 'level' },
+  { id: 'reach_b1', nameKey: 'badges.reach_b1', descKey: 'badges.reach_b1_desc', icon: '🔵', category: 'level' },
+  { id: 'reach_b2', nameKey: 'badges.reach_b2', descKey: 'badges.reach_b2_desc', icon: '🟡', category: 'level' },
+  { id: 'reach_c1', nameKey: 'badges.reach_c1', descKey: 'badges.reach_c1_desc', icon: '🔴', category: 'level' }
 ];
 
 /**

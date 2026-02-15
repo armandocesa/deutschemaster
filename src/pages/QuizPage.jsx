@@ -117,7 +117,7 @@ export default function QuizPage({ level, onNavigate }) {
     const isCorrect = q.isOpen ? na === nc : (typeof answer === 'string' ? answer.toLowerCase().trim() : answer) === (typeof q.correctAnswer === 'string' ? q.correctAnswer.toLowerCase().trim() : q.correctAnswer);
     if (isCorrect) { setScore(s => s + 1); addXP(10, 'quiz_correct'); }
     updateQuizStats(isCorrect);
-    if (q.wordId) { markWordStatus(q.wordId, isCorrect); if (!isCorrect) addToReview(q.wordId, q.question.replace('Cosa significa "','').replace('"?',''), q.correctAnswer); }
+    if (q.wordId) { markWordStatus(q.wordId, isCorrect); if (!isCorrect) addToReview(q.wordId, q.wordId, q.correctAnswer); }
     if (q.grammarId) markGrammarStatus(q.grammarId, isCorrect);
     recordActivity();
   };
@@ -223,7 +223,7 @@ export default function QuizPage({ level, onNavigate }) {
               margin: '12px auto 0'
             }}
           >
-            📤 {t('quiz.share') || 'Condividi risultato'}
+            📤 {t('quiz.share')}
           </button>
         </div>
       </div>

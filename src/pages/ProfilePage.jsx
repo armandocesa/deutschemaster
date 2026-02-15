@@ -1150,7 +1150,7 @@ const ProfilePage = ({ onNavigate }) => {
                     marginBottom: '6px',
                   }}
                 >
-                  {badge.name}
+                  {badge.nameKey ? t(badge.nameKey) : badge.name}
                 </div>
 
                 <div
@@ -1160,7 +1160,7 @@ const ProfilePage = ({ onNavigate }) => {
                     lineHeight: '1.4',
                   }}
                 >
-                  {badge.description}
+                  {badge.descKey ? t(badge.descKey) : badge.description}
                 </div>
               </div>
             ))}
