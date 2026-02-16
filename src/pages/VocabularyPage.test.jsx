@@ -51,6 +51,7 @@ vi.mock('../DataContext', () => ({
 
 vi.mock('../utils/storage', () => ({
   getWordStatus: () => 'unseen',
+  markWordStatus: vi.fn(),
   isDifficultWord: () => false,
   saveDifficultWord: vi.fn(),
   removeDifficultWord: vi.fn(),
@@ -114,10 +115,13 @@ describe('VocabularyPage', () => {
     expect(screen.getByText('Brot')).toBeTruthy();
   });
 
-  it('renders translations', () => {
+  it('translations are hidden by default (tap to reveal)', () => {
     render(<VocabularyPage level="A1" onNavigate={onNavigate} />);
-    expect(screen.getByText('cane')).toBeTruthy();
-    expect(screen.getByText('gatto')).toBeTruthy();
+    // Translations are covered - "show" buttons appear instead of actual translations
+    expect(screen.queryByText('cane')).toBeFalsy();
+    expect(screen.queryByText('gatto')).toBeFalsy();
+    // Reveal labels should be present
+    expect(screen.getAllByText('vocabulary.colTranslation').length).toBeGreaterThanOrEqual(1);
   });
 
   it('shows articles', () => {
@@ -127,10 +131,10 @@ describe('VocabularyPage', () => {
     expect(screen.getAllByText('das').length).toBeGreaterThanOrEqual(1);
   });
 
-  it('shows category badges', () => {
+  it('shows save and ok buttons per word', () => {
     render(<VocabularyPage level="A1" onNavigate={onNavigate} />);
-    expect(screen.getAllByText('Animals').length).toBeGreaterThanOrEqual(1);
-    expect(screen.getAllByText('Food').length).toBeGreaterThanOrEqual(1);
+    // Each word card should have Save and OK buttons
+    expect(screen.getAllByText('OK').length).toBeGreaterThanOrEqual(4);
   });
 
   it('has search input', () => {

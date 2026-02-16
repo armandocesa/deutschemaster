@@ -11,7 +11,14 @@ vi.mock('../contexts/LanguageContext', () => ({
         'grammar.topics': 'topics',
         'grammar.answer': 'Answer:',
         'grammar.explanation': 'Explanation:',
+        'grammar.rule': 'RULE',
+        'grammar.schema': 'SCHEMA',
+        'grammar.examples': 'EXAMPLES',
+        'grammar.usage': 'USAGE',
+        'grammar.exceptions': 'EXCEPTIONS',
         'lessons.exercises': 'Exercises',
+        'common.save': 'Save',
+        'favorites.title': 'Saved',
         'show': 'Show',
         'hide': 'Hide',
         'answer': 'answer',
@@ -59,6 +66,10 @@ vi.mock('../DataContext', () => ({
 
 vi.mock('../utils/storage', () => ({
   getGrammarStatus: () => 'unseen',
+  markGrammarStatus: vi.fn(),
+  saveDifficultWord: vi.fn(),
+  removeDifficultWord: vi.fn(),
+  isDifficultWord: () => false,
 }));
 
 vi.mock('../utils/cloudSync', () => ({ saveAndSync: vi.fn() }));

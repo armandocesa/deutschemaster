@@ -2689,23 +2689,7 @@ button:disabled, .quiz-option:disabled {
 .dona-footer { margin-top: 32px; padding: 20px; text-align: center; border-radius: var(--radius); background: rgba(108,92,231,0.05); border: 1px solid rgba(108,92,231,0.2); }
 .dona-footer-text { margin: 0; font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
 
-/* ===== GRAMMAR PAGE STYLES ===== */
-.grammar-regola-container { display: flex; flex-direction: column; gap: 12px; }
-.grammar-regola-paragraph { margin: 0; line-height: 1.6; }
-.grammar-schema-container { background-color: var(--bg-secondary); padding: 12px; border-radius: 6px; font-family: monospace; font-size: 13px; white-space: pre-wrap; word-break: break-word; line-height: 1.6; border: 1px solid var(--border-color); }
-.grammar-esempi-container { display: flex; flex-direction: column; gap: 16px; }
-.grammar-esempio-item { padding: 12px; background-color: var(--bg-secondary); border-left: 3px solid var(--accent); border-radius: 4px; }
-.grammar-esempio-german { font-weight: 600; color: var(--text-primary); margin-bottom: 8px; font-size: 15px; }
-.grammar-esempio-italian { color: var(--text-secondary); font-size: 14px; line-height: 1.5; }
-.grammar-eccezioni-container { background-color: var(--warning-dim); border: 1px solid var(--warning); border-left: 4px solid var(--warning); padding: 12px; border-radius: 4px; line-height: 1.6; }
-.grammar-uso-container { background-color: rgba(76, 175, 80, 0.08); border: 1px solid rgba(76, 175, 80, 0.2); padding: 12px; border-radius: 4px; line-height: 1.6; font-size: 14px; }
-.grammar-generic-item { margin-top: 4px; }
-.grammar-generic-label { color: var(--accent); font-size: 12px; }
-.grammar-generic-value { color: var(--text-secondary); }
-.grammar-section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
-.grammar-section-icon { font-size: 20px; }
-.grammar-section-title { margin: 0; font-size: 16px; font-weight: 600; color: var(--accent); letter-spacing: 0.5px; }
-.grammar-content-block { margin-bottom: 24px; }
+/* Old grammar page styles removed — replaced by simplified grammar sections below */
 
 /* ===== LISTENING PAGE STYLES ===== */
 .listening-lock-icon { margin-left: 4px; font-size: 12px; }
@@ -2771,3 +2755,176 @@ button:disabled, .quiz-option:disabled {
 .skeleton-page { padding: 20px; animation: fadeIn 0.3s ease; }
 .skeleton-title { width: 200px; height: 28px; margin-bottom: 8px; border-radius: var(--radius); background: var(--bg-secondary); }
 .skeleton-subtitle { width: 300px; height: 16px; margin-bottom: 24px; border-radius: var(--radius); background: var(--bg-secondary); }
+
+/* ===== SIMPLIFIED VOCABULARY CARDS ===== */
+.progress-summary { display: flex; gap: 16px; justify-content: center; padding: 12px 16px; flex-wrap: wrap; }
+.progress-summary-item { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-secondary); }
+.progress-summary-item .count { font-weight: 700; font-size: 15px; color: var(--text-primary); }
+.word-cards-list { display: flex; flex-direction: column; gap: 4px; padding: 0 16px; }
+.word-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; transition: border-color 0.2s;
+}
+.word-card:hover { border-color: var(--border-accent); }
+.word-card.status-correct { border-left: 3px solid var(--success); }
+.word-card.status-incorrect { border-left: 3px solid var(--error); }
+.word-card.status-unseen { border-left: 3px solid var(--border); }
+.word-card-main {
+  display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+}
+.word-card-german {
+  flex: 1; cursor: pointer; display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+}
+.word-card-german:hover { color: var(--accent); }
+.word-card-article { color: var(--text-tertiary); font-size: 13px; }
+.word-card-text { font-weight: 600; font-size: 15px; }
+.word-card-plural { color: var(--text-tertiary); font-size: 12px; }
+.word-card-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.word-card-btn {
+  display: flex; align-items: center; gap: 4px; padding: 6px 12px;
+  border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer;
+  border: 1px solid var(--border); background: var(--bg-primary);
+  color: var(--text-secondary); transition: all 0.2s;
+}
+.word-card-btn:hover { border-color: var(--accent); color: var(--accent); }
+.word-card-btn.save-btn.saved { color: var(--warning); border-color: var(--warning); background: rgba(245,158,11,0.08); }
+.word-card-btn.ok-btn.done { color: var(--success); border-color: var(--success); background: rgba(0,214,143,0.08); }
+.word-card-btn svg { width: 14px; height: 14px; }
+.word-card-hidden-rows { border-top: 1px solid var(--border); }
+.word-card-reveal {
+  display: flex; align-items: center; gap: 10px; padding: 8px 14px;
+  cursor: pointer; transition: background 0.2s; user-select: none;
+  border-bottom: 1px solid var(--border);
+}
+.word-card-reveal:last-child { border-bottom: none; }
+.word-card-reveal:hover { background: var(--bg-card-hover); }
+.word-card-reveal.revealed { background: rgba(124,108,240,0.04); }
+.reveal-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-tertiary); min-width: 80px; }
+.reveal-text { font-size: 14px; color: var(--accent); font-weight: 500; }
+.reveal-cover {
+  font-size: 12px; color: var(--text-secondary); padding: 2px 10px;
+  background: var(--bg-secondary); border-radius: 4px;
+}
+
+/* ===== SIMPLIFIED GRAMMAR SECTIONS ===== */
+.compact-number { font-size: 13px; font-weight: 700; color: var(--accent); min-width: 24px; flex-shrink: 0; }
+.grammar-section {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  margin-bottom: 12px; overflow: hidden;
+}
+.grammar-section-header {
+  display: flex; align-items: center; gap: 8px; padding: 12px 16px;
+  background: var(--bg-secondary); border-bottom: 1px solid var(--border);
+}
+.grammar-section-num { font-size: 14px; font-weight: 800; color: var(--accent); min-width: 24px; }
+.grammar-section-label { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-primary); margin: 0; }
+.grammar-section-body { padding: 14px 16px; }
+.grammar-rule-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; margin: 0; }
+.grammar-rule-list {
+  list-style: decimal; padding-left: 20px; margin: 0; color: var(--text-secondary);
+  font-size: 14px; line-height: 1.7;
+}
+.grammar-rule-item { margin-bottom: 8px; }
+.grammar-schema-table {
+  display: flex; flex-direction: column; gap: 2px;
+  background: var(--bg-primary); border-radius: 8px; padding: 8px;
+  font-family: monospace; font-size: 13px;
+}
+.schema-row {
+  display: flex; gap: 12px; padding: 6px 10px;
+  background: var(--bg-card); border-radius: 4px;
+}
+.schema-cell-left { font-weight: 700; color: var(--accent); min-width: 120px; }
+.schema-cell-right { color: var(--text-secondary); }
+.schema-row-single { padding: 6px 10px; color: var(--text-secondary); font-weight: 500; }
+.grammar-examples-list {
+  list-style: decimal; padding-left: 20px; margin: 0;
+  font-size: 14px;
+}
+.grammar-example-item { margin-bottom: 10px; }
+.grammar-example-de { font-weight: 600; color: var(--text-primary); margin-bottom: 2px; }
+.grammar-example-it { font-style: italic; color: var(--text-secondary); font-size: 13px; }
+.grammar-text-section { font-size: 14px; color: var(--text-secondary); line-height: 1.7; margin: 0; }
+.grammar-exceptions { background: rgba(245,158,11,0.06); border-left: 3px solid var(--warning); padding: 8px 12px; border-radius: 0 8px 8px 0; }
+
+/* Grammar exercise cards with save */
+.exercise-card-simple {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px; margin-bottom: 8px;
+}
+.exercise-top-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.exercise-save-btn {
+  background: none; border: none; cursor: pointer; padding: 6px;
+  color: var(--text-tertiary); border-radius: 6px; transition: all 0.2s;
+  min-width: 36px; min-height: 36px; display: flex; align-items: center; justify-content: center;
+}
+.exercise-save-btn:hover { color: var(--accent); background: var(--accent-dim); }
+.exercise-save-btn.saved { color: var(--warning); }
+
+/* ===== READING - DIFFICULT WORDS LIST WITH SAVE ===== */
+.reading-difficult-words {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px; margin-bottom: 24px;
+}
+.reading-section-title {
+  font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+  color: var(--text-secondary); margin: 0 0 12px 0;
+}
+.difficult-words-list { display: flex; flex-direction: column; gap: 4px; }
+.difficult-word-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 8px 12px; background: var(--bg-primary); border-radius: 8px;
+  transition: background 0.2s;
+}
+.difficult-word-item:hover { background: var(--bg-card-hover); }
+.difficult-word-info { display: flex; align-items: center; gap: 8px; flex: 1; flex-wrap: wrap; }
+.difficult-word-de { font-weight: 600; color: var(--accent); font-size: 14px; }
+.difficult-word-separator { color: var(--text-tertiary); font-size: 12px; }
+.difficult-word-tr { color: var(--text-secondary); font-size: 14px; }
+.word-save-btn {
+  background: none; border: none; cursor: pointer; padding: 6px;
+  color: var(--text-tertiary); border-radius: 6px; transition: all 0.2s;
+  min-width: 36px; min-height: 36px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.word-save-btn:hover { color: var(--accent); background: var(--accent-dim); }
+.word-save-btn.saved { color: var(--warning); }
+
+/* Reading comprehension */
+.comprehension-q-text { font-size: 15px; font-weight: 500; margin-bottom: 10px; line-height: 1.5; }
+.comprehension-section { margin-top: 16px; }
+.comprehension-section h2 { font-size: 16px; font-weight: 700; margin-bottom: 16px; }
+.comprehension-question { margin-bottom: 20px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+.comprehension-options { display: flex; flex-direction: column; gap: 8px; }
+.comprehension-option {
+  padding: 12px 16px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--bg-primary); color: var(--text-primary); font-size: 14px;
+  cursor: pointer; text-align: left; transition: all 0.2s;
+}
+.comprehension-option:hover:not(:disabled) { background: var(--bg-card-hover); border-color: var(--accent); }
+.comprehension-option.correct { border-color: var(--success); background: rgba(0,214,143,0.1); color: var(--success); }
+.comprehension-option.incorrect { border-color: var(--error); background: rgba(255,107,107,0.1); color: var(--error); }
+.comprehension-option:disabled { cursor: default; opacity: 0.7; }
+.comprehension-explanation { margin-top: 8px; padding: 10px; background: rgba(245,158,11,0.06); border-radius: 8px; font-size: 13px; color: var(--text-secondary); }
+.reading-score { text-align: center; padding: 24px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); margin-top: 16px; }
+.reading-score h2 { font-size: 22px; color: var(--accent); margin-bottom: 8px; }
+.reading-score p { color: var(--text-secondary); font-size: 15px; }
+.reading-toolbar { display: flex; gap: 8px; margin-bottom: 16px; }
+.read-aloud-btn {
+  display: flex; align-items: center; gap: 8px; padding: 10px 16px;
+  background: var(--accent); color: white; border: none; border-radius: var(--radius);
+  cursor: pointer; font-weight: 600; font-size: 14px; transition: all 0.2s;
+}
+.read-aloud-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(124,108,240,0.3); }
+
+/* ===== MOBILE RESPONSIVE FOR SIMPLIFIED PAGES ===== */
+@media (max-width: 600px) {
+  .word-cards-list { padding: 0 8px; }
+  .word-card-main { padding: 8px 10px; gap: 6px; }
+  .word-card-btn span { display: none; }
+  .word-card-btn { padding: 6px 8px; }
+  .word-card-reveal { padding: 6px 10px; }
+  .reveal-label { min-width: 60px; font-size: 10px; }
+  .schema-cell-left { min-width: 80px; }
+  .difficult-word-item { padding: 6px 8px; }
+}
