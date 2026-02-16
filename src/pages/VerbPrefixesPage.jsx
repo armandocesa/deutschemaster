@@ -181,6 +181,7 @@ function VerbCard({ verb, prefix, onToggleFavorite, saved }) {
 }
 
 function PrefixCard({ prefix, onToggleFavorite, savedVerbs }) {
+  const { t } = useLanguage();
   const [expanded, setExpanded] = useState(false);
 
   const verbs = prefix.verbs || [];

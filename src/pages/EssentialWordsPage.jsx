@@ -13,16 +13,24 @@ const formatCategory = (cat) => {
 };
 
 function EssentialWordRow({ word, category, saved, onToggleFavorite }) {
+  const [showTranslation, setShowTranslation] = useState(false);
   return (
     <tr className="vocab-row">
       <td className="vocab-cell-word">
         <div className="vocab-word-main">
-          {word.article && <span className="vocab-article">{word.article}</span>}
           <span className="vocab-german">{word.german}</span>
-          {word.plural && <span className="vocab-plural">({word.plural})</span>}
+          {word.article && <span className="vocab-article"> ({word.article})</span>}
         </div>
       </td>
-      <td className="vocab-cell-translation">{word.italian || ''}</td>
+      <td className="vocab-cell-translation">
+        <span
+          className={`word-card-translation ${showTranslation ? 'revealed' : ''}`}
+          onClick={() => setShowTranslation(!showTranslation)}
+          style={{ cursor: 'pointer' }}
+        >
+          {showTranslation ? (word.italian || '—') : '...'}
+        </span>
+      </td>
       <td className="vocab-cell-category"><span className="vocab-category-badge">{formatCategory(category)}</span></td>
       <td className="vocab-cell-actions">
         <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={() => onToggleFavorite(word.german)} title={saved ? 'Remove' : 'Save'} aria-label={saved ? 'Remove from saved' : 'Save word'}>

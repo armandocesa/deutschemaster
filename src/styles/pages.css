@@ -2770,41 +2770,32 @@ button:disabled, .quiz-option:disabled {
 .word-card.status-incorrect { border-left: 3px solid var(--error); }
 .word-card.status-unseen { border-left: 3px solid var(--border); }
 .word-card-main {
-  display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+  display: flex; align-items: center; gap: 8px; padding: 8px 12px;
 }
 .word-card-german {
-  flex: 1; cursor: pointer; display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+  flex: 1; min-width: 0; cursor: pointer; display: flex; align-items: baseline; gap: 4px;
 }
 .word-card-german:hover { color: var(--accent); }
-.word-card-article { color: var(--text-tertiary); font-size: 13px; }
-.word-card-text { font-weight: 600; font-size: 15px; }
-.word-card-plural { color: var(--text-tertiary); font-size: 12px; }
-.word-card-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.word-card-article { color: var(--text-tertiary); font-size: 12px; }
+.word-card-text { font-weight: 600; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.word-card-translation {
+  flex-shrink: 0; font-size: 13px; font-weight: 500; cursor: pointer;
+  padding: 2px 10px; border-radius: 6px; user-select: none; transition: all 0.2s;
+  background: var(--bg-secondary); color: var(--text-tertiary); min-width: 36px; text-align: center;
+}
+.word-card-translation.revealed {
+  color: var(--accent); background: rgba(124,108,240,0.08); font-weight: 600;
+}
 .word-card-btn {
-  display: flex; align-items: center; gap: 4px; padding: 6px 12px;
-  border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; padding: 6px 8px;
+  border-radius: 8px; font-size: 12px; cursor: pointer;
   border: 1px solid var(--border); background: var(--bg-primary);
-  color: var(--text-secondary); transition: all 0.2s;
+  color: var(--text-secondary); transition: all 0.2s; flex-shrink: 0;
 }
 .word-card-btn:hover { border-color: var(--accent); color: var(--accent); }
 .word-card-btn.save-btn.saved { color: var(--warning); border-color: var(--warning); background: rgba(245,158,11,0.08); }
 .word-card-btn.ok-btn.done { color: var(--success); border-color: var(--success); background: rgba(0,214,143,0.08); }
 .word-card-btn svg { width: 14px; height: 14px; }
-.word-card-hidden-rows { border-top: 1px solid var(--border); }
-.word-card-reveal {
-  display: flex; align-items: center; gap: 10px; padding: 8px 14px;
-  cursor: pointer; transition: background 0.2s; user-select: none;
-  border-bottom: 1px solid var(--border);
-}
-.word-card-reveal:last-child { border-bottom: none; }
-.word-card-reveal:hover { background: var(--bg-card-hover); }
-.word-card-reveal.revealed { background: rgba(124,108,240,0.04); }
-.reveal-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-tertiary); min-width: 80px; }
-.reveal-text { font-size: 14px; color: var(--accent); font-weight: 500; }
-.reveal-cover {
-  font-size: 12px; color: var(--text-secondary); padding: 2px 10px;
-  background: var(--bg-secondary); border-radius: 4px;
-}
 
 /* ===== SIMPLIFIED GRAMMAR SECTIONS ===== */
 .compact-number { font-size: 13px; font-weight: 700; color: var(--accent); min-width: 24px; flex-shrink: 0; }
@@ -2919,12 +2910,13 @@ button:disabled, .quiz-option:disabled {
 
 /* ===== MOBILE RESPONSIVE FOR SIMPLIFIED PAGES ===== */
 @media (max-width: 600px) {
-  .word-cards-list { padding: 0 8px; }
-  .word-card-main { padding: 8px 10px; gap: 6px; }
-  .word-card-btn span { display: none; }
-  .word-card-btn { padding: 6px 8px; }
-  .word-card-reveal { padding: 6px 10px; }
-  .reveal-label { min-width: 60px; font-size: 10px; }
+  .word-cards-list { padding: 0 6px; }
+  .word-card-main { padding: 6px 8px; gap: 4px; }
+  .word-card-text { font-size: 13px; }
+  .word-card-article { font-size: 11px; }
+  .word-card-translation { font-size: 11px; padding: 2px 6px; min-width: 30px; }
+  .word-card-btn { padding: 5px 6px; }
+  .word-card-btn svg { width: 12px; height: 12px; }
   .schema-cell-left { min-width: 80px; }
   .difficult-word-item { padding: 6px 8px; }
 }
