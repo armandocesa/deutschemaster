@@ -10,7 +10,6 @@ import { saveAndSync } from '../utils/cloudSync';
 
 function WordCard({ word, category, onSaveChange }) {
   const { t } = useLanguage();
-  const [showTranslation, setShowTranslation] = useState(false);
   const [showExample, setShowExample] = useState(false);
   const [saved, setSaved] = useState(isDifficultWord(word.german));
   const wordStatus = getWordStatus(word.german);
@@ -38,6 +37,7 @@ function WordCard({ word, category, onSaveChange }) {
           <span className="word-card-text">{word.german}</span>
           {word.plural && <span className="word-card-plural"> ({word.plural})</span>}
         </div>
+        <span className="word-card-translation">{word.italian || '—'}</span>
         <div className="word-card-actions">
           <button
             className={`word-card-btn save-btn ${saved ? 'saved' : ''}`}
@@ -57,19 +57,8 @@ function WordCard({ word, category, onSaveChange }) {
         </div>
       </div>
 
-      <div className="word-card-hidden-rows">
-        <div
-          className={`word-card-reveal ${showTranslation ? 'revealed' : ''}`}
-          onClick={() => setShowTranslation(!showTranslation)}
-        >
-          <span className="reveal-label">{t('vocabulary.colTranslation')}</span>
-          {showTranslation
-            ? <span className="reveal-text">{word.italian || '—'}</span>
-            : <span className="reveal-cover">{t('show')}</span>
-          }
-        </div>
-
-        {word.example && (
+      {word.example && (
+        <div className="word-card-hidden-rows">
           <div
             className={`word-card-reveal ${showExample ? 'revealed' : ''}`}
             onClick={() => setShowExample(!showExample)}
@@ -80,8 +69,8 @@ function WordCard({ word, category, onSaveChange }) {
               : <span className="reveal-cover">{t('show')}</span>
             }
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -2779,6 +2779,10 @@ button:disabled, .quiz-option:disabled {
 .word-card-article { color: var(--text-tertiary); font-size: 13px; }
 .word-card-text { font-weight: 600; font-size: 15px; }
 .word-card-plural { color: var(--text-tertiary); font-size: 12px; }
+.word-card-translation {
+  flex-shrink: 0; color: var(--accent); font-size: 14px; font-weight: 500;
+  padding: 2px 8px; background: rgba(124,108,240,0.06); border-radius: 6px;
+}
 .word-card-actions { display: flex; gap: 6px; flex-shrink: 0; }
 .word-card-btn {
   display: flex; align-items: center; gap: 4px; padding: 6px 12px;
@@ -2921,6 +2925,7 @@ button:disabled, .quiz-option:disabled {
 @media (max-width: 600px) {
   .word-cards-list { padding: 0 8px; }
   .word-card-main { padding: 8px 10px; gap: 6px; }
+  .word-card-translation { font-size: 12px; padding: 2px 6px; }
   .word-card-btn span { display: none; }
   .word-card-btn { padding: 6px 8px; }
   .word-card-reveal { padding: 6px 10px; }
