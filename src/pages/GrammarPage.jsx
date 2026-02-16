@@ -8,7 +8,7 @@ import { getGrammarStatus, saveDifficultWord, removeDifficultWord, isDifficultWo
 import { saveAndSync } from '../utils/cloudSync';
 
 // Single rule card displayed inline in the all-rules view
-function GrammarRuleCard({ topic, index, colors, onNavigate, level }) {
+function GrammarRuleCard({ topic, index, colors, onNavigate, level, totalTopics, topics }) {
   const { t } = useLanguage();
   const [showMore, setShowMore] = useState(false);
   const [answerVisibility, setAnswerVisibility] = useState({});
@@ -16,6 +16,13 @@ function GrammarRuleCard({ topic, index, colors, onNavigate, level }) {
   const content = topic.content || {};
   const topicId = topic.id || `rule_${index}`;
   const topicStatus = getGrammarStatus(topicId);
+
+  const scrollToRule = (targetIndex) => {
+    const targetTopic = topics[targetIndex];
+    const targetId = targetTopic?.id || `rule_${targetIndex}`;
+    const el = document.getElementById(`rule-${targetId}`);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   const toggleAnswer = (idx) => {
     setAnswerVisibility(prev => ({...prev, [idx]: !prev[idx]}));
@@ -198,6 +205,23 @@ function GrammarRuleCard({ topic, index, colors, onNavigate, level }) {
           )}
         </div>
       )}
+
+      {/* Navigation: Previous / Next */}
+      <div className="gr-nav-footer">
+        {index > 0 ? (
+          <button className="gr-nav-btn gr-nav-prev" onClick={() => scrollToRule(index - 1)}>
+            <span className="gr-nav-arrow">&larr;</span>
+            <span className="gr-nav-label">{topics[index - 1]?.name}</span>
+          </button>
+        ) : <span />}
+        <span className="gr-nav-counter">{index + 1} / {totalTopics}</span>
+        {index < totalTopics - 1 ? (
+          <button className="gr-nav-btn gr-nav-next" onClick={() => scrollToRule(index + 1)}>
+            <span className="gr-nav-label">{topics[index + 1]?.name}</span>
+            <span className="gr-nav-arrow">&rarr;</span>
+          </button>
+        ) : <span />}
+      </div>
     </article>
   );
 }
@@ -418,6 +442,8 @@ export default function GrammarPage({ level, topic, onNavigate }) {
               level={activeLevel}
               colors={colors}
               onNavigate={onNavigate}
+              totalTopics={topics.length}
+              topics={topics}
             />
           ))}
         </div>
