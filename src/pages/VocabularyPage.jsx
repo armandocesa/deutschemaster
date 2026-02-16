@@ -5,19 +5,17 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
 import { speak } from '../utils/speech';
-import { getWordStatus, isDifficultWord, saveDifficultWord, removeDifficultWord } from '../utils/storage';
+import { getWordStatus, markWordStatus, isDifficultWord, saveDifficultWord, removeDifficultWord } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
 
-// Format category names: "qualita_neg" → "Qualita neg", "ambiente" → "Ambiente"
-const formatCategory = (cat) => {
-  if (!cat) return '';
-  return cat.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-};
-
-function WordRow({ word, category, onSaveChange }) {
+function WordCard({ word, category, onSaveChange }) {
+  const { t } = useLanguage();
+  const [showTranslation, setShowTranslation] = useState(false);
+  const [showExample, setShowExample] = useState(false);
   const [saved, setSaved] = useState(isDifficultWord(word.german));
-  useEffect(() => { setSaved(isDifficultWord(word.german)); }, [word.german]);
   const wordStatus = getWordStatus(word.german);
+
+  useEffect(() => { setSaved(isDifficultWord(word.german)); }, [word.german]);
 
   const toggleSave = () => {
     if (saved) { removeDifficultWord(word.german); }
@@ -26,27 +24,65 @@ function WordRow({ word, category, onSaveChange }) {
     if (onSaveChange) onSaveChange();
   };
 
+  const handleOk = () => {
+    markWordStatus(word.german, true);
+    if (onSaveChange) onSaveChange();
+  };
+
   return (
-    <tr className={`vocab-row status-${wordStatus}`}>
-      <td className="vocab-cell-status"><span className={`progress-dot ${wordStatus}`}></span></td>
-      <td className="vocab-cell-word">
-        <div className="vocab-word-main">
-          {word.article && <span className="vocab-article">{word.article}</span>}
-          <span className="vocab-german">{word.german}</span>
-          {word.plural && <span className="vocab-plural">({word.plural})</span>}
+    <div className={`word-card status-${wordStatus}`}>
+      <div className="word-card-main">
+        <span className={`progress-dot ${wordStatus}`}></span>
+        <div className="word-card-german" onClick={() => speak(word.german)}>
+          {word.article && <span className="word-card-article">{word.article} </span>}
+          <span className="word-card-text">{word.german}</span>
+          {word.plural && <span className="word-card-plural"> ({word.plural})</span>}
         </div>
-      </td>
-      <td className="vocab-cell-translation">{word.italian || ''}</td>
-      <td className="vocab-cell-category"><span className="vocab-category-badge">{formatCategory(category)}</span></td>
-      <td className="vocab-cell-actions">
-        <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={toggleSave} title={saved ? 'Remove' : 'Save'} aria-label={saved ? 'Remove from saved' : 'Save word'}>
-          {saved ? <Icons.StarFilled /> : <Icons.Star />}
-        </button>
-        <button className="vocab-action-btn" onClick={() => speak(word.german)} title="Listen" aria-label="Listen to pronunciation">
-          <Icons.Volume />
-        </button>
-      </td>
-    </tr>
+        <div className="word-card-actions">
+          <button
+            className={`word-card-btn save-btn ${saved ? 'saved' : ''}`}
+            onClick={toggleSave}
+            title={saved ? t('favorites.title') : t('common.save')}
+          >
+            {saved ? <Icons.StarFilled /> : <Icons.Star />}
+            <span>{saved ? t('vocabulary.filterSaved') : t('common.save')}</span>
+          </button>
+          <button
+            className={`word-card-btn ok-btn ${wordStatus === 'correct' ? 'done' : ''}`}
+            onClick={handleOk}
+            title="OK"
+          >
+            <span>OK</span>
+          </button>
+        </div>
+      </div>
+
+      <div className="word-card-hidden-rows">
+        <div
+          className={`word-card-reveal ${showTranslation ? 'revealed' : ''}`}
+          onClick={() => setShowTranslation(!showTranslation)}
+        >
+          <span className="reveal-label">{t('vocabulary.colTranslation')}</span>
+          {showTranslation
+            ? <span className="reveal-text">{word.italian || '—'}</span>
+            : <span className="reveal-cover">{t('show')}</span>
+          }
+        </div>
+
+        {word.example && (
+          <div
+            className={`word-card-reveal ${showExample ? 'revealed' : ''}`}
+            onClick={() => setShowExample(!showExample)}
+          >
+            <span className="reveal-label">{t('essentialWords.example')}</span>
+            {showExample
+              ? <span className="reveal-text">{word.example}</span>
+              : <span className="reveal-cover">{t('show')}</span>
+            }
+          </div>
+        )}
+      </div>
+    </div>
   );
 }
 
@@ -56,7 +92,7 @@ export default function VocabularyPage({ level, onNavigate }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [internalLevel, setInternalLevel] = useState(level || (() => { try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; } }));
   const activeLevel = level || internalLevel;
-  const [displayCount, setDisplayCount] = useState(100);
+  const [displayCount, setDisplayCount] = useState(50);
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const [filter, setFilter] = useState('all');
   const [saveVersion, setSaveVersion] = useState(0);
@@ -64,7 +100,7 @@ export default function VocabularyPage({ level, onNavigate }) {
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
-    setDisplayCount(100);
+    setDisplayCount(50);
     setSearchTerm('');
     setDebouncedSearch('');
     setFilter('all');
@@ -78,7 +114,7 @@ export default function VocabularyPage({ level, onNavigate }) {
     if (debounceRef.current) clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => {
       setDebouncedSearch(value);
-      setDisplayCount(100);
+      setDisplayCount(50);
     }, 300);
   }, []);
 
@@ -86,7 +122,6 @@ export default function VocabularyPage({ level, onNavigate }) {
   const modules = levelData?.modules || [];
   const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
 
-  // Flatten all words from all modules with category info
   const allWords = useMemo(() => {
     const words = [];
     modules.forEach(mod => {
@@ -98,7 +133,6 @@ export default function VocabularyPage({ level, onNavigate }) {
     return words;
   }, [modules]);
 
-  // Progress counts (re-compute when save changes)
   const progressCounts = useMemo(() => {
     const correct = allWords.filter(w => getWordStatus(w.german) === 'correct').length;
     const incorrect = allWords.filter(w => getWordStatus(w.german) === 'incorrect').length;
@@ -107,11 +141,8 @@ export default function VocabularyPage({ level, onNavigate }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allWords, saveVersion]);
 
-  // Apply search + filter
   const filteredWords = useMemo(() => {
     let result = allWords;
-
-    // Search filter
     if (debouncedSearch) {
       const q = debouncedSearch.toLowerCase();
       result = result.filter(w =>
@@ -120,13 +151,10 @@ export default function VocabularyPage({ level, onNavigate }) {
         (w._category || '').toLowerCase().includes(q)
       );
     }
-
-    // Status filter
     if (filter === 'saved') result = result.filter(w => isDifficultWord(w.german));
     else if (filter === 'correct') result = result.filter(w => getWordStatus(w.german) === 'correct');
     else if (filter === 'incorrect') result = result.filter(w => getWordStatus(w.german) === 'incorrect');
     else if (filter === 'unseen') result = result.filter(w => getWordStatus(w.german) === 'unseen');
-
     return result;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allWords, debouncedSearch, filter, saveVersion]);
@@ -143,14 +171,12 @@ export default function VocabularyPage({ level, onNavigate }) {
 
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
 
-      {/* Progress summary */}
       <div className="progress-summary">
         <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{progressCounts.correct}</span> {t('vocabulary.correct')}</div>
         <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{progressCounts.incorrect}</span> {t('vocabulary.incorrect')}</div>
         <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{progressCounts.unseen}</span> {t('vocabulary.unseen')}</div>
       </div>
 
-      {/* Toolbar: search + filters */}
       <div className="vocab-toolbar">
         <div className="search-box"><Icons.Search /><input type="text" placeholder={t('vocabulary.search')} value={searchTerm} onChange={handleSearch} /></div>
       </div>
@@ -166,42 +192,28 @@ export default function VocabularyPage({ level, onNavigate }) {
           <button
             key={f.key}
             className={`vocab-filter-btn ${filter === f.key ? 'active' : ''}`}
-            onClick={() => { setFilter(f.key); setDisplayCount(100); }}
+            onClick={() => { setFilter(f.key); setDisplayCount(50); }}
           >
             {f.label} <span className="vocab-filter-count">{f.count}</span>
           </button>
         ))}
       </div>
 
-      {/* Table */}
-      <div className="vocab-table-wrapper">
-        <table className="vocab-table">
-          <thead>
-            <tr>
-              <th className="vocab-th-status"></th>
-              <th className="vocab-th-word">{t('vocabulary.colWord')}</th>
-              <th className="vocab-th-translation">{t('vocabulary.colTranslation')}</th>
-              <th className="vocab-th-category">{t('vocabulary.colCategory')}</th>
-              <th className="vocab-th-actions">{t('vocabulary.colActions')}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {visibleWords.map((word) => (
-              <WordRow
-                key={`${word.german}_${word.article || ''}_${word._category}`}
-                word={word}
-                category={word._category}
-                onSaveChange={() => setSaveVersion(v => v + 1)}
-              />
-            ))}
-          </tbody>
-        </table>
+      <div className="word-cards-list">
+        {visibleWords.map((word) => (
+          <WordCard
+            key={`${word.german}_${word.article || ''}_${word._category}`}
+            word={word}
+            category={word._category}
+            onSaveChange={() => setSaveVersion(v => v + 1)}
+          />
+        ))}
       </div>
 
       {hasMore && (
         <div style={{textAlign:'center',padding:'20px'}}>
           <button
-            onClick={() => setDisplayCount(prev => prev + 100)}
+            onClick={() => setDisplayCount(prev => prev + 50)}
             className="vocab-load-more-btn"
           >
             {t('vocabulary.loadMore')} ({filteredWords.length - displayCount} {t('vocabulary.remaining')})
