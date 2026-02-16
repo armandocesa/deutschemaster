@@ -5,8 +5,8 @@ import { useTheme } from '../contexts/ThemeContext';
 import { getStreak, getXP } from '../utils/gamification';
 
 export default function Header({ currentPage, onNavigate, onBack, showBack, breadcrumbs }) {
-  const streak = useMemo(() => getStreak(), []);
-  const xp = useMemo(() => getXP(), []);
+  const streak = useMemo(() => getStreak(), [currentPage]);
+  const xp = useMemo(() => getXP(), [currentPage]);
   const { language, setLanguage, t } = useLanguage();
   const { theme, toggleTheme } = useTheme();
 

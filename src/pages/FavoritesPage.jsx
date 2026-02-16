@@ -34,10 +34,10 @@ export default function FavoritesPage({ onNavigate }) {
           <div className="empty-state-desc">{t('favorites.hint')}</div>
           <div className="empty-state-actions">
             <button className="empty-state-btn" onClick={() => onNavigate('vocabulary', { level: 'A1' })}>
-              {t('home.vocabularyTitle') !== 'home.vocabularyTitle' ? t('home.vocabularyTitle') : 'Vocabulary'}
+              {t('home.vocabularyTitle')}
             </button>
             <button className="empty-state-btn secondary" onClick={() => onNavigate('grammar', { level: 'A1' })}>
-              {t('home.grammarTitle') !== 'home.grammarTitle' ? t('home.grammarTitle') : 'Grammar'}
+              {t('home.grammarTitle')}
             </button>
           </div>
         </div>

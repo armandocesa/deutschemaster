@@ -10,7 +10,7 @@ import { saveAndSync } from '../utils/cloudSync';
 
 function WordCard({ word, category, onSaveChange }) {
   const { t } = useLanguage();
-  const [showExample, setShowExample] = useState(false);
+  const [showTranslation, setShowTranslation] = useState(false);
   const [saved, setSaved] = useState(isDifficultWord(word.german));
   const wordStatus = getWordStatus(word.german);
 
@@ -33,44 +33,30 @@ function WordCard({ word, category, onSaveChange }) {
       <div className="word-card-main">
         <span className={`progress-dot ${wordStatus}`}></span>
         <div className="word-card-german" onClick={() => speak(word.german)}>
-          {word.article && <span className="word-card-article">{word.article} </span>}
           <span className="word-card-text">{word.german}</span>
-          {word.plural && <span className="word-card-plural"> ({word.plural})</span>}
+          {word.article && <span className="word-card-article"> ({word.article})</span>}
         </div>
-        <span className="word-card-translation">{word.italian || '—'}</span>
-        <div className="word-card-actions">
-          <button
-            className={`word-card-btn save-btn ${saved ? 'saved' : ''}`}
-            onClick={toggleSave}
-            title={saved ? t('favorites.title') : t('common.save')}
-          >
-            {saved ? <Icons.StarFilled /> : <Icons.Star />}
-            <span>{saved ? t('vocabulary.filterSaved') : t('common.save')}</span>
-          </button>
-          <button
-            className={`word-card-btn ok-btn ${wordStatus === 'correct' ? 'done' : ''}`}
-            onClick={handleOk}
-            title="OK"
-          >
-            <span>OK</span>
-          </button>
-        </div>
+        <span
+          className={`word-card-translation ${showTranslation ? 'revealed' : ''}`}
+          onClick={() => setShowTranslation(!showTranslation)}
+        >
+          {showTranslation ? (word.italian || '—') : '...'}
+        </span>
+        <button
+          className={`word-card-btn save-btn ${saved ? 'saved' : ''}`}
+          onClick={toggleSave}
+          title={saved ? t('favorites.title') : t('common.save')}
+        >
+          {saved ? <Icons.StarFilled /> : <Icons.Star />}
+        </button>
+        <button
+          className={`word-card-btn ok-btn ${wordStatus === 'correct' ? 'done' : ''}`}
+          onClick={handleOk}
+          title="OK"
+        >
+          <Icons.Check />
+        </button>
       </div>
-
-      {word.example && (
-        <div className="word-card-hidden-rows">
-          <div
-            className={`word-card-reveal ${showExample ? 'revealed' : ''}`}
-            onClick={() => setShowExample(!showExample)}
-          >
-            <span className="reveal-label">{t('essentialWords.example')}</span>
-            {showExample
-              ? <span className="reveal-text">{word.example}</span>
-              : <span className="reveal-cover">{t('show')}</span>
-            }
-          </div>
-        </div>
-      )}
     </div>
   );
 }

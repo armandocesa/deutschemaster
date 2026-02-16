@@ -237,7 +237,7 @@ export default function FlashcardsPage({ onNavigate }) {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [mode, flipped]);
+  }, [mode, flipped, cards, currentIndex]);
 
   // Return to setup
   const backToSetup = () => {
