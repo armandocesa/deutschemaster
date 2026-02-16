@@ -7,7 +7,7 @@ import { saveAndSync } from '../utils/cloudSync';
 import { addXP } from '../utils/gamification';
 import { useLanguage } from '../contexts/LanguageContext';
 
-function StoryReader({ story, level, colors, onBack }) {
+function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
   const [currentLineIndex, setCurrentLineIndex] = useState(0);
   const [showQuestion, setShowQuestion] = useState(false);
   const [answers, setAnswers] = useState({});
@@ -40,8 +40,8 @@ function StoryReader({ story, level, colors, onBack }) {
     }
   };
 
-  const handleAnswer = (answer) => {
-    setAnswers(prev => ({...prev, [currentLineIndex]: answer}));
+  const handleAnswer = (answerIdx) => {
+    setAnswers(prev => ({...prev, [currentLineIndex]: answerIdx}));
     setShowQuestion(false);
     setTimeout(() => handleNext(), 500);
   };
@@ -111,9 +111,16 @@ function StoryReader({ story, level, colors, onBack }) {
                 </p>
               </div>
             )}
-            <button onClick={onBack} className="stories-back-button">
-              {t('stories.backToStories')}
-            </button>
+            <div className="stories-navigation" style={{marginTop: '16px'}}>
+              <button onClick={onBack} className="stories-nav-back-btn">
+                {t('stories.backToStories')}
+              </button>
+              {hasNext && (
+                <button onClick={onNextStory} className="stories-nav-next-btn">
+                  {t('stories.nextLine')} &rarr;
+                </button>
+              )}
+            </div>
           </div>
         </div>
       </div>
@@ -174,11 +181,11 @@ function StoryReader({ story, level, colors, onBack }) {
                 {(question.options || []).map((opt, idx) => {
                   const answered = answers[currentLineIndex] !== undefined;
                   const isCorrect = idx === question.correctAnswer;
-                  const selected = answers[currentLineIndex] === opt;
+                  const selected = answers[currentLineIndex] === idx;
                   return (
                     <button
                       key={idx}
-                      onClick={() => handleAnswer(opt)}
+                      onClick={() => handleAnswer(idx)}
                       disabled={answered}
                       className={`stories-option-btn ${answered ? (isCorrect ? 'correct' : selected ? 'incorrect' : 'pending') : ''}`}
                     >
@@ -228,8 +235,16 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   useEffect(() => {
     const fetchStories = async () => {
       try {
-        const res = await fetch(language === 'en' ? '/data/en/stories.json' : '/data/stories.json');
-        const data = await res.json();
+        const base = import.meta.env.BASE_URL + 'data';
+        const langPath = language && language !== 'it' ? `${base}/${language}/stories.json` : null;
+        let data = null;
+        if (langPath) {
+          try { const r = await fetch(langPath); if (r.ok) data = await r.json(); } catch {}
+        }
+        if (!data) {
+          const r = await fetch(`${base}/stories.json`);
+          data = await r.json();
+        }
         setStories(data.levels || {});
         const completed = JSON.parse(localStorage.getItem('dm_completed_stories') || '[]');
         setCompletedStories(completed);
@@ -265,7 +280,18 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   }
 
   if (selectedStory) {
-    return <StoryReader story={selectedStory} level={activeLevel} colors={colors} onBack={() => setSelectedStory(null)} />;
+    const storyIdx = currentStories.findIndex(s => s.id === selectedStory.id);
+    const nextStory = storyIdx >= 0 && storyIdx < currentStories.length - 1 ? currentStories[storyIdx + 1] : null;
+    return (
+      <StoryReader
+        story={selectedStory}
+        level={activeLevel}
+        colors={colors}
+        onBack={() => setSelectedStory(null)}
+        hasNext={!!nextStory}
+        onNextStory={() => nextStory && setSelectedStory(nextStory)}
+      />
+    );
   }
 
   if (!canAccess) {

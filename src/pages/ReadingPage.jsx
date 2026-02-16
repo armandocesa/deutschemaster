@@ -7,8 +7,11 @@ import { useData } from '../DataContext';
 import { saveDifficultWord, removeDifficultWord, isDifficultWord } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
 
-function ReadingDetail({ reading, level, colors }) {
+function ReadingDetail({ reading, level, colors, allTexts, onNavigate }) {
   const { t } = useLanguage();
+  const currentIndex = allTexts ? allTexts.findIndex(tx => tx.id === reading.id) : -1;
+  const nextReading = currentIndex >= 0 && currentIndex < allTexts.length - 1 ? allTexts[currentIndex + 1] : null;
+  const prevReading = currentIndex > 0 ? allTexts[currentIndex - 1] : null;
   const [answers, setAnswers] = useState({});
   const [showScore, setShowScore] = useState(false);
   const [savedWords, setSavedWords] = useState({});
@@ -28,14 +31,14 @@ function ReadingDetail({ reading, level, colors }) {
     return () => { window.speechSynthesis.cancel(); };
   }, []);
 
-  const handleAnswer = (qIdx, answer) => {
+  const handleAnswer = (qIdx, answerIdx) => {
     if (answers[qIdx] !== undefined) return;
-    const newAnswers = {...answers, [qIdx]: answer};
+    const newAnswers = {...answers, [qIdx]: answerIdx};
     setAnswers(newAnswers);
     if (Object.keys(newAnswers).length === reading.questions.length) setShowScore(true);
   };
 
-  const score = Object.entries(answers).filter(([idx, ans]) => ans === reading.questions[parseInt(idx)]?.correctAnswer).length;
+  const score = Object.entries(answers).filter(([qIdx, ansIdx]) => ansIdx === reading.questions[parseInt(qIdx)]?.correctAnswer).length;
 
   const readAloud = () => {
     try {
@@ -146,8 +149,8 @@ function ReadingDetail({ reading, level, colors }) {
                   {q.options.map((opt, oIdx) => (
                     <button
                       key={oIdx}
-                      className={`comprehension-option ${hasAnswered ? (opt === q.correctAnswer ? 'correct' : opt === userAnswer ? 'incorrect' : '') : ''}`}
-                      onClick={() => handleAnswer(qIdx, opt)}
+                      className={`comprehension-option ${hasAnswered ? (oIdx === q.correctAnswer ? 'correct' : oIdx === userAnswer ? 'incorrect' : '') : ''}`}
+                      onClick={() => handleAnswer(qIdx, oIdx)}
                       disabled={hasAnswered}
                     >
                       {opt}
@@ -173,6 +176,18 @@ function ReadingDetail({ reading, level, colors }) {
             </div>
           )}
         </div>
+
+        {/* Navigation buttons */}
+        <div className="stories-navigation" style={{marginTop: '16px'}}>
+          <button className="stories-nav-back-btn" onClick={() => onNavigate('reading', {level})}>
+            {t('stories.back')}
+          </button>
+          {nextReading && (
+            <button className="stories-nav-next-btn" onClick={() => onNavigate('reading', {level, reading: nextReading})}>
+              {t('stories.nextLine')} &rarr;
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -192,7 +207,7 @@ export default function ReadingPage({ level, reading, onNavigate }) {
     if (level) onNavigate('reading', { level: lvl });
   };
 
-  if (reading) return <ReadingDetail reading={reading} level={activeLevel} colors={colors} />;
+  if (reading) return <ReadingDetail reading={reading} level={activeLevel} colors={colors} allTexts={texts} onNavigate={onNavigate} />;
 
   return (
     <div className="reading-page">
