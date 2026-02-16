@@ -18,7 +18,7 @@ function EssentialWordRow({ word, category, saved, onToggleFavorite }) {
     <tr className="vocab-row">
       <td className="vocab-cell-word">
         <div className="vocab-word-main">
-          <span className="vocab-german">{word.german}</span>
+          <span className="vocab-german">{word.de}</span>
           {word.article && <span className="vocab-article"> ({word.article})</span>}
         </div>
       </td>
@@ -28,15 +28,15 @@ function EssentialWordRow({ word, category, saved, onToggleFavorite }) {
           onClick={() => setShowTranslation(!showTranslation)}
           style={{ cursor: 'pointer' }}
         >
-          {showTranslation ? (word.italian || '—') : '...'}
+          {showTranslation ? (word._translation || '—') : '...'}
         </span>
       </td>
       <td className="vocab-cell-category"><span className="vocab-category-badge">{formatCategory(category)}</span></td>
       <td className="vocab-cell-actions">
-        <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={() => onToggleFavorite(word.german)} title={saved ? 'Remove' : 'Save'} aria-label={saved ? 'Remove from saved' : 'Save word'}>
+        <button className={`vocab-action-btn ${saved ? 'saved' : ''}`} onClick={() => onToggleFavorite(word.de)} title={saved ? 'Remove' : 'Save'} aria-label={saved ? 'Remove from saved' : 'Save word'}>
           {saved ? <Icons.StarFilled /> : <Icons.Star />}
         </button>
-        <button className="vocab-action-btn" onClick={() => speak(word.german)} title="Listen" aria-label="Listen to pronunciation">
+        <button className="vocab-action-btn" onClick={() => speak(word.de)} title="Listen" aria-label="Listen to pronunciation">
           <Icons.Volume />
         </button>
       </td>
@@ -80,19 +80,31 @@ export default function EssentialWordsPage({ level, onNavigate }) {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${import.meta.env.BASE_URL}data/essential-words-${activeLevel.toLowerCase()}.json`)
-      .then(r => r.json())
-      .then(d => {
+    const base = import.meta.env.BASE_URL + 'data';
+    const lvl = activeLevel.toLowerCase();
+    const langPath = language && language !== 'it' ? `${base}/${language}/essential-words-${lvl}.json` : null;
+    const defaultPath = `${base}/essential-words-${lvl}.json`;
+
+    const doFetch = async () => {
+      let d = null;
+      if (langPath) {
+        try { const r = await fetch(langPath); if (r.ok) d = await r.json(); } catch {}
+      }
+      if (!d) {
+        try { const r = await fetch(defaultPath); if (r.ok) d = await r.json(); } catch {}
+      }
+      if (d) {
         setData(d);
         setSavedWords(new Set(
           (d.categories || []).flatMap(cat => (cat.words || []))
-            .filter(w => isDifficultWord(w.german))
-            .map(w => w.german)
+            .filter(w => isDifficultWord(w.de))
+            .map(w => w.de)
         ));
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, [activeLevel]);
+      }
+      setLoading(false);
+    };
+    doFetch();
+  }, [activeLevel, language]);
 
   const allWords = useMemo(() => {
     if (!data?.categories) return [];
@@ -100,31 +112,32 @@ export default function EssentialWordsPage({ level, onNavigate }) {
     data.categories.forEach(cat => {
       const catName = cat.name || '';
       (cat.words || []).forEach(w => {
-        words.push({ ...w, _category: catName });
+        const translation = (language === 'en' ? w.en : w.it) || w.it || w.en || '';
+        words.push({ ...w, _category: catName, _translation: translation });
       });
     });
     return words;
-  }, [data]);
+  }, [data, language]);
 
   const filteredWords = useMemo(() => {
     if (!debouncedSearch) return allWords;
     const q = debouncedSearch.toLowerCase();
     return allWords.filter(w =>
-      (w.german || '').toLowerCase().includes(q) ||
-      (w.italian || '').toLowerCase().includes(q) ||
+      (w.de || '').toLowerCase().includes(q) ||
+      (w._translation || '').toLowerCase().includes(q) ||
       (w._category || '').toLowerCase().includes(q)
     );
   }, [allWords, debouncedSearch]);
 
-  const toggleFavorite = (germanWord) => {
-    const word = allWords.find(w => w.german === germanWord);
+  const toggleFavorite = (deWord) => {
+    const word = allWords.find(w => w.de === deWord);
     if (!word) return;
-    if (savedWords.has(germanWord)) {
-      removeDifficultWord(germanWord);
-      setSavedWords(new Set([...savedWords].filter(w => w !== germanWord)));
+    if (savedWords.has(deWord)) {
+      removeDifficultWord(deWord);
+      setSavedWords(new Set([...savedWords].filter(w => w !== deWord)));
     } else {
-      saveDifficultWord(word, 'word');
-      setSavedWords(new Set([...savedWords, germanWord]));
+      saveDifficultWord({ german: word.de, italian: word._translation, ...word }, 'word');
+      setSavedWords(new Set([...savedWords, deWord]));
     }
     setSaveVersion(v => v + 1);
   };
@@ -169,10 +182,10 @@ export default function EssentialWordsPage({ level, onNavigate }) {
           <tbody>
             {visibleWords.map((word) => (
               <EssentialWordRow
-                key={`${word.german}_${word.article || ''}_${word._category}`}
+                key={`${word.de}_${word.article || ''}_${word._category}`}
                 word={word}
                 category={word._category}
-                saved={savedWords.has(word.german)}
+                saved={savedWords.has(word.de)}
                 onToggleFavorite={toggleFavorite}
               />
             ))}
