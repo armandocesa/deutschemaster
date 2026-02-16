@@ -21,7 +21,7 @@ const detectLanguage = () => {
     if (saved && translations[saved]) return saved;
   } catch {}
   // Auto-detect from browser locale
-  const browserLang = (navigator.language || navigator.userLanguage || '').split('-')[0];
+  const browserLang = (navigator.language || '').split('-')[0];
   return translations[browserLang] ? browserLang : 'en';
 };
 

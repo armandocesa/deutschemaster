@@ -66,15 +66,12 @@ export default function HomePage({ onNavigate }) {
     exercises: GRAMMAR_DATA.statistics?.totalExercises || 261,
   }), [VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA]);
 
-  const userProgress = useMemo(() => ({
-    quizStats: getQuizStats(),
-    savedCount: getDifficultWords().length,
-    streak: getStreak(),
-    xp: getXP(),
-    dailyGoal: checkDailyGoal(),
-    reviewStats: getReviewStats(),
-  }), []); // eslint-disable-line react-hooks/exhaustive-deps
-  const { quizStats, savedCount, streak, xp, dailyGoal, reviewStats } = userProgress;
+  const quizStats = getQuizStats();
+  const savedCount = getDifficultWords().length;
+  const streak = getStreak();
+  const xp = getXP();
+  const dailyGoal = checkDailyGoal();
+  const reviewStats = getReviewStats();
 
   const getLevelName = (lvl) => {
     if (lvl <= 5) return t('home.levels.beginner');

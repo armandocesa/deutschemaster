@@ -10,7 +10,7 @@ const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const QUESTIONS_PER_LEVEL = 5;
 
 export default function PlacementTestPage({ onNavigate }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -200,7 +200,7 @@ export default function PlacementTestPage({ onNavigate }) {
     const correctAnswers = Object.values(answers).filter(v => v === true).length;
     const accuracy = Math.round((correctAnswers / (currentQuestionIndex + 1)) * 100);
     const levelColor = LEVEL_COLORS[detectedLevel];
-    const levelName = getLevelName(detectedLevel);
+    const levelName = getLevelName(detectedLevel, language);
     const goetheNames = {
       A1: 'Goethe-Zertifikat A1 (Start Deutsch 1)',
       A2: 'Goethe-Zertifikat A2',

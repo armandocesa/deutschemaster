@@ -231,8 +231,11 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
 
   return (
     <div className="sv-card">
-      <button
+      <div
+        role="button"
+        tabIndex={0}
         onClick={() => setExpanded(!expanded)}
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpanded(!expanded); } }}
         className="sv-card-header"
       >
         <div className="sv-card-header-content">
@@ -257,7 +260,7 @@ function ModalCard({ modal, onToggleFavorite, saved }) {
             ▼
           </span>
         </div>
-      </button>
+      </div>
 
       {expanded && (
         <div className="sv-card-content">
@@ -325,8 +328,11 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
 
   return (
     <div className="sv-card">
-      <button
+      <div
+        role="button"
+        tabIndex={0}
         onClick={() => setExpanded(!expanded)}
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpanded(!expanded); } }}
         className="sv-card-header"
       >
         <div className="sv-card-header-content">
@@ -351,7 +357,7 @@ function ReflexiveCard({ verb, onToggleFavorite, saved }) {
             ▼
           </span>
         </div>
-      </button>
+      </div>
 
       {expanded && (
         <div className="sv-card-content">

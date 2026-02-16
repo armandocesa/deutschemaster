@@ -1,5 +1,5 @@
 import { db, auth, hasConfig } from '../firebase';
-import { doc, setDoc, getDoc, collection, addDoc, query, where, getDocs, writeBatch, serverTimestamp, Timestamp } from 'firebase/firestore';
+import { doc, setDoc, getDoc, collection, addDoc, query, where, getDocs, writeBatch, serverTimestamp } from 'firebase/firestore';
 import { LIMITS } from './rateLimit';
 
 /**
@@ -63,7 +63,7 @@ export async function initSession() {
   // Try to save to Firestore immediately if user is authenticated
   if (auth?.currentUser?.uid) {
     try {
-      await setDoc(doc(db, 'analytics', 'sessions', currentSessionId), {
+      await setDoc(doc(db, 'sessions', currentSessionId), {
         userId,
         startTime: serverTimestamp(),
         device: sessionData.device,
@@ -117,7 +117,7 @@ export async function trackPageView(pageName) {
   // Log page view to Firestore (with rate limiting)
   if (auth?.currentUser?.uid && LIMITS.analytics('page-view')) {
     try {
-      await addDoc(collection(db, 'analytics', 'pageViews'), {
+      await addDoc(collection(db, 'pageViews'), {
         page: pageName,
         userId,
         sessionId: currentSessionId,
@@ -161,7 +161,7 @@ export async function trackEvent(eventName, eventData = {}) {
 
   if (auth?.currentUser?.uid && LIMITS.analytics('track-event')) {
     try {
-      await addDoc(collection(db, 'analytics', 'events'), eventDoc);
+      await addDoc(collection(db, 'events'), eventDoc);
     } catch (e) {
       if (import.meta.env.DEV) console.warn('Failed to log event:', e);
       eventQueue.push({
@@ -213,7 +213,7 @@ export async function endSession() {
   // Update session in Firestore
   if (auth?.currentUser?.uid) {
     try {
-      await setDoc(doc(db, 'analytics', 'sessions', currentSessionId), sessionDoc, { merge: true });
+      await setDoc(doc(db, 'sessions', currentSessionId), sessionDoc, { merge: true });
 
       // Update daily stats
       await updateDailyStats(userId, pageVisitsInSession);
@@ -239,7 +239,7 @@ async function updateDailyStats(userId, pagesVisited) {
 
   try {
     const today = new Date().toISOString().split('T')[0];
-    const docRef = doc(db, 'analytics', 'dailyStats', today);
+    const docRef = doc(db, 'dailyStats', today);
     const docSnap = await getDoc(docRef);
 
     const pageNames = pagesVisited.map(p => p.page);
@@ -285,11 +285,11 @@ export async function syncQueuedEvents() {
     for (const queuedEvent of eventQueue) {
       try {
         if (queuedEvent.type === 'event') {
-          const docRef = doc(collection(db, 'analytics', 'events'));
+          const docRef = doc(collection(db, 'events'));
           batch.set(docRef, queuedEvent.data);
           successCount++;
         } else if (queuedEvent.type === 'page_view') {
-          const docRef = doc(collection(db, 'analytics', 'pageViews'));
+          const docRef = doc(collection(db, 'pageViews'));
           batch.set(docRef, queuedEvent.data);
           successCount++;
         }
@@ -329,7 +329,7 @@ export async function getAnalytics(startDate, endDate) {
 
     // Fetch daily stats
     const statsQuery = query(
-      collection(db, 'analytics', 'dailyStats'),
+      collection(db, 'dailyStats'),
       where('date', '>=', startDate.toISOString().split('T')[0]),
       where('date', '<=', endDate.toISOString().split('T')[0])
     );
@@ -338,14 +338,14 @@ export async function getAnalytics(startDate, endDate) {
 
     // Fetch all sessions
     const sessionsQuery = query(
-      collection(db, 'analytics', 'sessions')
+      collection(db, 'sessions')
     );
     const sessionsSnap = await getDocs(sessionsQuery);
     analyticsData.sessions = sessionsSnap.docs.map(d => d.data());
 
     // Fetch all events
     const eventsQuery = query(
-      collection(db, 'analytics', 'events')
+      collection(db, 'events')
     );
     const eventsSnap = await getDocs(eventsQuery);
 
@@ -375,7 +375,7 @@ export async function getAnalyticsSummary(days = 30) {
 
     // Get today's date for today's stats
     const today = new Date().toISOString().split('T')[0];
-    const todayDocRef = doc(db, 'analytics', 'dailyStats', today);
+    const todayDocRef = doc(db, 'dailyStats', today);
     const todaySnap = await getDoc(todayDocRef);
     const todayStats = todaySnap.exists() ? todaySnap.data() : null;
 
@@ -457,7 +457,7 @@ export async function getActiveSessionsCount() {
 
   try {
     const today = new Date().toISOString().split('T')[0];
-    const todayDocRef = doc(db, 'analytics', 'dailyStats', today);
+    const todayDocRef = doc(db, 'dailyStats', today);
     const todaySnap = await getDoc(todayDocRef);
     return todaySnap.exists() ? (todaySnap.data().totalSessions || 0) : 0;
   } catch (e) {
@@ -504,7 +504,7 @@ export async function getExerciseCompletionRates() {
 
   try {
     const eventsQuery = query(
-      collection(db, 'analytics', 'events'),
+      collection(db, 'events'),
       where('eventName', 'in', ['quiz_completed', 'exercise_completed', 'story_completed'])
     );
     const eventsSnap = await getDocs(eventsQuery);

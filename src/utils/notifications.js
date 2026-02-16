@@ -116,34 +116,41 @@ export const showNotification = (title, options = {}) => {
  * @returns {object} - { title, body }
  */
 const getRandomNotificationMessage = (streak) => {
-  const messages = [
-    {
-      title: 'Deutsche Master',
-      body: `Non perdere il tuo streak di ${streak} giorni! Studia 5 minuti oggi.`
-    },
-    {
-      title: 'Deutsche Master',
-      body: 'È ora di studiare tedesco! Il tuo streak ti aspetta.'
-    },
-    {
-      title: 'Deutsche Master',
-      body: `Mantieni il tuo streak! ${streak} giorni di impegno, continua così!`
-    },
-    {
-      title: 'Deutsche Master',
-      body: 'Ricorda: ogni giorno conta. Studia un po\' di tedesco oggi.'
-    },
-    {
-      title: 'Deutsche Master',
-      body: `${streak} giorni consecutivi! Non mollare adesso!`
-    },
-    {
-      title: 'Deutsche Master',
-      body: 'Il tuo impegno sta pagando. Apri l\'app e continua a imparare!'
-    }
-  ];
+  let lang = 'en';
+  try {
+    const saved = localStorage.getItem('dm_ui_language');
+    if (saved && ['it', 'en', 'de'].includes(saved)) lang = saved;
+  } catch {}
 
-  return messages[Math.floor(Math.random() * messages.length)];
+  const messages = {
+    it: [
+      { title: 'DeutschMaster', body: `Non perdere il tuo streak di ${streak} giorni! Studia 5 minuti oggi.` },
+      { title: 'DeutschMaster', body: 'È ora di studiare tedesco! Il tuo streak ti aspetta.' },
+      { title: 'DeutschMaster', body: `Mantieni il tuo streak! ${streak} giorni di impegno, continua così!` },
+      { title: 'DeutschMaster', body: 'Ricorda: ogni giorno conta. Studia un po\' di tedesco oggi.' },
+      { title: 'DeutschMaster', body: `${streak} giorni consecutivi! Non mollare adesso!` },
+      { title: 'DeutschMaster', body: 'Il tuo impegno sta pagando. Apri l\'app e continua a imparare!' },
+    ],
+    en: [
+      { title: 'DeutschMaster', body: `Don't lose your ${streak}-day streak! Study for 5 minutes today.` },
+      { title: 'DeutschMaster', body: 'Time to study German! Your streak is waiting.' },
+      { title: 'DeutschMaster', body: `Keep your streak! ${streak} days of commitment, keep going!` },
+      { title: 'DeutschMaster', body: 'Remember: every day counts. Study a little German today.' },
+      { title: 'DeutschMaster', body: `${streak} consecutive days! Don't give up now!` },
+      { title: 'DeutschMaster', body: 'Your effort is paying off. Open the app and keep learning!' },
+    ],
+    de: [
+      { title: 'DeutschMaster', body: `Verlier nicht deine ${streak}-Tage-Serie! Lerne heute 5 Minuten.` },
+      { title: 'DeutschMaster', body: 'Zeit, Deutsch zu lernen! Deine Serie wartet.' },
+      { title: 'DeutschMaster', body: `Halte deine Serie! ${streak} Tage Einsatz, mach weiter!` },
+      { title: 'DeutschMaster', body: 'Denk daran: Jeder Tag zählt. Lerne heute ein bisschen Deutsch.' },
+      { title: 'DeutschMaster', body: `${streak} Tage in Folge! Gib jetzt nicht auf!` },
+      { title: 'DeutschMaster', body: 'Dein Einsatz zahlt sich aus. Öffne die App und lerne weiter!' },
+    ],
+  };
+
+  const langMessages = messages[lang] || messages.en;
+  return langMessages[Math.floor(Math.random() * langMessages.length)];
 };
 
 /**

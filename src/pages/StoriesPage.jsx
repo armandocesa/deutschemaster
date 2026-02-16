@@ -292,7 +292,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
     <div className="reading-page">
       <div className="page-header">
         <h1 className="page-title">{t('stories.interactive')}</h1>
-        <p className="page-subtitle">{getLevelName(activeLevel)} - {currentStories.length} {t('stories.stories')}</p>
+        <p className="page-subtitle">{getLevelName(activeLevel, language)} - {currentStories.length} {t('stories.stories')}</p>
       </div>
 
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />

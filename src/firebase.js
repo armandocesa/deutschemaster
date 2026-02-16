@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
+import { initializeFirestore, persistentLocalCache, persistentMultipleTabManager } from 'firebase/firestore';
 import { initializeAppCheck, ReCaptchaEnterpriseProvider } from 'firebase/app-check';
 
 const firebaseConfig = {
@@ -24,7 +24,11 @@ let appCheck = null;
 if (hasConfig) {
   app = initializeApp(firebaseConfig);
   auth = getAuth(app);
-  db = getFirestore(app);
+  db = initializeFirestore(app, {
+    localCache: persistentLocalCache({
+      tabManager: persistentMultipleTabManager()
+    })
+  });
   googleProvider = new GoogleAuthProvider();
 
   // Firebase App Check - protects backend resources from abuse
@@ -44,14 +48,6 @@ if (hasConfig) {
     self.FIREBASE_APPCHECK_DEBUG_TOKEN = true;
   }
 
-  // Enable offline persistence
-  enableIndexedDbPersistence(db).catch((err) => {
-    if (err.code === 'failed-precondition') {
-      if (import.meta.env.DEV) console.warn('Firestore persistence: multiple tabs open');
-    } else if (err.code === 'unimplemented') {
-      if (import.meta.env.DEV) console.warn('Firestore persistence: browser not supported');
-    }
-  });
 }
 
 export { app, auth, db, googleProvider, hasConfig, appCheck };

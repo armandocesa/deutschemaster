@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import Icons from './Icons';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
 import { getStreak, getXP } from '../utils/gamification';
 
 export default function Header({ currentPage, onNavigate, onBack, showBack, breadcrumbs }) {
-  const streak = getStreak();
-  const xp = getXP();
+  const streak = useMemo(() => getStreak(), []);
+  const xp = useMemo(() => getXP(), []);
   const { language, setLanguage, t } = useLanguage();
   const { theme, toggleTheme } = useTheme();
 

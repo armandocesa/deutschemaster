@@ -229,6 +229,11 @@ export const addXP = (amount, source, streakMultiplier = 1) => {
     timestamp
   });
 
+  // Limit history to last 500 entries to prevent unbounded growth
+  if (data.history.length > 500) {
+    data.history = data.history.slice(-500);
+  }
+
   saveAndSync('dm_xp', JSON.stringify(data));
 
   // Check for level-up

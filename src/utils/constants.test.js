@@ -30,14 +30,26 @@ describe('GOETHE_NAMES', () => {
 
 describe('getLevelName', () => {
   it('returns correct Italian names for known levels', () => {
-    expect(getLevelName('A1')).toBe('Principiante');
-    expect(getLevelName('B1')).toBe('Intermedio');
-    expect(getLevelName('C2')).toBe('Padronanza');
+    expect(getLevelName('A1', 'it')).toBe('Principiante');
+    expect(getLevelName('B1', 'it')).toBe('Intermedio');
+    expect(getLevelName('C2', 'it')).toBe('Padronanza');
+  });
+
+  it('returns correct English names for known levels', () => {
+    expect(getLevelName('A1', 'en')).toBe('Beginner');
+    expect(getLevelName('B1', 'en')).toBe('Intermediate');
+    expect(getLevelName('C2', 'en')).toBe('Mastery');
+  });
+
+  it('returns correct German names for known levels', () => {
+    expect(getLevelName('A1', 'de')).toBe('Anfänger');
+    expect(getLevelName('B1', 'de')).toBe('Mittelstufe');
+    expect(getLevelName('C2', 'de')).toBe('Beherrschung');
   });
 
   it('returns the level itself for unknown levels', () => {
-    expect(getLevelName('X1')).toBe('X1');
-    expect(getLevelName('')).toBe('');
+    expect(getLevelName('X1', 'en')).toBe('X1');
+    expect(getLevelName('', 'en')).toBe('');
   });
 });
 
