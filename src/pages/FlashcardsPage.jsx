@@ -407,16 +407,10 @@ export default function FlashcardsPage({ onNavigate }) {
             <div className={`fc-card-inner ${flipped ? 'flipped' : ''}`}>
               {/* Front */}
               <div className="fc-card-face fc-card-front">
-                {/* Article */}
-                {currentCard.article && (
-                  <span className="fc-article">
-                    {currentCard.article}
-                  </span>
-                )}
-
-                {/* German Word */}
+                {/* German Word + Article */}
                 <p className="fc-word-main">
                   {currentCard.german}
+                  {currentCard.article && <span className="fc-article"> ({currentCard.article})</span>}
                 </p>
 
                 {/* Plural */}

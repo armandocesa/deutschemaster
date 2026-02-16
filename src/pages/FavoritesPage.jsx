@@ -46,7 +46,7 @@ export default function FavoritesPage({ onNavigate }) {
           {filteredWords.map(item => (
             <div key={item.id} className="favorites-list-item">
               <div className="compact-info">
-                <div className="compact-title">{item.type === 'verb' ? item.infinitiv : `${item.article || ''} ${item.german}`.trim()}</div>
+                <div className="compact-title">{item.type === 'verb' ? item.infinitiv : item.german}{item.type !== 'verb' && item.article ? <span style={{color:'var(--text-tertiary)',fontSize:'12px',fontWeight:400}}> ({item.article})</span> : ''}</div>
                 <div className="compact-subtitle">{item.type === 'verb' ? item.italiano : item.italian}</div>
               </div>
               <span className="favorites-badge">{item.type === 'verb' ? t('favorites.verb_type') : t('favorites.word_type')}</span>
