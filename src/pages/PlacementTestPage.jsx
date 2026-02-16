@@ -72,7 +72,7 @@ export default function PlacementTestPage({ onNavigate }) {
   };
 
   const handleSubmitAnswer = () => {
-    if (selectedOption === null) return;
+    if (selectedOption === null || !currentQuestion) return;
 
     const isCorrect = selectedOption === currentQuestion.correctAnswer;
     setAnswers(prev => ({
