@@ -322,6 +322,17 @@ function AppContent() {
     return crumbs;
   }, [currentPage, selectedLevel, location.state, t, onNavigate]);
 
+  // Focus management: move focus to main content after SPA navigation
+  // MUST be before the early return to respect React's Rules of Hooks
+  useEffect(() => {
+    if (!loading) {
+      const mainEl = document.getElementById('main-content');
+      if (mainEl) {
+        mainEl.focus({ preventScroll: true });
+      }
+    }
+  }, [location.pathname, loading]);
+
   if (loading) {
     return (
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
@@ -337,14 +348,6 @@ function AppContent() {
   const showBack = currentPage !== 'home';
   const isLoginPage = currentPage === 'login';
   const isNotFound = !PATH_TO_PAGE[location.pathname] && location.pathname !== '/';
-
-  // Focus management: move focus to main content after SPA navigation
-  useEffect(() => {
-    const mainEl = document.getElementById('main-content');
-    if (mainEl) {
-      mainEl.focus({ preventScroll: true });
-    }
-  }, [location.pathname]);
 
   return (
     <div className="app">
