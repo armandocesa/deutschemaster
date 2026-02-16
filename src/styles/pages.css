@@ -2689,23 +2689,7 @@ button:disabled, .quiz-option:disabled {
 .dona-footer { margin-top: 32px; padding: 20px; text-align: center; border-radius: var(--radius); background: rgba(108,92,231,0.05); border: 1px solid rgba(108,92,231,0.2); }
 .dona-footer-text { margin: 0; font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
 
-/* ===== GRAMMAR PAGE STYLES ===== */
-.grammar-regola-container { display: flex; flex-direction: column; gap: 12px; }
-.grammar-regola-paragraph { margin: 0; line-height: 1.6; }
-.grammar-schema-container { background-color: var(--bg-secondary); padding: 12px; border-radius: 6px; font-family: monospace; font-size: 13px; white-space: pre-wrap; word-break: break-word; line-height: 1.6; border: 1px solid var(--border-color); }
-.grammar-esempi-container { display: flex; flex-direction: column; gap: 16px; }
-.grammar-esempio-item { padding: 12px; background-color: var(--bg-secondary); border-left: 3px solid var(--accent); border-radius: 4px; }
-.grammar-esempio-german { font-weight: 600; color: var(--text-primary); margin-bottom: 8px; font-size: 15px; }
-.grammar-esempio-italian { color: var(--text-secondary); font-size: 14px; line-height: 1.5; }
-.grammar-eccezioni-container { background-color: var(--warning-dim); border: 1px solid var(--warning); border-left: 4px solid var(--warning); padding: 12px; border-radius: 4px; line-height: 1.6; }
-.grammar-uso-container { background-color: rgba(76, 175, 80, 0.08); border: 1px solid rgba(76, 175, 80, 0.2); padding: 12px; border-radius: 4px; line-height: 1.6; font-size: 14px; }
-.grammar-generic-item { margin-top: 4px; }
-.grammar-generic-label { color: var(--accent); font-size: 12px; }
-.grammar-generic-value { color: var(--text-secondary); }
-.grammar-section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
-.grammar-section-icon { font-size: 20px; }
-.grammar-section-title { margin: 0; font-size: 16px; font-weight: 600; color: var(--accent); letter-spacing: 0.5px; }
-.grammar-content-block { margin-bottom: 24px; }
+/* Old grammar page styles removed — replaced by simplified grammar sections below */
 
 /* ===== LISTENING PAGE STYLES ===== */
 .listening-lock-icon { margin-left: 4px; font-size: 12px; }
@@ -2773,6 +2757,9 @@ button:disabled, .quiz-option:disabled {
 .skeleton-subtitle { width: 300px; height: 16px; margin-bottom: 24px; border-radius: var(--radius); background: var(--bg-secondary); }
 
 /* ===== SIMPLIFIED VOCABULARY CARDS ===== */
+.progress-summary { display: flex; gap: 16px; justify-content: center; padding: 12px 16px; flex-wrap: wrap; }
+.progress-summary-item { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-secondary); }
+.progress-summary-item .count { font-weight: 700; font-size: 15px; color: var(--text-primary); }
 .word-cards-list { display: flex; flex-direction: column; gap: 4px; padding: 0 16px; }
 .word-card {
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
