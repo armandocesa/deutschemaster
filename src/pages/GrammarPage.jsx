@@ -196,7 +196,7 @@ function GrammarTopicDetail({ topic, level, colors }) {
 }
 
 export default function GrammarPage({ level, topic, onNavigate }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { GRAMMAR_DATA } = useData();
   const [internalLevel, setInternalLevel] = useState(level || (() => { try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; } }));
   const activeLevel = level || internalLevel;
@@ -216,7 +216,7 @@ export default function GrammarPage({ level, topic, onNavigate }) {
       <div className="grammar-page">
         <div className="page-header" style={{'--level-color': colors.bg}}>
           <h1 className="page-title">{t('grammar.title')}</h1>
-          <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel)} - {topics.length} {t('grammar.topics')}</p>
+          <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel, language)} - {topics.length} {t('grammar.topics')}</p>
         </div>
         <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
         <div className="compact-list">

@@ -62,7 +62,7 @@ function ReadingDetail({ reading, level, colors }) {
 }
 
 export default function ReadingPage({ level, reading, onNavigate }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { READING_DATA } = useData();
   const [internalLevel, setInternalLevel] = useState(level || (() => { try{const v=localStorage.getItem('dm_last_level');return v?JSON.parse(v):'A1'}catch{return 'A1'} }));
   const activeLevel = level || internalLevel;
@@ -74,7 +74,7 @@ export default function ReadingPage({ level, reading, onNavigate }) {
 
   return (
     <div className="reading-page">
-      <div className="page-header"><h1 className="page-title">{t('reading.title')}</h1><p className="page-subtitle">{getLevelName(activeLevel)} - {texts.length} {t('reading.texts')}</p></div>
+      <div className="page-header"><h1 className="page-title">{t('reading.title')}</h1><p className="page-subtitle">{getLevelName(activeLevel, language)} - {texts.length} {t('reading.texts')}</p></div>
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
       <div className="compact-list">
         {texts.map(text => (

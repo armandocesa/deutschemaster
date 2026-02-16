@@ -16,9 +16,16 @@ export const GOETHE_NAMES = {
   C2: 'Goethe-Zertifikat C2 (GDS)',
 };
 
-export function getLevelName(level) {
-  const names = { A1: 'Principiante', A2: 'Elementare', B1: 'Intermedio', B2: 'Intermedio superiore', C1: 'Avanzato', C2: 'Padronanza' };
-  return names[level] || level;
+export function getLevelName(level, language) {
+  if (!language) {
+    try { language = localStorage.getItem('dm_ui_language') || 'en'; } catch { language = 'en'; }
+  }
+  const names = {
+    it: { A1: 'Principiante', A2: 'Elementare', B1: 'Intermedio', B2: 'Intermedio superiore', C1: 'Avanzato', C2: 'Padronanza' },
+    en: { A1: 'Beginner', A2: 'Elementary', B1: 'Intermediate', B2: 'Upper Intermediate', C1: 'Advanced', C2: 'Mastery' },
+    de: { A1: 'Anfänger', A2: 'Grundstufe', B1: 'Mittelstufe', B2: 'Obere Mittelstufe', C1: 'Fortgeschritten', C2: 'Beherrschung' },
+  };
+  return (names[language] || names.en)[level] || level;
 }
 
 export function fisherYatesShuffle(array) {

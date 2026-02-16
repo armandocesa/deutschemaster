@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { DataProvider } from './DataContext';
 import { LanguageProvider } from './contexts/LanguageContext';
-import { scheduleReminder, getReminderTime } from './utils/notifications';
 import { initSession, endSession, syncQueuedEvents } from './utils/analytics';
 import './styles/variables.css';
 import './styles/base.css';
@@ -16,35 +15,22 @@ import './styles/responsive.css';
 // Initialize analytics session on app load
 initSession();
 
-// Initialize notifications on app load
-if ('Notification' in window) {
-  const reminderTime = getReminderTime();
-  const cleanupReminder = scheduleReminder(reminderTime);
-
-  // Store cleanup function for potential later use
-  window.__notificationCleanup = cleanupReminder;
-}
-
-// End session and sync on page unload
-window.addEventListener('beforeunload', () => {
-  endSession();
-  syncQueuedEvents();
-});
-
 // Periodically sync queued events (every 30 seconds)
 const syncInterval = setInterval(() => {
   syncQueuedEvents();
 }, 30000);
 
-// Clean up interval on page unload
+// End session, sync events, and clean up on page unload
 window.addEventListener('beforeunload', () => {
+  endSession();
+  syncQueuedEvents();
   clearInterval(syncInterval);
 });
 
 class ErrorBoundary extends React.Component {
-  constructor(props) { super(props); this.state = { hasError: false }; }
-  static getDerivedStateFromError() { return { hasError: true }; }
-  componentDidCatch(error, info) { if (import.meta.env.DEV) console.error('ErrorBoundary:', error, info); }
+  constructor(props) { super(props); this.state = { hasError: false, error: null }; }
+  static getDerivedStateFromError(error) { return { hasError: true, error }; }
+  componentDidCatch(error, info) { if (import.meta.env.DEV) console.error('Root ErrorBoundary:', error, info); }
   render() {
     if (this.state.hasError) {
       const lang = (navigator.language || '').slice(0, 2);
@@ -53,7 +39,8 @@ class ErrorBoundary extends React.Component {
       return (
         <div className="error-boundary">
           <h2>{m.t}</h2>
-          <button onClick={() => { this.setState({ hasError: false }); window.location.reload(); }}>{m.r}</button>
+          {this.state.error?.message && <p style={{color:'#999',fontSize:'14px'}}>{this.state.error.message}</p>}
+          <button onClick={() => window.location.reload()}>{m.r}</button>
         </div>
       );
     }

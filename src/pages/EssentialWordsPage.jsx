@@ -37,7 +37,7 @@ function EssentialWordRow({ word, category, saved, onToggleFavorite }) {
 }
 
 export default function EssentialWordsPage({ level, onNavigate }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [internalLevel, setInternalLevel] = useState(() => {
@@ -139,7 +139,7 @@ export default function EssentialWordsPage({ level, onNavigate }) {
     <div className="vocabulary-page">
       <div className="page-header" style={{'--level-color': colors.bg}}>
         <h1 className="page-title">{t('essentialWords.title')}</h1>
-        <p className="page-subtitle">{getLevelName(activeLevel)} — {allWords.length} {t('vocabulary.words')}</p>
+        <p className="page-subtitle">{getLevelName(activeLevel, language)} — {allWords.length} {t('vocabulary.words')}</p>
       </div>
 
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />

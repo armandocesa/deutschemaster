@@ -51,7 +51,7 @@ function WordRow({ word, category, onSaveChange }) {
 }
 
 export default function VocabularyPage({ level, onNavigate }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { VOCABULARY_DATA } = useData();
   const [searchTerm, setSearchTerm] = useState('');
   const [internalLevel, setInternalLevel] = useState(level || (() => { try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; } }));
@@ -138,7 +138,7 @@ export default function VocabularyPage({ level, onNavigate }) {
     <div className="vocabulary-page">
       <div className="page-header" style={{'--level-color': colors.bg}}>
         <h1 className="page-title">{t('vocabulary.title')}</h1>
-        <p className="page-subtitle">{getLevelName(activeLevel)} — {allWords.length} {t('vocabulary.words')}</p>
+        <p className="page-subtitle">{getLevelName(activeLevel, language)} — {allWords.length} {t('vocabulary.words')}</p>
       </div>
 
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
