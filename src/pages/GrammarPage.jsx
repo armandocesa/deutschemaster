@@ -4,9 +4,229 @@ import LevelTabs from '../components/LevelTabs';
 import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
-import { getGrammarStatus, markGrammarStatus, saveDifficultWord, removeDifficultWord, isDifficultWord } from '../utils/storage';
+import { getGrammarStatus, saveDifficultWord, removeDifficultWord, isDifficultWord } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
 
+// Single rule card displayed inline in the all-rules view
+function GrammarRuleCard({ topic, index, colors, onNavigate, level, totalTopics, topics }) {
+  const { t } = useLanguage();
+  const [showMore, setShowMore] = useState(false);
+  const [answerVisibility, setAnswerVisibility] = useState({});
+  const [savedPhrases, setSavedPhrases] = useState({});
+  const content = topic.content || {};
+  const topicId = topic.id || `rule_${index}`;
+  const topicStatus = getGrammarStatus(topicId);
+
+  const scrollToRule = (targetIndex) => {
+    const targetTopic = topics[targetIndex];
+    const targetId = targetTopic?.id || `rule_${targetIndex}`;
+    const el = document.getElementById(`rule-${targetId}`);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  const toggleAnswer = (idx) => {
+    setAnswerVisibility(prev => ({...prev, [idx]: !prev[idx]}));
+  };
+
+  const toggleSavePhrase = (phrase, idx) => {
+    const id = `grammar_${topic.id || topic.name}_ex${idx}`;
+    const isSaved = savedPhrases[idx] || isDifficultWord(id);
+    if (isSaved) {
+      removeDifficultWord(id);
+      setSavedPhrases(prev => ({...prev, [idx]: false}));
+    } else {
+      saveDifficultWord({ german: phrase, italian: '', id }, 'word');
+      setSavedPhrases(prev => ({...prev, [idx]: true}));
+    }
+  };
+
+  // Split rule text into bullet points
+  const renderBulletPoints = (text) => {
+    if (!text) return null;
+    const points = text.split(/\n\n+/).filter(p => p.trim());
+    if (points.length <= 1) {
+      return <p className="gr-rule-text">{text}</p>;
+    }
+    return (
+      <ul className="gr-bullet-list">
+        {points.map((point, i) => (
+          <li key={i}>{point.trim()}</li>
+        ))}
+      </ul>
+    );
+  };
+
+  // Render schema as formatted table
+  const renderSchema = (text) => {
+    if (!text) return null;
+    const lines = text.split('\n').filter(l => l.trim());
+    return (
+      <div className="gr-schema">
+        {lines.map((line, idx) => {
+          const parts = line.split(/\s{2,}|\t|→|->|:/).map(p => p.trim()).filter(Boolean);
+          if (parts.length >= 2) {
+            return (
+              <div key={idx} className="gr-schema-row">
+                <span className="gr-schema-left">{parts[0]}</span>
+                <span className="gr-schema-right">{parts.slice(1).join(' ')}</span>
+              </div>
+            );
+          }
+          return <div key={idx} className="gr-schema-single">{line.trim()}</div>;
+        })}
+      </div>
+    );
+  };
+
+  // Render examples inline
+  const renderExamples = (examples) => {
+    if (!Array.isArray(examples) || examples.length === 0) return null;
+    return (
+      <div className="gr-examples">
+        {examples.map((ex, i) => (
+          <div key={i} className="gr-example-item">
+            {(ex.tedesco || ex.german) && (
+              <span className="gr-example-de">{ex.tedesco || ex.german}</span>
+            )}
+            {(ex.italiano || ex.italian) && (
+              <span className="gr-example-it">{ex.italiano || ex.italian}</span>
+            )}
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  return (
+    <article className="gr-card" id={`rule-${topicId}`}>
+      {/* Header */}
+      <div className="gr-card-header">
+        <div className="gr-card-num" style={{ background: colors.bg }}>{index + 1}</div>
+        <div className="gr-card-title-area">
+          <h2 className="gr-card-title">{topic.name}</h2>
+          <p className="gr-card-desc">{topic.explanation}</p>
+        </div>
+        <span className={`progress-dot ${topicStatus}`}></span>
+      </div>
+
+      {/* Rule - always shown as bullet points */}
+      {content.regola && (
+        <div className="gr-section">
+          <div className="gr-section-label">
+            <span className="gr-section-icon">&#9679;</span>
+            {t('grammar.rule')}
+          </div>
+          {renderBulletPoints(content.regola)}
+        </div>
+      )}
+
+      {/* Schema */}
+      {content.schema && (
+        <div className="gr-section">
+          <div className="gr-section-label">
+            <span className="gr-section-icon">&#9632;</span>
+            {t('grammar.schema')}
+          </div>
+          {renderSchema(content.schema)}
+        </div>
+      )}
+
+      {/* Examples - show first 4 */}
+      {content.esempi && (
+        <div className="gr-section">
+          <div className="gr-section-label">
+            <span className="gr-section-icon">&#9654;</span>
+            {t('grammar.examples')}
+          </div>
+          {renderExamples(showMore ? content.esempi : content.esempi.slice(0, 4))}
+        </div>
+      )}
+
+      {/* Usage */}
+      {content.uso && (
+        <div className="gr-section">
+          <div className="gr-section-label">
+            <span className="gr-section-icon">&#10003;</span>
+            {t('grammar.usage')}
+          </div>
+          <p className="gr-text">{content.uso}</p>
+        </div>
+      )}
+
+      {/* Exceptions */}
+      {content.eccezioni && (
+        <div className="gr-section gr-section-warning">
+          <div className="gr-section-label gr-label-warning">
+            <span className="gr-section-icon">&#9888;</span>
+            {t('grammar.exceptions')}
+          </div>
+          <p className="gr-text">{content.eccezioni}</p>
+        </div>
+      )}
+
+      {/* Exercises - expandable */}
+      {topic.exercises && topic.exercises.length > 0 && (
+        <div className="gr-exercises-area">
+          <button className="gr-toggle-btn" onClick={() => setShowMore(!showMore)}>
+            {showMore ? t('grammar.hideAnswer') || 'Nascondi' : `${t('lessons.exercises')} (${topic.exercises.length})`}
+            <span className={`gr-chevron ${showMore ? 'open' : ''}`}>&#9662;</span>
+          </button>
+          {showMore && (
+            <div className="gr-exercises-list">
+              {topic.exercises.map((ex, idx) => {
+                const phraseId = `grammar_${topic.id || topic.name}_ex${idx}`;
+                const isSaved = savedPhrases[idx] !== undefined ? savedPhrases[idx] : isDifficultWord(phraseId);
+                return (
+                  <div key={idx} className="gr-exercise">
+                    <div className="gr-exercise-top">
+                      <span className="gr-exercise-num">#{idx + 1}</span>
+                      <button
+                        className={`exercise-save-btn ${isSaved ? 'saved' : ''}`}
+                        onClick={() => toggleSavePhrase(ex.question, idx)}
+                        title={isSaved ? t('favorites.title') : t('common.save')}
+                      >
+                        {isSaved ? <Icons.StarFilled /> : <Icons.Star />}
+                      </button>
+                    </div>
+                    <p className="gr-exercise-q">{ex.question}</p>
+                    <button className="gr-answer-btn" onClick={() => toggleAnswer(idx)}>
+                      {answerVisibility[idx] ? (t('hide') || 'Nascondi') : (t('show') || 'Mostra')} {t('answer') || 'risposta'}
+                    </button>
+                    {answerVisibility[idx] && (
+                      <div className="gr-answer">
+                        <div className="gr-answer-text">{t('grammar.answer')} {ex.answer}</div>
+                        {ex.explanation && <div className="gr-answer-expl">{t('grammar.explanation')} {ex.explanation}</div>}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Navigation: Previous / Next */}
+      <div className="gr-nav-footer">
+        {index > 0 ? (
+          <button className="gr-nav-btn gr-nav-prev" onClick={() => scrollToRule(index - 1)}>
+            <span className="gr-nav-arrow">&larr;</span>
+            <span className="gr-nav-label">{topics[index - 1]?.name}</span>
+          </button>
+        ) : <span />}
+        <span className="gr-nav-counter">{index + 1} / {totalTopics}</span>
+        {index < totalTopics - 1 ? (
+          <button className="gr-nav-btn gr-nav-next" onClick={() => scrollToRule(index + 1)}>
+            <span className="gr-nav-label">{topics[index + 1]?.name}</span>
+            <span className="gr-nav-arrow">&rarr;</span>
+          </button>
+        ) : <span />}
+      </div>
+    </article>
+  );
+}
+
+// Detail view for single topic (kept for backward compatibility)
 function GrammarTopicDetail({ topic, level, colors, onNavigate }) {
   const { t } = useLanguage();
   const [answerVisibility, setAnswerVisibility] = useState({});
@@ -28,7 +248,6 @@ function GrammarTopicDetail({ topic, level, colors, onNavigate }) {
     }
   };
 
-  // Render regola as numbered list (split on newlines or periods for structure)
   const renderRegola = (text) => {
     if (!text) return null;
     const lines = text.split(/\n\n+/).filter(p => p.trim());
@@ -44,7 +263,6 @@ function GrammarTopicDetail({ topic, level, colors, onNavigate }) {
     );
   };
 
-  // Render schema as a formatted table-like block
   const renderSchema = (text) => {
     if (!text) return null;
     const lines = text.split('\n').filter(l => l.trim());
@@ -66,7 +284,6 @@ function GrammarTopicDetail({ topic, level, colors, onNavigate }) {
     );
   };
 
-  // Render examples as numbered list
   const renderEsempi = (examples) => {
     if (!Array.isArray(examples) || examples.length === 0) return null;
     return (
@@ -90,7 +307,6 @@ function GrammarTopicDetail({ topic, level, colors, onNavigate }) {
     return <p className="grammar-text-section">{text}</p>;
   };
 
-  // Section rendering with icons
   const sectionConfig = {
     regola: { icon: '1.', label: t('grammar.rule') },
     schema: { icon: '2.', label: t('grammar.schema') },
@@ -213,26 +429,23 @@ export default function GrammarPage({ level, topic, onNavigate }) {
       <div className="grammar-page">
         <div className="page-header" style={{'--level-color': colors.bg}}>
           <h1 className="page-title">{t('grammar.title')}</h1>
-          <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel, language)} - {topics.length} {t('grammar.topics')}</p>
+          <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel, language)} &middot; {topics.length} {t('grammar.topics')}</p>
         </div>
         <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
-        <div className="compact-list">
-          {topics.map((topic, idx) => {
-            const topicId = topic.id || `${activeLevel}_${idx}`;
-            const topicStatus = getGrammarStatus(topicId);
-            return (
-              <div key={topic.id || idx} className="compact-list-item" onClick={() => onNavigate('grammar', {level: activeLevel, topic: topic})}>
-                <span className="compact-number">{idx + 1}.</span>
-                <span className={`progress-dot compact-dot ${topicStatus}`}></span>
-                <div className="compact-info">
-                  <div className="compact-title">{topic.name}</div>
-                  <div className="compact-subtitle">{topic.explanation}</div>
-                </div>
-                {topic.exercises && <span className="compact-meta">{topic.exercises.length} ex.</span>}
-                <span className="compact-chevron">&rsaquo;</span>
-              </div>
-            );
-          })}
+
+        <div className="gr-all-rules">
+          {topics.map((topicItem, idx) => (
+            <GrammarRuleCard
+              key={topicItem.id || idx}
+              topic={topicItem}
+              index={idx}
+              level={activeLevel}
+              colors={colors}
+              onNavigate={onNavigate}
+              totalTopics={topics.length}
+              topics={topics}
+            />
+          ))}
         </div>
       </div>
     );
