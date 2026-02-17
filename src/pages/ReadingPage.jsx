@@ -16,7 +16,6 @@ function ReadingDetail({ reading, level, colors, allTexts, onNavigate }) {
   const [showScore, setShowScore] = useState(false);
   const [savedWords, setSavedWords] = useState({});
 
-  // Initialize saved state for difficult words
   useEffect(() => {
     if (reading.difficultWords) {
       const initial = {};
@@ -92,38 +91,45 @@ function ReadingDetail({ reading, level, colors, allTexts, onNavigate }) {
   return (
     <div className="reading-page">
       <div className="reading-text-container">
-        <div className="page-header">
-          <span className="page-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
-          <h1 className="page-title">{reading.title}</h1>
-          <p className="page-subtitle">{reading.theme}</p>
+        {/* Header */}
+        <div className="reading-header">
+          <div className="reading-header-meta">
+            <span className="reading-level-badge" style={{backgroundColor: colors.bg}}>{level}</span>
+            <span className="reading-theme-label">{reading.theme}</span>
+            {currentIndex >= 0 && (
+              <span className="reading-counter">{currentIndex + 1}/{allTexts.length}</span>
+            )}
+          </div>
+          <h1 className="reading-title">{reading.title}</h1>
+          <div className="reading-toolbar">
+            <button className="read-aloud-btn" onClick={readAloud}>
+              <Icons.Volume /> {t('reading.readAloud')}
+            </button>
+          </div>
         </div>
 
-        <div className="reading-toolbar">
-          <button className="read-aloud-btn" onClick={readAloud}>
-            <Icons.Volume /> {t('reading.readAloud')}
-          </button>
-        </div>
-
-        <div className="reading-text">
+        {/* Text body */}
+        <article className="reading-article">
           {reading.text.split('\n').filter(p => p.trim()).map((p, i) => (
             <p key={i}>{renderTextWithTooltips(p)}</p>
           ))}
-        </div>
+        </article>
 
-        {/* Difficult words list with save buttons */}
+        {/* Vocabulary section */}
         {reading.difficultWords && reading.difficultWords.length > 0 && (
-          <div className="reading-difficult-words">
-            <h3 className="reading-section-title">{t('vocabulary.colWord')} - {t('vocabulary.colTranslation')}</h3>
-            <div className="difficult-words-list">
+          <section className="reading-vocab-section">
+            <div className="reading-section-divider">
+              <span className="reading-section-label">
+                <Icons.Book /> {t('vocabulary.colWord')}
+              </span>
+            </div>
+            <div className="reading-vocab-grid">
               {reading.difficultWords.map((dw, idx) => (
-                <div key={idx} className="difficult-word-item">
-                  <div className="difficult-word-info">
-                    <span className="difficult-word-de">{dw.word}</span>
-                    <span className="difficult-word-separator">&rarr;</span>
-                    <span className="difficult-word-tr">{dw.translation}</span>
-                  </div>
+                <div key={idx} className="reading-vocab-chip">
+                  <span className="reading-vocab-de">{dw.word}</span>
+                  <span className="reading-vocab-tr">{dw.translation}</span>
                   <button
-                    className={`word-save-btn ${savedWords[idx] ? 'saved' : ''}`}
+                    className={`reading-vocab-save ${savedWords[idx] ? 'saved' : ''}`}
                     onClick={() => toggleSaveWord(dw, idx)}
                     title={savedWords[idx] ? t('favorites.title') : t('common.save')}
                   >
@@ -132,61 +138,86 @@ function ReadingDetail({ reading, level, colors, allTexts, onNavigate }) {
                 </div>
               ))}
             </div>
-          </div>
+          </section>
         )}
 
-        {/* Comprehension questions */}
-        <div className="comprehension-section">
-          <h2>{t('reading.comprehension')}</h2>
-          {reading.questions.map((q, qIdx) => {
-            const userAnswer = answers[qIdx];
-            const hasAnswered = userAnswer !== undefined;
-            const isCorrect = userAnswer === q.correctAnswer;
-            return (
-              <div key={qIdx} className="comprehension-question">
-                <p className="comprehension-q-text">{qIdx + 1}. {q.question}</p>
-                <div className="comprehension-options">
-                  {q.options.map((opt, oIdx) => (
-                    <button
-                      key={oIdx}
-                      className={`comprehension-option ${hasAnswered ? (oIdx === q.correctAnswer ? 'correct' : oIdx === userAnswer ? 'incorrect' : '') : ''}`}
-                      onClick={() => handleAnswer(qIdx, oIdx)}
-                      disabled={hasAnswered}
-                    >
-                      {opt}
-                    </button>
-                  ))}
+        {/* Comprehension section */}
+        <section className="reading-comprehension">
+          <div className="reading-section-divider">
+            <span className="reading-section-label">
+              <Icons.Check /> {t('reading.comprehension')}
+            </span>
+          </div>
+          <div className="reading-questions-list">
+            {reading.questions.map((q, qIdx) => {
+              const userAnswer = answers[qIdx];
+              const hasAnswered = userAnswer !== undefined;
+              const isCorrect = userAnswer === q.correctAnswer;
+              return (
+                <div key={qIdx} className={`reading-question-card ${hasAnswered ? (isCorrect ? 'answered-correct' : 'answered-wrong') : ''}`}>
+                  <p className="reading-q-number">
+                    <span className="reading-q-badge">{qIdx + 1}</span>
+                    {q.question}
+                  </p>
+                  <div className="reading-q-options">
+                    {q.options.map((opt, oIdx) => {
+                      let optClass = 'reading-q-option';
+                      if (hasAnswered) {
+                        if (oIdx === q.correctAnswer) optClass += ' correct';
+                        else if (oIdx === userAnswer) optClass += ' incorrect';
+                        else optClass += ' dimmed';
+                      }
+                      return (
+                        <button
+                          key={oIdx}
+                          className={optClass}
+                          onClick={() => handleAnswer(qIdx, oIdx)}
+                          disabled={hasAnswered}
+                        >
+                          <span className="reading-q-option-letter">{String.fromCharCode(65 + oIdx)}</span>
+                          <span>{opt}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                  {hasAnswered && !isCorrect && q.explanation && (
+                    <div className="reading-q-explanation">{q.explanation}</div>
+                  )}
                 </div>
-                {hasAnswered && !isCorrect && q.explanation && (
-                  <div className="comprehension-explanation">{q.explanation}</div>
-                )}
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
           {showScore && (
-            <div className="reading-score">
-              <h2>{t('reading.score')} {score}/{reading.questions.length}</h2>
-              <p>
+            <div className={`reading-score-card ${score === reading.questions.length ? 'perfect' : score >= reading.questions.length / 2 ? 'good' : 'retry'}`}>
+              <div className="reading-score-number">{score}/{reading.questions.length}</div>
+              <div className="reading-score-message">
                 {score === reading.questions.length
                   ? t('reading.perfect')
                   : score >= reading.questions.length / 2
                     ? t('reading.goodJob')
                     : t('reading.tryAgain')}
-              </p>
+              </div>
             </div>
           )}
-        </div>
+        </section>
 
-        {/* Navigation buttons */}
-        <div className="stories-navigation" style={{marginTop: '16px'}}>
-          <button className="stories-nav-back-btn" onClick={() => onNavigate('reading', {level})}>
-            {t('stories.back')}
+        {/* Navigation */}
+        <div className="reading-nav">
+          <button className="reading-nav-btn back" onClick={() => onNavigate('reading', {level})}>
+            &larr; {t('stories.back')}
           </button>
-          {nextReading && (
-            <button className="stories-nav-next-btn" onClick={() => onNavigate('reading', {level, reading: nextReading})}>
-              {t('stories.nextLine')} &rarr;
-            </button>
-          )}
+          <div className="reading-nav-arrows">
+            {prevReading && (
+              <button className="reading-nav-btn prev" onClick={() => onNavigate('reading', {level, reading: prevReading})}>
+                &larr;
+              </button>
+            )}
+            {nextReading && (
+              <button className="reading-nav-btn next" onClick={() => onNavigate('reading', {level, reading: nextReading})}>
+                &rarr;
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>
@@ -217,9 +248,9 @@ export default function ReadingPage({ level, reading, onNavigate }) {
       </div>
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
       <div className="compact-list">
-        {texts.map(text => (
+        {texts.map((text, idx) => (
           <div key={text.id} className="compact-list-item" onClick={() => onNavigate('reading', {level: activeLevel, reading: text})}>
-            <span className="compact-number">{texts.indexOf(text) + 1}.</span>
+            <span className="compact-number">{idx + 1}.</span>
             <div className="compact-info">
               <div className="compact-title">{text.title}</div>
               <div className="compact-subtitle">{text.theme}</div>
