@@ -831,19 +831,7 @@
 .verb-name { font-weight: 600; color: var(--accent); cursor: pointer; }
 .verb-meaning { color: var(--text-secondary); font-size: 13px; }
 
-/* Reading */
-.reading-page { animation: fadeInUp 0.35s ease; }
-.reading-text-container { max-width: 680px; margin: 0 auto; }
-.reading-text { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; line-height: 1.9; font-size: 15px; margin-bottom: 24px; }
-.tooltip-word { border-bottom: 2px dotted var(--accent); cursor: help; position: relative; color: var(--accent); font-weight: 500; }
-.tooltip-word:hover .tooltip-content { display: block; }
-.tooltip-content {
-  display: none; position: absolute; bottom: calc(100% + 8px); left: 50%;
-  transform: translateX(-50%); background: var(--bg-card); color: var(--text-primary);
-  padding: 10px 14px; border-radius: var(--radius-sm); font-size: 13px;
-  white-space: nowrap; z-index: 50; box-shadow: var(--shadow-md);
-  border: 1px solid var(--border);
-}
+/* Reading - styles in pages.css */
 
 /* Favorites */
 .favorites-page { animation: fadeInUp 0.35s ease; }
