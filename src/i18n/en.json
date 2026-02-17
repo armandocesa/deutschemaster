@@ -54,6 +54,7 @@
     "listeningTitle": "Listening",
     "quickPractice": "Quick Practice",
     "verbPrefixes": "Verb Prefixes",
+    "verbsPrepositions": "Verbs + Prepositions",
     "new": "New",
     "toDo": "to do",
     "levels": {
@@ -92,7 +93,12 @@
     "showAnswer": "Show answer",
     "hideAnswer": "Hide answer",
     "answer": "Answer:",
-    "explanation": "Explanation:"
+    "explanation": "Explanation:",
+    "addBookmark": "Save for review",
+    "removeBookmark": "Remove from review",
+    "relatedPages": "RELATED PAGES",
+    "linkVerbsPrepositions": "Verbs with Prepositions",
+    "linkVerbPrefixes": "Verb Prefixes"
   },
   "vocabulary": {
     "title": "Vocabulary",
@@ -117,7 +123,11 @@
     "filterSaved": "Saved",
     "filterCorrect": "Correct",
     "filterIncorrect": "Wrong",
-    "filterUnseen": "New"
+    "filterUnseen": "New",
+    "filterArchived": "Archived",
+    "archived": "archived",
+    "archive": "Archive",
+    "unarchive": "Unarchive"
   },
   "reading": {
     "title": "Reading",
@@ -918,6 +928,16 @@
     "expr_exercise2_hint": "Personal expression with 'mir wird'",
     "expr_exercise3_q": "Translate: 'What became of your sister?' (Hint: Was ist aus... geworden)",
     "expr_exercise3_hint": "Expression with perfect of werden"
+  },
+  "verbsPrepositions": {
+    "title": "Verbs with Prepositions",
+    "subtitle": "Learn German verbs that govern specific prepositions",
+    "all": "All",
+    "verbs": "verbs",
+    "search": "Search verb or preposition...",
+    "examples": "Examples",
+    "listen": "Listen",
+    "noResults": "No verbs found"
   },
   "verbPrefixes": {
     "title": "Verb Prefixes",

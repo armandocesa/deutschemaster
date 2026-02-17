@@ -87,6 +87,7 @@ const ListeningPage = React.lazy(() => import('./pages/ListeningPage'));
 const PathsPage = React.lazy(() => import('./pages/PathsPage'));
 const EssentialWordsPage = React.lazy(() => import('./pages/EssentialWordsPage'));
 const VerbPrefixesPage = React.lazy(() => import('./pages/VerbPrefixesPage'));
+const VerbsPrepositionsPage = React.lazy(() => import('./pages/VerbsPrepositionsPage'));
 const WerdenPage = React.lazy(() => import('./pages/WerdenPage'));
 const LoginPage = React.lazy(() => import('./pages/LoginPage'));
 const DonaPage = React.lazy(() => import('./pages/DonaPage'));
@@ -102,7 +103,8 @@ const PAGE_NAME_KEYS = {
   flashcards: 'flashcards', writing: 'writing', listening: 'listening', paths: 'paths',
   'essential-words': 'essentialWords.title', 'verb-prefixes': 'verbPrefixes.title',
   'werden': 'werden.title', 'placement-test': 'placement.title', login: 'login.signin',
-  dona: 'profile.donateNow', admin: 'admin.title'
+  dona: 'profile.donateNow', admin: 'admin.title',
+  'verbs-prepositions': 'verbsPrepositions.title'
 };
 
 // Map page names to URL paths
@@ -112,7 +114,8 @@ const PAGE_TO_PATH = {
   favorites: '/favorites', reading: '/reading', stories: '/stories', lessons: '/lessons',
   profile: '/profile', flashcards: '/flashcards', writing: '/writing', listening: '/listening',
   paths: '/paths', 'essential-words': '/essential-words', 'verb-prefixes': '/verb-prefixes',
-  werden: '/werden', 'placement-test': '/placement-test', dona: '/dona', admin: '/admin'
+  werden: '/werden', 'placement-test': '/placement-test', dona: '/dona', admin: '/admin',
+  'verbs-prepositions': '/verbs-prepositions'
 };
 
 // Reverse mapping: path to page name
@@ -129,7 +132,8 @@ const PAGE_TITLES = {
   writing: 'Writing', listening: 'Listening', paths: 'Learning Paths',
   'essential-words': 'Essential Words', 'verb-prefixes': 'Verb Prefixes',
   werden: 'Werden', 'placement-test': 'Placement Test', dona: 'Support',
-  login: 'Sign In', admin: 'Admin'
+  login: 'Sign In', admin: 'Admin',
+  'verbs-prepositions': 'Verbs with Prepositions'
 };
 
 // Dynamic meta descriptions for SEO
@@ -153,6 +157,7 @@ const PAGE_DESCRIPTIONS = {
   werden: 'Master the German verb "werden" in all its uses: future, passive, subjunctive.',
   'placement-test': 'Find your German level with our placement test. Get placed from A1 to C2.',
   dona: 'Support DeutschMaster development. Help keep German learning free for everyone.',
+  'verbs-prepositions': 'German verbs with prepositions. Learn which prepositions go with which verbs and their cases.',
 };
 
 // Loading fallback component for lazy-loaded pages
@@ -376,6 +381,7 @@ function AppContent() {
             <Route path="/paths" element={<PageWrapper component={PathsPage} pageName="paths" />} />
             <Route path="/essential-words" element={<PageWrapper component={EssentialWordsPage} pageName="essential-words" />} />
             <Route path="/verb-prefixes" element={<PageWrapper component={VerbPrefixesPage} pageName="verb-prefixes" />} />
+            <Route path="/verbs-prepositions" element={<PageWrapper component={VerbsPrepositionsPage} pageName="verbs-prepositions" />} />
             <Route path="/werden" element={<PageWrapper component={WerdenPage} pageName="werden" />} />
             <Route path="/placement-test" element={<PageWrapper component={PlacementTestPage} pageName="placement-test" />} />
             <Route path="/dona" element={<PageWrapper component={DonaPage} pageName="dona" />} />

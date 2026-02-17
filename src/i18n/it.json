@@ -54,6 +54,7 @@
     "listeningTitle": "Ascolto",
     "quickPractice": "Pratica Rapida",
     "verbPrefixes": "Prefissi Verbali",
+    "verbsPrepositions": "Verbi + Preposizioni",
     "new": "Nuovo",
     "toDo": "da fare",
     "levels": {
@@ -92,7 +93,12 @@
     "showAnswer": "Mostra risposta",
     "hideAnswer": "Nascondi risposta",
     "answer": "Risposta:",
-    "explanation": "Spiegazione:"
+    "explanation": "Spiegazione:",
+    "addBookmark": "Salva per ripasso",
+    "removeBookmark": "Rimuovi dal ripasso",
+    "relatedPages": "PAGINE CORRELATE",
+    "linkVerbsPrepositions": "Verbi con Preposizioni",
+    "linkVerbPrefixes": "Prefissi Verbali"
   },
   "vocabulary": {
     "title": "Vocabolario",
@@ -117,7 +123,11 @@
     "filterSaved": "Salvate",
     "filterCorrect": "Corrette",
     "filterIncorrect": "Errate",
-    "filterUnseen": "Nuove"
+    "filterUnseen": "Nuove",
+    "filterArchived": "Archiviate",
+    "archived": "archiviate",
+    "archive": "Archivia",
+    "unarchive": "Ripristina"
   },
   "reading": {
     "title": "Lettura",
@@ -918,6 +928,16 @@
     "expr_exercise2_hint": "Espressione personalizzata con 'mir wird'",
     "expr_exercise3_q": "Traduci: 'Che fine ha fatto tua sorella?' (Pista: Was ist aus... geworden)",
     "expr_exercise3_hint": "Espressione con perfetto di werden"
+  },
+  "verbsPrepositions": {
+    "title": "Verbi con Preposizioni",
+    "subtitle": "Impara i verbi tedeschi che reggono preposizioni specifiche",
+    "all": "Tutti",
+    "verbs": "verbi",
+    "search": "Cerca verbo o preposizione...",
+    "examples": "Esempi",
+    "listen": "Ascolta",
+    "noResults": "Nessun verbo trovato"
   },
   "verbPrefixes": {
     "title": "Prefissi Verbali",

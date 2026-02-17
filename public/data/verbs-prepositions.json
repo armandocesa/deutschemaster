@@ -1,0 +1,460 @@
+{
+  "title": "Verben mit Präpositionen",
+  "description": "Deutsche Verben, die bestimmte Präpositionen regieren",
+  "categories": [
+    {
+      "id": "akkusativ",
+      "label": "Akkusativ",
+      "description": "Verben mit Präpositionen + Akkusativ",
+      "verbs": [
+        {
+          "verb": "achten auf",
+          "translation": "fare attenzione a",
+          "preposition": "auf + Akk",
+          "examples": [
+            { "level": "A2", "de": "Achte auf den Verkehr!", "it": "Fai attenzione al traffico!" },
+            { "level": "B1", "de": "Man muss auf die Gesundheit achten.", "it": "Bisogna fare attenzione alla salute." }
+          ]
+        },
+        {
+          "verb": "denken an",
+          "translation": "pensare a",
+          "preposition": "an + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich denke oft an dich.", "it": "Penso spesso a te." },
+            { "level": "B1", "de": "Denk an deinen Termin!", "it": "Pensa al tuo appuntamento!" }
+          ]
+        },
+        {
+          "verb": "warten auf",
+          "translation": "aspettare",
+          "preposition": "auf + Akk",
+          "examples": [
+            { "level": "A1", "de": "Ich warte auf den Bus.", "it": "Aspetto l'autobus." },
+            { "level": "A2", "de": "Wir warten auf dich.", "it": "Ti aspettiamo." }
+          ]
+        },
+        {
+          "verb": "sich freuen auf",
+          "translation": "non vedere l'ora di",
+          "preposition": "auf + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich freue mich auf den Urlaub.", "it": "Non vedo l'ora delle vacanze." },
+            { "level": "B1", "de": "Die Kinder freuen sich auf Weihnachten.", "it": "I bambini non vedono l'ora di Natale." }
+          ]
+        },
+        {
+          "verb": "sich interessieren für",
+          "translation": "interessarsi a/di",
+          "preposition": "für + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich interessiere mich für Musik.", "it": "Mi interesso di musica." },
+            { "level": "B1", "de": "Er interessiert sich für Politik.", "it": "Si interessa di politica." }
+          ]
+        },
+        {
+          "verb": "bitten um",
+          "translation": "chiedere (qualcosa)",
+          "preposition": "um + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich bitte dich um Hilfe.", "it": "Ti chiedo aiuto." },
+            { "level": "B1", "de": "Er bat um Entschuldigung.", "it": "Ha chiesto scusa." }
+          ]
+        },
+        {
+          "verb": "sich kümmern um",
+          "translation": "occuparsi di / prendersi cura di",
+          "preposition": "um + Akk",
+          "examples": [
+            { "level": "A2", "de": "Sie kümmert sich um ihre Kinder.", "it": "Si occupa dei suoi bambini." },
+            { "level": "B1", "de": "Wer kümmert sich um den Hund?", "it": "Chi si occupa del cane?" }
+          ]
+        },
+        {
+          "verb": "sich bewerben um",
+          "translation": "candidarsi per",
+          "preposition": "um + Akk",
+          "examples": [
+            { "level": "B1", "de": "Ich bewerbe mich um die Stelle.", "it": "Mi candido per il posto." },
+            { "level": "B2", "de": "Er hat sich um ein Stipendium beworben.", "it": "Si è candidato per una borsa di studio." }
+          ]
+        },
+        {
+          "verb": "sich gewöhnen an",
+          "translation": "abituarsi a",
+          "preposition": "an + Akk",
+          "examples": [
+            { "level": "B1", "de": "Ich gewöhne mich an das Wetter.", "it": "Mi abituo al tempo." },
+            { "level": "B2", "de": "Man gewöhnt sich an alles.", "it": "Ci si abitua a tutto." }
+          ]
+        },
+        {
+          "verb": "glauben an",
+          "translation": "credere in",
+          "preposition": "an + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich glaube an dich.", "it": "Credo in te." },
+            { "level": "B1", "de": "Er glaubt an den Erfolg.", "it": "Crede nel successo." }
+          ]
+        },
+        {
+          "verb": "verzichten auf",
+          "translation": "rinunciare a",
+          "preposition": "auf + Akk",
+          "examples": [
+            { "level": "B1", "de": "Ich verzichte auf Süßigkeiten.", "it": "Rinuncio ai dolci." },
+            { "level": "B2", "de": "Er verzichtet auf seinen Anspruch.", "it": "Rinuncia alla sua pretesa." }
+          ]
+        },
+        {
+          "verb": "sich vorbereiten auf",
+          "translation": "prepararsi a/per",
+          "preposition": "auf + Akk",
+          "examples": [
+            { "level": "B1", "de": "Ich bereite mich auf die Prüfung vor.", "it": "Mi preparo per l'esame." },
+            { "level": "B2", "de": "Wir bereiten uns auf den Winter vor.", "it": "Ci prepariamo per l'inverno." }
+          ]
+        },
+        {
+          "verb": "sich entscheiden für",
+          "translation": "decidere per / scegliere",
+          "preposition": "für + Akk",
+          "examples": [
+            { "level": "B1", "de": "Ich habe mich für das rote Kleid entschieden.", "it": "Ho scelto il vestito rosso." },
+            { "level": "B2", "de": "Er hat sich für das Studium entschieden.", "it": "Ha deciso per gli studi." }
+          ]
+        },
+        {
+          "verb": "sorgen für",
+          "translation": "provvedere a / occuparsi di",
+          "preposition": "für + Akk",
+          "examples": [
+            { "level": "B1", "de": "Er sorgt für seine Familie.", "it": "Provvede alla sua famiglia." },
+            { "level": "B2", "de": "Die Regierung sorgt für Sicherheit.", "it": "Il governo provvede alla sicurezza." }
+          ]
+        },
+        {
+          "verb": "sich beschweren über",
+          "translation": "lamentarsi di",
+          "preposition": "über + Akk",
+          "examples": [
+            { "level": "B1", "de": "Er beschwert sich über das Essen.", "it": "Si lamenta del cibo." },
+            { "level": "B2", "de": "Die Nachbarn beschweren sich über den Lärm.", "it": "I vicini si lamentano del rumore." }
+          ]
+        },
+        {
+          "verb": "sich ärgern über",
+          "translation": "arrabbiarsi per",
+          "preposition": "über + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich ärgere mich über die Verspätung.", "it": "Mi arrabbio per il ritardo." },
+            { "level": "B1", "de": "Er ärgert sich über seinen Fehler.", "it": "Si arrabbia per il suo errore." }
+          ]
+        },
+        {
+          "verb": "nachdenken über",
+          "translation": "riflettere su",
+          "preposition": "über + Akk",
+          "examples": [
+            { "level": "B1", "de": "Ich denke über das Angebot nach.", "it": "Rifletto sull'offerta." },
+            { "level": "B2", "de": "Wir müssen über die Zukunft nachdenken.", "it": "Dobbiamo riflettere sul futuro." }
+          ]
+        },
+        {
+          "verb": "diskutieren über",
+          "translation": "discutere di",
+          "preposition": "über + Akk",
+          "examples": [
+            { "level": "B1", "de": "Wir diskutieren über das Thema.", "it": "Discutiamo dell'argomento." },
+            { "level": "B2", "de": "Die Politiker diskutieren über die Reform.", "it": "I politici discutono della riforma." }
+          ]
+        },
+        {
+          "verb": "sich erinnern an",
+          "translation": "ricordarsi di",
+          "preposition": "an + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich erinnere mich an den Tag.", "it": "Mi ricordo di quel giorno." },
+            { "level": "B1", "de": "Erinnerst du dich an mich?", "it": "Ti ricordi di me?" }
+          ]
+        },
+        {
+          "verb": "kämpfen für",
+          "translation": "lottare per",
+          "preposition": "für + Akk",
+          "examples": [
+            { "level": "B1", "de": "Sie kämpft für die Gleichberechtigung.", "it": "Lotta per l'uguaglianza." },
+            { "level": "B2", "de": "Wir kämpfen für eine bessere Zukunft.", "it": "Lottiamo per un futuro migliore." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dativ",
+      "label": "Dativ",
+      "description": "Verben mit Präpositionen + Dativ",
+      "verbs": [
+        {
+          "verb": "gehören zu",
+          "translation": "appartenere a / far parte di",
+          "preposition": "zu + Dat",
+          "examples": [
+            { "level": "A2", "de": "Das gehört zu meiner Arbeit.", "it": "Questo fa parte del mio lavoro." },
+            { "level": "B1", "de": "Er gehört zu den besten Spielern.", "it": "Fa parte dei migliori giocatori." }
+          ]
+        },
+        {
+          "verb": "teilnehmen an",
+          "translation": "partecipare a",
+          "preposition": "an + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich nehme an dem Kurs teil.", "it": "Partecipo al corso." },
+            { "level": "B1", "de": "Wer nimmt an der Besprechung teil?", "it": "Chi partecipa alla riunione?" }
+          ]
+        },
+        {
+          "verb": "sich treffen mit",
+          "translation": "incontrarsi con",
+          "preposition": "mit + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich treffe mich mit meinen Freunden.", "it": "Mi incontro con i miei amici." },
+            { "level": "B1", "de": "Wann treffen wir uns mit dem Chef?", "it": "Quando ci incontriamo con il capo?" }
+          ]
+        },
+        {
+          "verb": "sprechen mit",
+          "translation": "parlare con",
+          "preposition": "mit + Dat",
+          "examples": [
+            { "level": "A1", "de": "Ich spreche mit dem Lehrer.", "it": "Parlo con l'insegnante." },
+            { "level": "A2", "de": "Kann ich mit Ihnen sprechen?", "it": "Posso parlare con Lei?" }
+          ]
+        },
+        {
+          "verb": "anfangen mit",
+          "translation": "iniziare con",
+          "preposition": "mit + Dat",
+          "examples": [
+            { "level": "A2", "de": "Wir fangen mit der Arbeit an.", "it": "Iniziamo con il lavoro." },
+            { "level": "B1", "de": "Fangen wir mit dem Essen an!", "it": "Iniziamo a mangiare!" }
+          ]
+        },
+        {
+          "verb": "aufhören mit",
+          "translation": "smettere di",
+          "preposition": "mit + Dat",
+          "examples": [
+            { "level": "A2", "de": "Hör auf mit dem Lärm!", "it": "Smettila con il rumore!" },
+            { "level": "B1", "de": "Er hat mit dem Rauchen aufgehört.", "it": "Ha smesso di fumare." }
+          ]
+        },
+        {
+          "verb": "sich beschäftigen mit",
+          "translation": "occuparsi di",
+          "preposition": "mit + Dat",
+          "examples": [
+            { "level": "B1", "de": "Ich beschäftige mich mit Kunst.", "it": "Mi occupo di arte." },
+            { "level": "B2", "de": "Die Firma beschäftigt sich mit IT.", "it": "L'azienda si occupa di IT." }
+          ]
+        },
+        {
+          "verb": "Angst haben vor",
+          "translation": "avere paura di",
+          "preposition": "vor + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich habe Angst vor Spinnen.", "it": "Ho paura dei ragni." },
+            { "level": "B1", "de": "Er hat Angst vor der Prüfung.", "it": "Ha paura dell'esame." }
+          ]
+        },
+        {
+          "verb": "sich fürchten vor",
+          "translation": "temere / avere paura di",
+          "preposition": "vor + Dat",
+          "examples": [
+            { "level": "B1", "de": "Sie fürchtet sich vor Gewittern.", "it": "Ha paura dei temporali." },
+            { "level": "B2", "de": "Er fürchtet sich vor der Zukunft.", "it": "Teme il futuro." }
+          ]
+        },
+        {
+          "verb": "leiden an",
+          "translation": "soffrire di",
+          "preposition": "an + Dat",
+          "examples": [
+            { "level": "B1", "de": "Er leidet an Kopfschmerzen.", "it": "Soffre di mal di testa." },
+            { "level": "B2", "de": "Sie leidet an einer seltenen Krankheit.", "it": "Soffre di una malattia rara." }
+          ]
+        },
+        {
+          "verb": "arbeiten an",
+          "translation": "lavorare a/su",
+          "preposition": "an + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich arbeite an einem Projekt.", "it": "Lavoro a un progetto." },
+            { "level": "B1", "de": "Wir arbeiten an einer Lösung.", "it": "Lavoriamo a una soluzione." }
+          ]
+        },
+        {
+          "verb": "zweifeln an",
+          "translation": "dubitare di",
+          "preposition": "an + Dat",
+          "examples": [
+            { "level": "B1", "de": "Ich zweifle an seiner Ehrlichkeit.", "it": "Dubito della sua onestà." },
+            { "level": "B2", "de": "Er zweifelt an sich selbst.", "it": "Dubita di se stesso." }
+          ]
+        },
+        {
+          "verb": "sich freuen über",
+          "translation": "essere contento di",
+          "preposition": "über + Akk",
+          "note": "Attenzione: über + Akk, ma spesso associato al Dativ nella conversazione",
+          "examples": [
+            { "level": "A2", "de": "Ich freue mich über das Geschenk.", "it": "Sono contento del regalo." },
+            { "level": "B1", "de": "Sie freut sich über den Besuch.", "it": "È contenta della visita." }
+          ]
+        },
+        {
+          "verb": "abhängen von",
+          "translation": "dipendere da",
+          "preposition": "von + Dat",
+          "examples": [
+            { "level": "B1", "de": "Das hängt vom Wetter ab.", "it": "Dipende dal tempo." },
+            { "level": "B2", "de": "Der Erfolg hängt von der Vorbereitung ab.", "it": "Il successo dipende dalla preparazione." }
+          ]
+        },
+        {
+          "verb": "träumen von",
+          "translation": "sognare di",
+          "preposition": "von + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich träume von einer Reise.", "it": "Sogno di un viaggio." },
+            { "level": "B1", "de": "Er träumt von einer besseren Welt.", "it": "Sogna di un mondo migliore." }
+          ]
+        },
+        {
+          "verb": "sich verabschieden von",
+          "translation": "congedarsi da / salutare",
+          "preposition": "von + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich verabschiede mich von meinen Freunden.", "it": "Mi congedo dai miei amici." },
+            { "level": "B1", "de": "Sie verabschiedete sich von ihrem Chef.", "it": "Si è congedata dal suo capo." }
+          ]
+        },
+        {
+          "verb": "warnen vor",
+          "translation": "mettere in guardia / avvertire",
+          "preposition": "vor + Dat",
+          "examples": [
+            { "level": "B1", "de": "Der Arzt warnt vor dem Rauchen.", "it": "Il medico mette in guardia dal fumo." },
+            { "level": "B2", "de": "Die Polizei warnt vor Betrug.", "it": "La polizia avverte delle truffe." }
+          ]
+        },
+        {
+          "verb": "sich unterhalten mit",
+          "translation": "conversare con / chiacchierare con",
+          "preposition": "mit + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich unterhalte mich mit meiner Nachbarin.", "it": "Chiacchiero con la mia vicina." },
+            { "level": "B1", "de": "Wir haben uns lange mit dem Professor unterhalten.", "it": "Abbiamo conversato a lungo con il professore." }
+          ]
+        },
+        {
+          "verb": "gratulieren zu",
+          "translation": "congratularsi per",
+          "preposition": "zu + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich gratuliere dir zum Geburtstag!", "it": "Ti faccio gli auguri di compleanno!" },
+            { "level": "B1", "de": "Wir gratulieren Ihnen zur Beförderung.", "it": "Ci congratuliamo per la promozione." }
+          ]
+        },
+        {
+          "verb": "einladen zu",
+          "translation": "invitare a",
+          "preposition": "zu + Dat",
+          "examples": [
+            { "level": "A2", "de": "Ich lade dich zum Essen ein.", "it": "Ti invito a cena." },
+            { "level": "B1", "de": "Sie hat uns zur Party eingeladen.", "it": "Ci ha invitato alla festa." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wechsel",
+      "label": "Akkusativ / Dativ",
+      "description": "Verben mit Wechselpräpositionen (Akk/Dat je nach Bedeutung)",
+      "verbs": [
+        {
+          "verb": "sprechen über / von",
+          "translation": "parlare di (über+Akk) / parlare di (von+Dat)",
+          "preposition": "über + Akk / von + Dat",
+          "examples": [
+            { "level": "A2", "de": "Wir sprechen über das Problem.", "it": "Parliamo del problema." },
+            { "level": "B1", "de": "Er spricht von seinen Erfahrungen.", "it": "Parla delle sue esperienze." }
+          ]
+        },
+        {
+          "verb": "sich freuen auf / über",
+          "translation": "non vedere l'ora (auf+Akk) / essere contento (über+Akk)",
+          "preposition": "auf + Akk / über + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich freue mich auf den Urlaub. (futuro)", "it": "Non vedo l'ora delle vacanze." },
+            { "level": "A2", "de": "Ich freue mich über das Geschenk. (presente)", "it": "Sono contento del regalo." }
+          ]
+        },
+        {
+          "verb": "denken an / über",
+          "translation": "pensare a (an+Akk) / riflettere su (über+Akk)",
+          "preposition": "an + Akk / über + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich denke an meine Familie.", "it": "Penso alla mia famiglia." },
+            { "level": "B1", "de": "Ich denke über das Problem nach.", "it": "Rifletto sul problema." }
+          ]
+        },
+        {
+          "verb": "schreiben an / über",
+          "translation": "scrivere a (an+Akk) / scrivere di (über+Akk)",
+          "preposition": "an + Akk / über + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich schreibe an meine Eltern.", "it": "Scrivo ai miei genitori." },
+            { "level": "B1", "de": "Sie schreibt über die Geschichte Deutschlands.", "it": "Scrive della storia della Germania." }
+          ]
+        },
+        {
+          "verb": "kämpfen für / gegen / mit",
+          "translation": "lottare per (für+Akk) / contro (gegen+Akk) / con (mit+Dat)",
+          "preposition": "für/gegen + Akk / mit + Dat",
+          "examples": [
+            { "level": "B1", "de": "Sie kämpft für ihre Rechte.", "it": "Lotta per i suoi diritti." },
+            { "level": "B2", "de": "Er kämpft gegen die Ungerechtigkeit.", "it": "Lotta contro l'ingiustizia." }
+          ]
+        },
+        {
+          "verb": "sich entschuldigen bei / für",
+          "translation": "scusarsi con (bei+Dat) / per (für+Akk)",
+          "preposition": "bei + Dat / für + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich entschuldige mich bei dir.", "it": "Mi scuso con te." },
+            { "level": "B1", "de": "Er entschuldigt sich für den Fehler.", "it": "Si scusa per l'errore." }
+          ]
+        },
+        {
+          "verb": "sich bedanken bei / für",
+          "translation": "ringraziare (bei+Dat) / per (für+Akk)",
+          "preposition": "bei + Dat / für + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich bedanke mich bei Ihnen.", "it": "La ringrazio." },
+            { "level": "B1", "de": "Ich bedanke mich für Ihre Hilfe.", "it": "La ringrazio per il Suo aiuto." }
+          ]
+        },
+        {
+          "verb": "reden mit / über",
+          "translation": "parlare con (mit+Dat) / di (über+Akk)",
+          "preposition": "mit + Dat / über + Akk",
+          "examples": [
+            { "level": "A2", "de": "Ich rede mit meinem Bruder.", "it": "Parlo con mio fratello." },
+            { "level": "B1", "de": "Wir reden über die Zukunft.", "it": "Parliamo del futuro." }
+          ]
+        }
+      ]
+    }
+  ]
+}

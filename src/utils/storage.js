@@ -22,6 +22,28 @@ export const removeDifficultWord = (id) => {
 
 export const isDifficultWord = (id) => getDifficultWords().some(w => w.id === id);
 
+// ============ ARCHIVED (KNOWN) WORDS ============
+export const getArchivedWords = () => {
+  try { return JSON.parse(localStorage.getItem('dm_archivedWords')) || []; } catch { return []; }
+};
+
+export const archiveWord = (word, type = 'word') => {
+  const words = getArchivedWords();
+  const id = type === 'verb' ? (word.infinitiv || word.german) : (word.german || word.infinitiv);
+  if (!id) return;
+  if (!words.find(w => w.id === id)) {
+    words.push({ ...word, id, type, archivedAt: Date.now() });
+    saveAndSync('dm_archivedWords', JSON.stringify(words));
+  }
+};
+
+export const unarchiveWord = (id) => {
+  const words = getArchivedWords().filter(w => w.id !== id);
+  saveAndSync('dm_archivedWords', JSON.stringify(words));
+};
+
+export const isArchivedWord = (id) => getArchivedWords().some(w => w.id === id);
+
 export const getReviewQuestions = () => {
   try { return JSON.parse(localStorage.getItem('dm_reviewQuestions')) || []; } catch { return []; }
 };

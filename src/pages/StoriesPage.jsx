@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import Icons from '../components/Icons';
-import LevelTabs from '../components/LevelTabs';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import { saveAndSync } from '../utils/cloudSync';
@@ -14,15 +13,27 @@ function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
   const [showScore, setShowScore] = useState(false);
   const [tooltipWord, setTooltipWord] = useState(null);
   const { t } = useLanguage();
+  const storyEndRef = useRef(null);
+  const currentLineRef = useRef(null);
 
   // Cleanup speech synthesis on unmount
   useEffect(() => {
     return () => { window.speechSynthesis.cancel(); };
   }, []);
 
+  // Auto-scroll to current line
+  useEffect(() => {
+    if (currentLineRef.current) {
+      currentLineRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [currentLineIndex]);
+
   const currentLine = story.lines[currentLineIndex];
+  const totalLines = story.lines.length;
+  const textLines = story.lines.filter(l => l.type !== 'question');
   const questions = story.lines.filter(l => l.type === 'question');
   const completedQuestions = questions.filter(q => answers[story.lines.indexOf(q)] !== undefined).length;
+  const progressPercent = Math.round(((currentLineIndex + 1) / totalLines) * 100);
 
   const handleNext = () => {
     if (currentLineIndex < story.lines.length - 1) {
@@ -46,10 +57,10 @@ function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
     setTimeout(() => handleNext(), 500);
   };
 
-  const readAloud = () => {
+  const readAloud = (text) => {
     try {
       window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(currentLine.text);
+      const u = new SpeechSynthesisUtterance(text || currentLine.text);
       u.lang = 'de-DE';
       u.rate = 0.85;
       speechSynthesis.speak(u);
@@ -130,6 +141,9 @@ function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
   const isQuestion = currentLine.type === 'question';
   const question = isQuestion ? currentLine : null;
 
+  // Get all lines up to and including current index (for accumulated view)
+  const visibleLines = story.lines.slice(0, currentLineIndex + 1);
+
   return (
     <div className="reading-page">
       <div className="reading-text-container">
@@ -139,67 +153,103 @@ function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
           <p className="page-subtitle">{story.titleIt}</p>
         </div>
 
-        <div className="stories-status-badges">
-          <div className="stories-status-badge">
-            {t('stories.line')} {currentLineIndex + 1} {t('stories.of')} {story.lines.length}
+        {/* Progress bar */}
+        <div className="stories-progress-wrapper">
+          <div className="stories-progress-bar">
+            <div className="stories-progress-fill" style={{ width: `${progressPercent}%`, backgroundColor: colors.bg }} />
           </div>
-          {questions.length > 0 && (
-            <div className="stories-status-badge">
-              {t('stories.questionsAnswered')} {completedQuestions}/{questions.length}
-            </div>
-          )}
+          <div className="stories-progress-info">
+            <span>{currentLineIndex + 1}/{totalLines}</span>
+            {questions.length > 0 && (
+              <span>{completedQuestions}/{questions.length} {t('stories.questions')}</span>
+            )}
+          </div>
         </div>
 
-        {!isQuestion ? (
-          <>
-            <div className="stories-toolbar">
-              <button className="stories-read-aloud-btn" onClick={readAloud}>
-                <Icons.Volume /> {t('stories.readAloud')}
-              </button>
-            </div>
-            <div className="stories-text-display">
-              <div className="stories-text-content">
-                <span className="stories-text-speaker">
-                  {currentLine.speaker === 'narrator' ? t('stories.narrator') : `${currentLine.speaker}:`}
-                </span>
-                <span>{renderTextWithTooltips(currentLine.text)}</span>
-              </div>
-              {currentLine.translation && (
-                <div className="stories-text-translation">
-                  <span className="stories-translation-label">{t('stories.italian')}:</span> {currentLine.translation}
-                </div>
-              )}
-            </div>
-          </>
-        ) : (
-          <>
-            <div className="stories-question-box">
-              <h2 className="stories-question-text">
-                ❓ {question.question || question.questionIt}
-              </h2>
-              <div className="stories-options-grid">
-                {(question.options || []).map((opt, idx) => {
-                  const answered = answers[currentLineIndex] !== undefined;
-                  const isCorrect = idx === question.correctAnswer;
-                  const selected = answers[currentLineIndex] === idx;
-                  return (
-                    <button
-                      key={idx}
-                      onClick={() => handleAnswer(idx)}
-                      disabled={answered}
-                      className={`stories-option-btn ${answered ? (isCorrect ? 'correct' : selected ? 'incorrect' : 'pending') : ''}`}
-                    >
-                      {isCorrect && answered && '✓ '}
-                      {selected && answered && !isCorrect && '✗ '}
-                      {opt}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          </>
+        {/* Difficult words legend */}
+        {story.difficultWords && story.difficultWords.length > 0 && (
+          <div className="stories-vocab-bar">
+            {story.difficultWords.map((dw, i) => (
+              <span key={i} className="stories-vocab-chip">
+                <strong>{dw.word}</strong> <span className="stories-vocab-meaning">{dw.translation}</span>
+              </span>
+            ))}
+          </div>
         )}
 
+        {/* Accumulated story view - all previous lines */}
+        <div className="stories-book">
+          {visibleLines.map((line, idx) => {
+            const lineIdx = idx;
+            const isCurrent = idx === currentLineIndex;
+            const isQ = line.type === 'question';
+            const isPast = idx < currentLineIndex;
+
+            if (isQ) {
+              const qAnswered = answers[idx] !== undefined;
+              return (
+                <div key={idx} ref={isCurrent ? currentLineRef : null}
+                     className={`stories-book-question ${isCurrent ? 'current' : 'past'}`}>
+                  <div className="stories-question-marker">?</div>
+                  <div className="stories-question-text-book">
+                    {line.question || line.questionIt}
+                  </div>
+                  {isCurrent && !qAnswered && (
+                    <div className="stories-options-grid">
+                      {(line.options || []).map((opt, optIdx) => (
+                        <button
+                          key={optIdx}
+                          onClick={() => handleAnswer(optIdx)}
+                          className="stories-option-btn"
+                        >
+                          {opt}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  {qAnswered && (
+                    <div className={`stories-answer-result ${answers[idx] === line.correctAnswer ? 'correct' : 'incorrect'}`}>
+                      {answers[idx] === line.correctAnswer ? '✓' : '✗'} {line.options[answers[idx]]}
+                      {answers[idx] !== line.correctAnswer && (
+                        <span className="stories-correct-answer"> → {line.options[line.correctAnswer]}</span>
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            }
+
+            const isNarrator = line.speaker === 'narrator';
+            return (
+              <div key={idx} ref={isCurrent ? currentLineRef : null}
+                   className={`stories-book-line ${isCurrent ? 'current' : 'past'} ${isNarrator ? 'narrator' : 'dialogue'}`}>
+                <div className="stories-book-text-row">
+                  {!isNarrator && (
+                    <span className="stories-book-speaker" style={{ color: colors.bg }}>
+                      {line.speaker}:
+                    </span>
+                  )}
+                  <span className={`stories-book-text ${isNarrator ? 'narrator-text' : ''}`}>
+                    {isCurrent ? renderTextWithTooltips(line.text) : line.text}
+                  </span>
+                  {isCurrent && (
+                    <button className="stories-inline-audio" onClick={() => readAloud(line.text)} title={t('stories.readAloud')}>
+                      <Icons.Volume />
+                    </button>
+                  )}
+                </div>
+                {line.translation && (
+                  <div className={`stories-book-translation ${isPast ? 'dimmed' : ''}`}>
+                    {line.translation}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+          <div ref={storyEndRef} />
+        </div>
+
+        {/* Navigation */}
         <div className="stories-navigation">
           <button onClick={onBack} className="stories-nav-back-btn">
             {t('stories.back')}
@@ -209,7 +259,7 @@ function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
             disabled={isQuestion && answers[currentLineIndex] === undefined}
             className="stories-nav-next-btn"
           >
-            {currentLineIndex === story.lines.length - 1 ? t('stories.completeStory') : t('stories.nextLine')}
+            {currentLineIndex === story.lines.length - 1 ? t('stories.completeStory') : t('stories.nextLine')} →
           </button>
         </div>
       </div>
@@ -218,19 +268,14 @@ function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
 }
 
 export default function StoriesPage({ level, reading, onNavigate }) {
-  const { canAccessLevel, requiresAuth } = useLevelAccess();
+  const { canAccessLevel } = useLevelAccess();
   const { t, language } = useLanguage();
-  const [internalLevel, setInternalLevel] = useState(level || (() => {
-    try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
-  }));
   const [stories, setStories] = useState([]);
   const [selectedStory, setSelectedStory] = useState(null);
   const [completedStories, setCompletedStories] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const activeLevel = level || internalLevel;
-  const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
-  const canAccess = canAccessLevel(activeLevel);
+  const colors = LEVEL_COLORS[level || 'A1'] || { bg: '#6c5ce7', text: '#fff' };
 
   useEffect(() => {
     const fetchStories = async () => {
@@ -257,36 +302,38 @@ export default function StoriesPage({ level, reading, onNavigate }) {
     fetchStories();
   }, [language]);
 
-  const currentStories = useMemo(() => {
-    return stories[activeLevel]?.stories || [];
-  }, [stories, activeLevel]);
-
-  const handleLevelChange = (lvl) => {
-    setInternalLevel(lvl);
-    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
-    if (level) onNavigate('stories', { level: lvl });
-  };
+  // All stories from all levels, flattened for reader navigation
+  const allStoriesFlat = useMemo(() => {
+    const result = [];
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    levels.forEach(lvl => {
+      (stories[lvl]?.stories || []).forEach(s => result.push({ ...s, _level: lvl }));
+    });
+    return result;
+  }, [stories]);
 
   if (loading) {
     return (
       <div className="reading-page" style={{ padding: '20px' }}>
         <div className="skeleton" style={{ width: '180px', height: '28px', marginBottom: '8px' }} />
         <div className="skeleton" style={{ width: '280px', height: '16px', marginBottom: '24px' }} />
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '16px' }}>
-          {[1,2,3,4].map(i => <div key={i} className="skeleton" style={{ height: '140px', borderRadius: 'var(--radius)' }} />)}
+        <div className="stories-card-grid">
+          {[1,2,3,4,5,6].map(i => <div key={i} className="skeleton" style={{ height: '120px', borderRadius: 'var(--radius)' }} />)}
         </div>
       </div>
     );
   }
 
   if (selectedStory) {
-    const storyIdx = currentStories.findIndex(s => s.id === selectedStory.id);
-    const nextStory = storyIdx >= 0 && storyIdx < currentStories.length - 1 ? currentStories[storyIdx + 1] : null;
+    const storyLevel = selectedStory._level || 'A1';
+    const storyColors = LEVEL_COLORS[storyLevel] || colors;
+    const storyIdx = allStoriesFlat.findIndex(s => s.id === selectedStory.id);
+    const nextStory = storyIdx >= 0 && storyIdx < allStoriesFlat.length - 1 ? allStoriesFlat[storyIdx + 1] : null;
     return (
       <StoryReader
         story={selectedStory}
-        level={activeLevel}
-        colors={colors}
+        level={storyLevel}
+        colors={storyColors}
         onBack={() => setSelectedStory(null)}
         hasNext={!!nextStory}
         onNextStory={() => nextStory && setSelectedStory(nextStory)}
@@ -294,53 +341,89 @@ export default function StoriesPage({ level, reading, onNavigate }) {
     );
   }
 
-  if (!canAccess) {
-    return (
-      <div className="reading-page">
-        <div className="reading-text-container">
-          <div className="page-header">
-            <h1 className="page-title">{t('stories.title')}</h1>
-          </div>
-          <div style={{textAlign: 'center', padding: '40px', background: 'rgba(239,68,68,0.1)', borderRadius: 'var(--radius)', border: '1px solid rgba(239,68,68,0.3)'}}>
-            <span style={{fontSize: '48px', display: 'block', marginBottom: '16px'}}>🔒</span>
-            <h2 style={{marginBottom: '8px'}}>{t('stories.limitedAccess')}</h2>
-            <p style={{color: 'var(--text-secondary)', marginBottom: '16px'}}>{t('stories.limitedMessage')} {activeLevel} {t('stories.requiresAuth')}</p>
-            <button onClick={() => onNavigate('login')} style={{padding: '10px 20px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
-              {t('stories.signIn')}
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const allLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  const totalStories = allStoriesFlat.length;
 
   return (
     <div className="reading-page">
       <div className="page-header">
         <h1 className="page-title">{t('stories.interactive')}</h1>
-        <p className="page-subtitle">{getLevelName(activeLevel, language)} - {currentStories.length} {t('stories.stories')}</p>
+        <p className="page-subtitle">{totalStories} {t('stories.stories')}</p>
       </div>
 
-      <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
+      {allLevels.map(lvl => {
+        const lvlStories = stories[lvl]?.stories || [];
+        if (lvlStories.length === 0) return null;
+        const lvlColors = LEVEL_COLORS[lvl] || colors;
+        const lvlCompleted = lvlStories.filter(s => completedStories.includes(s.id)).length;
+        const lvlCanAccess = canAccessLevel(lvl);
+        const lvlProgress = Math.round((lvlCompleted / lvlStories.length) * 100);
 
-      <div className="compact-list">
-        {currentStories.map(story => {
-          const isCompleted = completedStories.includes(story.id);
-          return (
-            <div key={story.id} className={`compact-list-item ${isCompleted ? 'completed' : ''}`} onClick={() => setSelectedStory(story)}>
-              <span className="compact-icon">{story.emoji}</span>
-              <div className="compact-info">
-                <div className="compact-title">{story.title}</div>
-                <div className="compact-subtitle">{story.characters?.join(', ')}</div>
+        return (
+          <div key={lvl} className="stories-level-section">
+            <div className="stories-level-header" style={{ borderBottomColor: lvlColors.bg }}>
+              <div className="stories-level-header-left">
+                <span className="stories-level-badge" style={{ background: lvlColors.bg }}>
+                  {lvl}
+                </span>
+                <span className="stories-level-name">
+                  {getLevelName(lvl, language)}
+                </span>
               </div>
-              {isCompleted && <span className="compact-badge success">✓</span>}
-              <span className="compact-chevron">›</span>
+              <div className="stories-level-header-right">
+                <div className="stories-level-progress-mini">
+                  <div className="stories-level-progress-mini-fill" style={{ width: `${lvlProgress}%`, backgroundColor: lvlColors.bg }} />
+                </div>
+                <span className="stories-level-count">
+                  {lvlCompleted}/{lvlStories.length}
+                </span>
+              </div>
             </div>
-          );
-        })}
-      </div>
 
-      {currentStories.length === 0 && (
+            {!lvlCanAccess ? (
+              <div className="stories-locked-box">
+                🔒 {t('stories.limitedMessage')} {lvl} {t('stories.requiresAuth')}
+              </div>
+            ) : (
+              <div className="stories-card-grid">
+                {lvlStories.map(story => {
+                  const isCompleted = completedStories.includes(story.id);
+                  const storyTextLines = story.lines.filter(l => l.type !== 'question').length;
+                  const storyQuestions = story.lines.filter(l => l.type === 'question').length;
+                  return (
+                    <div
+                      key={story.id}
+                      className={`stories-card ${isCompleted ? 'completed' : ''}`}
+                      onClick={() => setSelectedStory({ ...story, _level: lvl })}
+                      style={{ '--card-accent': lvlColors.bg }}
+                    >
+                      <div className="stories-card-emoji">{story.emoji}</div>
+                      <div className="stories-card-body">
+                        <div className="stories-card-title">{story.title}</div>
+                        <div className="stories-card-subtitle">{story.titleIt}</div>
+                        <div className="stories-card-meta">
+                          <span>{storyTextLines} righe</span>
+                          <span className="stories-card-meta-dot">·</span>
+                          <span>{storyQuestions} domande</span>
+                          {story.characters && story.characters.length > 0 && (
+                            <>
+                              <span className="stories-card-meta-dot">·</span>
+                              <span>{story.characters.join(', ')}</span>
+                            </>
+                          )}
+                        </div>
+                      </div>
+                      {isCompleted && <span className="stories-card-check">✓</span>}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        );
+      })}
+
+      {totalStories === 0 && (
         <div className="empty-state">
           <p>{t('stories.noStories')}</p>
         </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Icons from '../components/Icons';
 import { LEVEL_COLORS, fisherYatesShuffle } from '../utils/constants';
 import { useData } from '../DataContext';
-import { getDifficultWords, updateQuizStats, markWordStatus, markGrammarStatus, isReviewQuestion, saveReviewQuestion, removeReviewQuestion } from '../utils/storage';
+import { getDifficultWords, updateQuizStats, markWordStatus, markGrammarStatus, isReviewQuestion, saveReviewQuestion, removeReviewQuestion, isArchivedWord } from '../utils/storage';
 import { addXP, recordActivity, addToReview } from '../utils/gamification';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import LevelAccessModal from '../components/LevelAccessModal';
@@ -61,6 +61,7 @@ export default function QuizPage({ level, onNavigate }) {
           if (!levelData?.modules) return [];
           levelData.modules.forEach(m => { const mod = m.name||m.category||'x'; wordsByMod[mod]=m.words||[]; m.words?.forEach(w => allWords.push({...w, mod})); });
         }
+        allWords = allWords.filter(w => !isArchivedWord(w.german));
         if (allWords.length === 0) return [];
         let available = allWords.filter(w => !usedIdSet.has(w.german));
         if (available.length < count) {
