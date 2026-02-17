@@ -111,10 +111,11 @@ describe('StoriesPage', () => {
     });
   });
 
-  it('renders level tabs', async () => {
+  it('renders level sections with badges', async () => {
     render(<StoriesPage level="A1" onNavigate={onNavigate} />);
     await waitFor(() => {
-      expect(screen.getByTestId('level-tabs')).toBeTruthy();
+      expect(screen.getByText('Beginner')).toBeTruthy();
+      expect(screen.getAllByText('A1').length).toBeGreaterThan(0);
     });
   });
 
