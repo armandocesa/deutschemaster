@@ -117,7 +117,11 @@
     "filterSaved": "Saved",
     "filterCorrect": "Correct",
     "filterIncorrect": "Wrong",
-    "filterUnseen": "New"
+    "filterUnseen": "New",
+    "filterArchived": "Archived",
+    "archived": "archived",
+    "archive": "Archive",
+    "unarchive": "Unarchive"
   },
   "reading": {
     "title": "Reading",

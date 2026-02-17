@@ -5,21 +5,29 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useData } from '../DataContext';
 import { speak } from '../utils/speech';
-import { getWordStatus, markWordStatus, isDifficultWord, saveDifficultWord, removeDifficultWord } from '../utils/storage';
+import { getWordStatus, markWordStatus, isDifficultWord, saveDifficultWord, removeDifficultWord, isArchivedWord, archiveWord, unarchiveWord } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
 
 function WordCard({ word, category, onSaveChange }) {
   const { t } = useLanguage();
   const [showTranslation, setShowTranslation] = useState(false);
   const [saved, setSaved] = useState(isDifficultWord(word.german));
+  const [archived, setArchived] = useState(isArchivedWord(word.german));
   const wordStatus = getWordStatus(word.german);
 
-  useEffect(() => { setSaved(isDifficultWord(word.german)); }, [word.german]);
+  useEffect(() => { setSaved(isDifficultWord(word.german)); setArchived(isArchivedWord(word.german)); }, [word.german]);
 
   const toggleSave = () => {
     if (saved) { removeDifficultWord(word.german); }
     else { saveDifficultWord(word, 'word'); }
     setSaved(!saved);
+    if (onSaveChange) onSaveChange();
+  };
+
+  const toggleArchive = () => {
+    if (archived) { unarchiveWord(word.german); }
+    else { archiveWord(word, 'word'); }
+    setArchived(!archived);
     if (onSaveChange) onSaveChange();
   };
 
@@ -29,7 +37,7 @@ function WordCard({ word, category, onSaveChange }) {
   };
 
   return (
-    <div className={`word-card status-${wordStatus}`}>
+    <div className={`word-card status-${wordStatus} ${archived ? 'archived' : ''}`}>
       <div className="word-card-main">
         <span className={`progress-dot ${wordStatus}`}></span>
         <div className="word-card-german" onClick={() => speak(word.german)}>
@@ -55,6 +63,13 @@ function WordCard({ word, category, onSaveChange }) {
           title="OK"
         >
           <Icons.Check />
+        </button>
+        <button
+          className={`word-card-btn archive-btn ${archived ? 'archived' : ''}`}
+          onClick={toggleArchive}
+          title={archived ? t('vocabulary.unarchive') : t('vocabulary.archive')}
+        >
+          <Icons.Archive />
         </button>
       </div>
     </div>
@@ -112,7 +127,8 @@ export default function VocabularyPage({ level, onNavigate }) {
     const correct = allWords.filter(w => getWordStatus(w.german) === 'correct').length;
     const incorrect = allWords.filter(w => getWordStatus(w.german) === 'incorrect').length;
     const saved = allWords.filter(w => isDifficultWord(w.german)).length;
-    return { correct, incorrect, unseen: allWords.length - correct - incorrect, saved };
+    const archived = allWords.filter(w => isArchivedWord(w.german)).length;
+    return { correct, incorrect, unseen: allWords.length - correct - incorrect, saved, archived };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allWords, saveVersion]);
 
@@ -130,6 +146,8 @@ export default function VocabularyPage({ level, onNavigate }) {
     else if (filter === 'correct') result = result.filter(w => getWordStatus(w.german) === 'correct');
     else if (filter === 'incorrect') result = result.filter(w => getWordStatus(w.german) === 'incorrect');
     else if (filter === 'unseen') result = result.filter(w => getWordStatus(w.german) === 'unseen');
+    else if (filter === 'archived') result = result.filter(w => isArchivedWord(w.german));
+    else if (filter === 'all') result = result.filter(w => !isArchivedWord(w.german));
     return result;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allWords, debouncedSearch, filter, saveVersion]);
@@ -150,6 +168,7 @@ export default function VocabularyPage({ level, onNavigate }) {
         <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{progressCounts.correct}</span> {t('vocabulary.correct')}</div>
         <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{progressCounts.incorrect}</span> {t('vocabulary.incorrect')}</div>
         <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{progressCounts.unseen}</span> {t('vocabulary.unseen')}</div>
+        <div className="progress-summary-item archived"><span className="progress-dot archived"></span><span className="count">{progressCounts.archived}</span> {t('vocabulary.archived')}</div>
       </div>
 
       <div className="vocab-toolbar">
@@ -163,6 +182,7 @@ export default function VocabularyPage({ level, onNavigate }) {
           { key: 'correct', label: t('vocabulary.filterCorrect'), count: progressCounts.correct },
           { key: 'incorrect', label: t('vocabulary.filterIncorrect'), count: progressCounts.incorrect },
           { key: 'unseen', label: t('vocabulary.filterUnseen'), count: progressCounts.unseen },
+          { key: 'archived', label: t('vocabulary.filterArchived'), count: progressCounts.archived },
         ].map(f => (
           <button
             key={f.key}

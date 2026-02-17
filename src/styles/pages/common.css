@@ -768,6 +768,7 @@
 .progress-dot.correct { background: var(--success); }
 .progress-dot.incorrect { background: var(--error); }
 .progress-dot.unseen { background: var(--border); }
+.progress-dot.archived { background: #8b5cf6; }
 
 /* Gamification bar on homepage */
 .home-gamification-bar { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; margin-bottom: 22px; }

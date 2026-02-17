@@ -117,7 +117,11 @@
     "filterSaved": "Gespeichert",
     "filterCorrect": "Korrekt",
     "filterIncorrect": "Falsch",
-    "filterUnseen": "Neu"
+    "filterUnseen": "Neu",
+    "filterArchived": "Archiviert",
+    "archived": "archiviert",
+    "archive": "Archivieren",
+    "unarchive": "Wiederherstellen"
   },
   "reading": {
     "title": "Leseverständnis",

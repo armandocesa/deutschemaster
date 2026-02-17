@@ -2795,6 +2795,10 @@ button:disabled, .quiz-option:disabled {
 .word-card-btn:hover { border-color: var(--accent); color: var(--accent); }
 .word-card-btn.save-btn.saved { color: var(--warning); border-color: var(--warning); background: rgba(245,158,11,0.08); }
 .word-card-btn.ok-btn.done { color: var(--success); border-color: var(--success); background: rgba(0,214,143,0.08); }
+.word-card-btn.archive-btn.archived { color: #8b5cf6; border-color: #8b5cf6; background: rgba(139,92,246,0.08); }
+.word-card.archived { opacity: 0.5; }
+.word-card.archived:hover { opacity: 0.8; }
+.progress-dot.archived { background: #8b5cf6; }
 .word-card-btn svg { width: 14px; height: 14px; }
 
 /* ===== SIMPLIFIED GRAMMAR SECTIONS ===== */
