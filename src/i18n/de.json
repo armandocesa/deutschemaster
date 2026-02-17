@@ -54,6 +54,7 @@
     "listeningTitle": "Hören",
     "quickPractice": "Schnelle Übung",
     "verbPrefixes": "Verbvorsilben",
+    "verbsPrepositions": "Verben + Präpositionen",
     "new": "Neu",
     "toDo": "zu machen",
     "levels": {
@@ -922,6 +923,16 @@
     "expr_exercise2_hint": "Persönlicher Ausdruck mit 'mir wird'",
     "expr_exercise3_q": "Übersetze: 'Was ist aus Deiner Schwester geworden?' (Hinweis: Was ist aus... geworden)",
     "expr_exercise3_hint": "Ausdruck mit Perfekt von werden"
+  },
+  "verbsPrepositions": {
+    "title": "Verben mit Präpositionen",
+    "subtitle": "Lerne deutsche Verben mit ihren Präpositionen",
+    "all": "Alle",
+    "verbs": "Verben",
+    "search": "Verb oder Präposition suchen...",
+    "examples": "Beispiele",
+    "listen": "Hören",
+    "noResults": "Keine Verben gefunden"
   },
   "verbPrefixes": {
     "title": "Verbvorsilben",

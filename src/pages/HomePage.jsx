@@ -201,6 +201,7 @@ export default function HomePage({ onNavigate }) {
           <QuickActionCard icon={<Icons.Listening />} title={t('home.listeningTitle')} color="#06b6d4" onClick={() => onNavigate('listening')} noLevel />
           <QuickActionCard icon={<Icons.Practice />} title={t('home.quickPractice')} color="#f59e0b" onClick={() => onNavigate('practice')} noLevel />
           <QuickActionCard icon={<Icons.Verb />} title={t('home.verbPrefixes')} color="#f97316" onClick={() => onNavigate('verb-prefixes')} noLevel />
+          <QuickActionCard icon={<Icons.Verb />} title={t('home.verbsPrepositions')} color="#e11d48" onClick={() => onNavigate('verbs-prepositions')} noLevel />
           <QuickActionCard icon={<Icons.Star />} title={t('nav.saved')} color="#ec4899" onClick={() => onNavigate('favorites')} noLevel />
         </div>
       </section>
