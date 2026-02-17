@@ -194,16 +194,38 @@ export default function VocabularyPage({ level, onNavigate }) {
         ))}
       </div>
 
-      <div className="word-cards-list">
-        {visibleWords.map((word) => (
-          <WordCard
-            key={`${word.german}_${word.article || ''}_${word._category}`}
-            word={word}
-            category={word._category}
-            onSaveChange={() => setSaveVersion(v => v + 1)}
-          />
-        ))}
-      </div>
+      {(filter === 'saved' || filter === 'archived') ? (
+        <div className="compact-list" style={{padding: '0 16px'}}>
+          {visibleWords.map((word) => (
+            <div key={`${word.german}_${word.article || ''}_${word._category}`} className="compact-list-item favorites-list-item">
+              <div className="compact-info" onClick={() => speak(word.german)} style={{cursor:'pointer'}}>
+                <div className="compact-title">
+                  {word.german}
+                  {word.article && <span style={{color:'var(--text-tertiary)',fontSize:'12px',fontWeight:400}}> ({word.article})</span>}
+                </div>
+                <div className="compact-subtitle">{word.italian || '—'}</div>
+              </div>
+              {filter === 'saved' && (
+                <button className="favorites-remove-btn" onClick={() => { removeDifficultWord(word.german); setSaveVersion(v => v + 1); }} title={t('vocabulary.unarchive')}><Icons.X /></button>
+              )}
+              {filter === 'archived' && (
+                <button className="favorites-remove-btn" onClick={() => { unarchiveWord(word.german); setSaveVersion(v => v + 1); }} title={t('vocabulary.unarchive')}><Icons.X /></button>
+              )}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="word-cards-list">
+          {visibleWords.map((word) => (
+            <WordCard
+              key={`${word.german}_${word.article || ''}_${word._category}`}
+              word={word}
+              category={word._category}
+              onSaveChange={() => setSaveVersion(v => v + 1)}
+            />
+          ))}
+        </div>
+      )}
 
       {hasMore && (
         <div style={{textAlign:'center',padding:'20px'}}>
