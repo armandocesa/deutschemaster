@@ -305,6 +305,99 @@
   background: var(--bg-secondary);
 }
 
+/* Pipe-delimited table */
+.gr-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 4px;
+}
+.gr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  min-width: 300px;
+}
+.gr-table th {
+  background: var(--accent);
+  color: white;
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+.gr-table td {
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+.gr-table tr:nth-child(even) td {
+  background: var(--bg-secondary);
+}
+.gr-table tr:hover td {
+  background: rgba(99, 102, 241, 0.06);
+}
+.gr-table .gr-table-label {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Bookmark button */
+.gr-bookmark-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  font-size: 18px;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.gr-bookmark-btn:hover {
+  color: var(--accent);
+  background: rgba(99, 102, 241, 0.1);
+}
+.gr-bookmark-btn.saved {
+  color: var(--accent);
+}
+
+/* Related links */
+.gr-related-links {
+  background: rgba(99, 102, 241, 0.04);
+}
+.gr-links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.gr-link-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.gr-link-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.gr-link-icon {
+  font-size: 14px;
+}
+
 /* Examples */
 .gr-examples {
   display: flex;

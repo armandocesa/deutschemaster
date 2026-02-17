@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import Icons from '../components/Icons';
-import LevelTabs from '../components/LevelTabs';
 import { LEVEL_COLORS, getLevelName } from '../utils/constants';
 import { useLevelAccess } from '../hooks/useLevelAccess';
 import { saveAndSync } from '../utils/cloudSync';
@@ -218,19 +217,14 @@ function StoryReader({ story, level, colors, onBack, onNextStory, hasNext }) {
 }
 
 export default function StoriesPage({ level, reading, onNavigate }) {
-  const { canAccessLevel, requiresAuth } = useLevelAccess();
+  const { canAccessLevel } = useLevelAccess();
   const { t, language } = useLanguage();
-  const [internalLevel, setInternalLevel] = useState(level || (() => {
-    try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
-  }));
   const [stories, setStories] = useState([]);
   const [selectedStory, setSelectedStory] = useState(null);
   const [completedStories, setCompletedStories] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const activeLevel = level || internalLevel;
-  const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
-  const canAccess = canAccessLevel(activeLevel);
+  const colors = LEVEL_COLORS[level || 'A1'] || { bg: '#6c5ce7', text: '#fff' };
 
   useEffect(() => {
     const fetchStories = async () => {
@@ -257,15 +251,16 @@ export default function StoriesPage({ level, reading, onNavigate }) {
     fetchStories();
   }, [language]);
 
-  const currentStories = useMemo(() => {
-    return stories[activeLevel]?.stories || [];
-  }, [stories, activeLevel]);
+  // All stories from all levels, flattened for reader navigation
+  const allStoriesFlat = useMemo(() => {
+    const result = [];
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    levels.forEach(lvl => {
+      (stories[lvl]?.stories || []).forEach(s => result.push({ ...s, _level: lvl }));
+    });
+    return result;
+  }, [stories]);
 
-  const handleLevelChange = (lvl) => {
-    setInternalLevel(lvl);
-    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
-    if (level) onNavigate('stories', { level: lvl });
-  };
 
   if (loading) {
     return (
@@ -280,13 +275,15 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   }
 
   if (selectedStory) {
-    const storyIdx = currentStories.findIndex(s => s.id === selectedStory.id);
-    const nextStory = storyIdx >= 0 && storyIdx < currentStories.length - 1 ? currentStories[storyIdx + 1] : null;
+    const storyLevel = selectedStory._level || activeLevel;
+    const storyColors = LEVEL_COLORS[storyLevel] || colors;
+    const storyIdx = allStoriesFlat.findIndex(s => s.id === selectedStory.id);
+    const nextStory = storyIdx >= 0 && storyIdx < allStoriesFlat.length - 1 ? allStoriesFlat[storyIdx + 1] : null;
     return (
       <StoryReader
         story={selectedStory}
-        level={activeLevel}
-        colors={colors}
+        level={storyLevel}
+        colors={storyColors}
         onBack={() => setSelectedStory(null)}
         hasNext={!!nextStory}
         onNextStory={() => nextStory && setSelectedStory(nextStory)}
@@ -294,53 +291,75 @@ export default function StoriesPage({ level, reading, onNavigate }) {
     );
   }
 
-  if (!canAccess) {
-    return (
-      <div className="reading-page">
-        <div className="reading-text-container">
-          <div className="page-header">
-            <h1 className="page-title">{t('stories.title')}</h1>
-          </div>
-          <div style={{textAlign: 'center', padding: '40px', background: 'rgba(239,68,68,0.1)', borderRadius: 'var(--radius)', border: '1px solid rgba(239,68,68,0.3)'}}>
-            <span style={{fontSize: '48px', display: 'block', marginBottom: '16px'}}>🔒</span>
-            <h2 style={{marginBottom: '8px'}}>{t('stories.limitedAccess')}</h2>
-            <p style={{color: 'var(--text-secondary)', marginBottom: '16px'}}>{t('stories.limitedMessage')} {activeLevel} {t('stories.requiresAuth')}</p>
-            <button onClick={() => onNavigate('login')} style={{padding: '10px 20px', background: 'var(--accent)', color: 'white', border: 'none', borderRadius: 'var(--radius)', fontSize: '14px', fontWeight: '600', cursor: 'pointer'}}>
-              {t('stories.signIn')}
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
+
+  const allLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  const totalStories = allStoriesFlat.length;
 
   return (
     <div className="reading-page">
       <div className="page-header">
         <h1 className="page-title">{t('stories.interactive')}</h1>
-        <p className="page-subtitle">{getLevelName(activeLevel, language)} - {currentStories.length} {t('stories.stories')}</p>
+        <p className="page-subtitle">{totalStories} {t('stories.stories')}</p>
       </div>
 
-      <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
+      {allLevels.map(lvl => {
+        const lvlStories = stories[lvl]?.stories || [];
+        if (lvlStories.length === 0) return null;
+        const lvlColors = LEVEL_COLORS[lvl] || colors;
+        const lvlCompleted = lvlStories.filter(s => completedStories.includes(s.id)).length;
+        const lvlCanAccess = canAccessLevel(lvl);
 
-      <div className="compact-list">
-        {currentStories.map(story => {
-          const isCompleted = completedStories.includes(story.id);
-          return (
-            <div key={story.id} className={`compact-list-item ${isCompleted ? 'completed' : ''}`} onClick={() => setSelectedStory(story)}>
-              <span className="compact-icon">{story.emoji}</span>
-              <div className="compact-info">
-                <div className="compact-title">{story.title}</div>
-                <div className="compact-subtitle">{story.characters?.join(', ')}</div>
-              </div>
-              {isCompleted && <span className="compact-badge success">✓</span>}
-              <span className="compact-chevron">›</span>
+        return (
+          <div key={lvl} style={{ marginBottom: '24px' }}>
+            <div style={{
+              display: 'flex', alignItems: 'center', gap: '10px',
+              marginBottom: '12px', paddingBottom: '8px',
+              borderBottom: `2px solid ${lvlColors.bg}`
+            }}>
+              <span style={{
+                background: lvlColors.bg, color: 'white',
+                padding: '4px 12px', borderRadius: '8px',
+                fontSize: '13px', fontWeight: 700
+              }}>{lvl}</span>
+              <span style={{ fontWeight: 700, fontSize: '15px', color: 'var(--text-primary)' }}>
+                {getLevelName(lvl, language)}
+              </span>
+              <span style={{ fontSize: '12px', color: 'var(--text-secondary)', marginLeft: 'auto' }}>
+                {lvlCompleted}/{lvlStories.length} {t('stories.stories')}
+              </span>
             </div>
-          );
-        })}
-      </div>
 
-      {currentStories.length === 0 && (
+            {!lvlCanAccess ? (
+              <div style={{
+                textAlign: 'center', padding: '20px',
+                background: 'rgba(239,68,68,0.05)', borderRadius: 'var(--radius)',
+                border: '1px solid rgba(239,68,68,0.2)', fontSize: '13px', color: 'var(--text-secondary)'
+              }}>
+                🔒 {t('stories.limitedMessage')} {lvl} {t('stories.requiresAuth')}
+              </div>
+            ) : (
+              <div className="compact-list">
+                {lvlStories.map(story => {
+                  const isCompleted = completedStories.includes(story.id);
+                  return (
+                    <div key={story.id} className={`compact-list-item ${isCompleted ? 'completed' : ''}`} onClick={() => setSelectedStory({ ...story, _level: lvl })}>
+                      <span className="compact-icon">{story.emoji}</span>
+                      <div className="compact-info">
+                        <div className="compact-title">{story.title}</div>
+                        <div className="compact-subtitle">{story.characters?.join(', ')}</div>
+                      </div>
+                      {isCompleted && <span className="compact-badge success">✓</span>}
+                      <span className="compact-chevron">›</span>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        );
+      })}
+
+      {totalStories === 0 && (
         <div className="empty-state">
           <p>{t('stories.noStories')}</p>
         </div>

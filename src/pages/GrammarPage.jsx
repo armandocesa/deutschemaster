@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Icons from '../components/Icons';
 import LevelTabs from '../components/LevelTabs';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -7,15 +7,46 @@ import { useData } from '../DataContext';
 import { getGrammarStatus, saveDifficultWord, removeDifficultWord, isDifficultWord } from '../utils/storage';
 import { saveAndSync } from '../utils/cloudSync';
 
+// Topic-level bookmark storage
+const SAVED_TOPICS_KEY = 'dm_saved_grammar_topics';
+const getSavedTopics = () => {
+  try { return JSON.parse(localStorage.getItem(SAVED_TOPICS_KEY)) || []; } catch { return []; }
+};
+const isTopicSaved = (topicId) => getSavedTopics().includes(topicId);
+const toggleTopicSaved = (topicId) => {
+  const saved = getSavedTopics();
+  const updated = saved.includes(topicId) ? saved.filter(id => id !== topicId) : [...saved, topicId];
+  saveAndSync(SAVED_TOPICS_KEY, JSON.stringify(updated));
+  return updated;
+};
+
+// Related page links based on topic content
+const TOPIC_LINKS = {
+  a1_16: [{ page: 'verbs-prepositions', key: 'grammar.linkVerbsPrepositions' }],
+  a2_05: [{ page: 'verb-prefixes', key: 'grammar.linkVerbPrefixes' }],
+  a2_15: [{ page: 'verbs-prepositions', key: 'grammar.linkVerbsPrepositions' }],
+};
+
 // Single rule card displayed inline in the all-rules view
 function GrammarRuleCard({ topic, index, colors, onNavigate, level, totalTopics, topics }) {
   const { t } = useLanguage();
   const [showMore, setShowMore] = useState(false);
   const [answerVisibility, setAnswerVisibility] = useState({});
   const [savedPhrases, setSavedPhrases] = useState({});
+  const [topicBookmarked, setTopicBookmarked] = useState(false);
   const content = topic.content || {};
   const topicId = topic.id || `rule_${index}`;
   const topicStatus = getGrammarStatus(topicId);
+  const relatedLinks = TOPIC_LINKS[topicId] || [];
+
+  useEffect(() => {
+    setTopicBookmarked(isTopicSaved(topicId));
+  }, [topicId]);
+
+  const handleToggleBookmark = () => {
+    const updated = toggleTopicSaved(topicId);
+    setTopicBookmarked(updated.includes(topicId));
+  };
 
   const scrollToRule = (targetIndex) => {
     const targetTopic = topics[targetIndex];
@@ -56,10 +87,52 @@ function GrammarRuleCard({ topic, index, colors, onNavigate, level, totalTopics,
     );
   };
 
-  // Render schema as formatted table
+  // Render schema as formatted table (supports pipe-delimited tables)
   const renderSchema = (text) => {
     if (!text) return null;
     const lines = text.split('\n').filter(l => l.trim());
+
+    // Detect pipe-delimited table lines
+    const pipeLines = lines.filter(l => l.includes('|') && l.trim().startsWith('|'));
+
+    if (pipeLines.length >= 2) {
+      // Parse as pipe table
+      const parsePipeLine = (line) => line.split('|').map(c => c.trim()).filter(Boolean);
+      const nonPipeLines = lines.filter(l => !(l.includes('|') && l.trim().startsWith('|')));
+      const headerCells = parsePipeLine(pipeLines[0]);
+      const dataRows = pipeLines.slice(1).filter(l => !l.match(/^\|[\s-|]+\|$/));
+
+      return (
+        <div className="gr-schema">
+          {nonPipeLines.map((line, idx) => (
+            <div key={`pre-${idx}`} className="gr-schema-single">{line.trim()}</div>
+          ))}
+          <div className="gr-table-wrapper">
+            <table className="gr-table">
+              <thead>
+                <tr>
+                  {headerCells.map((cell, i) => <th key={i}>{cell}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {dataRows.map((row, idx) => {
+                  const cells = parsePipeLine(row);
+                  return (
+                    <tr key={idx}>
+                      {cells.map((cell, i) => (
+                        <td key={i} className={i === 0 ? 'gr-table-label' : ''}>{cell}</td>
+                      ))}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      );
+    }
+
+    // Fallback: existing two-column layout
     return (
       <div className="gr-schema">
         {lines.map((line, idx) => {
@@ -106,6 +179,13 @@ function GrammarRuleCard({ topic, index, colors, onNavigate, level, totalTopics,
           <h2 className="gr-card-title">{topic.name}</h2>
           <p className="gr-card-desc">{topic.explanation}</p>
         </div>
+        <button
+          className={`gr-bookmark-btn ${topicBookmarked ? 'saved' : ''}`}
+          onClick={handleToggleBookmark}
+          title={topicBookmarked ? t('grammar.removeBookmark') : t('grammar.addBookmark')}
+        >
+          {topicBookmarked ? <Icons.StarFilled /> : <Icons.Star />}
+        </button>
         <span className={`progress-dot ${topicStatus}`}></span>
       </div>
 
@@ -161,6 +241,28 @@ function GrammarRuleCard({ topic, index, colors, onNavigate, level, totalTopics,
             {t('grammar.exceptions')}
           </div>
           <p className="gr-text">{content.eccezioni}</p>
+        </div>
+      )}
+
+      {/* Related links */}
+      {relatedLinks.length > 0 && (
+        <div className="gr-section gr-related-links">
+          <div className="gr-section-label">
+            <span className="gr-section-icon">&#128279;</span>
+            {t('grammar.relatedPages')}
+          </div>
+          <div className="gr-links-list">
+            {relatedLinks.map((link, idx) => (
+              <button
+                key={idx}
+                className="gr-link-btn"
+                onClick={() => onNavigate(link.page)}
+              >
+                <span className="gr-link-icon">&#8594;</span>
+                {t(link.key)}
+              </button>
+            ))}
+          </div>
         </div>
       )}
 
@@ -266,6 +368,34 @@ function GrammarTopicDetail({ topic, level, colors, onNavigate }) {
   const renderSchema = (text) => {
     if (!text) return null;
     const lines = text.split('\n').filter(l => l.trim());
+    const pipeLines = lines.filter(l => l.includes('|') && l.trim().startsWith('|'));
+
+    if (pipeLines.length >= 2) {
+      const parsePipeLine = (line) => line.split('|').map(c => c.trim()).filter(Boolean);
+      const nonPipeLines = lines.filter(l => !(l.includes('|') && l.trim().startsWith('|')));
+      const headerCells = parsePipeLine(pipeLines[0]);
+      const dataRows = pipeLines.slice(1).filter(l => !l.match(/^\|[\s-|]+\|$/));
+
+      return (
+        <div className="grammar-schema-table">
+          {nonPipeLines.map((line, idx) => (
+            <div key={`pre-${idx}`} className="schema-row-single">{line.trim()}</div>
+          ))}
+          <div className="gr-table-wrapper">
+            <table className="gr-table">
+              <thead><tr>{headerCells.map((cell, i) => <th key={i}>{cell}</th>)}</tr></thead>
+              <tbody>
+                {dataRows.map((row, idx) => {
+                  const cells = parsePipeLine(row);
+                  return <tr key={idx}>{cells.map((cell, i) => <td key={i} className={i === 0 ? 'gr-table-label' : ''}>{cell}</td>)}</tr>;
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div className="grammar-schema-table">
         {lines.map((line, idx) => {
