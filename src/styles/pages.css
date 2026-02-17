@@ -2829,13 +2829,33 @@ button:disabled, .quiz-option:disabled {
 .stories-nav-next-btn:hover { filter: brightness(1.1); }
 .stories-nav-next-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
+/* --- Inline Stories (all on one page) --- */
+.inline-stories-list { display: flex; flex-direction: column; gap: 24px; }
+.inline-story { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; scroll-margin-top: 20px; }
+.inline-story-header { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 16px; }
+.inline-story-emoji { font-size: 32px; flex-shrink: 0; }
+.inline-story-header-text { flex: 1; min-width: 0; }
+.inline-story-title { font-size: 18px; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 8px; }
+.inline-story-subtitle { font-size: 13px; color: var(--text-secondary); margin: 2px 0 0; }
+.inline-story-meta { font-size: 12px; color: var(--text-secondary); margin-top: 4px; display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.inline-story-check { color: var(--success); font-size: 16px; font-weight: 700; }
+.inline-story-book { max-height: none; overflow-y: visible; }
+.inline-story-score { display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: rgba(108,92,231,0.06); border-radius: var(--radius); margin-top: 12px; font-size: 14px; font-weight: 600; }
+.inline-story-score-msg { color: var(--text-secondary); font-weight: 400; }
+.inline-story-nav { justify-content: center; border-top: none; padding-top: 8px; }
+.inline-story-next-btn { width: 100%; text-align: center; padding: 14px 24px !important; font-size: 16px !important; }
+
 /* --- Mobile adjustments for stories --- */
 @media (max-width: 600px) {
   .stories-card-grid { grid-template-columns: 1fr; }
   .stories-book { padding: 14px 16px; max-height: 50vh; }
+  .inline-story-book { max-height: none; }
   .stories-book-line.current { margin: 0 -16px; padding: 10px 16px; }
   .stories-book-question.current { margin: 0 -16px; padding: 14px 16px; }
   .stories-book-text-row { font-size: 14px; }
+  .inline-story { padding: 14px; }
+  .inline-story-emoji { font-size: 26px; }
+  .inline-story-title { font-size: 16px; }
 }
 
 /* ===== HOME PAGE ===== */
