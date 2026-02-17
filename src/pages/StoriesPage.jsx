@@ -275,7 +275,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   }
 
   if (selectedStory) {
-    const storyLevel = selectedStory._level || activeLevel;
+    const storyLevel = selectedStory._level || 'A1';
     const storyColors = LEVEL_COLORS[storyLevel] || colors;
     const storyIdx = allStoriesFlat.findIndex(s => s.id === selectedStory.id);
     const nextStory = storyIdx >= 0 && storyIdx < allStoriesFlat.length - 1 ? allStoriesFlat[storyIdx + 1] : null;
