@@ -43,8 +43,16 @@ export default function VerbsPage({ selectedVerb, onNavigate }) {
   const { VERBS_DATA } = useData();
   const { t } = useLanguage();
   const [searchTerm, setSearchTerm] = useState('');
+  const [saveVersion, setSaveVersion] = useState(0);
   const allVerbs = VERBS_DATA.verbs || [];
   const filteredVerbs = searchTerm ? allVerbs.filter(v => (v.infinitiv||'').toLowerCase().includes(searchTerm.toLowerCase()) || (v.italiano||'').toLowerCase().includes(searchTerm.toLowerCase())) : allVerbs;
+
+  const toggleSaveVerb = (e, verb) => {
+    e.stopPropagation();
+    if (isDifficultWord(verb.infinitiv)) { removeDifficultWord(verb.infinitiv); }
+    else { saveDifficultWord(verb, 'verb'); }
+    setSaveVersion(v => v + 1);
+  };
 
   if (selectedVerb) return <VerbDetail verb={selectedVerb} />;
 
@@ -64,7 +72,7 @@ export default function VerbsPage({ selectedVerb, onNavigate }) {
               {verb.hilfsverb && <span className={`verb-aux ${verb.hilfsverb}`}>{verb.hilfsverb}</span>}
               {verb.irregular && <span className="verb-irregular">irr.</span>}
             </span>
-            <button className={`save-btn ${isDifficultWord(verb.infinitiv) ? 'saved' : ''}`} onClick={(e) => { e.stopPropagation(); if(isDifficultWord(verb.infinitiv)){removeDifficultWord(verb.infinitiv)}else{saveDifficultWord(verb,'verb')} }}>{isDifficultWord(verb.infinitiv) ? <Icons.StarFilled /> : <Icons.Star />}</button>
+            <button className={`save-btn ${isDifficultWord(verb.infinitiv) ? 'saved' : ''}`} onClick={(e) => toggleSaveVerb(e, verb)}>{isDifficultWord(verb.infinitiv) ? <Icons.StarFilled /> : <Icons.Star />}</button>
             <button className="speak-btn" onClick={(e) => { e.stopPropagation(); speak(verb.infinitiv); }}><Icons.Volume /></button>
           </div>
         ))}
