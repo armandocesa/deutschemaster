@@ -2,41 +2,9 @@ import React, { useState, useMemo, useEffect } from 'react';
 import Icons from '../components/Icons';
 import Onboarding from '../components/Onboarding';
 import { useLanguage } from '../contexts/LanguageContext';
-import { LEVEL_COLORS } from '../utils/constants';
 import { useData } from '../DataContext';
 import { getQuizStats, getDifficultWords } from '../utils/storage';
 import { getStreak, getXP, checkDailyGoal, recordActivity, getReviewStats, checkBadges } from '../utils/gamification';
-import { saveAndSync } from '../utils/cloudSync';
-
-function QuickActionCard({ icon, title, color, onClick, noLevel, badge }) {
-  const [selectedLvl, setSelectedLvl] = useState(() => {
-    try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
-  });
-  const handleLevelClick = (e, lvl) => {
-    e.stopPropagation();
-    setSelectedLvl(lvl);
-    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
-    onClick(lvl);
-  };
-  return (
-    <div className="quick-action-card" onClick={() => noLevel ? onClick() : onClick(selectedLvl)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); noLevel ? onClick() : onClick(selectedLvl); }}} tabIndex="0" role="button" aria-label={title}>
-      <div className="quick-action-header">
-        <div className="quick-action-icon" style={{backgroundColor: color}} aria-hidden="true">{icon}</div>
-        <span className="quick-action-title">{title}</span>
-        {badge && <span style={{background:'var(--accent)',color:'white',borderRadius:'10px',padding:'2px 8px',fontSize:'11px',fontWeight:700,marginLeft:'auto'}}>{badge}</span>}
-      </div>
-      {!noLevel && (
-        <div className="quick-action-levels">
-          {Object.entries(LEVEL_COLORS).map(([lvl, c]) => (
-            <button key={lvl} className={`quick-action-level ${lvl === selectedLvl ? 'selected' : ''}`}
-              style={lvl === selectedLvl ? {backgroundColor: c.bg, borderColor: c.bg} : {}}
-              onClick={(e) => handleLevelClick(e, lvl)}>{lvl}</button>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
 
 export default function HomePage({ onNavigate }) {
   const { t } = useLanguage();
@@ -46,17 +14,12 @@ export default function HomePage({ onNavigate }) {
     try { return !localStorage.getItem('dm_onboarding_done'); } catch { return false; }
   });
 
-  // Record activity on homepage visit & check badges
   useEffect(() => { recordActivity(); checkBadges(); }, []);
 
-  // Check if placement test has been taken
   useEffect(() => {
     try {
-      const testData = localStorage.getItem('dm_placement_level');
-      setPlacementTestTaken(!!testData);
-    } catch {
-      setPlacementTestTaken(false);
-    }
+      setPlacementTestTaken(!!localStorage.getItem('dm_placement_level'));
+    } catch { setPlacementTestTaken(false); }
   }, []);
 
   const stats = useMemo(() => ({
@@ -85,62 +48,50 @@ export default function HomePage({ onNavigate }) {
   return (
     <div className="home-page">
       {showOnboarding && <Onboarding onNavigate={onNavigate} onComplete={() => setShowOnboarding(false)} />}
-      {/* Streak + XP + Daily Goal Bar */}
-      <section className="home-gamification-bar">
-        <div className="home-gamification-card home-streak-card" onClick={() => onNavigate('profile')}>
-          <span style={{fontSize:'28px'}}>🔥</span>
-          <div>
-            <div style={{fontSize:'22px',fontWeight:800,lineHeight:1}}>{streak.currentStreak}</div>
-            <div style={{fontSize:'11px',color:'var(--text-secondary)'}}>{t('days')}</div>
+
+      {/* Top bar: Streak + XP + Daily Goal */}
+      <section className="home-topbar">
+        <div className="home-topbar-item" onClick={() => onNavigate('profile')}>
+          <span className="home-topbar-emoji">🔥</span>
+          <span className="home-topbar-value">{streak.currentStreak}</span>
+          <span className="home-topbar-label">{t('days')}</span>
+        </div>
+        <div className="home-topbar-item home-topbar-xp" onClick={() => onNavigate('profile')}>
+          <span className="home-topbar-value">{xp.totalXP}</span>
+          <span className="home-topbar-label">XP · Lv.{xp.level} {getLevelName(xp.level)}</span>
+          <div className="home-topbar-xp-bar">
+            <div className="home-topbar-xp-fill" style={{ width: `${Math.min(100, (xp.xpInCurrentLevel / xp.xpForNextLevel) * 100)}%` }} />
           </div>
         </div>
-        <div className="home-gamification-card home-xp-card" onClick={() => onNavigate('profile')}>
-          <div className="home-xp-value">
-            <span className="home-xp-number">{xp.totalXP}</span>
-            <span className="home-xp-label">XP</span>
-          </div>
-          <div className="home-xp-level">Lv. {xp.level} {getLevelName(xp.level)}</div>
-          <div className="home-xp-bar-container">
-            <div className="home-xp-bar-fill" style={{width:`${Math.min(100,(xp.xpInCurrentLevel/xp.xpForNextLevel)*100)}%`}}/>
-          </div>
-        </div>
-        <div className="home-gamification-card home-goal-card" onClick={() => onNavigate('profile')}>
-          <div className="home-goal-circle">
-            <svg width="44" height="44" viewBox="0 0 44 44" className="home-goal-svg">
-              <circle cx="22" cy="22" r="18" fill="none" stroke="var(--border)" strokeWidth="4"/>
-              <circle cx="22" cy="22" r="18" fill="none" stroke={dailyGoal.completed ? 'var(--success)' : 'var(--accent)'} strokeWidth="4"
-                strokeDasharray={`${2*Math.PI*18}`} strokeDashoffset={`${2*Math.PI*18*(1-dailyGoal.percentage/100)}`} strokeLinecap="round"/>
+        <div className="home-topbar-item" onClick={() => onNavigate('profile')}>
+          <div className="home-topbar-goal-ring">
+            <svg width="36" height="36" viewBox="0 0 36 36">
+              <circle cx="18" cy="18" r="15" fill="none" stroke="var(--border)" strokeWidth="3" />
+              <circle cx="18" cy="18" r="15" fill="none" stroke={dailyGoal.completed ? 'var(--success)' : 'var(--accent)'} strokeWidth="3"
+                strokeDasharray={`${2 * Math.PI * 15}`} strokeDashoffset={`${2 * Math.PI * 15 * (1 - dailyGoal.percentage / 100)}`}
+                strokeLinecap="round" style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }} />
             </svg>
-            <div className="home-goal-text">
-              {dailyGoal.completed ? '✓' : `${Math.round(dailyGoal.percentage)}%`}
-            </div>
+            <span className="home-topbar-goal-text">{dailyGoal.completed ? '✓' : `${Math.round(dailyGoal.percentage)}%`}</span>
           </div>
-          <div>
-            <div className="home-goal-progress">{dailyGoal.progress}/{dailyGoal.target} XP</div>
-            <div className="home-goal-label">{t('profile.dailyGoal.title')}</div>
-          </div>
+          <span className="home-topbar-label">{dailyGoal.progress}/{dailyGoal.target} XP</span>
         </div>
       </section>
 
-      <section className="home-compact">
+      {/* Welcome */}
+      <section className="home-welcome">
         <h1 className="home-greeting">{t('home.welcome')} <span className="home-greeting-highlight">{t('home.language')}</span></h1>
         <p className="home-subtitle">{t('home.subtitle')}</p>
-        <div className="home-stats-bar">
-          <div className="home-stat"><span className="home-stat-num">{stats.words.toLocaleString()}</span><span className="home-stat-label">{t('home.stats.words')}</span></div>
-          <div className="home-stat"><span className="home-stat-num">{stats.grammarTopics}</span><span className="home-stat-label">{t('home.stats.grammar')}</span></div>
-          <div className="home-stat"><span className="home-stat-num">{stats.verbs}</span><span className="home-stat-label">{t('home.stats.verbs')}</span></div>
-          <div className="home-stat"><span className="home-stat-num">{stats.exercises}</span><span className="home-stat-label">{t('home.stats.exercises')}</span></div>
-        </div>
       </section>
 
+      {/* Placement test CTA */}
       {!placementTestTaken && (
-        <section className="home-placement-section">
+        <section className="home-placement-section" onClick={() => onNavigate('placement-test')}>
           <div className="home-placement-icon">📍</div>
           <div className="home-placement-content">
             <div className="home-placement-title">{t('home.placement.title')}</div>
             <div className="home-placement-subtitle">{t('home.placement.subtitle')}</div>
           </div>
-          <button onClick={() => onNavigate('placement-test')} className="home-placement-btn">{t('home.placement.button')}</button>
+          <button className="home-placement-btn">{t('home.placement.button')}</button>
         </section>
       )}
 
@@ -156,54 +107,123 @@ export default function HomePage({ onNavigate }) {
         </section>
       )}
 
-      {quizStats.totalAnswered > 0 && (
-        <section className="home-continue-section">
-          <h2 className="home-continue-title">{t('home.progress.title')}</h2>
-          <div className="home-continue-cards">
-            <div className="home-continue-card" onClick={() => onNavigate('quiz')}>
-              <div className="home-card-badge" style={{backgroundColor: 'var(--accent)'}}>{quizStats.totalAnswered}</div>
-              <div className="home-card-text"><h4>{t('home.progress.questionsAsked')}</h4><p>{quizStats.totalAnswered > 0 ? Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100) : 0}% {t('home.progress.correct')}</p></div>
+      {/* Progress cards */}
+      {(quizStats.totalAnswered > 0 || savedCount > 0) && (
+        <section className="home-progress-row">
+          {quizStats.totalAnswered > 0 && (
+            <div className="home-progress-chip" onClick={() => onNavigate('quiz')}>
+              <span className="home-progress-chip-num">{quizStats.totalAnswered}</span>
+              <span className="home-progress-chip-label">{t('home.progress.questionsAsked')}</span>
+              <span className="home-progress-chip-sub">{Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100)}% {t('home.progress.correct')}</span>
             </div>
-            {savedCount > 0 && (
-              <div className="home-continue-card" onClick={() => onNavigate('favorites')}>
-                <div className="home-card-badge" style={{backgroundColor: 'var(--warning)'}}>{savedCount}</div>
-                <div className="home-card-text"><h4>{t('home.progress.savedWords')}</h4><p>{t('home.progress.toReview')}</p></div>
-              </div>
-            )}
-          </div>
+          )}
+          {savedCount > 0 && (
+            <div className="home-progress-chip" onClick={() => onNavigate('favorites')}>
+              <span className="home-progress-chip-num">{savedCount}</span>
+              <span className="home-progress-chip-label">{t('home.progress.savedWords')}</span>
+              <span className="home-progress-chip-sub">{t('home.progress.toReview')}</span>
+            </div>
+          )}
         </section>
       )}
 
+      {/* Main navigation - big simple cards */}
       <section>
-        <h2 className="home-continue-title">{t('home.study')}</h2>
-        <div className="home-quick-actions-grid">
-          {!placementTestTaken && (
-            <QuickActionCard icon={<span style={{fontSize:'20px'}}>📍</span>} title={t('home.testPositioning')} color="#6c5ce7" onClick={() => onNavigate('placement-test')} noLevel badge={t('home.new')} />
-          )}
-          <QuickActionCard icon={<Icons.Target />} title={t('home.pathsTitle')} color="#6c5ce7" onClick={() => onNavigate('paths')} noLevel />
-          <QuickActionCard icon={<Icons.Lessons />} title={t('home.lessonsTitle')} color="#3b82f6" onClick={() => onNavigate('lessons')} noLevel />
-          <QuickActionCard icon={<Icons.Grammar />} title={t('home.grammarTitle')} color="#8b5cf6" onClick={(lvl) => onNavigate('grammar', { level: lvl })} />
-          <QuickActionCard icon={<Icons.Book />} title={t('home.vocabularyTitle')} color="#10b981" onClick={(lvl) => onNavigate('vocabulary', { level: lvl })} />
-          <QuickActionCard icon={<Icons.Book />} title={t('home.essentialWordsTitle')} color="#14b8a6" onClick={(lvl) => onNavigate('essential-words', { level: lvl })} />
-          <QuickActionCard icon={<Icons.Reading />} title={t('home.readingTitle')} color="#06b6d4" onClick={(lvl) => onNavigate('reading', { level: lvl })} />
-          <QuickActionCard icon={<span style={{fontSize:'20px'}}>📖</span>} title={t('home.storiesTitle')} color="#a78bfa" onClick={(lvl) => onNavigate('stories', { level: lvl })} />
-          <QuickActionCard icon={<Icons.Quiz />} title={t('home.quizTitle')} color="#ef4444" onClick={(lvl) => onNavigate('quiz', { level: lvl })} />
-          <QuickActionCard icon={<Icons.Verb />} title={t('home.verbsTitle')} color="#f59e0b" onClick={() => onNavigate('verbs')} noLevel />
-          <QuickActionCard icon={<Icons.Verb />} title={t('home.werdenTitle')} color="#e17055" onClick={() => onNavigate('werden')} noLevel />
+        <h2 className="home-section-title">{t('home.study')}</h2>
+        <div className="home-nav-grid">
+          <div className="home-nav-card" onClick={() => onNavigate('paths')}>
+            <div className="home-nav-icon" style={{ background: '#6c5ce7' }}><Icons.Target /></div>
+            <span className="home-nav-label">{t('home.pathsTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('lessons')}>
+            <div className="home-nav-icon" style={{ background: '#3b82f6' }}><Icons.Lessons /></div>
+            <span className="home-nav-label">{t('home.lessonsTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('grammar')}>
+            <div className="home-nav-icon" style={{ background: '#8b5cf6' }}><Icons.Grammar /></div>
+            <span className="home-nav-label">{t('home.grammarTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('vocabulary')}>
+            <div className="home-nav-icon" style={{ background: '#10b981' }}><Icons.Book /></div>
+            <span className="home-nav-label">{t('home.vocabularyTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('essential-words')}>
+            <div className="home-nav-icon" style={{ background: '#14b8a6' }}><Icons.Book /></div>
+            <span className="home-nav-label">{t('home.essentialWordsTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('reading')}>
+            <div className="home-nav-icon" style={{ background: '#06b6d4' }}><Icons.Reading /></div>
+            <span className="home-nav-label">{t('home.readingTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('stories')}>
+            <div className="home-nav-icon" style={{ background: '#a78bfa' }}><span style={{ fontSize: '20px' }}>📖</span></div>
+            <span className="home-nav-label">{t('home.storiesTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('quiz')}>
+            <div className="home-nav-icon" style={{ background: '#ef4444' }}><Icons.Quiz /></div>
+            <span className="home-nav-label">{t('home.quizTitle')}</span>
+          </div>
         </div>
       </section>
 
+      {/* Verbs section */}
       <section>
-        <h2 className="home-continue-title">{t('home.practice')}</h2>
-        <div className="home-quick-actions-grid">
-          <QuickActionCard icon={<Icons.Flashcard />} title={t('home.flashcardsTitle')} color="#8b5cf6" onClick={() => onNavigate('flashcards')} noLevel badge={reviewStats.dueToday > 0 ? `${reviewStats.dueToday} ${t('home.toDo')}` : null} />
-          <QuickActionCard icon={<Icons.Writing />} title={t('home.writingTitle')} color="#10b981" onClick={() => onNavigate('writing')} noLevel />
-          <QuickActionCard icon={<Icons.Listening />} title={t('home.listeningTitle')} color="#06b6d4" onClick={() => onNavigate('listening')} noLevel />
-          <QuickActionCard icon={<Icons.Practice />} title={t('home.quickPractice')} color="#f59e0b" onClick={() => onNavigate('practice')} noLevel />
-          <QuickActionCard icon={<Icons.Verb />} title={t('home.verbPrefixes')} color="#f97316" onClick={() => onNavigate('verb-prefixes')} noLevel />
-          <QuickActionCard icon={<Icons.Verb />} title={t('home.verbsPrepositions')} color="#e11d48" onClick={() => onNavigate('verbs-prepositions')} noLevel />
-          <QuickActionCard icon={<Icons.Star />} title={t('nav.saved')} color="#ec4899" onClick={() => onNavigate('favorites')} noLevel />
+        <h2 className="home-section-title">{t('home.verbsTitle')}</h2>
+        <div className="home-nav-grid">
+          <div className="home-nav-card" onClick={() => onNavigate('verbs')}>
+            <div className="home-nav-icon" style={{ background: '#f59e0b' }}><Icons.Verb /></div>
+            <span className="home-nav-label">{t('home.verbsTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('werden')}>
+            <div className="home-nav-icon" style={{ background: '#e17055' }}><Icons.Verb /></div>
+            <span className="home-nav-label">{t('home.werdenTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('verb-prefixes')}>
+            <div className="home-nav-icon" style={{ background: '#f97316' }}><Icons.Verb /></div>
+            <span className="home-nav-label">{t('home.verbPrefixes')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('verbs-prepositions')}>
+            <div className="home-nav-icon" style={{ background: '#e11d48' }}><Icons.Verb /></div>
+            <span className="home-nav-label">{t('home.verbsPrepositions')}</span>
+          </div>
         </div>
+      </section>
+
+      {/* Practice section */}
+      <section>
+        <h2 className="home-section-title">{t('home.practice')}</h2>
+        <div className="home-nav-grid">
+          <div className="home-nav-card" onClick={() => onNavigate('flashcards')}>
+            <div className="home-nav-icon" style={{ background: '#8b5cf6' }}><Icons.Flashcard /></div>
+            <span className="home-nav-label">{t('home.flashcardsTitle')}</span>
+            {reviewStats.dueToday > 0 && <span className="home-nav-badge">{reviewStats.dueToday}</span>}
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('writing')}>
+            <div className="home-nav-icon" style={{ background: '#10b981' }}><Icons.Writing /></div>
+            <span className="home-nav-label">{t('home.writingTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('listening')}>
+            <div className="home-nav-icon" style={{ background: '#06b6d4' }}><Icons.Listening /></div>
+            <span className="home-nav-label">{t('home.listeningTitle')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('practice')}>
+            <div className="home-nav-icon" style={{ background: '#f59e0b' }}><Icons.Practice /></div>
+            <span className="home-nav-label">{t('home.quickPractice')}</span>
+          </div>
+          <div className="home-nav-card" onClick={() => onNavigate('favorites')}>
+            <div className="home-nav-icon" style={{ background: '#ec4899' }}><Icons.Star /></div>
+            <span className="home-nav-label">{t('nav.saved')}</span>
+            {savedCount > 0 && <span className="home-nav-badge">{savedCount}</span>}
+          </div>
+        </div>
+      </section>
+
+      {/* Stats footer */}
+      <section className="home-stats-footer">
+        <div className="home-stat-item"><span className="home-stat-num">{stats.words.toLocaleString()}</span> {t('home.stats.words')}</div>
+        <div className="home-stat-item"><span className="home-stat-num">{stats.grammarTopics}</span> {t('home.stats.grammar')}</div>
+        <div className="home-stat-item"><span className="home-stat-num">{stats.verbs}</span> {t('home.stats.verbs')}</div>
+        <div className="home-stat-item"><span className="home-stat-num">{stats.exercises}</span> {t('home.stats.exercises')}</div>
       </section>
     </div>
   );
