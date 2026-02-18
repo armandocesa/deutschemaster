@@ -107,7 +107,7 @@ describe('HomePage', () => {
   it('renders XP and level', () => {
     render(<HomePage onNavigate={onNavigate} />);
     expect(screen.getByText('2500')).toBeTruthy();
-    expect(screen.getByText(/Lv\. 12/)).toBeTruthy();
+    expect(screen.getByText(/Lv\.12/)).toBeTruthy();
   });
 
   it('renders daily goal', () => {
