@@ -71,7 +71,7 @@ export default function PracticePage({ onNavigate }) {
           const isRevealed = revealedWords[index];
           const status = getWordStatus(word.german);
           return (
-            <div key={`${word.german}-${index}`} className="practice-list-item" onClick={() => toggleReveal(index)}>
+            <div key={`${word.german}-${index}`} className="compact-list-item practice-list-item" onClick={() => toggleReveal(index)}>
               <span className={`progress-dot compact-dot ${status}`}></span>
               <div className="compact-info">
                 <div className="compact-title">{mainWord}</div>
