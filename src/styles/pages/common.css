@@ -851,6 +851,68 @@
 .progress-dot.unseen { background: var(--border); }
 .progress-dot.archived { background: #8b5cf6; }
 
+/* ===== VOCABULARY WORD CARDS ===== */
+.progress-summary {
+  display: flex; gap: 8px; justify-content: center; padding: 8px 16px; flex-wrap: wrap;
+}
+.progress-summary-item {
+  display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--text-secondary);
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 20px;
+  padding: 4px 12px;
+}
+.progress-summary-item .count { font-weight: 700; font-size: 13px; color: var(--text-primary); }
+.word-cards-list { display: flex; flex-direction: column; gap: 2px; padding: 0 16px; }
+.word-card {
+  background: var(--bg-card); border-radius: var(--radius);
+  overflow: hidden; transition: background 0.2s;
+}
+.word-card:hover { background: var(--bg-card-hover); }
+.word-card.status-correct { border-left: 3px solid var(--success); }
+.word-card.status-incorrect { border-left: 3px solid var(--error); }
+.word-card.status-unseen { border-left: 3px solid transparent; }
+.word-card-main {
+  display: flex; align-items: center; gap: 8px; padding: 10px 12px; flex-wrap: nowrap;
+}
+.word-card-german {
+  flex: 1; min-width: 0; cursor: pointer; display: flex; align-items: baseline; gap: 4px;
+}
+.word-card-german:hover { color: var(--accent); }
+.word-card-article { color: var(--text-tertiary); font-size: 12px; }
+.word-card-text { font-weight: 600; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.word-card-translation {
+  flex-shrink: 0; font-size: 13px; font-weight: 500; cursor: pointer;
+  padding: 3px 12px; border-radius: 6px; user-select: none; transition: all 0.2s;
+  background: var(--bg-secondary); color: var(--text-tertiary); min-width: 40px; text-align: center;
+}
+.word-card-translation.revealed {
+  color: var(--accent); background: rgba(124,108,240,0.1); font-weight: 600;
+}
+.word-card-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px;
+  border-radius: 8px; cursor: pointer;
+  border: none; background: transparent;
+  color: var(--text-tertiary); transition: all 0.2s; flex-shrink: 0;
+}
+.word-card-btn:hover { color: var(--accent); background: var(--bg-secondary); }
+.word-card-btn.save-btn.saved { color: var(--warning); background: rgba(245,158,11,0.1); }
+.word-card-btn.ok-btn.done { color: var(--success); background: rgba(0,214,143,0.1); }
+.word-card-btn.archive-btn.archived { color: #8b5cf6; background: rgba(139,92,246,0.1); }
+.word-card.archived { opacity: 0.5; }
+.word-card.archived:hover { opacity: 0.8; }
+.word-card-btn svg { width: 16px; height: 16px; }
+
+@media (max-width: 600px) {
+  .word-cards-list { padding: 0 8px; gap: 1px; }
+  .word-card-main { padding: 8px 8px; gap: 6px; }
+  .word-card-text { font-size: 14px; }
+  .word-card-translation { font-size: 12px; padding: 2px 8px; min-width: 32px; }
+  .word-card-btn { width: 28px; height: 28px; }
+  .word-card-btn svg { width: 14px; height: 14px; }
+  .progress-summary { gap: 6px; padding: 6px 8px; }
+  .progress-summary-item { padding: 3px 8px; font-size: 11px; }
+}
+
 /* Gamification bar on homepage */
 .home-gamification-bar { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; margin-bottom: 22px; }
 .gamification-card {
