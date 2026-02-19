@@ -543,39 +543,63 @@ export default function GrammarPage({ level, topic, onNavigate }) {
   const { GRAMMAR_DATA } = useData();
   const [internalLevel, setInternalLevel] = useState(level || (() => { try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; } }));
   const activeLevel = level || internalLevel;
+  const [searchTerm, setSearchTerm] = useState('');
 
   const handleLevelChange = (lvl) => {
     setInternalLevel(lvl);
+    setSearchTerm('');
     try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
     if (level) onNavigate('grammar', { level: lvl });
   };
 
   const levelData = GRAMMAR_DATA?.levels?.[activeLevel];
-  const topics = levelData?.topics || [];
+  const allTopics = levelData?.topics || [];
   const colors = LEVEL_COLORS[activeLevel] || { bg: '#6c5ce7', text: '#fff' };
+
+  const topics = searchTerm
+    ? allTopics.filter(t => (t.name || '').toLowerCase().includes(searchTerm.toLowerCase()) || (t.explanation || '').toLowerCase().includes(searchTerm.toLowerCase()))
+    : allTopics;
 
   if (!topic) {
     return (
       <div className="grammar-page">
-        <div className="page-header" style={{'--level-color': colors.bg}}>
-          <h1 className="page-title">{t('grammar.title')}</h1>
-          <p className="page-subtitle">{levelData?.title || getLevelName(activeLevel, language)} &middot; {topics.length} {t('grammar.topics')}</p>
+        <div className="gr-sticky-header">
+          <div className="gr-sticky-top">
+            <h1 className="gr-page-title">{t('grammar.title')}</h1>
+            <span className="gr-topic-count">{allTopics.length}</span>
+          </div>
+          <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
+          <div className="gr-search-bar">
+            <Icons.Search />
+            <input
+              type="text"
+              placeholder={t('vocabulary.search') || 'Cerca...'}
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            {searchTerm && <button className="gr-search-clear" onClick={() => setSearchTerm('')}>&times;</button>}
+          </div>
         </div>
-        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
 
         <div className="gr-all-rules">
-          {topics.map((topicItem, idx) => (
-            <GrammarRuleCard
-              key={topicItem.id || idx}
-              topic={topicItem}
-              index={idx}
-              level={activeLevel}
-              colors={colors}
-              onNavigate={onNavigate}
-              totalTopics={topics.length}
-              topics={topics}
-            />
-          ))}
+          {topics.map((topicItem, idx) => {
+            const realIdx = allTopics.indexOf(topicItem);
+            return (
+              <GrammarRuleCard
+                key={topicItem.id || realIdx}
+                topic={topicItem}
+                index={realIdx}
+                level={activeLevel}
+                colors={colors}
+                onNavigate={onNavigate}
+                totalTopics={allTopics.length}
+                topics={allTopics}
+              />
+            );
+          })}
+          {topics.length === 0 && searchTerm && (
+            <div className="empty-state"><p>{t('vocabulary.noResults') || 'Nessun risultato'}</p></div>
+          )}
         </div>
       </div>
     );

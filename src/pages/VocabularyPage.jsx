@@ -157,41 +157,33 @@ export default function VocabularyPage({ level, onNavigate }) {
 
   return (
     <div className="vocabulary-page">
-      <div className="page-header" style={{'--level-color': colors.bg}}>
-        <h1 className="page-title">{t('vocabulary.title')}</h1>
-        <p className="page-subtitle">{getLevelName(activeLevel, language)} — {allWords.length} {t('vocabulary.words')}</p>
-      </div>
-
-      <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
-
-      <div className="progress-summary">
-        <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{progressCounts.correct}</span> {t('vocabulary.correct')}</div>
-        <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{progressCounts.incorrect}</span> {t('vocabulary.incorrect')}</div>
-        <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{progressCounts.unseen}</span> {t('vocabulary.unseen')}</div>
-        <div className="progress-summary-item archived"><span className="progress-dot archived"></span><span className="count">{progressCounts.archived}</span> {t('vocabulary.archived')}</div>
-      </div>
-
-      <div className="vocab-toolbar">
-        <div className="search-box"><Icons.Search /><input type="text" placeholder={t('vocabulary.search')} value={searchTerm} onChange={handleSearch} /></div>
-      </div>
-
-      <div className="vocab-filters">
-        {[
-          { key: 'all', label: t('vocabulary.filterAll'), count: allWords.length },
-          { key: 'saved', label: t('vocabulary.filterSaved'), count: progressCounts.saved },
-          { key: 'correct', label: t('vocabulary.filterCorrect'), count: progressCounts.correct },
-          { key: 'incorrect', label: t('vocabulary.filterIncorrect'), count: progressCounts.incorrect },
-          { key: 'unseen', label: t('vocabulary.filterUnseen'), count: progressCounts.unseen },
-          { key: 'archived', label: t('vocabulary.filterArchived'), count: progressCounts.archived },
-        ].map(f => (
-          <button
-            key={f.key}
-            className={`vocab-filter-btn ${filter === f.key ? 'active' : ''}`}
-            onClick={() => { setFilter(f.key); setDisplayCount(50); }}
-          >
-            {f.label} <span className="vocab-filter-count">{f.count}</span>
-          </button>
-        ))}
+      <div className="vocab-sticky-header">
+        <div className="vocab-sticky-top">
+          <h1 className="vocab-page-title">{t('vocabulary.title')}</h1>
+          <span className="vocab-word-count">{allWords.length}</span>
+        </div>
+        <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
+        <div className="vocab-search-filter-row">
+          <div className="search-box"><Icons.Search /><input type="text" placeholder={t('vocabulary.search')} value={searchTerm} onChange={handleSearch} /></div>
+        </div>
+        <div className="vocab-filters-compact">
+          {[
+            { key: 'all', label: t('vocabulary.filterAll'), count: allWords.length },
+            { key: 'saved', label: '★', count: progressCounts.saved },
+            { key: 'correct', label: '✓', count: progressCounts.correct },
+            { key: 'incorrect', label: '✗', count: progressCounts.incorrect },
+            { key: 'unseen', label: '○', count: progressCounts.unseen },
+            { key: 'archived', label: '⌂', count: progressCounts.archived },
+          ].map(f => (
+            <button
+              key={f.key}
+              className={`vocab-filter-chip ${filter === f.key ? 'active' : ''}`}
+              onClick={() => { setFilter(f.key); setDisplayCount(50); }}
+            >
+              {f.label} <span className="vocab-filter-count">{f.count}</span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {(filter === 'saved' || filter === 'archived') ? (

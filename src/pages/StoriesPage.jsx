@@ -222,11 +222,31 @@ export default function StoriesPage({ level, reading, onNavigate }) {
   const allLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
   const totalStories = allStoriesFlat.length;
 
+  const scrollToLevel = (lvl) => {
+    const el = document.getElementById(`stories-level-${lvl}`);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <div className="reading-page">
-      <div className="page-header">
-        <h1 className="page-title">{t('stories.interactive')}</h1>
-        <p className="page-subtitle">{totalStories} {t('stories.stories')}</p>
+      <div className="stories-sticky-header">
+        <div className="stories-sticky-top">
+          <h1 className="stories-page-title">{t('stories.interactive')}</h1>
+          <span className="stories-total-badge">{totalStories}</span>
+        </div>
+        <div className="stories-level-jumps">
+          {allLevels.map(lvl => {
+            const lvlStories = stories[lvl]?.stories || [];
+            if (lvlStories.length === 0) return null;
+            const lvlCompleted = lvlStories.filter(s => completedStories.includes(s.id)).length;
+            return (
+              <button key={lvl} className="stories-level-jump" onClick={() => scrollToLevel(lvl)}
+                style={{ '--jump-color': (LEVEL_COLORS[lvl] || colors).bg }}>
+                {lvl} <span className="stories-jump-count">{lvlCompleted}/{lvlStories.length}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
 
       {allLevels.map(lvl => {
@@ -238,7 +258,7 @@ export default function StoriesPage({ level, reading, onNavigate }) {
         const lvlProgress = Math.round((lvlCompleted / lvlStories.length) * 100);
 
         return (
-          <div key={lvl} className="stories-level-section">
+          <div key={lvl} className="stories-level-section" id={`stories-level-${lvl}`}>
             <div className="stories-level-header" style={{ borderBottomColor: lvlColors.bg }}>
               <div className="stories-level-header-left">
                 <span className="stories-level-badge" style={{ background: lvlColors.bg }}>{lvl}</span>

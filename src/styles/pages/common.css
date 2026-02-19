@@ -144,6 +144,38 @@
 .example-german { font-size: 14px; margin: 6px 0; padding: 10px 14px; background: rgba(124,108,240,0.06); border-radius: 8px; border-left: 3px solid var(--accent); }
 .example-italian { font-size: 13px; color: var(--text-secondary); margin: 2px 0 10px 12px; font-style: italic; }
 
+/* ===== Grammar Sticky Header ===== */
+.gr-sticky-header {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--bg-primary);
+  padding: 12px 0 8px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.gr-sticky-top {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+}
+.gr-page-title { font-size: 20px; font-weight: 800; margin: 0; }
+.gr-topic-count {
+  font-size: 12px; font-weight: 700; color: white;
+  background: var(--accent); padding: 2px 8px; border-radius: 10px;
+}
+.gr-search-bar {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 8px 12px; margin-top: 8px;
+}
+.gr-search-bar svg { width: 16px; height: 16px; color: var(--text-secondary); flex-shrink: 0; }
+.gr-search-bar input {
+  flex: 1; background: none; border: none; color: var(--text-primary);
+  font-size: 13px; outline: none;
+}
+.gr-search-bar input::placeholder { color: var(--text-secondary); }
+.gr-search-clear {
+  background: none; border: none; color: var(--text-secondary); font-size: 18px;
+  cursor: pointer; padding: 0 4px; line-height: 1;
+}
+
 /* ===== Grammar All-Rules View ===== */
 .gr-all-rules {
   display: flex;
