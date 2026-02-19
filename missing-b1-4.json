@@ -1,0 +1,2402 @@
+[
+  {
+    "german": "spannen",
+    "italian": "tendere"
+  },
+  {
+    "german": "die Spannung",
+    "italian": "la tensione"
+  },
+  {
+    "german": "dehnen",
+    "italian": "allungare"
+  },
+  {
+    "german": "die Dehnung",
+    "italian": "l'allungamento"
+  },
+  {
+    "german": "beugen",
+    "italian": "piegare"
+  },
+  {
+    "german": "die Beugung",
+    "italian": "la flessione"
+  },
+  {
+    "german": "die Biegung",
+    "italian": "la curva"
+  },
+  {
+    "german": "wickeln",
+    "italian": "avvolgere"
+  },
+  {
+    "german": "einwickeln",
+    "italian": "avvolgere"
+  },
+  {
+    "german": "die Schließung",
+    "italian": "la chiusura"
+  },
+  {
+    "german": "der Austritt",
+    "italian": "l'uscita"
+  },
+  {
+    "german": "das Verlassen",
+    "italian": "l'abbandono"
+  },
+  {
+    "german": "die Erreichung",
+    "italian": "il raggiungimento"
+  },
+  {
+    "german": "die Überquerung",
+    "italian": "l'attraversamento"
+  },
+  {
+    "german": "umgehen",
+    "italian": "aggirare"
+  },
+  {
+    "german": "ausweichen",
+    "italian": "evitare"
+  },
+  {
+    "german": "meiden",
+    "italian": "evitare"
+  },
+  {
+    "german": "vollständig",
+    "italian": "completamente"
+  },
+  {
+    "german": "wahnsinnig",
+    "italian": "pazzamente"
+  },
+  {
+    "german": "gewaltig",
+    "italian": "enorme"
+  },
+  {
+    "german": "beträchtlich",
+    "italian": "considerevole"
+  },
+  {
+    "german": "erheblich",
+    "italian": "considerevole"
+  },
+  {
+    "german": "wesentlich",
+    "italian": "essenziale"
+  },
+  {
+    "german": "grundlegend",
+    "italian": "fondamentale"
+  },
+  {
+    "german": "vorwiegend",
+    "italian": "prevalentemente"
+  },
+  {
+    "german": "annähernd",
+    "italian": "approssimativamente"
+  },
+  {
+    "german": "das Festgeldkonto",
+    "italian": "il conto deposito"
+  },
+  {
+    "german": "die BIC",
+    "italian": "il BIC"
+  },
+  {
+    "german": "die Bankleitzahl",
+    "italian": "il codice bancario"
+  },
+  {
+    "german": "die Lastschrift",
+    "italian": "l'addebito diretto"
+  },
+  {
+    "german": "der Dauerauftrag",
+    "italian": "l'ordine permanente"
+  },
+  {
+    "german": "die TAN",
+    "italian": "il codice TAN"
+  },
+  {
+    "german": "die Kontoführungsgebühr",
+    "italian": "le spese di tenuta conto"
+  },
+  {
+    "german": "das Darlehen",
+    "italian": "il mutuo"
+  },
+  {
+    "german": "die Hypothek",
+    "italian": "l'ipoteca"
+  },
+  {
+    "german": "der Schuldner",
+    "italian": "il debitore"
+  },
+  {
+    "german": "der Gläubiger",
+    "italian": "il creditore"
+  },
+  {
+    "german": "der Bankberater",
+    "italian": "il consulente bancario"
+  },
+  {
+    "german": "die Wechselstube",
+    "italian": "l'ufficio cambio"
+  },
+  {
+    "german": "die Volkswirtschaft",
+    "italian": "l'economia nazionale"
+  },
+  {
+    "german": "die Betriebswirtschaft",
+    "italian": "l'economia aziendale"
+  },
+  {
+    "german": "das Bruttoinlandsprodukt",
+    "italian": "il PIL"
+  },
+  {
+    "german": "das BIP",
+    "italian": "il PIL"
+  },
+  {
+    "german": "die Arbeitslosenquote",
+    "italian": "il tasso di disoccupazione"
+  },
+  {
+    "german": "der Finanzmarkt",
+    "italian": "il mercato finanziario"
+  },
+  {
+    "german": "der Kapitalmarkt",
+    "italian": "il mercato dei capitali"
+  },
+  {
+    "german": "der Aktienmarkt",
+    "italian": "il mercato azionario"
+  },
+  {
+    "german": "der Fond",
+    "italian": "il fondo"
+  },
+  {
+    "german": "der Investmentfond",
+    "italian": "il fondo d'investimento"
+  },
+  {
+    "german": "das Wertpapier",
+    "italian": "il titolo"
+  },
+  {
+    "german": "der Kurs",
+    "italian": "la quotazione"
+  },
+  {
+    "german": "der Aktienkurs",
+    "italian": "il prezzo delle azioni"
+  },
+  {
+    "german": "der Index",
+    "italian": "l'indice"
+  },
+  {
+    "german": "der DAX",
+    "italian": "il DAX"
+  },
+  {
+    "german": "der Investor",
+    "italian": "l'investitore"
+  },
+  {
+    "german": "das Kapital",
+    "italian": "il capitale"
+  },
+  {
+    "german": "das Finanzamt",
+    "italian": "l'agenzia delle entrate"
+  },
+  {
+    "german": "die Steuererklärung",
+    "italian": "la dichiarazione dei redditi"
+  },
+  {
+    "german": "die Lebensversicherung",
+    "italian": "l'assicurazione sulla vita"
+  },
+  {
+    "german": "die Rentenversicherung",
+    "italian": "l'assicurazione pensionistica"
+  },
+  {
+    "german": "die Haftpflichtversicherung",
+    "italian": "l'assicurazione RC"
+  },
+  {
+    "german": "die Kfz-Versicherung",
+    "italian": "l'assicurazione auto"
+  },
+  {
+    "german": "die Hausratversicherung",
+    "italian": "l'assicurazione casa"
+  },
+  {
+    "german": "die Unfallversicherung",
+    "italian": "l'assicurazione infortuni"
+  },
+  {
+    "german": "der Versicherungsnehmer",
+    "italian": "l'assicurato"
+  },
+  {
+    "german": "die Versicherungspolice",
+    "italian": "la polizza"
+  },
+  {
+    "german": "der Schadensfall",
+    "italian": "il sinistro"
+  },
+  {
+    "german": "der Schadenersatz",
+    "italian": "il risarcimento"
+  },
+  {
+    "german": "die Deckung",
+    "italian": "la copertura"
+  },
+  {
+    "german": "der Einzelhandel",
+    "italian": "il commercio al dettaglio"
+  },
+  {
+    "german": "der Großhandel",
+    "italian": "il commercio all'ingrosso"
+  },
+  {
+    "german": "die Dienstleistung",
+    "italian": "il servizio"
+  },
+  {
+    "german": "der Nachlass",
+    "italian": "lo sconto"
+  },
+  {
+    "german": "der Verbraucher",
+    "italian": "il consumatore"
+  },
+  {
+    "german": "die Reklamation",
+    "italian": "il reclamo"
+  },
+  {
+    "german": "die Rückerstattung",
+    "italian": "il rimborso"
+  },
+  {
+    "german": "das Gulasch",
+    "italian": "il gulasch"
+  },
+  {
+    "german": "das Ragout",
+    "italian": "il ragù"
+  },
+  {
+    "german": "die Paella",
+    "italian": "la paella"
+  },
+  {
+    "german": "die Quiche",
+    "italian": "la quiche"
+  },
+  {
+    "german": "die Mousse",
+    "italian": "la mousse"
+  },
+  {
+    "german": "das Fondue",
+    "italian": "la fonduta"
+  },
+  {
+    "german": "das Raclette",
+    "italian": "la raclette"
+  },
+  {
+    "german": "die Tapas",
+    "italian": "le tapas"
+  },
+  {
+    "german": "das Pils",
+    "italian": "la pils"
+  },
+  {
+    "german": "das Weizenbier",
+    "italian": "la birra di frumento"
+  },
+  {
+    "german": "das Helle",
+    "italian": "la birra chiara"
+  },
+  {
+    "german": "das Dunkle",
+    "italian": "la birra scura"
+  },
+  {
+    "german": "der Champagner",
+    "italian": "lo champagne"
+  },
+  {
+    "german": "der Aperitif",
+    "italian": "l'aperitivo"
+  },
+  {
+    "german": "der Digestif",
+    "italian": "il digestivo"
+  },
+  {
+    "german": "der Likör",
+    "italian": "il liquore"
+  },
+  {
+    "german": "der Schnaps",
+    "italian": "la grappa"
+  },
+  {
+    "german": "der Tequila",
+    "italian": "la tequila"
+  },
+  {
+    "german": "der Longdrink",
+    "italian": "il long drink"
+  },
+  {
+    "german": "der Mojito",
+    "italian": "il mojito"
+  },
+  {
+    "german": "die Sangria",
+    "italian": "la sangria"
+  },
+  {
+    "german": "die Bowle",
+    "italian": "la boul"
+  },
+  {
+    "german": "der Punsch",
+    "italian": "il punch"
+  },
+  {
+    "german": "die Hauptschule",
+    "italian": "la scuola secondaria inferiore"
+  },
+  {
+    "german": "die Realschule",
+    "italian": "la scuola secondaria"
+  },
+  {
+    "german": "die Gesamtschule",
+    "italian": "la scuola integrata"
+  },
+  {
+    "german": "die Berufsschule",
+    "italian": "la scuola professionale"
+  },
+  {
+    "german": "die Aula",
+    "italian": "l'aula magna"
+  },
+  {
+    "german": "der Schulleiter",
+    "italian": "il dirigente scolastico"
+  },
+  {
+    "german": "der Rektor",
+    "italian": "il rettore"
+  },
+  {
+    "german": "der Elternabend",
+    "italian": "la riunione dei genitori"
+  },
+  {
+    "german": "die Naturwissenschaft",
+    "italian": "le scienze naturali"
+  },
+  {
+    "german": "die Philosophie",
+    "italian": "la filosofia"
+  },
+  {
+    "german": "die Sozialkunde",
+    "italian": "l'educazione civica"
+  },
+  {
+    "german": "das Werken",
+    "italian": "l'educazione tecnica"
+  },
+  {
+    "german": "das Handwerk",
+    "italian": "l'artigianato"
+  },
+  {
+    "german": "das Hauswirtschaft",
+    "italian": "l'economia domestica"
+  },
+  {
+    "german": "die Fachhochschule",
+    "italian": "l'università tecnica"
+  },
+  {
+    "german": "die Akademie",
+    "italian": "l'accademia"
+  },
+  {
+    "german": "der Fachbereich",
+    "italian": "il dipartimento"
+  },
+  {
+    "german": "das Hauptfach",
+    "italian": "la materia principale"
+  },
+  {
+    "german": "das Nebenfach",
+    "italian": "la materia secondaria"
+  },
+  {
+    "german": "sich einschreiben",
+    "italian": "immatricolarsi"
+  },
+  {
+    "german": "die Einschreibung",
+    "italian": "l'immatricolazione"
+  },
+  {
+    "german": "das Wintersemester",
+    "italian": "il semestre invernale"
+  },
+  {
+    "german": "das Sommersemester",
+    "italian": "il semestre estivo"
+  },
+  {
+    "german": "der Doktor",
+    "italian": "il dottorato"
+  },
+  {
+    "german": "die Diplomarbeit",
+    "italian": "la tesi"
+  },
+  {
+    "german": "die Bachelorarbeit",
+    "italian": "la tesi triennale"
+  },
+  {
+    "german": "die Masterarbeit",
+    "italian": "la tesi magistrale"
+  },
+  {
+    "german": "das BAföG",
+    "italian": "il finanziamento agli studi"
+  },
+  {
+    "german": "das Auslandssemester",
+    "italian": "il semestre all'estero"
+  },
+  {
+    "german": "die Hausarbeit",
+    "italian": "il lavoro scritto"
+  },
+  {
+    "german": "graduieren",
+    "italian": "laurearsi"
+  },
+  {
+    "german": "der Akademiker",
+    "italian": "l'accademico"
+  },
+  {
+    "german": "der Overheadprojektor",
+    "italian": "la lavagna luminosa"
+  },
+  {
+    "german": "nachschlagen",
+    "italian": "consultare"
+  },
+  {
+    "german": "die Kenntnis",
+    "italian": "la conoscenza"
+  },
+  {
+    "german": "die Fähigkeit",
+    "italian": "la capacità"
+  },
+  {
+    "german": "der Beamte",
+    "italian": "il funzionario"
+  },
+  {
+    "german": "der Selbstständige",
+    "italian": "il lavoratore autonomo"
+  },
+  {
+    "german": "der Freiberufler",
+    "italian": "il libero professionista"
+  },
+  {
+    "german": "der Wissenschaftler",
+    "italian": "lo scienziato"
+  },
+  {
+    "german": "der Forscher",
+    "italian": "il ricercatore"
+  },
+  {
+    "german": "der Maurer",
+    "italian": "il muratore"
+  },
+  {
+    "german": "der Richter",
+    "italian": "il giudice"
+  },
+  {
+    "german": "der Notar",
+    "italian": "il notaio"
+  },
+  {
+    "german": "der Steuerberater",
+    "italian": "il commercialista"
+  },
+  {
+    "german": "der Buchhalter",
+    "italian": "il contabile"
+  },
+  {
+    "german": "der Händler",
+    "italian": "il commerciante"
+  },
+  {
+    "german": "der Vorgesetzte",
+    "italian": "il superiore"
+  },
+  {
+    "german": "der Unternehmer",
+    "italian": "l'imprenditore"
+  },
+  {
+    "german": "der Banker",
+    "italian": "il banchiere"
+  },
+  {
+    "german": "der Makler",
+    "italian": "l'agente immobiliare"
+  },
+  {
+    "german": "der Berater",
+    "italian": "il consulente"
+  },
+  {
+    "german": "der Analyst",
+    "italian": "l'analista"
+  },
+  {
+    "german": "der Dolmetscher",
+    "italian": "l'interprete"
+  },
+  {
+    "german": "der Grafiker",
+    "italian": "il grafico"
+  },
+  {
+    "german": "der Kapitän",
+    "italian": "il capitano"
+  },
+  {
+    "german": "der LKW-Fahrer",
+    "italian": "il camionista"
+  },
+  {
+    "german": "der Lokführer",
+    "italian": "il macchinista"
+  },
+  {
+    "german": "der Wachmann",
+    "italian": "la guardia"
+  },
+  {
+    "german": "der Fleischer",
+    "italian": "il macellaio"
+  },
+  {
+    "german": "der Konditor",
+    "italian": "il pasticcere"
+  },
+  {
+    "german": "der Florist",
+    "italian": "il fioraio"
+  },
+  {
+    "german": "der Optiker",
+    "italian": "l'ottico"
+  },
+  {
+    "german": "der Uhrmacher",
+    "italian": "l'orologiaio"
+  },
+  {
+    "german": "der Schneider",
+    "italian": "il sarto"
+  },
+  {
+    "german": "der Hotelier",
+    "italian": "l'albergatore"
+  },
+  {
+    "german": "der Portier",
+    "italian": "il portiere"
+  },
+  {
+    "german": "der Entwickler",
+    "italian": "lo sviluppatore"
+  },
+  {
+    "german": "der Webdesigner",
+    "italian": "il web designer"
+  },
+  {
+    "german": "die Zentrale",
+    "italian": "la sede centrale"
+  },
+  {
+    "german": "die Buchhaltung",
+    "italian": "la contabilità"
+  },
+  {
+    "german": "das Besprechungszimmer",
+    "italian": "la sala riunioni"
+  },
+  {
+    "german": "die Akte",
+    "italian": "il fascicolo"
+  },
+  {
+    "german": "der Hefter",
+    "italian": "la cucitrice"
+  },
+  {
+    "german": "der Locher",
+    "italian": "il perforatore"
+  },
+  {
+    "german": "der Klebestreifen",
+    "italian": "il nastro adesivo"
+  },
+  {
+    "german": "der Terminplaner",
+    "italian": "l'agenda"
+  },
+  {
+    "german": "entlassen",
+    "italian": "licenziare"
+  },
+  {
+    "german": "leiten",
+    "italian": "dirigere"
+  },
+  {
+    "german": "verhandeln",
+    "italian": "negoziare"
+  },
+  {
+    "german": "faxen",
+    "italian": "inviare fax"
+  },
+  {
+    "german": "das Einkommen",
+    "italian": "il reddito"
+  },
+  {
+    "german": "der Wettbewerber",
+    "italian": "il concorrente"
+  },
+  {
+    "german": "die Stellenanzeige",
+    "italian": "l'annuncio di lavoro"
+  },
+  {
+    "german": "die Qualifikation",
+    "italian": "la qualifica"
+  },
+  {
+    "german": "der Ruhestand",
+    "italian": "la pensione"
+  },
+  {
+    "german": "die Pension",
+    "italian": "la pensione"
+  },
+  {
+    "german": "die Verfassung",
+    "italian": "la costituzione"
+  },
+  {
+    "german": "das Grundgesetz",
+    "italian": "la legge fondamentale"
+  },
+  {
+    "german": "der Paragraph",
+    "italian": "il paragrafo"
+  },
+  {
+    "german": "rechtmäßig",
+    "italian": "legittimo"
+  },
+  {
+    "german": "rechtswidrig",
+    "italian": "illegittimo"
+  },
+  {
+    "german": "das Amtsgericht",
+    "italian": "il tribunale di primo grado"
+  },
+  {
+    "german": "das Landgericht",
+    "italian": "il tribunale regionale"
+  },
+  {
+    "german": "das Bundesgericht",
+    "italian": "il tribunale federale"
+  },
+  {
+    "german": "das Verfassungsgericht",
+    "italian": "la corte costituzionale"
+  },
+  {
+    "german": "der Staatsanwalt",
+    "italian": "il pubblico ministero"
+  },
+  {
+    "german": "der Angeklagte",
+    "italian": "l'imputato"
+  },
+  {
+    "german": "der Kläger",
+    "italian": "il querelante"
+  },
+  {
+    "german": "der Beklagte",
+    "italian": "il convenuto"
+  },
+  {
+    "german": "der Täter",
+    "italian": "il colpevole"
+  },
+  {
+    "german": "die Straftat",
+    "italian": "il reato"
+  },
+  {
+    "german": "der Raub",
+    "italian": "la rapina"
+  },
+  {
+    "german": "der Betrug",
+    "italian": "la frode"
+  },
+  {
+    "german": "der Mord",
+    "italian": "l'omicidio"
+  },
+  {
+    "german": "die Körperverletzung",
+    "italian": "le lesioni"
+  },
+  {
+    "german": "die Beleidigung",
+    "italian": "l'ingiuria"
+  },
+  {
+    "german": "die Klage",
+    "italian": "la querela"
+  },
+  {
+    "german": "klagen",
+    "italian": "fare causa"
+  },
+  {
+    "german": "verklagen",
+    "italian": "citare in giudizio"
+  },
+  {
+    "german": "die Verhandlung",
+    "italian": "l'udienza"
+  },
+  {
+    "german": "das Urteil",
+    "italian": "la sentenza"
+  },
+  {
+    "german": "urteilen",
+    "italian": "giudicare"
+  },
+  {
+    "german": "freisprechen",
+    "italian": "assolvere"
+  },
+  {
+    "german": "die Freiheitsstrafe",
+    "italian": "la pena detentiva"
+  },
+  {
+    "german": "die Haft",
+    "italian": "la detenzione"
+  },
+  {
+    "german": "festnehmen",
+    "italian": "arrestare"
+  },
+  {
+    "german": "das Testament",
+    "italian": "il testamento"
+  },
+  {
+    "german": "erben",
+    "italian": "ereditare"
+  },
+  {
+    "german": "das Erbe",
+    "italian": "l'eredità"
+  },
+  {
+    "german": "der Erbe",
+    "italian": "l'erede"
+  },
+  {
+    "german": "regieren",
+    "italian": "governare"
+  },
+  {
+    "german": "staatlich",
+    "italian": "statale"
+  },
+  {
+    "german": "die Monarchie",
+    "italian": "la monarchia"
+  },
+  {
+    "german": "die Diktatur",
+    "italian": "la dittatura"
+  },
+  {
+    "german": "der Kaiser",
+    "italian": "l'imperatore"
+  },
+  {
+    "german": "der Bundespräsident",
+    "italian": "il presidente federale"
+  },
+  {
+    "german": "der Bundeskanzler",
+    "italian": "il cancelliere federale"
+  },
+  {
+    "german": "das Ministerium",
+    "italian": "il ministero"
+  },
+  {
+    "german": "der Abgeordnete",
+    "italian": "il deputato"
+  },
+  {
+    "german": "der Bundestag",
+    "italian": "il parlamento federale"
+  },
+  {
+    "german": "der Bundesrat",
+    "italian": "il consiglio federale"
+  },
+  {
+    "german": "der Landtag",
+    "italian": "il parlamento regionale"
+  },
+  {
+    "german": "die Koalition",
+    "italian": "la coalizione"
+  },
+  {
+    "german": "die Opposition",
+    "italian": "l'opposizione"
+  },
+  {
+    "german": "konservativ",
+    "italian": "conservatore"
+  },
+  {
+    "german": "liberal",
+    "italian": "liberale"
+  },
+  {
+    "german": "der Wähler",
+    "italian": "l'elettore"
+  },
+  {
+    "german": "das Wahlrecht",
+    "italian": "il diritto di voto"
+  },
+  {
+    "german": "abstimmen",
+    "italian": "votare"
+  },
+  {
+    "german": "die Abstimmung",
+    "italian": "la votazione"
+  },
+  {
+    "german": "das Referendum",
+    "italian": "il referendum"
+  },
+  {
+    "german": "die Kaiserin",
+    "italian": "l'imperatrice"
+  },
+  {
+    "german": "der Diktator",
+    "italian": "il dittatore"
+  },
+  {
+    "german": "die Abgeordnete",
+    "italian": "la deputata"
+  },
+  {
+    "german": "der Senator",
+    "italian": "il senatore"
+  },
+  {
+    "german": "die Senatorin",
+    "italian": "la senatrice"
+  },
+  {
+    "german": "die Bundeskanzlerin",
+    "italian": "la cancelliera federale"
+  },
+  {
+    "german": "die Bundespräsidentin",
+    "italian": "la presidente federale"
+  },
+  {
+    "german": "der Außenminister",
+    "italian": "il ministro degli esteri"
+  },
+  {
+    "german": "der Innenminister",
+    "italian": "il ministro dell'interno"
+  },
+  {
+    "german": "der Finanzminister",
+    "italian": "il ministro delle finanze"
+  },
+  {
+    "german": "gesellschaftlich",
+    "italian": "sociale"
+  },
+  {
+    "german": "die Staatsbürgerschaft",
+    "italian": "la cittadinanza"
+  },
+  {
+    "german": "der Einwanderer",
+    "italian": "l'immigrato"
+  },
+  {
+    "german": "der Migrant",
+    "italian": "il migrante"
+  },
+  {
+    "german": "der Flüchtling",
+    "italian": "il rifugiato"
+  },
+  {
+    "german": "das Asyl",
+    "italian": "l'asilo"
+  },
+  {
+    "german": "die Gleichberechtigung",
+    "italian": "la parità di diritti"
+  },
+  {
+    "german": "die Gleichstellung",
+    "italian": "l'uguaglianza"
+  },
+  {
+    "german": "die Diskriminierung",
+    "italian": "la discriminazione"
+  },
+  {
+    "german": "der Rassismus",
+    "italian": "il razzismo"
+  },
+  {
+    "german": "die Religionsfreiheit",
+    "italian": "la libertà religiosa"
+  },
+  {
+    "german": "das Menschenrecht",
+    "italian": "il diritto umano"
+  },
+  {
+    "german": "die Würde",
+    "italian": "la dignità"
+  },
+  {
+    "german": "die Gerechtigkeit",
+    "italian": "la giustizia"
+  },
+  {
+    "german": "die Armut",
+    "italian": "la povertà"
+  },
+  {
+    "german": "der Reichtum",
+    "italian": "la ricchezza"
+  },
+  {
+    "german": "die Obdachlosigkeit",
+    "italian": "il senzatetto"
+  },
+  {
+    "german": "die Sozialleistung",
+    "italian": "l'assistenza sociale"
+  },
+  {
+    "german": "die Sozialhilfe",
+    "italian": "l'aiuto sociale"
+  },
+  {
+    "german": "das Arbeitslosengeld",
+    "italian": "l'indennità di disoccupazione"
+  },
+  {
+    "german": "das Kindergeld",
+    "italian": "l'assegno familiare"
+  },
+  {
+    "german": "die Demonstration",
+    "italian": "la manifestazione"
+  },
+  {
+    "german": "demonstrieren",
+    "italian": "manifestare"
+  },
+  {
+    "german": "die Sozialarbeit",
+    "italian": "l'assistenza sociale"
+  },
+  {
+    "german": "der Sozialarbeiter",
+    "italian": "l'assistente sociale"
+  },
+  {
+    "german": "die Sozialarbeiterin",
+    "italian": "l'assistente sociale"
+  },
+  {
+    "german": "die Ungleichheit",
+    "italian": "la disuguaglianza"
+  },
+  {
+    "german": "obdachlos",
+    "italian": "senzatetto"
+  },
+  {
+    "german": "der Obdachlose",
+    "italian": "il senzatetto"
+  },
+  {
+    "german": "die Obdachlose",
+    "italian": "la senzatetto"
+  },
+  {
+    "german": "die Kriminalität",
+    "italian": "la criminalità"
+  },
+  {
+    "german": "kriminell",
+    "italian": "criminale"
+  },
+  {
+    "german": "der Kriminelle",
+    "italian": "il criminale"
+  },
+  {
+    "german": "die Kriminelle",
+    "italian": "la criminale"
+  },
+  {
+    "german": "die Verbrecherin",
+    "italian": "la criminale"
+  },
+  {
+    "german": "betrügen",
+    "italian": "truffare"
+  },
+  {
+    "german": "der Betrüger",
+    "italian": "il truffatore"
+  },
+  {
+    "german": "die Betrügerin",
+    "italian": "la truffatrice"
+  },
+  {
+    "german": "die Korruption",
+    "italian": "la corruzione"
+  },
+  {
+    "german": "korrupt",
+    "italian": "corrotto"
+  },
+  {
+    "german": "die Drogensucht",
+    "italian": "la tossicodipendenza"
+  },
+  {
+    "german": "drogensüchtig",
+    "italian": "tossicodipendente"
+  },
+  {
+    "german": "der Terrorismus",
+    "italian": "il terrorismo"
+  },
+  {
+    "german": "der Terrorist",
+    "italian": "il terrorista"
+  },
+  {
+    "german": "die Terroristin",
+    "italian": "la terrorista"
+  },
+  {
+    "german": "terroristisch",
+    "italian": "terroristico"
+  },
+  {
+    "german": "der Anschlag",
+    "italian": "l'attentato"
+  },
+  {
+    "german": "die Migration",
+    "italian": "la migrazione"
+  },
+  {
+    "german": "die Migrantin",
+    "italian": "la migrante"
+  },
+  {
+    "german": "das Symptom",
+    "italian": "il sintomo"
+  },
+  {
+    "german": "schmerzhaft",
+    "italian": "doloroso"
+  },
+  {
+    "german": "fiebrig",
+    "italian": "febbricitante"
+  },
+  {
+    "german": "übel",
+    "italian": "nauseato"
+  },
+  {
+    "german": "sich übergeben",
+    "italian": "vomitare"
+  },
+  {
+    "german": "erbrechen",
+    "italian": "vomitare"
+  },
+  {
+    "german": "schwindelig",
+    "italian": "con le vertigini"
+  },
+  {
+    "german": "ohnmächtig",
+    "italian": "svenuto"
+  },
+  {
+    "german": "die Ohnmacht",
+    "italian": "lo svenimento"
+  },
+  {
+    "german": "entzündet",
+    "italian": "infiammato"
+  },
+  {
+    "german": "infiziert",
+    "italian": "infettato"
+  },
+  {
+    "german": "ansteckend",
+    "italian": "contagioso"
+  },
+  {
+    "german": "die Ansteckung",
+    "italian": "il contagio"
+  },
+  {
+    "german": "der Juckreiz",
+    "italian": "il prurito"
+  },
+  {
+    "german": "jucken",
+    "italian": "prudere"
+  },
+  {
+    "german": "die Schwellung",
+    "italian": "il gonfiore"
+  },
+  {
+    "german": "geschwollen",
+    "italian": "gonfio"
+  },
+  {
+    "german": "schwellen",
+    "italian": "gonfiarsi"
+  },
+  {
+    "german": "verwundet",
+    "italian": "ferito"
+  },
+  {
+    "german": "gebrochen",
+    "italian": "fratturato"
+  },
+  {
+    "german": "die Verbrennung",
+    "italian": "l'ustione"
+  },
+  {
+    "german": "verbrannt",
+    "italian": "ustionato"
+  },
+  {
+    "german": "der Tumor",
+    "italian": "il tumore"
+  },
+  {
+    "german": "der Diabetes",
+    "italian": "il diabete"
+  },
+  {
+    "german": "das Asthma",
+    "italian": "l'asma"
+  },
+  {
+    "german": "die Migräne",
+    "italian": "l'emicrania"
+  },
+  {
+    "german": "chronisch",
+    "italian": "cronico"
+  },
+  {
+    "german": "akut",
+    "italian": "acuto"
+  },
+  {
+    "german": "heilbar",
+    "italian": "curabile"
+  },
+  {
+    "german": "unheilbar",
+    "italian": "incurabile"
+  },
+  {
+    "german": "medizinisch",
+    "italian": "medico"
+  },
+  {
+    "german": "das Arzneimittel",
+    "italian": "il farmaco"
+  },
+  {
+    "german": "die Kapsel",
+    "italian": "la capsula"
+  },
+  {
+    "german": "die Injektion",
+    "italian": "l'iniezione"
+  },
+  {
+    "german": "der Impfstoff",
+    "italian": "il vaccino"
+  },
+  {
+    "german": "rezeptpflichtig",
+    "italian": "con ricetta"
+  },
+  {
+    "german": "rezeptfrei",
+    "italian": "senza ricetta"
+  },
+  {
+    "german": "die Physiotherapie",
+    "italian": "la fisioterapia"
+  },
+  {
+    "german": "die Psychotherapie",
+    "italian": "la psicoterapia"
+  },
+  {
+    "german": "die Pflege",
+    "italian": "la cura"
+  },
+  {
+    "german": "der Pfleger",
+    "italian": "l'infermiere"
+  },
+  {
+    "german": "die Pflegerin",
+    "italian": "l'infermiera"
+  },
+  {
+    "german": "die Blutuntersuchung",
+    "italian": "l'analisi del sangue"
+  },
+  {
+    "german": "der Bluttest",
+    "italian": "l'esame del sangue"
+  },
+  {
+    "german": "die Urinprobe",
+    "italian": "l'esame delle urine"
+  },
+  {
+    "german": "das Röntgen",
+    "italian": "la radiografia"
+  },
+  {
+    "german": "die Ultraschalluntersuchung",
+    "italian": "l'ecografia"
+  },
+  {
+    "german": "der Befund",
+    "italian": "il referto"
+  },
+  {
+    "german": "die Messung",
+    "italian": "la misurazione"
+  },
+  {
+    "german": "der Herzschlag",
+    "italian": "il battito cardiaco"
+  },
+  {
+    "german": "die Körpertemperatur",
+    "italian": "la temperatura corporea"
+  },
+  {
+    "german": "die Blutgruppe",
+    "italian": "il gruppo sanguigno"
+  },
+  {
+    "german": "das Labor",
+    "italian": "il laboratorio"
+  },
+  {
+    "german": "die Zahnarztpraxis",
+    "italian": "lo studio dentistico"
+  },
+  {
+    "german": "der Notarzt",
+    "italian": "il medico di emergenza"
+  },
+  {
+    "german": "die Notärztin",
+    "italian": "la medica di emergenza"
+  },
+  {
+    "german": "die Ambulanz",
+    "italian": "l'ambulanza"
+  },
+  {
+    "german": "der Rettungsdienst",
+    "italian": "il servizio di emergenza"
+  },
+  {
+    "german": "die Intensivstation",
+    "italian": "la terapia intensiva"
+  },
+  {
+    "german": "die Station",
+    "italian": "il reparto"
+  },
+  {
+    "german": "der Operationssaal",
+    "italian": "la sala operatoria"
+  },
+  {
+    "german": "der OP",
+    "italian": "la sala operatoria"
+  },
+  {
+    "german": "das Behandlungszimmer",
+    "italian": "l'ambulatorio"
+  },
+  {
+    "german": "das Krankenzimmer",
+    "italian": "la camera di degenza"
+  },
+  {
+    "german": "das Krankenbett",
+    "italian": "il letto d'ospedale"
+  },
+  {
+    "german": "versichert",
+    "italian": "assicurato"
+  },
+  {
+    "german": "die Krankenkasse",
+    "italian": "la cassa malattia"
+  },
+  {
+    "german": "die Versichertenkarte",
+    "italian": "la tessera sanitaria"
+  },
+  {
+    "german": "aufnehmen",
+    "italian": "ricoverare"
+  },
+  {
+    "german": "die Aufnahme",
+    "italian": "il ricovero"
+  },
+  {
+    "german": "die Sprechstunde",
+    "italian": "l'orario di visita"
+  },
+  {
+    "german": "das Pflegeheim",
+    "italian": "la casa di cura"
+  },
+  {
+    "german": "die Reha",
+    "italian": "la riabilitazione"
+  },
+  {
+    "german": "die Kur",
+    "italian": "la cura termale"
+  },
+  {
+    "german": "die Vorsorge",
+    "italian": "la prevenzione"
+  },
+  {
+    "german": "vorbeugen",
+    "italian": "prevenire"
+  },
+  {
+    "german": "psychisch",
+    "italian": "psichico"
+  },
+  {
+    "german": "seelisch",
+    "italian": "mentale"
+  },
+  {
+    "german": "die Sucht",
+    "italian": "la dipendenza"
+  },
+  {
+    "german": "süchtig",
+    "italian": "dipendente"
+  },
+  {
+    "german": "abhängig",
+    "italian": "dipendente"
+  },
+  {
+    "german": "die Abhängigkeit",
+    "italian": "la dipendenza"
+  },
+  {
+    "german": "das Trauma",
+    "italian": "il trauma"
+  },
+  {
+    "german": "die Belastung",
+    "italian": "lo stress"
+  },
+  {
+    "german": "stressig",
+    "italian": "stressante"
+  },
+  {
+    "german": "die Erschöpfung",
+    "italian": "l'esaurimento"
+  },
+  {
+    "german": "beruhigen",
+    "italian": "calmare"
+  },
+  {
+    "german": "die Meditation",
+    "italian": "la meditazione"
+  },
+  {
+    "german": "der Rollkragenpullover",
+    "italian": "il dolcevita"
+  },
+  {
+    "german": "die Strickjacke",
+    "italian": "il cardigan"
+  },
+  {
+    "german": "die Daunenjacke",
+    "italian": "il piumino"
+  },
+  {
+    "german": "das Sakko",
+    "italian": "la giacca elegante"
+  },
+  {
+    "german": "das Abendkleid",
+    "italian": "l'abito da sera"
+  },
+  {
+    "german": "das Brautkleid",
+    "italian": "l'abito da sposa"
+  },
+  {
+    "german": "das Nachthemd",
+    "italian": "la camicia da notte"
+  },
+  {
+    "german": "der Bademantel",
+    "italian": "l'accappatoio"
+  },
+  {
+    "german": "der Absatz",
+    "italian": "il tacco"
+  },
+  {
+    "german": "der Schnürsenkel",
+    "italian": "il laccio"
+  },
+  {
+    "german": "das Halstuch",
+    "italian": "il foulard"
+  },
+  {
+    "german": "der Ehering",
+    "italian": "la fede"
+  },
+  {
+    "german": "die Perle",
+    "italian": "la perla"
+  },
+  {
+    "german": "der Kragen",
+    "italian": "il colletto"
+  },
+  {
+    "german": "die Seide",
+    "italian": "la seta"
+  },
+  {
+    "german": "das Leinen",
+    "italian": "il lino"
+  },
+  {
+    "german": "der Polyester",
+    "italian": "il poliestere"
+  },
+  {
+    "german": "gepunktet",
+    "italian": "a pois"
+  },
+  {
+    "german": "gemustert",
+    "italian": "fantasia"
+  },
+  {
+    "german": "einfarbig",
+    "italian": "tinta unita"
+  },
+  {
+    "german": "altmodisch",
+    "italian": "fuori moda"
+  },
+  {
+    "german": "trendy",
+    "italian": "trendy"
+  },
+  {
+    "german": "die Eleganz",
+    "italian": "l'eleganza"
+  },
+  {
+    "german": "stilvoll",
+    "italian": "stiloso"
+  },
+  {
+    "german": "lässig",
+    "italian": "casual"
+  },
+  {
+    "german": "zeitlos",
+    "italian": "senza tempo"
+  },
+  {
+    "german": "das Label",
+    "italian": "il marchio"
+  },
+  {
+    "german": "die Luxusmarke",
+    "italian": "il marchio di lusso"
+  },
+  {
+    "german": "die Kollektion",
+    "italian": "la collezione"
+  },
+  {
+    "german": "die Modenschau",
+    "italian": "la sfilata"
+  },
+  {
+    "german": "der Laufsteg",
+    "italian": "la passerella"
+  },
+  {
+    "german": "die Schneiderei",
+    "italian": "la sartoria"
+  },
+  {
+    "german": "die Anprobe",
+    "italian": "la prova"
+  },
+  {
+    "german": "die Umkleidekabine",
+    "italian": "il camerino"
+  },
+  {
+    "german": "die Passform",
+    "italian": "la vestibilità"
+  },
+  {
+    "german": "locker",
+    "italian": "morbido"
+  },
+  {
+    "german": "knielang",
+    "italian": "al ginocchio"
+  },
+  {
+    "german": "ärmellos",
+    "italian": "senza maniche"
+  },
+  {
+    "german": "kurzärmelig",
+    "italian": "a maniche corte"
+  },
+  {
+    "german": "langärmelig",
+    "italian": "a maniche lunghe"
+  },
+  {
+    "german": "der Ausschnitt",
+    "italian": "la scollatura"
+  },
+  {
+    "german": "der V-Ausschnitt",
+    "italian": "lo scollo a V"
+  },
+  {
+    "german": "das Gewebe",
+    "italian": "il tessuto"
+  },
+  {
+    "german": "die Faser",
+    "italian": "la fibra"
+  },
+  {
+    "german": "seidig",
+    "italian": "setoso"
+  },
+  {
+    "german": "das Kaschmir",
+    "italian": "il cashmere"
+  },
+  {
+    "german": "das Kunstleder",
+    "italian": "la pelle sintetica"
+  },
+  {
+    "german": "das Fell",
+    "italian": "la pelliccia"
+  },
+  {
+    "german": "der Pelz",
+    "italian": "la pelliccia"
+  },
+  {
+    "german": "der Samt",
+    "italian": "il velluto"
+  },
+  {
+    "german": "der Denim",
+    "italian": "il denim"
+  },
+  {
+    "german": "der Jeansstoff",
+    "italian": "il tessuto jeans"
+  },
+  {
+    "german": "die Spitze",
+    "italian": "il pizzo"
+  },
+  {
+    "german": "der Satin",
+    "italian": "il raso"
+  },
+  {
+    "german": "das Polyester",
+    "italian": "il poliestere"
+  },
+  {
+    "german": "das Nylon",
+    "italian": "il nylon"
+  },
+  {
+    "german": "dehnbar",
+    "italian": "elastico"
+  },
+  {
+    "german": "elastisch",
+    "italian": "elastico"
+  },
+  {
+    "german": "wasserdicht",
+    "italian": "impermeabile"
+  },
+  {
+    "german": "rau",
+    "italian": "ruvido"
+  },
+  {
+    "german": "transparent",
+    "italian": "trasparente"
+  },
+  {
+    "german": "das Accessoire",
+    "italian": "l'accessorio"
+  },
+  {
+    "german": "der Verlobungsring",
+    "italian": "l'anello di fidanzamento"
+  },
+  {
+    "german": "der Anhänger",
+    "italian": "il ciondolo"
+  },
+  {
+    "german": "die Ohrstecker",
+    "italian": "gli orecchini a bottone"
+  },
+  {
+    "german": "die Brosche",
+    "italian": "la spilla"
+  },
+  {
+    "german": "der Diamant",
+    "italian": "il diamante"
+  },
+  {
+    "german": "der Edelstein",
+    "italian": "la pietra preziosa"
+  },
+  {
+    "german": "die Aktentasche",
+    "italian": "la valigetta"
+  },
+  {
+    "german": "die Lesebrille",
+    "italian": "gli occhiali da lettura"
+  },
+  {
+    "german": "die Baseballkappe",
+    "italian": "il cappellino da baseball"
+  },
+  {
+    "german": "das Stirnband",
+    "italian": "la fascia"
+  },
+  {
+    "german": "die Haarspange",
+    "italian": "la molletta"
+  },
+  {
+    "german": "der Haargummi",
+    "italian": "l'elastico per capelli"
+  },
+  {
+    "german": "das Waschprogramm",
+    "italian": "il programma di lavaggio"
+  },
+  {
+    "german": "schleudern",
+    "italian": "centrifugare"
+  },
+  {
+    "german": "zusammenlegen",
+    "italian": "piegare"
+  },
+  {
+    "german": "der Kleiderbügel",
+    "italian": "la gruccia"
+  },
+  {
+    "german": "der Wäschekorb",
+    "italian": "il cesto della biancheria"
+  },
+  {
+    "german": "der Weichspüler",
+    "italian": "l'ammorbidente"
+  },
+  {
+    "german": "fleckig",
+    "italian": "macchiato"
+  },
+  {
+    "german": "chemisch reinigen",
+    "italian": "lavare a secco"
+  },
+  {
+    "german": "die chemische Reinigung",
+    "italian": "la lavanderia"
+  },
+  {
+    "german": "die Nähmaschine",
+    "italian": "la macchina da cucire"
+  },
+  {
+    "german": "die Reparatur",
+    "italian": "la riparazione"
+  },
+  {
+    "german": "kürzen",
+    "italian": "accorciare"
+  },
+  {
+    "german": "enger machen",
+    "italian": "stringere"
+  },
+  {
+    "german": "der Wellensittich",
+    "italian": "il parrocchetto"
+  },
+  {
+    "german": "der Gorilla",
+    "italian": "il gorilla"
+  },
+  {
+    "german": "der Schimpanse",
+    "italian": "lo scimpanzé"
+  },
+  {
+    "german": "der Hirsch",
+    "italian": "il cervo"
+  },
+  {
+    "german": "das Reh",
+    "italian": "il capriolo"
+  },
+  {
+    "german": "das Wildschwein",
+    "italian": "il cinghiale"
+  },
+  {
+    "german": "die Fledermaus",
+    "italian": "il pipistrello"
+  },
+  {
+    "german": "die Robbe",
+    "italian": "la foca"
+  },
+  {
+    "german": "der Spatz",
+    "italian": "il passero"
+  },
+  {
+    "german": "die Möwe",
+    "italian": "il gabbiano"
+  },
+  {
+    "german": "der Pelikan",
+    "italian": "il pellicano"
+  },
+  {
+    "german": "der Pfau",
+    "italian": "il pavone"
+  },
+  {
+    "german": "das Lama",
+    "italian": "il lama"
+  },
+  {
+    "german": "die Hummel",
+    "italian": "il bombo"
+  },
+  {
+    "german": "die Raupe",
+    "italian": "il bruco"
+  },
+  {
+    "german": "die Laus",
+    "italian": "il pidocchio"
+  },
+  {
+    "german": "die Zecke",
+    "italian": "la zecca"
+  },
+  {
+    "german": "die Kakerlake",
+    "italian": "lo scarafaggio"
+  },
+  {
+    "german": "die Lilie",
+    "italian": "il giglio"
+  },
+  {
+    "german": "die Orchidee",
+    "italian": "l'orchidea"
+  },
+  {
+    "german": "das Veilchen",
+    "italian": "la viola"
+  },
+  {
+    "german": "das Gänseblümchen",
+    "italian": "la margherita"
+  },
+  {
+    "german": "der Löwenzahn",
+    "italian": "il dente di leone"
+  },
+  {
+    "german": "der Stängel",
+    "italian": "lo stelo"
+  },
+  {
+    "german": "der Zweig",
+    "italian": "il ramoscello"
+  },
+  {
+    "german": "die Rinde",
+    "italian": "la corteccia"
+  },
+  {
+    "german": "die Eiche",
+    "italian": "la quercia"
+  },
+  {
+    "german": "die Buche",
+    "italian": "il faggio"
+  },
+  {
+    "german": "die Birke",
+    "italian": "la betulla"
+  },
+  {
+    "german": "die Tanne",
+    "italian": "l'abete"
+  },
+  {
+    "german": "die Kiefer",
+    "italian": "il pino"
+  },
+  {
+    "german": "der Kirschbaum",
+    "italian": "il ciliegio"
+  },
+  {
+    "german": "der Olivenbaum",
+    "italian": "l'ulivo"
+  },
+  {
+    "german": "das Gebirge",
+    "italian": "la catena montuosa"
+  },
+  {
+    "german": "der Gipfel",
+    "italian": "la cima"
+  },
+  {
+    "german": "die Oase",
+    "italian": "l'oasi"
+  },
+  {
+    "german": "der Dschungel",
+    "italian": "la giungla"
+  },
+  {
+    "german": "der Teich",
+    "italian": "lo stagno"
+  },
+  {
+    "german": "der Wasserfall",
+    "italian": "la cascata"
+  },
+  {
+    "german": "die Klippe",
+    "italian": "la scogliera"
+  },
+  {
+    "german": "der Gletscher",
+    "italian": "il ghiacciaio"
+  },
+  {
+    "german": "der Eisberg",
+    "italian": "l'iceberg"
+  },
+  {
+    "german": "der Nordpol",
+    "italian": "il polo nord"
+  },
+  {
+    "german": "der Südpol",
+    "italian": "il polo sud"
+  },
+  {
+    "german": "der Äquator",
+    "italian": "l'equatore"
+  },
+  {
+    "german": "das Parteimitglied",
+    "italian": "il membro del partito"
+  },
+  {
+    "german": "die Wählerin",
+    "italian": "l'elettrice"
+  },
+  {
+    "german": "die Bundestagswahl",
+    "italian": "le elezioni federali"
+  },
+  {
+    "german": "die Europawahl",
+    "italian": "le elezioni europee"
+  },
+  {
+    "german": "der Wahlkampf",
+    "italian": "la campagna elettorale"
+  },
+  {
+    "german": "kandidieren",
+    "italian": "candidarsi"
+  },
+  {
+    "german": "das Wahlergebnis",
+    "italian": "il risultato elettorale"
+  },
+  {
+    "german": "das Wahllokal",
+    "italian": "il seggio elettorale"
+  },
+  {
+    "german": "der Stimmzettel",
+    "italian": "la scheda elettorale"
+  },
+  {
+    "german": "die Redefreiheit",
+    "italian": "la libertà di parola"
+  },
+  {
+    "german": "gleichberechtigt",
+    "italian": "con pari diritti"
+  },
+  {
+    "german": "die Ungerechtigkeit",
+    "italian": "l'ingiustizia"
+  },
+  {
+    "german": "die Menschenrechte",
+    "italian": "i diritti umani"
+  },
+  {
+    "german": "die Bürgerrechte",
+    "italian": "i diritti civili"
+  },
+  {
+    "german": "diskriminieren",
+    "italian": "discriminare"
+  },
+  {
+    "german": "rassistisch",
+    "italian": "razzista"
+  },
+  {
+    "german": "die Toleranz",
+    "italian": "la tolleranza"
+  },
+  {
+    "german": "intolerant",
+    "italian": "intollerante"
+  },
+  {
+    "german": "integrieren",
+    "italian": "integrare"
+  },
+  {
+    "german": "divers",
+    "italian": "diverso"
+  },
+  {
+    "german": "die Außenpolitik",
+    "italian": "la politica estera"
+  },
+  {
+    "german": "die Innenpolitik",
+    "italian": "la politica interna"
+  },
+  {
+    "german": "die Diplomatie",
+    "italian": "la diplomazia"
+  },
+  {
+    "german": "diplomatisch",
+    "italian": "diplomatico"
+  },
+  {
+    "german": "der Diplomat",
+    "italian": "il diplomatico"
+  },
+  {
+    "german": "die Diplomatin",
+    "italian": "la diplomatica"
+  },
+  {
+    "german": "die Botschaft",
+    "italian": "l'ambasciata"
+  },
+  {
+    "german": "der Botschafter",
+    "italian": "l'ambasciatore"
+  },
+  {
+    "german": "die Botschafterin",
+    "italian": "l'ambasciatrice"
+  },
+  {
+    "german": "das Konsulat",
+    "italian": "il consolato"
+  },
+  {
+    "german": "die Vereinten Nationen",
+    "italian": "le Nazioni Unite"
+  },
+  {
+    "german": "die UNO",
+    "italian": "l'ONU"
+  },
+  {
+    "german": "die NATO",
+    "italian": "la NATO"
+  },
+  {
+    "german": "das Abkommen",
+    "italian": "l'accordo"
+  },
+  {
+    "german": "das Bündnis",
+    "italian": "l'alleanza"
+  },
+  {
+    "german": "der Verbündete",
+    "italian": "l'alleato"
+  },
+  {
+    "german": "die Verbündete",
+    "italian": "l'alleata"
+  },
+  {
+    "german": "der Konflikt",
+    "italian": "il conflitto"
+  },
+  {
+    "german": "die Sanktion",
+    "italian": "la sanzione"
+  },
+  {
+    "german": "die Grenzkontrolle",
+    "italian": "il controllo di frontiera"
+  },
+  {
+    "german": "die Einwanderung",
+    "italian": "l'immigrazione"
+  },
+  {
+    "german": "einwandern",
+    "italian": "immigrare"
+  },
+  {
+    "german": "die Einwanderin",
+    "italian": "l'immigrata"
+  },
+  {
+    "german": "die Auswanderung",
+    "italian": "l'emigrazione"
+  },
+  {
+    "german": "auswandern",
+    "italian": "emigrare"
+  },
+  {
+    "german": "der Auswanderer",
+    "italian": "l'emigrato"
+  },
+  {
+    "german": "die Auswanderin",
+    "italian": "l'emigrata"
+  },
+  {
+    "german": "die Globalisierung",
+    "italian": "la globalizzazione"
+  },
+  {
+    "german": "global",
+    "italian": "globale"
+  },
+  {
+    "german": "das Entwicklungsland",
+    "italian": "il paese in via di sviluppo"
+  },
+  {
+    "german": "das Industrieland",
+    "italian": "il paese industrializzato"
+  },
+  {
+    "german": "die humanitäre Hilfe",
+    "italian": "l'aiuto umanitario"
+  },
+  {
+    "german": "humanitär",
+    "italian": "umanitario"
+  },
+  {
+    "german": "die Chirurgin",
+    "italian": "la chirurga"
+  },
+  {
+    "german": "die Psychologin",
+    "italian": "la psicologa"
+  },
+  {
+    "german": "der Therapeut",
+    "italian": "il terapeuta"
+  },
+  {
+    "german": "die Therapeutin",
+    "italian": "la terapeuta"
+  },
+  {
+    "german": "der Physiotherapeut",
+    "italian": "il fisioterapista"
+  },
+  {
+    "german": "die Physiotherapeutin",
+    "italian": "la fisioterapista"
+  },
+  {
+    "german": "die Optikerin",
+    "italian": "l'ottica"
+  },
+  {
+    "german": "die Notarin",
+    "italian": "la notaia"
+  },
+  {
+    "german": "die Steuerberaterin",
+    "italian": "la commercialista"
+  },
+  {
+    "german": "die Buchhalterin",
+    "italian": "la contabile"
+  },
+  {
+    "german": "der Finanzberater",
+    "italian": "il consulente finanziario"
+  },
+  {
+    "german": "die Finanzberaterin",
+    "italian": "la consulente finanziaria"
+  },
+  {
+    "german": "die Maklerin",
+    "italian": "l'agente immobiliare"
+  },
+  {
+    "german": "die Bankerin",
+    "italian": "la banchiera"
+  },
+  {
+    "german": "die Informatikerin",
+    "italian": "l'informatica"
+  },
+  {
+    "german": "die Programmiererin",
+    "italian": "la programmatrice"
+  },
+  {
+    "german": "der Webentwickler",
+    "italian": "lo sviluppatore web"
+  },
+  {
+    "german": "die Webentwicklerin",
+    "italian": "la sviluppatrice web"
+  },
+  {
+    "german": "der Schlosser",
+    "italian": "il fabbro"
+  },
+  {
+    "german": "die Schlosserin",
+    "italian": "la fabbra"
+  },
+  {
+    "german": "der Schweißer",
+    "italian": "il saldatore"
+  },
+  {
+    "german": "die Schweißerin",
+    "italian": "la saldatrice"
+  },
+  {
+    "german": "der Dachdecker",
+    "italian": "il copritetti"
+  },
+  {
+    "german": "die Dachdeckerin",
+    "italian": "la copritetti"
+  },
+  {
+    "german": "der Grafikdesigner",
+    "italian": "il grafico"
+  },
+  {
+    "german": "die Grafikdesignerin",
+    "italian": "la grafica"
+  },
+  {
+    "german": "der Illustrator",
+    "italian": "l'illustratore"
+  }
+]

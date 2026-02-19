@@ -1,0 +1,2402 @@
+[
+  {
+    "level": "a1",
+    "de": "Apfel",
+    "example": "Der Apfel ist rot.",
+    "exampleIt": "La mela è rossa."
+  },
+  {
+    "level": "a1",
+    "de": "Orange",
+    "example": "Die Orange ist süß.",
+    "exampleIt": "L'arancia è dolce."
+  },
+  {
+    "level": "a1",
+    "de": "Banane",
+    "example": "Die Banane ist gelb.",
+    "exampleIt": "La banana è gialla."
+  },
+  {
+    "level": "a1",
+    "de": "Tomate",
+    "example": "Die Tomate ist groß.",
+    "exampleIt": "Il pomodoro è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Gurke",
+    "example": "Die Gurke ist grün.",
+    "exampleIt": "Il cetriolo è verde."
+  },
+  {
+    "level": "a1",
+    "de": "Kartoffel",
+    "example": "Die Kartoffel ist weiß.",
+    "exampleIt": "La patata è bianca."
+  },
+  {
+    "level": "a1",
+    "de": "Zwiebel",
+    "example": "Die Zwiebel riecht.",
+    "exampleIt": "La cipolla odora."
+  },
+  {
+    "level": "a1",
+    "de": "Knoblauch",
+    "example": "Der Knoblauch ist scharf.",
+    "exampleIt": "L'aglio è pungente."
+  },
+  {
+    "level": "a1",
+    "de": "Salat",
+    "example": "Der Salat ist frisch.",
+    "exampleIt": "L'insalata è fresca."
+  },
+  {
+    "level": "a1",
+    "de": "Karotte",
+    "example": "Die Karotte ist orange.",
+    "exampleIt": "La carota è arancione."
+  },
+  {
+    "level": "a1",
+    "de": "Paprika",
+    "example": "Der Paprika ist rot.",
+    "exampleIt": "Il peperone è rosso."
+  },
+  {
+    "level": "a1",
+    "de": "Zitrone",
+    "example": "Die Zitrone ist sauer.",
+    "exampleIt": "Il limone è acido."
+  },
+  {
+    "level": "a1",
+    "de": "Trauben",
+    "example": "Die Trauben sind süß.",
+    "exampleIt": "L'uva è dolce."
+  },
+  {
+    "level": "a1",
+    "de": "Erdbeere",
+    "example": "Die Erdbeere ist rot.",
+    "exampleIt": "La fragola è rossa."
+  },
+  {
+    "level": "a1",
+    "de": "Broccoli",
+    "example": "Der Broccoli ist grün.",
+    "exampleIt": "I broccoli sono verdi."
+  },
+  {
+    "level": "a1",
+    "de": "Stuhl",
+    "example": "Der Stuhl ist braun.",
+    "exampleIt": "La sedia è marrone."
+  },
+  {
+    "level": "a1",
+    "de": "Tisch",
+    "example": "Der Tisch ist groß.",
+    "exampleIt": "Il tavolo è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Bett",
+    "example": "Das Bett ist weich.",
+    "exampleIt": "Il letto è morbido."
+  },
+  {
+    "level": "a1",
+    "de": "Sofa",
+    "example": "Das Sofa ist rot.",
+    "exampleIt": "Il divano è rosso."
+  },
+  {
+    "level": "a1",
+    "de": "Schrank",
+    "example": "Der Schrank ist groß.",
+    "exampleIt": "L'armadio è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Lampe",
+    "example": "Die Lampe ist hell.",
+    "exampleIt": "La lampada è luminosa."
+  },
+  {
+    "level": "a1",
+    "de": "Spiegel",
+    "example": "Der Spiegel ist groß.",
+    "exampleIt": "Lo specchio è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Teppich",
+    "example": "Der Teppich ist weich.",
+    "exampleIt": "Il tappeto è morbido."
+  },
+  {
+    "level": "a1",
+    "de": "Vorhang",
+    "example": "Der Vorhang ist blau.",
+    "exampleIt": "La tenda è blu."
+  },
+  {
+    "level": "a1",
+    "de": "Fenster",
+    "example": "Das Fenster ist offen.",
+    "exampleIt": "La finestra è aperta."
+  },
+  {
+    "level": "a1",
+    "de": "Tür",
+    "example": "Die Tür ist geschlossen.",
+    "exampleIt": "La porta è chiusa."
+  },
+  {
+    "level": "a1",
+    "de": "Regal",
+    "example": "Das Regal ist voll.",
+    "exampleIt": "Lo scaffale è pieno."
+  },
+  {
+    "level": "a1",
+    "de": "Bild",
+    "example": "Das Bild ist schön.",
+    "exampleIt": "Il quadro è bello."
+  },
+  {
+    "level": "a1",
+    "de": "Uhr",
+    "example": "Die Uhr zeigt die Zeit.",
+    "exampleIt": "L'orologio mostra l'ora."
+  },
+  {
+    "level": "a1",
+    "de": "Kissen",
+    "example": "Das Kissen ist weich.",
+    "exampleIt": "Il cuscino è morbido."
+  },
+  {
+    "level": "a1",
+    "de": "Decke",
+    "example": "Die Decke ist warm.",
+    "exampleIt": "La coperta è calda."
+  },
+  {
+    "level": "a1",
+    "de": "Handtuch",
+    "example": "Das Handtuch ist sauber.",
+    "exampleIt": "L'asciugamano è pulito."
+  },
+  {
+    "level": "a1",
+    "de": "Kühlschrank",
+    "example": "Der Kühlschrank ist voll.",
+    "exampleIt": "Il frigorifero è pieno."
+  },
+  {
+    "level": "a1",
+    "de": "Herd",
+    "example": "Der Herd ist modern.",
+    "exampleIt": "La cucina è moderna."
+  },
+  {
+    "level": "a1",
+    "de": "Ofen",
+    "example": "Der Ofen ist heiß.",
+    "exampleIt": "Il forno è caldo."
+  },
+  {
+    "level": "a1",
+    "de": "Dusche",
+    "example": "Die Dusche ist heiß.",
+    "exampleIt": "La doccia è calda."
+  },
+  {
+    "level": "a1",
+    "de": "Badewanne",
+    "example": "Die Badewanne ist groß.",
+    "exampleIt": "La vasca da bagno è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Toilette",
+    "example": "Die Toilette ist sauber.",
+    "exampleIt": "La toilette è pulita."
+  },
+  {
+    "level": "a1",
+    "de": "Waschmaschine",
+    "example": "Die Waschmaschine läuft.",
+    "exampleIt": "La lavatrice funziona."
+  },
+  {
+    "level": "a1",
+    "de": "Trockner",
+    "example": "Der Trockner trocknet.",
+    "exampleIt": "L'asciugatrice asciuga."
+  },
+  {
+    "level": "a1",
+    "de": "Sonne",
+    "example": "Die Sonne scheint.",
+    "exampleIt": "Il sole splende."
+  },
+  {
+    "level": "a1",
+    "de": "Mond",
+    "example": "Der Mond ist hell.",
+    "exampleIt": "La luna è luminosa."
+  },
+  {
+    "level": "a1",
+    "de": "Stern",
+    "example": "Der Stern glänzt.",
+    "exampleIt": "La stella brilla."
+  },
+  {
+    "level": "a1",
+    "de": "Regen",
+    "example": "Der Regen fällt.",
+    "exampleIt": "La pioggia cade."
+  },
+  {
+    "level": "a1",
+    "de": "Schnee",
+    "example": "Der Schnee ist weiß.",
+    "exampleIt": "La neve è bianca."
+  },
+  {
+    "level": "a1",
+    "de": "Wind",
+    "example": "Der Wind weht.",
+    "exampleIt": "Il vento soffia."
+  },
+  {
+    "level": "a1",
+    "de": "Wolke",
+    "example": "Die Wolke ist grau.",
+    "exampleIt": "La nuvola è grigia."
+  },
+  {
+    "level": "a1",
+    "de": "Blitz",
+    "example": "Der Blitz leuchtet.",
+    "exampleIt": "Il fulmine illumina."
+  },
+  {
+    "level": "a1",
+    "de": "Donner",
+    "example": "Der Donner ist laut.",
+    "exampleIt": "Il tuono è forte."
+  },
+  {
+    "level": "a1",
+    "de": "Baum",
+    "example": "Der Baum ist groß.",
+    "exampleIt": "L'albero è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Blatt",
+    "example": "Das Blatt ist grün.",
+    "exampleIt": "La foglia è verde."
+  },
+  {
+    "level": "a1",
+    "de": "Blume",
+    "example": "Die Blume ist schön.",
+    "exampleIt": "Il fiore è bello."
+  },
+  {
+    "level": "a1",
+    "de": "Pflanze",
+    "example": "Die Pflanze braucht Wasser.",
+    "exampleIt": "La pianta ha bisogno di acqua."
+  },
+  {
+    "level": "a1",
+    "de": "Gras",
+    "example": "Das Gras ist grün.",
+    "exampleIt": "L'erba è verde."
+  },
+  {
+    "level": "a1",
+    "de": "Wald",
+    "example": "Der Wald ist schön.",
+    "exampleIt": "La foresta è bella."
+  },
+  {
+    "level": "a1",
+    "de": "Berg",
+    "example": "Der Berg ist hoch.",
+    "exampleIt": "La montagna è alta."
+  },
+  {
+    "level": "a1",
+    "de": "See",
+    "example": "Der See ist groß.",
+    "exampleIt": "Il lago è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Fluss",
+    "example": "Der Fluss fließt.",
+    "exampleIt": "Il fiume scorre."
+  },
+  {
+    "level": "a1",
+    "de": "Strand",
+    "example": "Der Strand ist warm.",
+    "exampleIt": "La spiaggia è calda."
+  },
+  {
+    "level": "a1",
+    "de": "Meer",
+    "example": "Das Meer ist blau.",
+    "exampleIt": "Il mare è blu."
+  },
+  {
+    "level": "a1",
+    "de": "Welle",
+    "example": "Die Welle ist groß.",
+    "exampleIt": "L'onda è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Insel",
+    "example": "Die Insel ist schön.",
+    "exampleIt": "L'isola è bella."
+  },
+  {
+    "level": "a1",
+    "de": "Stein",
+    "example": "Der Stein ist hart.",
+    "exampleIt": "La pietra è dura."
+  },
+  {
+    "level": "a1",
+    "de": "Sand",
+    "example": "Der Sand ist weich.",
+    "exampleIt": "La sabbia è morbida."
+  },
+  {
+    "level": "a1",
+    "de": "Himmel",
+    "example": "Der Himmel ist blau.",
+    "exampleIt": "Il cielo è blu."
+  },
+  {
+    "level": "a1",
+    "de": "Restaurant",
+    "example": "Das Restaurant ist schön.",
+    "exampleIt": "Il ristorante è bello."
+  },
+  {
+    "level": "a1",
+    "de": "Serviette",
+    "example": "Die Serviette ist weiß.",
+    "exampleIt": "Il tovagliolo è bianco."
+  },
+  {
+    "level": "a1",
+    "de": "Besteck",
+    "example": "Das Besteck ist sauber.",
+    "exampleIt": "Le posate sono pulite."
+  },
+  {
+    "level": "a1",
+    "de": "Messer",
+    "example": "Das Messer ist scharf.",
+    "exampleIt": "Il coltello è affilato."
+  },
+  {
+    "level": "a1",
+    "de": "Gabel",
+    "example": "Die Gabel ist klein.",
+    "exampleIt": "La forchetta è piccola."
+  },
+  {
+    "level": "a1",
+    "de": "Löffel",
+    "example": "Der Löffel ist silberfarben.",
+    "exampleIt": "Il cucchiaio è argentato."
+  },
+  {
+    "level": "a1",
+    "de": "Teller",
+    "example": "Der Teller ist voll.",
+    "exampleIt": "Il piatto è pieno."
+  },
+  {
+    "level": "a1",
+    "de": "Schüssel",
+    "example": "Die Schüssel ist groß.",
+    "exampleIt": "La ciotola è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Glas",
+    "example": "Das Glas ist voll.",
+    "exampleIt": "Il bicchiere è pieno."
+  },
+  {
+    "level": "a1",
+    "de": "Tasse",
+    "example": "Die Tasse ist heiß.",
+    "exampleIt": "La tazza è calda."
+  },
+  {
+    "level": "a1",
+    "de": "Getränk",
+    "example": "Das Getränk ist kalt.",
+    "exampleIt": "La bevanda è fredda."
+  },
+  {
+    "level": "a1",
+    "de": "Wasser",
+    "example": "Das Wasser ist kalt.",
+    "exampleIt": "L'acqua è fredda."
+  },
+  {
+    "level": "a1",
+    "de": "Brot",
+    "example": "Das Brot ist frisch.",
+    "exampleIt": "Il pane è fresco."
+  },
+  {
+    "level": "a1",
+    "de": "Fleisch",
+    "example": "Das Fleisch ist zart.",
+    "exampleIt": "La carne è tenera."
+  },
+  {
+    "level": "a1",
+    "de": "Fisch",
+    "example": "Der Fisch ist frisch.",
+    "exampleIt": "Il pesce è fresco."
+  },
+  {
+    "level": "a1",
+    "de": "Suppe",
+    "example": "Die Suppe ist heiß.",
+    "exampleIt": "La minestra è calda."
+  },
+  {
+    "level": "a1",
+    "de": "Nachtisch",
+    "example": "Der Nachtisch ist süß.",
+    "exampleIt": "Il dessert è dolce."
+  },
+  {
+    "level": "a1",
+    "de": "Rechnung",
+    "example": "Die Rechnung ist hoch.",
+    "exampleIt": "Il conto è caro."
+  },
+  {
+    "level": "a1",
+    "de": "Kellner",
+    "example": "Der Kellner ist freundlich.",
+    "exampleIt": "Il cameriere è gentile."
+  },
+  {
+    "level": "a1",
+    "de": "Menü",
+    "example": "Das Menü ist interessant.",
+    "exampleIt": "Il menu è interessante."
+  },
+  {
+    "level": "a1",
+    "de": "Preis",
+    "example": "Der Preis ist fair.",
+    "exampleIt": "Il prezzo è giusto."
+  },
+  {
+    "level": "a1",
+    "de": "Tipp",
+    "example": "Der Tipp ist großzügig.",
+    "exampleIt": "La mancia è generosa."
+  },
+  {
+    "level": "a1",
+    "de": "Gast",
+    "example": "Der Gast ist zufrieden.",
+    "exampleIt": "L'ospite è soddisfatto."
+  },
+  {
+    "level": "a1",
+    "de": "Speise",
+    "example": "Die Speise ist lecker.",
+    "exampleIt": "Il piatto è delizioso."
+  },
+  {
+    "level": "a1",
+    "de": "Kaffee",
+    "example": "Der Kaffee ist heiß.",
+    "exampleIt": "Il caffè è caldo."
+  },
+  {
+    "level": "a1",
+    "de": "Sport",
+    "example": "Sport ist gesund.",
+    "exampleIt": "Lo sport è sano."
+  },
+  {
+    "level": "a1",
+    "de": "Fußball",
+    "example": "Fußball ist populär.",
+    "exampleIt": "Il calcio è popolare."
+  },
+  {
+    "level": "a1",
+    "de": "Tennis",
+    "example": "Tennis ist schwer.",
+    "exampleIt": "Il tennis è difficile."
+  },
+  {
+    "level": "a1",
+    "de": "Schwimmen",
+    "example": "Schwimmen macht Spaß.",
+    "exampleIt": "Il nuoto è divertente."
+  },
+  {
+    "level": "a1",
+    "de": "Radfahren",
+    "example": "Radfahren ist schön.",
+    "exampleIt": "Il ciclismo è bello."
+  },
+  {
+    "level": "a1",
+    "de": "Laufen",
+    "example": "Laufen ist anstrengend.",
+    "exampleIt": "La corsa è faticosa."
+  },
+  {
+    "level": "a1",
+    "de": "Wandern",
+    "example": "Wandern ist erholsam.",
+    "exampleIt": "L'escursionismo è rilassante."
+  },
+  {
+    "level": "a1",
+    "de": "Musik",
+    "example": "Musik ist schön.",
+    "exampleIt": "La musica è bella."
+  },
+  {
+    "level": "a1",
+    "de": "Gitarre",
+    "example": "Die Gitarre ist groß.",
+    "exampleIt": "La chitarra è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Klavier",
+    "example": "Das Klavier ist schwarz.",
+    "exampleIt": "Il pianoforte è nero."
+  },
+  {
+    "level": "a1",
+    "de": "Singen",
+    "example": "Singen ist Freude.",
+    "exampleIt": "Il canto è gioia."
+  },
+  {
+    "level": "a1",
+    "de": "Lesen",
+    "example": "Lesen ist interessant.",
+    "exampleIt": "La lettura è interessante."
+  },
+  {
+    "level": "a1",
+    "de": "Malen",
+    "example": "Malen ist kreativ.",
+    "exampleIt": "La pittura è creativa."
+  },
+  {
+    "level": "a1",
+    "de": "Zeichnen",
+    "example": "Zeichnen macht Spaß.",
+    "exampleIt": "Il disegno è divertente."
+  },
+  {
+    "level": "a1",
+    "de": "Tanz",
+    "example": "Der Tanz ist schön.",
+    "exampleIt": "La danza è bella."
+  },
+  {
+    "level": "a1",
+    "de": "Film",
+    "example": "Der Film ist gut.",
+    "exampleIt": "Il film è buono."
+  },
+  {
+    "level": "a1",
+    "de": "Fernsehen",
+    "example": "Fernsehen ist entspannend.",
+    "exampleIt": "La televisione è rilassante."
+  },
+  {
+    "level": "a1",
+    "de": "Spiel",
+    "example": "Das Spiel ist spaßig.",
+    "exampleIt": "Il gioco è divertente."
+  },
+  {
+    "level": "a1",
+    "de": "Schach",
+    "example": "Schach ist intelligent.",
+    "exampleIt": "Gli scacchi sono intelligenti."
+  },
+  {
+    "level": "a1",
+    "de": "Kochen",
+    "example": "Kochen macht Spaß.",
+    "exampleIt": "La cucina è divertente."
+  },
+  {
+    "level": "a1",
+    "de": "Garten",
+    "example": "Der Garten ist schön.",
+    "exampleIt": "Il giardinaggio è bello."
+  },
+  {
+    "level": "a1",
+    "de": "Fotografieren",
+    "example": "Fotografieren ist interessant.",
+    "exampleIt": "La fotografia è interessante."
+  },
+  {
+    "level": "a1",
+    "de": "Sammeln",
+    "example": "Sammeln ist ein Hobby.",
+    "exampleIt": "La raccolta è un hobby."
+  },
+  {
+    "level": "a1",
+    "de": "Nähen",
+    "example": "Nähen ist handwerklich.",
+    "exampleIt": "Il cucito è manuale."
+  },
+  {
+    "level": "a1",
+    "de": "Häkeln",
+    "example": "Häkeln ist entspannend.",
+    "exampleIt": "L'uncinetto è rilassante."
+  },
+  {
+    "level": "a1",
+    "de": "Was",
+    "example": "Was ist das?",
+    "exampleIt": "Cos'è questo?"
+  },
+  {
+    "level": "a1",
+    "de": "Wer",
+    "example": "Wer ist das?",
+    "exampleIt": "Chi è questo?"
+  },
+  {
+    "level": "a1",
+    "de": "Wo",
+    "example": "Wo bist du?",
+    "exampleIt": "Dove sei?"
+  },
+  {
+    "level": "a1",
+    "de": "Wann",
+    "example": "Wann kommst du?",
+    "exampleIt": "Quando vieni?"
+  },
+  {
+    "level": "a1",
+    "de": "Warum",
+    "example": "Warum fragst du?",
+    "exampleIt": "Perché chiedi?"
+  },
+  {
+    "level": "a1",
+    "de": "Wie",
+    "example": "Wie heißt du?",
+    "exampleIt": "Come ti chiami?"
+  },
+  {
+    "level": "a1",
+    "de": "Welch",
+    "example": "Welches Buch magst du?",
+    "exampleIt": "Quale libro ti piace?"
+  },
+  {
+    "level": "a1",
+    "de": "Ja",
+    "example": "Ja, ich bin einverstanden.",
+    "exampleIt": "Sì, sono d'accordo."
+  },
+  {
+    "level": "a1",
+    "de": "Nein",
+    "example": "Nein, das ist nicht richtig.",
+    "exampleIt": "No, non è corretto."
+  },
+  {
+    "level": "a1",
+    "de": "Vielleicht",
+    "example": "Vielleicht später.",
+    "exampleIt": "Forse dopo."
+  },
+  {
+    "level": "a1",
+    "de": "Danke",
+    "example": "Danke dir!",
+    "exampleIt": "Grazie a te!"
+  },
+  {
+    "level": "a1",
+    "de": "Bitte",
+    "example": "Bitte komm!",
+    "exampleIt": "Per favore vieni!"
+  },
+  {
+    "level": "a1",
+    "de": "Entschuldigung",
+    "example": "Entschuldigung, ich bin zu spät.",
+    "exampleIt": "Mi scusi, sono in ritardo."
+  },
+  {
+    "level": "a1",
+    "de": "Keine Ursache",
+    "example": "Danke! - Keine Ursache!",
+    "exampleIt": "Grazie! - Prego!"
+  },
+  {
+    "level": "a1",
+    "de": "Viel Erfolg",
+    "example": "Viel Erfolg beim Test!",
+    "exampleIt": "Buona fortuna con il test!"
+  },
+  {
+    "level": "a1",
+    "de": "Alles Gute",
+    "example": "Alles Gute zum Geburtstag!",
+    "exampleIt": "Auguri per il compleanno!"
+  },
+  {
+    "level": "a1",
+    "de": "Viel Spaß",
+    "example": "Viel Spaß im Urlaub!",
+    "exampleIt": "Divertiti in vacanza!"
+  },
+  {
+    "level": "a1",
+    "de": "Gute Nacht",
+    "example": "Gute Nacht, schlaf gut!",
+    "exampleIt": "Buonanotte, dormi bene!"
+  },
+  {
+    "level": "a1",
+    "de": "Auf Wiedersehen",
+    "example": "Auf Wiedersehen bis morgen!",
+    "exampleIt": "Arrivederci a domani!"
+  },
+  {
+    "level": "a1",
+    "de": "Bis bald",
+    "example": "Bis bald mein Freund!",
+    "exampleIt": "A presto mio amico!"
+  },
+  {
+    "level": "a1",
+    "de": "Gute Reise",
+    "example": "Gute Reise nach Italien!",
+    "exampleIt": "Buon viaggio in Italia!"
+  },
+  {
+    "level": "a1",
+    "de": "Gute Besserung",
+    "example": "Gute Besserung!",
+    "exampleIt": "Guaririsci presto!"
+  },
+  {
+    "level": "a1",
+    "de": "Herzlich Willkommen",
+    "example": "Herzlich Willkommen zuhause!",
+    "exampleIt": "Benvenuto a casa!"
+  },
+  {
+    "level": "a1",
+    "de": "Frohe Weihnachten",
+    "example": "Frohe Weihnachten!",
+    "exampleIt": "Buon Natale!"
+  },
+  {
+    "level": "a1",
+    "de": "Schlaf gut",
+    "example": "Schlaf gut!",
+    "exampleIt": "Dormi bene!"
+  },
+  {
+    "level": "a1",
+    "de": "Apfel",
+    "example": "Der Apfel ist rot.",
+    "exampleIt": "La mela è rossa."
+  },
+  {
+    "level": "a1",
+    "de": "Orange",
+    "example": "Die Orange ist süß.",
+    "exampleIt": "L'arancia è dolce."
+  },
+  {
+    "level": "a1",
+    "de": "Banane",
+    "example": "Die Banane ist gelb.",
+    "exampleIt": "La banana è gialla."
+  },
+  {
+    "level": "a1",
+    "de": "Tomate",
+    "example": "Die Tomate ist groß.",
+    "exampleIt": "Il pomodoro è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Gurke",
+    "example": "Die Gurke ist grün.",
+    "exampleIt": "Il cetriolo è verde."
+  },
+  {
+    "level": "a1",
+    "de": "Kartoffel",
+    "example": "Die Kartoffel ist weiß.",
+    "exampleIt": "La patata è bianca."
+  },
+  {
+    "level": "a1",
+    "de": "Zwiebel",
+    "example": "Die Zwiebel riecht.",
+    "exampleIt": "La cipolla odora."
+  },
+  {
+    "level": "a1",
+    "de": "Knoblauch",
+    "example": "Der Knoblauch ist scharf.",
+    "exampleIt": "L'aglio è pungente."
+  },
+  {
+    "level": "a1",
+    "de": "Salat",
+    "example": "Der Salat ist frisch.",
+    "exampleIt": "L'insalata è fresca."
+  },
+  {
+    "level": "a1",
+    "de": "Karotte",
+    "example": "Die Karotte ist orange.",
+    "exampleIt": "La carota è arancione."
+  },
+  {
+    "level": "a1",
+    "de": "Paprika",
+    "example": "Der Paprika ist rot.",
+    "exampleIt": "Il peperone è rosso."
+  },
+  {
+    "level": "a1",
+    "de": "Zitrone",
+    "example": "Die Zitrone ist sauer.",
+    "exampleIt": "Il limone è acido."
+  },
+  {
+    "level": "a1",
+    "de": "Trauben",
+    "example": "Die Trauben sind süß.",
+    "exampleIt": "L'uva è dolce."
+  },
+  {
+    "level": "a1",
+    "de": "Erdbeere",
+    "example": "Die Erdbeere ist rot.",
+    "exampleIt": "La fragola è rossa."
+  },
+  {
+    "level": "a1",
+    "de": "Broccoli",
+    "example": "Der Broccoli ist grün.",
+    "exampleIt": "I broccoli sono verdi."
+  },
+  {
+    "level": "a1",
+    "de": "Spinat",
+    "example": "Der Spinat ist gesund.",
+    "exampleIt": "Gli spinaci sono sani."
+  },
+  {
+    "level": "a1",
+    "de": "Bohne",
+    "example": "Die Bohne ist grün.",
+    "exampleIt": "Il fagiolo è verde."
+  },
+  {
+    "level": "a1",
+    "de": "Erbse",
+    "example": "Die Erbse ist klein.",
+    "exampleIt": "Il pisello è piccolo."
+  },
+  {
+    "level": "a1",
+    "de": "Kürbis",
+    "example": "Der Kürbis ist groß.",
+    "exampleIt": "La zucca è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Pfirsich",
+    "example": "Der Pfirsich ist süß.",
+    "exampleIt": "La pesca è dolce."
+  },
+  {
+    "level": "a1",
+    "de": "Kiwi",
+    "example": "Die Kiwi ist grün.",
+    "exampleIt": "Il kiwi è verde."
+  },
+  {
+    "level": "a1",
+    "de": "Mango",
+    "example": "Die Mango ist gelb.",
+    "exampleIt": "Il mango è giallo."
+  },
+  {
+    "level": "a1",
+    "de": "Ananas",
+    "example": "Die Ananas ist groß.",
+    "exampleIt": "L'ananas è grande."
+  },
+  {
+    "level": "a1",
+    "de": "Kokosnuss",
+    "example": "Die Kokosnuss ist braun.",
+    "exampleIt": "La noce di cocco è marrone."
+  },
+  {
+    "level": "a1",
+    "de": "Blumenkohl",
+    "example": "Der Blumenkahl ist weiß.",
+    "exampleIt": "Il cavolfiore è bianco."
+  },
+  {
+    "level": "b2",
+    "de": "Unternehmen",
+    "example": "Das Unternehmen wächst.",
+    "exampleIt": "L'azienda cresce."
+  },
+  {
+    "level": "b2",
+    "de": "Investition",
+    "example": "Die Investition ist sinnvoll.",
+    "exampleIt": "L'investimento è logico."
+  },
+  {
+    "level": "b2",
+    "de": "Aktie",
+    "example": "Die Aktie steigt.",
+    "exampleIt": "L'azione aumenta."
+  },
+  {
+    "level": "b2",
+    "de": "Gewinn",
+    "example": "Der Gewinn ist hoch.",
+    "exampleIt": "Il profitto è alto."
+  },
+  {
+    "level": "b2",
+    "de": "Verlust",
+    "example": "Der Verlust ist groß.",
+    "exampleIt": "La perdita è grande."
+  },
+  {
+    "level": "b2",
+    "de": "Wettbewerb",
+    "example": "Der Wettbewerb ist scharf.",
+    "exampleIt": "La competizione è accesa."
+  },
+  {
+    "level": "b2",
+    "de": "Handel",
+    "example": "Der Handel boomt.",
+    "exampleIt": "Il commercio prospera."
+  },
+  {
+    "level": "b2",
+    "de": "exportieren",
+    "example": "Wir exportieren Waren.",
+    "exampleIt": "Esportiamo merci."
+  },
+  {
+    "level": "b2",
+    "de": "importieren",
+    "example": "Wir importieren Rohstoffe.",
+    "exampleIt": "Importiamo materie prime."
+  },
+  {
+    "level": "b2",
+    "de": "Markt",
+    "example": "Der Markt ist volatil.",
+    "exampleIt": "Il mercato è volatile."
+  },
+  {
+    "level": "b2",
+    "de": "Preis",
+    "example": "Der Preis ist hoch.",
+    "exampleIt": "Il prezzo è alto."
+  },
+  {
+    "level": "b2",
+    "de": "Kunde",
+    "example": "Der Kunde ist wichtig.",
+    "exampleIt": "Il cliente è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Verkauf",
+    "example": "Der Verkauf ist gut.",
+    "exampleIt": "La vendita è buona."
+  },
+  {
+    "level": "b2",
+    "de": "Einkauf",
+    "example": "Der Einkauf ist teuer.",
+    "exampleIt": "L'acquisto è caro."
+  },
+  {
+    "level": "b2",
+    "de": "Produktion",
+    "example": "Die Produktion wächst.",
+    "exampleIt": "La produzione aumenta."
+  },
+  {
+    "level": "b2",
+    "de": "Dienstleistung",
+    "example": "Die Dienstleistung ist gut.",
+    "exampleIt": "Il servizio è buono."
+  },
+  {
+    "level": "b2",
+    "de": "Strategie",
+    "example": "Die Strategie ist langfristig.",
+    "exampleIt": "La strategia è a lungo termine."
+  },
+  {
+    "level": "b2",
+    "de": "Konkurrenz",
+    "example": "Die Konkurrenz ist groß.",
+    "exampleIt": "La concorrenza è grande."
+  },
+  {
+    "level": "b2",
+    "de": "Monopol",
+    "example": "Das Monopol ist problematisch.",
+    "exampleIt": "Il monopolio è problematico."
+  },
+  {
+    "level": "b2",
+    "de": "Dividende",
+    "example": "Die Dividende wird gezahlt.",
+    "exampleIt": "Il dividendo viene pagato."
+  },
+  {
+    "level": "b2",
+    "de": "Bilanz",
+    "example": "Die Bilanz ist positiv.",
+    "exampleIt": "Il bilancio è positivo."
+  },
+  {
+    "level": "b2",
+    "de": "Budget",
+    "example": "Das Budget ist begrenzt.",
+    "exampleIt": "Il budget è limitato."
+  },
+  {
+    "level": "b2",
+    "de": "Schulden",
+    "example": "Die Schulden sind hoch.",
+    "exampleIt": "I debiti sono alti."
+  },
+  {
+    "level": "b2",
+    "de": "Kapital",
+    "example": "Das Kapital wächst.",
+    "exampleIt": "Il capitale cresce."
+  },
+  {
+    "level": "b2",
+    "de": "Zinsen",
+    "example": "Die Zinsen sind niedrig.",
+    "exampleIt": "Gli interessi sono bassi."
+  },
+  {
+    "level": "b2",
+    "de": "Bankrott",
+    "example": "Der Bankrott ist katastrophal.",
+    "exampleIt": "Il fallimento è catastrofico."
+  },
+  {
+    "level": "b2",
+    "de": "Finanzmarkt",
+    "example": "Der Finanzmarkt ist volatil.",
+    "exampleIt": "Il mercato finanziario è volatile."
+  },
+  {
+    "level": "b2",
+    "de": "Rendite",
+    "example": "Die Rendite ist positiv.",
+    "exampleIt": "Il rendimento è positivo."
+  },
+  {
+    "level": "b2",
+    "de": "Abgeordneter",
+    "example": "Der Abgeordnete stimmt ab.",
+    "exampleIt": "Il deputato vota."
+  },
+  {
+    "level": "b2",
+    "de": "Koalition",
+    "example": "Die Koalition ist stabil.",
+    "exampleIt": "La coalizione è stabile."
+  },
+  {
+    "level": "b2",
+    "de": "Opposition",
+    "example": "Die Opposition kritisiert.",
+    "exampleIt": "L'opposizione critica."
+  },
+  {
+    "level": "b2",
+    "de": "Debatte",
+    "example": "Die Debatte ist heftig.",
+    "exampleIt": "Il dibattito è acceso."
+  },
+  {
+    "level": "b2",
+    "de": "Reform",
+    "example": "Die Reform ist notwendig.",
+    "exampleIt": "La riforma è necessaria."
+  },
+  {
+    "level": "b2",
+    "de": "Wahlkampf",
+    "example": "Der Wahlkampf ist lang.",
+    "exampleIt": "La campagna elettorale è lunga."
+  },
+  {
+    "level": "b2",
+    "de": "abstimmen",
+    "example": "Wir stimmen ab.",
+    "exampleIt": "Votiamo."
+  },
+  {
+    "level": "b2",
+    "de": "Bundestag",
+    "example": "Der Bundestag debattiert.",
+    "exampleIt": "Il Bundestag dibatte."
+  },
+  {
+    "level": "b2",
+    "de": "Bundesrat",
+    "example": "Der Bundesrat stimmt zu.",
+    "exampleIt": "Il Bundesrat approva."
+  },
+  {
+    "level": "b2",
+    "de": "Kanzler",
+    "example": "Der Kanzler regiert.",
+    "exampleIt": "Il cancelliere governa."
+  },
+  {
+    "level": "b2",
+    "de": "Minister",
+    "example": "Der Minister entscheidet.",
+    "exampleIt": "Il ministro decide."
+  },
+  {
+    "level": "b2",
+    "de": "Außenpolitik",
+    "example": "Die Außenpolitik ist komplex.",
+    "exampleIt": "La politica estera è complessa."
+  },
+  {
+    "level": "b2",
+    "de": "Innenpolitik",
+    "example": "Die Innenpolitik ist wichtig.",
+    "exampleIt": "La politica interna è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Verfassung",
+    "example": "Die Verfassung ist grundlegend.",
+    "exampleIt": "La costituzione è fondamentale."
+  },
+  {
+    "level": "b2",
+    "de": "Grundgesetz",
+    "example": "Das Grundgesetz schützt.",
+    "exampleIt": "La legge fondamentale protegge."
+  },
+  {
+    "level": "b2",
+    "de": "Fraktion",
+    "example": "Die Fraktion debattiert.",
+    "exampleIt": "Il gruppo parlamentare dibatte."
+  },
+  {
+    "level": "b2",
+    "de": "Regierungspartei",
+    "example": "Die Regierungspartei regiert.",
+    "exampleIt": "Il partito di governo governa."
+  },
+  {
+    "level": "b2",
+    "de": "Mandat",
+    "example": "Das Mandat ist klar.",
+    "exampleIt": "Il mandato è chiaro."
+  },
+  {
+    "level": "b2",
+    "de": "Legislatur",
+    "example": "Die Legislatur dauert vier Jahre.",
+    "exampleIt": "La legislatura dura quattro anni."
+  },
+  {
+    "level": "b2",
+    "de": "verhandeln",
+    "example": "Wir verhandeln.",
+    "exampleIt": "Negoziamo."
+  },
+  {
+    "level": "b2",
+    "de": "beschließen",
+    "example": "Wir beschließen.",
+    "exampleIt": "Deliberiamo."
+  },
+  {
+    "level": "b2",
+    "de": "ratifizieren",
+    "example": "Wir ratifizieren.",
+    "exampleIt": "Ratifichiamo."
+  },
+  {
+    "level": "b2",
+    "de": "einsetzen",
+    "example": "Der Kanzler wird eingesetzt.",
+    "exampleIt": "Il cancelliere viene insediato."
+  },
+  {
+    "level": "b2",
+    "de": "amtieren",
+    "example": "Der Präsident amtiert.",
+    "exampleIt": "Il presidente riveste una carica."
+  },
+  {
+    "level": "b2",
+    "de": "Kompetenz",
+    "example": "Die Kompetenz ist klar.",
+    "exampleIt": "La competenza è chiara."
+  },
+  {
+    "level": "b2",
+    "de": "Referendum",
+    "example": "Das Referendum ist demokratisch.",
+    "exampleIt": "Il referendum è democratico."
+  },
+  {
+    "level": "b2",
+    "de": "Koalition",
+    "example": "Die Koalition ist stabil.",
+    "exampleIt": "La coalizione è stabile."
+  },
+  {
+    "level": "b2",
+    "de": "Forschung",
+    "example": "Die Forschung ist wichtig.",
+    "exampleIt": "La ricerca è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Experiment",
+    "example": "Das Experiment gelingt.",
+    "exampleIt": "L'esperimento riesce."
+  },
+  {
+    "level": "b2",
+    "de": "Ergebnis",
+    "example": "Das Ergebnis ist überraschend.",
+    "exampleIt": "Il risultato è sorprendente."
+  },
+  {
+    "level": "b2",
+    "de": "Hypothese",
+    "example": "Die Hypothese ist plausibel.",
+    "exampleIt": "L'ipotesi è plausibile."
+  },
+  {
+    "level": "b2",
+    "de": "beweisen",
+    "example": "Ich beweise das.",
+    "exampleIt": "Lo provo."
+  },
+  {
+    "level": "b2",
+    "de": "analysieren",
+    "example": "Ich analysiere die Daten.",
+    "exampleIt": "Analizzo i dati."
+  },
+  {
+    "level": "b2",
+    "de": "Methode",
+    "example": "Die Methode ist streng.",
+    "exampleIt": "Il metodo è rigoroso."
+  },
+  {
+    "level": "b2",
+    "de": "Labor",
+    "example": "Das Labor ist modern.",
+    "exampleIt": "Il laboratorio è moderno."
+  },
+  {
+    "level": "b2",
+    "de": "Theorie",
+    "example": "Die Theorie erklärt viel.",
+    "exampleIt": "La teoria spiega molto."
+  },
+  {
+    "level": "b2",
+    "de": "Studie",
+    "example": "Die Studie ist umfassend.",
+    "exampleIt": "Lo studio è completo."
+  },
+  {
+    "level": "b2",
+    "de": "Daten",
+    "example": "Die Daten sind genau.",
+    "exampleIt": "I dati sono accurati."
+  },
+  {
+    "level": "b2",
+    "de": "Statistik",
+    "example": "Die Statistik zeigt das.",
+    "exampleIt": "La statistica lo mostra."
+  },
+  {
+    "level": "b2",
+    "de": "Variable",
+    "example": "Die Variable ist wichtig.",
+    "exampleIt": "La variabile è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Korrelation",
+    "example": "Die Korrelation ist stark.",
+    "exampleIt": "La correlazione è forte."
+  },
+  {
+    "level": "b2",
+    "de": "Schlussfolgerung",
+    "example": "Die Schlussfolgerung ist logisch.",
+    "exampleIt": "La conclusione è logica."
+  },
+  {
+    "level": "b2",
+    "de": "untersuchen",
+    "example": "Ich untersuche das Phänomen.",
+    "exampleIt": "Indago il fenomeno."
+  },
+  {
+    "level": "b2",
+    "de": "messen",
+    "example": "Ich messe die Temperatur.",
+    "exampleIt": "Misuro la temperatura."
+  },
+  {
+    "level": "b2",
+    "de": "vergleichen",
+    "example": "Ich vergleiche die Ergebnisse.",
+    "exampleIt": "Confronto i risultati."
+  },
+  {
+    "level": "b2",
+    "de": "veröffentlichen",
+    "example": "Der Wissenschaftler veröffentlicht.",
+    "exampleIt": "Lo scienziato pubblica."
+  },
+  {
+    "level": "b2",
+    "de": "Peer-Review",
+    "example": "Peer-Review ist wichtig.",
+    "exampleIt": "La revisione paritaria è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Fachzeitschrift",
+    "example": "Die Fachzeitschrift ist renommiert.",
+    "exampleIt": "La rivista specializzata è rinomata."
+  },
+  {
+    "level": "b2",
+    "de": "Nachweis",
+    "example": "Der Nachweis ist erbracht.",
+    "exampleIt": "La prova è fornita."
+  },
+  {
+    "level": "b2",
+    "de": "Beweis",
+    "example": "Der Beweis ist rigoros.",
+    "exampleIt": "La dimostrazione è rigorosa."
+  },
+  {
+    "level": "b2",
+    "de": "Modell",
+    "example": "Das Modell ist präzise.",
+    "exampleIt": "Il modello è preciso."
+  },
+  {
+    "level": "b2",
+    "de": "Simulation",
+    "example": "Die Simulation ist realistisch.",
+    "exampleIt": "La simulazione è realistica."
+  },
+  {
+    "level": "b2",
+    "de": "Laboratorium",
+    "example": "Das Laboratorium ist ausgestattet.",
+    "exampleIt": "Il laboratorio è attrezzato."
+  },
+  {
+    "level": "b2",
+    "de": "Entdeckung",
+    "example": "Die Entdeckung ist bedeutend.",
+    "exampleIt": "La scoperta è significativa."
+  },
+  {
+    "level": "b2",
+    "de": "Gericht",
+    "example": "Das Gericht entscheidet.",
+    "exampleIt": "Il tribunale decide."
+  },
+  {
+    "level": "b2",
+    "de": "Richter",
+    "example": "Der Richter urteilt.",
+    "exampleIt": "Il giudice giudica."
+  },
+  {
+    "level": "b2",
+    "de": "Anwalt",
+    "example": "Der Anwalt verteidigt.",
+    "exampleIt": "L'avvocato difende."
+  },
+  {
+    "level": "b2",
+    "de": "Klage",
+    "example": "Die Klage wird eingereicht.",
+    "exampleIt": "La causa viene presentata."
+  },
+  {
+    "level": "b2",
+    "de": "Urteil",
+    "example": "Das Urteil ist fair.",
+    "exampleIt": "La sentenza è equa."
+  },
+  {
+    "level": "b2",
+    "de": "Strafe",
+    "example": "Die Strafe ist schwer.",
+    "exampleIt": "La punizione è severa."
+  },
+  {
+    "level": "b2",
+    "de": "Gesetz",
+    "example": "Das Gesetz ist streng.",
+    "exampleIt": "La legge è rigorosa."
+  },
+  {
+    "level": "b2",
+    "de": "verurteilen",
+    "example": "Der Richter verurteilt.",
+    "exampleIt": "Il giudice condanna."
+  },
+  {
+    "level": "b2",
+    "de": "anklagen",
+    "example": "Der Staatsanwalt klagt an.",
+    "exampleIt": "Il pubblico ministero accusa."
+  },
+  {
+    "level": "b2",
+    "de": "Verteidigung",
+    "example": "Die Verteidigung ist stark.",
+    "exampleIt": "La difesa è forte."
+  },
+  {
+    "level": "b2",
+    "de": "Angeklagter",
+    "example": "Der Angeklagte wird gehört.",
+    "exampleIt": "L'imputato viene ascoltato."
+  },
+  {
+    "level": "b2",
+    "de": "Zeuge",
+    "example": "Der Zeuge sagt aus.",
+    "exampleIt": "Il testimone depone."
+  },
+  {
+    "level": "b2",
+    "de": "Beweis",
+    "example": "Der Beweis ist überzeugend.",
+    "exampleIt": "La prova è convincente."
+  },
+  {
+    "level": "b2",
+    "de": "Prozess",
+    "example": "Der Prozess dauert lange.",
+    "exampleIt": "Il processo dura a lungo."
+  },
+  {
+    "level": "b2",
+    "de": "Berufung",
+    "example": "Die Berufung wird eingereicht.",
+    "exampleIt": "L'appello viene presentato."
+  },
+  {
+    "level": "b2",
+    "de": "Verfassung",
+    "example": "Die Verfassung schützt.",
+    "exampleIt": "La costituzione protegge."
+  },
+  {
+    "level": "b2",
+    "de": "Grundrecht",
+    "example": "Das Grundrecht ist wichtig.",
+    "exampleIt": "Il diritto fondamentale è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Straftat",
+    "example": "Die Straftat ist schwer.",
+    "exampleIt": "Il reato è grave."
+  },
+  {
+    "level": "b2",
+    "de": "Verbrechen",
+    "example": "Das Verbrechen ist gelöst.",
+    "exampleIt": "Il crimine è risolto."
+  },
+  {
+    "level": "b2",
+    "de": "Paragraph",
+    "example": "Der Paragraph ist klar.",
+    "exampleIt": "L'articolo è chiaro."
+  },
+  {
+    "level": "b2",
+    "de": "Beschluss",
+    "example": "Der Beschluss ist bindend.",
+    "exampleIt": "L'ordinanza è vincolante."
+  },
+  {
+    "level": "b2",
+    "de": "Justiz",
+    "example": "Die Justiz ist unabhängig.",
+    "exampleIt": "La giustizia è indipendente."
+  },
+  {
+    "level": "b2",
+    "de": "Verhandlung",
+    "example": "Die Verhandlung ist öffentlich.",
+    "exampleIt": "L'udienza è pubblica."
+  },
+  {
+    "level": "b2",
+    "de": "freisprechen",
+    "example": "Der Richter spricht frei.",
+    "exampleIt": "Il giudice assolve."
+  },
+  {
+    "level": "b2",
+    "de": "schuldig",
+    "example": "Er ist schuldig.",
+    "exampleIt": "È colpevole."
+  },
+  {
+    "level": "b2",
+    "de": "Verhalten",
+    "example": "Das Verhalten ist seltsam.",
+    "exampleIt": "Il comportamento è strano."
+  },
+  {
+    "level": "b2",
+    "de": "Bewusstsein",
+    "example": "Das Bewusstsein ist klar.",
+    "exampleIt": "La consapevolezza è chiara."
+  },
+  {
+    "level": "b2",
+    "de": "Wahrnehmung",
+    "example": "Die Wahrnehmung ist wichtig.",
+    "exampleIt": "La percezione è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Motivation",
+    "example": "Die Motivation ist hoch.",
+    "exampleIt": "La motivazione è alta."
+  },
+  {
+    "level": "b2",
+    "de": "Persönlichkeit",
+    "example": "Die Persönlichkeit ist einzigartig.",
+    "exampleIt": "La personalità è unica."
+  },
+  {
+    "level": "b2",
+    "de": "Therapie",
+    "example": "Die Therapie hilft.",
+    "exampleIt": "La terapia aiuta."
+  },
+  {
+    "level": "b2",
+    "de": "Angststörung",
+    "example": "Die Angststörung ist behandelbar.",
+    "exampleIt": "Il disturbo d'ansia è curabile."
+  },
+  {
+    "level": "b2",
+    "de": "Depression",
+    "example": "Die Depression ist ernst.",
+    "exampleIt": "La depressione è seria."
+  },
+  {
+    "level": "b2",
+    "de": "Stress",
+    "example": "Der Stress ist groß.",
+    "exampleIt": "Lo stress è grande."
+  },
+  {
+    "level": "b2",
+    "de": "Burnout",
+    "example": "Das Burnout ist verbreitet.",
+    "exampleIt": "L'esaurimento è diffuso."
+  },
+  {
+    "level": "b2",
+    "de": "Selbstwertgefühl",
+    "example": "Das Selbstwertgefühl ist wichtig.",
+    "exampleIt": "L'autostima è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Empathie",
+    "example": "Die Empathie ist wichtig.",
+    "exampleIt": "L'empatia è importante."
+  },
+  {
+    "level": "b2",
+    "de": "emotional",
+    "example": "Die Reaktion ist emotional.",
+    "exampleIt": "La reazione è emotiva."
+  },
+  {
+    "level": "b2",
+    "de": "rational",
+    "example": "Die Entscheidung ist rational.",
+    "exampleIt": "La decisione è razionale."
+  },
+  {
+    "level": "b2",
+    "de": "unbewusst",
+    "example": "Das Verhalten ist unbewusst.",
+    "exampleIt": "Il comportamento è inconscio."
+  },
+  {
+    "level": "b2",
+    "de": "verdrängen",
+    "example": "Ich verdränge das Trauma.",
+    "exampleIt": "Reprimo il trauma."
+  },
+  {
+    "level": "b2",
+    "de": "reflektieren",
+    "example": "Ich reflektiere mein Verhalten.",
+    "exampleIt": "Rifletto il mio comportamento."
+  },
+  {
+    "level": "b2",
+    "de": "Trauma",
+    "example": "Das Trauma ist tiefgreifend.",
+    "exampleIt": "Il trauma è profondo."
+  },
+  {
+    "level": "b2",
+    "de": "Resilienz",
+    "example": "Die Resilienz ist wichtig.",
+    "exampleIt": "La resilienza è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Achtsamkeit",
+    "example": "Achtsamkeit ist heilsam.",
+    "exampleIt": "La consapevolezza è terapeutica."
+  },
+  {
+    "level": "b2",
+    "de": "kognitiv",
+    "example": "Die Funktion ist kognitiv.",
+    "exampleIt": "La funzione è cognitiva."
+  },
+  {
+    "level": "b2",
+    "de": "Intelligenz",
+    "example": "Die Intelligenz ist hoch.",
+    "exampleIt": "L'intelligenza è elevata."
+  },
+  {
+    "level": "b2",
+    "de": "Kreativität",
+    "example": "Die Kreativität ist wertvoll.",
+    "exampleIt": "La creatività è preziosa."
+  },
+  {
+    "level": "b2",
+    "de": "Identität",
+    "example": "Die Identität ist klar.",
+    "exampleIt": "L'identità è chiara."
+  },
+  {
+    "level": "b2",
+    "de": "Selbstverwirklichung",
+    "example": "Die Selbstverwirklichung ist wichtig.",
+    "exampleIt": "L'autorealizzazione è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Verhalten",
+    "example": "Das Verhalten ist vorhersehbar.",
+    "exampleIt": "Il comportamento è prevedibile."
+  },
+  {
+    "level": "b2",
+    "de": "Kognitiv",
+    "example": "Kognitiv bezieht sich auf Denken.",
+    "exampleIt": "Cognitivo si riferisce al pensiero."
+  },
+  {
+    "level": "b2",
+    "de": "Emotion",
+    "example": "Die Emotion ist stark.",
+    "exampleIt": "L'emozione è forte."
+  },
+  {
+    "level": "b2",
+    "de": "behaupten",
+    "example": "Ich behaupte das.",
+    "exampleIt": "Lo affermo."
+  },
+  {
+    "level": "b2",
+    "de": "widersprechen",
+    "example": "Ich widerspreche dir.",
+    "exampleIt": "Ti contraddico."
+  },
+  {
+    "level": "b2",
+    "de": "zustimmen",
+    "example": "Ich stimme zu.",
+    "exampleIt": "Concordo."
+  },
+  {
+    "level": "b2",
+    "de": "argumentieren",
+    "example": "Ich argumentiere.",
+    "exampleIt": "Argomento."
+  },
+  {
+    "level": "b2",
+    "de": "Standpunkt",
+    "example": "Der Standpunkt ist klar.",
+    "exampleIt": "Il punto di vista è chiaro."
+  },
+  {
+    "level": "b2",
+    "de": "Meinung",
+    "example": "Die Meinung ist unterschiedlich.",
+    "exampleIt": "L'opinione è diversa."
+  },
+  {
+    "level": "b2",
+    "de": "Aspekt",
+    "example": "Der Aspekt ist wichtig.",
+    "exampleIt": "L'aspetto è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Perspektive",
+    "example": "Die Perspektive ist anders.",
+    "exampleIt": "La prospettiva è diversa."
+  },
+  {
+    "level": "b2",
+    "de": "Gegenargument",
+    "example": "Das Gegenargument ist stark.",
+    "exampleIt": "La contrargomentazione è forte."
+  },
+  {
+    "level": "b2",
+    "de": "einwenden",
+    "example": "Ich wende ein.",
+    "exampleIt": "Obietto."
+  },
+  {
+    "level": "b2",
+    "de": "erwidern",
+    "example": "Er erwidert darauf.",
+    "exampleIt": "Replica."
+  },
+  {
+    "level": "b2",
+    "de": "begründen",
+    "example": "Ich begründe meine Aussage.",
+    "exampleIt": "Motivo la mia affermazione."
+  },
+  {
+    "level": "b2",
+    "de": "belegen",
+    "example": "Ich belege das mit Fakten.",
+    "exampleIt": "Lo provo con i fatti."
+  },
+  {
+    "level": "b2",
+    "de": "hinterfragen",
+    "example": "Ich hinterfrage das.",
+    "exampleIt": "Metto in questione."
+  },
+  {
+    "level": "b2",
+    "de": "infrage stellen",
+    "example": "Ich stelle in Frage.",
+    "exampleIt": "Contesto."
+  },
+  {
+    "level": "b2",
+    "de": "differenzieren",
+    "example": "Man muss differenzieren.",
+    "exampleIt": "Bisogna differenziare."
+  },
+  {
+    "level": "b2",
+    "de": "abwägen",
+    "example": "Ich wäge ab.",
+    "exampleIt": "Peso."
+  },
+  {
+    "level": "b2",
+    "de": "berücksichtigen",
+    "example": "Das muss man berücksichtigen.",
+    "exampleIt": "Bisogna considerare."
+  },
+  {
+    "level": "b2",
+    "de": "einräumen",
+    "example": "Ich räume ein.",
+    "exampleIt": "Ammetto."
+  },
+  {
+    "level": "b2",
+    "de": "zugestehen",
+    "example": "Ich gestehe zu.",
+    "exampleIt": "Concedo."
+  },
+  {
+    "level": "b2",
+    "de": "Schlussfolgerung",
+    "example": "Die Schlussfolgerung ist logisch.",
+    "exampleIt": "La conclusione è logica."
+  },
+  {
+    "level": "b2",
+    "de": "Zusammenfassung",
+    "example": "Die Zusammenfassung ist knapp.",
+    "exampleIt": "Il riassunto è conciso."
+  },
+  {
+    "level": "b2",
+    "de": "Fazit",
+    "example": "Das Fazit ist klar.",
+    "exampleIt": "La conclusione è chiara."
+  },
+  {
+    "level": "b2",
+    "de": "These",
+    "example": "Die These ist mutig.",
+    "exampleIt": "La tesi è audace."
+  },
+  {
+    "level": "b2",
+    "de": "Antithese",
+    "example": "Die Antithese ist gegensätzlich.",
+    "exampleIt": "L'antitesi è opposta."
+  },
+  {
+    "level": "b2",
+    "de": "Argumentation",
+    "example": "Die Argumentation ist stark.",
+    "exampleIt": "L'argomentazione è forte."
+  },
+  {
+    "level": "b2",
+    "de": "Kontext",
+    "example": "Der Kontext ist wichtig.",
+    "exampleIt": "Il contesto è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Perspektive",
+    "example": "Die Perspektive ist unterschiedlich.",
+    "exampleIt": "La prospettiva è diversa."
+  },
+  {
+    "level": "b2",
+    "de": "Standpunkt",
+    "example": "Der Standpunkt ist gültig.",
+    "exampleIt": "Il punto di vista è valido."
+  },
+  {
+    "level": "b2",
+    "de": "Kompromiss",
+    "example": "Der Kompromiss ist möglich.",
+    "exampleIt": "Il compromesso è possibile."
+  },
+  {
+    "level": "b2",
+    "de": "Zusammenhang",
+    "example": "Der Zusammenhang ist wichtig.",
+    "exampleIt": "Il contesto è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Einfluss",
+    "example": "Der Einfluss ist groß.",
+    "exampleIt": "L'influenza è grande."
+  },
+  {
+    "level": "b2",
+    "de": "Entwicklung",
+    "example": "Die Entwicklung ist positiv.",
+    "exampleIt": "Lo sviluppo è positivo."
+  },
+  {
+    "level": "b2",
+    "de": "Tendenz",
+    "example": "Die Tendenz ist aufwärts.",
+    "exampleIt": "La tendenza è al rialzo."
+  },
+  {
+    "level": "b2",
+    "de": "Auswirkung",
+    "example": "Die Auswirkung ist negativ.",
+    "exampleIt": "L'effetto è negativo."
+  },
+  {
+    "level": "b2",
+    "de": "Voraussetzung",
+    "example": "Die Voraussetzung ist gegeben.",
+    "exampleIt": "Il prerequisito è dato."
+  },
+  {
+    "level": "b2",
+    "de": "Bedingung",
+    "example": "Die Bedingung ist erfüllt.",
+    "exampleIt": "La condizione è soddisfatta."
+  },
+  {
+    "level": "b2",
+    "de": "Konsequenz",
+    "example": "Die Konsequenz ist schwerwiegend.",
+    "exampleIt": "La conseguenza è grave."
+  },
+  {
+    "level": "b2",
+    "de": "Ursache",
+    "example": "Die Ursache ist bekannt.",
+    "exampleIt": "La causa è nota."
+  },
+  {
+    "level": "b2",
+    "de": "Wirkung",
+    "example": "Die Wirkung ist spürbar.",
+    "exampleIt": "L'effetto è percettibile."
+  },
+  {
+    "level": "b2",
+    "de": "Phänomen",
+    "example": "Das Phänomen ist interessant.",
+    "exampleIt": "Il fenomeno è interessante."
+  },
+  {
+    "level": "b2",
+    "de": "Konzept",
+    "example": "Das Konzept ist innovativ.",
+    "exampleIt": "Il concetto è innovativo."
+  },
+  {
+    "level": "b2",
+    "de": "Prinzip",
+    "example": "Das Prinzip ist fundamental.",
+    "exampleIt": "Il principio è fondamentale."
+  },
+  {
+    "level": "b2",
+    "de": "Grundlage",
+    "example": "Die Grundlage ist solide.",
+    "exampleIt": "La base è solida."
+  },
+  {
+    "level": "b2",
+    "de": "Maßnahme",
+    "example": "Die Maßnahme ist effektiv.",
+    "exampleIt": "La misura è efficace."
+  },
+  {
+    "level": "b2",
+    "de": "Herausforderung",
+    "example": "Die Herausforderung ist groß.",
+    "exampleIt": "La sfida è grande."
+  },
+  {
+    "level": "b2",
+    "de": "Chance",
+    "example": "Die Chance ist günstig.",
+    "exampleIt": "L'opportunità è favorevole."
+  },
+  {
+    "level": "b2",
+    "de": "Risiko",
+    "example": "Das Risiko ist hoch.",
+    "exampleIt": "Il rischio è alto."
+  },
+  {
+    "level": "b2",
+    "de": "Lösung",
+    "example": "Die Lösung ist elegante.",
+    "exampleIt": "La soluzione è elegante."
+  },
+  {
+    "level": "b2",
+    "de": "Strategie",
+    "example": "Die Strategie ist klug.",
+    "exampleIt": "La strategia è saggia."
+  },
+  {
+    "level": "b2",
+    "de": "Ansatz",
+    "example": "Der Ansatz ist neu.",
+    "exampleIt": "L'approccio è nuovo."
+  },
+  {
+    "level": "b2",
+    "de": "Umsetzung",
+    "example": "Die Umsetzung ist schwierig.",
+    "exampleIt": "L'implementazione è difficile."
+  },
+  {
+    "level": "b2",
+    "de": "Fortschritt",
+    "example": "Der Fortschritt ist bemerkbar.",
+    "exampleIt": "Il progresso è notevole."
+  },
+  {
+    "level": "b2",
+    "de": "Wandel",
+    "example": "Der Wandel ist notwendig.",
+    "exampleIt": "Il cambiamento è necessario."
+  },
+  {
+    "level": "b2",
+    "de": "Zukunft",
+    "example": "Die Zukunft ist offen.",
+    "exampleIt": "Il futuro è aperto."
+  },
+  {
+    "level": "b2",
+    "de": "Konzept",
+    "example": "Das Konzept ist innovativ.",
+    "exampleIt": "Il concetto è innovativo."
+  },
+  {
+    "level": "b2",
+    "de": "Theorie",
+    "example": "Die Theorie ist stimmig.",
+    "exampleIt": "La teoria è coerente."
+  },
+  {
+    "level": "b2",
+    "de": "Prinzip",
+    "example": "Das Prinzip ist fundamental.",
+    "exampleIt": "Il principio è fondamentale."
+  },
+  {
+    "level": "b2",
+    "de": "Methode",
+    "example": "Die Methode ist effizient.",
+    "exampleIt": "Il metodo è efficiente."
+  },
+  {
+    "level": "b2",
+    "de": "Ansatz",
+    "example": "Der Ansatz ist pragmatisch.",
+    "exampleIt": "L'approccio è pragmatico."
+  },
+  {
+    "level": "b2",
+    "de": "Struktur",
+    "example": "Die Struktur ist logisch.",
+    "exampleIt": "La struttura è logica."
+  },
+  {
+    "level": "b2",
+    "de": "Funktion",
+    "example": "Die Funktion ist klar.",
+    "exampleIt": "La funzione è chiara."
+  },
+  {
+    "level": "b2",
+    "de": "Relation",
+    "example": "Die Relation ist wichtig.",
+    "exampleIt": "La relazione è importante."
+  },
+  {
+    "level": "b2",
+    "de": "Recht",
+    "example": "Das Recht ist bindend.",
+    "exampleIt": "Il diritto è vincolante."
+  },
+  {
+    "level": "b2",
+    "de": "Gesetz",
+    "example": "Das Gesetz ist gerecht.",
+    "exampleIt": "La legge è giusta."
+  },
+  {
+    "level": "b2",
+    "de": "Verordnung",
+    "example": "Die Verordnung ist klar.",
+    "exampleIt": "Il regolamento è chiaro."
+  },
+  {
+    "level": "b2",
+    "de": "Gericht",
+    "example": "Das Gericht entscheidet.",
+    "exampleIt": "Il tribunale decide."
+  },
+  {
+    "level": "b2",
+    "de": "Richter",
+    "example": "Der Richter ist impartial.",
+    "exampleIt": "Il giudice è imparziale."
+  },
+  {
+    "level": "b2",
+    "de": "Anwalt",
+    "example": "Der Anwalt verteidigt.",
+    "exampleIt": "L'avvocato difende."
+  },
+  {
+    "level": "b2",
+    "de": "Klage",
+    "example": "Die Klage wird eingereicht.",
+    "exampleIt": "La causa viene presentata."
+  },
+  {
+    "level": "b2",
+    "de": "Prozess",
+    "example": "Der Prozess ist lange.",
+    "exampleIt": "Il processo è lungo."
+  },
+  {
+    "level": "b2",
+    "de": "Urteil",
+    "example": "Das Urteil ist rechtskräftig.",
+    "exampleIt": "La sentenza è definitiva."
+  },
+  {
+    "level": "b2",
+    "de": "Vertrag",
+    "example": "Der Vertrag ist bindend.",
+    "exampleIt": "Il contratto è vincolante."
+  },
+  {
+    "level": "b2",
+    "de": "Schuld",
+    "example": "Die Schuld ist erwiesen.",
+    "exampleIt": "La colpa è provata."
+  },
+  {
+    "level": "b2",
+    "de": "Strafe",
+    "example": "Die Strafe ist proportional.",
+    "exampleIt": "La punizione è proporzionata."
+  },
+  {
+    "level": "b2",
+    "de": "Beweis",
+    "example": "Der Beweis ist zwingend.",
+    "exampleIt": "La prova è incontrovertibile."
+  },
+  {
+    "level": "b2",
+    "de": "Aussage",
+    "example": "Die Aussage ist relevant.",
+    "exampleIt": "La testimonianza è rilevante."
+  },
+  {
+    "level": "b2",
+    "de": "Pflicht",
+    "example": "Die Pflicht ist erforderlich.",
+    "exampleIt": "L'obbligo è richiesto."
+  },
+  {
+    "level": "b2",
+    "de": "Haftung",
+    "example": "Die Haftung ist beschränkt.",
+    "exampleIt": "La responsabilità è limitata."
+  },
+  {
+    "level": "b2",
+    "de": "Versicherung",
+    "example": "Die Versicherung ist obligatorisch.",
+    "exampleIt": "L'assicurazione è obbligatoria."
+  },
+  {
+    "level": "b2",
+    "de": "Testament",
+    "example": "Das Testament ist notariell beglaubigt.",
+    "exampleIt": "Il testamento è autenticato dal notaio."
+  },
+  {
+    "level": "b2",
+    "de": "Erbschaft",
+    "example": "Die Erbschaft ist groß.",
+    "exampleIt": "L'eredità è grande."
+  },
+  {
+    "level": "b2",
+    "de": "Menschenrechte",
+    "example": "Menschenrechte sind unverletzlich.",
+    "exampleIt": "I diritti umani sono inviolabili."
+  },
+  {
+    "level": "b2",
+    "de": "Wissenschaft",
+    "example": "Wissenschaft erforscht.",
+    "exampleIt": "La scienza ricerca."
+  },
+  {
+    "level": "b2",
+    "de": "Forschung",
+    "example": "Die Forschung ist grundlegend.",
+    "exampleIt": "La ricerca è fondamentale."
+  },
+  {
+    "level": "b2",
+    "de": "Hypothese",
+    "example": "Die Hypothese ist testbar.",
+    "exampleIt": "L'ipotesi è verificabile."
+  },
+  {
+    "level": "b2",
+    "de": "Experiment",
+    "example": "Das Experiment ist replizierbar.",
+    "exampleIt": "L'esperimento è replicabile."
+  },
+  {
+    "level": "b2",
+    "de": "Daten",
+    "example": "Die Daten sind genau.",
+    "exampleIt": "I dati sono accurati."
+  },
+  {
+    "level": "b2",
+    "de": "Analyse",
+    "example": "Die Analyse ist gründlich.",
+    "exampleIt": "L'analisi è approfondita."
+  },
+  {
+    "level": "b2",
+    "de": "Modell",
+    "example": "Das Modell ist hilfreich.",
+    "exampleIt": "Il modello è utile."
+  },
+  {
+    "level": "b2",
+    "de": "Atome",
+    "example": "Atome sind Bausteine.",
+    "exampleIt": "Gli atomi sono componenti."
+  },
+  {
+    "level": "b2",
+    "de": "Moleküle",
+    "example": "Moleküle sind zusammengesetzt.",
+    "exampleIt": "Le molecole sono composte."
+  },
+  {
+    "level": "b2",
+    "de": "Energie",
+    "example": "Energie ist erhalten.",
+    "exampleIt": "L'energia è conservata."
+  },
+  {
+    "level": "b2",
+    "de": "Kraft",
+    "example": "Die Kraft ist messbar.",
+    "exampleIt": "La forza è misurabile."
+  },
+  {
+    "level": "b2",
+    "de": "Materie",
+    "example": "Materie hat Gewicht.",
+    "exampleIt": "La materia ha peso."
+  },
+  {
+    "level": "b2",
+    "de": "Licht",
+    "example": "Licht reist schnell.",
+    "exampleIt": "La luce viaggia velocemente."
+  },
+  {
+    "level": "b2",
+    "de": "Strahlung",
+    "example": "Strahlung ist energetisch.",
+    "exampleIt": "La radiazione è energetica."
+  },
+  {
+    "level": "b2",
+    "de": "Quelle",
+    "example": "Die Quelle ist glaubwürdig.",
+    "exampleIt": "La fonte è affidabile."
+  },
+  {
+    "level": "b2",
+    "de": "Studium",
+    "example": "Das Studium ist umfassend.",
+    "exampleIt": "Lo studio è completo."
+  },
+  {
+    "level": "b2",
+    "de": "Literatur",
+    "example": "Die Literatur ist reich.",
+    "exampleIt": "La letteratura è ricca."
+  }
+]

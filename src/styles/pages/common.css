@@ -944,38 +944,44 @@
 .flashcards-page { animation: fadeInUp 0.35s ease; }
 
 /* Flashcards Setup Screen */
-.fc-page { min-height: 100vh; background: var(--bg-primary); padding-bottom: 100px; }
-.fc-header { padding: 20px; margin-bottom: 20px; }
-.fc-title { font-size: 32px; font-weight: 800; color: var(--text-primary); margin: 20px 0 5px 0; }
-.fc-subtitle { color: var(--text-secondary); font-size: 14px; margin: 0; }
+.fc-page { min-height: 100vh; background: var(--bg-primary); padding-bottom: 80px; }
+.fc-header { padding: 16px 20px 8px; margin-bottom: 12px; }
+.fc-title { font-size: 26px; font-weight: 800; color: var(--text-primary); margin: 12px 0 4px 0; }
+.fc-subtitle { color: var(--text-secondary); font-size: 13px; margin: 0; }
 
-.fc-source-section { padding: 0 20px; margin-bottom: 30px; }
-.fc-source-label { font-size: 13px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
-.fc-source-options { display: flex; flex-direction: column; gap: 10px; }
-.fc-source-card { padding: 16px; border-radius: 12px; background: var(--bg-secondary); border: 2px solid transparent; cursor: pointer; transition: all 0.2s; }
+.fc-source-section { padding: 0 20px; margin-bottom: 16px; }
+.fc-source-label { font-size: 12px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.fc-source-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.fc-source-card { padding: 12px; border-radius: 10px; background: var(--bg-secondary); border: 2px solid transparent; cursor: pointer; transition: all 0.2s; text-align: center; }
 .fc-source-card.active { background: var(--accent-primary); border-color: var(--accent-primary); color: white; }
 .fc-source-card:not(.active) { color: var(--text-primary); }
 .fc-source-card p { margin: 0; }
-.fc-source-card-title { font-weight: 600; margin-bottom: 8px; }
-.fc-source-card-desc { font-size: 13px; margin: 0; opacity: 0.8; }
-.fc-source-card.disabled { opacity: 0.6; pointer-events: none; }
+.fc-source-card-title { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+.fc-source-card-desc { font-size: 11px; margin: 0; opacity: 0.7; }
+.fc-source-card.disabled { opacity: 0.5; pointer-events: none; }
 
-.fc-level-section { padding: 0 20px; margin-bottom: 30px; }
-.fc-level-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-.fc-level-btn { padding: 12px; border-radius: 8px; border: 2px solid transparent; background: var(--bg-secondary); color: var(--text-primary); font-weight: 600; cursor: pointer; transition: all 0.2s; }
+.fc-level-section { padding: 0 20px; margin-bottom: 16px; }
+.fc-level-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.fc-level-btn { padding: 10px 8px; border-radius: 8px; border: 2px solid transparent; background: var(--bg-secondary); color: var(--text-primary); font-weight: 600; font-size: 13px; cursor: pointer; transition: all 0.2s; }
 .fc-level-btn--active { border-color: var(--level-color); background: var(--level-color); color: var(--level-text); }
 .fc-level-btn:disabled { opacity: 0.5; cursor: not-allowed; color: var(--text-secondary); background: var(--bg-secondary); }
-.fc-level-lock { margin-left: 4px; font-size: 12px; }
+.fc-level-lock { margin-left: 2px; font-size: 10px; }
 
-.fc-cardcount-section { padding: 0 20px; margin-bottom: 30px; }
-.fc-cardcount-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.fc-cardcount-btn { padding: 12px; border-radius: 8px; border: 2px solid var(--bg-secondary); background: var(--bg-secondary); color: var(--text-primary); font-weight: 600; cursor: pointer; transition: all 0.2s; }
+.fc-cardcount-section { padding: 0 20px; margin-bottom: 16px; }
+.fc-cardcount-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.fc-cardcount-btn { padding: 10px; border-radius: 8px; border: 2px solid var(--bg-secondary); background: var(--bg-secondary); color: var(--text-primary); font-weight: 600; font-size: 13px; cursor: pointer; transition: all 0.2s; }
 .fc-cardcount-btn.active { border-color: var(--accent-primary); background: var(--accent-primary); color: white; }
 
-.fc-start-section { padding: 20px; padding-top: 40px; }
-.fc-start-btn { width: 100%; padding: 16px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); color: white; border: none; border-radius: 12px; font-size: 16px; font-weight: 700; cursor: pointer; transition: transform 0.2s; user-select: none; }
+.fc-start-section { padding: 12px 20px 20px; }
+.fc-start-btn { width: 100%; padding: 14px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); color: white; border: none; border-radius: 10px; font-size: 15px; font-weight: 700; cursor: pointer; transition: transform 0.2s; user-select: none; }
 .fc-start-btn:active { transform: scale(0.98); }
 .fc-start-btn:hover { transform: translateY(-2px); }
+
+@media (max-width: 600px) {
+  .fc-source-options { grid-template-columns: 1fr; gap: 6px; }
+  .fc-source-card { text-align: left; padding: 10px 14px; }
+  .fc-level-grid { grid-template-columns: repeat(3, 1fr); }
+}
 
 /* Flashcards Empty State */
 .fc-empty { min-height: 60vh; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 16px; padding: 40px 20px; text-align: center; }

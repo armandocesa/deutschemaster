@@ -1,0 +1,4890 @@
+[
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Hallo",
+    "it": "Ciao",
+    "example": "Hallo, wie geht es dir?",
+    "exampleIt": "Ciao, come stai?"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Guten Morgen",
+    "it": "Buongiorno",
+    "example": "Guten Morgen, wie geht es Ihnen?",
+    "exampleIt": "Buongiorno, come sta?"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Guten Tag",
+    "it": "Buongiorno",
+    "example": "Guten Tag! Wie heißen Sie?",
+    "exampleIt": "Buongiorno! Come si chiama?"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Guten Abend",
+    "it": "Buonasera",
+    "example": "Guten Abend, mein Name ist Hans.",
+    "exampleIt": "Buonasera, mi chiamo Hans."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Auf Wiedersehen",
+    "it": "Arrivederci",
+    "example": "Auf Wiedersehen! Bis bald!",
+    "exampleIt": "Arrivederci! A presto!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Tschüss",
+    "it": "Ciao",
+    "example": "Tschüss! Bis morgen!",
+    "exampleIt": "Ciao! A domani!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Bitte",
+    "it": "Per favore",
+    "example": "Ein Kaffee, bitte.",
+    "exampleIt": "Un caffè, per favore."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Danke",
+    "it": "Grazie",
+    "example": "Danke schön! Das ist sehr freundlich.",
+    "exampleIt": "Grazie mille! È molto gentile."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Ja",
+    "it": "Sì",
+    "example": "Ja, natürlich! Das stimmt.",
+    "exampleIt": "Sì, naturalmente! È vero."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Nein",
+    "it": "No",
+    "example": "Nein, danke. Ich möchte nichts.",
+    "exampleIt": "No, grazie. Non voglio niente."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Entschuldigung",
+    "it": "Scusa",
+    "example": "Entschuldigung, können Sie mir helfen?",
+    "exampleIt": "Scusa, puoi aiutarmi?"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Entschuldigen Sie",
+    "it": "Mi scusi",
+    "example": "Entschuldigen Sie, wo ist die Toilette?",
+    "exampleIt": "Mi scusi, dov'è il bagno?"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Wie heißt du?",
+    "it": "Come ti chiami?",
+    "example": "Wie heißt du? Mein Name ist Maria.",
+    "exampleIt": "Come ti chiami? Mi chiamo Maria."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Wie heißen Sie?",
+    "it": "Come si chiama?",
+    "example": "Wie heißen Sie, bitte?",
+    "exampleIt": "Come si chiama, per favore?"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Mein Name ist...",
+    "it": "Mi chiamo...",
+    "example": "Mein Name ist Peter.",
+    "exampleIt": "Mi chiamo Peter."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Freut mich",
+    "it": "Piacere",
+    "example": "Freut mich, dich kennenzulernen!",
+    "exampleIt": "Piacere di conoscerti!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Wie geht es dir?",
+    "it": "Come stai?",
+    "example": "Wie geht es dir? Mir geht es gut.",
+    "exampleIt": "Come stai? Sto bene."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Wie geht es Ihnen?",
+    "it": "Come sta?",
+    "example": "Wie geht es Ihnen heute?",
+    "exampleIt": "Come sta oggi?"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Gute Nacht",
+    "it": "Buonanotte",
+    "example": "Gute Nacht! Schlaf gut!",
+    "exampleIt": "Buonanotte! Dormi bene!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Bis bald",
+    "it": "A presto",
+    "example": "Bis bald! Viel Spaß!",
+    "exampleIt": "A presto! Divertiti!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Viel Spaß",
+    "it": "Divertiti",
+    "example": "Viel Spaß im Kino!",
+    "exampleIt": "Divertiti al cinema!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Herzlich willkommen",
+    "it": "Benvenuto",
+    "example": "Herzlich willkommen in Deutschland!",
+    "exampleIt": "Benvenuto in Germania!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Guten Appetit",
+    "it": "Buon appetito",
+    "example": "Guten Appetit! Das Essen sieht lecker aus.",
+    "exampleIt": "Buon appetito! Il cibo sembra delizioso."
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Viel Erfolg",
+    "it": "Buona fortuna",
+    "example": "Viel Erfolg bei der Prüfung!",
+    "exampleIt": "Buona fortuna all'esame!"
+  },
+  {
+    "level": "a1",
+    "category": "Begrüßung",
+    "de": "Bless",
+    "it": "Ciao",
+    "example": "Bless! Wir sehen uns später.",
+    "exampleIt": "Ciao! Ci vediamo dopo."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Mutter",
+    "it": "Madre",
+    "example": "Meine Mutter heißt Anna.",
+    "exampleIt": "Mia madre si chiama Anna."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Vater",
+    "it": "Padre",
+    "example": "Mein Vater ist Ingenieur.",
+    "exampleIt": "Mio padre è ingegnere."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Bruder",
+    "it": "Fratello",
+    "example": "Mein Bruder ist 15 Jahre alt.",
+    "exampleIt": "Mio fratello ha 15 anni."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Schwester",
+    "it": "Sorella",
+    "example": "Meine Schwester studiert Medizin.",
+    "exampleIt": "Mia sorella studia medicina."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Kind",
+    "it": "Bambino",
+    "example": "Das Kind spielt im Garten.",
+    "exampleIt": "Il bambino gioca nel giardino."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Sohn",
+    "it": "Figlio",
+    "example": "Der Sohn ist drei Jahre alt.",
+    "exampleIt": "Il figlio ha tre anni."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Tochter",
+    "it": "Figlia",
+    "example": "Die Tochter geht zur Schule.",
+    "exampleIt": "La figlia va a scuola."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Frau",
+    "it": "Donna/Signora",
+    "example": "Die Frau heißt Petra.",
+    "exampleIt": "La donna si chiama Petra."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Mann",
+    "it": "Uomo/Signore",
+    "example": "Der Mann ist Lehrer.",
+    "exampleIt": "L'uomo è insegnante."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Eltern",
+    "it": "Genitori",
+    "example": "Meine Eltern leben in München.",
+    "exampleIt": "I miei genitori vivono a Monaco."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Großmutter",
+    "it": "Nonna",
+    "example": "Meine Großmutter ist 80 Jahre alt.",
+    "exampleIt": "Mia nonna ha 80 anni."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Großvater",
+    "it": "Nonno",
+    "example": "Der Großvater erzählt gerne Geschichten.",
+    "exampleIt": "Il nonno ama raccontare storie."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Oma",
+    "it": "Nonna",
+    "example": "Ich besuche meine Oma am Wochenende.",
+    "exampleIt": "Visito mia nonna nel fine settimana."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Opa",
+    "it": "Nonno",
+    "example": "Der Opa spielt gerne Schach.",
+    "exampleIt": "Il nonno ama giocare a scacchi."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Onkel",
+    "it": "Zio",
+    "example": "Mein Onkel lebt in Berlin.",
+    "exampleIt": "Mio zio vive a Berlino."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Tante",
+    "it": "Zia",
+    "example": "Meine Tante ist Ärztin.",
+    "exampleIt": "Mia zia è medica."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Cousin",
+    "it": "Cugino",
+    "example": "Mein Cousin studiert Informatik.",
+    "exampleIt": "Mio cugino studia informatica."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Cousine",
+    "it": "Cugina",
+    "example": "Meine Cousine wohnt in Wien.",
+    "exampleIt": "Mia cugina vive a Vienna."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Ehemann",
+    "it": "Marito",
+    "example": "Der Ehemann arbeitet als Arzt.",
+    "exampleIt": "Il marito lavora come medico."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Ehefrau",
+    "it": "Moglie",
+    "example": "Die Ehefrau ist Lehrerin.",
+    "exampleIt": "La moglie è insegnante."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Ehepartner",
+    "it": "Coniuge",
+    "example": "Der Ehepartner kommt aus Österreich.",
+    "exampleIt": "Il coniuge viene dall'Austria."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Freund",
+    "it": "Amico",
+    "example": "Mein Freund heißt Klaus.",
+    "exampleIt": "Il mio amico si chiama Klaus."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Freundin",
+    "it": "Amica",
+    "example": "Meine Freundin arbeitet in Hamburg.",
+    "exampleIt": "La mia amica lavora ad Amburgo."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Baby",
+    "it": "Bebè",
+    "example": "Das Baby schläft jetzt.",
+    "exampleIt": "Il bebè dorme adesso."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Junge",
+    "it": "Ragazzo",
+    "example": "Der Junge spielt Fußball.",
+    "exampleIt": "Il ragazzo gioca a calcio."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Mädchen",
+    "it": "Ragazza",
+    "example": "Das Mädchen ist zehn Jahre alt.",
+    "exampleIt": "La ragazza ha dieci anni."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Cousin",
+    "it": "cugino",
+    "example": "Mein Cousin heißt Max.",
+    "exampleIt": "Mio cugino si chiama Max."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Cousine",
+    "it": "cugina",
+    "example": "Meine Cousine ist alt.",
+    "exampleIt": "Mia cugina è vecchia."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Urgroßmutter",
+    "it": "bisnonna",
+    "example": "Meine Urgroßmutter ist alt.",
+    "exampleIt": "Mia bisnonna è vecchia."
+  },
+  {
+    "level": "a1",
+    "category": "Familie",
+    "de": "Urgroßvater",
+    "it": "bisnonno",
+    "example": "Mein Urgroßvater war weise.",
+    "exampleIt": "Mio bisnonno era saggio."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Brot",
+    "it": "Pane",
+    "example": "Das Brot schmeckt sehr gut.",
+    "exampleIt": "Il pane sa molto bene."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Wasser",
+    "it": "Acqua",
+    "example": "Ich trinke gerne Wasser.",
+    "exampleIt": "Mi piace bere acqua."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Kaffee",
+    "it": "Caffè",
+    "example": "Ein Kaffee, bitte.",
+    "exampleIt": "Un caffè, per favore."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Tee",
+    "it": "Tè",
+    "example": "Ich trinke jeden Morgen Tee.",
+    "exampleIt": "Bevo il tè ogni mattina."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Milch",
+    "it": "Latte",
+    "example": "Milch ist gesund für Kinder.",
+    "exampleIt": "Il latte è sano per i bambini."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Zucker",
+    "it": "Zucchero",
+    "example": "Der Kaffee hat zu viel Zucker.",
+    "exampleIt": "Il caffè ha troppo zucchero."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Butter",
+    "it": "Burro",
+    "example": "Ich esse Butter auf dem Brot.",
+    "exampleIt": "Mangio il burro sul pane."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Käse",
+    "it": "Formaggio",
+    "example": "Der Käse ist sehr lecker.",
+    "exampleIt": "Il formaggio è molto delizioso."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Fleisch",
+    "it": "Carne",
+    "example": "Das Fleisch ist zu hart.",
+    "exampleIt": "La carne è troppo dura."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Obst",
+    "it": "Frutta",
+    "example": "Obst ist gesund und lecker.",
+    "exampleIt": "La frutta è sana e deliziosa."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Gemüse",
+    "it": "Verdura",
+    "example": "Das Gemüse schmeckt sehr frisch.",
+    "exampleIt": "La verdura sa molto fresca."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Reis",
+    "it": "Riso",
+    "example": "Reis ist ein wichtiges Nahrungsmittel.",
+    "exampleIt": "Il riso è un alimento importante."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Ei",
+    "it": "Uovo",
+    "example": "Ein Ei zum Frühstück ist lecker.",
+    "exampleIt": "Un uovo a colazione è delizioso."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Apfel",
+    "it": "Mela",
+    "example": "Der Apfel ist rot und süß.",
+    "exampleIt": "La mela è rossa e dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Banane",
+    "it": "Banana",
+    "example": "Bananen sind reich an Kalium.",
+    "exampleIt": "Le banane sono ricche di potassio."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Orange",
+    "it": "Arancia",
+    "example": "Die Orange schmeckt sauer und süß.",
+    "exampleIt": "L'arancia sa acida e dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Kartoffel",
+    "it": "Patata",
+    "example": "Kartoffeln sind lecker mit Butter.",
+    "exampleIt": "Le patate sono deliziose con il burro."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Tomate",
+    "it": "Pomodoro",
+    "example": "Die Tomate ist rot und reif.",
+    "exampleIt": "Il pomodoro è rosso e maturo."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Salat",
+    "it": "Insalata",
+    "example": "Der Salat schmeckt frisch und knackig.",
+    "exampleIt": "L'insalata sa fresca e croccante."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Suppe",
+    "it": "Zuppa",
+    "example": "Die Suppe ist heiß und lecker.",
+    "exampleIt": "La zuppa è calda e deliziosa."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Fisch",
+    "it": "Pesce",
+    "example": "Der Fisch ist eine gute Proteinquelle.",
+    "exampleIt": "Il pesce è una buona fonte di proteine."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Huhn",
+    "it": "Pollo",
+    "example": "Huhn ist gesünder als rotes Fleisch.",
+    "exampleIt": "Il pollo è più sano della carne rossa."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Essen",
+    "it": "Cibo",
+    "example": "Das Essen schmeckt sehr gut.",
+    "exampleIt": "Il cibo sa molto bene."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Getränk",
+    "it": "Bevanda",
+    "example": "Das Getränk ist kalt und erfrischend.",
+    "exampleIt": "La bevanda è fredda e rinfrescante."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Salzstange",
+    "it": "Pretzel",
+    "example": "Die Salzstange ist knusprig.",
+    "exampleIt": "Il pretzel è croccante."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Zucker",
+    "it": "Caramella",
+    "example": "Das Kind lutscht gerne Zucker.",
+    "exampleIt": "Al bambino piace succhiare caramelle."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Gemüse",
+    "it": "verdura",
+    "example": "Ich mag Gemüse.",
+    "exampleIt": "Mi piace la verdura."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Obst",
+    "it": "frutta",
+    "example": "Apfel ist Obst.",
+    "exampleIt": "La mela è frutta."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Fleisch",
+    "it": "carne",
+    "example": "Ich esse Fleisch.",
+    "exampleIt": "Mangio carne."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Fisch",
+    "it": "pesce",
+    "example": "Ich mag Fisch.",
+    "exampleIt": "Mi piace il pesce."
+  },
+  {
+    "level": "a1",
+    "category": "Essen und Trinken",
+    "de": "Käse",
+    "it": "formaggio",
+    "example": "Der Käse ist hart.",
+    "exampleIt": "Il formaggio è duro."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "eins",
+    "it": "uno",
+    "example": "Eins plus eins ist zwei.",
+    "exampleIt": "Uno più uno è due."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "zwei",
+    "it": "due",
+    "example": "Zwei plus zwei ist vier.",
+    "exampleIt": "Due più due è quattro."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "drei",
+    "it": "tre",
+    "example": "Drei Äpfel im Korb.",
+    "exampleIt": "Tre mele nel cesto."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "vier",
+    "it": "quattro",
+    "example": "Vier Jahreszeiten gibt es.",
+    "exampleIt": "Ci sono quattro stagioni."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "fünf",
+    "it": "cinque",
+    "example": "Fünf Finger an einer Hand.",
+    "exampleIt": "Cinque dita in una mano."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "sechs",
+    "it": "sei",
+    "example": "Sechs Tage Arbeitszeit.",
+    "exampleIt": "Sei giorni di lavoro."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "sieben",
+    "it": "sette",
+    "example": "Sieben Tage in einer Woche.",
+    "exampleIt": "Sette giorni in una settimana."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "acht",
+    "it": "otto",
+    "example": "Acht Stunden Schlaf sind wichtig.",
+    "exampleIt": "Otto ore di sonno sono importanti."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "neun",
+    "it": "nove",
+    "example": "Neun Planeten im Sonnensystem.",
+    "exampleIt": "Nove pianeti nel sistema solare."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "zehn",
+    "it": "dieci",
+    "example": "Zehn Euro für das Ticket.",
+    "exampleIt": "Dieci euro per il biglietto."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "elf",
+    "it": "undici",
+    "example": "Elf Spieler in einer Mannschaft.",
+    "exampleIt": "Undici giocatori in una squadra."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "zwölf",
+    "it": "dodici",
+    "example": "Zwölf Monate im Jahr.",
+    "exampleIt": "Dodici mesi in un anno."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "zwanzig",
+    "it": "venti",
+    "example": "Zwanzig Euro für das Buch.",
+    "exampleIt": "Venti euro per il libro."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "dreißig",
+    "it": "trenta",
+    "example": "Dreißig Schüler in der Klasse.",
+    "exampleIt": "Trenta studenti in classe."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "vierzig",
+    "it": "quaranta",
+    "example": "Vierzig Jahre alt.",
+    "exampleIt": "Quaranta anni di età."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "fünfzig",
+    "it": "cinquanta",
+    "example": "Fünfzig Prozent Rabatt.",
+    "exampleIt": "Cinquanta per cento di sconto."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "hundert",
+    "it": "cento",
+    "example": "Hundert Dollar für die Reise.",
+    "exampleIt": "Cento dollari per il viaggio."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "tausend",
+    "it": "mille",
+    "example": "Tausend Menschen auf dem Platz.",
+    "exampleIt": "Mille persone in piazza."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Uhr",
+    "it": "Orologio",
+    "example": "Meine Uhr zeigt drei Uhr.",
+    "exampleIt": "Il mio orologio mostra le tre."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Stunde",
+    "it": "Ora",
+    "example": "Eine Stunde hat 60 Minuten.",
+    "exampleIt": "Un'ora ha 60 minuti."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Minute",
+    "it": "Minuto",
+    "example": "Warte zehn Minuten, bitte.",
+    "exampleIt": "Aspetta dieci minuti, per favore."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Sekunde",
+    "it": "Secondo",
+    "example": "Das dauert nur eine Sekunde.",
+    "exampleIt": "Questo impiega solo un secondo."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Tag",
+    "it": "Giorno",
+    "example": "Ein Tag hat 24 Stunden.",
+    "exampleIt": "Un giorno ha 24 ore."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Woche",
+    "it": "Settimana",
+    "example": "Eine Woche hat sieben Tage.",
+    "exampleIt": "Una settimana ha sette giorni."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Monat",
+    "it": "Mese",
+    "example": "Ein Monat hat etwa 30 Tage.",
+    "exampleIt": "Un mese ha circa 30 giorni."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "Jahr",
+    "it": "Anno",
+    "example": "Ein Jahr hat zwölf Monate.",
+    "exampleIt": "Un anno ha dodici mesi."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "heute",
+    "it": "oggi",
+    "example": "Was machst du heute?",
+    "exampleIt": "Cosa fai oggi?"
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "morgen",
+    "it": "domani",
+    "example": "Wir gehen morgen ins Kino.",
+    "exampleIt": "Andiamo al cinema domani."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "gestern",
+    "it": "ieri",
+    "example": "Das war gestern sehr schön.",
+    "exampleIt": "Era molto bello ieri."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "jetzt",
+    "it": "adesso",
+    "example": "Jetzt ist es Mittagszeit.",
+    "exampleIt": "Adesso è mezzogiorno."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "bald",
+    "it": "presto",
+    "example": "Die Ferien sind bald da.",
+    "exampleIt": "Le vacanze arrivano presto."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "zwei",
+    "it": "due",
+    "example": "Zwei ist eine gerade Zahl.",
+    "exampleIt": "Due è un numero pari."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "drei",
+    "it": "tre",
+    "example": "Drei ist ungerade.",
+    "exampleIt": "Tre è dispari."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "vier",
+    "it": "quattro",
+    "example": "Vier ist gerade.",
+    "exampleIt": "Quattro è pari."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "fünf",
+    "it": "cinque",
+    "example": "Fünf ist eine Hand.",
+    "exampleIt": "Cinque è una mano."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "sechs",
+    "it": "sei",
+    "example": "Sechs folgt Fünf.",
+    "exampleIt": "Sei segue cinque."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "sieben",
+    "it": "sette",
+    "example": "Sieben ist mystisch.",
+    "exampleIt": "Sette è mistico."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "acht",
+    "it": "otto",
+    "example": "Acht ist doppel.",
+    "exampleIt": "Otto è doppio."
+  },
+  {
+    "level": "a1",
+    "category": "Zahlen und Zeit",
+    "de": "neun",
+    "it": "nove",
+    "example": "Neun ist neunten.",
+    "exampleIt": "Nove è il nono."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Haus",
+    "it": "Casa",
+    "example": "Das Haus ist groß und schön.",
+    "exampleIt": "La casa è grande e bella."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Wohnung",
+    "it": "Appartamento",
+    "example": "Die Wohnung hat drei Zimmer.",
+    "exampleIt": "L'appartamento ha tre stanze."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Zimmer",
+    "it": "Stanza",
+    "example": "Das Zimmer ist hell und geräumig.",
+    "exampleIt": "La stanza è luminosa e spaziosa."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Küche",
+    "it": "Cucina",
+    "example": "In der Küche koche ich jeden Tag.",
+    "exampleIt": "In cucina cucino ogni giorno."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Bad",
+    "it": "Bagno",
+    "example": "Das Bad ist klein aber sauber.",
+    "exampleIt": "Il bagno è piccolo ma pulito."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Badezimmer",
+    "it": "Bagno",
+    "example": "Das Badezimmer hat eine Dusche.",
+    "exampleIt": "Il bagno ha una doccia."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Schlafzimmer",
+    "it": "Camera da letto",
+    "example": "Das Schlafzimmer ist sehr ruhig.",
+    "exampleIt": "La camera da letto è molto silenziosa."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Wohnzimmer",
+    "it": "Soggiorno",
+    "example": "Im Wohnzimmer sehen wir fern.",
+    "exampleIt": "Nel soggiorno guardiamo la televisione."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Esszimmer",
+    "it": "Sala da pranzo",
+    "example": "Das Esszimmer ist neben der Küche.",
+    "exampleIt": "La sala da pranzo è accanto alla cucina."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Flur",
+    "it": "Corridoio",
+    "example": "Der Flur führt zu allen Zimmern.",
+    "exampleIt": "Il corridoio porta a tutte le stanze."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Tür",
+    "it": "Porta",
+    "example": "Die Tür ist rot angestrichen.",
+    "exampleIt": "La porta è dipinta di rosso."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Fenster",
+    "it": "Finestra",
+    "example": "Das Fenster geht zum Garten.",
+    "exampleIt": "La finestra dà sul giardino."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Wand",
+    "it": "Parete",
+    "example": "Die Wand ist weiß gestrichen.",
+    "exampleIt": "La parete è dipinta di bianco."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Dach",
+    "it": "Tetto",
+    "example": "Das Dach ist aus Ziegeln.",
+    "exampleIt": "Il tetto è fatto di mattoni."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Boden",
+    "it": "Pavimento",
+    "example": "Der Boden ist aus Holz.",
+    "exampleIt": "Il pavimento è di legno."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Decke",
+    "it": "Soffitto",
+    "example": "Die Decke hat eine Lampe.",
+    "exampleIt": "Il soffitto ha una lampada."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Tisch",
+    "it": "Tavolo",
+    "example": "Der Tisch ist aus Eichenholz.",
+    "exampleIt": "Il tavolo è di quercia."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Stuhl",
+    "it": "Sedia",
+    "example": "Der Stuhl ist sehr bequem.",
+    "exampleIt": "La sedia è molto comoda."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Bett",
+    "it": "Letto",
+    "example": "Das Bett ist groß und komfortabel.",
+    "exampleIt": "Il letto è grande e confortevole."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Sofa",
+    "it": "Divano",
+    "example": "Das Sofa ist perfekt zum Entspannen.",
+    "exampleIt": "Il divano è perfetto per rilassarsi."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Lampe",
+    "it": "Lampada",
+    "example": "Die Lampe gibt warmes Licht.",
+    "exampleIt": "La lampada dà luce calda."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Regal",
+    "it": "Scaffale",
+    "example": "Das Regal steht an der Wand.",
+    "exampleIt": "Lo scaffale è contro il muro."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Schrank",
+    "it": "Armadio",
+    "example": "Der Schrank ist voll mit Kleidung.",
+    "exampleIt": "L'armadio è pieno di vestiti."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Spiegel",
+    "it": "Specchio",
+    "example": "Der Spiegel hängt im Bad.",
+    "exampleIt": "Lo specchio è appeso in bagno."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Bild",
+    "it": "Quadro",
+    "example": "Das Bild ist sehr schön.",
+    "exampleIt": "Il quadro è molto bello."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Teppich",
+    "it": "Tappeto",
+    "example": "Der Teppich ist rot und weich.",
+    "exampleIt": "Il tappeto è rosso e morbido."
+  },
+  {
+    "level": "a1",
+    "category": "Haus und Wohnung",
+    "de": "Garten",
+    "it": "Giardino",
+    "example": "Der Garten hat viele Blumen.",
+    "exampleIt": "Il giardino ha molti fiori."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Kopf",
+    "it": "Testa",
+    "example": "Der Kopf tut mir weh.",
+    "exampleIt": "Mi fa male la testa."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Auge",
+    "it": "Occhio",
+    "example": "Meine Augen sind blau.",
+    "exampleIt": "I miei occhi sono blu."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Nase",
+    "it": "Naso",
+    "example": "Die Nase ist zum Riechen.",
+    "exampleIt": "Il naso serve per odorare."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Mund",
+    "it": "Bocca",
+    "example": "Mund zu beim Kauen.",
+    "exampleIt": "Bocca chiusa mentre si mastica."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Ohr",
+    "it": "Orecchio",
+    "example": "Mit den Ohren höre ich.",
+    "exampleIt": "Con le orecchie sento."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Zahn",
+    "it": "Dente",
+    "example": "Der Zahn schmerzt mich.",
+    "exampleIt": "Mi fa male il dente."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Zunge",
+    "it": "Lingua",
+    "example": "Die Zunge schmeckt das Essen.",
+    "exampleIt": "La lingua assaggia il cibo."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Hand",
+    "it": "Mano",
+    "example": "Die Hand hat fünf Finger.",
+    "exampleIt": "La mano ha cinque dita."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Fuß",
+    "it": "Piede",
+    "example": "Der Fuß ist am Beinknochen.",
+    "exampleIt": "Il piede è all'osso della gamba."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Arm",
+    "it": "Braccio",
+    "example": "Der Arm ist lang und stark.",
+    "exampleIt": "Il braccio è lungo e forte."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Bein",
+    "it": "Gamba",
+    "example": "Das Bein ist verletzt.",
+    "exampleIt": "La gamba è ferita."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Bauch",
+    "it": "Pancia",
+    "example": "Der Bauch ist voll nach dem Essen.",
+    "exampleIt": "La pancia è piena dopo il pasto."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Rücken",
+    "it": "Schiena",
+    "example": "Der Rücken tut mir weh.",
+    "exampleIt": "Mi fa male la schiena."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Brust",
+    "it": "Petto",
+    "example": "Die Brust ist unter dem Hals.",
+    "exampleIt": "Il petto è sotto il collo."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Hals",
+    "it": "Collo",
+    "example": "Der Hals verbindet Kopf und Körper.",
+    "exampleIt": "Il collo collega la testa al corpo."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Herz",
+    "it": "Cuore",
+    "example": "Das Herz pumpt Blut.",
+    "exampleIt": "Il cuore pompa il sangue."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Blut",
+    "it": "Sangue",
+    "example": "Das Blut ist rot.",
+    "exampleIt": "Il sangue è rosso."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Knochen",
+    "it": "Osso",
+    "example": "Der Knochen ist hart.",
+    "exampleIt": "L'osso è duro."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Arzt",
+    "it": "Medico",
+    "example": "Der Arzt untersucht mich.",
+    "exampleIt": "Il medico mi esamina."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Ärztin",
+    "it": "Medica",
+    "example": "Die Ärztin gibt mir eine Spritze.",
+    "exampleIt": "La medica mi fa un'iniezione."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "krank",
+    "it": "malato",
+    "example": "Ich bin krank und bleibe zu Hause.",
+    "exampleIt": "Sono malato e rimango a casa."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "gesund",
+    "it": "sano",
+    "example": "Ich bin gesund und fit.",
+    "exampleIt": "Sono sano e in forma."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Fieber",
+    "it": "Febbre",
+    "example": "Ich habe Fieber und Husten.",
+    "exampleIt": "Ho febbre e tosse."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Schmerz",
+    "it": "Dolore",
+    "example": "Der Schmerz ist stark.",
+    "exampleIt": "Il dolore è forte."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Medikament",
+    "it": "Medicina",
+    "example": "Das Medikament hilft gegen Schmerzen.",
+    "exampleIt": "La medicina aiuta contro il dolore."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Apotheke",
+    "it": "Farmacia",
+    "example": "Die Apotheke ist neben dem Supermarkt.",
+    "exampleIt": "La farmacia è accanto al supermercato."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Kopfschmerzen",
+    "it": "mal di testa",
+    "example": "Ich habe Kopfschmerzen.",
+    "exampleIt": "Ho mal di testa."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Halsschmerzen",
+    "it": "mal di gola",
+    "example": "Ich habe Halsschmerzen.",
+    "exampleIt": "Ho mal di gola."
+  },
+  {
+    "level": "a1",
+    "category": "Körper und Gesundheit",
+    "de": "Bauchschmerzen",
+    "it": "mal di pancia",
+    "example": "Ich habe Bauchschmerzen.",
+    "exampleIt": "Ho mal di pancia."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Hose",
+    "it": "Pantaloni",
+    "example": "Die Hose ist blau.",
+    "exampleIt": "I pantaloni sono blu."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Hemd",
+    "it": "Camicia",
+    "example": "Das Hemd ist weiß und sauber.",
+    "exampleIt": "La camicia è bianca e pulita."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Kleid",
+    "it": "Vestito",
+    "example": "Das Kleid ist rot und elegant.",
+    "exampleIt": "Il vestito è rosso ed elegante."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Jacke",
+    "it": "Giacca",
+    "example": "Die Jacke schützt vor Kälte.",
+    "exampleIt": "La giacca protegge dal freddo."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Schuh",
+    "it": "Scarpa",
+    "example": "Der Schuh ist zu klein.",
+    "exampleIt": "La scarpa è troppo piccola."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Mantel",
+    "it": "Cappotto",
+    "example": "Der Mantel ist warm und dick.",
+    "exampleIt": "Il cappotto è caldo e spesso."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "T-Shirt",
+    "it": "Maglietta",
+    "example": "Das T-Shirt ist bequem.",
+    "exampleIt": "La maglietta è comoda."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Rock",
+    "it": "Gonna",
+    "example": "Der Rock ist kurz und modisch.",
+    "exampleIt": "La gonna è corta e alla moda."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Pullover",
+    "it": "Maglione",
+    "example": "Der Pullover ist warm und gemütlich.",
+    "exampleIt": "Il maglione è caldo e accogliente."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Mütze",
+    "it": "Berretto",
+    "example": "Die Mütze hält den Kopf warm.",
+    "exampleIt": "Il berretto mantiene la testa calda."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Hut",
+    "it": "Cappello",
+    "example": "Der Hut schützt vor Sonne.",
+    "exampleIt": "Il cappello protegge dal sole."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Schal",
+    "it": "Sciarpa",
+    "example": "Der Schal ist lang und warm.",
+    "exampleIt": "La sciarpa è lunga e calda."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Handschuh",
+    "it": "Guanto",
+    "example": "Der Handschuh schützt die Hand.",
+    "exampleIt": "Il guanto protegge la mano."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Socke",
+    "it": "Calzino",
+    "example": "Die Socke ist aus Baumwolle.",
+    "exampleIt": "Il calzino è di cotone."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Unterwäsche",
+    "it": "Biancheria intima",
+    "example": "Die Unterwäsche ist sauber.",
+    "exampleIt": "La biancheria intima è pulita."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Badeanzug",
+    "it": "Costume da bagno",
+    "example": "Der Badeanzug ist für den Strand.",
+    "exampleIt": "Il costume da bagno è per la spiaggia."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Gürtel",
+    "it": "Cintura",
+    "example": "Der Gürtel hält die Hose.",
+    "exampleIt": "La cintura tiene i pantaloni."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Krawatte",
+    "it": "Cravatta",
+    "example": "Die Krawatte ist rot.",
+    "exampleIt": "La cravatta è rossa."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Anzug",
+    "it": "Abito",
+    "example": "Der Anzug ist formell.",
+    "exampleIt": "L'abito è formale."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Handtasche",
+    "it": "Borsa",
+    "example": "Die Handtasche ist groß.",
+    "exampleIt": "La borsa è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Rucksack",
+    "it": "Zaino",
+    "example": "Der Rucksack ist praktisch.",
+    "exampleIt": "Lo zaino è pratico."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Brille",
+    "it": "Occhiali",
+    "example": "Die Brille hilft zum Sehen.",
+    "exampleIt": "Gli occhiali aiutano a vedere."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Schmuck",
+    "it": "Gioiello",
+    "example": "Der Schmuck ist elegant.",
+    "exampleIt": "Il gioiello è elegante."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Ring",
+    "it": "Anello",
+    "example": "Der Ring ist golden.",
+    "exampleIt": "L'anello è d'oro."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Kette",
+    "it": "Collana",
+    "example": "Die Kette ist silbern.",
+    "exampleIt": "La collana è argentata."
+  },
+  {
+    "level": "a1",
+    "category": "Kleidung",
+    "de": "Uhr",
+    "it": "Orologio",
+    "example": "Die Uhr zeigt die Zeit.",
+    "exampleIt": "L'orologio mostra l'ora."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "arbeiten",
+    "it": "lavorare",
+    "example": "Ich arbeite von Montag bis Freitag.",
+    "exampleIt": "Lavoro da lunedì a venerdì."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "lernen",
+    "it": "imparare",
+    "example": "Der Student lernt Mathematik.",
+    "exampleIt": "Lo studente impara la matematica."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "schreiben",
+    "it": "scrivere",
+    "example": "Ich schreibe eine E-Mail.",
+    "exampleIt": "Scrivo un'e-mail."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "lesen",
+    "it": "leggere",
+    "example": "Ich lese ein interessantes Buch.",
+    "exampleIt": "Leggo un libro interessante."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "sprechen",
+    "it": "parlare",
+    "example": "Wir sprechen Deutsch.",
+    "exampleIt": "Parliamo tedesco."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "hören",
+    "it": "ascoltare",
+    "example": "Ich höre gerne Musik.",
+    "exampleIt": "Mi piace ascoltare la musica."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "gehen",
+    "it": "andare",
+    "example": "Ich gehe zur Schule.",
+    "exampleIt": "Vado a scuola."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "kommen",
+    "it": "venire",
+    "example": "Er kommt morgen an.",
+    "exampleIt": "Arriva domani."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "machen",
+    "it": "fare",
+    "example": "Was machst du heute?",
+    "exampleIt": "Cosa fai oggi?"
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "haben",
+    "it": "avere",
+    "example": "Ich habe einen Hund.",
+    "exampleIt": "Ho un cane."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "sein",
+    "it": "essere",
+    "example": "Ich bin Lehrer.",
+    "exampleIt": "Sono insegnante."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "können",
+    "it": "potere",
+    "example": "Ich kann schwimmen.",
+    "exampleIt": "So nuotare."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "wollen",
+    "it": "volere",
+    "example": "Ich will Arzt werden.",
+    "exampleIt": "Voglio diventare medico."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "müssen",
+    "it": "dovere",
+    "example": "Ich muss zur Arbeit gehen.",
+    "exampleIt": "Devo andare al lavoro."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "sollen",
+    "it": "dovrebbe",
+    "example": "Du sollst pünktlich sein.",
+    "exampleIt": "Dovresti essere puntuale."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "dürfen",
+    "it": "potere",
+    "example": "Darf ich fragen?",
+    "exampleIt": "Posso chiedere?"
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "mögen",
+    "it": "piacere",
+    "example": "Ich mag Schokolade.",
+    "exampleIt": "Mi piace il cioccolato."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "möchten",
+    "it": "vorrebbe",
+    "example": "Ich möchte einen Kaffee.",
+    "exampleIt": "Vorrei un caffè."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "essen",
+    "it": "mangiare",
+    "example": "Wir essen zu Mittag.",
+    "exampleIt": "Mangiamo a pranzo."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "trinken",
+    "it": "bere",
+    "example": "Ich trinke Wasser.",
+    "exampleIt": "Bevo acqua."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "schlafen",
+    "it": "dormire",
+    "example": "Ich schlafe acht Stunden.",
+    "exampleIt": "Dormo otto ore."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "wachen",
+    "it": "svegliarsi",
+    "example": "Ich wache um sieben Uhr auf.",
+    "exampleIt": "Mi sveglio alle sette."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "spielen",
+    "it": "giocare",
+    "example": "Kinder spielen im Park.",
+    "exampleIt": "I bambini giocano nel parco."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "sitzen",
+    "it": "sedere",
+    "example": "Ich sitze im Stuhl.",
+    "exampleIt": "Sono seduto sulla sedia."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "stehen",
+    "it": "stare in piedi",
+    "example": "Ich stehe an der Tür.",
+    "exampleIt": "Sto in piedi alla porta."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "Arbeit",
+    "it": "Lavoro",
+    "example": "Die Arbeit ist interessant.",
+    "exampleIt": "Il lavoro è interessante."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "Beruf",
+    "it": "Professione",
+    "example": "Mein Beruf ist sehr wichtig.",
+    "exampleIt": "La mia professione è molto importante."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "Lehrer",
+    "it": "Insegnante",
+    "example": "Der Lehrer unterrichtet Deutsch.",
+    "exampleIt": "L'insegnante insegna tedesco."
+  },
+  {
+    "level": "a1",
+    "category": "Alltag und Beruf",
+    "de": "Schüler",
+    "it": "Studente",
+    "example": "Der Schüler ist fleißig.",
+    "exampleIt": "Lo studente è diligente."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Straße",
+    "it": "Strada",
+    "example": "Die Straße ist breit und sicher.",
+    "exampleIt": "La strada è larga e sicura."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Auto",
+    "it": "Auto",
+    "example": "Das Auto ist schnell und komfortabel.",
+    "exampleIt": "L'auto è veloce e confortevole."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Bus",
+    "it": "Autobus",
+    "example": "Der Bus fährt in die Stadt.",
+    "exampleIt": "L'autobus va in città."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Zug",
+    "it": "Treno",
+    "example": "Der Zug kommt pünktlich an.",
+    "exampleIt": "Il treno arriva in orario."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Fahrrad",
+    "it": "Bicicletta",
+    "example": "Das Fahrrad ist praktisch.",
+    "exampleIt": "La bicicletta è pratica."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Haltestelle",
+    "it": "Fermata",
+    "example": "Die Haltestelle ist nah.",
+    "exampleIt": "La fermata è vicina."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Bahnhof",
+    "it": "Stazione",
+    "example": "Der Bahnhof ist im Zentrum.",
+    "exampleIt": "La stazione è nel centro."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Flughafen",
+    "it": "Aeroporto",
+    "example": "Der Flughafen ist groß.",
+    "exampleIt": "L'aeroporto è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "rechts",
+    "it": "destra",
+    "example": "Der Laden ist rechts.",
+    "exampleIt": "Il negozio è a destra."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "links",
+    "it": "sinistra",
+    "example": "Die Schule ist links.",
+    "exampleIt": "La scuola è a sinistra."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "geradeaus",
+    "it": "dritto",
+    "example": "Gehen Sie geradeaus!",
+    "exampleIt": "Vai dritto!"
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "vorne",
+    "it": "davanti",
+    "example": "Das Auto ist vorne.",
+    "exampleIt": "L'auto è davanti."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "hinten",
+    "it": "dietro",
+    "example": "Der Park ist hinten.",
+    "exampleIt": "Il parco è dietro."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Taxi",
+    "it": "Taxi",
+    "example": "Das Taxi ist gelb.",
+    "exampleIt": "Il taxi è giallo."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Motorrad",
+    "it": "Motocicletta",
+    "example": "Das Motorrad ist schnell.",
+    "exampleIt": "La motocicletta è veloce."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Roller",
+    "it": "Scooter",
+    "example": "Der Roller ist einfach zu fahren.",
+    "exampleIt": "Lo scooter è facile da guidare."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Schiff",
+    "it": "Nave",
+    "example": "Das Schiff fährt über das Meer.",
+    "exampleIt": "La nave viaggia sul mare."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Flugzeug",
+    "it": "Aereo",
+    "example": "Das Flugzeug fliegt hoch.",
+    "exampleIt": "L'aereo vola alto."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Verkehr",
+    "it": "Traffico",
+    "example": "Der Verkehr ist heute schwach.",
+    "exampleIt": "Il traffico è debole oggi."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Ampel",
+    "it": "Semaforo",
+    "example": "Die Ampel ist rot.",
+    "exampleIt": "Il semaforo è rosso."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Parkplatz",
+    "it": "Parcheggio",
+    "example": "Der Parkplatz ist voll.",
+    "exampleIt": "Il parcheggio è pieno."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Weg",
+    "it": "Cammino",
+    "example": "Der Weg ist lang.",
+    "exampleIt": "Il cammino è lungo."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Brücke",
+    "it": "Ponte",
+    "example": "Die Brücke überquert den Fluss.",
+    "exampleIt": "Il ponte attraversa il fiume."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Platz",
+    "it": "Piazza",
+    "example": "Der Platz ist groß und offen.",
+    "exampleIt": "La piazza è grande e aperta."
+  },
+  {
+    "level": "a1",
+    "category": "Stadt und Verkehr",
+    "de": "Markt",
+    "it": "Mercato",
+    "example": "Der Markt hat frisches Obst.",
+    "exampleIt": "Il mercato ha frutta fresca."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "rot",
+    "it": "rosso",
+    "example": "Die Rose ist rot.",
+    "exampleIt": "La rosa è rossa."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "blau",
+    "it": "blu",
+    "example": "Der Himmel ist blau.",
+    "exampleIt": "Il cielo è blu."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "grün",
+    "it": "verde",
+    "example": "Das Gras ist grün.",
+    "exampleIt": "L'erba è verde."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "gelb",
+    "it": "giallo",
+    "example": "Die Sonne ist gelb.",
+    "exampleIt": "Il sole è giallo."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "schwarz",
+    "it": "nero",
+    "example": "Die Nacht ist schwarz.",
+    "exampleIt": "La notte è nera."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "weiß",
+    "it": "bianco",
+    "example": "Der Schnee ist weiß.",
+    "exampleIt": "La neve è bianca."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "grau",
+    "it": "grigio",
+    "example": "Die Straße ist grau.",
+    "exampleIt": "La strada è grigia."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "braun",
+    "it": "marrone",
+    "example": "Der Baum ist braun.",
+    "exampleIt": "L'albero è marrone."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "rosa",
+    "it": "rosa",
+    "example": "Das Kleid ist rosa.",
+    "exampleIt": "Il vestito è rosa."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "lila",
+    "it": "viola",
+    "example": "Die Blume ist lila.",
+    "exampleIt": "Il fiore è viola."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "orange",
+    "it": "arancione",
+    "example": "Die Orange ist orange.",
+    "exampleIt": "L'arancia è arancione."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "groß",
+    "it": "grande",
+    "example": "Das Haus ist groß.",
+    "exampleIt": "La casa è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "klein",
+    "it": "piccolo",
+    "example": "Die Maus ist klein.",
+    "exampleIt": "Il topo è piccolo."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "gut",
+    "it": "buono",
+    "example": "Das Essen schmeckt gut.",
+    "exampleIt": "Il cibo sa bene."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "schlecht",
+    "it": "cattivo",
+    "example": "Das Wetter ist schlecht.",
+    "exampleIt": "Il tempo è cattivo."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "schön",
+    "it": "bello",
+    "example": "Das Mädchen ist schön.",
+    "exampleIt": "La ragazza è bella."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "hässlich",
+    "it": "brutto",
+    "example": "Das Kleid ist hässlich.",
+    "exampleIt": "Il vestito è brutto."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "alt",
+    "it": "vecchio",
+    "example": "Der Mann ist alt.",
+    "exampleIt": "L'uomo è vecchio."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "jung",
+    "it": "giovane",
+    "example": "Das Mädchen ist jung.",
+    "exampleIt": "La ragazza è giovane."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "neu",
+    "it": "nuovo",
+    "example": "Das Auto ist neu.",
+    "exampleIt": "L'auto è nuova."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "schnell",
+    "it": "veloce",
+    "example": "Das Auto ist schnell.",
+    "exampleIt": "L'auto è veloce."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "langsam",
+    "it": "lento",
+    "example": "Die Schildkröte ist langsam.",
+    "exampleIt": "La tartaruga è lenta."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "stark",
+    "it": "forte",
+    "example": "Der Mann ist stark.",
+    "exampleIt": "L'uomo è forte."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "schwach",
+    "it": "debole",
+    "example": "Das Kind ist schwach.",
+    "exampleIt": "Il bambino è debole."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "hoch",
+    "it": "alto",
+    "example": "Der Berg ist hoch.",
+    "exampleIt": "La montagna è alta."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "tief",
+    "it": "profondo",
+    "example": "Der See ist tief.",
+    "exampleIt": "Il lago è profondo."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "lang",
+    "it": "lungo",
+    "example": "Der Film ist lang.",
+    "exampleIt": "Il film è lungo."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "kurz",
+    "it": "corto",
+    "example": "Die Zeit ist kurz.",
+    "exampleIt": "Il tempo è corto."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "warm",
+    "it": "caldo",
+    "example": "Das Wasser ist warm.",
+    "exampleIt": "L'acqua è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "kalt",
+    "it": "freddo",
+    "example": "Der Winter ist kalt.",
+    "exampleIt": "L'inverno è freddo."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "heiß",
+    "it": "caldo",
+    "example": "Das Feuer ist heiß.",
+    "exampleIt": "Il fuoco è caldo."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "nass",
+    "it": "bagnato",
+    "example": "Der Hund ist nass.",
+    "exampleIt": "Il cane è bagnato."
+  },
+  {
+    "level": "a1",
+    "category": "Farben und Adjektive",
+    "de": "trocken",
+    "it": "asciutto",
+    "example": "Das Tuch ist trocken.",
+    "exampleIt": "L'asciugamano è asciutto."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Kopf",
+    "it": "testa",
+    "example": "Der Kopf tut mir weh.",
+    "exampleIt": "Mi fa male la testa."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Auge",
+    "it": "occhio",
+    "example": "Ich habe zwei Augen.",
+    "exampleIt": "Ho due occhi."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Nase",
+    "it": "naso",
+    "example": "Die Nase ist groß.",
+    "exampleIt": "Il naso è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Mund",
+    "it": "bocca",
+    "example": "Der Mund lacht.",
+    "exampleIt": "La bocca ride."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Zahn",
+    "it": "dente",
+    "example": "Ich habe einen Zahn verloren.",
+    "exampleIt": "Ho perso un dente."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Ohr",
+    "it": "orecchio",
+    "example": "Das Ohr hört.",
+    "exampleIt": "L'orecchio sente."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Hals",
+    "it": "gola",
+    "example": "Der Hals ist lang.",
+    "exampleIt": "La gola è lunga."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Arm",
+    "it": "braccio",
+    "example": "Der Arm ist stark.",
+    "exampleIt": "Il braccio è forte."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Hand",
+    "it": "mano",
+    "example": "Die Hand ist warm.",
+    "exampleIt": "La mano è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Finger",
+    "it": "dito",
+    "example": "Der Finger bewegt sich.",
+    "exampleIt": "Il dito si muove."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Brust",
+    "it": "petto",
+    "example": "Die Brust hebt sich.",
+    "exampleIt": "Il petto si solleva."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Bauch",
+    "it": "pancia",
+    "example": "Der Bauch ist voll.",
+    "exampleIt": "La pancia è piena."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Rücken",
+    "it": "schiena",
+    "example": "Der Rücken schmerzt.",
+    "exampleIt": "La schiena fa male."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Bein",
+    "it": "gamba",
+    "example": "Das Bein ist lang.",
+    "exampleIt": "La gamba è lunga."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Fuß",
+    "it": "piede",
+    "example": "Der Fuß läuft.",
+    "exampleIt": "Il piede corre."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Herz",
+    "it": "cuore",
+    "example": "Das Herz schlägt.",
+    "exampleIt": "Il cuore batte."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Haut",
+    "it": "pelle",
+    "example": "Die Haut ist zart.",
+    "exampleIt": "La pelle è delicata."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Blut",
+    "it": "sangue",
+    "example": "Das Blut fließt.",
+    "exampleIt": "Il sangue scorre."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Knochen",
+    "it": "osso",
+    "example": "Der Knochen ist hart.",
+    "exampleIt": "L'osso è duro."
+  },
+  {
+    "level": "a1",
+    "category": "Corpo umano",
+    "de": "Muskel",
+    "it": "muscolo",
+    "example": "Der Muskel ist stark.",
+    "exampleIt": "Il muscolo è forte."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Hemd",
+    "it": "camicia",
+    "example": "Das Hemd ist blau.",
+    "exampleIt": "La camicia è blu."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Hose",
+    "it": "pantaloni",
+    "example": "Die Hose ist lang.",
+    "exampleIt": "I pantaloni sono lunghi."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Rock",
+    "it": "gonna",
+    "example": "Der Rock ist kurz.",
+    "exampleIt": "La gonna è corta."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Kleid",
+    "it": "vestito",
+    "example": "Das Kleid ist schön.",
+    "exampleIt": "Il vestito è bello."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Jacke",
+    "it": "giacca",
+    "example": "Die Jacke ist warm.",
+    "exampleIt": "La giacca è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Mantel",
+    "it": "cappotto",
+    "example": "Der Mantel ist lang.",
+    "exampleIt": "Il cappotto è lungo."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Schuh",
+    "it": "scarpa",
+    "example": "Der Schuh passt.",
+    "exampleIt": "La scarpa calza."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Socke",
+    "it": "calzino",
+    "example": "Die Socke ist weiß.",
+    "exampleIt": "Il calzino è bianco."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Handschuh",
+    "it": "guanto",
+    "example": "Der Handschuh ist warm.",
+    "exampleIt": "Il guanto è caldo."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Mütze",
+    "it": "berretto",
+    "example": "Die Mütze ist rot.",
+    "exampleIt": "Il berretto è rosso."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Hut",
+    "it": "cappello",
+    "example": "Der Hut ist elegant.",
+    "exampleIt": "Il cappello è elegante."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Schal",
+    "it": "sciarpa",
+    "example": "Der Schal ist weich.",
+    "exampleIt": "La sciarpa è morbida."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Krawatte",
+    "it": "cravatta",
+    "example": "Die Krawatte ist dunkel.",
+    "exampleIt": "La cravatta è scura."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Gürtel",
+    "it": "cintura",
+    "example": "Der Gürtel hält die Hose.",
+    "exampleIt": "La cintura tiene i pantaloni."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Tasche",
+    "it": "tasca",
+    "example": "Die Tasche ist leer.",
+    "exampleIt": "La tasca è vuota."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Rucksack",
+    "it": "zaino",
+    "example": "Der Rucksack ist schwer.",
+    "exampleIt": "Lo zaino è pesante."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Brille",
+    "it": "occhiali",
+    "example": "Die Brille hilft mir.",
+    "exampleIt": "Gli occhiali mi aiutano."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Uhr",
+    "it": "orologio",
+    "example": "Die Uhr zeigt Zeit.",
+    "exampleIt": "L'orologio mostra l'ora."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Ring",
+    "it": "anello",
+    "example": "Der Ring ist golden.",
+    "exampleIt": "L'anello è dorato."
+  },
+  {
+    "level": "a1",
+    "category": "Vestiti",
+    "de": "Halskette",
+    "it": "collana",
+    "example": "Die Halskette ist schön.",
+    "exampleIt": "La collana è bella."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Lehrer",
+    "it": "insegnante",
+    "example": "Der Lehrer unterrichtet.",
+    "exampleIt": "L'insegnante insegna."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Arzt",
+    "it": "medico",
+    "example": "Der Arzt hilft.",
+    "exampleIt": "Il medico aiuta."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Krankenschwester",
+    "it": "infermiere",
+    "example": "Die Krankenschwester pflegt.",
+    "exampleIt": "L'infermiere si prende cura."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Zahnarzt",
+    "it": "dentista",
+    "example": "Der Zahnarzt repariert Zähne.",
+    "exampleIt": "Il dentista ripara i denti."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Polizist",
+    "it": "poliziotto",
+    "example": "Der Polizist schützt.",
+    "exampleIt": "Il poliziotto protegge."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Feuerwehrmann",
+    "it": "pompiere",
+    "example": "Der Feuerwehrmann rettet.",
+    "exampleIt": "Il pompiere salva."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Koch",
+    "it": "cuoco",
+    "example": "Der Koch kocht.",
+    "exampleIt": "Il cuoco cucina."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Kellner",
+    "it": "cameriere",
+    "example": "Der Kellner serviert.",
+    "exampleIt": "Il cameriere serve."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Ingenieur",
+    "it": "ingegnere",
+    "example": "Der Ingenieur konstruiert.",
+    "exampleIt": "L'ingegnere costruisce."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Architekt",
+    "it": "architetto",
+    "example": "Der Architekt plant.",
+    "exampleIt": "L'architetto progetta."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Künstler",
+    "it": "artista",
+    "example": "Der Künstler malt.",
+    "exampleIt": "L'artista dipinge."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Musikerin",
+    "it": "musicista",
+    "example": "Die Musikerin spielt.",
+    "exampleIt": "La musicista suona."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Wissenschaftler",
+    "it": "scienziato",
+    "example": "Der Wissenschaftler forscht.",
+    "exampleIt": "Lo scienziato ricerca."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Schriftsteller",
+    "it": "scrittore",
+    "example": "Der Schriftsteller schreibt.",
+    "exampleIt": "Lo scrittore scrive."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Schauspieler",
+    "it": "attore",
+    "example": "Der Schauspieler spielt.",
+    "exampleIt": "L'attore recita."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Pilot",
+    "it": "pilota",
+    "example": "Der Pilot fliegt.",
+    "exampleIt": "Il pilota vola."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Farmer",
+    "it": "contadino",
+    "example": "Der Farmer arbeitet.",
+    "exampleIt": "Il contadino lavora."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Anwalt",
+    "it": "avvocato",
+    "example": "Der Anwalt verteidigt.",
+    "exampleIt": "L'avvocato difende."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Richter",
+    "it": "giudice",
+    "example": "Der Richter urteilt.",
+    "exampleIt": "Il giudice giudica."
+  },
+  {
+    "level": "a1",
+    "category": "Professionen",
+    "de": "Kaufmann",
+    "it": "commerciante",
+    "example": "Der Kaufmann verkauft.",
+    "exampleIt": "Il commerciante vende."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "null",
+    "it": "zero",
+    "example": "Null ist das Anfang.",
+    "exampleIt": "Zero è l'inizio."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "eins",
+    "it": "uno",
+    "example": "Eins ist die erste Zahl.",
+    "exampleIt": "Uno è il primo numero."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "zehn",
+    "it": "dieci",
+    "example": "Zehn Finger habe ich.",
+    "exampleIt": "Ho dieci dita."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "hundert",
+    "it": "cento",
+    "example": "Hundert ist viel.",
+    "exampleIt": "Cento è tanto."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "tausend",
+    "it": "mille",
+    "example": "Tausend Jahre sind lange.",
+    "exampleIt": "Mille anni sono lunghi."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Minute",
+    "it": "minuto",
+    "example": "Eine Minute hat sechzig Sekunden.",
+    "exampleIt": "Un minuto ha sessanta secondi."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Stunde",
+    "it": "ora",
+    "example": "Eine Stunde hat sechzig Minuten.",
+    "exampleIt": "Un'ora ha sessanta minuti."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Tag",
+    "it": "giorno",
+    "example": "Ein Tag hat vierundzwanzig Stunden.",
+    "exampleIt": "Un giorno ha ventiquattro ore."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Woche",
+    "it": "settimana",
+    "example": "Eine Woche hat sieben Tage.",
+    "exampleIt": "Una settimana ha sette giorni."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Monat",
+    "it": "mese",
+    "example": "Ein Monat hat dreißig Tage.",
+    "exampleIt": "Un mese ha trenta giorni."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Jahr",
+    "it": "anno",
+    "example": "Ein Jahr hat zwölf Monate.",
+    "exampleIt": "Un anno ha dodici mesi."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Montag",
+    "it": "lunedì",
+    "example": "Der Montag ist der erste Arbeitstag.",
+    "exampleIt": "Il lunedì è il primo giorno di lavoro."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Dienstag",
+    "it": "martedì",
+    "example": "Dienstag ist der zweite Tag.",
+    "exampleIt": "Martedì è il secondo giorno."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Mittwoch",
+    "it": "mercoledì",
+    "example": "Mittwoch ist in der Mitte der Woche.",
+    "exampleIt": "Mercoledì è a metà della settimana."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Donnerstag",
+    "it": "giovedì",
+    "example": "Donnerstag ist der vierte Tag.",
+    "exampleIt": "Giovedì è il quarto giorno."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Freitag",
+    "it": "venerdì",
+    "example": "Freitag ist fast Wochenende.",
+    "exampleIt": "Venerdì è quasi weekend."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Samstag",
+    "it": "sabato",
+    "example": "Samstag ist frei.",
+    "exampleIt": "Sabato è libero."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Sonntag",
+    "it": "domenica",
+    "example": "Sonntag ruhe ich.",
+    "exampleIt": "Domenica riposo."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Uhrzeit",
+    "it": "ora",
+    "example": "Die Uhrzeit ist wichtig.",
+    "exampleIt": "L'ora è importante."
+  },
+  {
+    "level": "a1",
+    "category": "Numeri e tempo",
+    "de": "Sekunde",
+    "it": "secondo",
+    "example": "Eine Sekunde ist kurz.",
+    "exampleIt": "Un secondo è breve."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Freude",
+    "it": "gioia",
+    "example": "Die Freude ist groß.",
+    "exampleIt": "La gioia è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Trauer",
+    "it": "tristezza",
+    "example": "Die Trauer ist tief.",
+    "exampleIt": "La tristezza è profonda."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Angst",
+    "it": "paura",
+    "example": "Die Angst ist stark.",
+    "exampleIt": "La paura è forte."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Liebe",
+    "it": "amore",
+    "example": "Die Liebe ist wunderbar.",
+    "exampleIt": "L'amore è meraviglioso."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Wut",
+    "it": "rabbia",
+    "example": "Die Wut ist heftig.",
+    "exampleIt": "La rabbia è intensa."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Überraschung",
+    "it": "sorpresa",
+    "example": "Die Überraschung ist angenehm.",
+    "exampleIt": "La sorpresa è piacevole."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Hoffnung",
+    "it": "speranza",
+    "example": "Die Hoffnung ist lebendig.",
+    "exampleIt": "La speranza è viva."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Verzweiflung",
+    "it": "disperazione",
+    "example": "Die Verzweiflung ist groß.",
+    "exampleIt": "La disperazione è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Stolz",
+    "it": "orgoglio",
+    "example": "Der Stolz ist berechtigt.",
+    "exampleIt": "L'orgoglio è giustificato."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Scham",
+    "it": "vergogna",
+    "example": "Die Scham ist unangenehm.",
+    "exampleIt": "La vergogna è spiacevole."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Neid",
+    "it": "invidia",
+    "example": "Der Neid ist destructiv.",
+    "exampleIt": "L'invidia è distruttiva."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Eifersucht",
+    "it": "gelosia",
+    "example": "Die Eifersucht ist schmerzhaft.",
+    "exampleIt": "La gelosia è dolorosa."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Zufriedenheit",
+    "it": "contentezza",
+    "example": "Die Zufriedenheit ist wohltuend.",
+    "exampleIt": "La contentezza è gradevole."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Apathie",
+    "it": "apatia",
+    "example": "Die Apathie ist betrüblich.",
+    "exampleIt": "L'apatia è deprimente."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Verwirrung",
+    "it": "confusione",
+    "example": "Die Verwirrung ist groß.",
+    "exampleIt": "La confusione è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Vertrauen",
+    "it": "fiducia",
+    "example": "Das Vertrauen ist wichtig.",
+    "exampleIt": "La fiducia è importante."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Misstrauen",
+    "it": "sfiducia",
+    "example": "Das Misstrauen ist schädlich.",
+    "exampleIt": "La sfiducia è dannosa."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Mitleid",
+    "it": "compassione",
+    "example": "Das Mitleid ist natürlich.",
+    "exampleIt": "La compassione è naturale."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Empörung",
+    "it": "indignazione",
+    "example": "Die Empörung ist berechtigt.",
+    "exampleIt": "L'indignazione è giustificata."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "Vergnügen",
+    "it": "piacere",
+    "example": "Das Vergnügen ist pur.",
+    "exampleIt": "Il piacere è puro."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "glücklich",
+    "it": "felice",
+    "example": "Ich bin glücklich.",
+    "exampleIt": "Sono felice."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "traurig",
+    "it": "triste",
+    "example": "Ich bin traurig.",
+    "exampleIt": "Sono triste."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "wütend",
+    "it": "arrabbiato",
+    "example": "Ich bin wütend.",
+    "exampleIt": "Sono arrabbiato."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "überrascht",
+    "it": "sorpreso",
+    "example": "Ich bin überrascht.",
+    "exampleIt": "Sono sorpreso."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "müde",
+    "it": "stanco",
+    "example": "Ich bin müde.",
+    "exampleIt": "Sono stanco."
+  },
+  {
+    "level": "a1",
+    "category": "Emozioni base",
+    "de": "hungrig",
+    "it": "affamato",
+    "example": "Ich bin hungrig.",
+    "exampleIt": "Ho fame."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Apfel",
+    "it": "Mela",
+    "example": "Der Apfel ist rot.",
+    "exampleIt": "La mela è rossa."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Orange",
+    "it": "Arancia",
+    "example": "Die Orange ist süß.",
+    "exampleIt": "L'arancia è dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Banane",
+    "it": "Banana",
+    "example": "Die Banane ist gelb.",
+    "exampleIt": "La banana è gialla."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Tomate",
+    "it": "Pomodoro",
+    "example": "Die Tomate ist groß.",
+    "exampleIt": "Il pomodoro è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Gurke",
+    "it": "Cetriolo",
+    "example": "Die Gurke ist grün.",
+    "exampleIt": "Il cetriolo è verde."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Kartoffel",
+    "it": "Patata",
+    "example": "Die Kartoffel ist weiß.",
+    "exampleIt": "La patata è bianca."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Zwiebel",
+    "it": "Cipolla",
+    "example": "Die Zwiebel riecht.",
+    "exampleIt": "La cipolla odora."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Knoblauch",
+    "it": "Aglio",
+    "example": "Der Knoblauch ist scharf.",
+    "exampleIt": "L'aglio è pungente."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Salat",
+    "it": "Insalata",
+    "example": "Der Salat ist frisch.",
+    "exampleIt": "L'insalata è fresca."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Karotte",
+    "it": "Carota",
+    "example": "Die Karotte ist orange.",
+    "exampleIt": "La carota è arancione."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Paprika",
+    "it": "Peperone",
+    "example": "Der Paprika ist rot.",
+    "exampleIt": "Il peperone è rosso."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Zitrone",
+    "it": "Limone",
+    "example": "Die Zitrone ist sauer.",
+    "exampleIt": "Il limone è acido."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Trauben",
+    "it": "Uva",
+    "example": "Die Trauben sind süß.",
+    "exampleIt": "L'uva è dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Erdbeere",
+    "it": "Fragola",
+    "example": "Die Erdbeere ist rot.",
+    "exampleIt": "La fragola è rossa."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Broccoli",
+    "it": "Broccoli",
+    "example": "Der Broccoli ist grün.",
+    "exampleIt": "I broccoli sono verdi."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Stuhl",
+    "it": "Sedia",
+    "example": "Der Stuhl ist braun.",
+    "exampleIt": "La sedia è marrone."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Tisch",
+    "it": "Tavolo",
+    "example": "Der Tisch ist groß.",
+    "exampleIt": "Il tavolo è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Bett",
+    "it": "Letto",
+    "example": "Das Bett ist weich.",
+    "exampleIt": "Il letto è morbido."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Sofa",
+    "it": "Divano",
+    "example": "Das Sofa ist rot.",
+    "exampleIt": "Il divano è rosso."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Schrank",
+    "it": "Armadio",
+    "example": "Der Schrank ist groß.",
+    "exampleIt": "L'armadio è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Lampe",
+    "it": "Lampada",
+    "example": "Die Lampe ist hell.",
+    "exampleIt": "La lampada è luminosa."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Spiegel",
+    "it": "Specchio",
+    "example": "Der Spiegel ist groß.",
+    "exampleIt": "Lo specchio è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Teppich",
+    "it": "Tappeto",
+    "example": "Der Teppich ist weich.",
+    "exampleIt": "Il tappeto è morbido."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Vorhang",
+    "it": "Tenda",
+    "example": "Der Vorhang ist blau.",
+    "exampleIt": "La tenda è blu."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Fenster",
+    "it": "Finestra",
+    "example": "Das Fenster ist offen.",
+    "exampleIt": "La finestra è aperta."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Tür",
+    "it": "Porta",
+    "example": "Die Tür ist geschlossen.",
+    "exampleIt": "La porta è chiusa."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Regal",
+    "it": "Scaffale",
+    "example": "Das Regal ist voll.",
+    "exampleIt": "Lo scaffale è pieno."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Bild",
+    "it": "Quadro",
+    "example": "Das Bild ist schön.",
+    "exampleIt": "Il quadro è bello."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Uhr",
+    "it": "Orologio",
+    "example": "Die Uhr zeigt die Zeit.",
+    "exampleIt": "L'orologio mostra l'ora."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Kissen",
+    "it": "Cuscino",
+    "example": "Das Kissen ist weich.",
+    "exampleIt": "Il cuscino è morbido."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Decke",
+    "it": "Coperta",
+    "example": "Die Decke ist warm.",
+    "exampleIt": "La coperta è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Handtuch",
+    "it": "Asciugamano",
+    "example": "Das Handtuch ist sauber.",
+    "exampleIt": "L'asciugamano è pulito."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Kühlschrank",
+    "it": "Frigorifero",
+    "example": "Der Kühlschrank ist voll.",
+    "exampleIt": "Il frigorifero è pieno."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Herd",
+    "it": "Cucina",
+    "example": "Der Herd ist modern.",
+    "exampleIt": "La cucina è moderna."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Ofen",
+    "it": "Forno",
+    "example": "Der Ofen ist heiß.",
+    "exampleIt": "Il forno è caldo."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Dusche",
+    "it": "Doccia",
+    "example": "Die Dusche ist heiß.",
+    "exampleIt": "La doccia è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Badewanne",
+    "it": "Vasca da bagno",
+    "example": "Die Badewanne ist groß.",
+    "exampleIt": "La vasca da bagno è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Toilette",
+    "it": "Toilette",
+    "example": "Die Toilette ist sauber.",
+    "exampleIt": "La toilette è pulita."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Waschmaschine",
+    "it": "Lavatrice",
+    "example": "Die Waschmaschine läuft.",
+    "exampleIt": "La lavatrice funziona."
+  },
+  {
+    "level": "a1",
+    "category": "Möbel und Haushalt",
+    "de": "Trockner",
+    "it": "Asciugatrice",
+    "example": "Der Trockner trocknet.",
+    "exampleIt": "L'asciugatrice asciuga."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Sonne",
+    "it": "Sole",
+    "example": "Die Sonne scheint.",
+    "exampleIt": "Il sole splende."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Mond",
+    "it": "Luna",
+    "example": "Der Mond ist hell.",
+    "exampleIt": "La luna è luminosa."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Stern",
+    "it": "Stella",
+    "example": "Der Stern glänzt.",
+    "exampleIt": "La stella brilla."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Regen",
+    "it": "Pioggia",
+    "example": "Der Regen fällt.",
+    "exampleIt": "La pioggia cade."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Schnee",
+    "it": "Neve",
+    "example": "Der Schnee ist weiß.",
+    "exampleIt": "La neve è bianca."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Wind",
+    "it": "Vento",
+    "example": "Der Wind weht.",
+    "exampleIt": "Il vento soffia."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Wolke",
+    "it": "Nuvola",
+    "example": "Die Wolke ist grau.",
+    "exampleIt": "La nuvola è grigia."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Blitz",
+    "it": "Fulmine",
+    "example": "Der Blitz leuchtet.",
+    "exampleIt": "Il fulmine illumina."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Donner",
+    "it": "Tuono",
+    "example": "Der Donner ist laut.",
+    "exampleIt": "Il tuono è forte."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Baum",
+    "it": "Albero",
+    "example": "Der Baum ist groß.",
+    "exampleIt": "L'albero è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Blatt",
+    "it": "Foglia",
+    "example": "Das Blatt ist grün.",
+    "exampleIt": "La foglia è verde."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Blume",
+    "it": "Fiore",
+    "example": "Die Blume ist schön.",
+    "exampleIt": "Il fiore è bello."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Pflanze",
+    "it": "Pianta",
+    "example": "Die Pflanze braucht Wasser.",
+    "exampleIt": "La pianta ha bisogno di acqua."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Gras",
+    "it": "Erba",
+    "example": "Das Gras ist grün.",
+    "exampleIt": "L'erba è verde."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Wald",
+    "it": "Foresta",
+    "example": "Der Wald ist schön.",
+    "exampleIt": "La foresta è bella."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Berg",
+    "it": "Montagna",
+    "example": "Der Berg ist hoch.",
+    "exampleIt": "La montagna è alta."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "See",
+    "it": "Lago",
+    "example": "Der See ist groß.",
+    "exampleIt": "Il lago è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Fluss",
+    "it": "Fiume",
+    "example": "Der Fluss fließt.",
+    "exampleIt": "Il fiume scorre."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Strand",
+    "it": "Spiaggia",
+    "example": "Der Strand ist warm.",
+    "exampleIt": "La spiaggia è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Meer",
+    "it": "Mare",
+    "example": "Das Meer ist blau.",
+    "exampleIt": "Il mare è blu."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Welle",
+    "it": "Onda",
+    "example": "Die Welle ist groß.",
+    "exampleIt": "L'onda è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Insel",
+    "it": "Isola",
+    "example": "Die Insel ist schön.",
+    "exampleIt": "L'isola è bella."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Stein",
+    "it": "Pietra",
+    "example": "Der Stein ist hart.",
+    "exampleIt": "La pietra è dura."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Sand",
+    "it": "Sabbia",
+    "example": "Der Sand ist weich.",
+    "exampleIt": "La sabbia è morbida."
+  },
+  {
+    "level": "a1",
+    "category": "Wetter und Natur",
+    "de": "Himmel",
+    "it": "Cielo",
+    "example": "Der Himmel ist blau.",
+    "exampleIt": "Il cielo è blu."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Restaurant",
+    "it": "Ristorante",
+    "example": "Das Restaurant ist schön.",
+    "exampleIt": "Il ristorante è bello."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Serviette",
+    "it": "Tovagliolo",
+    "example": "Die Serviette ist weiß.",
+    "exampleIt": "Il tovagliolo è bianco."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Besteck",
+    "it": "Posate",
+    "example": "Das Besteck ist sauber.",
+    "exampleIt": "Le posate sono pulite."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Messer",
+    "it": "Coltello",
+    "example": "Das Messer ist scharf.",
+    "exampleIt": "Il coltello è affilato."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Gabel",
+    "it": "Forchetta",
+    "example": "Die Gabel ist klein.",
+    "exampleIt": "La forchetta è piccola."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Löffel",
+    "it": "Cucchiaio",
+    "example": "Der Löffel ist silberfarben.",
+    "exampleIt": "Il cucchiaio è argentato."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Teller",
+    "it": "Piatto",
+    "example": "Der Teller ist voll.",
+    "exampleIt": "Il piatto è pieno."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Schüssel",
+    "it": "Ciotola",
+    "example": "Die Schüssel ist groß.",
+    "exampleIt": "La ciotola è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Glas",
+    "it": "Bicchiere",
+    "example": "Das Glas ist voll.",
+    "exampleIt": "Il bicchiere è pieno."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Tasse",
+    "it": "Tazza",
+    "example": "Die Tasse ist heiß.",
+    "exampleIt": "La tazza è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Getränk",
+    "it": "Bevanda",
+    "example": "Das Getränk ist kalt.",
+    "exampleIt": "La bevanda è fredda."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Wasser",
+    "it": "Acqua",
+    "example": "Das Wasser ist kalt.",
+    "exampleIt": "L'acqua è fredda."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Brot",
+    "it": "Pane",
+    "example": "Das Brot ist frisch.",
+    "exampleIt": "Il pane è fresco."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Fleisch",
+    "it": "Carne",
+    "example": "Das Fleisch ist zart.",
+    "exampleIt": "La carne è tenera."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Fisch",
+    "it": "Pesce",
+    "example": "Der Fisch ist frisch.",
+    "exampleIt": "Il pesce è fresco."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Suppe",
+    "it": "Minestra",
+    "example": "Die Suppe ist heiß.",
+    "exampleIt": "La minestra è calda."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Nachtisch",
+    "it": "Dessert",
+    "example": "Der Nachtisch ist süß.",
+    "exampleIt": "Il dessert è dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Rechnung",
+    "it": "Conto",
+    "example": "Die Rechnung ist hoch.",
+    "exampleIt": "Il conto è caro."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Kellner",
+    "it": "Cameriere",
+    "example": "Der Kellner ist freundlich.",
+    "exampleIt": "Il cameriere è gentile."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Menü",
+    "it": "Menu",
+    "example": "Das Menü ist interessant.",
+    "exampleIt": "Il menu è interessante."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Preis",
+    "it": "Prezzo",
+    "example": "Der Preis ist fair.",
+    "exampleIt": "Il prezzo è giusto."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Tipp",
+    "it": "Mancia",
+    "example": "Der Tipp ist großzügig.",
+    "exampleIt": "La mancia è generosa."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Gast",
+    "it": "Ospite",
+    "example": "Der Gast ist zufrieden.",
+    "exampleIt": "L'ospite è soddisfatto."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Speise",
+    "it": "Piatto",
+    "example": "Die Speise ist lecker.",
+    "exampleIt": "Il piatto è delizioso."
+  },
+  {
+    "level": "a1",
+    "category": "Im Restaurant",
+    "de": "Kaffee",
+    "it": "Caffè",
+    "example": "Der Kaffee ist heiß.",
+    "exampleIt": "Il caffè è caldo."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Sport",
+    "it": "Sport",
+    "example": "Sport ist gesund.",
+    "exampleIt": "Lo sport è sano."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Fußball",
+    "it": "Calcio",
+    "example": "Fußball ist populär.",
+    "exampleIt": "Il calcio è popolare."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Tennis",
+    "it": "Tennis",
+    "example": "Tennis ist schwer.",
+    "exampleIt": "Il tennis è difficile."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Schwimmen",
+    "it": "Nuoto",
+    "example": "Schwimmen macht Spaß.",
+    "exampleIt": "Il nuoto è divertente."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Radfahren",
+    "it": "Ciclismo",
+    "example": "Radfahren ist schön.",
+    "exampleIt": "Il ciclismo è bello."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Laufen",
+    "it": "Corsa",
+    "example": "Laufen ist anstrengend.",
+    "exampleIt": "La corsa è faticosa."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Wandern",
+    "it": "Escursionismo",
+    "example": "Wandern ist erholsam.",
+    "exampleIt": "L'escursionismo è rilassante."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Musik",
+    "it": "Musica",
+    "example": "Musik ist schön.",
+    "exampleIt": "La musica è bella."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Gitarre",
+    "it": "Chitarra",
+    "example": "Die Gitarre ist groß.",
+    "exampleIt": "La chitarra è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Klavier",
+    "it": "Pianoforte",
+    "example": "Das Klavier ist schwarz.",
+    "exampleIt": "Il pianoforte è nero."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Singen",
+    "it": "Canto",
+    "example": "Singen ist Freude.",
+    "exampleIt": "Il canto è gioia."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Lesen",
+    "it": "Lettura",
+    "example": "Lesen ist interessant.",
+    "exampleIt": "La lettura è interessante."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Malen",
+    "it": "Pittura",
+    "example": "Malen ist kreativ.",
+    "exampleIt": "La pittura è creativa."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Zeichnen",
+    "it": "Disegno",
+    "example": "Zeichnen macht Spaß.",
+    "exampleIt": "Il disegno è divertente."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Tanz",
+    "it": "Danza",
+    "example": "Der Tanz ist schön.",
+    "exampleIt": "La danza è bella."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Film",
+    "it": "Film",
+    "example": "Der Film ist gut.",
+    "exampleIt": "Il film è buono."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Fernsehen",
+    "it": "Televisione",
+    "example": "Fernsehen ist entspannend.",
+    "exampleIt": "La televisione è rilassante."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Spiel",
+    "it": "Gioco",
+    "example": "Das Spiel ist spaßig.",
+    "exampleIt": "Il gioco è divertente."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Schach",
+    "it": "Scacchi",
+    "example": "Schach ist intelligent.",
+    "exampleIt": "Gli scacchi sono intelligenti."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Kochen",
+    "it": "Cucina",
+    "example": "Kochen macht Spaß.",
+    "exampleIt": "La cucina è divertente."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Garten",
+    "it": "Giardinaggio",
+    "example": "Der Garten ist schön.",
+    "exampleIt": "Il giardinaggio è bello."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Fotografieren",
+    "it": "Fotografia",
+    "example": "Fotografieren ist interessant.",
+    "exampleIt": "La fotografia è interessante."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Sammeln",
+    "it": "Raccolta",
+    "example": "Sammeln ist ein Hobby.",
+    "exampleIt": "La raccolta è un hobby."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Nähen",
+    "it": "Cucito",
+    "example": "Nähen ist handwerklich.",
+    "exampleIt": "Il cucito è manuale."
+  },
+  {
+    "level": "a1",
+    "category": "Hobbys",
+    "de": "Häkeln",
+    "it": "Uncinetto",
+    "example": "Häkeln ist entspannend.",
+    "exampleIt": "L'uncinetto è rilassante."
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Was",
+    "it": "Cosa",
+    "example": "Was ist das?",
+    "exampleIt": "Cos'è questo?"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Wer",
+    "it": "Chi",
+    "example": "Wer ist das?",
+    "exampleIt": "Chi è questo?"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Wo",
+    "it": "Dove",
+    "example": "Wo bist du?",
+    "exampleIt": "Dove sei?"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Wann",
+    "it": "Quando",
+    "example": "Wann kommst du?",
+    "exampleIt": "Quando vieni?"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Warum",
+    "it": "Perché",
+    "example": "Warum fragst du?",
+    "exampleIt": "Perché chiedi?"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Wie",
+    "it": "Come",
+    "example": "Wie heißt du?",
+    "exampleIt": "Come ti chiami?"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Welch",
+    "it": "Quale",
+    "example": "Welches Buch magst du?",
+    "exampleIt": "Quale libro ti piace?"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Ja",
+    "it": "Sì",
+    "example": "Ja, ich bin einverstanden.",
+    "exampleIt": "Sì, sono d'accordo."
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Nein",
+    "it": "No",
+    "example": "Nein, das ist nicht richtig.",
+    "exampleIt": "No, non è corretto."
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Vielleicht",
+    "it": "Forse",
+    "example": "Vielleicht später.",
+    "exampleIt": "Forse dopo."
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Danke",
+    "it": "Grazie",
+    "example": "Danke dir!",
+    "exampleIt": "Grazie a te!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Bitte",
+    "it": "Per favore",
+    "example": "Bitte komm!",
+    "exampleIt": "Per favore vieni!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Entschuldigung",
+    "it": "Mi scusi",
+    "example": "Entschuldigung, ich bin zu spät.",
+    "exampleIt": "Mi scusi, sono in ritardo."
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Keine Ursache",
+    "it": "Prego",
+    "example": "Danke! - Keine Ursache!",
+    "exampleIt": "Grazie! - Prego!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Viel Erfolg",
+    "it": "Buona fortuna",
+    "example": "Viel Erfolg beim Test!",
+    "exampleIt": "Buona fortuna con il test!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Alles Gute",
+    "it": "Auguri",
+    "example": "Alles Gute zum Geburtstag!",
+    "exampleIt": "Auguri per il compleanno!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Viel Spaß",
+    "it": "Divertiti",
+    "example": "Viel Spaß im Urlaub!",
+    "exampleIt": "Divertiti in vacanza!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Gute Nacht",
+    "it": "Buonanotte",
+    "example": "Gute Nacht, schlaf gut!",
+    "exampleIt": "Buonanotte, dormi bene!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Auf Wiedersehen",
+    "it": "Arrivederci",
+    "example": "Auf Wiedersehen bis morgen!",
+    "exampleIt": "Arrivederci a domani!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Bis bald",
+    "it": "A presto",
+    "example": "Bis bald mein Freund!",
+    "exampleIt": "A presto mio amico!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Gute Reise",
+    "it": "Buon viaggio",
+    "example": "Gute Reise nach Italien!",
+    "exampleIt": "Buon viaggio in Italia!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Gute Besserung",
+    "it": "Guaririsci presto",
+    "example": "Gute Besserung!",
+    "exampleIt": "Guaririsci presto!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Herzlich Willkommen",
+    "it": "Benvenuto",
+    "example": "Herzlich Willkommen zuhause!",
+    "exampleIt": "Benvenuto a casa!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Frohe Weihnachten",
+    "it": "Buon Natale",
+    "example": "Frohe Weihnachten!",
+    "exampleIt": "Buon Natale!"
+  },
+  {
+    "level": "a1",
+    "category": "Fragen und Antworten",
+    "de": "Schlaf gut",
+    "it": "Dormi bene",
+    "example": "Schlaf gut!",
+    "exampleIt": "Dormi bene!"
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Apfel",
+    "it": "Mela",
+    "example": "Der Apfel ist rot.",
+    "exampleIt": "La mela è rossa."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Orange",
+    "it": "Arancia",
+    "example": "Die Orange ist süß.",
+    "exampleIt": "L'arancia è dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Banane",
+    "it": "Banana",
+    "example": "Die Banane ist gelb.",
+    "exampleIt": "La banana è gialla."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Tomate",
+    "it": "Pomodoro",
+    "example": "Die Tomate ist groß.",
+    "exampleIt": "Il pomodoro è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Gurke",
+    "it": "Cetriolo",
+    "example": "Die Gurke ist grün.",
+    "exampleIt": "Il cetriolo è verde."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Kartoffel",
+    "it": "Patata",
+    "example": "Die Kartoffel ist weiß.",
+    "exampleIt": "La patata è bianca."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Zwiebel",
+    "it": "Cipolla",
+    "example": "Die Zwiebel riecht.",
+    "exampleIt": "La cipolla odora."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Knoblauch",
+    "it": "Aglio",
+    "example": "Der Knoblauch ist scharf.",
+    "exampleIt": "L'aglio è pungente."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Salat",
+    "it": "Insalata",
+    "example": "Der Salat ist frisch.",
+    "exampleIt": "L'insalata è fresca."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Karotte",
+    "it": "Carota",
+    "example": "Die Karotte ist orange.",
+    "exampleIt": "La carota è arancione."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Paprika",
+    "it": "Peperone",
+    "example": "Der Paprika ist rot.",
+    "exampleIt": "Il peperone è rosso."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Zitrone",
+    "it": "Limone",
+    "example": "Die Zitrone ist sauer.",
+    "exampleIt": "Il limone è acido."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Trauben",
+    "it": "Uva",
+    "example": "Die Trauben sind süß.",
+    "exampleIt": "L'uva è dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Erdbeere",
+    "it": "Fragola",
+    "example": "Die Erdbeere ist rot.",
+    "exampleIt": "La fragola è rossa."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Broccoli",
+    "it": "Broccoli",
+    "example": "Der Broccoli ist grün.",
+    "exampleIt": "I broccoli sono verdi."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Spinat",
+    "it": "Spinaci",
+    "example": "Der Spinat ist gesund.",
+    "exampleIt": "Gli spinaci sono sani."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Bohne",
+    "it": "Fagiolo",
+    "example": "Die Bohne ist grün.",
+    "exampleIt": "Il fagiolo è verde."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Erbse",
+    "it": "Pisello",
+    "example": "Die Erbse ist klein.",
+    "exampleIt": "Il pisello è piccolo."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Kürbis",
+    "it": "Zucca",
+    "example": "Der Kürbis ist groß.",
+    "exampleIt": "La zucca è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Pfirsich",
+    "it": "Pesca",
+    "example": "Der Pfirsich ist süß.",
+    "exampleIt": "La pesca è dolce."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Kiwi",
+    "it": "Kiwi",
+    "example": "Die Kiwi ist grün.",
+    "exampleIt": "Il kiwi è verde."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Mango",
+    "it": "Mango",
+    "example": "Die Mango ist gelb.",
+    "exampleIt": "Il mango è giallo."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Ananas",
+    "it": "Ananas",
+    "example": "Die Ananas ist groß.",
+    "exampleIt": "L'ananas è grande."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Kokosnuss",
+    "it": "Noce di cocco",
+    "example": "Die Kokosnuss ist braun.",
+    "exampleIt": "La noce di cocco è marrone."
+  },
+  {
+    "level": "a1",
+    "category": "Obst und Gemüse",
+    "de": "Blumenkohl",
+    "it": "Cavolfiore",
+    "example": "Der Blumenkahl ist weiß.",
+    "exampleIt": "Il cavolfiore è bianco."
+  },
+  {
+    "level": "a2",
+    "category": "Freizeit",
+    "de": "Film",
+    "it": "",
+    "example": "Der Film ist interessant.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Freizeit",
+    "de": "Hobby",
+    "it": "",
+    "example": "Mein Hobby ist Lesen.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Reisen",
+    "de": "Hotel",
+    "it": "",
+    "example": "Das Hotel ist komfortabel.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Kommunikation",
+    "de": "Internet",
+    "it": "",
+    "example": "Das Internet ist schnell.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Kommunikation",
+    "de": "Computer",
+    "it": "",
+    "example": "Der Computer ist neu.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Tecnologia base",
+    "de": "Internet",
+    "it": "",
+    "example": "Das Internet ist schnell.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Computer",
+    "it": "",
+    "example": "Der Computer ist schnell.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Internet",
+    "it": "",
+    "example": "Das Internet ist nützlich.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Email",
+    "it": "",
+    "example": "Die Email ist wichtig.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Radio",
+    "it": "",
+    "example": "Das Radio spielt Musik.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Film",
+    "it": "",
+    "example": "Der Film ist spannend.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Video",
+    "it": "",
+    "example": "Das Video ist lang.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Foto",
+    "it": "",
+    "example": "Das Foto ist scharf.",
+    "exampleIt": ""
+  },
+  {
+    "level": "a2",
+    "category": "Medien und Internet",
+    "de": "Browser",
+    "it": "",
+    "example": "Der Browser ist schnell.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Medien",
+    "de": "online",
+    "it": "",
+    "example": "Der Artikel ist online.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Kunst und Literatur",
+    "de": "Prosa",
+    "it": "",
+    "example": "Die Prosa ist elegant.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Finanzwelt",
+    "de": "Budget",
+    "it": "",
+    "example": "Das Budget ist limitiert.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Landwirtschaft",
+    "de": "Mais",
+    "it": "",
+    "example": "Der Mais ist gelb.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Soziale Medien",
+    "de": "Follower",
+    "it": "",
+    "example": "Der Follower interessiert sich.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Soziale Medien",
+    "de": "Hashtag",
+    "it": "",
+    "example": "Das Hashtag ist populär.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Soziale Medien",
+    "de": "Chat",
+    "it": "",
+    "example": "Der Chat ist schnell.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Soziale Medien",
+    "de": "Reel",
+    "it": "",
+    "example": "Das Reel ist viral.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b1",
+    "category": "Soziale Medien",
+    "de": "Influencer",
+    "it": "",
+    "example": "Der Influencer ist beliebt.",
+    "exampleIt": ""
+  },
+  {
+    "level": "b2",
+    "category": "Wirtschaft",
+    "de": "Budget",
+    "it": "Budget",
+    "example": "Das Budget ist begrenzt.",
+    "exampleIt": "Il budget è limitato."
+  },
+  {
+    "level": "b2",
+    "category": "Politik",
+    "de": "Bundestag",
+    "it": "Bundestag",
+    "example": "Der Bundestag debattiert.",
+    "exampleIt": "Il Bundestag dibatte."
+  },
+  {
+    "level": "b2",
+    "category": "Politik",
+    "de": "Bundesrat",
+    "it": "Bundesrat",
+    "example": "Der Bundesrat stimmt zu.",
+    "exampleIt": "Il Bundesrat approva."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Computer",
+    "it": "Computer",
+    "example": "Der Computer ist schnell.",
+    "exampleIt": "Il computer è veloce."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Software",
+    "it": "Software",
+    "example": "Die Software ist zuverlässig.",
+    "exampleIt": "Il software è affidabile."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Hardware",
+    "it": "Hardware",
+    "example": "Die Hardware ist robust.",
+    "exampleIt": "L'hardware è robusto."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Server",
+    "it": "Server",
+    "example": "Der Server ist sicher.",
+    "exampleIt": "Il server è sicuro."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Internet",
+    "it": "Internet",
+    "example": "Das Internet ist allgegenwärtig.",
+    "exampleIt": "Internet è onnipresente."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Cloud",
+    "it": "Cloud",
+    "example": "Die Cloud speichert Daten.",
+    "exampleIt": "Il cloud memorizza i dati."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Virus",
+    "it": "Virus",
+    "example": "Der Virus ist gefährlich.",
+    "exampleIt": "Il virus è pericoloso."
+  },
+  {
+    "level": "b2",
+    "category": "Technologie und Innovation",
+    "de": "Firewall",
+    "it": "Firewall",
+    "example": "Die Firewall schützt den Computer.",
+    "exampleIt": "Il firewall protegge il computer."
+  },
+  {
+    "level": "b2",
+    "category": "Soziologie",
+    "de": "Status",
+    "it": "Status",
+    "example": "Der Status ist wichtig.",
+    "exampleIt": "Lo status è importante."
+  },
+  {
+    "level": "b2",
+    "category": "Energiepolitik",
+    "de": "Gas",
+    "it": "Gas",
+    "example": "Das Gas ist leicht entzündbar.",
+    "exampleIt": "Il gas è facilmente infiammabile."
+  },
+  {
+    "level": "c1",
+    "category": "Akademie",
+    "de": "Paradigma",
+    "it": "Paradigma",
+    "example": "Das Paradigma wechselt.",
+    "exampleIt": "Il paradigma cambia."
+  },
+  {
+    "level": "c1",
+    "category": "Economia avanzata",
+    "de": "ROI",
+    "it": "ROI",
+    "example": "Der ROI ist wichtig.",
+    "exampleIt": "L'ROI è importante."
+  },
+  {
+    "level": "c1",
+    "category": "Ingegneria",
+    "de": "CAD",
+    "it": "CAD",
+    "example": "CAD erleichtert Design.",
+    "exampleIt": "Il CAD facilita il design."
+  },
+  {
+    "level": "c1",
+    "category": "Umweltwissenschaft",
+    "de": "Habitat",
+    "it": "Habitat",
+    "example": "Der Habitat ist lebenswichtig.",
+    "exampleIt": "L'habitat è vitale."
+  },
+  {
+    "level": "c2",
+    "category": "Hermeneutik",
+    "de": "Gadamer",
+    "it": "Gadamer",
+    "example": "Gadamer revolutioniert die Hermeneutik.",
+    "exampleIt": "Gadamer rivoluziona l'ermeneutica."
+  },
+  {
+    "level": "c2",
+    "category": "Semiotik",
+    "de": "Peirce",
+    "it": "Peirce",
+    "example": "Peirce begründet Semiotik.",
+    "exampleIt": "Peirce fonda la semiotica."
+  },
+  {
+    "level": "c2",
+    "category": "Rechtsphilosophie",
+    "de": "Rawls",
+    "it": "Rawls",
+    "example": "Rawls entwickelt Theorie der Gerechtigkeit.",
+    "exampleIt": "Rawls sviluppa una teoria della giustizia."
+  },
+  {
+    "level": "c2",
+    "category": "Quantenphysik",
+    "de": "Spin",
+    "it": "Spin",
+    "example": "Der Spin ist intrinsisch.",
+    "exampleIt": "Lo spin è intrinseco."
+  },
+  {
+    "level": "c2",
+    "category": "Quantenphysik",
+    "de": "Schrödinger",
+    "it": "Schrödinger",
+    "example": "Schrödinger begründet Wellenmechanik.",
+    "exampleIt": "Schrödinger fonda la meccanica ondulatoria."
+  },
+  {
+    "level": "c2",
+    "category": "Quantenphysik",
+    "de": "Heisenberg",
+    "it": "Heisenberg",
+    "example": "Heisenberg entwickelt Matrizenmechanik.",
+    "exampleIt": "Heisenberg sviluppa la meccanica matriciale."
+  }
+]

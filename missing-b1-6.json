@@ -1,0 +1,722 @@
+[
+  {
+    "german": "lagern",
+    "italian": "immagazzinare"
+  },
+  {
+    "german": "verstauen",
+    "italian": "riporre"
+  },
+  {
+    "german": "verbergen",
+    "italian": "celare"
+  },
+  {
+    "german": "wagen",
+    "italian": "osare"
+  },
+  {
+    "german": "riskieren",
+    "italian": "rischiare"
+  },
+  {
+    "german": "misslingen",
+    "italian": "fallire"
+  },
+  {
+    "german": "scheitern",
+    "italian": "fallire"
+  },
+  {
+    "german": "versagen",
+    "italian": "fallire"
+  },
+  {
+    "german": "missfallen",
+    "italian": "dispiacere"
+  },
+  {
+    "german": "belästigen",
+    "italian": "infastidire"
+  },
+  {
+    "german": "erfreuen",
+    "italian": "rallegrare"
+  },
+  {
+    "german": "das Gästehaus",
+    "italian": "la guesthouse"
+  },
+  {
+    "german": "zelten",
+    "italian": "campeggiare in tenda"
+  },
+  {
+    "german": "die Lobby",
+    "italian": "la lobby"
+  },
+  {
+    "german": "das Zweibettzimmer",
+    "italian": "la camera con due letti"
+  },
+  {
+    "german": "die Suite",
+    "italian": "la suite"
+  },
+  {
+    "german": "das Familienzimmer",
+    "italian": "la camera familiare"
+  },
+  {
+    "german": "die Stornierung",
+    "italian": "la cancellazione"
+  },
+  {
+    "german": "das Frühstücksbuffet",
+    "italian": "il buffet della colazione"
+  },
+  {
+    "german": "der Zimmerservice",
+    "italian": "il servizio in camera"
+  },
+  {
+    "german": "die Minibar",
+    "italian": "il minibar"
+  },
+  {
+    "german": "der Safe",
+    "italian": "la cassaforte"
+  },
+  {
+    "german": "die Schlüsselkarte",
+    "italian": "la chiave magnetica"
+  },
+  {
+    "german": "der Kurzurlaub",
+    "italian": "il weekend lungo"
+  },
+  {
+    "german": "die Hauptsaison",
+    "italian": "l'alta stagione"
+  },
+  {
+    "german": "die Nebensaison",
+    "italian": "la bassa stagione"
+  },
+  {
+    "german": "das Sterne-Hotel",
+    "italian": "l'hotel a stelle"
+  },
+  {
+    "german": "luxuriös",
+    "italian": "lussuoso"
+  },
+  {
+    "german": "der Luxus",
+    "italian": "il lusso"
+  },
+  {
+    "german": "der Wellness-Bereich",
+    "italian": "l'area wellness"
+  },
+  {
+    "german": "der Leuchtturm",
+    "italian": "il faro"
+  },
+  {
+    "german": "die Savanne",
+    "italian": "la savana"
+  },
+  {
+    "german": "die Ruine",
+    "italian": "le rovine"
+  },
+  {
+    "german": "das Konzerthaus",
+    "italian": "la sala concerti"
+  },
+  {
+    "german": "der botanische Garten",
+    "italian": "il giardino botanico"
+  },
+  {
+    "german": "der Aussichtspunkt",
+    "italian": "il belvedere"
+  },
+  {
+    "german": "der Panoramablick",
+    "italian": "la vista panoramica"
+  },
+  {
+    "german": "die Skyline",
+    "italian": "lo skyline"
+  },
+  {
+    "german": "der Fernsehturm",
+    "italian": "la torre della TV"
+  },
+  {
+    "german": "die Promenade",
+    "italian": "il lungomare"
+  },
+  {
+    "german": "der Strandkorb",
+    "italian": "la poltrona da spiaggia"
+  },
+  {
+    "german": "die Sonnenliege",
+    "italian": "il lettino"
+  },
+  {
+    "german": "sonnenbaden",
+    "italian": "prendere il sole"
+  },
+  {
+    "german": "das Touristeninformationszentrum",
+    "italian": "l'ufficio turistico"
+  },
+  {
+    "german": "sich erkundigen",
+    "italian": "informarsi"
+  },
+  {
+    "german": "der Genuss",
+    "italian": "il piacere"
+  },
+  {
+    "german": "schnorcheln",
+    "italian": "fare snorkeling"
+  },
+  {
+    "german": "segeln",
+    "italian": "andare a vela"
+  },
+  {
+    "german": "paddeln",
+    "italian": "pagaiare"
+  },
+  {
+    "german": "die Angel",
+    "italian": "la canna da pesca"
+  },
+  {
+    "german": "der Bergsteiger",
+    "italian": "l'alpinista"
+  },
+  {
+    "german": "die Bergsteigerin",
+    "italian": "l'alpinista"
+  },
+  {
+    "german": "das Skigebiet",
+    "italian": "il comprensorio sciistico"
+  },
+  {
+    "german": "die Seilbahn",
+    "italian": "la funivia"
+  },
+  {
+    "german": "rodeln",
+    "italian": "slittare"
+  },
+  {
+    "german": "die Eisbahn",
+    "italian": "la pista di pattinaggio"
+  },
+  {
+    "german": "golfen",
+    "italian": "giocare a golf"
+  },
+  {
+    "german": "der Golfplatz",
+    "italian": "il campo da golf"
+  },
+  {
+    "german": "das Bungee-Jumping",
+    "italian": "il bungee jumping"
+  },
+  {
+    "german": "die Safari",
+    "italian": "il safari"
+  },
+  {
+    "german": "die Wildnis",
+    "italian": "la natura selvaggia"
+  },
+  {
+    "german": "die Künstliche Intelligenz",
+    "italian": "l'intelligenza artificiale"
+  },
+  {
+    "german": "der Algorithmus",
+    "italian": "l'algoritmo"
+  },
+  {
+    "german": "die Cloud",
+    "italian": "il cloud"
+  },
+  {
+    "german": "das Netzwerk",
+    "italian": "la rete"
+  },
+  {
+    "german": "die Verschlüsselung",
+    "italian": "la crittografia"
+  },
+  {
+    "german": "die Festplatte",
+    "italian": "il disco rigido"
+  },
+  {
+    "german": "der Bildschirm",
+    "italian": "lo schermo"
+  },
+  {
+    "german": "die Tastatur",
+    "italian": "la tastiera"
+  },
+  {
+    "german": "der Drucker",
+    "italian": "la stampante"
+  },
+  {
+    "german": "der Scanner",
+    "italian": "lo scanner"
+  },
+  {
+    "german": "die Wirtschaft",
+    "italian": "l'economia"
+  },
+  {
+    "german": "die Rezession",
+    "italian": "la recessione"
+  },
+  {
+    "german": "die Aktie",
+    "italian": "l'azione"
+  },
+  {
+    "german": "der Gewinn",
+    "italian": "il profitto"
+  },
+  {
+    "german": "der Verlust",
+    "italian": "la perdita"
+  },
+  {
+    "german": "die Steuer",
+    "italian": "la tassa"
+  },
+  {
+    "german": "das Gehalt",
+    "italian": "lo stipendio"
+  },
+  {
+    "german": "die Rente",
+    "italian": "la pensione"
+  },
+  {
+    "german": "die Versicherung",
+    "italian": "l'assicurazione"
+  },
+  {
+    "german": "der Kredit",
+    "italian": "il credito"
+  },
+  {
+    "german": "die Hypothek",
+    "italian": "il mutuo"
+  },
+  {
+    "german": "die Schulden",
+    "italian": "i debiti"
+  },
+  {
+    "german": "das Gehirn",
+    "italian": "il cervello"
+  },
+  {
+    "german": "der Muskel",
+    "italian": "il muscolo"
+  },
+  {
+    "german": "der Knochen",
+    "italian": "l'osso"
+  },
+  {
+    "german": "das Blut",
+    "italian": "il sangue"
+  },
+  {
+    "german": "die Haut",
+    "italian": "la pelle"
+  },
+  {
+    "german": "die Operation",
+    "italian": "l'operazione"
+  },
+  {
+    "german": "das Rezept",
+    "italian": "la ricetta medica"
+  },
+  {
+    "german": "die Spritze",
+    "italian": "la siringa"
+  },
+  {
+    "german": "das Gesetz",
+    "italian": "la legge"
+  },
+  {
+    "german": "das Gericht",
+    "italian": "il tribunale"
+  },
+  {
+    "german": "der Zeuge",
+    "italian": "il testimone"
+  },
+  {
+    "german": "die Strafe",
+    "italian": "la pena"
+  },
+  {
+    "german": "die Klage",
+    "italian": "la denuncia"
+  },
+  {
+    "german": "das Verbrechen",
+    "italian": "il crimine"
+  },
+  {
+    "german": "der Diebstahl",
+    "italian": "il furto"
+  },
+  {
+    "german": "der Betrug",
+    "italian": "la truffa"
+  },
+  {
+    "german": "die Geldstrafe",
+    "italian": "la multa"
+  },
+  {
+    "german": "das Gefängnis",
+    "italian": "la prigione"
+  },
+  {
+    "german": "die Freiheit",
+    "italian": "la libertà"
+  },
+  {
+    "german": "die Erneuerbare Energie",
+    "italian": "l'energia rinnovabile"
+  },
+  {
+    "german": "der Abfall",
+    "italian": "il rifiuto"
+  },
+  {
+    "german": "die Recycling",
+    "italian": "il riciclo"
+  },
+  {
+    "german": "die Wüste",
+    "italian": "il deserto"
+  },
+  {
+    "german": "die Vorspeise",
+    "italian": "l'antipasto"
+  },
+  {
+    "german": "die Nachspeise",
+    "italian": "il dolce"
+  },
+  {
+    "german": "die Beilage",
+    "italian": "il contorno"
+  },
+  {
+    "german": "die Soße",
+    "italian": "la salsa"
+  },
+  {
+    "german": "der Braten",
+    "italian": "l'arrosto"
+  },
+  {
+    "german": "das Hähnchen",
+    "italian": "il pollo"
+  },
+  {
+    "german": "das Rindfleisch",
+    "italian": "la carne di manzo"
+  },
+  {
+    "german": "das Schweinefleisch",
+    "italian": "la carne di maiale"
+  },
+  {
+    "german": "der Lachs",
+    "italian": "il salmone"
+  },
+  {
+    "german": "der Knoblauch",
+    "italian": "l'aglio"
+  },
+  {
+    "german": "die Freude",
+    "italian": "la gioia"
+  },
+  {
+    "german": "die Trauer",
+    "italian": "la tristezza"
+  },
+  {
+    "german": "die Wut",
+    "italian": "la rabbia"
+  },
+  {
+    "german": "die Angst",
+    "italian": "la paura"
+  },
+  {
+    "german": "die Überraschung",
+    "italian": "la sorpresa"
+  },
+  {
+    "german": "die Hoffnung",
+    "italian": "la speranza"
+  },
+  {
+    "german": "Qualifikation",
+    "italian": "qualifica"
+  },
+  {
+    "german": "Weiterbildung",
+    "italian": "formazione continua"
+  },
+  {
+    "german": "Praktikum",
+    "italian": "tirocinio"
+  },
+  {
+    "german": "Probezeit",
+    "italian": "periodo di prova"
+  },
+  {
+    "german": "Teilzeit",
+    "italian": "part-time"
+  },
+  {
+    "german": "Vollzeit",
+    "italian": "full-time"
+  },
+  {
+    "german": "Zeugnis",
+    "italian": "certificato/attestato"
+  },
+  {
+    "german": "Wirtschaft",
+    "italian": "economia"
+  },
+  {
+    "german": "Preis",
+    "italian": "prezzo"
+  },
+  {
+    "german": "Verlust",
+    "italian": "perdita"
+  },
+  {
+    "german": "Umsatz",
+    "italian": "fatturato"
+  },
+  {
+    "german": "Steuer",
+    "italian": "tassa/imposta"
+  },
+  {
+    "german": "Wachstum",
+    "italian": "crescita"
+  },
+  {
+    "german": "Wettbewerb",
+    "italian": "concorrenza"
+  },
+  {
+    "german": "Unternehmen",
+    "italian": "azienda"
+  },
+  {
+    "german": "Verbraucher",
+    "italian": "consumatore"
+  },
+  {
+    "german": "Regierung",
+    "italian": "governo"
+  },
+  {
+    "german": "Wahl",
+    "italian": "elezione"
+  },
+  {
+    "german": "Recht",
+    "italian": "diritto"
+  },
+  {
+    "german": "Protest",
+    "italian": "protesta"
+  },
+  {
+    "german": "Reform",
+    "italian": "riforma"
+  },
+  {
+    "german": "Opposition",
+    "italian": "opposizione"
+  },
+  {
+    "german": "Umweltverschmutzung",
+    "italian": "inquinamento"
+  },
+  {
+    "german": "Treibhauseffekt",
+    "italian": "effetto serra"
+  },
+  {
+    "german": "erneuerbare Energie",
+    "italian": "energia rinnovabile"
+  },
+  {
+    "german": "Solarenergie",
+    "italian": "energia solare"
+  },
+  {
+    "german": "Windenergie",
+    "italian": "energia eolica"
+  },
+  {
+    "german": "Recycling",
+    "italian": "riciclaggio"
+  },
+  {
+    "german": "Mülltrennung",
+    "italian": "raccolta differenziata"
+  },
+  {
+    "german": "Verpackung",
+    "italian": "imballaggio"
+  },
+  {
+    "german": "Plastik",
+    "italian": "plastica"
+  },
+  {
+    "german": "Verschwendung",
+    "italian": "spreco"
+  },
+  {
+    "german": "Ressource",
+    "italian": "risorsa"
+  },
+  {
+    "german": "Therapie",
+    "italian": "terapia"
+  },
+  {
+    "german": "Vorsorge",
+    "italian": "prevenzione"
+  },
+  {
+    "german": "Rehabilitation",
+    "italian": "riabilitazione"
+  },
+  {
+    "german": "Versichertenkarte",
+    "italian": "tessera sanitaria"
+  },
+  {
+    "german": "Zuzahlung",
+    "italian": "ticket sanitario"
+  },
+  {
+    "german": "Vermieter",
+    "italian": "locatore"
+  },
+  {
+    "german": "Wohnungsanzeige",
+    "italian": "annuncio immobiliare"
+  },
+  {
+    "german": "Quadratmeter",
+    "italian": "metro quadro"
+  },
+  {
+    "german": "möbliert",
+    "italian": "ammobiliato"
+  },
+  {
+    "german": "unmöbliert",
+    "italian": "non ammobiliato"
+  },
+  {
+    "german": "renovieren",
+    "italian": "ristrutturare"
+  },
+  {
+    "german": "Studium",
+    "italian": "studi universitari"
+  },
+  {
+    "german": "Universität",
+    "italian": "università"
+  },
+  {
+    "german": "Semester",
+    "italian": "semestre"
+  },
+  {
+    "german": "Vorlesung",
+    "italian": "lezione universitaria"
+  },
+  {
+    "german": "Seminar",
+    "italian": "seminario"
+  },
+  {
+    "german": "Stipendium",
+    "italian": "borsa di studio"
+  },
+  {
+    "german": "Volkshochschule",
+    "italian": "scuola popolare"
+  },
+  {
+    "german": "Richter",
+    "italian": "giudice"
+  },
+  {
+    "german": "Urteil",
+    "italian": "sentenza"
+  },
+  {
+    "german": "Strafe",
+    "italian": "pena/multa"
+  },
+  {
+    "german": "Zeuge",
+    "italian": "testimone"
+  },
+  {
+    "german": "Verteidiger",
+    "italian": "difensore"
+  },
+  {
+    "german": "Verhandlung",
+    "italian": "processo/udienza"
+  },
+  {
+    "german": "Verbrechen",
+    "italian": "crimine"
+  }
+]

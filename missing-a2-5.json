@@ -1,0 +1,338 @@
+[
+  {
+    "german": "Hase",
+    "italian": "lepre"
+  },
+  {
+    "german": "Schmetterling",
+    "italian": "farfalla"
+  },
+  {
+    "german": "Ameise",
+    "italian": "formica"
+  },
+  {
+    "german": "Lied",
+    "italian": "canzone"
+  },
+  {
+    "german": "Konzert",
+    "italian": "concerto"
+  },
+  {
+    "german": "Instrument",
+    "italian": "strumento"
+  },
+  {
+    "german": "Gitarre",
+    "italian": "chitarra"
+  },
+  {
+    "german": "Klavier",
+    "italian": "pianoforte"
+  },
+  {
+    "german": "Geige",
+    "italian": "violino"
+  },
+  {
+    "german": "Flöte",
+    "italian": "flauto"
+  },
+  {
+    "german": "Schlagzeug",
+    "italian": "batteria"
+  },
+  {
+    "german": "Sänger",
+    "italian": "cantante (m.)"
+  },
+  {
+    "german": "Sängerin",
+    "italian": "cantante (f.)"
+  },
+  {
+    "german": "Chor",
+    "italian": "coro"
+  },
+  {
+    "german": "Orchester",
+    "italian": "orchestra"
+  },
+  {
+    "german": "Maler",
+    "italian": "pittore"
+  },
+  {
+    "german": "Gemälde",
+    "italian": "dipinto"
+  },
+  {
+    "german": "Skulptur",
+    "italian": "scultura"
+  },
+  {
+    "german": "Ausstellung",
+    "italian": "mostra"
+  },
+  {
+    "german": "Galerie",
+    "italian": "galleria"
+  },
+  {
+    "german": "die Vorhersage",
+    "italian": "la previsione"
+  },
+  {
+    "german": "der Niederschlag",
+    "italian": "le precipitazioni"
+  },
+  {
+    "german": "das Hochdruckgebiet",
+    "italian": "l'alta pressione"
+  },
+  {
+    "german": "das Tiefdruckgebiet",
+    "italian": "la bassa pressione"
+  },
+  {
+    "german": "die Windstärke",
+    "italian": "la forza del vento"
+  },
+  {
+    "german": "die Böe",
+    "italian": "la raffica"
+  },
+  {
+    "german": "der Wetterbericht",
+    "italian": "il bollettino meteorologico"
+  },
+  {
+    "german": "die Umleitung",
+    "italian": "la deviazione"
+  },
+  {
+    "german": "anschnallen",
+    "italian": "allacciare la cintura"
+  },
+  {
+    "german": "das Parkverbot",
+    "italian": "il divieto di sosta"
+  },
+  {
+    "german": "die Ausfahrt",
+    "italian": "l'uscita"
+  },
+  {
+    "german": "der Fliesenleger",
+    "italian": "il piastrellista"
+  },
+  {
+    "german": "der Glaser",
+    "italian": "il vetraio"
+  },
+  {
+    "german": "der Schornsteinfeger",
+    "italian": "lo spazzacamino"
+  },
+  {
+    "german": "der Kostenvoranschlag",
+    "italian": "il preventivo"
+  },
+  {
+    "german": "montieren",
+    "italian": "montare"
+  },
+  {
+    "german": "der Handwerker",
+    "italian": "l'artigiano"
+  },
+  {
+    "german": "das Vollkornbrot",
+    "italian": "il pane integrale"
+  },
+  {
+    "german": "das Eiweiß",
+    "italian": "le proteine"
+  },
+  {
+    "german": "das Fett",
+    "italian": "il grasso"
+  },
+  {
+    "german": "die Kohlenhydrate",
+    "italian": "i carboidrati"
+  },
+  {
+    "german": "die Ballaststoffe",
+    "italian": "le fibre"
+  },
+  {
+    "german": "die Kalorie",
+    "italian": "la caloria"
+  },
+  {
+    "german": "vegetarisch",
+    "italian": "vegetariano"
+  },
+  {
+    "german": "vegan",
+    "italian": "vegano"
+  },
+  {
+    "german": "laktosefrei",
+    "italian": "senza lattosio"
+  },
+  {
+    "german": "glutenfrei",
+    "italian": "senza glutine"
+  },
+  {
+    "german": "die Diät",
+    "italian": "la dieta"
+  },
+  {
+    "german": "die Nährstoffe",
+    "italian": "i nutrienti"
+  },
+  {
+    "german": "die Vollwertkost",
+    "italian": "l'alimentazione integrale"
+  },
+  {
+    "german": "das Nahrungsergänzungsmittel",
+    "italian": "l'integratore alimentare"
+  },
+  {
+    "german": "die Unverträglichkeit",
+    "italian": "l'intolleranza"
+  },
+  {
+    "german": "das Aufwärmen",
+    "italian": "il riscaldamento"
+  },
+  {
+    "german": "die Ausdauer",
+    "italian": "la resistenza"
+  },
+  {
+    "german": "die Bewegung",
+    "italian": "il movimento"
+  },
+  {
+    "german": "die Frisur",
+    "italian": "la pettinatura"
+  },
+  {
+    "german": "die Hantel",
+    "italian": "il manubrio"
+  },
+  {
+    "german": "das Laufband",
+    "italian": "il tapis roulant"
+  },
+  {
+    "german": "der Heimtrainer",
+    "italian": "la cyclette"
+  },
+  {
+    "german": "der Yoga",
+    "italian": "lo yoga"
+  },
+  {
+    "german": "der Möbelwagen",
+    "italian": "il camion del trasloco"
+  },
+  {
+    "german": "die Miete",
+    "italian": "l'affitto"
+  },
+  {
+    "german": "die Nebenkosten",
+    "italian": "le spese condominiali"
+  },
+  {
+    "german": "die Anmeldung",
+    "italian": "la registrazione"
+  },
+  {
+    "german": "die Einweihungsfeier",
+    "italian": "la festa di inaugurazione"
+  },
+  {
+    "german": "der Umzugshelfer",
+    "italian": "l'aiutante del trasloco"
+  },
+  {
+    "german": "die Meldebescheinigung",
+    "italian": "il certificato di residenza"
+  },
+  {
+    "german": "das Strandtuch",
+    "italian": "il telo da mare"
+  },
+  {
+    "german": "der Rettungsschwimmer",
+    "italian": "il bagnino"
+  },
+  {
+    "german": "die Brandung",
+    "italian": "le onde frangenti"
+  },
+  {
+    "german": "die Sandbank",
+    "italian": "il banco di sabbia"
+  },
+  {
+    "german": "das Schnorcheln",
+    "italian": "lo snorkeling"
+  },
+  {
+    "german": "die Strandbar",
+    "italian": "il bar sulla spiaggia"
+  },
+  {
+    "german": "die Isomatte",
+    "italian": "il materassino isolante"
+  },
+  {
+    "german": "das Lagerfeuer",
+    "italian": "il fuoco da campo"
+  },
+  {
+    "german": "der Gaskocher",
+    "italian": "il fornello a gas"
+  },
+  {
+    "german": "die Kühlbox",
+    "italian": "la borsa frigo"
+  },
+  {
+    "german": "das Taschenmesser",
+    "italian": "il coltellino"
+  },
+  {
+    "german": "der Kompass",
+    "italian": "la bussola"
+  },
+  {
+    "german": "die Trinkflasche",
+    "italian": "la borraccia"
+  },
+  {
+    "german": "das Insektenspray",
+    "italian": "lo spray antizanzare"
+  },
+  {
+    "german": "die Stirnlampe",
+    "italian": "la lampada frontale"
+  },
+  {
+    "german": "der Zeltplatz",
+    "italian": "l'area campeggio"
+  },
+  {
+    "german": "die Heringe",
+    "italian": "i picchetti"
+  }
+]

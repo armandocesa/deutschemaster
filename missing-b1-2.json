@@ -1,0 +1,2402 @@
+[
+  {
+    "german": "die Organspende",
+    "italian": "la donazione di organi"
+  },
+  {
+    "german": "die Pflegeversicherung",
+    "italian": "l'assicurazione per la cura"
+  },
+  {
+    "german": "die Pflegestufe",
+    "italian": "il grado di assistenza"
+  },
+  {
+    "german": "die Zahnbehandlung",
+    "italian": "il trattamento dentale"
+  },
+  {
+    "german": "der Zahnersatz",
+    "italian": "la protesi dentale"
+  },
+  {
+    "german": "die Eigentümerversammlung",
+    "italian": "l'assemblea condominiale"
+  },
+  {
+    "german": "die Gemeinschaftsfläche",
+    "italian": "l'area comune"
+  },
+  {
+    "german": "die Renovierung",
+    "italian": "la ristrutturazione"
+  },
+  {
+    "german": "die Möbelspedition",
+    "italian": "il trasloco mobili"
+  },
+  {
+    "german": "der Nachmieter",
+    "italian": "il prossimo inquilino"
+  },
+  {
+    "german": "die Wohngemeinschaft",
+    "italian": "la convivenza"
+  },
+  {
+    "german": "die Zwischenmiete",
+    "italian": "il subaffitto temporaneo"
+  },
+  {
+    "german": "der Energieausweis",
+    "italian": "il certificato energetico"
+  },
+  {
+    "german": "die Schimmelbildung",
+    "italian": "la formazione di muffa"
+  },
+  {
+    "german": "die Dämmung",
+    "italian": "l'isolamento"
+  },
+  {
+    "german": "die Versicherungsprämie",
+    "italian": "il premio assicurativo"
+  },
+  {
+    "german": "die Riester-Rente",
+    "italian": "la pensione Riester"
+  },
+  {
+    "german": "der Fonds",
+    "italian": "il fondo"
+  },
+  {
+    "german": "die Bundesregierung",
+    "italian": "il governo federale"
+  },
+  {
+    "german": "die Berufung",
+    "italian": "l'appello"
+  },
+  {
+    "german": "das Strafrecht",
+    "italian": "il diritto penale"
+  },
+  {
+    "german": "das Zivilrecht",
+    "italian": "il diritto civile"
+  },
+  {
+    "german": "die Rechtsschutzversicherung",
+    "italian": "l'assicurazione legale"
+  },
+  {
+    "german": "die Meinungsumfrage",
+    "italian": "il sondaggio"
+  },
+  {
+    "german": "das Fernstudium",
+    "italian": "lo studio a distanza"
+  },
+  {
+    "german": "die Umschulung",
+    "italian": "la riqualificazione"
+  },
+  {
+    "german": "die Facharbeit",
+    "italian": "la tesi specialistica"
+  },
+  {
+    "german": "die Gruppenarbeit",
+    "italian": "il lavoro di gruppo"
+  },
+  {
+    "german": "die Nachprüfung",
+    "italian": "l'esame di riparazione"
+  },
+  {
+    "german": "der Numerus clausus",
+    "italian": "il numero chiuso"
+  },
+  {
+    "german": "die Zulassung",
+    "italian": "l'ammissione"
+  },
+  {
+    "german": "die Immatrikulation",
+    "italian": "l'immatricolazione"
+  },
+  {
+    "german": "die Bluetooth-Verbindung",
+    "italian": "la connessione Bluetooth"
+  },
+  {
+    "german": "die Powerbank",
+    "italian": "il caricatore portatile"
+  },
+  {
+    "german": "die Smartwatch",
+    "italian": "lo smartwatch"
+  },
+  {
+    "german": "der 3D-Drucker",
+    "italian": "la stampante 3D"
+  },
+  {
+    "german": "die Nahrungsergänzung",
+    "italian": "l'integratore alimentare"
+  },
+  {
+    "german": "das Kohlenhydrat",
+    "italian": "il carboidrato"
+  },
+  {
+    "german": "die Laktoseintoleranz",
+    "italian": "l'intolleranza al lattosio"
+  },
+  {
+    "german": "die Glutenunverträglichkeit",
+    "italian": "l'intolleranza al glutine"
+  },
+  {
+    "german": "der Vegetarier",
+    "italian": "il vegetariano"
+  },
+  {
+    "german": "der Veganer",
+    "italian": "il vegano"
+  },
+  {
+    "german": "die Lebensmittelallergie",
+    "italian": "l'allergia alimentare"
+  },
+  {
+    "german": "der Cholesterinspiegel",
+    "italian": "il livello di colesterolo"
+  },
+  {
+    "german": "der Blutzucker",
+    "italian": "la glicemia"
+  },
+  {
+    "german": "die Stoffwechselstörung",
+    "italian": "il disturbo metabolico"
+  },
+  {
+    "german": "die Reiserücktrittsversicherung",
+    "italian": "l'assicurazione annullamento viaggio"
+  },
+  {
+    "german": "die Besichtigungstour",
+    "italian": "il giro turistico"
+  },
+  {
+    "german": "der Fremdenverkehr",
+    "italian": "il turismo"
+  },
+  {
+    "german": "die Schiffsfahrt",
+    "italian": "la gita in barca"
+  },
+  {
+    "german": "das Fremdzimmer",
+    "italian": "la camera in affitto"
+  },
+  {
+    "german": "die Generalprobe",
+    "italian": "la prova generale"
+  },
+  {
+    "german": "die Persönlichkeit",
+    "italian": "la personalità"
+  },
+  {
+    "german": "das Gedächtnis",
+    "italian": "la memoria"
+  },
+  {
+    "german": "das Unterbewusstsein",
+    "italian": "il subconscio"
+  },
+  {
+    "german": "die Gewohnheit",
+    "italian": "l'abitudine"
+  },
+  {
+    "german": "die Beratungsstelle",
+    "italian": "il consultorio"
+  },
+  {
+    "german": "der Integrationskurs",
+    "italian": "il corso di integrazione"
+  },
+  {
+    "german": "die Niederlassungserlaubnis",
+    "italian": "il permesso di soggiorno permanente"
+  },
+  {
+    "german": "der Einbürgerungstest",
+    "italian": "il test di naturalizzazione"
+  },
+  {
+    "german": "die Sprachprüfung",
+    "italian": "l'esame di lingua"
+  },
+  {
+    "german": "der Sprachkurs",
+    "italian": "il corso di lingua"
+  },
+  {
+    "german": "das Asylverfahren",
+    "italian": "la procedura di asilo"
+  },
+  {
+    "german": "die Aufnahmeeinrichtung",
+    "italian": "il centro di accoglienza"
+  },
+  {
+    "german": "die Herkunft",
+    "italian": "l'origine"
+  },
+  {
+    "german": "der Kohlenstoffdioxid",
+    "italian": "l'anidride carbonica"
+  },
+  {
+    "german": "der Feinstaub",
+    "italian": "le polveri sottili"
+  },
+  {
+    "german": "der Hackerangriff",
+    "italian": "l'attacco hacker"
+  },
+  {
+    "german": "die Cyberkriminalität",
+    "italian": "la criminalità informatica"
+  },
+  {
+    "german": "die Streaming-Plattform",
+    "italian": "la piattaforma di streaming"
+  },
+  {
+    "german": "der Online-Shop",
+    "italian": "il negozio online"
+  },
+  {
+    "german": "der Warenkorb",
+    "italian": "il carrello"
+  },
+  {
+    "german": "die Rücksendung",
+    "italian": "il reso"
+  },
+  {
+    "german": "die Zahlungsmethode",
+    "italian": "il metodo di pagamento"
+  },
+  {
+    "german": "der Ehrenamtliche",
+    "italian": "il volontario"
+  },
+  {
+    "german": "die Bürgerinitiative",
+    "italian": "l'iniziativa civica"
+  },
+  {
+    "german": "die Petition",
+    "italian": "la petizione"
+  },
+  {
+    "german": "die Kinderarmut",
+    "italian": "la povertà infantile"
+  },
+  {
+    "german": "die Altersarmut",
+    "italian": "la povertà nella vecchiaia"
+  },
+  {
+    "german": "die Solidarität",
+    "italian": "la solidarietà"
+  },
+  {
+    "german": "die Unwetterwarnung",
+    "italian": "l'allerta meteo"
+  },
+  {
+    "german": "die Berufsunfähigkeitsversicherung",
+    "italian": "l'assicurazione per l'inabilità"
+  },
+  {
+    "german": "die Schadensregulierung",
+    "italian": "la liquidazione del sinistro"
+  },
+  {
+    "german": "der Versicherungsberater",
+    "italian": "il consulente assicurativo"
+  },
+  {
+    "german": "die Deckungssumme",
+    "italian": "la somma assicurata"
+  },
+  {
+    "german": "der Beitragssatz",
+    "italian": "la quota contributiva"
+  },
+  {
+    "german": "die Leistungserstattung",
+    "italian": "il rimborso delle prestazioni"
+  },
+  {
+    "german": "das Rückgaberecht",
+    "italian": "il diritto di recesso"
+  },
+  {
+    "german": "die Datenschutzgrundverordnung",
+    "italian": "il GDPR"
+  },
+  {
+    "german": "die Inkassoagentur",
+    "italian": "l'agenzia di recupero crediti"
+  },
+  {
+    "german": "die Mahnung",
+    "italian": "il sollecito"
+  },
+  {
+    "german": "die Allgemeinen Geschäftsbedingungen",
+    "italian": "le condizioni generali"
+  },
+  {
+    "german": "die Milchwirtschaft",
+    "italian": "l'industria lattiera"
+  },
+  {
+    "german": "der Mähdrescher",
+    "italian": "la mietitrebbia"
+  },
+  {
+    "german": "die Bewässerung",
+    "italian": "l'irrigazione"
+  },
+  {
+    "german": "der Bio-Landbau",
+    "italian": "l'agricoltura biologica"
+  },
+  {
+    "german": "die Fruchtfolge",
+    "italian": "la rotazione delle colture"
+  },
+  {
+    "german": "die Subvention",
+    "italian": "la sovvenzione"
+  },
+  {
+    "german": "der Schnellbus",
+    "italian": "l'autobus espresso"
+  },
+  {
+    "german": "die Mitfahrgelegenheit",
+    "italian": "il passaggio in auto"
+  },
+  {
+    "german": "der Elektroroller",
+    "italian": "il monopattino elettrico"
+  },
+  {
+    "german": "die Fahrradstation",
+    "italian": "la stazione per biciclette"
+  },
+  {
+    "german": "der Pendler",
+    "italian": "il pendolare"
+  },
+  {
+    "german": "der Berufsverkehr",
+    "italian": "il traffico pendolare"
+  },
+  {
+    "german": "die Umgehungsstraße",
+    "italian": "la tangenziale"
+  },
+  {
+    "german": "die Mautgebühr",
+    "italian": "il pedaggio"
+  },
+  {
+    "german": "der Fahrradweg",
+    "italian": "la pista ciclabile"
+  },
+  {
+    "german": "die Ladeinfrastruktur",
+    "italian": "l'infrastruttura di ricarica"
+  },
+  {
+    "german": "das Jobticket",
+    "italian": "l'abbonamento aziendale"
+  },
+  {
+    "german": "die Wandfarbe",
+    "italian": "il colore per pareti"
+  },
+  {
+    "german": "die Tapete",
+    "italian": "la carta da parati"
+  },
+  {
+    "german": "der Parkettboden",
+    "italian": "il pavimento in parquet"
+  },
+  {
+    "german": "der Laminatboden",
+    "italian": "il pavimento in laminato"
+  },
+  {
+    "german": "die Fliese",
+    "italian": "la piastrella"
+  },
+  {
+    "german": "die Fußleiste",
+    "italian": "il battiscopa"
+  },
+  {
+    "german": "die Deckenleuchte",
+    "italian": "la plafoniera"
+  },
+  {
+    "german": "der Dimmer",
+    "italian": "il dimmer"
+  },
+  {
+    "german": "die Markise",
+    "italian": "la tenda da sole"
+  },
+  {
+    "german": "der Türstopper",
+    "italian": "il fermaporta"
+  },
+  {
+    "german": "die Magnetleiste",
+    "italian": "la barra magnetica"
+  },
+  {
+    "german": "der Handtuchhalter",
+    "italian": "il portasciugamani"
+  },
+  {
+    "german": "der Toilettenpapierhalter",
+    "italian": "il portarotolo"
+  },
+  {
+    "german": "die Duschabtrennung",
+    "italian": "il box doccia"
+  },
+  {
+    "german": "der Duschvorhang",
+    "italian": "la tenda doccia"
+  },
+  {
+    "german": "der Fallschirmspringen",
+    "italian": "il paracadutismo"
+  },
+  {
+    "german": "das Minigolf",
+    "italian": "il minigolf"
+  },
+  {
+    "german": "das Bowling",
+    "italian": "il bowling"
+  },
+  {
+    "german": "das Billard",
+    "italian": "il biliardo"
+  },
+  {
+    "german": "der Tischfußball",
+    "italian": "il calcio balilla"
+  },
+  {
+    "german": "das Darts",
+    "italian": "le freccette"
+  },
+  {
+    "german": "die Sozialversicherung",
+    "italian": "la previdenza sociale"
+  },
+  {
+    "german": "das Elterngeld",
+    "italian": "l'assegno parentale"
+  },
+  {
+    "german": "das Wohngeld",
+    "italian": "il contributo per l'alloggio"
+  },
+  {
+    "german": "das Bürgergeld",
+    "italian": "il reddito di cittadinanza"
+  },
+  {
+    "german": "die Betreuung",
+    "italian": "l'assistenza"
+  },
+  {
+    "german": "die Tagesmutter",
+    "italian": "la baby-sitter"
+  },
+  {
+    "german": "die Kindertagesstätte",
+    "italian": "l'asilo nido"
+  },
+  {
+    "german": "die Jugendhilfe",
+    "italian": "l'assistenza ai giovani"
+  },
+  {
+    "german": "die Schuldnerberatung",
+    "italian": "la consulenza per i debitori"
+  },
+  {
+    "german": "der Sozialdienst",
+    "italian": "il servizio sociale"
+  },
+  {
+    "german": "die Telefonseelsorge",
+    "italian": "il telefono amico"
+  },
+  {
+    "german": "das Mikroskop",
+    "italian": "il microscopio"
+  },
+  {
+    "german": "die Erfindung",
+    "italian": "l'invenzione"
+  },
+  {
+    "german": "das Doppelhaus",
+    "italian": "la casa bifamiliare"
+  },
+  {
+    "german": "die Souterrainwohnung",
+    "italian": "l'appartamento seminterrato"
+  },
+  {
+    "german": "die Maisonette",
+    "italian": "la maisonette"
+  },
+  {
+    "german": "der Grundstückspreis",
+    "italian": "il prezzo del terreno"
+  },
+  {
+    "german": "die Zinsbindung",
+    "italian": "il vincolo del tasso"
+  },
+  {
+    "german": "die Grundbucheintragung",
+    "italian": "l'iscrizione catastale"
+  },
+  {
+    "german": "die Maklerprovision",
+    "italian": "la provvigione"
+  },
+  {
+    "german": "die Bundesliga",
+    "italian": "la Bundesliga"
+  },
+  {
+    "german": "die Tabelle",
+    "italian": "la classifica"
+  },
+  {
+    "german": "der Aufstieg",
+    "italian": "la promozione"
+  },
+  {
+    "german": "der Abstieg",
+    "italian": "la retrocessione"
+  },
+  {
+    "german": "die Halbzeit",
+    "italian": "il primo tempo"
+  },
+  {
+    "german": "der Freistoß",
+    "italian": "il calcio di punizione"
+  },
+  {
+    "german": "die Verlängerung",
+    "italian": "i supplementari"
+  },
+  {
+    "german": "das Elfmeterschießen",
+    "italian": "i rigori"
+  },
+  {
+    "german": "die Mediation",
+    "italian": "la mediazione"
+  },
+  {
+    "german": "die Schlichtung",
+    "italian": "la conciliazione"
+  },
+  {
+    "german": "der Kompromiss",
+    "italian": "il compromesso"
+  },
+  {
+    "german": "die Einigung",
+    "italian": "l'accordo"
+  },
+  {
+    "german": "der Interessenausgleich",
+    "italian": "il contemperamento degli interessi"
+  },
+  {
+    "german": "die Verhandlungsführung",
+    "italian": "la conduzione delle trattative"
+  },
+  {
+    "german": "das Ultimatum",
+    "italian": "l'ultimatum"
+  },
+  {
+    "german": "die Zugeständnisse",
+    "italian": "le concessioni"
+  },
+  {
+    "german": "die Verhandlungsposition",
+    "italian": "la posizione negoziale"
+  },
+  {
+    "german": "die Gegenforderung",
+    "italian": "la contropretesa"
+  },
+  {
+    "german": "der Vermittler",
+    "italian": "il mediatore"
+  },
+  {
+    "german": "die Tarifverhandlung",
+    "italian": "la trattativa contrattuale"
+  },
+  {
+    "german": "die Lagerhaltung",
+    "italian": "la gestione del magazzino"
+  },
+  {
+    "german": "die Kommissionierung",
+    "italian": "il prelievo ordini"
+  },
+  {
+    "german": "der Versand",
+    "italian": "la spedizione"
+  },
+  {
+    "german": "der Frachtbrief",
+    "italian": "la lettera di vettura"
+  },
+  {
+    "german": "die Spedition",
+    "italian": "la società di trasporto"
+  },
+  {
+    "german": "der Container",
+    "italian": "il container"
+  },
+  {
+    "german": "der Gabelstapler",
+    "italian": "il muletto"
+  },
+  {
+    "german": "die Zollabfertigung",
+    "italian": "lo sdoganamento"
+  },
+  {
+    "german": "die Freihandelszone",
+    "italian": "la zona franca"
+  },
+  {
+    "german": "die Rückverfolgbarkeit",
+    "italian": "la tracciabilità"
+  },
+  {
+    "german": "die Just-in-time-Lieferung",
+    "italian": "la consegna just-in-time"
+  },
+  {
+    "german": "die Letzte-Meile-Logistik",
+    "italian": "la logistica dell'ultimo miglio"
+  },
+  {
+    "german": "die Quellenprüfung",
+    "italian": "la verifica delle fonti"
+  },
+  {
+    "german": "die Faktencheck",
+    "italian": "il fact-checking"
+  },
+  {
+    "german": "die Urheberrechtsverletzung",
+    "italian": "la violazione del diritto d'autore"
+  },
+  {
+    "german": "die Creative-Commons-Lizenz",
+    "italian": "la licenza Creative Commons"
+  },
+  {
+    "german": "die Bildbearbeitung",
+    "italian": "l'elaborazione delle immagini"
+  },
+  {
+    "german": "die Videobearbeitung",
+    "italian": "il montaggio video"
+  },
+  {
+    "german": "die Audioproduktion",
+    "italian": "la produzione audio"
+  },
+  {
+    "german": "der Vlog",
+    "italian": "il vlog"
+  },
+  {
+    "german": "die Medienerziehung",
+    "italian": "l'educazione ai media"
+  },
+  {
+    "german": "die Informationskompetenz",
+    "italian": "la competenza informativa"
+  },
+  {
+    "german": "die digitale Mündigkeit",
+    "italian": "la maturità digitale"
+  },
+  {
+    "german": "die Netiquette",
+    "italian": "la netiquette"
+  },
+  {
+    "german": "die Prävention",
+    "italian": "la prevenzione"
+  },
+  {
+    "german": "die Früherkennung",
+    "italian": "la diagnosi precoce"
+  },
+  {
+    "german": "die Impfkampagne",
+    "italian": "la campagna vaccinale"
+  },
+  {
+    "german": "die Gesundheitsberatung",
+    "italian": "la consulenza sanitaria"
+  },
+  {
+    "german": "die Raucherentwöhnung",
+    "italian": "il trattamento antifumo"
+  },
+  {
+    "german": "die Suchtprävention",
+    "italian": "la prevenzione delle dipendenze"
+  },
+  {
+    "german": "die Arbeitsplatzgesundheit",
+    "italian": "la salute sul lavoro"
+  },
+  {
+    "german": "die Ergonomie",
+    "italian": "l'ergonomia"
+  },
+  {
+    "german": "die Stressbewältigung",
+    "italian": "la gestione dello stress"
+  },
+  {
+    "german": "die Entspannungstechnik",
+    "italian": "la tecnica di rilassamento"
+  },
+  {
+    "german": "die Progressive Muskelentspannung",
+    "italian": "il rilassamento muscolare progressivo"
+  },
+  {
+    "german": "das Autogene Training",
+    "italian": "il training autogeno"
+  },
+  {
+    "german": "die Atemübung",
+    "italian": "l'esercizio di respirazione"
+  },
+  {
+    "german": "die Bewegungstherapie",
+    "italian": "la terapia del movimento"
+  },
+  {
+    "german": "die Allergenkennzeichnung",
+    "italian": "l'etichettatura degli allergeni"
+  },
+  {
+    "german": "die Hygieneverordnung",
+    "italian": "il regolamento igienico"
+  },
+  {
+    "german": "das Catering",
+    "italian": "il catering"
+  },
+  {
+    "german": "die Bestuhlung",
+    "italian": "la disposizione dei posti"
+  },
+  {
+    "german": "die Biergarten",
+    "italian": "il giardino della birra"
+  },
+  {
+    "german": "die Imbissbude",
+    "italian": "il chiosco"
+  },
+  {
+    "german": "der Stammtisch",
+    "italian": "il tavolo dei clienti abituali"
+  },
+  {
+    "german": "die Selbstbedienung",
+    "italian": "il self-service"
+  },
+  {
+    "german": "die Tischwein",
+    "italian": "il vino della casa"
+  },
+  {
+    "german": "die Weinstube",
+    "italian": "l'enoteca"
+  },
+  {
+    "german": "das Brauhaus",
+    "italian": "la birreria"
+  },
+  {
+    "german": "die Konditorei",
+    "italian": "la pasticceria"
+  },
+  {
+    "german": "die Eisdiele",
+    "italian": "la gelateria"
+  },
+  {
+    "german": "die Freiwilligenarbeit",
+    "italian": "il volontariato"
+  },
+  {
+    "german": "die Spendensammlung",
+    "italian": "la raccolta fondi"
+  },
+  {
+    "german": "die Wohltätigkeitsorganisation",
+    "italian": "l'organizzazione benefica"
+  },
+  {
+    "german": "die Kleiderkammer",
+    "italian": "il guardaroba solidale"
+  },
+  {
+    "german": "der Sozialladen",
+    "italian": "il negozio solidale"
+  },
+  {
+    "german": "die Obdachlosenunterkunft",
+    "italian": "il dormitorio per senzatetto"
+  },
+  {
+    "german": "die Seniorenbetreuung",
+    "italian": "l'assistenza agli anziani"
+  },
+  {
+    "german": "die Jugendarbeit",
+    "italian": "il lavoro giovanile"
+  },
+  {
+    "german": "die Integrationsarbeit",
+    "italian": "il lavoro di integrazione"
+  },
+  {
+    "german": "das Spendenkonto",
+    "italian": "il conto per le donazioni"
+  },
+  {
+    "german": "die Spendenbescheinigung",
+    "italian": "la ricevuta della donazione"
+  },
+  {
+    "german": "die Gemeinnützigkeit",
+    "italian": "la finalità benefica"
+  },
+  {
+    "german": "der Förderverein",
+    "italian": "l'associazione di sostegno"
+  },
+  {
+    "german": "der Mietvertrag",
+    "italian": "il contratto d'affitto"
+  },
+  {
+    "german": "die Mietminderung",
+    "italian": "la riduzione dell'affitto"
+  },
+  {
+    "german": "die Mängelanzeige",
+    "italian": "la segnalazione del difetto"
+  },
+  {
+    "german": "die Räumungsklage",
+    "italian": "la causa di sfratto"
+  },
+  {
+    "german": "die Eigenbedarfskündigung",
+    "italian": "la disdetta per uso proprio"
+  },
+  {
+    "german": "die Mietkaution",
+    "italian": "la cauzione d'affitto"
+  },
+  {
+    "german": "die Mietpreisbremse",
+    "italian": "il freno ai prezzi degli affitti"
+  },
+  {
+    "german": "die Betriebskostenpauschale",
+    "italian": "il forfait delle spese condominiali"
+  },
+  {
+    "german": "die Nebenkostennachzahlung",
+    "italian": "il conguaglio spese"
+  },
+  {
+    "german": "die Erziehung",
+    "italian": "l'educazione"
+  },
+  {
+    "german": "die Bindung",
+    "italian": "il legame affettivo"
+  },
+  {
+    "german": "die Einschulung",
+    "italian": "l'inizio della scuola"
+  },
+  {
+    "german": "die Schulpflicht",
+    "italian": "l'obbligo scolastico"
+  },
+  {
+    "german": "die Ganztagsschule",
+    "italian": "la scuola a tempo pieno"
+  },
+  {
+    "german": "die Hortbetreuung",
+    "italian": "il doposcuola"
+  },
+  {
+    "german": "die Überforderung",
+    "italian": "il sovraccarico"
+  },
+  {
+    "german": "die Unterforderung",
+    "italian": "la sotto-stimolazione"
+  },
+  {
+    "german": "die Hochbegabung",
+    "italian": "l'alta dotazione intellettuale"
+  },
+  {
+    "german": "die Lernbehinderung",
+    "italian": "la difficoltà di apprendimento"
+  },
+  {
+    "german": "die Legasthenie",
+    "italian": "la dislessia"
+  },
+  {
+    "german": "die Dyskalkulie",
+    "italian": "la discalculia"
+  },
+  {
+    "german": "der Schulpsychologe",
+    "italian": "lo psicologo scolastico"
+  },
+  {
+    "german": "das Jugendamt",
+    "italian": "il tribunale dei minori"
+  },
+  {
+    "german": "die Pflegefamilie",
+    "italian": "la famiglia affidataria"
+  },
+  {
+    "german": "die Ausgrabung",
+    "italian": "lo scavo"
+  },
+  {
+    "german": "die Pyramide",
+    "italian": "la piramide"
+  },
+  {
+    "german": "die Mumie",
+    "italian": "la mummia"
+  },
+  {
+    "german": "das Amphitheater",
+    "italian": "l'anfiteatro"
+  },
+  {
+    "german": "die Höhlenmalerei",
+    "italian": "la pittura rupestre"
+  },
+  {
+    "german": "die Steinzeit",
+    "italian": "l'età della pietra"
+  },
+  {
+    "german": "die Bronzezeit",
+    "italian": "l'età del bronzo"
+  },
+  {
+    "german": "die Eisenzeit",
+    "italian": "l'età del ferro"
+  },
+  {
+    "german": "das Mittelalter",
+    "italian": "il Medioevo"
+  },
+  {
+    "german": "die Reformation",
+    "italian": "la Riforma"
+  },
+  {
+    "german": "die Industrielle Revolution",
+    "italian": "la Rivoluzione Industriale"
+  },
+  {
+    "german": "die Kolonialisierung",
+    "italian": "la colonizzazione"
+  },
+  {
+    "german": "das Lichtjahr",
+    "italian": "l'anno luce"
+  },
+  {
+    "german": "die Supernova",
+    "italian": "la supernova"
+  },
+  {
+    "german": "die Vernunft",
+    "italian": "la ragione"
+  },
+  {
+    "german": "die Tugend",
+    "italian": "la virtù"
+  },
+  {
+    "german": "das Dilemma",
+    "italian": "il dilemma"
+  },
+  {
+    "german": "die Norm",
+    "italian": "la norma"
+  },
+  {
+    "german": "das Ideal",
+    "italian": "l'ideale"
+  },
+  {
+    "german": "das Monopol",
+    "italian": "il monopolio"
+  },
+  {
+    "german": "die Marktwirtschaft",
+    "italian": "l'economia di mercato"
+  },
+  {
+    "german": "die Planwirtschaft",
+    "italian": "l'economia pianificata"
+  },
+  {
+    "german": "der Konsum",
+    "italian": "il consumo"
+  },
+  {
+    "german": "das Diagramm",
+    "italian": "il diagramma"
+  },
+  {
+    "german": "der Tsunami",
+    "italian": "lo tsunami"
+  },
+  {
+    "german": "der Vulkanausbruch",
+    "italian": "l'eruzione vulcanica"
+  },
+  {
+    "german": "der Erdrutsch",
+    "italian": "la frana"
+  },
+  {
+    "german": "der Waldbrand",
+    "italian": "l'incendio boschivo"
+  },
+  {
+    "german": "der Hurrikan",
+    "italian": "l'uragano"
+  },
+  {
+    "german": "die Sturmflut",
+    "italian": "la mareggiata"
+  },
+  {
+    "german": "das Hochwasser",
+    "italian": "la piena"
+  },
+  {
+    "german": "der Bergsturz",
+    "italian": "il crollo della montagna"
+  },
+  {
+    "german": "die Flutwelle",
+    "italian": "l'onda di piena"
+  },
+  {
+    "german": "die Evakuierung",
+    "italian": "l'evacuazione"
+  },
+  {
+    "german": "das Gebet",
+    "italian": "la preghiera"
+  },
+  {
+    "german": "der Gottesdienst",
+    "italian": "la funzione religiosa"
+  },
+  {
+    "german": "die Konfirmation",
+    "italian": "la confermazione"
+  },
+  {
+    "german": "die Kommunion",
+    "italian": "la comunione"
+  },
+  {
+    "german": "der Ramadan",
+    "italian": "il Ramadan"
+  },
+  {
+    "german": "die Pilgerfahrt",
+    "italian": "il pellegrinaggio"
+  },
+  {
+    "german": "die Reinkarnation",
+    "italian": "la reincarnazione"
+  },
+  {
+    "german": "das Karma",
+    "italian": "il karma"
+  },
+  {
+    "german": "die Erleuchtung",
+    "italian": "l'illuminazione"
+  },
+  {
+    "german": "der Zimmermann",
+    "italian": "il carpentiere"
+  },
+  {
+    "german": "der Gerüstbauer",
+    "italian": "il ponteggiatore"
+  },
+  {
+    "german": "die Kreissäge",
+    "italian": "la sega circolare"
+  },
+  {
+    "german": "die Stichsäge",
+    "italian": "il seghetto alternativo"
+  },
+  {
+    "german": "der Komposthaufen",
+    "italian": "il cumulo di compost"
+  },
+  {
+    "german": "der Spaten",
+    "italian": "la vanga"
+  },
+  {
+    "german": "die Harke",
+    "italian": "il rastrello"
+  },
+  {
+    "german": "die Pflanzenschere",
+    "italian": "le forbici da potatura"
+  },
+  {
+    "german": "die Mulchschicht",
+    "italian": "lo strato di pacciamatura"
+  },
+  {
+    "german": "das Hochbeet",
+    "italian": "l'aiuola rialzata"
+  },
+  {
+    "german": "die Bewässerungsanlage",
+    "italian": "l'impianto d'irrigazione"
+  },
+  {
+    "german": "der Vertikutierer",
+    "italian": "l'arieggiatore"
+  },
+  {
+    "german": "die Blende",
+    "italian": "il diaframma"
+  },
+  {
+    "german": "die Belichtungszeit",
+    "italian": "il tempo di esposizione"
+  },
+  {
+    "german": "der ISO-Wert",
+    "italian": "il valore ISO"
+  },
+  {
+    "german": "die Brennweite",
+    "italian": "la lunghezza focale"
+  },
+  {
+    "german": "der Weißabgleich",
+    "italian": "il bilanciamento del bianco"
+  },
+  {
+    "german": "die Tiefenschärfe",
+    "italian": "la profondità di campo"
+  },
+  {
+    "german": "das Stativ",
+    "italian": "il treppiede"
+  },
+  {
+    "german": "die Gegenlichtblende",
+    "italian": "il paraluce"
+  },
+  {
+    "german": "die Nachbearbeitung",
+    "italian": "la post-produzione"
+  },
+  {
+    "german": "der Bildausschnitt",
+    "italian": "l'inquadratura"
+  },
+  {
+    "german": "die Langzeitbelichtung",
+    "italian": "la lunga esposizione"
+  },
+  {
+    "german": "die Makrofotografie",
+    "italian": "la macrofotografia"
+  },
+  {
+    "german": "die Porträtfotografie",
+    "italian": "la fotografia ritrattistica"
+  },
+  {
+    "german": "die Landschaftsfotografie",
+    "italian": "la fotografia paesaggistica"
+  },
+  {
+    "german": "die Bildkomposition",
+    "italian": "la composizione dell'immagine"
+  },
+  {
+    "german": "die Julienne",
+    "italian": "la julienne"
+  },
+  {
+    "german": "die Brunoise",
+    "italian": "la brunoise"
+  },
+  {
+    "german": "das Blanchieren",
+    "italian": "la sbollentatura"
+  },
+  {
+    "german": "das Flambieren",
+    "italian": "il flambare"
+  },
+  {
+    "german": "das Gratinieren",
+    "italian": "la gratinatura"
+  },
+  {
+    "german": "das Pochieren",
+    "italian": "la scottatura in acqua"
+  },
+  {
+    "german": "das Confieren",
+    "italian": "la cottura in confit"
+  },
+  {
+    "german": "die Roulade",
+    "italian": "l'involtino"
+  },
+  {
+    "german": "die Reduktion",
+    "italian": "la riduzione"
+  },
+  {
+    "german": "die Liaison",
+    "italian": "la liaison"
+  },
+  {
+    "german": "die Mehlschwitze",
+    "italian": "il roux"
+  },
+  {
+    "german": "das Sautieren",
+    "italian": "il saltare in padella"
+  },
+  {
+    "german": "das Schmoren",
+    "italian": "la brasatura"
+  },
+  {
+    "german": "die Garprobe",
+    "italian": "la prova di cottura"
+  },
+  {
+    "german": "der Messerschärfer",
+    "italian": "l'affilacoltelli"
+  },
+  {
+    "german": "die Handwäsche",
+    "italian": "il lavaggio a mano"
+  },
+  {
+    "german": "die Maschinenwäsche",
+    "italian": "il lavaggio in lavatrice"
+  },
+  {
+    "german": "der Wäscheständer",
+    "italian": "lo stendino"
+  },
+  {
+    "german": "die Fleckenentfernung",
+    "italian": "la smacchiatura"
+  },
+  {
+    "german": "die Wäschesortierung",
+    "italian": "la separazione del bucato"
+  },
+  {
+    "german": "die Pflegeanleitung",
+    "italian": "le istruzioni per la cura"
+  },
+  {
+    "german": "die Wollwäsche",
+    "italian": "il lavaggio della lana"
+  },
+  {
+    "german": "die Feinwäsche",
+    "italian": "il bucato delicato"
+  },
+  {
+    "german": "die Einweichzeit",
+    "italian": "il tempo di ammollo"
+  },
+  {
+    "german": "die Aufenthaltsgenehmigung",
+    "italian": "il permesso di soggiorno"
+  },
+  {
+    "german": "die Heiratsurkunde",
+    "italian": "il certificato di matrimonio"
+  },
+  {
+    "german": "die Sterbeurkunde",
+    "italian": "il certificato di morte"
+  },
+  {
+    "german": "das Führungszeugnis",
+    "italian": "il certificato dei carichi pendenti"
+  },
+  {
+    "german": "die Apostille",
+    "italian": "l'apostille"
+  },
+  {
+    "german": "die Namensänderung",
+    "italian": "il cambio di nome"
+  },
+  {
+    "german": "die Personenstandsurkunde",
+    "italian": "l'atto di stato civile"
+  },
+  {
+    "german": "die Eheschließung",
+    "italian": "la celebrazione del matrimonio"
+  },
+  {
+    "german": "der Notenschlüssel",
+    "italian": "la chiave musicale"
+  },
+  {
+    "german": "die Synkope",
+    "italian": "la sincope"
+  },
+  {
+    "german": "die Triole",
+    "italian": "la terzina"
+  },
+  {
+    "german": "die Kadenz",
+    "italian": "la cadenza"
+  },
+  {
+    "german": "die Modulation",
+    "italian": "la modulazione"
+  },
+  {
+    "german": "die Drehleiter",
+    "italian": "l'autoscala"
+  },
+  {
+    "german": "der Löschschlauch",
+    "italian": "la manichetta antincendio"
+  },
+  {
+    "german": "die Atemschutzmaske",
+    "italian": "la maschera autorespiratore"
+  },
+  {
+    "german": "der Hydrant",
+    "italian": "l'idrante"
+  },
+  {
+    "german": "die Brandursache",
+    "italian": "la causa dell'incendio"
+  },
+  {
+    "german": "der Brandmelder",
+    "italian": "il rilevatore di incendio"
+  },
+  {
+    "german": "die Sprinkleranlage",
+    "italian": "l'impianto sprinkler"
+  },
+  {
+    "german": "der Fluchtweg",
+    "italian": "la via di fuga"
+  },
+  {
+    "german": "die Rauchentwicklung",
+    "italian": "lo sviluppo di fumo"
+  },
+  {
+    "german": "der Feuerlöscher",
+    "italian": "l'estintore"
+  },
+  {
+    "german": "die Brandschutzordnung",
+    "italian": "il regolamento antincendio"
+  },
+  {
+    "german": "die Brandsimulation",
+    "italian": "la simulazione antincendio"
+  },
+  {
+    "german": "die Meeresschildkröte",
+    "italian": "la tartaruga marina"
+  },
+  {
+    "german": "das Plankton",
+    "italian": "il plancton"
+  },
+  {
+    "german": "die Seegraswiese",
+    "italian": "la prateria di posidonia"
+  },
+  {
+    "german": "die Gezeitenzone",
+    "italian": "la zona intertidale"
+  },
+  {
+    "german": "die Faltschachtel",
+    "italian": "la scatola pieghevole"
+  },
+  {
+    "german": "die Wellpappe",
+    "italian": "il cartone ondulato"
+  },
+  {
+    "german": "die Schrumpffolie",
+    "italian": "il film termoretraibile"
+  },
+  {
+    "german": "die Stretchfolie",
+    "italian": "il film estensibile"
+  },
+  {
+    "german": "die Blisterverpackung",
+    "italian": "il blister"
+  },
+  {
+    "german": "die Standbodenbeutel",
+    "italian": "la busta stand-up"
+  },
+  {
+    "german": "die Etikettierung",
+    "italian": "l'etichettatura"
+  },
+  {
+    "german": "die Palettierung",
+    "italian": "la pallettizzazione"
+  },
+  {
+    "german": "die Verpackungsmaschine",
+    "italian": "la macchina confezionatrice"
+  },
+  {
+    "german": "die Sterilverpackung",
+    "italian": "la confezione sterile"
+  },
+  {
+    "german": "die Siegelnaht",
+    "italian": "la saldatura"
+  },
+  {
+    "german": "die Tamper-Evidence",
+    "italian": "l'evidenza di manomissione"
+  },
+  {
+    "german": "die Transportverpackung",
+    "italian": "l'imballaggio da trasporto"
+  },
+  {
+    "german": "die Primärverpackung",
+    "italian": "l'imballaggio primario"
+  },
+  {
+    "german": "die Umverpackung",
+    "italian": "l'imballaggio secondario"
+  },
+  {
+    "german": "der Bogen",
+    "italian": "l'archetto"
+  },
+  {
+    "german": "das Pedal",
+    "italian": "il pedale"
+  },
+  {
+    "german": "der Steg",
+    "italian": "il ponticello"
+  },
+  {
+    "german": "der Stimmmechanismus",
+    "italian": "il meccanismo di accordatura"
+  },
+  {
+    "german": "das Mundstück",
+    "italian": "il bocchino"
+  },
+  {
+    "german": "das Rohrblatt",
+    "italian": "l'ancia"
+  },
+  {
+    "german": "der Dämpfer",
+    "italian": "la sordina"
+  },
+  {
+    "german": "die Tonlage",
+    "italian": "il registro vocale"
+  },
+  {
+    "german": "die Grifftechnik",
+    "italian": "la tecnica delle dita"
+  },
+  {
+    "german": "die Atemtechnik",
+    "italian": "la tecnica di respirazione"
+  },
+  {
+    "german": "die Bogentechnik",
+    "italian": "la tecnica d'arco"
+  },
+  {
+    "german": "die Anschlagtechnik",
+    "italian": "la tecnica del tocco"
+  },
+  {
+    "german": "die Fingersatz",
+    "italian": "la diteggiatura"
+  },
+  {
+    "german": "die Intonation",
+    "italian": "l'intonazione"
+  },
+  {
+    "german": "der Ölwechsel",
+    "italian": "il cambio dell'olio"
+  },
+  {
+    "german": "die Zündkerze",
+    "italian": "la candela d'accensione"
+  },
+  {
+    "german": "der Keilriemen",
+    "italian": "la cinghia trapezoidale"
+  },
+  {
+    "german": "die Bremsscheibe",
+    "italian": "il disco del freno"
+  },
+  {
+    "german": "der Bremsbelag",
+    "italian": "la pastiglia del freno"
+  },
+  {
+    "german": "die Stoßdämpfer",
+    "italian": "l'ammortizzatore"
+  },
+  {
+    "german": "die Achsvermessung",
+    "italian": "la convergenza"
+  },
+  {
+    "german": "der Zahnriemen",
+    "italian": "la cinghia di distribuzione"
+  },
+  {
+    "german": "die Auspuffanlage",
+    "italian": "l'impianto di scarico"
+  },
+  {
+    "german": "die Lichtmaschine",
+    "italian": "l'alternatore"
+  },
+  {
+    "german": "der Anlasser",
+    "italian": "il motorino d'avviamento"
+  },
+  {
+    "german": "die Einspritzanlage",
+    "italian": "l'impianto d'iniezione"
+  },
+  {
+    "german": "das Differential",
+    "italian": "il differenziale"
+  },
+  {
+    "german": "die Servolenkung",
+    "italian": "il servosterzo"
+  },
+  {
+    "german": "die Sicherung",
+    "italian": "il fusibile"
+  },
+  {
+    "german": "der Sicherungskasten",
+    "italian": "la scatola dei fusibili"
+  },
+  {
+    "german": "die Verteilerdose",
+    "italian": "la scatola di derivazione"
+  },
+  {
+    "german": "die Unterputzleitung",
+    "italian": "il cavo sottotraccia"
+  },
+  {
+    "german": "der Fehlerstromschutzschalter",
+    "italian": "l'interruttore differenziale"
+  },
+  {
+    "german": "die Erdung",
+    "italian": "la messa a terra"
+  },
+  {
+    "german": "die Leitungsverlegung",
+    "italian": "la posa dei cavi"
+  },
+  {
+    "german": "die Zeitschaltuhr",
+    "italian": "il timer"
+  },
+  {
+    "german": "die Bewegungsmelder",
+    "italian": "il sensore di movimento"
+  },
+  {
+    "german": "die Elektroinstallation",
+    "italian": "l'impianto elettrico"
+  },
+  {
+    "german": "der Leitungsquerschnitt",
+    "italian": "la sezione del cavo"
+  },
+  {
+    "german": "die Strombelastbarkeit",
+    "italian": "la portata di corrente"
+  },
+  {
+    "german": "die Tierklinik",
+    "italian": "la clinica veterinaria"
+  },
+  {
+    "german": "die Kastration",
+    "italian": "la castrazione"
+  },
+  {
+    "german": "die Wurmkur",
+    "italian": "la sverminazione"
+  },
+  {
+    "german": "das Hundefutter",
+    "italian": "il cibo per cani"
+  },
+  {
+    "german": "das Katzenfutter",
+    "italian": "il cibo per gatti"
+  },
+  {
+    "german": "der Maulkorb",
+    "italian": "la museruola"
+  },
+  {
+    "german": "die Hundeschule",
+    "italian": "la scuola per cani"
+  },
+  {
+    "german": "die Tierversicherung",
+    "italian": "l'assicurazione per animali"
+  },
+  {
+    "german": "die Wanderkarte",
+    "italian": "la cartina escursionistica"
+  },
+  {
+    "german": "die Wanderschuhe",
+    "italian": "gli scarponi da trekking"
+  },
+  {
+    "german": "das Fernglas",
+    "italian": "il binocolo"
+  },
+  {
+    "german": "der Campingkocher",
+    "italian": "il fornellino da campeggio"
+  },
+  {
+    "german": "das Spielbrett",
+    "italian": "il tabellone di gioco"
+  },
+  {
+    "german": "der Spielzug",
+    "italian": "la mossa"
+  },
+  {
+    "german": "das Schachmatt",
+    "italian": "lo scacco matto"
+  },
+  {
+    "german": "das Schleifpapier",
+    "italian": "la carta vetrata"
+  },
+  {
+    "german": "die Farbrolle",
+    "italian": "il rullo da pittura"
+  },
+  {
+    "german": "der Kleister",
+    "italian": "la colla per carta da parati"
+  },
+  {
+    "german": "die Silikon",
+    "italian": "il silicone"
+  },
+  {
+    "german": "die Fugenmasse",
+    "italian": "lo stucco per fughe"
+  },
+  {
+    "german": "die Schwimmbrille",
+    "italian": "gli occhialini da nuoto"
+  },
+  {
+    "german": "die Badekappe",
+    "italian": "la cuffia da bagno"
+  },
+  {
+    "german": "das Tretboot",
+    "italian": "il pedalò"
+  },
+  {
+    "german": "die Schwimmflügel",
+    "italian": "i braccioli"
+  },
+  {
+    "german": "der Sprungturm",
+    "italian": "la piattaforma per tuffi"
+  },
+  {
+    "german": "die Wasserrutsche",
+    "italian": "lo scivolo acquatico"
+  },
+  {
+    "german": "der Bademeister",
+    "italian": "il bagnino"
+  },
+  {
+    "german": "der Obstbaum",
+    "italian": "l'albero da frutto"
+  },
+  {
+    "german": "die Obstplantage",
+    "italian": "il frutteto"
+  },
+  {
+    "german": "die Apfelernte",
+    "italian": "la raccolta delle mele"
+  },
+  {
+    "german": "die Birnenernte",
+    "italian": "la raccolta delle pere"
+  },
+  {
+    "german": "die Kirschernte",
+    "italian": "la raccolta delle ciliegie"
+  },
+  {
+    "german": "die Pflaumenernte",
+    "italian": "la raccolta delle prugne"
+  },
+  {
+    "german": "der Baumschnitt",
+    "italian": "la potatura degli alberi"
+  },
+  {
+    "german": "die Veredelung",
+    "italian": "l'innesto"
+  },
+  {
+    "german": "die Bestäubung",
+    "italian": "l'impollinazione"
+  },
+  {
+    "german": "der Bienenstock",
+    "italian": "l'arnia"
+  },
+  {
+    "german": "die Honigschleuder",
+    "italian": "l'estrattore di miele"
+  },
+  {
+    "german": "die Wabe",
+    "italian": "il favo"
+  },
+  {
+    "german": "die Bienenkönigin",
+    "italian": "l'ape regina"
+  },
+  {
+    "german": "die Arbeitsbiene",
+    "italian": "l'ape operaia"
+  },
+  {
+    "german": "die Imkerei",
+    "italian": "l'apicoltura"
+  },
+  {
+    "german": "das Rohr",
+    "italian": "il tubo"
+  },
+  {
+    "german": "die Dichtung",
+    "italian": "la guarnizione"
+  },
+  {
+    "german": "der Abfluss",
+    "italian": "lo scarico"
+  },
+  {
+    "german": "die Klinke",
+    "italian": "la maniglia"
+  },
+  {
+    "german": "das Scharnier",
+    "italian": "la cerniera"
+  },
+  {
+    "german": "die Fuge",
+    "italian": "la fuga"
+  },
+  {
+    "german": "der Werkzeugkasten",
+    "italian": "la cassetta degli attrezzi"
+  },
+  {
+    "german": "das Heu",
+    "italian": "il fieno"
+  },
+  {
+    "german": "die Heugabel",
+    "italian": "il forcone"
+  },
+  {
+    "german": "die Milchkuh",
+    "italian": "la mucca da latte"
+  },
+  {
+    "german": "die Futterkrippe",
+    "italian": "la mangiatoia"
+  },
+  {
+    "german": "die Mühle",
+    "italian": "il mulino"
+  },
+  {
+    "german": "der Hofladen",
+    "italian": "il negozio della fattoria"
+  },
+  {
+    "german": "daher",
+    "italian": "da lì"
+  },
+  {
+    "german": "aufwärts",
+    "italian": "verso l'alto"
+  },
+  {
+    "german": "abwärts",
+    "italian": "verso il basso"
+  },
+  {
+    "german": "seitwärts",
+    "italian": "lateralmente"
+  },
+  {
+    "german": "quer",
+    "italian": "di traverso"
+  },
+  {
+    "german": "mittendrin",
+    "italian": "in mezzo"
+  },
+  {
+    "german": "dazwischen",
+    "italian": "in mezzo"
+  },
+  {
+    "german": "beiseite",
+    "italian": "da parte"
+  },
+  {
+    "german": "woanders",
+    "italian": "altrove"
+  },
+  {
+    "german": "anderswo",
+    "italian": "altrove"
+  },
+  {
+    "german": "rundherum",
+    "italian": "tutt'intorno"
+  },
+  {
+    "german": "bergauf",
+    "italian": "in salita"
+  },
+  {
+    "german": "bergab",
+    "italian": "in discesa"
+  },
+  {
+    "german": "herüber",
+    "italian": "da questa parte"
+  },
+  {
+    "german": "hinüber",
+    "italian": "dall'altra parte"
+  },
+  {
+    "german": "ebenso",
+    "italian": "altrettanto"
+  },
+  {
+    "german": "absichtlich",
+    "italian": "intenzionalmente"
+  },
+  {
+    "german": "versehentlich",
+    "italian": "per sbaglio"
+  },
+  {
+    "german": "manuell",
+    "italian": "manualmente"
+  },
+  {
+    "german": "heimlich",
+    "italian": "di nascosto"
+  },
+  {
+    "german": "indirekt",
+    "italian": "indirettamente"
+  },
+  {
+    "german": "umsonst",
+    "italian": "invano"
+  },
+  {
+    "german": "vergeblich",
+    "italian": "inutilmente"
+  },
+  {
+    "german": "mühelos",
+    "italian": "senza sforzo"
+  },
+  {
+    "german": "äußerst",
+    "italian": "estremamente"
+  },
+  {
+    "german": "tatsächlich",
+    "italian": "effettivamente"
+  },
+  {
+    "german": "offensichtlich",
+    "italian": "evidentemente"
+  },
+  {
+    "german": "anscheinend",
+    "italian": "apparentemente"
+  },
+  {
+    "german": "lediglich",
+    "italian": "soltanto"
+  },
+  {
+    "german": "möglicherweise",
+    "italian": "possibilmente"
+  },
+  {
+    "german": "scheinbar",
+    "italian": "apparentemente"
+  },
+  {
+    "german": "angeblich",
+    "italian": "presumibilmente"
+  },
+  {
+    "german": "vermutlich",
+    "italian": "presumibilmente"
+  },
+  {
+    "german": "hauptsächlich",
+    "italian": "principalmente"
+  },
+  {
+    "german": "insgesamt",
+    "italian": "in totale"
+  },
+  {
+    "german": "gegenseitig",
+    "italian": "reciprocamente"
+  },
+  {
+    "german": "ausnahmsweise",
+    "italian": "eccezionalmente"
+  },
+  {
+    "german": "dennoch",
+    "italian": "ciononostante"
+  },
+  {
+    "german": "jedoch",
+    "italian": "tuttavia"
+  },
+  {
+    "german": "zudem",
+    "italian": "inoltre"
+  },
+  {
+    "german": "sowohl...als auch",
+    "italian": "sia...che"
+  },
+  {
+    "german": "nicht nur...sondern auch",
+    "italian": "non solo...ma anche"
+  },
+  {
+    "german": "einerseits...andererseits",
+    "italian": "da un lato...dall'altro"
+  },
+  {
+    "german": "je...desto",
+    "italian": "più...più"
+  },
+  {
+    "german": "soweit",
+    "italian": "per quanto"
+  },
+  {
+    "german": "folglich",
+    "italian": "di conseguenza"
+  },
+  {
+    "german": "anstatt ... zu",
+    "italian": "invece di"
+  },
+  {
+    "german": "ohne ... zu",
+    "italian": "senza"
+  },
+  {
+    "german": "sowohl ... als auch",
+    "italian": "sia ... che"
+  },
+  {
+    "german": "weder ... noch",
+    "italian": "né ... né"
+  },
+  {
+    "german": "nicht nur ... sondern auch",
+    "italian": "non solo ... ma anche"
+  },
+  {
+    "german": "je ... desto",
+    "italian": "più ... più"
+  },
+  {
+    "german": "wobei",
+    "italian": "per cui"
+  },
+  {
+    "german": "worum",
+    "italian": "di cui"
+  },
+  {
+    "german": "solange",
+    "italian": "fintanto che"
+  },
+  {
+    "german": "anstatt...zu",
+    "italian": "invece di"
+  },
+  {
+    "german": "falls",
+    "italian": "nel caso che"
+  },
+  {
+    "german": "indem",
+    "italian": "mentre/facendo"
+  },
+  {
+    "german": "sodass",
+    "italian": "cosicché"
+  },
+  {
+    "german": "als ob",
+    "italian": "come se"
+  },
+  {
+    "german": "wozu",
+    "italian": "a che scopo"
+  },
+  {
+    "german": "trotz",
+    "italian": "nonostante"
+  },
+  {
+    "german": "statt",
+    "italian": "invece di"
+  },
+  {
+    "german": "anstatt",
+    "italian": "invece di"
+  },
+  {
+    "german": "innerhalb",
+    "italian": "entro"
+  },
+  {
+    "german": "außerhalb",
+    "italian": "al di fuori"
+  },
+  {
+    "german": "oberhalb",
+    "italian": "al di sopra"
+  },
+  {
+    "german": "unterhalb",
+    "italian": "al di sotto"
+  },
+  {
+    "german": "aufgrund",
+    "italian": "a causa di"
+  },
+  {
+    "german": "bezüglich",
+    "italian": "riguardo a"
+  },
+  {
+    "german": "anhand",
+    "italian": "sulla base di"
+  },
+  {
+    "german": "anstelle",
+    "italian": "al posto di"
+  },
+  {
+    "german": "mithilfe",
+    "italian": "con l'aiuto di"
+  },
+  {
+    "german": "einschließlich",
+    "italian": "incluso"
+  },
+  {
+    "german": "ausschließlich",
+    "italian": "escluso"
+  },
+  {
+    "german": "dank",
+    "italian": "grazie a"
+  },
+  {
+    "german": "korrigieren",
+    "italian": "correggere"
+  },
+  {
+    "german": "zwingen",
+    "italian": "costringere"
+  },
+  {
+    "german": "bestätigen",
+    "italian": "confermare"
+  },
+  {
+    "german": "erkundigen",
+    "italian": "informarsi"
+  },
+  {
+    "german": "wahrnehmen",
+    "italian": "percepire"
+  },
+  {
+    "german": "empfinden",
+    "italian": "provare"
+  },
+  {
+    "german": "feststellen",
+    "italian": "constatare"
+  },
+  {
+    "german": "entnehmen",
+    "italian": "dedurre"
+  },
+  {
+    "german": "stärken",
+    "italian": "rafforzare"
+  },
+  {
+    "german": "fördern",
+    "italian": "promuovere"
+  },
+  {
+    "german": "ermöglichen",
+    "italian": "rendere possibile"
+  },
+  {
+    "german": "verhindern",
+    "italian": "impedire"
+  },
+  {
+    "german": "beschränken",
+    "italian": "limitare"
+  },
+  {
+    "german": "zentral",
+    "italian": "centrale"
+  },
+  {
+    "german": "notwendig",
+    "italian": "necessario"
+  },
+  {
+    "german": "unbedingt",
+    "italian": "assolutamente"
+  },
+  {
+    "german": "die Ausnahme",
+    "italian": "l'eccezione"
+  },
+  {
+    "german": "das Hindernis",
+    "italian": "l'ostacolo"
+  },
+  {
+    "german": "die Kontrolle",
+    "italian": "il controllo"
+  },
+  {
+    "german": "die Führung",
+    "italian": "la guida"
+  },
+  {
+    "german": "die Leitung",
+    "italian": "la direzione"
+  },
+  {
+    "german": "beweisen",
+    "italian": "provare"
+  },
+  {
+    "german": "übertreiben",
+    "italian": "esagerare"
+  },
+  {
+    "german": "das Prinzip",
+    "italian": "il principio"
+  },
+  {
+    "german": "das Einfamilienhaus",
+    "italian": "la villa unifamiliare"
+  },
+  {
+    "german": "das Mehrfamilienhaus",
+    "italian": "il condominio"
+  },
+  {
+    "german": "das Reihenhaus",
+    "italian": "la casa a schiera"
+  },
+  {
+    "german": "die Doppelhaushälfte",
+    "italian": "la bifamiliare"
+  },
+  {
+    "german": "der Wolkenkratzer",
+    "italian": "il grattacielo"
+  },
+  {
+    "german": "das Bauernhaus",
+    "italian": "la cascina"
+  },
+  {
+    "german": "die Burg",
+    "italian": "la fortezza"
+  },
+  {
+    "german": "der Palast",
+    "italian": "il palazzo"
+  },
+  {
+    "german": "die Hütte",
+    "italian": "la baita"
+  }
+]

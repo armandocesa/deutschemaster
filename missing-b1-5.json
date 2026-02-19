@@ -1,0 +1,2402 @@
+[
+  {
+    "german": "die Illustratorin",
+    "italian": "l'illustratrice"
+  },
+  {
+    "german": "die Dirigentin",
+    "italian": "la direttrice d'orchestra"
+  },
+  {
+    "german": "der Barkeeper",
+    "italian": "il barman"
+  },
+  {
+    "german": "die Barkeeperin",
+    "italian": "la barwoman"
+  },
+  {
+    "german": "die Hotelière",
+    "italian": "l'albergatrice"
+  },
+  {
+    "german": "die Rezeptionistin",
+    "italian": "la receptionist"
+  },
+  {
+    "german": "der Kosmetiker",
+    "italian": "l'estetista"
+  },
+  {
+    "german": "die Kosmetikerin",
+    "italian": "l'estetista"
+  },
+  {
+    "german": "der Masseur",
+    "italian": "il massaggiatore"
+  },
+  {
+    "german": "die Masseurin",
+    "italian": "la massaggiatrice"
+  },
+  {
+    "german": "der Reiseleiter",
+    "italian": "la guida turistica"
+  },
+  {
+    "german": "die Reiseleiterin",
+    "italian": "la guida turistica"
+  },
+  {
+    "german": "der Flugbegleiter",
+    "italian": "l'assistente di volo"
+  },
+  {
+    "german": "die Flugbegleiterin",
+    "italian": "l'assistente di volo"
+  },
+  {
+    "german": "die Lokführerin",
+    "italian": "la macchinista"
+  },
+  {
+    "german": "der Reinigungskraft",
+    "italian": "l'addetto alle pulizie"
+  },
+  {
+    "german": "die Reinigungskraft",
+    "italian": "l'addetta alle pulizie"
+  },
+  {
+    "german": "die Hausmeisterin",
+    "italian": "la portinaia"
+  },
+  {
+    "german": "der Sicherheitsmann",
+    "italian": "la guardia di sicurezza"
+  },
+  {
+    "german": "die Sicherheitsfrau",
+    "italian": "la guardia di sicurezza"
+  },
+  {
+    "german": "der Detektiv",
+    "italian": "il detective"
+  },
+  {
+    "german": "die Detektivin",
+    "italian": "la detective"
+  },
+  {
+    "german": "die Dozentin",
+    "italian": "la docente"
+  },
+  {
+    "german": "die Forscherin",
+    "italian": "la ricercatrice"
+  },
+  {
+    "german": "die Wissenschaftlerin",
+    "italian": "la scienziata"
+  },
+  {
+    "german": "der Physiker",
+    "italian": "il fisico"
+  },
+  {
+    "german": "die Physikerin",
+    "italian": "la fisica"
+  },
+  {
+    "german": "der Chemiker",
+    "italian": "il chimico"
+  },
+  {
+    "german": "die Chemikerin",
+    "italian": "la chimica"
+  },
+  {
+    "german": "der Biologe",
+    "italian": "il biologo"
+  },
+  {
+    "german": "die Biologin",
+    "italian": "la biologa"
+  },
+  {
+    "german": "der Mathematiker",
+    "italian": "il matematico"
+  },
+  {
+    "german": "der Historiker",
+    "italian": "lo storico"
+  },
+  {
+    "german": "die Historikerin",
+    "italian": "la storica"
+  },
+  {
+    "german": "der Philosoph",
+    "italian": "il filosofo"
+  },
+  {
+    "german": "die Philosophin",
+    "italian": "la filosofa"
+  },
+  {
+    "german": "der Soziologe",
+    "italian": "il sociologo"
+  },
+  {
+    "german": "die Soziologin",
+    "italian": "la sociologa"
+  },
+  {
+    "german": "der Archäologe",
+    "italian": "l'archeologo"
+  },
+  {
+    "german": "die Archäologin",
+    "italian": "l'archeologa"
+  },
+  {
+    "german": "der Ökonom",
+    "italian": "l'economista"
+  },
+  {
+    "german": "die Ökonomin",
+    "italian": "l'economista"
+  },
+  {
+    "german": "die Dolmetscherin",
+    "italian": "l'interprete"
+  },
+  {
+    "german": "der Bibliothekar",
+    "italian": "il bibliotecario"
+  },
+  {
+    "german": "die Bibliothekarin",
+    "italian": "la bibliotecaria"
+  },
+  {
+    "german": "der Lebensgefährte",
+    "italian": "il compagno"
+  },
+  {
+    "german": "die Lebensgefährtin",
+    "italian": "la compagna"
+  },
+  {
+    "german": "die Verlobung",
+    "italian": "il fidanzamento"
+  },
+  {
+    "german": "sich verloben",
+    "italian": "fidanzarsi"
+  },
+  {
+    "german": "sich scheiden lassen",
+    "italian": "divorziare"
+  },
+  {
+    "german": "das Verständnis",
+    "italian": "la comprensione"
+  },
+  {
+    "german": "missverstehen",
+    "italian": "fraintendere"
+  },
+  {
+    "german": "das Missverständnis",
+    "italian": "il malinteso"
+  },
+  {
+    "german": "sich versöhnen",
+    "italian": "riconciliarsi"
+  },
+  {
+    "german": "die Versöhnung",
+    "italian": "la riconciliazione"
+  },
+  {
+    "german": "die Vergebung",
+    "italian": "il perdono"
+  },
+  {
+    "german": "die Einsamkeit",
+    "italian": "la solitudine"
+  },
+  {
+    "german": "die Zufriedenheit",
+    "italian": "la soddisfazione"
+  },
+  {
+    "german": "die Begeisterung",
+    "italian": "l'entusiasmo"
+  },
+  {
+    "german": "die Aufregung",
+    "italian": "l'emozione"
+  },
+  {
+    "german": "der Stolz",
+    "italian": "l'orgoglio"
+  },
+  {
+    "german": "die Dankbarkeit",
+    "italian": "la gratitudine"
+  },
+  {
+    "german": "die Erleichterung",
+    "italian": "il sollievo"
+  },
+  {
+    "german": "die Traurigkeit",
+    "italian": "la tristezza"
+  },
+  {
+    "german": "die Enttäuschung",
+    "italian": "la delusione"
+  },
+  {
+    "german": "die Frustration",
+    "italian": "la frustrazione"
+  },
+  {
+    "german": "beleidigt",
+    "italian": "offeso"
+  },
+  {
+    "german": "sich fürchten",
+    "italian": "temere"
+  },
+  {
+    "german": "die Furcht",
+    "italian": "la paura"
+  },
+  {
+    "german": "die Nervosität",
+    "italian": "il nervosismo"
+  },
+  {
+    "german": "das Erstaunen",
+    "italian": "lo stupore"
+  },
+  {
+    "german": "die Neugier",
+    "italian": "la curiosità"
+  },
+  {
+    "german": "der Neid",
+    "italian": "l'invidia"
+  },
+  {
+    "german": "die Eifersucht",
+    "italian": "la gelosia"
+  },
+  {
+    "german": "die Schüchternheit",
+    "italian": "la timidezza"
+  },
+  {
+    "german": "die Scham",
+    "italian": "la vergogna"
+  },
+  {
+    "german": "die Schuld",
+    "italian": "la colpa"
+  },
+  {
+    "german": "das Gewissen",
+    "italian": "la coscienza"
+  },
+  {
+    "german": "verzweifelt",
+    "italian": "disperato"
+  },
+  {
+    "german": "die Verzweiflung",
+    "italian": "la disperazione"
+  },
+  {
+    "german": "das Selbstbewusstsein",
+    "italian": "l'autostima"
+  },
+  {
+    "german": "die Unsicherheit",
+    "italian": "l'insicurezza"
+  },
+  {
+    "german": "die Überlegung",
+    "italian": "la considerazione"
+  },
+  {
+    "german": "der Glaube",
+    "italian": "la credenza"
+  },
+  {
+    "german": "die Vermutung",
+    "italian": "il sospetto"
+  },
+  {
+    "german": "die Annahme",
+    "italian": "il presupposto"
+  },
+  {
+    "german": "der Zweifel",
+    "italian": "il dubbio"
+  },
+  {
+    "german": "bevorzugen",
+    "italian": "preferire"
+  },
+  {
+    "german": "die Vorliebe",
+    "italian": "la preferenza"
+  },
+  {
+    "german": "der Einfall",
+    "italian": "l'idea"
+  },
+  {
+    "german": "abgelenkt",
+    "italian": "distratto"
+  },
+  {
+    "german": "die Ablenkung",
+    "italian": "la distrazione"
+  },
+  {
+    "german": "die Verwirrung",
+    "italian": "la confusione"
+  },
+  {
+    "german": "das Atom",
+    "italian": "l'atomo"
+  },
+  {
+    "german": "das Molekül",
+    "italian": "la molecola"
+  },
+  {
+    "german": "der Kern",
+    "italian": "il nucleo"
+  },
+  {
+    "german": "die Ladung",
+    "italian": "la carica"
+  },
+  {
+    "german": "der Widerstand",
+    "italian": "la resistenza"
+  },
+  {
+    "german": "die Masse",
+    "italian": "la massa"
+  },
+  {
+    "german": "die Beschleunigung",
+    "italian": "l'accelerazione"
+  },
+  {
+    "german": "der Schall",
+    "italian": "il suono"
+  },
+  {
+    "german": "die Welle",
+    "italian": "l'onda"
+  },
+  {
+    "german": "die Frequenz",
+    "italian": "la frequenza"
+  },
+  {
+    "german": "die Strahlung",
+    "italian": "la radiazione"
+  },
+  {
+    "german": "der Magnet",
+    "italian": "il magnete"
+  },
+  {
+    "german": "das Element",
+    "italian": "l'elemento"
+  },
+  {
+    "german": "die Reaktion",
+    "italian": "la reazione"
+  },
+  {
+    "german": "die Säure",
+    "italian": "l'acido"
+  },
+  {
+    "german": "der Sauerstoff",
+    "italian": "l'ossigeno"
+  },
+  {
+    "german": "der Wasserstoff",
+    "italian": "l'idrogeno"
+  },
+  {
+    "german": "das Kupfer",
+    "italian": "il rame"
+  },
+  {
+    "german": "das Blei",
+    "italian": "il piombo"
+  },
+  {
+    "german": "das Aluminium",
+    "italian": "l'alluminio"
+  },
+  {
+    "german": "die Flüssigkeit",
+    "italian": "il liquido"
+  },
+  {
+    "german": "der Feststoff",
+    "italian": "il solido"
+  },
+  {
+    "german": "schmelzen",
+    "italian": "fondere"
+  },
+  {
+    "german": "verdampfen",
+    "italian": "evaporare"
+  },
+  {
+    "german": "die Mischung",
+    "italian": "la miscela"
+  },
+  {
+    "german": "die Formel",
+    "italian": "la formula"
+  },
+  {
+    "german": "der Beweis",
+    "italian": "la prova"
+  },
+  {
+    "german": "die Zelle",
+    "italian": "la cellula"
+  },
+  {
+    "german": "das Organ",
+    "italian": "l'organo"
+  },
+  {
+    "german": "der Organismus",
+    "italian": "l'organismo"
+  },
+  {
+    "german": "die DNA",
+    "italian": "il DNA"
+  },
+  {
+    "german": "das Gen",
+    "italian": "il gene"
+  },
+  {
+    "german": "das Säugetier",
+    "italian": "il mammifero"
+  },
+  {
+    "german": "das Reptil",
+    "italian": "il rettile"
+  },
+  {
+    "german": "die Atmung",
+    "italian": "la respirazione"
+  },
+  {
+    "german": "die Verdauung",
+    "italian": "la digestione"
+  },
+  {
+    "german": "verdauen",
+    "italian": "digerire"
+  },
+  {
+    "german": "der Kreislauf",
+    "italian": "la circolazione"
+  },
+  {
+    "german": "das Protein",
+    "italian": "la proteina"
+  },
+  {
+    "german": "das Mineral",
+    "italian": "il minerale"
+  },
+  {
+    "german": "die Differenz",
+    "italian": "la differenza"
+  },
+  {
+    "german": "die Dezimalzahl",
+    "italian": "il numero decimale"
+  },
+  {
+    "german": "die Potenz",
+    "italian": "la potenza"
+  },
+  {
+    "german": "die Gleichung",
+    "italian": "l'equazione"
+  },
+  {
+    "german": "die Variable",
+    "italian": "la variabile"
+  },
+  {
+    "german": "die Konstante",
+    "italian": "la costante"
+  },
+  {
+    "german": "die Kurve",
+    "italian": "la curva"
+  },
+  {
+    "german": "der Graph",
+    "italian": "il grafico"
+  },
+  {
+    "german": "die Achse",
+    "italian": "l'asse"
+  },
+  {
+    "german": "die Gerade",
+    "italian": "la retta"
+  },
+  {
+    "german": "die Fläche",
+    "italian": "l'area"
+  },
+  {
+    "german": "das Volumen",
+    "italian": "il volume"
+  },
+  {
+    "german": "der Radius",
+    "italian": "il raggio"
+  },
+  {
+    "german": "der Durchmesser",
+    "italian": "il diametro"
+  },
+  {
+    "german": "parallel",
+    "italian": "parallelo"
+  },
+  {
+    "german": "senkrecht",
+    "italian": "perpendicolare"
+  },
+  {
+    "german": "der Mittelwert",
+    "italian": "il valore medio"
+  },
+  {
+    "german": "die Berechnung",
+    "italian": "il calcolo"
+  },
+  {
+    "german": "das Universum",
+    "italian": "l'universo"
+  },
+  {
+    "german": "die Galaxie",
+    "italian": "la galassia"
+  },
+  {
+    "german": "die Milchstraße",
+    "italian": "la Via Lattea"
+  },
+  {
+    "german": "der Mars",
+    "italian": "Marte"
+  },
+  {
+    "german": "der Jupiter",
+    "italian": "Giove"
+  },
+  {
+    "german": "der Saturn",
+    "italian": "Saturno"
+  },
+  {
+    "german": "der Komet",
+    "italian": "la cometa"
+  },
+  {
+    "german": "das Teleskop",
+    "italian": "il telescopio"
+  },
+  {
+    "german": "das Gestein",
+    "italian": "la roccia"
+  },
+  {
+    "german": "der Ausbruch",
+    "italian": "l'eruzione"
+  },
+  {
+    "german": "die Lava",
+    "italian": "la lava"
+  },
+  {
+    "german": "das Fossil",
+    "italian": "il fossile"
+  },
+  {
+    "german": "das Objekt",
+    "italian": "l'oggetto"
+  },
+  {
+    "german": "der Speicher",
+    "italian": "la memoria"
+  },
+  {
+    "german": "der Prozessor",
+    "italian": "il processore"
+  },
+  {
+    "german": "das Betriebssystem",
+    "italian": "il sistema operativo"
+  },
+  {
+    "german": "die Datenbank",
+    "italian": "il database"
+  },
+  {
+    "german": "der Server",
+    "italian": "il server"
+  },
+  {
+    "german": "streamen",
+    "italian": "streamare"
+  },
+  {
+    "german": "deinstallieren",
+    "italian": "disinstallare"
+  },
+  {
+    "german": "der Bug",
+    "italian": "il bug"
+  },
+  {
+    "german": "die Programmiersprache",
+    "italian": "il linguaggio di programmazione"
+  },
+  {
+    "german": "die künstliche Intelligenz",
+    "italian": "l'intelligenza artificiale"
+  },
+  {
+    "german": "die Fröhlichkeit",
+    "italian": "l'allegria"
+  },
+  {
+    "german": "der Optimismus",
+    "italian": "l'ottimismo"
+  },
+  {
+    "german": "die Zärtlichkeit",
+    "italian": "la tenerezza"
+  },
+  {
+    "german": "zärtlich",
+    "italian": "tenero"
+  },
+  {
+    "german": "die Zuneigung",
+    "italian": "l'affetto"
+  },
+  {
+    "german": "die Leidenschaft",
+    "italian": "la passione"
+  },
+  {
+    "german": "leidenschaftlich",
+    "italian": "appassionato"
+  },
+  {
+    "german": "trauern",
+    "italian": "essere in lutto"
+  },
+  {
+    "german": "fürchten",
+    "italian": "temere"
+  },
+  {
+    "german": "der Schrecken",
+    "italian": "il terrore"
+  },
+  {
+    "german": "die Unruhe",
+    "italian": "l'inquietudine"
+  },
+  {
+    "german": "unruhig",
+    "italian": "inquieto"
+  },
+  {
+    "german": "beneiden",
+    "italian": "invidiare"
+  },
+  {
+    "german": "ablenken",
+    "italian": "distrarre"
+  },
+  {
+    "german": "hellwach",
+    "italian": "completamente sveglio"
+  },
+  {
+    "german": "verwundert",
+    "italian": "meravigliato"
+  },
+  {
+    "german": "die Verwunderung",
+    "italian": "la meraviglia"
+  },
+  {
+    "german": "fasziniert",
+    "italian": "affascinato"
+  },
+  {
+    "german": "die Faszination",
+    "italian": "il fascino"
+  },
+  {
+    "german": "beeindruckt",
+    "italian": "impressionato"
+  },
+  {
+    "german": "beeindrucken",
+    "italian": "impressionare"
+  },
+  {
+    "german": "gerührt",
+    "italian": "commosso"
+  },
+  {
+    "german": "betroffen",
+    "italian": "colpito"
+  },
+  {
+    "german": "nachdenklich",
+    "italian": "pensieroso"
+  },
+  {
+    "german": "entschlossen",
+    "italian": "determinato"
+  },
+  {
+    "german": "sich entschließen",
+    "italian": "decidersi"
+  },
+  {
+    "german": "die Motivation",
+    "italian": "la motivazione"
+  },
+  {
+    "german": "motiviert",
+    "italian": "motivato"
+  },
+  {
+    "german": "motivieren",
+    "italian": "motivare"
+  },
+  {
+    "german": "die Ungeduld",
+    "italian": "l'impazienza"
+  },
+  {
+    "german": "die Offenheit",
+    "italian": "l'apertura mentale"
+  },
+  {
+    "german": "verschlossen",
+    "italian": "chiuso"
+  },
+  {
+    "german": "die Unfreundlichkeit",
+    "italian": "la scortesia"
+  },
+  {
+    "german": "die Unhöflichkeit",
+    "italian": "la maleducazione"
+  },
+  {
+    "german": "die Ehrlichkeit",
+    "italian": "l'onestà"
+  },
+  {
+    "german": "unehrlich",
+    "italian": "disonesto"
+  },
+  {
+    "german": "die Treue",
+    "italian": "la fedeltà"
+  },
+  {
+    "german": "das Individuum",
+    "italian": "l'individuo"
+  },
+  {
+    "german": "der Säugling",
+    "italian": "il lattante"
+  },
+  {
+    "german": "der Fachmann",
+    "italian": "lo specialista"
+  },
+  {
+    "german": "die Fachfrau",
+    "italian": "la specialista"
+  },
+  {
+    "german": "der Laie",
+    "italian": "il profano"
+  },
+  {
+    "german": "der Amateur",
+    "italian": "il dilettante"
+  },
+  {
+    "german": "der Gastgeber",
+    "italian": "l'ospitante"
+  },
+  {
+    "german": "der Vertreter",
+    "italian": "il rappresentante"
+  },
+  {
+    "german": "der Vorsitzende",
+    "italian": "il presidente"
+  },
+  {
+    "german": "der Stellvertreter",
+    "italian": "il sostituto"
+  },
+  {
+    "german": "der Nachfolger",
+    "italian": "il successore"
+  },
+  {
+    "german": "der Vorgänger",
+    "italian": "il predecessore"
+  },
+  {
+    "german": "der Verdächtige",
+    "italian": "il sospettato"
+  },
+  {
+    "german": "der Einheimische",
+    "italian": "il locale"
+  },
+  {
+    "german": "das Bauwerk",
+    "italian": "la costruzione"
+  },
+  {
+    "german": "die Kathedrale",
+    "italian": "la cattedrale"
+  },
+  {
+    "german": "der Dom",
+    "italian": "il duomo"
+  },
+  {
+    "german": "die Kapelle",
+    "italian": "la cappella"
+  },
+  {
+    "german": "die Moschee",
+    "italian": "la moschea"
+  },
+  {
+    "german": "die Synagoge",
+    "italian": "la sinagoga"
+  },
+  {
+    "german": "der Tempel",
+    "italian": "il tempio"
+  },
+  {
+    "german": "das Kloster",
+    "italian": "il monastero"
+  },
+  {
+    "german": "das Werk",
+    "italian": "lo stabilimento"
+  },
+  {
+    "german": "der Schuppen",
+    "italian": "il capanno"
+  },
+  {
+    "german": "das Gewächshaus",
+    "italian": "la serra"
+  },
+  {
+    "german": "die Tiefgarage",
+    "italian": "il parcheggio sotterraneo"
+  },
+  {
+    "german": "das Parkhaus",
+    "italian": "il parcheggio multipiano"
+  },
+  {
+    "german": "der Apparat",
+    "italian": "l'apparecchio"
+  },
+  {
+    "german": "der Stahl",
+    "italian": "l'acciaio"
+  },
+  {
+    "german": "die Pappe",
+    "italian": "il cartone"
+  },
+  {
+    "german": "der Fels",
+    "italian": "la roccia"
+  },
+  {
+    "german": "der Beton",
+    "italian": "il cemento"
+  },
+  {
+    "german": "der Ziegel",
+    "italian": "il mattone"
+  },
+  {
+    "german": "der Behälter",
+    "italian": "il contenitore"
+  },
+  {
+    "german": "der Korken",
+    "italian": "il tappo"
+  },
+  {
+    "german": "der Henkel",
+    "italian": "il manico"
+  },
+  {
+    "german": "die Schnur",
+    "italian": "lo spago"
+  },
+  {
+    "german": "der Knoten",
+    "italian": "il nodo"
+  },
+  {
+    "german": "der Streifen",
+    "italian": "la striscia"
+  },
+  {
+    "german": "die Truhe",
+    "italian": "il baule"
+  },
+  {
+    "german": "die Taufe",
+    "italian": "il battesimo"
+  },
+  {
+    "german": "die Beerdigung",
+    "italian": "il funerale"
+  },
+  {
+    "german": "das Begräbnis",
+    "italian": "il funerale"
+  },
+  {
+    "german": "das Jubiläum",
+    "italian": "il giubileo"
+  },
+  {
+    "german": "der Kongress",
+    "italian": "il congresso"
+  },
+  {
+    "german": "die Vernissage",
+    "italian": "il vernissage"
+  },
+  {
+    "german": "der Wettkampf",
+    "italian": "la gara"
+  },
+  {
+    "german": "das Turnier",
+    "italian": "il torneo"
+  },
+  {
+    "german": "die Zeremonie",
+    "italian": "la cerimonia"
+  },
+  {
+    "german": "die Einweihung",
+    "italian": "l'inaugurazione"
+  },
+  {
+    "german": "die Eröffnung",
+    "italian": "l'apertura"
+  },
+  {
+    "german": "die Verleihung",
+    "italian": "la premiazione"
+  },
+  {
+    "german": "die Preisverleihung",
+    "italian": "la premiazione"
+  },
+  {
+    "german": "die Ehrung",
+    "italian": "l'omaggio"
+  },
+  {
+    "german": "die Gala",
+    "italian": "il galà"
+  },
+  {
+    "german": "der Athlet",
+    "italian": "l'atleta"
+  },
+  {
+    "german": "der Schiedsrichter",
+    "italian": "l'arbitro"
+  },
+  {
+    "german": "die Weltmeisterschaft",
+    "italian": "il campionato mondiale"
+  },
+  {
+    "german": "die Olympiade",
+    "italian": "le Olimpiadi"
+  },
+  {
+    "german": "die Olympischen Spiele",
+    "italian": "i Giochi Olimpici"
+  },
+  {
+    "german": "das Unentschieden",
+    "italian": "il pareggio"
+  },
+  {
+    "german": "der Weltrekord",
+    "italian": "il record mondiale"
+  },
+  {
+    "german": "die Trophäe",
+    "italian": "il trofeo"
+  },
+  {
+    "german": "der Stürmer",
+    "italian": "l'attaccante"
+  },
+  {
+    "german": "der Verteidiger",
+    "italian": "il difensore"
+  },
+  {
+    "german": "der Elfmeter",
+    "italian": "il rigore"
+  },
+  {
+    "german": "die rote Karte",
+    "italian": "il cartellino rosso"
+  },
+  {
+    "german": "die gelbe Karte",
+    "italian": "il cartellino giallo"
+  },
+  {
+    "german": "das Freibad",
+    "italian": "la piscina all'aperto"
+  },
+  {
+    "german": "das Hallenbad",
+    "italian": "la piscina coperta"
+  },
+  {
+    "german": "das Rudern",
+    "italian": "il canottaggio"
+  },
+  {
+    "german": "das Mountainbiking",
+    "italian": "la mountain bike"
+  },
+  {
+    "german": "das Ringen",
+    "italian": "la lotta"
+  },
+  {
+    "german": "die Leichtathletik",
+    "italian": "l'atletica leggera"
+  },
+  {
+    "german": "der Hochsprung",
+    "italian": "il salto in alto"
+  },
+  {
+    "german": "der Weitsprung",
+    "italian": "il salto in lungo"
+  },
+  {
+    "german": "das Fechten",
+    "italian": "la scherma"
+  },
+  {
+    "german": "jagen",
+    "italian": "cacciare"
+  },
+  {
+    "german": "die Jagd",
+    "italian": "la caccia"
+  },
+  {
+    "german": "stricken",
+    "italian": "lavorare a maglia"
+  },
+  {
+    "german": "häkeln",
+    "italian": "lavorare all'uncinetto"
+  },
+  {
+    "german": "das Saxophon",
+    "italian": "il sassofono"
+  },
+  {
+    "german": "gärtnern",
+    "italian": "fare giardinaggio"
+  },
+  {
+    "german": "der Briefmarkensammler",
+    "italian": "il collezionista di francobolli"
+  },
+  {
+    "german": "das Kreuzworträtsel",
+    "italian": "le parole crociate"
+  },
+  {
+    "german": "die Grafikkarte",
+    "italian": "la scheda grafica"
+  },
+  {
+    "german": "das Motherboard",
+    "italian": "la scheda madre"
+  },
+  {
+    "german": "das Netzteil",
+    "italian": "l'alimentatore"
+  },
+  {
+    "german": "das Gehäuse",
+    "italian": "il case"
+  },
+  {
+    "german": "der Speicherplatz",
+    "italian": "lo spazio di archiviazione"
+  },
+  {
+    "german": "sichern",
+    "italian": "eseguire il backup"
+  },
+  {
+    "german": "der Trojaner",
+    "italian": "il trojan"
+  },
+  {
+    "german": "der Lieferwagen",
+    "italian": "il furgone"
+  },
+  {
+    "german": "das Mountainbike",
+    "italian": "la mountain bike"
+  },
+  {
+    "german": "der Hubschrauber",
+    "italian": "l'elicottero"
+  },
+  {
+    "german": "das Segelboot",
+    "italian": "la barca a vela"
+  },
+  {
+    "german": "das Kanu",
+    "italian": "la canoa"
+  },
+  {
+    "german": "das Kajak",
+    "italian": "il kayak"
+  },
+  {
+    "german": "der Bagger",
+    "italian": "l'escavatore"
+  },
+  {
+    "german": "der Kran",
+    "italian": "la gru"
+  },
+  {
+    "german": "der Wohnwagen",
+    "italian": "la roulotte"
+  },
+  {
+    "german": "das Wohnmobil",
+    "italian": "il camper"
+  },
+  {
+    "german": "die Windschutzscheibe",
+    "italian": "il parabrezza"
+  },
+  {
+    "german": "der Airbag",
+    "italian": "l'airbag"
+  },
+  {
+    "german": "der Scheibenwischer",
+    "italian": "il tergicristallo"
+  },
+  {
+    "german": "der Rückspiegel",
+    "italian": "lo specchietto retrovisore"
+  },
+  {
+    "german": "der Scheinwerfer",
+    "italian": "il faro"
+  },
+  {
+    "german": "das Rücklicht",
+    "italian": "la luce posteriore"
+  },
+  {
+    "german": "das Getriebe",
+    "italian": "il cambio"
+  },
+  {
+    "german": "die Kupplung",
+    "italian": "la frizione"
+  },
+  {
+    "german": "das Gaspedal",
+    "italian": "l'acceleratore"
+  },
+  {
+    "german": "das Bremspedal",
+    "italian": "il pedale del freno"
+  },
+  {
+    "german": "die Gangschaltung",
+    "italian": "il cambio marcia"
+  },
+  {
+    "german": "lenken",
+    "italian": "guidare/sterzare"
+  },
+  {
+    "german": "überholen",
+    "italian": "sorpassare"
+  },
+  {
+    "german": "die Bundesstraße",
+    "italian": "la statale"
+  },
+  {
+    "german": "die Landstraße",
+    "italian": "la strada provinciale"
+  },
+  {
+    "german": "die Einbahnstraße",
+    "italian": "la strada a senso unico"
+  },
+  {
+    "german": "die Sackgasse",
+    "italian": "il vicolo cieco"
+  },
+  {
+    "german": "der Kreisverkehr",
+    "italian": "la rotonda"
+  },
+  {
+    "german": "das Verkehrsschild",
+    "italian": "il cartello stradale"
+  },
+  {
+    "german": "die Vorfahrt",
+    "italian": "la precedenza"
+  },
+  {
+    "german": "das Tempolimit",
+    "italian": "il limite di velocità"
+  },
+  {
+    "german": "die Panne",
+    "italian": "il guasto"
+  },
+  {
+    "german": "die Fahrprüfung",
+    "italian": "l'esame di guida"
+  },
+  {
+    "german": "die Fahrschule",
+    "italian": "la scuola guida"
+  },
+  {
+    "german": "der TÜV",
+    "italian": "la revisione"
+  },
+  {
+    "german": "die Sicherheitskontrolle",
+    "italian": "il controllo sicurezza"
+  },
+  {
+    "german": "die Passkontrolle",
+    "italian": "il controllo passaporti"
+  },
+  {
+    "german": "der Zoll",
+    "italian": "la dogana"
+  },
+  {
+    "german": "die Fluggesellschaft",
+    "italian": "la compagnia aerea"
+  },
+  {
+    "german": "die Anlegestelle",
+    "italian": "l'attracco"
+  },
+  {
+    "german": "die Rundreise",
+    "italian": "il tour"
+  },
+  {
+    "german": "die Städtereise",
+    "italian": "il city break"
+  },
+  {
+    "german": "die Kreuzfahrt",
+    "italian": "la crociera"
+  },
+  {
+    "german": "die Weltreise",
+    "italian": "il giro del mondo"
+  },
+  {
+    "german": "die Halbpension",
+    "italian": "la mezza pensione"
+  },
+  {
+    "german": "die Vollpension",
+    "italian": "la pensione completa"
+  },
+  {
+    "german": "das All-inclusive",
+    "italian": "il tutto incluso"
+  },
+  {
+    "german": "die Sehenswürdigkeit",
+    "italian": "l'attrazione turistica"
+  },
+  {
+    "german": "der Vergnügungspark",
+    "italian": "il parco divertimenti"
+  },
+  {
+    "german": "das Visum",
+    "italian": "il visto"
+  },
+  {
+    "german": "das Andenken",
+    "italian": "il ricordo"
+  },
+  {
+    "german": "die Stadtführung",
+    "italian": "il tour della città"
+  },
+  {
+    "german": "der Stadtführer",
+    "italian": "la guida della città"
+  },
+  {
+    "german": "die Rundfahrt",
+    "italian": "il giro turistico"
+  },
+  {
+    "german": "das Kreuzfahrtschiff",
+    "italian": "la nave da crociera"
+  },
+  {
+    "german": "der Inlandsflug",
+    "italian": "il volo nazionale"
+  },
+  {
+    "german": "der Auslandsflug",
+    "italian": "il volo internazionale"
+  },
+  {
+    "german": "der Direktflug",
+    "italian": "il volo diretto"
+  },
+  {
+    "german": "der Umsteigeflug",
+    "italian": "il volo con scalo"
+  },
+  {
+    "german": "der Zwischenstopp",
+    "italian": "lo scalo"
+  },
+  {
+    "german": "zollfrei",
+    "italian": "duty-free"
+  },
+  {
+    "german": "die Einreise",
+    "italian": "l'ingresso"
+  },
+  {
+    "german": "die Ausreise",
+    "italian": "l'uscita"
+  },
+  {
+    "german": "die Neustadt",
+    "italian": "la città nuova"
+  },
+  {
+    "german": "der Vorort",
+    "italian": "la periferia"
+  },
+  {
+    "german": "der Bezirk",
+    "italian": "il distretto"
+  },
+  {
+    "german": "die Fußgängerzone",
+    "italian": "la zona pedonale"
+  },
+  {
+    "german": "die Polizeiwache",
+    "italian": "la stazione di polizia"
+  },
+  {
+    "german": "das Bürgerbüro",
+    "italian": "l'ufficio anagrafe"
+  },
+  {
+    "german": "die Tiefkühltruhe",
+    "italian": "il freezer"
+  },
+  {
+    "german": "der Wäschetrockner",
+    "italian": "l'asciugatrice"
+  },
+  {
+    "german": "das Abwasser",
+    "italian": "le acque reflue"
+  },
+  {
+    "german": "das Grundwasser",
+    "italian": "le acque sotterranee"
+  },
+  {
+    "german": "die Autoversicherung",
+    "italian": "l'assicurazione auto"
+  },
+  {
+    "german": "die Monatszeitung",
+    "italian": "il mensile"
+  },
+  {
+    "german": "worunter",
+    "italian": "sotto che cosa"
+  },
+  {
+    "german": "woneben",
+    "italian": "accanto a che cosa"
+  },
+  {
+    "german": "wozwischen",
+    "italian": "tra che cosa"
+  },
+  {
+    "german": "wovor",
+    "italian": "davanti a che cosa"
+  },
+  {
+    "german": "wohinter",
+    "italian": "dietro a che cosa"
+  },
+  {
+    "german": "worin",
+    "italian": "in che cosa"
+  },
+  {
+    "german": "woraus",
+    "italian": "da che cosa"
+  },
+  {
+    "german": "wogegen",
+    "italian": "contro che cosa"
+  },
+  {
+    "german": "hierauf",
+    "italian": "su questo"
+  },
+  {
+    "german": "hierunter",
+    "italian": "sotto questo"
+  },
+  {
+    "german": "hiermit",
+    "italian": "con questo"
+  },
+  {
+    "german": "hierfür",
+    "italian": "per questo"
+  },
+  {
+    "german": "hiergegen",
+    "italian": "contro questo"
+  },
+  {
+    "german": "hieran",
+    "italian": "a questo"
+  },
+  {
+    "german": "hiervon",
+    "italian": "di questo"
+  },
+  {
+    "german": "hierbei",
+    "italian": "in questa occasione"
+  },
+  {
+    "german": "hierzu",
+    "italian": "a questo scopo"
+  },
+  {
+    "german": "dieselbe",
+    "italian": "la stessa"
+  },
+  {
+    "german": "dasselbe",
+    "italian": "lo stesso"
+  },
+  {
+    "german": "derjenige",
+    "italian": "quello"
+  },
+  {
+    "german": "diejenige",
+    "italian": "quella"
+  },
+  {
+    "german": "dasjenige",
+    "italian": "quello"
+  },
+  {
+    "german": "sich bemühen um",
+    "italian": "sforzarsi di"
+  },
+  {
+    "german": "sich bewerben um",
+    "italian": "candidarsi per"
+  },
+  {
+    "german": "sich wundern über",
+    "italian": "meravigliarsi di"
+  },
+  {
+    "german": "sich beschweren über",
+    "italian": "lamentarsi di"
+  },
+  {
+    "german": "sich erkundigen nach",
+    "italian": "informarsi su"
+  },
+  {
+    "german": "sich sehnen nach",
+    "italian": "desiderare ardentemente"
+  },
+  {
+    "german": "sich richten nach",
+    "italian": "conformarsi a"
+  },
+  {
+    "german": "sich verlassen auf",
+    "italian": "contare su"
+  },
+  {
+    "german": "sich einsetzen für",
+    "italian": "impegnarsi per"
+  },
+  {
+    "german": "sich entschließen zu",
+    "italian": "decidersi a"
+  },
+  {
+    "german": "ankommen auf",
+    "italian": "dipendere da"
+  },
+  {
+    "german": "bestehen aus",
+    "italian": "consistere di"
+  },
+  {
+    "german": "bestehen auf",
+    "italian": "insistere su"
+  },
+  {
+    "german": "halten von",
+    "italian": "pensare di"
+  },
+  {
+    "german": "handeln von",
+    "italian": "trattare di"
+  },
+  {
+    "german": "kämpfen für",
+    "italian": "lottare per"
+  },
+  {
+    "german": "kämpfen gegen",
+    "italian": "lottare contro"
+  },
+  {
+    "german": "leiden an",
+    "italian": "soffrire di"
+  },
+  {
+    "german": "leiden unter",
+    "italian": "soffrire per"
+  },
+  {
+    "german": "rechnen mit",
+    "italian": "contare su"
+  },
+  {
+    "german": "sorgen für",
+    "italian": "provvedere a"
+  },
+  {
+    "german": "verzichten auf",
+    "italian": "rinunciare a"
+  },
+  {
+    "german": "zweifeln an",
+    "italian": "dubitare di"
+  },
+  {
+    "german": "sterben an",
+    "italian": "morire di"
+  },
+  {
+    "german": "reagieren auf",
+    "italian": "reagire a"
+  },
+  {
+    "german": "sich beziehen auf",
+    "italian": "riferirsi a"
+  },
+  {
+    "german": "stammen aus",
+    "italian": "provenire da"
+  },
+  {
+    "german": "sich handeln um",
+    "italian": "trattarsi di"
+  },
+  {
+    "german": "sich sorgen um",
+    "italian": "preoccuparsi per"
+  },
+  {
+    "german": "kämpfen um",
+    "italian": "lottare per"
+  },
+  {
+    "german": "streben nach",
+    "italian": "aspirare a"
+  },
+  {
+    "german": "sich beschäftigen mit",
+    "italian": "occuparsi di"
+  },
+  {
+    "german": "umgehen mit",
+    "italian": "trattare con"
+  },
+  {
+    "german": "vergleichen mit",
+    "italian": "paragonare con"
+  },
+  {
+    "german": "einverstanden sein mit",
+    "italian": "essere d'accordo con"
+  },
+  {
+    "german": "sich informieren über",
+    "italian": "informarsi su"
+  },
+  {
+    "german": "berichten über",
+    "italian": "riferire su"
+  },
+  {
+    "german": "klagen über",
+    "italian": "lamentarsi di"
+  },
+  {
+    "german": "verfügen über",
+    "italian": "disporre di"
+  },
+  {
+    "german": "abhängen von",
+    "italian": "dipendere da"
+  },
+  {
+    "german": "sich erholen von",
+    "italian": "riprendersi da"
+  },
+  {
+    "german": "überzeugt sein von",
+    "italian": "essere convinto di"
+  },
+  {
+    "german": "leben von",
+    "italian": "vivere di"
+  },
+  {
+    "german": "schützen vor",
+    "italian": "proteggere da"
+  },
+  {
+    "german": "warnen vor",
+    "italian": "avvertire di"
+  },
+  {
+    "german": "sich fürchten vor",
+    "italian": "avere paura di"
+  },
+  {
+    "german": "fliehen vor",
+    "italian": "fuggire da"
+  },
+  {
+    "german": "sich verstecken vor",
+    "italian": "nascondersi da"
+  },
+  {
+    "german": "unterschiedlich",
+    "italian": "diverso"
+  },
+  {
+    "german": "identisch",
+    "italian": "identico"
+  },
+  {
+    "german": "gesamt",
+    "italian": "totale"
+  },
+  {
+    "german": "unvollständig",
+    "italian": "incompleto"
+  },
+  {
+    "german": "ursprünglich",
+    "italian": "originale"
+  },
+  {
+    "german": "künstlich",
+    "italian": "artificiale"
+  },
+  {
+    "german": "unnormal",
+    "italian": "anormale"
+  },
+  {
+    "german": "eigenartig",
+    "italian": "particolare"
+  },
+  {
+    "german": "vernünftig",
+    "italian": "ragionevole"
+  },
+  {
+    "german": "unvernünftig",
+    "italian": "irragionevole"
+  },
+  {
+    "german": "unlogisch",
+    "italian": "illogico"
+  },
+  {
+    "german": "sinnvoll",
+    "italian": "sensato"
+  },
+  {
+    "german": "sinnlos",
+    "italian": "insensato"
+  },
+  {
+    "german": "wirksam",
+    "italian": "efficace"
+  },
+  {
+    "german": "unwirksam",
+    "italian": "inefficace"
+  },
+  {
+    "german": "erfolglos",
+    "italian": "senza successo"
+  },
+  {
+    "german": "unbeliebt",
+    "italian": "impopolare"
+  },
+  {
+    "german": "unregelmäßig",
+    "italian": "irregolare"
+  },
+  {
+    "german": "anschließen",
+    "italian": "collegare"
+  },
+  {
+    "german": "ansprechen",
+    "italian": "rivolgersi a"
+  },
+  {
+    "german": "anstellen",
+    "italian": "assumere"
+  },
+  {
+    "german": "anwenden",
+    "italian": "applicare"
+  },
+  {
+    "german": "anpassen",
+    "italian": "adattare"
+  },
+  {
+    "german": "anregen",
+    "italian": "stimolare"
+  },
+  {
+    "german": "angreifen",
+    "italian": "attaccare"
+  },
+  {
+    "german": "anstarren",
+    "italian": "fissare"
+  },
+  {
+    "german": "antreten",
+    "italian": "iniziare"
+  },
+  {
+    "german": "anzünden",
+    "italian": "accendere"
+  },
+  {
+    "german": "auffallen",
+    "italian": "farsi notare"
+  },
+  {
+    "german": "auffordern",
+    "italian": "esortare"
+  },
+  {
+    "german": "aufklären",
+    "italian": "chiarire"
+  },
+  {
+    "german": "auflösen",
+    "italian": "sciogliere"
+  },
+  {
+    "german": "aufbewahren",
+    "italian": "conservare"
+  },
+  {
+    "german": "aufhalten",
+    "italian": "trattenere"
+  },
+  {
+    "german": "aufrufen",
+    "italian": "chiamare"
+  },
+  {
+    "german": "aufsetzen",
+    "italian": "mettere su"
+  },
+  {
+    "german": "aufstellen",
+    "italian": "posizionare"
+  },
+  {
+    "german": "ausbilden",
+    "italian": "formare"
+  },
+  {
+    "german": "ausbreiten",
+    "italian": "diffondere"
+  },
+  {
+    "german": "aushalten",
+    "italian": "sopportare"
+  },
+  {
+    "german": "auskommen",
+    "italian": "cavarsela"
+  },
+  {
+    "german": "auslösen",
+    "italian": "scatenare"
+  },
+  {
+    "german": "ausnutzen",
+    "italian": "sfruttare"
+  },
+  {
+    "german": "ausrichten",
+    "italian": "allineare"
+  },
+  {
+    "german": "aussetzen",
+    "italian": "esporre"
+  },
+  {
+    "german": "austeilen",
+    "italian": "distribuire"
+  },
+  {
+    "german": "austragen",
+    "italian": "consegnare"
+  },
+  {
+    "german": "einrichten",
+    "italian": "arredare"
+  },
+  {
+    "german": "einsetzen",
+    "italian": "impiegare"
+  },
+  {
+    "german": "einatmen",
+    "italian": "inspirare"
+  },
+  {
+    "german": "einbauen",
+    "italian": "installare"
+  },
+  {
+    "german": "einbeziehen",
+    "italian": "includere"
+  },
+  {
+    "german": "einbrechen",
+    "italian": "irrompere"
+  },
+  {
+    "german": "eindringen",
+    "italian": "penetrare"
+  },
+  {
+    "german": "eingreifen",
+    "italian": "intervenire"
+  },
+  {
+    "german": "einhalten",
+    "italian": "rispettare"
+  },
+  {
+    "german": "einholen",
+    "italian": "recuperare"
+  },
+  {
+    "german": "einigen",
+    "italian": "accordarsi"
+  },
+  {
+    "german": "einleiten",
+    "italian": "avviare"
+  },
+  {
+    "german": "einplanen",
+    "italian": "pianificare"
+  },
+  {
+    "german": "einschränken",
+    "italian": "limitare"
+  },
+  {
+    "german": "mitarbeiten",
+    "italian": "collaborare"
+  },
+  {
+    "german": "miterleben",
+    "italian": "vivere insieme"
+  },
+  {
+    "german": "mitfühlen",
+    "italian": "condividere"
+  },
+  {
+    "german": "mithören",
+    "italian": "ascoltare insieme"
+  },
+  {
+    "german": "mitreden",
+    "italian": "intervenire"
+  },
+  {
+    "german": "mitwirken",
+    "italian": "collaborare"
+  },
+  {
+    "german": "mitdenken",
+    "italian": "pensare insieme"
+  },
+  {
+    "german": "mitschreiben",
+    "italian": "prendere appunti"
+  },
+  {
+    "german": "zustimmen",
+    "italian": "approvare"
+  },
+  {
+    "german": "zuordnen",
+    "italian": "assegnare"
+  },
+  {
+    "german": "zusagen",
+    "italian": "accettare"
+  },
+  {
+    "german": "zuschlagen",
+    "italian": "colpire"
+  },
+  {
+    "german": "zutrauen",
+    "italian": "fidarsi di"
+  },
+  {
+    "german": "zuwenden",
+    "italian": "rivolgersi a"
+  },
+  {
+    "german": "zurechtkommen",
+    "italian": "cavarsela"
+  },
+  {
+    "german": "zusammenarbeiten",
+    "italian": "collaborare"
+  },
+  {
+    "german": "abwarten",
+    "italian": "aspettare"
+  },
+  {
+    "german": "abbrechen",
+    "italian": "interrompere"
+  },
+  {
+    "german": "abbuchen",
+    "italian": "addebitare"
+  },
+  {
+    "german": "abdecken",
+    "italian": "coprire"
+  },
+  {
+    "german": "abhalten",
+    "italian": "trattenere"
+  },
+  {
+    "german": "abhängen",
+    "italian": "dipendere"
+  },
+  {
+    "german": "ablaufen",
+    "italian": "scadere"
+  },
+  {
+    "german": "ablegen",
+    "italian": "deporre"
+  },
+  {
+    "german": "abmelden",
+    "italian": "disdire"
+  },
+  {
+    "german": "absetzen",
+    "italian": "deporre"
+  },
+  {
+    "german": "abtrennen",
+    "italian": "separare"
+  },
+  {
+    "german": "vornehmen",
+    "italian": "intraprendere"
+  },
+  {
+    "german": "vorsehen",
+    "italian": "prevedere"
+  },
+  {
+    "german": "vorführen",
+    "italian": "dimostrare"
+  },
+  {
+    "german": "vorgehen",
+    "italian": "procedere"
+  },
+  {
+    "german": "vorliegen",
+    "italian": "essere presente"
+  },
+  {
+    "german": "voraussetzen",
+    "italian": "presupporre"
+  },
+  {
+    "german": "vorwerfen",
+    "italian": "rimproverare"
+  },
+  {
+    "german": "vorziehen",
+    "italian": "preferire"
+  },
+  {
+    "german": "wegschaffen",
+    "italian": "rimuovere"
+  },
+  {
+    "german": "wegsehen",
+    "italian": "distogliere lo sguardo"
+  },
+  {
+    "german": "wegschieben",
+    "italian": "spingere via"
+  },
+  {
+    "german": "wegschicken",
+    "italian": "mandare via"
+  },
+  {
+    "german": "wegreißen",
+    "italian": "strappare via"
+  },
+  {
+    "german": "wegbleiben",
+    "italian": "stare lontano"
+  },
+  {
+    "german": "wegfallen",
+    "italian": "venire meno"
+  },
+  {
+    "german": "weghören",
+    "italian": "non ascoltare"
+  },
+  {
+    "german": "weglassen",
+    "italian": "tralasciare"
+  },
+  {
+    "german": "wegziehen",
+    "italian": "trasferirsi"
+  },
+  {
+    "german": "durchführen",
+    "italian": "eseguire"
+  },
+  {
+    "german": "durchsetzen",
+    "italian": "imporre"
+  },
+  {
+    "german": "durchsuchen",
+    "italian": "perquisire"
+  },
+  {
+    "german": "durcharbeiten",
+    "italian": "lavorare senza sosta"
+  },
+  {
+    "german": "durchbrechen",
+    "italian": "sfondare"
+  },
+  {
+    "german": "durchbringen",
+    "italian": "mantenere"
+  },
+  {
+    "german": "durchhalten",
+    "italian": "resistere"
+  },
+  {
+    "german": "durchnehmen",
+    "italian": "trattare"
+  },
+  {
+    "german": "durchrechnen",
+    "italian": "calcolare"
+  },
+  {
+    "german": "durchziehen",
+    "italian": "portare a termine"
+  },
+  {
+    "german": "fliehen",
+    "italian": "fuggire"
+  },
+  {
+    "german": "eilen",
+    "italian": "affrettarsi"
+  },
+  {
+    "german": "kriechen",
+    "italian": "strisciare"
+  },
+  {
+    "german": "sinken",
+    "italian": "affondare"
+  },
+  {
+    "german": "treiben",
+    "italian": "galleggiare"
+  },
+  {
+    "german": "gleiten",
+    "italian": "scivolare"
+  },
+  {
+    "german": "stolpern",
+    "italian": "inciampare"
+  },
+  {
+    "german": "hüpfen",
+    "italian": "saltellare"
+  },
+  {
+    "german": "schütteln",
+    "italian": "scuotere"
+  },
+  {
+    "german": "hocken",
+    "italian": "accovacciarsi"
+  },
+  {
+    "german": "lehnen",
+    "italian": "appoggiarsi"
+  },
+  {
+    "german": "definieren",
+    "italian": "definire"
+  },
+  {
+    "german": "verlangen",
+    "italian": "richiedere"
+  },
+  {
+    "german": "fordern",
+    "italian": "esigere"
+  },
+  {
+    "german": "befehlen",
+    "italian": "comandare"
+  },
+  {
+    "german": "warnen",
+    "italian": "avvertire"
+  },
+  {
+    "german": "drohen",
+    "italian": "minacciare"
+  },
+  {
+    "german": "schwören",
+    "italian": "giurare"
+  },
+  {
+    "german": "widersprechen",
+    "italian": "contraddire"
+  },
+  {
+    "german": "schweigen",
+    "italian": "tacere"
+  },
+  {
+    "german": "befürchten",
+    "italian": "temere"
+  },
+  {
+    "german": "erfinden",
+    "italian": "inventare"
+  },
+  {
+    "german": "forschen",
+    "italian": "ricercare"
+  },
+  {
+    "german": "bestimmen",
+    "italian": "determinare"
+  },
+  {
+    "german": "lauschen",
+    "italian": "origliare"
+  },
+  {
+    "german": "tasten",
+    "italian": "tastare"
+  },
+  {
+    "german": "vermieten",
+    "italian": "dare in affitto"
+  },
+  {
+    "german": "ausladen",
+    "italian": "scaricare"
+  },
+  {
+    "german": "abrufen",
+    "italian": "richiamare"
+  },
+  {
+    "german": "sich amüsieren",
+    "italian": "divertirsi"
+  },
+  {
+    "german": "sich bemühen",
+    "italian": "sforzarsi"
+  },
+  {
+    "german": "sich gewöhnen",
+    "italian": "abituarsi"
+  },
+  {
+    "german": "sich benehmen",
+    "italian": "comportarsi"
+  },
+  {
+    "german": "sich täuschen",
+    "italian": "ingannarsi"
+  },
+  {
+    "german": "zusammenbauen",
+    "italian": "assemblare"
+  },
+  {
+    "german": "entsorgen",
+    "italian": "smaltire"
+  }
+]

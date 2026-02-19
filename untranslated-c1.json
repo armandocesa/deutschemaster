@@ -1,0 +1,8838 @@
+[
+  {
+    "german": "der Holzschnitt",
+    "italian": "la xilografia"
+  },
+  {
+    "german": "die Lithografie",
+    "italian": "la litografia"
+  },
+  {
+    "german": "die Radierung",
+    "italian": "l'acquaforte"
+  },
+  {
+    "german": "obschon",
+    "italian": "benché"
+  },
+  {
+    "german": "mangels",
+    "italian": "per mancanza di"
+  },
+  {
+    "german": "zwecks",
+    "italian": "ai fini di"
+  },
+  {
+    "german": "zulasten",
+    "italian": "a carico di"
+  },
+  {
+    "german": "erörtern",
+    "italian": "discutere approfonditamente"
+  },
+  {
+    "german": "darlegen",
+    "italian": "esporre"
+  },
+  {
+    "german": "ausführen",
+    "italian": "eseguire/esporre"
+  },
+  {
+    "german": "erläutern",
+    "italian": "illustrare"
+  },
+  {
+    "german": "veranschaulichen",
+    "italian": "visualizzare"
+  },
+  {
+    "german": "verdeutlichen",
+    "italian": "chiarire"
+  },
+  {
+    "german": "präzisieren",
+    "italian": "precisare"
+  },
+  {
+    "german": "konkretisieren",
+    "italian": "concretizzare"
+  },
+  {
+    "german": "spezifizieren",
+    "italian": "specificare"
+  },
+  {
+    "german": "differenzieren",
+    "italian": "differenziare"
+  },
+  {
+    "german": "relativieren",
+    "italian": "relativizzare"
+  },
+  {
+    "german": "abstrahieren",
+    "italian": "astrarre"
+  },
+  {
+    "german": "generalisieren",
+    "italian": "generalizzare"
+  },
+  {
+    "german": "implizieren",
+    "italian": "implicare"
+  },
+  {
+    "german": "suggerieren",
+    "italian": "suggerire"
+  },
+  {
+    "german": "konstatieren",
+    "italian": "constatare"
+  },
+  {
+    "german": "postulieren",
+    "italian": "postulare"
+  },
+  {
+    "german": "proklamieren",
+    "italian": "proclamare"
+  },
+  {
+    "german": "deklarieren",
+    "italian": "dichiarare"
+  },
+  {
+    "german": "manifestieren",
+    "italian": "manifestare"
+  },
+  {
+    "german": "artikulieren",
+    "italian": "articolare"
+  },
+  {
+    "german": "verbalisieren",
+    "italian": "verbalizzare"
+  },
+  {
+    "german": "thematisieren",
+    "italian": "tematizzare"
+  },
+  {
+    "german": "problematisieren",
+    "italian": "problematizzare"
+  },
+  {
+    "german": "marginalisieren",
+    "italian": "marginalizzare"
+  },
+  {
+    "german": "stigmatisieren",
+    "italian": "stigmatizzare"
+  },
+  {
+    "german": "diskreditieren",
+    "italian": "screditare"
+  },
+  {
+    "german": "diffamieren",
+    "italian": "diffamare"
+  },
+  {
+    "german": "denunzieren",
+    "italian": "denunciare"
+  },
+  {
+    "german": "anprangern",
+    "italian": "denunciare pubblicamente"
+  },
+  {
+    "german": "brandmarken",
+    "italian": "bollare"
+  },
+  {
+    "german": "rügen",
+    "italian": "rimproverare"
+  },
+  {
+    "german": "tadeln",
+    "italian": "biasimare"
+  },
+  {
+    "german": "monieren",
+    "italian": "criticare"
+  },
+  {
+    "german": "beanstanden",
+    "italian": "contestare"
+  },
+  {
+    "german": "bemängeln",
+    "italian": "criticare"
+  },
+  {
+    "german": "anfechten",
+    "italian": "impugnare"
+  },
+  {
+    "german": "widerlegen",
+    "italian": "confutare"
+  },
+  {
+    "german": "entkräften",
+    "italian": "invalidare"
+  },
+  {
+    "german": "dementieren",
+    "italian": "smentire"
+  },
+  {
+    "german": "revidieren",
+    "italian": "rivedere"
+  },
+  {
+    "german": "modifizieren",
+    "italian": "modificare"
+  },
+  {
+    "german": "ratifizieren",
+    "italian": "ratificare"
+  },
+  {
+    "german": "sanktionieren",
+    "italian": "sanzionare"
+  },
+  {
+    "german": "legitimieren",
+    "italian": "legittimare"
+  },
+  {
+    "german": "autorisieren",
+    "italian": "autorizzare"
+  },
+  {
+    "german": "bevollmächtigen",
+    "italian": "delegare"
+  },
+  {
+    "german": "ermächtigen",
+    "italian": "autorizzare"
+  },
+  {
+    "german": "befugen",
+    "italian": "autorizzare"
+  },
+  {
+    "german": "nötigen",
+    "italian": "costringere"
+  },
+  {
+    "german": "auferlegen",
+    "italian": "imporre"
+  },
+  {
+    "german": "aufbürden",
+    "italian": "addossare"
+  },
+  {
+    "german": "zumuten",
+    "italian": "pretendere"
+  },
+  {
+    "german": "abverlangen",
+    "italian": "esigere"
+  },
+  {
+    "german": "einfordern",
+    "italian": "esigere"
+  },
+  {
+    "german": "beanspruchen",
+    "italian": "rivendicare"
+  },
+  {
+    "german": "reklamieren",
+    "italian": "reclamare"
+  },
+  {
+    "german": "annektieren",
+    "italian": "annettere"
+  },
+  {
+    "german": "konfiszieren",
+    "italian": "confiscare"
+  },
+  {
+    "german": "beschlagnahmen",
+    "italian": "sequestrare"
+  },
+  {
+    "german": "enteignen",
+    "italian": "espropriare"
+  },
+  {
+    "german": "verstaatlichen",
+    "italian": "nazionalizzare"
+  },
+  {
+    "german": "privatisieren",
+    "italian": "privatizzare"
+  },
+  {
+    "german": "liberalisieren",
+    "italian": "liberalizzare"
+  },
+  {
+    "german": "deregulieren",
+    "italian": "deregolamentare"
+  },
+  {
+    "german": "reglementieren",
+    "italian": "regolamentare"
+  },
+  {
+    "german": "normieren",
+    "italian": "normare"
+  },
+  {
+    "german": "standardisieren",
+    "italian": "standardizzare"
+  },
+  {
+    "german": "vereinheitlichen",
+    "italian": "uniformare"
+  },
+  {
+    "german": "harmonisieren",
+    "italian": "armonizzare"
+  },
+  {
+    "german": "synchronisieren",
+    "italian": "sincronizzare"
+  },
+  {
+    "german": "orchestrieren",
+    "italian": "orchestrare"
+  },
+  {
+    "german": "glorifizieren",
+    "italian": "glorificare"
+  },
+  {
+    "german": "idealisieren",
+    "italian": "idealizzare"
+  },
+  {
+    "german": "verklären",
+    "italian": "trasfigurare"
+  },
+  {
+    "german": "überhöhen",
+    "italian": "esaltare"
+  },
+  {
+    "german": "objektivieren",
+    "italian": "oggettivare"
+  },
+  {
+    "german": "bekräftigen",
+    "italian": "rafforzare"
+  },
+  {
+    "german": "bekunden",
+    "italian": "manifestare"
+  },
+  {
+    "german": "kundtun",
+    "italian": "esprimere"
+  },
+  {
+    "german": "bloßlegen",
+    "italian": "mettere a nudo"
+  },
+  {
+    "german": "eruieren",
+    "italian": "appurare"
+  },
+  {
+    "german": "heranziehen",
+    "italian": "consultare"
+  },
+  {
+    "german": "zugrunde legen",
+    "italian": "porre alla base"
+  },
+  {
+    "german": "einwenden",
+    "italian": "obiettare"
+  },
+  {
+    "german": "entgegnen",
+    "italian": "ribattere"
+  },
+  {
+    "german": "zugestehen",
+    "italian": "concedere"
+  },
+  {
+    "german": "geringschätzen",
+    "italian": "sottovalutare"
+  },
+  {
+    "german": "destabilisieren",
+    "italian": "destabilizzare"
+  },
+  {
+    "german": "untergraben",
+    "italian": "minare"
+  },
+  {
+    "german": "festigen",
+    "italian": "consolidare"
+  },
+  {
+    "german": "konsolidieren",
+    "italian": "consolidare"
+  },
+  {
+    "german": "unterbinden",
+    "italian": "impedire"
+  },
+  {
+    "german": "die Abhandlung",
+    "italian": "il trattato"
+  },
+  {
+    "german": "die Dissertation",
+    "italian": "la dissertazione"
+  },
+  {
+    "german": "die Habilitation",
+    "italian": "l'abilitazione"
+  },
+  {
+    "german": "die Monografie",
+    "italian": "la monografia"
+  },
+  {
+    "german": "das Kompendium",
+    "italian": "il compendio"
+  },
+  {
+    "german": "die Enzyklopädie",
+    "italian": "l'enciclopedia"
+  },
+  {
+    "german": "das Glossar",
+    "italian": "il glossario"
+  },
+  {
+    "german": "der Thesaurus",
+    "italian": "il thesaurus"
+  },
+  {
+    "german": "die Bibliografie",
+    "italian": "la bibliografia"
+  },
+  {
+    "german": "das Quellenverzeichnis",
+    "italian": "l'elenco delle fonti"
+  },
+  {
+    "german": "die Endnote",
+    "italian": "la nota finale"
+  },
+  {
+    "german": "die Paraphrase",
+    "italian": "la parafrasi"
+  },
+  {
+    "german": "die Heuristik",
+    "italian": "l'euristica"
+  },
+  {
+    "german": "die Epistemologie",
+    "italian": "l'epistemologia"
+  },
+  {
+    "german": "die Ontologie",
+    "italian": "l'ontologia"
+  },
+  {
+    "german": "die Phänomenologie",
+    "italian": "la fenomenologia"
+  },
+  {
+    "german": "die Deontologie",
+    "italian": "la deontologia"
+  },
+  {
+    "german": "die Dialektik",
+    "italian": "la dialettica"
+  },
+  {
+    "german": "die Rhetorik",
+    "italian": "la retorica"
+  },
+  {
+    "german": "die Stilistik",
+    "italian": "la stilistica"
+  },
+  {
+    "german": "die Semantik",
+    "italian": "la semantica"
+  },
+  {
+    "german": "die Pragmatik",
+    "italian": "la pragmatica"
+  },
+  {
+    "german": "die Syntax",
+    "italian": "la sintassi"
+  },
+  {
+    "german": "die Morphologie",
+    "italian": "la morfologia"
+  },
+  {
+    "german": "die Phonetik",
+    "italian": "la fonetica"
+  },
+  {
+    "german": "die Phonologie",
+    "italian": "la fonologia"
+  },
+  {
+    "german": "die Etymologie",
+    "italian": "l'etimologia"
+  },
+  {
+    "german": "die Lexikologie",
+    "italian": "la lessicologia"
+  },
+  {
+    "german": "die Terminologie",
+    "italian": "la terminologia"
+  },
+  {
+    "german": "die Nomenklatur",
+    "italian": "la nomenclatura"
+  },
+  {
+    "german": "die Taxonomie",
+    "italian": "la tassonomia"
+  },
+  {
+    "german": "die Typologie",
+    "italian": "la tipologia"
+  },
+  {
+    "german": "die Methodologie",
+    "italian": "la metodologia"
+  },
+  {
+    "german": "die Systematik",
+    "italian": "la sistematica"
+  },
+  {
+    "german": "die Paradigma",
+    "italian": "il paradigma"
+  },
+  {
+    "german": "die Antithese",
+    "italian": "l'antitesi"
+  },
+  {
+    "german": "die Prämisse",
+    "italian": "la premessa"
+  },
+  {
+    "german": "die Konklusion",
+    "italian": "la conclusione"
+  },
+  {
+    "german": "die Deduktion",
+    "italian": "la deduzione"
+  },
+  {
+    "german": "die Induktion",
+    "italian": "l'induzione"
+  },
+  {
+    "german": "die Inferenz",
+    "italian": "l'inferenza"
+  },
+  {
+    "german": "die Implikation",
+    "italian": "l'implicazione"
+  },
+  {
+    "german": "die Konnotation",
+    "italian": "la connotazione"
+  },
+  {
+    "german": "die Denotation",
+    "italian": "la denotazione"
+  },
+  {
+    "german": "die Referenz",
+    "italian": "il riferimento"
+  },
+  {
+    "german": "die Kohärenz",
+    "italian": "la coerenza"
+  },
+  {
+    "german": "die Kohäsion",
+    "italian": "la coesione"
+  },
+  {
+    "german": "die Konsistenz",
+    "italian": "la consistenza"
+  },
+  {
+    "german": "die Kongruenz",
+    "italian": "la congruenza"
+  },
+  {
+    "german": "die Korrelation",
+    "italian": "la correlazione"
+  },
+  {
+    "german": "die Kausalität",
+    "italian": "la causalità"
+  },
+  {
+    "german": "die Kontingenz",
+    "italian": "la contingenza"
+  },
+  {
+    "german": "die Redundanz",
+    "italian": "la ridondanza"
+  },
+  {
+    "german": "die Ambiguität",
+    "italian": "l'ambiguità"
+  },
+  {
+    "german": "die Ambivalenz",
+    "italian": "l'ambivalenza"
+  },
+  {
+    "german": "die Dichotomie",
+    "italian": "la dicotomia"
+  },
+  {
+    "german": "die Polarität",
+    "italian": "la polarità"
+  },
+  {
+    "german": "die Dualität",
+    "italian": "la dualità"
+  },
+  {
+    "german": "die Pluralität",
+    "italian": "la pluralità"
+  },
+  {
+    "german": "die Heterogenität",
+    "italian": "l'eterogeneità"
+  },
+  {
+    "german": "die Homogenität",
+    "italian": "l'omogeneità"
+  },
+  {
+    "german": "die Affinität",
+    "italian": "l'affinità"
+  },
+  {
+    "german": "die Disparität",
+    "italian": "la disparità"
+  },
+  {
+    "german": "die Diskrepanz",
+    "italian": "la discrepanza"
+  },
+  {
+    "german": "die Divergenz",
+    "italian": "la divergenza"
+  },
+  {
+    "german": "die Konvergenz",
+    "italian": "la convergenza"
+  },
+  {
+    "german": "die Interferenz",
+    "italian": "l'interferenza"
+  },
+  {
+    "german": "die Interdependenz",
+    "italian": "l'interdipendenza"
+  },
+  {
+    "german": "die Reziprozität",
+    "italian": "la reciprocità"
+  },
+  {
+    "german": "die Symmetrie",
+    "italian": "la simmetria"
+  },
+  {
+    "german": "die Asymmetrie",
+    "italian": "l'asimmetria"
+  },
+  {
+    "german": "die Proportionalität",
+    "italian": "la proporzionalità"
+  },
+  {
+    "german": "die Linearität",
+    "italian": "la linearità"
+  },
+  {
+    "german": "die Zirkularität",
+    "italian": "la circolarità"
+  },
+  {
+    "german": "die Komplexität",
+    "italian": "la complessità"
+  },
+  {
+    "german": "die Statik",
+    "italian": "la statica"
+  },
+  {
+    "german": "die Transformation",
+    "italian": "la trasformazione"
+  },
+  {
+    "german": "die Mutation",
+    "italian": "la mutazione"
+  },
+  {
+    "german": "die Progression",
+    "italian": "la progressione"
+  },
+  {
+    "german": "adäquat",
+    "italian": "adeguato"
+  },
+  {
+    "german": "inadäquat",
+    "italian": "inadeguato"
+  },
+  {
+    "german": "akkurat",
+    "italian": "accurato"
+  },
+  {
+    "german": "approximativ",
+    "italian": "approssimativo"
+  },
+  {
+    "german": "evident",
+    "italian": "evidente"
+  },
+  {
+    "german": "offenkundig",
+    "italian": "palese"
+  },
+  {
+    "german": "manifest",
+    "italian": "manifesto"
+  },
+  {
+    "german": "latent",
+    "italian": "latente"
+  },
+  {
+    "german": "implizit",
+    "italian": "implicito"
+  },
+  {
+    "german": "explizit",
+    "italian": "esplicito"
+  },
+  {
+    "german": "intrinsisch",
+    "italian": "intrinseco"
+  },
+  {
+    "german": "extrinsisch",
+    "italian": "estrinseco"
+  },
+  {
+    "german": "immanent",
+    "italian": "immanente"
+  },
+  {
+    "german": "transzendent",
+    "italian": "trascendente"
+  },
+  {
+    "german": "inhärent",
+    "italian": "inerente"
+  },
+  {
+    "german": "konstitutiv",
+    "italian": "costitutivo"
+  },
+  {
+    "german": "essentiell",
+    "italian": "essenziale"
+  },
+  {
+    "german": "substantiell",
+    "italian": "sostanziale"
+  },
+  {
+    "german": "marginal",
+    "italian": "marginale"
+  },
+  {
+    "german": "peripher",
+    "italian": "periferico"
+  },
+  {
+    "german": "elementar",
+    "italian": "elementare"
+  },
+  {
+    "german": "rudimentär",
+    "italian": "rudimentale"
+  },
+  {
+    "german": "archaisch",
+    "italian": "arcaico"
+  },
+  {
+    "german": "obsolet",
+    "italian": "obsoleto"
+  },
+  {
+    "german": "antiquiert",
+    "italian": "antiquato"
+  },
+  {
+    "german": "zeitgemäß",
+    "italian": "attuale"
+  },
+  {
+    "german": "avantgardistisch",
+    "italian": "avanguardistico"
+  },
+  {
+    "german": "orthodox",
+    "italian": "ortodosso"
+  },
+  {
+    "german": "unorthodox",
+    "italian": "non ortodosso"
+  },
+  {
+    "german": "kanonisch",
+    "italian": "canonico"
+  },
+  {
+    "german": "normativ",
+    "italian": "normativo"
+  },
+  {
+    "german": "deskriptiv",
+    "italian": "descrittivo"
+  },
+  {
+    "german": "präskriptiv",
+    "italian": "prescrittivo"
+  },
+  {
+    "german": "fakultativ",
+    "italian": "facoltativo"
+  },
+  {
+    "german": "imperativ",
+    "italian": "imperativo"
+  },
+  {
+    "german": "konditional",
+    "italian": "condizionale"
+  },
+  {
+    "german": "hypothetisch",
+    "italian": "ipotetico"
+  },
+  {
+    "german": "spekulativ",
+    "italian": "speculativo"
+  },
+  {
+    "german": "empirisch",
+    "italian": "empirico"
+  },
+  {
+    "german": "analytisch",
+    "italian": "analitico"
+  },
+  {
+    "german": "synthetisch",
+    "italian": "sintetico"
+  },
+  {
+    "german": "deduktiv",
+    "italian": "deduttivo"
+  },
+  {
+    "german": "induktiv",
+    "italian": "induttivo"
+  },
+  {
+    "german": "diskursiv",
+    "italian": "discorsivo"
+  },
+  {
+    "german": "kognitiv",
+    "italian": "cognitivo"
+  },
+  {
+    "german": "affektiv",
+    "italian": "affettivo"
+  },
+  {
+    "german": "intentional",
+    "italian": "intenzionale"
+  },
+  {
+    "german": "reflexiv",
+    "italian": "riflessivo"
+  },
+  {
+    "german": "unterbewusst",
+    "italian": "subconscio"
+  },
+  {
+    "german": "pragmatisch",
+    "italian": "pragmatico"
+  },
+  {
+    "german": "idealistisch",
+    "italian": "idealistico"
+  },
+  {
+    "german": "utopisch",
+    "italian": "utopico"
+  },
+  {
+    "german": "dystopisch",
+    "italian": "distopico"
+  },
+  {
+    "german": "zynisch",
+    "italian": "cinico"
+  },
+  {
+    "german": "dogmatisch",
+    "italian": "dogmatico"
+  },
+  {
+    "german": "agnostisch",
+    "italian": "agnostico"
+  },
+  {
+    "german": "eklektisch",
+    "italian": "eclettico"
+  },
+  {
+    "german": "reduktionistisch",
+    "italian": "riduzionista"
+  },
+  {
+    "german": "holistisch",
+    "italian": "olistico"
+  },
+  {
+    "german": "monolithisch",
+    "italian": "monolitico"
+  },
+  {
+    "german": "pluralistisch",
+    "italian": "pluralistico"
+  },
+  {
+    "german": "relativistisch",
+    "italian": "relativistico"
+  },
+  {
+    "german": "universalistisch",
+    "italian": "universalistico"
+  },
+  {
+    "german": "konstruktivistisch",
+    "italian": "costruttivista"
+  },
+  {
+    "german": "deterministisch",
+    "italian": "deterministico"
+  },
+  {
+    "german": "kontingent",
+    "italian": "contingente"
+  },
+  {
+    "german": "hinreichend",
+    "italian": "sufficiente"
+  },
+  {
+    "german": "unerlässlich",
+    "italian": "indispensabile"
+  },
+  {
+    "german": "unverzichtbar",
+    "italian": "irrinunciabile"
+  },
+  {
+    "german": "entbehrlich",
+    "italian": "superfluo"
+  },
+  {
+    "german": "mithin",
+    "italian": "pertanto"
+  },
+  {
+    "german": "demzufolge",
+    "italian": "di conseguenza"
+  },
+  {
+    "german": "infolgedessen",
+    "italian": "di conseguenza"
+  },
+  {
+    "german": "demgemäß",
+    "italian": "conformemente"
+  },
+  {
+    "german": "dementsprechend",
+    "italian": "di conseguenza"
+  },
+  {
+    "german": "insoweit",
+    "italian": "nella misura in cui"
+  },
+  {
+    "german": "diesbezüglich",
+    "italian": "a questo riguardo"
+  },
+  {
+    "german": "betreffend",
+    "italian": "concernente"
+  },
+  {
+    "german": "kraft",
+    "italian": "in virtù di"
+  },
+  {
+    "german": "unbeschadet",
+    "italian": "fermo restando"
+  },
+  {
+    "german": "ungeachtet",
+    "italian": "nonostante"
+  },
+  {
+    "german": "vorbehaltlich",
+    "italian": "con riserva di"
+  },
+  {
+    "german": "nichtsdestotrotz",
+    "italian": "ciononostante"
+  },
+  {
+    "german": "nichtsdestoweniger",
+    "italian": "nondimeno"
+  },
+  {
+    "german": "gleichwohl",
+    "italian": "tuttavia"
+  },
+  {
+    "german": "indessen",
+    "italian": "tuttavia"
+  },
+  {
+    "german": "dahingegen",
+    "italian": "al contrario"
+  },
+  {
+    "german": "wohingegen",
+    "italian": "mentre invece"
+  },
+  {
+    "german": "einstweilen",
+    "italian": "nel frattempo"
+  },
+  {
+    "german": "alsbald",
+    "italian": "subito dopo"
+  },
+  {
+    "german": "unverzüglich",
+    "italian": "immediatamente"
+  },
+  {
+    "german": "augenblicklich",
+    "italian": "istantaneamente"
+  },
+  {
+    "german": "fortwährend",
+    "italian": "continuamente"
+  },
+  {
+    "german": "unablässig",
+    "italian": "incessantemente"
+  },
+  {
+    "german": "unaufhörlich",
+    "italian": "incessantemente"
+  },
+  {
+    "german": "beständig",
+    "italian": "costantemente"
+  },
+  {
+    "german": "beharrlich",
+    "italian": "persistentemente"
+  },
+  {
+    "german": "unermüdlich",
+    "italian": "instancabilmente"
+  },
+  {
+    "german": "unweigerlich",
+    "italian": "inevitabilmente"
+  },
+  {
+    "german": "unausweichlich",
+    "italian": "inevitabilmente"
+  },
+  {
+    "german": "zwangsläufig",
+    "italian": "necessariamente"
+  },
+  {
+    "german": "notgedrungen",
+    "italian": "per forza"
+  },
+  {
+    "german": "gezwungenermaßen",
+    "italian": "forzatamente"
+  },
+  {
+    "german": "notwendigerweise",
+    "italian": "necessariamente"
+  },
+  {
+    "german": "zwingend",
+    "italian": "cogente"
+  },
+  {
+    "german": "schlechthin",
+    "italian": "per eccellenza"
+  },
+  {
+    "german": "sinngemäß",
+    "italian": "in senso lato"
+  },
+  {
+    "german": "folgerichtig",
+    "italian": "coerentemente"
+  },
+  {
+    "german": "stringent",
+    "italian": "stringente"
+  },
+  {
+    "german": "rigoros",
+    "italian": "rigoroso"
+  },
+  {
+    "german": "akribisch",
+    "italian": "meticolosamente"
+  },
+  {
+    "german": "minutiös",
+    "italian": "minuziosamente"
+  },
+  {
+    "german": "penibel",
+    "italian": "pedantemente"
+  },
+  {
+    "german": "gewissenhaft",
+    "italian": "coscienziosamente"
+  },
+  {
+    "german": "eingehend",
+    "italian": "approfonditamente"
+  },
+  {
+    "german": "erschöpfend",
+    "italian": "esaustivamente"
+  },
+  {
+    "german": "vornehmlich",
+    "italian": "principalmente"
+  },
+  {
+    "german": "vorrangig",
+    "italian": "prioritariamente"
+  },
+  {
+    "german": "subsidiär",
+    "italian": "sussidiariamente"
+  },
+  {
+    "german": "komplementär",
+    "italian": "complementarmente"
+  },
+  {
+    "german": "supplementär",
+    "italian": "supplementarmente"
+  },
+  {
+    "german": "die Prägung",
+    "italian": "l'impronta"
+  },
+  {
+    "german": "die Ausprägung",
+    "italian": "la manifestazione"
+  },
+  {
+    "german": "die Nachwirkung",
+    "italian": "l'effetto secondario"
+  },
+  {
+    "german": "die Rückwirkung",
+    "italian": "l'effetto retroattivo"
+  },
+  {
+    "german": "die Wechselwirkung",
+    "italian": "l'interazione"
+  },
+  {
+    "german": "die Einwirkung",
+    "italian": "l'influenza"
+  },
+  {
+    "german": "die Mitwirkung",
+    "italian": "la collaborazione"
+  },
+  {
+    "german": "die Zusammenwirkung",
+    "italian": "la sinergia"
+  },
+  {
+    "german": "die Gegebenheit",
+    "italian": "il dato di fatto"
+  },
+  {
+    "german": "die Eigenart",
+    "italian": "la peculiarità"
+  },
+  {
+    "german": "die Eigentümlichkeit",
+    "italian": "la particolarità"
+  },
+  {
+    "german": "die Einzigartigkeit",
+    "italian": "l'unicità"
+  },
+  {
+    "german": "die Einmaligkeit",
+    "italian": "l'irripetibilità"
+  },
+  {
+    "german": "die Ausnahmeerscheinung",
+    "italian": "il fenomeno eccezionale"
+  },
+  {
+    "german": "die Gesetzmäßigkeit",
+    "italian": "la regolarità"
+  },
+  {
+    "german": "die Regelhaftigkeit",
+    "italian": "la regolarità"
+  },
+  {
+    "german": "die Beständigkeit",
+    "italian": "la costanza"
+  },
+  {
+    "german": "die Stetigkeit",
+    "italian": "la continuità"
+  },
+  {
+    "german": "die Kontinuität",
+    "italian": "la continuità"
+  },
+  {
+    "german": "die Diskontinuität",
+    "italian": "la discontinuità"
+  },
+  {
+    "german": "die Zäsur",
+    "italian": "la cesura"
+  },
+  {
+    "german": "der Einschnitt",
+    "italian": "la svolta"
+  },
+  {
+    "german": "die Schwelle",
+    "italian": "la soglia"
+  },
+  {
+    "german": "die Restriktion",
+    "italian": "la restrizione"
+  },
+  {
+    "german": "die Hemmschwelle",
+    "italian": "l'inibizione"
+  },
+  {
+    "german": "die Hemmung",
+    "italian": "l'inibizione"
+  },
+  {
+    "german": "die Unterbindung",
+    "italian": "l'impedimento"
+  },
+  {
+    "german": "die Verhinderung",
+    "italian": "l'impedimento"
+  },
+  {
+    "german": "die Umgehung",
+    "italian": "l'aggiramento"
+  },
+  {
+    "german": "die Überwindung",
+    "italian": "il superamento"
+  },
+  {
+    "german": "die Bewältigung",
+    "italian": "il superamento"
+  },
+  {
+    "german": "die Meisterung",
+    "italian": "la padronanza"
+  },
+  {
+    "german": "die Oberaufsicht",
+    "italian": "la supervisione generale"
+  },
+  {
+    "german": "die Lenkung",
+    "italian": "la guida"
+  },
+  {
+    "german": "die Gliederung",
+    "italian": "la strutturazione"
+  },
+  {
+    "german": "die Strukturierung",
+    "italian": "la strutturazione"
+  },
+  {
+    "german": "die Systematisierung",
+    "italian": "la sistematizzazione"
+  },
+  {
+    "german": "die Kategorisierung",
+    "italian": "la categorizzazione"
+  },
+  {
+    "german": "die Klassifizierung",
+    "italian": "la classificazione"
+  },
+  {
+    "german": "die Einordnung",
+    "italian": "la classificazione"
+  },
+  {
+    "german": "die Zuordnung",
+    "italian": "l'assegnazione"
+  },
+  {
+    "german": "die Zuweisung",
+    "italian": "l'assegnazione"
+  },
+  {
+    "german": "die Aufgliederung",
+    "italian": "la suddivisione"
+  },
+  {
+    "german": "die Aufschlüsselung",
+    "italian": "la scomposizione"
+  },
+  {
+    "german": "die Zerlegung",
+    "italian": "la scomposizione"
+  },
+  {
+    "german": "die Zergliederung",
+    "italian": "l'analisi"
+  },
+  {
+    "german": "die Desintegration",
+    "italian": "la disintegrazione"
+  },
+  {
+    "german": "die Zersetzung",
+    "italian": "la decomposizione"
+  },
+  {
+    "german": "der Zerfall",
+    "italian": "la disgregazione"
+  },
+  {
+    "german": "die Erosion",
+    "italian": "l'erosione"
+  },
+  {
+    "german": "die Aushöhlung",
+    "italian": "lo svuotamento"
+  },
+  {
+    "german": "die Untergrabung",
+    "italian": "il minamento"
+  },
+  {
+    "german": "die Unterminierung",
+    "italian": "il minamento"
+  },
+  {
+    "german": "die Destabilisierung",
+    "italian": "la destabilizzazione"
+  },
+  {
+    "german": "die Konsolidierung",
+    "italian": "il consolidamento"
+  },
+  {
+    "german": "die Festigung",
+    "italian": "il consolidamento"
+  },
+  {
+    "german": "die Intensivierung",
+    "italian": "l'intensificazione"
+  },
+  {
+    "german": "die Eskalation",
+    "italian": "l'escalation"
+  },
+  {
+    "german": "die Deeskalation",
+    "italian": "la de-escalation"
+  },
+  {
+    "german": "die Normalisierung",
+    "italian": "la normalizzazione"
+  },
+  {
+    "german": "die Angleichung",
+    "italian": "l'adeguamento"
+  },
+  {
+    "german": "folgern",
+    "italian": "dedurre"
+  },
+  {
+    "german": "schlussfolgern",
+    "italian": "concludere"
+  },
+  {
+    "german": "ableiten",
+    "italian": "derivare"
+  },
+  {
+    "german": "herleiten",
+    "italian": "ricavare"
+  },
+  {
+    "german": "erschließen",
+    "italian": "inferire"
+  },
+  {
+    "german": "mutmaßen",
+    "italian": "congetturare"
+  },
+  {
+    "german": "spekulieren",
+    "italian": "speculare"
+  },
+  {
+    "german": "theoretisieren",
+    "italian": "teorizzare"
+  },
+  {
+    "german": "konzeptualisieren",
+    "italian": "concettualizzare"
+  },
+  {
+    "german": "verallgemeinern",
+    "italian": "generalizzare"
+  },
+  {
+    "german": "extrapolieren",
+    "italian": "estrapolare"
+  },
+  {
+    "german": "projizieren",
+    "italian": "proiettare"
+  },
+  {
+    "german": "antizipieren",
+    "italian": "anticipare"
+  },
+  {
+    "german": "vorwegnehmen",
+    "italian": "anticipare"
+  },
+  {
+    "german": "prognostizieren",
+    "italian": "pronosticare"
+  },
+  {
+    "german": "prophezeihen",
+    "italian": "profetizzare"
+  },
+  {
+    "german": "erahnen",
+    "italian": "presentire"
+  },
+  {
+    "german": "vorausahnen",
+    "italian": "presagire"
+  },
+  {
+    "german": "meditieren",
+    "italian": "meditare"
+  },
+  {
+    "german": "kontemplieren",
+    "italian": "contemplare"
+  },
+  {
+    "german": "sinnieren",
+    "italian": "meditare"
+  },
+  {
+    "german": "nachsinnen",
+    "italian": "meditare"
+  },
+  {
+    "german": "nachgrübeln",
+    "italian": "rimuginare"
+  },
+  {
+    "german": "abwägen",
+    "italian": "ponderare"
+  },
+  {
+    "german": "durchdenken",
+    "italian": "pensare a fondo"
+  },
+  {
+    "german": "ersinnen",
+    "italian": "escogitare"
+  },
+  {
+    "german": "erdichten",
+    "italian": "inventare"
+  },
+  {
+    "german": "erdenken",
+    "italian": "concepire"
+  },
+  {
+    "german": "konzipieren",
+    "italian": "concepire"
+  },
+  {
+    "german": "umreißen",
+    "italian": "delineare"
+  },
+  {
+    "german": "anreißen",
+    "italian": "accennare"
+  },
+  {
+    "german": "debattieren",
+    "italian": "dibattere"
+  },
+  {
+    "german": "polemisieren",
+    "italian": "polemizzare"
+  },
+  {
+    "german": "fundieren",
+    "italian": "fondare"
+  },
+  {
+    "german": "untermauern",
+    "italian": "sostenere"
+  },
+  {
+    "german": "verifizieren",
+    "italian": "verificare"
+  },
+  {
+    "german": "falsifizieren",
+    "italian": "falsificare"
+  },
+  {
+    "german": "anzweifeln",
+    "italian": "mettere in dubbio"
+  },
+  {
+    "german": "infragestellen",
+    "italian": "mettere in questione"
+  },
+  {
+    "german": "kontextualisieren",
+    "italian": "contestualizzare"
+  },
+  {
+    "german": "dekonstruieren",
+    "italian": "decostruire"
+  },
+  {
+    "german": "rekonstruieren",
+    "italian": "ricostruire"
+  },
+  {
+    "german": "rekapitulieren",
+    "italian": "ricapitolare"
+  },
+  {
+    "german": "resümieren",
+    "italian": "riassumere"
+  },
+  {
+    "german": "synthetisieren",
+    "italian": "sintetizzare"
+  },
+  {
+    "german": "komprimieren",
+    "italian": "comprimere"
+  },
+  {
+    "german": "verdichten",
+    "italian": "condensare"
+  },
+  {
+    "german": "kondensieren",
+    "italian": "condensare"
+  },
+  {
+    "german": "extrahieren",
+    "italian": "estrarre"
+  },
+  {
+    "german": "destillieren",
+    "italian": "distillare"
+  },
+  {
+    "german": "selektieren",
+    "italian": "selezionare"
+  },
+  {
+    "german": "ausklammern",
+    "italian": "escludere"
+  },
+  {
+    "german": "bagatellisieren",
+    "italian": "minimizzare"
+  },
+  {
+    "german": "verharmlosen",
+    "italian": "sminuire"
+  },
+  {
+    "german": "dramatisieren",
+    "italian": "drammatizzare"
+  },
+  {
+    "german": "überzeichnen",
+    "italian": "esagerare"
+  },
+  {
+    "german": "die Befugnis",
+    "italian": "la facoltà"
+  },
+  {
+    "german": "die Ermächtigung",
+    "italian": "l'autorizzazione"
+  },
+  {
+    "german": "die Bevollmächtigung",
+    "italian": "la delega"
+  },
+  {
+    "german": "die Zuständigkeit",
+    "italian": "la competenza"
+  },
+  {
+    "german": "die Verantwortlichkeit",
+    "italian": "la responsabilità"
+  },
+  {
+    "german": "die Haftung",
+    "italian": "la responsabilità"
+  },
+  {
+    "german": "die Haftpflicht",
+    "italian": "la responsabilità civile"
+  },
+  {
+    "german": "die Gewährleistung",
+    "italian": "la garanzia"
+  },
+  {
+    "german": "die Bürgschaft",
+    "italian": "la fideiussione"
+  },
+  {
+    "german": "die Pfändung",
+    "italian": "il pignoramento"
+  },
+  {
+    "german": "die Beschlagnahmung",
+    "italian": "il sequestro"
+  },
+  {
+    "german": "die Enteignung",
+    "italian": "l'espropriazione"
+  },
+  {
+    "german": "die Verstaatlichung",
+    "italian": "la nazionalizzazione"
+  },
+  {
+    "german": "die Privatisierung",
+    "italian": "la privatizzazione"
+  },
+  {
+    "german": "die Liberalisierung",
+    "italian": "la liberalizzazione"
+  },
+  {
+    "german": "die Deregulierung",
+    "italian": "la deregolamentazione"
+  },
+  {
+    "german": "die Reglementierung",
+    "italian": "la regolamentazione"
+  },
+  {
+    "german": "die Normierung",
+    "italian": "la normazione"
+  },
+  {
+    "german": "die Standardisierung",
+    "italian": "la standardizzazione"
+  },
+  {
+    "german": "die Vereinheitlichung",
+    "italian": "l'uniformazione"
+  },
+  {
+    "german": "die Harmonisierung",
+    "italian": "l'armonizzazione"
+  },
+  {
+    "german": "die Ratifizierung",
+    "italian": "la ratifica"
+  },
+  {
+    "german": "die Inkraftsetzung",
+    "italian": "l'entrata in vigore"
+  },
+  {
+    "german": "die Außerkraftsetzung",
+    "italian": "l'abrogazione"
+  },
+  {
+    "german": "die Aufhebung",
+    "italian": "l'abolizione"
+  },
+  {
+    "german": "die Abschaffung",
+    "italian": "l'abolizione"
+  },
+  {
+    "german": "die Novellierung",
+    "italian": "la modifica legislativa"
+  },
+  {
+    "german": "die Berichtigung",
+    "italian": "la rettifica"
+  },
+  {
+    "german": "die Revision",
+    "italian": "la revisione"
+  },
+  {
+    "german": "die Begutachtung",
+    "italian": "la perizia"
+  },
+  {
+    "german": "das Gutachten",
+    "italian": "la perizia"
+  },
+  {
+    "german": "die Stellungnahme",
+    "italian": "il parere"
+  },
+  {
+    "german": "die Weisung",
+    "italian": "la direttiva"
+  },
+  {
+    "german": "die Verfügung",
+    "italian": "l'ordinanza"
+  },
+  {
+    "german": "der Erlass",
+    "italian": "il decreto"
+  },
+  {
+    "german": "die Satzung",
+    "italian": "lo statuto"
+  },
+  {
+    "german": "die Klausel",
+    "italian": "la clausola"
+  },
+  {
+    "german": "die Auflage",
+    "italian": "l'obbligo"
+  },
+  {
+    "german": "die Maßgabe",
+    "italian": "la condizione"
+  },
+  {
+    "german": "der Vorbehalt",
+    "italian": "la riserva"
+  },
+  {
+    "german": "die Befreiung",
+    "italian": "l'esenzione"
+  },
+  {
+    "german": "die Freistellung",
+    "italian": "l'esonero"
+  },
+  {
+    "german": "die Entbindung",
+    "italian": "lo scioglimento"
+  },
+  {
+    "german": "die Abwicklung",
+    "italian": "la liquidazione"
+  },
+  {
+    "german": "die Liquidation",
+    "italian": "la liquidazione"
+  },
+  {
+    "german": "die Insolvenz",
+    "italian": "l'insolvenza"
+  },
+  {
+    "german": "der Konkurs",
+    "italian": "il fallimento"
+  },
+  {
+    "german": "die Zahlungsunfähigkeit",
+    "italian": "l'insolvenza"
+  },
+  {
+    "german": "die Überschuldung",
+    "italian": "il sovraindebitamento"
+  },
+  {
+    "german": "die Entschuldung",
+    "italian": "l'estinzione del debito"
+  },
+  {
+    "german": "die Sanierung",
+    "italian": "il risanamento"
+  },
+  {
+    "german": "die Restrukturierung",
+    "italian": "la ristrutturazione"
+  },
+  {
+    "german": "die Umstrukturierung",
+    "italian": "la riorganizzazione"
+  },
+  {
+    "german": "die Neuordnung",
+    "italian": "il riordino"
+  },
+  {
+    "german": "die Neufassung",
+    "italian": "la nuova stesura"
+  },
+  {
+    "german": "die Kodifizierung",
+    "italian": "la codificazione"
+  },
+  {
+    "german": "die Auslegung",
+    "italian": "l'interpretazione"
+  },
+  {
+    "german": "die Rechtsauffassung",
+    "italian": "l'opinione giuridica"
+  },
+  {
+    "german": "die Rechtsprechung",
+    "italian": "la giurisprudenza"
+  },
+  {
+    "german": "der Präzedenzfall",
+    "italian": "il precedente"
+  },
+  {
+    "german": "die Rechtslage",
+    "italian": "la situazione giuridica"
+  },
+  {
+    "german": "der Rechtsstand",
+    "italian": "lo stato giuridico"
+  },
+  {
+    "german": "die Rechtssicherheit",
+    "italian": "la certezza del diritto"
+  },
+  {
+    "german": "der Rechtsschutz",
+    "italian": "la tutela giuridica"
+  },
+  {
+    "german": "die Rechtswirksamkeit",
+    "italian": "l'efficacia giuridica"
+  },
+  {
+    "german": "die Verbindlichkeit",
+    "italian": "l'obbligatorietà"
+  },
+  {
+    "german": "verkörpern",
+    "italian": "incarnare"
+  },
+  {
+    "german": "versinnbildlichen",
+    "italian": "simboleggiare"
+  },
+  {
+    "german": "personifizieren",
+    "italian": "personificare"
+  },
+  {
+    "german": "stilisieren",
+    "italian": "stilizzare"
+  },
+  {
+    "german": "romantisieren",
+    "italian": "romanticizzare"
+  },
+  {
+    "german": "ironisieren",
+    "italian": "ironizzare"
+  },
+  {
+    "german": "parodieren",
+    "italian": "parodiare"
+  },
+  {
+    "german": "karikieren",
+    "italian": "caricaturare"
+  },
+  {
+    "german": "satirisieren",
+    "italian": "satireggiare"
+  },
+  {
+    "german": "annotieren",
+    "italian": "annotare"
+  },
+  {
+    "german": "paraphrasieren",
+    "italian": "parafrasare"
+  },
+  {
+    "german": "referieren",
+    "italian": "riferire"
+  },
+  {
+    "german": "rezensieren",
+    "italian": "recensire"
+  },
+  {
+    "german": "dekodieren",
+    "italian": "decodificare"
+  },
+  {
+    "german": "entschlüsseln",
+    "italian": "decifrare"
+  },
+  {
+    "german": "dechiffrieren",
+    "italian": "decifrare"
+  },
+  {
+    "german": "enträtseeln",
+    "italian": "decifrare"
+  },
+  {
+    "german": "ergründen",
+    "italian": "sondare"
+  },
+  {
+    "german": "ausloten",
+    "italian": "sondare"
+  },
+  {
+    "german": "durchdringen",
+    "italian": "penetrare"
+  },
+  {
+    "german": "durchleuchten",
+    "italian": "esaminare a fondo"
+  },
+  {
+    "german": "entlarven",
+    "italian": "smascherare"
+  },
+  {
+    "german": "bloßstellen",
+    "italian": "smascherare"
+  },
+  {
+    "german": "demaskieren",
+    "italian": "smascherare"
+  },
+  {
+    "german": "entzaubern",
+    "italian": "disincantare"
+  },
+  {
+    "german": "desillusionieren",
+    "italian": "disilludere"
+  },
+  {
+    "german": "ernüchtern",
+    "italian": "disilludere"
+  },
+  {
+    "german": "schüren",
+    "italian": "alimentare"
+  },
+  {
+    "german": "anfachen",
+    "italian": "attizzare"
+  },
+  {
+    "german": "entfachen",
+    "italian": "scatenare"
+  },
+  {
+    "german": "entflammen",
+    "italian": "infiammare"
+  },
+  {
+    "german": "elektrisieren",
+    "italian": "elettrizzare"
+  },
+  {
+    "german": "verzaubern",
+    "italian": "stregare"
+  },
+  {
+    "german": "bannen",
+    "italian": "incantare"
+  },
+  {
+    "german": "mitreißen",
+    "italian": "trascinare"
+  },
+  {
+    "german": "anrühren",
+    "italian": "commuovere"
+  },
+  {
+    "german": "aufwühlen",
+    "italian": "sconvolgere"
+  },
+  {
+    "german": "verstören",
+    "italian": "turbare"
+  },
+  {
+    "german": "befremden",
+    "italian": "disorientare"
+  },
+  {
+    "german": "verblüffen",
+    "italian": "stupire"
+  },
+  {
+    "german": "verblenden",
+    "italian": "accecare"
+  },
+  {
+    "german": "betören",
+    "italian": "sedurre"
+  },
+  {
+    "german": "verlocken",
+    "italian": "allettare"
+  },
+  {
+    "german": "anspornen",
+    "italian": "spronare"
+  },
+  {
+    "german": "beflügeln",
+    "italian": "dare le ali"
+  },
+  {
+    "german": "introspektiv",
+    "italian": "introspettivo"
+  },
+  {
+    "german": "ambivalent",
+    "italian": "ambivalente"
+  },
+  {
+    "german": "ambitioniert",
+    "italian": "ambizioso"
+  },
+  {
+    "german": "assertiv",
+    "italian": "assertivo"
+  },
+  {
+    "german": "resilient",
+    "italian": "resiliente"
+  },
+  {
+    "german": "vulnerabel",
+    "italian": "vulnerabile"
+  },
+  {
+    "german": "labil",
+    "italian": "labile"
+  },
+  {
+    "german": "unausgeglichen",
+    "italian": "squilibrato"
+  },
+  {
+    "german": "neurotisch",
+    "italian": "nevrotico"
+  },
+  {
+    "german": "psychotisch",
+    "italian": "psicotico"
+  },
+  {
+    "german": "paranoid",
+    "italian": "paranoico"
+  },
+  {
+    "german": "schizophren",
+    "italian": "schizofrenico"
+  },
+  {
+    "german": "manisch",
+    "italian": "maniacale"
+  },
+  {
+    "german": "bipolar",
+    "italian": "bipolare"
+  },
+  {
+    "german": "obsessiv",
+    "italian": "ossessivo"
+  },
+  {
+    "german": "kompulsiv",
+    "italian": "compulsivo"
+  },
+  {
+    "german": "phobisch",
+    "italian": "fobico"
+  },
+  {
+    "german": "traumatisiert",
+    "italian": "traumatizzato"
+  },
+  {
+    "german": "empathisch",
+    "italian": "empatico"
+  },
+  {
+    "german": "überempfindlich",
+    "italian": "ipersensibile"
+  },
+  {
+    "german": "dickfällig",
+    "italian": "insensibile"
+  },
+  {
+    "german": "stoisch",
+    "italian": "stoico"
+  },
+  {
+    "german": "unerschütterlich",
+    "italian": "imperturbabile"
+  },
+  {
+    "german": "abgeklärt",
+    "italian": "distaccato"
+  },
+  {
+    "german": "gleichmütig",
+    "italian": "impassibile"
+  },
+  {
+    "german": "phlegmatisch",
+    "italian": "flemmatico"
+  },
+  {
+    "german": "cholerisch",
+    "italian": "collerico"
+  },
+  {
+    "german": "melancholisch",
+    "italian": "melanconico"
+  },
+  {
+    "german": "wehmütig",
+    "italian": "malinconico"
+  },
+  {
+    "german": "schwermütig",
+    "italian": "malinconico"
+  },
+  {
+    "german": "trübsinnig",
+    "italian": "malinconico"
+  },
+  {
+    "german": "kapriziös",
+    "italian": "capriccioso"
+  },
+  {
+    "german": "unberechenbar",
+    "italian": "imprevedibile"
+  },
+  {
+    "german": "berechenbar",
+    "italian": "prevedibile"
+  },
+  {
+    "german": "pflichtbewusst",
+    "italian": "coscienzioso"
+  },
+  {
+    "german": "verantwortungsbewusst",
+    "italian": "responsabile"
+  },
+  {
+    "german": "besonnen",
+    "italian": "riflessivo"
+  },
+  {
+    "german": "umsichtig",
+    "italian": "prudente"
+  },
+  {
+    "german": "vorausschauend",
+    "italian": "previdente"
+  },
+  {
+    "german": "weitsichtig",
+    "italian": "lungimirante"
+  },
+  {
+    "german": "kurzsichtig",
+    "italian": "miope"
+  },
+  {
+    "german": "engstirnig",
+    "italian": "ottuso"
+  },
+  {
+    "german": "weltfremd",
+    "italian": "fuori dal mondo"
+  },
+  {
+    "german": "weltgewandt",
+    "italian": "navigato"
+  },
+  {
+    "german": "lebensklug",
+    "italian": "saggio"
+  },
+  {
+    "german": "abgebrüht",
+    "italian": "cinico"
+  },
+  {
+    "german": "höhnisch",
+    "italian": "beffardo"
+  },
+  {
+    "german": "gehässig",
+    "italian": "malevolo"
+  },
+  {
+    "german": "hinterhältig",
+    "italian": "subdolo"
+  },
+  {
+    "german": "heimtückisch",
+    "italian": "perfido"
+  },
+  {
+    "german": "tückisch",
+    "italian": "insidioso"
+  },
+  {
+    "german": "arglistig",
+    "italian": "malizioso"
+  },
+  {
+    "german": "verschlagen",
+    "italian": "astuto"
+  },
+  {
+    "german": "durchtrieben",
+    "italian": "scaltro"
+  },
+  {
+    "german": "gewieft",
+    "italian": "furbo"
+  },
+  {
+    "german": "gewizt",
+    "italian": "scaltro"
+  },
+  {
+    "german": "die Weltanschauung",
+    "italian": "la visione del mondo"
+  },
+  {
+    "german": "das Weltbild",
+    "italian": "la visione del mondo"
+  },
+  {
+    "german": "die Lebensanschauung",
+    "italian": "la filosofia di vita"
+  },
+  {
+    "german": "die Lebensphilosophie",
+    "italian": "la filosofia di vita"
+  },
+  {
+    "german": "die Denkschule",
+    "italian": "la scuola di pensiero"
+  },
+  {
+    "german": "der Denkansatz",
+    "italian": "l'approccio"
+  },
+  {
+    "german": "das Denkmuster",
+    "italian": "lo schema mentale"
+  },
+  {
+    "german": "der Gedankengang",
+    "italian": "il filo del pensiero"
+  },
+  {
+    "german": "die Gedankenwelt",
+    "italian": "il mondo delle idee"
+  },
+  {
+    "german": "die Begriffswelt",
+    "italian": "il mondo concettuale"
+  },
+  {
+    "german": "das Begriffssystem",
+    "italian": "il sistema concettuale"
+  },
+  {
+    "german": "das Begriffspaar",
+    "italian": "la coppia concettuale"
+  },
+  {
+    "german": "die Begriffsbestimmung",
+    "italian": "la definizione"
+  },
+  {
+    "german": "die Begriffsbildung",
+    "italian": "la formazione dei concetti"
+  },
+  {
+    "german": "die Begriffsklärung",
+    "italian": "la chiarificazione"
+  },
+  {
+    "german": "die Begrifflichkeit",
+    "italian": "la concettualità"
+  },
+  {
+    "german": "der Terminus",
+    "italian": "il termine"
+  },
+  {
+    "german": "der Fachbegriff",
+    "italian": "il termine tecnico"
+  },
+  {
+    "german": "die Fachsprache",
+    "italian": "il linguaggio tecnico"
+  },
+  {
+    "german": "der Fachdiskurs",
+    "italian": "il discorso specialistico"
+  },
+  {
+    "german": "der Diskurs",
+    "italian": "il discorso"
+  },
+  {
+    "german": "die Metaebene",
+    "italian": "il livello meta"
+  },
+  {
+    "german": "die Reflexionsebene",
+    "italian": "il livello di riflessione"
+  },
+  {
+    "german": "die Abstraktion",
+    "italian": "l'astrazione"
+  },
+  {
+    "german": "die Konkretion",
+    "italian": "la concretizzazione"
+  },
+  {
+    "german": "die Exemplifizierung",
+    "italian": "l'esemplificazione"
+  },
+  {
+    "german": "die Veranschaulichung",
+    "italian": "l'illustrazione"
+  },
+  {
+    "german": "die Verdeutlichung",
+    "italian": "la chiarificazione"
+  },
+  {
+    "german": "die Klarstellung",
+    "italian": "la precisazione"
+  },
+  {
+    "german": "die Präzisierung",
+    "italian": "la precisazione"
+  },
+  {
+    "german": "die Differenzierung",
+    "italian": "la differenziazione"
+  },
+  {
+    "german": "die Nuancierung",
+    "italian": "la sfumatura"
+  },
+  {
+    "german": "die Schattierung",
+    "italian": "la sfumatura"
+  },
+  {
+    "german": "die Abstufung",
+    "italian": "la gradazione"
+  },
+  {
+    "german": "die Graduierung",
+    "italian": "la graduazione"
+  },
+  {
+    "german": "die Skalierung",
+    "italian": "la scalatura"
+  },
+  {
+    "german": "die Grundhaltung",
+    "italian": "l'atteggiamento di fondo"
+  },
+  {
+    "german": "die Grundeinstellung",
+    "italian": "l'atteggiamento di base"
+  },
+  {
+    "german": "die Grundannahme",
+    "italian": "l'assunto di base"
+  },
+  {
+    "german": "das Axiom",
+    "italian": "l'assioma"
+  },
+  {
+    "german": "das Postulat",
+    "italian": "il postulato"
+  },
+  {
+    "german": "die Maxime",
+    "italian": "la massima"
+  },
+  {
+    "german": "die Methodik",
+    "italian": "la metodica"
+  },
+  {
+    "german": "die Didaktik",
+    "italian": "la didattica"
+  },
+  {
+    "german": "die Pädagogik",
+    "italian": "la pedagogia"
+  },
+  {
+    "german": "die Erziehungswissenschaft",
+    "italian": "la scienza dell'educazione"
+  },
+  {
+    "german": "die Bildungstheorie",
+    "italian": "la teoria dell'educazione"
+  },
+  {
+    "german": "die Lerntheorie",
+    "italian": "la teoria dell'apprendimento"
+  },
+  {
+    "german": "die Erkenntnistheorie",
+    "italian": "la teoria della conoscenza"
+  },
+  {
+    "german": "die Wissenschaftstheorie",
+    "italian": "la filosofia della scienza"
+  },
+  {
+    "german": "die Sprachphilosophie",
+    "italian": "la filosofia del linguaggio"
+  },
+  {
+    "german": "die Rechtsphilosophie",
+    "italian": "la filosofia del diritto"
+  },
+  {
+    "german": "die Geschichtsphilosophie",
+    "italian": "la filosofia della storia"
+  },
+  {
+    "german": "die Sozialphilosophie",
+    "italian": "la filosofia sociale"
+  },
+  {
+    "german": "die politische Philosophie",
+    "italian": "la filosofia politica"
+  },
+  {
+    "german": "die Moralphilosophie",
+    "italian": "la filosofia morale"
+  },
+  {
+    "german": "die Bioethik",
+    "italian": "la bioetica"
+  },
+  {
+    "german": "die Wirtschaftsethik",
+    "italian": "l'etica economica"
+  },
+  {
+    "german": "die Umweltethik",
+    "italian": "l'etica ambientale"
+  },
+  {
+    "german": "die Medienethik",
+    "italian": "l'etica dei media"
+  },
+  {
+    "german": "die Technikethik",
+    "italian": "l'etica della tecnica"
+  },
+  {
+    "german": "unter Vorbehalt",
+    "italian": "con riserva"
+  },
+  {
+    "german": "mit Vorbehalt",
+    "italian": "con riserva"
+  },
+  {
+    "german": "unter dem Vorbehalt",
+    "italian": "con la riserva"
+  },
+  {
+    "german": "vorbehaltlos",
+    "italian": "senza riserve"
+  },
+  {
+    "german": "uneingeschränkt",
+    "italian": "senza limiti"
+  },
+  {
+    "german": "bedingungslos",
+    "italian": "incondizionatamente"
+  },
+  {
+    "german": "unwiderruflich",
+    "italian": "irrevocabilmente"
+  },
+  {
+    "german": "unumkehrbar",
+    "italian": "irreversibilmente"
+  },
+  {
+    "german": "unvermeidlich",
+    "italian": "inevitabilmente"
+  },
+  {
+    "german": "unabwendbar",
+    "italian": "inevitabilmente"
+  },
+  {
+    "german": "unabdingbar",
+    "italian": "indispensabilmente"
+  },
+  {
+    "german": "unanfechtbar",
+    "italian": "incontestabilmente"
+  },
+  {
+    "german": "unwiderlegbar",
+    "italian": "inconfutabilmente"
+  },
+  {
+    "german": "unbestreitbar",
+    "italian": "incontestabilmente"
+  },
+  {
+    "german": "unbezweifelbar",
+    "italian": "indubbiamente"
+  },
+  {
+    "german": "unzweifelhaft",
+    "italian": "indubitabilmente"
+  },
+  {
+    "german": "zweifelsfrei",
+    "italian": "senza dubbio"
+  },
+  {
+    "german": "fraglos",
+    "italian": "indubbiamente"
+  },
+  {
+    "german": "freilich",
+    "italian": "certo"
+  },
+  {
+    "german": "zugegebenermaßen",
+    "italian": "bisogna ammettere"
+  },
+  {
+    "german": "eingestandenermaßen",
+    "italian": "come ammesso"
+  },
+  {
+    "german": "bezeichnenderweise",
+    "italian": "significativamente"
+  },
+  {
+    "german": "merkwürdigerweise",
+    "italian": "stranamente"
+  },
+  {
+    "german": "erstaunlicherweise",
+    "italian": "sorprendentemente"
+  },
+  {
+    "german": "bedauerlicherweise",
+    "italian": "sfortunatamente"
+  },
+  {
+    "german": "erfreulicherweise",
+    "italian": "fortunatamente"
+  },
+  {
+    "german": "verständlicherweise",
+    "italian": "comprensibilmente"
+  },
+  {
+    "german": "berechtigterweise",
+    "italian": "giustamente"
+  },
+  {
+    "german": "fälschlicherweise",
+    "italian": "erroneamente"
+  },
+  {
+    "german": "irrtümlicherweise",
+    "italian": "erroneamente"
+  },
+  {
+    "german": "vorsätzlich",
+    "italian": "intenzionalmente"
+  },
+  {
+    "german": "wissentlich",
+    "italian": "consapevolmente"
+  },
+  {
+    "german": "unwissentlich",
+    "italian": "inconsapevolmente"
+  },
+  {
+    "german": "willentlich",
+    "italian": "volontariamente"
+  },
+  {
+    "german": "unwillentlich",
+    "italian": "involontariamente"
+  },
+  {
+    "german": "naturgemäß",
+    "italian": "naturalmente"
+  },
+  {
+    "german": "systembedingt",
+    "italian": "per cause sistemiche"
+  },
+  {
+    "german": "strukturbedingt",
+    "italian": "per cause strutturali"
+  },
+  {
+    "german": "konjunkturbedingt",
+    "italian": "per cause congiunturali"
+  },
+  {
+    "german": "ein Brett vor dem Kopf haben",
+    "italian": "essere ottuso"
+  },
+  {
+    "german": "Eulen nach Athen tragen",
+    "italian": "portare acqua al mare"
+  },
+  {
+    "german": "jemandem die Leviten lesen",
+    "italian": "fare una lavata di capo"
+  },
+  {
+    "german": "jemandem einen Bären aufbinden",
+    "italian": "raccontare frottole"
+  },
+  {
+    "german": "Perlen vor die Säue werfen",
+    "italian": "gettare perle ai porci"
+  },
+  {
+    "german": "es faustdick hinter den Ohren haben",
+    "italian": "essere furbo"
+  },
+  {
+    "german": "den Teufel an die Wand malen",
+    "italian": "vedere tutto nero"
+  },
+  {
+    "german": "fortan",
+    "italian": "d'ora in poi"
+  },
+  {
+    "german": "die Gewinn- und Verlustrechnung",
+    "italian": "il conto economico"
+  },
+  {
+    "german": "die Rückstellung",
+    "italian": "l'accantonamento"
+  },
+  {
+    "german": "das Anlagevermögen",
+    "italian": "le immobilizzazioni"
+  },
+  {
+    "german": "das Umlaufvermögen",
+    "italian": "l'attivo circolante"
+  },
+  {
+    "german": "die Kapitalerhöhung",
+    "italian": "l'aumento di capitale"
+  },
+  {
+    "german": "die Kapitalherabsetzung",
+    "italian": "la riduzione di capitale"
+  },
+  {
+    "german": "der Emittent",
+    "italian": "l'emittente"
+  },
+  {
+    "german": "die Unternehmensanleihe",
+    "italian": "l'obbligazione societaria"
+  },
+  {
+    "german": "der Kupon",
+    "italian": "la cedola"
+  },
+  {
+    "german": "tilgen",
+    "italian": "rimborsare"
+  },
+  {
+    "german": "der Staatsbankrott",
+    "italian": "il fallimento dello stato"
+  },
+  {
+    "german": "die Körperschaftsteuer",
+    "italian": "l'imposta sulle società"
+  },
+  {
+    "german": "die Kapitalertragssteuer",
+    "italian": "l'imposta sulle plusvalenze"
+  },
+  {
+    "german": "der Aufsichtsrat",
+    "italian": "il consiglio di sorveglianza"
+  },
+  {
+    "german": "die Hauptversammlung",
+    "italian": "l'assemblea generale"
+  },
+  {
+    "german": "die Ausgliederung",
+    "italian": "lo scorporo"
+  },
+  {
+    "german": "ausgliedern",
+    "italian": "scorporare"
+  },
+  {
+    "german": "das Alleinstellungsmerkmal",
+    "italian": "l'USP"
+  },
+  {
+    "german": "die Wertschöpfungskette",
+    "italian": "la catena del valore"
+  },
+  {
+    "german": "die Behauptung",
+    "italian": "l'affermazione"
+  },
+  {
+    "german": "die Gegenüberstellung",
+    "italian": "il confronto"
+  },
+  {
+    "german": "der Umbruch",
+    "italian": "il cambiamento radicale"
+  },
+  {
+    "german": "der Fortgang",
+    "italian": "il proseguimento"
+  },
+  {
+    "german": "die Regung",
+    "italian": "il moto"
+  },
+  {
+    "german": "die Veranlagung",
+    "italian": "la predisposizione"
+  },
+  {
+    "german": "die Gesinnung",
+    "italian": "la mentalità"
+  },
+  {
+    "german": "die Tragweite",
+    "italian": "la portata"
+  },
+  {
+    "german": "strenggenommen",
+    "italian": "a rigore"
+  },
+  {
+    "german": "die Palliativpflege",
+    "italian": "le cure palliative"
+  },
+  {
+    "german": "die Magnetresonanztomografie",
+    "italian": "la risonanza magnetica"
+  },
+  {
+    "german": "das Elektrokardiogramm",
+    "italian": "l'elettrocardiogramma"
+  },
+  {
+    "german": "das EEG",
+    "italian": "l'elettroencefalogramma"
+  },
+  {
+    "german": "das Antigen",
+    "italian": "l'antigene"
+  },
+  {
+    "german": "die Anamnese",
+    "italian": "l'anamnesi"
+  },
+  {
+    "german": "das Hospiz",
+    "italian": "l'hospice"
+  },
+  {
+    "german": "die Zwangsstörung",
+    "italian": "il disturbo ossessivo-compulsivo"
+  },
+  {
+    "german": "die Persönlichkeitsstörung",
+    "italian": "il disturbo di personalità"
+  },
+  {
+    "german": "die posttraumatische Belastungsstörung",
+    "italian": "il disturbo post-traumatico da stress"
+  },
+  {
+    "german": "figurschmeichelnd",
+    "italian": "che valorizza la figura"
+  },
+  {
+    "german": "der Aktuar",
+    "italian": "l'attuario"
+  },
+  {
+    "german": "die Aktuarin",
+    "italian": "l'attuaria"
+  },
+  {
+    "german": "der Compliance-Beauftragte",
+    "italian": "il responsabile compliance"
+  },
+  {
+    "german": "die Compliance-Beauftragte",
+    "italian": "la responsabile compliance"
+  },
+  {
+    "german": "der Insolvenzverwalter",
+    "italian": "il curatore fallimentare"
+  },
+  {
+    "german": "die Insolvenzverwalterin",
+    "italian": "la curatrice fallimentare"
+  },
+  {
+    "german": "katalysieren",
+    "italian": "catalizzare"
+  },
+  {
+    "german": "die Verwitterung",
+    "italian": "l'erosione atmosferica"
+  },
+  {
+    "german": "der Grundwasserspiegel",
+    "italian": "la falda acquifera"
+  },
+  {
+    "german": "die Ekstase",
+    "italian": "l'estasi"
+  },
+  {
+    "german": "ekstatisch",
+    "italian": "estatico"
+  },
+  {
+    "german": "die Ausgelassenheit",
+    "italian": "l'esuberanza"
+  },
+  {
+    "german": "die Schwermut",
+    "italian": "la malinconia"
+  },
+  {
+    "german": "grüblerisch",
+    "italian": "ruminante"
+  },
+  {
+    "german": "die Beharrlichkeit",
+    "italian": "la perseveranza"
+  },
+  {
+    "german": "die Überheblichkeit",
+    "italian": "la presunzione"
+  },
+  {
+    "german": "die Verlogenheit",
+    "italian": "la falsità"
+  },
+  {
+    "german": "erspähen",
+    "italian": "avvistare"
+  },
+  {
+    "german": "Abhandlung",
+    "italian": "trattato"
+  },
+  {
+    "german": "Argumentation",
+    "italian": "argomentazione"
+  },
+  {
+    "german": "Betrachtung",
+    "italian": "considerazione"
+  },
+  {
+    "german": "Darlegung",
+    "italian": "esposizione"
+  },
+  {
+    "german": "Erörterung",
+    "italian": "dissertazione"
+  },
+  {
+    "german": "Fragestellung",
+    "italian": "quesito di ricerca"
+  },
+  {
+    "german": "Grundlage",
+    "italian": "fondamento"
+  },
+  {
+    "german": "Herangehensweise",
+    "italian": "approccio"
+  },
+  {
+    "german": "Implikation",
+    "italian": "implicazione"
+  },
+  {
+    "german": "Kontext",
+    "italian": "contesto"
+  },
+  {
+    "german": "Prämisse",
+    "italian": "premessa"
+  },
+  {
+    "german": "Schlüsselbegriff",
+    "italian": "concetto chiave"
+  },
+  {
+    "german": "Standpunkt",
+    "italian": "punto di vista"
+  },
+  {
+    "german": "Voraussetzung",
+    "italian": "presupposto"
+  },
+  {
+    "german": "Widerspruch",
+    "italian": "contraddizione"
+  },
+  {
+    "german": "Zusammenfassung",
+    "italian": "sintesi"
+  },
+  {
+    "german": "Phonetik",
+    "italian": "fonetica"
+  },
+  {
+    "german": "Morphologie",
+    "italian": "morfologia"
+  },
+  {
+    "german": "Syntax",
+    "italian": "sintassi"
+  },
+  {
+    "german": "Semantik",
+    "italian": "semantica"
+  },
+  {
+    "german": "Pragmatik",
+    "italian": "pragmatica"
+  },
+  {
+    "german": "Phonem",
+    "italian": "fonema"
+  },
+  {
+    "german": "Morphem",
+    "italian": "morfema"
+  },
+  {
+    "german": "Lexem",
+    "italian": "lessema"
+  },
+  {
+    "german": "Etymologie",
+    "italian": "etimologia"
+  },
+  {
+    "german": "Dialekt",
+    "italian": "dialetto"
+  },
+  {
+    "german": "Soziolekt",
+    "italian": "socioletto"
+  },
+  {
+    "german": "Spracherwerb",
+    "italian": "acquisizione linguistica"
+  },
+  {
+    "german": "Muttersprache",
+    "italian": "madrelingua"
+  },
+  {
+    "german": "Zweisprachigkeit",
+    "italian": "bilinguismo"
+  },
+  {
+    "german": "Sprachfamilie",
+    "italian": "famiglia linguistica"
+  },
+  {
+    "german": "Sprachpolitik",
+    "italian": "politica linguistica"
+  },
+  {
+    "german": "Neologismus",
+    "italian": "neologismo"
+  },
+  {
+    "german": "Archaismus",
+    "italian": "arcaismo"
+  },
+  {
+    "german": "Lehnwort",
+    "italian": "prestito linguistico"
+  },
+  {
+    "german": "Fiskalpolitik",
+    "italian": "politica fiscale"
+  },
+  {
+    "german": "Geldpolitik",
+    "italian": "politica monetaria"
+  },
+  {
+    "german": "Staatsverschuldung",
+    "italian": "debito pubblico"
+  },
+  {
+    "german": "Steuerpolitik",
+    "italian": "politica tributaria"
+  },
+  {
+    "german": "Deregulierung",
+    "italian": "deregolamentazione"
+  },
+  {
+    "german": "Liberalisierung",
+    "italian": "liberalizzazione"
+  },
+  {
+    "german": "Verstaatlichung",
+    "italian": "nazionalizzazione"
+  },
+  {
+    "german": "Mindestlohn",
+    "italian": "salario minimo"
+  },
+  {
+    "german": "Tarifvertrag",
+    "italian": "contratto collettivo"
+  },
+  {
+    "german": "Gewerkschaft",
+    "italian": "sindacato"
+  },
+  {
+    "german": "Arbeitgeberverband",
+    "italian": "associazione datoriale"
+  },
+  {
+    "german": "Sozialversicherung",
+    "italian": "previdenza sociale"
+  },
+  {
+    "german": "Rentenversicherung",
+    "italian": "assicurazione pensionistica"
+  },
+  {
+    "german": "Arbeitslosenversicherung",
+    "italian": "assicurazione disoccupazione"
+  },
+  {
+    "german": "Haushaltsdefizit",
+    "italian": "deficit di bilancio"
+  },
+  {
+    "german": "Schuldenbremse",
+    "italian": "freno al debito"
+  },
+  {
+    "german": "Kaufkraft",
+    "italian": "potere d'acquisto"
+  },
+  {
+    "german": "Lohngefälle",
+    "italian": "divario salariale"
+  },
+  {
+    "german": "Neuron",
+    "italian": "neurone"
+  },
+  {
+    "german": "Synapse",
+    "italian": "sinapsi"
+  },
+  {
+    "german": "Neurotransmitter",
+    "italian": "neurotrasmettitore"
+  },
+  {
+    "german": "Gehirnrinde",
+    "italian": "corteccia cerebrale"
+  },
+  {
+    "german": "Hippocampus",
+    "italian": "ippocampo"
+  },
+  {
+    "german": "Amygdala",
+    "italian": "amigdala"
+  },
+  {
+    "german": "Gedächtnis",
+    "italian": "memoria"
+  },
+  {
+    "german": "Langzeitgedächtnis",
+    "italian": "memoria a lungo termine"
+  },
+  {
+    "german": "Kurzzeitgedächtnis",
+    "italian": "memoria a breve termine"
+  },
+  {
+    "german": "Kognition",
+    "italian": "cognizione"
+  },
+  {
+    "german": "Neuroplastizität",
+    "italian": "neuroplasticità"
+  },
+  {
+    "german": "Demenz",
+    "italian": "demenza"
+  },
+  {
+    "german": "Alzheimer",
+    "italian": "Alzheimer"
+  },
+  {
+    "german": "Parkinson",
+    "italian": "Parkinson"
+  },
+  {
+    "german": "Hirnforschung",
+    "italian": "ricerca sul cervello"
+  },
+  {
+    "german": "bildgebendes Verfahren",
+    "italian": "neuroimaging"
+  },
+  {
+    "german": "Reiz",
+    "italian": "stimolo"
+  },
+  {
+    "german": "Reflex",
+    "italian": "riflesso"
+  },
+  {
+    "german": "Gentechnik",
+    "italian": "ingegneria genetica"
+  },
+  {
+    "german": "DNA",
+    "italian": "DNA"
+  },
+  {
+    "german": "Genom",
+    "italian": "genoma"
+  },
+  {
+    "german": "Gensequenz",
+    "italian": "sequenza genica"
+  },
+  {
+    "german": "Mutation",
+    "italian": "mutazione"
+  },
+  {
+    "german": "Klonen",
+    "italian": "clonazione"
+  },
+  {
+    "german": "Stammzelle",
+    "italian": "cellula staminale"
+  },
+  {
+    "german": "Antikörper",
+    "italian": "anticorpo"
+  },
+  {
+    "german": "Impfstoff",
+    "italian": "vaccino"
+  },
+  {
+    "german": "Virus",
+    "italian": "virus"
+  },
+  {
+    "german": "Bakterie",
+    "italian": "batterio"
+  },
+  {
+    "german": "Mikroorganismus",
+    "italian": "microrganismo"
+  },
+  {
+    "german": "Fermentation",
+    "italian": "fermentazione"
+  },
+  {
+    "german": "Enzym",
+    "italian": "enzima"
+  },
+  {
+    "german": "Protein",
+    "italian": "proteina"
+  },
+  {
+    "german": "Zellkultur",
+    "italian": "coltura cellulare"
+  },
+  {
+    "german": "Bioethik",
+    "italian": "bioetica"
+  },
+  {
+    "german": "transgener Organismus",
+    "italian": "organismo transgenico"
+  },
+  {
+    "german": "Klimamodell",
+    "italian": "modello climatico"
+  },
+  {
+    "german": "Klimazone",
+    "italian": "zona climatica"
+  },
+  {
+    "german": "Treibhausgas",
+    "italian": "gas serra"
+  },
+  {
+    "german": "Ozonschicht",
+    "italian": "strato di ozono"
+  },
+  {
+    "german": "Gletscherschmelze",
+    "italian": "scioglimento dei ghiacciai"
+  },
+  {
+    "german": "Meeresspiegel",
+    "italian": "livello del mare"
+  },
+  {
+    "german": "Permafrost",
+    "italian": "permafrost"
+  },
+  {
+    "german": "Extremwetterereignis",
+    "italian": "evento meteorologico estremo"
+  },
+  {
+    "german": "Hitzewelle",
+    "italian": "ondata di calore"
+  },
+  {
+    "german": "Wirbelsturm",
+    "italian": "ciclone"
+  },
+  {
+    "german": "Monsun",
+    "italian": "monsone"
+  },
+  {
+    "german": "Wettervorhersage",
+    "italian": "previsione meteo"
+  },
+  {
+    "german": "Atmosphäre",
+    "italian": "atmosfera"
+  },
+  {
+    "german": "Troposphäre",
+    "italian": "troposfera"
+  },
+  {
+    "german": "Stratosphäre",
+    "italian": "stratosfera"
+  },
+  {
+    "german": "Niederschlag",
+    "italian": "precipitazione"
+  },
+  {
+    "german": "Luftfeuchtigkeit",
+    "italian": "umidità dell'aria"
+  },
+  {
+    "german": "Klimaneutralität",
+    "italian": "neutralità climatica"
+  },
+  {
+    "german": "Ontologie",
+    "italian": "ontologia"
+  },
+  {
+    "german": "Epistemologie",
+    "italian": "epistemologia"
+  },
+  {
+    "german": "Phänomenologie",
+    "italian": "fenomenologia"
+  },
+  {
+    "german": "Existentialismus",
+    "italian": "esistenzialismo"
+  },
+  {
+    "german": "Hermeneutik",
+    "italian": "ermeneutica"
+  },
+  {
+    "german": "Metaphysik",
+    "italian": "metafisica"
+  },
+  {
+    "german": "Ästhetik",
+    "italian": "estetica"
+  },
+  {
+    "german": "Transzendenz",
+    "italian": "trascendenza"
+  },
+  {
+    "german": "Immanenz",
+    "italian": "immanenza"
+  },
+  {
+    "german": "Apriori",
+    "italian": "a priori"
+  },
+  {
+    "german": "Substanz",
+    "italian": "sostanza"
+  },
+  {
+    "german": "Kausalität",
+    "italian": "causalità"
+  },
+  {
+    "german": "Kontingenz",
+    "italian": "contingenza"
+  },
+  {
+    "german": "Dekonstruktion",
+    "italian": "decostruzione"
+  },
+  {
+    "german": "Postmoderne",
+    "italian": "postmodernismo"
+  },
+  {
+    "german": "Strukturalismus",
+    "italian": "strutturalismo"
+  },
+  {
+    "german": "Diskurs",
+    "italian": "discorso"
+  },
+  {
+    "german": "Narrativ",
+    "italian": "narrativa"
+  },
+  {
+    "german": "Anthropologie",
+    "italian": "antropologia"
+  },
+  {
+    "german": "Ethnologie",
+    "italian": "etnologia"
+  },
+  {
+    "german": "Kulturrelativismus",
+    "italian": "relativismo culturale"
+  },
+  {
+    "german": "Identität",
+    "italian": "identità"
+  },
+  {
+    "german": "Akkulturation",
+    "italian": "acculturazione"
+  },
+  {
+    "german": "Globalisierung",
+    "italian": "globalizzazione"
+  },
+  {
+    "german": "Interkulturalität",
+    "italian": "interculturalità"
+  },
+  {
+    "german": "Stereotyp",
+    "italian": "stereotipo"
+  },
+  {
+    "german": "Vorurteil",
+    "italian": "pregiudizio"
+  },
+  {
+    "german": "Diskriminierung",
+    "italian": "discriminazione"
+  },
+  {
+    "german": "Inklusion",
+    "italian": "inclusione"
+  },
+  {
+    "german": "Diversität",
+    "italian": "diversità"
+  },
+  {
+    "german": "Tradition",
+    "italian": "tradizione"
+  },
+  {
+    "german": "Brauch",
+    "italian": "usanza"
+  },
+  {
+    "german": "Ritual",
+    "italian": "rituale"
+  },
+  {
+    "german": "Mythos",
+    "italian": "mito"
+  },
+  {
+    "german": "Symbol",
+    "italian": "simbolo"
+  },
+  {
+    "german": "Tabu",
+    "italian": "tabù"
+  },
+  {
+    "german": "Gattung",
+    "italian": "genere letterario"
+  },
+  {
+    "german": "Epik",
+    "italian": "epica"
+  },
+  {
+    "german": "Lyrik",
+    "italian": "lirica"
+  },
+  {
+    "german": "Dramatik",
+    "italian": "drammaturgia"
+  },
+  {
+    "german": "Prosa",
+    "italian": "prosa"
+  },
+  {
+    "german": "Strophe",
+    "italian": "strofa"
+  },
+  {
+    "german": "Vers",
+    "italian": "verso"
+  },
+  {
+    "german": "Reim",
+    "italian": "rima"
+  },
+  {
+    "german": "Metrik",
+    "italian": "metrica"
+  },
+  {
+    "german": "Metapher",
+    "italian": "metafora"
+  },
+  {
+    "german": "Allegorie",
+    "italian": "allegoria"
+  },
+  {
+    "german": "Ironie",
+    "italian": "ironia"
+  },
+  {
+    "german": "Satire",
+    "italian": "satira"
+  },
+  {
+    "german": "Parodie",
+    "italian": "parodia"
+  },
+  {
+    "german": "Erzählperspektive",
+    "italian": "prospettiva narrativa"
+  },
+  {
+    "german": "Leitmotiv",
+    "italian": "leitmotiv"
+  },
+  {
+    "german": "Epochen",
+    "italian": "epoche letterarie"
+  },
+  {
+    "german": "Expressionismus",
+    "italian": "espressionismo"
+  },
+  {
+    "german": "Romantik",
+    "italian": "romanticismo"
+  },
+  {
+    "german": "Realismus",
+    "italian": "realismo"
+  },
+  {
+    "german": "Betriebssystem",
+    "italian": "sistema operativo"
+  },
+  {
+    "german": "Quellcode",
+    "italian": "codice sorgente"
+  },
+  {
+    "german": "Kompilierung",
+    "italian": "compilazione"
+  },
+  {
+    "german": "Schnittstelle",
+    "italian": "interfaccia"
+  },
+  {
+    "german": "Rekursion",
+    "italian": "ricorsione"
+  },
+  {
+    "german": "Iteration",
+    "italian": "iterazione"
+  },
+  {
+    "german": "Variable",
+    "italian": "variabile"
+  },
+  {
+    "german": "Funktion",
+    "italian": "funzione"
+  },
+  {
+    "german": "Objektorientierung",
+    "italian": "programmazione orientata agli oggetti"
+  },
+  {
+    "german": "Debugging",
+    "italian": "debug"
+  },
+  {
+    "german": "Laufzeit",
+    "italian": "tempo di esecuzione"
+  },
+  {
+    "german": "Speicher",
+    "italian": "memoria"
+  },
+  {
+    "german": "Prozessor",
+    "italian": "processore"
+  },
+  {
+    "german": "Bandbreite",
+    "italian": "larghezza di banda"
+  },
+  {
+    "german": "Latenz",
+    "italian": "latenza"
+  },
+  {
+    "german": "Skalierbarkeit",
+    "italian": "scalabilità"
+  },
+  {
+    "german": "Open Source",
+    "italian": "open source"
+  },
+  {
+    "german": "Benutzeroberfläche",
+    "italian": "interfaccia utente"
+  },
+  {
+    "german": "Universum",
+    "italian": "universo"
+  },
+  {
+    "german": "Galaxie",
+    "italian": "galassia"
+  },
+  {
+    "german": "Sonnensystem",
+    "italian": "sistema solare"
+  },
+  {
+    "german": "Planet",
+    "italian": "pianeta"
+  },
+  {
+    "german": "Asteroid",
+    "italian": "asteroide"
+  },
+  {
+    "german": "Komet",
+    "italian": "cometa"
+  },
+  {
+    "german": "Schwarzes Loch",
+    "italian": "buco nero"
+  },
+  {
+    "german": "Supernova",
+    "italian": "supernova"
+  },
+  {
+    "german": "Teleskop",
+    "italian": "telescopio"
+  },
+  {
+    "german": "Lichtjahr",
+    "italian": "anno luce"
+  },
+  {
+    "german": "Gravitation",
+    "italian": "gravitazione"
+  },
+  {
+    "german": "Quantenmechanik",
+    "italian": "meccanica quantistica"
+  },
+  {
+    "german": "Relativitätstheorie",
+    "italian": "teoria della relatività"
+  },
+  {
+    "german": "Urknall",
+    "italian": "big bang"
+  },
+  {
+    "german": "Raumstation",
+    "italian": "stazione spaziale"
+  },
+  {
+    "german": "Weltraumforschung",
+    "italian": "esplorazione spaziale"
+  },
+  {
+    "german": "Spektrum",
+    "italian": "spettro"
+  },
+  {
+    "german": "Strahlung",
+    "italian": "radiazione"
+  },
+  {
+    "german": "Ausgrabung",
+    "italian": "scavo"
+  },
+  {
+    "german": "Fund",
+    "italian": "reperto"
+  },
+  {
+    "german": "Artefakt",
+    "italian": "manufatto"
+  },
+  {
+    "german": "Ruine",
+    "italian": "rovina"
+  },
+  {
+    "german": "Zivilisation",
+    "italian": "civiltà"
+  },
+  {
+    "german": "Hochkultur",
+    "italian": "civiltà avanzata"
+  },
+  {
+    "german": "Hieroglyphe",
+    "italian": "geroglifico"
+  },
+  {
+    "german": "Keilschrift",
+    "italian": "scrittura cuneiforme"
+  },
+  {
+    "german": "Mumie",
+    "italian": "mummia"
+  },
+  {
+    "german": "Tempel",
+    "italian": "tempio"
+  },
+  {
+    "german": "Pyramide",
+    "italian": "piramide"
+  },
+  {
+    "german": "Amphitheater",
+    "italian": "anfiteatro"
+  },
+  {
+    "german": "Steinzeit",
+    "italian": "età della pietra"
+  },
+  {
+    "german": "Bronzezeit",
+    "italian": "età del bronzo"
+  },
+  {
+    "german": "Eisenzeit",
+    "italian": "età del ferro"
+  },
+  {
+    "german": "Datierung",
+    "italian": "datazione"
+  },
+  {
+    "german": "Radiokarbonmethode",
+    "italian": "metodo del carbonio-14"
+  },
+  {
+    "german": "Restaurierung",
+    "italian": "restauro"
+  },
+  {
+    "german": "Komposition",
+    "italian": "composizione"
+  },
+  {
+    "german": "Harmonie",
+    "italian": "armonia"
+  },
+  {
+    "german": "Melodie",
+    "italian": "melodia"
+  },
+  {
+    "german": "Rhythmus",
+    "italian": "ritmo"
+  },
+  {
+    "german": "Tonart",
+    "italian": "tonalità"
+  },
+  {
+    "german": "Tonleiter",
+    "italian": "scala musicale"
+  },
+  {
+    "german": "Akkord",
+    "italian": "accordo"
+  },
+  {
+    "german": "Kontrapunkt",
+    "italian": "contrappunto"
+  },
+  {
+    "german": "Sonate",
+    "italian": "sonata"
+  },
+  {
+    "german": "Sinfonie",
+    "italian": "sinfonia"
+  },
+  {
+    "german": "Oper",
+    "italian": "opera"
+  },
+  {
+    "german": "Ouvertüre",
+    "italian": "ouverture"
+  },
+  {
+    "german": "Dirigent",
+    "italian": "direttore d'orchestra"
+  },
+  {
+    "german": "Partitur",
+    "italian": "partitura"
+  },
+  {
+    "german": "Vibrato",
+    "italian": "vibrato"
+  },
+  {
+    "german": "Crescendo",
+    "italian": "crescendo"
+  },
+  {
+    "german": "Piano",
+    "italian": "piano (mus.)"
+  },
+  {
+    "german": "Monotheismus",
+    "italian": "monoteismo"
+  },
+  {
+    "german": "Polytheismus",
+    "italian": "politeismo"
+  },
+  {
+    "german": "Atheismus",
+    "italian": "ateismo"
+  },
+  {
+    "german": "Agnostizismus",
+    "italian": "agnosticismo"
+  },
+  {
+    "german": "Reformation",
+    "italian": "riforma"
+  },
+  {
+    "german": "Aufklärung",
+    "italian": "illuminismo"
+  },
+  {
+    "german": "Säkularisierung",
+    "italian": "secolarizzazione"
+  },
+  {
+    "german": "Fundamentalismus",
+    "italian": "fondamentalismo"
+  },
+  {
+    "german": "Mystik",
+    "italian": "mistica"
+  },
+  {
+    "german": "Askese",
+    "italian": "ascesi"
+  },
+  {
+    "german": "Pilgerfahrt",
+    "italian": "pellegrinaggio"
+  },
+  {
+    "german": "Konfession",
+    "italian": "confessione"
+  },
+  {
+    "german": "Ökumene",
+    "italian": "ecumenismo"
+  },
+  {
+    "german": "Theologie",
+    "italian": "teologia"
+  },
+  {
+    "german": "Dogma",
+    "italian": "dogma"
+  },
+  {
+    "german": "Ketzer",
+    "italian": "eretico"
+  },
+  {
+    "german": "Reliquie",
+    "italian": "reliquia"
+  },
+  {
+    "german": "Liturgie",
+    "italian": "liturgia"
+  },
+  {
+    "german": "die Korpuslinguistik",
+    "italian": "la linguistica dei corpora"
+  },
+  {
+    "german": "das Textkorpus",
+    "italian": "il corpus testuale"
+  },
+  {
+    "german": "die Konkordanz",
+    "italian": "la concordanza"
+  },
+  {
+    "german": "die Kollokation",
+    "italian": "la collocazione"
+  },
+  {
+    "german": "das Lemma",
+    "italian": "il lemma"
+  },
+  {
+    "german": "die Annotation",
+    "italian": "l'annotazione"
+  },
+  {
+    "german": "der Tagger",
+    "italian": "il tagger"
+  },
+  {
+    "german": "die Tokenisierung",
+    "italian": "la tokenizzazione"
+  },
+  {
+    "german": "die Sprachstatistik",
+    "italian": "la statistica linguistica"
+  },
+  {
+    "german": "das Referenzkorpus",
+    "italian": "il corpus di riferimento"
+  },
+  {
+    "german": "die Belegstelle",
+    "italian": "il riscontro testuale"
+  },
+  {
+    "german": "die Wortwolke",
+    "italian": "la nuvola di parole"
+  },
+  {
+    "german": "die n-Gramm-Analyse",
+    "italian": "l'analisi degli n-grammi"
+  },
+  {
+    "german": "die Kookkurrenz",
+    "italian": "la cooccorrenza"
+  },
+  {
+    "german": "die quantitative Linguistik",
+    "italian": "la linguistica quantitativa"
+  },
+  {
+    "german": "das Parallelkorpus",
+    "italian": "il corpus parallelo"
+  },
+  {
+    "german": "die Datenbereinigung",
+    "italian": "la pulizia dei dati"
+  },
+  {
+    "german": "die Sprechakttheorie",
+    "italian": "la teoria degli atti linguistici"
+  },
+  {
+    "german": "die Bedeutungstheorie",
+    "italian": "la teoria del significato"
+  },
+  {
+    "german": "der performative Sprechakt",
+    "italian": "l'atto linguistico performativo"
+  },
+  {
+    "german": "der illokutionäre Akt",
+    "italian": "l'atto illocutorio"
+  },
+  {
+    "german": "die Implikatur",
+    "italian": "l'implicatura"
+  },
+  {
+    "german": "das Sprachspiel",
+    "italian": "il gioco linguistico"
+  },
+  {
+    "german": "die Wahrheitsbedingung",
+    "italian": "la condizione di verità"
+  },
+  {
+    "german": "die Proposition",
+    "italian": "la proposizione"
+  },
+  {
+    "german": "die Deixis",
+    "italian": "la deissi"
+  },
+  {
+    "german": "der Sinngehalt",
+    "italian": "il contenuto di senso"
+  },
+  {
+    "german": "die kommunikative Kompetenz",
+    "italian": "la competenza comunicativa"
+  },
+  {
+    "german": "die Metasprache",
+    "italian": "il metalinguaggio"
+  },
+  {
+    "german": "die Universalgrammatik",
+    "italian": "la grammatica universale"
+  },
+  {
+    "german": "der linguistische Relativismus",
+    "italian": "il relativismo linguistico"
+  },
+  {
+    "german": "die Kognitionswissenschaft",
+    "italian": "la scienza cognitiva"
+  },
+  {
+    "german": "die kognitive Psychologie",
+    "italian": "la psicologia cognitiva"
+  },
+  {
+    "german": "die Informationsverarbeitung",
+    "italian": "l'elaborazione delle informazioni"
+  },
+  {
+    "german": "das Arbeitsgedächtnis",
+    "italian": "la memoria di lavoro"
+  },
+  {
+    "german": "das Langzeitgedächtnis",
+    "italian": "la memoria a lungo termine"
+  },
+  {
+    "german": "die Entscheidungsfindung",
+    "italian": "il processo decisionale"
+  },
+  {
+    "german": "die Metakognition",
+    "italian": "la metacognizione"
+  },
+  {
+    "german": "das Schema",
+    "italian": "lo schema"
+  },
+  {
+    "german": "die mentale Repräsentation",
+    "italian": "la rappresentazione mentale"
+  },
+  {
+    "german": "die Neurolinguistik",
+    "italian": "la neurolinguistica"
+  },
+  {
+    "german": "die Embodied Cognition",
+    "italian": "la cognizione incarnata"
+  },
+  {
+    "german": "die kognitive Belastung",
+    "italian": "il carico cognitivo"
+  },
+  {
+    "german": "die exekutive Funktion",
+    "italian": "la funzione esecutiva"
+  },
+  {
+    "german": "die Falsifizierbarkeit",
+    "italian": "la falsificabilità"
+  },
+  {
+    "german": "das Paradigma",
+    "italian": "il paradigma"
+  },
+  {
+    "german": "die wissenschaftliche Revolution",
+    "italian": "la rivoluzione scientifica"
+  },
+  {
+    "german": "die Falsifizierung",
+    "italian": "la falsificazione"
+  },
+  {
+    "german": "der wissenschaftliche Realismus",
+    "italian": "il realismo scientifico"
+  },
+  {
+    "german": "die Intersubjektivität",
+    "italian": "l'intersoggettività"
+  },
+  {
+    "german": "die Reproduzierbarkeit",
+    "italian": "la riproducibilità"
+  },
+  {
+    "german": "der Reduktionismus",
+    "italian": "il riduzionismo"
+  },
+  {
+    "german": "der Holismus",
+    "italian": "l'olismo"
+  },
+  {
+    "german": "die empirische Forschung",
+    "italian": "la ricerca empirica"
+  },
+  {
+    "german": "die Feldforschung",
+    "italian": "la ricerca sul campo"
+  },
+  {
+    "german": "die Laborforschung",
+    "italian": "la ricerca in laboratorio"
+  },
+  {
+    "german": "die Versuchsgruppe",
+    "italian": "il gruppo sperimentale"
+  },
+  {
+    "german": "die abhängige Variable",
+    "italian": "la variabile dipendente"
+  },
+  {
+    "german": "die Stichprobe",
+    "italian": "il campione"
+  },
+  {
+    "german": "die Grundgesamtheit",
+    "italian": "la popolazione"
+  },
+  {
+    "german": "die Reliabilität",
+    "italian": "l'affidabilità"
+  },
+  {
+    "german": "die Validität",
+    "italian": "la validità"
+  },
+  {
+    "german": "die Signifikanz",
+    "italian": "la significatività"
+  },
+  {
+    "german": "der p-Wert",
+    "italian": "il valore p"
+  },
+  {
+    "german": "die Standardabweichung",
+    "italian": "la deviazione standard"
+  },
+  {
+    "german": "die Normalverteilung",
+    "italian": "la distribuzione normale"
+  },
+  {
+    "german": "die Effektstärke",
+    "italian": "la dimensione dell'effetto"
+  },
+  {
+    "german": "die Operationalisierung",
+    "italian": "l'operazionalizzazione"
+  },
+  {
+    "german": "die qualitative Forschung",
+    "italian": "la ricerca qualitativa"
+  },
+  {
+    "german": "die teilnehmende Beobachtung",
+    "italian": "l'osservazione partecipante"
+  },
+  {
+    "german": "die Grounded Theory",
+    "italian": "la Grounded Theory"
+  },
+  {
+    "german": "die Inhaltsanalyse",
+    "italian": "l'analisi del contenuto"
+  },
+  {
+    "german": "die Diskursanalyse",
+    "italian": "l'analisi del discorso"
+  },
+  {
+    "german": "die Fallstudie",
+    "italian": "lo studio di caso"
+  },
+  {
+    "german": "die Ethnografie",
+    "italian": "l'etnografia"
+  },
+  {
+    "german": "die Triangulation",
+    "italian": "la triangolazione"
+  },
+  {
+    "german": "das Coding",
+    "italian": "la codifica"
+  },
+  {
+    "german": "die Sättigung",
+    "italian": "la saturazione"
+  },
+  {
+    "german": "die Narrationsanalyse",
+    "italian": "l'analisi narrativa"
+  },
+  {
+    "german": "die Gütekriterien",
+    "italian": "i criteri di qualità"
+  },
+  {
+    "german": "die quantitative Forschung",
+    "italian": "la ricerca quantitativa"
+  },
+  {
+    "german": "der Fragebogen",
+    "italian": "il questionario"
+  },
+  {
+    "german": "die Likert-Skala",
+    "italian": "la scala Likert"
+  },
+  {
+    "german": "die Regressionsanalyse",
+    "italian": "l'analisi di regressione"
+  },
+  {
+    "german": "die Varianzanalyse",
+    "italian": "l'analisi della varianza"
+  },
+  {
+    "german": "die Faktorenanalyse",
+    "italian": "l'analisi fattoriale"
+  },
+  {
+    "german": "der Chi-Quadrat-Test",
+    "italian": "il test del chi-quadrato"
+  },
+  {
+    "german": "die Korrelationsanalyse",
+    "italian": "l'analisi di correlazione"
+  },
+  {
+    "german": "der t-Test",
+    "italian": "il test t"
+  },
+  {
+    "german": "das Konfidenzintervall",
+    "italian": "l'intervallo di confidenza"
+  },
+  {
+    "german": "die multivariate Analyse",
+    "italian": "l'analisi multivariata"
+  },
+  {
+    "german": "die Querschnittstudie",
+    "italian": "lo studio trasversale"
+  },
+  {
+    "german": "die Längsschnittstudie",
+    "italian": "lo studio longitudinale"
+  },
+  {
+    "german": "die Metaanalyse",
+    "italian": "la meta-analisi"
+  },
+  {
+    "german": "die Deskriptivstatistik",
+    "italian": "la statistica descrittiva"
+  },
+  {
+    "german": "der Gesellschaftsvertrag",
+    "italian": "il contratto sociale"
+  },
+  {
+    "german": "der Liberalismus",
+    "italian": "il liberalismo"
+  },
+  {
+    "german": "der Konservatismus",
+    "italian": "il conservatorismo"
+  },
+  {
+    "german": "der Republikanismus",
+    "italian": "il repubblicanesimo"
+  },
+  {
+    "german": "der Schleier des Nichtwissens",
+    "italian": "il velo di ignoranza"
+  },
+  {
+    "german": "die deliberative Demokratie",
+    "italian": "la democrazia deliberativa"
+  },
+  {
+    "german": "die direkte Demokratie",
+    "italian": "la democrazia diretta"
+  },
+  {
+    "german": "die partizipative Demokratie",
+    "italian": "la democrazia partecipativa"
+  },
+  {
+    "german": "der Pluralismus",
+    "italian": "il pluralismo"
+  },
+  {
+    "german": "der Kommunitarismus",
+    "italian": "il comunitarismo"
+  },
+  {
+    "german": "die Zivilgesellschaft",
+    "italian": "la società civile"
+  },
+  {
+    "german": "die Legitimität",
+    "italian": "la legittimità"
+  },
+  {
+    "german": "der Rechtsstaat",
+    "italian": "lo stato di diritto"
+  },
+  {
+    "german": "die Machttheorie",
+    "italian": "la teoria del potere"
+  },
+  {
+    "german": "die Medientheorie",
+    "italian": "la teoria dei media"
+  },
+  {
+    "german": "das Medium",
+    "italian": "il medium"
+  },
+  {
+    "german": "die Medienwirkung",
+    "italian": "l'effetto dei media"
+  },
+  {
+    "german": "die Kultivierungstheorie",
+    "italian": "la teoria della coltivazione"
+  },
+  {
+    "german": "die Uses-and-Gratifications-Theorie",
+    "italian": "la teoria degli usi e gratificazioni"
+  },
+  {
+    "german": "der Gatekeeping",
+    "italian": "il gatekeeping"
+  },
+  {
+    "german": "die Mediatisierung",
+    "italian": "la mediatizzazione"
+  },
+  {
+    "german": "die Intermedialität",
+    "italian": "l'intermedialità"
+  },
+  {
+    "german": "die Massenkommunikation",
+    "italian": "la comunicazione di massa"
+  },
+  {
+    "german": "der Mediendiskurs",
+    "italian": "il discorso mediale"
+  },
+  {
+    "german": "die Öffentlichkeitstheorie",
+    "italian": "la teoria della sfera pubblica"
+  },
+  {
+    "german": "die Netzwerkgesellschaft",
+    "italian": "la società in rete"
+  },
+  {
+    "german": "die Medienökologie",
+    "italian": "l'ecologia dei media"
+  },
+  {
+    "german": "die Plattformökonomie",
+    "italian": "l'economia delle piattaforme"
+  },
+  {
+    "german": "die Unternehmensverantwortung",
+    "italian": "la responsabilità d'impresa"
+  },
+  {
+    "german": "die Stakeholder",
+    "italian": "gli stakeholder"
+  },
+  {
+    "german": "der Shareholder-Value",
+    "italian": "il valore per gli azionisti"
+  },
+  {
+    "german": "die faire Entlohnung",
+    "italian": "la retribuzione equa"
+  },
+  {
+    "german": "der Verhaltenskodex",
+    "italian": "il codice di condotta"
+  },
+  {
+    "german": "die Transparency",
+    "italian": "la trasparenza"
+  },
+  {
+    "german": "die Lieferkettenverantwortung",
+    "italian": "la responsabilità della catena di fornitura"
+  },
+  {
+    "german": "die Kinderarbeit",
+    "italian": "il lavoro minorile"
+  },
+  {
+    "german": "der Greenwashing",
+    "italian": "il greenwashing"
+  },
+  {
+    "german": "die Sozialstandards",
+    "italian": "gli standard sociali"
+  },
+  {
+    "german": "die Gewinnmaximierung",
+    "italian": "la massimizzazione del profitto"
+  },
+  {
+    "german": "die Steuergerechtigkeit",
+    "italian": "la giustizia fiscale"
+  },
+  {
+    "german": "die Gemeinwohlökonomie",
+    "italian": "l'economia del bene comune"
+  },
+  {
+    "german": "die ethische Geldanlage",
+    "italian": "l'investimento etico"
+  },
+  {
+    "german": "die Tierethik",
+    "italian": "l'etica animale"
+  },
+  {
+    "german": "der Speziesismus",
+    "italian": "lo specismo"
+  },
+  {
+    "german": "die Tierrechte",
+    "italian": "i diritti degli animali"
+  },
+  {
+    "german": "die ökologische Ethik",
+    "italian": "l'etica ecologica"
+  },
+  {
+    "german": "der Anthropozentrismus",
+    "italian": "l'antropocentrismo"
+  },
+  {
+    "german": "der Biozentrismus",
+    "italian": "il biocentrismo"
+  },
+  {
+    "german": "der Ökozentrismus",
+    "italian": "l'ecocentrismo"
+  },
+  {
+    "german": "die Naturethik",
+    "italian": "l'etica della natura"
+  },
+  {
+    "german": "das Vorsorgeprinzip",
+    "italian": "il principio di precauzione"
+  },
+  {
+    "german": "die ökologische Gerechtigkeit",
+    "italian": "la giustizia ambientale"
+  },
+  {
+    "german": "die Klimaethik",
+    "italian": "l'etica del clima"
+  },
+  {
+    "german": "die intergenerationelle Gerechtigkeit",
+    "italian": "la giustizia intergenerazionale"
+  },
+  {
+    "german": "die Umweltgerechtigkeit",
+    "italian": "la giustizia ambientale"
+  },
+  {
+    "german": "die internationale Politik",
+    "italian": "la politica internazionale"
+  },
+  {
+    "german": "der Sicherheitsrat",
+    "italian": "il Consiglio di Sicurezza"
+  },
+  {
+    "german": "die humanitäre Intervention",
+    "italian": "l'intervento umanitario"
+  },
+  {
+    "german": "die Friedenssicherung",
+    "italian": "il mantenimento della pace"
+  },
+  {
+    "german": "die Nichtverbreitung",
+    "italian": "la non-proliferazione"
+  },
+  {
+    "german": "die Entwicklungszusammenarbeit",
+    "italian": "la cooperazione allo sviluppo"
+  },
+  {
+    "german": "der Hegemon",
+    "italian": "l'egemone"
+  },
+  {
+    "german": "die Geopolitik",
+    "italian": "la geopolitica"
+  },
+  {
+    "german": "die Sicherheitspolitik",
+    "italian": "la politica di sicurezza"
+  },
+  {
+    "german": "die Sektorenkopplung",
+    "italian": "l'accoppiamento settoriale"
+  },
+  {
+    "german": "die Wasserstofftechnologie",
+    "italian": "la tecnologia dell'idrogeno"
+  },
+  {
+    "german": "die Brennstoffzelle",
+    "italian": "la cella a combustibile"
+  },
+  {
+    "german": "die Energiegenossenschaft",
+    "italian": "la cooperativa energetica"
+  },
+  {
+    "german": "die Prosumer",
+    "italian": "i prosumer"
+  },
+  {
+    "german": "die Einspeisung",
+    "italian": "l'immissione in rete"
+  },
+  {
+    "german": "die Einspeisevergütung",
+    "italian": "la tariffa incentivante"
+  },
+  {
+    "german": "der Kapazitätsmarkt",
+    "italian": "il mercato della capacità"
+  },
+  {
+    "german": "die Primärenergie",
+    "italian": "l'energia primaria"
+  },
+  {
+    "german": "die Endenergie",
+    "italian": "l'energia finale"
+  },
+  {
+    "german": "die Power-to-X-Technologie",
+    "italian": "la tecnologia Power-to-X"
+  },
+  {
+    "german": "die Speichertechnologie",
+    "italian": "la tecnologia di accumulo"
+  },
+  {
+    "german": "die Batteriespeicher",
+    "italian": "gli accumuli a batteria"
+  },
+  {
+    "german": "die Netzstabilität",
+    "italian": "la stabilità della rete"
+  },
+  {
+    "german": "die digitale Transformation",
+    "italian": "la trasformazione digitale"
+  },
+  {
+    "german": "die Industrie 4.0",
+    "italian": "l'Industria 4.0"
+  },
+  {
+    "german": "die Cloud-Computing",
+    "italian": "il cloud computing"
+  },
+  {
+    "german": "die Plattform",
+    "italian": "la piattaforma"
+  },
+  {
+    "german": "die digitale Kompetenz",
+    "italian": "la competenza digitale"
+  },
+  {
+    "german": "der digitale Zwilling",
+    "italian": "il gemello digitale"
+  },
+  {
+    "german": "das Edge Computing",
+    "italian": "l'edge computing"
+  },
+  {
+    "german": "die API",
+    "italian": "l'API"
+  },
+  {
+    "german": "die Microservices",
+    "italian": "i microservizi"
+  },
+  {
+    "german": "die DevOps",
+    "italian": "la DevOps"
+  },
+  {
+    "german": "die schwache KI",
+    "italian": "l'IA debole"
+  },
+  {
+    "german": "die starke KI",
+    "italian": "l'IA forte"
+  },
+  {
+    "german": "das Transformer-Modell",
+    "italian": "il modello Transformer"
+  },
+  {
+    "german": "das große Sprachmodell",
+    "italian": "il grande modello linguistico"
+  },
+  {
+    "german": "die Generative KI",
+    "italian": "l'IA generativa"
+  },
+  {
+    "german": "der Prompt",
+    "italian": "il prompt"
+  },
+  {
+    "german": "die Halluzination",
+    "italian": "l'allucinazione"
+  },
+  {
+    "german": "das Reinforcement Learning",
+    "italian": "l'apprendimento per rinforzo"
+  },
+  {
+    "german": "die Bilderkennung",
+    "italian": "il riconoscimento delle immagini"
+  },
+  {
+    "german": "die Spracherkennung",
+    "italian": "il riconoscimento vocale"
+  },
+  {
+    "german": "das Natural Language Processing",
+    "italian": "l'elaborazione del linguaggio naturale"
+  },
+  {
+    "german": "die Bias-Problematik",
+    "italian": "la problematica del bias"
+  },
+  {
+    "german": "die Erklärbarkeit",
+    "italian": "la spiegabilità"
+  },
+  {
+    "german": "der KI-Ethikrat",
+    "italian": "il comitato etico sull'IA"
+  },
+  {
+    "german": "die Trainingsdaten",
+    "italian": "i dati di addestramento"
+  },
+  {
+    "german": "die Feinabstimmung",
+    "italian": "il fine-tuning"
+  },
+  {
+    "german": "die Superintelligenz",
+    "italian": "la superintelligenza"
+  },
+  {
+    "german": "das Datenschutzrecht",
+    "italian": "il diritto alla protezione dei dati"
+  },
+  {
+    "german": "die informationelle Selbstbestimmung",
+    "italian": "l'autodeterminazione informativa"
+  },
+  {
+    "german": "die Auftragsdatenverarbeitung",
+    "italian": "il trattamento dei dati per conto terzi"
+  },
+  {
+    "german": "die Datenschutz-Folgenabschätzung",
+    "italian": "la valutazione d'impatto sulla protezione dati"
+  },
+  {
+    "german": "die Datenminimierung",
+    "italian": "la minimizzazione dei dati"
+  },
+  {
+    "german": "die Zweckbindung",
+    "italian": "la limitazione delle finalità"
+  },
+  {
+    "german": "die Speicherbegrenzung",
+    "italian": "la limitazione della conservazione"
+  },
+  {
+    "german": "die Transparenzpflicht",
+    "italian": "l'obbligo di trasparenza"
+  },
+  {
+    "german": "das Auskunftsrecht",
+    "italian": "il diritto di accesso"
+  },
+  {
+    "german": "das Recht auf Datenportabilität",
+    "italian": "il diritto alla portabilità dei dati"
+  },
+  {
+    "german": "die Einwilligungserklärung",
+    "italian": "la dichiarazione di consenso"
+  },
+  {
+    "german": "die Datenschutzbehörde",
+    "italian": "l'autorità per la protezione dei dati"
+  },
+  {
+    "german": "das Bußgeld",
+    "italian": "la sanzione pecuniaria"
+  },
+  {
+    "german": "die Rechenschaftspflicht",
+    "italian": "l'obbligo di rendicontazione"
+  },
+  {
+    "german": "die Privacy by Design",
+    "italian": "la privacy by design"
+  },
+  {
+    "german": "die Privacy by Default",
+    "italian": "la privacy by default"
+  },
+  {
+    "german": "die Datenverarbeitungsvereinbarung",
+    "italian": "l'accordo sul trattamento dei dati"
+  },
+  {
+    "german": "das Verfassungsrecht",
+    "italian": "il diritto costituzionale"
+  },
+  {
+    "german": "die Grundrechte",
+    "italian": "i diritti fondamentali"
+  },
+  {
+    "german": "die Ewigkeitsklausel",
+    "italian": "la clausola di eternità"
+  },
+  {
+    "german": "das Bundesverfassungsgericht",
+    "italian": "la Corte Costituzionale Federale"
+  },
+  {
+    "german": "der Föderalismus",
+    "italian": "il federalismo"
+  },
+  {
+    "german": "die Kompetenzverteilung",
+    "italian": "la ripartizione delle competenze"
+  },
+  {
+    "german": "die Gesetzgebungskompetenz",
+    "italian": "la competenza legislativa"
+  },
+  {
+    "german": "das Demokratieprinzip",
+    "italian": "il principio democratico"
+  },
+  {
+    "german": "das Rechtsstaatsprinzip",
+    "italian": "il principio dello stato di diritto"
+  },
+  {
+    "german": "das Sozialstaatsprinzip",
+    "italian": "il principio dello stato sociale"
+  },
+  {
+    "german": "das Übermaßverbot",
+    "italian": "il divieto di eccesso"
+  },
+  {
+    "german": "die Wesensgehaltsgarantie",
+    "italian": "la garanzia del contenuto essenziale"
+  },
+  {
+    "german": "der Gesetzesvorbehalt",
+    "italian": "la riserva di legge"
+  },
+  {
+    "german": "die Staatszielbestimmung",
+    "italian": "la determinazione degli obiettivi statali"
+  },
+  {
+    "german": "das Wettbewerbsrecht",
+    "italian": "il diritto della concorrenza"
+  },
+  {
+    "german": "das Kartell",
+    "italian": "il cartello"
+  },
+  {
+    "german": "die Fusionskontrolle",
+    "italian": "il controllo delle fusioni"
+  },
+  {
+    "german": "die marktbeherrschende Stellung",
+    "italian": "la posizione dominante"
+  },
+  {
+    "german": "der Missbrauch",
+    "italian": "l'abuso"
+  },
+  {
+    "german": "die Preisabsprache",
+    "italian": "l'accordo sui prezzi"
+  },
+  {
+    "german": "die Wettbewerbsbehörde",
+    "italian": "l'autorità della concorrenza"
+  },
+  {
+    "german": "die Marktkonzentration",
+    "italian": "la concentrazione del mercato"
+  },
+  {
+    "german": "das Bundeskartellamt",
+    "italian": "l'Ufficio federale dei cartelli"
+  },
+  {
+    "german": "die Beihilfekontrolle",
+    "italian": "il controllo degli aiuti di stato"
+  },
+  {
+    "german": "die unlautere Wettbewerbspraktik",
+    "italian": "la pratica commerciale sleale"
+  },
+  {
+    "german": "die Marktabschottung",
+    "italian": "la chiusura del mercato"
+  },
+  {
+    "german": "die Verbraucherwohlfahrt",
+    "italian": "il benessere del consumatore"
+  },
+  {
+    "german": "die Sektoruntersuchung",
+    "italian": "l'indagine settoriale"
+  },
+  {
+    "german": "die Abstellungsverfügung",
+    "italian": "l'ordine di cessazione"
+  },
+  {
+    "german": "die Kronzeugenregelung",
+    "italian": "il programma di clemenza"
+  },
+  {
+    "german": "die Bußgeldentscheidung",
+    "italian": "la decisione sanzionatoria"
+  },
+  {
+    "german": "das Europarecht",
+    "italian": "il diritto europeo"
+  },
+  {
+    "german": "der Vorrang des Unionsrechts",
+    "italian": "il primato del diritto UE"
+  },
+  {
+    "german": "die unmittelbare Wirkung",
+    "italian": "l'effetto diretto"
+  },
+  {
+    "german": "die Vorabentscheidung",
+    "italian": "la decisione pregiudiziale"
+  },
+  {
+    "german": "die Grundfreiheiten",
+    "italian": "le libertà fondamentali"
+  },
+  {
+    "german": "die Warenverkehrsfreiheit",
+    "italian": "la libera circolazione delle merci"
+  },
+  {
+    "german": "die Dienstleistungsfreiheit",
+    "italian": "la libertà di prestazione di servizi"
+  },
+  {
+    "german": "die Kapitalverkehrsfreiheit",
+    "italian": "la libera circolazione dei capitali"
+  },
+  {
+    "german": "die Arbeitnehmerfreizügigkeit",
+    "italian": "la libera circolazione dei lavoratori"
+  },
+  {
+    "german": "die Niederlassungsfreiheit",
+    "italian": "la libertà di stabilimento"
+  },
+  {
+    "german": "das Diskriminierungsverbot",
+    "italian": "il divieto di discriminazione"
+  },
+  {
+    "german": "die Richtlinienumsetzung",
+    "italian": "il recepimento delle direttive"
+  },
+  {
+    "german": "das Vertragsverletzungsverfahren",
+    "italian": "la procedura di infrazione"
+  },
+  {
+    "german": "die EU-Grundrechtecharta",
+    "italian": "la Carta dei diritti fondamentali dell'UE"
+  },
+  {
+    "german": "die Unionsbürgerschaft",
+    "italian": "la cittadinanza dell'Unione"
+  },
+  {
+    "german": "der acquis communautaire",
+    "italian": "l'acquis comunitario"
+  },
+  {
+    "german": "die Mikroökonomie",
+    "italian": "la microeconomia"
+  },
+  {
+    "german": "die Makroökonomie",
+    "italian": "la macroeconomia"
+  },
+  {
+    "german": "die Volkswirtschaftslehre",
+    "italian": "l'economia politica"
+  },
+  {
+    "german": "die Betriebswirtschaftslehre",
+    "italian": "l'economia aziendale"
+  },
+  {
+    "german": "die Grenzkosten",
+    "italian": "i costi marginali"
+  },
+  {
+    "german": "die Opportunitätskosten",
+    "italian": "i costi opportunità"
+  },
+  {
+    "german": "die Preiselastizität",
+    "italian": "l'elasticità del prezzo"
+  },
+  {
+    "german": "das Gleichgewicht",
+    "italian": "l'equilibrio"
+  },
+  {
+    "german": "die Externalität",
+    "italian": "l'esternalità"
+  },
+  {
+    "german": "die Geldpolitik",
+    "italian": "la politica monetaria"
+  },
+  {
+    "german": "die Fiskalpolitik",
+    "italian": "la politica fiscale"
+  },
+  {
+    "german": "die Leistungsbilanz",
+    "italian": "la bilancia corrente"
+  },
+  {
+    "german": "der Multiplikatoreffekt",
+    "italian": "l'effetto moltiplicatore"
+  },
+  {
+    "german": "die Angebotsökonomie",
+    "italian": "l'economia dell'offerta"
+  },
+  {
+    "german": "die Nachfrageökonomie",
+    "italian": "l'economia della domanda"
+  },
+  {
+    "german": "der Monetarismus",
+    "italian": "il monetarismo"
+  },
+  {
+    "german": "die Rollentheorie",
+    "italian": "la teoria dei ruoli"
+  },
+  {
+    "german": "die Konflikttheorie",
+    "italian": "la teoria del conflitto"
+  },
+  {
+    "german": "die symbolische Interaktion",
+    "italian": "l'interazione simbolica"
+  },
+  {
+    "german": "die Ethnomethodologie",
+    "italian": "l'etnometodologia"
+  },
+  {
+    "german": "die Feldtheorie",
+    "italian": "la teoria del campo"
+  },
+  {
+    "german": "das kulturelle Kapital",
+    "italian": "il capitale culturale"
+  },
+  {
+    "german": "das soziale Kapital",
+    "italian": "il capitale sociale"
+  },
+  {
+    "german": "der Habitus",
+    "italian": "l'habitus"
+  },
+  {
+    "german": "die Anomie",
+    "italian": "l'anomia"
+  },
+  {
+    "german": "die Rationalisierung",
+    "italian": "la razionalizzazione"
+  },
+  {
+    "german": "die Bürokratisierung",
+    "italian": "la burocratizzazione"
+  },
+  {
+    "german": "die Entfremdung",
+    "italian": "l'alienazione"
+  },
+  {
+    "german": "die Vergesellschaftung",
+    "italian": "la socializzazione"
+  },
+  {
+    "german": "die Individualisierung",
+    "italian": "l'individualizzazione"
+  },
+  {
+    "german": "die Risikogesellschaft",
+    "italian": "la società del rischio"
+  },
+  {
+    "german": "die Wissensgesellschaft",
+    "italian": "la società della conoscenza"
+  },
+  {
+    "german": "die Politikfeldanalyse",
+    "italian": "l'analisi delle politiche pubbliche"
+  },
+  {
+    "german": "die Regierungslehre",
+    "italian": "la scienza del governo"
+  },
+  {
+    "german": "die Vergleichende Politikwissenschaft",
+    "italian": "la politica comparata"
+  },
+  {
+    "german": "der Korporatismus",
+    "italian": "il corporativismo"
+  },
+  {
+    "german": "die Pfadabhängigkeit",
+    "italian": "la dipendenza dal percorso"
+  },
+  {
+    "german": "die Vetospielertheorie",
+    "italian": "la teoria dei giocatori con veto"
+  },
+  {
+    "german": "die Governance",
+    "italian": "la governance"
+  },
+  {
+    "german": "die Deliberation",
+    "italian": "la deliberazione"
+  },
+  {
+    "german": "die Partizipation",
+    "italian": "la partecipazione"
+  },
+  {
+    "german": "die Repräsentation",
+    "italian": "la rappresentanza"
+  },
+  {
+    "german": "die politische Kultur",
+    "italian": "la cultura politica"
+  },
+  {
+    "german": "die Politikverdrossenheit",
+    "italian": "il disincanto politico"
+  },
+  {
+    "german": "die Wahlforschung",
+    "italian": "la ricerca elettorale"
+  },
+  {
+    "german": "die Parteienforschung",
+    "italian": "la ricerca sui partiti"
+  },
+  {
+    "german": "die Rechtssoziologie",
+    "italian": "la sociologia del diritto"
+  },
+  {
+    "german": "die Rechtsvergleichung",
+    "italian": "il diritto comparato"
+  },
+  {
+    "german": "die Rechtsgeschichte",
+    "italian": "la storia del diritto"
+  },
+  {
+    "german": "die Grundrechtsdogmatik",
+    "italian": "la dogmatica dei diritti fondamentali"
+  },
+  {
+    "german": "die Verfassungsinterpretation",
+    "italian": "l'interpretazione costituzionale"
+  },
+  {
+    "german": "die Gesetzgebungslehre",
+    "italian": "la scienza della legislazione"
+  },
+  {
+    "german": "die Rechtsfolgenabschätzung",
+    "italian": "la valutazione delle conseguenze giuridiche"
+  },
+  {
+    "german": "die Normenhierarchie",
+    "italian": "la gerarchia delle norme"
+  },
+  {
+    "german": "die Ermessensausübung",
+    "italian": "l'esercizio della discrezionalità"
+  },
+  {
+    "german": "der Beurteilungsspielraum",
+    "italian": "il margine di valutazione"
+  },
+  {
+    "german": "die Vorbehaltlose Grundrechte",
+    "italian": "i diritti fondamentali senza riserva"
+  },
+  {
+    "german": "die Drittwirkung",
+    "italian": "l'efficacia verso terzi"
+  },
+  {
+    "german": "die Staatshaftung",
+    "italian": "la responsabilità dello Stato"
+  },
+  {
+    "german": "die Verfahrensgarantie",
+    "italian": "la garanzia procedurale"
+  },
+  {
+    "german": "die Normenkollision",
+    "italian": "il conflitto di norme"
+  },
+  {
+    "german": "die Synapse",
+    "italian": "la sinapsi"
+  },
+  {
+    "german": "der Neurotransmitter",
+    "italian": "il neurotrasmettitore"
+  },
+  {
+    "german": "die Hirnforschung",
+    "italian": "la ricerca cerebrale"
+  },
+  {
+    "german": "die Bildgebung",
+    "italian": "l'imaging"
+  },
+  {
+    "german": "die Magnetresonanztomographie",
+    "italian": "la risonanza magnetica"
+  },
+  {
+    "german": "die Elektroenzephalographie",
+    "italian": "l'elettroencefalografia"
+  },
+  {
+    "german": "die Großhirnrinde",
+    "italian": "la corteccia cerebrale"
+  },
+  {
+    "german": "das Kleinhirn",
+    "italian": "il cervelletto"
+  },
+  {
+    "german": "der Hippocampus",
+    "italian": "l'ippocampo"
+  },
+  {
+    "german": "die Amygdala",
+    "italian": "l'amigdala"
+  },
+  {
+    "german": "der präfrontale Cortex",
+    "italian": "la corteccia prefrontale"
+  },
+  {
+    "german": "die Myelinisierung",
+    "italian": "la mielinizzazione"
+  },
+  {
+    "german": "die Neurodegeneration",
+    "italian": "la neurodegenerazione"
+  },
+  {
+    "german": "die Neurogenese",
+    "italian": "la neurogenesi"
+  },
+  {
+    "german": "die Spiegelneuronen",
+    "italian": "i neuroni specchio"
+  },
+  {
+    "german": "die Lateralisierung",
+    "italian": "la lateralizzazione"
+  },
+  {
+    "german": "der Cortisol",
+    "italian": "il cortisolo"
+  },
+  {
+    "german": "das Dopamin",
+    "italian": "la dopamina"
+  },
+  {
+    "german": "die Ökosystemdienstleistung",
+    "italian": "il servizio ecosistemico"
+  },
+  {
+    "german": "die Tragfähigkeit",
+    "italian": "la capacità di carico"
+  },
+  {
+    "german": "die Biosphäre",
+    "italian": "la biosfera"
+  },
+  {
+    "german": "die Lithosphäre",
+    "italian": "la litosfera"
+  },
+  {
+    "german": "die Hydrosphäre",
+    "italian": "l'idrosfera"
+  },
+  {
+    "german": "die Atmosphäre",
+    "italian": "l'atmosfera"
+  },
+  {
+    "german": "die Pedosphäre",
+    "italian": "la pedosfera"
+  },
+  {
+    "german": "die Kryosphäre",
+    "italian": "la criosfera"
+  },
+  {
+    "german": "der Biogeochemische Kreislauf",
+    "italian": "il ciclo biogeochimico"
+  },
+  {
+    "german": "der Stickstoffkreislauf",
+    "italian": "il ciclo dell'azoto"
+  },
+  {
+    "german": "der Kohlenstoffkreislauf",
+    "italian": "il ciclo del carbonio"
+  },
+  {
+    "german": "die Desertifikation",
+    "italian": "la desertificazione"
+  },
+  {
+    "german": "die Eutrophierung",
+    "italian": "l'eutrofizzazione"
+  },
+  {
+    "german": "die Versauerung",
+    "italian": "l'acidificazione"
+  },
+  {
+    "german": "die Bioremediation",
+    "italian": "la biorimediazione"
+  },
+  {
+    "german": "die Phytoremediation",
+    "italian": "la fitorimediazione"
+  },
+  {
+    "german": "die Umweltfolgenabschätzung",
+    "italian": "la valutazione dell'impatto ambientale"
+  },
+  {
+    "german": "die Lebenszyklusanalyse",
+    "italian": "l'analisi del ciclo di vita"
+  },
+  {
+    "german": "das tiefe Lernen",
+    "italian": "l'apprendimento profondo"
+  },
+  {
+    "german": "der Entscheidungsbaum",
+    "italian": "l'albero decisionale"
+  },
+  {
+    "german": "die Sprachverarbeitung",
+    "italian": "l'elaborazione del linguaggio"
+  },
+  {
+    "german": "die Roboterethik",
+    "italian": "l'etica della robotica"
+  },
+  {
+    "german": "die Erklärbare KI",
+    "italian": "l'IA spiegabile"
+  },
+  {
+    "german": "die Verzerrung",
+    "italian": "il bias"
+  },
+  {
+    "german": "die Computerlinguistik",
+    "italian": "la linguistica computazionale"
+  },
+  {
+    "german": "die Softwarearchitektur",
+    "italian": "l'architettura software"
+  },
+  {
+    "german": "die Verteilte Systeme",
+    "italian": "i sistemi distribuiti"
+  },
+  {
+    "german": "die Kryptographie",
+    "italian": "la crittografia"
+  },
+  {
+    "german": "die Informationssicherheit",
+    "italian": "la sicurezza informatica"
+  },
+  {
+    "german": "die Netzwerktopologie",
+    "italian": "la topologia di rete"
+  },
+  {
+    "german": "die Berechenbarkeitstheorie",
+    "italian": "la teoria della computabilità"
+  },
+  {
+    "german": "die Vorsorgevollmacht",
+    "italian": "la procura sanitaria"
+  },
+  {
+    "german": "die Keimbahntherapie",
+    "italian": "la terapia della linea germinale"
+  },
+  {
+    "german": "die Schweigepflicht",
+    "italian": "il segreto professionale"
+  },
+  {
+    "german": "die Ethikkommission",
+    "italian": "il comitato etico"
+  },
+  {
+    "german": "die Verteilungsgerechtigkeit",
+    "italian": "la giustizia distributiva"
+  },
+  {
+    "german": "die Triage",
+    "italian": "il triage"
+  },
+  {
+    "german": "die Tierversuchsethik",
+    "italian": "l'etica della sperimentazione animale"
+  },
+  {
+    "german": "die Menschenversuchsethik",
+    "italian": "l'etica della sperimentazione umana"
+  },
+  {
+    "german": "die performative Äußerung",
+    "italian": "l'enunciato performativo"
+  },
+  {
+    "german": "die konstatative Äußerung",
+    "italian": "l'enunciato constatativo"
+  },
+  {
+    "german": "die Illokution",
+    "italian": "l'illocuzione"
+  },
+  {
+    "german": "die Perlokution",
+    "italian": "la perlocuzione"
+  },
+  {
+    "german": "die Prädikation",
+    "italian": "la predicazione"
+  },
+  {
+    "german": "die Propositionalität",
+    "italian": "la proposizionalità"
+  },
+  {
+    "german": "der Wahrheitswert",
+    "italian": "il valore di verità"
+  },
+  {
+    "german": "die Verifikation",
+    "italian": "la verifica"
+  },
+  {
+    "german": "die Falsifikation",
+    "italian": "la falsificazione"
+  },
+  {
+    "german": "die Familienähnlichkeit",
+    "italian": "la somiglianza di famiglia"
+  },
+  {
+    "german": "die Privatsprache",
+    "italian": "il linguaggio privato"
+  },
+  {
+    "german": "die Gebrauchstheorie",
+    "italian": "la teoria dell'uso"
+  },
+  {
+    "german": "die Wahrheitstheorie",
+    "italian": "la teoria della verità"
+  },
+  {
+    "german": "die Kohärenztheorie",
+    "italian": "la teoria della coerenza"
+  },
+  {
+    "german": "die Hypothesenbildung",
+    "italian": "la formulazione delle ipotesi"
+  },
+  {
+    "german": "die Zufallsauswahl",
+    "italian": "la selezione casuale"
+  },
+  {
+    "german": "die Repräsentativität",
+    "italian": "la rappresentatività"
+  },
+  {
+    "german": "die Varianz",
+    "italian": "la varianza"
+  },
+  {
+    "german": "das Signifikanzniveau",
+    "italian": "il livello di significatività"
+  },
+  {
+    "german": "die Ethnographie",
+    "italian": "l'etnografia"
+  },
+  {
+    "german": "der Wirkungsgrad",
+    "italian": "il rendimento"
+  },
+  {
+    "german": "die Kraft-Wärme-Kopplung",
+    "italian": "la cogenerazione"
+  },
+  {
+    "german": "der Energiespeicher",
+    "italian": "l'accumulatore di energia"
+  },
+  {
+    "german": "die Lithium-Ionen-Batterie",
+    "italian": "la batteria agli ioni di litio"
+  },
+  {
+    "german": "die Festkörperbatterie",
+    "italian": "la batteria allo stato solido"
+  },
+  {
+    "german": "die Elektrolyse",
+    "italian": "l'elettrolisi"
+  },
+  {
+    "german": "die Kernfusion",
+    "italian": "la fusione nucleare"
+  },
+  {
+    "german": "die Kernspaltung",
+    "italian": "la fissione nucleare"
+  },
+  {
+    "german": "die Grundlast",
+    "italian": "il carico di base"
+  },
+  {
+    "german": "die Spitzenlast",
+    "italian": "il carico di picco"
+  },
+  {
+    "german": "die Netzparität",
+    "italian": "la grid parity"
+  },
+  {
+    "german": "der Kapazitätsfaktor",
+    "italian": "il fattore di capacità"
+  },
+  {
+    "german": "die Bioprospektierung",
+    "italian": "la bioprospecting"
+  },
+  {
+    "german": "die Xenotransplantation",
+    "italian": "la xenotrapianto"
+  },
+  {
+    "german": "die Synthetische Biologie",
+    "italian": "la biologia sintetica"
+  },
+  {
+    "german": "die CRISPR-Technologie",
+    "italian": "la tecnologia CRISPR"
+  },
+  {
+    "german": "die Epigenetik",
+    "italian": "l'epigenetica"
+  },
+  {
+    "german": "die Biobank",
+    "italian": "la biobanca"
+  },
+  {
+    "german": "die genetische Diskriminierung",
+    "italian": "la discriminazione genetica"
+  },
+  {
+    "german": "die Biopiraterie",
+    "italian": "la biopirateria"
+  },
+  {
+    "german": "das Klonverbot",
+    "italian": "il divieto di clonazione"
+  },
+  {
+    "german": "die Dual-Use-Forschung",
+    "italian": "la ricerca dual-use"
+  },
+  {
+    "german": "die Gain-of-Function-Forschung",
+    "italian": "la ricerca gain-of-function"
+  },
+  {
+    "german": "die Biosicherheit",
+    "italian": "la biosicurezza"
+  },
+  {
+    "german": "die Laborsicherheit",
+    "italian": "la sicurezza di laboratorio"
+  },
+  {
+    "german": "die Speziesismus-Debatte",
+    "italian": "il dibattito sullo specismo"
+  },
+  {
+    "german": "die Klimagerechtigkeit",
+    "italian": "la giustizia climatica"
+  },
+  {
+    "german": "die Mengenlehre",
+    "italian": "la teoria degli insiemi"
+  },
+  {
+    "german": "die Topologie",
+    "italian": "la topologia"
+  },
+  {
+    "german": "die Algebra",
+    "italian": "l'algebra"
+  },
+  {
+    "german": "die Analysis",
+    "italian": "l'analisi matematica"
+  },
+  {
+    "german": "die Zahlentheorie",
+    "italian": "la teoria dei numeri"
+  },
+  {
+    "german": "die Wahrscheinlichkeitstheorie",
+    "italian": "la teoria della probabilità"
+  },
+  {
+    "german": "die Spieltheorie",
+    "italian": "la teoria dei giochi"
+  },
+  {
+    "german": "die Graphentheorie",
+    "italian": "la teoria dei grafi"
+  },
+  {
+    "german": "die Kombinatorik",
+    "italian": "la combinatoria"
+  },
+  {
+    "german": "die lineare Algebra",
+    "italian": "l'algebra lineare"
+  },
+  {
+    "german": "die Differentialgleichung",
+    "italian": "l'equazione differenziale"
+  },
+  {
+    "german": "die Integralrechnung",
+    "italian": "il calcolo integrale"
+  },
+  {
+    "german": "die Stochastik",
+    "italian": "la stocastica"
+  },
+  {
+    "german": "die Numerik",
+    "italian": "la numerica"
+  },
+  {
+    "german": "die Optimierung",
+    "italian": "l'ottimizzazione"
+  },
+  {
+    "german": "die Approximation",
+    "italian": "l'approssimazione"
+  },
+  {
+    "german": "die Krisenkommunikation",
+    "italian": "la comunicazione di crisi"
+  },
+  {
+    "german": "die Unternehmenskommunikation",
+    "italian": "la comunicazione aziendale"
+  },
+  {
+    "german": "die Pressearbeit",
+    "italian": "il lavoro con la stampa"
+  },
+  {
+    "german": "die Markenführung",
+    "italian": "la gestione del marchio"
+  },
+  {
+    "german": "die Kommunikationsstrategie",
+    "italian": "la strategia comunicativa"
+  },
+  {
+    "german": "das Storytelling",
+    "italian": "la narrazione"
+  },
+  {
+    "german": "die Medienmitteilung",
+    "italian": "il comunicato mediatico"
+  },
+  {
+    "german": "die Engagement-Rate",
+    "italian": "il tasso di coinvolgimento"
+  },
+  {
+    "german": "die Suchmaschinenwerbung",
+    "italian": "la pubblicità sui motori di ricerca"
+  },
+  {
+    "german": "die Display-Werbung",
+    "italian": "la pubblicità display"
+  },
+  {
+    "german": "die Native Werbung",
+    "italian": "la pubblicità nativa"
+  },
+  {
+    "german": "das Leib-Seele-Problem",
+    "italian": "il problema mente-corpo"
+  },
+  {
+    "german": "der Dualismus",
+    "italian": "il dualismo"
+  },
+  {
+    "german": "der Funktionalismus",
+    "italian": "il funzionalismo"
+  },
+  {
+    "german": "der Epiphänomenalismus",
+    "italian": "l'epifenomenalismo"
+  },
+  {
+    "german": "die Intentionalität",
+    "italian": "l'intenzionalità"
+  },
+  {
+    "german": "die Qualia",
+    "italian": "i qualia"
+  },
+  {
+    "german": "das Bewusstsein",
+    "italian": "la coscienza"
+  },
+  {
+    "german": "die Willensfreiheit",
+    "italian": "il libero arbitrio"
+  },
+  {
+    "german": "der Kompatibilismus",
+    "italian": "il compatibilismo"
+  },
+  {
+    "german": "der Inkompatibilismus",
+    "italian": "l'incompatibilismo"
+  },
+  {
+    "german": "die Supervenienz",
+    "italian": "la sopravvenienza"
+  },
+  {
+    "german": "die Emergenz",
+    "italian": "l'emergenza"
+  },
+  {
+    "german": "der Eliminativismus",
+    "italian": "l'eliminativismo"
+  },
+  {
+    "german": "die Verkörperung",
+    "italian": "l'incarnazione"
+  },
+  {
+    "german": "die Extended Mind",
+    "italian": "la mente estesa"
+  },
+  {
+    "german": "die Rezeptionsästhetik",
+    "italian": "l'estetica della ricezione"
+  },
+  {
+    "german": "die Produktionsästhetik",
+    "italian": "l'estetica della produzione"
+  },
+  {
+    "german": "die Werkimmanenz",
+    "italian": "l'immanenza dell'opera"
+  },
+  {
+    "german": "die Literatursoziologie",
+    "italian": "la sociologia della letteratura"
+  },
+  {
+    "german": "die feministische Literaturkritik",
+    "italian": "la critica letteraria femminista"
+  },
+  {
+    "german": "die postkoloniale Theorie",
+    "italian": "la teoria postcoloniale"
+  },
+  {
+    "german": "die Gendertheorie",
+    "italian": "la teoria di genere"
+  },
+  {
+    "german": "die Transtextualität",
+    "italian": "la transtestualità"
+  },
+  {
+    "german": "die Paratextualität",
+    "italian": "la paratestualità"
+  },
+  {
+    "german": "die Metatextualität",
+    "italian": "la metatestualità"
+  },
+  {
+    "german": "die Hypertextualität",
+    "italian": "l'ipertestualità"
+  },
+  {
+    "german": "die Architextualität",
+    "italian": "l'architestualità"
+  },
+  {
+    "german": "die New Historicism",
+    "italian": "il nuovo storicismo"
+  },
+  {
+    "german": "die Psychoanalytische Literaturkritik",
+    "italian": "la critica psicanalitica"
+  },
+  {
+    "german": "der Formalismus",
+    "italian": "il formalismo"
+  },
+  {
+    "german": "die Ecocriticism",
+    "italian": "l'ecocritica"
+  },
+  {
+    "german": "die Zahlungsbilanztheorie",
+    "italian": "la teoria della bilancia dei pagamenti"
+  },
+  {
+    "german": "die Kaufkraftparität",
+    "italian": "la parità del potere d'acquisto"
+  },
+  {
+    "german": "die Kapitalverkehrsliberalisierung",
+    "italian": "la liberalizzazione dei movimenti di capitali"
+  },
+  {
+    "german": "die Wechselkurstheorie",
+    "italian": "la teoria del tasso di cambio"
+  },
+  {
+    "german": "die Zahlungsbilanzanpassung",
+    "italian": "l'aggiustamento della bilancia dei pagamenti"
+  },
+  {
+    "german": "die Handelsschaffung",
+    "italian": "la creazione di commercio"
+  },
+  {
+    "german": "die Handelsumlenkung",
+    "italian": "la diversione del commercio"
+  },
+  {
+    "german": "die Faktorproportionentheorie",
+    "italian": "la teoria delle proporzioni dei fattori"
+  },
+  {
+    "german": "die Gravitationsgleichung",
+    "italian": "l'equazione gravitazionale"
+  },
+  {
+    "german": "die Neue Handelstheorie",
+    "italian": "la nuova teoria del commercio"
+  },
+  {
+    "german": "die strategische Handelspolitik",
+    "italian": "la politica commerciale strategica"
+  },
+  {
+    "german": "die Industriepolitik",
+    "italian": "la politica industriale"
+  },
+  {
+    "german": "die Strukturanpassung",
+    "italian": "l'aggiustamento strutturale"
+  },
+  {
+    "german": "die Schuldentragfähigkeit",
+    "italian": "la sostenibilità del debito"
+  },
+  {
+    "german": "die Entwicklungsfinanzierung",
+    "italian": "il finanziamento dello sviluppo"
+  },
+  {
+    "german": "die Südkooperation",
+    "italian": "la cooperazione Sud-Sud"
+  },
+  {
+    "german": "die Dreieckskooperation",
+    "italian": "la cooperazione triangolare"
+  },
+  {
+    "german": "die öffentliche Verwaltung",
+    "italian": "la pubblica amministrazione"
+  },
+  {
+    "german": "die Verwaltungsreform",
+    "italian": "la riforma amministrativa"
+  },
+  {
+    "german": "das New Public Management",
+    "italian": "il New Public Management"
+  },
+  {
+    "german": "die Verwaltungsdigitalisierung",
+    "italian": "la digitalizzazione dell'amministrazione"
+  },
+  {
+    "german": "das E-Government",
+    "italian": "l'e-government"
+  },
+  {
+    "german": "die Verwaltungsgerichtsbarkeit",
+    "italian": "la giurisdizione amministrativa"
+  },
+  {
+    "german": "die Kommunalverwaltung",
+    "italian": "l'amministrazione comunale"
+  },
+  {
+    "german": "die Länderverwaltung",
+    "italian": "l'amministrazione regionale"
+  },
+  {
+    "german": "die Bundesverwaltung",
+    "italian": "l'amministrazione federale"
+  },
+  {
+    "german": "die Fachaufsicht",
+    "italian": "la supervisione tecnica"
+  },
+  {
+    "german": "die Rechtsaufsicht",
+    "italian": "la supervisione legale"
+  },
+  {
+    "german": "die Organisationsentwicklung",
+    "italian": "lo sviluppo organizzativo"
+  },
+  {
+    "german": "die Verwaltungsethik",
+    "italian": "l'etica amministrativa"
+  },
+  {
+    "german": "die Leistungsmessung",
+    "italian": "la misurazione delle prestazioni"
+  },
+  {
+    "german": "das Benchmarking",
+    "italian": "il benchmarking"
+  },
+  {
+    "german": "die Werkstoffkunde",
+    "italian": "la scienza dei materiali"
+  },
+  {
+    "german": "die Legierung",
+    "italian": "la lega"
+  },
+  {
+    "german": "der Verbundwerkstoff",
+    "italian": "il materiale composito"
+  },
+  {
+    "german": "der Halbleiter",
+    "italian": "il semiconduttore"
+  },
+  {
+    "german": "die Supraleitung",
+    "italian": "la superconduttività"
+  },
+  {
+    "german": "die Kristallographie",
+    "italian": "la cristallografia"
+  },
+  {
+    "german": "die Festkörperphysik",
+    "italian": "la fisica dello stato solido"
+  },
+  {
+    "german": "die Tribologie",
+    "italian": "la tribologia"
+  },
+  {
+    "german": "die Korrosion",
+    "italian": "la corrosione"
+  },
+  {
+    "german": "die Ermüdung",
+    "italian": "l'affaticamento"
+  },
+  {
+    "german": "die Bruchmechanik",
+    "italian": "la meccanica della frattura"
+  },
+  {
+    "german": "die Rheologie",
+    "italian": "la reologia"
+  },
+  {
+    "german": "die Spektroskopie",
+    "italian": "la spettroscopia"
+  },
+  {
+    "german": "die Chromatographie",
+    "italian": "la cromatografia"
+  },
+  {
+    "german": "die Massenspektrometrie",
+    "italian": "la spettrometria di massa"
+  },
+  {
+    "german": "die Elektronenmikroskopie",
+    "italian": "la microscopia elettronica"
+  },
+  {
+    "german": "die Rasterkraftmikroskopie",
+    "italian": "la microscopia a forza atomica"
+  },
+  {
+    "german": "die Erstsprachenerwerb",
+    "italian": "l'acquisizione della prima lingua"
+  },
+  {
+    "german": "die Zweitsprachenerwerb",
+    "italian": "l'acquisizione della seconda lingua"
+  },
+  {
+    "german": "die Interlanguage",
+    "italian": "l'interlingua"
+  },
+  {
+    "german": "die Fossilisierung",
+    "italian": "la fossilizzazione"
+  },
+  {
+    "german": "die Übergeneralisierung",
+    "italian": "la sovrageneralizzazione"
+  },
+  {
+    "german": "die Inputhypothese",
+    "italian": "l'ipotesi dell'input"
+  },
+  {
+    "german": "die Interaktionshypothese",
+    "italian": "l'ipotesi dell'interazione"
+  },
+  {
+    "german": "die Outputhypothese",
+    "italian": "l'ipotesi dell'output"
+  },
+  {
+    "german": "die Fehlerlinguistik",
+    "italian": "la linguistica degli errori"
+  },
+  {
+    "german": "die Kontrastivhypothese",
+    "italian": "l'ipotesi contrastiva"
+  },
+  {
+    "german": "die Identitätshypothese",
+    "italian": "l'ipotesi dell'identità"
+  },
+  {
+    "german": "die kritische Periode",
+    "italian": "il periodo critico"
+  },
+  {
+    "german": "die Sprachstandsdiagnostik",
+    "italian": "la diagnostica del livello linguistico"
+  },
+  {
+    "german": "die Immersion",
+    "italian": "l'immersione linguistica"
+  },
+  {
+    "german": "die Task-Based Language Teaching",
+    "italian": "l'insegnamento basato sui compiti"
+  },
+  {
+    "german": "die Scaffolding",
+    "italian": "il scaffolding"
+  },
+  {
+    "german": "die Zone der proximalen Entwicklung",
+    "italian": "la zona di sviluppo prossimale"
+  },
+  {
+    "german": "die Sprachbewusstheit",
+    "italian": "la consapevolezza linguistica"
+  },
+  {
+    "german": "die Stadtökologie",
+    "italian": "l'ecologia urbana"
+  },
+  {
+    "german": "die Schwammstadt",
+    "italian": "la città spugna"
+  },
+  {
+    "german": "die Kreislaufstadt",
+    "italian": "la città circolare"
+  },
+  {
+    "german": "die autofreie Innenstadt",
+    "italian": "il centro città senz'auto"
+  },
+  {
+    "german": "die Superblocks",
+    "italian": "i superblocchi"
+  },
+  {
+    "german": "die 15-Minuten-Stadt",
+    "italian": "la città dei 15 minuti"
+  },
+  {
+    "german": "die Dachbegrünung",
+    "italian": "il verde pensile"
+  },
+  {
+    "german": "die Fassadenbegrünung",
+    "italian": "il verde in facciata"
+  },
+  {
+    "german": "die Regenwasserbewirtschaftung",
+    "italian": "la gestione delle acque piovane"
+  },
+  {
+    "german": "die verkehrsberuhigte Zone",
+    "italian": "la zona a traffico limitato"
+  },
+  {
+    "german": "die Informationsethik",
+    "italian": "l'etica dell'informazione"
+  },
+  {
+    "german": "die Nanoethik",
+    "italian": "l'etica della nanotecnologia"
+  },
+  {
+    "german": "die Neuroethik",
+    "italian": "la neuroetica"
+  },
+  {
+    "german": "die Risikoethik",
+    "italian": "l'etica del rischio"
+  },
+  {
+    "german": "die Verantwortungsethik",
+    "italian": "l'etica della responsabilità"
+  },
+  {
+    "german": "die Fürsorgeethik",
+    "italian": "l'etica della cura"
+  },
+  {
+    "german": "die Vertragstheorie",
+    "italian": "la teoria del contratto"
+  },
+  {
+    "german": "die Gerechtigkeitstheorie",
+    "italian": "la teoria della giustizia"
+  },
+  {
+    "german": "die Menschenrechtsphilosophie",
+    "italian": "la filosofia dei diritti umani"
+  },
+  {
+    "german": "die Pflanzenethik",
+    "italian": "l'etica delle piante"
+  },
+  {
+    "german": "die Generationenethik",
+    "italian": "l'etica intergenerazionale"
+  },
+  {
+    "german": "die Migrationsethik",
+    "italian": "l'etica della migrazione"
+  },
+  {
+    "german": "die Dimensionsreduktion",
+    "italian": "la riduzione dimensionale"
+  },
+  {
+    "german": "die Clusteranalyse",
+    "italian": "l'analisi dei cluster"
+  },
+  {
+    "german": "die Zeitreihenanalyse",
+    "italian": "l'analisi delle serie temporali"
+  },
+  {
+    "german": "die Sentimentanalyse",
+    "italian": "l'analisi del sentimento"
+  },
+  {
+    "german": "die Feature-Extraktion",
+    "italian": "l'estrazione delle caratteristiche"
+  },
+  {
+    "german": "die Kreuzvalidierung",
+    "italian": "la convalida incrociata"
+  },
+  {
+    "german": "die Überanpassung",
+    "italian": "l'overfitting"
+  },
+  {
+    "german": "die Unteranpassung",
+    "italian": "l'underfitting"
+  },
+  {
+    "german": "die Hyperparameter-Optimierung",
+    "italian": "l'ottimizzazione degli iperparametri"
+  },
+  {
+    "german": "die Ensemble-Methode",
+    "italian": "il metodo di insieme"
+  },
+  {
+    "german": "die Transfer Learning",
+    "italian": "il transfer learning"
+  },
+  {
+    "german": "die Datenaugmentation",
+    "italian": "l'aumento dei dati"
+  },
+  {
+    "german": "die Datenpipeline",
+    "italian": "la pipeline dei dati"
+  },
+  {
+    "german": "die Datenqualität",
+    "italian": "la qualità dei dati"
+  },
+  {
+    "german": "die Datengovernance",
+    "italian": "la governance dei dati"
+  },
+  {
+    "german": "die Regulierungstheorie",
+    "italian": "la teoria della regolazione"
+  },
+  {
+    "german": "die Selbstregulierung",
+    "italian": "l'autoregolazione"
+  },
+  {
+    "german": "die Ko-Regulierung",
+    "italian": "la co-regolazione"
+  },
+  {
+    "german": "die Mehrebenen-Governance",
+    "italian": "la governance multilivello"
+  },
+  {
+    "german": "die Netzwerk-Governance",
+    "italian": "la governance di rete"
+  },
+  {
+    "german": "die partizipative Governance",
+    "italian": "la governance partecipativa"
+  },
+  {
+    "german": "die Transparenzinitiative",
+    "italian": "l'iniziativa di trasparenza"
+  },
+  {
+    "german": "die Lobbyregulierung",
+    "italian": "la regolamentazione delle lobby"
+  },
+  {
+    "german": "das Lobbyregister",
+    "italian": "il registro delle lobby"
+  },
+  {
+    "german": "die Interessenvertretung",
+    "italian": "la rappresentanza degli interessi"
+  },
+  {
+    "german": "die Folgenabschätzung",
+    "italian": "la valutazione d'impatto"
+  },
+  {
+    "german": "die Evidenzbasierung",
+    "italian": "la basatura sulle evidenze"
+  },
+  {
+    "german": "die Wirkungsorientierung",
+    "italian": "l'orientamento ai risultati"
+  },
+  {
+    "german": "die Entbürokratisierung",
+    "italian": "la debureaucratizzazione"
+  },
+  {
+    "german": "die Verwaltungsvereinfachung",
+    "italian": "la semplificazione amministrativa"
+  },
+  {
+    "german": "die Wissenschaftsjournalismus",
+    "italian": "il giornalismo scientifico"
+  },
+  {
+    "german": "die Wissenschaftsvermittlung",
+    "italian": "la divulgazione scientifica"
+  },
+  {
+    "german": "die Öffentlichkeitsarbeit der Wissenschaft",
+    "italian": "la comunicazione pubblica della scienza"
+  },
+  {
+    "german": "die Science Slams",
+    "italian": "gli science slam"
+  },
+  {
+    "german": "die Citizen Science",
+    "italian": "la scienza dei cittadini"
+  },
+  {
+    "german": "die Partizipative Forschung",
+    "italian": "la ricerca partecipativa"
+  },
+  {
+    "german": "die Reallabore",
+    "italian": "i laboratori del reale"
+  },
+  {
+    "german": "die Transdisziplinäre Forschung",
+    "italian": "la ricerca transdisciplinare"
+  },
+  {
+    "german": "die Wissenstransfer",
+    "italian": "il trasferimento delle conoscenze"
+  },
+  {
+    "german": "die Innovationstransfer",
+    "italian": "il trasferimento dell'innovazione"
+  },
+  {
+    "german": "die Ausgründung",
+    "italian": "lo spin-off"
+  },
+  {
+    "german": "die Forschungsförderung",
+    "italian": "il finanziamento della ricerca"
+  },
+  {
+    "german": "die Drittmitteleinwerbung",
+    "italian": "l'acquisizione di fondi terzi"
+  },
+  {
+    "german": "die Forschungsinfrastruktur",
+    "italian": "l'infrastruttura di ricerca"
+  },
+  {
+    "german": "die Großforschungseinrichtung",
+    "italian": "il grande istituto di ricerca"
+  },
+  {
+    "german": "die Forschungsstrategie",
+    "italian": "la strategia di ricerca"
+  },
+  {
+    "german": "die Ethnologie",
+    "italian": "l'etnologia"
+  },
+  {
+    "german": "die Dichte Beschreibung",
+    "italian": "la descrizione densa"
+  },
+  {
+    "german": "die Kulturrelativismus",
+    "italian": "il relativismo culturale"
+  },
+  {
+    "german": "die Ethnozentrismus",
+    "italian": "l'etnocentrismo"
+  },
+  {
+    "german": "die Kulturvergleich",
+    "italian": "il confronto culturale"
+  },
+  {
+    "german": "die Ritualforschung",
+    "italian": "la ricerca sui rituali"
+  },
+  {
+    "german": "die Verwandtschaftsforschung",
+    "italian": "la ricerca sulla parentela"
+  },
+  {
+    "german": "die Materielle Kultur",
+    "italian": "la cultura materiale"
+  },
+  {
+    "german": "die Visuelle Anthropologie",
+    "italian": "l'antropologia visiva"
+  },
+  {
+    "german": "die Medizinanthropologie",
+    "italian": "l'antropologia medica"
+  },
+  {
+    "german": "die Wirtschaftsanthropologie",
+    "italian": "l'antropologia economica"
+  },
+  {
+    "german": "die Politische Anthropologie",
+    "italian": "l'antropologia politica"
+  },
+  {
+    "german": "die Religionsethnologie",
+    "italian": "l'etnologia della religione"
+  },
+  {
+    "german": "die Stadtanthropologie",
+    "italian": "l'antropologia urbana"
+  },
+  {
+    "german": "die Genomik",
+    "italian": "la genomica"
+  },
+  {
+    "german": "die Proteomik",
+    "italian": "la proteomica"
+  },
+  {
+    "german": "die Metabolomik",
+    "italian": "la metabolomica"
+  },
+  {
+    "german": "die Transkriptomik",
+    "italian": "la trascrittomica"
+  },
+  {
+    "german": "die Bioinformatik",
+    "italian": "la bioinformatica"
+  },
+  {
+    "german": "die Sequenzierung",
+    "italian": "il sequenziamento"
+  },
+  {
+    "german": "die Genexpression",
+    "italian": "l'espressione genica"
+  },
+  {
+    "german": "die Signaltransduktion",
+    "italian": "la trasduzione del segnale"
+  },
+  {
+    "german": "die Zellbiologie",
+    "italian": "la biologia cellulare"
+  },
+  {
+    "german": "die Stammzellenbiologie",
+    "italian": "la biologia delle cellule staminali"
+  },
+  {
+    "german": "die Immunologie",
+    "italian": "l'immunologia"
+  },
+  {
+    "german": "die Virologie",
+    "italian": "la virologia"
+  },
+  {
+    "german": "die Parasitologie",
+    "italian": "la parassitologia"
+  },
+  {
+    "german": "die Mykologie",
+    "italian": "la micologia"
+  },
+  {
+    "german": "die Phylogenetik",
+    "italian": "la filogenetica"
+  },
+  {
+    "german": "die Orbitalmechanik",
+    "italian": "la meccanica orbitale"
+  },
+  {
+    "german": "die Raketentechnik",
+    "italian": "la tecnica missilistica"
+  },
+  {
+    "german": "die Antriebstechnik",
+    "italian": "la tecnica di propulsione"
+  },
+  {
+    "german": "die Erdbeobachtung",
+    "italian": "l'osservazione della Terra"
+  },
+  {
+    "german": "die Weltraumteleskop",
+    "italian": "il telescopio spaziale"
+  },
+  {
+    "german": "die Planetenforschung",
+    "italian": "la ricerca planetaria"
+  },
+  {
+    "german": "die Astrobiologie",
+    "italian": "l'astrobiologia"
+  },
+  {
+    "german": "die Weltraummedizin",
+    "italian": "la medicina spaziale"
+  },
+  {
+    "german": "die Weltraumdebris",
+    "italian": "i detriti spaziali"
+  },
+  {
+    "german": "die Weltraumrecht",
+    "italian": "il diritto spaziale"
+  },
+  {
+    "german": "die Weltraummilitarisierung",
+    "italian": "la militarizzazione dello spazio"
+  },
+  {
+    "german": "die Weltraumtourismus",
+    "italian": "il turismo spaziale"
+  },
+  {
+    "german": "die Weltraumkolonisierung",
+    "italian": "la colonizzazione spaziale"
+  },
+  {
+    "german": "die Konformität",
+    "italian": "la conformità"
+  },
+  {
+    "german": "die Gehorsamsforschung",
+    "italian": "la ricerca sull'obbedienza"
+  },
+  {
+    "german": "der Gruppendenken",
+    "italian": "il pensiero di gruppo"
+  },
+  {
+    "german": "die Einstellungsänderung",
+    "italian": "il cambiamento di atteggiamento"
+  },
+  {
+    "german": "die kognitive Dissonanz",
+    "italian": "la dissonanza cognitiva"
+  },
+  {
+    "german": "die Attributionstheorie",
+    "italian": "la teoria dell'attribuzione"
+  },
+  {
+    "german": "der fundamentale Attributionsfehler",
+    "italian": "l'errore fondamentale di attribuzione"
+  },
+  {
+    "german": "die Selbstwirksamkeit",
+    "italian": "l'autoefficacia"
+  },
+  {
+    "german": "die Selbsterfüllende Prophezeiung",
+    "italian": "la profezia che si autoavvera"
+  },
+  {
+    "german": "der Halo-Effekt",
+    "italian": "l'effetto alone"
+  },
+  {
+    "german": "die Stereotypenbedrohung",
+    "italian": "la minaccia dello stereotipo"
+  },
+  {
+    "german": "der Implizite Assoziationstest",
+    "italian": "il test di associazione implicita"
+  },
+  {
+    "german": "die Intergruppenkontakttheorie",
+    "italian": "la teoria del contatto intergruppi"
+  },
+  {
+    "german": "die Soziale Identitätstheorie",
+    "italian": "la teoria dell'identità sociale"
+  },
+  {
+    "german": "die Theorie des geplanten Verhaltens",
+    "italian": "la teoria del comportamento pianificato"
+  },
+  {
+    "german": "die Elaboration-Likelihood-Modell",
+    "italian": "il modello della probabilità di elaborazione"
+  },
+  {
+    "german": "die Theorie der Sozialen Vergleichsprozesse",
+    "italian": "la teoria dei processi di confronto sociale"
+  },
+  {
+    "german": "die Reaktanztheorie",
+    "italian": "la teoria della reattanza"
+  },
+  {
+    "german": "die Pharmakoökonomie",
+    "italian": "la farmacoeconomia"
+  },
+  {
+    "german": "die Kosten-Nutzen-Analyse",
+    "italian": "l'analisi costi-benefici"
+  },
+  {
+    "german": "die Kosten-Effektivitäts-Analyse",
+    "italian": "l'analisi costo-efficacia"
+  },
+  {
+    "german": "die Nutzwertanalyse",
+    "italian": "l'analisi dell'utilità"
+  },
+  {
+    "german": "die Qualitätsadjustierte Lebensjahre",
+    "italian": "gli anni di vita aggiustati per la qualità"
+  },
+  {
+    "german": "die Versorgungsforschung",
+    "italian": "la ricerca sui servizi sanitari"
+  },
+  {
+    "german": "die Krankenhausfinanzierung",
+    "italian": "il finanziamento ospedaliero"
+  },
+  {
+    "german": "die Diagnosis Related Groups",
+    "italian": "i raggruppamenti diagnostici omogenei"
+  },
+  {
+    "german": "die Integrierte Versorgung",
+    "italian": "l'assistenza integrata"
+  },
+  {
+    "german": "die Gesundheitstechnologiebewertung",
+    "italian": "la valutazione delle tecnologie sanitarie"
+  },
+  {
+    "german": "die Leitlinienentwicklung",
+    "italian": "lo sviluppo delle linee guida"
+  },
+  {
+    "german": "die Patientensicherheit",
+    "italian": "la sicurezza del paziente"
+  },
+  {
+    "german": "die Qualitätsmanagement",
+    "italian": "il management della qualità"
+  },
+  {
+    "german": "die Risikomanagement",
+    "italian": "il management del rischio"
+  },
+  {
+    "german": "die Rundfunkfreiheit",
+    "italian": "la libertà di radiodiffusione"
+  },
+  {
+    "german": "die Informationsfreiheit",
+    "italian": "la libertà d'informazione"
+  },
+  {
+    "german": "das Presserecht",
+    "italian": "il diritto della stampa"
+  },
+  {
+    "german": "das Telemedienrecht",
+    "italian": "il diritto dei telemedia"
+  },
+  {
+    "german": "die Impressumspflicht",
+    "italian": "l'obbligo di indicazione editoriale"
+  },
+  {
+    "german": "die Unterlassungserklärung",
+    "italian": "la dichiarazione di cessazione"
+  },
+  {
+    "german": "die einstweilige Verfügung",
+    "italian": "il provvedimento d'urgenza"
+  },
+  {
+    "german": "das Bildnisrecht",
+    "italian": "il diritto all'immagine"
+  },
+  {
+    "german": "das Persönlichkeitsrecht",
+    "italian": "il diritto della personalità"
+  },
+  {
+    "german": "die Schmähkritik",
+    "italian": "la critica denigratoria"
+  },
+  {
+    "german": "der Quellenschutz",
+    "italian": "la protezione delle fonti"
+  },
+  {
+    "german": "die Verdachtsberichterstattung",
+    "italian": "la cronaca del sospetto"
+  },
+  {
+    "german": "die Gegenöffentlichkeit",
+    "italian": "la contro-informazione"
+  },
+  {
+    "german": "die Plattformhaftung",
+    "italian": "la responsabilità delle piattaforme"
+  },
+  {
+    "german": "die Staatsorganisation",
+    "italian": "l'organizzazione dello Stato"
+  },
+  {
+    "german": "die Bundestreue",
+    "italian": "la lealtà federale"
+  },
+  {
+    "german": "die Selbstverwaltung",
+    "italian": "l'autogoverno"
+  },
+  {
+    "german": "die Daseinsvorsorge",
+    "italian": "i servizi pubblici essenziali"
+  },
+  {
+    "german": "die Planungshoheit",
+    "italian": "la sovranità pianificatoria"
+  },
+  {
+    "german": "die Gefahrenabwehr",
+    "italian": "la prevenzione del pericolo"
+  },
+  {
+    "german": "die Ordnungsverwaltung",
+    "italian": "l'amministrazione dell'ordine"
+  },
+  {
+    "german": "die Leistungsverwaltung",
+    "italian": "l'amministrazione delle prestazioni"
+  },
+  {
+    "german": "die Eingriffsverwaltung",
+    "italian": "l'amministrazione d'intervento"
+  },
+  {
+    "german": "die Umweltverwaltungsrecht",
+    "italian": "il diritto amministrativo ambientale"
+  },
+  {
+    "german": "die Vergaberecht",
+    "italian": "il diritto degli appalti"
+  },
+  {
+    "german": "die Subventionsrecht",
+    "italian": "il diritto delle sovvenzioni"
+  },
+  {
+    "german": "die Beihilferecht",
+    "italian": "il diritto degli aiuti di Stato"
+  },
+  {
+    "german": "die Klimamodellierung",
+    "italian": "la modellazione climatica"
+  },
+  {
+    "german": "die Paläoklimatologie",
+    "italian": "la paleoclimatologia"
+  },
+  {
+    "german": "die Klimaprojektion",
+    "italian": "la proiezione climatica"
+  },
+  {
+    "german": "die Klimasensitivität",
+    "italian": "la sensibilità climatica"
+  },
+  {
+    "german": "die Rückkopplungsmechanismus",
+    "italian": "il meccanismo di retroazione"
+  },
+  {
+    "german": "die Albedo",
+    "italian": "l'albedo"
+  },
+  {
+    "german": "die Eiskerndaten",
+    "italian": "i dati dei carotaggi nel ghiaccio"
+  },
+  {
+    "german": "die Dendrochronologie",
+    "italian": "la dendrocronologia"
+  },
+  {
+    "german": "die Ozeanversauerung",
+    "italian": "l'acidificazione degli oceani"
+  },
+  {
+    "german": "die thermohaline Zirkulation",
+    "italian": "la circolazione termoalina"
+  },
+  {
+    "german": "die Permafrostdegradation",
+    "italian": "la degradazione del permafrost"
+  },
+  {
+    "german": "die Gletscherschmelze",
+    "italian": "lo scioglimento dei ghiacciai"
+  },
+  {
+    "german": "die Meeresspiegelanstieg",
+    "italian": "l'innalzamento del livello del mare"
+  },
+  {
+    "german": "die Extremwetterattribution",
+    "italian": "l'attribuzione degli eventi meteorologici estremi"
+  },
+  {
+    "german": "die Klimafinanzierung",
+    "italian": "il finanziamento per il clima"
+  },
+  {
+    "german": "die Sprechaktklassifikation",
+    "italian": "la classificazione degli atti linguistici"
+  },
+  {
+    "german": "die Konversationsanalyse",
+    "italian": "l'analisi della conversazione"
+  },
+  {
+    "german": "die Höflichkeitstheorie",
+    "italian": "la teoria della cortesia"
+  },
+  {
+    "german": "die Relevanztheorie",
+    "italian": "la teoria della pertinenza"
+  },
+  {
+    "german": "die Präsupposition",
+    "italian": "la presupposizione"
+  },
+  {
+    "german": "die Kontextualisierung",
+    "italian": "la contestualizzazione"
+  },
+  {
+    "german": "die Indexikalität",
+    "italian": "l'indicalità"
+  },
+  {
+    "german": "die Explikatur",
+    "italian": "l'esplicatura"
+  },
+  {
+    "german": "die Konversationelle Implikatur",
+    "italian": "l'implicatura conversazionale"
+  },
+  {
+    "german": "die Skalare Implikatur",
+    "italian": "l'implicatura scalare"
+  },
+  {
+    "german": "die Gricesche Maxime",
+    "italian": "la massima di Grice"
+  },
+  {
+    "german": "die Kooperationsprinzip",
+    "italian": "il principio di cooperazione"
+  },
+  {
+    "german": "die Indirekte Rede",
+    "italian": "il discorso indiretto"
+  },
+  {
+    "german": "die Sprachhandlung",
+    "italian": "l'azione linguistica"
+  },
+  {
+    "german": "die Geoinformatik",
+    "italian": "la geoinformatica"
+  },
+  {
+    "german": "die Geodäsie",
+    "italian": "la geodesia"
+  },
+  {
+    "german": "die Fernerkundung",
+    "italian": "il telerilevamento"
+  },
+  {
+    "german": "die Photogrammetrie",
+    "italian": "la fotogrammetria"
+  },
+  {
+    "german": "die Luftbildauswertung",
+    "italian": "l'interpretazione delle foto aeree"
+  },
+  {
+    "german": "die Geländemodellierung",
+    "italian": "la modellazione del terreno"
+  },
+  {
+    "german": "die Höhenschichtlinie",
+    "italian": "la curva di livello"
+  },
+  {
+    "german": "die Koordinatentransformation",
+    "italian": "la trasformazione delle coordinate"
+  },
+  {
+    "german": "die Projektion",
+    "italian": "la proiezione cartografica"
+  },
+  {
+    "german": "die Maßstabsberechnung",
+    "italian": "il calcolo della scala"
+  },
+  {
+    "german": "die Generalisierung",
+    "italian": "la generalizzazione cartografica"
+  },
+  {
+    "german": "die Georeferenzierung",
+    "italian": "la georeferenziazione"
+  },
+  {
+    "german": "die Reliefdarstellung",
+    "italian": "la rappresentazione del rilievo"
+  },
+  {
+    "german": "die Thematische Kartografie",
+    "italian": "la cartografia tematica"
+  },
+  {
+    "german": "die Geostatistik",
+    "italian": "la geostatistica"
+  },
+  {
+    "german": "die Museologie",
+    "italian": "la museologia"
+  },
+  {
+    "german": "die Sammlungspflege",
+    "italian": "la cura delle collezioni"
+  },
+  {
+    "german": "die Restaurierung",
+    "italian": "il restauro"
+  },
+  {
+    "german": "die Provenienzforschung",
+    "italian": "la ricerca sulla provenienza"
+  },
+  {
+    "german": "die Ausstellungsgestaltung",
+    "italian": "l'allestimento della mostra"
+  },
+  {
+    "german": "die Museumspädagogik",
+    "italian": "la pedagogia museale"
+  },
+  {
+    "german": "die Inventarisierung",
+    "italian": "l'inventariazione"
+  },
+  {
+    "german": "die Leihgabe",
+    "italian": "il prestito museale"
+  },
+  {
+    "german": "die Klimatisierung",
+    "italian": "la climatizzazione"
+  },
+  {
+    "german": "die Sicherheitstechnik",
+    "italian": "la tecnica di sicurezza"
+  },
+  {
+    "german": "die Besucherforschung",
+    "italian": "la ricerca sui visitatori"
+  },
+  {
+    "german": "die Dauerausstellung",
+    "italian": "l'esposizione permanente"
+  },
+  {
+    "german": "die Sonderausstellung",
+    "italian": "la mostra temporanea"
+  },
+  {
+    "german": "die Wanderausstellung",
+    "italian": "la mostra itinerante"
+  },
+  {
+    "german": "die Vitrinengestaltung",
+    "italian": "la progettazione delle vetrine"
+  },
+  {
+    "german": "die Katalogisierung",
+    "italian": "la catalogazione"
+  },
+  {
+    "german": "die Sacherschließung",
+    "italian": "l'indicizzazione per soggetto"
+  },
+  {
+    "german": "die Formalerschließung",
+    "italian": "la catalogazione formale"
+  },
+  {
+    "german": "die Normdatei",
+    "italian": "il file di autorità"
+  },
+  {
+    "german": "die Fernleihe",
+    "italian": "il prestito interbibliotecario"
+  },
+  {
+    "german": "die Erwerbung",
+    "italian": "l'acquisizione bibliotecaria"
+  },
+  {
+    "german": "die Bestandserhaltung",
+    "italian": "la conservazione del patrimonio"
+  },
+  {
+    "german": "die Entsäuerung",
+    "italian": "la deacidificazione"
+  },
+  {
+    "german": "die Metadatenpflege",
+    "italian": "la gestione dei metadati"
+  },
+  {
+    "german": "die Thesauruserstellung",
+    "italian": "la creazione del thesaurus"
+  },
+  {
+    "german": "die Schlagwortvergabe",
+    "italian": "l'assegnazione dei soggetti"
+  },
+  {
+    "german": "die Retrokonversion",
+    "italian": "la retroconversione"
+  },
+  {
+    "german": "die Langzeitarchivierung",
+    "italian": "l'archiviazione a lungo termine"
+  },
+  {
+    "german": "die Tierimpfung",
+    "italian": "la vaccinazione animale"
+  },
+  {
+    "german": "die Tierseuche",
+    "italian": "l'epizoozia"
+  },
+  {
+    "german": "die Quarantäne",
+    "italian": "la quarantena animale"
+  },
+  {
+    "german": "die Zoonose",
+    "italian": "la zoonosi"
+  },
+  {
+    "german": "die Tollwutimpfung",
+    "italian": "la vaccinazione antirabbica"
+  },
+  {
+    "german": "die Sterilisation",
+    "italian": "la sterilizzazione animale"
+  },
+  {
+    "german": "die Entwurmung",
+    "italian": "la sverminazione"
+  },
+  {
+    "german": "die Tieranästhesie",
+    "italian": "l'anestesia veterinaria"
+  },
+  {
+    "german": "die Tierchirurgie",
+    "italian": "la chirurgia veterinaria"
+  },
+  {
+    "german": "die Nutztiermedizin",
+    "italian": "la medicina degli animali da reddito"
+  },
+  {
+    "german": "die Kleintiermedizin",
+    "italian": "la medicina dei piccoli animali"
+  },
+  {
+    "german": "die Pferdemedizin",
+    "italian": "la medicina equina"
+  },
+  {
+    "german": "die Tierernährung",
+    "italian": "la nutrizione animale"
+  },
+  {
+    "german": "die Schlachttieruntersuchung",
+    "italian": "la visita ispettiva ante mortem"
+  },
+  {
+    "german": "die Kriminalprävention",
+    "italian": "la prevenzione della criminalità"
+  },
+  {
+    "german": "die Täterprofilerstellung",
+    "italian": "la profilazione del criminale"
+  },
+  {
+    "german": "die Deliktsstruktur",
+    "italian": "la struttura dei reati"
+  },
+  {
+    "german": "die Dunkelzifferforschung",
+    "italian": "la ricerca sul numero oscuro"
+  },
+  {
+    "german": "die Rückfallforschung",
+    "italian": "la ricerca sulla recidiva"
+  },
+  {
+    "german": "die Strafvollzugsforschung",
+    "italian": "la ricerca penitenziaria"
+  },
+  {
+    "german": "die Kriminalpolitik",
+    "italian": "la politica criminale"
+  },
+  {
+    "german": "die Strafzumessung",
+    "italian": "la commisurazione della pena"
+  },
+  {
+    "german": "die Täter-Opfer-Ausgleich",
+    "italian": "la mediazione penale"
+  },
+  {
+    "german": "die Bauforschung",
+    "italian": "la ricerca edilizia storica"
+  },
+  {
+    "german": "die Befundsicherung",
+    "italian": "la documentazione dei reperti"
+  },
+  {
+    "german": "die Denkmalerfassung",
+    "italian": "il censimento dei monumenti"
+  },
+  {
+    "german": "die Unterschutzstellung",
+    "italian": "la tutela monumentale"
+  },
+  {
+    "german": "die Ensemblepflege",
+    "italian": "la cura degli insiemi architettonici"
+  },
+  {
+    "german": "die Fassadensanierung",
+    "italian": "il risanamento della facciata"
+  },
+  {
+    "german": "die Freilegung",
+    "italian": "la messa in luce"
+  },
+  {
+    "german": "die Patinierung",
+    "italian": "la patinatura"
+  },
+  {
+    "german": "die Rekonstruktion",
+    "italian": "la ricostruzione"
+  },
+  {
+    "german": "die Nutzungsänderung",
+    "italian": "il cambio di destinazione d'uso"
+  },
+  {
+    "german": "die Baudenkmalliste",
+    "italian": "l'elenco dei beni architettonici"
+  },
+  {
+    "german": "die Ortsbildpflege",
+    "italian": "la cura del paesaggio urbano"
+  },
+  {
+    "german": "die Gartendenkmalpflege",
+    "italian": "la cura dei giardini storici"
+  },
+  {
+    "german": "die Industriedenkmalpflege",
+    "italian": "la tutela dei monumenti industriali"
+  },
+  {
+    "german": "die Bodendenkmalpflege",
+    "italian": "la tutela dei monumenti archeologici"
+  },
+  {
+    "german": "die Denkmalpädagogik",
+    "italian": "la pedagogia del patrimonio"
+  },
+  {
+    "german": "die Nährstoffbilanz",
+    "italian": "il bilancio dei nutrienti"
+  },
+  {
+    "german": "die Mikronährstoffe",
+    "italian": "i micronutrienti"
+  },
+  {
+    "german": "die Makronährstoffe",
+    "italian": "i macronutrienti"
+  },
+  {
+    "german": "die Nahrungsmittelunverträglichkeit",
+    "italian": "l'intolleranza alimentare"
+  },
+  {
+    "german": "die Ernährungsberatung",
+    "italian": "la consulenza nutrizionale"
+  },
+  {
+    "german": "die Diätetik",
+    "italian": "la dietetica"
+  },
+  {
+    "german": "die Nährstoffdichte",
+    "italian": "la densità nutrizionale"
+  },
+  {
+    "german": "die Glykämischer Index",
+    "italian": "l'indice glicemico"
+  },
+  {
+    "german": "die Fettsäurezusammensetzung",
+    "italian": "la composizione degli acidi grassi"
+  },
+  {
+    "german": "die Aminosäureprofil",
+    "italian": "il profilo aminoacidico"
+  },
+  {
+    "german": "die Vitaminversorgung",
+    "italian": "l'apporto vitaminico"
+  },
+  {
+    "german": "die Mineralstoffhaushalt",
+    "italian": "il metabolismo dei minerali"
+  },
+  {
+    "german": "die Ernährungsepidemiologie",
+    "italian": "l'epidemiologia nutrizionale"
+  },
+  {
+    "german": "die Dosis-Wirkungs-Beziehung",
+    "italian": "la relazione dose-risposta"
+  },
+  {
+    "german": "die Entgiftung",
+    "italian": "la disintossicazione"
+  },
+  {
+    "german": "die Giftnotrufzentrale",
+    "italian": "il centro antiveleni"
+  },
+  {
+    "german": "die Toxizität",
+    "italian": "la tossicità"
+  },
+  {
+    "german": "die Mutagenität",
+    "italian": "la mutagenicità"
+  },
+  {
+    "german": "die Kanzerogenität",
+    "italian": "la cancerogenicità"
+  },
+  {
+    "german": "die Teratogenität",
+    "italian": "la teratogenicità"
+  },
+  {
+    "german": "die Ökotoxikologie",
+    "italian": "l'ecotossicologia"
+  },
+  {
+    "german": "die Expositionsabschätzung",
+    "italian": "la stima dell'esposizione"
+  },
+  {
+    "german": "die Risikocharakterisierung",
+    "italian": "la caratterizzazione del rischio"
+  },
+  {
+    "german": "die Grenzwertfestlegung",
+    "italian": "la determinazione dei valori limite"
+  },
+  {
+    "german": "die Bioakkumulation",
+    "italian": "la bioaccumulazione"
+  },
+  {
+    "german": "die Biotransformation",
+    "italian": "la biotrasformazione"
+  },
+  {
+    "german": "die Pharmakokinetik",
+    "italian": "la farmacocinetica"
+  },
+  {
+    "german": "die Pharmakodynamik",
+    "italian": "la farmacodinamica"
+  },
+  {
+    "german": "die Trinkwasserversorgung",
+    "italian": "l'approvvigionamento idrico"
+  },
+  {
+    "german": "die Abwasserbehandlung",
+    "italian": "il trattamento delle acque reflue"
+  },
+  {
+    "german": "die Kanalisation",
+    "italian": "la canalizzazione"
+  },
+  {
+    "german": "die Kläranlage",
+    "italian": "l'impianto di depurazione"
+  },
+  {
+    "german": "die Belebungsanlage",
+    "italian": "l'impianto a fanghi attivi"
+  },
+  {
+    "german": "die Schlammbehandlung",
+    "italian": "il trattamento dei fanghi"
+  },
+  {
+    "german": "die Mischwasserkanalisation",
+    "italian": "la canalizzazione mista"
+  },
+  {
+    "german": "die Trennsystem",
+    "italian": "il sistema separato"
+  },
+  {
+    "german": "die Pumpstation",
+    "italian": "la stazione di pompaggio"
+  },
+  {
+    "german": "die Rohrnetzkontrolle",
+    "italian": "il controllo della rete idrica"
+  },
+  {
+    "german": "die Leckortung",
+    "italian": "la localizzazione delle perdite"
+  },
+  {
+    "german": "die Membranfiltration",
+    "italian": "la filtrazione a membrana"
+  },
+  {
+    "german": "die Ozonierung",
+    "italian": "l'ozonizzazione"
+  },
+  {
+    "german": "die Nitrifikation",
+    "italian": "la nitrificazione"
+  },
+  {
+    "german": "die Denitrifikation",
+    "italian": "la denitrificazione"
+  },
+  {
+    "german": "die Lichtbrechung",
+    "italian": "la rifrazione della luce"
+  },
+  {
+    "german": "die Lichtbeugung",
+    "italian": "la diffrazione della luce"
+  },
+  {
+    "german": "die Polarisation",
+    "italian": "la polarizzazione"
+  },
+  {
+    "german": "die Laserphysik",
+    "italian": "la fisica del laser"
+  },
+  {
+    "german": "die Faseroptik",
+    "italian": "l'ottica delle fibre"
+  },
+  {
+    "german": "die Holografie",
+    "italian": "l'olografia"
+  },
+  {
+    "german": "die Lumineszenz",
+    "italian": "la luminescenza"
+  },
+  {
+    "german": "die Fluoreszenz",
+    "italian": "la fluorescenza"
+  },
+  {
+    "german": "die Phosphoreszenz",
+    "italian": "la fosforescenza"
+  },
+  {
+    "german": "die Quantenoptik",
+    "italian": "l'ottica quantistica"
+  },
+  {
+    "german": "die Infrarotspektroskopie",
+    "italian": "la spettroscopia infrarossa"
+  },
+  {
+    "german": "die Mikroskopie",
+    "italian": "la microscopia"
+  },
+  {
+    "german": "die Ellipsometrie",
+    "italian": "l'ellissometria"
+  },
+  {
+    "german": "die Zellstoffherstellung",
+    "italian": "la produzione di cellulosa"
+  },
+  {
+    "german": "die Holzschliffherstellung",
+    "italian": "la produzione di pasta meccanica"
+  },
+  {
+    "german": "die Papiermaschine",
+    "italian": "la macchina continua"
+  },
+  {
+    "german": "die Faserstoffsuspension",
+    "italian": "la sospensione fibrosa"
+  },
+  {
+    "german": "die Blattbildung",
+    "italian": "la formazione del foglio"
+  },
+  {
+    "german": "die Pressenpartie",
+    "italian": "la sezione presse"
+  },
+  {
+    "german": "die Trockenpartie",
+    "italian": "la sezione essiccante"
+  },
+  {
+    "german": "die Streichmaschine",
+    "italian": "la patinatrice"
+  },
+  {
+    "german": "die Satinage",
+    "italian": "la calandratura"
+  },
+  {
+    "german": "die Altpapieraufbereitung",
+    "italian": "la preparazione della carta da macero"
+  },
+  {
+    "german": "die Deinking",
+    "italian": "la disinchiostrazione"
+  },
+  {
+    "german": "die Wasserkreislaufführung",
+    "italian": "la gestione del circuito d'acqua"
+  },
+  {
+    "german": "die Papierprüfung",
+    "italian": "il collaudo della carta"
+  },
+  {
+    "german": "die Grammatur",
+    "italian": "la grammatura"
+  },
+  {
+    "german": "die Reißfestigkeit",
+    "italian": "la resistenza alla trazione"
+  },
+  {
+    "german": "die Opazität",
+    "italian": "l'opacità"
+  },
+  {
+    "german": "die Laktatmessung",
+    "italian": "la misurazione del lattato"
+  },
+  {
+    "german": "die Spirometrie",
+    "italian": "la spirometria"
+  },
+  {
+    "german": "die Ergometrie",
+    "italian": "l'ergometria"
+  },
+  {
+    "german": "die Belastungsuntersuchung",
+    "italian": "il test da sforzo"
+  },
+  {
+    "german": "die Trainingsplanung",
+    "italian": "la pianificazione dell'allenamento"
+  },
+  {
+    "german": "die Regenerationssteuerung",
+    "italian": "la gestione della rigenerazione"
+  },
+  {
+    "german": "die Übertraining",
+    "italian": "il sovrallenamento"
+  },
+  {
+    "german": "die Sportartanalyse",
+    "italian": "l'analisi della disciplina sportiva"
+  },
+  {
+    "german": "die Bewegungsanalyse",
+    "italian": "l'analisi del movimento"
+  },
+  {
+    "german": "die Biomechanik",
+    "italian": "la biomeccanica"
+  },
+  {
+    "german": "die Sportorthopädie",
+    "italian": "l'ortopedia sportiva"
+  },
+  {
+    "german": "die Dopinganalytik",
+    "italian": "l'analisi antidoping"
+  },
+  {
+    "german": "die Höhentraining",
+    "italian": "l'allenamento in altitudine"
+  },
+  {
+    "german": "die Kryotherapie",
+    "italian": "la crioterapia"
+  },
+  {
+    "german": "der Kammerjäger",
+    "italian": "il disinfestatore"
+  },
+  {
+    "german": "die Begasung",
+    "italian": "la fumigazione"
+  },
+  {
+    "german": "die Köderfalle",
+    "italian": "la trappola con esca"
+  },
+  {
+    "german": "die Rattenbekämpfung",
+    "italian": "la derattizzazione"
+  },
+  {
+    "german": "die Taubenabwehr",
+    "italian": "la dissuasione dei piccioni"
+  },
+  {
+    "german": "die Marderabwehr",
+    "italian": "la dissuasione delle faine"
+  },
+  {
+    "german": "die Wespenentfernung",
+    "italian": "la rimozione dei nidi di vespe"
+  },
+  {
+    "german": "die Holzschutzbehandlung",
+    "italian": "il trattamento protettivo del legno"
+  },
+  {
+    "german": "die Termitenbekämpfung",
+    "italian": "la lotta antitermiti"
+  },
+  {
+    "german": "die biologische Schädlingsbekämpfung",
+    "italian": "la lotta biologica antiparassitaria"
+  },
+  {
+    "german": "die Pflanzenschutzberatung",
+    "italian": "la consulenza fitosanitaria"
+  },
+  {
+    "german": "die Vorratsschutz",
+    "italian": "la protezione delle derrate"
+  },
+  {
+    "german": "die Desinfektion",
+    "italian": "la disinfezione"
+  },
+  {
+    "german": "die Entwesung",
+    "italian": "la disinfestazione"
+  },
+  {
+    "german": "die Präventivmaßnahme",
+    "italian": "la misura preventiva"
+  },
+  {
+    "german": "die Monitoring",
+    "italian": "il monitoraggio dei parassiti"
+  },
+  {
+    "german": "die Archivalienbewertung",
+    "italian": "la valutazione archivistica"
+  },
+  {
+    "german": "die Kassation",
+    "italian": "lo scarto archivistico"
+  },
+  {
+    "german": "die Verzeichnung",
+    "italian": "la descrizione archivistica"
+  },
+  {
+    "german": "die Erschließung",
+    "italian": "l'ordinamento archivistico"
+  },
+  {
+    "german": "die Findbucherstellung",
+    "italian": "la redazione dell'inventario"
+  },
+  {
+    "german": "die Magazinverwaltung",
+    "italian": "la gestione dei depositi"
+  },
+  {
+    "german": "die Schutzverfilmung",
+    "italian": "la microfilmatura di sicurezza"
+  },
+  {
+    "german": "die Benutzungsordnung",
+    "italian": "il regolamento di consultazione"
+  },
+  {
+    "german": "die Sperrfrist",
+    "italian": "il termine di segretazione"
+  },
+  {
+    "german": "die Nachlasserschließung",
+    "italian": "l'ordinamento dei fondi personali"
+  },
+  {
+    "german": "die Bestandsbildung",
+    "italian": "la formazione del fondo"
+  },
+  {
+    "german": "die Registraturbildung",
+    "italian": "la formazione del protocollo"
+  },
+  {
+    "german": "die Aktenplangestaltung",
+    "italian": "la creazione del titolario"
+  },
+  {
+    "german": "die Aussonderung",
+    "italian": "lo scarto e il versamento"
+  },
+  {
+    "german": "die Überlieferungsbildung",
+    "italian": "la formazione della memoria documentaria"
+  },
+  {
+    "german": "die Bodenbearbeitung",
+    "italian": "la lavorazione del terreno"
+  },
+  {
+    "german": "die Saatbettbereitung",
+    "italian": "la preparazione del letto di semina"
+  },
+  {
+    "german": "die Direktsaat",
+    "italian": "la semina diretta"
+  },
+  {
+    "german": "die Erntemaschine",
+    "italian": "la macchina raccoglitrice"
+  },
+  {
+    "german": "die Feldhäcksler",
+    "italian": "la trincia semovente"
+  },
+  {
+    "german": "die Pflanzenschutzspritze",
+    "italian": "l'irroratrice"
+  },
+  {
+    "german": "die Mineraldüngerstreuer",
+    "italian": "lo spandiconcime"
+  },
+  {
+    "german": "die Gülleverteiler",
+    "italian": "lo spandiliquame"
+  },
+  {
+    "german": "die Melkroboter",
+    "italian": "il robot di mungitura"
+  },
+  {
+    "german": "die Futtermischwagen",
+    "italian": "il carro miscelatore"
+  },
+  {
+    "german": "die Stallklimatisierung",
+    "italian": "la climatizzazione della stalla"
+  },
+  {
+    "german": "die Getreidetrocknungsanlage",
+    "italian": "l'essiccatoio per cereali"
+  },
+  {
+    "german": "die Silierung",
+    "italian": "l'insilamento"
+  },
+  {
+    "german": "die Bodenprobenanalyse",
+    "italian": "l'analisi dei campioni di suolo"
+  },
+  {
+    "german": "die Schleppertechnik",
+    "italian": "la tecnica dei trattori"
+  },
+  {
+    "german": "die Bodenmechanik",
+    "italian": "la meccanica dei terreni"
+  },
+  {
+    "german": "die Felsmechanik",
+    "italian": "la meccanica delle rocce"
+  },
+  {
+    "german": "die Grundwasserabsenkung",
+    "italian": "l'abbassamento della falda"
+  },
+  {
+    "german": "die Bodenverbesserung",
+    "italian": "il miglioramento del terreno"
+  },
+  {
+    "german": "die Injektionstechnik",
+    "italian": "la tecnica di iniezione"
+  },
+  {
+    "german": "die Ankertechnik",
+    "italian": "la tecnica di ancoraggio"
+  },
+  {
+    "german": "die Hangsicherung",
+    "italian": "la stabilizzazione del pendio"
+  },
+  {
+    "german": "die Tunnelbauweise",
+    "italian": "il metodo di costruzione gallerie"
+  },
+  {
+    "german": "die Schildvortrieb",
+    "italian": "lo scavo con scudo"
+  },
+  {
+    "german": "die Spritzbetonbauweise",
+    "italian": "la costruzione in calcestruzzo proiettato"
+  },
+  {
+    "german": "die Bohrpfahlherstellung",
+    "italian": "la realizzazione di pali trivellati"
+  },
+  {
+    "german": "die Baugrubensicherung",
+    "italian": "la messa in sicurezza dello scavo"
+  },
+  {
+    "german": "die Rüttelstopfverdichtung",
+    "italian": "la compattazione vibro-sostitutiva"
+  },
+  {
+    "german": "die Setzungsprognose",
+    "italian": "la previsione dei cedimenti"
+  },
+  {
+    "german": "die Tragfähigkeitsnachweis",
+    "italian": "la verifica della portanza"
+  },
+  {
+    "german": "die Erddruck",
+    "italian": "la spinta del terreno"
+  },
+  {
+    "german": "die Nährwertkennzeichnung",
+    "italian": "l'etichettatura nutrizionale"
+  },
+  {
+    "german": "die Herkunftsangabe",
+    "italian": "l'indicazione di origine"
+  },
+  {
+    "german": "die Lebensmittelüberwachung",
+    "italian": "il controllo alimentare"
+  },
+  {
+    "german": "die Rückstandshöchstmenge",
+    "italian": "il limite massimo di residui"
+  },
+  {
+    "german": "die Zusatzstoffzulassung",
+    "italian": "l'autorizzazione degli additivi"
+  },
+  {
+    "german": "die Gesundheitsbezogene Angabe",
+    "italian": "l'indicazione sulla salute"
+  },
+  {
+    "german": "die Neuartige Lebensmittel",
+    "italian": "i nuovi alimenti"
+  },
+  {
+    "german": "die Kontaminantenverordnung",
+    "italian": "il regolamento sui contaminanti"
+  },
+  {
+    "german": "die Höchstmengenregelung",
+    "italian": "la regolamentazione dei limiti massimi"
+  },
+  {
+    "german": "die Schnellwarnsystem",
+    "italian": "il sistema di allerta rapida"
+  },
+  {
+    "german": "die Eigenkontrollen",
+    "italian": "i controlli interni"
+  },
+  {
+    "german": "die HACCP-Konzept",
+    "italian": "il concetto HACCP"
+  },
+  {
+    "german": "die Hydraulikpumpe",
+    "italian": "la pompa idraulica"
+  },
+  {
+    "german": "der Hydraulikzylinder",
+    "italian": "il cilindro idraulico"
+  },
+  {
+    "german": "das Wegeventil",
+    "italian": "la valvola direzionale"
+  },
+  {
+    "german": "das Druckbegrenzungsventil",
+    "italian": "la valvola limitatrice di pressione"
+  },
+  {
+    "german": "der Hydraulikspeicher",
+    "italian": "l'accumulatore idraulico"
+  },
+  {
+    "german": "die Hydraulikflüssigkeit",
+    "italian": "il fluido idraulico"
+  },
+  {
+    "german": "die Pneumatikzylinder",
+    "italian": "il cilindro pneumatico"
+  },
+  {
+    "german": "die Druckluftaufbereitung",
+    "italian": "il trattamento dell'aria compressa"
+  },
+  {
+    "german": "die Drosselventil",
+    "italian": "la valvola di strozzamento"
+  },
+  {
+    "german": "die Rückschlagventil",
+    "italian": "la valvola di non ritorno"
+  },
+  {
+    "german": "die Proportionalventiltechnik",
+    "italian": "la tecnica delle valvole proporzionali"
+  },
+  {
+    "german": "die Servohydraulik",
+    "italian": "la servoidraulica"
+  },
+  {
+    "german": "die Leckagekontrolle",
+    "italian": "il controllo delle perdite"
+  },
+  {
+    "german": "die Schlauchleitung",
+    "italian": "il tubo flessibile"
+  },
+  {
+    "german": "die Verzinkung",
+    "italian": "la zincatura"
+  },
+  {
+    "german": "die Eloxierung",
+    "italian": "l'anodizzazione"
+  },
+  {
+    "german": "die Pulverbeschichtung",
+    "italian": "la verniciatura a polvere"
+  },
+  {
+    "german": "die Nasslackierung",
+    "italian": "la verniciatura a liquido"
+  },
+  {
+    "german": "die Phosphatierung",
+    "italian": "la fosfatazione"
+  },
+  {
+    "german": "die Chromatierung",
+    "italian": "la cromatazione"
+  },
+  {
+    "german": "die Kathodischer Korrosionsschutz",
+    "italian": "la protezione catodica"
+  },
+  {
+    "german": "die Anodischer Korrosionsschutz",
+    "italian": "la protezione anodica"
+  },
+  {
+    "german": "die Korrosionsprüfung",
+    "italian": "la prova di corrosione"
+  },
+  {
+    "german": "die Salzsprühnebelprüfung",
+    "italian": "la prova in nebbia salina"
+  },
+  {
+    "german": "die Spannungsrisskorrosion",
+    "italian": "la corrosione sotto tensione"
+  },
+  {
+    "german": "die Lochfraßkorrosion",
+    "italian": "la corrosione per vaiolatura"
+  },
+  {
+    "german": "die Kontaktkorrosion",
+    "italian": "la corrosione galvanica"
+  },
+  {
+    "german": "die Flächenkorrosion",
+    "italian": "la corrosione uniforme"
+  },
+  {
+    "german": "die Erosionskorrosion",
+    "italian": "la corrosione-erosione"
+  },
+  {
+    "german": "die Inhibitor",
+    "italian": "l'inibitore di corrosione"
+  },
+  {
+    "german": "die Farbstoffchemie",
+    "italian": "la chimica dei coloranti"
+  },
+  {
+    "german": "die Reaktivfärbung",
+    "italian": "la tintura reattiva"
+  },
+  {
+    "german": "die Küpenfärbung",
+    "italian": "la tintura al tino"
+  },
+  {
+    "german": "die Dispersionsfärbung",
+    "italian": "la tintura dispersa"
+  },
+  {
+    "german": "die Fixierung",
+    "italian": "il fissaggio"
+  },
+  {
+    "german": "die Vorbehandlung",
+    "italian": "il pretrattamento"
+  },
+  {
+    "german": "die Entschlichtung",
+    "italian": "la sbozzimatura"
+  },
+  {
+    "german": "die Mercerisierung",
+    "italian": "la mercerizzazione"
+  },
+  {
+    "german": "die Hydrofobie",
+    "italian": "l'idrofobizzazione"
+  },
+  {
+    "german": "die Flammhemmung",
+    "italian": "il ritardo di fiamma"
+  },
+  {
+    "german": "die Knitterfreiausrüstung",
+    "italian": "il trattamento antipiega"
+  },
+  {
+    "german": "die Antimikrobielle Ausrüstung",
+    "italian": "il trattamento antimicrobico"
+  },
+  {
+    "german": "die UV-Schutzausrüstung",
+    "italian": "il trattamento anti-UV"
+  },
+  {
+    "german": "die Weichmachung",
+    "italian": "l'ammorbidimento"
+  },
+  {
+    "german": "die Antistatikausrüstung",
+    "italian": "il trattamento antistatico"
+  },
+  {
+    "german": "die Schmutzabweisung",
+    "italian": "il trattamento antimacchia"
+  },
+  {
+    "german": "die Grundwasseranreicherung",
+    "italian": "l'alimentazione artificiale della falda"
+  },
+  {
+    "german": "die Uferfiltration",
+    "italian": "la filtrazione di sponda"
+  },
+  {
+    "german": "die Aktivkohlefiltration",
+    "italian": "la filtrazione a carbone attivo"
+  },
+  {
+    "german": "die Umkehrosmose",
+    "italian": "l'osmosi inversa"
+  },
+  {
+    "german": "die Nanofiltration",
+    "italian": "la nanofiltrazione"
+  },
+  {
+    "german": "die Ultrafiltration",
+    "italian": "l'ultrafiltrazione"
+  },
+  {
+    "german": "die Mikrofiltration",
+    "italian": "la microfiltrazione"
+  },
+  {
+    "german": "die Ionenaustausch",
+    "italian": "lo scambio ionico"
+  },
+  {
+    "german": "die Enthärtung",
+    "italian": "l'addolcimento"
+  },
+  {
+    "german": "die Enteisenung",
+    "italian": "la deferrizzazione"
+  },
+  {
+    "german": "die Entmanganung",
+    "italian": "la demanganizzazione"
+  },
+  {
+    "german": "die Flockung",
+    "italian": "la flocculazione"
+  },
+  {
+    "german": "die Sedimentation",
+    "italian": "la sedimentazione"
+  },
+  {
+    "german": "die Schlammtrocknung",
+    "italian": "l'essiccazione dei fanghi"
+  },
+  {
+    "german": "die Schlammverbrennung",
+    "italian": "l'incenerimento dei fanghi"
+  },
+  {
+    "german": "die Phosphorrückgewinnung",
+    "italian": "il recupero del fosforo"
+  },
+  {
+    "german": "die Zugprüfung",
+    "italian": "la prova di trazione"
+  },
+  {
+    "german": "die Druckprüfung",
+    "italian": "la prova di compressione"
+  },
+  {
+    "german": "die Biegeprüfung",
+    "italian": "la prova di flessione"
+  },
+  {
+    "german": "die Kerbschlagbiegeprüfung",
+    "italian": "la prova di resilienza"
+  },
+  {
+    "german": "die Härteprüfung",
+    "italian": "la prova di durezza"
+  },
+  {
+    "german": "die Ermüdungsprüfung",
+    "italian": "la prova di fatica"
+  },
+  {
+    "german": "die Kriechprüfung",
+    "italian": "la prova di scorrimento"
+  },
+  {
+    "german": "die Metallografie",
+    "italian": "la metallografia"
+  },
+  {
+    "german": "die Gefügeanalyse",
+    "italian": "l'analisi microstrutturale"
+  },
+  {
+    "german": "die Wirbelstromprüfung",
+    "italian": "il controllo con correnti parassite"
+  },
+  {
+    "german": "die Magnetpulverprüfung",
+    "italian": "il controllo magnetoscopico"
+  },
+  {
+    "german": "die Eindringprüfung",
+    "italian": "il controllo con liquidi penetranti"
+  },
+  {
+    "german": "die Schallemissionsprüfung",
+    "italian": "il controllo con emissione acustica"
+  },
+  {
+    "german": "die Thermografie",
+    "italian": "la termografia"
+  },
+  {
+    "german": "die Grundierung",
+    "italian": "il primer"
+  },
+  {
+    "german": "die Füllerschicht",
+    "italian": "lo strato di fondo"
+  },
+  {
+    "german": "die Decklackierung",
+    "italian": "la verniciatura di finitura"
+  },
+  {
+    "german": "die Klarlackierung",
+    "italian": "la verniciatura trasparente"
+  },
+  {
+    "german": "die Elektrotauchlackierung",
+    "italian": "la verniciatura per elettrodeposizione"
+  },
+  {
+    "german": "die Spritzlackierung",
+    "italian": "la verniciatura a spruzzo"
+  },
+  {
+    "german": "die Tauchlackierung",
+    "italian": "la verniciatura ad immersione"
+  },
+  {
+    "german": "die Walzlackierung",
+    "italian": "la verniciatura a rullo"
+  },
+  {
+    "german": "die Lackhaftung",
+    "italian": "l'adesione della vernice"
+  },
+  {
+    "german": "die Gitterschnittprüfung",
+    "italian": "la prova di quadrettatura"
+  },
+  {
+    "german": "die Lackhärtung",
+    "italian": "l'indurimento della vernice"
+  },
+  {
+    "german": "die UV-Härtung",
+    "italian": "l'indurimento UV"
+  },
+  {
+    "german": "die Schichtdickenmessung",
+    "italian": "la misurazione dello spessore del film"
+  },
+  {
+    "german": "die Glanzgradmessung",
+    "italian": "la misurazione del grado di brillantezza"
+  },
+  {
+    "german": "die Farbtonabstimmung",
+    "italian": "la corrispondenza del colore"
+  },
+  {
+    "german": "die Verlaufseigenschaft",
+    "italian": "la proprietà di distensione"
+  },
+  {
+    "german": "die Lichtbogenschweißung",
+    "italian": "la saldatura ad arco"
+  },
+  {
+    "german": "die WIG-Schweißung",
+    "italian": "la saldatura TIG"
+  },
+  {
+    "german": "die MIG-MAG-Schweißung",
+    "italian": "la saldatura MIG-MAG"
+  },
+  {
+    "german": "die Widerstandsschweißung",
+    "italian": "la saldatura a resistenza"
+  },
+  {
+    "german": "die Laserschweißung",
+    "italian": "la saldatura laser"
+  },
+  {
+    "german": "die Elektronenstrahlschweißung",
+    "italian": "la saldatura a fascio di elettroni"
+  },
+  {
+    "german": "die Reibschweißung",
+    "italian": "la saldatura per attrito"
+  },
+  {
+    "german": "die Punktschweißung",
+    "italian": "la saldatura a punti"
+  },
+  {
+    "german": "die Schweißnahtvorbereitung",
+    "italian": "la preparazione del giunto"
+  },
+  {
+    "german": "die Schweißnahtprüfung",
+    "italian": "il controllo del giunto saldato"
+  },
+  {
+    "german": "die Schweißverzug",
+    "italian": "la distorsione da saldatura"
+  },
+  {
+    "german": "die Schweißeigenspannung",
+    "italian": "la tensione residua da saldatura"
+  },
+  {
+    "german": "die Schweißzusatzwerkstoff",
+    "italian": "il materiale d'apporto"
+  },
+  {
+    "german": "die Schutzgasschweißung",
+    "italian": "la saldatura in atmosfera protettiva"
+  },
+  {
+    "german": "die Hartlötung",
+    "italian": "la brasatura forte"
+  },
+  {
+    "german": "die Weichlötung",
+    "italian": "la brasatura dolce"
+  },
+  {
+    "german": "die BSB-Bestimmung",
+    "italian": "la determinazione del BOD"
+  },
+  {
+    "german": "die CSB-Bestimmung",
+    "italian": "la determinazione del COD"
+  },
+  {
+    "german": "die Ammoniumbestimmung",
+    "italian": "la determinazione dell'ammonio"
+  },
+  {
+    "german": "die Nitratbestimmung",
+    "italian": "la determinazione dei nitrati"
+  },
+  {
+    "german": "die Phosphatbestimmung",
+    "italian": "la determinazione dei fosfati"
+  },
+  {
+    "german": "die Schwermetallanalyse",
+    "italian": "l'analisi dei metalli pesanti"
+  },
+  {
+    "german": "die Trübungsmessung",
+    "italian": "la misurazione della torbidità"
+  },
+  {
+    "german": "die Leitfähigkeitsmessung",
+    "italian": "la misurazione della conducibilità"
+  },
+  {
+    "german": "die pH-Wert-Messung",
+    "italian": "la misurazione del pH"
+  },
+  {
+    "german": "die Sauerstoffgehaltmessung",
+    "italian": "la misurazione del contenuto di ossigeno"
+  },
+  {
+    "german": "die Schlammvolumenindex",
+    "italian": "l'indice del volume dei fanghi"
+  },
+  {
+    "german": "die Trockensubstanzbestimmung",
+    "italian": "la determinazione della sostanza secca"
+  },
+  {
+    "german": "die Glühverlustbestimmung",
+    "italian": "la determinazione della perdita al fuoco"
+  },
+  {
+    "german": "die AOX-Bestimmung",
+    "italian": "la determinazione degli AOX"
+  },
+  {
+    "german": "die Mikrobiologische Untersuchung",
+    "italian": "l'analisi microbiologica"
+  },
+  {
+    "german": "die Probenahme",
+    "italian": "il campionamento"
+  },
+  {
+    "german": "die Wandheizung",
+    "italian": "il riscaldamento a parete"
+  },
+  {
+    "german": "die Fernwärme",
+    "italian": "il teleriscaldamento"
+  },
+  {
+    "german": "die Nahwärme",
+    "italian": "il riscaldamento di quartiere"
+  },
+  {
+    "german": "die Pelletheizung",
+    "italian": "il riscaldamento a pellet"
+  },
+  {
+    "german": "die Hackschnitzelheizung",
+    "italian": "il riscaldamento a cippato"
+  },
+  {
+    "german": "die Solarthermie",
+    "italian": "il solare termico"
+  },
+  {
+    "german": "die Brennwerttechnik",
+    "italian": "la tecnica a condensazione"
+  },
+  {
+    "german": "die Heizlastberechnung",
+    "italian": "il calcolo del fabbisogno termico"
+  },
+  {
+    "german": "die Heizkurveneinstellung",
+    "italian": "la regolazione della curva climatica"
+  },
+  {
+    "german": "die Heizungsregelung",
+    "italian": "la regolazione del riscaldamento"
+  },
+  {
+    "german": "die Warmwasserbereitung",
+    "italian": "la produzione di acqua calda"
+  },
+  {
+    "german": "die Zirkulationsleitung",
+    "italian": "la condotta di ricircolo"
+  },
+  {
+    "german": "die Ausdehnungsgefäß",
+    "italian": "il vaso di espansione"
+  },
+  {
+    "german": "die Umwälzpumpe",
+    "italian": "la pompa di circolazione"
+  },
+  {
+    "german": "die Schornsteinsanierung",
+    "italian": "il risanamento della canna fumaria"
+  },
+  {
+    "german": "die Beleuchtungsstärke",
+    "italian": "l'illuminamento"
+  },
+  {
+    "german": "die Leuchtdichte",
+    "italian": "la luminanza"
+  },
+  {
+    "german": "die Farbtemperatur",
+    "italian": "la temperatura di colore"
+  },
+  {
+    "german": "die Farbwiedergabe",
+    "italian": "la resa cromatica"
+  },
+  {
+    "german": "die Blendungsbewertung",
+    "italian": "la valutazione dell'abbagliamento"
+  },
+  {
+    "german": "die Straßenbeleuchtung",
+    "italian": "l'illuminazione stradale"
+  },
+  {
+    "german": "die Bürobeleuchtung",
+    "italian": "l'illuminazione per uffici"
+  },
+  {
+    "german": "die Industriebeleuchtung",
+    "italian": "l'illuminazione industriale"
+  },
+  {
+    "german": "die Sportplatzbeleuchtung",
+    "italian": "l'illuminazione sportiva"
+  },
+  {
+    "german": "die Notbeleuchtung",
+    "italian": "l'illuminazione d'emergenza"
+  },
+  {
+    "german": "die Lichtplanung",
+    "italian": "la progettazione illuminotecnica"
+  },
+  {
+    "german": "die Tageslichtlenkung",
+    "italian": "la guida della luce diurna"
+  },
+  {
+    "german": "die LED-Technologie",
+    "italian": "la tecnologia LED"
+  },
+  {
+    "german": "die OLED-Technologie",
+    "italian": "la tecnologia OLED"
+  },
+  {
+    "german": "die Lichtsteuerung",
+    "italian": "il controllo dell'illuminazione"
+  },
+  {
+    "german": "die Human Centric Lighting",
+    "italian": "l'illuminazione incentrata sull'uomo"
+  },
+  {
+    "german": "die Seilaufzugsanlage",
+    "italian": "l'impianto ascensore a fune"
+  },
+  {
+    "german": "die Hydraulikaufzugsanlage",
+    "italian": "l'impianto ascensore idraulico"
+  },
+  {
+    "german": "die Aufzugskabine",
+    "italian": "la cabina dell'ascensore"
+  },
+  {
+    "german": "die Aufzugssteuerung",
+    "italian": "il comando dell'ascensore"
+  },
+  {
+    "german": "die Fangvorrichtung",
+    "italian": "il paracadute dell'ascensore"
+  },
+  {
+    "german": "die Geschwindigkeitsbegrenzer",
+    "italian": "il limitatore di velocità"
+  },
+  {
+    "german": "die Türantrieb",
+    "italian": "l'azionamento delle porte"
+  },
+  {
+    "german": "die Lastmessung",
+    "italian": "la misurazione del carico"
+  },
+  {
+    "german": "die Fahrkorbanzeige",
+    "italian": "l'indicatore di posizione della cabina"
+  },
+  {
+    "german": "die Notrufeinrichtung",
+    "italian": "il sistema di chiamata d'emergenza"
+  },
+  {
+    "german": "die Aufzugsprüfung",
+    "italian": "il collaudo dell'ascensore"
+  },
+  {
+    "german": "die Fahrtreppe",
+    "italian": "la scala mobile"
+  },
+  {
+    "german": "die Fahrsteig",
+    "italian": "il marciapiede mobile"
+  },
+  {
+    "german": "die Aufzugsschacht",
+    "italian": "il vano ascensore"
+  },
+  {
+    "german": "die Personenbeförderung",
+    "italian": "il trasporto di persone"
+  },
+  {
+    "german": "die Batteriemanagementsystem",
+    "italian": "il sistema di gestione della batteria"
+  },
+  {
+    "german": "die Traktionsbatterie",
+    "italian": "la batteria di trazione"
+  },
+  {
+    "german": "die Ladeleistung",
+    "italian": "la potenza di ricarica"
+  },
+  {
+    "german": "die Schnellladesäule",
+    "italian": "la colonnina di ricarica rapida"
+  },
+  {
+    "german": "die Wallbox",
+    "italian": "la wallbox"
+  },
+  {
+    "german": "die Rekuperation",
+    "italian": "la frenata rigenerativa"
+  },
+  {
+    "german": "die Zellfertigung",
+    "italian": "la produzione delle celle"
+  },
+  {
+    "german": "die Lithium-Ionen-Zelle",
+    "italian": "la cella agli ioni di litio"
+  },
+  {
+    "german": "die Batterierecycling",
+    "italian": "il riciclo delle batterie"
+  },
+  {
+    "german": "die Brennstoffzellenfahrzeug",
+    "italian": "il veicolo a celle a combustibile"
+  },
+  {
+    "german": "die Bidirektionales Laden",
+    "italian": "la ricarica bidirezionale"
+  },
+  {
+    "german": "die Induktives Laden",
+    "italian": "la ricarica a induzione"
+  },
+  {
+    "german": "die Zutrittskontrolle",
+    "italian": "il controllo degli accessi"
+  },
+  {
+    "german": "die Videoüberwachung",
+    "italian": "la videosorveglianza"
+  },
+  {
+    "german": "die Einbruchmeldeanlage",
+    "italian": "il sistema antintrusione"
+  },
+  {
+    "german": "die Brandmeldeanlage",
+    "italian": "il sistema di rilevamento incendi"
+  },
+  {
+    "german": "die Rauchansaugsystem",
+    "italian": "il sistema di rilevamento fumi ad aspirazione"
+  },
+  {
+    "german": "die Entrauchungsanlage",
+    "italian": "il sistema di evacuazione dei fumi"
+  },
+  {
+    "german": "die Löschwasserversorgung",
+    "italian": "l'approvvigionamento idrico antincendio"
+  },
+  {
+    "german": "die Brandschutztür",
+    "italian": "la porta tagliafuoco"
+  },
+  {
+    "german": "die Feuerwiderstandsklasse",
+    "italian": "la classe di resistenza al fuoco"
+  },
+  {
+    "german": "die Fluchtwegsicherung",
+    "italian": "la messa in sicurezza delle vie di fuga"
+  },
+  {
+    "german": "die Gaslöschanlage",
+    "italian": "il sistema di spegnimento a gas"
+  },
+  {
+    "german": "die Sprühflutanlage",
+    "italian": "il sistema di spegnimento a diluvio"
+  },
+  {
+    "german": "die Rauchwarnmelder",
+    "italian": "il rilevatore di fumo"
+  },
+  {
+    "german": "die Kohlenmonoxidmelder",
+    "italian": "il rilevatore di monossido di carbonio"
+  },
+  {
+    "german": "die Personen-Notsignal-Anlage",
+    "italian": "il sistema di segnalazione di emergenza personale"
+  },
+  {
+    "german": "die Perimeterschutz",
+    "italian": "la protezione perimetrale"
+  },
+  {
+    "german": "die Plasmabeschichtung",
+    "italian": "il rivestimento al plasma"
+  },
+  {
+    "german": "die Vakuumbeschichtung",
+    "italian": "il rivestimento sotto vuoto"
+  },
+  {
+    "german": "die PVD-Beschichtung",
+    "italian": "il rivestimento PVD"
+  },
+  {
+    "german": "die CVD-Beschichtung",
+    "italian": "il rivestimento CVD"
+  },
+  {
+    "german": "die thermische Spritzung",
+    "italian": "la spruzzatura termica"
+  },
+  {
+    "german": "die Hartstoffbeschichtung",
+    "italian": "il rivestimento in materiale duro"
+  },
+  {
+    "german": "die Plasmanitridierung",
+    "italian": "la nitrurazione al plasma"
+  },
+  {
+    "german": "die Laserstrukturierung",
+    "italian": "la strutturazione laser"
+  },
+  {
+    "german": "die Entgratung",
+    "italian": "la sbavatura"
+  },
+  {
+    "german": "die Gleitschleifen",
+    "italian": "la finitura vibrante"
+  },
+  {
+    "german": "die Elektropolieren",
+    "italian": "l'elettrolucidatura"
+  },
+  {
+    "german": "die Kugelstrahlen",
+    "italian": "la pallinatura"
+  },
+  {
+    "german": "die Laserpolieren",
+    "italian": "la lucidatura laser"
+  },
+  {
+    "german": "die Rauheitsmessung",
+    "italian": "la misurazione della rugosità"
+  },
+  {
+    "german": "die Benetzungsprüfung",
+    "italian": "la prova di bagnabilità"
+  },
+  {
+    "german": "die Schichtanalytik",
+    "italian": "l'analisi dei rivestimenti"
+  }
+]

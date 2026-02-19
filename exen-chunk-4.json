@@ -1,0 +1,2402 @@
+[
+  {
+    "level": "c1",
+    "de": "Enzym",
+    "example": "Das Enzym katalysiert.",
+    "exampleIt": "L'enzima catalizza."
+  },
+  {
+    "level": "c1",
+    "de": "Hormon",
+    "example": "Das Hormon reguliert.",
+    "exampleIt": "L'ormone regola."
+  },
+  {
+    "level": "c1",
+    "de": "Endoskopie",
+    "example": "Endoskopie ist minimalinvasiv.",
+    "exampleIt": "L'endoscopia è minimamente invasiva."
+  },
+  {
+    "level": "c1",
+    "de": "Biopsie",
+    "example": "Die Biopsie ist diagnostisch.",
+    "exampleIt": "La biopsia è diagnostica."
+  },
+  {
+    "level": "c1",
+    "de": "Chirurgie",
+    "example": "Chirurgie ist invasiv.",
+    "exampleIt": "La chirurgia è invasiva."
+  },
+  {
+    "level": "c1",
+    "de": "Onkologie",
+    "example": "Onkologie behandelt Krebs.",
+    "exampleIt": "L'oncologia tratta il cancro."
+  },
+  {
+    "level": "c1",
+    "de": "Kardiologie",
+    "example": "Kardiologie studiert Herz.",
+    "exampleIt": "La cardiologia studia il cuore."
+  },
+  {
+    "level": "c1",
+    "de": "Neurologie",
+    "example": "Neurologie untersucht Nerven.",
+    "exampleIt": "La neurologia esamina i nervi."
+  },
+  {
+    "level": "c1",
+    "de": "Psychiatrie",
+    "example": "Psychiatrie behandelt Geist.",
+    "exampleIt": "La psichiatria tratta la mente."
+  },
+  {
+    "level": "c1",
+    "de": "Morphologie",
+    "example": "Morphologie analysiert Wortstruktur.",
+    "exampleIt": "La morfologia analizza la struttura delle parole."
+  },
+  {
+    "level": "c1",
+    "de": "Syntax",
+    "example": "Syntax ordnet Sätze.",
+    "exampleIt": "La sintassi ordina le frasi."
+  },
+  {
+    "level": "c1",
+    "de": "Semiotik",
+    "example": "Semiotik untersucht Zeichen.",
+    "exampleIt": "La semiotica esamina i segni."
+  },
+  {
+    "level": "c1",
+    "de": "Linguistik",
+    "example": "Linguistik ist Sprachwissenschaft.",
+    "exampleIt": "La linguistica è la scienza del linguaggio."
+  },
+  {
+    "level": "c1",
+    "de": "Phonetik",
+    "example": "Phonetik untersucht Laute.",
+    "exampleIt": "La fonetica esamina i suoni."
+  },
+  {
+    "level": "c1",
+    "de": "Phonologie",
+    "example": "Phonologie ordnet Laute.",
+    "exampleIt": "La fonologia ordina i suoni."
+  },
+  {
+    "level": "c1",
+    "de": "Wortbildung",
+    "example": "Wortbildung schafft neue Wörter.",
+    "exampleIt": "La formazione di parole crea nuove parole."
+  },
+  {
+    "level": "c1",
+    "de": "Etymologie",
+    "example": "Etymologie erforscht Wortherkunft.",
+    "exampleIt": "L'etimologia ricerca l'origine delle parole."
+  },
+  {
+    "level": "c1",
+    "de": "Idiom",
+    "example": "Idiom ist sprachenspezifisch.",
+    "exampleIt": "L'idioma è specifico della lingua."
+  },
+  {
+    "level": "c1",
+    "de": "Redewendung",
+    "example": "Redewendung ist figurativ.",
+    "exampleIt": "Il modo di dire è figurativo."
+  },
+  {
+    "level": "c1",
+    "de": "Sprichwort",
+    "example": "Sprichwort ist Weisheit.",
+    "exampleIt": "Il proverbio è saggezza."
+  },
+  {
+    "level": "c1",
+    "de": "Metapher",
+    "example": "Metapher ist Vergleich.",
+    "exampleIt": "La metafora è un paragone."
+  },
+  {
+    "level": "c1",
+    "de": "Metonymie",
+    "example": "Metonymie ist Wortersetzung.",
+    "exampleIt": "La metonimia è sostituzione di parole."
+  },
+  {
+    "level": "c1",
+    "de": "Synekdoche",
+    "example": "Synekdoche ist Teilersatz.",
+    "exampleIt": "La sineddoche è sostituzione di parti."
+  },
+  {
+    "level": "c1",
+    "de": "Litotes",
+    "example": "Litotes ist Untertreibung.",
+    "exampleIt": "La litote è attenuazione."
+  },
+  {
+    "level": "c1",
+    "de": "Hyperbel",
+    "example": "Hyperbel ist Übertreibung.",
+    "exampleIt": "L'iperbole è esagerazione."
+  },
+  {
+    "level": "c1",
+    "de": "Oxymoron",
+    "example": "Oxymoron ist Widerspruch.",
+    "exampleIt": "L'ossimoro è contraddizione."
+  },
+  {
+    "level": "c1",
+    "de": "Asyndeton",
+    "example": "Asyndeton weglassen Konjunktionen.",
+    "exampleIt": "L'asindeto omette le congiunzioni."
+  },
+  {
+    "level": "c1",
+    "de": "Polysyndeton",
+    "example": "Polysyndeton wiederholt Konjunktionen.",
+    "exampleIt": "Il polisindeto ripete le congiunzioni."
+  },
+  {
+    "level": "c1",
+    "de": "Chiasmus",
+    "example": "Chiasmus ist Antithese.",
+    "exampleIt": "Il chiasmo è antitesi."
+  },
+  {
+    "level": "c1",
+    "de": "Ethnozentrismus",
+    "example": "Ethnozentrismus ist Bias.",
+    "exampleIt": "L'etnocentrismo è pregiudizio."
+  },
+  {
+    "level": "c1",
+    "de": "Kulturrelativismus",
+    "example": "Kulturrelativismus respektiert Unterschiede.",
+    "exampleIt": "Il relativismo culturale rispetta le differenze."
+  },
+  {
+    "level": "c1",
+    "de": "Akkulturation",
+    "example": "Akkulturation ist Prozess.",
+    "exampleIt": "L'acculturazione è un processo."
+  },
+  {
+    "level": "c1",
+    "de": "Assimilation",
+    "example": "Assimilation ist Integration.",
+    "exampleIt": "L'assimilazione è integrazione."
+  },
+  {
+    "level": "c1",
+    "de": "Hegemonie",
+    "example": "Hegemonie ist Dominanz.",
+    "exampleIt": "L'egemonia è dominio."
+  },
+  {
+    "level": "c1",
+    "de": "Subalternität",
+    "example": "Subalternität ist Unterordnung.",
+    "exampleIt": "La subalternità è subordinazione."
+  },
+  {
+    "level": "c1",
+    "de": "Performativität",
+    "example": "Performativität konstituiert Identität.",
+    "exampleIt": "La performatività costituisce l'identità."
+  },
+  {
+    "level": "c1",
+    "de": "Intersektionalität",
+    "example": "Intersektionalität überlagert Identitäten.",
+    "exampleIt": "L'intersezionalità sovrappone le identità."
+  },
+  {
+    "level": "c1",
+    "de": "Hybridität",
+    "example": "Hybridität ist Vermischung.",
+    "exampleIt": "L'ibridità è mescolanza."
+  },
+  {
+    "level": "c1",
+    "de": "Transnationalismus",
+    "example": "Transnationalismus überschreitet Grenzen.",
+    "exampleIt": "Il transnazionalismo supera i confini."
+  },
+  {
+    "level": "c1",
+    "de": "Globalisierung",
+    "example": "Globalisierung verbindet.",
+    "exampleIt": "La globalizzazione collega."
+  },
+  {
+    "level": "c1",
+    "de": "Lokalisierung",
+    "example": "Lokalisierung verankert.",
+    "exampleIt": "La localizzazione ancora."
+  },
+  {
+    "level": "c1",
+    "de": "Glocalisierung",
+    "example": "Glocalisierung verbindet Global und Lokal.",
+    "exampleIt": "La glocalizzazione combina globale e locale."
+  },
+  {
+    "level": "c1",
+    "de": "Postkolonialismus",
+    "example": "Postkolonialismus hinterfragt Colonialherrschaft.",
+    "exampleIt": "Il postcolonialismo mette in questione il colonialismo."
+  },
+  {
+    "level": "c1",
+    "de": "Kulturwechsel",
+    "example": "Kulturwechsel ist dynamisch.",
+    "exampleIt": "Il cambio culturale è dinamico."
+  },
+  {
+    "level": "c1",
+    "de": "Kulturkontakt",
+    "example": "Kulturkontakt führt zu Austausch.",
+    "exampleIt": "Il contatto culturale porta allo scambio."
+  },
+  {
+    "level": "c1",
+    "de": "Kulturkonflikt",
+    "example": "Kulturkonflikt ist herausfordernd.",
+    "exampleIt": "Il conflitto culturale è impegnativo."
+  },
+  {
+    "level": "c1",
+    "de": "Kulturerbe",
+    "example": "Kulturerbe ist wertvoll.",
+    "exampleIt": "Il patrimonio culturale è prezioso."
+  },
+  {
+    "level": "c1",
+    "de": "Ritualisierung",
+    "example": "Ritualisierung festigt Praktiken.",
+    "exampleIt": "La ritualizzazione consolida le pratiche."
+  },
+  {
+    "level": "c1",
+    "de": "Sakralisierung",
+    "example": "Sakralisierung heiligt.",
+    "exampleIt": "La sacralizzazione santifica."
+  },
+  {
+    "level": "c1",
+    "de": "Neurowissenschaft",
+    "example": "Die Neurowissenschaft ist faszinierend.",
+    "exampleIt": "Le neuroscienze sono affascinanti."
+  },
+  {
+    "level": "c1",
+    "de": "Gehirn",
+    "example": "Das Gehirn ist komplex.",
+    "exampleIt": "Il cervello è complesso."
+  },
+  {
+    "level": "c1",
+    "de": "Neuron",
+    "example": "Das Neuron ist aktiv.",
+    "exampleIt": "Il neurone è attivo."
+  },
+  {
+    "level": "c1",
+    "de": "Synapse",
+    "example": "Die Synapse ist winzig.",
+    "exampleIt": "La sinapsi è minuscola."
+  },
+  {
+    "level": "c1",
+    "de": "Neurotransmitter",
+    "example": "Der Neurotransmitter ist chemisch.",
+    "exampleIt": "Il neurotrasmettitore è chimico."
+  },
+  {
+    "level": "c1",
+    "de": "Cortex",
+    "example": "Der Cortex ist wichtig.",
+    "exampleIt": "La corteccia è importante."
+  },
+  {
+    "level": "c1",
+    "de": "Hippocampus",
+    "example": "Der Hippocampus speichert Erinnerungen.",
+    "exampleIt": "L'ippocampo immagazzina i ricordi."
+  },
+  {
+    "level": "c1",
+    "de": "Gedächtnis",
+    "example": "Das Gedächtnis ist selektiv.",
+    "exampleIt": "La memoria è selettiva."
+  },
+  {
+    "level": "c1",
+    "de": "Lernfähigkeit",
+    "example": "Die Lernfähigkeit ist plastisch.",
+    "exampleIt": "La capacità di apprendimento è plastica."
+  },
+  {
+    "level": "c1",
+    "de": "Sinnesorgan",
+    "example": "Das Sinnesorgan ist sensibel.",
+    "exampleIt": "L'organo sensoriale è sensibile."
+  },
+  {
+    "level": "c1",
+    "de": "Wahrnehmung",
+    "example": "Die Wahrnehmung ist subjektiv.",
+    "exampleIt": "La percezione è soggettiva."
+  },
+  {
+    "level": "c1",
+    "de": "Stimulus",
+    "example": "Der Stimulus löst Reaktion aus.",
+    "exampleIt": "Lo stimolo provoca una reazione."
+  },
+  {
+    "level": "c1",
+    "de": "Reaktion",
+    "example": "Die Reaktion ist schnell.",
+    "exampleIt": "La reazione è veloce."
+  },
+  {
+    "level": "c1",
+    "de": "Reflex",
+    "example": "Der Reflex ist angeboren.",
+    "exampleIt": "Il riflesso è innato."
+  },
+  {
+    "level": "c1",
+    "de": "Verhalten",
+    "example": "Das Verhalten ist beobachtbar.",
+    "exampleIt": "Il comportamento è osservabile."
+  },
+  {
+    "level": "c1",
+    "de": "Emotion",
+    "example": "Die Emotion ist intensiv.",
+    "exampleIt": "L'emozione è intensa."
+  },
+  {
+    "level": "c1",
+    "de": "Bewusstsein",
+    "example": "Das Bewusstsein ist rätselhaft.",
+    "exampleIt": "La consapevolezza è enigmatica."
+  },
+  {
+    "level": "c1",
+    "de": "Unbewusstsein",
+    "example": "Das Unbewusstsein ist mächtig.",
+    "exampleIt": "L'inconscio è potente."
+  },
+  {
+    "level": "c1",
+    "de": "neurologisch",
+    "example": "Das ist eine neurologische Störung.",
+    "exampleIt": "Questo è un disturbo neurologico."
+  },
+  {
+    "level": "c1",
+    "de": "kognitiv",
+    "example": "Das ist eine kognitive Funktion.",
+    "exampleIt": "Questa è una funzione cognitiva."
+  },
+  {
+    "level": "c1",
+    "de": "Kunstgeschichte",
+    "example": "Die Kunstgeschichte ist faszinierend.",
+    "exampleIt": "La storia dell'arte è affascinante."
+  },
+  {
+    "level": "c1",
+    "de": "Kunstwerk",
+    "example": "Das Kunstwerk ist berühmt.",
+    "exampleIt": "L'opera d'arte è famosa."
+  },
+  {
+    "level": "c1",
+    "de": "Meisterwerk",
+    "example": "Das Meisterwerk ist zeitlos.",
+    "exampleIt": "Il capolavoro è senza tempo."
+  },
+  {
+    "level": "c1",
+    "de": "Kunstrichtung",
+    "example": "Die Kunstrichtung ist revolutionär.",
+    "exampleIt": "Il movimento artistico è rivoluzionario."
+  },
+  {
+    "level": "c1",
+    "de": "Renaissance",
+    "example": "Die Renaissance war fruchtbar.",
+    "exampleIt": "Il Rinascimento era fecondo."
+  },
+  {
+    "level": "c1",
+    "de": "Barock",
+    "example": "Der Barock war extravagant.",
+    "exampleIt": "Il Barocco era stravagante."
+  },
+  {
+    "level": "c1",
+    "de": "Klassizismus",
+    "example": "Der Klassizismus war ordentlich.",
+    "exampleIt": "Il Classicismo era ordinato."
+  },
+  {
+    "level": "c1",
+    "de": "Romantik",
+    "example": "Die Romantik war emotional.",
+    "exampleIt": "Il Romanticismo era emotivo."
+  },
+  {
+    "level": "c1",
+    "de": "Impressionismus",
+    "example": "Der Impressionismus war neu.",
+    "exampleIt": "L'Impressionismo era nuovo."
+  },
+  {
+    "level": "c1",
+    "de": "Expressionismus",
+    "example": "Der Expressionismus war kraftvoll.",
+    "exampleIt": "L'Espressionismo era potente."
+  },
+  {
+    "level": "c1",
+    "de": "Malerei",
+    "example": "Die Malerei ist visuell.",
+    "exampleIt": "La pittura è visiva."
+  },
+  {
+    "level": "c1",
+    "de": "Skulptur",
+    "example": "Die Skulptur ist dreidimensional.",
+    "exampleIt": "La scultura è tridimensionale."
+  },
+  {
+    "level": "c1",
+    "de": "Farbe",
+    "example": "Die Farbe ist lebendig.",
+    "exampleIt": "Il colore è vivido."
+  },
+  {
+    "level": "c1",
+    "de": "Komposition",
+    "example": "Die Komposition ist ausgewogen.",
+    "exampleIt": "La composizione è equilibrata."
+  },
+  {
+    "level": "c1",
+    "de": "Perspektive",
+    "example": "Die Perspektive ist räumlich.",
+    "exampleIt": "La prospettiva è spaziale."
+  },
+  {
+    "level": "c1",
+    "de": "Licht",
+    "example": "Das Licht ist leuchtend.",
+    "exampleIt": "La luce è luminosa."
+  },
+  {
+    "level": "c1",
+    "de": "Schatten",
+    "example": "Der Schatten ist dunkel.",
+    "exampleIt": "L'ombra è scura."
+  },
+  {
+    "level": "c1",
+    "de": "Form",
+    "example": "Die Form ist abstrakt.",
+    "exampleIt": "La forma è astratta."
+  },
+  {
+    "level": "c1",
+    "de": "Stil",
+    "example": "Der Stil ist erkennbar.",
+    "exampleIt": "Lo stile è riconoscibile."
+  },
+  {
+    "level": "c1",
+    "de": "künstlerisch",
+    "example": "Das ist eine künstlerische Vision.",
+    "exampleIt": "Questa è una visione artistica."
+  },
+  {
+    "level": "c1",
+    "de": "Politikwissenschaft",
+    "example": "Die Politikwissenschaft ist relevant.",
+    "exampleIt": "Le scienze politiche sono rilevanti."
+  },
+  {
+    "level": "c1",
+    "de": "Politik",
+    "example": "Die Politik ist komplex.",
+    "exampleIt": "La politica è complessa."
+  },
+  {
+    "level": "c1",
+    "de": "Staat",
+    "example": "Der Staat ist mächtig.",
+    "exampleIt": "Lo stato è potente."
+  },
+  {
+    "level": "c1",
+    "de": "Regierung",
+    "example": "Die Regierung regiert.",
+    "exampleIt": "Il governo governa."
+  },
+  {
+    "level": "c1",
+    "de": "Parlament",
+    "example": "Das Parlament macht Gesetze.",
+    "exampleIt": "Il parlamento fa leggi."
+  },
+  {
+    "level": "c1",
+    "de": "Präsident",
+    "example": "Der Präsident ist gewählt.",
+    "exampleIt": "Il presidente è eletto."
+  },
+  {
+    "level": "c1",
+    "de": "Kanzler",
+    "example": "Der Kanzler regiert.",
+    "exampleIt": "Il cancelliere governa."
+  },
+  {
+    "level": "c1",
+    "de": "Wahl",
+    "example": "Die Wahl ist frei.",
+    "exampleIt": "L'elezione è libera."
+  },
+  {
+    "level": "c1",
+    "de": "Abstimmung",
+    "example": "Die Abstimmung ist geheim.",
+    "exampleIt": "Il voto è segreto."
+  },
+  {
+    "level": "c1",
+    "de": "Partei",
+    "example": "Die Partei hat Mitglieder.",
+    "exampleIt": "Il partito ha membri."
+  },
+  {
+    "level": "c1",
+    "de": "Ideologie",
+    "example": "Die Ideologie ist prägnant.",
+    "exampleIt": "L'ideologia è pronunciata."
+  },
+  {
+    "level": "c1",
+    "de": "Demokratie",
+    "example": "Die Demokratie ist wertvoll.",
+    "exampleIt": "La democrazia è preziosa."
+  },
+  {
+    "level": "c1",
+    "de": "Diktatur",
+    "example": "Die Diktatur ist unterdrückend.",
+    "exampleIt": "La dittatura è oppressiva."
+  },
+  {
+    "level": "c1",
+    "de": "Monarchie",
+    "example": "Die Monarchie ist traditionell.",
+    "exampleIt": "La monarchia è tradizionale."
+  },
+  {
+    "level": "c1",
+    "de": "Republik",
+    "example": "Die Republik ist modern.",
+    "exampleIt": "La repubblica è moderna."
+  },
+  {
+    "level": "c1",
+    "de": "Verfassung",
+    "example": "Die Verfassung ist grundlegend.",
+    "exampleIt": "La costituzione è fondamentale."
+  },
+  {
+    "level": "c1",
+    "de": "Gesetz",
+    "example": "Das Gesetz ist bindend.",
+    "exampleIt": "La legge è vincolante."
+  },
+  {
+    "level": "c1",
+    "de": "Regelung",
+    "example": "Die Regelung ist klar.",
+    "exampleIt": "Il regolamento è chiaro."
+  },
+  {
+    "level": "c1",
+    "de": "Lobbyismus",
+    "example": "Der Lobbyismus ist einflussreich.",
+    "exampleIt": "Il lobbismo è influente."
+  },
+  {
+    "level": "c1",
+    "de": "Korruption",
+    "example": "Die Korruption ist schädlich.",
+    "exampleIt": "La corruzione è dannosa."
+  },
+  {
+    "level": "c1",
+    "de": "Linguistik",
+    "example": "Die Linguistik ist wissenschaftlich.",
+    "exampleIt": "La linguistica è scientifica."
+  },
+  {
+    "level": "c1",
+    "de": "Sprache",
+    "example": "Die Sprache ist vielfältig.",
+    "exampleIt": "La lingua è varia."
+  },
+  {
+    "level": "c1",
+    "de": "Wort",
+    "example": "Das Wort ist bedeutungsvoll.",
+    "exampleIt": "La parola è significativa."
+  },
+  {
+    "level": "c1",
+    "de": "Satz",
+    "example": "Der Satz ist grammatikalisch.",
+    "exampleIt": "La frase è grammaticale."
+  },
+  {
+    "level": "c1",
+    "de": "Grammatik",
+    "example": "Die Grammatik ist komplex.",
+    "exampleIt": "La grammatica è complessa."
+  },
+  {
+    "level": "c1",
+    "de": "Syntax",
+    "example": "Die Syntax ist strukturiert.",
+    "exampleIt": "La sintassi è strutturata."
+  },
+  {
+    "level": "c1",
+    "de": "Semantik",
+    "example": "Die Semantik ist bedeutungsvoll.",
+    "exampleIt": "La semantica è significativa."
+  },
+  {
+    "level": "c1",
+    "de": "Phonologie",
+    "example": "Die Phonologie ist akustisch.",
+    "exampleIt": "La fonologia è acustica."
+  },
+  {
+    "level": "c1",
+    "de": "Dialekt",
+    "example": "Der Dialekt ist regional.",
+    "exampleIt": "Il dialetto è regionale."
+  },
+  {
+    "level": "c1",
+    "de": "Akzent",
+    "example": "Der Akzent ist erkennbar.",
+    "exampleIt": "L'accento è riconoscibile."
+  },
+  {
+    "level": "c1",
+    "de": "Bedeutung",
+    "example": "Die Bedeutung ist klar.",
+    "exampleIt": "Il significato è chiaro."
+  },
+  {
+    "level": "c1",
+    "de": "Etymologie",
+    "example": "Die Etymologie ist interessant.",
+    "exampleIt": "L'etimologia è interessante."
+  },
+  {
+    "level": "c1",
+    "de": "Morphologie",
+    "example": "Die Morphologie ist analytisch.",
+    "exampleIt": "La morfologia è analitica."
+  },
+  {
+    "level": "c1",
+    "de": "Pragmatik",
+    "example": "Die Pragmatik ist kontextabhängig.",
+    "exampleIt": "La pragmatica è dipendente dal contesto."
+  },
+  {
+    "level": "c1",
+    "de": "Diskurs",
+    "example": "Der Diskurs ist akademisch.",
+    "exampleIt": "Il discorso è accademico."
+  },
+  {
+    "level": "c1",
+    "de": "Metapher",
+    "example": "Die Metapher ist sprachlich.",
+    "exampleIt": "La metafora è linguistica."
+  },
+  {
+    "level": "c1",
+    "de": "Metonymie",
+    "example": "Die Metonymie ist stilistisch.",
+    "exampleIt": "La metonimia è stilistica."
+  },
+  {
+    "level": "c1",
+    "de": "Ironie",
+    "example": "Die Ironie ist subtil.",
+    "exampleIt": "L'ironia è sottile."
+  },
+  {
+    "level": "c1",
+    "de": "Idiomatisch",
+    "example": "Das ist ein idiomatischer Ausdruck.",
+    "exampleIt": "Questa è un'espressione idiomatica."
+  },
+  {
+    "level": "c1",
+    "de": "linguistisch",
+    "example": "Das ist eine linguistische Analyse.",
+    "exampleIt": "Questa è un'analisi linguistica."
+  },
+  {
+    "level": "c1",
+    "de": "Psychoanalyse",
+    "example": "Die Psychoanalyse ist tiefgreifend.",
+    "exampleIt": "La psicoanalisi è profonda."
+  },
+  {
+    "level": "c1",
+    "de": "Unbewusstsein",
+    "example": "Das Unbewusstsein ist verborgen.",
+    "exampleIt": "L'inconscio è nascosto."
+  },
+  {
+    "level": "c1",
+    "de": "Bewusstsein",
+    "example": "Das Bewusstsein ist wahrnehmend.",
+    "exampleIt": "La consapevolezza è consapevole."
+  },
+  {
+    "level": "c1",
+    "de": "Trieb",
+    "example": "Der Trieb ist grundlegend.",
+    "exampleIt": "La pulsione è fondamentale."
+  },
+  {
+    "level": "c1",
+    "de": "Abwehrmechanismus",
+    "example": "Der Abwehrmechanismus ist unbewusst.",
+    "exampleIt": "Il meccanismo di difesa è inconscio."
+  },
+  {
+    "level": "c1",
+    "de": "Verdrängung",
+    "example": "Die Verdrängung ist unbewusst.",
+    "exampleIt": "La rimozione è inconscia."
+  },
+  {
+    "level": "c1",
+    "de": "Projektion",
+    "example": "Die Projektion ist eine Abwehr.",
+    "exampleIt": "La proiezione è una difesa."
+  },
+  {
+    "level": "c1",
+    "de": "Regression",
+    "example": "Die Regression ist ein Rückzug.",
+    "exampleIt": "La regressione è un ritiro."
+  },
+  {
+    "level": "c1",
+    "de": "Sublimation",
+    "example": "Die Sublimation ist kreativ.",
+    "exampleIt": "La sublimazione è creativa."
+  },
+  {
+    "level": "c1",
+    "de": "Übertragung",
+    "example": "Die Übertragung ist relational.",
+    "exampleIt": "La transferenza è relazionale."
+  },
+  {
+    "level": "c1",
+    "de": "Gegenübertragung",
+    "example": "Die Gegenübertragung ist reziprok.",
+    "exampleIt": "Il controtransfert è reciproco."
+  },
+  {
+    "level": "c1",
+    "de": "Komplex",
+    "example": "Der Komplex ist emotional geladen.",
+    "exampleIt": "Il complesso è carico di emozione."
+  },
+  {
+    "level": "c1",
+    "de": "Symbol",
+    "example": "Das Symbol ist bedeutungsreich.",
+    "exampleIt": "Il simbolo è ricco di significato."
+  },
+  {
+    "level": "c1",
+    "de": "Traum",
+    "example": "Der Traum ist symbolisch.",
+    "exampleIt": "Il sogno è simbolico."
+  },
+  {
+    "level": "c1",
+    "de": "Assoziation",
+    "example": "Die Assoziation ist frei.",
+    "exampleIt": "L'associazione è libera."
+  },
+  {
+    "level": "c1",
+    "de": "Widerstand",
+    "example": "Der Widerstand ist unbewusst.",
+    "exampleIt": "La resistenza è inconscia."
+  },
+  {
+    "level": "c1",
+    "de": "Heilung",
+    "example": "Die Heilung ist ein Prozess.",
+    "exampleIt": "La guarigione è un processo."
+  },
+  {
+    "level": "c1",
+    "de": "Therapie",
+    "example": "Die Therapie ist tiefenorientiert.",
+    "exampleIt": "La terapia è orientata in profondità."
+  },
+  {
+    "level": "c1",
+    "de": "analytisch",
+    "example": "Die analytische Sicht ist introspektiv.",
+    "exampleIt": "La vista analitica è introspettiva."
+  },
+  {
+    "level": "c1",
+    "de": "unbewusst",
+    "example": "Das ist eine unbewusste Motivation.",
+    "exampleIt": "Questa è una motivazione inconscia."
+  },
+  {
+    "level": "c1",
+    "de": "Umweltwissenschaft",
+    "example": "Die Umweltwissenschaft ist dringend.",
+    "exampleIt": "Le scienze ambientali sono urgenti."
+  },
+  {
+    "level": "c1",
+    "de": "Ökosystem",
+    "example": "Das Ökosystem ist fragile.",
+    "exampleIt": "L'ecosistema è fragile."
+  },
+  {
+    "level": "c1",
+    "de": "Habitat",
+    "example": "Der Habitat ist lebenswichtig.",
+    "exampleIt": "L'habitat è vitale."
+  },
+  {
+    "level": "c1",
+    "de": "Nahrungskette",
+    "example": "Die Nahrungskette ist komplex.",
+    "exampleIt": "La catena alimentare è complessa."
+  },
+  {
+    "level": "c1",
+    "de": "Biodiversität",
+    "example": "Die Biodiversität ist gefährdet.",
+    "exampleIt": "La biodiversità è minacciata."
+  },
+  {
+    "level": "c1",
+    "de": "Klimawandel",
+    "example": "Der Klimawandel ist real.",
+    "exampleIt": "Il cambiamento climatico è reale."
+  },
+  {
+    "level": "c1",
+    "de": "Treibhausgase",
+    "example": "Die Treibhausgase sind schädlich.",
+    "exampleIt": "I gas serra sono nocivi."
+  },
+  {
+    "level": "c1",
+    "de": "Kohlendioxid",
+    "example": "Das Kohlendioxid steigt.",
+    "exampleIt": "L'anidride carbonica aumenta."
+  },
+  {
+    "level": "c1",
+    "de": "Ozonloch",
+    "example": "Das Ozonloch ist bekannt.",
+    "exampleIt": "Il buco dell'ozono è noto."
+  },
+  {
+    "level": "c1",
+    "de": "Säuerung",
+    "example": "Die Säuerung der Ozeane ist kritisch.",
+    "exampleIt": "L'acidificazione degli oceani è critica."
+  },
+  {
+    "level": "c1",
+    "de": "Kontaminant",
+    "example": "Der Kontaminant ist giftig.",
+    "exampleIt": "Il contaminante è tossico."
+  },
+  {
+    "level": "c1",
+    "de": "Pestizid",
+    "example": "Das Pestizid ist umweltschädlich.",
+    "exampleIt": "Il pesticida è dannoso per l'ambiente."
+  },
+  {
+    "level": "c1",
+    "de": "Abfallwirtschaft",
+    "example": "Die Abfallwirtschaft ist wichtig.",
+    "exampleIt": "La gestione dei rifiuti è importante."
+  },
+  {
+    "level": "c1",
+    "de": "Wasserschutz",
+    "example": "Der Wasserschutz ist vital.",
+    "exampleIt": "La protezione dell'acqua è vitale."
+  },
+  {
+    "level": "c1",
+    "de": "Naturschutzgebiet",
+    "example": "Das Naturschutzgebiet ist bewacht.",
+    "exampleIt": "L'area protetta è sorvegliata."
+  },
+  {
+    "level": "c1",
+    "de": "Tragfähigkeit",
+    "example": "Die Tragfähigkeit ist begrenzt.",
+    "exampleIt": "La capacità portante è limitata."
+  },
+  {
+    "level": "c1",
+    "de": "Resilienz",
+    "example": "Die Resilienz ist adaptiv.",
+    "exampleIt": "La resilienza è adattiva."
+  },
+  {
+    "level": "c1",
+    "de": "Mitigation",
+    "example": "Die Mitigation ist notwendig.",
+    "exampleIt": "La mitigazione è necessaria."
+  },
+  {
+    "level": "c1",
+    "de": "Anpassung",
+    "example": "Die Anpassung ist erforderlich.",
+    "exampleIt": "L'adattamento è richiesto."
+  },
+  {
+    "level": "c1",
+    "de": "ökologisch",
+    "example": "Das ist ein ökologisches Problem.",
+    "exampleIt": "Questo è un problema ecologico."
+  },
+  {
+    "level": "c1",
+    "de": "Internationale Beziehungen",
+    "example": "Die internationalen Beziehungen sind komplex.",
+    "exampleIt": "Le relazioni internazionali sono complesse."
+  },
+  {
+    "level": "c1",
+    "de": "Geopolitik",
+    "example": "Die Geopolitik ist strategisch.",
+    "exampleIt": "La geopolitica è strategica."
+  },
+  {
+    "level": "c1",
+    "de": "Souveränität",
+    "example": "Die Souveränität ist fundamental.",
+    "exampleIt": "La sovranità è fondamentale."
+  },
+  {
+    "level": "c1",
+    "de": "Hegemonie",
+    "example": "Die Hegemonie ist mächtig.",
+    "exampleIt": "L'egemonia è potente."
+  },
+  {
+    "level": "c1",
+    "de": "Multipolarität",
+    "example": "Die Multipolarität ist aufsteigend.",
+    "exampleIt": "La multipolarità è in ascesa."
+  },
+  {
+    "level": "c1",
+    "de": "Unipolares System",
+    "example": "Das unipolare System ist unstabil.",
+    "exampleIt": "Il sistema unipolare è instabile."
+  },
+  {
+    "level": "c1",
+    "de": "Allianz",
+    "example": "Die Allianz ist strategisch.",
+    "exampleIt": "L'alleanza è strategica."
+  },
+  {
+    "level": "c1",
+    "de": "Blockbildung",
+    "example": "Die Blockbildung ist evident.",
+    "exampleIt": "La formazione di blocchi è evidente."
+  },
+  {
+    "level": "c1",
+    "de": "Soft Power",
+    "example": "Die Soft Power ist unterschätzt.",
+    "exampleIt": "Il soft power è sottovalutato."
+  },
+  {
+    "level": "c1",
+    "de": "Hard Power",
+    "example": "Die Hard Power ist sichtbar.",
+    "exampleIt": "L'hard power è visibile."
+  },
+  {
+    "level": "c1",
+    "de": "Diplomatie",
+    "example": "Die Diplomatie ist verhandelbar.",
+    "exampleIt": "La diplomazia è negoziabile."
+  },
+  {
+    "level": "c1",
+    "de": "Multilateralismus",
+    "example": "Der Multilateralismus ist inklusiv.",
+    "exampleIt": "Il multilateralismo è inclusivo."
+  },
+  {
+    "level": "c1",
+    "de": "Bilateralismus",
+    "example": "Der Bilateralismus ist direkter.",
+    "exampleIt": "Il bilateralismo è più diretto."
+  },
+  {
+    "level": "c1",
+    "de": "Integration",
+    "example": "Die Integration ist wirtschaftlich.",
+    "exampleIt": "L'integrazione è economica."
+  },
+  {
+    "level": "c1",
+    "de": "Kooperation",
+    "example": "Die Kooperation ist gegenseitig.",
+    "exampleIt": "La cooperazione è reciproca."
+  },
+  {
+    "level": "c1",
+    "de": "Konflikt",
+    "example": "Der Konflikt ist eskalierend.",
+    "exampleIt": "Il conflitto è in escalation."
+  },
+  {
+    "level": "c1",
+    "de": "Krieg",
+    "example": "Der Krieg ist zerstörerisch.",
+    "exampleIt": "La guerra è distruttiva."
+  },
+  {
+    "level": "c1",
+    "de": "Frieden",
+    "example": "Der Frieden ist kostbar.",
+    "exampleIt": "La pace è preziosa."
+  },
+  {
+    "level": "c1",
+    "de": "international",
+    "example": "Das ist eine internationale Frage.",
+    "exampleIt": "Questa è una questione internazionale."
+  },
+  {
+    "level": "c1",
+    "de": "transnational",
+    "example": "Das ist ein transnationaler Konzern.",
+    "exampleIt": "Questo è un'azienda transnazionale."
+  },
+  {
+    "level": "c1",
+    "de": "Wirtschaftstheorie",
+    "example": "Die Wirtschaftstheorie ist umstritten.",
+    "exampleIt": "La teoria economica è controversa."
+  },
+  {
+    "level": "c1",
+    "de": "Makroökonomie",
+    "example": "Die Makroökonomie ist aggregativ.",
+    "exampleIt": "La macroeconomia è aggregativa."
+  },
+  {
+    "level": "c1",
+    "de": "Mikroökonomie",
+    "example": "Die Mikroökonomie ist individualistisch.",
+    "exampleIt": "La microeconomia è individualistica."
+  },
+  {
+    "level": "c1",
+    "de": "Kapitalismus",
+    "example": "Der Kapitalismus ist dynamisch.",
+    "exampleIt": "Il capitalismo è dinamico."
+  },
+  {
+    "level": "c1",
+    "de": "Sozialismus",
+    "example": "Der Sozialismus ist kollektivist.",
+    "exampleIt": "Il socialismo è collettivista."
+  },
+  {
+    "level": "c1",
+    "de": "Keynesianismus",
+    "example": "Der Keynesianismus betont Nachfrage.",
+    "exampleIt": "Il keynesianismo enfatizza la domanda."
+  },
+  {
+    "level": "c1",
+    "de": "Monetarismus",
+    "example": "Der Monetarismus fokussiert auf Geldmenge.",
+    "exampleIt": "Il monetarismo si concentra sulla massa monetaria."
+  },
+  {
+    "level": "c1",
+    "de": "Angebot und Nachfrage",
+    "example": "Angebot und Nachfrage bestimmen den Preis.",
+    "exampleIt": "L'offerta e la domanda determinano il prezzo."
+  },
+  {
+    "level": "c1",
+    "de": "Marktmechanismus",
+    "example": "Der Marktmechanismus ist selbstregulierend.",
+    "exampleIt": "Il meccanismo di mercato è auto-regolante."
+  },
+  {
+    "level": "c1",
+    "de": "Gleichgewicht",
+    "example": "Das Gleichgewicht ist flüchtig.",
+    "exampleIt": "L'equilibrio è fugace."
+  },
+  {
+    "level": "c1",
+    "de": "Effizienz",
+    "example": "Die Effizienz ist pareto-optimal.",
+    "exampleIt": "L'efficienza è pareto-ottimale."
+  },
+  {
+    "level": "c1",
+    "de": "Externalität",
+    "example": "Die Externalität ist nicht preisgegeben.",
+    "exampleIt": "L'esternalità non è valutata nel prezzo."
+  },
+  {
+    "level": "c1",
+    "de": "Moral Hazard",
+    "example": "Das Moral Hazard ist problematisch.",
+    "exampleIt": "L'azzardo morale è problematico."
+  },
+  {
+    "level": "c1",
+    "de": "Asymmetrische Information",
+    "example": "Die asymmetrische Information ist problematisch.",
+    "exampleIt": "L'informazione asimmetrica è problematica."
+  },
+  {
+    "level": "c1",
+    "de": "Rente",
+    "example": "Die Rente ist unterschiedlich verteilt.",
+    "exampleIt": "La rendita è distribuita disuguaglianza."
+  },
+  {
+    "level": "c1",
+    "de": "Opportunitätskosten",
+    "example": "Die Opportunitätskosten sind bedeutsam.",
+    "exampleIt": "I costi opportunità sono significativi."
+  },
+  {
+    "level": "c1",
+    "de": "Knappheit",
+    "example": "Die Knappheit ist grundlegend.",
+    "exampleIt": "La scarsità è fondamentale."
+  },
+  {
+    "level": "c1",
+    "de": "Ressourcenallokation",
+    "example": "Die Ressourcenallokation ist zentral.",
+    "exampleIt": "L'allocazione delle risorse è centrale."
+  },
+  {
+    "level": "c1",
+    "de": "ökonomisch",
+    "example": "Das ist eine ökonomische Analyse.",
+    "exampleIt": "Questa è un'analisi economica."
+  },
+  {
+    "level": "c1",
+    "de": "theoretisch",
+    "example": "Das ist ein theoretisches Modell.",
+    "exampleIt": "Questo è un modello teorico."
+  },
+  {
+    "level": "c2",
+    "de": "sich befleißigen",
+    "example": "Er befleißigt sich der Aufmerksamkeit.",
+    "exampleIt": "Si dedica all'attenzione."
+  },
+  {
+    "level": "c2",
+    "de": "obwalten",
+    "example": "Es obwalten schwierige Bedingungen.",
+    "exampleIt": "Prevalgono condizioni difficili."
+  },
+  {
+    "level": "c2",
+    "de": "erörtern",
+    "example": "Wir erörtern die Frage.",
+    "exampleIt": "Discutiamo la questione."
+  },
+  {
+    "level": "c2",
+    "de": "gewahren",
+    "example": "Er gewahrt die Bewegung.",
+    "exampleIt": "Si accorge del movimento."
+  },
+  {
+    "level": "c2",
+    "de": "anberaumen",
+    "example": "Der Termin wird anberaumt.",
+    "exampleIt": "La data viene fissata."
+  },
+  {
+    "level": "c2",
+    "de": "zeitigen",
+    "example": "Die Maßnahme zeitigt Erfolg.",
+    "exampleIt": "La misura produce successo."
+  },
+  {
+    "level": "c2",
+    "de": "darlegen",
+    "example": "Er legt dar, was er denkt.",
+    "exampleIt": "Espone quello che pensa."
+  },
+  {
+    "level": "c2",
+    "de": "vorbringen",
+    "example": "Ein Vorschlag wird vorgebracht.",
+    "exampleIt": "Una proposta viene sottoposta."
+  },
+  {
+    "level": "c2",
+    "de": "erachten",
+    "example": "Ich erachte das für wichtig.",
+    "exampleIt": "Ritengo questo importante."
+  },
+  {
+    "level": "c2",
+    "de": "vermögen",
+    "example": "Er vermag nicht viel.",
+    "exampleIt": "Non può molto."
+  },
+  {
+    "level": "c2",
+    "de": "Wohlwollen",
+    "example": "Sein Wohlwollen ist evident.",
+    "exampleIt": "La sua benevolenza è evidente."
+  },
+  {
+    "level": "c2",
+    "de": "Verwegenheit",
+    "example": "Seine Verwegenheit ist bewunderungswürdig.",
+    "exampleIt": "La sua audacia è ammirevole."
+  },
+  {
+    "level": "c2",
+    "de": "Inbrunst",
+    "example": "Mit großer Inbrunst spricht er.",
+    "exampleIt": "Parla con grande ardore."
+  },
+  {
+    "level": "c2",
+    "de": "Innigkeit",
+    "example": "Die Innigkeit ist berührend.",
+    "exampleIt": "La tenerezza è commovente."
+  },
+  {
+    "level": "c2",
+    "de": "Ungnade",
+    "example": "Die Ungnade ist schwer zu tragen.",
+    "exampleIt": "La disgrazia è difficile da sopportare."
+  },
+  {
+    "level": "c2",
+    "de": "Huld",
+    "example": "Seine Huld ist ein großes Geschenk.",
+    "exampleIt": "Il suo favore è un grande dono."
+  },
+  {
+    "level": "c2",
+    "de": "Sühne",
+    "example": "Die Sühne ist erforderlich.",
+    "exampleIt": "L'espiazione è richiesta."
+  },
+  {
+    "level": "c2",
+    "de": "Anmut",
+    "example": "Die Anmut ihrer Bewegungen.",
+    "exampleIt": "La grazia dei suoi movimenti."
+  },
+  {
+    "level": "c2",
+    "de": "Wehmut",
+    "example": "Eine Wehmut überkam ihn.",
+    "exampleIt": "Una malinconia lo invase."
+  },
+  {
+    "level": "c2",
+    "de": "Schadenfreude",
+    "example": "Schadenfreude ist unschön.",
+    "exampleIt": "La gioia del male altrui è brutta."
+  },
+  {
+    "level": "c2",
+    "de": "Weltschmerz",
+    "example": "Ein Weltschmerz durchdringt das Werk.",
+    "exampleIt": "Un dolore del mondo permea l'opera."
+  },
+  {
+    "level": "c2",
+    "de": "Sehnsucht",
+    "example": "Die Sehnsucht ist tiefgreifend.",
+    "exampleIt": "La nostalgia è profonda."
+  },
+  {
+    "level": "c2",
+    "de": "Weltanschauung",
+    "example": "Die Weltanschauung ist wichtig.",
+    "exampleIt": "La visione del mondo è importante."
+  },
+  {
+    "level": "c2",
+    "de": "Zeitgeist",
+    "example": "Der Zeitgeist ändert sich.",
+    "exampleIt": "Lo spirito del tempo cambia."
+  },
+  {
+    "level": "c2",
+    "de": "Gemütlichkeit",
+    "example": "Die Gemütlichkeit ist wohltuend.",
+    "exampleIt": "Il calore è gradevole."
+  },
+  {
+    "level": "c2",
+    "de": "Wanderlust",
+    "example": "Wanderlust ist sein Streben.",
+    "exampleIt": "La sete di viaggi è il suo obiettivo."
+  },
+  {
+    "level": "c2",
+    "de": "Schadenfreude",
+    "example": "Schadenfreude ist unethisch.",
+    "exampleIt": "La gioia del male altrui è immorale."
+  },
+  {
+    "level": "c2",
+    "de": "Fernweh",
+    "example": "Fernweh treibt ihn fort.",
+    "exampleIt": "La nostalgia del lontano lo spinge via."
+  },
+  {
+    "level": "c2",
+    "de": "Heimat",
+    "example": "Die Heimat ist kostbar.",
+    "exampleIt": "La patria è preziosa."
+  },
+  {
+    "level": "c2",
+    "de": "Angst",
+    "example": "Angst ist menschlich.",
+    "exampleIt": "La paura è umana."
+  },
+  {
+    "level": "c2",
+    "de": "Kitsch",
+    "example": "Das ist Kitsch.",
+    "exampleIt": "È kitsch."
+  },
+  {
+    "level": "c2",
+    "de": "Leitmotiv",
+    "example": "Das Leitmotiv wiederholt sich.",
+    "exampleIt": "Il leitmotiv si ripete."
+  },
+  {
+    "level": "c2",
+    "de": "Doppelgänger",
+    "example": "Der Doppelgänger ist mysteriös.",
+    "exampleIt": "Il doppio è misterioso."
+  },
+  {
+    "level": "c2",
+    "de": "Bildungsroman",
+    "example": "Das ist ein Bildungsroman.",
+    "exampleIt": "È un romanzo di formazione."
+  },
+  {
+    "level": "c2",
+    "de": "Kindergarten",
+    "example": "Das ist ein deutsches Wort.",
+    "exampleIt": "È una parola tedesca."
+  },
+  {
+    "level": "c2",
+    "de": "Sturm und Drang",
+    "example": "Das ist Sturm und Drang.",
+    "exampleIt": "È tempesta e passione."
+  },
+  {
+    "level": "c2",
+    "de": "Wunderkind",
+    "example": "Das Kind ist ein Wunderkind.",
+    "exampleIt": "Il bambino è un prodigio."
+  },
+  {
+    "level": "c2",
+    "de": "Fingerspitzengefühl",
+    "example": "Das erfordert Fingerspitzengefühl.",
+    "exampleIt": "Richiede tatto."
+  },
+  {
+    "level": "c2",
+    "de": "Torschlusspanik",
+    "example": "Das ist Torschlusspanik.",
+    "exampleIt": "È il panico della porta che si chiude."
+  },
+  {
+    "level": "c2",
+    "de": "Verschlimmbesserung",
+    "example": "Das ist eine Verschlimmbesserung.",
+    "exampleIt": "È un peggioramento."
+  },
+  {
+    "level": "c2",
+    "de": "Handschuhschneeballwerfer",
+    "example": "Das ist ein dichterisches Wort.",
+    "exampleIt": "È una parola poetica."
+  },
+  {
+    "level": "c2",
+    "de": "allerdings / jedoch",
+    "example": "Er ist klug, allerdings fehlt ihm Erfahrung. / Er ist klug, jedoch fehlt ihm Erfahrung.",
+    "exampleIt": "È intelligente, tuttavia gli manca esperienza."
+  },
+  {
+    "level": "c2",
+    "de": "obgleich / obwohl",
+    "example": "Obgleich müde, arbeitet er weiter. / Obwohl müde, arbeitet er weiter.",
+    "exampleIt": "Sebbene stanco, continua a lavorare."
+  },
+  {
+    "level": "c2",
+    "de": "infolgedessen / demzufolge",
+    "example": "Der Plan ist klar, infolgedessen handeln wir. / Der Plan ist klar, demzufolge handeln wir.",
+    "exampleIt": "Il piano è chiaro, di conseguenza agiamo."
+  },
+  {
+    "level": "c2",
+    "de": "nichtsdestotrotz",
+    "example": "Der Preis ist hoch, nichtsdestotrotz kaufen wir.",
+    "exampleIt": "Il prezzo è alto, ciononostante compriamo."
+  },
+  {
+    "level": "c2",
+    "de": "gleichwohl",
+    "example": "Das ist schwierig, gleichwohl versuchen wir.",
+    "exampleIt": "È difficile, tuttavia proviamo."
+  },
+  {
+    "level": "c2",
+    "de": "indessen",
+    "example": "Das Konzert beginnt, indessen warten wir.",
+    "exampleIt": "Il concerto inizia, intanto aspettiamo."
+  },
+  {
+    "level": "c2",
+    "de": "mithin",
+    "example": "Das Problem ist ernst, mithin müssen wir handeln.",
+    "exampleIt": "Il problema è grave, dunque dobbiamo agire."
+  },
+  {
+    "level": "c2",
+    "de": "insofern",
+    "example": "Insofern das stimmt, akzeptieren wir.",
+    "exampleIt": "Nella misura in cui è vero, accettiamo."
+  },
+  {
+    "level": "c2",
+    "de": "demnach",
+    "example": "Das Gesetz ist verabschiedet, demnach gelten neue Regeln.",
+    "exampleIt": "La legge è approvata, quindi valgono nuove regole."
+  },
+  {
+    "level": "c2",
+    "de": "folglich",
+    "example": "Das ist die Ursache, folglich die Wirkung.",
+    "exampleIt": "Questa è la causa, di conseguenza l'effetto."
+  },
+  {
+    "level": "c2",
+    "de": "überdies",
+    "example": "Das ist richtig, überdies ist es gerecht.",
+    "exampleIt": "È giusto, inoltre è equo."
+  },
+  {
+    "level": "c2",
+    "de": "ferner",
+    "example": "Das erste Punkt ist relevant, ferner der zweite.",
+    "exampleIt": "Il primo punto è rilevante, inoltre il secondo."
+  },
+  {
+    "level": "c2",
+    "de": "zumal",
+    "example": "Das ist wichtig, zumal jetzt.",
+    "exampleIt": "È importante, specialmente adesso."
+  },
+  {
+    "level": "c2",
+    "de": "wenngleich",
+    "example": "Wenngleich umstritten, akzeptieren wir.",
+    "exampleIt": "Sebbene controverso, accettiamo."
+  },
+  {
+    "level": "c2",
+    "de": "wiewohl",
+    "example": "Wiewohl schwierig, schaffen wir das.",
+    "exampleIt": "Sebbene difficile, ce la facciamo."
+  },
+  {
+    "level": "c2",
+    "de": "freilich",
+    "example": "Das ist richtig, freilich mit Vorbehalt.",
+    "exampleIt": "È giusto, certo con riserva."
+  },
+  {
+    "level": "c2",
+    "de": "indes",
+    "example": "Das ist eine Aussage, indes eine andere.",
+    "exampleIt": "Questa è un'affermazione, invece un'altra."
+  },
+  {
+    "level": "c2",
+    "de": "derweil",
+    "example": "Er arbeitet, derweil schlafen wir.",
+    "exampleIt": "Lui lavora, mentre dormiamo."
+  },
+  {
+    "level": "c2",
+    "de": "alldieweil",
+    "example": "Alldieweil das stimmt, akzeptieren wir.",
+    "exampleIt": "Mentre questo è vero, accettiamo."
+  },
+  {
+    "level": "c2",
+    "de": "dessenungeachtet",
+    "example": "Er wollte nicht, dessenungeachtet ging er.",
+    "exampleIt": "Non voleva, malgrado ciò andò."
+  },
+  {
+    "level": "c2",
+    "de": "Paradigmenwechsel",
+    "example": "Der Paradigmenwechsel ist revolutionär.",
+    "exampleIt": "Il cambio di paradigma è rivoluzionario."
+  },
+  {
+    "level": "c2",
+    "de": "Kausalität",
+    "example": "Die Kausalität ist komplex.",
+    "exampleIt": "La causalità è complessa."
+  },
+  {
+    "level": "c2",
+    "de": "Korrelation",
+    "example": "Die Korrelation ist stark.",
+    "exampleIt": "La correlazione è forte."
+  },
+  {
+    "level": "c2",
+    "de": "Signifikanz",
+    "example": "Die Signifikanz ist hoch.",
+    "exampleIt": "La significatività è elevata."
+  },
+  {
+    "level": "c2",
+    "de": "Implikation",
+    "example": "Die Implikation ist tiefgreifend.",
+    "exampleIt": "L'implicazione è profonda."
+  },
+  {
+    "level": "c2",
+    "de": "Falsifizierung",
+    "example": "Die Falsifizierung ist möglich.",
+    "exampleIt": "La falsificazione è possibile."
+  },
+  {
+    "level": "c2",
+    "de": "Verifizierung",
+    "example": "Die Verifizierung ist erforderlich.",
+    "exampleIt": "La verifica è richiesta."
+  },
+  {
+    "level": "c2",
+    "de": "Axiom",
+    "example": "Das Axiom ist unumstößlich.",
+    "exampleIt": "L'assioma è incontestabile."
+  },
+  {
+    "level": "c2",
+    "de": "Postulat",
+    "example": "Das Postulat ist grundlegend.",
+    "exampleIt": "Il postulato è fondamentale."
+  },
+  {
+    "level": "c2",
+    "de": "Prämisse",
+    "example": "Die Prämisse ist falsch.",
+    "exampleIt": "La premessa è sbagliata."
+  },
+  {
+    "level": "c2",
+    "de": "Syllogismus",
+    "example": "Der Syllogismus ist logisch.",
+    "exampleIt": "Il sillogismo è logico."
+  },
+  {
+    "level": "c2",
+    "de": "Deduktion",
+    "example": "Die Deduktion ist streng.",
+    "exampleIt": "La deduzione è rigorosa."
+  },
+  {
+    "level": "c2",
+    "de": "Induktion",
+    "example": "Die Induktion ist generalisierend.",
+    "exampleIt": "L'induzione è generalizzante."
+  },
+  {
+    "level": "c2",
+    "de": "Empirie",
+    "example": "Die Empirie ist entscheidend.",
+    "exampleIt": "L'empiria è decisiva."
+  },
+  {
+    "level": "c2",
+    "de": "Heuristik",
+    "example": "Die Heuristik ist nützlich.",
+    "exampleIt": "L'euristica è utile."
+  },
+  {
+    "level": "c2",
+    "de": "Epistemologie",
+    "example": "Epistemologie ist philosophisch.",
+    "exampleIt": "L'epistemologia è filosofica."
+  },
+  {
+    "level": "c2",
+    "de": "Ontologie",
+    "example": "Ontologie fragt nach dem Sein.",
+    "exampleIt": "L'ontologia chiede dell'essere."
+  },
+  {
+    "level": "c2",
+    "de": "Hermeneutik",
+    "example": "Hermeneutik interpretiert Texte.",
+    "exampleIt": "L'ermeneutica interpreta i testi."
+  },
+  {
+    "level": "c2",
+    "de": "Phänomenologie",
+    "example": "Phänomenologie untersucht Erlebnisse.",
+    "exampleIt": "La fenomenologia esamina le esperienze."
+  },
+  {
+    "level": "c2",
+    "de": "Determinismus",
+    "example": "Der Determinismus ist umstritten.",
+    "exampleIt": "Il determinismo è controverso."
+  },
+  {
+    "level": "c2",
+    "de": "Jurisprudenz",
+    "example": "Jurisprudenz entwickelt Recht.",
+    "exampleIt": "La giurisprudenza sviluppa il diritto."
+  },
+  {
+    "level": "c2",
+    "de": "Präzedenzfall",
+    "example": "Präzedenzfall bindet Gerichte.",
+    "exampleIt": "Il precedente legale vincola i tribunali."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtsdogmatik",
+    "example": "Rechtsdogmatik systematisiert.",
+    "exampleIt": "La dogmatica giuridica sistematizza."
+  },
+  {
+    "level": "c2",
+    "de": "Hermeneutik des Rechts",
+    "example": "Hermeneutik interpretiert Gesetze.",
+    "exampleIt": "L'ermeneutica interpreta le leggi."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtstheorie",
+    "example": "Rechtstheorie erforscht Grundlagen.",
+    "exampleIt": "La teoria del diritto ricerca i fondamenti."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtsphilosophie",
+    "example": "Rechtsphilosophie fragt nach Gerechtigkeit.",
+    "exampleIt": "La filosofia del diritto chiede la giustizia."
+  },
+  {
+    "level": "c2",
+    "de": "Positivismus",
+    "example": "Positivismus reduziert auf Fakten.",
+    "exampleIt": "Il positivismo riduce ai fatti."
+  },
+  {
+    "level": "c2",
+    "de": "Naturalismus",
+    "example": "Naturalismus ist nicht-positiv.",
+    "exampleIt": "Il naturalismo non è positivista."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtsrealismus",
+    "example": "Rechtsrealismus untersucht Praxis.",
+    "exampleIt": "Il realismo giuridico esamina la pratica."
+  },
+  {
+    "level": "c2",
+    "de": "Normativismus",
+    "example": "Normativismus betont Regeln.",
+    "exampleIt": "Il normativismo enfatizza le regole."
+  },
+  {
+    "level": "c2",
+    "de": "Komparatistik",
+    "example": "Komparatistik vergleicht Systeme.",
+    "exampleIt": "Il diritto comparato confronta i sistemi."
+  },
+  {
+    "level": "c2",
+    "de": "Kodifikation",
+    "example": "Kodifikation systematisiert Recht.",
+    "exampleIt": "La codificazione sistematizza il diritto."
+  },
+  {
+    "level": "c2",
+    "de": "Rezeption",
+    "example": "Rezeption adaptiert fremdes Recht.",
+    "exampleIt": "La recezione adatta il diritto straniero."
+  },
+  {
+    "level": "c2",
+    "de": "Handeln unter Unsicherheit",
+    "example": "Handeln unter Unsicherheit ist schwierig.",
+    "exampleIt": "Agire in incertezza è difficile."
+  },
+  {
+    "level": "c2",
+    "de": "Risikoallokation",
+    "example": "Risikoallokation verteilt Risiken.",
+    "exampleIt": "L'allocazione del rischio distribuisce i rischi."
+  },
+  {
+    "level": "c2",
+    "de": "Haftungsausschluss",
+    "example": "Haftungsausschluss limitiert Haftung.",
+    "exampleIt": "L'esclusione di responsabilità limita la responsabilità."
+  },
+  {
+    "level": "c2",
+    "de": "Schadensersatz",
+    "example": "Schadensersatz kompensiert.",
+    "exampleIt": "Il risarcimento compensa."
+  },
+  {
+    "level": "c2",
+    "de": "Äquivalenzprinzip",
+    "example": "Äquivalenzprinzip fordert Gleichheit.",
+    "exampleIt": "Il principio di equivalenza richiede l'uguaglianza."
+  },
+  {
+    "level": "c2",
+    "de": "Justiziabilität",
+    "example": "Justiziabilität bestimmt Gerichtbarkeit.",
+    "exampleIt": "La giudiziabilità determina la giurisdizione."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtsfähigkeit",
+    "example": "Rechtsfähigkeit ist Voraussetzung.",
+    "exampleIt": "La capacità giuridica è un prerequisito."
+  },
+  {
+    "level": "c2",
+    "de": "Erkenntnistheorie",
+    "example": "Erkenntnistheorie fragt nach Wissen.",
+    "exampleIt": "L'epistemologia chiede della conoscenza."
+  },
+  {
+    "level": "c2",
+    "de": "Skeptizismus",
+    "example": "Skeptizismus bezweifelt Gewissheit.",
+    "exampleIt": "Lo scetticismo dubita della certezza."
+  },
+  {
+    "level": "c2",
+    "de": "Rationalismus",
+    "example": "Rationalismus vertraut Vernunft.",
+    "exampleIt": "Il razionalismo si fida della ragione."
+  },
+  {
+    "level": "c2",
+    "de": "Empirismus",
+    "example": "Empirismus vertraut Erfahrung.",
+    "exampleIt": "L'empirismo si fida dell'esperienza."
+  },
+  {
+    "level": "c2",
+    "de": "Apriori",
+    "example": "Apriori ist vor Erfahrung.",
+    "exampleIt": "L'a priori è prima dell'esperienza."
+  },
+  {
+    "level": "c2",
+    "de": "Aposteriori",
+    "example": "Aposteriori ist nach Erfahrung.",
+    "exampleIt": "L'a posteriori è dopo l'esperienza."
+  },
+  {
+    "level": "c2",
+    "de": "Analytisch",
+    "example": "Analytisch ist konzeptuell.",
+    "exampleIt": "L'analitico è concettuale."
+  },
+  {
+    "level": "c2",
+    "de": "Synthetisch",
+    "example": "Synthetisch ist informativ.",
+    "exampleIt": "Il sintetico è informativo."
+  },
+  {
+    "level": "c2",
+    "de": "Notwendigkeit",
+    "example": "Notwendigkeit ist unvermeidlich.",
+    "exampleIt": "La necessità è inevitabile."
+  },
+  {
+    "level": "c2",
+    "de": "Kontingenz",
+    "example": "Kontingenz ist möglich.",
+    "exampleIt": "La contingenza è possibile."
+  },
+  {
+    "level": "c2",
+    "de": "Metaphysik",
+    "example": "Metaphysik geht über Physik.",
+    "exampleIt": "La metafisica va oltre la fisica."
+  },
+  {
+    "level": "c2",
+    "de": "Ontologie",
+    "example": "Ontologie fragt nach Sein.",
+    "exampleIt": "L'ontologia chiede dell'essere."
+  },
+  {
+    "level": "c2",
+    "de": "Epistemisch",
+    "example": "Epistemisch bezieht sich auf Wissen.",
+    "exampleIt": "L'epistemico si riferisce alla conoscenza."
+  },
+  {
+    "level": "c2",
+    "de": "Gültigkeitsbedingungen",
+    "example": "Gültigkeitsbedingungen bestimmen Wahrheit.",
+    "exampleIt": "Le condizioni di validità determinano la verità."
+  },
+  {
+    "level": "c2",
+    "de": "Kohärenztheorie",
+    "example": "Kohärenztheorie betont Konsistenz.",
+    "exampleIt": "La teoria della coerenza enfatizza la coerenza."
+  },
+  {
+    "level": "c2",
+    "de": "Korrespondenztheorie",
+    "example": "Korrespondenztheorie betont Abbildung.",
+    "exampleIt": "La teoria della corrispondenza enfatizza la mappatura."
+  },
+  {
+    "level": "c2",
+    "de": "Pragmatische Theorie",
+    "example": "Pragmatische Theorie betont Nützlichkeit.",
+    "exampleIt": "La teoria pragmatica enfatizza l'utilità."
+  },
+  {
+    "level": "c2",
+    "de": "Wahrheitsfunktion",
+    "example": "Wahrheitsfunktion ist logisch.",
+    "exampleIt": "La funzione di verità è logica."
+  },
+  {
+    "level": "c2",
+    "de": "Falsifizierbarkeit",
+    "example": "Falsifizierbarkeit ist Kriterium.",
+    "exampleIt": "La falsificabilità è un criterio."
+  },
+  {
+    "level": "c2",
+    "de": "Verifikation",
+    "example": "Verifikation bestätigt.",
+    "exampleIt": "La verifica conferma."
+  },
+  {
+    "level": "c2",
+    "de": "Literaturkritik",
+    "example": "Literaturkritik wertet Werke.",
+    "exampleIt": "La critica letteraria valuta le opere."
+  },
+  {
+    "level": "c2",
+    "de": "Textanalyse",
+    "example": "Textanalyse erforscht Bedeutung.",
+    "exampleIt": "L'analisi del testo ricerca il significato."
+  },
+  {
+    "level": "c2",
+    "de": "Interpretation",
+    "example": "Interpretation ist subjektiv.",
+    "exampleIt": "L'interpretazione è soggettiva."
+  },
+  {
+    "level": "c2",
+    "de": "Semiotik",
+    "example": "Semiotik untersucht Zeichen.",
+    "exampleIt": "La semiotica esamina i segni."
+  },
+  {
+    "level": "c2",
+    "de": "Narratologie",
+    "example": "Narratologie untersucht Erzählung.",
+    "exampleIt": "La narratologia esamina la narrazione."
+  },
+  {
+    "level": "c2",
+    "de": "Erzählperspektive",
+    "example": "Erzählperspektive formt Leseweise.",
+    "exampleIt": "La prospettiva narrativa forma il modo di leggere."
+  },
+  {
+    "level": "c2",
+    "de": "Fokalisierung",
+    "example": "Fokalisierung lenkt Aufmerksamkeit.",
+    "exampleIt": "La focalizzazione dirige l'attenzione."
+  },
+  {
+    "level": "c2",
+    "de": "Unreliable Narrator",
+    "example": "Unreliable Narrator täuscht.",
+    "exampleIt": "Il narratore inaffidabile inganna."
+  },
+  {
+    "level": "c2",
+    "de": "Intertextualität",
+    "example": "Intertextualität verbindet Texte.",
+    "exampleIt": "L'intertestualità collega i testi."
+  },
+  {
+    "level": "c2",
+    "de": "Metafiktion",
+    "example": "Metafiktion ist selbstbewusst.",
+    "exampleIt": "La metafiction è consapevole di sé."
+  },
+  {
+    "level": "c2",
+    "de": "Dekonstruktion",
+    "example": "Dekonstruktion hinterfragt.",
+    "exampleIt": "La decostruzione mette in questione."
+  },
+  {
+    "level": "c2",
+    "de": "Mimesis",
+    "example": "Mimesis ist Nachahmung.",
+    "exampleIt": "La mimesi è imitazione."
+  },
+  {
+    "level": "c2",
+    "de": "Diegesis",
+    "example": "Diegesis ist Erzählung.",
+    "exampleIt": "La diegesi è narrazione."
+  },
+  {
+    "level": "c2",
+    "de": "Mimesis vs. Diegesis",
+    "example": "Mimesis vs. Diegesis ist fundamental.",
+    "exampleIt": "Mimesi vs. diegesi è fondamentale."
+  },
+  {
+    "level": "c2",
+    "de": "Trope",
+    "example": "Trope ist Stilmittel.",
+    "exampleIt": "Il tropo è una figura retorica."
+  },
+  {
+    "level": "c2",
+    "de": "Figur",
+    "example": "Figur ist Charakter.",
+    "exampleIt": "La figura è un personaggio."
+  },
+  {
+    "level": "c2",
+    "de": "Handlung",
+    "example": "Handlung ist Ereignisfolge.",
+    "exampleIt": "La trama è una sequenza di eventi."
+  },
+  {
+    "level": "c2",
+    "de": "Setting",
+    "example": "Setting ist Kontext.",
+    "exampleIt": "L'ambientazione è il contesto."
+  },
+  {
+    "level": "c2",
+    "de": "Ton",
+    "example": "Ton ist Stimme.",
+    "exampleIt": "Il tono è la voce."
+  },
+  {
+    "level": "c2",
+    "de": "Stil",
+    "example": "Stil ist Ausdrucksweise.",
+    "exampleIt": "Lo stile è il modo di espressione."
+  },
+  {
+    "level": "c2",
+    "de": "Psychoanalyse",
+    "example": "Psychoanalyse untersucht Unbewusstes.",
+    "exampleIt": "La psicoanalisi esamina l'inconscio."
+  },
+  {
+    "level": "c2",
+    "de": "Unbewusstes",
+    "example": "Unbewusstes ist verborgen.",
+    "exampleIt": "L'inconscio è nascosto."
+  },
+  {
+    "level": "c2",
+    "de": "Bewusstsein",
+    "example": "Bewusstsein ist präsent.",
+    "exampleIt": "La consapevolezza è presente."
+  },
+  {
+    "level": "c2",
+    "de": "Vorbewusstsein",
+    "example": "Vorbewusstsein ist zugänglich.",
+    "exampleIt": "La preconsapevolezza è accessibile."
+  },
+  {
+    "level": "c2",
+    "de": "Es",
+    "example": "Es ist Trieb.",
+    "exampleIt": "L'es è l'impulso."
+  },
+  {
+    "level": "c2",
+    "de": "Ich",
+    "example": "Ich ist Realitätsprinzip.",
+    "exampleIt": "L'io è il principio di realtà."
+  },
+  {
+    "level": "c2",
+    "de": "Überich",
+    "example": "Überich ist Moral.",
+    "exampleIt": "Il superio è la morale."
+  },
+  {
+    "level": "c2",
+    "de": "Trieb",
+    "example": "Trieb ist Motivation.",
+    "exampleIt": "La pulsione è motivazione."
+  },
+  {
+    "level": "c2",
+    "de": "Libido",
+    "example": "Libido ist Energie.",
+    "exampleIt": "La libido è energia."
+  },
+  {
+    "level": "c2",
+    "de": "Verdrängung",
+    "example": "Verdrängung vergessen.",
+    "exampleIt": "La rimozione dimentica."
+  },
+  {
+    "level": "c2",
+    "de": "Sublimation",
+    "example": "Sublimation transformiert.",
+    "exampleIt": "La sublimazione trasforma."
+  },
+  {
+    "level": "c2",
+    "de": "Projektion",
+    "example": "Projektion ist Abwehr.",
+    "exampleIt": "La proiezione è una difesa."
+  },
+  {
+    "level": "c2",
+    "de": "Verschiebung",
+    "example": "Verschiebung verlagert.",
+    "exampleIt": "Lo spostamento sposta."
+  },
+  {
+    "level": "c2",
+    "de": "Verdichtung",
+    "example": "Verdichtung vereinigt.",
+    "exampleIt": "La condensazione unisce."
+  },
+  {
+    "level": "c2",
+    "de": "Traum",
+    "example": "Traum ist symbolisch.",
+    "exampleIt": "Il sogno è simbolico."
+  },
+  {
+    "level": "c2",
+    "de": "Traumarbeit",
+    "example": "Traumarbeit transformiert.",
+    "exampleIt": "Il lavoro del sogno trasforma."
+  },
+  {
+    "level": "c2",
+    "de": "Übertragung",
+    "example": "Übertragung ist therapeutisch.",
+    "exampleIt": "Il transfert è terapeutico."
+  },
+  {
+    "level": "c2",
+    "de": "Gegen-übertragung",
+    "example": "Gegen-übertragung ist reziprok.",
+    "exampleIt": "Il controtransfert è reciproco."
+  },
+  {
+    "level": "c2",
+    "de": "Wiedersetz",
+    "example": "Wiedersetz ist unbewusst.",
+    "exampleIt": "La resistenza è inconscia."
+  },
+  {
+    "level": "c2",
+    "de": "Katharsis",
+    "example": "Katharsis ist Befreiung.",
+    "exampleIt": "La catarsi è liberazione."
+  },
+  {
+    "level": "c2",
+    "de": "Hermeneutik",
+    "example": "Die Hermeneutik interpretiert Texte.",
+    "exampleIt": "L'ermeneutica interpreta i testi."
+  },
+  {
+    "level": "c2",
+    "de": "Auslegung",
+    "example": "Die Auslegung ist vielfältig.",
+    "exampleIt": "L'interpretazione è varia."
+  },
+  {
+    "level": "c2",
+    "de": "Interpretation",
+    "example": "Die Interpretation ist subjektiv.",
+    "exampleIt": "L'interpretazione è soggettiva."
+  },
+  {
+    "level": "c2",
+    "de": "Verständnis",
+    "example": "Das Verständnis ist tiefgreifend.",
+    "exampleIt": "La comprensione è profonda."
+  },
+  {
+    "level": "c2",
+    "de": "Bedeutung",
+    "example": "Die Bedeutung ist mehrdeutig.",
+    "exampleIt": "Il significato è ambiguo."
+  },
+  {
+    "level": "c2",
+    "de": "Kontext",
+    "example": "Der Kontext ist entscheidend.",
+    "exampleIt": "Il contesto è decisivo."
+  },
+  {
+    "level": "c2",
+    "de": "Text",
+    "example": "Der Text ist polysemantisch.",
+    "exampleIt": "Il testo è polisemico."
+  },
+  {
+    "level": "c2",
+    "de": "Sinn",
+    "example": "Der Sinn ist konstituativ.",
+    "exampleIt": "Il senso è costitutivo."
+  },
+  {
+    "level": "c2",
+    "de": "Zeichensystem",
+    "example": "Das Zeichensystem ist kohärent.",
+    "exampleIt": "Il sistema di segni è coerente."
+  },
+  {
+    "level": "c2",
+    "de": "Horizont",
+    "example": "Der Horizont ist relativ.",
+    "exampleIt": "L'orizzonte è relativo."
+  },
+  {
+    "level": "c2",
+    "de": "Zirkularität",
+    "example": "Die Zirkularität ist unvermeidlich.",
+    "exampleIt": "La circolarità è inevitabile."
+  },
+  {
+    "level": "c2",
+    "de": "Fusion",
+    "example": "Die Fusion der Horizonte ist zentral.",
+    "exampleIt": "La fusione degli orizzonti è centrale."
+  },
+  {
+    "level": "c2",
+    "de": "Vorurteil",
+    "example": "Das Vorurteil ist unvermeidlich.",
+    "exampleIt": "Il pregiudizio è inevitabile."
+  },
+  {
+    "level": "c2",
+    "de": "Vorverständnis",
+    "example": "Das Vorverständnis färbt Interpretation.",
+    "exampleIt": "La precomprensione colora l'interpretazione."
+  },
+  {
+    "level": "c2",
+    "de": "Distanz",
+    "example": "Die historische Distanz ist relevant.",
+    "exampleIt": "La distanza storica è rilevante."
+  },
+  {
+    "level": "c2",
+    "de": "Überlieferung",
+    "example": "Die Überlieferung ist lebend.",
+    "exampleIt": "La tradizione è viva."
+  },
+  {
+    "level": "c2",
+    "de": "Gadamer",
+    "example": "Gadamer revolutioniert die Hermeneutik.",
+    "exampleIt": "Gadamer rivoluziona l'ermeneutica."
+  },
+  {
+    "level": "c2",
+    "de": "interpretieren",
+    "example": "Der Gelehrte interpretiert den Text.",
+    "exampleIt": "Lo studioso interpreta il testo."
+  },
+  {
+    "level": "c2",
+    "de": "hermeneutisch",
+    "example": "Das ist eine hermeneutische Zirkularität.",
+    "exampleIt": "Questa è una circolarità ermeneutica."
+  },
+  {
+    "level": "c2",
+    "de": "verstehen",
+    "example": "Wir müssen verstehen, nicht erklären.",
+    "exampleIt": "Dobbiamo capire, non spiegare."
+  },
+  {
+    "level": "c2",
+    "de": "Semiotik",
+    "example": "Die Semiotik studiert Zeichen.",
+    "exampleIt": "La semiotica studia i segni."
+  },
+  {
+    "level": "c2",
+    "de": "Zeichen",
+    "example": "Das Zeichen ist arbiträr.",
+    "exampleIt": "Il segno è arbitrario."
+  },
+  {
+    "level": "c2",
+    "de": "Symbol",
+    "example": "Das Symbol ist konventionell.",
+    "exampleIt": "Il simbolo è convenzionale."
+  },
+  {
+    "level": "c2",
+    "de": "Index",
+    "example": "Der Index ist existenziell.",
+    "exampleIt": "L'indice è esistenziale."
+  },
+  {
+    "level": "c2",
+    "de": "Ikon",
+    "example": "Die Ikon ist ikonisch.",
+    "exampleIt": "L'icona è iconica."
+  },
+  {
+    "level": "c2",
+    "de": "Signifikant",
+    "example": "Der Signifikant ist lautlich.",
+    "exampleIt": "Il significante è fonetico."
+  },
+  {
+    "level": "c2",
+    "de": "Signifikat",
+    "example": "Das Signifikat ist konzeptuell.",
+    "exampleIt": "Il significato è concettuale."
+  },
+  {
+    "level": "c2",
+    "de": "Referenz",
+    "example": "Die Referenz ist extern.",
+    "exampleIt": "Il riferimento è esterno."
+  },
+  {
+    "level": "c2",
+    "de": "Denotation",
+    "example": "Die Denotation ist literal.",
+    "exampleIt": "La denotazione è letterale."
+  },
+  {
+    "level": "c2",
+    "de": "Konnotation",
+    "example": "Die Konnotation ist subjektiv.",
+    "exampleIt": "La connotazione è soggettiva."
+  }
+]

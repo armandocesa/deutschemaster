@@ -1,0 +1,4618 @@
+[
+  {
+    "german": "subsumieren",
+    "italian": "sussumere"
+  },
+  {
+    "german": "insinuieren",
+    "italian": "insinuare"
+  },
+  {
+    "german": "stipulieren",
+    "italian": "stipulare"
+  },
+  {
+    "german": "skandalisieren",
+    "italian": "scandalizzare"
+  },
+  {
+    "german": "ansinnen",
+    "italian": "esigere"
+  },
+  {
+    "german": "vindizieren",
+    "italian": "rivendicare"
+  },
+  {
+    "german": "usurpieren",
+    "italian": "usurpare"
+  },
+  {
+    "german": "mystifizieren",
+    "italian": "mistificare"
+  },
+  {
+    "german": "hypostasieren",
+    "italian": "ipostatizzare"
+  },
+  {
+    "german": "reifizieren",
+    "italian": "reificare"
+  },
+  {
+    "german": "verdinglichen",
+    "italian": "reificare"
+  },
+  {
+    "german": "das Traktat",
+    "italian": "il trattato"
+  },
+  {
+    "german": "das Vademecum",
+    "italian": "il vademecum"
+  },
+  {
+    "german": "die Exegese",
+    "italian": "l'esegesi"
+  },
+  {
+    "german": "die Hermeneutik",
+    "italian": "l'ermeneutica"
+  },
+  {
+    "german": "die Axiologie",
+    "italian": "l'assiologia"
+  },
+  {
+    "german": "die Teleologie",
+    "italian": "la teleologia"
+  },
+  {
+    "german": "die Abduktion",
+    "italian": "l'abduzione"
+  },
+  {
+    "german": "die Suffizienz",
+    "italian": "la sufficienza"
+  },
+  {
+    "german": "die Rekursivität",
+    "italian": "la ricorsività"
+  },
+  {
+    "german": "heterodox",
+    "italian": "eterodosso"
+  },
+  {
+    "german": "apriorisch",
+    "italian": "a priori"
+  },
+  {
+    "german": "aposteriorisch",
+    "italian": "a posteriori"
+  },
+  {
+    "german": "konativ",
+    "italian": "conativo"
+  },
+  {
+    "german": "volitional",
+    "italian": "volitivo"
+  },
+  {
+    "german": "deliberativ",
+    "italian": "deliberativo"
+  },
+  {
+    "german": "synkretistisch",
+    "italian": "sincretistico"
+  },
+  {
+    "german": "partikularistisch",
+    "italian": "particolaristico"
+  },
+  {
+    "german": "essentialistisch",
+    "italian": "essenzialistico"
+  },
+  {
+    "german": "voluntaristisch",
+    "italian": "volontaristico"
+  },
+  {
+    "german": "vermittels",
+    "italian": "per mezzo di"
+  },
+  {
+    "german": "eingedenk",
+    "italian": "memore di"
+  },
+  {
+    "german": "derweilen",
+    "italian": "nel frattempo"
+  },
+  {
+    "german": "schlechterdings",
+    "italian": "assolutamente"
+  },
+  {
+    "german": "hypothetisieren",
+    "italian": "ipotizzare"
+  },
+  {
+    "german": "interpolieren",
+    "italian": "interpolare"
+  },
+  {
+    "german": "intuitieren",
+    "italian": "intuire"
+  },
+  {
+    "german": "disputieren",
+    "italian": "disputare"
+  },
+  {
+    "german": "historisieren",
+    "italian": "storicizzare"
+  },
+  {
+    "german": "die Judikatur",
+    "italian": "la giurisprudenza"
+  },
+  {
+    "german": "allegorisieren",
+    "italian": "allegorizzare"
+  },
+  {
+    "german": "mythologisieren",
+    "italian": "mitizzare"
+  },
+  {
+    "german": "ästhetisieren",
+    "italian": "estetizzare"
+  },
+  {
+    "german": "poetisieren",
+    "italian": "poetizzare"
+  },
+  {
+    "german": "persiflieren",
+    "italian": "prendere in giro"
+  },
+  {
+    "german": "glossieren",
+    "italian": "glossare"
+  },
+  {
+    "german": "entmythologisieren",
+    "italian": "demitizzare"
+  },
+  {
+    "german": "sanguinisch",
+    "italian": "sanguigno"
+  },
+  {
+    "german": "der Metadiskurs",
+    "italian": "il metadiscorso"
+  },
+  {
+    "german": "die Metaethik",
+    "italian": "la metaetica"
+  },
+  {
+    "german": "mitnichten",
+    "italian": "nient'affatto"
+  },
+  {
+    "german": "beileibe nicht",
+    "italian": "assolutamente no"
+  },
+  {
+    "german": "die Katze im Sack kaufen",
+    "italian": "comprare a scatola chiusa"
+  },
+  {
+    "german": "mit dem Strom schwimmen",
+    "italian": "seguire la corrente"
+  },
+  {
+    "german": "aus einer Mücke einen Elefanten machen",
+    "italian": "fare di una mosca un elefante"
+  },
+  {
+    "german": "den Bock zum Gärtner machen",
+    "italian": "mettere la volpe a guardia del pollaio"
+  },
+  {
+    "german": "die Kirche im Dorf lassen",
+    "italian": "non esagerare"
+  },
+  {
+    "german": "jemandem auf den Zahn fühlen",
+    "italian": "mettere alla prova qualcuno"
+  },
+  {
+    "german": "Öl ins Feuer gießen",
+    "italian": "gettare benzina sul fuoco"
+  },
+  {
+    "german": "das Kind mit dem Bade ausschütten",
+    "italian": "buttare il bambino con l'acqua sporca"
+  },
+  {
+    "german": "um den heißen Brei herumreden",
+    "italian": "girarci intorno"
+  },
+  {
+    "german": "jemandem die Daumen drücken",
+    "italian": "fare il tifo per qualcuno"
+  },
+  {
+    "german": "jemanden an der Nase herumführen",
+    "italian": "prendere in giro"
+  },
+  {
+    "german": "mit allen Wassern gewaschen sein",
+    "italian": "essere navigato"
+  },
+  {
+    "german": "auf Biegen und Brechen",
+    "italian": "a tutti i costi"
+  },
+  {
+    "german": "Hals über Kopf",
+    "italian": "a rotta di collo"
+  },
+  {
+    "german": "die Nadel im Heuhaufen suchen",
+    "italian": "cercare un ago nel pagliaio"
+  },
+  {
+    "german": "zwei Fliegen mit einer Klappe schlagen",
+    "italian": "prendere due piccioni con una fava"
+  },
+  {
+    "german": "wie ein Buch reden",
+    "italian": "parlare a fiumi"
+  },
+  {
+    "german": "sich ins Zeug legen",
+    "italian": "darsi da fare"
+  },
+  {
+    "german": "Übung macht den Meister",
+    "italian": "la pratica rende perfetti"
+  },
+  {
+    "german": "Morgenstund hat Gold im Mund",
+    "italian": "il mattino ha l'oro in bocca"
+  },
+  {
+    "german": "Wer zuletzt lacht, lacht am besten",
+    "italian": "ride bene chi ride ultimo"
+  },
+  {
+    "german": "Andere Länder, andere Sitten",
+    "italian": "paese che vai, usanza che trovi"
+  },
+  {
+    "german": "Der Apfel fällt nicht weit vom Stamm",
+    "italian": "tale padre tale figlio"
+  },
+  {
+    "german": "Lügen haben kurze Beine",
+    "italian": "le bugie hanno le gambe corte"
+  },
+  {
+    "german": "Es ist noch kein Meister vom Himmel gefallen",
+    "italian": "nessuno nasce imparato"
+  },
+  {
+    "german": "Wer A sagt, muss auch B sagen",
+    "italian": "chi dice A deve dire anche B"
+  },
+  {
+    "german": "Reden ist Silber, Schweigen ist Gold",
+    "italian": "il silenzio è d'oro"
+  },
+  {
+    "german": "In der Kürze liegt die Würze",
+    "italian": "nella brevità sta il gusto"
+  },
+  {
+    "german": "Man soll den Tag nicht vor dem Abend loben",
+    "italian": "non dire gatto se non ce l'hai nel sacco"
+  },
+  {
+    "german": "Not macht erfinderisch",
+    "italian": "la necessità aguzza l'ingegno"
+  },
+  {
+    "german": "Wer rastet, der rostet",
+    "italian": "chi si ferma è perduto"
+  },
+  {
+    "german": "Stille Wasser sind tief",
+    "italian": "le acque chete rovinano i ponti"
+  },
+  {
+    "german": "Ende gut, alles gut",
+    "italian": "tutto è bene quel che finisce bene"
+  },
+  {
+    "german": "Rechtsprechung",
+    "italian": "giurisprudenza"
+  },
+  {
+    "german": "Grundrecht",
+    "italian": "diritto fondamentale"
+  },
+  {
+    "german": "Tatbestand",
+    "italian": "fattispecie"
+  },
+  {
+    "german": "Rechtsfolge",
+    "italian": "conseguenza giuridica"
+  },
+  {
+    "german": "Verjährung",
+    "italian": "prescrizione"
+  },
+  {
+    "german": "Haftung",
+    "italian": "responsabilità civile"
+  },
+  {
+    "german": "Sorgfaltspflicht",
+    "italian": "obbligo di diligenza"
+  },
+  {
+    "german": "Beweislast",
+    "italian": "onere della prova"
+  },
+  {
+    "german": "Ermessen",
+    "italian": "discrezionalità"
+  },
+  {
+    "german": "Klageschrift",
+    "italian": "atto di citazione"
+  },
+  {
+    "german": "Rechtsmittel",
+    "italian": "mezzo di impugnazione"
+  },
+  {
+    "german": "Gerichtsbarkeit",
+    "italian": "giurisdizione"
+  },
+  {
+    "german": "Zuständigkeit",
+    "italian": "competenza"
+  },
+  {
+    "german": "Vollstreckung",
+    "italian": "esecuzione"
+  },
+  {
+    "german": "Pfändung",
+    "italian": "pignoramento"
+  },
+  {
+    "german": "einstweilige Verfügung",
+    "italian": "provvedimento d'urgenza"
+  },
+  {
+    "german": "Ätiologie",
+    "italian": "etiologia"
+  },
+  {
+    "german": "Pathogenese",
+    "italian": "patogenesi"
+  },
+  {
+    "german": "Anamnese",
+    "italian": "anamnesi"
+  },
+  {
+    "german": "Prognose",
+    "italian": "prognosi"
+  },
+  {
+    "german": "Rezidiv",
+    "italian": "recidiva"
+  },
+  {
+    "german": "Metastase",
+    "italian": "metastasi"
+  },
+  {
+    "german": "Biopsie",
+    "italian": "biopsia"
+  },
+  {
+    "german": "Endoskopie",
+    "italian": "endoscopia"
+  },
+  {
+    "german": "Inzidenz",
+    "italian": "incidenza"
+  },
+  {
+    "german": "Prävalenz",
+    "italian": "prevalenza"
+  },
+  {
+    "german": "Remission",
+    "italian": "remissione"
+  },
+  {
+    "german": "Rekonvaleszenz",
+    "italian": "convalescenza"
+  },
+  {
+    "german": "Kontamination",
+    "italian": "contaminazione"
+  },
+  {
+    "german": "Sterilisation",
+    "italian": "sterilizzazione"
+  },
+  {
+    "german": "Palliativmedizin",
+    "italian": "medicina palliativa"
+  },
+  {
+    "german": "Geriatrie",
+    "italian": "geriatria"
+  },
+  {
+    "german": "Pädiatrie",
+    "italian": "pediatria"
+  },
+  {
+    "german": "Kardiologie",
+    "italian": "cardiologia"
+  },
+  {
+    "german": "Liquidität",
+    "italian": "liquidità"
+  },
+  {
+    "german": "Solvenz",
+    "italian": "solvibilità"
+  },
+  {
+    "german": "Volatilität",
+    "italian": "volatilità"
+  },
+  {
+    "german": "Amortisation",
+    "italian": "ammortamento"
+  },
+  {
+    "german": "Abschreibung",
+    "italian": "svalutazione"
+  },
+  {
+    "german": "Buchwert",
+    "italian": "valore contabile"
+  },
+  {
+    "german": "Deckungsbeitrag",
+    "italian": "margine di contribuzione"
+  },
+  {
+    "german": "Eigenkapital",
+    "italian": "capitale proprio"
+  },
+  {
+    "german": "Fremdkapital",
+    "italian": "capitale di terzi"
+  },
+  {
+    "german": "Gewinnmarge",
+    "italian": "margine di profitto"
+  },
+  {
+    "german": "Due Diligence",
+    "italian": "due diligence"
+  },
+  {
+    "german": "Leveraged Buyout",
+    "italian": "leveraged buyout"
+  },
+  {
+    "german": "Kartellrecht",
+    "italian": "diritto antitrust"
+  },
+  {
+    "german": "Wertschöpfungskette",
+    "italian": "catena del valore"
+  },
+  {
+    "german": "Skaleneffekt",
+    "italian": "economia di scala"
+  },
+  {
+    "german": "Opportunitätskosten",
+    "italian": "costi opportunità"
+  },
+  {
+    "german": "Benchmarking",
+    "italian": "benchmarking"
+  },
+  {
+    "german": "Kernkompetenz",
+    "italian": "competenza chiave"
+  },
+  {
+    "german": "dergestalt",
+    "italian": "in tal modo"
+  },
+  {
+    "german": "fürwahr",
+    "italian": "in verità"
+  },
+  {
+    "german": "hernach",
+    "italian": "in seguito"
+  },
+  {
+    "german": "indes",
+    "italian": "tuttavia/nel frattempo"
+  },
+  {
+    "german": "seitens",
+    "italian": "da parte di"
+  },
+  {
+    "german": "vermöge",
+    "italian": "in virtù di"
+  },
+  {
+    "german": "weiland",
+    "italian": "un tempo/già"
+  },
+  {
+    "german": "zumal",
+    "italian": "tanto più che"
+  },
+  {
+    "german": "cool",
+    "italian": "figo"
+  },
+  {
+    "german": "krass",
+    "italian": "assurdo/pazzesco"
+  },
+  {
+    "german": "geil",
+    "italian": "fantastico (coll.)"
+  },
+  {
+    "german": "mega",
+    "italian": "mega/super"
+  },
+  {
+    "german": "chillen",
+    "italian": "rilassarsi"
+  },
+  {
+    "german": "Bock haben",
+    "italian": "avere voglia"
+  },
+  {
+    "german": "keinen Bock haben",
+    "italian": "non avere voglia"
+  },
+  {
+    "german": "Kohle",
+    "italian": "soldi (coll.)"
+  },
+  {
+    "german": "Kumpel",
+    "italian": "amico/compagno (coll.)"
+  },
+  {
+    "german": "Quatsch",
+    "italian": "sciocchezze"
+  },
+  {
+    "german": "Mist",
+    "italian": "cavolo/accidenti"
+  },
+  {
+    "german": "Typ",
+    "italian": "tipo/tizio"
+  },
+  {
+    "german": "abzocken",
+    "italian": "fregare/truffare"
+  },
+  {
+    "german": "pennen",
+    "italian": "dormire (coll.)"
+  },
+  {
+    "german": "labern",
+    "italian": "blaterare"
+  },
+  {
+    "german": "Schnauze",
+    "italian": "muso/bocca (coll.)"
+  },
+  {
+    "german": "Macke",
+    "italian": "mania/difetto"
+  },
+  {
+    "german": "abgefahren",
+    "italian": "pazzesco/incredibile"
+  },
+  {
+    "german": "ferner",
+    "italian": "inoltre"
+  },
+  {
+    "german": "immerhin",
+    "italian": "dopotutto"
+  },
+  {
+    "german": "insbesondere",
+    "italian": "in particolare"
+  },
+  {
+    "german": "obendrein",
+    "italian": "per di più"
+  },
+  {
+    "german": "doch (Partikel)",
+    "italian": "(sfumatura di contrasto)"
+  },
+  {
+    "german": "eben (Partikel)",
+    "italian": "(sfumatura di conferma)"
+  },
+  {
+    "german": "halt (Partikel)",
+    "italian": "(sfumatura di rassegnazione)"
+  },
+  {
+    "german": "wohl (Partikel)",
+    "italian": "(sfumatura di supposizione)"
+  },
+  {
+    "german": "mal (Partikel)",
+    "italian": "(sfumatura di cortesia)"
+  },
+  {
+    "german": "Bearbeitung",
+    "italian": "elaborazione"
+  },
+  {
+    "german": "Berücksichtigung",
+    "italian": "considerazione"
+  },
+  {
+    "german": "Durchführung",
+    "italian": "esecuzione"
+  },
+  {
+    "german": "Einschätzung",
+    "italian": "valutazione"
+  },
+  {
+    "german": "Einhaltung",
+    "italian": "rispetto/osservanza"
+  },
+  {
+    "german": "Gewährleistung",
+    "italian": "garanzia"
+  },
+  {
+    "german": "Handhabung",
+    "italian": "gestione/uso"
+  },
+  {
+    "german": "Inbetriebnahme",
+    "italian": "messa in funzione"
+  },
+  {
+    "german": "Inanspruchnahme",
+    "italian": "ricorso/utilizzo"
+  },
+  {
+    "german": "Kenntnisnahme",
+    "italian": "presa di conoscenza"
+  },
+  {
+    "german": "Maßnahme",
+    "italian": "provvedimento"
+  },
+  {
+    "german": "Stellungnahme",
+    "italian": "parere/presa di posizione"
+  },
+  {
+    "german": "Überprüfung",
+    "italian": "verifica"
+  },
+  {
+    "german": "Vereinbarung",
+    "italian": "accordo"
+  },
+  {
+    "german": "Zustimmung",
+    "italian": "consenso/approvazione"
+  },
+  {
+    "german": "Genehmigung",
+    "italian": "autorizzazione"
+  },
+  {
+    "german": "Anerkennung",
+    "italian": "riconoscimento"
+  },
+  {
+    "german": "Geschwindigkeitsbeschränkung",
+    "italian": "limite di velocità"
+  },
+  {
+    "german": "Krankenversicherungsbeitrag",
+    "italian": "contributo assicurativo sanitario"
+  },
+  {
+    "german": "Einkommenssteuererklärung",
+    "italian": "dichiarazione dei redditi"
+  },
+  {
+    "german": "Straßenverkehrsordnung",
+    "italian": "codice della strada"
+  },
+  {
+    "german": "Verbraucherschutzgesetz",
+    "italian": "legge a tutela dei consumatori"
+  },
+  {
+    "german": "Arbeitsbeschaffungsmaßnahme",
+    "italian": "misura per la creazione di lavoro"
+  },
+  {
+    "german": "Aufenthaltserlaubnis",
+    "italian": "permesso di soggiorno"
+  },
+  {
+    "german": "Steuervergünstigung",
+    "italian": "agevolazione fiscale"
+  },
+  {
+    "german": "Umweltverträglichkeitsprüfung",
+    "italian": "valutazione impatto ambientale"
+  },
+  {
+    "german": "Meinungsverschiedenheit",
+    "italian": "divergenza di opinioni"
+  },
+  {
+    "german": "Selbstverwirklichung",
+    "italian": "autorealizzazione"
+  },
+  {
+    "german": "Verantwortungsbewusstsein",
+    "italian": "senso di responsabilità"
+  },
+  {
+    "german": "Grundstücksverkehrsgenehmigung",
+    "italian": "permesso di vendita immobiliare"
+  },
+  {
+    "german": "Rechtsschutzversicherung",
+    "italian": "assicurazione tutela legale"
+  },
+  {
+    "german": "Wohnungseigentümergemeinschaft",
+    "italian": "condominio (comunità proprietari)"
+  },
+  {
+    "german": "Bescheid",
+    "italian": "comunicazione ufficiale"
+  },
+  {
+    "german": "Antrag",
+    "italian": "domanda/richiesta"
+  },
+  {
+    "german": "Erlass",
+    "italian": "decreto"
+  },
+  {
+    "german": "Verordnung",
+    "italian": "regolamento"
+  },
+  {
+    "german": "Richtlinie",
+    "italian": "direttiva"
+  },
+  {
+    "german": "Verwaltungsakt",
+    "italian": "atto amministrativo"
+  },
+  {
+    "german": "Dienstweg",
+    "italian": "canale ufficiale"
+  },
+  {
+    "german": "Sachbearbeiter",
+    "italian": "impiegato addetto"
+  },
+  {
+    "german": "Aktenzeichen",
+    "italian": "numero di protocollo"
+  },
+  {
+    "german": "Rechtsbehelfsbelehrung",
+    "italian": "istruzione sui mezzi di impugnazione"
+  },
+  {
+    "german": "Anhörung",
+    "italian": "audizione"
+  },
+  {
+    "german": "Einspruch",
+    "italian": "opposizione"
+  },
+  {
+    "german": "Amtsblatt",
+    "italian": "gazzetta ufficiale"
+  },
+  {
+    "german": "Einwohnermeldeamt",
+    "italian": "anagrafe"
+  },
+  {
+    "german": "Standesamt",
+    "italian": "ufficio di stato civile"
+  },
+  {
+    "german": "Memorandum",
+    "italian": "memorandum"
+  },
+  {
+    "german": "Kommuniqué",
+    "italian": "comunicato"
+  },
+  {
+    "german": "Resolution",
+    "italian": "risoluzione"
+  },
+  {
+    "german": "Protokoll",
+    "italian": "protocollo"
+  },
+  {
+    "german": "Ratifizierung",
+    "italian": "ratifica"
+  },
+  {
+    "german": "Akkreditierung",
+    "italian": "accreditamento"
+  },
+  {
+    "german": "Immunität",
+    "italian": "immunità"
+  },
+  {
+    "german": "Persona non grata",
+    "italian": "persona non grata"
+  },
+  {
+    "german": "Vermittlung",
+    "italian": "mediazione"
+  },
+  {
+    "german": "Deeskalation",
+    "italian": "de-escalation"
+  },
+  {
+    "german": "Vertrauensbildung",
+    "italian": "costruzione della fiducia"
+  },
+  {
+    "german": "Souveränitätsprinzip",
+    "italian": "principio di sovranità"
+  },
+  {
+    "german": "Nichteinmischung",
+    "italian": "non ingerenza"
+  },
+  {
+    "german": "Multilateralismus",
+    "italian": "multilateralismo"
+  },
+  {
+    "german": "Völkerrecht",
+    "italian": "diritto internazionale"
+  },
+  {
+    "german": "Genfer Konventionen",
+    "italian": "Convenzioni di Ginevra"
+  },
+  {
+    "german": "am seidenen Faden hängen",
+    "italian": "essere appeso a un filo"
+  },
+  {
+    "german": "auf Messers Schneide stehen",
+    "italian": "essere sul filo del rasoio"
+  },
+  {
+    "german": "das Eis brechen",
+    "italian": "rompere il ghiaccio"
+  },
+  {
+    "german": "den roten Faden verlieren",
+    "italian": "perdere il filo rosso"
+  },
+  {
+    "german": "eine Brücke schlagen",
+    "italian": "gettare un ponte"
+  },
+  {
+    "german": "grünes Licht geben",
+    "italian": "dare il via libera"
+  },
+  {
+    "german": "in trüben Gewässern fischen",
+    "italian": "pescare nel torbido"
+  },
+  {
+    "german": "jemanden unter die Lupe nehmen",
+    "italian": "esaminare attentamente"
+  },
+  {
+    "german": "schwarzsehen",
+    "italian": "essere pessimista"
+  },
+  {
+    "german": "sich auf dünnem Eis bewegen",
+    "italian": "muoversi su un terreno minato"
+  },
+  {
+    "german": "Steine in den Weg legen",
+    "italian": "mettere i bastoni tra le ruote"
+  },
+  {
+    "german": "Wasser predigen und Wein trinken",
+    "italian": "predicare bene e razzolare male"
+  },
+  {
+    "german": "die Metonymie",
+    "italian": "la metonimia"
+  },
+  {
+    "german": "die Synekdoche",
+    "italian": "la sineddoche"
+  },
+  {
+    "german": "die Hyperbel",
+    "italian": "l'iperbole"
+  },
+  {
+    "german": "die Litotes",
+    "italian": "la litote"
+  },
+  {
+    "german": "das Oxymoron",
+    "italian": "l'ossimoro"
+  },
+  {
+    "german": "die Alliteration",
+    "italian": "l'allitterazione"
+  },
+  {
+    "german": "die Anapher",
+    "italian": "l'anafora"
+  },
+  {
+    "german": "die Ellipse",
+    "italian": "l'ellissi"
+  },
+  {
+    "german": "das Chiasmus",
+    "italian": "il chiasmo"
+  },
+  {
+    "german": "die Personifikation",
+    "italian": "la personificazione"
+  },
+  {
+    "german": "das Paradoxon",
+    "italian": "il paradosso"
+  },
+  {
+    "german": "die Euphemismus",
+    "italian": "l'eufemismo"
+  },
+  {
+    "german": "der Pleonasmus",
+    "italian": "il pleonasmo"
+  },
+  {
+    "german": "die Textlinguistik",
+    "italian": "la linguistica testuale"
+  },
+  {
+    "german": "die Textsorte",
+    "italian": "il tipo di testo"
+  },
+  {
+    "german": "die Textfunktion",
+    "italian": "la funzione testuale"
+  },
+  {
+    "german": "die Thema-Rhema-Gliederung",
+    "italian": "l'articolazione tema-rema"
+  },
+  {
+    "german": "die Isotopie",
+    "italian": "l'isotopia"
+  },
+  {
+    "german": "die Textkohäsion",
+    "italian": "la coesione testuale"
+  },
+  {
+    "german": "die Makrostruktur",
+    "italian": "la macrostruttura"
+  },
+  {
+    "german": "die Mikrostruktur",
+    "italian": "la microstruttura"
+  },
+  {
+    "german": "die Textproduktion",
+    "italian": "la produzione testuale"
+  },
+  {
+    "german": "die Textrezeption",
+    "italian": "la ricezione testuale"
+  },
+  {
+    "german": "die Textgrammatik",
+    "italian": "la grammatica testuale"
+  },
+  {
+    "german": "die Reformulierung",
+    "italian": "la riformulazione"
+  },
+  {
+    "german": "die Textdeixis",
+    "italian": "la deissi testuale"
+  },
+  {
+    "german": "das Themenentfaltung",
+    "italian": "lo sviluppo tematico"
+  },
+  {
+    "german": "die Textpragmatik",
+    "italian": "la pragmatica testuale"
+  },
+  {
+    "german": "die diskursive Praxis",
+    "italian": "la pratica discorsiva"
+  },
+  {
+    "german": "die Subjektposition",
+    "italian": "la posizione del soggetto"
+  },
+  {
+    "german": "die Hegemonie",
+    "italian": "l'egemonia"
+  },
+  {
+    "german": "die Machtstruktur",
+    "italian": "la struttura di potere"
+  },
+  {
+    "german": "die Wissensoziologie",
+    "italian": "la sociologia della conoscenza"
+  },
+  {
+    "german": "der Interdiskurs",
+    "italian": "l'interdiscorso"
+  },
+  {
+    "german": "die Diskursordnung",
+    "italian": "l'ordine del discorso"
+  },
+  {
+    "german": "die Genealogie",
+    "italian": "la genealogia"
+  },
+  {
+    "german": "die Archäologie des Wissens",
+    "italian": "l'archeologia del sapere"
+  },
+  {
+    "german": "die kritische Diskursanalyse",
+    "italian": "l'analisi critica del discorso"
+  },
+  {
+    "german": "die Dispositivanalyse",
+    "italian": "l'analisi del dispositivo"
+  },
+  {
+    "german": "das Sagbare",
+    "italian": "il dicibile"
+  },
+  {
+    "german": "die Deutungshoheit",
+    "italian": "la sovranità interpretativa"
+  },
+  {
+    "german": "die Semiotik",
+    "italian": "la semiotica"
+  },
+  {
+    "german": "das Zeichen",
+    "italian": "il segno"
+  },
+  {
+    "german": "das Signifikat",
+    "italian": "il significato"
+  },
+  {
+    "german": "der Signifikant",
+    "italian": "il significante"
+  },
+  {
+    "german": "die Ikonizität",
+    "italian": "l'iconicità"
+  },
+  {
+    "german": "der Code",
+    "italian": "il codice"
+  },
+  {
+    "german": "die Semiose",
+    "italian": "la semiosi"
+  },
+  {
+    "german": "die Polysemie",
+    "italian": "la polisemia"
+  },
+  {
+    "german": "die Zeichentheorie",
+    "italian": "la teoria del segno"
+  },
+  {
+    "german": "die visuelle Semiotik",
+    "italian": "la semiotica visiva"
+  },
+  {
+    "german": "der binäre Gegensatz",
+    "italian": "l'opposizione binaria"
+  },
+  {
+    "german": "die Bedeutungskonstitution",
+    "italian": "la costituzione del significato"
+  },
+  {
+    "german": "die Narratologie",
+    "italian": "la narratologia"
+  },
+  {
+    "german": "die Erzählperspektive",
+    "italian": "la prospettiva narrativa"
+  },
+  {
+    "german": "die auktoriale Erzählung",
+    "italian": "la narrazione autoriale"
+  },
+  {
+    "german": "die Ich-Erzählung",
+    "italian": "la narrazione in prima persona"
+  },
+  {
+    "german": "die erlebte Rede",
+    "italian": "il discorso indiretto libero"
+  },
+  {
+    "german": "die Prolepse",
+    "italian": "la prolessi"
+  },
+  {
+    "german": "die Analepse",
+    "italian": "l'analessi"
+  },
+  {
+    "german": "die Diegese",
+    "italian": "la diegesi"
+  },
+  {
+    "german": "die Fokalisierung",
+    "italian": "la focalizzazione"
+  },
+  {
+    "german": "die unzuverlässige Erzählung",
+    "italian": "la narrazione inattendibile"
+  },
+  {
+    "german": "die Rahmenerzählung",
+    "italian": "la narrazione a cornice"
+  },
+  {
+    "german": "die Binnenerzählung",
+    "italian": "la narrazione interna"
+  },
+  {
+    "german": "der Plot",
+    "italian": "la trama"
+  },
+  {
+    "german": "das Sujet",
+    "italian": "il soggetto narrativo"
+  },
+  {
+    "german": "die Metalepse",
+    "italian": "la metalessi"
+  },
+  {
+    "german": "die Komparatistik",
+    "italian": "la letteratura comparata"
+  },
+  {
+    "german": "die Weltliteratur",
+    "italian": "la letteratura mondiale"
+  },
+  {
+    "german": "die interkulturelle Literatur",
+    "italian": "la letteratura interculturale"
+  },
+  {
+    "german": "die Migrationsliteratur",
+    "italian": "la letteratura della migrazione"
+  },
+  {
+    "german": "die postkoloniale Literatur",
+    "italian": "la letteratura postcoloniale"
+  },
+  {
+    "german": "der literarische Kanon",
+    "italian": "il canone letterario"
+  },
+  {
+    "german": "die Kanonisierung",
+    "italian": "la canonizzazione"
+  },
+  {
+    "german": "die Übersetzung",
+    "italian": "la traduzione"
+  },
+  {
+    "german": "die kulturelle Übersetzung",
+    "italian": "la traduzione culturale"
+  },
+  {
+    "german": "die Hybridität",
+    "italian": "l'ibridità"
+  },
+  {
+    "german": "die Alterität",
+    "italian": "l'alterità"
+  },
+  {
+    "german": "das Fremde",
+    "italian": "l'estraneo"
+  },
+  {
+    "german": "die Transnationalität",
+    "italian": "la transnazionalità"
+  },
+  {
+    "german": "die Gattungstheorie",
+    "italian": "la teoria dei generi letterari"
+  },
+  {
+    "german": "die Periodisierung",
+    "italian": "la periodizzazione"
+  },
+  {
+    "german": "die Einflussstudie",
+    "italian": "lo studio d'influenza"
+  },
+  {
+    "german": "die Übersetzungswissenschaft",
+    "italian": "la traduttologia"
+  },
+  {
+    "german": "die Äquivalenz",
+    "italian": "l'equivalenza"
+  },
+  {
+    "german": "die Adäquatheit",
+    "italian": "l'adeguatezza"
+  },
+  {
+    "german": "die Ausgangsprache",
+    "italian": "la lingua di partenza"
+  },
+  {
+    "german": "die Zielsprache",
+    "italian": "la lingua di arrivo"
+  },
+  {
+    "german": "die Domestizierung",
+    "italian": "l'addomesticamento"
+  },
+  {
+    "german": "die Verfremdung",
+    "italian": "lo straniamento"
+  },
+  {
+    "german": "die Lokalisisierung",
+    "italian": "la localizzazione"
+  },
+  {
+    "german": "die maschinelle Übersetzung",
+    "italian": "la traduzione automatica"
+  },
+  {
+    "german": "die Dolmetschung",
+    "italian": "l'interpretariato"
+  },
+  {
+    "german": "das Simultandolmetschen",
+    "italian": "l'interpretariato simultaneo"
+  },
+  {
+    "german": "das Konsekutivdolmetschen",
+    "italian": "l'interpretariato consecutivo"
+  },
+  {
+    "german": "die Transkreation",
+    "italian": "la transcreazione"
+  },
+  {
+    "german": "die Fachübersetzung",
+    "italian": "la traduzione specializzata"
+  },
+  {
+    "german": "die literarische Übersetzung",
+    "italian": "la traduzione letteraria"
+  },
+  {
+    "german": "die Übersetzungsstrategie",
+    "italian": "la strategia di traduzione"
+  },
+  {
+    "german": "die post-editing",
+    "italian": "la post-edizione"
+  },
+  {
+    "german": "die Poetik",
+    "italian": "la poetica"
+  },
+  {
+    "german": "die Versform",
+    "italian": "la forma del verso"
+  },
+  {
+    "german": "der Jambus",
+    "italian": "il giambo"
+  },
+  {
+    "german": "der Trochäus",
+    "italian": "il trocheo"
+  },
+  {
+    "german": "der Daktylus",
+    "italian": "il dattilo"
+  },
+  {
+    "german": "der Anapäst",
+    "italian": "l'anapesto"
+  },
+  {
+    "german": "das Sonett",
+    "italian": "il sonetto"
+  },
+  {
+    "german": "die Ode",
+    "italian": "l'ode"
+  },
+  {
+    "german": "die Elegie",
+    "italian": "l'elegia"
+  },
+  {
+    "german": "die Ballade",
+    "italian": "la ballata"
+  },
+  {
+    "german": "das Epigramm",
+    "italian": "l'epigramma"
+  },
+  {
+    "german": "der Hexameter",
+    "italian": "l'esametro"
+  },
+  {
+    "german": "das Metrum",
+    "italian": "il metro"
+  },
+  {
+    "german": "das Enjambement",
+    "italian": "l'enjambement"
+  },
+  {
+    "german": "die Dramentheorie",
+    "italian": "la teoria del dramma"
+  },
+  {
+    "german": "die Katharsis",
+    "italian": "la catarsi"
+  },
+  {
+    "german": "die Peripetie",
+    "italian": "la peripezia"
+  },
+  {
+    "german": "die Anagnorisis",
+    "italian": "l'anagnorisi"
+  },
+  {
+    "german": "der Protagonist",
+    "italian": "il protagonista"
+  },
+  {
+    "german": "der Antagonist",
+    "italian": "l'antagonista"
+  },
+  {
+    "german": "die Exposition",
+    "italian": "l'esposizione"
+  },
+  {
+    "german": "die steigende Handlung",
+    "italian": "l'azione ascendente"
+  },
+  {
+    "german": "die fallende Handlung",
+    "italian": "l'azione discendente"
+  },
+  {
+    "german": "die Katastrophe",
+    "italian": "la catastrofe"
+  },
+  {
+    "german": "das epische Theater",
+    "italian": "il teatro epico"
+  },
+  {
+    "german": "der Verfremdungseffekt",
+    "italian": "l'effetto di straniamento"
+  },
+  {
+    "german": "das absurde Theater",
+    "italian": "il teatro dell'assurdo"
+  },
+  {
+    "german": "die vierte Wand",
+    "italian": "la quarta parete"
+  },
+  {
+    "german": "die Regieanweisung",
+    "italian": "la didascalia"
+  },
+  {
+    "german": "die Filmtheorie",
+    "italian": "la teoria del cinema"
+  },
+  {
+    "german": "die Montage",
+    "italian": "il montaggio"
+  },
+  {
+    "german": "die Mise en Scène",
+    "italian": "la messa in scena"
+  },
+  {
+    "german": "die Kamerabewegung",
+    "italian": "il movimento della cinepresa"
+  },
+  {
+    "german": "die Totale",
+    "italian": "il campo totale"
+  },
+  {
+    "german": "die Nahaufnahme",
+    "italian": "il primo piano"
+  },
+  {
+    "german": "die extradiegetische Musik",
+    "italian": "la musica extradiegetica"
+  },
+  {
+    "german": "die Plansequenz",
+    "italian": "il piano sequenza"
+  },
+  {
+    "german": "der McGuffin",
+    "italian": "il MacGuffin"
+  },
+  {
+    "german": "die subjektive Kamera",
+    "italian": "la camera soggettiva"
+  },
+  {
+    "german": "der Autorenfilm",
+    "italian": "il cinema d'autore"
+  },
+  {
+    "german": "die Genretheorie",
+    "italian": "la teoria dei generi cinematografici"
+  },
+  {
+    "german": "die Filmnarratologie",
+    "italian": "la narratologia cinematografica"
+  },
+  {
+    "german": "die Semiotik des Films",
+    "italian": "la semiotica del cinema"
+  },
+  {
+    "german": "die Kulturkritik",
+    "italian": "la critica culturale"
+  },
+  {
+    "german": "die Kulturindustrie",
+    "italian": "l'industria culturale"
+  },
+  {
+    "german": "die Massenkultur",
+    "italian": "la cultura di massa"
+  },
+  {
+    "german": "die Hochkultur",
+    "italian": "l'alta cultura"
+  },
+  {
+    "german": "die Populärkultur",
+    "italian": "la cultura popolare"
+  },
+  {
+    "german": "die Frankfurter Schule",
+    "italian": "la Scuola di Francoforte"
+  },
+  {
+    "german": "die kritische Theorie",
+    "italian": "la teoria critica"
+  },
+  {
+    "german": "die Dialektik der Aufklärung",
+    "italian": "la dialettica dell'illuminismo"
+  },
+  {
+    "german": "die Verdinglichung",
+    "italian": "la reificazione"
+  },
+  {
+    "german": "die Ideologiekritik",
+    "italian": "la critica dell'ideologia"
+  },
+  {
+    "german": "der Dekonstruktivismus",
+    "italian": "il decostruttivismo"
+  },
+  {
+    "german": "die Simulakrum",
+    "italian": "il simulacro"
+  },
+  {
+    "german": "die Hyperrealität",
+    "italian": "l'iperrealtà"
+  },
+  {
+    "german": "die Kultur als Text",
+    "italian": "la cultura come testo"
+  },
+  {
+    "german": "die Ideengeschichte",
+    "italian": "la storia delle idee"
+  },
+  {
+    "german": "die Begriffsgeschichte",
+    "italian": "la storia dei concetti"
+  },
+  {
+    "german": "die Mentalitätsgeschichte",
+    "italian": "la storia delle mentalità"
+  },
+  {
+    "german": "die Wissensgeschichte",
+    "italian": "la storia del sapere"
+  },
+  {
+    "german": "die Historiografie",
+    "italian": "la storiografia"
+  },
+  {
+    "german": "die Epochenschwelle",
+    "italian": "la soglia epocale"
+  },
+  {
+    "german": "der Zeitgeist",
+    "italian": "lo spirito del tempo"
+  },
+  {
+    "german": "die Episteme",
+    "italian": "l'episteme"
+  },
+  {
+    "german": "der Diskontinuität",
+    "italian": "la discontinuità"
+  },
+  {
+    "german": "die longue durée",
+    "italian": "la longue durée"
+  },
+  {
+    "german": "der Fortschrittsgedanke",
+    "italian": "l'idea di progresso"
+  },
+  {
+    "german": "die Moderne",
+    "italian": "la modernità"
+  },
+  {
+    "german": "die Spätmoderne",
+    "italian": "la tarda modernità"
+  },
+  {
+    "german": "die Technikphilosophie",
+    "italian": "la filosofia della tecnica"
+  },
+  {
+    "german": "die Technikkritik",
+    "italian": "la critica della tecnica"
+  },
+  {
+    "german": "die Technikfolgenabschätzung",
+    "italian": "la valutazione dell'impatto tecnologico"
+  },
+  {
+    "german": "die instrumentelle Vernunft",
+    "italian": "la ragione strumentale"
+  },
+  {
+    "german": "die technologische Singularität",
+    "italian": "la singolarità tecnologica"
+  },
+  {
+    "german": "der Transhumanismus",
+    "italian": "il transumanesimo"
+  },
+  {
+    "german": "der Posthumanismus",
+    "italian": "il postumanesimo"
+  },
+  {
+    "german": "die Technodeterminismus",
+    "italian": "il determinismo tecnologico"
+  },
+  {
+    "german": "die Sozialkonstruktion von Technik",
+    "italian": "la costruzione sociale della tecnologia"
+  },
+  {
+    "german": "die Risikotechnologie",
+    "italian": "la tecnologia a rischio"
+  },
+  {
+    "german": "die Technikgestaltung",
+    "italian": "la progettazione tecnologica"
+  },
+  {
+    "german": "die partizipative Technikgestaltung",
+    "italian": "la progettazione tecnologica partecipativa"
+  },
+  {
+    "german": "die Cyborg-Theorie",
+    "italian": "la teoria del cyborg"
+  },
+  {
+    "german": "die Algorithmenethik",
+    "italian": "l'etica degli algoritmi"
+  },
+  {
+    "german": "die Medizinethik",
+    "italian": "l'etica medica"
+  },
+  {
+    "german": "die vier Prinzipien",
+    "italian": "i quattro principi"
+  },
+  {
+    "german": "die Autonomie",
+    "italian": "l'autonomia"
+  },
+  {
+    "german": "die Benefizienz",
+    "italian": "la beneficenza"
+  },
+  {
+    "german": "die Nonmaleficenz",
+    "italian": "la non maleficenza"
+  },
+  {
+    "german": "die Allokation",
+    "italian": "l'allocazione"
+  },
+  {
+    "german": "die Rationierung",
+    "italian": "il razionamento"
+  },
+  {
+    "german": "die Enhancement-Debatte",
+    "italian": "il dibattito sull'enhancement"
+  },
+  {
+    "german": "die Vorausverfügung",
+    "italian": "la disposizione anticipata"
+  },
+  {
+    "german": "das Gendiagnostikgesetz",
+    "italian": "la legge sulla diagnostica genetica"
+  },
+  {
+    "german": "die Reproduktionsethik",
+    "italian": "l'etica riproduttiva"
+  },
+  {
+    "german": "die Gesellschaftskritik",
+    "italian": "la critica sociale"
+  },
+  {
+    "german": "die soziale Reproduktion",
+    "italian": "la riproduzione sociale"
+  },
+  {
+    "german": "der symbolische Kapitalismus",
+    "italian": "il capitalismo simbolico"
+  },
+  {
+    "german": "die symbolische Gewalt",
+    "italian": "la violenza simbolica"
+  },
+  {
+    "german": "die Biopolitik",
+    "italian": "la biopolitica"
+  },
+  {
+    "german": "die Gouvernementalität",
+    "italian": "la governamentalità"
+  },
+  {
+    "german": "die Disziplinargesellschaft",
+    "italian": "la società disciplinare"
+  },
+  {
+    "german": "die Kontrollgesellschaft",
+    "italian": "la società del controllo"
+  },
+  {
+    "german": "die Erlebnisgesellschaft",
+    "italian": "la società dell'esperienza"
+  },
+  {
+    "german": "die Resonanz",
+    "italian": "la risonanza"
+  },
+  {
+    "german": "die Wissenschaftsgeschichte",
+    "italian": "la storia della scienza"
+  },
+  {
+    "german": "die kopernikanische Wende",
+    "italian": "la rivoluzione copernicana"
+  },
+  {
+    "german": "die Darwinsche Evolution",
+    "italian": "l'evoluzione darwiniana"
+  },
+  {
+    "german": "die Doppelhelix",
+    "italian": "la doppia elica"
+  },
+  {
+    "german": "die Entdeckung des Penicillins",
+    "italian": "la scoperta della penicillina"
+  },
+  {
+    "german": "die Wissenschaftsethik",
+    "italian": "l'etica scientifica"
+  },
+  {
+    "german": "die scientific community",
+    "italian": "la comunità scientifica"
+  },
+  {
+    "german": "das Peer-Review",
+    "italian": "la revisione paritaria"
+  },
+  {
+    "german": "die Replikationskrise",
+    "italian": "la crisi della replicazione"
+  },
+  {
+    "german": "die Verwissenschaftlichung",
+    "italian": "la scientificizzazione"
+  },
+  {
+    "german": "die Interdisziplinarität",
+    "italian": "l'interdisciplinarità"
+  },
+  {
+    "german": "die Transdisziplinarität",
+    "italian": "la transdisciplinarità"
+  },
+  {
+    "german": "die Big Science",
+    "italian": "la big science"
+  },
+  {
+    "german": "die Medienästhetik",
+    "italian": "l'estetica dei media"
+  },
+  {
+    "german": "die Interaktivität",
+    "italian": "l'interattività"
+  },
+  {
+    "german": "die Multimodalität",
+    "italian": "la multimodalità"
+  },
+  {
+    "german": "die Remediation",
+    "italian": "la rimediazione"
+  },
+  {
+    "german": "die Affordanz",
+    "italian": "l'affordance"
+  },
+  {
+    "german": "die Materialität",
+    "italian": "la materialità"
+  },
+  {
+    "german": "die digitale Ästhetik",
+    "italian": "l'estetica digitale"
+  },
+  {
+    "german": "die algorithmische Ästhetik",
+    "italian": "l'estetica algoritmica"
+  },
+  {
+    "german": "die generative Kunst",
+    "italian": "l'arte generativa"
+  },
+  {
+    "german": "die virtuelle Realität",
+    "italian": "la realtà virtuale"
+  },
+  {
+    "german": "die erweiterte Realität",
+    "italian": "la realtà aumentata"
+  },
+  {
+    "german": "die Synästhesie",
+    "italian": "la sinestesia"
+  },
+  {
+    "german": "die Aura",
+    "italian": "l'aura"
+  },
+  {
+    "german": "das Gesamtkunstwerk",
+    "italian": "l'opera d'arte totale"
+  },
+  {
+    "german": "die Netzkünst",
+    "italian": "la net art"
+  },
+  {
+    "german": "der Paradigmenwechsel",
+    "italian": "il cambiamento di paradigma"
+  },
+  {
+    "german": "die Inkommensurabilität",
+    "italian": "l'incommensurabilità"
+  },
+  {
+    "german": "der Falsifikationismus",
+    "italian": "il falsificazionismo"
+  },
+  {
+    "german": "die Forschungsprogramme",
+    "italian": "i programmi di ricerca"
+  },
+  {
+    "german": "der Antirealismus",
+    "italian": "l'antirealismo"
+  },
+  {
+    "german": "der Instrumentalismus",
+    "italian": "lo strumentalismo"
+  },
+  {
+    "german": "der Konstruktive Empirismus",
+    "italian": "l'empirismo costruttivo"
+  },
+  {
+    "german": "die Unterbestimmtheit",
+    "italian": "la sottodeterminazione"
+  },
+  {
+    "german": "die Theoriebeladenheit",
+    "italian": "la carica teorica"
+  },
+  {
+    "german": "die Wertfreiheit",
+    "italian": "la neutralità valoriale"
+  },
+  {
+    "german": "die Reproduzierbarkeitskrise",
+    "italian": "la crisi della riproducibilità"
+  },
+  {
+    "german": "die Prädiktive Validität",
+    "italian": "la validità predittiva"
+  },
+  {
+    "german": "die Bayesianische Erkenntnistheorie",
+    "italian": "l'epistemologia bayesiana"
+  },
+  {
+    "german": "die kommunikative Rationalität",
+    "italian": "la razionalità comunicativa"
+  },
+  {
+    "german": "die Lebenswelt",
+    "italian": "il mondo della vita"
+  },
+  {
+    "german": "die Kolonialisierung der Lebenswelt",
+    "italian": "la colonizzazione del mondo della vita"
+  },
+  {
+    "german": "der öffentliche Diskurs",
+    "italian": "il discorso pubblico"
+  },
+  {
+    "german": "die Diskursethik",
+    "italian": "l'etica del discorso"
+  },
+  {
+    "german": "die ideale Sprechsituation",
+    "italian": "la situazione discorsiva ideale"
+  },
+  {
+    "german": "die Spektakelgesellschaft",
+    "italian": "la società dello spettacolo"
+  },
+  {
+    "german": "die Generative Grammatik",
+    "italian": "la grammatica generativa"
+  },
+  {
+    "german": "die Dependenzgrammatik",
+    "italian": "la grammatica delle dipendenze"
+  },
+  {
+    "german": "die Konstruktionsgrammatik",
+    "italian": "la grammatica delle costruzioni"
+  },
+  {
+    "german": "die Kognitive Grammatik",
+    "italian": "la grammatica cognitiva"
+  },
+  {
+    "german": "die Sapir-Whorf-Hypothese",
+    "italian": "l'ipotesi di Sapir-Whorf"
+  },
+  {
+    "german": "die sprachliche Relativität",
+    "italian": "la relatività linguistica"
+  },
+  {
+    "german": "die Modalität",
+    "italian": "la modalità"
+  },
+  {
+    "german": "die Evidentialität",
+    "italian": "l'evidenzialità"
+  },
+  {
+    "german": "die Aspektualität",
+    "italian": "l'aspettualità"
+  },
+  {
+    "german": "die Valenz",
+    "italian": "la valenza"
+  },
+  {
+    "german": "die Topikalisierung",
+    "italian": "la topicalizzazione"
+  },
+  {
+    "german": "die Fokussierung",
+    "italian": "la focalizzazione"
+  },
+  {
+    "german": "die Grammatikalisierung",
+    "italian": "la grammaticalizzazione"
+  },
+  {
+    "german": "die Lexikalisierung",
+    "italian": "la lessicalizzazione"
+  },
+  {
+    "german": "die Idiomatizität",
+    "italian": "l'idiomaticità"
+  },
+  {
+    "german": "die Ästhetische Erfahrung",
+    "italian": "l'esperienza estetica"
+  },
+  {
+    "german": "das Erhabene",
+    "italian": "il sublime"
+  },
+  {
+    "german": "das Schöne",
+    "italian": "il bello"
+  },
+  {
+    "german": "die Geschmackskritik",
+    "italian": "la critica del gusto"
+  },
+  {
+    "german": "die Mimesis",
+    "italian": "la mimesi"
+  },
+  {
+    "german": "die Entauratisierung",
+    "italian": "la perdita dell'aura"
+  },
+  {
+    "german": "die Avantgarde",
+    "italian": "l'avanguardia"
+  },
+  {
+    "german": "die Neoavantgarde",
+    "italian": "la neoavanguardia"
+  },
+  {
+    "german": "die Institutionskritik",
+    "italian": "la critica istituzionale"
+  },
+  {
+    "german": "die Performativität",
+    "italian": "la performatività"
+  },
+  {
+    "german": "die Relationalität",
+    "italian": "la relazionalità"
+  },
+  {
+    "german": "die Kontemplation",
+    "italian": "la contemplazione"
+  },
+  {
+    "german": "der Kontraktualismus",
+    "italian": "il contrattualismo"
+  },
+  {
+    "german": "das Differenzprinzip",
+    "italian": "il principio di differenza"
+  },
+  {
+    "german": "der Libertarismus",
+    "italian": "il libertarismo"
+  },
+  {
+    "german": "die prozedurale Gerechtigkeit",
+    "italian": "la giustizia procedurale"
+  },
+  {
+    "german": "die distributive Gerechtigkeit",
+    "italian": "la giustizia distributiva"
+  },
+  {
+    "german": "die Anerkennungstheorie",
+    "italian": "la teoria del riconoscimento"
+  },
+  {
+    "german": "die Fähigkeitenansatz",
+    "italian": "l'approccio delle capacità"
+  },
+  {
+    "german": "die globale Gerechtigkeit",
+    "italian": "la giustizia globale"
+  },
+  {
+    "german": "die kosmopolitische Demokratie",
+    "italian": "la democrazia cosmopolitica"
+  },
+  {
+    "german": "die radikale Demokratie",
+    "italian": "la democrazia radicale"
+  },
+  {
+    "german": "die agonale Demokratie",
+    "italian": "la democrazia agonale"
+  },
+  {
+    "german": "der Postfundamentalismus",
+    "italian": "il postfondamentalismo"
+  },
+  {
+    "german": "die Dekonstruktion der Souveränität",
+    "italian": "la decostruzione della sovranità"
+  },
+  {
+    "german": "die subalterne Theorie",
+    "italian": "la teoria subalterna"
+  },
+  {
+    "german": "der Orientalismus",
+    "italian": "l'orientalismo"
+  },
+  {
+    "german": "die Intersektionalität",
+    "italian": "l'intersezionalità"
+  },
+  {
+    "german": "der hermeneutische Zirkel",
+    "italian": "il circolo ermeneutico"
+  },
+  {
+    "german": "die Vorverständnis",
+    "italian": "la pre-comprensione"
+  },
+  {
+    "german": "der Erwartungshorizont",
+    "italian": "l'orizzonte d'attesa"
+  },
+  {
+    "german": "die Horizontverschmelzung",
+    "italian": "la fusione degli orizzonti"
+  },
+  {
+    "german": "die Wirkungsgeschichte",
+    "italian": "la storia degli effetti"
+  },
+  {
+    "german": "die Tiefenhermeneutik",
+    "italian": "l'ermeneutica profonda"
+  },
+  {
+    "german": "die objektive Hermeneutik",
+    "italian": "l'ermeneutica oggettiva"
+  },
+  {
+    "german": "die Doppelte Hermeneutik",
+    "italian": "la doppia ermeneutica"
+  },
+  {
+    "german": "die Sinnkonstruktion",
+    "italian": "la costruzione del senso"
+  },
+  {
+    "german": "die Lebensweltanalyse",
+    "italian": "l'analisi del mondo della vita"
+  },
+  {
+    "german": "die phänomenologische Reduktion",
+    "italian": "la riduzione fenomenologica"
+  },
+  {
+    "german": "die Epoché",
+    "italian": "l'epoché"
+  },
+  {
+    "german": "die eidetische Variation",
+    "italian": "la variazione eidetica"
+  },
+  {
+    "german": "die intentionale Analyse",
+    "italian": "l'analisi intenzionale"
+  },
+  {
+    "german": "die transzendentale Subjektivität",
+    "italian": "la soggettività trascendentale"
+  },
+  {
+    "german": "die Reine Rechtslehre",
+    "italian": "la dottrina pura del diritto"
+  },
+  {
+    "german": "die Grundnorm",
+    "italian": "la norma fondamentale"
+  },
+  {
+    "german": "der Rechtspositivismus",
+    "italian": "il positivismo giuridico"
+  },
+  {
+    "german": "das Naturrecht",
+    "italian": "il diritto naturale"
+  },
+  {
+    "german": "die Autopoiesis des Rechts",
+    "italian": "l'autopoiesi del diritto"
+  },
+  {
+    "german": "die Rechtsökonomie",
+    "italian": "l'analisi economica del diritto"
+  },
+  {
+    "german": "die Critical Legal Studies",
+    "italian": "i Critical Legal Studies"
+  },
+  {
+    "german": "die Feminist Legal Theory",
+    "italian": "la teoria giuridica femminista"
+  },
+  {
+    "german": "die Law-and-Literature-Bewegung",
+    "italian": "il movimento Law and Literature"
+  },
+  {
+    "german": "die Argumentationstheorie",
+    "italian": "la teoria dell'argomentazione"
+  },
+  {
+    "german": "die Rechtshermeneutik",
+    "italian": "l'ermeneutica giuridica"
+  },
+  {
+    "german": "die Prinzipientheorie",
+    "italian": "la teoria dei principi"
+  },
+  {
+    "german": "die Abwägungslehre",
+    "italian": "la dottrina del bilanciamento"
+  },
+  {
+    "german": "die Diskurstheorie des Rechts",
+    "italian": "la teoria discorsiva del diritto"
+  },
+  {
+    "german": "die Verfahrenstheorie",
+    "italian": "la teoria procedurale"
+  },
+  {
+    "german": "die Gerechtigkeit als Fairness",
+    "italian": "la giustizia come equità"
+  },
+  {
+    "german": "die Rechtsfortbildung",
+    "italian": "lo sviluppo del diritto"
+  },
+  {
+    "german": "die Situated Cognition",
+    "italian": "la cognizione situata"
+  },
+  {
+    "german": "die Distributed Cognition",
+    "italian": "la cognizione distribuita"
+  },
+  {
+    "german": "die Enaktivismus",
+    "italian": "l'enattivismo"
+  },
+  {
+    "german": "die Autopoiese",
+    "italian": "l'autopoiesi"
+  },
+  {
+    "german": "die strukturelle Kopplung",
+    "italian": "l'accoppiamento strutturale"
+  },
+  {
+    "german": "die dynamische Systemtheorie",
+    "italian": "la teoria dei sistemi dinamici"
+  },
+  {
+    "german": "die Konnektionismus",
+    "italian": "il connessionismo"
+  },
+  {
+    "german": "die Computational Theory of Mind",
+    "italian": "la teoria computazionale della mente"
+  },
+  {
+    "german": "die Modularitätsthese",
+    "italian": "la tesi della modularità"
+  },
+  {
+    "german": "die Prototypentheorie",
+    "italian": "la teoria dei prototipi"
+  },
+  {
+    "german": "die Frame-Semantik",
+    "italian": "la semantica dei frame"
+  },
+  {
+    "german": "die Blending-Theorie",
+    "italian": "la teoria del blending"
+  },
+  {
+    "german": "die Conceptual Metaphor Theory",
+    "italian": "la teoria della metafora concettuale"
+  },
+  {
+    "german": "die mentale Simulation",
+    "italian": "la simulazione mentale"
+  },
+  {
+    "german": "die Theory of Mind",
+    "italian": "la teoria della mente"
+  },
+  {
+    "german": "die exekutive Funktionen",
+    "italian": "le funzioni esecutive"
+  },
+  {
+    "german": "die Übersetzungstheorie",
+    "italian": "la teoria della traduzione"
+  },
+  {
+    "german": "die Dolmetschwissenschaft",
+    "italian": "la scienza dell'interpretariato"
+  },
+  {
+    "german": "die Funktionale Übersetzung",
+    "italian": "la traduzione funzionale"
+  },
+  {
+    "german": "die Skopostheorie",
+    "italian": "la teoria dello skopos"
+  },
+  {
+    "german": "die Manipulation School",
+    "italian": "la scuola della manipolazione"
+  },
+  {
+    "german": "die Descriptive Translation Studies",
+    "italian": "gli studi descrittivi della traduzione"
+  },
+  {
+    "german": "die Postedition",
+    "italian": "la post-editing"
+  },
+  {
+    "german": "die Terminologieextraktion",
+    "italian": "l'estrazione terminologica"
+  },
+  {
+    "german": "das Übersetzungsgedächtnis",
+    "italian": "la memoria di traduzione"
+  },
+  {
+    "german": "die Computergestützte Übersetzung",
+    "italian": "la traduzione assistita"
+  },
+  {
+    "german": "die Unübersetzbarkeit",
+    "italian": "l'intraducibilità"
+  },
+  {
+    "german": "die Fremdheit",
+    "italian": "l'estraneità"
+  },
+  {
+    "german": "die Medienontologie",
+    "italian": "l'ontologia dei media"
+  },
+  {
+    "german": "die Medienarchäologie",
+    "italian": "l'archeologia dei media"
+  },
+  {
+    "german": "die Apparatustheorie",
+    "italian": "la teoria dell'apparato"
+  },
+  {
+    "german": "die Remedialisierung",
+    "italian": "la rimediazione"
+  },
+  {
+    "german": "die Medienmaterialität",
+    "italian": "la materialità dei media"
+  },
+  {
+    "german": "die Operativität",
+    "italian": "l'operatività"
+  },
+  {
+    "german": "die Kulturtechnik",
+    "italian": "la tecnica culturale"
+  },
+  {
+    "german": "die Übertragungsmedien",
+    "italian": "i media di trasmissione"
+  },
+  {
+    "german": "die Speichermedien",
+    "italian": "i media di archiviazione"
+  },
+  {
+    "german": "die Verarbeitungsmedien",
+    "italian": "i media di elaborazione"
+  },
+  {
+    "german": "die Schriftkultur",
+    "italian": "la cultura scritta"
+  },
+  {
+    "german": "die Oralität",
+    "italian": "l'oralità"
+  },
+  {
+    "german": "die Hypermedialität",
+    "italian": "l'ipermedialità"
+  },
+  {
+    "german": "die Transparenz",
+    "italian": "la trasparenza"
+  },
+  {
+    "german": "die Interfacekritik",
+    "italian": "la critica dell'interfaccia"
+  },
+  {
+    "german": "die Gender Studies",
+    "italian": "gli studi di genere"
+  },
+  {
+    "german": "die Performativität des Geschlechts",
+    "italian": "la performatività del genere"
+  },
+  {
+    "german": "die Heteronormativität",
+    "italian": "l'eteronormatività"
+  },
+  {
+    "german": "die Queer-Theorie",
+    "italian": "la teoria queer"
+  },
+  {
+    "german": "die Geschlechterbinarität",
+    "italian": "la binarietà di genere"
+  },
+  {
+    "german": "die Doing-Gender-Perspektive",
+    "italian": "la prospettiva doing gender"
+  },
+  {
+    "german": "die Maskulinitätsforschung",
+    "italian": "la ricerca sulla mascolinità"
+  },
+  {
+    "german": "die hegemoniale Männlichkeit",
+    "italian": "la mascolinità egemone"
+  },
+  {
+    "german": "die Care-Arbeit",
+    "italian": "il lavoro di cura"
+  },
+  {
+    "german": "die Reproduktionsarbeit",
+    "italian": "il lavoro riproduttivo"
+  },
+  {
+    "german": "die Vergeschlechtlichung",
+    "italian": "la genderizzazione"
+  },
+  {
+    "german": "die Objektivierung",
+    "italian": "l'oggettificazione"
+  },
+  {
+    "german": "die Handlungsmacht",
+    "italian": "l'agency"
+  },
+  {
+    "german": "die Verletzbarkeit",
+    "italian": "la vulnerabilità"
+  },
+  {
+    "german": "die Materialität des Körpers",
+    "italian": "la materialità del corpo"
+  },
+  {
+    "german": "die Posthumanismus",
+    "italian": "il postumanesimo"
+  },
+  {
+    "german": "die Technofeminismus",
+    "italian": "il tecnofemminismo"
+  },
+  {
+    "german": "die Affekttheorie",
+    "italian": "la teoria degli affetti"
+  },
+  {
+    "german": "die Unternehmensethik",
+    "italian": "l'etica d'impresa"
+  },
+  {
+    "german": "die Stakeholder-Theorie",
+    "italian": "la teoria degli stakeholder"
+  },
+  {
+    "german": "die Corporate Social Responsibility",
+    "italian": "la responsabilità sociale d'impresa"
+  },
+  {
+    "german": "die Nachhaltigkeitsberichterstattung",
+    "italian": "il reporting di sostenibilità"
+  },
+  {
+    "german": "die faire Handelsbedingungen",
+    "italian": "le condizioni commerciali eque"
+  },
+  {
+    "german": "die Postwachstumsökonomie",
+    "italian": "l'economia della post-crescita"
+  },
+  {
+    "german": "die Degrowth-Bewegung",
+    "italian": "il movimento decrescita"
+  },
+  {
+    "german": "die Externalisierung",
+    "italian": "l'esternalizzazione"
+  },
+  {
+    "german": "die Internalisierung",
+    "italian": "l'internalizzazione"
+  },
+  {
+    "german": "die Finanzethik",
+    "italian": "l'etica finanziaria"
+  },
+  {
+    "german": "die algorithmische Gerechtigkeit",
+    "italian": "la giustizia algoritmica"
+  },
+  {
+    "german": "die digitale Spaltung",
+    "italian": "il divario digitale"
+  },
+  {
+    "german": "die Gig-Economy",
+    "italian": "la gig economy"
+  },
+  {
+    "german": "die Arbeitnehmerrechte",
+    "italian": "i diritti dei lavoratori"
+  },
+  {
+    "german": "die Lieferkettentransparenz",
+    "italian": "la trasparenza della catena di fornitura"
+  },
+  {
+    "german": "die Vergemeinschaftung",
+    "italian": "la comunitarizzazione"
+  },
+  {
+    "german": "die Lebensweltkolonialisierung",
+    "italian": "la colonizzazione del mondo della vita"
+  },
+  {
+    "german": "die Verrechtlichung",
+    "italian": "la giuridificazione"
+  },
+  {
+    "german": "die Ökonomisierung",
+    "italian": "l'economicizzazione"
+  },
+  {
+    "german": "die Subjektivierung",
+    "italian": "la soggettivazione"
+  },
+  {
+    "german": "die Pathologisierung",
+    "italian": "la patologizzazione"
+  },
+  {
+    "german": "die Therapeutisierung",
+    "italian": "la terapeutizzazione"
+  },
+  {
+    "german": "die Flexibilisierung",
+    "italian": "la flessibilizzazione"
+  },
+  {
+    "german": "die Pluralisierung",
+    "italian": "la pluralizzazione"
+  },
+  {
+    "german": "die Entzauberung",
+    "italian": "il disincanto"
+  },
+  {
+    "german": "die Subalternität",
+    "italian": "la subalternità"
+  },
+  {
+    "german": "die Mimikry",
+    "italian": "la mimicry"
+  },
+  {
+    "german": "der dritte Raum",
+    "italian": "il terzo spazio"
+  },
+  {
+    "german": "die epistemische Gewalt",
+    "italian": "la violenza epistemica"
+  },
+  {
+    "german": "die Dekolonisierung",
+    "italian": "la decolonizzazione"
+  },
+  {
+    "german": "die Restitution",
+    "italian": "la restituzione"
+  },
+  {
+    "german": "die kulturelle Aneignung",
+    "italian": "l'appropriazione culturale"
+  },
+  {
+    "german": "die Neokolonialismus",
+    "italian": "il neocolonialismo"
+  },
+  {
+    "german": "die Dependenztheorie",
+    "italian": "la teoria della dipendenza"
+  },
+  {
+    "german": "die Weltsystemtheorie",
+    "italian": "la teoria del sistema-mondo"
+  },
+  {
+    "german": "die Zentrum-Peripherie-Dynamik",
+    "italian": "la dinamica centro-periferia"
+  },
+  {
+    "german": "die Extraktivismus",
+    "italian": "l'estrattivismo"
+  },
+  {
+    "german": "die Landnahme",
+    "italian": "l'accaparramento delle terre"
+  },
+  {
+    "german": "die epistemische Gerechtigkeit",
+    "italian": "la giustizia epistemica"
+  },
+  {
+    "german": "die Wissensdekolonisierung",
+    "italian": "la decolonizzazione del sapere"
+  },
+  {
+    "german": "die diskursive Formation",
+    "italian": "la formazione discorsiva"
+  },
+  {
+    "german": "die Aussageanalyse",
+    "italian": "l'analisi degli enunciati"
+  },
+  {
+    "german": "die Wissensordnung",
+    "italian": "l'ordine del sapere"
+  },
+  {
+    "german": "die Diskurskoalition",
+    "italian": "la coalizione discorsiva"
+  },
+  {
+    "german": "die Rahmung",
+    "italian": "la cornice interpretativa"
+  },
+  {
+    "german": "die Narrativanalyse",
+    "italian": "l'analisi narrativa"
+  },
+  {
+    "german": "die Argumentation",
+    "italian": "l'argomentazione"
+  },
+  {
+    "german": "die Topik",
+    "italian": "la topica"
+  },
+  {
+    "german": "die Textsortenlingusitik",
+    "italian": "la linguistica testuale dei generi"
+  },
+  {
+    "german": "die Gesprächsanalyse",
+    "italian": "l'analisi della conversazione"
+  },
+  {
+    "german": "die Multimodalitätsforschung",
+    "italian": "la ricerca sulla multimodalità"
+  },
+  {
+    "german": "die Medienlinguistik",
+    "italian": "la linguistica dei media"
+  },
+  {
+    "german": "das Wissenschaftssystem",
+    "italian": "il sistema scientifico"
+  },
+  {
+    "german": "die Wissenschaftsfreiheit",
+    "italian": "la libertà della scienza"
+  },
+  {
+    "german": "die Drittmittelforschung",
+    "italian": "la ricerca finanziata da terzi"
+  },
+  {
+    "german": "die Exzellenzinitiative",
+    "italian": "l'iniziativa di eccellenza"
+  },
+  {
+    "german": "die Peer-Review",
+    "italian": "la revisione paritaria"
+  },
+  {
+    "german": "die Zitationsanalyse",
+    "italian": "l'analisi delle citazioni"
+  },
+  {
+    "german": "der Impact-Faktor",
+    "italian": "il fattore d'impatto"
+  },
+  {
+    "german": "die Bibliometrie",
+    "italian": "la bibliometria"
+  },
+  {
+    "german": "die Szientometrie",
+    "italian": "la scientometria"
+  },
+  {
+    "german": "die Altmetrie",
+    "italian": "l'altmetrica"
+  },
+  {
+    "german": "die Open Science",
+    "italian": "la scienza aperta"
+  },
+  {
+    "german": "die Replication Crisis",
+    "italian": "la crisi della replicabilità"
+  },
+  {
+    "german": "die Predatory Journals",
+    "italian": "le riviste predatorie"
+  },
+  {
+    "german": "die Wissenschaftskommunikation",
+    "italian": "la comunicazione scientifica"
+  },
+  {
+    "german": "die Bürgerwissenschaft",
+    "italian": "la citizen science"
+  },
+  {
+    "german": "das Ikon",
+    "italian": "l'icona"
+  },
+  {
+    "german": "die Zeichenrelation",
+    "italian": "la relazione segnica"
+  },
+  {
+    "german": "die Kodierung",
+    "italian": "la codifica"
+  },
+  {
+    "german": "die Dekodierung",
+    "italian": "la decodifica"
+  },
+  {
+    "german": "die Bedeutungsproduktion",
+    "italian": "la produzione di significato"
+  },
+  {
+    "german": "die Biosemiotik",
+    "italian": "la biosemiotica"
+  },
+  {
+    "german": "die Ökosemiotik",
+    "italian": "l'ecosemiotica"
+  },
+  {
+    "german": "die Technikdeterminismus",
+    "italian": "il determinismo tecnologico"
+  },
+  {
+    "german": "die Sozialkonstruktion der Technik",
+    "italian": "la costruzione sociale della tecnologia"
+  },
+  {
+    "german": "die Akteur-Netzwerk-Theorie",
+    "italian": "la teoria dell'attore-rete"
+  },
+  {
+    "german": "die Technogenese",
+    "italian": "la tecnogenesi"
+  },
+  {
+    "german": "die Technikbewertung",
+    "italian": "la valutazione della tecnologia"
+  },
+  {
+    "german": "die Verantwortbare Innovation",
+    "italian": "l'innovazione responsabile"
+  },
+  {
+    "german": "die Technische Vermittlung",
+    "italian": "la mediazione tecnica"
+  },
+  {
+    "german": "die Postphänomenologie",
+    "italian": "la postfenomenologia"
+  },
+  {
+    "german": "die Designethik",
+    "italian": "l'etica del design"
+  },
+  {
+    "german": "die Wertesensitives Design",
+    "italian": "il design sensibile ai valori"
+  },
+  {
+    "german": "die Nudge-Theorie",
+    "italian": "la teoria del nudge"
+  },
+  {
+    "german": "die Technikanthropologie",
+    "italian": "l'antropologia della tecnologia"
+  },
+  {
+    "german": "die Transhumanismus",
+    "italian": "il transumanesimo"
+  },
+  {
+    "german": "die Singularität",
+    "italian": "la singolarità tecnologica"
+  },
+  {
+    "german": "die Wesensschau",
+    "italian": "l'intuizione eidetica"
+  },
+  {
+    "german": "die Lebensweltphänomenologie",
+    "italian": "la fenomenologia del mondo della vita"
+  },
+  {
+    "german": "die Zeitbewusstsein",
+    "italian": "la coscienza del tempo"
+  },
+  {
+    "german": "die Leibphänomenologie",
+    "italian": "la fenomenologia del corpo proprio"
+  },
+  {
+    "german": "die Interleiblichkeit",
+    "italian": "l'intercorporeità"
+  },
+  {
+    "german": "die Fremderfahrung",
+    "italian": "l'esperienza dell'alterità"
+  },
+  {
+    "german": "die Habitualität",
+    "italian": "l'abitualità"
+  },
+  {
+    "german": "die Protention",
+    "italian": "la protenzione"
+  },
+  {
+    "german": "die Appräsentation",
+    "italian": "l'appresentazione"
+  },
+  {
+    "german": "die Horizontintentionalität",
+    "italian": "l'intenzionalità dell'orizzonte"
+  },
+  {
+    "german": "die Passivität",
+    "italian": "la passività"
+  },
+  {
+    "german": "die Affektion",
+    "italian": "l'affezione"
+  },
+  {
+    "german": "die Assoziation",
+    "italian": "l'associazione"
+  },
+  {
+    "german": "die Konstitution",
+    "italian": "la costituzione"
+  },
+  {
+    "german": "die Noesis",
+    "italian": "la noesi"
+  },
+  {
+    "german": "die Noema",
+    "italian": "il noema"
+  },
+  {
+    "german": "die Kreativwirtschaft",
+    "italian": "l'industria creativa"
+  },
+  {
+    "german": "die Kulturökonomik",
+    "italian": "l'economia della cultura"
+  },
+  {
+    "german": "die Aufmerksamkeitsökonomie",
+    "italian": "l'economia dell'attenzione"
+  },
+  {
+    "german": "die Plattformkapitalismus",
+    "italian": "il capitalismo delle piattaforme"
+  },
+  {
+    "german": "die Sharing Economy",
+    "italian": "l'economia della condivisione"
+  },
+  {
+    "german": "die Gig Economy",
+    "italian": "la gig economy"
+  },
+  {
+    "german": "die Prosumption",
+    "italian": "la prosumption"
+  },
+  {
+    "german": "die Immaterielle Arbeit",
+    "italian": "il lavoro immateriale"
+  },
+  {
+    "german": "die Affektive Arbeit",
+    "italian": "il lavoro affettivo"
+  },
+  {
+    "german": "die Kognitive Arbeit",
+    "italian": "il lavoro cognitivo"
+  },
+  {
+    "german": "die Wissensarbeit",
+    "italian": "il lavoro della conoscenza"
+  },
+  {
+    "german": "die Datafizierung",
+    "italian": "la dataficazione"
+  },
+  {
+    "german": "die Kommodifizierung",
+    "italian": "la mercificazione"
+  },
+  {
+    "german": "die Finanzialisierung",
+    "italian": "la finanziarizzazione"
+  },
+  {
+    "german": "die Responsibilisierung",
+    "italian": "la responsabilizzazione"
+  },
+  {
+    "german": "die Apparategeschichte",
+    "italian": "la storia degli apparati"
+  },
+  {
+    "german": "die Aufschreibesysteme",
+    "italian": "i sistemi di registrazione"
+  },
+  {
+    "german": "die Medienvergessenheit",
+    "italian": "l'oblio dei media"
+  },
+  {
+    "german": "die Zeitmedien",
+    "italian": "i media del tempo"
+  },
+  {
+    "german": "die Raummedien",
+    "italian": "i media dello spazio"
+  },
+  {
+    "german": "die Störung",
+    "italian": "il disturbo"
+  },
+  {
+    "german": "die Rauschkommunikation",
+    "italian": "la comunicazione del rumore"
+  },
+  {
+    "german": "die Medienumbrüche",
+    "italian": "le cesure mediali"
+  },
+  {
+    "german": "die Totenmedien",
+    "italian": "i media dei morti"
+  },
+  {
+    "german": "die Mediennostalgie",
+    "italian": "la nostalgia dei media"
+  },
+  {
+    "german": "die Retromania",
+    "italian": "la retromania"
+  },
+  {
+    "german": "die Medienalternativen",
+    "italian": "le alternative mediatiche"
+  },
+  {
+    "german": "die taktische Medien",
+    "italian": "i media tattici"
+  },
+  {
+    "german": "die Hacktivist",
+    "italian": "l'hacktivista"
+  },
+  {
+    "german": "die Medienkunst",
+    "italian": "l'arte dei media"
+  },
+  {
+    "german": "die Adaptation",
+    "italian": "l'adattamento"
+  },
+  {
+    "german": "die Koevolution",
+    "italian": "la coevoluzione"
+  },
+  {
+    "german": "die Speziation",
+    "italian": "la speciazione"
+  },
+  {
+    "german": "die Phylogenese",
+    "italian": "la filogenesi"
+  },
+  {
+    "german": "die Ontogenese",
+    "italian": "l'ontogenesi"
+  },
+  {
+    "german": "die Populationsgenetik",
+    "italian": "la genetica delle popolazioni"
+  },
+  {
+    "german": "die Quantitative Genetik",
+    "italian": "la genetica quantitativa"
+  },
+  {
+    "german": "die Genfluss",
+    "italian": "il flusso genico"
+  },
+  {
+    "german": "die Gendrift",
+    "italian": "la deriva genetica"
+  },
+  {
+    "german": "die Fitness",
+    "italian": "la fitness biologica"
+  },
+  {
+    "german": "die Sexuelle Selektion",
+    "italian": "la selezione sessuale"
+  },
+  {
+    "german": "die Autopoiesis",
+    "italian": "l'autopoiesi"
+  },
+  {
+    "german": "die Selbstreferenz",
+    "italian": "l'autoreferenza"
+  },
+  {
+    "german": "die Komplexitätsreduktion",
+    "italian": "la riduzione della complessità"
+  },
+  {
+    "german": "die Interpenetration",
+    "italian": "l'interpenetrazione"
+  },
+  {
+    "german": "die binäre Codierung",
+    "italian": "la codificazione binaria"
+  },
+  {
+    "german": "die Perturbation",
+    "italian": "la perturbazione"
+  },
+  {
+    "german": "die Irritation",
+    "italian": "l'irritazione"
+  },
+  {
+    "german": "die Anschlussfähigkeit",
+    "italian": "la connettività"
+  },
+  {
+    "german": "die Erwartungsstruktur",
+    "italian": "la struttura delle aspettative"
+  },
+  {
+    "german": "die Entdifferenzierung",
+    "italian": "la de-differenziazione"
+  },
+  {
+    "german": "die Différance",
+    "italian": "la differanza"
+  },
+  {
+    "german": "die Spur",
+    "italian": "la traccia"
+  },
+  {
+    "german": "die Iterabilität",
+    "italian": "l'iterabilità"
+  },
+  {
+    "german": "die Supplementarität",
+    "italian": "la supplementarità"
+  },
+  {
+    "german": "die Pharmakon",
+    "italian": "il pharmakon"
+  },
+  {
+    "german": "die Dissemination",
+    "italian": "la disseminazione"
+  },
+  {
+    "german": "die Metaphysik der Präsenz",
+    "italian": "la metafisica della presenza"
+  },
+  {
+    "german": "die Phonozentrismus",
+    "italian": "il fonocentrismo"
+  },
+  {
+    "german": "die Logozentrismus",
+    "italian": "il logocentrismo"
+  },
+  {
+    "german": "die Phallogozentrismus",
+    "italian": "il fallogocentrismo"
+  },
+  {
+    "german": "die Aporie",
+    "italian": "l'aporia"
+  },
+  {
+    "german": "die Unentscheidbarkeit",
+    "italian": "l'indecidibilità"
+  },
+  {
+    "german": "die Gastfreundschaft",
+    "italian": "l'ospitalità"
+  },
+  {
+    "german": "die Gabe",
+    "italian": "il dono"
+  },
+  {
+    "german": "die Regulationstheorie",
+    "italian": "la teoria della regolazione"
+  },
+  {
+    "german": "die Akkumulation",
+    "italian": "l'accumulazione"
+  },
+  {
+    "german": "die Verwertung",
+    "italian": "la valorizzazione"
+  },
+  {
+    "german": "die Proletarisierung",
+    "italian": "la proletarizzazione"
+  },
+  {
+    "german": "die Mehrwerttheorie",
+    "italian": "la teoria del plusvalore"
+  },
+  {
+    "german": "die Warenform",
+    "italian": "la forma merce"
+  },
+  {
+    "german": "der Fetischcharakter",
+    "italian": "il carattere feticistico"
+  },
+  {
+    "german": "die Abstrakte Arbeit",
+    "italian": "il lavoro astratto"
+  },
+  {
+    "german": "die Zirkulationssphäre",
+    "italian": "la sfera della circolazione"
+  },
+  {
+    "german": "die Reproduktionsbedingungen",
+    "italian": "le condizioni di riproduzione"
+  },
+  {
+    "german": "die Krisentheorie",
+    "italian": "la teoria delle crisi"
+  },
+  {
+    "german": "die Monopolkapitalismus",
+    "italian": "il capitalismo monopolistico"
+  },
+  {
+    "german": "die ursprüngliche Akkumulation",
+    "italian": "l'accumulazione originaria"
+  },
+  {
+    "german": "die Inwertsetzung",
+    "italian": "la valorizzazione"
+  },
+  {
+    "german": "das Unbewusste",
+    "italian": "l'inconscio"
+  },
+  {
+    "german": "die Verdrängung",
+    "italian": "la rimozione"
+  },
+  {
+    "german": "die Sublimierung",
+    "italian": "la sublimazione"
+  },
+  {
+    "german": "die Gegenübertragung",
+    "italian": "il controtransfert"
+  },
+  {
+    "german": "das Es",
+    "italian": "l'Es"
+  },
+  {
+    "german": "das Über-Ich",
+    "italian": "il Super-Io"
+  },
+  {
+    "german": "die Objektbeziehungstheorie",
+    "italian": "la teoria delle relazioni oggettuali"
+  },
+  {
+    "german": "die Spiegelstadium",
+    "italian": "lo stadio dello specchio"
+  },
+  {
+    "german": "das Imaginäre",
+    "italian": "l'immaginario"
+  },
+  {
+    "german": "das Symbolische",
+    "italian": "il simbolico"
+  },
+  {
+    "german": "das Reale",
+    "italian": "il reale"
+  },
+  {
+    "german": "die Jouissance",
+    "italian": "il godimento"
+  },
+  {
+    "german": "das Begehren",
+    "italian": "il desiderio"
+  },
+  {
+    "german": "die Redlichkeit",
+    "italian": "l'integrità"
+  },
+  {
+    "german": "die Plagiatsprüfung",
+    "italian": "il controllo antiplagio"
+  },
+  {
+    "german": "die Datenfälschung",
+    "italian": "la falsificazione dei dati"
+  },
+  {
+    "german": "die Datenmanipulation",
+    "italian": "la manipolazione dei dati"
+  },
+  {
+    "german": "die Autorenschaft",
+    "italian": "l'autorialità"
+  },
+  {
+    "german": "die Ghostwriting",
+    "italian": "il ghostwriting"
+  },
+  {
+    "german": "die Interessenkonflikte",
+    "italian": "i conflitti d'interesse"
+  },
+  {
+    "german": "die Drittmittelabhängigkeit",
+    "italian": "la dipendenza dai fondi terzi"
+  },
+  {
+    "german": "die Publikationsbias",
+    "italian": "il bias di pubblicazione"
+  },
+  {
+    "german": "die Datenmanagementplan",
+    "italian": "il piano di gestione dei dati"
+  },
+  {
+    "german": "die Open Access",
+    "italian": "l'accesso aperto"
+  },
+  {
+    "german": "die Preprint-Server",
+    "italian": "il server preprint"
+  },
+  {
+    "german": "die Registrierung",
+    "italian": "la registrazione"
+  },
+  {
+    "german": "die Präregistrierung",
+    "italian": "la pre-registrazione"
+  },
+  {
+    "german": "die Datenarchivierung",
+    "italian": "l'archiviazione dei dati"
+  },
+  {
+    "german": "die Nachnutzung",
+    "italian": "il riutilizzo"
+  },
+  {
+    "german": "die Wissenszuschreibung",
+    "italian": "l'attribuzione di conoscenza"
+  },
+  {
+    "german": "die Gettier-Problematik",
+    "italian": "la problematica di Gettier"
+  },
+  {
+    "german": "die epistemische Rechtfertigung",
+    "italian": "la giustificazione epistemica"
+  },
+  {
+    "german": "die Internalismus",
+    "italian": "l'internalismo"
+  },
+  {
+    "german": "die Externalismus",
+    "italian": "l'esternalismo"
+  },
+  {
+    "german": "die Reliabilismus",
+    "italian": "il reliabilismo"
+  },
+  {
+    "german": "die Fundamentalismus",
+    "italian": "il fondazionalismo epistemico"
+  },
+  {
+    "german": "die Kohärentismus",
+    "italian": "il coerentismo"
+  },
+  {
+    "german": "die Tugenderkenntnistheorie",
+    "italian": "l'epistemologia delle virtù"
+  },
+  {
+    "german": "die Kontextualismus",
+    "italian": "il contestualismo"
+  },
+  {
+    "german": "die epistemische Ungerechtigkeit",
+    "italian": "l'ingiustizia epistemica"
+  },
+  {
+    "german": "die Testimoniale Ungerechtigkeit",
+    "italian": "l'ingiustizia testimoniale"
+  },
+  {
+    "german": "die Hermeneutische Ungerechtigkeit",
+    "italian": "l'ingiustizia ermeneutica"
+  },
+  {
+    "german": "die Standpunkttheorie",
+    "italian": "la teoria del punto di vista"
+  },
+  {
+    "german": "die Situiertes Wissen",
+    "italian": "il sapere situato"
+  },
+  {
+    "german": "die Transaktionskostentheorie",
+    "italian": "la teoria dei costi di transazione"
+  },
+  {
+    "german": "die Prinzipal-Agent-Theorie",
+    "italian": "la teoria principale-agente"
+  },
+  {
+    "german": "die Verfügungsrechtstheorie",
+    "italian": "la teoria dei diritti di proprietà"
+  },
+  {
+    "german": "die Opportunismus",
+    "italian": "l'opportunismo"
+  },
+  {
+    "german": "die Moral Hazard",
+    "italian": "il rischio morale"
+  },
+  {
+    "german": "die Hybridorganisation",
+    "italian": "l'organizzazione ibrida"
+  },
+  {
+    "german": "die Regelungsstruktur",
+    "italian": "la struttura di governance"
+  },
+  {
+    "german": "die institutionelle Einbettung",
+    "italian": "l'incorporamento istituzionale"
+  },
+  {
+    "german": "die Mechanismusdesign",
+    "italian": "il mechanism design"
+  },
+  {
+    "german": "die Auktionstheorie",
+    "italian": "la teoria delle aste"
+  },
+  {
+    "german": "die Public-Choice-Theorie",
+    "italian": "la teoria della scelta pubblica"
+  },
+  {
+    "german": "die Kopenhagener Deutung",
+    "italian": "l'interpretazione di Copenaghen"
+  },
+  {
+    "german": "die Viele-Welten-Interpretation",
+    "italian": "l'interpretazione a molti mondi"
+  },
+  {
+    "german": "die Dekohärenz",
+    "italian": "la decoerenza"
+  },
+  {
+    "german": "die Verschränkung",
+    "italian": "l'entanglement"
+  },
+  {
+    "german": "die Bellsche Ungleichung",
+    "italian": "la disuguaglianza di Bell"
+  },
+  {
+    "german": "die Komplementarität",
+    "italian": "la complementarità"
+  },
+  {
+    "german": "die Superposition",
+    "italian": "la sovrapposizione"
+  },
+  {
+    "german": "die Welle-Teilchen-Dualismus",
+    "italian": "il dualismo onda-particella"
+  },
+  {
+    "german": "die Heisenbergsche Unschärferelation",
+    "italian": "il principio di indeterminazione di Heisenberg"
+  },
+  {
+    "german": "die Quantengravitation",
+    "italian": "la gravità quantistica"
+  },
+  {
+    "german": "die Stringtheorie",
+    "italian": "la teoria delle stringhe"
+  },
+  {
+    "german": "die Schleifenquantengravitation",
+    "italian": "la gravità quantistica a loop"
+  },
+  {
+    "german": "die Quanteninformation",
+    "italian": "l'informazione quantistica"
+  },
+  {
+    "german": "die Quantenkryptografie",
+    "italian": "la crittografia quantistica"
+  },
+  {
+    "german": "die Quantenteleportation",
+    "italian": "il teletrasporto quantistico"
+  },
+  {
+    "german": "die Quantenfeldtheorie",
+    "italian": "la teoria quantistica dei campi"
+  },
+  {
+    "german": "die Handlungsrationalität",
+    "italian": "la razionalità dell'azione"
+  },
+  {
+    "german": "die Zweckrationalität",
+    "italian": "la razionalità rispetto allo scopo"
+  },
+  {
+    "german": "die Wertrationalität",
+    "italian": "la razionalità rispetto al valore"
+  },
+  {
+    "german": "die Handlungskompetenz",
+    "italian": "la competenza d'azione"
+  },
+  {
+    "german": "die Praxeologie",
+    "italian": "la prassologia"
+  },
+  {
+    "german": "die Habitustheorie",
+    "italian": "la teoria dell'habitus"
+  },
+  {
+    "german": "die Strukturierungstheorie",
+    "italian": "la teoria della strutturazione"
+  },
+  {
+    "german": "die Rahmenanalyse",
+    "italian": "l'analisi dei frame"
+  },
+  {
+    "german": "die Handlungsfolgenabschätzung",
+    "italian": "la valutazione delle conseguenze"
+  },
+  {
+    "german": "die Aphasie",
+    "italian": "l'afasia"
+  },
+  {
+    "german": "die Agnosie",
+    "italian": "l'agnosia"
+  },
+  {
+    "german": "die Apraxie",
+    "italian": "l'aprassia"
+  },
+  {
+    "german": "die Neglect",
+    "italian": "il neglect"
+  },
+  {
+    "german": "die Amnesie",
+    "italian": "l'amnesia"
+  },
+  {
+    "german": "die Prosopagnosie",
+    "italian": "la prosopagnosia"
+  },
+  {
+    "german": "die Anosognosie",
+    "italian": "l'anosognosia"
+  },
+  {
+    "german": "die Hemisphärendominanz",
+    "italian": "la dominanza emisferica"
+  },
+  {
+    "german": "die kortikale Plastizität",
+    "italian": "la plasticità corticale"
+  },
+  {
+    "german": "die Neurorehabiliation",
+    "italian": "la neuroriabilitazione"
+  },
+  {
+    "german": "die neuropsychologische Diagnostik",
+    "italian": "la diagnostica neuropsicologica"
+  },
+  {
+    "german": "die Exekutivfunktionen",
+    "italian": "le funzioni esecutive"
+  },
+  {
+    "german": "die Aufmerksamkeitsstörung",
+    "italian": "il disturbo dell'attenzione"
+  },
+  {
+    "german": "die Gedächtniskonsolidierung",
+    "italian": "il consolidamento della memoria"
+  },
+  {
+    "german": "die Rechtsgeltung",
+    "italian": "la validità del diritto"
+  },
+  {
+    "german": "die Rechtskultur",
+    "italian": "la cultura giuridica"
+  },
+  {
+    "german": "die Rechtspluralismus",
+    "italian": "il pluralismo giuridico"
+  },
+  {
+    "german": "die Rechtstatsachenforschung",
+    "italian": "la ricerca sui fatti giuridici"
+  },
+  {
+    "german": "die Justizforschung",
+    "italian": "la ricerca sulla giustizia"
+  },
+  {
+    "german": "die Richtersoziologie",
+    "italian": "la sociologia dei giudici"
+  },
+  {
+    "german": "die Anwaltssoziologie",
+    "italian": "la sociologia degli avvocati"
+  },
+  {
+    "german": "die Streitbeilegung",
+    "italian": "la risoluzione delle controversie"
+  },
+  {
+    "german": "die Schiedsgerichtsbarkeit",
+    "italian": "l'arbitrato"
+  },
+  {
+    "german": "die Rechtsmobilisierung",
+    "italian": "la mobilitazione giuridica"
+  },
+  {
+    "german": "die Entrechtlichung",
+    "italian": "la degiuridificazione"
+  },
+  {
+    "german": "die Norminternalisierung",
+    "italian": "l'interiorizzazione delle norme"
+  },
+  {
+    "german": "die Paradigmenwechsel",
+    "italian": "il cambiamento di paradigma"
+  },
+  {
+    "german": "die Normalwissenschaft",
+    "italian": "la scienza normale"
+  },
+  {
+    "german": "die Revolutionäre Wissenschaft",
+    "italian": "la scienza rivoluzionaria"
+  },
+  {
+    "german": "die Forschungsprogramm",
+    "italian": "il programma di ricerca"
+  },
+  {
+    "german": "die Unterdeterminiertheit",
+    "italian": "la sottodeterminazione"
+  },
+  {
+    "german": "die Experimentalsystem",
+    "italian": "il sistema sperimentale"
+  },
+  {
+    "german": "die Epistemische Dinge",
+    "italian": "le cose epistemiche"
+  },
+  {
+    "german": "die Laborstudien",
+    "italian": "gli studi di laboratorio"
+  },
+  {
+    "german": "die Grenzarbeit",
+    "italian": "il boundary work"
+  },
+  {
+    "german": "die Koproduktion",
+    "italian": "la coproduzione"
+  },
+  {
+    "german": "die Evidenzpraktiken",
+    "italian": "le pratiche dell'evidenza"
+  },
+  {
+    "german": "die Disziplingeschichte",
+    "italian": "la storia delle discipline"
+  },
+  {
+    "german": "die Keimbahnintervention",
+    "italian": "l'intervento sulla linea germinale"
+  },
+  {
+    "german": "die Hirntoddebatte",
+    "italian": "il dibattito sulla morte cerebrale"
+  },
+  {
+    "german": "die Organzuteilung",
+    "italian": "l'allocazione degli organi"
+  },
+  {
+    "german": "die Sterbehilfedebatte",
+    "italian": "il dibattito sull'eutanasia"
+  },
+  {
+    "german": "die Forschungsethikkommission",
+    "italian": "il comitato etico per la ricerca"
+  },
+  {
+    "german": "die Informed Consent",
+    "italian": "il consenso informato"
+  },
+  {
+    "german": "die Doppelblindversuch",
+    "italian": "lo studio in doppio cieco"
+  },
+  {
+    "german": "die Placeboethik",
+    "italian": "l'etica del placebo"
+  },
+  {
+    "german": "die Ressourcenallokation",
+    "italian": "l'allocazione delle risorse"
+  },
+  {
+    "german": "die Neurodiversität",
+    "italian": "la neurodiversità"
+  },
+  {
+    "german": "die Reproduktive Autonomie",
+    "italian": "l'autonomia riproduttiva"
+  },
+  {
+    "german": "die Nichtlinearität",
+    "italian": "la non-linearità"
+  },
+  {
+    "german": "die Rückkopplung",
+    "italian": "la retroazione"
+  },
+  {
+    "german": "die Bifurkation",
+    "italian": "la biforcazione"
+  },
+  {
+    "german": "die Fraktalgeometrie",
+    "italian": "la geometria frattale"
+  },
+  {
+    "german": "die Chaostheorie",
+    "italian": "la teoria del caos"
+  },
+  {
+    "german": "die Attraktoren",
+    "italian": "gli attrattori"
+  },
+  {
+    "german": "die Phasenübergänge",
+    "italian": "le transizioni di fase"
+  },
+  {
+    "german": "die Skalenfreiheit",
+    "italian": "la scale-free"
+  },
+  {
+    "german": "die Perkolationstheorie",
+    "italian": "la teoria della percolazione"
+  },
+  {
+    "german": "die Zellulare Automaten",
+    "italian": "gli automi cellulari"
+  },
+  {
+    "german": "die Agentenbasierte Modellierung",
+    "italian": "la modellazione ad agenti"
+  },
+  {
+    "german": "die Synergetik",
+    "italian": "la sinergetica"
+  },
+  {
+    "german": "die Dissipative Strukturen",
+    "italian": "le strutture dissipative"
+  },
+  {
+    "german": "die Hyperzyklus",
+    "italian": "l'iperciclo"
+  },
+  {
+    "german": "die Sprachbedrohung",
+    "italian": "la minaccia linguistica"
+  },
+  {
+    "german": "die Sprachdokumentation",
+    "italian": "la documentazione linguistica"
+  },
+  {
+    "german": "die Sprachrevitalisierung",
+    "italian": "la rivitalizzazione linguistica"
+  },
+  {
+    "german": "die Spracharchivierung",
+    "italian": "l'archiviazione linguistica"
+  },
+  {
+    "german": "die Sprachplanung",
+    "italian": "la pianificazione linguistica"
+  },
+  {
+    "german": "die Diglossie",
+    "italian": "la diglossia"
+  },
+  {
+    "german": "die Mehrsprachigkeit",
+    "italian": "il multilinguismo"
+  },
+  {
+    "german": "die Kreolisierung",
+    "italian": "la creolizzazione"
+  },
+  {
+    "german": "die Pidginisierung",
+    "italian": "la pidginizzazione"
+  },
+  {
+    "german": "die Sprachkontakt",
+    "italian": "il contatto linguistico"
+  },
+  {
+    "german": "die Entlehnungsprozesse",
+    "italian": "i processi di prestito"
+  },
+  {
+    "german": "die Codeswitching",
+    "italian": "il code-switching"
+  },
+  {
+    "german": "die Sprachattrition",
+    "italian": "l'attrito linguistico"
+  },
+  {
+    "german": "die Sprachideologie",
+    "italian": "l'ideologia linguistica"
+  },
+  {
+    "german": "die Linguistischer Imperialismus",
+    "italian": "l'imperialismo linguistico"
+  },
+  {
+    "german": "die Tiefenökologie",
+    "italian": "l'ecologia profonda"
+  },
+  {
+    "german": "die Ökozentrismus",
+    "italian": "l'ecocentrismo"
+  },
+  {
+    "german": "die Anthropozentrismus",
+    "italian": "l'antropocentrismo"
+  },
+  {
+    "german": "die Biozentrismus",
+    "italian": "il biocentrismo"
+  },
+  {
+    "german": "die Pathozentrismus",
+    "italian": "il patocentrismo"
+  },
+  {
+    "german": "die Naturästhetik",
+    "italian": "l'estetica della natura"
+  },
+  {
+    "german": "die Nachhaltigkeitsphilosophie",
+    "italian": "la filosofia della sostenibilità"
+  },
+  {
+    "german": "die Eigenrechte der Natur",
+    "italian": "i diritti propri della natura"
+  },
+  {
+    "german": "die Politische Ökologie",
+    "italian": "l'ecologia politica"
+  },
+  {
+    "german": "die Resilienzdenken",
+    "italian": "il pensiero di resilienza"
+  },
+  {
+    "german": "die Planetare Grenzen",
+    "italian": "i limiti planetari"
+  },
+  {
+    "german": "die Erdystemwissenschaft",
+    "italian": "la scienza del sistema Terra"
+  },
+  {
+    "german": "die Konzeptuelle Metapher",
+    "italian": "la metafora concettuale"
+  },
+  {
+    "german": "die Konzeptuelle Metonymie",
+    "italian": "la metonimia concettuale"
+  },
+  {
+    "german": "die Bildschematheorie",
+    "italian": "la teoria degli schemi d'immagine"
+  },
+  {
+    "german": "die Kognitive Semantik",
+    "italian": "la semantica cognitiva"
+  },
+  {
+    "german": "die Mentale Räume",
+    "italian": "gli spazi mentali"
+  },
+  {
+    "german": "die Konzeptuelle Integration",
+    "italian": "l'integrazione concettuale"
+  },
+  {
+    "german": "die Embodiment-These",
+    "italian": "la tesi dell'embodiment"
+  },
+  {
+    "german": "die Gebrauchsbasierte Linguistik",
+    "italian": "la linguistica basata sull'uso"
+  },
+  {
+    "german": "die Frequenzeffekte",
+    "italian": "gli effetti di frequenza"
+  },
+  {
+    "german": "die Entrenchment",
+    "italian": "il radicamento linguistico"
+  },
+  {
+    "german": "die Schematisierung",
+    "italian": "la schematizzazione"
+  },
+  {
+    "german": "die Techniksoziologie",
+    "italian": "la sociologia della tecnica"
+  },
+  {
+    "german": "die Innovationstheorie",
+    "italian": "la teoria dell'innovazione"
+  },
+  {
+    "german": "die Diffusionstheorie",
+    "italian": "la teoria della diffusione"
+  },
+  {
+    "german": "die Transitionsmanagement",
+    "italian": "la gestione della transizione"
+  },
+  {
+    "german": "die Multi-Level-Perspektive",
+    "italian": "la prospettiva multi-livello"
+  },
+  {
+    "german": "die Nischeninnovation",
+    "italian": "l'innovazione di nicchia"
+  },
+  {
+    "german": "die Regimedynamik",
+    "italian": "la dinamica del regime"
+  },
+  {
+    "german": "die Landschaftsebene",
+    "italian": "il livello del paesaggio"
+  },
+  {
+    "german": "die soziotechnische Konfiguration",
+    "italian": "la configurazione sociotecnica"
+  },
+  {
+    "german": "die Partizipative Technikentwicklung",
+    "italian": "lo sviluppo tecnico partecipativo"
+  },
+  {
+    "german": "die Responsible Innovation",
+    "italian": "l'innovazione responsabile"
+  },
+  {
+    "german": "die Reallabor",
+    "italian": "il laboratorio nel mondo reale"
+  },
+  {
+    "german": "die Erhabenheit",
+    "italian": "il sublime"
+  },
+  {
+    "german": "die Geschmacksurteil",
+    "italian": "il giudizio di gusto"
+  },
+  {
+    "german": "die Interesseloses Wohlgefallen",
+    "italian": "il piacere disinteressato"
+  },
+  {
+    "german": "die Kunstautonamie",
+    "italian": "l'autonomia dell'arte"
+  },
+  {
+    "german": "die Kunstkritik",
+    "italian": "la critica d'arte"
+  },
+  {
+    "german": "die Wirkungsästhetik",
+    "italian": "l'estetica dell'effetto"
+  },
+  {
+    "german": "die Performanceästhetik",
+    "italian": "l'estetica della performance"
+  },
+  {
+    "german": "die Alltagsästhetik",
+    "italian": "l'estetica del quotidiano"
+  },
+  {
+    "german": "die Atmosphärenästhetik",
+    "italian": "l'estetica delle atmosfere"
+  },
+  {
+    "german": "die Bioästhetik",
+    "italian": "la bioestetica"
+  },
+  {
+    "german": "die Neuroästhetik",
+    "italian": "la neuroestetica"
+  },
+  {
+    "german": "die Ökologische Ästhetik",
+    "italian": "l'estetica ecologica"
+  },
+  {
+    "german": "die Prozessästhetik",
+    "italian": "l'estetica del processo"
+  },
+  {
+    "german": "die Agonistische Demokratie",
+    "italian": "la democrazia agonistica"
+  },
+  {
+    "german": "die Postdemokratie",
+    "italian": "la post-democrazia"
+  },
+  {
+    "german": "die Epistokratie",
+    "italian": "l'epistocrazia"
+  },
+  {
+    "german": "die Liquid Democracy",
+    "italian": "la democrazia liquida"
+  },
+  {
+    "german": "die Losdemokratie",
+    "italian": "la democrazia sortitiva"
+  },
+  {
+    "german": "die Bürgerräte",
+    "italian": "i consigli dei cittadini"
+  },
+  {
+    "german": "die Konsoziative Demokratie",
+    "italian": "la democrazia consociativa"
+  },
+  {
+    "german": "die Mehrheitsdemokratie",
+    "italian": "la democrazia maggioritaria"
+  },
+  {
+    "german": "die Konsensdemokratie",
+    "italian": "la democrazia del consenso"
+  },
+  {
+    "german": "die Wehrhafte Demokratie",
+    "italian": "la democrazia militante"
+  },
+  {
+    "german": "die Populismusforschung",
+    "italian": "la ricerca sul populismo"
+  },
+  {
+    "german": "die Partizipationsforschung",
+    "italian": "la ricerca sulla partecipazione"
+  },
+  {
+    "german": "die Repräsentationskrise",
+    "italian": "la crisi della rappresentanza"
+  },
+  {
+    "german": "die Digitale Demokratie",
+    "italian": "la democrazia digitale"
+  },
+  {
+    "german": "die Subkultur",
+    "italian": "la subcultura"
+  },
+  {
+    "german": "die Gegenkultur",
+    "italian": "la controcultura"
+  },
+  {
+    "german": "die Transkulturalität",
+    "italian": "la transculturalità"
+  },
+  {
+    "german": "die Interkulturalität",
+    "italian": "l'interculturalità"
+  },
+  {
+    "german": "die Multikulturalismus",
+    "italian": "il multiculturalismo"
+  },
+  {
+    "german": "die Kulturessentialismus",
+    "italian": "l'essenzialismo culturale"
+  },
+  {
+    "german": "die Hybridkultur",
+    "italian": "la cultura ibrida"
+  },
+  {
+    "german": "die Kulturhermeneutik",
+    "italian": "l'ermeneutica culturale"
+  },
+  {
+    "german": "die Erinnerungskultur",
+    "italian": "la cultura della memoria"
+  },
+  {
+    "german": "die Materialkulturforschung",
+    "italian": "la ricerca sulla cultura materiale"
+  },
+  {
+    "german": "die Leibphilosophie",
+    "italian": "la filosofia del corpo"
+  },
+  {
+    "german": "die Weltoffenheit",
+    "italian": "l'apertura al mondo"
+  },
+  {
+    "german": "die Exzentrizität",
+    "italian": "l'eccentricità posizionale"
+  },
+  {
+    "german": "die Kompensationstheorie",
+    "italian": "la teoria della compensazione"
+  },
+  {
+    "german": "die Mängelwesen",
+    "italian": "l'essere carente"
+  },
+  {
+    "german": "die Institutionalisierung",
+    "italian": "l'istituzionalizzazione"
+  },
+  {
+    "german": "die Zweckfreiheit",
+    "italian": "la libertà dal fine"
+  },
+  {
+    "german": "die Homo Ludens",
+    "italian": "l'homo ludens"
+  },
+  {
+    "german": "die Anthropotechnik",
+    "italian": "l'antropotecnica"
+  },
+  {
+    "german": "die Medienanthropologie",
+    "italian": "l'antropologia dei media"
+  },
+  {
+    "german": "die Beobachtung zweiter Ordnung",
+    "italian": "l'osservazione di secondo ordine"
+  },
+  {
+    "german": "die Reentry",
+    "italian": "il re-entry"
+  },
+  {
+    "german": "die Formkalkül",
+    "italian": "il calcolo delle forme"
+  },
+  {
+    "german": "die Paradoxieentfaltung",
+    "italian": "il dispiegamento del paradosso"
+  },
+  {
+    "german": "die Polykontexturalität",
+    "italian": "la policontesturalità"
+  },
+  {
+    "german": "die Heterarchie",
+    "italian": "l'eterarchia"
+  },
+  {
+    "german": "die Kybernetik zweiter Ordnung",
+    "italian": "la cibernetica di secondo ordine"
+  },
+  {
+    "german": "die Eigenverhalten",
+    "italian": "il comportamento proprio"
+  },
+  {
+    "german": "die Eigenwerte",
+    "italian": "i valori propri del sistema"
+  },
+  {
+    "german": "die Triviale Maschine",
+    "italian": "la macchina triviale"
+  },
+  {
+    "german": "die Nichttriviale Maschine",
+    "italian": "la macchina non-triviale"
+  },
+  {
+    "german": "die Operative Geschlossenheit",
+    "italian": "la chiusura operativa"
+  },
+  {
+    "german": "die Doppelte Kontingenz",
+    "italian": "la doppia contingenza"
+  },
+  {
+    "german": "die Funktionale Differenzierung",
+    "italian": "la differenziazione funzionale"
+  },
+  {
+    "german": "die Fallibilismus",
+    "italian": "il fallibilismo"
+  },
+  {
+    "german": "die Forschungsgemeinschaft",
+    "italian": "la comunità di ricerca"
+  },
+  {
+    "german": "die Instrumentalismus",
+    "italian": "l'instrumentalismo"
+  },
+  {
+    "german": "die Inquiry",
+    "italian": "l'indagine"
+  },
+  {
+    "german": "die Demokratische Erziehung",
+    "italian": "l'educazione democratica"
+  },
+  {
+    "german": "die Neopragmatismus",
+    "italian": "il neopragmatismo"
+  },
+  {
+    "german": "die Ironismus",
+    "italian": "l'ironismo"
+  },
+  {
+    "german": "die Sprachspiel",
+    "italian": "il gioco linguistico"
+  },
+  {
+    "german": "die Regelfolgen",
+    "italian": "il seguire la regola"
+  },
+  {
+    "german": "die Lebensform",
+    "italian": "la forma di vita"
+  },
+  {
+    "german": "die Privatsprachenargument",
+    "italian": "l'argomento del linguaggio privato"
+  },
+  {
+    "german": "die Aspektsehen",
+    "italian": "il vedere come"
+  },
+  {
+    "german": "die Therapeutische Philosophie",
+    "italian": "la filosofia terapeutica"
+  },
+  {
+    "german": "die Gewissheit",
+    "italian": "la certezza"
+  },
+  {
+    "german": "die Mediengenealogie",
+    "italian": "la genealogia dei media"
+  },
+  {
+    "german": "die Kulturtechniken",
+    "italian": "le tecniche culturali"
+  },
+  {
+    "german": "die Grammophon-Film-Typewriter",
+    "italian": "grammofono-film-macchina da scrivere"
+  },
+  {
+    "german": "die Medienmaterialismus",
+    "italian": "il materialismo dei media"
+  },
+  {
+    "german": "die Netzwerktheorie",
+    "italian": "la teoria delle reti"
+  },
+  {
+    "german": "die Plattformtheorie",
+    "italian": "la teoria delle piattaforme"
+  },
+  {
+    "german": "die Algorithmische Gouvernementalität",
+    "italian": "la governamentalità algoritmica"
+  },
+  {
+    "german": "die Quantifizierung des Selbst",
+    "italian": "la quantificazione di sé"
+  },
+  {
+    "german": "die Remediatisierung",
+    "italian": "la rimediazione"
+  },
+  {
+    "german": "die Konvergenzkultur",
+    "italian": "la cultura della convergenza"
+  },
+  {
+    "german": "die Verfahrensgerechtigkeit",
+    "italian": "la giustizia procedurale"
+  },
+  {
+    "german": "die Tauschgerechtigkeit",
+    "italian": "la giustizia commutativa"
+  },
+  {
+    "german": "die Befähigungsansatz",
+    "italian": "l'approccio delle capacità"
+  },
+  {
+    "german": "die Differenzprinzip",
+    "italian": "il principio di differenza"
+  },
+  {
+    "german": "die Schleier des Nichtwissens",
+    "italian": "il velo d'ignoranza"
+  },
+  {
+    "german": "die Anerkennungsgerechtigkeit",
+    "italian": "la giustizia del riconoscimento"
+  },
+  {
+    "german": "die Partizipationsgerechtigkeit",
+    "italian": "la giustizia partecipativa"
+  },
+  {
+    "german": "die Kosmopolitismus",
+    "italian": "il cosmopolitismo"
+  },
+  {
+    "german": "die Libertarismus",
+    "italian": "il libertarismo"
+  },
+  {
+    "german": "die Kommunitarismus",
+    "italian": "il comunitarismo"
+  },
+  {
+    "german": "die Care-Ethik",
+    "italian": "l'etica della cura"
+  },
+  {
+    "german": "die Feministische Ethik",
+    "italian": "l'etica femminista"
+  },
+  {
+    "german": "die Zeitphilosophie",
+    "italian": "la filosofia del tempo"
+  },
+  {
+    "german": "die Zeitlichkeit",
+    "italian": "la temporalità"
+  },
+  {
+    "german": "die Innere Zeitbewusstsein",
+    "italian": "la coscienza interna del tempo"
+  },
+  {
+    "german": "die Erlebte Zeit",
+    "italian": "il tempo vissuto"
+  },
+  {
+    "german": "die Kosmische Zeit",
+    "italian": "il tempo cosmico"
+  },
+  {
+    "german": "die Geschichtlichkeit",
+    "italian": "la storicità"
+  },
+  {
+    "german": "die Ereignis",
+    "italian": "l'evento"
+  },
+  {
+    "german": "die Dauer",
+    "italian": "la durata"
+  },
+  {
+    "german": "die Ewige Wiederkehr",
+    "italian": "l'eterno ritorno"
+  },
+  {
+    "german": "die Zeitmodus",
+    "italian": "il modo temporale"
+  },
+  {
+    "german": "die Zeitpfeil",
+    "italian": "la freccia del tempo"
+  },
+  {
+    "german": "die Präsentismus",
+    "italian": "il presentismo"
+  },
+  {
+    "german": "die Eternalismus",
+    "italian": "l'eternalismo"
+  },
+  {
+    "german": "die Wachsende-Block-Theorie",
+    "italian": "la teoria del blocco in crescita"
+  },
+  {
+    "german": "die Bewusstseinsproblem",
+    "italian": "il problema della coscienza"
+  },
+  {
+    "german": "die Funktionalismus",
+    "italian": "il funzionalismo"
+  },
+  {
+    "german": "die Eliminativer Materialismus",
+    "italian": "il materialismo eliminativo"
+  },
+  {
+    "german": "die Eigenschaftsdualismus",
+    "italian": "il dualismo delle proprietà"
+  },
+  {
+    "german": "die Epiphänomenalismus",
+    "italian": "l'epifenomenismo"
+  },
+  {
+    "german": "die Panpsychismus",
+    "italian": "il panpsichismo"
+  },
+  {
+    "german": "die Zombieargument",
+    "italian": "l'argomento dello zombie"
+  },
+  {
+    "german": "die Chinesisches-Zimmer-Argument",
+    "italian": "l'argomento della stanza cinese"
+  },
+  {
+    "german": "die Inverted Qualia",
+    "italian": "i qualia invertiti"
+  },
+  {
+    "german": "die Explanatorische Lücke",
+    "italian": "il gap esplicativo"
+  },
+  {
+    "german": "die Neuronale Korrelate",
+    "italian": "i correlati neurali"
+  },
+  {
+    "german": "die Integrierte Informationstheorie",
+    "italian": "la teoria dell'informazione integrata"
+  },
+  {
+    "german": "die Global Workspace Theory",
+    "italian": "la teoria dello spazio di lavoro globale"
+  },
+  {
+    "german": "die Prädiktive Verarbeitung",
+    "italian": "l'elaborazione predittiva"
+  },
+  {
+    "german": "die Testimoniale Erkenntnis",
+    "italian": "la conoscenza testimoniale"
+  },
+  {
+    "german": "die Expertise",
+    "italian": "l'expertise"
+  },
+  {
+    "german": "die Epistemische Autorität",
+    "italian": "l'autorità epistemica"
+  },
+  {
+    "german": "die Schwarmintelligenz",
+    "italian": "l'intelligenza dello sciame"
+  },
+  {
+    "german": "die Epistemische Blasen",
+    "italian": "le bolle epistemiche"
+  },
+  {
+    "german": "die Echokammern",
+    "italian": "le camere d'eco"
+  },
+  {
+    "german": "die Epistemische Tugenden",
+    "italian": "le virtù epistemiche"
+  },
+  {
+    "german": "die Epistemische Laster",
+    "italian": "i vizi epistemici"
+  },
+  {
+    "german": "die Epistemischer Paternalismus",
+    "italian": "il paternalismo epistemico"
+  },
+  {
+    "german": "die Epistemische Demokratie",
+    "italian": "la democrazia epistemica"
+  },
+  {
+    "german": "die Soziale Erkenntnistheorie",
+    "italian": "l'epistemologia sociale"
+  },
+  {
+    "german": "die Gruppenerkenntnis",
+    "italian": "la conoscenza di gruppo"
+  },
+  {
+    "german": "die Verteilte Kognition",
+    "italian": "la cognizione distribuita"
+  },
+  {
+    "german": "die Erweiterte Erkenntnis",
+    "italian": "la conoscenza estesa"
+  },
+  {
+    "german": "die Kollektive Intentionalität",
+    "italian": "l'intenzionalità collettiva"
+  },
+  {
+    "german": "die Wir-Intentionalität",
+    "italian": "l'intenzionalità del noi"
+  }
+]

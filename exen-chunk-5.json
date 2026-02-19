@@ -1,0 +1,542 @@
+[
+  {
+    "level": "c2",
+    "de": "Code",
+    "example": "Der Code ist Menge von Regeln.",
+    "exampleIt": "Il codice è un insieme di regole."
+  },
+  {
+    "level": "c2",
+    "de": "Kodierung",
+    "example": "Die Kodierung ist prozessual.",
+    "exampleIt": "La codificazione è processuale."
+  },
+  {
+    "level": "c2",
+    "de": "Dekodierung",
+    "example": "Die Dekodierung ist interpretativ.",
+    "exampleIt": "La decodifica è interpretativa."
+  },
+  {
+    "level": "c2",
+    "de": "Nachricht",
+    "example": "Die Nachricht ist kodifiziert.",
+    "exampleIt": "Il messaggio è codificato."
+  },
+  {
+    "level": "c2",
+    "de": "Kanal",
+    "example": "Der Kanal vermittelt die Nachricht.",
+    "exampleIt": "Il canale trasmette il messaggio."
+  },
+  {
+    "level": "c2",
+    "de": "Rauschen",
+    "example": "Das Rauschen stört die Kommunikation.",
+    "exampleIt": "Il rumore interferisce con la comunicazione."
+  },
+  {
+    "level": "c2",
+    "de": "Peirce",
+    "example": "Peirce begründet Semiotik.",
+    "exampleIt": "Peirce fonda la semiotica."
+  },
+  {
+    "level": "c2",
+    "de": "signifikativ",
+    "example": "Das ist ein signifikativer Unterschied.",
+    "exampleIt": "Questa è una differenza significativa."
+  },
+  {
+    "level": "c2",
+    "de": "semiotic",
+    "example": "Das ist eine semiotische Analyse.",
+    "exampleIt": "Questa è un'analisi semiotica."
+  },
+  {
+    "level": "c2",
+    "de": "bedeutungsvoll",
+    "example": "Das ist bedeutungsvoll.",
+    "exampleIt": "È significativo."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtsphilosophie",
+    "example": "Die Rechtsphilosophie fragt Gründe.",
+    "exampleIt": "La filosofia del diritto chiede i motivi."
+  },
+  {
+    "level": "c2",
+    "de": "Gerechtigkeit",
+    "example": "Die Gerechtigkeit ist kontingent.",
+    "exampleIt": "La giustizia è contingente."
+  },
+  {
+    "level": "c2",
+    "de": "Recht",
+    "example": "Das Recht ist institutionalisiert.",
+    "exampleIt": "Il diritto è istituzionalizzato."
+  },
+  {
+    "level": "c2",
+    "de": "Gesetz",
+    "example": "Das Gesetz ist universal.",
+    "exampleIt": "La legge è universale."
+  },
+  {
+    "level": "c2",
+    "de": "Normen",
+    "example": "Normen sind präskriptiv.",
+    "exampleIt": "Le norme sono prescrittive."
+  },
+  {
+    "level": "c2",
+    "de": "Legalität",
+    "example": "Die Legalität ist formal.",
+    "exampleIt": "La legalità è formale."
+  },
+  {
+    "level": "c2",
+    "de": "Legitimität",
+    "example": "Die Legitimität ist material.",
+    "exampleIt": "La legittimità è materiale."
+  },
+  {
+    "level": "c2",
+    "de": "Souveränität",
+    "example": "Die Souveränität ist absolut.",
+    "exampleIt": "La sovranità è assoluta."
+  },
+  {
+    "level": "c2",
+    "de": "Herrschaft",
+    "example": "Die Herrschaft ist legitim.",
+    "exampleIt": "Il dominio è legittimo."
+  },
+  {
+    "level": "c2",
+    "de": "Vertrag",
+    "example": "Der Vertrag ist fundierend.",
+    "exampleIt": "Il contratto è fondativo."
+  },
+  {
+    "level": "c2",
+    "de": "Konsens",
+    "example": "Der Konsens ist hypothetisch.",
+    "exampleIt": "Il consenso è ipotetico."
+  },
+  {
+    "level": "c2",
+    "de": "Obligation",
+    "example": "Die Obligation ist bindend.",
+    "exampleIt": "L'obbligo è vincolante."
+  },
+  {
+    "level": "c2",
+    "de": "Pflicht",
+    "example": "Die Pflicht ist deontologisch.",
+    "exampleIt": "Il dovere è deontologico."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtssubjekt",
+    "example": "Das Rechtssubjekt ist Person.",
+    "exampleIt": "Il soggetto giuridico è persona."
+  },
+  {
+    "level": "c2",
+    "de": "Rechtsobjekt",
+    "example": "Das Rechtsobjekt ist Sache.",
+    "exampleIt": "L'oggetto giuridico è cosa."
+  },
+  {
+    "level": "c2",
+    "de": "Sanktion",
+    "example": "Die Sanktion ist zwangsweise.",
+    "exampleIt": "La sanzione è coercitiva."
+  },
+  {
+    "level": "c2",
+    "de": "Rawls",
+    "example": "Rawls entwickelt Theorie der Gerechtigkeit.",
+    "exampleIt": "Rawls sviluppa una teoria della giustizia."
+  },
+  {
+    "level": "c2",
+    "de": "rechtlich",
+    "example": "Das ist eine rechtliche Frage.",
+    "exampleIt": "Questa è una questione giuridica."
+  },
+  {
+    "level": "c2",
+    "de": "normativ",
+    "example": "Das ist eine normative Position.",
+    "exampleIt": "Questa è una posizione normativa."
+  },
+  {
+    "level": "c2",
+    "de": "fundamental",
+    "example": "Das ist fundamental gerecht.",
+    "exampleIt": "È fondamentalmente giusto."
+  },
+  {
+    "level": "c2",
+    "de": "Kulturanthropologie",
+    "example": "Die Kulturanthropologie studiert Kulturen.",
+    "exampleIt": "L'antropologia culturale studia le culture."
+  },
+  {
+    "level": "c2",
+    "de": "Ethnographie",
+    "example": "Die Ethnographie ist deskriptiv.",
+    "exampleIt": "L'etnografia è descrittiva."
+  },
+  {
+    "level": "c2",
+    "de": "Feldforschung",
+    "example": "Die Feldforschung ist immersiv.",
+    "exampleIt": "La ricerca sul campo è immersiva."
+  },
+  {
+    "level": "c2",
+    "de": "Kultur",
+    "example": "Die Kultur ist erlernt.",
+    "exampleIt": "La cultura è imparata."
+  },
+  {
+    "level": "c2",
+    "de": "Subkultur",
+    "example": "Die Subkultur ist distinktiv.",
+    "exampleIt": "La subcultura è distintiva."
+  },
+  {
+    "level": "c2",
+    "de": "Ritual",
+    "example": "Das Ritual ist symbolisch.",
+    "exampleIt": "Il rituale è simbolico."
+  },
+  {
+    "level": "c2",
+    "de": "Mythos",
+    "example": "Der Mythos ist narrativ.",
+    "exampleIt": "Il mito è narrativo."
+  },
+  {
+    "level": "c2",
+    "de": "Wertesystem",
+    "example": "Das Wertesystem ist kohärent.",
+    "exampleIt": "Il sistema di valori è coerente."
+  },
+  {
+    "level": "c2",
+    "de": "Kin Group",
+    "example": "Die Kin Group strukturiert Gesellschaft.",
+    "exampleIt": "Il gruppo di parentela struttura la società."
+  },
+  {
+    "level": "c2",
+    "de": "Verwandtschaft",
+    "example": "Die Verwandtschaft ist komplex.",
+    "exampleIt": "La parentela è complessa."
+  },
+  {
+    "level": "c2",
+    "de": "Heiratsregeln",
+    "example": "Die Heiratsregeln sind streng.",
+    "exampleIt": "Le norme matrimoniali sono rigide."
+  },
+  {
+    "level": "c2",
+    "de": "Tabu",
+    "example": "Das Tabu ist heilig.",
+    "exampleIt": "Il tabù è sacro."
+  },
+  {
+    "level": "c2",
+    "de": "Totemismus",
+    "example": "Der Totemismus ist klassisch.",
+    "exampleIt": "Il totemismo è classico."
+  },
+  {
+    "level": "c2",
+    "de": "Schamanismus",
+    "example": "Der Schamanismus ist religios.",
+    "exampleIt": "Lo sciamanesimo è religioso."
+  },
+  {
+    "level": "c2",
+    "de": "Ethnologie",
+    "example": "Die Ethnologie ist vergleichend.",
+    "exampleIt": "L'etnologia è comparativa."
+  },
+  {
+    "level": "c2",
+    "de": "Kulturrelativismus",
+    "example": "Der Kulturrelativismus ist kritisch.",
+    "exampleIt": "Il relativismo culturale è critico."
+  },
+  {
+    "level": "c2",
+    "de": "Akkulturation",
+    "example": "Die Akkulturation ist prozessual.",
+    "exampleIt": "L'acculturazione è processuale."
+  },
+  {
+    "level": "c2",
+    "de": "anthropologisch",
+    "example": "Das ist eine anthropologische Perspektive.",
+    "exampleIt": "Questa è una prospettiva antropologica."
+  },
+  {
+    "level": "c2",
+    "de": "ethnisch",
+    "example": "Das ist eine ethnische Gruppe.",
+    "exampleIt": "Questo è un gruppo etnico."
+  },
+  {
+    "level": "c2",
+    "de": "kulturell",
+    "example": "Das ist ein kultureller Kontext.",
+    "exampleIt": "Questo è un contesto culturale."
+  },
+  {
+    "level": "c2",
+    "de": "Quantenphysik",
+    "example": "Die Quantenphysik ist kontraintuitiv.",
+    "exampleIt": "La fisica quantistica è controintuitiva."
+  },
+  {
+    "level": "c2",
+    "de": "Quantenmechanik",
+    "example": "Die Quantenmechanik regiert Atome.",
+    "exampleIt": "La meccanica quantistica governa gli atomi."
+  },
+  {
+    "level": "c2",
+    "de": "Quant",
+    "example": "Das Quant ist diskret.",
+    "exampleIt": "Il quanto è discreto."
+  },
+  {
+    "level": "c2",
+    "de": "Photon",
+    "example": "Das Photon ist ein Lichtteilchen.",
+    "exampleIt": "Il fotone è una particella di luce."
+  },
+  {
+    "level": "c2",
+    "de": "Elektron",
+    "example": "Das Elektron ist negativ geladen.",
+    "exampleIt": "L'elettrone è caricato negativamente."
+  },
+  {
+    "level": "c2",
+    "de": "Welle-Teilchen-Dualismus",
+    "example": "Der Welle-Teilchen-Dualismus ist fundamental.",
+    "exampleIt": "Il dualismo onda-particella è fondamentale."
+  },
+  {
+    "level": "c2",
+    "de": "Superposition",
+    "example": "Die Superposition ist gleichzeitig.",
+    "exampleIt": "La sovrapposizione è simultanea."
+  },
+  {
+    "level": "c2",
+    "de": "Verschränkung",
+    "example": "Die Verschränkung ist nicht-lokal.",
+    "exampleIt": "L'entanglement è non-locale."
+  },
+  {
+    "level": "c2",
+    "de": "Unschärferelation",
+    "example": "Die Unschärferelation begrenzt Genauigkeit.",
+    "exampleIt": "Il principio di indeterminazione limita la precisione."
+  },
+  {
+    "level": "c2",
+    "de": "Observables",
+    "example": "Die Observables sind messbar.",
+    "exampleIt": "Gli osservabili sono misurabili."
+  },
+  {
+    "level": "c2",
+    "de": "Wahrscheinlichkeit",
+    "example": "Die Wahrscheinlichkeit ist probabilistisch.",
+    "exampleIt": "La probabilità è probabilistica."
+  },
+  {
+    "level": "c2",
+    "de": "Kollaps",
+    "example": "Der Kollaps der Wellenfunktion ist mysteriös.",
+    "exampleIt": "Il collasso della funzione d'onda è misterioso."
+  },
+  {
+    "level": "c2",
+    "de": "Wellenfunktion",
+    "example": "Die Wellenfunktion beschreibt Zustand.",
+    "exampleIt": "La funzione d'onda descrive lo stato."
+  },
+  {
+    "level": "c2",
+    "de": "Hamiltonian",
+    "example": "Der Hamiltonian ist die Energie.",
+    "exampleIt": "L'hamiltoniano è l'energia."
+  },
+  {
+    "level": "c2",
+    "de": "Spin",
+    "example": "Der Spin ist intrinsisch.",
+    "exampleIt": "Lo spin è intrinseco."
+  },
+  {
+    "level": "c2",
+    "de": "Orbital",
+    "example": "Das Orbital ist probabilistisch.",
+    "exampleIt": "L'orbitale è probabilistica."
+  },
+  {
+    "level": "c2",
+    "de": "Schrödinger",
+    "example": "Schrödinger begründet Wellenmechanik.",
+    "exampleIt": "Schrödinger fonda la meccanica ondulatoria."
+  },
+  {
+    "level": "c2",
+    "de": "Heisenberg",
+    "example": "Heisenberg entwickelt Matrizenmechanik.",
+    "exampleIt": "Heisenberg sviluppa la meccanica matriciale."
+  },
+  {
+    "level": "c2",
+    "de": "quantentheoretisch",
+    "example": "Das ist eine quantentheoretische Beschreibung.",
+    "exampleIt": "Questa è una descrizione quantistica."
+  },
+  {
+    "level": "c2",
+    "de": "probabilistisch",
+    "example": "Das ist eine probabilistische Interpretation.",
+    "exampleIt": "Questa è un'interpretazione probabilistica."
+  },
+  {
+    "level": "c2",
+    "de": "Ästhetik",
+    "example": "Die Ästhetik untersucht Schönheit.",
+    "exampleIt": "L'estetica indaga la bellezza."
+  },
+  {
+    "level": "c2",
+    "de": "Schönheit",
+    "example": "Die Schönheit ist subjektiv.",
+    "exampleIt": "La bellezza è soggettiva."
+  },
+  {
+    "level": "c2",
+    "de": "Erhabenheit",
+    "example": "Die Erhabenheit ist überwältigend.",
+    "exampleIt": "La sublimità è travolgente."
+  },
+  {
+    "level": "c2",
+    "de": "Hässlichkeit",
+    "example": "Die Hässlichkeit ist kontingent.",
+    "exampleIt": "La bruttezza è contingente."
+  },
+  {
+    "level": "c2",
+    "de": "Kunstwerk",
+    "example": "Das Kunstwerk ist bedeutend.",
+    "exampleIt": "L'opera d'arte è significativa."
+  },
+  {
+    "level": "c2",
+    "de": "Geschmack",
+    "example": "Der Geschmack ist bildbar.",
+    "exampleIt": "Il gusto è educabile."
+  },
+  {
+    "level": "c2",
+    "de": "Gefühl",
+    "example": "Das Gefühl ist unvergesslich.",
+    "exampleIt": "Il sentimento è indimenticabile."
+  },
+  {
+    "level": "c2",
+    "de": "Impression",
+    "example": "Die Impression ist unmittelbar.",
+    "exampleIt": "L'impressione è immediata."
+  },
+  {
+    "level": "c2",
+    "de": "Reflexion",
+    "example": "Die Reflexion ist reflektiv.",
+    "exampleIt": "La riflessione è riflessiva."
+  },
+  {
+    "level": "c2",
+    "de": "Darstellung",
+    "example": "Die Darstellung ist visuell.",
+    "exampleIt": "La rappresentazione è visiva."
+  },
+  {
+    "level": "c2",
+    "de": "Mimesis",
+    "example": "Die Mimesis ist Nachahmung.",
+    "exampleIt": "La mimesi è imitazione."
+  },
+  {
+    "level": "c2",
+    "de": "Form",
+    "example": "Die Form ist Struktur.",
+    "exampleIt": "La forma è struttura."
+  },
+  {
+    "level": "c2",
+    "de": "Inhalt",
+    "example": "Der Inhalt ist Bedeutung.",
+    "exampleIt": "Il contenuto è significato."
+  },
+  {
+    "level": "c2",
+    "de": "Expression",
+    "example": "Die Expression ist Selbstoffenbarung.",
+    "exampleIt": "L'espressione è auto-rivelazione."
+  },
+  {
+    "level": "c2",
+    "de": "Erlebnis",
+    "example": "Das Erlebnis ist unmittelbar.",
+    "exampleIt": "L'esperienza è immediata."
+  },
+  {
+    "level": "c2",
+    "de": "Kantian",
+    "example": "Die kantische Ästhetik ist einflussreich.",
+    "exampleIt": "L'estetica kantiana è influente."
+  },
+  {
+    "level": "c2",
+    "de": "schön",
+    "example": "Das ist eine schöne Form.",
+    "exampleIt": "Questa è una bella forma."
+  },
+  {
+    "level": "c2",
+    "de": "erhaben",
+    "example": "Das ist erhaben.",
+    "exampleIt": "È sublime."
+  },
+  {
+    "level": "c2",
+    "de": "ästhetisch",
+    "example": "Das ist eine ästhetische Erfahrung.",
+    "exampleIt": "Questa è un'esperienza estetica."
+  },
+  {
+    "level": "c2",
+    "de": "künstlerisch",
+    "example": "Das ist künstlerisch wertvoll.",
+    "exampleIt": "È artisticamente prezioso."
+  }
+]
