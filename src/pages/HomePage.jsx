@@ -5,10 +5,68 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { useData } from '../DataContext';
 import { getQuizStats, getDifficultWords } from '../utils/storage';
 import { getStreak, getXP, checkDailyGoal, recordActivity, getReviewStats, checkBadges } from '../utils/gamification';
+import { saveAndSync } from '../utils/cloudSync';
+import { LEVEL_COLORS } from '../utils/constants';
 
+/* ── Level Selector (inline, shared) ────────────────────────── */
+function LevelPills({ selected, onChange }) {
+  return (
+    <div className="hp-level-pills">
+      {Object.entries(LEVEL_COLORS).map(([lvl, c]) => (
+        <button
+          key={lvl}
+          className={`hp-level-pill${lvl === selected ? ' active' : ''}`}
+          style={lvl === selected ? { backgroundColor: c.bg, borderColor: c.bg } : {}}
+          onClick={(e) => { e.stopPropagation(); onChange(lvl); }}
+        >
+          {lvl}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/* ── Big Path Card ──────────────────────────────────────────── */
+function PathCard({ icon, emoji, title, desc, color, onClick }) {
+  return (
+    <div className="hp-path-card" onClick={onClick} tabIndex="0" role="button"
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(); } }}>
+      <div className="hp-path-icon" style={{ backgroundColor: color }}>
+        {emoji ? <span style={{ fontSize: '24px' }}>{emoji}</span> : icon}
+      </div>
+      <div className="hp-path-text">
+        <div className="hp-path-title">{title}</div>
+        <div className="hp-path-desc">{desc}</div>
+      </div>
+      <Icons.ChevronRight />
+    </div>
+  );
+}
+
+/* ── Small Grid Card ────────────────────────────────────────── */
+function GridCard({ icon, emoji, title, color, onClick, badge }) {
+  return (
+    <div className="hp-grid-card" onClick={onClick} tabIndex="0" role="button"
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(); } }}>
+      <div className="hp-grid-icon" style={{ backgroundColor: color }}>
+        {emoji ? <span style={{ fontSize: '18px' }}>{emoji}</span> : icon}
+      </div>
+      <span className="hp-grid-title">{title}</span>
+      {badge && <span className="hp-grid-badge">{badge}</span>}
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HOME PAGE
+   ═══════════════════════════════════════════════════════════════ */
 export default function HomePage({ onNavigate }) {
   const { t } = useLanguage();
   const { VOCABULARY_DATA, GRAMMAR_DATA, VERBS_DATA } = useData();
+
+  const [selectedLevel, setSelectedLevel] = useState(() => {
+    try { const v = localStorage.getItem('dm_last_level'); return v ? JSON.parse(v) : 'A1'; } catch { return 'A1'; }
+  });
   const [placementTestTaken, setPlacementTestTaken] = useState(false);
   const [showOnboarding, setShowOnboarding] = useState(() => {
     try { return !localStorage.getItem('dm_onboarding_done'); } catch { return false; }
@@ -17,10 +75,13 @@ export default function HomePage({ onNavigate }) {
   useEffect(() => { recordActivity(); checkBadges(); }, []);
 
   useEffect(() => {
-    try {
-      setPlacementTestTaken(!!localStorage.getItem('dm_placement_level'));
-    } catch { setPlacementTestTaken(false); }
+    try { setPlacementTestTaken(!!localStorage.getItem('dm_placement_level')); } catch { setPlacementTestTaken(false); }
   }, []);
+
+  const handleLevelChange = (lvl) => {
+    setSelectedLevel(lvl);
+    try { saveAndSync('dm_last_level', JSON.stringify(lvl)); } catch {}
+  };
 
   const stats = useMemo(() => ({
     words: VOCABULARY_DATA.statistics?.totalWords || 14315,
@@ -45,47 +106,58 @@ export default function HomePage({ onNavigate }) {
     return t('home.levels.master');
   };
 
+  const xpPercent = Math.min(100, (xp.xpInCurrentLevel / xp.xpForNextLevel) * 100);
+
   return (
     <div className="home-page">
       {showOnboarding && <Onboarding onNavigate={onNavigate} onComplete={() => setShowOnboarding(false)} />}
 
-      {/* Top bar: Streak + XP + Daily Goal */}
-      <section className="home-topbar">
-        <div className="home-topbar-item" onClick={() => onNavigate('profile')}>
-          <span className="home-topbar-emoji">🔥</span>
-          <span className="home-topbar-value">{streak.currentStreak}</span>
-          <span className="home-topbar-label">{t('days')}</span>
+      {/* ── Hero: titolo + stats compatti ── */}
+      <section className="hp-hero">
+        <h1 className="hp-title">{t('home.welcome')} <span className="home-greeting-highlight">{t('home.language')}</span></h1>
+        <p className="hp-subtitle">{t('home.subtitle')}</p>
+      </section>
+
+      {/* ── Gamification bar compatta ── */}
+      <section className="hp-gamification">
+        <div className="hp-gam-item" onClick={() => onNavigate('profile')} title="Streak">
+          <span className="hp-gam-emoji">🔥</span>
+          <strong>{streak.currentStreak}</strong>
+          <span className="hp-gam-label">{t('days')}</span>
         </div>
-        <div className="home-topbar-item home-topbar-xp" onClick={() => onNavigate('profile')}>
-          <span className="home-topbar-value">{xp.totalXP}</span>
-          <span className="home-topbar-label">XP · Lv.{xp.level} {getLevelName(xp.level)}</span>
-          <div className="home-topbar-xp-bar">
-            <div className="home-topbar-xp-fill" style={{ width: `${Math.min(100, (xp.xpInCurrentLevel / xp.xpForNextLevel) * 100)}%` }} />
-          </div>
+        <div className="hp-gam-divider" />
+        <div className="hp-gam-item" onClick={() => onNavigate('profile')} title="XP">
+          <strong className="hp-gam-xp">{xp.totalXP} XP</strong>
+          <span className="hp-gam-label">Lv.{xp.level} {getLevelName(xp.level)}</span>
+          <div className="hp-gam-bar"><div className="hp-gam-bar-fill" style={{ width: `${xpPercent}%` }} /></div>
         </div>
-        <div className="home-topbar-item" onClick={() => onNavigate('profile')}>
-          <div className="home-topbar-goal-ring">
+        <div className="hp-gam-divider" />
+        <div className="hp-gam-item" onClick={() => onNavigate('profile')} title={t('profile.dailyGoal.title')}>
+          <div className="hp-gam-goal">
             <svg width="36" height="36" viewBox="0 0 36 36">
               <circle cx="18" cy="18" r="15" fill="none" stroke="var(--border)" strokeWidth="3" />
-              <circle cx="18" cy="18" r="15" fill="none" stroke={dailyGoal.completed ? 'var(--success)' : 'var(--accent)'} strokeWidth="3"
-                strokeDasharray={`${2 * Math.PI * 15}`} strokeDashoffset={`${2 * Math.PI * 15 * (1 - dailyGoal.percentage / 100)}`}
-                strokeLinecap="round" style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }} />
+              <circle cx="18" cy="18" r="15" fill="none"
+                stroke={dailyGoal.completed ? 'var(--success)' : 'var(--accent)'}
+                strokeWidth="3" strokeLinecap="round"
+                strokeDasharray={`${2 * Math.PI * 15}`}
+                strokeDashoffset={`${2 * Math.PI * 15 * (1 - dailyGoal.percentage / 100)}`}
+                style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }} />
             </svg>
-            <span className="home-topbar-goal-text">{dailyGoal.completed ? '✓' : `${Math.round(dailyGoal.percentage)}%`}</span>
+            <span className="hp-gam-goal-txt">{dailyGoal.completed ? '✓' : `${Math.round(dailyGoal.percentage)}%`}</span>
           </div>
-          <span className="home-topbar-label">{dailyGoal.progress}/{dailyGoal.target} XP</span>
+          <span className="hp-gam-label">{dailyGoal.progress}/{dailyGoal.target} XP</span>
         </div>
       </section>
 
-      {/* Welcome */}
-      <section className="home-welcome">
-        <h1 className="home-greeting">{t('home.welcome')} <span className="home-greeting-highlight">{t('home.language')}</span></h1>
-        <p className="home-subtitle">{t('home.subtitle')}</p>
+      {/* ── Level Selector globale ── */}
+      <section className="hp-level-section">
+        <span className="hp-level-label">{t('home.yourLevel') || 'Il tuo livello'}:</span>
+        <LevelPills selected={selectedLevel} onChange={handleLevelChange} />
       </section>
 
-      {/* Placement test CTA */}
+      {/* ── Placement test CTA (se non fatto) ── */}
       {!placementTestTaken && (
-        <section className="home-placement-section" onClick={() => onNavigate('placement-test')}>
+        <section className="home-placement-section" onClick={() => onNavigate('placement-test')} style={{ cursor: 'pointer' }}>
           <div className="home-placement-icon">📍</div>
           <div className="home-placement-content">
             <div className="home-placement-title">{t('home.placement.title')}</div>
@@ -95,7 +167,7 @@ export default function HomePage({ onNavigate }) {
         </section>
       )}
 
-      {/* Review reminder */}
+      {/* ── Review reminder ── */}
       {reviewStats.dueToday > 0 && (
         <section className="home-review-reminder" onClick={() => onNavigate('flashcards')}>
           <span className="home-review-icon">📋</span>
@@ -107,123 +179,112 @@ export default function HomePage({ onNavigate }) {
         </section>
       )}
 
-      {/* Progress cards */}
-      {(quizStats.totalAnswered > 0 || savedCount > 0) && (
-        <section className="home-progress-row">
-          {quizStats.totalAnswered > 0 && (
-            <div className="home-progress-chip" onClick={() => onNavigate('quiz')}>
-              <span className="home-progress-chip-num">{quizStats.totalAnswered}</span>
-              <span className="home-progress-chip-label">{t('home.progress.questionsAsked')}</span>
-              <span className="home-progress-chip-sub">{Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100)}% {t('home.progress.correct')}</span>
-            </div>
-          )}
-          {savedCount > 0 && (
-            <div className="home-progress-chip" onClick={() => onNavigate('favorites')}>
-              <span className="home-progress-chip-num">{savedCount}</span>
-              <span className="home-progress-chip-label">{t('home.progress.savedWords')}</span>
-              <span className="home-progress-chip-sub">{t('home.progress.toReview')}</span>
-            </div>
-          )}
-        </section>
-      )}
+      {/* ══════════════════════════════════════════════════════
+         SEZIONE 1: IMPARA — percorsi principali
+         ══════════════════════════════════════════════════════ */}
+      <section className="hp-section">
+        <h2 className="hp-section-title">
+          <span className="hp-section-emoji">📚</span>
+          {t('home.learnSection') || 'Impara'}
+        </h2>
+        <p className="hp-section-desc">{t('home.learnDesc') || 'Segui il percorso e impara passo dopo passo'}</p>
 
-      {/* Main navigation - big simple cards */}
-      <section>
-        <h2 className="home-section-title">{t('home.study')}</h2>
-        <div className="home-nav-grid">
-          <div className="home-nav-card" onClick={() => onNavigate('paths')}>
-            <div className="home-nav-icon" style={{ background: '#6c5ce7' }}><Icons.Target /></div>
-            <span className="home-nav-label">{t('home.pathsTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('lessons')}>
-            <div className="home-nav-icon" style={{ background: '#3b82f6' }}><Icons.Lessons /></div>
-            <span className="home-nav-label">{t('home.lessonsTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('grammar')}>
-            <div className="home-nav-icon" style={{ background: '#8b5cf6' }}><Icons.Grammar /></div>
-            <span className="home-nav-label">{t('home.grammarTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('vocabulary')}>
-            <div className="home-nav-icon" style={{ background: '#10b981' }}><Icons.Book /></div>
-            <span className="home-nav-label">{t('home.vocabularyTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('essential-words')}>
-            <div className="home-nav-icon" style={{ background: '#14b8a6' }}><Icons.Book /></div>
-            <span className="home-nav-label">{t('home.essentialWordsTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('reading')}>
-            <div className="home-nav-icon" style={{ background: '#06b6d4' }}><Icons.Reading /></div>
-            <span className="home-nav-label">{t('home.readingTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('stories')}>
-            <div className="home-nav-icon" style={{ background: '#a78bfa' }}><span style={{ fontSize: '20px' }}>📖</span></div>
-            <span className="home-nav-label">{t('home.storiesTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('quiz')}>
-            <div className="home-nav-icon" style={{ background: '#ef4444' }}><Icons.Quiz /></div>
-            <span className="home-nav-label">{t('home.quizTitle')}</span>
-          </div>
+        <div className="hp-paths">
+          <PathCard
+            icon={<Icons.Target />} title={t('home.pathsTitle')} color="#6c5ce7"
+            desc={t('home.pathsDesc') || 'Percorso guidato dal principiante all\'esperto'}
+            onClick={() => onNavigate('paths')}
+          />
+          <PathCard
+            icon={<Icons.Lessons />} title={t('home.lessonsTitle')} color="#3b82f6"
+            desc={t('home.lessonsDesc') || 'Lezioni strutturate con spiegazioni ed esercizi'}
+            onClick={() => onNavigate('lessons')}
+          />
+          <PathCard
+            icon={<Icons.Grammar />} title={t('home.grammarTitle')} color="#8b5cf6"
+            desc={`${stats.grammarTopics} ${t('home.topicsAvailable') || 'argomenti'} · ${selectedLevel}`}
+            onClick={() => onNavigate('grammar', { level: selectedLevel })}
+          />
+          <PathCard
+            icon={<Icons.Book />} title={t('home.vocabularyTitle')} color="#10b981"
+            desc={`${stats.words.toLocaleString()} ${t('home.stats.words').toLowerCase()} · ${selectedLevel}`}
+            onClick={() => onNavigate('vocabulary', { level: selectedLevel })}
+          />
+          <PathCard
+            icon={<Icons.Book />} title={t('home.essentialWordsTitle')} color="#14b8a6"
+            desc={t('home.essentialDesc') || 'Le parole più importanti per ogni livello'}
+            onClick={() => onNavigate('essential-words', { level: selectedLevel })}
+          />
+          <PathCard
+            icon={<Icons.Reading />} title={t('home.readingTitle')} color="#06b6d4"
+            desc={t('home.readingDesc') || 'Testi adatti al tuo livello per migliorare la comprensione'}
+            onClick={() => onNavigate('reading', { level: selectedLevel })}
+          />
+          <PathCard
+            emoji="📖" title={t('home.storiesTitle')} color="#a78bfa"
+            desc={t('home.storiesDesc') || 'Storie interattive per imparare in contesto'}
+            onClick={() => onNavigate('stories', { level: selectedLevel })}
+          />
         </div>
       </section>
 
-      {/* Verbs section */}
-      <section>
-        <h2 className="home-section-title">{t('home.verbsTitle')}</h2>
-        <div className="home-nav-grid">
-          <div className="home-nav-card" onClick={() => onNavigate('verbs')}>
-            <div className="home-nav-icon" style={{ background: '#f59e0b' }}><Icons.Verb /></div>
-            <span className="home-nav-label">{t('home.verbsTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('werden')}>
-            <div className="home-nav-icon" style={{ background: '#e17055' }}><Icons.Verb /></div>
-            <span className="home-nav-label">{t('home.werdenTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('verb-prefixes')}>
-            <div className="home-nav-icon" style={{ background: '#f97316' }}><Icons.Verb /></div>
-            <span className="home-nav-label">{t('home.verbPrefixes')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('verbs-prepositions')}>
-            <div className="home-nav-icon" style={{ background: '#e11d48' }}><Icons.Verb /></div>
-            <span className="home-nav-label">{t('home.verbsPrepositions')}</span>
-          </div>
+      {/* ══════════════════════════════════════════════════════
+         SEZIONE 2: VERBI
+         ══════════════════════════════════════════════════════ */}
+      <section className="hp-section">
+        <h2 className="hp-section-title">
+          <span className="hp-section-emoji">🔤</span>
+          {t('home.verbsSection') || 'Verbi'}
+        </h2>
+        <p className="hp-section-desc">{t('home.verbsSectionDesc') || `${stats.verbs} verbi con coniugazioni, prefissi e frasi`}</p>
+
+        <div className="hp-grid">
+          <GridCard icon={<Icons.Verb />} title={t('home.verbsTitle')} color="#f59e0b"
+            onClick={() => onNavigate('verbs')} />
+          <GridCard icon={<Icons.Verb />} title={t('home.werdenTitle')} color="#e17055"
+            onClick={() => onNavigate('werden')} />
+          <GridCard icon={<Icons.Verb />} title={t('home.verbPrefixes')} color="#f97316"
+            onClick={() => onNavigate('verb-prefixes')} />
+          <GridCard emoji="🔗" title={t('home.verbsPrepositions') || 'Verbi + Preposizioni'} color="#d63031"
+            onClick={() => onNavigate('verbs-prepositions')} />
         </div>
       </section>
 
-      {/* Practice section */}
-      <section>
-        <h2 className="home-section-title">{t('home.practice')}</h2>
-        <div className="home-nav-grid">
-          <div className="home-nav-card" onClick={() => onNavigate('flashcards')}>
-            <div className="home-nav-icon" style={{ background: '#8b5cf6' }}><Icons.Flashcard /></div>
-            <span className="home-nav-label">{t('home.flashcardsTitle')}</span>
-            {reviewStats.dueToday > 0 && <span className="home-nav-badge">{reviewStats.dueToday}</span>}
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('writing')}>
-            <div className="home-nav-icon" style={{ background: '#10b981' }}><Icons.Writing /></div>
-            <span className="home-nav-label">{t('home.writingTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('listening')}>
-            <div className="home-nav-icon" style={{ background: '#06b6d4' }}><Icons.Listening /></div>
-            <span className="home-nav-label">{t('home.listeningTitle')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('practice')}>
-            <div className="home-nav-icon" style={{ background: '#f59e0b' }}><Icons.Practice /></div>
-            <span className="home-nav-label">{t('home.quickPractice')}</span>
-          </div>
-          <div className="home-nav-card" onClick={() => onNavigate('favorites')}>
-            <div className="home-nav-icon" style={{ background: '#ec4899' }}><Icons.Star /></div>
-            <span className="home-nav-label">{t('nav.saved')}</span>
-            {savedCount > 0 && <span className="home-nav-badge">{savedCount}</span>}
-          </div>
+      {/* ══════════════════════════════════════════════════════
+         SEZIONE 3: PRATICA
+         ══════════════════════════════════════════════════════ */}
+      <section className="hp-section">
+        <h2 className="hp-section-title">
+          <span className="hp-section-emoji">💪</span>
+          {t('home.practice')}
+        </h2>
+        <p className="hp-section-desc">{t('home.practiceDesc') || 'Metti alla prova quello che hai imparato'}</p>
+
+        <div className="hp-grid">
+          <GridCard icon={<Icons.Quiz />} title={t('home.quizTitle')} color="#ef4444"
+            onClick={() => onNavigate('quiz', { level: selectedLevel })}
+            badge={quizStats.totalAnswered > 0 ? `${Math.round((quizStats.correctAnswers / quizStats.totalAnswered) * 100)}%` : null} />
+          <GridCard icon={<Icons.Flashcard />} title={t('home.flashcardsTitle')} color="#8b5cf6"
+            onClick={() => onNavigate('flashcards')}
+            badge={reviewStats.dueToday > 0 ? `${reviewStats.dueToday} ${t('home.toDo')}` : null} />
+          <GridCard icon={<Icons.Writing />} title={t('home.writingTitle')} color="#10b981"
+            onClick={() => onNavigate('writing')} />
+          <GridCard icon={<Icons.Listening />} title={t('home.listeningTitle')} color="#06b6d4"
+            onClick={() => onNavigate('listening')} />
+          <GridCard icon={<Icons.Practice />} title={t('home.quickPractice')} color="#f59e0b"
+            onClick={() => onNavigate('practice')} />
+          <GridCard icon={<Icons.Star />} title={t('nav.saved')} color="#ec4899"
+            onClick={() => onNavigate('favorites')}
+            badge={savedCount > 0 ? savedCount : null} />
         </div>
       </section>
 
-      {/* Stats footer */}
-      <section className="home-stats-footer">
-        <div className="home-stat-item"><span className="home-stat-num">{stats.words.toLocaleString()}</span> {t('home.stats.words')}</div>
-        <div className="home-stat-item"><span className="home-stat-num">{stats.grammarTopics}</span> {t('home.stats.grammar')}</div>
-        <div className="home-stat-item"><span className="home-stat-num">{stats.verbs}</span> {t('home.stats.verbs')}</div>
-        <div className="home-stat-item"><span className="home-stat-num">{stats.exercises}</span> {t('home.stats.exercises')}</div>
+      {/* ── Stats footer ── */}
+      <section className="hp-stats-footer">
+        <div className="hp-stat-item"><strong>{stats.words.toLocaleString()}</strong> {t('home.stats.words')}</div>
+        <div className="hp-stat-item"><strong>{stats.grammarTopics}</strong> {t('home.stats.grammar')}</div>
+        <div className="hp-stat-item"><strong>{stats.verbs}</strong> {t('home.stats.verbs')}</div>
+        <div className="hp-stat-item"><strong>{stats.exercises}</strong> {t('home.stats.exercises')}</div>
       </section>
     </div>
   );

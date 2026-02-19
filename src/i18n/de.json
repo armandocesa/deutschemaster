@@ -64,7 +64,20 @@
       "advanced": "Fortgeschrittene",
       "expert": "Experte",
       "master": "Meister"
-    }
+    },
+    "yourLevel": "Dein Niveau",
+    "learnSection": "Lernen",
+    "learnDesc": "Folge dem Lernpfad Schritt für Schritt",
+    "pathsDesc": "Geführter Pfad vom Anfänger zum Experten",
+    "lessonsDesc": "Strukturierte Lektionen mit Erklärungen und Übungen",
+    "topicsAvailable": "Themen",
+    "essentialDesc": "Die wichtigsten Wörter für jedes Niveau",
+    "readingDesc": "Texte passend zu deinem Niveau",
+    "storiesDesc": "Interaktive Geschichten zum Lernen im Kontext",
+    "verbsSection": "Verben",
+    "verbsSectionDesc": "Konjugationen, Präfixe und Sätze mit Verben",
+    "verbPrepositions": "Verben + Präpositionen",
+    "practiceDesc": "Teste, was du gelernt hast"
   },
   "loading": "Lädt...",
   "loadingPage": "Seite wird geladen...",
