@@ -39,36 +39,25 @@ function WordCard({ word, category, onSaveChange }) {
   return (
     <div className={`word-card status-${wordStatus} ${archived ? 'archived' : ''}`}>
       <div className="word-card-main">
-        <span className={`progress-dot ${wordStatus}`}></span>
         <div className="word-card-german" onClick={() => speak(word.german)}>
           <span className="word-card-text">{word.german}</span>
-          {word.article && <span className="word-card-article"> ({word.article})</span>}
+          {word.article && <span className="word-card-article">({word.article})</span>}
         </div>
         <span
           className={`word-card-translation ${showTranslation ? 'revealed' : ''}`}
           onClick={() => setShowTranslation(!showTranslation)}
         >
-          {showTranslation ? (word.italian || '—') : '...'}
+          {showTranslation ? (word.italian || '—') : '···'}
         </span>
-        <button
-          className={`word-card-btn save-btn ${saved ? 'saved' : ''}`}
-          onClick={toggleSave}
-          title={saved ? t('favorites.title') : t('common.save')}
-        >
+        <button className={`word-card-btn save-btn ${saved ? 'saved' : ''}`} onClick={toggleSave}
+          title={saved ? t('favorites.title') : t('common.save')}>
           {saved ? <Icons.StarFilled /> : <Icons.Star />}
         </button>
-        <button
-          className={`word-card-btn ok-btn ${wordStatus === 'correct' ? 'done' : ''}`}
-          onClick={handleOk}
-          title="OK"
-        >
+        <button className={`word-card-btn ok-btn ${wordStatus === 'correct' ? 'done' : ''}`} onClick={handleOk} title="OK">
           <Icons.Check />
         </button>
-        <button
-          className={`word-card-btn archive-btn ${archived ? 'archived' : ''}`}
-          onClick={toggleArchive}
-          title={archived ? t('vocabulary.unarchive') : t('vocabulary.archive')}
-        >
+        <button className={`word-card-btn archive-btn ${archived ? 'archived' : ''}`} onClick={toggleArchive}
+          title={archived ? t('vocabulary.unarchive') : t('vocabulary.archive')}>
           <Icons.Archive />
         </button>
       </div>
@@ -165,10 +154,10 @@ export default function VocabularyPage({ level, onNavigate }) {
       <LevelTabs currentLevel={activeLevel} onLevelChange={handleLevelChange} onNavigate={onNavigate} />
 
       <div className="progress-summary">
-        <div className="progress-summary-item correct"><span className="progress-dot correct"></span><span className="count">{progressCounts.correct}</span> {t('vocabulary.correct')}</div>
-        <div className="progress-summary-item incorrect"><span className="progress-dot incorrect"></span><span className="count">{progressCounts.incorrect}</span> {t('vocabulary.incorrect')}</div>
-        <div className="progress-summary-item unseen"><span className="progress-dot unseen"></span><span className="count">{progressCounts.unseen}</span> {t('vocabulary.unseen')}</div>
-        <div className="progress-summary-item archived"><span className="progress-dot archived"></span><span className="count">{progressCounts.archived}</span> {t('vocabulary.archived')}</div>
+        <div className="progress-summary-item"><span className="progress-dot correct"></span><span className="count">{progressCounts.correct}</span> {t('vocabulary.correct')}</div>
+        <div className="progress-summary-item"><span className="progress-dot incorrect"></span><span className="count">{progressCounts.incorrect}</span> {t('vocabulary.incorrect')}</div>
+        <div className="progress-summary-item"><span className="progress-dot unseen"></span><span className="count">{progressCounts.unseen}</span> {t('vocabulary.unseen')}</div>
+        <div className="progress-summary-item"><span className="progress-dot archived"></span><span className="count">{progressCounts.archived}</span> {t('vocabulary.archived')}</div>
       </div>
 
       <div className="vocab-toolbar">

@@ -46,7 +46,7 @@
   /* Better touch targets */
   .quick-action-card { padding: 14px; }
   .module-card { padding: 16px; }
-  .word-card { min-height: 120px; }
+  .word-card { min-height: 0; }
   .topic-card { padding: 12px 14px; }
   .verb-row { padding: 12px 14px; }
 
